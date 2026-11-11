@@ -1,0 +1,6 @@
+# Large media lives in Cloudflare R2, never in git
+soi-archive/
+*.pdf
+*.mp3
+*.zip
+.DS_Store

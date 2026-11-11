@@ -1,0 +1,57 @@
+name: Copy SOI magazine files to R2
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_audio:
+        description: "Also copy the MP3 audio files"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      SOI_OUT: ${{ github.workspace }}/soi-archive
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List and download files from spiritofislam.co.in
+        run: |
+          if [ "${{ inputs.include_audio }}" = "true" ]; then
+            python3 scripts/soi-fetch-archive.py --audio
+          else
+            python3 scripts/soi-fetch-archive.py
+          fi
+          du -sh soi-archive/* || true
+
+      - name: Upload PDFs to R2
+        run: aws s3 sync soi-archive/pdfs "s3://$R2_BUCKET/pdfs" --endpoint-url "$R2_ENDPOINT" --only-show-errors
+
+      - name: Upload audio to R2
+        if: ${{ inputs.include_audio }}
+        run: aws s3 sync soi-archive/audio "s3://$R2_BUCKET/audio" --endpoint-url "$R2_ENDPOINT" --only-show-errors
+
+      - name: Show what is in R2
+        run: aws s3 ls "s3://$R2_BUCKET" --recursive --summarize --human-readable --endpoint-url "$R2_ENDPOINT" | tail -n 3
+
+      - name: Save the inventory lists in the repo
+        run: |
+          mkdir -p inventory
+          cp soi-archive/inventory-*.csv inventory/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add inventory
+          git diff --cached --quiet || git commit -m "Update SOI archive inventory"
+          git push
