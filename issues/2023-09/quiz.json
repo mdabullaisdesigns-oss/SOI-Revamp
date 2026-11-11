@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Code of Ethics",
+   "page": 5,
+   "link": "code-of-ethics",
+   "q": "Complete the saying of the Prophet quoted at the start of the article: “I have been sent to…”",
+   "options": [
+    [
+     "“…perfect the code of high ethics.”",
+     "This is the saying with which the article opens."
+    ],
+    [
+     "“…build great cities.”",
+     "This is not part of the saying."
+    ],
+    [
+     "“…gather wealth for the poor.”",
+     "This is not the saying quoted here."
+    ],
+    [
+     "“…rule over the nations.”",
+     "The Prophet’s mission is described in terms of character, not rule."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Worship alone does not make a perfect believer; one must also keep the highest standard of moral character in dealing with others."
+  },
+  {
+   "article": "One Serious Fallacy",
+   "page": 14,
+   "link": "one-serious-fallacy",
+   "q": "How does the article describe true religiosity?",
+   "options": [
+    [
+     "Visiting holy persons for their prayers",
+     "The article calls relying on this a fallacy."
+    ],
+    [
+     "Counting words on a rosary",
+     "This is one of the examples of mere ritual."
+    ],
+    [
+     "A conscious act, rather than the observance of a set of rituals",
+     "Religion has to be discovered at a conscious level."
+    ],
+    [
+     "Following the customs of one’s family",
+     "The article asks for awareness, not inherited custom."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "People use reason in worldly matters but not in religion. A person should make his religious life a life of awareness, just like his worldly life."
+  },
+  {
+   "article": "The Lessons of Old Age",
+   "page": 16,
+   "link": "the-lessons-of-old-age",
+   "q": "Of what is old age a potent reminder, according to the article?",
+   "options": [
+    [
+     "The pleasures of youth",
+     "The article looks forward, not back."
+    ],
+    [
+     "The Hereafter",
+     "Old age signals the approach of death and prompts introspection."
+    ],
+    [
+     "The need to gather more wealth",
+     "Nothing of the kind is suggested."
+    ],
+    [
+     "The weakness of others",
+     "The lesson is for oneself."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Quran asks: ‘Did We not make your life long enough to take warning?’ (35: 37). The weakening of the body awakens the mind to what lies ahead."
+  },
+  {
+   "article": "Justice and Brotherhood",
+   "page": 18,
+   "link": "justice-and-brotherhood",
+   "q": "What does the word “Ansar” mean?",
+   "options": [
+    [
+     "Travellers",
+     "This is not the meaning given."
+    ],
+    [
+     "Judges",
+     "They came to the Prophet for judgement; the word does not mean judges."
+    ],
+    [
+     "Scholars",
+     "This is not the meaning given."
+    ],
+    [
+     "Supporters or helpers",
+     "They were the people of Madinah who supported the early Muslims."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Two of the Ansar brought a long-standing inheritance dispute to the Prophet. The Quran commands: ‘When you judge between people, judge with justice.’ (4: 58)"
+  },
+  {
+   "article": "Silence for Spiritual Awakening",
+   "page": 20,
+   "link": "silence-for-spiritual-awakening",
+   "q": "How did Ernest Psichari describe silence?",
+   "options": [
+    [
+     "“A bit of heaven that comes down to earth”",
+     "He also called silence the language of nature."
+    ],
+    [
+     "“The absence of all thought”",
+     "The article presents silence as expanding our consciousness."
+    ],
+    [
+     "“A sign of weakness”",
+     "The article praises silence."
+    ],
+    [
+     "“The enemy of friendship”",
+     "This is not in the article."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "When one embraces silence, a sense of harmony with nature emerges, and one connects with the self and with the divine."
+  },
+  {
+   "article": "Surmounting the Barricades",
+   "page": 24,
+   "link": "surmounting-the-barricades",
+   "q": "Which saying of Anne Bronte does the article quote?",
+   "options": [
+    [
+     "“All that glitters is not gold.”",
+     "This is not the saying quoted."
+    ],
+    [
+     "“Where there is a will, there is a way.”",
+     "This is not the saying quoted."
+    ],
+    [
+     "“There is always a ‘but’ in this imperfect world.”",
+     "The article calls this a wise saying."
+    ],
+    [
+     "“The pen is mightier than the sword.”",
+     "This is not the saying quoted."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "This world is made for trial, so the ideal state is not achievable here. One must acknowledge the barricades of ‘buts’ and plan realistically."
+  },
+  {
+   "article": "The Limits of Law",
+   "page": 29,
+   "link": "the-limits-of-law",
+   "q": "What do the limitations of justice in this world point to, according to the article?",
+   "options": [
+    [
+     "The need to abolish all laws",
+     "The article says law is needed for the smooth running of society."
+    ],
+    [
+     "The coming of another, unlimited world where full justice will be done",
+     "There, punishment will be proportionate to the crime."
+    ],
+    [
+     "That justice is only an idea",
+     "The article affirms that justice will be done in the next world."
+    ],
+    [
+     "That crime should go unpunished",
+     "The article says the opposite."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Worldly punishment can never be proportionate to a crime such as the murder of two children. This shortfall necessitates a world that makes up for it."
+  },
+  {
+   "article": "Problem of Wealth",
+   "page": 33,
+   "link": "problem-of-wealth",
+   "q": "What name does the article give to the “disease” of wealth in America?",
+   "options": [
+    [
+     "“Gold fever”",
+     "This is not the term used."
+    ],
+    [
+     "“The silver spoon”",
+     "The review’s title mentions a silver spoon, but the disease is named differently."
+    ],
+    [
+     "“Fortune sickness”",
+     "This is not the term used."
+    ],
+    [
+     "“Affluenza”",
+     "Some wealthy people limit their children’s legacies because of it."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "As Richard Watts says, “More money, more problems.” A life of contentment is better than aspiring to more and more wealth."
+  },
+  {
+   "article": "Tragedy of Man",
+   "page": 36,
+   "link": "tragedy-of-man",
+   "q": "What does the article identify as the root of all human problems?",
+   "options": [
+    [
+     "People want to build their paradise in the world before death",
+     "Under the system of nature, this world is not made for that."
+    ],
+    [
+     "People do not work hard enough",
+     "The article’s point is about expectation, not effort."
+    ],
+    [
+     "People live too long",
+     "This is not suggested."
+    ],
+    [
+     "People have too little knowledge of science",
+     "This is not the cause given."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Hardship is part of the creation plan: this world is a place of trial, and Paradise is in store in the world after death for those who live here with contentment."
+  },
+  {
+   "article": "The Human Personality",
+   "page": 40,
+   "link": "the-human-personality",
+   "q": "Which short chapter of the Quran does this article draw its lesson from?",
+   "options": [
+    [
+     "Al Fatihah (The Opening)",
+     "This is not the chapter discussed."
+    ],
+    [
+     "Al Asr (Time)",
+     "This is not the chapter discussed."
+    ],
+    [
+     "Al Tin (The Fig)",
+     "‘We have indeed created man in the best of moulds…’ (95:4-5)"
+    ],
+    [
+     "Al Ikhlas (Oneness)",
+     "This is not the chapter discussed."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The human personality has plus points and minus points. Used to the best advantage it makes a super achiever; used rashly it reduces a person to zero."
+  }
+ ]
+}

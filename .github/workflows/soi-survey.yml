@@ -1,0 +1,47 @@
+name: Survey all PDFs
+
+# Reads every magazine PDF from R2 and records, per issue, whether it has a text
+# layer and the standard typography (inventory/pdf-survey.csv), plus an OCR
+# accuracy test on one issue (docs/ocr-check.md).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources/survey.txt]
+
+permissions:
+  contents: write
+
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr >/dev/null
+          pip install -q pymupdf pillow
+      - name: Copy the PDFs from R2
+        run: aws s3 sync "s3://$R2_BUCKET/pdfs" "$RUNNER_TEMP/pdfs" --endpoint-url "$R2_ENDPOINT" --only-show-errors
+      - name: Survey
+        run: |
+          ocr=$(find "$RUNNER_TEMP/pdfs" -name 'March-2013.pdf' | head -n 1)
+          python3 pipeline/survey.py "$RUNNER_TEMP/pdfs" inventory/pdf-survey.csv --ocr-check "$ocr" docs/ocr-check.md
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add inventory/pdf-survey.csv docs/ocr-check.md
+          git diff --cached --quiet || git commit -m "Survey of all PDFs + OCR check"
+          git pull --rebase -q origin main
+          git push -q origin HEAD:main

@@ -543,7 +543,19 @@ def main():
                     r[1] = r[1].replace(old, new)
 
     meta = json.load(open(os.path.join(base, "raw", "meta.json")))
-    issue = {"slug": slug, "pdf": meta["pdf"], "pages": meta["pages"], **ov.get("issue", {}), "articles": out}
+    # issue number and period, read from the running footer ("Spirit of Islam Issue 66 June 2018")
+    ident = {}
+    months = "January February March April May June July August September October November December".split()
+    for p in pages[2:12]:
+        for b in p["blocks"]:
+            for l in b["lines"]:
+                m = re.search(r"Spirit of Islam\s+(?:Vol\s+\d+\s+)?Issue\s+(\d+)\s+([A-Za-z]+(?:\s*[-\u2013]\s*[A-Za-z]+)?)\s+(\d{4})", l["t"])
+                if m and not ident:
+                    names = [next((x for x in months if x.lower().startswith(w.lower()[:3])), w) for w in re.split(r"\s*[-\u2013]\s*", m.group(2))]
+                    ident = {"number": int(m.group(1)), "period": "\u2013".join(names) + " " + m.group(3),
+                             "period_short": ("\u2013".join(n[:3] for n in names) if len(names) > 1 else names[0]) + " " + m.group(3)}
+                    ident["label"] = f"Issue {ident['number']} \u00b7 {ident['period']}"
+    issue = {"slug": slug, "pdf": meta["pdf"], "pages": meta["pages"], **ident, **ov.get("issue", {}), "articles": out}
     json.dump(issue, open(os.path.join(base, "issue.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump({"skipped": skipped, "lead_in": lead_log, "hyphen_unsure": sorted(set(joiner.log))},
               open(os.path.join(base, "raw", "structure-log.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

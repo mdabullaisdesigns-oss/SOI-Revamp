@@ -4,3 +4,4 @@ soi-archive/
 *.mp3
 *.zip
 .DS_Store
+issues/*/preview.html

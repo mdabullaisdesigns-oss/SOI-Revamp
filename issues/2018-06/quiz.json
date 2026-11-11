@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Different Is Beautiful",
+   "page": 3,
+   "link": "different-is-beautiful",
+   "q": "In the same vein as ‘Small Is Beautiful’, which expression does Maulana offer in this article?",
+   "options": [
+    [
+     "‘Bigger is Better’",
+     "The article mentions this phrase only as the contrast to Schumacher’s title."
+    ],
+    [
+     "‘Different is Beautiful’",
+     "This is the expression he offers, with differences of opinion in mind."
+    ],
+    [
+     "‘Silence is Golden’",
+     "This saying does not appear in the article."
+    ],
+    [
+     "‘Simple is Beautiful’",
+     "Close, but the article’s own expression is about difference."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Differences of opinion should be used as a stepping stone rather than treated as an obstacle; a triggered mind becomes creative and discovers new facts and ideas."
+  },
+  {
+   "article": "The Arabs and the Emergence of Islam",
+   "page": 5,
+   "link": "the-arabs-and-the-emergence-of-islam",
+   "q": "Why does the article say that Arabia occupies a unique position?",
+   "options": [
+    [
+     "It is the largest island in the world",
+     "The article calls it the largest peninsula, not an island."
+    ],
+    [
+     "It has the highest mountains in Asia",
+     "Mountains are not the reason given in the article."
+    ],
+    [
+     "It lies at the centre of three continents",
+     "Situated in Asia, it is divided from Africa only by the Red Sea and is a short passage from Europe."
+    ],
+    [
+     "It has the longest rivers in the world",
+     "The Euphrates and Tigris are mentioned only as part of its boundaries."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "With the Red Sea to the west and the Mediterranean within reach through the Suez canal, Arabia stands at the meeting point of Asia, Africa and Europe."
+  },
+  {
+   "article": "Does the World of the Hereafter Exist?",
+   "page": 9,
+   "link": "does-the-world-of-the-hereafter-exist",
+   "q": "What did Sir James Jeans observe about the Creator of the universe?",
+   "options": [
+    [
+     "That He must have possessed a mathematical mind",
+     "This is the observation quoted at the start of the article."
+    ],
+    [
+     "That He must have created the universe by chance",
+     "The article argues the opposite: the universe is meaningful and purposeful."
+    ],
+    [
+     "That He cannot be known through reason",
+     "The article applies scientific reasoning to the question."
+    ],
+    [
+     "That He created only the visible world",
+     "The article argues for the world of the Hereafter as well."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The article adds that the meaningfulness of the universe shows that its Creator also had a deep sense of purpose, which points towards the Hereafter."
+  },
+  {
+   "article": "Peace, Spirituality and Health",
+   "page": 13,
+   "link": "peace-spirituality-and-health",
+   "q": "What is spirituality called in Islam, according to this article?",
+   "options": [
+    [
+     "Sawm",
+     "Sawm is fasting; it is not the word used here for spirituality."
+    ],
+    [
+     "Hijrah",
+     "Hijrah means migration and is not mentioned in this context."
+    ],
+    [
+     "Zakat",
+     "Zakat is almsgiving, not the term the article uses."
+    ],
+    [
+     "Rabbaniyat",
+     "It means turning one’s materialistic thinking into spiritual thinking."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Health means a sound body, spirituality purifies the soul and develops the personality, and peace is essential for a healthy society. The three are linked to one another."
+  },
+  {
+   "article": "Terrorism: A Grave Threat",
+   "page": 17,
+   "link": "terrorism-a-grave-threat",
+   "q": "According to the article, how can terrorism truly be brought to an end?",
+   "options": [
+    [
+     "By stronger weapons alone",
+     "The article locates the root in ideology, which weapons cannot remove."
+    ],
+    [
+     "By countering the ideology of violence with an ideology based on peace",
+     "The article says terrorism will persist until this is done."
+    ],
+    [
+     "By ignoring it until it fades away",
+     "The article calls it one of the gravest threats, needing an intellectual response."
+    ],
+    [
+     "By isolating every religious community",
+     "The answer proposed is a positive presentation of Islam, not isolation."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A person acts on a mission only when ideologically convinced. So the lasting answer is de-conditioning through the true and positive picture of Islam based on peace."
+  },
+  {
+   "article": "Individual, Society and State",
+   "page": 20,
+   "link": "individual-society-and-state",
+   "q": "What does the Quran call individuals who have undergone spiritual transformation?",
+   "options": [
+    [
+     "“Ansar”",
+     "The Ansar were the Helpers of Madinah; that is not the term used here."
+    ],
+    [
+     "“Hanif”",
+     "This term appears in another article of this issue, not here."
+    ],
+    [
+     "“Rabbani”",
+     "Where such individuals exist in considerable numbers, a good society and state follow on their own."
+    ],
+    [
+     "“Muhajir”",
+     "This word is not used in the article."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The individual is the real unit; society and the state are its relative parts. Reform therefore begins with the individual."
+  },
+  {
+   "article": "Truth at All Costs",
+   "page": 26,
+   "link": "truth-at-all-costs",
+   "q": "What was Benjamin Franklin’s secret of success, in his own words?",
+   "options": [
+    [
+     "“I will speak ill of no man, and speak all the good I know of everybody.”",
+     "These are the words quoted in the article."
+    ],
+    [
+     "“Early to bed and early to rise.”",
+     "A famous saying, but not the one quoted in this article."
+    ],
+    [
+     "“Honesty is the best policy.”",
+     "This is not the quotation given in the article."
+    ],
+    [
+     "“Time is money.”",
+     "This is not the quotation given in the article."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The article then adds a caution: a man of principle upholds the truth, no matter what price has to be paid."
+  },
+  {
+   "article": "Islamic Virtues",
+   "page": 27,
+   "link": "islamic-virtues",
+   "q": "When he was praised highly, how did Ibn Umar reply?",
+   "options": [
+    [
+     "He thanked the man and asked him to say more",
+     "He did the opposite and warned that such praise can destroy a man."
+    ],
+    [
+     "He remained silent and walked away",
+     "The article records his spoken reply."
+    ],
+    [
+     "He said the praise was well deserved",
+     "He refused the praise altogether."
+    ],
+    [
+     "“I am just one of God’s servants; in Him do I have hope, and Him do I fear.”",
+     "He received praise with humility, not with conceit."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Companions’ lives are preserved as models. Ibn Umar’s answer shows how praise should be received: with humility and the remembrance of God."
+  },
+  {
+   "article": "The Way of Balance and Moderation",
+   "page": 34,
+   "link": "the-way-of-balance-and-moderation",
+   "q": "According to the article, where is balance and moderation required?",
+   "options": [
+    [
+     "In religious beliefs, not in practical matters",
+     "It is the other way round."
+    ],
+    [
+     "In practical matters, not in religious beliefs or principles",
+     "In beliefs the ideal is always desirable; in practice, adjustment is wise."
+    ],
+    [
+     "In neither beliefs nor practice",
+     "The article affirms moderation in practical behaviour."
+    ],
+    [
+     "Only in matters of worship",
+     "The article speaks of practical life in society."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Practical behaviour relates to external form and can be adjusted to prevailing conditions so that we live harmoniously with others."
+  },
+  {
+   "article": "Prophet of Islam",
+   "page": 35,
+   "link": "prophet-of-islam",
+   "q": "When his Companions asked him to curse his persecutors, what did the Prophet reply?",
+   "options": [
+    [
+     "He asked them to leave the city at once",
+     "This is not the reply recorded in the article."
+    ],
+    [
+     "He told them to answer in the same manner",
+     "He taught the opposite: to return good for ill."
+    ],
+    [
+     "“I have not been sent to lay a curse upon men but to be a blessing to them.”",
+     "This is the reply reported in the books of Hadith."
+    ],
+    [
+     "He gave no answer",
+     "The article records his clear reply."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The Quran introduces him as ‘a mercy to all mankind’ (21:107). His distinctive quality was being a blessing in word and deed."
+  }
+ ]
+}

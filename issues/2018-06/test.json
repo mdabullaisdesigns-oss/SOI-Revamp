@@ -1,0 +1,62 @@
+{
+ "slug": "2018-06",
+ "widths": {
+  "1280": {
+   "errors": [],
+   "tabs": 17,
+   "bad_tabs": [],
+   "overflow_closed": 0,
+   "overflow_open": 0,
+   "gotop": true,
+   "quiz": {
+    "answered": 10,
+    "finished": true,
+    "score": "3",
+    "overflow": 0
+   }
+  },
+  "768": {
+   "errors": [],
+   "tabs": 17,
+   "bad_tabs": [],
+   "overflow_closed": 0,
+   "overflow_open": 0,
+   "gotop": true,
+   "quiz": {
+    "answered": 10,
+    "finished": true,
+    "score": "3",
+    "overflow": 0
+   }
+  },
+  "390": {
+   "errors": [],
+   "tabs": 17,
+   "bad_tabs": [],
+   "overflow_closed": 0,
+   "overflow_open": 0,
+   "gotop": true,
+   "quiz": {
+    "answered": 10,
+    "finished": true,
+    "score": "1",
+    "overflow": 0
+   }
+  },
+  "320": {
+   "errors": [],
+   "tabs": 17,
+   "bad_tabs": [],
+   "overflow_closed": 0,
+   "overflow_open": 0,
+   "gotop": true,
+   "quiz": {
+    "answered": 10,
+    "finished": true,
+    "score": "5",
+    "overflow": 0
+   }
+  }
+ },
+ "fails": []
+}

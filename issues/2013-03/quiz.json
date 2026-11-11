@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Welcome",
+   "page": 4,
+   "link": "welcome",
+   "q": "The welcome note begins with a saying about joys. What is it?",
+   "options": [
+    [
+     "Joys are few and sorrows many",
+     "This is not the saying used."
+    ],
+    [
+     "Joys shared are joys multiplied",
+     "So it is, says the note, with the joys of learning and intellectual pursuit."
+    ],
+    [
+     "Joy comes only after hardship",
+     "This is not the saying used."
+    ],
+    [
+     "Joys of the world never last",
+     "The note does contrast material joys, but this is not the saying."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Through this magazine, Maulana Wahiduddin Khan’s discoveries about God’s creation plan, life, peace and practical wisdom are shared with the world."
+  },
+  {
+   "article": "Living with a Positive Mind",
+   "page": 5,
+   "link": "living-with-a-positive-mind",
+   "q": "In his lecture at a church in Philadelphia, what did Maulana say peace is, according to Islam?",
+   "options": [
+    [
+     "The summum bonum, the greatest good",
+     "This was the gist of his lecture on ‘Islam and Peace’."
+    ],
+    [
+     "A temporary arrangement",
+     "The lecture gave peace the highest place."
+    ],
+    [
+     "Useful only between nations",
+     "The article speaks of peace in individual and social life."
+    ],
+    [
+     "Less important than victory",
+     "The article says the opposite."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Spirituality and peace are two sides of one coin. The essence of prayer is to live with a positive mind in a negative situation."
+  },
+  {
+   "article": "A 15-Billion Year Plan",
+   "page": 8,
+   "link": "a-15-billion-year-plan",
+   "q": "What do scientists call the explosion in the great cosmic ball?",
+   "options": [
+    [
+     "The ‘Great Flood’",
+     "This is not the term used."
+    ],
+    [
+     "The ‘First Dawn’",
+     "This is not the term used."
+    ],
+    [
+     "The ‘Long Night’",
+     "This is not the term used."
+    ],
+    [
+     "The ‘Big Bang’",
+     "After it, the particles scattered through space and later assembled in different forms."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Creator produced the universe by a long, complex process so that man might develop his thinking and reach God-realisation."
+  },
+  {
+   "article": "The Spiritual Versus the Material",
+   "page": 11,
+   "link": "the-spiritual-versus-the-material",
+   "q": "At the exhibition in Delhi, what drew the crowds to the American pavilion?",
+   "options": [
+    [
+     "A talking robot",
+     "This is not what the article describes."
+    ],
+    [
+     "A giant telescope",
+     "This is not what the article describes."
+    ],
+    [
+     "A flying car",
+     "It drove on the ground, hovered about four feet up, circled the field and landed."
+    ],
+    [
+     "A model of the moon",
+     "This is not what the article describes."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Material wonders attract crowds, but a spiritual person holds inner peace dearer than anything and finds satisfaction in his own inner resources."
+  },
+  {
+   "article": "Duty-Consciousness, Not Rights-Consciousness",
+   "page": 19,
+   "link": "duty-consciousness-not-rights-consciousness",
+   "q": "According to the article, from whom should a believer ask for his rights?",
+   "options": [
+    [
+     "From the government",
+     "The article regrets the strife caused by such demands."
+    ],
+    [
+     "Only from God",
+     "His own duty is to give others what is due from him."
+    ],
+    [
+     "From his employer",
+     "The article points away from agitation."
+    ],
+    [
+     "From his neighbours",
+     "This is not the teaching given."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Islam wants us to build a duty-conscious society rather than a rights-conscious one. We do our duty faithfully, seeking God’s pleasure."
+  },
+  {
+   "article": "How the Quran Was Compiled",
+   "page": 20,
+   "link": "how-the-quran-was-compiled",
+   "q": "Over what period were the chapters of the Quran revealed?",
+   "options": [
+    [
+     "23 years",
+     "They were sent bit by bit, according to circumstances."
+    ],
+    [
+     "3 years",
+     "The period was much longer."
+    ],
+    [
+     "40 years",
+     "This is not the figure given."
+    ],
+    [
+     "A single night",
+     "The article says they were not all revealed at one time."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Quran was both memorized and preserved in writing, so any copy anywhere is exactly the same as that handed down by the Prophet."
+  },
+  {
+   "article": "The Psychology of Success",
+   "page": 25,
+   "link": "the-psychology-of-success",
+   "q": "Whom did the American scientists study to find out why one champion wins and another loses?",
+   "options": [
+    [
+     "Chess grandmasters",
+     "This is not the group studied."
+    ],
+    [
+     "Long-distance runners",
+     "This is not the group studied."
+    ],
+    [
+     "Mountain climbers",
+     "This is not the group studied."
+    ],
+    [
+     "Top-ranked international wrestlers",
+     "They compared physical strength and psychological reserves."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The difference lay in the mind: conviction that one’s goals are worthwhile, discipline, and cool thinking even in times of crisis."
+  },
+  {
+   "article": "Science and Theology",
+   "page": 26,
+   "link": "science-and-theology",
+   "q": "The article concludes that the only real option before us is between…",
+   "options": [
+    [
+     "A ‘universe with God’ or a ‘universe without God’",
+     "The article says this is not the choice we actually have."
+    ],
+    [
+     "Science or religion",
+     "The article brings the two together."
+    ],
+    [
+     "A ‘universe with God’ or ‘no universe at all’",
+     "A universe without God is not one of the options."
+    ],
+    [
+     "Faith or reason",
+     "The article argues by reason."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Intelligent creation is clearly proof of an Intelligent Creator; order cannot exist without an organiser."
+  },
+  {
+   "article": "Islam and Politics",
+   "page": 35,
+   "link": "islam-and-politics",
+   "q": "On which of these did the Prophet tell people to follow his own example?",
+   "options": [
+    [
+     "Politics",
+     "The article notes that he never gave such advice about politics."
+    ],
+    [
+     "Prayer and Hajj",
+     "‘Perform your prayer as you see me performing it’; ‘Learn the method of Hajj from my practice.’"
+    ],
+    [
+     "Trade",
+     "This is not mentioned."
+    ],
+    [
+     "Architecture",
+     "This is not mentioned."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The political system in Islam rests on the social condition of the time; the article describes it as a people’s government rather than a theocratic one."
+  },
+  {
+   "article": "Working in Unison",
+   "page": 38,
+   "link": "working-in-unison",
+   "q": "What, according to the survey, is the secret of Japanese shipbuilders’ speed?",
+   "options": [
+    [
+     "Teamwork",
+     "Workers and management function together in complete unison."
+    ],
+    [
+     "Cheaper steel",
+     "This is not the reason found."
+    ],
+    [
+     "Longer working hours",
+     "This is not the reason found."
+    ],
+    [
+     "Bigger shipyards",
+     "This is not the reason found."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They build in eight months what takes others sixteen or twenty-four. Unity is the true key to organisational success."
+  }
+ ]
+}

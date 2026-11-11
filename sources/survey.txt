@@ -1,0 +1,3 @@
+# Change this file (for example the date below) to re-run the "Survey all PDFs" workflow.
+# It reads every PDF in R2 and writes inventory/pdf-survey.csv and docs/ocr-check.md.
+requested: 2026-11-12
