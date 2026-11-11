@@ -1,0 +1,303 @@
+{
+ "slug": "2018-06",
+ "articles": [
+  {
+   "n": 1,
+   "id": "different-is-beautiful",
+   "title": "Different Is Beautiful",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 744,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-arabs-and-the-emergence-of-islam",
+   "title": "The Arabs and the Emergence of Islam",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 1164,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "blame-thyself",
+   "title": "Blame Thyself",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 333,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "does-the-world-of-the-hereafter-exist",
+   "title": "Does the World of the Hereafter Exist?",
+   "pages": [
+    11,
+    14
+   ],
+   "words": 1295,
+   "match": 99.61,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    },
+    {
+     "item": "p12b5",
+     "kind": "p",
+     "words": [
+      "time",
+      "or",
+      "the",
+      "other"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "peace-spirituality-and-health",
+   "title": "Peace, Spirituality and Health",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 780,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "focused-thinking",
+   "title": "Focused Thinking",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 785,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "terrorism-a-grave-threat",
+   "title": "Terrorism: A Grave Threat",
+   "pages": [
+    19,
+    21
+   ],
+   "words": 1140,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "individual-society-and-state",
+   "title": "Individual, Society and State",
+   "pages": [
+    22,
+    25
+   ],
+   "words": 1597,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p22b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "love-of-god",
+   "title": "Love of God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 763,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "truth-at-all-costs",
+   "title": "Truth at All Costs",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 364,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "islamic-virtues",
+   "title": "Islamic Virtues",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 714,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "religion-and-the-life-hereafter",
+   "title": "Religion and the Life Hereafter",
+   "pages": [
+    31,
+    35
+   ],
+   "words": 1955,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p31b4",
+     "kind": "p",
+     "words": [
+      "so"
+     ]
+    },
+    {
+     "item": "p32b5",
+     "kind": "p",
+     "words": [
+      "selfexistent"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-way-of-balance-and-moderation",
+   "title": "The Way of Balance and Moderation",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 254,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "prophet-of-islam",
+   "title": "Prophet of Islam",
+   "pages": [
+    37,
+    40
+   ],
+   "words": 1408,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "at-deaths-door",
+   "title": "At Death’s Door",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 504,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p41b9",
+     "kind": "p",
+     "words": [
+      "death"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 568,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    48
+   ],
+   "words": 1322,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17934,
+ "article_words": 15690
+}

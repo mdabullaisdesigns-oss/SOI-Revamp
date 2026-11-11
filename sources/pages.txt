@@ -1,0 +1,4 @@
+# WordPress pages to copy into sources/pages/<id>.json (title + rendered content), one page id per line.
+# Used for the issues whose text comes from the site (the Gary-audio issues) and for the Issue 133 reference build.
+# Committing a change to this file runs the "Fetch site pages" workflow.
+3508

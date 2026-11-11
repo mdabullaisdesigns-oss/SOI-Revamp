@@ -1,0 +1,433 @@
+{
+ "slug": "2023-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "code-of-ethics",
+   "title": "Code of Ethics",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 719,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "mumbai-diaries",
+   "title": "Mumbai Diaries",
+   "pages": [
+    8,
+    13
+   ],
+   "words": 2149,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "i"
+     ]
+    },
+    {
+     "item": "p12b8",
+     "kind": "p",
+     "words": [
+      "steeringwheel"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "one-serious-fallacy",
+   "title": "One Serious Fallacy",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 316,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p14b2",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "a-modest-reply",
+   "title": "A Modest Reply",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 331,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p15b7",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-lessons-of-old-age",
+   "title": "The Lessons of Old Age",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 289,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "extracting-wisdom-from-old-age",
+   "title": "Extracting Wisdom from Old Age",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 261,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "justice-and-brotherhood",
+   "title": "Justice and Brotherhood",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 387,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "setting-the-right-precedent",
+   "title": "Setting the Right Precedent",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 364,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "silence-for-spiritual-awakening",
+   "title": "Silence for Spiritual Awakening",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 357,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p20b8",
+     "kind": "p",
+     "words": [
+      "ernest"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "success-and-the-subconscious",
+   "title": "Success and the Subconscious",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 315,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p21b9",
+     "kind": "p",
+     "words": [
+      "located"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "importance-of-education",
+   "title": "Importance of Education",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 767,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "surmounting-the-barricades",
+   "title": "Surmounting the Barricades",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 311,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-signs-of-doomsday",
+   "title": "The Signs of Doomsday",
+   "pages": [
+    25,
+    28
+   ],
+   "words": 1331,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-limits-of-law",
+   "title": "The Limits of Law",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 376,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 538,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-most-successful-man",
+   "title": "The Most Successful Man",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 294,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "problem-of-wealth",
+   "title": "Problem of Wealth",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 334,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-universal-model",
+   "title": "The Universal Model",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 660,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "tragedy-of-man",
+   "title": "Tragedy of Man",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 879,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "labours-of-a-lifetime",
+   "title": "Labours of a Lifetime",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 582,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p38b2",
+     "kind": "p",
+     "words": [
+      "helen"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-human-personality",
+   "title": "The Human Personality",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 550,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "remarkable-possibilities-in-this-world",
+   "title": "Remarkable Possibilities in This World",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 292,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p42b2",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "motivation-is-greater-than-favour",
+   "title": "Motivation Is Greater Than Favour",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 330,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p43b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 191,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 25,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    47
+   ],
+   "words": 382,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 26,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 991,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15790,
+ "article_words": 14296
+}

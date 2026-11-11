@@ -1,0 +1,330 @@
+{
+ "slug": "2013-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "welcome",
+   "title": "Welcome",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 317,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "living-with-a-positive-mind",
+   "title": "Living with a Positive Mind",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 758,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "prayer"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "all-praise-is-due-to-god",
+   "title": "All Praise Is Due to God",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 324,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p10b2",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "a-15-billion-year-plan",
+   "title": "A 15-Billion Year Plan",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 861,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p11b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-spiritual-versus-the-material",
+   "title": "The Spiritual Versus the Material",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 533,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p14b2",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "darwin-and-darwinism",
+   "title": "Darwin and Darwinism",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 249,
+   "match": 99.6,
+   "missing": [
+    {
+     "item": "p16b2",
+     "kind": "p",
+     "words": [
+      "charles"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "a-religion-misunderstood",
+   "title": "A Religion Misunderstood",
+   "pages": [
+    17,
+    21
+   ],
+   "words": 1795,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p17b2",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "duty-consciousness-not-rights-consciousness",
+   "title": "Duty-Consciousness, Not Rights-Consciousness",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 276,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p22b2",
+     "kind": "p",
+     "words": [
+      "throughout"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "how-the-quran-was-compiled",
+   "title": "How the Quran Was Compiled",
+   "pages": [
+    23,
+    25
+   ],
+   "words": 1031,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "peace-is-the-name-of-god",
+   "title": "Peace Is the Name of God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 606,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-psychology-of-success",
+   "title": "The Psychology of Success",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 277,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "world"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "science-and-theology",
+   "title": "Science and Theology",
+   "pages": [
+    29,
+    36
+   ],
+   "words": 2772,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p29b2",
+     "kind": "p",
+     "words": [
+      "professor"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "comprehensive-principle",
+   "title": "Comprehensive Principle",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 317,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p37b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "islam-and-politics",
+   "title": "Islam and Politics",
+   "pages": [
+    38,
+    40
+   ],
+   "words": 985,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p38b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "working-in-unison",
+   "title": "Working in Unison",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 321,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p41b4",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "patience-instead-of-reaction",
+   "title": "Patience Instead of Reaction",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 1041,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 978,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 606,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15213,
+ "article_words": 14047
+}
