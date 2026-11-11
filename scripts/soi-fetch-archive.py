@@ -27,14 +27,23 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh) SOI-archive-fetcher"}
 def get(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r), r.headers
+        body = r.read()
+        try:
+            return json.loads(body), r.headers
+        except ValueError:
+            print(f"  Not JSON from {url}")
+            print(f"  HTTP {r.status}, Content-Type: {r.headers.get('Content-Type')}")
+            print("  First 400 chars:", body[:400].decode("utf-8", "replace"))
+            raise
 
 
 def list_all(endpoint, params):
     items, page = [], 1
     while True:
         q = dict(params, per_page=100, page=page)
-        url = f"{SITE}/wp-json/wp/v2/{endpoint}?{urllib.parse.urlencode(q)}"
+        # ?rest_route= works with plain (?page_id=) permalinks; /wp-json/ does not
+        q = {"rest_route": f"/wp/v2/{endpoint}", **q}
+        url = f"{SITE}/?{urllib.parse.urlencode(q)}"
         try:
             data, headers = get(url)
         except urllib.error.HTTPError as e:
