@@ -1,0 +1,56 @@
+name: Extract issue text
+
+# Claude Code cloud sessions cannot reach spiritofislam.co.in or R2, so the
+# first pipeline stage runs here: it downloads each PDF named in
+# sources/request.txt, extracts the text (OCR for scanned pages) and commits
+# issues/<slug>/raw/ to main. Page pictures for visual checks go to the
+# throw-away branch "page-previews" (replaced on every run).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources/request.txt]
+
+permissions:
+  contents: write
+
+concurrency: soi-extract
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr >/dev/null
+          pip install -q pymupdf pillow
+      - name: Download and extract
+        run: |
+          mkdir -p "$RUNNER_TEMP/pdf" "$RUNNER_TEMP/pages"
+          grep -v '^#' sources/request.txt | grep -v '^\s*$' | while read -r slug file; do
+            url=$(python3 -c "import csv,sys; print({r['file']:r['url'] for r in csv.DictReader(open('inventory/inventory-pdfs.csv',encoding='utf-8'))}.get(sys.argv[1],''))" "$file")
+            case "$url" in https://spiritofislam.co.in/wp-content/uploads/*) ;; *) echo "::warning::$file is not in the inventory"; continue;; esac
+            echo "== $slug  $file"
+            curl -fsSL -A "Mozilla/5.0 (Macintosh) SOI-archive-fetcher" -o "$RUNNER_TEMP/pdf/$file" "$url"
+            python3 pipeline/extract.py "$slug" "$RUNNER_TEMP/pdf/$file" --pages-dir "$RUNNER_TEMP/pages"
+          done
+      - name: Commit the extracted text
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add issues
+          git diff --cached --quiet || git commit -m "Extract issue text: $(grep -v '^#' sources/request.txt | awk 'NF{print $1}' | tr '\n' ' ')"
+          git pull --rebase -q origin main
+          git push -q origin HEAD:main
+      - name: Publish page pictures to the page-previews branch
+        run: |
+          cd "$RUNNER_TEMP/pages"
+          git init -q -b page-previews
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Page previews (temporary)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" page-previews

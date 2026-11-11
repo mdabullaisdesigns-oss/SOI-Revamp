@@ -1,5 +1,6 @@
-# Magazine PDFs to hand to a Claude Code cloud session (one file name per line, as in inventory/inventory-pdfs.csv).
-# Committing a change to this file runs the "Fetch issue sources" workflow, which packs them as a short-lived Actions artifact.
-March-2013.pdf
-June-2018.pdf
-SOI-Sept-Oct-2023.pdf
+# Issues to extract: "<issue-slug> <PDF file name from inventory/inventory-pdfs.csv>", one per line.
+# Committing a change to this file runs the "Extract issue text" workflow. It reads each PDF
+# (OCR for scanned pages) and commits the text to issues/<slug>/raw/. PDFs never enter git.
+2013-03 March-2013.pdf
+2018-06 June-2018.pdf
+2023-09 SOI-Sept-Oct-2023.pdf
