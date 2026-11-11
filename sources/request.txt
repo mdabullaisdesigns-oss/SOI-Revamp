@@ -1,0 +1,5 @@
+# Magazine PDFs to hand to a Claude Code cloud session (one file name per line, as in inventory/inventory-pdfs.csv).
+# Committing a change to this file runs the "Fetch issue sources" workflow, which packs them as a short-lived Actions artifact.
+March-2013.pdf
+June-2018.pdf
+SOI-Sept-Oct-2023.pdf
