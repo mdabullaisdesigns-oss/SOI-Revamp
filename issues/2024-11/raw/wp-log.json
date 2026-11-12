@@ -1,0 +1,28 @@
+{
+ "page_id": 2564,
+ "page_title": "ISSUE NOV-DEC 2024",
+ "skipped": [
+  {
+   "title": "WE ASKED CHATGPT TO OFFER SOME INFORMATION ABOUT CPS INTERNATIONAL, NEW DELHI. THIS IS THE RESPONSE.",
+   "why": "promotional ChatGPT page (never included)",
+   "words": 101
+  },
+  {
+   "title": "WE ASKED CHATGPT TO OFFER SOME INFORMATION ABOUT CPS INTERNATIONAL, NEW DELHI. THIS IS THE RESPONSE.",
+   "why": "audio of the promotional ChatGPT page (never included)",
+   "words": 0,
+   "url": "https://spiritofislam.co.in/wp-content/uploads/2024/10/CHAT-GPT-remark.mp3"
+  }
+ ],
+ "case": [
+  "'AMERICAN' -> 'American'",
+  "'IN' -> 'In'",
+  "'INTELLECTUALLY,' -> 'Intellectually,'",
+  "'IN' -> 'In'",
+  "'EVERY' -> 'Every'",
+  "'GALILEO' -> 'Galileo'",
+  "'WITHIN' -> 'Within'",
+  "'THE' -> 'The'"
+ ],
+ "audio_unmatched": []
+}
