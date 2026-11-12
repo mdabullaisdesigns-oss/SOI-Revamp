@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Doha Pact",
+   "page": 5,
+   "link": "the-doha-pact",
+   "q": "What was agreed in the Doha Pact of February 29, 2020?",
+   "options": [
+    [
+     "Afghanistan would join NATO",
+     "Not quite. The article says: US and NATO forces would withdraw from Afghanistan."
+    ],
+    [
+     "Borders would close",
+     "Not quite. The article says: US and NATO forces would withdraw from Afghanistan."
+    ],
+    [
+     "A new war would begin",
+     "Not quite. The article says: US and NATO forces would withdraw from Afghanistan."
+    ],
+    [
+     "US and NATO forces would withdraw from Afghanistan",
+     "Within 14 months."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The US and NATO forces agreed to withdraw their military from Afghanistan."
+  },
+  {
+   "article": "Political Sovereignty",
+   "page": 10,
+   "link": "political-sovereignty",
+   "q": "What is political power, according to the article?",
+   "options": [
+    [
+     "A reward for piety",
+     "Not quite. The article says: A means by which human beings are tested."
+    ],
+    [
+     "The goal of Islam",
+     "Not quite. The article says: A means by which human beings are tested."
+    ],
+    [
+     "A means by which human beings are tested",
+     "Not the goal of Islam."
+    ],
+    [
+     "A birthright",
+     "Not quite. The article says: A means by which human beings are tested."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Political power is not the goal of Islam. However, God does grant political power to people as a means by which human beings are tested."
+  },
+  {
+   "article": "Blessings of God",
+   "page": 16,
+   "link": "blessings-of-god",
+   "q": "Under what heading did the Sunday Times of India article appear?",
+   "options": [
+    [
+     "‘To breathe is a luxury’",
+     "About Maneesha Ramakrishnan."
+    ],
+    [
+     "‘The cost of living’",
+     "Not quite. The article says: ‘To breathe is a luxury’."
+    ],
+    [
+     "‘Markets today’",
+     "Not quite. The article says: ‘To breathe is a luxury’."
+    ],
+    [
+     "‘A day at the races’",
+     "Not quite. The article says: ‘To breathe is a luxury’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The following article under the heading ‘To breathe is a luxury’."
+  },
+  {
+   "article": "A Glimpse of Heaven",
+   "page": 22,
+   "link": "a-glimpse-of-heaven",
+   "q": "What would one see observing the universe from a distance?",
+   "options": [
+    [
+     "Unfathomable space, blazing stars and flying rocks – with one exception",
+     "The earth."
+    ],
+    [
+     "Only darkness",
+     "Not quite. The article says: Unfathomable space, blazing stars and flying rocks – with one exception."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: Unfathomable space, blazing stars and flying rocks – with one exception."
+    ],
+    [
+     "Many green planets",
+     "Not quite. The article says: Unfathomable space, blazing stars and flying rocks – with one exception."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "One would find unfathomable space, blazing stars and dry rocks flying at a great speed."
+  },
+  {
+   "article": "Guarantee of God’s Succour",
+   "page": 24,
+   "link": "guarantee-of-gods-succour",
+   "q": "In what lies the surest guarantee of protection for believers?",
+   "options": [
+    [
+     "Alliances",
+     "Not quite. The article says: Adherence to the path of patience and piety."
+    ],
+    [
+     "Large armies",
+     "Not quite. The article says: Adherence to the path of patience and piety."
+    ],
+    [
+     "Great wealth",
+     "Not quite. The article says: Adherence to the path of patience and piety."
+    ],
+    [
+     "Adherence to the path of patience and piety",
+     "According to the Quran."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "… lies in their adherence to the path of patience and piety."
+  },
+  {
+   "article": "Spiritual Living",
+   "page": 26,
+   "link": "spiritual-living",
+   "q": "From what do most anti-human activities result?",
+   "options": [
+    [
+     "The clash over material interest",
+     "Spirituality rises above it."
+    ],
+    [
+     "Lack of schools",
+     "Not quite. The article says: The clash over material interest."
+    ],
+    [
+     "Too much rest",
+     "Not quite. The article says: The clash over material interest."
+    ],
+    [
+     "Bad weather",
+     "Not quite. The article says: The clash over material interest."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The majority of anti-human activities in society result from the clash between people over material interest."
+  },
+  {
+   "article": "Essence of Islam",
+   "page": 30,
+   "link": "essence-of-islam",
+   "q": "What have the sun, the moon and the stars done?",
+   "options": [
+    [
+     "Completely subjugated themselves to God’s will",
+     "Without the slightest deviation."
+    ],
+    [
+     "Stopped moving",
+     "Not quite. The article says: Completely subjugated themselves to God’s will."
+    ],
+    [
+     "Rebelled",
+     "Not quite. The article says: Completely subjugated themselves to God’s will."
+    ],
+    [
+     "Chosen their own paths",
+     "Not quite. The article says: Completely subjugated themselves to God’s will."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Everything in the universe … have all completely subjugated themselves to God’s will."
+  },
+  {
+   "article": "The Conscious and Unconscious Mind",
+   "page": 38,
+   "link": "the-conscious-and-unconscious-mind",
+   "q": "Into which two parts is the human mind divided?",
+   "options": [
+    [
+     "The strong and the weak",
+     "Not quite. The article says: The conscious and the unconscious."
+    ],
+    [
+     "The left and the right hand",
+     "Not quite. The article says: The conscious and the unconscious."
+    ],
+    [
+     "The conscious and the unconscious",
+     "Part of every mind."
+    ],
+    [
+     "The old and the new",
+     "Not quite. The article says: The conscious and the unconscious."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The human mind is divided into two parts: the conscious and the unconscious."
+  },
+  {
+   "article": "Ways of Self-Correction",
+   "page": 41,
+   "link": "ways-of-self-correction",
+   "q": "With whom did the Prophet tell the new Muslim to stay?",
+   "options": [
+    [
+     "Ali",
+     "To learn; the story concerns chapter 99."
+    ],
+    [
+     "The Negus",
+     "Not quite. The article says: Ali."
+    ],
+    [
+     "No one",
+     "Not quite. The article says: Ali."
+    ],
+    [
+     "Abu Jahl",
+     "Not quite. The article says: Ali."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“Stay with Ali (one of Prophet’s Companions) …”"
+  },
+  {
+   "article": "Special Offer",
+   "page": 43,
+   "link": "special-offer",
+   "q": "In which month was the Quran sent down (2: 185)?",
+   "options": [
+    [
+     "Rajab",
+     "Not quite. The article says: Ramadan."
+    ],
+    [
+     "Shawwal",
+     "Not quite. The article says: Ramadan."
+    ],
+    [
+     "Ramadan",
+     "The month of fasting."
+    ],
+    [
+     "Muharram",
+     "Not quite. The article says: Ramadan."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The month of Ramadan is the month when the Quran was sent down as guidance for humankind."
+  }
+ ]
+}

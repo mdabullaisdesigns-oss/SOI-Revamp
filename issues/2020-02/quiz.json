@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Setting the Right Priorities",
+   "page": 5,
+   "link": "setting-the-right-priorities",
+   "q": "What law of nature does the article state about developed countries?",
+   "options": [
+    [
+     "Development needs no effort",
+     "Not quite. The article says: No particular community remains backward in a developed country."
+    ],
+    [
+     "Minorities must stay apart",
+     "Not quite. The article says: No particular community remains backward in a developed country."
+    ],
+    [
+     "The largest community always leads",
+     "Not quite. The article says: No particular community remains backward in a developed country."
+    ],
+    [
+     "No particular community remains backward in a developed country",
+     "Indian Muslims can contribute greatly."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In any developed country no particular community remains backward. This is a law of nature."
+  },
+  {
+   "article": "Woman’s Role in Islam",
+   "page": 9,
+   "link": "womans-role-in-islam",
+   "q": "Why does the Quran call Islam a religion of nature?",
+   "options": [
+    [
+     "It forbids cities",
+     "Not quite. The article says: It is based on the laws of nature."
+    ],
+    [
+     "It has no rules",
+     "Not quite. The article says: It is based on the laws of nature."
+    ],
+    [
+     "It began in the wilderness",
+     "Not quite. The article says: It is based on the laws of nature."
+    ],
+    [
+     "It is based on the laws of nature",
+     "Its commands express those laws."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This is because Islam is, in fact, based on the laws of nature."
+  },
+  {
+   "article": "Changing Direction",
+   "page": 17,
+   "link": "changing-direction",
+   "q": "To whom do the East and the West belong, in the verse quoted?",
+   "options": [
+    [
+     "The kings",
+     "Not quite. The article says: God."
+    ],
+    [
+     "No one",
+     "Not quite. The article says: God."
+    ],
+    [
+     "God",
+     "He guides whom He pleases."
+    ],
+    [
+     "The Arabs",
+     "Not quite. The article says: God."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘The East and the West belong to God. He guides whom He pleases to the right path.’"
+  },
+  {
+   "article": "Patient Perseverence vs Protest",
+   "page": 22,
+   "link": "patient-perseverence-vs-protest",
+   "q": "What does the article say of youth?",
+   "options": [
+    [
+     "They have no role",
+     "Not quite. The article says: They are the most productive and energetic asset of a nation."
+    ],
+    [
+     "They are the most productive and energetic asset of a nation",
+     "Protest is not the way."
+    ],
+    [
+     "They are a burden",
+     "Not quite. The article says: They are the most productive and energetic asset of a nation."
+    ],
+    [
+     "They should wait until old",
+     "Not quite. The article says: They are the most productive and energetic asset of a nation."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Youth are the most productive and energetic asset of a nation."
+  },
+  {
+   "article": "Winning Friends",
+   "page": 25,
+   "link": "winning-friends",
+   "q": "With what should evil be repelled, according to the Quran?",
+   "options": [
+    [
+     "Greater evil",
+     "Not quite. The article says: What is better."
+    ],
+    [
+     "Force",
+     "Not quite. The article says: What is better."
+    ],
+    [
+     "Silence only",
+     "Not quite. The article says: What is better."
+    ],
+    [
+     "What is better",
+     "Then an enemy becomes a friend."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Good and evil deeds are not equal. Repel evil with what is better."
+  },
+  {
+   "article": "Towards a Nonviolent World",
+   "page": 28,
+   "link": "towards-a-nonviolent-world",
+   "q": "Whose movement do historians call the most massive example of nonviolent activism?",
+   "options": [
+    [
+     "Bismarck’s",
+     "Not quite. The article says: Mahatma Gandhi’s."
+    ],
+    [
+     "Lenin’s",
+     "Not quite. The article says: Mahatma Gandhi’s."
+    ],
+    [
+     "Mahatma Gandhi’s",
+     "India can be proud of it."
+    ],
+    [
+     "Napoleon’s",
+     "Not quite. The article says: Mahatma Gandhi’s."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“The most massive and historically effective example of nonviolent activism was that of the movement organized by Mahatma Gandhi”."
+  },
+  {
+   "article": "Future Planning",
+   "page": 32,
+   "link": "future-planning",
+   "q": "Who wrote the book ‘Option B’?",
+   "options": [
+    [
+     "Sheryl Sandberg",
+     "On resilience after losing her husband."
+    ],
+    [
+     "Beatrice Webb",
+     "Not quite. The article says: Sheryl Sandberg."
+    ],
+    [
+     "Barbara Tuchman",
+     "Not quite. The article says: Sheryl Sandberg."
+    ],
+    [
+     "Helen Santmyer",
+     "Not quite. The article says: Sheryl Sandberg."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In her book titled, ‘Option B’, Sheryl Sandberg, COO Facebook, relates her personal experience."
+  },
+  {
+   "article": "Honesty and Hard Work",
+   "page": 39,
+   "link": "honesty-and-hard-work",
+   "q": "Where did Prophet Moses arrive after leaving Egypt?",
+   "options": [
+    [
+     "Babylon",
+     "Not quite. The article says: Midian."
+    ],
+    [
+     "Rome",
+     "Not quite. The article says: Midian."
+    ],
+    [
+     "Midian",
+     "After a long journey."
+    ],
+    [
+     "Makkah",
+     "Not quite. The article says: Midian."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "He had to leave Egypt and after a long journey he reached Midian."
+  },
+  {
+   "article": "Motion and Direction",
+   "page": 42,
+   "link": "motion-and-direction",
+   "q": "What must one learn the difference between, according to Bill Copeland?",
+   "options": [
+    [
+     "Motion and direction",
+     "To remove most road blocks to success."
+    ],
+    [
+     "Speed and sound",
+     "Not quite. The article says: Motion and direction."
+    ],
+    [
+     "Day and night",
+     "Not quite. The article says: Motion and direction."
+    ],
+    [
+     "Work and rest",
+     "Not quite. The article says: Motion and direction."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“… when you have learnt the difference between motion and direction.”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "Who speaks better than anyone, in the verse quoted?",
+   "options": [
+    [
+     "One who argues best",
+     "Not quite. The article says: One who calls to God and does good works."
+    ],
+    [
+     "One who is silent",
+     "Not quite. The article says: One who calls to God and does good works."
+    ],
+    [
+     "One who speaks loudest",
+     "Not quite. The article says: One who calls to God and does good works."
+    ],
+    [
+     "One who calls to God and does good works",
+     "And says, ‘I am of those who submit.’"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Who speaks better than one who calls to God and does good works?"
+  }
+ ]
+}

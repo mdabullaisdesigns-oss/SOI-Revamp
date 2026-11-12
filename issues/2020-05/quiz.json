@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A Message of Hope",
+   "page": 5,
+   "link": "a-message-of-hope",
+   "q": "What everyday event gives the author a hopeful lesson during the pandemic?",
+   "options": [
+    [
+     "The sun rising",
+     "Amid gloomy news."
+    ],
+    [
+     "The rain",
+     "Not quite. The article says: The sun rising."
+    ],
+    [
+     "The evening news",
+     "Not quite. The article says: The sun rising."
+    ],
+    [
+     "The market opening",
+     "Not quite. The article says: The sun rising."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "This natural and everyday occurrence of the sun rising gives me a most hopeful lesson."
+  },
+  {
+   "article": "Fake News",
+   "page": 8,
+   "link": "fake-news",
+   "q": "What does the article call spreading fake news and rumours?",
+   "options": [
+    [
+     "A game",
+     "Not quite. The article says: A grave offence."
+    ],
+    [
+     "A public service",
+     "Not quite. The article says: A grave offence."
+    ],
+    [
+     "A grave offence",
+     "It adds to frenzy and chaos."
+    ],
+    [
+     "A harmless habit",
+     "Not quite. The article says: A grave offence."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Spreading fake news and rumours is a grave offence."
+  },
+  {
+   "article": "Intellectual Fog",
+   "page": 13,
+   "link": "intellectual-fog",
+   "q": "What holds up trains in northern India in winter?",
+   "options": [
+    [
+     "Thick fog",
+     "Hence the ‘fog-safe device’."
+    ],
+    [
+     "Floods",
+     "Not quite. The article says: Thick fog."
+    ],
+    [
+     "Snow drifts",
+     "Not quite. The article says: Thick fog."
+    ],
+    [
+     "Strikes",
+     "Not quite. The article says: Thick fog."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Trains get held up in the fog or move very slowly."
+  },
+  {
+   "article": "Fate of the Truth-Teller",
+   "page": 16,
+   "link": "fate-of-the-truth-teller",
+   "q": "Who wrote The Law of Success?",
+   "options": [
+    [
+     "Charles Garfield",
+     "Not quite. The article says: Napoleon Hill."
+    ],
+    [
+     "Dale Carnegie",
+     "Not quite. The article says: Napoleon Hill."
+    ],
+    [
+     "Napoleon Hill",
+     "It tells of a Greenland Eskimo brought to New York."
+    ],
+    [
+     "Samuel Smiles",
+     "Not quite. The article says: Napoleon Hill."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Napoleon Hill … in his best-selling book The Law of Success."
+  },
+  {
+   "article": "Truth—an Analysis",
+   "page": 18,
+   "link": "truth-an-analysis",
+   "q": "What is the belief that truth is relative also known as?",
+   "options": [
+    [
+     "‘Revealed truth’",
+     "Not quite. The article says: ‘Personal truth’."
+    ],
+    [
+     "‘Personal truth’",
+     "The article examines it."
+    ],
+    [
+     "‘Absolute truth’",
+     "Not quite. The article says: ‘Personal truth’."
+    ],
+    [
+     "‘Scientific truth’",
+     "Not quite. The article says: ‘Personal truth’."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Truth is something relative not real, known in other words as ‘personal truth’."
+  },
+  {
+   "article": "Acknowledgment of the Truth",
+   "page": 26,
+   "link": "acknowledgment-of-the-truth",
+   "q": "What is disbelief in the truth, according to the article?",
+   "options": [
+    [
+     "Disbelief in God",
+     "Truth emanates from God."
+    ],
+    [
+     "A small matter",
+     "Not quite. The article says: Disbelief in God."
+    ],
+    [
+     "A sign of wisdom",
+     "Not quite. The article says: Disbelief in God."
+    ],
+    [
+     "A right",
+     "Not quite. The article says: Disbelief in God."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Disbelief in the truth is disbelief in God."
+  },
+  {
+   "article": "Appearance and Reality",
+   "page": 30,
+   "link": "appearance-and-reality",
+   "q": "What does appearance do?",
+   "options": [
+    [
+     "It never deceives",
+     "Not quite. The article says: It veils reality."
+    ],
+    [
+     "It veils reality",
+     "Man is tested in seeing beyond it."
+    ],
+    [
+     "It reveals everything",
+     "Not quite. The article says: It veils reality."
+    ],
+    [
+     "It is reality",
+     "Not quite. The article says: It veils reality."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Appearance veils reality."
+  },
+  {
+   "article": "Rationality of Faith",
+   "page": 38,
+   "link": "rationality-of-faith",
+   "q": "What transforms blind faith?",
+   "options": [
+    [
+     "Reason",
+     "Rational argument is a believer’s intellectual need."
+    ],
+    [
+     "Force",
+     "Not quite. The article says: Reason."
+    ],
+    [
+     "Fear",
+     "Not quite. The article says: Reason."
+    ],
+    [
+     "Custom",
+     "Not quite. The article says: Reason."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It is reason which transforms blind faith into a matter …"
+  },
+  {
+   "article": "Actions Matter",
+   "page": 45,
+   "link": "actions-matter",
+   "q": "What did certain people in Madinah do?",
+   "options": [
+    [
+     "Gave all they had",
+     "Not quite. The article says: Talked of truth yet did nothing for its sake."
+    ],
+    [
+     "Talked of truth yet did nothing for its sake",
+     "Using beautiful words to cover misdeeds."
+    ],
+    [
+     "Kept silent",
+     "Not quite. The article says: Talked of truth yet did nothing for its sake."
+    ],
+    [
+     "Left the city",
+     "Not quite. The article says: Talked of truth yet did nothing for its sake."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "There were certain people in Madinah who talked of truth, yet did nothing for its sake."
+  },
+  {
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "Why were earlier communities afflicted with hardship?",
+   "options": [
+    [
+     "For no reason",
+     "Not quite. The article says: So that they might humble themselves."
+    ],
+    [
+     "So that they might humble themselves",
+     "But their hearts hardened."
+    ],
+    [
+     "To make them proud",
+     "Not quite. The article says: So that they might humble themselves."
+    ],
+    [
+     "To make them rich",
+     "Not quite. The article says: So that they might humble themselves."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "… afflicted their people with suffering and hardship, so that they might humble themselves."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Science: A Means of Reinforcing Faith",
+   "page": 5,
+   "link": "science-a-means-of-reinforcing-faith",
+   "q": "What drastically altered man’s conceptions of matter?",
+   "options": [
+    [
+     "The steam engine",
+     "Not quite. The article says: The splitting of the atom."
+    ],
+    [
+     "The splitting of the atom",
+     "Leading to a knowledge explosion."
+    ],
+    [
+     "The telescope",
+     "Not quite. The article says: The splitting of the atom."
+    ],
+    [
+     "The printing press",
+     "Not quite. The article says: The splitting of the atom."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "With the splitting of the atom, all of man’s conceptions of matter have been drastically altered."
+  },
+  {
+   "article": "The Scientific Approach of the Quran",
+   "page": 7,
+   "link": "the-scientific-approach-of-the-quran",
+   "q": "On what is the Quranic approach based?",
+   "options": [
+    [
+     "Scientific principles – thinking in accordance with reality",
+     "Not mythology or superstition."
+    ],
+    [
+     "Superstition",
+     "Not quite. The article says: Scientific principles – thinking in accordance with reality."
+    ],
+    [
+     "Mythology",
+     "Not quite. The article says: Scientific principles – thinking in accordance with reality."
+    ],
+    [
+     "Poetry",
+     "Not quite. The article says: Scientific principles – thinking in accordance with reality."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Quranic approach is based neither on mythology nor on superstition, but on scientific principles."
+  },
+  {
+   "article": "Science and Theology",
+   "page": 14,
+   "link": "science-and-theology",
+   "q": "Who wrote ‘The Goldilocks Enigma’?",
+   "options": [
+    [
+     "Stephen Hawking",
+     "Not quite. The article says: Professor Paul Davies."
+    ],
+    [
+     "Chandra Wickramasinghe",
+     "Not quite. The article says: Professor Paul Davies."
+    ],
+    [
+     "Professor Paul Davies",
+     "Director of ‘BEYOND’ at Arizona State University."
+    ],
+    [
+     "James Jeans",
+     "Not quite. The article says: Professor Paul Davies."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Professor Paul Davies … has several books to his credit, notably ‘The Goldilocks Enigma’."
+  },
+  {
+   "article": "Signs of God",
+   "page": 22,
+   "link": "signs-of-god",
+   "q": "Which laws did Maxwell express in mathematical equations?",
+   "options": [
+    [
+     "The laws of motion",
+     "Not quite. The article says: The laws of electromagnetic interactions."
+    ],
+    [
+     "The laws of gravity",
+     "Not quite. The article says: The laws of electromagnetic interactions."
+    ],
+    [
+     "The laws of heredity",
+     "Not quite. The article says: The laws of electromagnetic interactions."
+    ],
+    [
+     "The laws of electromagnetic interactions",
+     "Boltzmann marvelled at them."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "James Clerk Maxwell represented the laws of electromagnetic interactions in mathematical equations."
+  },
+  {
+   "article": "Science—an Aid to God-Realization",
+   "page": 26,
+   "link": "science-an-aid-to-god-realization",
+   "q": "What are the stars seen to be doing if observed carefully?",
+   "options": [
+    [
+     "Standing still",
+     "Not quite. The article says: Slowly moving."
+    ],
+    [
+     "Slowly moving",
+     "Thousands of them, away from city lights."
+    ],
+    [
+     "Vanishing",
+     "Not quite. The article says: Slowly moving."
+    ],
+    [
+     "Falling",
+     "Not quite. The article says: Slowly moving."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "If you observe them carefully for some time, you will see that they are …"
+  },
+  {
+   "article": "A Delay of Nine Days",
+   "page": 32,
+   "link": "a-delay-of-nine-days",
+   "q": "What erupted on the sun on July 23, 2012?",
+   "options": [
+    [
+     "A new planet",
+     "Not quite. The article says: A massive magnetic storm."
+    ],
+    [
+     "A comet",
+     "Not quite. The article says: A massive magnetic storm."
+    ],
+    [
+     "A massive magnetic storm",
+     "It could have been destructive for Earth."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: A massive magnetic storm."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A massive magnetic storm erupted on the surface of the sun on July 23, 2012."
+  },
+  {
+   "article": "Science Speaks About God",
+   "page": 33,
+   "link": "science-speaks-about-god",
+   "q": "What is the subject of science?",
+   "options": [
+    [
+     "Law",
+     "Not quite. The article says: Nature."
+    ],
+    [
+     "History",
+     "Not quite. The article says: Nature."
+    ],
+    [
+     "Nature",
+     "It studies creation without referring to the Creator."
+    ],
+    [
+     "Poetry",
+     "Not quite. The article says: Nature."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Nature is the subject of science."
+  },
+  {
+   "article": "Miracles or Signs of God",
+   "page": 37,
+   "link": "miracles-or-signs-of-god",
+   "q": "How are the prophets’ signs commonly known?",
+   "options": [
+    [
+     "As miracles",
+     "The Quran calls them signs."
+    ],
+    [
+     "As laws",
+     "Not quite. The article says: As miracles."
+    ],
+    [
+     "As tricks",
+     "Not quite. The article says: As miracles."
+    ],
+    [
+     "As legends",
+     "Not quite. The article says: As miracles."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The signs that the prophets of God demonstrated to their people are commonly known as miracles."
+  },
+  {
+   "article": "Clash Between Science and Religion",
+   "page": 41,
+   "link": "clash-between-science-and-religion",
+   "q": "What was the attitude to religion of earlier scientific researchers?",
+   "options": [
+    [
+     "They were not in any way opposed to it",
+     "Newton saw more than gravity."
+    ],
+    [
+     "They rejected it",
+     "Not quite. The article says: They were not in any way opposed to it."
+    ],
+    [
+     "They ignored it",
+     "Not quite. The article says: They were not in any way opposed to it."
+    ],
+    [
+     "They banned it",
+     "Not quite. The article says: They were not in any way opposed to it."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Those who conducted scientific research in the centuries immediately preceding our own were not in any way opposed to religion."
+  },
+  {
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "On which animal does the passage (88: 17) ask people to reflect?",
+   "options": [
+    [
+     "The horse",
+     "Not quite. The article says: The camel."
+    ],
+    [
+     "The lion",
+     "Not quite. The article says: The camel."
+    ],
+    [
+     "The eagle",
+     "Not quite. The article says: The camel."
+    ],
+    [
+     "The camel",
+     "And on sky, mountains and earth."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Do they never reflect on the camels and how they were created?"
+  }
+ ]
+}

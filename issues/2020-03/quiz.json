@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Greatest Gift",
+   "page": 5,
+   "link": "the-greatest-gift",
+   "q": "What label did International Policy Digest give India in November 2019?",
+   "options": [
+    [
+     "The ‘Suicide Capital of Asia’",
+     "Following a WHO report."
+    ],
+    [
+     "The ‘Garden of Asia’",
+     "Not quite. The article says: The ‘Suicide Capital of Asia’."
+    ],
+    [
+     "The ‘Peace Capital’",
+     "Not quite. The article says: The ‘Suicide Capital of Asia’."
+    ],
+    [
+     "The ‘Silicon Valley of Asia’",
+     "Not quite. The article says: The ‘Suicide Capital of Asia’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Labelled India as the ‘Suicide Capital of Asia’."
+  },
+  {
+   "article": "Nature’s Laboratory",
+   "page": 9,
+   "link": "natures-laboratory",
+   "q": "To what may nature be likened?",
+   "options": [
+    [
+     "A market",
+     "Not quite. The article says: A laboratory."
+    ],
+    [
+     "A museum",
+     "Not quite. The article says: A laboratory."
+    ],
+    [
+     "A prison",
+     "Not quite. The article says: A laboratory."
+    ],
+    [
+     "A laboratory",
+     "Full of examples of conversion."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Nature may be likened to a laboratory as it shows abundant examples of conversion."
+  },
+  {
+   "article": "Quest for Life in Space",
+   "page": 17,
+   "link": "quest-for-life-in-space",
+   "q": "What does SETI stand for?",
+   "options": [
+    [
+     "Science, Energy, Technology, Industry",
+     "Not quite. The article says: The Search for Extraterrestrial Intelligence."
+    ],
+    [
+     "The Search for Extraterrestrial Intelligence",
+     "Listening for life in space."
+    ],
+    [
+     "Space Exploration and Travel Institute",
+     "Not quite. The article says: The Search for Extraterrestrial Intelligence."
+    ],
+    [
+     "Society for Earth and Time",
+     "Not quite. The article says: The Search for Extraterrestrial Intelligence."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "SETI or The Search for Extraterrestrial Intelligence."
+  },
+  {
+   "article": "Be Grateful for Your Youth",
+   "page": 22,
+   "link": "be-grateful-for-your-youth",
+   "q": "What is youth said to be?",
+   "options": [
+    [
+     "The least important part",
+     "Not quite. The article says: The best part of a person’s life."
+    ],
+    [
+     "The best part of a person’s life",
+     "We will be questioned about it."
+    ],
+    [
+     "A time to waste",
+     "Not quite. The article says: The best part of a person’s life."
+    ],
+    [
+     "A burden",
+     "Not quite. The article says: The best part of a person’s life."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Youth is said to be the best part …"
+  },
+  {
+   "article": "Burqa in the Muslim Society",
+   "page": 24,
+   "link": "burqa-in-the-muslim-society",
+   "q": "How is the burqa generally looked upon?",
+   "options": [
+    [
+     "As an integral part of Islam – but this is not so",
+     "It belongs to Muslim culture."
+    ],
+    [
+     "As forbidden",
+     "Not quite. The article says: As an integral part of Islam – but this is not so."
+    ],
+    [
+     "As a foreign custom",
+     "Not quite. The article says: As an integral part of Islam – but this is not so."
+    ],
+    [
+     "As a new invention",
+     "Not quite. The article says: As an integral part of Islam – but this is not so."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Burqa or purdah is generally looked upon as an integral part of Islam, but this is not really so."
+  },
+  {
+   "article": "Islamic Approach to Divorce",
+   "page": 28,
+   "link": "islamic-approach-to-divorce",
+   "q": "What does the Encyclopaedia Britannica say of childless couples?",
+   "options": [
+    [
+     "They marry later",
+     "Not quite. The article says: They tend to have higher divorce rates."
+    ],
+    [
+     "They never divorce",
+     "Not quite. The article says: They tend to have higher divorce rates."
+    ],
+    [
+     "They tend to have higher divorce rates",
+     "From western data."
+    ],
+    [
+     "They are happier",
+     "Not quite. The article says: They tend to have higher divorce rates."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Childless couples tend to have higher divorce rates than couples with children”."
+  },
+  {
+   "article": "Waste of Money",
+   "page": 38,
+   "link": "waste-of-money",
+   "q": "What do those who earn money tend to believe?",
+   "options": [
+    [
+     "That it is a trust",
+     "Not quite. The article says: That it is their own property to spend as they please."
+    ],
+    [
+     "That it is their own property to spend as they please",
+     "The Quran corrects this."
+    ],
+    [
+     "That it belongs to the poor",
+     "Not quite. The article says: That it is their own property to spend as they please."
+    ],
+    [
+     "That it should be hidden",
+     "Not quite. The article says: That it is their own property to spend as they please."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "There is a general tendency in those who earn money to believe that it is their own property."
+  },
+  {
+   "article": "Prophet as a Model",
+   "page": 40,
+   "link": "prophet-as-a-model",
+   "q": "What did the Prophet do when the tide turned at Uhud?",
+   "options": [
+    [
+     "He left the field",
+     "Not quite. The article says: He clung determinedly to his position."
+    ],
+    [
+     "He surrendered",
+     "Not quite. The article says: He clung determinedly to his position."
+    ],
+    [
+     "He clung determinedly to his position",
+     "Fifteen stood firm with him."
+    ],
+    [
+     "He hid",
+     "Not quite. The article says: He clung determinedly to his position."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Prophet Muhammad clung determinedly to his position."
+  },
+  {
+   "article": "End of the Age of War",
+   "page": 43,
+   "link": "end-of-the-age-of-war",
+   "q": "What has war become from the 20th century onwards?",
+   "options": [
+    [
+     "More useful",
+     "Not quite. The article says: Totally unnecessary."
+    ],
+    [
+     "A sport",
+     "Not quite. The article says: Totally unnecessary."
+    ],
+    [
+     "Inevitable",
+     "Not quite. The article says: Totally unnecessary."
+    ],
+    [
+     "Totally unnecessary",
+     "After a revolution in human affairs."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "From the 20th century onwards … war has become totally unnecessary."
+  },
+  {
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "To what are those who take protectors other than God compared?",
+   "options": [
+    [
+     "The bee",
+     "Not quite. The article says: The spider, whose house is the frailest of structures."
+    ],
+    [
+     "The ant",
+     "Not quite. The article says: The spider, whose house is the frailest of structures."
+    ],
+    [
+     "The lion",
+     "Not quite. The article says: The spider, whose house is the frailest of structures."
+    ],
+    [
+     "The spider, whose house is the frailest of structures",
+     "“If they but knew it.”"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "… can be compared to the spider which builds itself a cobweb, but the frailest of all structures is the house of the spider."
+  }
+ ]
+}

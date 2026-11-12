@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "What Drives Us to the Point of No Return?",
+   "page": 5,
+   "link": "what-drives-us-to-the-point-of-no-return",
+   "q": "What has suicide become among young people worldwide, according to WHO?",
+   "options": [
+    [
+     "Unknown",
+     "Not quite. The article says: The second most common cause of death."
+    ],
+    [
+     "Very rare",
+     "Not quite. The article says: The second most common cause of death."
+    ],
+    [
+     "The second most common cause of death",
+     "Hence its Mental Health Action Plan."
+    ],
+    [
+     "The tenth cause",
+     "Not quite. The article says: The second most common cause of death."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Suicide has become the second most common cause of death among young people worldwide."
+  },
+  {
+   "article": "A Purposeful Life",
+   "page": 10,
+   "link": "a-purposeful-life",
+   "q": "What characterizes the most advanced stage of human development?",
+   "options": [
+    [
+     "Great wealth",
+     "Not quite. The article says: A purposeful life."
+    ],
+    [
+     "Physical strength",
+     "Not quite. The article says: A purposeful life."
+    ],
+    [
+     "A purposeful life",
+     "Not just any apparently significant task."
+    ],
+    [
+     "Fame",
+     "Not quite. The article says: A purposeful life."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Such a life characterizes the most advanced stage of human development."
+  },
+  {
+   "article": "Man: A Gifted Creation",
+   "page": 15,
+   "link": "man-a-gifted-creation",
+   "q": "What has God granted man in a limited way?",
+   "options": [
+    [
+     "Unlimited power",
+     "Not quite. The article says: Divine attributes."
+    ],
+    [
+     "Divine attributes",
+     "The meaning of “in His own image”."
+    ],
+    [
+     "Immortality",
+     "Not quite. The article says: Divine attributes."
+    ],
+    [
+     "God’s appearance",
+     "Not quite. The article says: Divine attributes."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "God has in a limited way granted man those divine attributes …"
+  },
+  {
+   "article": "Misuse of Freedom",
+   "page": 18,
+   "link": "misuse-of-freedom",
+   "q": "To what question does the debate over belief and disbelief boil down?",
+   "options": [
+    [
+     "Who is older?",
+     "Not quite. The article says: Does logic prevail?."
+    ],
+    [
+     "Does logic prevail?",
+     "Disbelievers cite contradictions in the world."
+    ],
+    [
+     "Who is richer?",
+     "Not quite. The article says: Does logic prevail?."
+    ],
+    [
+     "Who speaks louder?",
+     "Not quite. The article says: Does logic prevail?."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The entire debate over belief and disbelief boils down to one question: Does logic prevail?"
+  },
+  {
+   "article": "Humans on Trial",
+   "page": 25,
+   "link": "humans-on-trial",
+   "q": "For what purpose is man’s freedom?",
+   "options": [
+    [
+     "To put him to the test",
+     "Not to encourage permissiveness."
+    ],
+    [
+     "For no purpose",
+     "Not quite. The article says: To put him to the test."
+    ],
+    [
+     "To rule others",
+     "Not quite. The article says: To put him to the test."
+    ],
+    [
+     "For enjoyment only",
+     "Not quite. The article says: To put him to the test."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "This freedom is for the purpose of putting man to the test."
+  },
+  {
+   "article": "Quran: A Guide to Life and Beyond",
+   "page": 28,
+   "link": "quran-a-guide-to-life-and-beyond",
+   "q": "What usually accompanies medicines, in the article’s comparison?",
+   "options": [
+    [
+     "A bill only",
+     "Not quite. The article says: Leaflets explaining their use."
+    ],
+    [
+     "Leaflets explaining their use",
+     "Man is born without such a leaflet."
+    ],
+    [
+     "A doctor",
+     "Not quite. The article says: Leaflets explaining their use."
+    ],
+    [
+     "Sweets",
+     "Not quite. The article says: Leaflets explaining their use."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Medicines are usually accompanied by leaflets explaining what illnesses they are designed to cure."
+  },
+  {
+   "article": "Determinism vs Freewill",
+   "page": 34,
+   "link": "determinism-vs-freewill",
+   "q": "How does the article answer the question of freewill?",
+   "options": [
+    [
+     "He is entirely helpless",
+     "Not quite. The article says: In one sense man is free, in another helpless."
+    ],
+    [
+     "He is entirely free",
+     "Not quite. The article says: In one sense man is free, in another helpless."
+    ],
+    [
+     "In one sense man is free, in another helpless",
+     "Fifty-fifty."
+    ],
+    [
+     "The question has no answer",
+     "Not quite. The article says: In one sense man is free, in another helpless."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "In one sense, man is free, but in another sense he is helpless."
+  },
+  {
+   "article": "A History of Intellectual Perversion",
+   "page": 39,
+   "link": "a-history-of-intellectual-perversion",
+   "q": "What are all parts of the universe doing, according to the Quran?",
+   "options": [
+    [
+     "Acting at random",
+     "Not quite. The article says: Carrying out God’s scheme without deviation."
+    ],
+    [
+     "Resisting",
+     "Not quite. The article says: Carrying out God’s scheme without deviation."
+    ],
+    [
+     "Standing still",
+     "Not quite. The article says: Carrying out God’s scheme without deviation."
+    ],
+    [
+     "Carrying out God’s scheme without deviation",
+     "Man alone deviates."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "All its parts … are carrying out His divine scheme without the slightest deviation."
+  },
+  {
+   "article": "The Problem of Evil",
+   "page": 43,
+   "link": "the-problem-of-evil",
+   "q": "Who wrote ‘The Relationship between Faith and Reason’?",
+   "options": [
+    [
+     "Paul Davies",
+     "Not quite. The article says: Dr Paul Badham."
+    ],
+    [
+     "Paul Dirac",
+     "Not quite. The article says: Dr Paul Badham."
+    ],
+    [
+     "Dr Paul Badham",
+     "In the journal Faith and Reason, 1992."
+    ],
+    [
+     "Bertrand Russell",
+     "Not quite. The article says: Dr Paul Badham."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "An article titled, ‘The Relationship between Faith and Reason’, by Dr Paul Badham."
+  },
+  {
+   "article": "Every Situation in Life Is a Test",
+   "page": 46,
+   "link": "every-situation-in-life-is-a-test",
+   "q": "What words do many display outside their new homes?",
+   "options": [
+    [
+     "“Keep out.”",
+     "Not quite. The article says: “This is by the grace of my Lord.”."
+    ],
+    [
+     "“For sale.”",
+     "Not quite. The article says: “This is by the grace of my Lord.”."
+    ],
+    [
+     "“Home sweet home.”",
+     "Not quite. The article says: “This is by the grace of my Lord.”."
+    ],
+    [
+     "“This is by the grace of my Lord.”",
+     "Part of a larger Quranic verse."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“This is by the grace of my Lord.”"
+  }
+ ]
+}

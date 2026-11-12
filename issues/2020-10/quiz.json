@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Global Library",
+   "page": 5,
+   "link": "global-library",
+   "q": "What does every human being amount to, according to the article?",
+   "options": [
+    [
+     "A shadow",
+     "Not quite. The article says: A book."
+    ],
+    [
+     "A number",
+     "Not quite. The article says: A book."
+    ],
+    [
+     "A machine",
+     "Not quite. The article says: A book."
+    ],
+    [
+     "A book",
+     "Together, a global library."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Every human being is a book. The human beings, taken together, constitute a global library."
+  },
+  {
+   "article": "Faith and Politics",
+   "page": 9,
+   "link": "faith-and-politics",
+   "q": "Into which two parts can the teachings of Islam be divided?",
+   "options": [
+    [
+     "East and West",
+     "Not quite. The article says: Eternal belief, and matters that depend on circumstances."
+    ],
+    [
+     "Eternal belief, and matters that depend on circumstances",
+     "The second part is subject to change."
+    ],
+    [
+     "Old and new",
+     "Not quite. The article says: Eternal belief, and matters that depend on circumstances."
+    ],
+    [
+     "Law and poetry",
+     "Not quite. The article says: Eternal belief, and matters that depend on circumstances."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The first part is related to belief which is eternal in nature, and the other part deals with those aspects which depend on the circumstances."
+  },
+  {
+   "article": "The Unerasable Past",
+   "page": 12,
+   "link": "the-unerasable-past",
+   "q": "Who was Tony Benn?",
+   "options": [
+    [
+     "A French philosopher",
+     "Not quite. The article says: A British Labour MP."
+    ],
+    [
+     "A British Labour MP",
+     "He tried to erase a BBC interview."
+    ],
+    [
+     "An Indian judge",
+     "Not quite. The article says: A British Labour MP."
+    ],
+    [
+     "An American senator",
+     "Not quite. The article says: A British Labour MP."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Tony Benn (d. 2014), a British Labour MP."
+  },
+  {
+   "article": "Sharing the Rewards",
+   "page": 16,
+   "link": "sharing-the-rewards",
+   "q": "Where did the Prophet lead an expedition in CE 630?",
+   "options": [
+    [
+     "Badr",
+     "Not quite. The article says: Tabuk."
+    ],
+    [
+     "Uhud",
+     "Not quite. The article says: Tabuk."
+    ],
+    [
+     "Khaybar",
+     "Not quite. The article says: Tabuk."
+    ],
+    [
+     "Tabuk",
+     "Some had valid excuses for not joining."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In the year CE 630, the Prophet led a military expedition to Tabuk."
+  },
+  {
+   "article": "Price of Unity",
+   "page": 20,
+   "link": "price-of-unity",
+   "q": "What was Madinah in the days of the Prophet?",
+   "options": [
+    [
+     "A natural fortress",
+     "Groves to the south, mountains east and west."
+    ],
+    [
+     "A harbour",
+     "Not quite. The article says: A natural fortress."
+    ],
+    [
+     "An island",
+     "Not quite. The article says: A natural fortress."
+    ],
+    [
+     "An open plain",
+     "Not quite. The article says: A natural fortress."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In the days of the Prophet, Madinah was a natural fortress."
+  },
+  {
+   "article": "The Superior Solution",
+   "page": 22,
+   "link": "the-superior-solution",
+   "q": "With what should help be sought (2: 45)?",
+   "options": [
+    [
+     "Wealth and power",
+     "Not quite. The article says: Patience and prayer."
+    ],
+    [
+     "Numbers",
+     "Not quite. The article says: Patience and prayer."
+    ],
+    [
+     "Anger",
+     "Not quite. The article says: Patience and prayer."
+    ],
+    [
+     "Patience and prayer",
+     "Patience is the focus of about 200 verses."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Seek help with patience and prayer."
+  },
+  {
+   "article": "Positivity: The Fertile Ground for God-Realization",
+   "page": 24,
+   "link": "positivity-the-fertile-ground-for-god-realization",
+   "q": "What is essential for a plant to grow?",
+   "options": [
+    [
+     "Darkness",
+     "Not quite. The article says: Fertile land."
+    ],
+    [
+     "Stone",
+     "Not quite. The article says: Fertile land."
+    ],
+    [
+     "Barren land",
+     "Not quite. The article says: Fertile land."
+    ],
+    [
+     "Fertile land",
+     "Positivity is such ground for God-realization."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "For a plant to grow, fertile land is essential."
+  },
+  {
+   "article": "Preparing for Death",
+   "page": 36,
+   "link": "preparing-for-death",
+   "q": "With what does man come to this world equipped?",
+   "options": [
+    [
+     "Wealth",
+     "Not quite. The article says: An excellent mind and an excellent body."
+    ],
+    [
+     "Knowledge of the future",
+     "Not quite. The article says: An excellent mind and an excellent body."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: An excellent mind and an excellent body."
+    ],
+    [
+     "An excellent mind and an excellent body",
+     "In an exceptionally favourable world."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Man comes to this world equipped with an excellent mind and an excellent body."
+  },
+  {
+   "article": "An Undiscovered Reality",
+   "page": 42,
+   "link": "an-undiscovered-reality",
+   "q": "Why does no one apply the news of death personally?",
+   "options": [
+    [
+     "Because of the ‘now-based’ culture",
+     "Death is known yet undiscovered."
+    ],
+    [
+     "Because death is rare",
+     "Not quite. The article says: Because of the ‘now-based’ culture."
+    ],
+    [
+     "Because no one hears of it",
+     "Not quite. The article says: Because of the ‘now-based’ culture."
+    ],
+    [
+     "Because it is forbidden",
+     "Not quite. The article says: Because of the ‘now-based’ culture."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The reason is the ‘now-based’ culture."
+  },
+  {
+   "article": "Sleep: A Reminder of Death",
+   "page": 45,
+   "link": "sleep-a-reminder-of-death",
+   "q": "What would the Prophet say on waking every morning?",
+   "options": [
+    [
+     "“Where is my breakfast?”",
+     "Not quite. The article says: “All praise and thanks are due to God who gave us life after death.”."
+    ],
+    [
+     "“All praise and thanks are due to God who gave us life after death.”",
+     "He likened death to sleep."
+    ],
+    [
+     "“Another day of toil.”",
+     "Not quite. The article says: “All praise and thanks are due to God who gave us life after death.”."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: “All praise and thanks are due to God who gave us life after death.”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“All praise and thanks are due to God who gave us life after death.”"
+  }
+ ]
+}
