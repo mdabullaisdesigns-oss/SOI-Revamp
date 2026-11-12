@@ -1827,7 +1827,966 @@
 })();
 </script>
 
-<!-- quiz pending: issues/2019-01/quiz.json not written yet -->
+<!-- ===== READERS' REFLECTION QUIZ ===== -->
+<style>
+#soi-quiz {
+  --z-teal: #204E60;
+  --z-teal-dark: #12323E;
+  --z-teal-mid: #2A6378;
+  --z-gold: #D4CC73;
+  --z-gold-deep: #B5AC4E;
+  --z-gold-soft: rgba(212, 204, 115, 0.2);
+  --z-crimson: #EA3551;
+  --z-right: #2F7D5C;
+  --z-page: #EEEEE5;
+  --z-paper: #FBFBF7;
+  --z-line: #DCDCD0;
+  --z-ink: #24343A;
+  --z-muted: #5E6E74;
+  --z-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --z-display: 'Cita Pro', 'CitaPro', Georgia, serif;
+  --z-display-italic: 'Cita Pro Ita', 'Cita Pro', 'CitaPro', Georgia, serif;
+  --z-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* page-coloured background, painted edge to edge behind the quiz */
+  position: relative;
+  background: var(--z-page);
+  box-shadow: 0 0 0 100vmax var(--z-page);
+  clip-path: inset(0 -100vmax);
+  padding: 2.5rem 1rem 3rem;
+  scroll-margin-top: 100px;
+  font-family: var(--z-sans);
+  color: var(--z-ink);
+  -webkit-font-smoothing: antialiased;
+}
+#soi-quiz, #soi-quiz * { box-sizing: border-box; }
+#soi-quiz .z-wrap { max-width: 880px; margin: 0 auto; position: relative; }
+
+/* ---------- Shell: double frame, deep shadow ---------- */
+#soi-quiz .z-shell {
+  position: relative; overflow: hidden;
+  background: var(--z-paper);
+  border-radius: 26px;
+  border: 1px solid rgba(32, 78, 96, 0.18);
+  box-shadow:
+    0 0 0 6px var(--z-page),
+    0 0 0 7px rgba(212, 204, 115, 0.65),
+    0 30px 60px -24px rgba(18, 50, 62, 0.45),
+    0 10px 22px -10px rgba(18, 50, 62, 0.18);
+}
+
+/* ---------- Invitation header (always visible) ---------- */
+#soi-quiz button.z-invite {
+  all: unset; box-sizing: border-box; width: 100%; cursor: pointer; position: relative; overflow: hidden;
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1.25rem;
+  padding: clamp(1.4rem, 3.5vw, 2rem) clamp(1.25rem, 4vw, 2.25rem);
+  background: radial-gradient(120% 140% at 0% 0%, var(--z-teal-mid) 0%, var(--z-teal) 45%, var(--z-teal-dark) 100%);
+  color: var(--z-page);
+}
+#soi-quiz button.z-invite:focus-visible { outline: 3px solid var(--z-gold); outline-offset: -3px; }
+/* drifting diamond lattice */
+#soi-quiz .z-invite::before {
+  content: ''; position: absolute; inset: -40px; opacity: 0.09; pointer-events: none;
+  background-image:
+    linear-gradient(45deg, var(--z-gold) 1px, transparent 1px),
+    linear-gradient(-45deg, var(--z-gold) 1px, transparent 1px);
+  background-size: 34px 34px;
+  animation: soiZDrift 24s linear infinite;
+}
+@keyframes soiZDrift { to { transform: translate(34px, 34px); } }
+/* sheen on hover */
+#soi-quiz .z-invite::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 40%; left: -60%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+  transform: skewX(-18deg); transition: left 0.9s var(--z-ease); pointer-events: none;
+}
+#soi-quiz .z-invite:hover::after { left: 130%; }
+
+#soi-quiz .z-emblem { position: relative; width: 64px; height: 64px; display: grid; place-items: center; }
+#soi-quiz .z-emblem::before, #soi-quiz .z-emblem::after {
+  content: ''; position: absolute; inset: 9px; transform: rotate(45deg); border-radius: 6px;
+}
+#soi-quiz .z-emblem::before { background: var(--z-gold); box-shadow: 0 8px 20px -6px rgba(212, 204, 115, 0.7); }
+#soi-quiz .z-emblem::after { inset: 2px; border: 1.5px solid rgba(212, 204, 115, 0.55); animation: soiZSpin 14s linear infinite; }
+@keyframes soiZSpin { to { transform: rotate(405deg); } }
+#soi-quiz .z-emblem svg { position: relative; z-index: 1; width: 26px; height: 26px; color: var(--z-teal-dark); }
+
+#soi-quiz .z-invite-text { position: relative; min-width: 0; }
+#soi-quiz .z-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.55rem; }
+#soi-quiz .z-pill {
+  display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.28rem 0.7rem; border-radius: 999px;
+  font-size: 0.64rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--z-gold); border: 1px solid rgba(212, 204, 115, 0.45); background: rgba(255, 255, 255, 0.06);
+}
+#soi-quiz .z-pill.light { color: var(--z-page); border-color: rgba(238, 238, 229, 0.3); }
+#soi-quiz .z-invite-title {
+  display: block; font-family: var(--z-display); font-weight: 700;
+  font-size: clamp(1.35rem, 3.4vw, 1.9rem); line-height: 1.2; color: #fff; margin-bottom: 0.4rem;
+}
+#soi-quiz .z-invite-desc { display: block; font-size: 0.9rem; line-height: 1.6; color: rgba(238, 238, 229, 0.85); }
+#soi-quiz .z-toggle {
+  position: relative; display: inline-flex; align-items: center; gap: 0.55rem; white-space: nowrap;
+  padding: 0.8rem 1.25rem; border-radius: 999px; background: var(--z-gold); color: var(--z-teal-dark);
+  font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+  box-shadow: 0 10px 24px -8px rgba(212, 204, 115, 0.65);
+  transition: transform 0.4s var(--z-ease), box-shadow 0.4s var(--z-ease);
+  animation: soiZBreathe 2.8s ease-in-out infinite;
+}
+#soi-quiz .z-invite:hover .z-toggle { transform: translateY(-2px); }
+#soi-quiz .z-toggle svg { width: 14px; height: 14px; transition: transform 0.45s var(--z-ease); }
+#soi-quiz.is-open .z-toggle { animation: none; }
+#soi-quiz.is-open .z-toggle svg { transform: rotate(180deg); }
+@keyframes soiZBreathe { 50% { box-shadow: 0 10px 30px -4px rgba(212, 204, 115, 0.95); } }
+
+/* ---------- Collapsible body ---------- */
+#soi-quiz .z-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.6s var(--z-ease); }
+#soi-quiz.is-open .z-body { grid-template-rows: 1fr; }
+#soi-quiz .z-body-inner { overflow: hidden; min-height: 0; }
+#soi-quiz .z-view { display: none; padding: clamp(1.6rem, 4vw, 2.5rem) clamp(1.25rem, 5vw, 3rem); animation: soiZIn 0.55s var(--z-ease); }
+#soi-quiz .z-view.is-active { display: block; }
+@keyframes soiZIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+#soi-quiz p { font-family: var(--z-sans) !important; font-size: 0.98rem !important; line-height: 1.75 !important; color: var(--z-ink) !important; margin: 0 0 1rem !important; padding: 0 !important; }
+#soi-quiz h3.z-h {
+  font-family: var(--z-display) !important; font-weight: 700 !important; font-size: clamp(1.45rem, 3.2vw, 1.85rem) !important;
+  line-height: 1.25 !important; color: var(--z-teal) !important; margin: 0 0 0.7rem !important; padding: 0 !important;
+}
+
+/* Intro */
+#soi-quiz .z-intro { max-width: 600px; margin: 0 auto; text-align: center; }
+#soi-quiz .z-orn { display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 1rem; }
+#soi-quiz .z-orn i { width: 9px; height: 9px; background: var(--z-gold); transform: rotate(45deg); animation: soiZBob 2.4s ease-in-out infinite; }
+#soi-quiz .z-orn i:nth-child(2) { width: 13px; height: 13px; background: var(--z-teal); animation-delay: 0.2s; }
+#soi-quiz .z-orn i:nth-child(3) { animation-delay: 0.4s; }
+@keyframes soiZBob { 50% { transform: rotate(45deg) translateY(-5px); } }
+#soi-quiz .z-field { text-align: left; margin: 1.4rem 0 0.4rem; }
+#soi-quiz label.z-label { display: block; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--z-teal); margin-bottom: 0.45rem; }
+#soi-quiz .z-input-wrap { position: relative; }
+#soi-quiz .z-input-wrap svg { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--z-muted); pointer-events: none; }
+#soi-quiz input.z-input {
+  width: 100% !important; height: 54px !important; margin: 0 !important; padding: 0 1rem 0 2.9rem !important;
+  font-family: var(--z-sans) !important; font-size: 1rem !important; font-weight: 600 !important; color: var(--z-ink) !important;
+  background: #fff !important; border: 1.5px solid var(--z-line) !important; border-radius: 14px !important; outline: none !important;
+  transition: border-color 0.3s var(--z-ease), box-shadow 0.3s var(--z-ease);
+}
+#soi-quiz input.z-input:focus { border-color: var(--z-teal) !important; box-shadow: 0 0 0 4px rgba(32, 78, 96, 0.12) !important; }
+#soi-quiz input.z-input.has-error { border-color: var(--z-crimson) !important; animation: soiZShake 0.4s; }
+@keyframes soiZShake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+#soi-quiz .z-error { min-height: 1.2rem; margin-top: 0.4rem; font-size: 0.82rem; font-weight: 600; color: var(--z-crimson); text-align: left; }
+#soi-quiz .z-info {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; margin: 1rem 0 1.4rem; text-align: center;
+}
+#soi-quiz .z-info div { background: var(--z-page); border: 1px solid var(--z-line); border-radius: 14px; padding: 0.8rem 0.5rem; }
+#soi-quiz .z-info b { display: block; font-family: var(--z-display); font-size: 1.5rem; color: var(--z-teal); line-height: 1.1; }
+#soi-quiz .z-info span { font-size: 0.72rem; font-weight: 600; color: var(--z-muted); }
+
+/* Buttons */
+#soi-quiz button.z-btn {
+  all: unset; box-sizing: border-box; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 50px;
+  padding: 0.8rem 1.6rem; border-radius: 999px;
+  font-family: var(--z-sans); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+  transition: transform 0.35s var(--z-ease), background 0.35s var(--z-ease), color 0.35s var(--z-ease), box-shadow 0.35s var(--z-ease);
+}
+#soi-quiz button.z-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+#soi-quiz button.z-btn:focus-visible { outline: 3px solid var(--z-gold); outline-offset: 3px; }
+#soi-quiz button.z-btn.z-btn-main { background: var(--z-teal); color: #fff; box-shadow: 0 12px 26px -12px rgba(18, 50, 62, 0.7); }
+#soi-quiz button.z-btn.z-btn-main:hover { background: var(--z-teal-dark); transform: translateY(-2px); }
+#soi-quiz button.z-btn.z-btn-ghost { color: var(--z-teal); border: 2px solid var(--z-teal); }
+#soi-quiz button.z-btn.z-btn-ghost:hover { background: var(--z-teal); color: #fff; }
+#soi-quiz .z-full { width: 100%; }
+/* "Let's Start": split block, teal label + gold arrow block */
+#soi-quiz button.z-split {
+  all: unset; box-sizing: border-box; cursor: pointer; width: 100%; min-height: 54px;
+  display: flex; align-items: stretch; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 14px 26px -14px rgba(18, 50, 62, 0.85); transition: transform 0.35s var(--z-ease), box-shadow 0.35s var(--z-ease);
+  -webkit-tap-highlight-color: transparent;
+}
+#soi-quiz .z-split-t {
+  flex: 1; display: flex; align-items: center; justify-content: center; padding: 0.85rem 1.25rem;
+  background: var(--z-teal); color: #fff; transition: background 0.35s var(--z-ease);
+  font-family: var(--z-sans); font-size: 0.82rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap;
+}
+#soi-quiz .z-split-a {
+  flex: 0 0 56px; display: grid; place-items: center; background: var(--z-gold); color: var(--z-teal-dark);
+  transition: flex-basis 0.4s var(--z-ease);
+}
+#soi-quiz .z-split-a svg { width: 18px; height: 18px; transition: transform 0.4s var(--z-ease); }
+#soi-quiz button.z-split:hover { transform: translateY(-2px); box-shadow: 0 18px 30px -14px rgba(18, 50, 62, 0.9); }
+#soi-quiz button.z-split:hover .z-split-t { background: var(--z-teal-dark); }
+#soi-quiz button.z-split:hover .z-split-a { flex-basis: 70px; }
+#soi-quiz button.z-split:hover .z-split-a svg { transform: translateX(3px); }
+#soi-quiz button.z-split:active { transform: translateY(0); }
+#soi-quiz button.z-split:focus-visible { outline: 3px solid var(--z-gold); outline-offset: 3px; }
+
+/* ---------- Question view ---------- */
+#soi-quiz .z-top { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.1rem; }
+#soi-quiz .z-top-left { flex: 1; min-width: 0; }
+#soi-quiz .z-count { display: inline-block; padding: 0.25rem 0.65rem; border-radius: 8px; background: var(--z-teal); color: #fff; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em; }
+#soi-quiz .z-score-live { margin-left: 0.4rem; font-size: 0.75rem; font-weight: 800; color: var(--z-gold-deep); }
+#soi-quiz .z-bar { height: 6px; border-radius: 6px; background: var(--z-page); overflow: hidden; margin-top: 0.65rem; }
+#soi-quiz .z-bar span { display: block; height: 100%; width: 0; border-radius: 6px; background: linear-gradient(90deg, var(--z-teal), var(--z-gold)); transition: width 0.6s var(--z-ease); }
+
+/* Timer ring */
+#soi-quiz .z-timer { position: relative; width: 66px; height: 66px; flex-shrink: 0; }
+#soi-quiz .z-timer svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+#soi-quiz .z-timer circle { fill: none; stroke-width: 6; }
+#soi-quiz .z-timer .t-bg { stroke: var(--z-page); }
+#soi-quiz .z-timer .t-fg { stroke: var(--z-gold); stroke-linecap: round; transition: stroke 0.4s; }
+#soi-quiz .z-timer .t-num { position: absolute; inset: 0; display: grid; place-items: center; font-weight: 800; font-size: 1.15rem; color: var(--z-teal); font-variant-numeric: tabular-nums; }
+#soi-quiz .z-timer .t-num small { display: block; font-size: 0.55rem; font-weight: 700; letter-spacing: 0.1em; color: var(--z-muted); margin-top: -0.25rem; text-align: center; }
+#soi-quiz .z-timer.is-low .t-fg { stroke: var(--z-crimson); }
+#soi-quiz .z-timer.is-low { animation: soiZPulse 1s ease-in-out infinite; }
+#soi-quiz .z-timer.is-low .t-num { color: var(--z-crimson); }
+#soi-quiz .z-timer.is-paused { animation: none; opacity: 0.55; }
+@keyframes soiZPulse { 50% { transform: scale(1.08); } }
+
+#soi-quiz .z-source { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--z-muted); margin-bottom: 0.6rem; }
+#soi-quiz .z-source::before { content: ''; width: 7px; height: 7px; background: var(--z-gold); transform: rotate(45deg); }
+#soi-quiz p.z-question {
+  font-family: var(--z-display) !important; font-weight: 700 !important; font-size: clamp(1.3rem, 2.9vw, 1.65rem) !important;
+  line-height: 1.3 !important; color: var(--z-teal) !important; margin: 0 0 1.3rem !important;
+}
+#soi-quiz .z-opts { display: grid; gap: 0.7rem; }
+#soi-quiz button.z-opt {
+  all: unset; box-sizing: border-box; width: 100%; cursor: pointer; position: relative; overflow: hidden;
+  display: flex; align-items: flex-start; gap: 0.9rem; padding: 1rem 1.1rem;
+  background: #fff; border: 1.5px solid var(--z-line); border-radius: 16px;
+  font-family: var(--z-sans); font-size: 0.98rem; line-height: 1.5; color: var(--z-ink);
+  box-shadow: 0 4px 12px -8px rgba(18, 50, 62, 0.25);
+  opacity: 0; transform: translateY(10px); animation: soiZIn 0.5s var(--z-ease) forwards;
+  transition: border-color 0.3s var(--z-ease), transform 0.3s var(--z-ease), background 0.3s var(--z-ease), box-shadow 0.3s var(--z-ease);
+}
+#soi-quiz button.z-opt:hover:not([disabled]) { border-color: var(--z-teal); transform: translateY(-2px); box-shadow: 0 12px 22px -12px rgba(18, 50, 62, 0.35); }
+#soi-quiz button.z-opt:focus-visible { outline: 3px solid var(--z-gold); outline-offset: 2px; }
+#soi-quiz button.z-opt[disabled] { cursor: default; }
+#soi-quiz .z-letter {
+  flex-shrink: 0; width: 2rem; height: 2rem; display: grid; place-items: center; position: relative;
+  font-size: 0.78rem; font-weight: 800; color: var(--z-teal);
+}
+#soi-quiz .z-letter::before { content: ''; position: absolute; inset: 4px; border: 1.5px solid rgba(32, 78, 96, 0.35); transform: rotate(45deg); border-radius: 3px; transition: all 0.3s var(--z-ease); }
+#soi-quiz .z-letter span { position: relative; }
+#soi-quiz .z-opt-text { padding-top: 0.2rem; }
+#soi-quiz .z-why { display: block; margin-top: 0.4rem; font-size: 0.86rem; line-height: 1.6; }
+#soi-quiz .z-opt.is-right { background: rgba(47, 125, 92, 0.08); border-color: var(--z-right); }
+#soi-quiz .z-opt.is-right .z-letter { color: #fff; }
+#soi-quiz .z-opt.is-right .z-letter::before { background: var(--z-right); border-color: var(--z-right); }
+#soi-quiz .z-opt.is-right .z-why { color: #245F46; }
+#soi-quiz .z-opt.is-wrong { background: rgba(234, 53, 81, 0.06); border-color: var(--z-crimson); animation: soiZShake 0.4s; opacity: 1; transform: none; }
+#soi-quiz .z-opt.is-wrong .z-letter { color: #fff; }
+#soi-quiz .z-opt.is-wrong .z-letter::before { background: var(--z-crimson); border-color: var(--z-crimson); }
+#soi-quiz .z-opt.is-wrong .z-why { color: #A3263B; }
+#soi-quiz .z-opt.is-dim { opacity: 0.5 !important; }
+
+/* Feedback */
+#soi-quiz .z-feedback { display: none; margin-top: 1.2rem; padding: 1.15rem 1.25rem; border-radius: 16px; border: 1px solid; animation: soiZIn 0.45s var(--z-ease); }
+#soi-quiz .z-feedback.is-shown { display: block; }
+#soi-quiz .z-feedback.good { background: rgba(47, 125, 92, 0.07); border-color: rgba(47, 125, 92, 0.35); }
+#soi-quiz .z-feedback.bad { background: rgba(234, 53, 81, 0.05); border-color: rgba(234, 53, 81, 0.35); }
+#soi-quiz .z-feedback.late { background: var(--z-gold-soft); border-color: rgba(181, 172, 78, 0.6); }
+#soi-quiz .z-fb-head { display: block; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.4rem; }
+#soi-quiz .good .z-fb-head { color: var(--z-right); }
+#soi-quiz .bad .z-fb-head { color: var(--z-crimson); }
+#soi-quiz .late .z-fb-head { color: #7D7530; }
+#soi-quiz .z-feedback p { font-size: 0.93rem !important; margin: 0 0 0.6rem !important; }
+#soi-quiz .z-cite { font-size: 0.78rem; font-weight: 700; color: var(--z-teal); }
+#soi-quiz .z-cite a { color: var(--z-teal); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+#soi-quiz .z-next-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--z-line); }
+#soi-quiz .z-motto { font-family: var(--z-display-italic); font-style: italic; font-size: 0.95rem; color: var(--z-muted); }
+
+/* ---------- Result ---------- */
+#soi-quiz .z-banner {
+  position: relative; overflow: hidden; text-align: center; color: var(--z-page);
+  padding: 2rem 1.25rem 1.75rem; border-radius: 22px; margin-bottom: 1.4rem;
+  background: radial-gradient(120% 140% at 50% 0%, var(--z-teal-mid), var(--z-teal) 50%, var(--z-teal-dark));
+  box-shadow: inset 0 0 0 1px rgba(212, 204, 115, 0.4);
+}
+#soi-quiz .z-ring { position: relative; width: 150px; height: 150px; margin: 0 auto 1rem; }
+#soi-quiz .z-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+#soi-quiz .z-ring circle { fill: none; stroke-width: 9; }
+#soi-quiz .z-ring .r-bg { stroke: rgba(238, 238, 229, 0.15); }
+#soi-quiz .z-ring .r-fg { stroke: var(--z-gold); stroke-linecap: round; transition: stroke-dashoffset 1.6s var(--z-ease); }
+#soi-quiz .z-ring .r-num { position: absolute; inset: 0; display: grid; place-items: center; }
+#soi-quiz .z-ring .r-num b { display: block; font-family: var(--z-display); font-size: 2.8rem; line-height: 1; color: #fff; }
+#soi-quiz .z-ring .r-num small { display: block; font-size: 0.72rem; font-weight: 700; color: var(--z-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.2rem; }
+#soi-quiz .z-salute { display: block; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--z-gold); margin-bottom: 0.4rem; }
+#soi-quiz .z-banner h3.z-h { color: #fff !important; }
+#soi-quiz .z-banner p { color: rgba(238, 238, 229, 0.9) !important; max-width: 520px; margin: 0 auto !important; }
+#soi-quiz .z-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; margin: 0 0 1.4rem; text-align: center; }
+#soi-quiz .z-stats div { background: #fff; border: 1px solid var(--z-line); border-radius: 14px; padding: 0.85rem 0.5rem; box-shadow: 0 6px 14px -10px rgba(18, 50, 62, 0.3); }
+#soi-quiz .z-stats b { display: block; font-family: var(--z-display); font-size: 1.35rem; color: var(--z-teal); }
+#soi-quiz .z-stats span { font-size: 0.72rem; font-weight: 600; color: var(--z-muted); }
+#soi-quiz .z-invite-box { text-align: center; background: var(--z-page); border: 1px solid var(--z-line); border-radius: 18px; padding: 1.3rem 1rem; margin-bottom: 1.5rem; }
+#soi-quiz .z-invite-box h4 { font-family: var(--z-display) !important; font-weight: 700 !important; font-size: 1.2rem !important; color: var(--z-teal) !important; margin: 0 0 0.3rem !important; padding: 0 !important; }
+#soi-quiz .z-invite-box p { font-size: 0.88rem !important; color: var(--z-muted) !important; max-width: 470px; margin: 0 auto 1rem !important; }
+#soi-quiz .z-share { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.55rem; }
+#soi-quiz .z-share a, #soi-quiz .z-share button {
+  all: unset; box-sizing: border-box; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem;
+  padding: 0.7rem 1.1rem; border-radius: 12px; font-family: var(--z-sans); font-size: 0.78rem; font-weight: 800; flex: 1 1 140px;
+  transition: transform 0.3s var(--z-ease), box-shadow 0.3s var(--z-ease);
+}
+#soi-quiz .z-share a:hover, #soi-quiz .z-share button:hover { transform: translateY(-2px); }
+#soi-quiz .z-share svg { width: 15px; height: 15px; }
+#soi-quiz .z-share a.z-wa { background: #25D366; color: #fff; box-shadow: 0 8px 18px -10px rgba(37, 211, 102, 0.8); }
+#soi-quiz .z-share a.z-x { background: #111; color: #fff; }
+#soi-quiz .z-share button.z-copy { background: #fff; color: var(--z-teal); border: 1.5px solid var(--z-teal); }
+#soi-quiz h4.z-rev-title { display: flex; justify-content: space-between; font-family: var(--z-display) !important; font-weight: 700 !important; font-size: 1.2rem !important; color: var(--z-teal) !important; margin: 0 0 0.8rem !important; padding: 0 0 0.6rem !important; border-bottom: 1px solid var(--z-line); }
+#soi-quiz h4.z-rev-title span { font-family: var(--z-sans); font-size: 0.72rem; font-weight: 700; color: var(--z-muted); align-self: center; }
+#soi-quiz .z-review { display: grid; gap: 0.65rem; }
+#soi-quiz .z-rev { padding: 0.95rem 1rem; border-radius: 14px; border: 1px solid; font-size: 0.88rem; line-height: 1.55; }
+#soi-quiz .z-rev.ok { background: rgba(47, 125, 92, 0.05); border-color: rgba(47, 125, 92, 0.3); }
+#soi-quiz .z-rev.no { background: rgba(234, 53, 81, 0.04); border-color: rgba(234, 53, 81, 0.3); }
+#soi-quiz .z-rev.late { background: var(--z-gold-soft); border-color: rgba(181, 172, 78, 0.5); }
+#soi-quiz .z-rev-head { display: flex; justify-content: space-between; gap: 0.6rem; font-weight: 700; color: var(--z-ink); margin-bottom: 0.3rem; }
+#soi-quiz .z-tag { flex-shrink: 0; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.04em; }
+#soi-quiz .ok .z-tag { color: var(--z-right); } #soi-quiz .no .z-tag { color: var(--z-crimson); } #soi-quiz .late .z-tag { color: #7D7530; }
+#soi-quiz .z-rev-line { color: var(--z-muted); font-size: 0.84rem; }
+#soi-quiz .z-rev-line strong { color: var(--z-ink); }
+#soi-quiz .z-rev-why { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(0, 0, 0, 0.06); font-family: var(--z-display-italic); font-style: italic; font-size: 0.98rem; color: var(--z-ink); }
+#soi-quiz .z-rev-why em { font-family: var(--z-sans); font-style: normal; font-size: 0.74rem; font-weight: 800; color: var(--z-gold-deep); white-space: nowrap; }
+#soi-quiz .z-retake { text-align: center; margin-top: 1.4rem; }
+
+/* Toast + confetti */
+#soi-quiz .z-toast {
+  position: absolute; left: 50%; bottom: 1rem; transform: translate(-50%, 16px); opacity: 0; pointer-events: none; z-index: 30;
+  background: var(--z-teal-dark); color: var(--z-page); border: 1px solid rgba(212, 204, 115, 0.5);
+  padding: 0.7rem 1.1rem; border-radius: 12px; font-size: 0.82rem; font-weight: 600; transition: all 0.4s var(--z-ease); white-space: nowrap;
+}
+#soi-quiz .z-toast.is-shown { opacity: 1; transform: translate(-50%, 0); }
+#soi-quiz canvas.z-confetti { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 20; }
+
+@media (max-width: 640px) {
+  #soi-quiz { padding: 1.75rem 0.75rem 2.25rem; }
+  #soi-quiz .z-shell { border-radius: 20px; }
+  #soi-quiz button.z-invite { grid-template-columns: auto 1fr; }
+  #soi-quiz .z-toggle { grid-column: 1 / -1; justify-content: center; }
+  #soi-quiz .z-emblem { width: 52px; height: 52px; }
+  #soi-quiz .z-timer { width: 58px; height: 58px; }
+  #soi-quiz .z-next-row .z-btn { width: 100%; }
+  #soi-quiz .z-motto { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { #soi-quiz *, #soi-quiz *::before, #soi-quiz *::after { animation: none !important; transition: none !important; } #soi-quiz button.z-opt { opacity: 1; transform: none; } }
+</style>
+
+<section id="soi-quiz" aria-label="Readers' reflection quiz">
+ <div class="z-wrap">
+  <div class="z-shell">
+
+    <!-- Invitation (always visible) -->
+    <button class="z-invite" type="button" aria-expanded="false" aria-controls="soi-quiz-body">
+      <span class="z-emblem" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-7 10.2v3.3C5 18.4 8.1 20 12 20s7-1.6 7-3.5v-3.3l-7 3.8-7-3.8z"/></svg>
+      </span>
+      <span class="z-invite-text">
+        <span class="z-pills"><span class="z-pill">Readers’ Reflection</span><span class="z-pill light">Issue 73 · January 2019</span></span>
+        <span class="z-invite-title">Finished reading? Reflect on what you have learnt.</span>
+        <span class="z-invite-desc">Ten short questions from this issue, a gentle timer, and an explanation after every answer.</span>
+      </span>
+      <span class="z-toggle"><span class="z-toggle-lbl">Begin the quiz</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+
+    <div class="z-body" id="soi-quiz-body"><div class="z-body-inner">
+
+      <!-- ===== Intro ===== -->
+      <div class="z-view z-v-intro is-active">
+        <div class="z-intro">
+          <div class="z-orn" aria-hidden="true"><i></i><i></i><i></i></div>
+          <h3 class="z-h">A warm request to our readers</h3>
+          <p>Having spent time with the reflections in this issue, we invite you to take a few quiet minutes to recall what touched you most. Every answer comes with an explanation from the article it is drawn from, so the quiz is as much a review as it is a test.</p> 
+          <div class="z-info">
+            <div><b>10</b><span>questions</span></div>
+            <div><b>30s</b><span>for each</span></div>
+            <div><b>1</b><span>scoreboard to share</span></div>
+          </div>
+          <div class="z-field">
+            <label class="z-label" for="soi-quiz-name">Your name</label>
+            <div class="z-input-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4z"/></svg>
+              <input class="z-input" id="soi-quiz-name" type="text" maxlength="40" autocomplete="given-name" placeholder="Enter your name">
+            </div>
+            <div class="z-error" role="alert"></div>
+          </div>
+          <button class="z-split z-start" type="button"><span class="z-split-t">Let’s Start</span><span class="z-split-a" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></button>
+        </div>
+      </div>
+
+      <!-- ===== Question ===== -->
+      <div class="z-view z-v-ask">
+        <div class="z-top">
+          <div class="z-top-left">
+            <span class="z-count"></span><span class="z-score-live"></span>
+            <div class="z-bar" aria-hidden="true"><span></span></div>
+          </div>
+          <div class="z-timer" role="timer" aria-live="off">
+            <svg viewBox="0 0 60 60" aria-hidden="true"><circle class="t-bg" cx="30" cy="30" r="26"></circle><circle class="t-fg" cx="30" cy="30" r="26" stroke-dasharray="163.4" stroke-dashoffset="0"></circle></svg>
+            <div class="t-num"><span><span class="t-val">30</span><small>SEC</small></span></div>
+          </div>
+        </div>
+        <span class="z-source"></span>
+        <p class="z-question" id="soi-quiz-q"></p> 
+        <div class="z-opts" role="group" aria-labelledby="soi-quiz-q"></div>
+        <div class="z-feedback" aria-live="polite"></div>
+        <div class="z-next-row">
+          <span class="z-motto">“Change yourself, and your circumstances will change.”</span>
+          <button class="z-btn z-btn-main z-next" type="button" hidden><span class="z-next-lbl">Next question</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+        </div>
+      </div>
+
+      <!-- ===== Result ===== -->
+      <div class="z-view z-v-result">
+        <div class="z-banner">
+          <div class="z-ring">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="r-bg" cx="60" cy="60" r="52"></circle><circle class="r-fg" cx="60" cy="60" r="52" stroke-dasharray="326.7" stroke-dashoffset="326.7"></circle></svg>
+            <div class="r-num"><span><b class="r-val">0</b><small>out of 10</small></span></div>
+          </div>
+          <span class="z-salute"></span>
+          <h3 class="z-h z-res-title"></h3>
+          <p class="z-res-text"></p> 
+        </div>
+        <div class="z-stats">
+          <div><b class="z-st-acc"></b><span>accuracy</span></div>
+          <div><b class="z-st-time"></b><span>time taken</span></div>
+          <div><b class="z-st-level"></b><span>reader level</span></div>
+        </div>
+        <div class="z-invite-box">
+          <h4>Invite your family and friends to read</h4>
+          <p>Share your score so others can open this issue, read the articles and test their own reflections.</p> 
+          <div class="z-share">
+            <a class="z-wa" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a9.9 9.9 0 0 0-8.6 14.9L2 22l5.3-1.4A9.9 9.9 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.3-.5.1-1.1.1-3.7-.9-3.1-1.3-5-4.4-5.2-4.6-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.1.2.6 1 1.3 1.7 1 .8 1.7 1.1 2 1.2.2.1.4.1.5-.1l.8-.9c.2-.3.4-.2.6-.1l1.6.8c.3.1.4.2.5.3.1.1.1.6-.2 1.3z"/></svg>
+              WhatsApp</a>
+            <a class="z-x" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2.3h3.3l-7.2 8.3 8.5 11.2h-6.6l-5.2-6.8-6 6.8H1.7l7.7-8.8L1.3 2.3h6.8l4.7 6.2 5.4-6.2zm-1.1 17.5h1.8L7.1 4.1H5.1l12 15.7z"/></svg>
+              Post on X</a>
+            <button class="z-copy" type="button">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span class="z-copy-lbl">Copy score and link</span></button>
+          </div>
+        </div>
+        <h4 class="z-rev-title">Review with explanations <span>For self-study</span></h4>
+        <div class="z-review"></div>
+        <div class="z-retake"><button class="z-btn z-btn-ghost z-again" type="button">Take the quiz again
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.5 15a9 9 0 1 0 2.1-9.4L1 10"></path></svg></button></div>
+      </div>
+
+    </div></div>
+    <div class="z-toast" role="status"></div>
+  </div>
+ </div>
+</section>
+
+<script>
+(function () {
+  var root = document.getElementById('soi-quiz');
+  if (!root || root.dataset.ready) return;
+  root.dataset.ready = '1';
+
+  var ISSUE = "Spirit of Islam, Issue 73 (January 2019)";
+  var SECONDS = 30;
+
+  /* q · options [text, why] · answer · article · page · link · rationale (shown with the source) */
+  var QUESTIONS = [
+  {
+    "article": "A Message for the New Year",
+    "page": 5,
+    "link": "soi-a-message-for-the-new-year",
+    "q": "Which year of the magazine began in January 2019?",
+    "options": [
+      [
+        "The 20th",
+        "Not quite. The article says: The 7th."
+      ],
+      [
+        "The 7th",
+        "With thanks to all readers."
+      ],
+      [
+        "The 3rd",
+        "Not quite. The article says: The 7th."
+      ],
+      [
+        "The 1st",
+        "Not quite. The article says: The 7th."
+      ]
+    ],
+    "answer": 1,
+    "rationale": "The beginning of the 7th year of …"
+  },
+  {
+    "article": "125 Years of Swami Vivekananda in the West",
+    "page": 7,
+    "link": "soi-125-years-of-swami-vivekananda-in-the-west",
+    "q": "Where did Swami Vivekananda speak 125 years earlier?",
+    "options": [
+      [
+        "Oxford University",
+        "Not quite. The article says: The Parliament of World’s Religions in Chicago."
+      ],
+      [
+        "The Parliament of World’s Religions in Chicago",
+        "He was 29."
+      ],
+      [
+        "Paris",
+        "Not quite. The article says: The Parliament of World’s Religions in Chicago."
+      ],
+      [
+        "The United Nations",
+        "Not quite. The article says: The Parliament of World’s Religions in Chicago."
+      ]
+    ],
+    "answer": 1,
+    "rationale": "The 29-year-old Swami Vivekananda took to stage at the Parliament in Chicago 125 years ago."
+  },
+  {
+    "article": "Deception on All Sides",
+    "page": 12,
+    "link": "soi-deception-on-all-sides",
+    "q": "How does the article describe this world?",
+    "options": [
+      [
+        "A world of perfect honesty",
+        "Not quite. The article says: A world of deception and delusion."
+      ],
+      [
+        "A world of silence",
+        "Not quite. The article says: A world of deception and delusion."
+      ],
+      [
+        "A world of deception and delusion",
+        "People do one thing and claim another."
+      ],
+      [
+        "A world without choice",
+        "Not quite. The article says: A world of deception and delusion."
+      ]
+    ],
+    "answer": 2,
+    "rationale": "This is a world of deception and delusion."
+  },
+  {
+    "article": "A Believer’s Behaviour",
+    "page": 15,
+    "link": "soi-a-believers-behaviour",
+    "q": "What is a true believer’s behaviour in his environment?",
+    "options": [
+      [
+        "One of suspicion",
+        "Not quite. The article says: One of love, mercy and compassion."
+      ],
+      [
+        "One of rivalry",
+        "Not quite. The article says: One of love, mercy and compassion."
+      ],
+      [
+        "One of love, mercy and compassion",
+        "With sayings of the Prophet in support."
+      ],
+      [
+        "One of indifference",
+        "Not quite. The article says: One of love, mercy and compassion."
+      ]
+    ],
+    "answer": 2,
+    "rationale": "The behaviour of a true believer in his environment is one of love, mercy and compassion."
+  },
+  {
+    "article": "Two Pictures",
+    "page": 20,
+    "link": "soi-two-pictures",
+    "q": "What did the neighbour of Shaykh Bayazid Bastami say?",
+    "options": [
+      [
+        "“I saw nothing.”",
+        "Not quite. The article says: “I saw two Islams, neither of which I liked.”."
+      ],
+      [
+        "“I never met him.”",
+        "Not quite. The article says: “I saw two Islams, neither of which I liked.”."
+      ],
+      [
+        "“I became a Muslim at once.”",
+        "Not quite. The article says: “I saw two Islams, neither of which I liked.”."
+      ],
+      [
+        "“I saw two Islams, neither of which I liked.”",
+        "Asked if he had been attracted to Islam."
+      ]
+    ],
+    "answer": 3,
+    "rationale": "“I saw two Islams, neither of which I liked.”"
+  },
+  {
+    "article": "Man’s Plight",
+    "page": 31,
+    "link": "soi-mans-plight",
+    "q": "What lay beneath the grand dome?",
+    "options": [
+      [
+        "A throne",
+        "Not quite. The article says: A solitary, lowly grave."
+      ],
+      [
+        "A solitary, lowly grave",
+        "Testimony to man’s helplessness."
+      ],
+      [
+        "A library",
+        "Not quite. The article says: A solitary, lowly grave."
+      ],
+      [
+        "A treasure",
+        "Not quite. The article says: A solitary, lowly grave."
+      ]
+    ],
+    "answer": 1,
+    "rationale": "There appeared, lying as low as low could be, a solitary grave."
+  },
+  {
+    "article": "From Denial to Belief",
+    "page": 37,
+    "link": "soi-from-denial-to-belief",
+    "q": "Who is Professor Chandra Wickramasinghe?",
+    "options": [
+      [
+        "An Indian poet",
+        "Not quite. The article says: A Sri Lankan-born British scientist and astronomer."
+      ],
+      [
+        "A Sri Lankan-born British scientist and astronomer",
+        "He researched the origin of life."
+      ],
+      [
+        "An American president",
+        "Not quite. The article says: A Sri Lankan-born British scientist and astronomer."
+      ],
+      [
+        "An Egyptian historian",
+        "Not quite. The article says: A Sri Lankan-born British scientist and astronomer."
+      ]
+    ],
+    "answer": 1,
+    "rationale": "Professor Chandra Wickramasinghe is a Sri Lankan-born British scientist, mathematician, astronomer and astrobiologist."
+  },
+  {
+    "article": "Working Together",
+    "page": 41,
+    "link": "soi-working-together",
+    "q": "What do the words quoted give an insight into?",
+    "options": [
+      [
+        "Ancient history",
+        "Not quite. The article says: The type of people needed to achieve any great purpose."
+      ],
+      [
+        "The type of people needed to achieve any great purpose",
+        "Relevant to the real world."
+      ],
+      [
+        "The rules of poetry",
+        "Not quite. The article says: The type of people needed to achieve any great purpose."
+      ],
+      [
+        "The price of success",
+        "Not quite. The article says: The type of people needed to achieve any great purpose."
+      ]
+    ],
+    "answer": 1,
+    "rationale": "It gives us an insight into the type of people needed to achieve any great purpose in life."
+  },
+  {
+    "article": "Islamic Virtues",
+    "page": 33,
+    "link": "soi-islamic-virtues",
+    "q": "What has God preserved with exactitude?",
+    "options": [
+      [
+        "Ancient poetry",
+        "Not quite. The article says: The history of the Prophet and his Companions."
+      ],
+      [
+        "Old maps",
+        "Not quite. The article says: The history of the Prophet and his Companions."
+      ],
+      [
+        "The histories of kings",
+        "Not quite. The article says: The history of the Prophet and his Companions."
+      ],
+      [
+        "The history of the Prophet and his Companions",
+        "As models for all humankind."
+      ]
+    ],
+    "answer": 3,
+    "rationale": "Hence God’s preservation of this page of history with such exactitude."
+  },
+  {
+    "article": "The Word of God",
+    "page": 44,
+    "link": "soi-the-word-of-god",
+    "q": "What were the Messengers sent before, according to the verse?",
+    "options": [
+      [
+        "Angels",
+        "Not quite. The article says: Mortal men to whom revelation was given."
+      ],
+      [
+        "Mortal men to whom revelation was given",
+        "“Ask the People of the Book.”"
+      ],
+      [
+        "Kings",
+        "Not quite. The article says: Mortal men to whom revelation was given."
+      ],
+      [
+        "Poets",
+        "Not quite. The article says: Mortal men to whom revelation was given."
+      ]
+    ],
+    "answer": 1,
+    "rationale": "The Messengers We sent were but [mortal] men to whom We vouchsafed revelation."
+  }
+];
+
+  var $ = function (s) { return root.querySelector(s); };
+  var views = { intro: $('.z-v-intro'), ask: $('.z-v-ask'), result: $('.z-v-result') };
+  var invite = $('.z-invite'), toggleLbl = $('.z-toggle-lbl');
+  var nameInput = $('.z-input'), errorEl = $('.z-error');
+  var timerEl = $('.z-timer'), tFg = $('.t-fg'), tVal = $('.t-val'), T_LEN = 163.4;
+  var LETTERS = ['A', 'B', 'C', 'D'];
+  var S = null, current = null, tick = null;
+
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+  function show(v) { Object.keys(views).forEach(function (k) { views[k].classList.toggle('is-active', k === v); }); }
+  function scrollToQuiz() { root.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+
+  /* ----- open / close ----- */
+  function setOpen(open) {
+    root.classList.toggle('is-open', open);
+    invite.setAttribute('aria-expanded', String(open));
+    toggleLbl.textContent = open ? 'Close the quiz' : (S && S.i > 0 && S.i < QUESTIONS.length ? 'Continue the quiz' : 'Begin the quiz');
+    if (!open) pauseTimer();
+    else if (views.ask.classList.contains('is-active') && S && !S.locked) startTimer(S.left);
+  }
+  invite.addEventListener('click', function () { setOpen(!root.classList.contains('is-open')); });
+
+  /* ----- toast + sharing ----- */
+  function toast(m) { var t = $('.z-toast'); t.textContent = m; t.classList.add('is-shown'); clearTimeout(t._h); t._h = setTimeout(function () { t.classList.remove('is-shown'); }, 2800); }
+  function pageLink() { return location.origin + location.pathname + location.search + '#soi-quiz'; }
+  function copyText(text, done) {
+    if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(text).then(done, function () { legacy(text, done); }); }
+    else legacy(text, done);
+  }
+  function legacy(text, done) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'absolute'; ta.style.left = '-9999px';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); done(); } catch (e) { toast('Please copy this link: ' + pageLink()); }
+    document.body.removeChild(ta);
+  }
+
+  /* ----- timer ----- */
+  function drawTimer(left) {
+    tVal.textContent = Math.ceil(left);
+    tFg.style.strokeDashoffset = T_LEN * (1 - left / SECONDS);
+    timerEl.classList.toggle('is-low', left <= 10 && left > 0);
+  }
+  function startTimer(from) {
+    pauseTimer();
+    timerEl.classList.remove('is-paused');
+    var started = performance.now(), base = from;
+    tick = setInterval(function () {
+      S.left = Math.max(0, base - (performance.now() - started) / 1000);
+      drawTimer(S.left);
+      if (S.left <= 0) { pauseTimer(); timeUp(); }
+    }, 100);
+  }
+  function pauseTimer() { if (tick) { clearInterval(tick); tick = null; } }
+  /* pause when the reader switches tabs or apps, resume on return */
+  document.addEventListener('visibilitychange', function () {
+    if (!S || S.locked || !views.ask.classList.contains('is-active') || !root.classList.contains('is-open')) return;
+    if (document.hidden) { pauseTimer(); timerEl.classList.add('is-paused'); } else startTimer(S.left);
+  });
+
+  /* ----- start ----- */
+  function begin() {
+    var n = nameInput.value.trim().replace(/\s+/g, ' ');
+    if (n.length < 2) { errorEl.textContent = 'Kindly enter your name to begin.'; nameInput.classList.remove('has-error'); void nameInput.offsetWidth; nameInput.classList.add('has-error'); nameInput.focus(); return; }
+    S = { name: n, i: 0, score: 0, answers: [], started: Date.now(), left: SECONDS, locked: false };
+    show('ask'); render(); scrollToQuiz();
+  }
+  nameInput.addEventListener('input', function () { errorEl.textContent = ''; nameInput.classList.remove('has-error'); });
+  nameInput.addEventListener('keydown', function (e) { if (e.key === 'Enter') begin(); });
+  $('.z-start').addEventListener('click', begin);
+
+  /* ----- question ----- */
+  function shuffled(Q) {
+    var o = [0, 1, 2, 3];
+    for (var i = 3; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = o[i]; o[i] = o[j]; o[j] = t; }
+    var c = {}; for (var k in Q) c[k] = Q[k];
+    c.options = o.map(function (x) { return Q.options[x]; }); c.answer = o.indexOf(Q.answer);
+    return c;
+  }
+  function render() {
+    var Q = current = shuffled(QUESTIONS[S.i]), N = QUESTIONS.length;
+    S.locked = false; S.left = SECONDS;
+    $('.z-count').textContent = 'Q' + (S.i + 1) + ' / ' + N;
+    $('.z-score-live').textContent = 'Score ' + S.score;
+    $('.z-bar span').style.width = (S.i / N * 100) + '%';
+    $('.z-source').textContent = Q.article + ' · Page ' + String(Q.page).padStart(2, '0');
+    $('.z-question').textContent = Q.q;
+    var box = $('.z-opts'); box.innerHTML = '';
+    Q.options.forEach(function (op, k) {
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'z-opt';
+      b.style.animationDelay = (0.08 * k) + 's';
+      b.innerHTML = '<span class="z-letter"><span>' + LETTERS[k] + '</span></span><span class="z-opt-text">' + esc(op[0]) + '<span class="z-why" hidden></span></span>';
+      b.addEventListener('click', function () { choose(k); });
+      box.appendChild(b);
+    });
+    var fb = $('.z-feedback'); fb.className = 'z-feedback'; fb.innerHTML = '';
+    $('.z-next').hidden = true;
+    $('.z-next-lbl').textContent = S.i === N - 1 ? 'View my scoreboard' : 'Next question';
+    drawTimer(SECONDS);
+    if (root.classList.contains('is-open')) startTimer(SECONDS);
+  }
+
+  function reveal(chosen) {
+    var Q = current;
+    root.querySelectorAll('.z-opt').forEach(function (b, j) {
+      b.disabled = true;
+      var why = b.querySelector('.z-why'), mark = b.querySelector('.z-letter span');
+      if (j === Q.answer) { b.classList.add('is-right'); mark.textContent = '✓'; why.textContent = Q.options[j][1]; why.hidden = false; }
+      else if (j === chosen) { b.classList.add('is-wrong'); mark.textContent = '✕'; why.textContent = Q.options[j][1]; why.hidden = false; }
+      else b.classList.add('is-dim');
+    });
+  }
+  function feedback(kind, head) {
+    var Q = current, fb = $('.z-feedback');
+    fb.className = 'z-feedback is-shown ' + kind;
+    var read = document.getElementById(Q.link) ? ' · <a data-id="' + Q.link + '">Read the article again</a>' : '';
+    fb.innerHTML = '<span class="z-fb-head">' + head + '</span><p>' + esc(Q.rationale) + '</p> ' +
+      '<span class="z-cite">Source: “' + esc(Q.article) + '”, page ' + String(Q.page).padStart(2, '0') + read + '</span>';
+    var a = fb.querySelector('a[data-id]');
+    if (a) a.addEventListener('click', function () {
+      var item = document.getElementById(a.dataset.id), tab = item && item.querySelector('.ev-tab');
+      if (tab && !item.classList.contains('is-open')) tab.click(); else if (item) item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    $('.z-bar span').style.width = ((S.i + 1) / QUESTIONS.length * 100) + '%';
+    var nx = $('.z-next'); nx.hidden = false; nx.focus({ preventScroll: true });
+  }
+  function record(status, chosen) {
+    var Q = current;
+    S.answers.push({ status: status, q: Q.q, mine: chosen == null ? null : Q.options[chosen][0], right: Q.options[Q.answer][0], why: Q.rationale, article: Q.article, page: Q.page });
+  }
+
+  function choose(k) {
+    if (S.locked) return;
+    S.locked = true; pauseTimer(); timerEl.classList.remove('is-low');
+    var ok = k === current.answer;
+    if (ok) { S.score++; $('.z-score-live').textContent = 'Score ' + S.score; }
+    reveal(k); record(ok ? 'ok' : 'no', k);
+    feedback(ok ? 'good' : 'bad', ok ? 'Accurate reflection, ' + esc(S.name) : 'A gentle correction, ' + esc(S.name));
+  }
+  function timeUp() {
+    if (S.locked) return;
+    S.locked = true; timerEl.classList.remove('is-low');
+    reveal(-1); record('late', null);
+    feedback('late', 'Time has passed — here is the answer');
+  }
+
+  $('.z-next').addEventListener('click', function () {
+    S.i++;
+    if (S.i < QUESTIONS.length) { render(); scrollToQuiz(); } else finish();
+  });
+
+  /* ----- result ----- */
+  function finish() {
+    pauseTimer();
+    var s = S.score, N = QUESTIONS.length, pct = Math.round(s / N * 100), n = esc(S.name);
+    var secs = Math.round((Date.now() - S.started) / 1000);
+    show('result'); scrollToQuiz();
+
+    var title, text, level;
+    if (s === N)      { title = 'MashaAllah, a perfect score, ' + n + '!'; text = 'You recalled every lesson of this issue with remarkable care. May this reflection stay with you.'; level = 'Master Seeker'; }
+    else if (s >= 8)  { title = 'Distinguished reflection, ' + n + '!'; text = 'You have taken a great deal of wisdom from this issue. Review the one or two you missed below.'; level = 'Devoted Reader'; }
+    else if (s >= 6)  { title = 'Well done, ' + n + '!'; text = 'A thoughtful result. The explanations below will help complete the picture.'; level = 'Thoughtful Reader'; }
+    else if (s >= 4)  { title = 'A sincere effort, ' + n + '.'; text = 'Every reflection sharpens the mind. Revisiting the articles below will deepen your understanding.'; level = 'Sincere Reader'; }
+    else              { title = 'Thank you for taking part, ' + n + '.'; text = 'Every reading is a fresh discovery. Read the articles again and try once more.'; level = 'Seeker'; }
+    $('.z-salute').textContent = S.name + " · Issue 73 reflection complete";
+    $('.z-res-title').innerHTML = title;
+    $('.z-res-text').textContent = text;
+    $('.z-st-acc').textContent = pct + '%';
+    $('.z-st-time').textContent = Math.floor(secs / 60) + ':' + ('0' + (secs % 60)).slice(-2);
+    $('.z-st-level').textContent = level;
+
+    var ring = $('.r-fg'), val = $('.r-val'), C = 326.7;
+    ring.style.strokeDashoffset = C;
+    requestAnimationFrame(function () { requestAnimationFrame(function () { ring.style.strokeDashoffset = C * (1 - s / N); }); });
+    var c = 0; val.textContent = 0;
+    var iv = setInterval(function () { val.textContent = c; if (c >= s) clearInterval(iv); c++; }, 1300 / (s + 1));
+
+    var rv = $('.z-review'); rv.innerHTML = '';
+    S.answers.forEach(function (a, i) {
+      var d = document.createElement('div'); d.className = 'z-rev ' + a.status;
+      var tag = a.status === 'ok' ? '✓ Correct' : a.status === 'no' ? '✕ Incorrect' : '◷ Time passed';
+      d.innerHTML = '<div class="z-rev-head"><span>Q' + (i + 1) + '. ' + esc(a.q) + '</span><span class="z-tag">' + tag + '</span></div>' +
+        (a.mine ? '<div class="z-rev-line">Your answer: <strong>' + esc(a.mine) + '</strong></div>' : '') +
+        (a.status !== 'ok' ? '<div class="z-rev-line">Correct answer: <strong>' + esc(a.right) + '</strong></div>' : '') +
+        '<div class="z-rev-why">“' + esc(a.why) + '” <em>— ' + esc(a.article) + ', page ' + String(a.page).padStart(2, '0') + '</em></div>';
+      rv.appendChild(d);
+    });
+
+    var msg = '📖 I completed the ' + ISSUE + ' Readers’ Reflection Quiz!\n🏆 ' + S.name + ': ' + s + '/' + N + ' (' + pct + '%)\n\nRead the issue and see if you can beat my score:\n' + pageLink();
+    $('.z-wa').href = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(msg);
+    $('.z-x').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg);
+    S.msg = msg;
+    if (s >= Math.ceil(N * 0.7)) setTimeout(function () { confetti(s === N ? 280 : 180); }, 500);
+  }
+  $('.z-copy').addEventListener('click', function () {
+    copyText(S.msg, function () {
+      toast('Score and page link copied.');
+      var l = $('.z-copy-lbl'); l.textContent = 'Copied ✓'; setTimeout(function () { l.textContent = 'Copy score and link'; }, 2500);
+    });
+  });
+  $('.z-again').addEventListener('click', function () {
+    nameInput.value = S.name;
+    S = { name: S.name, i: 0, score: 0, answers: [], started: Date.now(), left: SECONDS, locked: false };
+    show('ask'); render(); scrollToQuiz();
+  });
+
+  /* ----- confetti: bursts from both sides, diamonds in brand colours ----- */
+  function confetti(count) {
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var shell = $('.z-shell'), cv = document.createElement('canvas'); cv.className = 'z-confetti'; shell.appendChild(cv);
+    var dpr = Math.min(window.devicePixelRatio || 1, 2), W = shell.clientWidth, H = shell.clientHeight;
+    cv.width = W * dpr; cv.height = H * dpr; var ctx = cv.getContext('2d'); ctx.scale(dpr, dpr);
+    var COL = ['#D4CC73', '#EA3551', '#204E60', '#F4A3B0', '#7FB3C4', '#E8DF8E', '#FFFFFF'], P = [];
+    for (var i = 0; i < count; i++) {
+      var L = i % 2 === 0;
+      P.push({ x: L ? -10 : W + 10, y: 120 + Math.random() * 220, vx: (L ? 1 : -1) * (4 + Math.random() * 8), vy: -(5 + Math.random() * 9),
+        s: 6 + Math.random() * 8, r: Math.random() * 6, vr: (Math.random() - 0.5) * 0.3, c: COL[i % COL.length],
+        sh: Math.random() < 0.4 ? 'd' : Math.random() < 0.5 ? 'r' : 'c', w: Math.random() * 10 });
+    }
+    var t0 = performance.now();
+    (function f(t) {
+      var e = t - t0; ctx.clearRect(0, 0, W, H);
+      P.forEach(function (p) {
+        p.vy += 0.2; p.vx *= 0.986; p.x += p.vx + Math.sin(e / 300 + p.w) * 0.7; p.y += p.vy; p.r += p.vr;
+        ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.globalAlpha = Math.max(0, 1 - e / 4600); ctx.fillStyle = p.c;
+        if (p.sh === 'c') { ctx.beginPath(); ctx.arc(0, 0, p.s / 2.4, 0, 6.3); ctx.fill(); }
+        else if (p.sh === 'd') { ctx.beginPath(); ctx.moveTo(0, -p.s / 1.5); ctx.lineTo(p.s / 2.5, 0); ctx.lineTo(0, p.s / 1.5); ctx.lineTo(-p.s / 2.5, 0); ctx.closePath(); ctx.fill(); }
+        else ctx.fillRect(-p.s / 2, -p.s / 4, p.s, p.s / 2);
+        ctx.restore();
+      });
+      if (e < 4700) requestAnimationFrame(f); else cv.remove();
+    })(t0);
+  }
+
+  /* Arriving from a shared link: open the quiz and bring it into view */
+  if (location.hash === '#soi-quiz') { setOpen(true); setTimeout(scrollToQuiz, 500); }
+})();
+</script>
 
 <style>
 /* ---- Fit to the page: only the Divi section/row that holds this block ---- */

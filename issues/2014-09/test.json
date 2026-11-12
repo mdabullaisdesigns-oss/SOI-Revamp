@@ -8,7 +8,12 @@
    "overflow_closed": 0,
    "overflow_open": 0,
    "gotop": true,
-   "quiz": "absent"
+   "quiz": {
+    "answered": 10,
+    "finished": true,
+    "score": "2",
+    "overflow": 0
+   }
   },
   "320": {
    "errors": [],
@@ -17,7 +22,12 @@
    "overflow_closed": 0,
    "overflow_open": 0,
    "gotop": true,
-   "quiz": "absent"
+   "quiz": {
+    "answered": 10,
+    "finished": true,
+    "score": "2",
+    "overflow": 0
+   }
   }
  },
  "fails": []
