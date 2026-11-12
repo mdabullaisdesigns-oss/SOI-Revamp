@@ -1,0 +1,305 @@
+{
+ "slug": "2013-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "be-aware-of-your-unawareness",
+   "title": "Be Aware of Your Unawareness",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 788,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p6b4",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "giving-as-god-wills",
+   "title": "Giving as God Wills",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 323,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p8b2",
+     "kind": "p",
+     "words": [
+      "mans"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-inner-reality-of-fasting",
+   "title": "The Inner Reality of Fasting",
+   "pages": [
+    9,
+    15
+   ],
+   "words": 2532,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "practicable-formula",
+   "title": "Practicable Formula",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 314,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p16b2",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-problem-of-evil",
+   "title": "The Problem of Evil",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 591,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p17b2",
+     "kind": "p",
+     "words": [
+      "those"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "fasting-leads-to-moral-discipline",
+   "title": "Fasting Leads to Moral Discipline",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 292,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p19b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "total-involvement",
+   "title": "Total Involvement",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 419,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p20b2",
+     "kind": "p",
+     "words": [
+      "elias"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "social-welfare-in-islam",
+   "title": "Social Welfare in Islam",
+   "pages": [
+    21,
+    27
+   ],
+   "words": 2864,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p21b2",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "religion-and-secularism",
+   "title": "Religion and Secularism",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 528,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    },
+    {
+     "item": "p28b10",
+     "kind": "p",
+     "words": [
+      "infrastructure"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "a-fools-paradise",
+   "title": "A Fool’s Paradise",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 587,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p30b2",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "ramazan-the-month-of-peace",
+   "title": "Ramazan : The Month of Peace",
+   "pages": [
+    32,
+    34
+   ],
+   "words": 1002,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "eid-ul-fitr",
+   "title": "Eid-Ul-Fitr",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 718,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p35b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-concept-of-tomorrow",
+   "title": "The Concept of Tomorrow",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 1093,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p37b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "fasting-and-feasting",
+   "title": "Fasting and Feasting",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 588,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p40b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 967,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 615,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15416,
+ "article_words": 14221
+}

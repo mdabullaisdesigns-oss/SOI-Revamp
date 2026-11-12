@@ -1,0 +1,242 @@
+{
+ "slug": "2013-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "arab-spring",
+   "title": "Arab Spring",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 789,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "gulf"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "god-the-greatest",
+   "title": "God, the Greatest",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 294,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "validity-of-a-subjective-argument",
+   "title": "Validity of a Subjective Argument",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 529,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "global-warming-or-warning",
+   "title": "Global Warming or Warning",
+   "pages": [
+    12,
+    14
+   ],
+   "words": 1010,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "islamic-spirituality",
+   "title": "Islamic Spirituality",
+   "pages": [
+    15,
+    18
+   ],
+   "words": 1271,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "prophetic-wisdom",
+   "title": "Prophetic Wisdom",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 637,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "think-think-think",
+   "title": "Think, Think, Think",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 624,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "women-in-islam",
+   "title": "Women in Islam",
+   "pages": [
+    23,
+    25
+   ],
+   "words": 998,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "science-and-theology",
+   "title": "Science and Theology",
+   "pages": [
+    26,
+    32
+   ],
+   "words": 2357,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p26b2",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "world-religions-and-the-spirit-of-tolerance",
+   "title": "World Religions and the Spirit of Tolerance",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 377,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "making-instant-history",
+   "title": "Making Instant History",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 652,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "reservation-a-suicidal-approach",
+   "title": "Reservation: A Suicidal Approach",
+   "pages": [
+    36,
+    38
+   ],
+   "words": 932,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p36b2",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "introduction-to-the-quran",
+   "title": "Introduction to the Quran",
+   "pages": [
+    39,
+    42
+   ],
+   "words": 1290,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p39b2",
+     "kind": "p",
+     "words": [
+      "even"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "religious-responses-to-the-troubles-of-our-age",
+   "title": "Religious Responses to the Troubles of Our Age",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 504,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p43b2",
+     "kind": "p",
+     "words": [
+      "why"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1229,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 658,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.96,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15196,
+ "article_words": 14151
+}

@@ -1,0 +1,378 @@
+{
+ "slug": "2015-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "some-reflections-on-the-last-100-years",
+   "title": "Some Reflections on the Last 100 Years",
+   "pages": [
+    5,
+    9
+   ],
+   "words": 1871,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p7b6",
+     "kind": "h",
+     "words": [
+      "the",
+      "natural"
+     ]
+    },
+    {
+     "item": "p8b7",
+     "kind": "h",
+     "words": [
+      "partition",
+      "the",
+      "hindumuslim"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "as-you-sow-so-shall-you-reap",
+   "title": "As You Sow, So Shall You Reap",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 817,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "unnecessary-complaints",
+   "title": "Unnecessary Complaints",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 286,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-practice-of-satan",
+   "title": "The Practice of Satan",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 318,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "islamic-pacifism",
+   "title": "Islamic Pacifism",
+   "pages": [
+    14,
+    24
+   ],
+   "words": 4080,
+   "match": 99.98,
+   "missing": [
+    {
+     "item": "p14b5",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "how-to-overcome-anxiety",
+   "title": "How to Overcome Anxiety",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 399,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "realization-of-god",
+   "title": "Realization of God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 533,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p26b5",
+     "kind": "p",
+     "words": [
+      "failing"
+     ]
+    },
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "evergrowing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "what-is-patience",
+   "title": "What Is Patience?",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 332,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "jewish-muslim-relationship",
+   "title": "Jewish-Muslim Relationship",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 534,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "human-rights-versus-human-duties",
+   "title": "Human Rights Versus Human Duties",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 549,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p31b4",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "india-rises-again",
+   "title": "India Rises Again",
+   "pages": [
+    33,
+    36
+   ],
+   "words": 1295,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "over"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "turn-your-weakness-into-your-strength",
+   "title": "Turn Your Weakness into Your Strength",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 610,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p37b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "which-religion",
+   "title": "Which Religion?",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "dr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "lack-of-personalities-or-lack-of-awareness",
+   "title": "Lack of Personalities or Lack of Awareness?",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 581,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p40b4",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "between-pride-and-modesty",
+   "title": "Between Pride and Modesty",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 462,
+   "match": 99.13,
+   "missing": [
+    {
+     "item": "p42b4",
+     "kind": "p",
+     "words": [
+      "next",
+      "to",
+      "a",
+      "santro"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "dealing-with-differences",
+   "title": "Dealing with Differences",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 289,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "experience-of-death",
+   "title": "Experience of Death",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 275,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p45b7",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 661,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 499,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.84,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16203,
+ "article_words": 14713
+}

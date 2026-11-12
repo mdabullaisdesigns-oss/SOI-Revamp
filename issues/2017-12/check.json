@@ -1,0 +1,318 @@
+{
+ "slug": "2017-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "error-of-the-political-interpretation-of-islam",
+   "title": "Error of the Political Interpretation of Islam",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1004,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "marxism"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "intellectual-freedom-in-islam",
+   "title": "Intellectual Freedom in Islam",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 734,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "monotheism-oneness-of-god",
+   "title": "Monotheism: Oneness of God",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 532,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "jesus-in-the-quran",
+   "title": "Jesus in the Quran",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 705,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "avoidance-of-conflict",
+   "title": "Avoidance of Conflict",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 292,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "right-approach-to-life",
+   "title": "Right Approach to Life",
+   "pages": [
+    15,
+    17
+   ],
+   "words": 1161,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "trials-and-tribulations-in-life",
+   "title": "Trials and Tribulations in Life",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 327,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "we-have-the-ability-to-bounce-back",
+   "title": "We Have the Ability to Bounce Back",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 626,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p19b4",
+     "kind": "p",
+     "words": [
+      "resilience"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "islam-advocates-peace",
+   "title": "Islam Advocates Peace",
+   "pages": [
+    21,
+    23
+   ],
+   "words": 1176,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p23b4",
+     "kind": "p",
+     "words": [
+      "escalate"
+     ]
+    },
+    {
+     "item": "p23b10",
+     "kind": "thought",
+     "words": [
+      "peaceloving",
+      "assalamoalaikum"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "freedom-of-expression-and-dissent-in-islam",
+   "title": "Freedom of Expression and Dissent in Islam",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 605,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p24b4",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "prayer-from-the-heart",
+   "title": "Prayer from the Heart",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 797,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "any"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "no-half-measures",
+   "title": "No Half Measures",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 317,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "mary-the-mother-of-jesus",
+   "title": "Mary, the Mother of Jesus",
+   "pages": [
+    29,
+    31
+   ],
+   "words": 1216,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "god-oriented-life",
+   "title": "God–oriented Life",
+   "pages": [
+    32,
+    35
+   ],
+   "words": 1710,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "environmental-activism-the-islamic-way",
+   "title": "Environmental Activism, the Islamic Way",
+   "pages": [
+    36,
+    38
+   ],
+   "words": 915,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p36b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "cleanliness-in-islam",
+   "title": "Cleanliness in Islam",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 690,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "universality-of-the-quran",
+   "title": "Universality of the Quran",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 585,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 714,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    48
+   ],
+   "words": 1321,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17287,
+ "article_words": 15427
+}

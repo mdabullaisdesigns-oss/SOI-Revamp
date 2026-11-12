@@ -1,0 +1,326 @@
+{
+ "slug": "2020-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-doha-pact",
+   "title": "The Doha Pact",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 826,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "february"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "ramadan-a-month-of-rigorous-training",
+   "title": "Ramadan: A Month of Rigorous Training",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 559,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "political-sovereignty",
+   "title": "Political Sovereignty",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 655,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "upright-system-or-upright-individual",
+   "title": "Upright System or Upright Individual?",
+   "pages": [
+    12,
+    15
+   ],
+   "words": 1569,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "at"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "blessings-of-god",
+   "title": "Blessings of God",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 758,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p16b13",
+     "kind": "p",
+     "words": [
+      "from"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "three-ages-of-war",
+   "title": "Three Ages of War",
+   "pages": [
+    18,
+    21
+   ],
+   "words": 1357,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p18b4",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "a-glimpse-of-heaven",
+   "title": "A Glimpse of Heaven",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 412,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p22b5",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "idleness",
+   "title": "Idleness",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 387,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "guarantee-of-gods-succour",
+   "title": "Guarantee of God’s Succour",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 338,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p24b8",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "ramadan-and-prophethood",
+   "title": "Ramadan and Prophethood",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 285,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "spiritual-living",
+   "title": "Spiritual Living",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 642,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "formula-for-coexistence",
+   "title": "Formula for Coexistence",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 643,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "life"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "essence-of-islam",
+   "title": "Essence of Islam",
+   "pages": [
+    30,
+    35
+   ],
+   "words": 2464,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "everything"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "water-as-spiritual-nourishment",
+   "title": "Water as Spiritual Nourishment",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 683,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-conscious-and-unconscious-mind",
+   "title": "The Conscious and Unconscious Mind",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 587,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "intellectual-rebirth",
+   "title": "Intellectual Rebirth",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 400,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ways-of-self-correction",
+   "title": "Ways of Self-Correction",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 348,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-finality-of-death",
+   "title": "The Finality of Death",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 325,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "special-offer",
+   "title": "Special Offer",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 365,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1083,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 873,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26505,
+ "article_words": 15559
+}

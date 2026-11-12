@@ -1,0 +1,290 @@
+{
+ "slug": "2018-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "good-news-from-muzaffarnagar",
+   "title": "Good News from Muzaffarnagar",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 753,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "here"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "women-in-islam",
+   "title": "Women in Islam",
+   "pages": [
+    8,
+    11
+   ],
+   "words": 1489,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "referring"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "about-the-quran",
+   "title": "About the Quran",
+   "pages": [
+    12,
+    16
+   ],
+   "words": 1684,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "suicide",
+   "title": "Suicide",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 960,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "positive-aspects-of-failure",
+   "title": "Positive Aspects of Failure",
+   "pages": [
+    20,
+    22
+   ],
+   "words": 1022,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "universal-brotherhood",
+   "title": "Universal Brotherhood",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 532,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "intentions",
+   "title": "Intentions",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 296,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "greenery-returned",
+   "title": "Greenery Returned",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 352,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "on-the-eve-of-exams",
+   "title": "On the Eve of Exams",
+   "pages": [
+    27,
+    27
+   ],
+   "words": 379,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "parents"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-money-culture",
+   "title": "The Money Culture",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 780,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "wealth"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "jihad",
+   "title": "Jihad",
+   "pages": [
+    30,
+    34
+   ],
+   "words": 1739,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "argument-for-the-life-hereafter",
+   "title": "Argument for the Life Hereafter",
+   "pages": [
+    35,
+    39
+   ],
+   "words": 1915,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "example-of-the-prophet",
+   "title": "Example of the Prophet",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 1055,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "about"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "before-death-and-after-death",
+   "title": "Before Death and After Death",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 498,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p43b10",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 763,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 593,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16580,
+ "article_words": 14810
+}

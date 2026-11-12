@@ -1,0 +1,318 @@
+{
+ "slug": "2016-06",
+ "articles": [
+  {
+   "n": 1,
+   "id": "lesson-from-london",
+   "title": "Lesson from London",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 542,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "on",
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-relationship-between-fasting-and-life",
+   "title": "The Relationship Between Fasting and Life",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 338,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "take-it-as-a-challenge",
+   "title": "Take It as a Challenge",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 782,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-importance-of-religion-in-peace-building",
+   "title": "The Importance of Religion in Peace Building",
+   "pages": [
+    10,
+    12
+   ],
+   "words": 1081,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p10b5",
+     "kind": "p",
+     "words": [
+      "since"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "greed-till-the-grave",
+   "title": "Greed Till the Grave",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 292,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "presence-of-mind",
+   "title": "Presence of Mind",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 321,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "mohandas"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-significance-of-iftar",
+   "title": "The Significance of Iftar",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 731,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "introspection",
+   "title": "Introspection",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 609,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-life-after-death",
+   "title": "The Life After Death",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 735,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "god-oriented-life",
+   "title": "God-Oriented Life",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 428,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "patience",
+   "title": "Patience",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 272,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "lailatul-qadr-the-night-of-destiny",
+   "title": "Lailatul Qadr (the Night of Destiny)",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 634,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "wrong-criterion",
+   "title": "Wrong Criterion",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 397,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "from"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "ramazan-and-eid-ul-fitr",
+   "title": "Ramazan and Eid-Ul-Fitr",
+   "pages": [
+    27,
+    28
+   ],
+   "words": 463,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p27b7",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "spiritual-power-not-political-power",
+   "title": "Spiritual Power Not Political Power",
+   "pages": [
+    29,
+    32
+   ],
+   "words": 1442,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "man",
+   "title": "Man",
+   "pages": [
+    33,
+    42
+   ],
+   "words": 4219,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    },
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "nonabsolute"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "fasting-and-feasting",
+   "title": "Fasting and Feasting",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 657,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 816,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1200,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17633,
+ "article_words": 15959
+}

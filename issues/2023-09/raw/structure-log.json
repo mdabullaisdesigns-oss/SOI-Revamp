@@ -776,5 +776,6 @@
   "'GOD' -> 'God'",
   "'ACCORDING' -> 'According'"
  ],
- "hyphen_unsure": []
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
 }

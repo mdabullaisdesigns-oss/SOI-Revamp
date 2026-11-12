@@ -1,0 +1,423 @@
+{
+ "slug": "2015-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "dates-on-a-calendar",
+   "title": "Dates on a Calendar",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 483,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "evidence-of-god",
+   "title": "Evidence of God",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 338,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "american"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "finally-in-the-grave",
+   "title": "Finally, in the Grave",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 300,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "despite"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "fasting-as-a-form-of-worship",
+   "title": "Fasting as a Form of Worship",
+   "pages": [
+    9,
+    11
+   ],
+   "words": 1053,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "losing-the-opportunity",
+   "title": "Losing the Opportunity",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 327,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-genesis-of-muslim-militancy",
+   "title": "The Genesis of Muslim Militancy",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 616,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "peace-based-empire",
+   "title": "Peace-Based Empire",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 287,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p15b12",
+     "kind": "p",
+     "words": [
+      "earlier"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "murder-of-humanity",
+   "title": "Murder of Humanity",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 297,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "ramazan-and-warfare",
+   "title": "Ramazan and Warfare",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 825,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "complete-person",
+   "title": "Complete Person",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p20b8",
+     "kind": "p",
+     "words": [
+      "who"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "airport-of-the-hereafter",
+   "title": "Airport of the Hereafter",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 302,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "understanding-the-modern-age",
+   "title": "Understanding the Modern Age",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 727,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "acceptance-of-supplications",
+   "title": "Acceptance of Supplications",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 408,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "biographers-of-the-prophet",
+   "title": "Biographers of the Prophet",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 587,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "muslim"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "a-world-of-opportunities",
+   "title": "A World of Opportunities",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 240,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "plagiarism-and-the-end-of-human-history",
+   "title": "Plagiarism and the End of Human History",
+   "pages": [
+    29,
+    34
+   ],
+   "words": 1992,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p29b4",
+     "kind": "p",
+     "words": [
+      "doomsday"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "religious-conversion-or-religious-choice",
+   "title": "Religious Conversion or Religious Choice?",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 219,
+   "match": 99.54,
+   "missing": [
+    {
+     "item": "p35b12",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "lailatul-qadr-the-night-of-destiny",
+   "title": "Lailatul Qadr (the Night of Destiny)",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 634,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-miracle-of-a-realistic-policy",
+   "title": "The Miracle of a Realistic Policy",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 577,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p38b4",
+     "kind": "p",
+     "words": [
+      "lee"
+     ]
+    },
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "multistorey"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "zakat-the-prescribed-charity",
+   "title": "Zakat—the Prescribed Charity",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 1024,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "zakat"
+     ]
+    },
+    {
+     "item": "p42b5",
+     "kind": "p",
+     "words": [
+      "zakatalfitr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "spirit-of-the-age",
+   "title": "Spirit of the Age",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 289,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "learning-lessons-from-material-things",
+   "title": "Learning Lessons from Material Things",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 235,
+   "match": 99.57,
+   "missing": [
+    {
+     "item": "p44b7",
+     "kind": "p",
+     "words": [
+      "british"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 490,
+   "match": 99.59,
+   "missing": [
+    {
+     "item": "p45b7",
+     "kind": "p",
+     "words": [
+      "a"
+     ]
+    },
+    {
+     "item": "p46b2",
+     "kind": "p",
+     "words": [
+      "b"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 944,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15089,
+ "article_words": 13516
+}

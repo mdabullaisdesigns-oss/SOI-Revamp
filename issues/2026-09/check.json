@@ -1,0 +1,304 @@
+{
+ "slug": "2026-09",
+ "route": "wp",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-gift-of-criticism",
+   "title": "The Gift of Criticism",
+   "words": 449,
+   "audio": true,
+   "match": 99.78,
+   "pages": [
+    6,
+    7
+   ],
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "a-glimpse-of-paradise",
+   "title": "A Glimpse of Paradise",
+   "words": 390,
+   "audio": true,
+   "match": 92.31,
+   "pages": [
+    9,
+    10
+   ],
+   "missing": [
+    "spirituality develops in a person the ability to draw higher lessons from ordinary happenings he begins to see beyond appearances and discovers meaning in what others regard as commonplace"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "discovering-god-everywhere",
+   "title": "Discovering God Everywhere",
+   "words": 752,
+   "audio": true,
+   "match": 95.35,
+   "pages": [
+    11,
+    13
+   ],
+   "missing": [
+    "the universe is more than a place in which man has been given temporary residence it is a divine classroom everything around us is teaching a lesson provided we are prepared to become students"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "death-is-not-extinction",
+   "title": "Death Is Not Extinction",
+   "words": 623,
+   "audio": true,
+   "match": 92.13,
+   "pages": [
+    14,
+    15
+   ],
+   "missing": [
+    "dryness is not always the final reality beneath the surface life may still be waiting to emerge a barren tree can blossom a rough vegetable can be fresh within likewise a seemingly empty human heart can by the grace of god become filled with faith gratitude and realization"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "discover-something-every-day",
+   "title": "Discover Something Every Day",
+   "words": 450,
+   "audio": true,
+   "match": 83.56,
+   "pages": [
+    16,
+    17
+   ],
+   "missing": [
+    "dryness is not always the final reality beneath the surface life may still be waiting to emerge a barren tree can blossom a rough vegetable can be fresh within likewise a seemingly empty human heart can by the grace of god become filled with faith gratitude and realization",
+    "yesterdays knowledge is not enough for todays intellectual life the mind requires fresh nourishment in the form of new ideas new observations and new realizations"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "save-yourself-first",
+   "title": "Save Yourself First",
+   "words": 408,
+   "audio": true,
+   "match": 92.16,
+   "pages": [
+    18,
+    19
+   ],
+   "missing": [
+    "to save yourself means refusing to allow another persons bad behaviour to enter your mind and destroy your inner balance his behaviour belongs to him your response belongs to you"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-art-of-non-provocation",
+   "title": "The Art of Non-Provocation",
+   "words": 390,
+   "audio": true,
+   "match": 91.54,
+   "pages": [
+    20,
+    21
+   ],
+   "missing": [
+    "many conflicts arise not merely because someone says something unpleasant but because the other person immediately reacts one provocative word produces another and soon a minor incident develops into a major confrontation"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-divine-system-of-sustenance",
+   "title": "The Divine System of Sustenance",
+   "words": 1601,
+   "audio": true,
+   "match": 95.38,
+   "pages": [
+    22,
+    26
+   ],
+   "missing": [
+    "the quran repeatedly draws attention to the vast infrastructure that supports human life consider water every civilization depends upon it yet humanity does not manufacture the worlds basic supply of fresh water a thoughtful person sees things differently when food reaches his table he sees not merely a commercial commodity but the final product of a vast chain of divine facilitation when he drinks water he remembers the planetary system that delivered it"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "women-a-force-for-peace",
+   "title": "Women: A Force for Peace",
+   "words": 887,
+   "audio": true,
+   "match": 99.89,
+   "pages": [
+    27,
+    30
+   ],
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-culture-of-peace",
+   "title": "The Culture of Peace",
+   "words": 452,
+   "audio": true,
+   "match": 99.78,
+   "pages": [
+    31,
+    32
+   ],
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-voice-from-mission-control",
+   "title": "The Voice from Mission Control",
+   "words": 1104,
+   "audio": true,
+   "match": 99.91,
+   "pages": [
+    33,
+    36
+   ],
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-power-of-perseverance",
+   "title": "The Power of Perseverance",
+   "words": 416,
+   "audio": true,
+   "match": 91.11,
+   "pages": [
+    37,
+    38
+   ],
+   "missing": [
+    "great achievements seldom appear suddenly they are generally the accumulated result of small efforts made consistently a book is written page by page knowledge acquired lesson by lesson and a great institution built step by step"
+   ]
+  },
+  {
+   "n": 13,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "words": 407,
+   "audio": true,
+   "match": 100.0,
+   "pages": [
+    39,
+    40
+   ],
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 662,
+   "audio": true,
+   "match": 100.0,
+   "pages": [
+    41,
+    44
+   ],
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "a-drop-reveals-character",
+   "title": "A Drop Reveals Character",
+   "words": 329,
+   "audio": true,
+   "match": 100.0,
+   "pages": [
+    45,
+    45
+   ],
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "words": 919,
+   "audio": true,
+   "match": 100.0,
+   "pages": [
+    46,
+    48
+   ],
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "words": 591,
+   "audio": true,
+   "match": 100.0,
+   "pages": [
+    49,
+    50
+   ],
+   "missing": []
+  }
+ ],
+ "overall_match": 96.6,
+ "flagged": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  12
+ ],
+ "unplaced": [],
+ "warnings": [
+  "PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)"
+ ],
+ "pdf_pages_not_on_page": [
+  {
+   "page": 2,
+   "words": 146,
+   "of": 146,
+   "starts": "a magazine for the journey of life this is a current magazine its articles",
+   "expected": true
+  },
+  {
+   "page": 3,
+   "words": 172,
+   "of": 172,
+   "starts": "public notice late maulana wahiduddin khan renowned islamic scholar and recipient of the padma",
+   "expected": true
+  },
+  {
+   "page": 4,
+   "words": 65,
+   "of": 65,
+   "starts": "spirit of islam towards global peace spiritual living issue 132 september october 2026 04",
+   "expected": true
+  },
+  {
+   "page": 5,
+   "words": 98,
+   "of": 98,
+   "starts": "contents click on a topic to read the corresponding article from the editorinchiefs desk",
+   "expected": true
+  },
+  {
+   "page": 8,
+   "words": 238,
+   "of": 238,
+   "starts": "in focus we bring you two articles every issue under the headings of personal",
+   "expected": false
+  },
+  {
+   "page": 51,
+   "words": 114,
+   "of": 114,
+   "starts": "we asked chatgpt to offer some information about cps international new delhi this is",
+   "expected": true
+  }
+ ],
+ "left_out": []
+}

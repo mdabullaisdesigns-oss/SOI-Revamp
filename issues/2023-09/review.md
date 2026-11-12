@@ -74,7 +74,6 @@ None.
 
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 
-- page 1, 25 words: the formula of a rightsconscious person is they must do it while the formula of a dutyconscious person is i must do it spirit of
 - page 1, 24 words: towards global peace spiritual living published owned by fathima sarah 002 hm wimberly 6 berlie street cross langford town bengaluru 560025 
 - page 4, 12 words: from the editorinchiefs desk 5 mumbai diaries 8 one serious fallacy 14
 

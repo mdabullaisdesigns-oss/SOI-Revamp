@@ -1,0 +1,325 @@
+{
+ "slug": "2015-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "anti-islam-in-the-name-of-islam",
+   "title": "Anti-Islam in the Name of Islam",
+   "pages": [
+    5,
+    9
+   ],
+   "words": 1798,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    },
+    {
+     "item": "p6b4",
+     "kind": "p",
+     "words": [
+      "socalled"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "living-with-an-open-mind",
+   "title": "Living with an Open Mind",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 292,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "umar"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-importance-of-stability",
+   "title": "The Importance of Stability",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 591,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "two-types-of-people",
+   "title": "Two Types of People",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 405,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-essence-of-hajj",
+   "title": "The Essence of Hajj",
+   "pages": [
+    14,
+    18
+   ],
+   "words": 1928,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "friendliness-and-separation",
+   "title": "Friendliness and Separation",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 435,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p19b2",
+     "kind": "p",
+     "words": [
+      "muslim"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-age-of-science-religion-part-i",
+   "title": "The Age of Science & Religion—part I",
+   "pages": [
+    21,
+    25
+   ],
+   "words": 1574,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p21b2",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-process-of-reversal",
+   "title": "The Process of Reversal",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 610,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "world-of-hope",
+   "title": "World of Hope",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 274,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "promoting-peace-in-muslim-societies",
+   "title": "Promoting Peace in Muslim Societies",
+   "pages": [
+    29,
+    33
+   ],
+   "words": 1848,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "has-the-age-of-oppression-returned",
+   "title": "Has the Age of Oppression Returned?",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 612,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-question-of-justice",
+   "title": "The Question of Justice",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 355,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "faith-in-the-unseen",
+   "title": "Faith in the Unseen",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 716,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-weakness-of-man",
+   "title": "The Weakness of Man",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 362,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p39b9",
+     "kind": "p",
+     "words": [
+      "where"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "social-living",
+   "title": "Social Living",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 412,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "society"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "quran-maintains-its-originality",
+   "title": "Quran Maintains Its Originality",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 750,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "fragments"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "understanding-the-quran",
+   "title": "Understanding the Quran",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 196,
+   "match": 99.49,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "to"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1221,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 708,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16746,
+ "article_words": 15087
+}

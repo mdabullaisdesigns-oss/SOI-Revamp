@@ -1,0 +1,450 @@
+{
+ "slug": "2016-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "right-here-right-now",
+   "title": "Right Here, Right Now",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 529,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p5b8",
+     "kind": "p",
+     "words": [
+      "at"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-holy-month-of-fasting-and-prayer",
+   "title": "The Holy Month of Fasting and Prayer",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 656,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "ramazan"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "secret-of-happiness",
+   "title": "Secret of Happiness",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 334,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p9b6",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "history-of-withouts",
+   "title": "History of Withouts",
+   "pages": [
+    10,
+    14
+   ],
+   "words": 1907,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "discovery-rediscovery",
+   "title": "Discovery, Rediscovery",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 348,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "negative-thinking-is-un-islamic",
+   "title": "Negative Thinking Is Un-Islamic",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 580,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p16b2",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "lamenting-over-the-past",
+   "title": "Lamenting Over the Past",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 409,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-religion-of-peace",
+   "title": "The Religion of Peace",
+   "pages": [
+    19,
+    22
+   ],
+   "words": 1488,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p19b4",
+     "kind": "p",
+     "words": [
+      "over"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "eliminate-bad-habits",
+   "title": "Eliminate Bad Habits",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 318,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "successful-life-unsuccessful-end",
+   "title": "Successful Life, Unsuccessful End",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 612,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "belief-in-god",
+   "title": "Belief in God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 628,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "god-the-greatest",
+   "title": "God, the Greatest",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 330,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "when-you-make-a-mistake",
+   "title": "When You Make a Mistake",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 543,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p29b7",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "tazkiya-an-act-of-preparation",
+   "title": "Tazkiya—an Act of Preparation",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 690,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "wonder-of-wonders",
+   "title": "Wonder of Wonders",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 543,
+   "match": 99.08,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "looking"
+     ]
+    },
+    {
+     "item": "p33b4",
+     "kind": "small",
+     "words": [
+      "element",
+      "symbol"
+     ]
+    },
+    {
+     "item": "p33b18",
+     "kind": "small",
+     "words": [
+      "v",
+      "zn"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-human-predicament",
+   "title": "The Human Predicament",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 260,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "patience-the-superior-solution",
+   "title": "Patience: The Superior Solution",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 332,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ignore-them-politely",
+   "title": "Ignore Them Politely",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 585,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "life"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-case-of-present-muslims",
+   "title": "The Case of Present Muslims",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 763,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "former"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "gods-signs",
+   "title": "God’s Signs",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 334,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "the-secret-of-success",
+   "title": "The Secret of Success",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 403,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "after-death",
+   "title": "After Death",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 331,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p43b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    47
+   ],
+   "words": 1489,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 24,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 779,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.86,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16939,
+ "article_words": 15191
+}

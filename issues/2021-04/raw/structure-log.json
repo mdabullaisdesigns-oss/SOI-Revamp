@@ -1,0 +1,922 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b1"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 6,
+   "text": "ENGLISH BIMONTHLY ISSUE 100 APRIL-MAY-JUNE 2021"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "title",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITOF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 20,
+   "text": "T owards G l o bal Pe ac e & Spi ri t u al L i vi n g"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b3"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 16,
+   "text": "Acknowledgement of God’s power and acceptance of our helplessness create feelings of piety and humble supplication."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "A MAGAZINE FOR THE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "JOURNEY OF LIFE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Spirit of Islam bimonthly…"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 20,
+   "text": "4 Presents Islam, the religion of nature, in the contemporary idiom to help Muslims rediscover Islam from the original sources"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Explains Creation plan of God for humankind"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Enlightens people on the subject of global peace"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Addresses contemporary issues"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Assists the readers to deal with life’s challenges"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b9"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "4 Offers Spirituality to a wider circle of spiritual seekers"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Fosters greater communal harmony through religious understanding"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "United in prayers SOI Editorial Committee"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b16"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 22,
+   "text": "To w a rds G l o b a l P e a ce & S pir it ua l Liv ing"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "bio",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "ISSUE 100 APRIL-MAY-JUNE 2021"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "CHIEF EDITOR MAULANA WAHIDUDDIN KHAN www.facebook.com/maulanawkhan"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b2"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 5,
+   "text": "EDITORIAL DIRECTOR PROF. FARIDA KHANAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "EDITORIAL COMMITTEE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4",
+    "p3b5"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 12,
+   "text": "DR. NAGHMA SIDDIQI INAYATHULLAH UMRI DR. MARIA KHAN PROF. ZAHEERUDDIN MOHAMMAD USMAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b7"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 16,
+   "text": "OFFICE SPIRIT OF ISLAM 002, HM WIMBERLY, 6, BERLIE STREET CROSS LANGFORD TOWN, BENGALURU 560025, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.spiritofislam.co.in"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b9",
+    "p3b10",
+    "p3b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "FOR LATEST UPDATES https://www.facebook.com/spiritofislamnew/ https://instagram.com/soimagazinenew https://twitter.com/spiritofislamnw"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12",
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "CPS INTERNATIONAL www.cpsglobal.org www.cpsquran.com"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< FROM MAULANA’S DESK 9"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< FROM THE EDITORIAL DIRECTOR 12"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< A SERIOUS MISTAKE 14"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< FROM PRIDE TO ARROGANCE 15"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "< EVERY PERSON IS YOUR POTENTIAL FRIEND 16"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< SPIRITUAL ASPECTS OF RAMADAN 21"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "< LAYLAT-UL-QADR 23"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< IDEAL INDIVIDUAL, IDEAL SOCIETY 25"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< FROM THE SPIRITUAL TREE 26"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "< EID-UL-FITR 28"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< TWO LIVES 30"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< ANGER MANAGEMENT 31"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE PRIMACY OF PRAYER 32"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< TOWARDS GLOBAL PEACE 33"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< CHILDREN’S CORNER 35"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b19"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< LETTERS AND OPINIONS 37"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b20"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 9,
+   "text": "< THE WORLD MOURNS THE LOSS OF MAULANA 40"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b21"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< BOOK REVIEW 41"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b22"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE WORD OF GOD 46"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b23"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< ASK MAULANA 48"
+  },
+  {
+   "page": 8,
+   "ids": [
+    "p8b1",
+    "p8b2",
+    "p8b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "A Lifetime of Peace, Love and Wisdom: A short talk about Maulana by Dr Maria Khan"
+  },
+  {
+   "page": 8,
+   "ids": [
+    "p8b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "Click here to watch on Facebook"
+  },
+  {
+   "page": 15,
+   "ids": [
+    "p15b1"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "USA"
+  },
+  {
+   "page": 15,
+   "ids": [
+    "p15b2"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Centre for Peace and Spirituality 2665 Byberry Road, Bensalem, PA 19020 kkaleemuddin@gmail.com"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b10"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 13,
+   "text": "Ramadan entails much more than fasting; it is the fostering of a culture"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b11"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 5,
+   "text": "of abstinence aimed at purification"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b12"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 5,
+   "text": "of thought, speech and general"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b13"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "behaviour."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b2"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b10"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 30,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t u al L iv ing"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b3",
+    "p27b4",
+    "p27b5",
+    "p27b6"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 28,
+   "text": "We wish to inform our readers that Spirit of Islam bimonthly is being published in digital format only. We have stopped publishing the printed copies of the magazine."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b7",
+    "p27b8",
+    "p27b9"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 21,
+   "text": "Those who wish to read from a printed copy may do so by taking a booklet print-out of the digital magazine."
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b1"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 2,
+   "text": "Dear readers,"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b2"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 71,
+   "text": "The website www.spiritofislam.co.in is equipped with an excellent search engine. You will find SEARCH tab on the top right corner of the webpage as shown on this page. Click here and type your key search words. Every article that carries the search words will appear from the rich archives of Spirit of Islam magazine. You can also set the preference of browsing through the newest as well as the oldest articles."
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b3"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 30,
+   "text": "Trying to understand Islam, prepare notes, speeches, presentations, or just wish to gain some perspective on any given topic about Islam, the SEARCH engine www.spiritofislam.co.in/spiritnew/ index.php/search is here to help."
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b4"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 11,
+   "text": "You may type in the relevant key word searches, for example"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b15",
+    "p45b5"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 5,
+   "text": "4 Monotheism 4 Talaq (Divorce)"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b16",
+    "p45b6"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 6,
+   "text": "4 Science and Islam 4 Atheism"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b17",
+    "p45b7"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Islam and the Modern Age 4 Islamic Literature"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b18",
+    "p45b8"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 5,
+   "text": "4 Nonviolence 4 Muslim Leadership"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b19",
+    "p45b9"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Peace 4 Dawah"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b20",
+    "p45b10"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 7,
+   "text": "4 God-realization 4 Contribution of the West"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b21",
+    "p45b11"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Jihad 4 Prayers"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b22",
+    "p45b12"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 5,
+   "text": "4 Polygamy 4 Prophet Muhammad"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b23",
+    "p45b13"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 7,
+   "text": "4 Terrorism 4 Arguments for the Hereafter"
+  },
+  {
+   "page": 45,
+   "ids": [
+    "p45b24",
+    "p45b14"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Spirituality 4 Quran"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b5"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 10,
+   "text": "Spirit of Islam web version now available with AUDIO feature"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "Reflections on"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Life ana Death"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 33,
+   "text": "yo is the purpose of this short life of ours on earth when we know that one day or the other, death will overtake us and we will have to leave this world?"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b3",
+    "p51b4",
+    "p51b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 96,
+   "text": "When the only thing about the future about which we can be really sure is that we will die one day, why is it that we rarely, if ever, care to think about death? What happens after we die? When we die, the body begins to disintegrate, but what about the soul—the real ‘I’? In this book, Maulana Wahiduddin Khan reflects on life and death in the light of the grand Creation Plan of God. It is only in the context of this Plan, he suggests, that life and death can really begin to make sense."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b6",
+    "p51b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 61,
+   "text": "Maviana Wasipupoin KHAN is the founder of Centre for Peace and Spirituality, New Delhi dedicated to presenting Islam to the world as a complete ideology of peace. The Maulana is the author of The Prophet of Peace, The Age of Peace, Islam and World Peace, and numerous other bestselling books on Islam He has heen internationally recognized for his contributions to"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "j, an organization"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b9"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "world peace."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b10",
+    "p51b11"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "‘www. goodwordbooks.com | MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b12"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "For more information visit: www.goodwordbooks.com"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0",
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 22,
+   "text": "Published & owned by: Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross Langford Town, Bengaluru - 560025 | RNI No: KARENG/2012/46265"
+  }
+ ],
+ "lead_in": [
+  "'FOUNDER' -> 'Founder'",
+  "'IN' -> 'In'",
+  "'PROFESSOR MAJIDA ASAD' -> 'Professor Majida Asad'",
+  "'IT' -> 'It'",
+  "'PEOPLE' -> 'People'",
+  "'RAMADAN' -> 'Ramadan'",
+  "'SHAB-E-QADR' -> 'Shab-E-QADR'",
+  "'IT' -> 'It'",
+  "'THE P' -> 'The P'",
+  "'EID-UL-FITR' -> 'Eid-UL-FITR'",
+  "'MAN' -> 'Man'",
+  "'A MAN' -> 'A man'",
+  "'ISLAM' -> 'Islam'",
+  "'IN' -> 'In'",
+  "'WHEN H' -> 'When H'",
+  "'HARDLY' -> 'Hardly'"
+ ],
+ "hyphen_unsure": [
+  "Laylat-ul"
+ ],
+ "ligatures_rejoined": 0
+}

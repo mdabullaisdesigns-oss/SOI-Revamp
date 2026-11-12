@@ -1,0 +1,337 @@
+{
+ "slug": "2016-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "from-maulanas-desk",
+   "title": "From Maulana’s Desk",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 748,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "discovery-of-god",
+   "title": "Discovery of God",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 469,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "positive-aspect-of-illness",
+   "title": "Positive Aspect of Illness",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 339,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "maulanas-address-to-isna",
+   "title": "Maulana's Address to Isna",
+   "pages": [
+    10,
+    15
+   ],
+   "words": 2205,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    },
+    {
+     "item": "p12b2",
+     "kind": "p",
+     "words": [
+      "conditions"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "pollution",
+   "title": "Pollution",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 523,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-importance-of-reason",
+   "title": "The Importance of Reason",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 370,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "all-praise-is-due-to-god",
+   "title": "All Praise Is Due to God",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 360,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p20b4",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-life-force",
+   "title": "The Life Force",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 418,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-islamic-way-of-life",
+   "title": "The Islamic Way of Life",
+   "pages": [
+    23,
+    28
+   ],
+   "words": 1944,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-life-giving-effects-of-belief-in-death",
+   "title": "The Life-Giving Effects of Belief in Death",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 598,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "turning-negative-into-positive",
+   "title": "Turning Negative into Positive",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 243,
+   "match": 99.59,
+   "missing": [
+    {
+     "item": "p31b4",
+     "kind": "p",
+     "words": [
+      "mahatma"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "reading-the-signs",
+   "title": "Reading the Signs",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 371,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "with"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-price-of-peace",
+   "title": "The Price of Peace",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 585,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p33b4",
+     "kind": "p",
+     "words": [
+      "everything"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "in-the-nick-of-time",
+   "title": "In the Nick of Time",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 324,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "speech-management",
+   "title": "Speech Management",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 380,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "success-out-of-failure",
+   "title": "Success Out of Failure",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 631,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "god-prophethood-and-life-after-death",
+   "title": "God, Prophethood and Life After Death",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1067,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p39b4",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-age-of-civilisation",
+   "title": "The Age of Civilisation",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 559,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "violence"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 921,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1154,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15949,
+ "article_words": 14209
+}

@@ -1,0 +1,322 @@
+{
+ "slug": "2014-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "avoid-confrontation-at-all-cost",
+   "title": "Avoid Confrontation at All Cost",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 784,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "tolerance-the-price-of-peace",
+   "title": "Tolerance: The Price of Peace",
+   "pages": [
+    8,
+    11
+   ],
+   "words": 1369,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "no-to-cursing",
+   "title": "No, to Cursing",
+   "pages": [
+    12,
+    15
+   ],
+   "words": 1293,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "adjustment-a-golden-principle",
+   "title": "Adjustment—a Golden Principle",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 591,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "human-tragedy",
+   "title": "Human Tragedy",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 323,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p18b7",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-culture-of-peace-part-iii",
+   "title": "The Culture of Peace — Part III",
+   "pages": [
+    19,
+    25
+   ],
+   "words": 2569,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "meaningful-universe",
+   "title": "Meaningful Universe",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 367,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p26b3",
+     "kind": "p",
+     "words": [
+      "science"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "implementation-of-the-shariah-law",
+   "title": "Implementation of the Shariah Law",
+   "pages": [
+    27,
+    29
+   ],
+   "words": 1046,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p27b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "a-believer-lives-for-god",
+   "title": "A Believer Lives for God",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 391,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "limitations-of-freedom",
+   "title": "Limitations of Freedom",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 369,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "willingness-to-change",
+   "title": "Willingness to Change",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 754,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p33b2",
+     "kind": "p",
+     "words": [
+      "dr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "failure-is-not-the-end",
+   "title": "Failure Is Not the End",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 692,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p35b2",
+     "kind": "p",
+     "words": [
+      "har"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "miracle-of-living-together",
+   "title": "Miracle of Living Together",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 313,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p37b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-philosophic-concept-of-god",
+   "title": "The Philosophic Concept of God",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 318,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "aryan"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "palestine-ideal-or-practical-peace",
+   "title": "Palestine: Ideal or Practical Peace",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 684,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-greatest-question",
+   "title": "The Greatest Question",
+   "pages": [
+    41,
+    45
+   ],
+   "words": 1869,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "all-credit-goes-to-god-almighty",
+   "title": "All Credit Goes to God Almighty",
+   "pages": [
+    46,
+    46
+   ],
+   "words": 330,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p46b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 655,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16313,
+ "article_words": 14717
+}

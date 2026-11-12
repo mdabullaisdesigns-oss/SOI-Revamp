@@ -1,0 +1,318 @@
+{
+ "slug": "2017-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "post-elections-winners-losers",
+   "title": "Post Elections: Winners & Losers",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 947,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-form-and-spirit-of-ramazan",
+   "title": "The Form and Spirit of Ramazan",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 676,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p8b6",
+     "kind": "p",
+     "words": [
+      "wrong"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-galaxy-speaks-about-its-creator",
+   "title": "The Galaxy Speaks About Its Creator",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 483,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p10b6",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "sincerity",
+   "title": "Sincerity",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 240,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "the-donald-trump-phenomenon",
+   "title": "The Donald Trump Phenomenon",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 779,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-phenomenon-of-degeneration",
+   "title": "The Phenomenon of Degeneration",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 637,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "muslims"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-greatest-evil-of-history",
+   "title": "The Greatest Evil of History",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 959,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "innumerable-bounties-of-fasting",
+   "title": "Innumerable Bounties of Fasting",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 704,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-miracle-of-teamwork",
+   "title": "The Miracle of Teamwork",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 606,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "companionship-of-the-prophet",
+   "title": "Companionship of the Prophet",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 617,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "allahu-akbar-speaks-of-a-belief",
+   "title": "‘allahu Akbar’ Speaks of a Belief",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 443,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "explaining-creation",
+   "title": "Explaining Creation",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 334,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "why"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "zakat-the-prescribed-charity",
+   "title": "Zakat—the Prescribed Charity",
+   "pages": [
+    29,
+    31
+   ],
+   "words": 1072,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "zakat"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "good-parenting",
+   "title": "Good Parenting",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 690,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "western-civilization",
+   "title": "Western Civilization",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 717,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "training-in-wisdom",
+   "title": "Training in Wisdom",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 688,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "worship-in-islam",
+   "title": "Worship in Islam",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 845,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p38b7",
+     "kind": "p",
+     "words": [
+      "not"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "learning-about-life-from-the-family",
+   "title": "Learning About Life from the Family",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 340,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "death-a-demolisher-of-desires",
+   "title": "Death: A Demolisher of Desires",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 667,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 1290,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1029,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16502,
+ "article_words": 14763
+}

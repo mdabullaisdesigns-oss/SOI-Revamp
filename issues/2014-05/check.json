@@ -1,0 +1,294 @@
+{
+ "slug": "2014-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "ready-to-respond-every-moment",
+   "title": "Ready to Respond Every Moment",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 642,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-secret-of-unity",
+   "title": "The Secret of Unity",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 300,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "islam-and-peace",
+   "title": "Islam and Peace",
+   "pages": [
+    9,
+    15
+   ],
+   "words": 2804,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-veil-of-causation",
+   "title": "The Veil of Causation",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 316,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "destructive-politics",
+   "title": "Destructive Politics",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 674,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p17b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "starting-from-scratch",
+   "title": "Starting from Scratch",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 427,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p19b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-role-of-the-ulema",
+   "title": "The Role of the Ulema",
+   "pages": [
+    20,
+    28
+   ],
+   "words": 3258,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "to"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "fate-of-the-truth-teller",
+   "title": "Fate of the Truth-Teller",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 349,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "in-the-nick-of-time",
+   "title": "In the Nick of Time",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 356,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "abasement-and-destitution",
+   "title": "Abasement and Destitution",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 328,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-discovery-of-our-helplessness",
+   "title": "The Discovery of Our Helplessness",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 426,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-second-forbidden-tree",
+   "title": "The Second Forbidden Tree",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 697,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "adam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "living-in-the-culture-of-discovery",
+   "title": "Living in the Culture of Discovery",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 305,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "science-versus-miracles",
+   "title": "Science Versus Miracles",
+   "pages": [
+    37,
+    41
+   ],
+   "words": 1793,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p37b2",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "miraculous-nine-days",
+   "title": "Miraculous Nine Days",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 353,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 992,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 608,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16514,
+ "article_words": 14628
+}

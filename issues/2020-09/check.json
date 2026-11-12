@@ -1,0 +1,390 @@
+{
+ "slug": "2020-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "virtual-meeting",
+   "title": "Virtual Meeting",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 438,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-letter-and-spirit-of-eid-al-adha",
+   "title": "The Letter and Spirit of Eid Al-Adha",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 782,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-purpose-of-religion",
+   "title": "The Purpose of Religion",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 386,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-purpose-of-religious-rituals",
+   "title": "The Purpose of Religious Rituals",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 535,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-cause-of-discord",
+   "title": "The Cause of Discord",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 388,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "coping-with-death",
+   "title": "Coping with Death",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 381,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "two"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "restoration-of-religion",
+   "title": "Restoration of Religion",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 571,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "from-denial-to-belief",
+   "title": "From Denial to Belief",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 718,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "professor"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "religion-and-the-life-hereafter",
+   "title": "Religion and the Life Hereafter",
+   "pages": [
+    18,
+    22
+   ],
+   "words": 2016,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p18b11",
+     "kind": "p",
+     "words": [
+      "so"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "opportunity-for-re-planning",
+   "title": "Opportunity for Re-Planning",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 290,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "blessing-in-disguise",
+   "title": "Blessing in Disguise",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 648,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "right-start",
+   "title": "Right Start",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 490,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "is-life-worth-living",
+   "title": "Is Life Worth Living?",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 320,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p28b7",
+     "kind": "p",
+     "words": [
+      "everything"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "religion-stages-a-comeback",
+   "title": "Religion Stages a Comeback",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 637,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "intrinsic-reality",
+   "title": "Intrinsic Reality",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 582,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-importance-of-religion-in-peace-building",
+   "title": "The Importance of Religion in Peace-Building",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 1085,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p33b5",
+     "kind": "p",
+     "words": [
+      "since"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-road-to-religious-harmony",
+   "title": "The Road to Religious Harmony",
+   "pages": [
+    36,
+    40
+   ],
+   "words": 1671,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "religious-freedom-in-islam",
+   "title": "Religious Freedom in Islam",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 843,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "contrary"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "when-the-ship-comes-home",
+   "title": "When the Ship Comes Home",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 512,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 910,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 708,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 24958,
+ "article_words": 14911
+}

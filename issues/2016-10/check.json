@@ -1,0 +1,394 @@
+{
+ "slug": "2016-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-age-of-openness",
+   "title": "The Age of Openness",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 663,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "history-of-reaction",
+   "title": "History of Reaction",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 607,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "family-culture",
+   "title": "Family Culture",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 306,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "faith-and-reason",
+   "title": "Faith and Reason",
+   "pages": [
+    10,
+    14
+   ],
+   "words": 2074,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "giving-as-god-wills",
+   "title": "Giving as God Wills",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 344,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "mans"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-straight-path",
+   "title": "The Straight Path",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 334,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "tazkiya-or-purification",
+   "title": "Tazkiya or Purification",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 353,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "belief-in-god",
+   "title": "Belief in God",
+   "pages": [
+    18,
+    23
+   ],
+   "words": 2355,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "prophetic-model-vis-vis-historical-model",
+   "title": "Prophetic Model Vis-À-Vis Historical Model",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 448,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p24b4",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "principle-of-mercy",
+   "title": "Principle of Mercy",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 572,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "unlimited-reward-of-patience",
+   "title": "Unlimited Reward of Patience",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 304,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "a-believer",
+   "title": "A Believer",
+   "pages": [
+    29,
+    32
+   ],
+   "words": 1337,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "without-reservation",
+   "title": "Without Reservation",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 257,
+   "match": 99.61,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "ritual-must-arise-from-the-spirit",
+   "title": "Ritual Must Arise from the Spirit",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 774,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "merit-culture-contacts-culture",
+   "title": "Merit Culture; Contacts Culture",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 328,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "developed"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "muslim-separatism-is-un-islamic",
+   "title": "Muslim Separatism Is Un-Islamic",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 1106,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p37b4",
+     "kind": "p",
+     "words": [
+      "selfdetermination"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-path-of-moderation",
+   "title": "The Path of Moderation",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 219,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "goodness-in-every-situation",
+   "title": "Goodness in Every Situation",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 342,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "three-stages-of-development",
+   "title": "Three Stages of Development",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 1162,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p42b6",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "life-after-death",
+   "title": "Life After Death",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 342,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p45b8",
+     "kind": "p",
+     "words": [
+      "gandhi"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    46
+   ],
+   "words": 348,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 726,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17066,
+ "article_words": 15301
+}

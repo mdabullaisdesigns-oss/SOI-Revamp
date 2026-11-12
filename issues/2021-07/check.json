@@ -1,0 +1,363 @@
+{
+ "slug": "2021-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "carrying-on-the-legacy-and-mission-of-maulana",
+   "title": "Carrying on the Legacy and Mission of Maulana",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 823,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-message-of-pilgrimage",
+   "title": "The Message of Pilgrimage",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1125,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-sublimity-of-spiritual-experience",
+   "title": "The Sublimity of Spiritual Experience",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 364,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "islam-and-the-challenges-of-the-world",
+   "title": "Islam and the Challenges of the World",
+   "pages": [
+    12,
+    16
+   ],
+   "words": 1844,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p12b5",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "causes-and-consequences-of-mainstream-media",
+   "title": "Causes and Consequences of Mainstream Media",
+   "pages": [
+    17,
+    20
+   ],
+   "words": 1298,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p17b4",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "humility-a-commendable-virtue",
+   "title": "Humility: A Commendable Virtue",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 288,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-boss-at-home",
+   "title": "The Boss at Home",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 630,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p22b2",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "a-grand-adventure",
+   "title": "A Grand Adventure",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 512,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p24b4",
+     "kind": "p",
+     "words": [
+      "men"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-life-force",
+   "title": "The Life Force",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 557,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "prophetic-model-of-success",
+   "title": "Prophetic Model of Success",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 372,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "getting-off-to-a-good-start",
+   "title": "Getting Off to a Good Start",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 405,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "here"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-spirit-of-selfless-devotion",
+   "title": "The Spirit of Selfless Devotion",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 419,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "train-your-thinking",
+   "title": "Train Your Thinking",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 622,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "super-performers",
+   "title": "Super Performers",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 348,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 97,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-kings-dream",
+   "title": "The King’s Dream",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 419,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p34b5",
+     "kind": "p",
+     "words": [
+      "long"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-valley-of-ants",
+   "title": "The Valley of Ants",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 306,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 773,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p37b9",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 259,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "tributes-to-maulana-wahiduddin-khan",
+   "title": "Tributes to Maulana Wahiduddin Khan",
+   "pages": [
+    42,
+    46
+   ],
+   "words": 1422,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 544,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 596,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p49b4",
+     "kind": "p",
+     "words": [
+      "interfaith",
+      "programme"
+     ]
+    }
+   ]
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15556,
+ "article_words": 14023
+}

@@ -19,9 +19,12 @@ import json, os, re, sys, statistics, collections
 SMALL = {"a", "an", "the", "and", "or", "but", "nor", "of", "in", "to", "for", "at", "on", "by",
          "with", "from", "as", "into", "vs"}
 ACRONYMS = {"CPS", "USA", "UK", "UN", "FAQ", "FAQS", "AI", "TV", "II", "III", "IV", "CE", "BC", "AD", "DNA"}
-NON_ARTICLE = re.compile(r"^(CONTENTS|ABOUT THE MAGAZINE|NOTICE|SUBSCRIBE|SPIRIT OF ISLAM)$", re.I)
-SECTION_TYPES = [(r"WORD OF GOD", "scripture"), (r"ASK MAULANA|QUESTIONS ANSWERED", "qa"),
+NON_ARTICLE = re.compile(r"^(CONTENTS|ABOUT THE MAGAZINE|NOTICE|SUBSCRIBE|SUBSCRIBE SPIRIT OF ISLAM|SPIRIT ?OF ISLAM)$", re.I)
+SECTION_TYPES = [(r"^\s*GLOSSARY\s*$", "glossary"), (r"WORD OF GOD", "scripture"), (r"ASK MAULANA|QUESTIONS ANSWERED", "qa"),
                  (r"NEWSLETTER", "newsletter"), (r"CHILDREN", "children")]
+ADVERT = re.compile(r"subscription|cpsglobal\.org|www\.|@|A/c No|Subscribers are requested|ORDERED ONLINE|goodword|ACCESS ONLINE|Buy Online|New Release", re.I)
+SECTION_NAMES = re.compile(r"(?i)^(from the .*desk|from maulana.s desk|towards global peace|personal experiences|journey towards god.reali[sz]ation)$")
+END_GLYPHS = {"\uf071", "v", "q", "o", "\uf06f", "n", "\uf06e", "\uf0a8"}   # the end-of-article box in Wingdings
 END_MARKS = "❑❏□❒"            # the little box that closes an article
 SENT_END = re.compile(r"[.?!:;\"”’)\]❑]\s*$")
 
@@ -41,7 +44,10 @@ def line_role(l, page_h):
     if f.startswith("Wingdings"):
         return "endmark"
     if "nevis" in f:
-        if sz >= 13.4 and t.upper() == t:
+        if (sz >= 13.4 and t.upper() == t) or (sz >= 15 and y < 110 and len(t.split()) >= 2
+                                                and sum(ch.isupper() for ch in t) >= 0.6 * max(1, sum(ch.isalpha() for ch in t))):
+            return "title"
+        if (sz >= 15 and t.lower() == "subscribe") or (sz >= 11 and t == "Glossary" and y < 110):
             return "title"
         if sz >= 11:
             return "pull"
@@ -163,6 +169,16 @@ def build_units(page, overrides, joiner):
                                    for i in range(len(b["lines"]) - 1)] or [12.5]) or 12.5
         pitch = max(pitch, 9.0)
         lines = [l for l in b["lines"] if l["t"].strip()]
+        # list bullets are drawn with a symbol font (plus a stray copy of the same letter): not text
+        bullets = [l for l in lines if fam(l["f"]).startswith("Wingdings") and l["t"].strip() not in END_GLYPHS]
+        if bullets:
+            lines = [l for l in lines if l not in bullets and not (
+                len(l["t"].strip()) == 1 and any(abs(l["bb"][1] - q["bb"][1]) < 5 and abs(l["bb"][0] - q["bb"][0]) < 12 for q in bullets))]
+            for l in lines:
+                if any(abs(l["bb"][1] - q["bb"][1]) < 5 and l["bb"][0] > q["bb"][0] for q in bullets) and not l["t"].startswith("\u2022"):
+                    l["t"] = "\u2022 " + l["t"]
+                    if l.get("runs"):
+                        l["runs"] = [["", "\u2022 "]] + l["runs"]
         roles = [forced.get(b["id"]) or line_role(l, page["h"]) for l in lines]
         demoted = {}                                 # line -> length of the bold lead-in that ends in body text
         for li in range(len(lines) - 2, -1, -1):     # bold words that run on into the paragraph are not a heading
@@ -345,7 +361,9 @@ def main():
                 continue
             if role == "title":
                 text = re.sub(r"\s+", " ", u["text"]).strip()
-                if NON_ARTICLE.match(text):
+                under_section = cur and not cur.get("skip") and cur.get("items") is not None and only_bio(cur) \
+                    and cur.get("page") == page["n"] and u is not titles[0]
+                if NON_ARTICLE.match(text) and not under_section:   # ("Spirit of Islam" can also be an editorial's own title)
                     cur, ended = {"skip": text, "items": []}, False
                     skip(u, "non-article page: " + text.title())
                     continue
@@ -508,8 +526,62 @@ def main():
             skipped.append({"page": a["page"], "ids": [], "role": "title", "why": "heading with no text under it",
                             "words": 0, "text": a["title_raw"]})
             continue
+        if a["pages"][0] >= len(pages) - 1 and sum(len(plain(i["runs"]).split()) for i in a["items"]) < 60:
+            for x in [{"runs": [["", a["title_raw"]]], "page": a["pages"][0], "ids": []}] + a["items"]:
+                t = plain(x["runs"])
+                skipped.append({"page": x["page"], "ids": x["ids"], "role": "other", "why": "back cover", "words": len(t.split()), "text": t})
+            continue
         sec = a.get("section", a["title_raw"])
         a["type"] = art_type(a)
+        # advert / notice boxes printed in the space after an article (BOOKS · VIDEOS · cpsglobal.org/…,
+        # subscription and bank details, "now access online"): not part of the article -> the left-out list
+        keep, k = [], 0
+        its = a["items"]
+        while k < len(its):
+            if its[k]["k"] in ("filler_p", "filler_sig", "other") and (k == 0 or its[k - 1]["k"] not in ("filler_h",)) \
+                    and any(x["k"] in ("thought", "filler_h", "filler_p", "filler_sig", "signoff", "contact", "other") or x is its[k] for x in its[max(0, k - 1):k + 1]):
+                j = k
+                while j < len(its) and its[j]["k"] in ("filler_p", "filler_sig", "other") and its[j]["page"] == its[k]["page"]:
+                    j += 1
+                text = " ".join(plain(x["runs"]) for x in its[k:j])
+                in_tail = all(x["k"] in ("filler_p", "filler_sig", "other", "filler_h", "thought", "signoff", "contact", "small", "footnote") for x in its[k:])
+                if in_tail and ADVERT.search(text) and any(x["k"] == "other" for x in its[k:j]):
+                    for x in its[k:j]:
+                        t = plain(x["runs"])
+                        skipped.append({"page": x["page"], "ids": x["ids"], "role": "other", "why": "advert or notice box after the article",
+                                        "words": len(t.split()), "text": t})
+                    k = j
+                    continue
+            keep.append(its[k])
+            k += 1
+        a["items"] = keep
+        # blocks set in a face outside the magazine's usual type system: place the clear cases
+        its, keep = a["items"], []
+        for k, x in enumerate(its):
+            if x["k"] != "other":
+                keep.append(x); continue
+            t = plain(x["runs"]).strip()
+            font, size, nw = x.get("font", ""), x.get("size") or 0, len(t.split())
+            prev = keep[-1] if keep else None
+            heavy = bool(re.search(r"Bold|Black|Impact|Semibold", font)) or (re.sub(r"[^A-Za-z]", "", t).isupper() and nw >= 2)
+            if re.fullmatch(r"[-\u2013\u2014_'\u2019.o\s]*|[A-Z]( [A-Z])?", t) or size < 6:
+                skipped.append({"page": x["page"], "ids": x["ids"], "role": "other", "words": nw, "text": t,
+                                "why": "decoration or small print inside a picture"})
+            elif prev is not None and prev["k"] in ("pull", "quote") and prev.get("font") == font and prev["page"] == x["page"] and "Italic" in font:
+                prev["runs"][-1][1] = prev["runs"][-1][1].rstrip() + " "
+                prev["runs"] += x["runs"]                  # the next line of the same large italic quote
+            elif size <= 9.2 and nw <= 6 and (re.search(r"\d\s*:\s*\d", t) or t.isupper()):
+                x["k"] = "small"; keep.append(x)             # a source line under a quotation
+            elif heavy and 9.5 <= size <= 12.5 and nw > 12 and "Bold" in font and prev is not None and prev["k"] in ("p", "h"):
+                x["k"] = "p"; x["runs"] = [["b" if "b" not in r[0] else r[0], r[1]] for r in x["runs"]]; keep.append(x)
+            elif "Italic" in font and size >= 10.8 and nw >= 3 and not ADVERT.search(t):
+                x["k"] = "pull"; keep.append(x)
+            elif heavy and 9.5 <= size <= 14.5 and nw <= 12 and not ADVERT.search(t) and not re.search(r"https?:", t) \
+                    and (prev is None or prev["k"] in ("p", "h", "bio", "lead", "small", "quote", "pull", "intro")):
+                x["k"] = "h"; keep.append(x)
+            else:
+                keep.append(x)
+        a["items"] = keep
         body = [i for i in a["items"] if i["k"] in ("p", "quote")]
         if body and sum(i["k"] == "quote" for i in body) > 0.6 * len(body):
             for i in body:
@@ -557,6 +629,9 @@ def main():
             a["items"].insert(pos, last)
         for k, v in ov.get("articles", {}).get(slugify(a["title"]), {}).items():
             a[k] = v
+        if a.get("kicker") and SECTION_NAMES.match(a["title"].strip()) and not SECTION_NAMES.match(a["kicker"].strip()):
+            a["title"], a["kicker"] = a["kicker"], a["title"]
+            a["section"] = a.get("section") or a["title_raw"]
         aid = slugify(a["title"])
         seen[aid] += 1
         a["id"] = aid if seen[aid] == 1 else f"{aid}-{seen[aid]}"
@@ -572,6 +647,39 @@ def main():
                 for r in i["runs"]:
                     r[1] = r[1].replace(old, new)
 
+    # a few PDFs space out their fi/ff/fl ligatures ("sacrifi ce", "diff erent"): rejoin, but only where the
+    # second reading of the PDF has the joined word and never has the two pieces side by side
+    second = os.path.join(base, "raw", "pdftotext.txt")
+    if os.path.exists(second):
+        low = re.sub(r"\s+", " ", open(second, encoding="utf-8").read().lower())
+        vocab2 = set(re.findall(r"[a-z]+", low))
+        fixed = collections.Counter()
+        text_all = " ".join(plain(i["runs"]) for a in out for i in a["items"])
+        spaced = len(re.findall(r"\b[A-Za-z]*(?:ffi|ff|fi|fl) (?:er|ce|cult|ort|ect|rst|rm|nd|ne|ll|ve|eld|ower|ering)[a-z]*\b", text_all))
+        if spaced >= 15:                                 # this PDF spaces its ligatures throughout: use the archive's vocabulary
+            import glob
+            wc = collections.Counter()
+            for fpath in glob.glob(os.path.join("issues", "*", "raw", "pdftotext.txt")):
+                if os.path.dirname(os.path.dirname(fpath)) != base:
+                    wc.update(set(re.findall(r"[a-z]+", open(fpath, encoding="utf-8").read().lower())))
+            vocab2 |= {w for w, n in wc.items() if n >= 3}
+
+        def lig(m):
+            joined, pair = (m.group(1) + m.group(2)).lower(), (m.group(1) + " " + m.group(2)).lower()
+            if joined in vocab2 and (pair not in low or spaced >= 15):
+                fixed[m.group(1) + m.group(2)] += 1
+                return m.group(1) + m.group(2)
+            return m.group(0)
+        for a in out:
+            for key in ("title", "kicker"):
+                a[key] = re.sub(r"\b([A-Za-z]*(?:ffi|ffl|ff|fi|fl|Fi|Fl)) ([a-z]+)\b", lig, a.get(key, ""))
+            for i in a["items"]:
+                for r in i["runs"]:
+                    r[1] = re.sub(r"\b([A-Za-z]*(?:ffi|ffl|ff|fi|fl|Fi|Fl)) ([a-z]+)\b", lig, r[1])
+            a["words"] = sum(len(plain(i["runs"]).split()) for i in a["items"])
+    else:
+        fixed = {}
+
     meta = json.load(open(os.path.join(base, "raw", "meta.json")))
     # issue number and period, read from the running footer ("Spirit of Islam Issue 66 June 2018")
     ident = {}
@@ -579,7 +687,7 @@ def main():
     for p in pages[2:12]:
         for b in p["blocks"]:
             for l in b["lines"]:
-                m = re.search(r"Spirit of Islam\s+(?:Vol\s+\d+\s+)?Issue\s+(\d+)\s+([A-Za-z]+(?:\s*[-\u2013]\s*[A-Za-z]+)?)\s+(\d{4})", l["t"])
+                m = re.search(r"Spirit of Islam\s+(?:Vol\s+\d+\s+)?Issue\s+(\d+)\s+([A-Za-z]+(?:\s*[-\u2013]\s*[A-Za-z]+){0,2})\s+(\d{4})", l["t"])
                 if m and not ident:
                     names = [next((x for x in months if x.lower().startswith(w.lower()[:3])), w) for w in re.split(r"\s*[-\u2013]\s*", m.group(2))]
                     ident = {"number": int(m.group(1)), "period": "\u2013".join(names) + " " + m.group(3),
@@ -587,7 +695,7 @@ def main():
                     ident["label"] = f"Issue {ident['number']} \u00b7 {ident['period']}"
     issue = {"slug": slug, "pdf": meta["pdf"], "pages": meta["pages"], **ident, **ov.get("issue", {}), "articles": out}
     json.dump(issue, open(os.path.join(base, "issue.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    json.dump({"skipped": skipped, "lead_in": lead_log, "hyphen_unsure": sorted(set(joiner.log))},
+    json.dump({"skipped": skipped, "lead_in": lead_log, "hyphen_unsure": sorted(set(joiner.log)), "ligatures_rejoined": sum(fixed.values())},
               open(os.path.join(base, "raw", "structure-log.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     if "--quiet" in sys.argv:

@@ -1,0 +1,421 @@
+{
+ "slug": "2016-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "my-motherland",
+   "title": "My Motherland",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 712,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-essence-of-religion-part-ii",
+   "title": "The Essence of Religion–part II",
+   "pages": [
+    7,
+    10
+   ],
+   "words": 1394,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p7b5",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "happiness",
+   "title": "Happiness",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 313,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "someone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-i-am-right-syndrome",
+   "title": "The 'i Am Right' Syndrome",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zakat-the-prescribed-charity",
+   "title": "Zakat: The Prescribed Charity",
+   "pages": [
+    13,
+    15
+   ],
+   "words": 1021,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "remarks-of-donald-trump",
+   "title": "Remarks of Donald Trump",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 683,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "genesis-of-muslim-militancy",
+   "title": "Genesis of Muslim Militancy",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 759,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-quran-and-wazu",
+   "title": "The Quran and Wazu",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 239,
+   "match": 99.58,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "spiritual-development",
+   "title": "Spiritual Development",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 422,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p21b4",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "god-given-hope",
+   "title": "God-Given Hope",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 276,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p23b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "fasting-as-a-spiritual-culture",
+   "title": "Fasting as a Spiritual Culture",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 482,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p24b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "waiting-for-a-better-future",
+   "title": "Waiting for a Better Future",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 220,
+   "match": 99.55,
+   "missing": [
+    {
+     "item": "p26b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "interdependence",
+   "title": "Interdependence",
+   "pages": [
+    27,
+    29
+   ],
+   "words": 921,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "between-two-options",
+   "title": "Between Two Options",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 247,
+   "match": 99.6,
+   "missing": [
+    {
+     "item": "p30b2",
+     "kind": "p",
+     "words": [
+      "maulana"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "emotions-of-faith",
+   "title": "Emotions of Faith",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 809,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p31b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "patience-a-matter-of-wisdom",
+   "title": "Patience, a Matter of Wisdom",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 316,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "mans-true-purpose-in-life",
+   "title": "Man’s True Purpose in Life",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 749,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "undiscovered-reality",
+   "title": "Undiscovered Reality",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 366,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p36b2",
+     "kind": "p",
+     "words": [
+      "death"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "wrong-application-of-a-criterion",
+   "title": "Wrong Application of a Criterion",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 287,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "the-return-to-religion",
+   "title": "The Return to Religion",
+   "pages": [
+    38,
+    40
+   ],
+   "words": 1002,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "modern-civilization",
+   "title": "Modern Civilization",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 1128,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    },
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "idkhalekalimah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 769,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 23,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    49
+   ],
+   "words": 1389,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16564,
+ "article_words": 14841
+}

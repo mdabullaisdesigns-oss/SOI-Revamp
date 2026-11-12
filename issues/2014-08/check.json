@@ -1,0 +1,342 @@
+{
+ "slug": "2014-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-emergence-of-a-new-india",
+   "title": "The Emergence of a New India",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 995,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "politics"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "true-islam",
+   "title": "True Islam",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 569,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-crow-as-a-teacher",
+   "title": "The Crow as a Teacher",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 413,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "creative-leadership",
+   "title": "Creative Leadership",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 561,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "science-speaks-about-god",
+   "title": "Science Speaks About God",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 698,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "nature"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-difference-between-al-deen-and-shariah",
+   "title": "The Difference Between Al-Deen and Shariah",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 321,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p16b12",
+     "kind": "p",
+     "words": [
+      "from"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "shariah-is-non-political",
+   "title": "Shariah Is Non-Political",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 893,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p17b4",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "silence-an-intellectual-process",
+   "title": "Silence: An Intellectual Process",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 259,
+   "match": 99.61,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "anger"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-culture-of-peace-part-ii",
+   "title": "The Culture of Peace — Part II",
+   "pages": [
+    21,
+    27
+   ],
+   "words": 2272,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-challenge-of-satan",
+   "title": "The Challenge of Satan",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 485,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "trying-to-change-historys-outcome",
+   "title": "Trying to Change History’s Outcome",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 565,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-making-of-the-indian-nation",
+   "title": "The Making of the Indian Nation",
+   "pages": [
+    32,
+    35
+   ],
+   "words": 1200,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "more"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "way-to-happiness",
+   "title": "Way to Happiness",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 416,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "robert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "india-pakistan-relations",
+   "title": "India-Pakistan Relations",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 940,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "may"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "flowers-and-thorns",
+   "title": "Flowers and Thorns",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 994,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "suicide-is-not-an-option",
+   "title": "Suicide Is Not an Option",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 269,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "hermann"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-real-giver",
+   "title": "The Real Giver",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 297,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 768,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "news-brief",
+   "title": "News Brief",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 434,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15014,
+ "article_words": 13349
+}

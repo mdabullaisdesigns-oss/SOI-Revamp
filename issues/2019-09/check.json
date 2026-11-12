@@ -1,0 +1,326 @@
+{
+ "slug": "2019-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-cause-of-discord",
+   "title": "The Cause of Discord",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 530,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "sustainable-living-an-islamic-perspective",
+   "title": "Sustainable Living—an Islamic Perspective",
+   "pages": [
+    7,
+    12
+   ],
+   "words": 2167,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "without-prejudice",
+   "title": "Without Prejudice",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 342,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "weathering-the-storm",
+   "title": "Weathering the Storm",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 402,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "growing-old-is-certainly-not-a-countdown",
+   "title": "Growing Old Is Certainly Not a Countdown",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 610,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-ideology-of-peace",
+   "title": "The Ideology of Peace",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 671,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p17b4",
+     "kind": "p",
+     "words": [
+      "history"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "noble-attributes-of-the-prophet",
+   "title": "Noble Attributes of the Prophet",
+   "pages": [
+    19,
+    23
+   ],
+   "words": 1913,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "belief-in-god",
+   "title": "Belief in God",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 355,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "islamic-virtues",
+   "title": "Islamic Virtues",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 364,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p25b10",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "magic-and-miracle",
+   "title": "Magic and Miracle",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 587,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "adapting-to-a-new-world",
+   "title": "Adapting to a New World",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 563,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "islams-original-sources",
+   "title": "Islam’s Original Sources",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 1092,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "serendipity",
+   "title": "Serendipity",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 389,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "horace"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "start-change-with-the-individual",
+   "title": "Start Change with the Individual",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 316,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "military-power-is-self-damaging",
+   "title": "Military Power Is Self-Damaging",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 262,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "how-to-find-purpose-in-life",
+   "title": "How to Find Purpose in Life?",
+   "pages": [
+    36,
+    39
+   ],
+   "words": 1450,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "medicines"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "silence",
+   "title": "Silence",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 408,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "known"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-key-to-social-harmony",
+   "title": "The Key to Social Harmony",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 546,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "is-there-an-afterlife",
+   "title": "Is There an Afterlife?",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 944,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 584,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 638,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26246,
+ "article_words": 15133
+}

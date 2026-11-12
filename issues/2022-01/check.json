@@ -1,0 +1,335 @@
+{
+ "slug": "2022-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-source-of-spiritual-nourishment",
+   "title": "A Source of Spiritual Nourishment",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 723,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b3",
+     "kind": "p",
+     "words": [
+      "david"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "spirit-of-islam",
+   "title": "Spirit of Islam",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 741,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p7b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-truth",
+   "title": "The Truth",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 757,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p10b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "remembrance-of-god",
+   "title": "Remembrance of God",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 479,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p12b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "constructive-enterprise-vs-politics",
+   "title": "Constructive Enterprise vs. Politics",
+   "pages": [
+    14,
+    17
+   ],
+   "words": 1572,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p14b5",
+     "kind": "p",
+     "words": [
+      "abu"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-importance-of-true-leadership",
+   "title": "The Importance of True Leadership",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 502,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p18b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "mature-and-proactive-individuals",
+   "title": "Mature and Proactive Individuals",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 679,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "abdullah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "communicating-the-word-of-god",
+   "title": "Communicating the Word of God",
+   "pages": [
+    22,
+    25
+   ],
+   "words": 1320,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "an-incomplete-life",
+   "title": "An Incomplete Life",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 505,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p26b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "islamic-virtues",
+   "title": "Islamic Virtues",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 683,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-role-of-women-in-islam",
+   "title": "The Role of Women in Islam",
+   "pages": [
+    30,
+    34
+   ],
+   "words": 1813,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "patience",
+   "title": "Patience",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 262,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-value-of-praying",
+   "title": "The Value of Praying",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 308,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "would-that-i-were-dust",
+   "title": "Would That I Were Dust!",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 367,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    38,
+    40
+   ],
+   "words": 139,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 557,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p42b4",
+     "kind": "footnote",
+     "words": [
+      "1the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 457,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 519,
+   "match": 99.61,
+   "missing": [
+    {
+     "item": "p46b4",
+     "kind": "intro",
+     "words": [
+      "commentary",
+      "by"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 881,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 14458,
+ "article_words": 13264
+}

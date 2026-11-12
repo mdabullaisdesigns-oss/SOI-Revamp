@@ -1,0 +1,306 @@
+{
+ "slug": "2017-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-rohingya-muslims-issue-or-non-issue",
+   "title": "The Rohingya Muslims—issue or Non-Issue",
+   "pages": [
+    5,
+    8
+   ],
+   "words": 1183,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "a-soul-stirring-reminder",
+   "title": "A Soul-Stirring Reminder",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 717,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p9b8",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "who-created-god",
+   "title": "Who Created God?",
+   "pages": [
+    11,
+    14
+   ],
+   "words": 1266,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "a-world-of-second-bests",
+   "title": "A World of Second Bests",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 638,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p15b10",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "intellectual-development-in-religion",
+   "title": "Intellectual Development in Religion",
+   "pages": [
+    17,
+    20
+   ],
+   "words": 1713,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "putting-an-end-to-superstition",
+   "title": "Putting an End to Superstition",
+   "pages": [
+    21,
+    23
+   ],
+   "words": 1025,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "amongst"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "deaths-lesson",
+   "title": "Death’s Lesson",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 396,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "goodness-in-every-situation",
+   "title": "Goodness in Every Situation",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 312,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "breaking-a-persons-heart",
+   "title": "Breaking a Person’s Heart",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 533,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-power-and-price-of-peace",
+   "title": "The Power and Price of Peace",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 1082,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-spirit-of-salath-prayer",
+   "title": "The Spirit of Salath (prayer)",
+   "pages": [
+    31,
+    35
+   ],
+   "words": 1993,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "every-situation-in-life-is-a-test",
+   "title": "Every Situation in Life Is a Test",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 398,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "abstaining-from-baseness",
+   "title": "Abstaining from Baseness",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 310,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "realization-of-truth",
+   "title": "Realization of Truth",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 609,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "when-a-nation-suffers-decline",
+   "title": "When a Nation Suffers Decline",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 474,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-problem-of-stress",
+   "title": "The Problem of Stress",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 523,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 889,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 662,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16455,
+ "article_words": 14723
+}

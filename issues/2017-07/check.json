@@ -1,0 +1,389 @@
+{
+ "slug": "2017-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "news-from-australia",
+   "title": "News from Australia",
+   "pages": [
+    5,
+    8
+   ],
+   "words": 1329,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "police"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-second-age-is-coming",
+   "title": "The Second Age Is Coming",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 745,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "british"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-role-of-difficulty",
+   "title": "The Role of Difficulty",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 700,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "guidance-for-life-in-islam",
+   "title": "Guidance for Life in Islam",
+   "pages": [
+    13,
+    17
+   ],
+   "words": 2180,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    },
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "political"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-policy-of-delinking",
+   "title": "The Policy of Delinking",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 773,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "peace-is-possible-but-only-through-the-right-way",
+   "title": "Peace Is Possible, but Only Through the Right Way",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 681,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p20b5",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-power-of-will-power",
+   "title": "The Power of Will Power",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 684,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "extended-companionship",
+   "title": "Extended Companionship",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 354,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "a-dangerous-phenomenon",
+   "title": "A Dangerous Phenomenon",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 320,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "gods-wrath-and-his-mercy",
+   "title": "God’s Wrath and His Mercy",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 402,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "confidence-not-overconfidence",
+   "title": "Confidence; Not Overconfidence",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 779,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "spirituality-versus-politics",
+   "title": "Spirituality Versus Politics",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 598,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "reasoning",
+   "title": "Reasoning",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 719,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "lessons-from-nature",
+   "title": "Lessons from Nature",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 660,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "temptation-and-anger",
+   "title": "Temptation and Anger",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 569,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "adam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "intellectual-mould",
+   "title": "Intellectual Mould",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 290,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "thought-crime",
+   "title": "Thought Crime",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1258,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "imam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "interaction",
+   "title": "Interaction",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 312,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "death",
+   "title": "Death",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 665,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 669,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 544,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16964,
+ "article_words": 15231
+}

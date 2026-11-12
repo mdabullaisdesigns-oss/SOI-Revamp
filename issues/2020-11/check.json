@@ -1,0 +1,392 @@
+{
+ "slug": "2020-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-question-of-intellect",
+   "title": "The Question of Intellect",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 728,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "suicide-an-islamic-perspective",
+   "title": "Suicide—an Islamic Perspective",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 791,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "mans"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "in-search-of-heaven",
+   "title": "In Search of Heaven",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 296,
+   "match": 99.32,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "renowned"
+     ]
+    },
+    {
+     "item": "p10b6",
+     "kind": "p",
+     "words": [
+      "object"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "predicting-the-afterlife",
+   "title": "Predicting the Afterlife",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 896,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "love-for-humanity",
+   "title": "Love for Humanity",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 320,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p14b7",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "quest-for-another-habitable-planet",
+   "title": "Quest for Another Habitable Planet",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 485,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p15b9",
+     "kind": "p",
+     "words": [
+      "defence"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-eternal-journey",
+   "title": "The Eternal Journey",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 338,
+   "match": 99.41,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "every",
+      "hand"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-problem-of-suffering",
+   "title": "The Problem of Suffering",
+   "pages": [
+    18,
+    20
+   ],
+   "words": 1045,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "argument-for-the-life-hereafter",
+   "title": "Argument for the Life Hereafter",
+   "pages": [
+    21,
+    25
+   ],
+   "words": 1985,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "marifah-or-god-realization",
+   "title": "Marifah, or God Realization",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 662,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "most"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "desist-from-intolerance",
+   "title": "Desist from Intolerance",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 1207,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "consider"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "towards-a-life-of-comfort-and-peace",
+   "title": "Towards a Life of Comfort and Peace",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 364,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "secret-of-mental-peace",
+   "title": "Secret of Mental Peace",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 809,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "charles"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "leading-a-godless-life",
+   "title": "Leading a Godless Life",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 366,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "agodoriented"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "paradise-a-universal-concept",
+   "title": "Paradise: A Universal Concept",
+   "pages": [
+    35,
+    39
+   ],
+   "words": 1692,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p35b5",
+     "kind": "small",
+     "words": [
+      "greek",
+      "paradeisas",
+      "latin"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "wrath-mercy",
+   "title": "Wrath, Mercy",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 305,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "trying-to-deceive-god",
+   "title": "Trying to Deceive God",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 319,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "accomodating-ones-shortcomings",
+   "title": "Accomodating One’s Shortcomings",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 537,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-two-courses",
+   "title": "The Two Courses",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 1257,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 609,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 778,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 25767,
+ "article_words": 15789
+}

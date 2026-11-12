@@ -1,0 +1,335 @@
+{
+ "slug": "2016-02",
+ "articles": [
+  {
+   "n": 1,
+   "id": "from-maulanas-desk",
+   "title": "From Maulana’s Desk",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 671,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "german"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "another-day-how-wonderful",
+   "title": "Another Day How Wonderful!",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 353,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "our-potential-is-our-wealth",
+   "title": "Our Potential Is Our Wealth",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 308,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "psychologists"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "unlocking-the-gates-to-success",
+   "title": "Unlocking the Gates to Success",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 435,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "religious-freedom-and-conversion",
+   "title": "Religious Freedom and Conversion",
+   "pages": [
+    11,
+    21
+   ],
+   "words": 4166,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p11b4",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p11b10",
+     "kind": "p",
+     "words": [
+      "dialogueconversion"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "making-the-right-choice",
+   "title": "Making the Right Choice",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 351,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "gods-tree",
+   "title": "God’s Tree",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 369,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-creation-plan-of-god",
+   "title": "The Creation Plan of God",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 567,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    },
+    {
+     "item": "p25b7",
+     "kind": "p",
+     "words": [
+      "is"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "womanhood-in-islam",
+   "title": "Womanhood in Islam",
+   "pages": [
+    27,
+    29
+   ],
+   "words": 1117,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "respect-all-cultures",
+   "title": "Respect All Cultures",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 479,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "love-the-common-point",
+   "title": "Love—the Common Point",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 654,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "false-pride",
+   "title": "False Pride",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 502,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "success"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "suicide-bombing",
+   "title": "Suicide Bombing",
+   "pages": [
+    36,
+    38
+   ],
+   "words": 868,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p36b4",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    },
+    {
+     "item": "p36b6",
+     "kind": "p",
+     "words": [
+      "lebanese"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-young-are-a-great-force-for-good",
+   "title": "The Young Are a Great Force for Good",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 425,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-lesson-of-death",
+   "title": "The Lesson of Death",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 310,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 845,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 664,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 919,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15686,
+ "article_words": 14003
+}

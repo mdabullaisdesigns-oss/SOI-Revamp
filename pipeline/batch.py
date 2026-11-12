@@ -8,7 +8,7 @@ Usage: python3 pipeline/batch.py [--only slug,slug] [--no-test] [--jobs N]
 An issue is taken through the PDF route if issues/<slug>/raw/pages.json exists
 and issues/<slug>/route.txt does not say "wp" or "skip".
 """
-import concurrent.futures as cf, csv, json, os, subprocess, sys
+import concurrent.futures as cf, csv, json, os, re, subprocess, sys
 
 PY = sys.executable
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -47,6 +47,33 @@ def one(slug, test=True):
             row["problems"].append(f"{len(c['unplaced'])} run(s) of PDF text in no article and not listed")
         for w in c.get("warnings", []):
             row["problems"].append(w)
+        # sanity of the structure itself (the word match cannot see a title in the wrong place)
+        if not i.get("number"):
+            row["problems"].append("issue number / period not found in the running footer")
+        if len(i["articles"]) < 8:
+            row["problems"].append(f"only {len(i['articles'])} articles")
+        for a in i["articles"]:
+            if a["words"] < 120 and all(x["k"] in ("bio", "small", "h", "other") for x in a["items"]):
+                row["problems"].append(f"article {a['n']} “{a['title']}” has a heading and an author note but no text")
+            elif a["words"] < 60:
+                row["problems"].append(f"article {a['n']} “{a['title']}” has only {a['words']} words")
+            elif a["words"] > 6000 and a["words"] / max(1, a["pages"][1] - a["pages"][0] + 1) > 520:
+                row["problems"].append(f"article {a['n']} “{a['title']}” has {a['words']} words (two articles joined?)")
+        # a lot of running text left out of the middle of the magazine deserves a second look
+        lg = f"issues/{slug}/raw/structure-log.json"
+        if os.path.exists(lg) and row["route"] == "pdf":
+            per = {}
+            for sk in json.load(open(lg))["skipped"]:
+                if 5 <= sk["page"] <= i["pages"] - 4 and sk.get("role") in ("body", "dropcap", None) or (5 <= sk["page"] <= i["pages"] - 4 and sk["why"].startswith(("non-article", "outside"))):
+                    per.setdefault(sk["page"], []).append(sk)
+            for pg, sks in sorted(per.items()):
+                text = " ".join(x["text"] for x in sks)
+                n = sum(x["words"] for x in sks)
+                if n > 180 and not re.search(r"(?i)subscri|contents|cpsglobal\.org/|goodword|A/c|available at|bookstore|book ?shop|price|order", text):
+                    row["problems"].append(f"page {pg}: {n} words left out as “{sks[0]['why']}” (“{text[:50]}…”)")
+        others = sum(1 for a in i["articles"] for x in a["items"] if x["k"] == "other")
+        if others:
+            row["problems"].append(f"{others} block(s) the rules could not classify (shown as notes)")
     except Exception as e:
         row["result"] = "FAIL"; row["problems"].append(f"check: {out[0][:120]} {e}"); return row
     rc, out = run("narrate.py", "prepare", slug)
@@ -61,9 +88,10 @@ def one(slug, test=True):
     row["quiz"] = "yes" if os.path.exists(f"issues/{slug}/quiz.json") else "pending"
     row["audio"] = "yes" if os.path.exists(f"issues/{slug}/audio.json") else "pending"
     if test:
-        rc, out = run("test_page.py", slug)
+        quick = ["--quick"] if "--quick" in sys.argv else []
+        rc, out = run("test_page.py", slug, *quick)
         if rc:
-            rc, out = run("test_page.py", slug)          # once more: a slow machine can miss a scroll
+            rc, out = run("test_page.py", slug, *quick)  # once more: a slow machine can miss a scroll
         if rc:
             row["problems"].append("browser test: " + out[0][:200])
     if row["problems"]:

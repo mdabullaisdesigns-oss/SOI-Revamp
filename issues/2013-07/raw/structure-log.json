@@ -1,0 +1,1288 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b7"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "ENGLISH MONTHLY ISSUE 7 JULY 2013  E 35"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b6"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b4",
+    "p1b0",
+    "p1b5",
+    "p1b1"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 14,
+   "text": "INNER REALITY OF FASTING PRACTICABLE FORMULA Spirit of Ramazan Follow one and respect all"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2",
+    "p1b3"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "GIVING AS GOD WILLS Charity for God's Sake"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 5,
+   "text": "This page left blank intentionally"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 22,
+   "text": "T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 4,
+   "text": "ISSUE 7, JULY 2013"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "CHIEF EDITOR"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b2"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "ASSOCIATE EDITORS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b3",
+    "p4b4",
+    "p4b5"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 7,
+   "text": "DR. FARIDA KHANAM NAGHMA SIDDIQI AIJAZ AHMED"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b6"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "SUB-EDITORS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7",
+    "p4b8"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 4,
+   "text": "MARIA KHAN SADIA KHAN"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "DESIGN"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 2,
+   "text": "AMEEN AHMED"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "COVER ART"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10",
+    "p4b11"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 8,
+   "text": "Detail from 'Poppy Field' (1881) Claude MONET (1840-1926)"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PRINTER AND PUBLISHER"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "OFFICE"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 15,
+   "text": "SPIRIT OF ISLAM 002, HM WIMBERLY, 6, BERLIE STREET CROSS LANGFORD TOWN, BANGALORE 560025, INDIA"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PRINTED AT"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 11,
+   "text": "COSMOS PRINTERS AND PUBLISHERS 450, 3RD CROSS, WILSON GARDEN, BANGALORE 560027"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b2",
+    "p5b3"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "1. 4"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b2"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "Be Aware Of Your Unawareness"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b4",
+    "p5b5"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "2. 6"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b4"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Charity For God’s Sake"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6",
+    "p5b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "3. 7"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "THE INNER REALITY OF FASTING"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Spirit Of Ramazan"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b8",
+    "p5b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "4. 14"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "PRACTICABLE FORMULA"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b8"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "Follow One And Respect All"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b10",
+    "p5b11"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "5. 15"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE PROBLEM OF EVIL"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b10"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Misuse Of Freedom"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12",
+    "p5b13"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "6. 17"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "FASTING LEADS TO MORAL DISCIPLINE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "Not Just Hunger And Thirst"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b14",
+    "p5b15"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "7. 18"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "TOTAL INVOLVEMENT"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b14"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Key To Success"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b16",
+    "p5b17"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "8. 19"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "SOCIAL WELFARE IN ISLAM"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b16"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Balancing Social Inequality"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b18",
+    "p5b19"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "9. 26"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "RELIGION AND SECULARISM"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b18"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Opposing Or Supporting?"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b20",
+    "p5b21"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "10. 28"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b20"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "A FOOL'S PARADISE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b20"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "Dangerous Assumption"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b22",
+    "p5b23"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "11. 30"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b22"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "RAMAZAN : THE MONTH OF PEACE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b22"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "Training In Patience And Self-Control"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b24",
+    "p5b25"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "12. 33"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b24"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "EID-UL-FITR"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b24"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Rejoice In Sharing"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b26",
+    "p5b27"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "13. 35"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b26"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE CONCEPT OF TOMORROW"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b26"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Exclusive To Man"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b28",
+    "p5b29"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "14. 38"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b28"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "FASTING AND FEASTING"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b28"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "Semblance Of The World And The Hereafter"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b30",
+    "p5b31"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "15. 40"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b30"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE WORD OF GOD"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b30"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "From The Scriptures"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b32",
+    "p5b33"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "16 43"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b32"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "ASK MAULANA"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b32"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Your Questions, Answered"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b1"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "BOOKS"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b13"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "VIDEOS"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b2"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 12,
+   "text": "Read online or download literature by Maulana Wahiduddin Khan in 11 languages!"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b14"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 12,
+   "text": "Watch Maulana W. Khan deal with the pressing issues of our times."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b3",
+    "p47b15"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 3,
+   "text": "4cpsglobal.org/books 4 cpsglobal.org/videos"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b4"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "ARTICLES"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b16"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PODCASTS"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b5"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 15,
+   "text": "Read Maulana’s writings as he expounds on the spiritual wisdom of the religion of Islam."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b17"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 11,
+   "text": "Listen to the audio of Maulana Wahiduddin Khan’s books and lectures."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b6",
+    "p47b18"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 2,
+   "text": "4cpsglobal.org/articles 4cpsglobal.org/podcasts"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b7"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "QURAN"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b19"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "MAGAZINES"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b8"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 15,
+   "text": "Read online and Download the Quran and its commentary in Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b20"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 12,
+   "text": "Boost your spiritual health every month with our English and Urdu Magazines."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b9",
+    "p47b21"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 2,
+   "text": "4cpsglobal.org/quran 4cpsglobal.org/magazines"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b10"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "FAQS"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b22"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "MAILERS"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b11"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 14,
+   "text": "Find answers to the questions of your soul. Send in queries at info@ globalcps.org"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b23"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 14,
+   "text": "Discover what’s on at the centre, subscribe to our daily, weekly and monthly mailers."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b12",
+    "p47b24"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 2,
+   "text": "4cpsglobal.org/faqs 4cpsglobal.org/mailers"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b5"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 15,
+   "text": "N O W A C C E S S O N L I N E"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.spiritofislam.co.in"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b4"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 7,
+   "text": "Other publications in English, Hindi and Urdu"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b2"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 4,
+   "text": "by Maulana Wahiduddin Khan"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b2",
+    "p48b3"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 6,
+   "text": "CAN ALSO BE ORDERED ONLINE www.centreforpeace.in"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b10"
+   ],
+   "role": "title",
+   "why": "non-article page: Subscribe",
+   "words": 1,
+   "text": "SUBSCRIBE"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b12"
+   ],
+   "role": "other",
+   "why": "non-article page: Subscribe",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b12"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 22,
+   "text": "T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b11"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 13,
+   "text": "Annual Subscription (12 issues) All-India - J 400 Overseas - US $ 25"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b1"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 11,
+   "text": "To subscribe, please send the following information along with the payment"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b2",
+    "p49b3",
+    "p49b4",
+    "p49b5"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 14,
+   "text": "Full Name Postal address with Pin Code Phone / Mobile number Choice of payment"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b6"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 5,
+   "text": "by any of the following"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b7"
+   ],
+   "role": "small",
+   "why": "non-article page: Subscribe",
+   "words": 1,
+   "text": "SMS"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 22,
+   "text": "8050202626 (India) Mail  Spirit of Islam 002, HM Wimberly 6, Berlie Street Cross Langford Town, Bangalore - 560 025, INDIA. Email subscription@thespiritofislam.org"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b8"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 2,
+   "text": "Payment Instructions:"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "small",
+   "why": "non-article page: Subscribe",
+   "words": 4,
+   "text": "Money Order / VPP"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 9,
+   "text": "Write your name and phone number in message column."
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 25,
+   "text": "Cheque or DD in favour of ‘Centre for Peace’, payable at Bangalore. Write your name and phone number at the back of cheque / DD."
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 21,
+   "text": "Bank transfer to ‘Centre for Peace’ SB account No - 01360 1000016325 Indian Overseas Bank, Bangalore IFS Code - IOBA00 00136"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b4"
+   ],
+   "role": "other",
+   "why": "non-article page: Subscribe",
+   "words": 2,
+   "text": "The Quran"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b5"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 4,
+   "text": "TRANSLATION AND COMMENTARY BY"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b6"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 3,
+   "text": "PARALLEL ARABIC TEXT"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b8",
+    "p50b9",
+    "p50b10",
+    "p50b11"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 72,
+   "text": "This concise, easy-to-read commentary will help you understand the deeper meaning of the Quran and its relevance in the world today. While focusing on the main themes of the Quran, such as God-realization, enlightenment, closeness to God, remembrance, prayer, peace and spirituality, this guide to the Quran will show you how through reflection and contemplation, you can learn divine lessons from the Signs of God that are a part of our world."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b1"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 7,
+   "text": "1792 PAGES | HARDCOVER | GOODWORD BOOKS"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b2"
+   ],
+   "role": "label",
+   "why": "non-article page: Subscribe",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b3"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 11,
+   "text": "A translation of the Quran in simple English is also available."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 5,
+   "text": "This page left blank intentionally"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 47,
+   "text": "Spirit Of Islam | Issue 7 | July 2013 | 52 Pages Licensed To Post Without Prepayment | License No: WPP-284 Regd. Under Postal Regn. No: KRNA/BGE-1101/2012-2014 | RNI No: KARENG/2012/46265 Posted at MBC Bangalore GPO on 24/26th of every month | Printed, published & owned by"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 28,
+   "text": "Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross, Langford Town, Bangalore - 560025 Printed at Cosmos Printers and Publishers, 450, 3rd Cross, Wilson Garden, Bangalore - 560027"
+  }
+ ],
+ "lead_in": [
+  "'PEOPLE' -> 'People'",
+  "\"MAN'\" -> \"Man'\"",
+  "'THE' -> 'The'",
+  "'AN' -> 'An'",
+  "'THOSE' -> 'Those'",
+  "'ACCORDING' -> 'According'",
+  "'ELIAS H' -> 'Elias H'",
+  "'ALL' -> 'All'",
+  "'PEOPLE' -> 'People'",
+  "'WHAT' -> 'What'",
+  "'A GROUP' -> 'A Group'",
+  "'THE' -> 'The'",
+  "'IN' -> 'In'",
+  "'THE P' -> 'The P'",
+  "'THE Q' -> 'The Q'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

@@ -1,0 +1,405 @@
+{
+ "slug": "2023-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "captcha-test",
+   "title": "Captcha Test",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 667,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "continents",
+   "title": "Continents",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 123,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "part-one",
+   "title": "Part One",
+   "pages": [
+    8,
+    12
+   ],
+   "words": 1891,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p8b6",
+     "kind": "p",
+     "words": [
+      "illsuited"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "how-god-realization-impacts-ones-life",
+   "title": "How God-Realization Impacts One’s Life",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 463,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p13b10",
+     "kind": "p",
+     "words": [
+      "none"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "from-the-military-to-the-non-military-age",
+   "title": "From the Military to the Non-Military Age",
+   "pages": [
+    15,
+    17
+   ],
+   "words": 1118,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "a-life-of-purpose",
+   "title": "A Life of Purpose",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 490,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p18b9",
+     "kind": "p",
+     "words": [
+      "james"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-month-of-ramadan",
+   "title": "The Month of Ramadan",
+   "pages": [
+    20,
+    22
+   ],
+   "words": 906,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p20b10",
+     "kind": "p",
+     "words": [
+      "ramadanthe"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "fasting-and-the-quran",
+   "title": "Fasting and the Quran",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 653,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-tragedy-of-life",
+   "title": "The Tragedy of Life",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 404,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p25b11",
+     "kind": "p",
+     "words": [
+      "masti"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "festival-of-peace",
+   "title": "Festival of Peace",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 610,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p26b11",
+     "kind": "p",
+     "words": [
+      "eid"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-most-valuable-asset",
+   "title": "The Most Valuable Asset",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 364,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p28b10",
+     "kind": "p",
+     "words": [
+      "altarikh"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "purification-of-the-self",
+   "title": "Purification of the Self",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 312,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "quran-and-modern-science",
+   "title": "Quran and Modern Science",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 396,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "religion-and-science",
+   "title": "Religion and Science",
+   "pages": [
+    31,
+    33
+   ],
+   "words": 1200,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p31b11",
+     "kind": "p",
+     "words": [
+      "indian"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "seeking-the-pleasure-of-god",
+   "title": "Seeking the Pleasure of God",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 354,
+   "match": 98.31,
+   "missing": [
+    {
+     "item": "p34b11",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    },
+    {
+     "item": "p34b16",
+     "kind": "p",
+     "words": [
+      "however",
+      "the",
+      "individual",
+      "becomes",
+      "sensitive"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "sense-of-pleasure",
+   "title": "Sense of Pleasure",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p35b9",
+     "kind": "p",
+     "words": [
+      "paradise"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    36,
+    38
+   ],
+   "words": 290,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 906,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 488,
+   "match": 99.18,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "author",
+      "maulana",
+      "wahiduddin",
+      "khan"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "three-stages-of-life",
+   "title": "Three Stages of Life",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 350,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1011,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 929,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.85,
+ "flagged": [
+  15
+ ],
+ "unplaced": [
+  {
+   "page": 34,
+   "words": 26,
+   "text": "of god will be his however the individual whose aim is to creator he seeks seek the pleasure of god becomes sensitive to find out whether"
+  },
+  {
+   "page": 42,
+   "words": 7,
+   "text": "name of the wahiduddin khan author maulana"
+  }
+ ],
+ "pdf_words": 15705,
+ "article_words": 14244
+}

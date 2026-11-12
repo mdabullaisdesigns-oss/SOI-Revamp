@@ -1,0 +1,298 @@
+{
+ "slug": "2014-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "seven-billion-issues",
+   "title": "Seven Billion Issues!",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 753,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "differences"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-jungle-of-forbidden-trees",
+   "title": "The Jungle of Forbidden Trees",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 362,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "this-number-does-not-exist",
+   "title": "This Number Does Not Exist",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 562,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "religious-education-in-madrasas",
+   "title": "Religious Education in Madrasas'",
+   "pages": [
+    11,
+    15
+   ],
+   "words": 1873,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "miracles-or-signs-of-god",
+   "title": "Miracles or Signs of God",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 685,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "peace-in-plural-societies",
+   "title": "Peace in Plural Societies",
+   "pages": [
+    18,
+    25
+   ],
+   "words": 2926,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "heavenly-personality",
+   "title": "Heavenly Personality",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 555,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p26b6",
+     "kind": "p",
+     "words": [
+      "small"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "sense-of-incompleteness",
+   "title": "Sense of Incompleteness",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 630,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "more-than-legal-rights",
+   "title": "More Than Legal Rights",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 332,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "satyendra"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "blaming-others",
+   "title": "Blaming Others",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 541,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "mikhail"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "kafir-and-kufr",
+   "title": "Kafir and Kufr",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 1226,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "political-realism",
+   "title": "Political Realism",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 432,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "surah-al-asr",
+   "title": "Surah Al-Asr",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 634,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p38b9",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "divorce-in-islamic-law",
+   "title": "Divorce in Islamic Law",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 732,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 744,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    44,
+    47
+   ],
+   "words": 1360,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15966,
+ "article_words": 14347
+}

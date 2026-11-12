@@ -1,0 +1,929 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b1"
+   ],
+   "role": "label",
+   "why": "cover",
+   "words": 6,
+   "text": "ENGLISH BIMONTHLY ISSUE 109 NOVEMBER-DECEMBER 2022"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "title",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITOF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 23,
+   "text": "T o war d s Gl ob al Peace & Sp i r i t u al L i v i n g"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b3",
+    "p1b4"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 12,
+   "text": "Where differences of opinion are respected, there will be no intellectual stagnation."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "A MAGAZINE FOR THE JOURNEY OF LIFE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 62,
+   "text": "This is a current magazine. Its articles are based on sound principles of reason and science with a particular emphasis on the spirit of Islam rather than the form or the ritual. All the articles have been either written by Maulana Wahiduddin Khan, translated from his Urdu writings, or based on his writings developed by a team trained and guided by him."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Spirit of Islam bimonthly…"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 20,
+   "text": "4 Presents Islam, the religion of nature, in the contemporary idiom to help Muslims rediscover Islam from the original sources"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Explains Creation plan of God for humankind"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Enlightens people on the subject of global peace"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Addresses contemporary issues"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Assists the readers to deal with life’s challenges"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Offers Spirituality to a wider circle of seekers"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b9"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Fosters greater communal harmony through religious understanding"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "United in prayers SOI Editorial Committee"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b7"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 34,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "ISSUE 109 NOVEMBER - DECEMBER 2022"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "EDITOR-IN-CHIEF PROF. FARIDA KHANAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "OFFICE SPIRIT OF ISLAM 002, HM WIMBERLY, 6 BERLIE STREET CROSS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b9",
+    "p3b10",
+    "p3b2"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 10,
+   "text": "EDITORIAL DIRECTOR DR. NAGHMA SIDDIQI LANGFORD TOWN BENGALURU 560025, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "ADVISORS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "INAYATHULLAH UMRI"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12",
+    "p3b3"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PROF. ZAHEERUDDIN www.spiritofislam.co.in"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "SUB-EDITORS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4",
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 7,
+   "text": "CPS INTERNATIONAL DR. MARIA KHAN MOHAMMAD USMAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b5"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "www.cpsglobal.org www.cpsquran.com"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "< THE EXISTENCE AND DISCOVERY OF GOD 10"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE PATH TO SUCCESS 17"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "< RECIPROCITY 18"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< TOWARDS GLOBAL PEACE 19"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< DISADVANTAGE TURNED TO ADVANTAGE 21"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "< NATURE HAS ITS OWN MIND 22"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "< AN INTERVIEW WITH MS GUL ZEBA 25"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< THE PRECIPICE 28"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE EVILS OF JEALOUSY 30"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< BOOK REVIEW 32"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< CHILDREN’S CORNER 36"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< CPS NEWSLETTER 38"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE WAY OF MODERATION 44"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< MAN AND OPPORTUNITY 45"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE WORD OF GOD 47"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b19"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< YOUR QUESTIONS ANSWERED 48"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b3"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "USA"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b4"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Centre for Peace and Spirituality 2665 Byberry Road, Bensalem, PA 19020 kkaleemuddin@gmail.com"
+  },
+  {
+   "page": 29,
+   "ids": [
+    "p29b6"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 10,
+   "text": "Spirit of Islam web version now available with AUDIO feature"
+  },
+  {
+   "page": 29,
+   "ids": [
+    "p29b2",
+    "p29b3",
+    "p29b4",
+    "p29b5"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 18,
+   "text": "Listen to soul-nourishing articles while on the go. A great companion for study groups and collective reading exercises."
+  },
+  {
+   "page": 29,
+   "ids": [
+    "p29b7"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "www.spiritofislam.co.in/spiritnew/"
+  },
+  {
+   "page": 29,
+   "ids": [
+    "p29b8"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "CPS Ladies Group"
+  },
+  {
+   "page": 29,
+   "ids": [
+    "p29b9"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "New Delhi Official Number +91 9910288870"
+  },
+  {
+   "page": 39,
+   "ids": [
+    "p39b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 32,
+   "text": "Paradise is the destination of man. According to the creation plan, God will settle those people in Paradise in the Hereafter, who in this world qualify themselves according to the Divine standards."
+  },
+  {
+   "page": 39,
+   "ids": [
+    "p39b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "READ AND DOWNLOAD THE LATEST BOOK AT CPSGLOBAL.ORG"
+  },
+  {
+   "page": 40,
+   "ids": [
+    "p40b1",
+    "p40b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "Maulana's Urdu and English translation of the Quran now available on Islam360 app"
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b1",
+    "p41b2"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 20,
+   "text": "Maulana Wahiduddin Khan's writings are being translated into Telugu language. We have published 23 books and 11 leaflets so far."
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b3"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 5,
+   "text": "Access these books on https://www.cpsglobal.org/"
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b4",
+    "p41b5",
+    "p41b6"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 31,
+   "text": "Dr Saniyasnain Khan, a prolific writer of children's book on Islam, has been selected as one of the most influential Muslims of the world in the 2022 edition of The Muslim"
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b7"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 7,
+   "text": "500: The World's 500 Most Influential Muslims."
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b8"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 9,
+   "text": "Kindly follow this link to access the list: https://themuslim500.com/profiles/saniyasnain-khan-new/"
+  },
+  {
+   "page": 42,
+   "ids": [
+    "p42b1",
+    "p42b2",
+    "p42b3"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 26,
+   "text": "The results of Maulana Wahiduddin Khan Legacy Competition ‘Research Category’ and 'Book Review' have been announced. This was CPS USA Chapter initiative which was hugely successful."
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Legacy Competition 2022"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Category: BOOK REVIEW"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b2",
+    "p43b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "Zara Khalil Student of BS in English Linguistics"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "BOOK REVIEW: Bees"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "GRANT: $200"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b11",
+    "p43b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "Mushtaq Ul Hag Ahmad Sikander Writer-Researcher, MPhil Political Science"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b6",
+    "p43b12",
+    "p43b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "BOOK REVIEW: oF GRANT: $100"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "Negative thinking is one's own state of mind. It has no external existence."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b4"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 29,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t ual L iv ing"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b2",
+    "p50b3"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 18,
+   "text": "We wish to inform our readers that Spirit of Islam bimonthly is being published in digital format only."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b9",
+    "p50b10"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 10,
+   "text": "We have stopped publishing the printed copies of the magazine."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b5",
+    "p50b6",
+    "p50b7"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 20,
+   "text": "Please subscribe for a free e-mail delivery of the magazine by filling in the subscription form. Kindly click this link:"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b8"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "https://spiritofislam.co.in/spiritnew/"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "The Spirit of Islam, a new book by Maulana Wahiduddin Khan"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1",
+    "p51b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 18,
+   "text": "A GREAT BOOK FOR UNDERSTANDING THE SPIRITUAL Spirit ESSENCE OF ISLAM piril e This book focuses on the"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "spirit of Islam of Islam e It aims to inculcate God-"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "HM NIGanaInyM yan"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b4",
+    "p51b5",
+    "p51b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "nvw consciousness in a believer e It also aims to instill well-wishing towards fellow human beings."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b6",
+    "p51b9",
+    "p51b10",
+    "p51b11"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "VNV NV MAULANA WAHIDUDDIN ‘KHAN e It trains its readers for constant self-introspection"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b12"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 17,
+   "text": "It has beautifully explained how a believer's life experiences are an opportunity for purification of the soul"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b15"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "Download PDF of The Spirit of Islam www.cpsglobal.org www.mwkhan.com"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b13",
+    "p51b14"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "To order call: 8588822675 sales@goodwordbooks.com MRP Rs. 260 Pages 488"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b16"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0",
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 22,
+   "text": "Published & owned by: Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross Langford Town, Bengaluru - 560025 | RNI No: KARENG/2012/46265"
+  }
+ ],
+ "lead_in": [
+  "'HELEN KELLER' -> 'Helen Keller'",
+  "'THE' -> 'The'",
+  "'A S DALE CARNEGIE' -> 'A S Dale Carnegie'",
+  "'WHEN' -> 'When'",
+  "'THE' -> 'The'",
+  "'MAHATMA GANDHI' -> 'Mahatma Gandhi'",
+  "'MYRIAD' -> 'Myriad'",
+  "'TODAY' -> 'Today'",
+  "'WHEN' -> 'When'",
+  "'THE P' -> 'The P'",
+  "'PUBLIUS SYRUS' -> 'Publius Syrus'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

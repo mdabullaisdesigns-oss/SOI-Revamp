@@ -1,0 +1,361 @@
+{
+ "slug": "2018-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "u-turn-a-principle-of-life",
+   "title": "U-Turn—a Principle of Life",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 719,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-quran",
+   "title": "The Quran",
+   "pages": [
+    7,
+    11
+   ],
+   "words": 1769,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-inner-diamond",
+   "title": "The Inner Diamond",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 333,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "diamonds"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-goal-of-ramazan",
+   "title": "The Goal of Ramazan",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 729,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "shocks-and-shock-absorbers",
+   "title": "Shocks and Shock Absorbers",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 555,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "being-useful-to-society",
+   "title": "Being Useful to Society",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 748,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "benefits-of-tolerance",
+   "title": "Benefits of Tolerance",
+   "pages": [
+    19,
+    21
+   ],
+   "words": 1243,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p19b4",
+     "kind": "p",
+     "words": [
+      "nothing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-spirit-of-learning",
+   "title": "The Spirit of Learning",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1142,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "miracle-of-memory",
+   "title": "Miracle of Memory",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 396,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-price-of-realization",
+   "title": "The Price of Realization",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 418,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "translating-the-quran",
+   "title": "Translating the Quran",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 297,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "shaikh"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-spirit-of-ramazan",
+   "title": "The Spirit of Ramazan",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 528,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-culture-of-radicalization-and-terrorism",
+   "title": "The Culture of Radicalization and Terrorism",
+   "pages": [
+    31,
+    34
+   ],
+   "words": 1471,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p31b6",
+     "kind": "p",
+     "words": [
+      "19192013"
+     ]
+    },
+    {
+     "item": "p31b8",
+     "kind": "pull",
+     "words": [
+      "unnatural"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "fasting-oriented-life",
+   "title": "Fasting-Oriented Life",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 579,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "ramazan"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "lessons-from-nature",
+   "title": "Lessons from Nature",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 653,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p37b5",
+     "kind": "p",
+     "words": [
+      "lifegiving"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "lailatul-qadr-the-night-of-destiny",
+   "title": "Lailatul Qadr (the Night of Destiny)",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 603,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "a-door-not-a-grave",
+   "title": "A Door, Not a Grave",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 548,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "eid-ul-fitr",
+   "title": "Eid-Ul-Fitr",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 335,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p43b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 965,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 466,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16829,
+ "article_words": 14497
+}

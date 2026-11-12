@@ -1,0 +1,453 @@
+{
+ "slug": "2020-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "global-library",
+   "title": "Global Library",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 502,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "worldly-gain-spiritual-loss",
+   "title": "Worldly Gain, Spiritual Loss",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 677,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "faith-and-politics",
+   "title": "Faith and Politics",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 715,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "flawed-ideals",
+   "title": "Flawed Ideals",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 387,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "philip"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-unerasable-past",
+   "title": "The Unerasable Past",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 393,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "tony"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "journey-through-the-dark",
+   "title": "Journey Through the Dark",
+   "pages": [
+    13,
+    15
+   ],
+   "words": 1109,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "almost"
+     ]
+    },
+    {
+     "item": "p14b6",
+     "kind": "p",
+     "words": [
+      "committing",
+      "this",
+      "act"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "sharing-the-rewards",
+   "title": "Sharing the Rewards",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 430,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "striking-a-balance",
+   "title": "Striking a Balance",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 360,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "believers"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-necessity-of-pretreatment",
+   "title": "The Necessity of Pretreatment",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 620,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "textile"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "price-of-unity",
+   "title": "Price of Unity",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 427,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-psychology-of-success",
+   "title": "The Psychology of Success",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 260,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p21b6",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-superior-solution",
+   "title": "The Superior Solution",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 354,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "true-gratitude",
+   "title": "True Gratitude",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 293,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "positivity-the-fertile-ground-for-god-realization",
+   "title": "Positivity: The Fertile Ground for God-Realization",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 430,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "upbringing-of-children",
+   "title": "Upbringing of Children",
+   "pages": [
+    26,
+    28
+   ],
+   "words": 1176,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "when-judges-are-judged",
+   "title": "When Judges Are Judged",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 415,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "about"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-prophet-a-man-of-peace",
+   "title": "The Prophet: A Man of Peace",
+   "pages": [
+    30,
+    35
+   ],
+   "words": 2204,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p34b5",
+     "kind": "p",
+     "words": [
+      "feb7",
+      "months",
+      "25000",
+      "1991"
+     ]
+    },
+    {
+     "item": "p34b9",
+     "kind": "p",
+     "words": [
+      "2011"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "preparing-for-death",
+   "title": "Preparing for Death",
+   "pages": [
+    36,
+    40
+   ],
+   "words": 1820,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "half-the-story",
+   "title": "Half the Story",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 303,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "usually"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "an-undiscovered-reality",
+   "title": "An Undiscovered Reality",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 741,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "reforming-a-society",
+   "title": "Reforming a Society",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 380,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "sleep-a-reminder-of-death",
+   "title": "Sleep: A Reminder of Death",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 598,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p45b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 816,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 24,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 506,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.85,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26025,
+ "article_words": 15916
+}

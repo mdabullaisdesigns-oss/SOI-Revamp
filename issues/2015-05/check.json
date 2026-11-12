@@ -1,0 +1,366 @@
+{
+ "slug": "2015-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "unintended-consequences-of-ones-actions",
+   "title": "Unintended Consequences of One’s Actions",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 570,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "uspresident"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-galaxy-speaks-about-its-great-creator",
+   "title": "The Galaxy Speaks About Its Great Creator",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 263,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "jihad-or-extension-of-tribal-culture",
+   "title": "Jihad, or Extension of Tribal Culture?",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 980,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "happiness-is-a-state-of-mind",
+   "title": "Happiness Is a State of Mind",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 527,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "life-and-health",
+   "title": "Life and Health",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 326,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "dr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "phenomenon-of-a-troubled-mind",
+   "title": "Phenomenon of a Troubled Mind",
+   "pages": [
+    14,
+    16
+   ],
+   "words": 1084,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "consider"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "islam-and-the-modern-man-part-i",
+   "title": "Islam and the Modern Man — Part I",
+   "pages": [
+    17,
+    27
+   ],
+   "words": 3969,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "ones-own-funeral-prayer",
+   "title": "One’s Own Funeral Prayer",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 445,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "secret-of-progress",
+   "title": "Secret of Progress",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 267,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "focussing-on-the-future",
+   "title": "Focussing on the Future",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 307,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "rohit"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "dealing-with-political-difference",
+   "title": "Dealing with Political Difference",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 349,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "what-must-be-known",
+   "title": "What Must Be Known",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 281,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "hidden-camera",
+   "title": "Hidden Camera",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 647,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "unlimited-capacities",
+   "title": "Unlimited Capacities",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 314,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "turning-loss-into-gain",
+   "title": "Turning Loss into Gain",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 406,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "religious-extremism",
+   "title": "Religious Extremism",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 501,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "living-with-a-strong-sense-of-purpose",
+   "title": "Living with a Strong Sense of Purpose",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 676,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "untimely-death",
+   "title": "Untimely Death",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 279,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p42b2",
+     "kind": "p",
+     "words": [
+      "phillip"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "eternal-consequence",
+   "title": "Eternal Consequence",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 334,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p43b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 907,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 841,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15774,
+ "article_words": 14273
+}

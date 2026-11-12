@@ -1,0 +1,4974 @@
+{
+ "slug": "2023-03",
+ "pdf": "march_april_2023.pdf",
+ "pages": 52,
+ "number": 111,
+ "period": "March–April 2023",
+ "period_short": "Mar–Apr 2023",
+ "label": "Issue 111 · March–April 2023",
+ "articles": [
+  {
+   "title_raw": "CAPTCHA TEST",
+   "title": "Captcha Test",
+   "kicker": "From the Editor-In-Chief’s Desk",
+   "author": "",
+   "pages": [
+    5,
+    7
+   ],
+   "items": [
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "bi",
+       "Prof Farida Khanam"
+      ],
+      [
+       "i",
+       " is an author, editor, translator, public speaker and former professor of Islamic Studies at Jamia Millia Islamia, New Delhi. Among her books are ‘A Simple Guide to Islam’ and ‘A Study of World’s Major Religions’. She has translated into English many books authored by Maulana Wahiduddin Khan. Currently the chairperson of CPS International, she is a regular contributor of articles to various publications. Prof Khanam has edited Maulana’s English translation of the Quran and has also translated his Urdu commentary on the Quran into English. She can be reached at "
+      ],
+      [
+       "bi",
+       "spiritofislamperiodical@gmail.com"
+      ]
+     ],
+     "page": 5,
+     "ids": [
+      "p5b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "When we create an email or any other account on the internet, one necessary step that we need to complete is to type CAPTCHA. It is usually a picture consisting of random letters, which must be read, recognized, and written in the designated box by the user."
+      ]
+     ],
+     "page": 5,
+     "ids": [
+      "p5b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to a Wikipedia entry, a CAPTCHA is a type of challenge– response test used in computing to determine whether the user is human. It is a type of security measure known as challenge-response authentication. It helps protect you from spam and password decryption by asking you to complete a simple test that proves you are human and not a computer trying to break into a password-protected account."
+      ]
+     ],
+     "page": 5,
+     "ids": [
+      "p5b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is a test, which is used on a website to confirm that a real person is on the website. It is used to rule out the possibility that the user is not a software programme trying to deceive this system. The purpose of this arrangement is to prevent fraudsters from misusing online accounts. It is very difficult for a software programme to read the letters written in this picture, but a person can identify these signs easily."
+      ]
+     ],
+     "page": 5,
+     "ids": [
+      "p5b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is an example from which the truth of human life can be understood. We can understand that why difficulties and hardships are needed in life. These difficulties show the difference between a sincere and insincere "
+      ],
+      [
+       "",
+       "person. When a sincere person faces difficulties, he works patiently, and plans with a positive mind. On the contrary, an insincere human being is impatient. He adopts negative and reactionary approach. The hardships one faces in life are part of challenge-response test. These hardships give one the opportunity to maintain oneself as an honest and sincere person, to develop a predictable character, and thereby to become a better human being."
+      ]
+     ],
+     "page": 5,
+     "ids": [
+      "p5b7",
+      "p6b1"
+     ],
+     "page_to": 6
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "",
+       "The building of a nation means, basically, the building of character. For without character, the utterly selfless dedication which is a prerequisite for national success, will never manifest itself. Without reforming individuals, the reform of a nation will remain the stuff of dreams— illusory and without substance."
+      ]
+     ],
+     "page": 6,
+     "ids": [
+      "p6b2",
+      "p6b3",
+      "p6b4",
+      "p6b5",
+      "p6b6"
+     ],
+     "source": "quote panel after the article"
+    },
+    {
+     "k": "filler_h",
+     "runs": [
+      [
+       "bi",
+       "IN FOCUS"
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b1"
+     ]
+    },
+    {
+     "k": "filler_p",
+     "runs": [
+      [
+       "",
+       "We bring you two articles every issue under the headings of 'Personal Experiences' and 'Journey towards God-realization' of our mentor and founder of CPS International Maulana Wahiduddin Khan (1925-2021). Though he is no more with us, we feel the presence of his guiding spirit motivating us through his teachings and his advice."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b2"
+     ],
+     "font": "OpenSans",
+     "size": 10.0
+    },
+    {
+     "k": "filler_p",
+     "runs": [
+      [
+       "",
+       "Maulana, through his study of science, religion, psychology and the experiences of his own life, enlightens about the path to discovery of God through one’s journey of life. A discovery of this kind involves pondering on the Word of God, converting one’s material experiences into spiritual insights, constant introspection, and contemplating on the numerous phenomena of the universe."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b3"
+     ],
+     "font": "OpenSans",
+     "size": 10.0
+    },
+    {
+     "k": "filler_p",
+     "runs": [
+      [
+       "",
+       "The journey of realization begins with a questing spirit. Seeking is an intellectual journey. If a person is sincere and honest in his discovery of God, if there is no negativity in his thinking, if he is free from prejudices, if he has become a completely complex-free soul, attainment of God-realization is as certain as the dawn of light after the rising of the sun."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b4"
+     ],
+     "font": "OpenSans",
+     "size": 10.0
+    },
+    {
+     "k": "filler_p",
+     "runs": [
+      [
+       "",
+       "The greatest success in this world is to live life in such a manner that you should not have an iota of negative thought against any person. You should depart from this world with a totally positive mindset. This is my last discovery in this world."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b5"
+     ],
+     "font": "OpenSans",
+     "size": 10.0
+    },
+    {
+     "k": "filler_sig",
+     "runs": [
+      [
+       "bi",
+       "-Maulana Wahiduddin Khan (1925-2021)"
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b6"
+     ],
+     "font": "OpenSans-BoldItalic",
+     "size": 10.0
+    }
+   ],
+   "section": "FROM THE EDITOR-IN-CHIEF’S DESK",
+   "type": "article",
+   "id": "captcha-test",
+   "words": 667,
+   "n": 1
+  },
+  {
+   "title_raw": "CONTINENTS",
+   "title": "Continents",
+   "kicker": "Across Three",
+   "author": "",
+   "pages": [
+    8,
+    8
+   ],
+   "items": [
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "i",
+       "Travelling is mentioned as an attribute of a believer. (9: 112) Travelling introduces a person to the wonders of God scattered across the earth. It gives perspective, insight and valuable lessons to lead a worthy life. In December 1985, Maulana Wahiduddin Khan represented India in an Islamic Conference held in Bamako, a town in Mali. Setting out from Delhi Palam Airport (now Indira Gandhi International Airport, New Delhi) on December 4, 1985, he reached Bamako via Rome and the Senegalese capital, Dakar. The return journey was undertaken by way of Paris, London, Kuwait, and Dubai. Here are some excerpts from Maulana’s account of his impressions and experiences of his one-week journey across three continents. "
+      ],
+      [
+       "bi",
+       "This is the first part of a two-part series."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b4"
+     ]
+    }
+   ],
+   "section": "ACROSS THREE",
+   "type": "article",
+   "id": "continents",
+   "words": 123,
+   "n": 2
+  },
+  {
+   "title_raw": "PART ONE",
+   "title": "Part One",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    8,
+    12
+   ],
+   "items": [
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "Business Ethics"
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "When it was time for breakfast, the Air India hostess brought round the menu-card. On it was written: “Indian hospitality across five continents.” This is no exaggeration, for whichever continent a passenger flies to, they will find Air India an excellent host. After breakfast a smiling steward enquired, “Did you enjoy your breakfast, sir?” This was only one of the many instances of good public relations which I encountered on my flight. Whatever the concern, the good businessman, or his representatives, will find pleasant words and gestures with which to further his commercial interests—in other words, his trade. The conveying of the word of God has also been termed a ‘trade’ in the Quran (61: 10), yet those who claim to convey the word of God in the present age have not been able to find pleasant words with which to address their ‘clients’. The words they have thought fit to use have rather had the effect of putting others off because they are so ill-suited to winning people over to their cause."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b6",
+      "p8b7"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Were it not for the God-given might of the petrodollar, Muslims would have occupied the lowermost rung of the international ladder."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b8",
+      "p8b9",
+      "p8b10",
+      "p8b11",
+      "p8b12"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "Recognizing the Need of the Hour"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In Dakar, I met two American Muslims, Saleem ibn Ghanim and Hasan Ajram. Originally from Lebanon, their fathers had settled in America, with the result that they can now speak and understand only English, having retained only a nominal grasp of their mother tongue, Arabic."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "I gave them copies of the English version of "
+      ],
+      [
+       "i",
+       "Al-Risala "
+      ],
+      [
+       "",
+       "(now published in English as "
+      ],
+      [
+       "i",
+       "Spirit of Islam"
+      ],
+      [
+       "",
+       ")"
+      ],
+      [
+       "i",
+       ", "
+      ],
+      [
+       "",
+       "and they were quite overjoyed to be able to read about Islam in English. As they went through its articles, they kept exclaiming, “Good! Good!” and were full of praise for the style in which it was written. They pointed out that there was an urgent need for Islamic literature written in English if Islam were to be effectively introduced to America. At present, whatever books are available in English are for the greater part written by those who wish to present Islam in a political light. This is a method of presentation which cannot have much appeal for the modern mind. As these two young American Muslims put it, “We need books in which Islam is presented in its natural and unadulterated form”. I mentioned "
+      ],
+      [
+       "i",
+       "Introduction to Islam "
+      ],
+      [
+       "",
+       "series produced by our institution, and they expressed a great deal of interest in it. A set has since been sent to them."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b8"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "God Perpetuates His Religion"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A number of large projects are being undertaken in Mali with the aid of various Arab countries. In Bamako, for instance, a mosque —the largest in Mali—has been built with Saudi Arabian help. On December 6, along with other delegates, I offered Friday prayers in it. The mosque is in the form of a large hall whose interior is supported by 80 lofty pillars and is constructed in an ultra-modern style. Generally, in mosques, a separate pulpit for the Friday Sermon occupies a prominent position in the front section of the hall. Here, the pulpit has been placed in an alcove in the upper portion of the wall itself. It has the appearance of a broad ledge recessed within the wall, with a protruding balcony and balustrade, on which a man may stand with ease."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b9"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Seizure of power at different levels—by fair means or foul— would sooner or later, be the undoing of an organization. In present times it is this disunity, brought about by selfish interests, which is the greatest weakness of Muslims."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b1",
+      "p9b2",
+      "p9b3",
+      "p9b4",
+      "p9b5",
+      "p9b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Numerous works of this nature are being executed all over the world with the aid of Arab countries. This demonstrates God’s instrumentality in keeping Islam alive in the present age."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Despite the fervent utterances and glowing encomiums of Muslim leaders on the subject of Islamic prowess, it is an indisputable fact that Muslims find themselves far behind the times. Were it not for the God-given might of the petrodollar, Muslims would have occupied the lowermost rung of the international ladder. As it is, with such assistance as they have, they can hold on high the banner of their religion."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b1"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "Some Impressions of "
+      ],
+      [
+       "bi",
+       "Al-Risala"
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In Bamako, I met a gentleman from Canada who is a regular recipient of the English version of "
+      ],
+      [
+       "i",
+       "AI-Risala. "
+      ],
+      [
+       "",
+       "When I asked him what he thought of it, he admitted to having been impressed by its articles. “Very simple, very effective,” was his comment. There was also a gentleman from Kenya who received "
+      ],
+      [
+       "i",
+       "AI-Risala "
+      ],
+      [
+       "",
+       "regularly. He told me that where he lived, there were at least ten people who were regular readers of "
+      ],
+      [
+       "i",
+       "Al-Risala"
+      ],
+      [
+       "",
+       ". After reading one issue, they eagerly anticipate the next. These were all well-educated people and well-versed in English."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b2",
+      "p10b3"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "At present, whatever books are available in English are for the greater part written by those who wish to present Islam in a political light. This is a method of presentation which cannot have much appeal for the modern mind."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b6",
+      "p10b7",
+      "p10b8",
+      "p10b9",
+      "p10b10",
+      "p10b11",
+      "p10b12",
+      "p10b13"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A Swiss participant in the Islamic conference remarked that there were also several people where he came from who read the magazine every month. It was reported to me that one of the readers in Switzerland had such a high opinion of "
+      ],
+      [
+       "i",
+       "AI-Risala "
+      ],
+      [
+       "",
+       "that he taped several of its articles and broadcast them from the local radio station."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "I did not take many books with me—only a few copies of an Arabic work "
+      ],
+      [
+       "i",
+       "Al-deen Fi Muwajahat Al’Ilm "
+      ],
+      [
+       "",
+       "and certain issues of "
+      ],
+      [
+       "i",
+       "AI-Risala "
+      ],
+      [
+       "",
+       "in English. Whenever there was any mention of my books or of "
+      ],
+      [
+       "i",
+       "AI-Risala, "
+      ],
+      [
+       "",
+       "these were commented upon with great enthusiasm and respect, and people frequently expressed a desire to receive the entire set. This can perhaps be explained by the desire on the part of many people nowadays to read about Islam in a style that is at once contemporary, simple and direct. It would seem moreover that there is no organization other than the Islamic Centre (now CPS International) which introduces Islam to the general public in a contemporary idiom. Islam is all too often projected in a political style, under the mistaken impression that this places religious matters within a modern context. A truly contemporary style, however, would derive its inspiration less from the world of politics and more from the world of science."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Another gentleman I met at the conference was from the West Indies. His mother tongue was English and he had been educated up to the doctorate level in America. Since he was not familiar with "
+      ],
+      [
+       "i",
+       "AI-Risala, "
+      ],
+      [
+       "",
+       "I gave him a copy of the November 1985 issue. He promptly read the whole magazine in one night before going to sleep, and later repeatedly expressed a desire to read "
+      ],
+      [
+       "i",
+       "Al-Risala "
+      ],
+      [
+       "",
+       "on a regular basis. He made me promise him time and time again that our magazine would be sent to him. When I asked him to give me his impressions of it, he said,” It is a very impressive and relevant piece of literature on Islamic realities.”"
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b1"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "A Visit to the Islamic Centre, Bamako"
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "On December 9, 1985, I visited the Bamako Islamic Centre on the Said ibn Sultan Road. It is laid out over an area of 35,000 square metres. The five million dollar bill for its construction was footed by Arab countries. I was happy to have had the opportunity of offering two "
+      ],
+      [
+       "i",
+       "rakats"
+      ],
+      [
+       "",
+       " of prayers in this mosque."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "All the participants at the conference went together to visit the Centre which has just been completed but is not yet functional. They went the rounds, gazing at different parts of this splendid construction, expressing their enthusiasm and admiration amongst themselves. I walked with them in silence, lost in my own thoughts. Just then, an African scholar, Ostaz Ahmad Darami, came up to me and said, smiling: “People are taken by outward forms, whilst you, Sheikh, are taken by true inner meanings.”"
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b3"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Keeping the mind open and receiving, having a knack of getting to the core of things and gleaning lessons from the events past and present form the key requirements of healthy travelling."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b5",
+      "p11b6",
+      "p11b7",
+      "p11b8",
+      "p11b9",
+      "p11b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the present day, large Islamic centres of this type have been set up in every corner of the globe, but they have one disadvantage in that, directly or indirectly, they are built with the help of government grants. Now the present state of affairs is such that a large percentage of Islamists are influenced by a political interpretation of Islam. From place to place, they have raised the banner of revolution against Muslim governments, and have become, as a result, culpable, or at least suspect in the eyes of the authorities. Were these people to refrain from their erroneous politicking, all these centres could very well be in their own hands, which would enable them to be really effective in spreading the message of Islam. It is because they are so inclined towards politics that they are denied a foothold in these centres. Even in the few instances where such centres have "
+      ],
+      [
+       "",
+       "come under their control, they have been unable to make the best use of them because of the misguided nature of their political mentality."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b4",
+      "p12b1"
+     ],
+     "page_to": 12
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "Language Diversity of Mali"
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Different parts of Mali having come under British and French colonial rule, English and French languages are still spoken by the elite, although many years have elapsed since the withdrawal of the two powers in question. While the masses speak their regional languages, French is retained as the official language."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In ancient times, Arabic held much the same position in foreign lands as French and English do nowadays. At the outset of the Islamic era, after the conquest of North Africa, the Muslims crossed the Mediterranean and entered Spain and Sicily. Here, they not only ruled but also laid the foundations of a glorious civilization that was far ahead of the Christian civilization of the day. This resulted in a large number of Christians in these areas starting to speak and write in Arabic. The expertise which non-Muslims of this period had acquired in Arabic and Arab sciences can be gauged from the fact that during the Muslim period an English Christian by the name of Thomas Brown was appointed as a Judge in Sicily."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Later, when Muslim political power declined in Spain and Sicily, although the languages of the masses were Hebrew and Latin, Arabic remained in use in the courts and offices and was regularly spoken by the upper classes. Stressing the domination of Arabic languages and culture even after the end of Muslim rule, Bertrand Russell writes, “Greek and Arabic were still living languages in Sicily. Frederick II learnt to speak six languages fluently (including Arabic). He was at home in Arabian philosophy and had friendly relations with Mohammedans.” "
+      ],
+      [
+       "i",
+       "(A History of Western Philosophy, "
+      ],
+      [
+       "",
+       "p. 436)"
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Keeping the mind open and receptive, having a knack of getting to the core of things and gleaning lessons from the events past and present form the key requirements of healthy travelling. Travelling is not an end in itself. It should not be undertaken for mere sightseeing or entertainment, rather travelling should nourish our soul and help us gain lessons to plan our life with utmost caution."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b5"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "Islamists are influenced by a political interpretation of Islam. They have raised the banner of revolution against Muslim governments, and have become culpable, or at least suspect in the eyes of the authorities."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b6",
+      "p12b7",
+      "p12b8",
+      "p12b9",
+      "p12b10"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "part-one",
+   "words": 1891,
+   "n": 3
+  },
+  {
+   "title_raw": "HOW GOD-REALIZATION IMPACTS ONE’S LIFE",
+   "title": "How God-Realization Impacts One’s Life",
+   "kicker": "Journey Towards God-Realization",
+   "author": "",
+   "pages": [
+    13,
+    14
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "None other than God is great. This is an obvious truth. But strange as it may seem, this truth can be turned into evil. This happens when it has only been half understood. That God, and only God, is great, is an indisputable reality. However, the obverse side of the picture—that man is small and insignificant must also be grasped and appreciated. In this unfathomably vast universe, man is an insignificant being and it is only when he has learnt both of these truths that he will be imbued with appropriate feelings of humility. If he knows only the first truth, but not the second, it will breed in him an attitude of rebellion. Satan understood God’s greatness but could not grasp his own insignificance. He became, therefore, the continuing root cause of all evil."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the same way, Hitler too recognized the omnipotence of God but failed to grasp that he has no power over the consequences of his actions. This resulted in his going down in history as the worst aggressor and evildoer the world had ever seen."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "To utter the words, ‘God is great’ is to acknowledge an outward reality, and to say, as a corollary, “I am small,” indicates one’s willingness to mould oneself to this outer reality. Some people do accept God as a supreme outer reality, without ever actually adapting their lives to this fact. As a result, they begin to regard themselves as God. For themselves, they become God and expect others to bow to them. They then enter in conflict with others, although the first prerequisite for acknowledging the greatness of God is to subdue all aggressive instincts completely. They take it upon themselves to abuse their fellow men, whereas whoever genuinely experiences God’s omnipresence falls silent in reverence to Him. He who bows to God becomes incapable of making others a target for his invective. Every truth is but a half-truth "
+      ],
+      [
+       "",
+       "unless and until man discovers the exact way in which it is relevant to him. The search for the eternal truth is at an end only when man comes to realize his true place in relation to it."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b12",
+      "p14b1"
+     ],
+     "page_to": 14
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Those who accept but one half of the truth without realizing that the other half must be accepted will inevitably find themselves guilty of moral inadequacy."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b4",
+      "p13b5",
+      "p13b6",
+      "p13b7",
+      "p13b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Those who accept but one half of the truth without realizing that the other half must be accepted will inevitably find themselves guilty of moral inadequacy, whatever their chosen role in life."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b2"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Positive thinking "
+      ],
+      [
+       "",
+       "cannot be acquired from the external world. It is your inner nature that provides a reserviour of positive thought."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b6",
+      "p14b7"
+     ],
+     "source": "quote panel after the article"
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "If you encounter any issue regarding the presentation of content on the Spirit of Islam website (www.spiritofislam.co.in), please mail in your suggestions or questions to usman_888@yahoo.com."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b5"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "how-god-realization-impacts-ones-life",
+   "words": 463,
+   "n": 4
+  },
+  {
+   "title_raw": "FROM THE MILITARY TO THE NON-MILITARY AGE",
+   "title": "From the Military to the Non-Military Age",
+   "kicker": "Towards Global Peace",
+   "author": "",
+   "pages": [
+    15,
+    17
+   ],
+   "items": [
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "bi",
+       "We often talk of peace in the context of war. But this is a very narrow and restricted notion of peace. Peace is deeply linked with the entirety of human life. Peace is a complete ideology in itself. Peace is the only religion for both—man and the universe. It is the master-key that opens the doors to every success. Peace creates a favourable atmosphere for success in every endeavour. Without peace, no positive action—small or big—is possible."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the first half of the seventh century, when Islam emerged, almost the whole world was groaning under political coercion, ruled by a system of Absolute Imperialism. This coercive system had robbed people of almost every conceivable goodness. At that time, God commanded the end of the artificial system so that the doors of goodness could be opened to humanity. The Quran sets forth this commandment:"
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Fight them until there is no more [religious] persecution, and religion belongs wholly to God. (8: 39)"
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In this verse, ‘persecution’ or, in Arabic, "
+      ],
+      [
+       "i",
+       "fitna"
+      ],
+      [
+       "",
+       ", means the ancient system of political coercion that, at the time when the verse was revealed, prevailed all over the world. And here the term ‘religion’, or, in Arabic, "
+      ],
+      [
+       "i",
+       "deen"
+      ],
+      [
+       "",
+       ", means God’s creation system based on nature. This means the artificial system of coercion should be ended and , according to God’s creation plan, the natural condition should be established wherein everyone will have freedom to act and able to undergo the test of life in a free environment."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Through the struggles and sacrifices of the Prophet and his Companions, the ancient coercive system was demolished, and a new system, which God wanted, emerged. This was a great change, a unique revolution that changed the face of the globe. Islam overthrew the traditional order of history."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This revolution was so vast that it could not come about all of a sudden. And so, with God’s special help, it was carried on in the form of a process. This revolution of the early period of Islam was a push, as it were, that was given to history. After this, history began moving in a particular direction. The process that started with Islam in the seventh century then went on, reaching its culmination in the 20th and 21st centuries. Thereafter, it became impossible for the old-style coercive system to be re-established in the world. This is no mere coincidence. The fact is that because of the developments in the last two centuries, the world has witnessed enormous changes that block the possibilities of old-style empires being established anywhere. The factors that allow for such empires to be established now simply no longer exist."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One can cite several deterrents that oppose the establishment of political empires in the modern world."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b7"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Through the struggles and sacrifices of the Prophet and his Companions, the ancient coercive system was demolished, and a new system, which God wanted, emerged."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b1",
+      "p16b2",
+      "p16b3",
+      "p16b4",
+      "p16b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the ancient past, when a monarch captured, through force of arms, a certain territory, the inhabitants of that territory accepted his suzerainty, considering this to be the conqueror’s right. This is why in those days, only a monarch, and not commoners, could defeat another monarch. But in today’s world, thanks to democracy, political freedom and the concept of national government, public opinion has changed so much that no external conqueror can gain the wide social acceptance that is necessary to establish stable rule."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the past, the economy was based wholly on land, and land was considered the personal property of the king. But today, the Industrial Revolution has given birth to innumerable economic resources that everyone can access. And so, it has become possible for ‘ordinary’ people to acquire independent economic means outside the domain of governmental control. This economic transformation has, in turn, made the possibility of governmental coercion even less possible."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Likewise, today there is something that can be called a ‘media deterrent’. In modern times, the development of media and communications has made it possible for news about a local happening to be broadcast almost immediately across the rest of the world, so that people everywhere can come to know about it. This is a massive check that "
+      ],
+      [
+       "",
+       "has made it virtually impossible to resuscitate the old-style political empires. Now, no emperor can do whatever he likes without fear of censure, unlike before."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b10",
+      "p17b5"
+     ],
+     "page_to": 17
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the same way today, we have what can be called a ‘universal deterrent’ in the form of the United Nations, Amnesty International and numerous human rights groups. No ruler can afford to turn a blind eye to their concerns or to act against them for too long."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Following these momentous changes in the global level, human history entered a new phase. If the ancient period was what could be called ‘the Military Age’, the new age is the ‘Non-Military Age’. In the former period, military power was considered necessary to achieve any major success. But now the peaceful method has gained the status of being a completely successful method. Now, efforts for any goal without needing to use violence at any stage can be undertaken. Relying only on peaceful means throughout, one can now reach the pinnacle of success. The fact is that the violent method has now become an anachronism. It is contrary to the spirit of the age."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Given present day conditions, it can be confidently said that no longer does the age of "
+      ],
+      [
+       "i",
+       "jihad"
+      ],
+      [
+       "",
+       " in the sense of "
+      ],
+      [
+       "i",
+       "qital"
+      ],
+      [
+       "",
+       " or war still exist. Today, the time for "
+      ],
+      [
+       "i",
+       "jihad"
+      ],
+      [
+       "",
+       " in the sense of peaceful efforts has returned to the world. This does not mean that "
+      ],
+      [
+       "i",
+       "jihad"
+      ],
+      [
+       "",
+       " in the sense of "
+      ],
+      [
+       "i",
+       "qital"
+      ],
+      [
+       "",
+       " has now been abrogated. It still remains as a commandment, as it was. The new situation has to do not with any abrogation of the commandment, but, rather with the changes in the prevailing conditions. This follows from the generally accepted rule in Islamic jurisprudence, that with the change of time and space, some commandments (application) can also change. It is clear, in this regard, that there is a basic distinction between change and abrogation in terms of their very nature."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This change that has taken place in present times is in favour of Islam, and it is one of the results of the revolution brought out by Islam itself. This happened so that opportunities for constructive work could be opened to the utmost extent. The followers of Islam now have no need to enter any confrontation for the sake of conveying the message of Islam. They can present the message peacefully."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b9"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "Relying only on peaceful means throughout, one can now reach the pinnacle of success. The fact is that the violent method has now become an anachronism. It is contrary to the spirit of the age."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b1",
+      "p17b2",
+      "p17b3",
+      "p17b4"
+     ]
+    }
+   ],
+   "section": "TOWARDS GLOBAL PEACE",
+   "type": "article",
+   "id": "from-the-military-to-the-non-military-age",
+   "words": 1119,
+   "n": 5
+  },
+  {
+   "title_raw": "A LIFE OF PURPOSE",
+   "title": "A Life of Purpose",
+   "kicker": "No Time for Frivolity",
+   "author": "",
+   "pages": [
+    18,
+    19
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "James Hatfield, an Englishman from the town of Bury St Edmunds, was in his youth dogged by heart disease. His experience imbued him with sympathy for those suffering in a similar way. He therefore decided to do something to relieve their plight. The idea that came to him was around the world yacht trip single-handedly, with the aim of raising £100,000 in aid of heart and cancer patients."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the summer of 1984 he commenced his journey, heading first for Cape Town in South Africa, then Australia, and finally across the Pacific and Atlantic Oceans back to the port of Ipswich, from which he had set sail. In the South Atlantic, however, his boat met with an accident. It struck what he thought was a “ship container” and the rudder was badly damaged. Besides this, James Hatfield was seriously injured. He was making coffee in the cabin at the time of the collision and the freshly brewed beverage spilt on his leg, causing severe burns."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b10",
+      "p18b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "He set about steering his damaged ship into the nearest harbour, which happened to be Rio de Janeiro in Brazil. There he gave an interview on the BBC Radio programme “Outlook”. When asked about the injury to himself, which seemed very severe, he said: “It was very painful, but I was so preoccupied with steering my boat into port that I forgot all about it.”"
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "James Hatfield forgot about the injury because he had before him a purpose that superseded it. The pain he was suffering was of no consequence to him because he was on a journey to relieve the pain of others. Had he not steered his damaged boat into port for repairs, his whole purpose would have been thwarted; his journey would have come to a premature end and the benefits he had hoped would accrue from it would have failed to materialize."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b13"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "So it is with anyone who has a supreme purpose in life. Such a person overlooks harm that has been done to him and relentlessly continues in pursuance of his goal. He knows that involvement in relatively petty side issues will only serve to detract from his main purpose and hinder his advance towards its achievement."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The purpose that spurred James Hatfield on was a desire to relieve the temporary suffering of others in this world. The Muslims, as a community, should be moved by an even greater resolve—the urge to save humankind from unending suffering in the next world. If, on their journey through life, they suffer injury or harm at the hands of others, they should overlook it and continue to seek their goal. Not only will their injuries fade into insignificance, the great task with which they have been entrusted will also be achieved."
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b1"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "A person with a supreme purpose in life knows that involvement in relatively petty side issues will only serve to detract from his main purpose and hinder his advance towards its achievement."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b3",
+      "p18b4",
+      "p18b5",
+      "p18b6",
+      "p18b7"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "a-life-of-purpose",
+   "words": 490,
+   "n": 6
+  },
+  {
+   "title_raw": "THE MONTH OF RAMADAN",
+   "title": "The Month of Ramadan",
+   "kicker": "For Introspection",
+   "author": "",
+   "pages": [
+    20,
+    22
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       "—the month of fasting, is a special and blessed month for Muslims. It is a month of restraint and worship; of caring and thanksgiving; of repentance and piety. The multitude of benefits of this month inspired the Prophet to exclaim: “Welcome to the one that purifies!”"
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is a month of spiritual activism when believers endeavour to awaken their spirituality. It is a scheme to improve human beings; to weaken man’s dependence on material things and strengthen his spiritual resolve, so that he may enter the higher realms of piety. The month which encourages all to ask for higher things from God; to ask for His forgiveness; for His blessings and for success in the Hereafter."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " is a month of self-training. Muslims are required to observe the month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " as a month of introspection in the light of Quranic teachings. The Quran is a divine criterion; it helps us examine our deeds and differentiate the right from the wrong. The Quran is like a divine mirror, in which we can see our true face. We can identify the mistakes we have made in the past in order that we may mend our ways. This annual practice enables the believers to reassess and re-examine their past. And, by knowing this they can plan for their future in a better way. Unlike other months this month provides more time and a congenial atmosphere to help the believer to contemplate on the meaning of the Quran. Therefore, it is also known as the month of contemplation. Believers turn away from many activities and spend time in peace and tranquillity which creates an environment for moral rectification."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b12",
+      "p20b13"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "The month of Ramadan serves as a training course in humility. Humility refers to fear of God which means realization of a person’s helplessness vis-a-vis God’s greatness. This ensures the spiritual growth of a person."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b3",
+      "p20b4",
+      "p20b5",
+      "p20b6",
+      "p20b7",
+      "p20b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " is the month of patience. One has to have patience to live a life of restraint and be self-controlled. The most important thing required to lead an Islamic life in this world is patience."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " serves as a training course in humility. Humility refers to fear of God which means realization of a person’s helplessness vis-a-vis God’s greatness. This ensures the spiritual growth of a person "
+      ],
+      [
+       "",
+       "thereby cleansing him of feelings of pride and ego which lead to his being distanced from God."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b15",
+      "p21b4"
+     ],
+     "page_to": 21
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The above aspects of the month of fasting were fully observed by the Prophet and his Companions. Today, if we compare the culture followed in society during the month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " what do we see? One cannot deny that there are individuals who observe this worship in full earnestness in its spirit. However, the general tendency is more towards lavish food at "
+      ],
+      [
+       "i",
+       "Iftar"
+      ],
+      [
+       "",
+       " and "
+      ],
+      [
+       "i",
+       "Sehri"
+      ],
+      [
+       "",
+       " time. Spending more time in shopping centres, purchasing material gifts for others and for oneself. More people begging on the streets, excessive sleeping during the day and continuous activity during the night without taking into consideration the needs of the sick, elderly, children, and people of other communities."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Then how about the eve of "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr "
+      ],
+      [
+       "",
+       "and the day of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " itself? A portion of a "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " pertaining to the day before Eid is as follows: During the last night of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       ", the sins of all the believers who have been fasting are forgiven. It was asked, \"O Prophet of God, is this night the one known as the night of power?\" The Prophet replied, \"No, but as soon as the deed is done, the reward for the deed is immediately bestowed.\""
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to this "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ", on the last night of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       ", those amongst the followers of the Prophet who have fasted in the true spirit will be rewarded for their deeds, and this will be noted in their records. This night of "
+      ],
+      [
+       "i",
+       "Ramadan "
+      ],
+      [
+       "",
+       "is referred to in other "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " literature as the ‘night of reward’ ("
+      ],
+      [
+       "i",
+       "Al-Bayhaqi"
+      ],
+      [
+       "",
+       "). God rewards His believers for every good deed. Due to the special significance of worship during "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       ", this reward has been specifically mentioned by the Prophet."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b7"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "The day of Eid is a day of glad tidings, and its true spirit is to promote spiritual values among people and create a peaceful environment in society."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b1",
+      "p21b2",
+      "p21b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is so unfortunate that the night before "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " is spent by most people in careless indulgence and entertainment. They throng shopping centres and marketplaces. The above "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " is a warning against all such frivolities."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Another "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " regarding the day of "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr "
+      ],
+      [
+       "",
+       "is reported as: When the day of "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr "
+      ],
+      [
+       "",
+       "dawns on them, then God is pleased and proclaims to the angels. ‘O my angels, what is the reward for the doer who has completed his deed, The angels reply, ‘Our Lord, such a person should be given the complete reward for the deed done.’"
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The day of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " is a day of glad tidings, and its true spirit is to promote spiritual values among people and create a peaceful environment in society. This day should be celebrated with praises of God, thankfulness, while refraining from causing any kind of inconvenience to fellow citizens irrespective of what inconveniences one faces during celebrations by others in society."
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b1"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "i",
+       "MAULANA WAHIDUDDIN KHAN’S TALK ON RAMADAN"
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b2"
+     ],
+     "source": "quote panel after the article"
+    },
+    {
+     "k": "filler_p",
+     "runs": [
+      [
+       "",
+       "Please click on this YouTube link to watch Maulana Wahiduddin Khan discuss the significance of fasting during the month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       ". In this video, Maulana talks about the inner spirit and training that is to be derived from fasting."
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b3"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "the-month-of-ramadan",
+   "words": 906,
+   "n": 7
+  },
+  {
+   "title_raw": "FASTING AND THE QURAN",
+   "title": "Fasting and the Quran",
+   "kicker": "Acknowledging the Great Blessing",
+   "author": "",
+   "pages": [
+    23,
+    24
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Quran makes special mention of its revelation in the month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       ", while making fasting in this month obligatory upon the followers. This indicates that there is a close link between "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " and the Quran. In the words of the Quran:"
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " is the month when the Quran was sent down as guidance for humankind with clear proofs of guidance and the criterion by which to distinguish right from wrong. Therefore, whoever of you is present in that month, let him fast; but he who is ill or on a journey shall fast a similar number of days later on. (2: 185)"
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The revelation of Quran started in AD 610, in the month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " according to the lunar calendar. The first revelation was made to the Prophet when he was in the cave of Hira, and it continued for the next 23 years, finally reaching completion in Madinah."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b13"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "The guidance given in the Quran is the best blessing to the humankind from God, because it shows man the path to ultimate success. It tells man how to conduct himself so that in his eternal life he can gain entry into Paradise."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b3",
+      "p23b4",
+      "p23b5",
+      "p23b6",
+      "p23b7",
+      "p23b8",
+      "p23b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The guidance given in the Quran is the best blessing to the humankind from God, because it shows man the path to ultimate success. It tells man how to conduct himself so that in his eternal life he can gain entry into Paradise. Paradise is the goal of man. Fasting is the path to it."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " is the annual reminder of this blessing. The celebration of the revelation of the Quran is not observed in the usual way but by abstinence and being thankful to the Almighty. Fasting in this month is acknowledgment of the divine blessings. It is like saying, “O Lord I have heard, and I accept it.”"
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b15"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is a month during which the Quran should be read and understood. The Quran is specially recited in this month. In the night the Quran is also recited during "
+      ],
+      [
+       "i",
+       "Tarawih"
+      ],
+      [
+       "",
+       " prayers (prayers offered in congregation in the night during "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       "). This month has been made special so that the blessings of God may be counted even more."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b16"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "When the Quran is read during the month of its revelation, it reminds us of the time when the divine light from heaven fell upon the earth. Man remembers this and cries out, “O Lord, fill my heart with your "
+      ],
+      [
+       "",
+       "divine light!” He cries out, ‘Make me among those who are near you!’ When he reads about Hell and Paradise, his inner self cries out, “O Lord, save me from Hell, and let me enter Paradise.”"
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b17",
+      "p24b1"
+     ],
+     "page_to": 24
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In this way the Quran becomes a guiding force in man’s life. He earns his livelihood according to its dictates. He bathes in the ocean of the Quran's purifying message to cleanse his soul."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Quran is a reward to His servants from God. And fasting is acknowledgment of the reward."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Through fasting man makes himself worthy of being thankful to God. He obeys the command of God and thus revels in the supremacy of God. Having gone through a month’s fasting, he creates an ability in himself to lead a life of piety as ordained in the Quran."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Fasting is a special deed. It makes a man kind-hearted and enables him to awaken his finer feelings. He is then able to feel and experience what God desires of a man in this world. Fasting, a form of training to create the capacity in a man to become the most devoted worshipper, makes him most grateful to God and creates a fear of Him which makes him shiver. The very hardship of fasting carries a man from the material world to the plane of spirituality."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b5"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Returning good for evil is the path to success. It means countering anger with forgiveness, provocation with silence, war with negotiation and hatred with love."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b6"
+     ],
+     "source": "quote panel after the article"
+    }
+   ],
+   "type": "article",
+   "id": "fasting-and-the-quran",
+   "words": 653,
+   "n": 8
+  },
+  {
+   "title_raw": "THE TRAGEDY OF LIFE",
+   "title": "The Tragedy of Life",
+   "kicker": "Prepare before It’s Too Late",
+   "author": "",
+   "pages": [
+    25,
+    25
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Masti Venkatesha Iyengar (d. 1986) is a famous Kannada language writer. As a young man he went straight into Indian Civil Service (then known as Mysore Civil Service) from university. A conscientious civil servant, his seniority and ability qualified him for ministership, but he was treated unfairly and denied the promotion he deserved. Disillusioned, he went into premature retirement."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "After his retirement he took to writing short stories and novels. With approximately 150 works to his credit, he became famous as an outstanding and prolific writer. For one of his books, "
+      ],
+      [
+       "i",
+       "Chikaveera Rajendra "
+      ],
+      [
+       "",
+       "(a historical novel about the last king of Kodagu),"
+      ],
+      [
+       "i",
+       " "
+      ],
+      [
+       "",
+       "he received the Gnanpith Award in 1983, along with a Rs. 150,000 prize."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "An interview which Mr. Masti gave to Sridhar was published in "
+      ],
+      [
+       "i",
+       "The Times of India "
+      ],
+      [
+       "",
+       "(August 12, 1984). It appeared that, although Mr. Masti held his works in high esteem, he was not particularly moved by the latest acknowledgement of his literary prowess. “I am too old to be happy,” he said."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b13"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "What Mr Masti meant was that, at the age of 94, he was too old to appreciate any happiness. A tragic end indeed to a literary career which spanned the larger part of a century. Mr Masti’s first book was published in 1912. He had to wait 70 years, then, for the award which should have crowned his efforts. But when the climax of his literary career came, he was in no position to appreciate it. Old age had dampened his enthusiasm and made him indifferent to success."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The same is true of everyone in this world. Like Mr. Masti, everyone works for something here on earth, and exerts all his strength on achievement of a certain end. But it is only after a long period, in Mr Masti’s case 70 years, that one’s efforts reap rewards. Then, one is too old to relish one’s reward. Besides, death may come at any time, closing the pages on the story of one’s life and transporting one to another world. It is better to exert one’s time and efforts in this world on preparations for the next world where all of us are heading."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b15"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "Death may come at any time, closing the pages on the story of one’s life and transporting one to another world. It is better to exert one’s time and efforts in this world on preparations for the next world where all of us are heading."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b3",
+      "p25b4",
+      "p25b5",
+      "p25b6",
+      "p25b7",
+      "p25b8",
+      "p25b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "the-tragedy-of-life",
+   "words": 404,
+   "n": 9
+  },
+  {
+   "title_raw": "FESTIVAL OF PEACE",
+   "title": "Festival of Peace",
+   "kicker": "The True Significance",
+   "author": "",
+   "pages": [
+    26,
+    27
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " is celebrated on the first date of "
+      ],
+      [
+       "i",
+       "Shawwal"
+      ],
+      [
+       "",
+       ", that is, the tenth month of the "
+      ],
+      [
+       "i",
+       "Hijri"
+      ],
+      [
+       "",
+       " calendar. During the festival, Muslims exchange gifts, greeting their neighbours as a mark of solidarity and brotherhood."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is reported that when the Prophet of Islam saw the new moon at the coming of the month of "
+      ],
+      [
+       "i",
+       "Shawwal"
+      ],
+      [
+       "",
+       ", He said: “O God, make this moon a moon of peace for us.” This saying of the Prophet expresses the true spirit of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " that is meant to promote spiritual values among people and create a peaceful environment in society."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Rituals observed on the day of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " are very simple. Muslims wear new clothes and visit the "
+      ],
+      [
+       "i",
+       "Eidgah"
+      ],
+      [
+       "",
+       " (prayer ground) to offer two units of the "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " prayer. In this prayer, they call to mind those teachings of Islam that advocate peace and spirituality and pray to God to bestow His blessings on humanity and help all men and women to promote a healthy society."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b13"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "After completing this prayer, Muslims visit their relatives and neighbours to offer greetings, meeting them with the invocation: “May the peace and blessing of God be upon you.”"
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The full name of Eid is "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       ", that is, the "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " that marks the breaking of the fast. In the spirit of "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       ", God and His greatness are acknowledged; His blessings for humanity are acknowledged and thanked. The faithful make a promise to Him that everyone will live together in peace. There is no prescribed ritual for "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " except for the two units of "
+      ],
+      [
+       "i",
+       "namaz"
+      ],
+      [
+       "",
+       " or prayer."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b15"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Generally, it is held that "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " is the festival of sweets. Sweets are not a religious part of "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       ", but certainly, they represent the spirit of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       ", for sweet dishes are always considered to be the sign of love, compassion, and good wishes. Gifts of sweets distributed on the day of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " represent the true spirit of this Islamic festival."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b16"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Prophet of Islam said that an exchange of gifts promotes love in society. So, sweets are not simply sweets: they also have a spiritual "
+      ],
+      [
+       "",
+       "meaning. Sweets represent not only the spirit of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       ", but also the true spirit of Islam."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b17",
+      "p27b1"
+     ],
+     "page_to": 27
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Prayer on the day of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " is offered in congregation. All Muslims, including women and children, gather in congregational prayer in order to promote harmony and brotherhood, not only among Muslims but among others also."
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " comes just after the final day of fasting. The month of fasting and the day of "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " both represent two very important features in Islam. The Prophet Muhammad said that the month of fasting was a month of patience. That is, it is a month of self-restraint, a month of self-discipline, a month of self-control, a month of promoting duty-consciousness."
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " represents the reward of God, which will be granted by God to those who observe one month’s fasting. In other words, fasting represents dutiful worldly life and "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " represents the reward that will be given in return by God to man."
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to a "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ", the day of "
+      ],
+      [
+       "i",
+       "Eid"
+      ],
+      [
+       "",
+       " is the day of divine reward. When believers observe their duty in the month of "
+      ],
+      [
+       "i",
+       "Ramadan"
+      ],
+      [
+       "",
+       " in the true spirit of the season, God declares: “O angels, be witness that I have decided to bestow upon them Paradise in the world Hereafter.”"
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In short, the month of fasting represents the responsibilities of the believers in this world and "
+      ],
+      [
+       "i",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " represents the reward given to them in the world Hereafter."
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b6"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "Eid-ul-Fitr represents the reward of God, which will be granted by God to those who observe one month’s fasting. Fasting represents dutiful worldly life and Eid-ul-Fitr represents the reward that will be given in return by God to man."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b3",
+      "p26b4",
+      "p26b5",
+      "p26b6",
+      "p26b7",
+      "p26b8",
+      "p26b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "festival-of-peace",
+   "words": 610,
+   "n": 10
+  },
+  {
+   "title_raw": "THE MOST VALUABLE ASSET",
+   "title": "The Most Valuable Asset",
+   "kicker": "A Person of Principle",
+   "author": "",
+   "pages": [
+    28,
+    28
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Al-TARIKH Al-SAGHIR "
+      ],
+      [
+       "",
+       "(The Small History) is book in the field of biographical evaluation. It was written by ninth century Islamic scholar"
+      ],
+      [
+       "i",
+       " "
+      ],
+      [
+       "",
+       "Imam Bukhari. In this book, he has compiled some thought-provoking incidents of the early Muslims. He relates how the second Caliph Umar ibn al-Khattab once asked some of his companions what their greatest wish was. One of them said that he would like to possess a house full of dirhams, which he would spend for the cause of God. Umar insisted others to express their wish whereupon one said, “I wish that I could have this house full of gold, so that I could spend it in God’s path.” A third one said, “I should like to have this house full of diamonds, which I could spend for the cause of God.” Umar again asked them to suggest some other wish, but beyond the first three wishes, they were unable to think of anything further. Umar then said to them: “My greatest wish, on the contrary, would be to have this house full of men like Abu Ubaidah ibn al-Jarrah, Muadh ibn Jabal and Hudhayfah ibn al-Yaman. Men such as these I would put to the service of God.”"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b10",
+      "p28b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There is no more valuable asset in this world than a conscientious human being of the type who has his opinions without becoming obdurate, and who can listen to criticism of himself dispassionately, and with the same objectivity with which he weighs up praise. Such a balanced person does not waver from his principles. He recognizes the importance of being able to disagree, without allowing his difference of opinion to bring about disunity. It was men of such character that Umar had in mind when he mentioned the above three names."
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is men who make history, not resources. Resources in the hands of competent men bring positive results. On the contrary, the same resources when handled by incompetent men bring failure, loss and misery."
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b13"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "The most valuable asset in this world is a conscientious human being who has his opinions without becoming obdurate, and who can listen to criticism of himself dispassionately, and with the same objectivity with which he weighs up praise."
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b3",
+      "p28b4",
+      "p28b5",
+      "p28b6",
+      "p28b7",
+      "p28b8"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "the-most-valuable-asset",
+   "words": 364,
+   "n": 11
+  },
+  {
+   "title_raw": "PURIFICATION OF THE SELF",
+   "title": "Purification of the Self",
+   "kicker": "The Most Noble Task",
+   "author": "",
+   "pages": [
+    29,
+    29
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Purification of the self ("
+      ],
+      [
+       "i",
+       "Tazkiyah"
+      ],
+      [
+       "",
+       " in Arabic) is another name for a religious and spiritual development of a person. This act of personality development is not performed through a self-devised course, but it is accomplished by employing the approach mentioned in the Quran and "
+      ],
+      [
+       "i",
+       "Sunnah"
+      ],
+      [
+       "",
+       " (practical model of the Prophet Muhammad). The word "
+      ],
+      [
+       "i",
+       "Tazkiyah"
+      ],
+      [
+       "",
+       " means purification. What does it mean to purify?"
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One of the sayings of the Prophet informs us that God creates a human being exactly in accordance with nature. Then, he begins to be influenced by his environment. This process goes on till it makes him a completely conditioned person. When he reaches a mature age, his nature has been affected to such an extent that the person who was born as Mr Nature becomes Mr Conditioned. At the time of birth, he was a simple person, but later he becomes a product of his environment due to the influence of the environment."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b13"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is necessary that a person becomes his own conscience-keeper. He should protect himself from the conditioning of the environment, he should develop the ability of self-introspection, and thus maintain himself in his original nature."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The task of purification of the self is the kind of action that man himself has to do. When a man has a negative thought, when he starts to deviate from the path of nature after being influenced by some temptation, then his internal keeper should immediately alert him, and he should return to his nature again. The name of this action is "
+      ],
+      [
+       "i",
+       "Tazkiyah"
+      ],
+      [
+       "",
+       ". It is this action that turns a man into a purified soul. This purified soul will find an eternal place in Heaven."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b15"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "It is necessary that a person becomes his own conscience-keeper. He should protect himself from the conditioning of the environment, he should develop the ability of self-introspection, and thus maintain himself in his original nature."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b3",
+      "p29b4",
+      "p29b5",
+      "p29b6",
+      "p29b7",
+      "p29b8",
+      "p29b9",
+      "p29b10"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "purification-of-the-self",
+   "words": 312,
+   "n": 12
+  },
+  {
+   "title_raw": "QURAN AND MODERN SCIENCE",
+   "title": "Quran and Modern Science",
+   "kicker": "Putting Quran to Test",
+   "author": "",
+   "pages": [
+    30,
+    30
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "D R Keith Moore was a professor emeritus of the Anatomy Department of the University of Toronto, Canada. He has written two books on embryology. He has also spent some time at the King Abdul Aziz University in Jeddah, Saudi Arabia, studying those verses of the Holy Quran that deal with the human embryo."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The results of his research have now been released. Dr Moore said he was “amazed” at the scientific accuracy of the Quran’s statements in the 7th century about the human development which western experts have learned only in the last 15 years. He went on to express a hope that the Quranic verses on the subject “may help to close the gap between science and religion that has existed for so many years.” "
+      ],
+      [
+       "i",
+       "(The Muslim, "
+      ],
+      [
+       "",
+       "Islamabad, December 24, 1984)"
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The results of Dr Moore’s research present to the reader such knowledge that one is bound to realize that this could not have been written by human beings. The Quran’s “graphic and accurate” account, 1400 years ago, of facts that have only come to light recently, shows that the Quran is an exposition of divine knowledge."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to "
+      ],
+      [
+       "i",
+       "The Muslim"
+      ],
+      [
+       "",
+       ", “Dr Moore’s statement was carried by almost all Canadian newspapers, and was circulated by the national news agency, the Canadian Press. The ‘Ottawa Citizen’ carried it on page one with a banner headline.”"
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is a matter for concern as well as puzzlement that, while Muslims have concentrated all their attention in recent years on publicizing their political and nationalistic causes, it has been left to followers of other faiths like Dr Moore and Dr Maurice Bucaille "
+      ],
+      [
+       "i",
+       "(The Bible, the Quran and Science)"
+      ],
+      [
+       "",
+       " before him, to bring people’s attention to the compatibility of Islam and science. If Muslims were to make an effort to show the world how the teachings of the Quran stood up to scrutiny under the light of modern knowledge, they would see the antagonism which confronts them when they espouse political and nationalistic causes evaporate; for a fact presented in the light of reason is a common concern of entire humanity. Everyone has a stake in scientific facts. When it comes out into the open, walls of prejudice crumble and fall."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b13"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "The Quran’s “graphic and accurate” account, 1400 years ago, of facts that have only come to light recently, shows that the Quran is an exposition of divine knowledge."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b3",
+      "p30b4",
+      "p30b5",
+      "p30b6",
+      "p30b7"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "quran-and-modern-science",
+   "words": 396,
+   "n": 13
+  },
+  {
+   "title_raw": "RELIGION AND SCIENCE",
+   "title": "Religion and Science",
+   "kicker": "Are They Irreconcilable?",
+   "author": "",
+   "pages": [
+    31,
+    33
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Indian scientists are often believed to have split personalities. When they are in the laboratories, they follow the rules of science, the scientific methodology, and the culture of doubting things, which is the crux of science, and when they are at home, they are highly religious, follow all the religious traditions and have complete faith in God and religion. It is believed that this split personality or dichotomy is responsible for their inability to produce first rate science and win major international accolades like the Nobel Prize."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is what Mr Dilip Salwi wrote in his review of a biography of Nobel Laureate Dr Abdus Salam "
+      ],
+      [
+       "i",
+       "(Hindustan Times, August 8, 1992)."
+      ],
+      [
+       "",
+       " The biography was penned by Mr Jagjit Singh who was chosen by Dr Abdus Salam himself for this task."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There is little logic in the contention that India’s scientists fail to reach the top because they happen also to be men of firm religious persuasions. Whether this constitutes having a dual personality or a dichotomous lifestyle is immaterial. What truly needs to be clearly understood is that science, per se, when correctly defined, does not state religion to be an obstacle to reaching the top rungs of the scientific ladder. Just consider how many luminaries of the West, besides being scientists by profession, have shown strong religious proclivities in their private lives; the more notable examples being Isaac Newton, Arthur Eddington, and James Jeans."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b13"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Scientists have never had any difficulty in being scientists in the laboratory and art lovers outside. By the same token, it is also quite possible to be religiously and scientifically inclined at one and the same time."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b3",
+      "p31b4",
+      "p31b5",
+      "p31b6",
+      "p31b7",
+      "p31b8",
+      "p31b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The same holds true for the arts. Many distinguished scientists have been keenly interested in music, painting and diverse other art forms, but this has in no way detracted from their abilities as scientific thinkers. Although science is based on mathematics and calculation, and art is based on imagination and personal taste, these two spheres are more complementary than diametrically opposed in the cultivated mind. Scientists have never had any difficulty in being scientists in the laboratory and art lovers outside. By the same token, it is also quite possible to be religiously and scientifically inclined at one and the same time."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Another point, or rather, supposition, made by Mr Salwi, which it is even more urgent to expose as baseless, is that ‘the culture of doubting things is the crux of science’, while religion implies unquestioning faith. If this were really so, science and religion would be at opposite poles. But the ‘doubting’ method is only the starting point of scientific thinking. That is certainly not its final destination."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Beginning from the doubting stage, the scientist proceeds on his journey, ultimately coming to the point of belief. Science, at its final stage, is just as much a matter of belief as religion is."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "When a scientist begins to follow a particular line of thought, he uses observation and experiment to direct, develop and verify his original thinking. But it has also come to be accepted that as a scientist progresses with his investigations, he eventually reaches a stage where observation and experiment no longer bear fruit, and this in spite of a whole universe of facts lying unexplored before him. He must now face the fact that his own human limitation bars any further progress, so that he must either give up his research, or change his methods. Stopping his research is out of the question because he would then never be able to discover anything truly meaningful. He must proceed at all costs from doubt to conviction."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is why all modern scientists have altered their methodology. That is to say that they have had to accept the indirect along with the direct method of research. Without this, too many facets of our physical existence would remain unexplored. This is why inferential argument has been accepted in modern times as being as valid as direct argument."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "For instance, modern nuclear physics is based entirely on inferential argument. If the inferential method were to be subtracted from scientific procedure, the science of nuclear physics would cease to exist."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b10"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "bi",
+       "Modern nuclear physics is based entirely on inferential argument. If the inferential method were to be subtracted from scientific procedure, the science of nuclear physics would cease to exist."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b1",
+      "p32b2",
+      "p32b3",
+      "p32b4",
+      "p32b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The same is true of organic evolution. The notion of the gradual evolution of species, which progressed from being regarded as a hypothesis to being accepted as a scientific fact, is based on events which have never been even partially observed. This notwithstanding, this theory is considered to be ‘scientific’. This became possible only because the indirect method came to be accepted in science along with the direct method."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "With the acknowledgement of this reality, why should it be of any special relevance whether the scientist who believes in religion has a dual personality or not? If such a person is to be described as having a dual personality, then the totally non-religious scientist would also have to be similarly described, for science accepts certain things by direct argument, ‘while accepting certain other things by indirect argument.’"
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Seen in this light, the position of religion is not that of an unscientific creed. The adherents of religion must go through the same mental processes to arrive at a set of valid beliefs as the scientist must apply to his own and others’ findings. There is no fundamental difference between the two approaches."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "I am a religious person, yet I always attach proper importance to the scientific way of thinking. Before coming to any conclusions about religion, I first collected all available data on religion and subjected it to thorough analysis. Exactly the same method is adapted in the field of science as we understand it today. By pursuing the same course, I reached a point where I found that there exists no direct link between the point under investigation and the known data. Here I employed the principle of inference. That is, on the basis of observable facts, I postulated a reality which was not observable, then judged it by the norms of logic before reaching any definite conclusions about it."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "I can therefore say of myself, with conviction, that on the one hand, I am a completely religious person, while on the other; my way of thinking is entirely scientific."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "I do not think I could be described as having a dual personality. I would say rather that my personality is well-integrated."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the light of this personal experience, I am perhaps not in error when I say that the scientists who are religious are scientists as well as men of religion in the full sense of the word. Sir James Jeans, Dr Abdus Salam and many others of that august fraternity must have trodden the same path towards belief. That is, they must have arrived at religious truth only after making a scientific survey of all available data."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b13"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "The position of religion is not that of an unscientific creed. The adherents of religion must go through the same mental processes to arrive at a set of valid beliefs as the scientist must apply to his own and others’ findings."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b1",
+      "p33b2",
+      "p33b3",
+      "p33b4",
+      "p33b5",
+      "p33b6",
+      "p33b7"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "religion-and-science",
+   "words": 1200,
+   "n": 14
+  },
+  {
+   "title_raw": "SEEKING THE PLEASURE OF GOD",
+   "title": "Seeking the Pleasure of God",
+   "kicker": "The Focal Point of Every Endeavour",
+   "author": "",
+   "pages": [
+    34,
+    34
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to Islam, a good deed is one which is essentially intended to seek the pleasure of God. Devoid of this spirit, any deed will be as good as worthless when the final reckoning comes."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "God does not go by appearances. He sees the inner motive called intent ("
+      ],
+      [
+       "i",
+       "niyyah"
+      ],
+      [
+       "",
+       ") in Islam. Looked at from this angle, deeds could be of two kinds, those that are committed to seek the pleasure of God, and those aimed at pleasing human beings."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The focal point of the man whose aim is to seek the pleasure of God will be his Creator. He seeks to find out whether or not his actions will meet with the approval of his Lord. His dealings are always determined by the principle of truth. His speech and movements are always directed by the will of God. Even if all other human beings have turned against him, or he is shunned by them, he is not deterred from following the path of truth."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b13"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "On the contrary, the focus of attention of the man, whose aim is to please human beings, is man instead of God. He looks up to his group, his party, and his human patrons in all matters. His language is couched in such terms as to please men, and his actions are calculated to win popularity among human beings."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b14",
+      "p34b15"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "However, the individual whose aim is to seek the pleasure of God becomes sensitive in the highest degree to all matters relating to God. He can ignore anything, but he can never overlook divine guidance and such people will find their abode in Heaven. On the other hand, those who seek the pleasure of men become extremely sensitive in matters relating to men. They begin to show such consideration to men as only God deserves. They will be deprived of a place in Paradise."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b16"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "The focal point of the man whose aim is to seek the pleasure of God will be his Creator. He seeks to find out whether or not his actions will meet with the approval of his Lord. His dealings are always determined by the principle of truth."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b3",
+      "p34b4",
+      "p34b5",
+      "p34b6",
+      "p34b7",
+      "p34b8",
+      "p34b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "seeking-the-pleasure-of-god",
+   "words": 354,
+   "n": 15
+  },
+  {
+   "title_raw": "SENSE OF PLEASURE",
+   "title": "Sense of Pleasure",
+   "kicker": "A Unique Human Quality",
+   "author": "",
+   "pages": [
+    35,
+    35
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Paradise is described in great detail in the Quran. The gist of this description is to be found in the verse which says that ‘Paradise will have everything that man would like to have and what will be pleasing to his eyes’."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Of all the living beings created by God, man is unique in having the perception of pleasure. For man, God created Paradise where he could live an eternal life amidst objects specially provided for his pleasure."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The sense of pleasure is, indeed, one of the most wonderful gifts of God. And it is only man who has been endowed with this capacity. Compare him with the robot, designed to perform all the routine tasks a man does—a triumph of modern technology, yet incapable of deriving any pleasure whatsoever from its actions or environment. No machine or an animal, in fact, is capable of enjoyment. It is only the human being who has the ability to enjoy."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Pleasure in the above Quranic verse has been used in the best sense of the word and covers a much wider range of meaning than trivial amusement. Man seeks to derive pleasure not only from the material aspect of life but also from every other aspect such as spiritual. When a man does a good job, when he finds a good solution to a problem, the joy he experiences is immense. But take the computer. It will produce correct answers to thousands of questions but will not know how to feel happy about this."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In Paradise, everything will be of unsurpassable perfection, just as the man who enters Paradise will be metamorphosed into a perfect being. Every activity whether it is talking, touching, seeing, hearing or walking about will become a source of unlimited pleasure."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b13"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "The sense of pleasure is, indeed, one of the most wonderful gifts of God. And it is only man who has been endowed with this capacity."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b3",
+      "p35b4",
+      "p35b5",
+      "p35b6",
+      "p35b7"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "sense-of-pleasure",
+   "words": 319,
+   "n": 16
+  },
+  {
+   "title_raw": "CPS NEWSLETTER",
+   "title": "CPS Newsletter",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    36,
+    38
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Adamas University, KOLKATA organized an Interdisciplinary International Conference 2023 on "
+      ],
+      [
+       "i",
+       "Morality, Spirituality, Culture and Society: East and West "
+      ],
+      [
+       "",
+       "on 2-3 January 2023. Ms Shabina Ali from CPS International, Kolkata participated and presented the paper "
+      ],
+      [
+       "i",
+       "Rationality in Islam"
+      ],
+      [
+       "",
+       ". The paper was well received by the Eminent Scholars, Academicians and International Delegates."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Translations of the Quran and Maulana Wahiduddin Khan’s books were gifted to the panelist and delegates."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Goodword Books participates in various book fairs across the country. CPS teams from Chennai and Kolkata took part in book fairs of Chennai and Vaniyambadi in Tamil Nadu, and Purulia in West Bengal."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Tamil translation of "
+      ],
+      [
+       "i",
+       "Secret of Success "
+      ],
+      [
+       "",
+       "has been published now. It is translated by Kollu Nadeem and Edited by Syed Faiz Qadri. Download the book from this link: https://www. cpsglobal.org/books/secret-succes"
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b1"
+     ],
+     "links": [
+      "https://www.cpsglobal.org/books/secret-succes",
+      "https://www.cpsglobal.org/books/secret-succes"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The KAICIID Fellows Network India invited Prof Farida Khanam in "
+      ],
+      [
+       "i",
+       "International Conference on Countering Hate Speech through IRD/ICD"
+      ],
+      [
+       "",
+       " at India Habitat Center. Her talk was well-received, and the organizers and speakers were gifted a set of books by Maulana."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A few students at Massachusetts Institute of Technology (MIT), the leading technology college in the world, have volunteered their time to help CPS USA pack and ship Quran translations."
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "b",
+       "World Interfaith Harmony Week"
+      ],
+      [
+       "",
+       " is observed every year in the first week of February, from February 1 to 7. This practice has emerged from the United Nations General Assembly (UNGA) Resolution that seeks a worldwide celebration of interfaith harmony. Chavara Cultural Centre Delhi organised World Interfaith Harmony Week Celebration in this week on the topic \""
+      ],
+      [
+       "i",
+       "Love of the Good, and Love of the Neighbour"
+      ],
+      [
+       "",
+       "\"."
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b2"
+     ],
+     "links": [
+      "https://www.youtube.com/watch?v=_r9XGNWFicc\r"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "b",
+       "Ms Fathima Sarah from CPS Bengaluru team"
+      ],
+      [
+       "",
+       " was invited to deliver an address on this topic. Please click on the following YouTube link to listen to her message:"
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b3"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "https://www.youtube.com/watch?v=_r9XGNWFicc"
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b4"
+     ]
+    }
+   ],
+   "type": "newsletter",
+   "id": "cps-newsletter",
+   "words": 290,
+   "n": 17
+  },
+  {
+   "title_raw": "CHILDREN’S CORNER",
+   "title": "Children’s Corner",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    39,
+    41
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Name of the Book: "
+      ],
+      [
+       "bi",
+       "Goodnight"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b2"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "bi",
+       "Stories from the Lives of the Sahaba"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Authors: Mohd. Harun Rashid, Ishrat J. Rumi"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Editor: Dr Saniyasnain Khan"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "ISBN: 978-81-7898-860-1"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Page: 136"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Binding: Hardbound"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Availability: www.goodwordbooks.com"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b8"
+     ],
+     "links": [
+      "http://www.goodwordbooks.com"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "bi",
+       "Goodnight Stories from the Lives of Sahabah"
+      ],
+      [
+       "",
+       " is the answer to every child’s longing to hear a good bedtime story. It contains a careful selection of eighteen magnificent tales from the lives of the Companions of the Prophet Muhammad retold in age-appropriate language. A simple text and fabulous colour illustrations, which bring the narratives vividly to life, make the message of the Prophet and his Companions more meaningful for children. The book offers a special dimension to these wonderful goodnight stories and acts as a foundation on which to build a growing knowledge of Islam. Here is a beautiful story from the book:"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b9"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "THE FIRST "
+      ],
+      [
+       "bi",
+       "MU’AZZIN"
+      ],
+      [
+       "b",
+       " OF ISLAM"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We hear beautiful "
+      ],
+      [
+       "i",
+       "adhan"
+      ],
+      [
+       "",
+       " from the mosque five times a day. But do we ever think about the person who gave the first "
+      ],
+      [
+       "i",
+       "adhan"
+      ],
+      [
+       "",
+       " and called people to prayer for the first time?"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "His name was Bilal al-Habashi and he was a great Companion of the Prophet. Bilal was born in Abyssinia (Ethiopia). That is why he is known as Bilal al-Habashi, for the old name of Abyssinia was Habash."
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "At a young age Bilal came to Makkah as a slave of a Makkan woman. When the Prophet Muhammad began calling people to worship the One God, Bilal heard him and accepted Islam. But after he became a Muslim, the deniers of truth started to mistreat him. He was harassed at every opportunity and was often beaten by the people. Sometimes one person would get tired of hitting him and then another would take his place. Sometimes it was Abu Jahl’s turn and sometimes it was"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Umayyah bin Khalaf’s. Then others would take a turn. Each one of them would beat him mercilessly until he got tired, and no mercy was ever shown to him."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "If it was daytime and the sun was hot, they would force Bilal to lie on the scorching sand of the desert with a huge rock holding him down. His body would soon be covered with bruises and festering wounds. Prodding him with their feet they would then ask:"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "“So, tell us now, Bilal, will you give up the religion of Muhammad?”"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In reply, Bilal would only weakly cry: “"
+      ],
+      [
+       "i",
+       "Ahad, Ahad"
+      ],
+      [
+       "",
+       "... The One, the One... Allah.”"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "And it was night when they waylaid him, they would tie him up with chains and lash him with sticks. The deniers of truth showed such cruelty in torturing Bilal that it easily surpassed the ruthlessness of many ignorant Arabs."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One day Abu Bakr was passing by while Bilal was being tortured in this way. Abu Bakr was greatly outraged to see Bilal’s plight and the cruelty of his tormentors. He asked his torturers: “Don’t you fear Allah? How long will you torture this poor man?”"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "“It is you who have spoiled him by teaching him Islam. If your heart bleeds for him, free him yourself!” Retorted Umayyah. Abu Bakr bought Bilal there and then and set him free."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "When the Prophet migrated to Madinah, Bilal also migrated like many other of the Prophet’s other Companions."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In Madinah, it soon became a custom for the Muslims to gather and wait for the Prophet to declare that it was the time for prayer. But with their numbers increasing day by day, it was becoming more and more difficult for them to keep track of the prayer time as some of them lived far away from the mosque or used to work in the fields on the outskirts. The Prophet therefore asked the Muslims to devise a way to summon them for prayers five times a day. Everybody tried to think of something."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Some suggested lighting up a big fire on top of the mountain. Others thought it would be a good idea to ring a bell, while yet others suggested blowing a horn. The Prophet did not like any of these suggestions."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One morning the Prophet was sitting in the mosque with some of his Companions. A Companion called Abdullah ibn Zayd walked into the mosque, greeted the Prophet, and announced: “Last night I had a"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "dream, a beautiful dream. In all my life I have never seen a dream more beautiful than this.”"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "“Tell us about your dream, Abdullah!” said the Companions."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "“In my dream I saw a man in green garments, carrying a bell. I asked him: Would you sell me your bell?’ ‘What do you need a bell for? He asked. We need it to call the people for prayers,’ I replied. ‘You don’t need a bell. Let me teach you something better than ringing a bell’ Then he taught me the words of the "
+      ],
+      [
+       "i",
+       "adhan"
+      ],
+      [
+       "",
+       ": "
+      ],
+      [
+       "i",
+       "Allahu Akbar Allahu Akbar"
+      ],
+      [
+       "",
+       "."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Prophet and his Companions were delighted with Abdullah’s dream."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Immediately, the Prophet called Bilal, because he had a beautiful voice, and taught him the words of the "
+      ],
+      [
+       "i",
+       "adhan"
+      ],
+      [
+       "",
+       ". Thus, Bilal became the first "
+      ],
+      [
+       "i",
+       "Mu'azzin"
+      ],
+      [
+       "",
+       " of Islam."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Since that day Muslims all over the world use the "
+      ],
+      [
+       "i",
+       "adhan"
+      ],
+      [
+       "",
+       " to call people to prayer."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Bilal acted as the "
+      ],
+      [
+       "i",
+       "Mu’azzin"
+      ],
+      [
+       "",
+       " of the Prophet, even when the Prophet was travelling. Whenever people would hear Bilal’s voice calling out the "
+      ],
+      [
+       "i",
+       "adhan"
+      ],
+      [
+       "",
+       ", they instantly knew that the Prophet was nearby."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b7"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "i",
+       "\"The tree teaches us the lesson that if we seek to progress outwardly, we must first strengthen our-selves inwardly\""
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b8"
+     ],
+     "source": "quote panel after the article"
+    }
+   ],
+   "type": "children",
+   "id": "childrens-corner",
+   "words": 906,
+   "n": 18
+  },
+  {
+   "title_raw": "BOOK REVIEW",
+   "title": "Book Review",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    42,
+    43
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Name of the Book: "
+      ],
+      [
+       "bi",
+       "The Spirit of Islam"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Name of the Author: Maulana Wahiduddin Khan"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Translator: Prof Farida Khanam"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Publisher: Goodword Books, New Delhi"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Year: 2022"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Pages: 488"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "ISBN: 9789394886179"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "The Spirit of Islam "
+      ],
+      [
+       "",
+       "is an English translation of Maulana Wahiduddin Khan’s Urdu book "
+      ],
+      [
+       "i",
+       "Islam: Ek Ta’aruf"
+      ],
+      [
+       "",
+       ". The Urdu edition has been a perennial best-seller. Throughout the Urdu-speaking world, many academic institutes have incorporated it in their course. The reader is captivated by one- or two-page length articles elucidating various aspects of Islamic way of life. In short and succinct paragraphs, the writer beautifully expounds the moral, spiritual, mundane, social, and metaphysical aspects of Islam. Drawing heavily from the Quran and the corpus of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ", the reader is impressed by the application of these teachings in the day-to-day affairs."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In this book, the author expounds on the spirit of Islam instead of the outward forms of various religious rites. Every form, activity, belief and teaching of Islam are aimed at inculcating God-consciousness in a believer, well-wishing towards fellow human beings and above all constant self-introspection. The book explains that a believer’s response to situations of life should be one of a heightened awareness of being ultimately accountable before God, be they unpleasant, negative, pertaining to disputes or controversies, failures or successes. Being extremely cautious in his speech and actions, a believer’s life experiences are an opportunity for spiritual development and purification of the soul."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The following is a selection from an article titled "
+      ],
+      [
+       "i",
+       "The Motivation for Social Service "
+      ],
+      [
+       "",
+       "from this book:"
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "“According to a saying of the Prophet: “One who helped in removing the pain and trouble of another in this world shall have his trouble and pain removed by God on the Day of Judgment. One who has helped someone in difficulty shall have his difficulty eased by God in this world as well as in the Hereafter. One who kept another’s defects and negative points a secret shall have such negative points of his own kept secret by God in this world and as well as in the Hereafter. God helps people so long as they help their brothers.” ("
+      ],
+      [
+       "i",
+       "Sunan Abu Dawood"
+      ],
+      [
+       "",
+       " 4946)"
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This teaching of Islam has made human service, a matter of personal interest for everyone. Accordingly, when someone helps anyone, he immediately makes himself deserving of divine succour. Whatever good he has done to others, he will receive from God on a large scale. This teaching produces an extraordinary willingness to serve others. When a person sees someone in pain, he feels that precious moment has come when by removing that person’s difficulties he can make himself deserving of God’s mercy.”"
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Written in simple and lucid language, the book is suitable for people of all ages. In fact, readers can read one article in one go however pressed for time they are."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b3"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "",
+       "A PERSON OF FAITH IS NOT PROUD AND ARROGANT LIKE A DRIED-UP STICK. RATHER, HE IS FLEXIBLE, LIKE A SOFT PLANT."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b4"
+     ],
+     "source": "quote panel after the article"
+    }
+   ],
+   "type": "article",
+   "id": "book-review",
+   "words": 488,
+   "n": 19
+  },
+  {
+   "title_raw": "THREE STAGES OF LIFE",
+   "title": "Three Stages of Life",
+   "kicker": "Maximize Your Chances",
+   "author": "",
+   "pages": [
+    44,
+    44
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Human life is divided into three different periods: childhood, youth, and old age. In childhood, man himself is not able to plan for his future. Parents often fritter away this period by unnecessary and excessive pampering of their children. The Creator of the universe is creating human beings so that they can play a constructive role in life. However, due to lack of planning, most of the people are unable to utilize this huge potential. They die after living an incomplete life."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Life is a precious gift from the Lord of the universe. A person should use this gift to the fullest. He should save himself from losing this divinely gifted life. When man cannot bring life into existence, he does not have the right to waste the life he has been given."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In fact, every human being has the opportunity in the present life to succeed through proper planning that is in accordance with the creation plan of God. Life is full of events. Every human being has experiences in life that are not to be found in the lives of other human beings. It is as if every human being is carrying a library with him. This library of life is a test paper. Through this library, a person will achieve either eternal success or eternal failure."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Day of Judgement is the day when every book, whether finished or unfinished, written by human being will come out in the open. At that time every human being will know what he lost in his life, and what he gained. What opportunity did he seize, and what opportunity did he waste? The most important aspect of this situation would be that no human being would be able to re-write the story of his life. Successful person is the one who understands this reality of life and lives accordingly."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b6"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "Life is a precious gift from the Lord of the universe. He should save himself from losing this divinely gifted life. When man cannot bring life into existence, he does not have the right to waste the life he has been given."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b7",
+      "p44b8",
+      "p44b9",
+      "p44b10",
+      "p44b11",
+      "p44b12",
+      "p44b13"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "three-stages-of-life",
+   "words": 350,
+   "n": 20
+  },
+  {
+   "title_raw": "THE WORD OF GOD",
+   "title": "The Word of God",
+   "kicker": "From The Scriptures",
+   "author": "",
+   "pages": [
+    45,
+    47
+   ],
+   "items": [
+    {
+     "k": "intro",
+     "runs": [
+      [
+       "bi",
+       "The Quran is the book of God. It has been preserved in its entirety since its revelation to the Prophet of Islam between CE 610 and 632. It is a book that brings glad tidings to humankind, along with divine admonition, and stresses the importance of man’s discovery of the Truth on a spiritual and intellectual level."
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b3"
+     ]
+    },
+    {
+     "k": "intro",
+     "runs": [
+      [
+       "",
+       "Translated from Arabic and commentary by "
+      ],
+      [
+       "b",
+       "Maulana Wahiduddin Khan"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b4"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "Say, [Prophet], ‘I am only a warner. There is no god but God, the One, the All-Powerful, Lord of the heavens and earth and everything between them, the Almighty, the Most Forgiving.’ Say, ‘This is momentous news, yet you ignore it. I had no knowledge of the Exalted Assembly when they argued [against the creation of man]: it has only been revealed "
+      ],
+      [
+       "bi",
+       "to me that I am a plain warner.’ "
+      ],
+      [
+       "",
+       "(38: 65-70)"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b5"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "Your Lord said to the angels, ‘I am about to create a human being out of clay; and when I have formed him fully and breathed My spirit into him, prostrate yourselves before him.’ Thereupon the angels prostrated themselves, all of them together, but not Satan, who was "
+      ],
+      [
+       "bi",
+       "too proud. He became one of those who deny the truth. "
+      ],
+      [
+       "",
+       "(38: 71-74)"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is stated in the Quran that Satan had become man’s enemy from the very first day. He dissuaded Adam’s progeny from adopting the right path by his glib and deceitful talk. Man should therefore be wary of Satan and try to save himself from his evil designs."
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Satan pursues man at all times and, surreptitiously entering his thoughts, manages to misguide him. Man must save himself from Satan and his promptings."
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b8"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "God said, ‘Satan, what prevented you from prostrating yourself to what I created with My own Hands? Were you overcome by arrogance, or are you of those who think [only] of themselves as exalted?’ Satan replied, ‘I am better than him. You created me from fire, but You created him from clay.’ ‘Begone! You are accursed: My curse will remain upon you till the Day of Judgement!’"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b9"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "But Satan said, ‘My Lord, grant me respite until the Day of Resurrection,’ so He said, ‘You are granted respite till the Appointed Day.’ He said, "
+      ],
+      [
+       "bi",
+       "‘By Your Honour, I will lead all of them astray.’ "
+      ],
+      [
+       "",
+       "(38: 75-82)"
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "God made man a creature of exalted stature and, as a token thereof, He ordered the angels and the jinn to prostrate themselves before him. When Satan (Iblis) did not bow before Adam, he became the eternally cursed one. But this incident was not only serious from the viewpoint of Satan; it was of the utmost importance for Adam himself."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "By refusing to bow down before Adam, Satan forever became the enemy of the entire human race. This event foreboded that man’s journey through life would not be an easy one and would be full of serious impediments. Man would have to strive to keep himself on the right path and resist the inducements and promptings of Satan to reach his destination safely."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Satan’s evil scheming stands between man and Paradise. Only one who keeps himself safe from Satan’s machinations will enter the everlasting gardens of Paradise; those who fail to tear down the barrier of Satan’s treachery, will be deprived of Paradise."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the present world of trial, Satan has been given every opportunity to misguide man. But Satan can do so only till Doomsday arrives. When the Day of Judgement tears apart the veil of falsehood, everything will become plain and clear. Thereafter, there will neither be anybody who can deceive nor anybody who can be deceived."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b5"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "(Satan continued) ‘Except for those among them who are Your chosen servants.’ God said, ‘This is the truth—I speak only the truth—I will fill up Hell with you and every one of them who follows you.’"
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b6"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "Say, ‘I do not ask you for any recompense for this, nor am I a man of false pretentions: this is simply an admonition to humankind, you "
+      ],
+      [
+       "bi",
+       "shall before long know its truth.’ "
+      ],
+      [
+       "",
+       "(38: 83-88)"
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The chosen ("
+      ],
+      [
+       "i",
+       "mukhlas"
+      ],
+      [
+       "",
+       ") subject of God is one who is free of mental perversion. While Satan has no practical power over man, he misguides human beings by supplying plausible justification for their wrong deeds; presenting untruth as Truth; enshrouding baseless facts in beautiful words; raising unnecessary issues in straightforward matters and raising doubts. However, only those who harbour complexes will be deceived by this beautification of Satan ("
+      ],
+      [
+       "i",
+       "taz’in"
+      ],
+      [
+       "",
+       "). Those who retain their sincerity and are wise enough to objectively analyze situation will immediately detect Satan’s machinations. Such people are never misled by Satan’s ruses."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One basic virtue of a preacher is that he does not demand any remuneration from his hearers. Another is that he does not raise any material issues between them and himself. The call of the Quran is the call of the Hereafter. Therefore, if a man, on the one hand, gives the call of the Hereafter and of the Quran and, on the other, runs a campaign for material gain, then he figures as an insincere person. And who will pay attention to the pleadings of a person who has proved himself to be insincere?"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Similarly, a preacher does not make statements concocted by himself. He simply passes on whatever he has received from God. Masruq Tabi‘i (a contemporary of the Prophet’s Companions) recounts a saying of ‘Abdullah ibn Mas‘ud who said,"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "‘O people! One who knows should talk, and one who does not know should simply say that God knows better. He will seem wise if he states that God knows better (with regard to things which he does not know), because God said to his Prophet,"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "‘Say, no reward do I ask of you for this, nor am I a pretender.’ ("
+      ],
+      [
+       "i",
+       "Tafsir ibn Kathir"
+      ],
+      [
+       "",
+       ", vol. IV, p. 44)."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Similarly, it is also required of the preacher of truth to present his call in the shape of well-meaning advice. His discourse should be that of a well-wisher and should not be in the nature of debate or polemics."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b5"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "It should be remembered that difficult circumstances are never here to stay."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b6",
+      "p47b7"
+     ],
+     "source": "quote panel after the article"
+    }
+   ],
+   "type": "scripture",
+   "id": "the-word-of-god",
+   "words": 1011,
+   "n": 21
+  },
+  {
+   "title_raw": "YOUR QUESTIONS ANSWERED",
+   "title": "Your Questions Answered",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    48,
+    50
+   ],
+   "items": [
+    {
+     "k": "qa_intro",
+     "runs": [
+      [
+       "bi",
+       "The remedy for ignorance is asking questions. (Prophet Muhammad) "
+      ],
+      [
+       "bi",
+       "The spirit of enquiry is the hallmark of an open society and the above saying of the Prophet aptly illustrates this principle. A culture of curiosity and open-mindedness will foster development in any society by motivating its members to learn enthusiastically and enrich their knowledge. This is because awareness of one’s ignorance is half of knowledge, as it becomes a stepping-stone to seeking and finding answers. A questioning mind is like a flowing river that is replenished with fresh thoughts and ideas and continues on its journey."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b1",
+      "p48b2"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "If the purpose of intercommunity dialogue is to understand each other and to learn from each other—does it mean only understanding each other’s religions, or also each other’s economic, social, political conditions and problems? In other words, do you think such dialogue should be theological or sociological or both?"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Social issues are common in nature. When you carry out discussions on social issues, it means you are trying to share with others. In matters of social issues, you are giving others something and at the same time, taking something from others. Discussion on social issues is our common worldly requirement. Here, the formula of the well-known social thinker Jeremy Bentham is applicable: “The greatest good for the greatest number.” That is, many people sit together to discuss issues of society and whatever jointly emerges from the discussions shall be adopted for all."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "However, the arena of religion is quite different. Religion is the subject of truth. In the matter of religion, if it is believed that everything is the truth, then that would be tantamount to negation of the truth. Truth, on account of its very nature, requires oneness. Truth is one that is the truth with the capital T. Every individual is required to seek the truth, and to find out the truth which according to his finding is the truth with the capital T. Without making this kind of finding he will live in confusion. But, at the same time the other fact of life is that everyone is living in a society. Thus, one should adopt the formula of better social living, that is, mutual respect without discrimination. If one doesn’t adhere to this principle, there will result violence and bloodshed in the society."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We have to, therefore, differentiate between social issues and religious issues."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b7"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "If the purpose of dialogue is mutual learning about each other’s religions, please explain what benefit learning about other religions can be for Muslims?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In terms of theory, truth is one. But, in terms of experience, there is difference. Every person is living in different conditions, so he goes through different experiences. It will be extremely useful for people of various religions to share their experiences with each other. This will help increase one’s knowledge, and through learning from others one may be able to get ideas for better planning in various matters."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "If one has found the truth with the capital T, his sharing will consist in the field of experiences. And, if one is yet to reach the final goal in terms of the truth, his dialogue with others will also include learning to complete his search for the truth."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Do you think it is permissible, according to Islam, for Muslims to learn about and appreciate and praise good things in other religions?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Yes, learning is a continuous process. Learning has no limits. Even if you have found out the truth with the capital T, you can learn from others without losing your conviction. About myself I can say that although I am convinced that I have found the truth with the capital T, but when I listen to others’ point of view, I do so with an objective mind. This nature of mine has been greatly beneficial for me."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b5"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Some Muslims see other religions as wholly deviant, ignoring or being blind to the good things that many of these religions contain. Do you think this is a proper Islamic approach?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "No, this is a communal approach, and not an Islamic approach. The communal approach makes one a fanatic, while the Islamic approach makes one curious about and sympathetic towards everyone, and encourages them to learn the good things from others. The Prophet has said \"Wisdom is the lost property of the believer, seek it from wherever you find it."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Some Muslims might feel that appreciating good things in other religions may weaken their faith in Islam. What do you feel?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This kind of thinking is absolutely incorrect. Only ignorant people can speak in this manner. Islam gives you conviction. At the same time, Islam gives you what is called in the "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ", “"
+      ],
+      [
+       "i",
+       "samaha"
+      ],
+      [
+       "",
+       "”, that is, kindness. Islam insists on human-friendly behaviour. It does not instill any fear into its adherents that they will lose their identity by cooperating and interacting with people who hold divergent views. In fact, Islam encourages the intellectual exchange for greater learning and wisdom."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Often, in interfaith dialogues, participants hesitate to voice their critique of the beliefs and practices of the other that they have differences with, out of politeness or because they do not want to alienate or antagonize their dialogue partners. Do you think this is the right approach to handling the issue?"
+      ]
+     ],
+     "page": 50,
+     "ids": [
+      "p50b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Yes, this approach is right. As a principle, it is right, but if the participants are ready to hear something more, then, they are allowed to speak on other aspects of the theme. All these things depend upon the result. If the result would be positive then it can be adopted, otherwise not."
+      ]
+     ],
+     "page": 50,
+     "ids": [
+      "p50b2"
+     ]
+    }
+   ],
+   "type": "qa",
+   "id": "your-questions-answered",
+   "words": 929,
+   "n": 22
+  }
+ ]
+}

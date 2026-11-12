@@ -1,0 +1,279 @@
+{
+ "slug": "2024-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "address-of-paradise",
+   "title": "Address of Paradise",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 946,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "a-lesson-in-simplicity",
+   "title": "A Lesson in Simplicity",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 354,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "man-in-the-world-of-god",
+   "title": "Man in the World of God",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 446,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "a-non-verbal-message",
+   "title": "A Non-Verbal Message",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 519,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "three-types-of-people",
+   "title": "Three Types of People",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 430,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-law-of-patents",
+   "title": "The Law of Patents",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 671,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "the-spirit-of-hajj",
+   "title": "The Spirit of Hajj",
+   "pages": [
+    16,
+    19
+   ],
+   "words": 1237,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "silence",
+   "title": "Silence",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 407,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "known"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "progress-in-interreligious-dialogue",
+   "title": "Progress in Interreligious Dialogue",
+   "pages": [
+    21,
+    24
+   ],
+   "words": 1263,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p21b5",
+     "kind": "p",
+     "words": [
+      "religious"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    25,
+    28
+   ],
+   "words": 1089,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "dr",
+      "saniyasnain"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "water-as-spiritual-nourishment",
+   "title": "Water as Spiritual Nourishment",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 680,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "play-your-part-in-conserving-water",
+   "title": "Play Your Part in Conserving Water",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 561,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-sceptre-of-water-crisis",
+   "title": "The Sceptre of Water Crisis",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 722,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "memories-of-maulana",
+   "title": "Memories of Maulana",
+   "pages": [
+    36,
+    38
+   ],
+   "words": 1277,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    39,
+    43
+   ],
+   "words": 558,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 702,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    46,
+    50
+   ],
+   "words": 1826,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 14734,
+ "article_words": 13688
+}

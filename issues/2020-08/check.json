@@ -1,0 +1,406 @@
+{
+ "slug": "2020-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "what-drives-us-to-the-point-of-no-return",
+   "title": "What Drives Us to the Point of No Return?",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 735,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "faith-in-the-unseen",
+   "title": "Faith in the Unseen",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 932,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "a-purposeful-life",
+   "title": "A Purposeful Life",
+   "pages": [
+    10,
+    13
+   ],
+   "words": 1362,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "in-gods-country",
+   "title": "In God’s Country",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 329,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "man-a-gifted-creation",
+   "title": "Man: A Gifted Creation",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 374,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "freedom-of-choice",
+   "title": "Freedom of Choice",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 520,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p16b11",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "misuse-of-freedom",
+   "title": "Misuse of Freedom",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 719,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p18b10",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-age-of-peace",
+   "title": "The Age of Peace",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 753,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p20b4",
+     "kind": "p",
+     "words": [
+      "robin"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-creation-plan-of-god",
+   "title": "The Creation Plan of God",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1001,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "humans-on-trial",
+   "title": "Humans on Trial",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 388,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p25b9",
+     "kind": "p",
+     "words": [
+      "unlike"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-veil-of-causation",
+   "title": "The Veil of Causation",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 452,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "quran-a-guide-to-life-and-beyond",
+   "title": "Quran: A Guide to Life and Beyond",
+   "pages": [
+    28,
+    31
+   ],
+   "words": 1641,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "medicines"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-reality-of-life",
+   "title": "The Reality of Life",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 746,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "determinism-vs-freewill",
+   "title": "Determinism vs Freewill",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 637,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "is"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-existence-of-evil",
+   "title": "The Existence of Evil",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 509,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "surrender-by-choice",
+   "title": "Surrender by Choice",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 359,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "a-history-of-intellectual-perversion",
+   "title": "A History of Intellectual Perversion",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1179,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p39b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "find-your-true-calling",
+   "title": "Find Your True Calling",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 323,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "robert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-problem-of-evil",
+   "title": "The Problem of Evil",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 578,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p43b9",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "mans-uniqueness",
+   "title": "Man’s Uniqueness",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 306,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p45b3",
+     "kind": "p",
+     "words": [
+      "earth"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "every-situation-in-life-is-a-test",
+   "title": "Every Situation in Life Is a Test",
+   "pages": [
+    46,
+    46
+   ],
+   "words": 382,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 729,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 23,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 469,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 25631,
+ "article_words": 15423
+}

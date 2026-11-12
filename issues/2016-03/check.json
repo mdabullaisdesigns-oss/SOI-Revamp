@@ -1,0 +1,292 @@
+{
+ "slug": "2016-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "from-maulanas-desk",
+   "title": "From Maulana’s Desk",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 799,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "islam-creator-of-the-modern-age",
+   "title": "Islam—creator of the Modern Age",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 917,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "bearing-fruit",
+   "title": "Bearing Fruit",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 350,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "on-pacifism",
+   "title": "On Pacifism",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 881,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "the-advice-of-a-wise-man",
+   "title": "The Advice of a Wise Man",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 330,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-greatest-teacher-death",
+   "title": "The Greatest Teacher—death",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 744,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p16b4",
+     "kind": "p",
+     "words": [
+      "julius"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "dowry-and-dower",
+   "title": "Dowry and Dower",
+   "pages": [
+    18,
+    23
+   ],
+   "words": 2258,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "dowrya"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "when-one-is-broken-into-two",
+   "title": "When One Is Broken into Two",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 327,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "human-values-in-islam",
+   "title": "Human Values in Islam",
+   "pages": [
+    25,
+    27
+   ],
+   "words": 1050,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "informal-education",
+   "title": "Informal Education",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 644,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "right-thinking",
+   "title": "Right Thinking",
+   "pages": [
+    30,
+    33
+   ],
+   "words": 1361,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "high-achievers",
+   "title": "High Achievers",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 411,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "political-islam-its-proponents",
+   "title": "Political Islam & It's Proponents",
+   "pages": [
+    35,
+    38
+   ],
+   "words": 1423,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "successful-marriage",
+   "title": "Successful Marriage",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 850,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    },
+    {
+     "item": "p39b8",
+     "kind": "pull",
+     "words": [
+      "deconditioning"
+     ]
+    },
+    {
+     "item": "p39b6",
+     "kind": "p",
+     "words": [
+      "intellectual"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "peace-the-greatest-good",
+   "title": "Peace: The Greatest Good",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 616,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "literally"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 981,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1010,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16414,
+ "article_words": 14952
+}

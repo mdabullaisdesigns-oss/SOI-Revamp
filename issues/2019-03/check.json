@@ -1,0 +1,445 @@
+{
+ "slug": "2019-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-existence-of-god",
+   "title": "The Existence of God",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 800,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "empowerment-of-women",
+   "title": "Empowerment of Women",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 822,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-eternal-journey",
+   "title": "The Eternal Journey",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 312,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "surrender-by-choice",
+   "title": "Surrender by Choice",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 338,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "peace-in-islam",
+   "title": "Peace in Islam",
+   "pages": [
+    13,
+    18
+   ],
+   "words": 2203,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "concerning-women",
+   "title": "Concerning Women",
+   "pages": [
+    19,
+    25
+   ],
+   "words": 2427,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    },
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "reestablished"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "real-loss",
+   "title": "Real Loss",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 471,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "tolerating-lesser-evil",
+   "title": "Tolerating Lesser Evil",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 349,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p28b7",
+     "kind": "p",
+     "words": [
+      "umair"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "self-development",
+   "title": "Self Development",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 352,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "harry"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "observing-the-universe",
+   "title": "Observing the Universe",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 323,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-moment-of-truth",
+   "title": "The Moment of Truth",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 376,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p31b4",
+     "kind": "p",
+     "words": [
+      "airconditioned"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "experiencing-the-presence-of-god",
+   "title": "Experiencing the Presence of God",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 340,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "prayer-fends-away-indecency-and-evil",
+   "title": "Prayer Fends Away Indecency and Evil",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 278,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p33b8",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "in-gods-country",
+   "title": "In God’s Country",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 326,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p34b2",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "polygamy-and-islam",
+   "title": "Polygamy and Islam",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 820,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p35b7",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-news-of-salvation",
+   "title": "The News of Salvation",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 363,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p37b11",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "learning-from-experience",
+   "title": "Learning from Experience",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 405,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "morning-is-the-best-time",
+   "title": "Morning Is the Best Time",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 308,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "necessary-preparation",
+   "title": "Necessary Preparation",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 340,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "one-sided-reporting",
+   "title": "One-Sided Reporting",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 377,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "why-is-prayer-not-accepted",
+   "title": "Why Is Prayer Not Accepted?",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 371,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "all-that-glitters-is-not-gold",
+   "title": "All That Glitters Is Not Gold",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 329,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "what-is-takeaway",
+   "title": "What Is Takeaway?",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 299,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 659,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 25,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1268,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26047,
+ "article_words": 15256
+}

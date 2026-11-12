@@ -1,0 +1,378 @@
+{
+ "slug": "2019-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "shift-of-emphasis",
+   "title": "Shift of Emphasis",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 557,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "muslims"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "how-can-you-ban-an-idea",
+   "title": "How Can You Ban an Idea?",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 590,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "hollow-success",
+   "title": "Hollow Success",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 435,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "men"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "revering-the-dead-reviling-the-living",
+   "title": "Revering the Dead, Reviling the Living",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 318,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p10b2",
+     "kind": "p",
+     "words": [
+      "to"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-peace-treaty-of-hudaibiya",
+   "title": "The Peace Treaty of Hudaibiya",
+   "pages": [
+    11,
+    15
+   ],
+   "words": 1673,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-spirit-of-islam",
+   "title": "The Spirit of Islam",
+   "pages": [
+    16,
+    18
+   ],
+   "words": 1076,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "from-the-life-of-the-prophet",
+   "title": "From the Life of the Prophet",
+   "pages": [
+    19,
+    25
+   ],
+   "words": 2797,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p24b10",
+     "kind": "p",
+     "words": [
+      "wellreported"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "gratitude-even-for-lesser-things",
+   "title": "Gratitude Even for Lesser Things",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 424,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-makers-of-history",
+   "title": "The Makers of History",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 315,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-wonders-of-creation",
+   "title": "The Wonders of Creation",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "facing-misfortune",
+   "title": "Facing Misfortune",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "each-creation-is-a-miracle",
+   "title": "Each Creation Is a Miracle",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 765,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "before"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "belief-in-angels",
+   "title": "Belief in Angels",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 865,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "laid-back-attitude-leads-to-failure",
+   "title": "Laid-Back Attitude Leads to Failure",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 485,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p36b2",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-mission-of-the-prophets",
+   "title": "The Mission of the Prophets",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 404,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-mirage-of-the-good-egg",
+   "title": "The Mirage of the Good Egg",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 268,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "look"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "appearance-and-reality",
+   "title": "Appearance and Reality",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 1007,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p40b2",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "nuclear-fission",
+   "title": "Nuclear Fission",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 283,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-beginning-of-a-new-life",
+   "title": "The Beginning of a New Life",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 342,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "the-making-and-breaking-of-history",
+   "title": "The Making and Breaking of History",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 381,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p45b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 772,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 537,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 25720,
+ "article_words": 14963
+}

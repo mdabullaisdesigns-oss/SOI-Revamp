@@ -1,0 +1,395 @@
+{
+ "slug": "2018-02",
+ "articles": [
+  {
+   "n": 1,
+   "id": "in-singapore-the-enraged-go-to-the-fragment-room",
+   "title": "In Singapore, the Enraged Go to the Fragment Room",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 714,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-culture-of-spirituality",
+   "title": "The Culture of Spirituality",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 705,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "most-joyous-moment",
+   "title": "Most Joyous Moment",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 332,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "when-things-lose-their-novelty",
+   "title": "When Things Lose Their Novelty",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 398,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p10b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "management-of-envy",
+   "title": "Management of Envy",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 340,
+   "match": 99.41,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    },
+    {
+     "item": "p11b5",
+     "kind": "p",
+     "words": [
+      "12131292"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "understanding-the-quran",
+   "title": "Understanding the Quran",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 388,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "wahab"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "justice-in-the-hereafter",
+   "title": "Justice in the Hereafter",
+   "pages": [
+    13,
+    15
+   ],
+   "words": 1122,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "men-and-women",
+   "title": "Men and Women",
+   "pages": [
+    16,
+    18
+   ],
+   "words": 1032,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "umme"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "going-against-the-creation-plan",
+   "title": "Going Against the Creation Plan",
+   "pages": [
+    19,
+    23
+   ],
+   "words": 1761,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p19b4",
+     "kind": "p",
+     "words": [
+      "subscribing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "constant-choices",
+   "title": "Constant Choices",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 724,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "spiritually-strong",
+   "title": "Spiritually Strong",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 415,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "similarties-between-sikhism-islam",
+   "title": "Similarties Between Sikhism & Islam",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 1270,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "an-exemplary-tale",
+   "title": "An Exemplary Tale",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 442,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "mr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "ones-own-responsibility",
+   "title": "One’s Own Responsibility",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "mans-quest",
+   "title": "Man’s Quest",
+   "pages": [
+    34,
+    36
+   ],
+   "words": 973,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "much"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "political-power-not-an-objective",
+   "title": "Political Power Not an Objective",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 667,
+   "match": 99.55,
+   "missing": [
+    {
+     "item": "p37b6",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    },
+    {
+     "item": "p37b7",
+     "kind": "p",
+     "words": [
+      "fathul"
+     ]
+    },
+    {
+     "item": "p37b10",
+     "kind": "thought",
+     "words": [
+      "selfdefence"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "having-regard-for-others",
+   "title": "Having Regard for Others",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 349,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p39b6",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "wisdom",
+   "title": "Wisdom",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 498,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "creative-abilities-of-minorities",
+   "title": "Creative Abilities of Minorities",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 316,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 893,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 894,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16669,
+ "article_words": 14555
+}

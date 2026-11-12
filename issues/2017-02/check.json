@@ -1,0 +1,428 @@
+{
+ "slug": "2017-02",
+ "articles": [
+  {
+   "n": 1,
+   "id": "positive-always",
+   "title": "Positive Always",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 659,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "towards"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "patiently-facing-annoyances",
+   "title": "Patiently Facing Annoyances",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 276,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "intellectual-development",
+   "title": "Intellectual Development",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 329,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "law-of-nature",
+   "title": "Law of Nature",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 344,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "by"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-right-way-of-thinking",
+   "title": "The Right Way of Thinking",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 796,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-scientific-temper",
+   "title": "The Scientific Temper",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 298,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "control-over-the-universe",
+   "title": "Control Over the Universe",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 302,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-culture-of-dialogue",
+   "title": "The Culture of Dialogue",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 354,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "peace-versus-violence",
+   "title": "Peace Versus Violence",
+   "pages": [
+    15,
+    18
+   ],
+   "words": 1194,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "my-home",
+   "title": "My Home",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 335,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-evil-of-ones-soul",
+   "title": "The Evil of One’s Soul",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 397,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "drawing-lessons",
+   "title": "Drawing Lessons",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 349,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p21b6",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "two-mind-sets",
+   "title": "Two Mind Sets",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 715,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "peace-activism",
+   "title": "Peace Activism",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 746,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "gods-guidance",
+   "title": "God’s Guidance",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 613,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "reforming-a-community",
+   "title": "Reforming a Community",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 649,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-problem-of-evil",
+   "title": "The Problem of Evil",
+   "pages": [
+    30,
+    33
+   ],
+   "words": 1532,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "right-and-wrong-thinking",
+   "title": "Right and Wrong Thinking",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 672,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "surah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "servants-of-god",
+   "title": "Servants of God",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 290,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "islam-peace-building",
+   "title": "Islam & Peace Building",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 586,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "glad-tidings",
+   "title": "Glad Tidings",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1133,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "the-beginning-of-realization",
+   "title": "The Beginning of Realization",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 307,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 23,
+   "id": "unfulfilled-desire",
+   "title": "Unfulfilled Desire",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 861,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    },
+    {
+     "item": "p43b8",
+     "kind": "p",
+     "words": [
+      "deepfreezing"
+     ]
+    },
+    {
+     "item": "p43b11",
+     "kind": "thought",
+     "words": [
+      "unconsciously"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 523,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 25,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 511,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16507,
+ "article_words": 14771
+}

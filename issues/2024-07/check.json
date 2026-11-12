@@ -1,0 +1,256 @@
+{
+ "slug": "2024-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "spiritual-commitment-of-the-companions",
+   "title": "Spiritual Commitment of the Companions",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 861,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "discovery-of-the-quran",
+   "title": "Discovery of the Quran",
+   "pages": [
+    8,
+    11
+   ],
+   "words": 1581,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "conscious-worship",
+   "title": "Conscious Worship",
+   "pages": [
+    12,
+    14
+   ],
+   "words": 403,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p12b5",
+     "kind": "p",
+     "words": [
+      "abdullah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "shift-the-focus-to-duty-based-approach",
+   "title": "Shift the Focus to Duty-Based Approach",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 608,
+   "match": 99.51,
+   "missing": [
+    {
+     "item": "p14b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    },
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "kilnfired"
+     ]
+    },
+    {
+     "item": "p14b7",
+     "kind": "pull",
+     "words": [
+      "reform"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-believer-must-also-be-a-traveller",
+   "title": "The Believer Must Also Be a Traveller",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 652,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-philosophy-of-companionship",
+   "title": "The Philosophy of Companionship",
+   "pages": [
+    18,
+    22
+   ],
+   "words": 1900,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "peace-building-through-learning",
+   "title": "Peace-Building Through Learning",
+   "pages": [
+    23,
+    28
+   ],
+   "words": 2258,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 705,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    31,
+    33
+   ],
+   "words": 781,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    34,
+    36
+   ],
+   "words": 398,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "harmonizing-faith-and-science",
+   "title": "Harmonizing Faith and Science",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 716,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "an-interview-with-mr-khurram-qureshi",
+   "title": "An Interview with Mr Khurram Qureshi",
+   "pages": [
+    39,
+    43
+   ],
+   "words": 1886,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "death-the-unexpected-guest",
+   "title": "Death: The Unexpected Guest",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 302,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p44b4",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "share-your-reflections-on-the-spirit-of-islam",
+   "title": "Share Your Reflections on the Spirit of Islam",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 342,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    47
+   ],
+   "words": 381,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 1079,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15933,
+ "article_words": 14853
+}

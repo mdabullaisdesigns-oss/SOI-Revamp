@@ -1,0 +1,1361 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b2"
+   ],
+   "role": "label",
+   "why": "cover",
+   "words": 8,
+   "text": "ENGLISH MONTHLY ISSUE 46 OCTOBER 2016 ` 35"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1"
+   ],
+   "role": "title",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITOF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b3"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 20,
+   "text": "T o ward s G l ob al Peac e & S p irit u al L iv in g"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 12,
+   "text": "It is easier to blame others than to accept the responsibility oneself."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "THE QURAN"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1",
+    "p2b2",
+    "p2b3",
+    "p2b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 56,
+   "text": "A book which brings glad tidings to mankind along with divine admonition, stresses the importance of man’s discovery of truth on both spiritual and intellectual planes. The main themes of the Quran are enlightenment, closeness to God, peace and spirituality. The objective of the Quran is to make man aware of the Creation Plan of God."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Available in different languages"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Easy to understand"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b9",
+    "p2b11",
+    "p2b13",
+    "p2b15",
+    "p2b17"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "Chinese Dutch French Italian Portuguese"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b10",
+    "p2b12",
+    "p2b14",
+    "p2b16",
+    "p2b18"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "English Malayalam Tamil Urdu Hindi"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b19"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 19,
+   "text": "Also available in: Spanish, German, Arabic, Telugu and Marathi. Also with commentary available in: Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "Buy Online / Order Free Quran/ Download / Be a Quran Distributor"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b2"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b22"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 34,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "bio",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "ISSUE 46 OCTOBER 2016"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "CHIEF EDITOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "EDITORIAL DIRECTOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b5"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PROF. FARIDA KHANAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "EDITORIAL COMMITTEE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b7",
+    "p3b8",
+    "p3b9"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 10,
+   "text": "NAGHMA SIDDIQI MARIA KHAN PROF. ZAHEERUDDIN AIJAZ AHMED MOHAMMAD USMAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PRINTER AND PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "OFFICE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 15,
+   "text": "SPIRIT OF ISLAM 002, HM WIMBERLY, 6, BERLIE STREET CROSS LANGFORD TOWN, BENGALURU 560025, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "PRINTED AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "COSMOS PRINTERS AND PUBLISHERS 450, 3RD CROSS, WILSON GARDEN, BENGALURU 560027"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.spiritofislam.co.in"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "DOWNLOAD APP AT GOOGLE PLAY STORE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b16"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "https://goo.gl/cCGpQJ"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "FOR LATEST UPDATES"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b17",
+    "p3b18",
+    "p3b19"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "https://www.facebook.com/spiritofislamnew/ https://instagram.com/soimagazinenew https://twitter.com/spiritofislamnw"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b20"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "DOWNLOAD E-BOOK AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b21"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.newshunt.com"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< FAMILY CULTURE 7"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< FAITH AND REASON 8"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< GIVING AS GOD WILLS 13"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< THE STRAIGHT PATH 14"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< TAZKIYA OR PURIFICATION 15"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< BELIEF IN GOD 16"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "< PROPHETIC MODEL VIS-À-VIS HISTORICAL MODEL 22"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< FROM THE SPIRITUAL TREE 24"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< UNLIMITED REWARD OF PATIENCE 26"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< A BELIEVER 27"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< WITHOUT RESERVATION 31"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "< RITUAL MUST ARISE FROM THE SPIRIT 32"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< MERIT CULTURE; CONTACTS CULTURE 34"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< TOWARDS GLOBAL PEACE 35"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE PATH OF MODERATION 38"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b19"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< GOODNESS IN EVERY SITUATION 39"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b20"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THREE STAGES OF DEVELOPMENT 40"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b21"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< LIFE AFTER DEATH 43"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b22"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE WORD OF GOD 44"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b23"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< ASK MAULANA 45"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b21",
+    "p25b23"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "CPS International NEW"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b1",
+    "p49b2"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 14,
+   "text": "SPIRITUAL WRITINGS OF MAULANA WAHIDUDDIN KHAN ARE AVAILABLE IN THE FOLLOWING PLACES IN INDIA"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b3"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "BIHAR"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b13"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 2,
+   "text": "MADHYA PRADESH"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b4"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 14,
+   "text": "CPG MESSAGE FORUM At P.O.Bahadurganj Main Road Dist. Kishanganj. Pin-855101, Bihar Mob: 9470272115, 9430900563"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b14"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 14,
+   "text": "Shahid Khan Yashika Books, Imami Gate Bus stop, Imami Gate, Bhopal-462001 MP Mob: 9300908081"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b5",
+    "p49b15"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 16,
+   "text": "A.H.M. Danyal Mr. Bilaluddin Al -Quran Mission 48, Aamwali Masjid, Jahangirabad Bhopal MP Mob: 09755300295, 07556542231"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b5"
+   ],
+   "role": "ref",
+   "why": "outside any article",
+   "words": 4,
+   "text": "(President Centre for Peace)"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b5"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 7,
+   "text": "Mahatwana, Phulwarisharif Patna-601505, Bihar Mob: 09308477841, 09852208744"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b6"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 15,
+   "text": "Mokhtar Ahmad Frontier Coaching Near Urdu Govt. Middle School Gewal Bigha, Gaya-823001, Bihar Mob: 09771878964"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b16"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "MAHARASHTRA"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b17"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 14,
+   "text": "Mr.Usman Goodword Books Near New S.T.Stand, HDFC Bank ATM Malegaon, Dist-Nasik, Maharashtra Mob: 8983759678"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b7"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 13,
+   "text": "Kitab Manzil Jama Masjid, Main Road, Motihari East Champaran-845 401, Bihar Mob: 09973360552"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b18"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 12,
+   "text": "Abdus Samad Shaikh Fitwell Seat Centre, 1050-Raviwar Peth Pune Maharashtra Mob: 096650509036"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b8"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "JHARKHAND"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b19"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 13,
+   "text": "Mr. Mukhtar Ansari Near Kamil Ansari House, Bankheda Mominpura, Nagpur Maharashtra Mob: 9371745384"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 17,
+   "text": "Ayaz Ahmad Holding-Sae'ban, Gulzar Bagh Colony Near Amar Jyoti School, Chapal Pul Pardeeh, Jamshedpur-831022 Mob: 9199248371, 903196239"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b20"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 2,
+   "text": "UTTAR PRADESH"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b21"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 14,
+   "text": "Mehtab Ahmad Quran Book Depot, Neza Sarai Pahari Darwaza, Dhampur Bijnor-246761 UP Mob: 07599314251"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b10"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 1,
+   "text": "KARNATAKA"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b11"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 15,
+   "text": "Naseerullah Dharmaraj Koil Street Cross City Plaza, Lower Ground-5 Shivajinagar, Bengaluru-560001 Mob: 9448607715 / 8792101511"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b22",
+    "p49b12"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 29,
+   "text": "Dr. M. Aslam Khan (Principal) NMCC (IGNOU) 38, Ayodhyapuram Mahipura, Dehradun Road, Saharanpur UP. Mob: 91-9997153735 Mahboob Book Depot Opp. Russel Market, Shivajinagar, Bengaluru-560051 E-mail: faizan500@gmail.com Mob: 9538293903, 080-22867138"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b23"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 5,
+   "text": "Muhammad Abrar Nirala Sweet House"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b23"
+   ],
+   "role": "ref",
+   "why": "outside any article",
+   "words": 3,
+   "text": "(Goodword Book Distributor)"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b23"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 6,
+   "text": "Kareli, Allahabad UP Mob: 9918228299, 9889041673"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b13",
+    "p50b14"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 17,
+   "text": "Bringing you a splendid range of Islamic Books, spiritual writings of Maulana Wahiduddin Khan and children's products."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b15"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 2,
+   "text": "GOODWORD BOOKS-DELHI"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b16",
+    "p50b17",
+    "p50b18"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 19,
+   "text": "A-21, Sector 4, Noida-201 301 Tel. +91120-4314871 Mobile +91 8588822672 +91 8588822673 +91 8588822674+91 8588822675 +91 8588822676 mail: info@goodwordbooks.com"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b19"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 2,
+   "text": "Goodword Books-Chennai"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b20"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 2,
+   "text": "Goodword Books-Hyderabad"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b19"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 12,
+   "text": "324, Triplicane High Road, Triplicane,Chennai-600005 Tel. +9144-4352-4599 Mobile +91-9790853944, 9600105558 mail: chennaigoodword@gmail.com"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b20"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 19,
+   "text": "Hyder Manzil, Ground Floor, H.No. 12-2-717/1/31/8, Sapthagiri Colony, Ratibowli Pillar No.54, Hyderabad-500028. Tel. +9140-23514757 Mobile. +91-7032641415, 9448651644 mail: hyd.goodword@gmail.com"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b1"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Towards Spiritual Living"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b2"
+   ],
+   "role": "subtitle",
+   "why": "outside any article",
+   "words": 31,
+   "text": "Al-Risala and Spirit of Islam are two monthly spiritual magazines. They aim at helping individuals discover for themselves answers to their questions on spirituality, religion, this life and the life beyond,"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b3"
+   ],
+   "role": "subtitle",
+   "why": "outside any article",
+   "words": 10,
+   "text": "and also instill in them the spirit of dawah work."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b4"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 26,
+   "text": "Annual Subscription (12 issues) Al-Risala: India - ` 200 Overseas - US $ 20 Spirit of Islam: India - ` 400 Overseas - US $ 40"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b5",
+    "p50b9",
+    "p50b6"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 19,
+   "text": "Al-Risala Spirit of Islam 1, Nizamuddin West Market, New Delhi 110013 011-41827083, 46521511 +91- 8588822679 +91- 8588822680 info@goodwordbooks.com www.goodwordbooks.com"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b10"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 17,
+   "text": "002, HM Wimberly, 6, Berlie Street Cross, Langford Town, Bengaluru - 560 025 +91 8050202626 subscription@thespiritofislam.org www.spiritofislam.co.in"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b7",
+    "p50b11",
+    "p50b8"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 22,
+   "text": "Bank transfer: ‘Al-Risala Monthly’ Bank transfer: ‘Centre for Peace’ A/c No. 0160002100010384 Punjab National Bank, Nizamuddin West Market, New Delhi - 110013"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b12"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 14,
+   "text": "SB account No. 01360 1000016325 Indian Overseas Bank, Bengaluru IFS Code - IOBA00 00136"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Dawah Made Simple"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b6",
+    "p51b7",
+    "p51b8",
+    "p51b9"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 19,
+   "text": "‘I am conveying my Lord’s messages to you and I am your sincere and honest adviser.’ The Quran, 7:68"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b12"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "64 pages 100"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": " What is Dawah Work?"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": " The Purpose of Dawah Work"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": " Conditions for doing Dawah Work"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": " Dawah Mission in India"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": " Dawah and Dua"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b11"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Goodwordbooks Mob.: +91-8588822672 info@goodwordbooks.com"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 41,
+   "text": "Spirit Of Islam | Issue 46 | October 2016 | 52 Pages Licensed To Post Without Prepayment | License No: WPP-284 Postal Regn. No: KRNA/BGE-1101/2015-2017 | RNI No: KARENG/2012/46265 Posted at Bengaluru PSO, Mysore Road, Bengaluru-560026 on 24/26th of every month"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 5,
+   "text": "Printed, published & owned by"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 28,
+   "text": "Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross, Langford Town, Bengaluru - 560025 Printed at Cosmos Printers and Publishers, 450, 3rd Cross, Wilson Garden, Bengaluru - 560027"
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b7"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "NOTICE"
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b8",
+    "p23b9"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 23,
+   "text": "Subscribers are requested to inform us about non-receipt of their copies, latest by 18th of the month providing their full name and address."
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b10"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 4,
+   "text": "SMS 8050202626 email: thecentreforpeace@gmail.com"
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b11"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 7,
+   "text": "A fresh copy will be promptly despatched."
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b22"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 17,
+   "text": "w w w . c p s g l o b a l . o r g"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b3"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "BOOKS"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b12"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "VIDEOS"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b4"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 12,
+   "text": "Read online or download literature by Maulana Wahiduddin Khan in 11 languages!"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b13"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 12,
+   "text": "Watch Maulana Wahiduddin Khan deal with the pressing issues of our times."
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b5",
+    "p25b14"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/books 4cpsglobal.org/videos"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b6"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "ARTICLES"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b15"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "PODCASTS"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b7"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 15,
+   "text": "Read Maulana’s writings as he expounds on the spiritual wisdom of the religion of Islam."
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b16"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 11,
+   "text": "Listen to the audio of Maulana Wahiduddin Khan’s books and lectures."
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b8",
+    "p25b17"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/articles 4cpsglobal.org/podcasts"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b9"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "QURAN"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b18"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "MAGAZINES"
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b10"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 15,
+   "text": "Read online and download the Quran and its commentary in Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b19"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 12,
+   "text": "Boost your spiritual health every month with our English and Urdu Magazines."
+  },
+  {
+   "page": 25,
+   "ids": [
+    "p25b11",
+    "p25b20"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/quran 4cpsglobal.org/magazines"
+  }
+ ],
+ "lead_in": [
+  "'I WAS' -> 'I was'",
+  "'THERE' -> 'There'",
+  "'MANY' -> 'Many'",
+  "'IT' -> 'It'",
+  "'MAN’S' -> 'Man’S'",
+  "'A TRAIN' -> 'A Train'",
+  "'THE' -> 'The'",
+  "'THIS' -> 'This'",
+  "'TODAY, M' -> 'Today, M'",
+  "'THIS' -> 'This'",
+  "'IT' -> 'It'",
+  "'ACCORDING' -> 'According'",
+  "'ONCE,' -> 'Once,'",
+  "'ALL' -> 'All'",
+  "'DEVELOPED' -> 'Developed'",
+  "'IN' -> 'In'",
+  "'BALANCE' -> 'Balance'",
+  "'THE' -> 'The'",
+  "'THIS H' -> 'This H'",
+  "'GANDHI JAYANTI' -> 'Gandhi Jayanti'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

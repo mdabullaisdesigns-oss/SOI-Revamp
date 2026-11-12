@@ -1,0 +1,218 @@
+{
+ "slug": "2013-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "islam-and-hinduism",
+   "title": "Islam and Hinduism",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 979,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "in-the-presence-of-god",
+   "title": "In the Presence of God",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 438,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "ten-principles-of-islam",
+   "title": "Ten Principles of Islam",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 514,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "modern-atheism-an-analysis",
+   "title": "Modern Atheism: An Analysis",
+   "pages": [
+    13,
+    18
+   ],
+   "words": 2029,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "living-in-the-past",
+   "title": "Living in the Past",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 262,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-hudaybiya-method",
+   "title": "The Hudaybiya Method",
+   "pages": [
+    20,
+    27
+   ],
+   "words": 2834,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p20b2",
+     "kind": "p",
+     "words": [
+      "dr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-failing-of-intelligence",
+   "title": "The Failing of Intelligence",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 267,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "on-marriage",
+   "title": "On Marriage",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 741,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "belief-in-god",
+   "title": "Belief in God",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 370,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p31b2",
+     "kind": "p",
+     "words": [
+      "standing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "building-a-strong-and-prosperous-india",
+   "title": "Building a Strong and Prosperous India",
+   "pages": [
+    32,
+    35
+   ],
+   "words": 1408,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "scientific-interpretation-of-the-quran",
+   "title": "Scientific Interpretation of the Quran",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 306,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "are-muslims-the-chosen-people",
+   "title": "Are Muslims the Chosen People?",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 607,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-remembrance-of-god",
+   "title": "The Remembrance of God",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 779,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 1045,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 644,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    47,
+    47
+   ],
+   "words": 426,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.98,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 14846,
+ "article_words": 13649
+}

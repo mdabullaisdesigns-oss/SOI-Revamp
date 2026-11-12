@@ -1,0 +1,447 @@
+{
+ "slug": "2017-06",
+ "articles": [
+  {
+   "n": 1,
+   "id": "no-thought-crime-in-islam",
+   "title": "No Thought Crime in Islam",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 742,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "wrong-generalization",
+   "title": "Wrong Generalization",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 340,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p7b8",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "developing-ones-personality",
+   "title": "Developing One’s Personality",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1043,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-month-of-contemplation",
+   "title": "The Month of Contemplation",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 676,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "ramazan"
+     ]
+    },
+    {
+     "item": "p12b1",
+     "kind": "p",
+     "words": [
+      "godoriented"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "make-yourself-eligible",
+   "title": "Make Yourself Eligible",
+   "pages": [
+    13,
+    17
+   ],
+   "words": 1918,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "mans-uniqueness",
+   "title": "Man’s Uniqueness",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 333,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "character-development",
+   "title": "Character Development",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 275,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "tazkiya"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "communal-egos-and-inter-community-conflict",
+   "title": "Communal Egos and Inter-Community Conflict",
+   "pages": [
+    20,
+    22
+   ],
+   "words": 1218,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-sense-of-repentance",
+   "title": "The Sense of Repentance",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 310,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "know-the-world-and-hereafter",
+   "title": "Know the World and Hereafter",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 303,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "right-starting-point",
+   "title": "Right Starting-Point",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 326,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-price-of-a-principled-life",
+   "title": "The Price of a Principled Life",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 463,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-quranic-concept-of-history",
+   "title": "The Quranic Concept of History",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 785,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "lailatul-qadr-the-night-of-destiny",
+   "title": "Lailatul Qadr (the Night of Destiny)",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 633,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "knowing-the-known",
+   "title": "Knowing the Known",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 314,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-responsibility-of-parents",
+   "title": "The Responsibility of Parents",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "what-is-a-conspiracy",
+   "title": "What Is a Conspiracy?",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 317,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "study-of-the-quran",
+   "title": "Study of the Quran",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 321,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p35b6",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "prayer-for-good-health",
+   "title": "Prayer for Good Health",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "there-is-no-enemy",
+   "title": "There Is No Enemy",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p37b8",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "islamic-spirituality",
+   "title": "Islamic Spirituality",
+   "pages": [
+    38,
+    41
+   ],
+   "words": 1547,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p39b11",
+     "kind": "p",
+     "words": [
+      "godconsciousness"
+     ]
+    },
+    {
+     "item": "p39b1",
+     "kind": "pull",
+     "words": [
+      "requirements"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "eid-that-brings-people-together",
+   "title": "Eid That Brings People Together",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 641,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 1188,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 24,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 597,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17050,
+ "article_words": 15265
+}

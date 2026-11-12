@@ -1,0 +1,323 @@
+{
+ "slug": "2015-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "spirituality-a-universal-religion",
+   "title": "Spirituality—a Universal Religion",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 848,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-role-of-muslims-in-diaspora",
+   "title": "The Role of Muslims in Diaspora",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 782,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-age-of-science-and-religion-part-ii",
+   "title": "The Age of Science and Religion—part II",
+   "pages": [
+    10,
+    15
+   ],
+   "words": 2243,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p10b5",
+     "kind": "p",
+     "words": [
+      "several"
+     ]
+    },
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "unawakened"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "keeping-calm-in-the-face-of-adversity",
+   "title": "Keeping Calm in the Face of Adversity",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 363,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p16b2",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "two-types-of-people",
+   "title": "Two Types of People",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 315,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "peace-of-mind-is-most-important",
+   "title": "Peace of Mind Is Most Important",
+   "pages": [
+    18,
+    20
+   ],
+   "words": 943,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p18b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "paradise-mans-destination",
+   "title": "Paradise: Man’s Destination",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 259,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "going-places-on-home-ground",
+   "title": "Going Places on Home Ground",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 338,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p22b2",
+     "kind": "p",
+     "words": [
+      "paul"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-universe-is-not-a-machine",
+   "title": "The Universe Is Not a Machine",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 618,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p23b2",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "when-truth-is-revealed",
+   "title": "When Truth Is Revealed",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 529,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "prophet-muhammad-part-i",
+   "title": "Prophet Muhammad—part I",
+   "pages": [
+    27,
+    32
+   ],
+   "words": 2314,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "working-on-the-individual",
+   "title": "Working on the Individual",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 418,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "worshipping-money",
+   "title": "Worshipping Money",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 277,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "from"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "introspection-in-islam",
+   "title": "Introspection in Islam",
+   "pages": [
+    35,
+    38
+   ],
+   "words": 1570,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p35b4",
+     "kind": "p",
+     "words": [
+      "selfanalysis",
+      "actions",
+      "selfpurification"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "radicalization-of-muslim-youth",
+   "title": "Radicalization of Muslim Youth",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1005,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p39b2",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "death-at-everyones-doorstep",
+   "title": "Death at Everyone’s Doorstep",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 276,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 943,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    49
+   ],
+   "words": 1216,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16932,
+ "article_words": 15257
+}

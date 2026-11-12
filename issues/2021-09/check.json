@@ -1,0 +1,314 @@
+{
+ "slug": "2021-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "obstacle-in-the-acceptance-of-truth",
+   "title": "Obstacle in the Acceptance of Truth",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 838,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "calling"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "sense-of-reform",
+   "title": "Sense of Reform",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 387,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "guiding-one-to-a-purposeful-life",
+   "title": "Guiding One to a Purposeful Life",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 551,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "peoples"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "how-to-avoid-tension",
+   "title": "How to Avoid Tension",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 481,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "teaching-the-teachers",
+   "title": "Teaching the Teachers",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 522,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p13b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "think-good-of-others",
+   "title": "Think Good of Others",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 461,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p15b2",
+     "kind": "p",
+     "words": [
+      "will"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "nuggets-of-wisdom",
+   "title": "Nuggets of Wisdom",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 810,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "fruits-of-sacrifice",
+   "title": "Fruits of Sacrifice",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 437,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p20b2",
+     "kind": "p",
+     "words": [
+      "how"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "a-lesson-from-turkey",
+   "title": "A Lesson from Turkey",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 389,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "ismet"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "role-of-ulema-in-the-contemporary-times",
+   "title": "Role of Ulema in the Contemporary Times",
+   "pages": [
+    22,
+    26
+   ],
+   "words": 1720,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p22b2",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "cultivating-national-treasures",
+   "title": "Cultivating National Treasures",
+   "pages": [
+    27,
+    28
+   ],
+   "words": 611,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p27b2",
+     "kind": "p",
+     "words": [
+      "india"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "code-red-for-humanity",
+   "title": "Code Red for Humanity",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 540,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "an-interview",
+   "title": "An Interview",
+   "pages": [
+    31,
+    38
+   ],
+   "words": 3127,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p31b2",
+     "kind": "lead",
+     "words": [
+      "united"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 649,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 896,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 276,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p44b2",
+     "kind": "p",
+     "words": [
+      "five"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 670,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 855,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15617,
+ "article_words": 14220
+}

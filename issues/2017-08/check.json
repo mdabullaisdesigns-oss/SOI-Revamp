@@ -1,0 +1,353 @@
+{
+ "slug": "2017-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "welcoming-the-71st-independence-day",
+   "title": "Welcoming the 71st Independence Day",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1011,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "islams-commitment-to-nation-building",
+   "title": "Islam’s Commitment to Nation-Building",
+   "pages": [
+    8,
+    14
+   ],
+   "words": 2615,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p8b2",
+     "kind": "p",
+     "words": [
+      "our"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-political-interpretation-of-islam",
+   "title": "The Political Interpretation of Islam",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 401,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "utilize-anger-as-a-blessing",
+   "title": "Utilize Anger as a Blessing",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 393,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "purification-tazkiya",
+   "title": "Purification (tazkiya)",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 302,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "moral-and-ethical-development-in-society",
+   "title": "Moral and Ethical Development in Society",
+   "pages": [
+    18,
+    22
+   ],
+   "words": 1649,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "deception-dajjaliyat",
+   "title": "Deception (dajjaliyat)",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 732,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p23b5",
+     "kind": "p",
+     "words": [
+      "harakiri"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "working-your-way-up",
+   "title": "Working Your Way Up",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 328,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "conversion-to-god",
+   "title": "Conversion to God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 433,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "there-is-a-reason-behind-everything",
+   "title": "There Is a Reason Behind Everything",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 371,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "working-in-unison",
+   "title": "Working in Unison",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 326,
+   "match": 99.39,
+   "missing": [
+    {
+     "item": "p29b8",
+     "kind": "p",
+     "words": [
+      "american"
+     ]
+    },
+    {
+     "item": "p29b10",
+     "kind": "p",
+     "words": [
+      "expert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "towards-an-advanced-nation",
+   "title": "Towards an Advanced Nation",
+   "pages": [
+    30,
+    34
+   ],
+   "words": 1995,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "india"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-khawarij",
+   "title": "The Khawarij",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 764,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "necessary-preparation",
+   "title": "Necessary Preparation",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 375,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p37b8",
+     "kind": "p",
+     "words": [
+      "gandhi"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "concealing-others-faults",
+   "title": "Concealing Others' Faults",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 268,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "intellectual-crusades",
+   "title": "Intellectual Crusades",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 674,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "close-mindedness",
+   "title": "Close-Mindedness",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 1203,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p41b9",
+     "kind": "qa_intro",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "when-life-ceases-what-then",
+   "title": "When Life Ceases—what Then?",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 415,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 600,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 831,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17504,
+ "article_words": 15686
+}

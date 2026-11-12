@@ -1,0 +1,298 @@
+{
+ "slug": "2019-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "embracing-islam-in-totality",
+   "title": "Embracing Islam ‘in Totality’",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1064,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "islamic-perspectives",
+   "title": "Islamic Perspectives",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 984,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "life"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "ideal-peace-is-unachievable",
+   "title": "Ideal Peace Is Unachievable",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 993,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "lessons-from-the-universe",
+   "title": "Lessons from the Universe",
+   "pages": [
+    14,
+    17
+   ],
+   "words": 1531,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "our"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "creation-of-man",
+   "title": "Creation of Man",
+   "pages": [
+    18,
+    23
+   ],
+   "words": 2543,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "humankind-and-paradise",
+   "title": "Humankind and Paradise",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 291,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "the-price-of-anger",
+   "title": "The Price of Anger",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 381,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "development-of-character",
+   "title": "Development of Character",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 376,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "belief-in-prophethood",
+   "title": "Belief in Prophethood",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 1031,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-unerasable-past",
+   "title": "The Unerasable Past",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 356,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "tony"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "keeping-out-of-harms-way",
+   "title": "Keeping Out of Harm’s Way",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 312,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "teak"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "islam-and-the-challenges-of-the-world",
+   "title": "Islam and the Challenges of the World",
+   "pages": [
+    33,
+    38
+   ],
+   "words": 1998,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p33b4",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "salvation-in-the-hereafter",
+   "title": "Salvation in the Hereafter",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 520,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "potent-energy",
+   "title": "Potent Energy",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 271,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "making-the-right-choice",
+   "title": "Making the Right Choice",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 604,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p42b9",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "islamic-culture",
+   "title": "Islamic Culture",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 366,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p44b11",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1100,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 547,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 25915,
+ "article_words": 15268
+}

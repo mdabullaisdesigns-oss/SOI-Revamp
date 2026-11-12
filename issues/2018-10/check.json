@@ -1,0 +1,305 @@
+{
+ "slug": "2018-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "pakistans-new-pm-and-the-prophets-delinking-policy",
+   "title": "Pakistan’s New Pm and the Prophet’s Delinking Policy",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 698,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "imran"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-concept-of-spirituality-in-islam",
+   "title": "The Concept of Spirituality in Islam",
+   "pages": [
+    7,
+    14
+   ],
+   "words": 3266,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "higher"
+     ]
+    },
+    {
+     "item": "p10b8",
+     "kind": "pull",
+     "words": [
+      "godrealization"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "problems-a-source-of-self-development",
+   "title": "Problems: A Source of Self-Development",
+   "pages": [
+    15,
+    17
+   ],
+   "words": 1189,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p15b4",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-value-of-silence",
+   "title": "The Value of Silence",
+   "pages": [
+    18,
+    20
+   ],
+   "words": 1116,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "principles-of-islam",
+   "title": "Principles of Islam",
+   "pages": [
+    21,
+    23
+   ],
+   "words": 960,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "a-lesson-from-history",
+   "title": "A Lesson from History",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 778,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "silence-and-god-realization",
+   "title": "Silence and God Realization",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 326,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "satan-the-trendsetter-of-history",
+   "title": "Satan: The Trendsetter of History",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 295,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "unity-despite-diversity",
+   "title": "Unity Despite Diversity",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 369,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "to"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "words-of-the-prophet",
+   "title": "Words of the Prophet",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 333,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-difference-between-peace-and-violence",
+   "title": "The Difference Between Peace and Violence",
+   "pages": [
+    31,
+    36
+   ],
+   "words": 2419,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "society",
+   "title": "Society",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 772,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "success-through-superior-solutions",
+   "title": "Success Through Superior Solutions",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 251,
+   "match": 99.6,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "thinking"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "adjustment-with-people",
+   "title": "Adjustment with People",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 1084,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "how-strange",
+   "title": "How Strange!",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 377,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 809,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1138,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "re-engineering-minds-towards-peace",
+   "title": "Re-Engineering Minds Towards Peace",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 434,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 28104,
+ "article_words": 16614
+}

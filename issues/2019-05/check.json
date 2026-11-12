@@ -1,0 +1,403 @@
+{
+ "slug": "2019-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "ramazan",
+   "title": "Ramazan",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 970,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "quran-and-hadith",
+   "title": "Quran and Hadith",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 720,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-way-of-the-faithful",
+   "title": "The Way of the Faithful",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 689,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-angels",
+   "title": "The Angels",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 304,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p12b8",
+     "kind": "p",
+     "words": [
+      "amongst"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "remembering-god",
+   "title": "Remembering God",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 788,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "honesty-and-hard-work",
+   "title": "Honesty and Hard Work",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 398,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "prophet"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "lessons-from-nature",
+   "title": "Lessons from Nature",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 351,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-gist-of-islam",
+   "title": "The Gist of Islam",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 347,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "building-this-world-or-preparing-for-the-hereafter",
+   "title": "Building This World, or Preparing for the Hereafter?",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 511,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p18b4",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-meaning-of-jihad",
+   "title": "The Meaning of Jihad",
+   "pages": [
+    20,
+    22
+   ],
+   "words": 1031,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p21b4",
+     "kind": "p",
+     "words": [
+      "wellbeing",
+      "wellwishing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "an-interview-with-dr-saniyasnain-khan",
+   "title": "An Interview with Dr. Saniyasnain Khan",
+   "pages": [
+    23,
+    27
+   ],
+   "words": 1429,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "spirituality-gratitude",
+   "title": "Spirituality & Gratitude",
+   "pages": [
+    31,
+    36
+   ],
+   "words": 2503,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p32b5",
+     "kind": "p",
+     "words": [
+      "godconsciousness"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "a-comparison",
+   "title": "A Comparison",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 780,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "ramazanthe"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "clarification-of-a-misunderstanding",
+   "title": "Clarification of a Misunderstanding",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 705,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    },
+    {
+     "item": "p39b7",
+     "kind": "p",
+     "words": [
+      "albukhari"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "unlimited-reward",
+   "title": "Unlimited Reward",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 272,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "say"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "paradise-and-its-inhabitants",
+   "title": "Paradise and Its Inhabitants",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 376,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "respect-for-humanity",
+   "title": "Respect for Humanity",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 335,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "reformed-behaviour",
+   "title": "Reformed Behaviour",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 359,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "do"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-way-of-moderation",
+   "title": "The Way of Moderation",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 350,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p45b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 706,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 951,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [
+  {
+   "page": 39,
+   "words": 9,
+   "text": "aland striving to come bukhari closer to god by"
+  }
+ ],
+ "pdf_words": 25512,
+ "article_words": 14875
+}

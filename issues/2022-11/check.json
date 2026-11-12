@@ -1,0 +1,274 @@
+{
+ "slug": "2022-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "realize-your-potential",
+   "title": "Realize Your Potential",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 835,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "helen"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "selections-from-maulanas-diary",
+   "title": "Selections from Maulana's Diary",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 720,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-existence-and-discovery-of-god",
+   "title": "The Existence and Discovery of God",
+   "pages": [
+    10,
+    16
+   ],
+   "words": 2641,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-path-to-success",
+   "title": "The Path to Success",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 305,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "reciprocity",
+   "title": "Reciprocity",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 318,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p18b2",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-principle-of-peaceful-coexistence",
+   "title": "The Principle of Peaceful Coexistence",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 409,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "disadvantage-turned-to-advantage",
+   "title": "Disadvantage Turned to Advantage",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 326,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "nature-has-its-own-mind",
+   "title": "Nature Has Its Own Mind",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 984,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "myriad"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "an-interview-with-ms-gul-zeba",
+   "title": "An Interview with Ms Gul Zeba",
+   "pages": [
+    25,
+    27
+   ],
+   "words": 1117,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-precipice",
+   "title": "The Precipice",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 517,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p28b8",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-evils-of-jealousy",
+   "title": "The Evils of Jealousy",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 599,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    32,
+    35
+   ],
+   "words": 1384,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 435,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 160,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-way-of-moderation",
+   "title": "The Way of Moderation",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 370,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "man-and-opportunity",
+   "title": "Man and Opportunity",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 431,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p45b3",
+     "kind": "p",
+     "words": [
+      "publius"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    47
+   ],
+   "words": 308,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 873,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 13931,
+ "article_words": 12732
+}

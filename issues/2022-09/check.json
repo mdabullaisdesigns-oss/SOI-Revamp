@@ -1,0 +1,324 @@
+{
+ "slug": "2022-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "calamities-and-afflictions",
+   "title": "Calamities and Afflictions",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 824,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "conquers-all",
+   "title": "Conquers All",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 410,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "gift-or-test",
+   "title": "Gift or Test?",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 354,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p10b5",
+     "kind": "p",
+     "words": [
+      "no"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "hudaibiyah-culture",
+   "title": "Hudaibiyah Culture",
+   "pages": [
+    11,
+    14
+   ],
+   "words": 1526,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "for-the-thinking-soul",
+   "title": "For the Thinking Soul",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 376,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "indian-muslims-a-historical-review",
+   "title": "Indian Muslims: A Historical Review",
+   "pages": [
+    16,
+    18
+   ],
+   "words": 1177,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "a-perfect-world",
+   "title": "A Perfect World",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 522,
+   "match": 99.43,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "until"
+     ]
+    },
+    {
+     "item": "p19b6",
+     "kind": "p",
+     "words": [
+      "northeastern"
+     ]
+    },
+    {
+     "item": "p19b9",
+     "kind": "thought",
+     "words": [
+      "fulfilled"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "a-practical-solution",
+   "title": "A Practical Solution",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 326,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "a-realistic-step",
+   "title": "A Realistic Step",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 345,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p22b9",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "correct-starting-point",
+   "title": "Correct Starting Point",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 768,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "india-a-spiritual-superpower",
+   "title": "India: A Spiritual Superpower",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 820,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-majority-minority-equation",
+   "title": "The Majority-Minority Equation",
+   "pages": [
+    27,
+    28
+   ],
+   "words": 484,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-goal-of-a-believer",
+   "title": "The Goal of a Believer",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 338,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "freedom-of-expression",
+   "title": "Freedom of Expression",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 353,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "negligence-a-moral-deficiency",
+   "title": "Negligence: A Moral Deficiency",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 448,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "pride-and-gratitude",
+   "title": "Pride and Gratitude",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 403,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "lesser-gratitude-greater-gratitude",
+   "title": "Lesser Gratitude, Greater Gratitude",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 314,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "an-interview-with-dr-rajat-malhotra",
+   "title": "An Interview with Dr Rajat Malhotra",
+   "pages": [
+    34,
+    40
+   ],
+   "words": 2538,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 307,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 214,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 482,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 432,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 23,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 708,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.97,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15857,
+ "article_words": 14469
+}

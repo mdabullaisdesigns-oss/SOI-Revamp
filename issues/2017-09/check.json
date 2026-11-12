@@ -1,0 +1,322 @@
+{
+ "slug": "2017-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "hajj-should-inculcate-love-for-humanity",
+   "title": "Hajj Should Inculcate Love for Humanity",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 899,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "science-and-god-realization",
+   "title": "Science and God-Realization",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1060,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "one-sided-reporting",
+   "title": "One-Sided Reporting",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 358,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-significance-of-hajj",
+   "title": "The Significance of Hajj",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 845,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "develop-a-creative-mind",
+   "title": "Develop a Creative Mind",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 663,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "supporting-role",
+   "title": "Supporting Role",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 305,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "hell-and-heaven",
+   "title": "Hell and Heaven",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 273,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p17b6",
+     "kind": "p",
+     "words": [
+      "why"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-prophets-life-was-an-open-book",
+   "title": "The Prophet’s Life Was an Open Book",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 620,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "motivation-is-greater-than-favour",
+   "title": "Motivation Is Greater Than Favour",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 649,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p20b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "rational-choice-and-emotional-choice",
+   "title": "Rational Choice and Emotional Choice",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 768,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p22b4",
+     "kind": "p",
+     "words": [
+      "life"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-comfort-zone",
+   "title": "The Comfort Zone",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 618,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "ones"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-next-world",
+   "title": "The Next World",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 638,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "peace-in-the-quran",
+   "title": "Peace in the Quran",
+   "pages": [
+    28,
+    38
+   ],
+   "words": 4066,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "discrimination-is-alien-to-the-quran",
+   "title": "Discrimination Is Alien to the Quran",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 579,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-modern-science-of-theology",
+   "title": "The Modern Science of Theology",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 470,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "conquering-death",
+   "title": "Conquering Death",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 348,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p43b6",
+     "kind": "p",
+     "words": [
+      "louis"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 574,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 966,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16495,
+ "article_words": 14699
+}

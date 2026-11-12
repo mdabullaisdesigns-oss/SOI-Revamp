@@ -1,0 +1,278 @@
+{
+ "slug": "2022-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "lessons-from-the-volcanic-eruptions",
+   "title": "Lessons from the Volcanic Eruptions",
+   "pages": [
+    4,
+    6
+   ],
+   "words": 717,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p4b5",
+     "kind": "p",
+     "words": [
+      "volcanoes"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "pages-from-maulanas-diary",
+   "title": "Pages from Maulana's Diary",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 638,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "history-speaks",
+   "title": "History Speaks",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 302,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "roger"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-relationship-between-man-and-god",
+   "title": "The Relationship Between Man and God",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 349,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p10b5",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "end-misunderstandings-through-sound-arguments",
+   "title": "End Misunderstandings Through Sound Arguments",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 701,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "character-builds-the-nation",
+   "title": "Character Builds the Nation",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 320,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "toyota"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "ethics-and-technology",
+   "title": "Ethics and Technology",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 358,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "soon"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "on-the-threshold-of-paradise",
+   "title": "On the Threshold of Paradise",
+   "pages": [
+    15,
+    22
+   ],
+   "words": 3201,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p15b2",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "seeking-the-right-alternatives",
+   "title": "Seeking the Right Alternatives",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 656,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "god-helps-those-who-help-themselves",
+   "title": "God Helps Those Who Help Themselves",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 840,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "an-interview-with-ms-kauser-izhar",
+   "title": "An Interview with Ms Kauser Izhar",
+   "pages": [
+    27,
+    34
+   ],
+   "words": 3112,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "giving-as-god-wills",
+   "title": "Giving as God Wills",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 336,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "mans"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 246,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 540,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p40b4",
+     "kind": "small",
+     "words": [
+      "1the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "magazine-review",
+   "title": "Magazine Review",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 995,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 499,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1014,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15982,
+ "article_words": 14824
+}

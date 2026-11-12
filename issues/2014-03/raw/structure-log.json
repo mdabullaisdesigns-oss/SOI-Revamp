@@ -1,0 +1,1142 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b1"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "ENGLISH MONTHLY ISSUE 15 MARCH 2014  E 35"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2",
+    "p1b3"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "To Make Life Meaningful, Discover Its Purpose."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 5,
+   "text": "This page left blank intentionally"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 22,
+   "text": "T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 4,
+   "text": "ISSUE 15, MARCH 2014"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b2"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "CHIEF EDITOR"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b2"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b3"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "ASSOCIATE EDITORS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4",
+    "p4b5",
+    "p4b6"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 7,
+   "text": "DR. FARIDA KHANAM NAGHMA SIDDIQI AIJAZ AHMED"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "CONTRIBUTORS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 4,
+   "text": "MARIA KHAN PROF. ZAHEERUDDIN"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "COVER ART"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 8,
+   "text": "Detail from Irises (1890) VINCENT VAN GOGH (1853–1890)"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PRINTER AND PUBLISHER"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "OFFICE"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 15,
+   "text": "SPIRIT OF ISLAM 002, HM WIMBERLY, 6, BERLIE STREET CROSS LANGFORD TOWN, BANGALORE 560025, INDIA"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PRINTED AT"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 11,
+   "text": "COSMOS PRINTERS AND PUBLISHERS 450, 3RD CROSS, WILSON GARDEN, BANGALORE 560027"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.spiritofislam.co.in"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b3"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "4"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b2",
+    "p5b5"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "The Value of A Human Being 6"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "DESIRE FOR PEACE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b4",
+    "p5b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "A Believer's Pursuit 7"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "A LESSON FROM PROPHET ADAM"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6",
+    "p5b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Angelic Method 9"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE EXISTENCE OF GOD"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b8",
+    "p5b11"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "A Proof In Creation 10"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "THE ISLAMIC WAY OF LIFE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b10",
+    "p5b13"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "Worshipping God and Doing Good to Man 16"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "LEARNING FROM NATURE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12",
+    "p5b15"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Dealing With Opponents 18"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "FROM THE SPIRITUAL TREE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b14",
+    "p5b17"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "Introspection 20"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "BLESSING IN DISGUISE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b16",
+    "p5b19"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Differently Abled 21"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE GOAL OF MAN"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b18",
+    "p5b21"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Defining Human Life 24"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b20"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "RECOGNIZING THE TRUTH"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b20",
+    "p5b23"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Within or Without 25"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b22"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "SECRETS TO A SUCCESSFUL LIFE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b22",
+    "p5b25"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Qualities Required 33"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b24"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "SPIRITUAL ROLE OF WOMEN"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b24",
+    "p5b27"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Ignored by Society 36"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b26"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "COMMUNITY OR HUMANITY?"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b26",
+    "p5b29"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Human Empowerment 38"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b28"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "PARADISE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b28",
+    "p5b31"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "An Introduction 40"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b30"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE WORD OF GOD"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b30",
+    "p5b33"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "From The Scriptures 43"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b32"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "ASK MAULANA"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b32"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Your Questions, Answered"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b34"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "46"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b34"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "Glossary"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b3"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "BOOKS"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b12"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "VIDEOS"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b4"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Read online or download literature by Maulana Wahiduddin Khan in 11 languages!"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b13"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Watch Maulana Wahiduddin Khan deal with the pressing issues of our times."
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b5",
+    "p34b14"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "4cpsglobal.org/books 4 cpsglobal.org/videos"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b6"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "ARTICLES"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b15"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "PODCASTS"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b7"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 15,
+   "text": "Read Maulana’s writings as he expounds on the spiritual wisdom of the religion of Islam."
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b16"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 11,
+   "text": "Listen to the audio of Maulana Wahiduddin Khan’s books and lectures."
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b8",
+    "p34b17"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "4cpsglobal.org/articles 4cpsglobal.org/podcasts"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b9"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "QURAN"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b18"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "MAGAZINES"
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b10"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 15,
+   "text": "Read online and Download the Quran and its commentary in Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b19"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Boost your spiritual health every month with our English and Urdu Magazines."
+  },
+  {
+   "page": 34,
+   "ids": [
+    "p34b11",
+    "p34b20"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "4cpsglobal.org/quran 4cpsglobal.org/magazines"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b21"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 1,
+   "text": "Glossary"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b1",
+    "p48b13",
+    "p48b2"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 33,
+   "text": "Abu Dawud (817-889); Abu Dawud as-Jinn A living creation of God made Sijistani; Persian Islamic scholar and compiler of Hadith; authored the Sunan Abi Dawud Hadith collection. Aisha (612-678); daughter of Abu Bakr,"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b14",
+    "p48b15"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 30,
+   "text": "from fire; Jinns have free-will just like mankind. Kalima The Islamic creed — ‘There is no god but God, Muhammad is the messenger of God’. Khadija (555-620); Khadija bint Khuwaylid;"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b3"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 24,
+   "text": "wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. Akhirah The Hereafter. Al-Adab al-Mufrad collection of Hadith by"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b16",
+    "p48b4"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 23,
+   "text": "first wife of Prophet Muhammad. ma'arifah also ma'rifat — God-realization Musnad Ahmed a collection of Hadith Imam Al-Bukhari. Al-Bayhaqi (994-1066); Abu Bakr Ahmad"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b17"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 24,
+   "text": "reports by Islamic scholar Ahmad bin Hanbal (780-855). Rab ul-alamin Lord of the Worlds. sabr Patience. Shukr Gratefulness. Shukr-e Kaseer to express much gratitude"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b5",
+    "p48b6"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 57,
+   "text": "ibn Husayn al-Bayhaqi or Imam al-Bayhaqi; Islamic scholar of fiqh and collector of Hadith. Al-Bukhari; Imam Al-Bukhari (810-870); Muhammad Al-Bukhari; Persian Islamic scholar who authored the Hadith collection known as Sahih al-Bukhari regarded as the most authentic collection of Hadith. al-Insan Mankind. Allah Arabic word for God. al-Nas Man. angel a living creation of God made from"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b18",
+    "p48b19",
+    "p48b20"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 22,
+   "text": "to God. Sunnah Practice and teachings of Prophet Muhammad. Tafsir ibn Kathir commentary of the Quran by the famous scholar Ibn Kathir."
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b7",
+    "p48b8",
+    "p48b9",
+    "p48b10",
+    "p48b11",
+    "p48b12"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 101,
+   "text": "light; Angels have no free-will and are in constant obedience to God. At-Tirmidhi or At-Tirmizi (824-892); Islamic scholar and collector of Hadith. Bani-Adam Children of Adam. Dar al-insan Abode of mankind. dhikr to remember or think about God often. fikr Contemplation. fiqh Islamic jurisprudence. Hadith sayings and deeds of the Prophet of Islam. Haj Pilgrimage. Hira or Cave of Hira; cave on the mount Jabal al-Noor near Makkah where prophet Muhammad received the first revelation from God. ibadah Worship. Ibn Majah Ibn Majah; (824-887); Islamic scholar and compiler of Hadith Ibn Majah; (824-887); Islamic scholar and compiler of Hadith. iman Faith."
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b10"
+   ],
+   "role": "title",
+   "why": "non-article page: Subscribe",
+   "words": 1,
+   "text": "SUBSCRIBE"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b12"
+   ],
+   "role": "other",
+   "why": "non-article page: Subscribe",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b12"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 22,
+   "text": "T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b11"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 13,
+   "text": "Annual Subscription (12 issues) All-India - J 400 Overseas - US $ 30"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b1"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 11,
+   "text": "To subscribe, please send the following information along with the payment"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b2",
+    "p49b3",
+    "p49b4",
+    "p49b5"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 14,
+   "text": "Full Name Postal address with Pin Code Phone / Mobile number Choice of payment"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b6"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 5,
+   "text": "by any of the following"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b7"
+   ],
+   "role": "small",
+   "why": "non-article page: Subscribe",
+   "words": 1,
+   "text": "SMS"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 22,
+   "text": "8050202626 (India) Mail  Spirit of Islam 002, HM Wimberly 6, Berlie Street Cross Langford Town, Bangalore - 560 025, INDIA. Email subscription@thespiritofislam.org"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b8"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 2,
+   "text": "Payment Instructions:"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "small",
+   "why": "non-article page: Subscribe",
+   "words": 4,
+   "text": "Money Order / VPP"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 9,
+   "text": "Write your name and phone number in message column."
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 25,
+   "text": "Cheque or DD in favour of ‘Centre for Peace’, payable at Bangalore. Write your name and phone number at the back of cheque / DD."
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b9"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 21,
+   "text": "Bank transfer to ‘Centre for Peace’ SB account No - 01360 1000016325 Indian Overseas Bank, Bangalore IFS Code - IOBA00 00136"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b4"
+   ],
+   "role": "other",
+   "why": "non-article page: Subscribe",
+   "words": 2,
+   "text": "The Quran"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b5"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 4,
+   "text": "TRANSLATION AND COMMENTARY BY"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b6"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Subscribe",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 3,
+   "text": "PARALLEL ARABIC TEXT"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b8",
+    "p50b9",
+    "p50b10",
+    "p50b11"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 72,
+   "text": "This concise, easy-to-read commentary will help you understand the deeper meaning of the Quran and its relevance in the world today. While focusing on the main themes of the Quran, such as God-realization, enlightenment, closeness to God, remembrance, prayer, peace and spirituality, this guide to the Quran will show you how through reflection and contemplation, you can learn divine lessons from the Signs of God that are a part of our world."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b1"
+   ],
+   "role": "bio",
+   "why": "non-article page: Subscribe",
+   "words": 7,
+   "text": "1792 PAGES | HARDCOVER | GOODWORD BOOKS"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b2"
+   ],
+   "role": "label",
+   "why": "non-article page: Subscribe",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b3"
+   ],
+   "role": "body",
+   "why": "non-article page: Subscribe",
+   "words": 11,
+   "text": "A translation of the Quran in simple English is also available."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 5,
+   "text": "This page left blank intentionally"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 47,
+   "text": "Spirit of Islam | Issue 15 | March 2014 | 52 Pages Licensed To Post Without Prepayment | License No: WPP-284 Regd. Under Postal Regn. No: KRNA/BGE-1101/2012-2014 | RNI No: KARENG/2012/46265 Posted at MBC Bangalore GPO on 24/26th of every month | Printed, published & owned by"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 28,
+   "text": "Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross, Langford Town, Bangalore - 560025 Printed at Cosmos Printers and Publishers, 450, 3rd Cross, Wilson Garden, Bangalore - 560027"
+  }
+ ],
+ "lead_in": [
+  "'SUNANDA P' -> 'Sunanda P'",
+  "'A BELIEVER' -> 'A believer'",
+  "'THE Q' -> 'The Q'",
+  "'WHEN' -> 'When'",
+  "'THE I' -> 'The I'",
+  "'ANIMALS' -> 'Animals'",
+  "'IF' -> 'If'",
+  "'LOUIS B' -> 'Louis B'",
+  "'DR. A' -> 'Dr. A'",
+  "'MR. R' -> 'Mr. R'",
+  "'BUILDING' -> 'Building'",
+  "'STUDIES' -> 'Studies'",
+  "'IF' -> 'If'",
+  "'MAN' -> 'Man'",
+  "'THE Q' -> 'The Q'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

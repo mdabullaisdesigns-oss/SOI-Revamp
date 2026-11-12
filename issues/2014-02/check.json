@@ -1,0 +1,281 @@
+{
+ "slug": "2014-02",
+ "articles": [
+  {
+   "n": 1,
+   "id": "this-is-not-the-time",
+   "title": "This Is Not the Time",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 549,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "science-and-the-existence-of-god",
+   "title": "Science and the Existence of God",
+   "pages": [
+    8,
+    11
+   ],
+   "words": 1423,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p9b13",
+     "kind": "p",
+     "words": [
+      "everywhere"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "muslim-world-view",
+   "title": "Muslim World-View",
+   "pages": [
+    12,
+    17
+   ],
+   "words": 2262,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-final-destination",
+   "title": "The Final Destination",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 673,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "mt"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "differences-between-men-and-women",
+   "title": "Differences Between Men and Women",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 423,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p20b4",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "humility-and-sincerity-in-prayer",
+   "title": "Humility and Sincerity in Prayer",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 481,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "what-went-wrong-with-muslims",
+   "title": "What Went Wrong with Muslims",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 731,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "from-the-spiritual-tree",
+   "title": "From the Spiritual Tree",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 480,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "lessons-from-jesus-christ",
+   "title": "Lessons from Jesus Christ",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 866,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "dominion-as-a-test",
+   "title": "Dominion as a Test",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 354,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "william"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-bibles-testimony",
+   "title": "The Bible’s Testimony",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 687,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "life-is-a-tightrope-walk",
+   "title": "Life Is a Tightrope Walk",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 617,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "living"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "religious-harmony",
+   "title": "Religious Harmony",
+   "pages": [
+    36,
+    41
+   ],
+   "words": 1978,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "divine-signs",
+   "title": "Divine Signs",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 438,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 960,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 786,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15214,
+ "article_words": 13708
+}

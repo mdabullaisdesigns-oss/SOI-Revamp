@@ -1,0 +1,362 @@
+{
+ "slug": "2019-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-message-for-the-new-year",
+   "title": "A Message for the New Year",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 719,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "being"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "125-years-of-swami-vivekananda-in-the-west",
+   "title": "125 Years of Swami Vivekananda in the West",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 723,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "an-understanding-about-islamic-jurisprudence",
+   "title": "An Understanding About Islamic Jurisprudence",
+   "pages": [
+    9,
+    11
+   ],
+   "words": 1090,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p9b5",
+     "kind": "p",
+     "words": [
+      "fiqh"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "deception-on-all-sides",
+   "title": "Deception on All Sides",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 672,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "wealth",
+   "title": "Wealth",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 406,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "a-believers-behaviour",
+   "title": "A Believer’s Behaviour",
+   "pages": [
+    15,
+    17
+   ],
+   "words": 757,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-teacher-tree",
+   "title": "The Teacher Tree",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 721,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "two-pictures",
+   "title": "Two Pictures",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 382,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "feed-your-starved-intellect",
+   "title": "Feed Your Starved Intellect",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 623,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "mans-plight",
+   "title": "Man’s Plight",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 554,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "how"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "islamic-virtues",
+   "title": "Islamic Virtues",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 536,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "living-in-a-professional-world",
+   "title": "Living in a Professional World",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 557,
+   "match": 99.46,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    },
+    {
+     "item": "p35b7",
+     "kind": "p",
+     "words": [
+      "meeting",
+      "to"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "from-denial-to-belief",
+   "title": "From Denial to Belief",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 715,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "professor"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "delusive-grandeur",
+   "title": "Delusive Grandeur",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 622,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "working-together",
+   "title": "Working Together",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 378,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p41b6",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "a-new-india",
+   "title": "A New India",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 704,
+   "match": 99.43,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    },
+    {
+     "item": "p42b5",
+     "kind": "p",
+     "words": [
+      "had",
+      "wellknown"
+     ]
+    },
+    {
+     "item": "p42b8",
+     "kind": "pull",
+     "words": [
+      "selfaware"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 1027,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 741,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p47b13",
+     "kind": "quote",
+     "words": [
+      "muhammadur",
+      "rasoolullah"
+     ]
+    }
+   ]
+  }
+ ],
+ "overall_match": 99.83,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 24222,
+ "article_words": 11927
+}

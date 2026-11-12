@@ -1,0 +1,298 @@
+{
+ "slug": "2014-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-value-of-a-human-being",
+   "title": "The Value of a Human Being",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 670,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "sunanda"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "desire-for-peace",
+   "title": "Desire for Peace",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 341,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "a-lesson-from-prophet-adam",
+   "title": "A Lesson from Prophet Adam",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 599,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-existence-of-god",
+   "title": "The Existence of God",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 358,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-islamic-way-of-life",
+   "title": "The Islamic Way of Life",
+   "pages": [
+    12,
+    17
+   ],
+   "words": 2123,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "learning-from-nature",
+   "title": "Learning from Nature",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 707,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "animals"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "introspection",
+   "title": "Introspection",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 605,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "blessing-in-disguise",
+   "title": "Blessing in Disguise",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 316,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "louis"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-goal-of-man",
+   "title": "The Goal of Man",
+   "pages": [
+    23,
+    25
+   ],
+   "words": 1324,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "dr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "recognizing-the-truth",
+   "title": "Recognizing the Truth",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 370,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p26b3",
+     "kind": "p",
+     "words": [
+      "mr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "secrets-to-a-successful-life",
+   "title": "Secrets to a Successful Life",
+   "pages": [
+    27,
+    34
+   ],
+   "words": 2826,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "building"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "spiritual-role-of-women",
+   "title": "Spiritual Role of Women",
+   "pages": [
+    35,
+    37
+   ],
+   "words": 988,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "studies"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "community-or-humanity",
+   "title": "Community or Humanity?",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 497,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "paradise",
+   "title": "Paradise",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 680,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 1254,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 852,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15968,
+ "article_words": 14510
+}

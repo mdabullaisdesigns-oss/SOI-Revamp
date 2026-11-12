@@ -1,0 +1,230 @@
+{
+ "slug": "2023-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "know-gods-creation-plan",
+   "title": "Know God’s Creation Plan",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 802,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "span"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "impressions-and-lessons",
+   "title": "Impressions and Lessons",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1074,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "sources-for-god-realization",
+   "title": "Sources for God-Realization",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 333,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "tolerance-a-virtue-in-itself",
+   "title": "Tolerance: A Virtue in Itself",
+   "pages": [
+    12,
+    17
+   ],
+   "words": 2207,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p12b5",
+     "kind": "p",
+     "words": [
+      "nothing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "are-you-really-not-alone",
+   "title": "Are You Really Not Alone?",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 452,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p18b2",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "history-of-hajj",
+   "title": "History of Hajj",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 877,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "in-search-of-truth",
+   "title": "In Search of Truth",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 349,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "lessons-from-the-road-traffic",
+   "title": "Lessons from the Road Traffic",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 411,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "a-better-person",
+   "title": "A Better Person",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p24b2",
+     "kind": "p",
+     "words": [
+      "abu"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "interview-with-maulana-wahiduddin-khan",
+   "title": "Interview with Maulana Wahiduddin Khan",
+   "pages": [
+    25,
+    38
+   ],
+   "words": 5966,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-essence-of-all-worship",
+   "title": "The Essence of All Worship",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 712,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 438,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 482,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 574,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 567,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.97,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16761,
+ "article_words": 15581
+}

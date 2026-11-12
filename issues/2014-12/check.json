@@ -1,0 +1,286 @@
+{
+ "slug": "2014-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "targeted-therapy",
+   "title": "Targeted Therapy",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 489,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "signs-of-god",
+   "title": "Signs of God",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 242,
+   "match": 99.59,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "learn-the-art-of-ego-management",
+   "title": "Learn the Art of Ego Management",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 691,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-culture-of-peace-part-vi",
+   "title": "The Culture of Peace — Part Vi",
+   "pages": [
+    10,
+    19
+   ],
+   "words": 3197,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "the-purpose-of-life",
+   "title": "The Purpose of Life",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 695,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "lessons-eternal-and-ephemeral",
+   "title": "Lessons Eternal and Ephemeral",
+   "pages": [
+    22,
+    25
+   ],
+   "words": 1295,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "spirituality-a-universal-religion",
+   "title": "Spirituality — a Universal Religion",
+   "pages": [
+    26,
+    28
+   ],
+   "words": 992,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-world-hereafter",
+   "title": "The World Hereafter",
+   "pages": [
+    29,
+    32
+   ],
+   "words": 1437,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "sir"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "a-ray-of-hope",
+   "title": "A Ray of Hope",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 540,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "remembering-god",
+   "title": "Remembering God",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 605,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "living-as-an-underdeveloped-personality",
+   "title": "Living as an Underdeveloped Personality",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 360,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-honey-bee-culture",
+   "title": "The Honey Bee Culture",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "in-search-of-meaning",
+   "title": "In Search of Meaning",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 778,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "emergence-of-a-new-india",
+   "title": "Emergence of a New India",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 533,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "simple-living-high-thinking",
+   "title": "Simple Living, High Thinking",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 383,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 786,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1211,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16212,
+ "article_words": 14556
+}

@@ -1,0 +1,369 @@
+{
+ "slug": "2021-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-authority-over-religious-affairs",
+   "title": "The Authority Over Religious Affairs",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 807,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "a-dangerous-apathy",
+   "title": "A Dangerous Apathy",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 382,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "its-a-give-and-take-world",
+   "title": "It’s a Give and Take World",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "living-a-focussed-life",
+   "title": "Living a Focussed Life",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 352,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "a-lifetime-of-devotion",
+   "title": "A Lifetime of Devotion",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 595,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "interfaith-speech",
+   "title": "Interfaith Speech",
+   "pages": [
+    13,
+    15
+   ],
+   "words": 952,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "names-of-god",
+   "title": "Names of God",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 444,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p16b2",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "a-ruthless-teacher",
+   "title": "A Ruthless Teacher",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 310,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p18b2",
+     "kind": "p",
+     "words": [
+      "robert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "peace-a-universal-religion",
+   "title": "Peace: A Universal Religion",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 680,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "when-appearance-replaces-substance",
+   "title": "When Appearance Replaces Substance",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 597,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p21b4",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "islamic-message-in-a-changing-world",
+   "title": "Islamic Message in a Changing World",
+   "pages": [
+    23,
+    25
+   ],
+   "words": 1105,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p23b4",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "reading-between-the-lines",
+   "title": "Reading Between the Lines",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 508,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "successful-marriage",
+   "title": "Successful Marriage",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 355,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "understand-things-in-correct-perspective",
+   "title": "Understand Things in Correct Perspective",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 389,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "mahatma-gandhi-a-true-visionary",
+   "title": "Mahatma Gandhi: A True Visionary",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "an-interview",
+   "title": "An Interview",
+   "pages": [
+    31,
+    38
+   ],
+   "words": 3001,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "an-outreach-journey-to-brazil",
+   "title": "An Outreach Journey to Brazil",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 648,
+   "match": 98.77,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    },
+    {
+     "item": "p40b5",
+     "kind": "thought",
+     "words": [
+      "without",
+      "introspection",
+      "you",
+      "cannot",
+      "stand",
+      "true",
+      "faith"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 189,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 996,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 196,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 893,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 765,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [
+  17
+ ],
+ "unplaced": [],
+ "pdf_words": 16235,
+ "article_words": 14805
+}

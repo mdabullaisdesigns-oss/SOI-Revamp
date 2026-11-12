@@ -1356,5 +1356,6 @@
   "'THIS' -> 'This'",
   "'DEATH' -> 'Death'"
  ],
- "hyphen_unsure": []
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
 }

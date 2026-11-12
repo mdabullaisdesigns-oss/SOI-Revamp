@@ -1,0 +1,609 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b1"
+   ],
+   "role": "label",
+   "why": "cover",
+   "words": 6,
+   "text": "ENGLISH BIMONTHLY ISSUE 105 MARCH-APRIL 2022"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "title",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITOF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 23,
+   "text": "T o war d s Gl ob al Peace & Sp i r i t u al L i v i n g"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b3",
+    "p1b4"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 16,
+   "text": "Be modest and you will be able to attain every kind of high success in life."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "A MAGAZINE FOR THE JOURNEY OF LIFE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 62,
+   "text": "This is a current magazine. Its articles are based on sound principles of reason and science with a particular emphasis on the spirit of Islam rather than the form or the ritual. All the articles have been either written by Maulana Wahiduddin Khan, translated from his Urdu writings, or based on his writings developed by a team trained and guided by him."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Spirit of Islam bimonthly…"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 20,
+   "text": "4 Presents Islam, the religion of nature, in the contemporary idiom to help Muslims rediscover Islam from the original sources"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Explains Creation plan of God for humankind"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Enlightens people on the subject of global peace"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Addresses contemporary issues"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Assists the readers to deal with life’s challenges"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Offers Spirituality to a wider circle of seekers"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b9"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Fosters greater communal harmony through religious understanding"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "United in prayers SOI Editorial Committee"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b7"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 23,
+   "text": "T o w a r ds G lo b a l P ea c e & Spi ri tual Li v i ng"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "ISSUE 105 MARCH-APRIL 2022"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "EDITOR-IN-CHIEF PROF. FARIDA KHANAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "OFFICE SPIRIT OF ISLAM 002, HM WIMBERLY, 6 BERLIE STREET CROSS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b9",
+    "p3b10",
+    "p3b2"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 10,
+   "text": "EDITORIAL DIRECTOR DR. NAGHMA SIDDIQI LANGFORD TOWN BENGALURU 560025, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "ADVISORS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "INAYATHULLAH UMRI"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12",
+    "p3b3"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PROF. ZAHEERUDDIN www.spiritofislam.co.in"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "SUB-EDITORS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4",
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 7,
+   "text": "CPS INTERNATIONAL DR. MARIA KHAN MOHAMMAD USMAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b5"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "www.cpsglobal.org www.cpsquran.com"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< A READYMADE WORLD 10"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< TOWARDS GLOBAL PEACE 11"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< WHERE DO WE STAND? 14"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE MONTH OF RAMADAN 16"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "< LIVING IN A WORLD OF PROFESSIONS 18"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "< THE JOURNEY OF RELIGIOUS TOLERANCE 20"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE POWER OF SPEECH 23"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE ROLE OF WOMEN 26"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< CPS NEWSLETTER 37"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< CHILDREN’S CORNER 39"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< BOOK REVIEW 41"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< INTERNATIONAL WOMEN’S DAY 44"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE WORD OF GOD 46"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< YOUR QUESTIONS ANSWERED 48"
+  },
+  {
+   "page": 15,
+   "ids": [
+    "p15b2"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "USA"
+  },
+  {
+   "page": 15,
+   "ids": [
+    "p15b3"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Centre for Peace and Spirituality 2665 Byberry Road, Bensalem, PA 19020 kkaleemuddin@gmail.com"
+  },
+  {
+   "page": 19,
+   "ids": [
+    "p19b5"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "CPS Ladies"
+  },
+  {
+   "page": 19,
+   "ids": [
+    "p19b6"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "Group"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b3"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 29,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t ual L iv ing"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b4",
+    "p43b5",
+    "p43b6",
+    "p43b7"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 28,
+   "text": "We wish to inform our readers that Spirit of Islam bimonthly is being published in digital format only. We have stopped publishing the printed copies of the magazine."
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b8",
+    "p43b9",
+    "p43b10"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 21,
+   "text": "Those who wish to read from a printed copy may do so by taking a booklet print-out of the digital magazine."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b6"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 10,
+   "text": "Spirit of Islam web version now available with AUDIO feature"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "DISCOVERING GOD"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 157,
+   "text": "The author, through his study of science, religion, psychology and the experiences of his own life, enlightens about the path to discovery of God through one’s journey of life. A discovery of this kind involves pondering on the word of God, converting one’s material experiences into spiritual insights, constant introspection, and contemplating on the numerous phenomena of the universe. This kind of spiritual and intellectual endeavor of remembering God and recognizing His majesty and glory in everything around provides nourishment to the soul. Such a person develops strong affection for His Creator, Sustainer and Benefactor, a feeling which reflects in his character and behaviour. Discovery of the noble and merciful God makes a person rise above negative thinking; his heart becomes free of hatred, anger, and vengefulness. He develops the ability to engage in positive thinking even in unpleasant situations. The personality that undergoes this spiritual process is deserving of being settled in Paradise in the Hereafter."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0",
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 22,
+   "text": "Published & owned by: Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross Langford Town, Bengaluru - 560025 | RNI No: KARENG/2012/46265"
+  }
+ ],
+ "lead_in": [
+  "'TWITTER' -> 'Twitter'",
+  "'A GENTLEMAN' -> 'A Gentleman'",
+  "'IF' -> 'If'",
+  "'EVERYONE' -> 'Everyone'",
+  "'A GREAT I' -> 'A great I'",
+  "'RAMADAN' -> 'Ramadan'",
+  "'WE' -> 'We'",
+  "'RELIGIOUS' -> 'Religious'",
+  "'THE' -> 'The'",
+  "'MY' -> 'My'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

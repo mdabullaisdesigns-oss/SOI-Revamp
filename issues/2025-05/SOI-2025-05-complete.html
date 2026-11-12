@@ -1,0 +1,1846 @@
+<!-- ===== SPIRIT OF ISLAM · ISSUE 124 · MAY–JUN 2025 · COMPLETE SECTION =====
+     E-version (15 articles, 0 with read-along audio) + Readers' Reflection Quiz + go-to-top.
+     Paste the whole file into ONE Divi "Code" module (Regular section, single column).
+     Built by pipeline/build.py from MAY-JUN-25-Magazine-file.pdf.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&#038;display=swap" rel="stylesheet">
+
+<style>
+.soi-ev {
+  --ev-primary: #204E60;
+  --ev-primary-dark: #173A48;
+  --ev-gold: #D4CC73;
+  --ev-gold-soft: rgba(212, 204, 115, 0.22);
+  --ev-crimson: #EA3551;   /* hover accent, used only on the end quote */
+  --ev-page: #EEEEE5;
+  --ev-paper: #F8F8F2;
+  --ev-line: #D7D8CA;
+  --ev-ink: #2A3A40;
+  --ev-muted: #5E6E74;
+  --ev-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Cita Pro as uploaded to Divi. If Divi named it differently, change these two lines. */
+  --ev-display: 'Cita Pro', 'CitaPro', Georgia, serif;
+  --ev-display-italic: 'Cita Pro Ita', 'Cita Pro', 'CitaPro', Georgia, serif;
+  --ev-ease: cubic-bezier(0.76, 0, 0.24, 1);
+  max-width: 880px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  -webkit-font-smoothing: antialiased;
+}
+.soi-ev, .soi-ev * { box-sizing: border-box; }
+
+/* ---------- Tab (closed) ---------- */
+.soi-ev .ev-item {
+  background: var(--ev-paper);
+  border: 1px solid var(--ev-line);
+  border-radius: 18px;
+  overflow: hidden;
+  scroll-margin-top: 110px;
+  transition: box-shadow 0.4s var(--ev-ease), border-color 0.4s var(--ev-ease);
+}
+.soi-ev .ev-item.is-open {
+  border-color: rgba(32, 78, 96, 0.35);
+  box-shadow: 0 22px 44px -22px rgba(32, 78, 96, 0.28);
+}
+.soi-ev button.ev-tab {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem 1.1rem 1.1rem;
+  cursor: pointer;
+  background: var(--ev-primary);
+  color: var(--ev-page);
+  transition: background 0.35s var(--ev-ease);
+}
+.soi-ev button.ev-tab:hover { background: var(--ev-primary-dark); }
+.soi-ev button.ev-tab:focus-visible { outline: 3px solid var(--ev-gold); outline-offset: -3px; }
+.soi-ev .ev-item.is-open button.ev-tab { background: var(--ev-primary-dark); }
+
+.soi-ev .ev-num {
+  flex-shrink: 0;
+  display: grid; place-items: center;
+  width: 2.4rem; height: 2.4rem; border-radius: 50%;
+  border: 1.5px solid rgba(212, 204, 115, 0.55);
+  color: var(--ev-gold);
+  font-family: var(--ev-sans); font-size: 0.78rem; font-weight: 700;
+  transition: all 0.35s var(--ev-ease);
+}
+.soi-ev .ev-item.is-open .ev-num { background: var(--ev-gold); border-color: var(--ev-gold); color: var(--ev-primary-dark); }
+.soi-ev .ev-tab-text { flex: 1; min-width: 0; }
+.soi-ev .ev-kicker {
+  display: block;
+  font-family: var(--ev-sans); font-size: 0.66rem; font-weight: 700;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--ev-gold);
+  margin-bottom: 0.25rem;
+}
+.soi-ev .ev-tab-title {
+  display: block;
+  font-family: var(--ev-display); font-size: clamp(1.2rem, 2.6vw, 1.5rem);
+  font-weight: 700; line-height: 1.2; letter-spacing: 0.01em;
+}
+.soi-ev .ev-chev {
+  flex-shrink: 0; width: 2.2rem; height: 2.2rem; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(238, 238, 229, 0.12);
+  transition: transform 0.45s var(--ev-ease), background 0.35s var(--ev-ease), color 0.35s var(--ev-ease);
+}
+.soi-ev .ev-chev svg { width: 1.05rem; height: 1.05rem; }
+.soi-ev .ev-item.is-open .ev-chev { transform: rotate(180deg); background: var(--ev-gold); color: var(--ev-primary-dark); }
+
+/* ---------- Panel (open) ---------- */
+.soi-ev .ev-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.55s var(--ev-ease);
+}
+.soi-ev .ev-item.is-open .ev-panel { grid-template-rows: 1fr; }
+.soi-ev .ev-panel-inner { overflow: hidden; min-height: 0; }
+.soi-ev .ev-content { padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.25rem, 5vw, 3.25rem) clamp(1.75rem, 4vw, 2.5rem); }
+
+.soi-ev .ev-meta {
+  font-family: var(--ev-sans); font-size: 0.8rem; font-weight: 500; color: var(--ev-muted);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.9rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Listen bar: appears only when data-audio has an MP3 link */
+.soi-ev .ev-listen {
+  display: none; align-items: center; gap: 0.9rem;
+  margin-bottom: 1.6rem; padding: 0.6rem 1rem 0.6rem 0.6rem;
+  background: rgba(32, 78, 96, 0.07); border: 1px solid rgba(32, 78, 96, 0.12); border-radius: 999px;
+}
+.soi-ev .ev-item.has-audio .ev-listen { display: flex; }
+.soi-ev .ev-listen-btn {
+  flex-shrink: 0; width: 2.5rem; height: 2.5rem; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--ev-primary); color: #fff; display: grid; place-items: center;
+  transition: background 0.3s var(--ev-ease), color 0.3s var(--ev-ease), transform 0.3s var(--ev-ease);
+}
+.soi-ev .ev-listen-btn:hover { background: var(--ev-gold); color: var(--ev-primary-dark); transform: scale(1.05); }
+.soi-ev .ev-listen-btn svg { width: 1rem; height: 1rem; }
+.soi-ev .ev-listen-label { font-family: var(--ev-sans); font-size: 0.82rem; font-weight: 700; color: var(--ev-primary); white-space: nowrap; }
+.soi-ev .ev-listen-track { flex: 1; height: 4px; border-radius: 4px; background: rgba(32, 78, 96, 0.15); overflow: hidden; cursor: pointer; }
+.soi-ev .ev-listen-fill { width: 0; height: 100%; background: var(--ev-primary); }
+.soi-ev .ev-listen-time { font-family: var(--ev-sans); font-size: 0.75rem; color: var(--ev-muted); font-variant-numeric: tabular-nums; }
+
+/* ---------- Reading text: Plus Jakarta Sans ---------- */
+.soi-ev .ev-body p {
+  font-family: var(--ev-sans) !important;
+  font-size: clamp(1rem, 1.8vw, 1.06rem) !important;
+  font-weight: 400 !important;
+  line-height: 1.85 !important;
+  letter-spacing: -0.005em;
+  margin: 0 0 1.2em !important;
+  padding: 0 !important;
+  color: var(--ev-ink) !important;
+}
+.soi-ev .ev-body > p.ev-first::first-letter {
+  float: left; font-family: var(--ev-display); font-weight: 700;
+  font-size: 3.9em; line-height: 0.8; margin: 0.06em 0.12em 0 0; color: var(--ev-primary);
+}
+.soi-ev .ev-ref { font-size: 0.82em; font-weight: 700; color: var(--ev-primary); white-space: nowrap; }
+
+/* Pull quote inside an article */
+.soi-ev .ev-quote {
+  margin: 2rem 0 !important; padding: 0.2rem 0 0.2rem 1.4rem !important;
+  border-left: 3px solid var(--ev-gold);
+  font-family: var(--ev-display-italic); font-style: italic; font-weight: 400;
+  font-size: clamp(1.35rem, 2.8vw, 1.65rem); line-height: 1.4; color: var(--ev-primary);
+}
+
+/* ======================================================================
+   END-OF-ARTICLE QUOTE — four styles. Choose with data-quote="1|2|3|4"
+   on the outer <div class="soi-ev">
+   ====================================================================== */
+.soi-ev .ev-thought { position: relative; margin: 2.5rem 0 0.5rem; }
+.soi-ev .ev-thought p { margin: 0 !important; }
+
+/* --- 1 · Teal card with gold quote mark --- */
+.soi-ev[data-quote="1"] .ev-thought {
+  padding: 3.2rem clamp(1.5rem, 5vw, 3rem) 2.2rem;
+  background: var(--ev-primary);
+  border-radius: 18px;
+  text-align: center;
+  overflow: hidden;
+}
+.soi-ev[data-quote="1"] .ev-thought::before {
+  content: '\201C';
+  position: absolute; top: -0.12em; left: 50%; transform: translateX(-50%);
+  font-family: var(--ev-display); font-weight: 700; font-size: 7rem; line-height: 1;
+  color: var(--ev-gold);
+}
+.soi-ev[data-quote="1"] .ev-thought::after {
+  content: ''; display: block; width: 46px; height: 2px; margin: 1.4rem auto 0;
+  background: var(--ev-gold);
+}
+.soi-ev[data-quote="1"] .ev-thought p {
+  font-family: var(--ev-display-italic) !important; font-style: italic;
+  font-size: clamp(1.4rem, 3vw, 1.85rem) !important; line-height: 1.4 !important;
+  color: var(--ev-page) !important;
+}
+
+/* --- 2 · Editorial: gold rules and ornament, no box --- */
+.soi-ev[data-quote="2"] .ev-thought {
+  padding: 2.4rem clamp(0.5rem, 4vw, 2.5rem) 2rem;
+  text-align: center;
+  border-top: 1px solid var(--ev-gold);
+  border-bottom: 1px solid var(--ev-gold);
+}
+.soi-ev[data-quote="2"] .ev-thought::before,
+.soi-ev[data-quote="2"] .ev-thought::after {
+  content: ''; position: absolute; left: 50%; width: 11px; height: 11px;
+  background: var(--ev-gold); transform: translate(-50%, -50%) rotate(45deg);
+  box-shadow: 0 0 0 6px var(--ev-paper);
+  transition: background 0.4s var(--ev-ease), transform 0.5s var(--ev-ease);
+}
+.soi-ev[data-quote="2"] .ev-thought { transition: border-color 0.4s var(--ev-ease); }
+.soi-ev[data-quote="2"] .ev-thought:hover { border-color: rgba(234, 53, 81, 0.55); }
+.soi-ev[data-quote="2"] .ev-thought:hover::before,
+.soi-ev[data-quote="2"] .ev-thought:hover::after { background: var(--ev-crimson); transform: translate(-50%, -50%) rotate(225deg); }
+.soi-ev[data-quote="2"] .ev-thought::before { top: 0; }
+.soi-ev[data-quote="2"] .ev-thought::after { top: 100%; }
+.soi-ev[data-quote="2"] .ev-thought p {
+  font-family: var(--ev-display) !important; font-weight: 400 !important;
+  font-size: clamp(1.55rem, 3.4vw, 2.1rem) !important; line-height: 1.32 !important;
+  color: var(--ev-primary) !important;
+}
+
+/* --- 3 · Soft gold panel with side bar --- */
+.soi-ev[data-quote="3"] .ev-thought {
+  display: flex; gap: 1.1rem; align-items: flex-start;
+  padding: 1.8rem clamp(1.25rem, 4vw, 2.25rem);
+  background: var(--ev-gold-soft);
+  border-left: 5px solid var(--ev-gold);
+  border-radius: 0 16px 16px 0;
+}
+.soi-ev[data-quote="3"] .ev-thought::before {
+  content: '\201C'; flex-shrink: 0;
+  font-family: var(--ev-display); font-weight: 700; font-size: 4.2rem; line-height: 0.75;
+  color: var(--ev-primary); opacity: 0.85;
+}
+.soi-ev[data-quote="3"] .ev-thought p {
+  font-family: var(--ev-display-italic) !important; font-style: italic;
+  font-size: clamp(1.3rem, 2.8vw, 1.65rem) !important; line-height: 1.42 !important;
+  color: var(--ev-primary) !important;
+}
+
+/* --- 4 · Framed page: double border, corner marks --- */
+.soi-ev[data-quote="4"] .ev-thought {
+  padding: 2.4rem clamp(1.25rem, 5vw, 3rem);
+  text-align: center;
+  background: var(--ev-page);
+  border: 1px solid var(--ev-primary);
+  outline: 1px solid var(--ev-gold);
+  outline-offset: -8px;
+  border-radius: 4px;
+}
+.soi-ev[data-quote="4"] .ev-thought::before,
+.soi-ev[data-quote="4"] .ev-thought::after {
+  content: ''; position: absolute; width: 18px; height: 18px;
+  border: 2px solid var(--ev-gold);
+}
+.soi-ev[data-quote="4"] .ev-thought::before { top: 14px; left: 14px; border-right: 0; border-bottom: 0; }
+.soi-ev[data-quote="4"] .ev-thought::after { bottom: 14px; right: 14px; border-left: 0; border-top: 0; }
+.soi-ev[data-quote="4"] .ev-thought p {
+  font-family: var(--ev-display) !important; font-weight: 700 !important;
+  font-size: clamp(1.3rem, 2.8vw, 1.6rem) !important; line-height: 1.4 !important;
+  color: var(--ev-primary) !important;
+}
+
+.soi-ev .ev-end { display: flex; justify-content: center; gap: 0.5rem; margin-top: 1.8rem; }
+.soi-ev .ev-end i { width: 6px; height: 6px; background: var(--ev-gold); transform: rotate(45deg); }
+
+
+/* ======================================================================
+   TAB ICON — six styles. Choose with data-icon="1..6" on <div class="soi-ev">
+   ====================================================================== */
+.soi-ev .ev-chev { position: relative; }
+.soi-ev .ev-chev::before, .soi-ev .ev-chev::after { content: none; }
+
+/* 1 · Chevron in a circle (default, uses the arrow inside the markup) */
+
+/* 2 · Plus that turns into a minus */
+/* 3 · Plus that turns into a cross */
+.soi-ev[data-icon="2"] .ev-chev svg, .soi-ev[data-icon="3"] .ev-chev svg { display: none; }
+.soi-ev[data-icon="2"] .ev-chev::before, .soi-ev[data-icon="2"] .ev-chev::after,
+.soi-ev[data-icon="3"] .ev-chev::before, .soi-ev[data-icon="3"] .ev-chev::after {
+  content: ''; position: absolute; top: 50%; left: 50%; width: 14px; height: 2px; border-radius: 2px;
+  background: currentColor; transform: translate(-50%, -50%);
+  transition: transform 0.45s var(--ev-ease);
+}
+.soi-ev[data-icon="2"] .ev-chev::after, .soi-ev[data-icon="3"] .ev-chev::after { transform: translate(-50%, -50%) rotate(90deg); }
+.soi-ev[data-icon="2"] .ev-item.is-open .ev-chev { transform: none; }
+.soi-ev[data-icon="2"] .ev-item.is-open .ev-chev::after { transform: translate(-50%, -50%) rotate(0deg); }
+.soi-ev[data-icon="3"] .ev-item.is-open .ev-chev { transform: rotate(135deg); }
+
+/* 4 · Gold diamond that fills when open */
+.soi-ev[data-icon="4"] .ev-chev { background: transparent !important; border-radius: 0; }
+.soi-ev[data-icon="4"] .ev-chev svg { position: relative; z-index: 1; width: 0.85rem; height: 0.85rem; color: var(--ev-gold); transition: color 0.35s var(--ev-ease); }
+.soi-ev[data-icon="4"] .ev-chev::before {
+  content: ''; position: absolute; inset: 6px; border: 1.5px solid var(--ev-gold); transform: rotate(45deg);
+  transition: background 0.4s var(--ev-ease);
+}
+/* Smooth hover: scale the whole icon (GPU-friendly) instead of resizing the border */
+.soi-ev[data-icon="4"] .ev-chev {
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+.soi-ev[data-icon="4"] button.ev-tab:hover .ev-chev { transform: scale(1.14); }
+.soi-ev[data-icon="4"] .ev-item.is-open .ev-chev::before { background: var(--ev-gold); }
+.soi-ev[data-icon="4"] .ev-item.is-open .ev-chev svg { color: var(--ev-primary-dark); }
+
+/* 5 · "Read" / "Close" pill */
+.soi-ev[data-icon="5"] .ev-chev {
+  width: auto; height: auto; padding: 0.45rem 0.8rem 0.45rem 0.95rem; gap: 0.35rem;
+  display: inline-flex; align-items: center; border-radius: 999px;
+  border: 1px solid rgba(212, 204, 115, 0.55); background: transparent;
+  color: var(--ev-gold);
+}
+.soi-ev[data-icon="5"] .ev-chev::before {
+  content: 'Read'; font-family: var(--ev-sans); font-size: 0.68rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+}
+.soi-ev[data-icon="5"] .ev-chev svg { width: 0.9rem; height: 0.9rem; transition: transform 0.45s var(--ev-ease); }
+.soi-ev[data-icon="5"] button.ev-tab:hover .ev-chev { background: rgba(212, 204, 115, 0.14); }
+.soi-ev[data-icon="5"] .ev-item.is-open .ev-chev { transform: none; background: var(--ev-gold); color: var(--ev-primary-dark); }
+.soi-ev[data-icon="5"] .ev-item.is-open .ev-chev::before { content: 'Close'; }
+.soi-ev[data-icon="5"] .ev-item.is-open .ev-chev svg { transform: rotate(180deg); }
+
+/* 6 · Minimal long arrow, no circle */
+.soi-ev[data-icon="6"] .ev-chev { background: transparent !important; color: var(--ev-gold); }
+.soi-ev[data-icon="6"] .ev-chev svg { display: none; }
+.soi-ev[data-icon="6"] .ev-chev::before {
+  content: ''; position: absolute; left: 50%; top: 6px; bottom: 8px; width: 1.5px;
+  background: currentColor; transform: translateX(-50%);
+}
+.soi-ev[data-icon="6"] .ev-chev::after {
+  content: ''; position: absolute; left: 50%; bottom: 8px; width: 8px; height: 8px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: translateX(-50%) rotate(45deg); transform-origin: center;
+}
+.soi-ev[data-icon="6"] button.ev-tab:hover .ev-chev { transform: translateY(3px); }
+.soi-ev[data-icon="6"] .ev-item.is-open .ev-chev { transform: rotate(180deg); color: var(--ev-gold); }
+
+/* ======================================================================
+   DIAMOND ANIMATION (tab icon 4) — choose with data-anim="1..5"
+   ====================================================================== */
+.soi-ev[data-icon="4"] .ev-item.is-open .ev-chev { transform: none; }
+.soi-ev[data-icon="4"] .ev-item.is-open button.ev-tab:hover .ev-chev { transform: scale(1.14); }
+.soi-ev[data-icon="4"] .ev-chev svg { transition: transform 0.5s var(--ev-ease), color 0.35s var(--ev-ease); }
+.soi-ev[data-icon="4"] .ev-item.is-open .ev-chev svg { transform: rotate(180deg); }
+.soi-ev[data-icon="4"] .ev-chev::after { content: none; }
+
+/* 1 · Fill — the diamond fills with gold */
+.soi-ev[data-icon="4"][data-anim="1"] .ev-chev::before { transition: background 0.4s var(--ev-ease), inset 0.35s var(--ev-ease); }
+
+/* 2 · Spin — the diamond turns half a circle as it fills */
+.soi-ev[data-icon="4"][data-anim="2"] .ev-chev::before { transition: transform 0.7s var(--ev-ease), background 0.5s var(--ev-ease), inset 0.35s var(--ev-ease); }
+.soi-ev[data-icon="4"][data-anim="2"] .ev-item.is-open .ev-chev::before { transform: rotate(225deg); }
+
+/* 3 · Grow — the diamond expands as it fills */
+.soi-ev[data-icon="4"][data-anim="3"] .ev-chev::before { transition: inset 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.4s var(--ev-ease); }
+.soi-ev[data-icon="4"][data-anim="3"] .ev-item.is-open .ev-chev::before { inset: 2px; }
+.soi-ev[data-icon="4"][data-anim="3"] .ev-item.is-open button.ev-tab:hover .ev-chev::before { inset: 3px; }
+
+/* 4 · Ripple — a gold ring ripples outward when opened */
+.soi-ev[data-icon="4"][data-anim="4"] .ev-chev::after {
+  content: ''; position: absolute; inset: 6px; border: 1.5px solid var(--ev-gold);
+  transform: rotate(45deg); opacity: 0; pointer-events: none;
+}
+.soi-ev[data-icon="4"][data-anim="4"] .ev-item.is-open .ev-chev::after { animation: soiEvRipple 0.9s var(--ev-ease) 1; }
+@keyframes soiEvRipple {
+  0%   { transform: rotate(45deg) scale(1);   opacity: 0.9; }
+  100% { transform: rotate(45deg) scale(2.1); opacity: 0; }
+}
+
+/* 5 · Flip — the diamond flips over like a coin, revealing the gold side */
+.soi-ev[data-icon="4"][data-anim="5"] .ev-chev::before {
+  transform: perspective(60px) rotateY(0deg) rotate(45deg);
+  transition: transform 0.7s var(--ev-ease), background 0s linear 0.35s, inset 0.35s var(--ev-ease);
+}
+.soi-ev[data-icon="4"][data-anim="5"] .ev-item.is-open .ev-chev::before { transform: perspective(60px) rotateY(180deg) rotate(45deg); }
+.soi-ev[data-icon="4"][data-anim="5"] .ev-chev svg { transition: transform 0s linear 0.35s, color 0s linear 0.35s; }
+
+
+/* ======================================================================
+   EXTRA BLOCKS: notes, questions, scripture, newsletter, lists
+   ====================================================================== */
+.soi-ev .ev-thought cite {
+  display: block; margin-top: 1rem;
+  font-family: var(--ev-sans); font-style: normal; font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--ev-muted);
+}
+
+/* Note card: author bio, In Focus, section intros */
+.soi-ev .ev-note {
+  margin: 0 0 1.8rem; padding: 1.3rem 1.4rem 1.2rem;
+  background: var(--ev-gold-soft); border-radius: 14px;
+}
+.soi-ev .ev-body > .ev-note:last-child, .soi-ev .ev-body p + .ev-note { margin-top: 2rem; }
+.soi-ev .ev-note-label {
+  display: block; margin-bottom: 0.6rem;
+  font-family: var(--ev-sans); font-size: 0.66rem; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--ev-primary);
+}
+.soi-ev .ev-body .ev-note p {
+  font-size: 0.93rem !important; line-height: 1.75 !important; margin: 0 0 0.75em !important;
+  color: var(--ev-ink) !important;
+}
+.soi-ev .ev-body .ev-note p:last-child { margin-bottom: 0 !important; }
+.soi-ev .ev-note a { color: var(--ev-primary); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.soi-ev .ev-body .ev-note .ev-note-quote {
+  margin-top: 1rem !important; padding-top: 1rem !important; border-top: 1px solid rgba(32, 78, 96, 0.15);
+  font-family: var(--ev-display-italic) !important; font-style: italic;
+  font-size: clamp(1.1rem, 2.2vw, 1.3rem) !important; line-height: 1.45 !important; color: var(--ev-primary) !important;
+}
+.soi-ev .ev-note-quote span {
+  display: block; margin-top: 0.5rem;
+  font-family: var(--ev-sans); font-style: normal; font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ev-muted);
+}
+
+/* Lead paragraph (Q&A intro, ChatGPT intro) */
+.soi-ev .ev-body p.ev-lead {
+  font-size: clamp(1.05rem, 2vw, 1.15rem) !important; font-weight: 500 !important;
+  color: var(--ev-primary) !important; margin-bottom: 1.6em !important;
+}
+
+/* Sub-headings and Q&A questions */
+.soi-ev h3.ev-h, .soi-ev h3.ev-qh {
+  font-family: var(--ev-display) !important; font-weight: 700 !important;
+  font-size: clamp(1.2rem, 2.5vw, 1.4rem) !important; line-height: 1.3 !important;
+  color: var(--ev-primary) !important; margin: 2rem 0 0.7rem !important; padding: 0 !important;
+}
+.soi-ev h3.ev-qh { display: flex; gap: 0.7rem; align-items: baseline; }
+.soi-ev h3.ev-qh::before {
+  content: ''; flex-shrink: 0; width: 8px; height: 8px; background: var(--ev-gold);
+  transform: rotate(45deg) translateY(-2px);
+}
+
+/* Numbered list */
+.soi-ev .ev-list { margin: 0 0 1.4rem !important; padding: 0 0 0 1.4rem !important; }
+.soi-ev .ev-list li {
+  font-family: var(--ev-sans); font-size: clamp(1rem, 1.8vw, 1.06rem); line-height: 1.75;
+  color: var(--ev-ink); margin-bottom: 0.6rem; padding-left: 0.3rem;
+}
+.soi-ev .ev-list li::marker { color: var(--ev-primary); font-weight: 800; }
+.soi-ev .ev-list strong { color: var(--ev-primary); }
+
+/* Scripture */
+.soi-ev .ev-bismillah {
+  text-align: center; font-family: var(--ev-display-italic) !important; font-style: italic;
+  font-size: 1.15rem !important; color: var(--ev-primary) !important; margin: 0.5rem 0 1.2rem !important;
+}
+.soi-ev .ev-ayah {
+  margin: 0 0 1.6rem !important; padding: 1.3rem 1.5rem !important;
+  border-left: 3px solid var(--ev-gold); background: rgba(32, 78, 96, 0.05); border-radius: 0;
+  font-family: var(--ev-display) !important; font-size: clamp(1.15rem, 2.3vw, 1.3rem); line-height: 1.6;
+  color: var(--ev-primary);
+}
+.soi-ev .ev-byline {
+  text-align: right; font-family: var(--ev-display-italic) !important; font-style: italic;
+  font-size: 1.1rem !important; color: var(--ev-primary) !important;
+}
+
+/* Newsletter */
+.soi-ev .ev-news { padding: 0 0 1.6rem; margin-bottom: 1.6rem; border-bottom: 1px solid var(--ev-line); }
+.soi-ev .ev-news:last-of-type { border-bottom: 0; margin-bottom: 0; }
+.soi-ev .ev-news h3.ev-h { margin-top: 0.4rem !important; }
+.soi-ev .ev-body p.ev-news-meta { font-size: 0.8rem !important; font-weight: 600 !important; color: var(--ev-muted) !important; margin-bottom: 0.7rem !important; }
+.soi-ev a.ev-link {
+  display: inline-flex !important; align-items: center; gap: 0.45rem;
+  margin: 0.2rem 0.4rem 0.2rem 0; padding: 0.55rem 1rem !important;
+  font-family: var(--ev-sans); font-size: 0.78rem !important; font-weight: 700 !important;
+  letter-spacing: 0.04em; color: var(--ev-primary) !important; text-decoration: none !important;
+  border: 1.5px solid var(--ev-primary); border-radius: 999px;
+  transition: background 0.3s var(--ev-ease), color 0.3s var(--ev-ease);
+}
+.soi-ev a.ev-link:hover { background: var(--ev-primary); color: var(--ev-page) !important; }
+.soi-ev a.ev-link svg { width: 0.85rem; height: 0.85rem; }
+.soi-ev .ev-books {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.9rem;
+  margin: 0 0 2rem;
+}
+.soi-ev .ev-book { padding: 1.1rem 1.1rem 0.9rem; background: var(--ev-page); border: 1px solid var(--ev-line); border-radius: 14px; }
+.soi-ev .ev-book h4 {
+  font-family: var(--ev-display) !important; font-weight: 700 !important; font-size: 1.1rem !important;
+  line-height: 1.3 !important; color: var(--ev-primary) !important; margin: 0 0 0.7rem !important; padding: 0 !important;
+}
+.soi-ev .ev-book h4 span { font-family: var(--ev-sans); font-weight: 500; font-size: 0.85rem; color: var(--ev-muted); }
+.soi-ev .ev-book-links a.ev-link { font-size: 0.72rem !important; padding: 0.45rem 0.8rem !important; }
+
+/* In Focus: Maulana's photo beside his quote */
+.soi-ev .ev-note-person { display: flex; gap: 1rem; align-items: center; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(32, 78, 96, 0.15); }
+.soi-ev .ev-note-person img {
+  flex-shrink: 0; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: center 20%;
+  box-shadow: 0 0 0 2px var(--ev-paper), 0 0 0 4px var(--ev-gold);
+}
+.soi-ev .ev-body .ev-note .ev-note-person .ev-note-quote { margin: 0 !important; padding: 0 !important; border: 0 !important; }
+@media (max-width: 480px) { .soi-ev .ev-note-person { flex-direction: column; align-items: flex-start; } }
+
+/* ======================================================================
+   PAGE BACKGROUND + CARD DEPTH
+   The #EEEEE5 page colour is painted edge to edge behind this block,
+   so it matches the site even inside a white Divi section.
+   ====================================================================== */
+.soi-ev {
+  background: var(--ev-page);
+  box-shadow: 0 0 0 100vmax var(--ev-page);
+  clip-path: inset(0 -100vmax);
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 0;
+}
+.soi-ev .ev-item {
+  box-shadow: 0 14px 28px -18px rgba(18, 50, 62, 0.55), 0 3px 8px -4px rgba(18, 50, 62, 0.18);
+  transition: box-shadow 0.4s var(--ev-ease), border-color 0.4s var(--ev-ease), transform 0.4s var(--ev-ease);
+}
+.soi-ev .ev-item:not(.is-open):hover { transform: translateY(-2px); box-shadow: 0 20px 34px -18px rgba(18, 50, 62, 0.6), 0 4px 10px -4px rgba(18, 50, 62, 0.2); }
+.soi-ev .ev-item.is-open {
+  box-shadow: 0 0 0 4px var(--ev-page), 0 0 0 5px rgba(212, 204, 115, 0.6), 0 30px 54px -26px rgba(18, 50, 62, 0.5);
+}
+
+/* ======================================================================
+   SECTION INTRO: the recurring "remedy for ignorance" passage (gold note)
+   ====================================================================== */
+.soi-ev .ev-intro {
+  margin: 0 0 2.2rem; padding: 1.4rem 1.5rem 1.3rem 1.6rem;
+  background: var(--ev-gold-soft); border-left: 3px solid var(--ev-gold); border-radius: 0 14px 14px 0;
+}
+.soi-ev .ev-intro-tag {
+  display: inline-flex; align-items: center; gap: 0.45rem; margin-bottom: 0.7rem;
+  font-family: var(--ev-sans); font-size: 0.64rem; font-weight: 800; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--ev-primary);
+}
+.soi-ev .ev-intro-tag svg { width: 9px; height: 9px; fill: var(--ev-primary); }
+.soi-ev .ev-body .ev-intro p.ev-intro-saying {
+  margin: 0 0 0.3rem !important; font-family: var(--ev-display-italic) !important; font-style: italic;
+  font-size: clamp(1.3rem, 2.8vw, 1.55rem) !important; line-height: 1.3 !important; color: var(--ev-primary) !important;
+}
+.soi-ev .ev-body .ev-intro p.ev-intro-who {
+  margin: 0 0 0.9rem !important; font-family: var(--ev-sans); font-size: 0.78rem !important;
+  font-weight: 700 !important; color: var(--ev-muted) !important;
+}
+.soi-ev .ev-body .ev-intro p.ev-intro-text {
+  margin: 0 !important; font-size: 0.93rem !important; line-height: 1.75 !important; color: var(--ev-ink) !important;
+}
+@media (max-width: 480px) { .soi-ev .ev-intro { padding: 1.2rem 1.1rem 1.1rem 1.2rem; } }
+
+/* ======================================================================
+   READ-ALONG AUDIO PLAYER
+   In the article: a light card. While audio plays and the reader scrolls
+   away from it, it docks as a dark capsule at the bottom of the screen.
+   ====================================================================== */
+.soi-ev .ev-item { overflow: hidden; overflow: clip; }
+.soi-ev .ev-item.is-settled .ev-panel-inner { overflow: visible; }
+
+.soi-ev .ev-pl-spot { margin: 0 0 1.8rem; }
+.soi-ev .ev-player {
+  --p: 0%; position: relative; font-family: var(--ev-sans);
+  padding: 0.75rem 0.9rem; border-radius: 16px;
+  background: rgba(32, 78, 96, 0.06); border: 1px dashed rgba(32, 78, 96, 0.3);
+}
+.soi-ev .ev-player audio { display: none; }
+.soi-ev .ev-player button { all: unset; box-sizing: border-box; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.soi-ev .ev-player button:focus-visible, .soi-ev .ev-pl-seek:focus-visible { outline: 3px solid var(--ev-gold); outline-offset: 2px; }
+.soi-ev .ev-pl-row { display: flex; align-items: center; gap: 0.75rem; min-width: 0; }
+.soi-ev .ev-pl-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.1rem; }
+.soi-ev .ev-pl-label { font-size: 0.66rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ev-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.soi-ev .ev-pl-time { font-size: 0.8rem; font-weight: 600; color: var(--ev-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.soi-ev .ev-pl-tools { display: flex; align-items: flex-start; gap: 0.25rem; flex-shrink: 0; }
+
+/* play button */
+.soi-ev button.ev-pl-play {
+  position: relative; flex-shrink: 0; width: 48px; height: 48px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--ev-primary); color: #fff;
+  box-shadow: 0 8px 18px -8px rgba(18, 50, 62, 0.7); transition: transform 0.3s var(--ev-ease);
+}
+.soi-ev button.ev-pl-play:hover { transform: scale(1.06); }
+.soi-ev button.ev-pl-play svg { width: 20px; height: 20px; position: relative; z-index: 1; }
+.soi-ev .ev-pl-play .i-pause, .soi-ev .is-playing .ev-pl-play .i-play { display: none; }
+.soi-ev .is-playing .ev-pl-play .i-pause { display: block; }
+.soi-ev .ev-pl-play.is-loading::after {
+  content: ''; position: absolute; inset: -4px; border-radius: 50%;
+  border: 2px solid transparent; border-top-color: var(--ev-gold); animation: soiEvSpin 0.9s linear infinite;
+}
+@keyframes soiEvSpin { to { transform: rotate(360deg); } }
+
+/* tool buttons with a caption under each icon */
+.soi-ev button.ev-pl-btn {
+  position: relative; min-width: 46px; padding: 0.3rem 0.3rem 0.25rem; border-radius: 10px;
+  display: inline-flex; flex-direction: column; align-items: center; gap: 0.15rem;
+  color: var(--ev-primary); transition: background 0.25s var(--ev-ease);
+}
+.soi-ev button.ev-pl-btn:hover { background: rgba(32, 78, 96, 0.08); }
+.soi-ev .ev-pl-ico { position: relative; height: 22px; display: grid; place-items: center; }
+.soi-ev .ev-pl-ico svg { width: 20px; height: 20px; }
+.soi-ev .ev-pl-ico small { position: absolute; font-size: 0.5rem; font-weight: 800; top: 50%; left: 50%; transform: translate(-50%, -36%); }
+.soi-ev .ev-pl-cap { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.02em; white-space: nowrap; opacity: 0.85; }
+.soi-ev .ev-pl-speedval {
+  height: 22px; min-width: 38px; padding: 0 0.4rem; display: grid; place-items: center; border-radius: 7px;
+  border: 1.5px solid rgba(32, 78, 96, 0.3); font-size: 0.74rem; font-weight: 800; font-variant-numeric: tabular-nums;
+}
+.soi-ev button.ev-pl-close { display: none; }
+
+/* seek bar (shown once listening has started) */
+.soi-ev .ev-pl-seek { display: none; position: relative; height: 18px; margin-top: 0.55rem; cursor: pointer; touch-action: none; }
+.soi-ev .is-started .ev-pl-seek { display: block; }
+.soi-ev .ev-pl-track { position: absolute; left: 0; right: 0; top: 7px; height: 4px; border-radius: 4px; background: rgba(32, 78, 96, 0.14); overflow: hidden; }
+.soi-ev .ev-pl-fill { position: absolute; inset: 0 auto 0 0; width: var(--p); background: linear-gradient(90deg, var(--ev-primary), var(--ev-gold)); }
+.soi-ev .ev-pl-knob {
+  position: absolute; top: 3px; left: var(--p); width: 12px; height: 12px; margin-left: -6px;
+  background: var(--ev-gold); transform: rotate(45deg); border-radius: 2px; box-shadow: 0 0 0 3px var(--ev-paper); transition: transform 0.2s var(--ev-ease);
+}
+.soi-ev .ev-pl-seek:hover .ev-pl-knob { transform: rotate(45deg) scale(1.25); }
+
+.soi-ev .ev-pl-error { margin-top: 0.6rem; padding: 0.55rem 0.8rem; border-radius: 10px; background: rgba(234, 53, 81, 0.08); color: #A3263B; font-size: 0.8rem; font-weight: 600; line-height: 1.5; }
+.soi-ev .ev-pl-error code { font-size: 0.72rem; word-break: break-all; }
+
+/* ---------- speed and settings menu ---------- */
+.soi-ev .ev-pl-menuwrap { position: relative; }
+.soi-ev .ev-pl-menu {
+  position: absolute; z-index: 20; right: 0; top: calc(100% + 8px); width: min(300px, calc(100vw - 20px));
+  padding: 0.5rem; border-radius: 16px; background: #fff; color: var(--ev-ink);
+  border: 1px solid var(--ev-line); box-shadow: 0 22px 44px -18px rgba(18, 50, 62, 0.45);
+  transform-origin: top center; animation: soiEvMenu 0.22s var(--ev-ease);
+}
+.soi-ev .ev-pl-menu[hidden] { display: none; }
+.soi-ev .is-docked .ev-pl-menu { top: auto; bottom: calc(100% + 10px); transform-origin: bottom right; }
+@keyframes soiEvMenu { from { opacity: 0; transform: scale(0.96) translateY(-4px); } to { opacity: 1; transform: none; } }
+.soi-ev .ev-pl-mh { display: block; padding: 0.45rem 0.6rem 0.35rem; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ev-muted); }
+.soi-ev .ev-pl-speeds { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.35rem; padding: 0 0.3rem 0.4rem; }
+.soi-ev .ev-player button.ev-pl-sp {
+  display: flex; flex-direction: column; align-items: center; gap: 0.05rem; padding: 0.5rem 0.2rem; border-radius: 10px;
+  border: 1.5px solid var(--ev-line); color: var(--ev-primary); transition: all 0.2s var(--ev-ease);
+}
+.soi-ev .ev-player button.ev-pl-sp b { font-size: 0.9rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.soi-ev .ev-player button.ev-pl-sp span { font-size: 0.6rem; font-weight: 600; color: var(--ev-muted); }
+.soi-ev .ev-player button.ev-pl-sp:hover { border-color: var(--ev-primary); }
+.soi-ev .ev-player button.ev-pl-sp[aria-checked="true"] { background: var(--ev-primary); border-color: var(--ev-primary); color: #fff; }
+.soi-ev .ev-player button.ev-pl-sp[aria-checked="true"] span { color: rgba(238, 238, 229, 0.8); }
+.soi-ev .ev-pl-sep { height: 1px; background: var(--ev-line); margin: 0.3rem 0.4rem; }
+.soi-ev .ev-player button.ev-pl-opt { display: flex; align-items: center; gap: 0.7rem; width: 100%; padding: 0.6rem; border-radius: 10px; }
+.soi-ev .ev-player button.ev-pl-opt:hover { background: rgba(32, 78, 96, 0.06); }
+.soi-ev .ev-pl-opt-ico { flex-shrink: 0; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: rgba(32, 78, 96, 0.08); color: var(--ev-primary); }
+.soi-ev .ev-pl-opt-ico svg { width: 18px; height: 18px; }
+.soi-ev .ev-pl-opt-text { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.soi-ev .ev-pl-opt-text b { font-size: 0.85rem; font-weight: 700; color: var(--ev-ink); }
+.soi-ev .ev-pl-opt-text span { font-size: 0.72rem; line-height: 1.4; color: var(--ev-muted); white-space: normal; }
+.soi-ev .ev-pl-switch { flex-shrink: 0; position: relative; width: 36px; height: 20px; border-radius: 20px; background: rgba(32, 78, 96, 0.2); transition: background 0.25s; }
+.soi-ev .ev-pl-switch::after { content: ''; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.25); transition: transform 0.25s var(--ev-ease); }
+.soi-ev [aria-checked="true"] > .ev-pl-switch { background: var(--ev-primary); }
+.soi-ev [aria-checked="true"] > .ev-pl-switch::after { transform: translateX(16px); }
+
+/* ---------- up next ---------- */
+.soi-ev .ev-pl-next { display: flex; align-items: center; gap: 0.7rem; margin-top: 0.6rem; padding: 0.6rem 0.7rem; border-radius: 12px; background: rgba(212, 204, 115, 0.22); }
+.soi-ev .ev-pl-next[hidden] { display: none; }
+.soi-ev .ev-pl-count { position: relative; flex-shrink: 0; width: 34px; height: 34px; }
+.soi-ev .ev-pl-count svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.soi-ev .ev-pl-count circle { fill: none; stroke-width: 3; }
+.soi-ev .ev-pl-count .c-bg { stroke: rgba(32, 78, 96, 0.15); }
+.soi-ev .ev-pl-count .c-fg { stroke: var(--ev-primary); stroke-linecap: round; stroke-dasharray: 94.2; transition: stroke-dashoffset 1s linear; }
+.soi-ev .ev-pl-count b { position: absolute; inset: 0; display: grid; place-items: center; font-size: 0.8rem; font-weight: 800; color: var(--ev-primary); }
+.soi-ev .ev-pl-next-text { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.soi-ev .ev-pl-next-text span { font-size: 0.62rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ev-muted); }
+.soi-ev .ev-pl-next-text b { font-family: var(--ev-display); font-size: 1rem; color: var(--ev-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.soi-ev .ev-player button.ev-pl-nbtn { padding: 0.45rem 0.75rem; border-radius: 999px; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.04em; white-space: nowrap; }
+.soi-ev .ev-player button.ev-pl-go { background: var(--ev-primary); color: #fff; }
+.soi-ev .ev-player button.ev-pl-cancel { color: var(--ev-primary); }
+
+/* ---------- docked capsule (only while playing and scrolled away) ---------- */
+.soi-ev .ev-player.is-docked {
+  position: fixed; z-index: 99990; left: 50%; transform: translateX(-50%);
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  width: min(720px, calc(100% - 24px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
+  padding: 0.7rem 0.9rem 0.65rem; border: 0; border-radius: 20px; color: var(--ev-page);
+  background: #173A48; box-shadow: 0 24px 50px -16px rgba(0, 0, 0, 0.55), inset 0 0 0 1px rgba(212, 204, 115, 0.4);
+  animation: soiEvDockIn 0.45s var(--ev-ease);
+}
+.soi-ev .ev-player.is-docked.is-leaving { animation: soiEvDockOut 0.35s var(--ev-ease) forwards; }
+@keyframes soiEvDockIn { from { opacity: 0; transform: translate(-50%, 28px); } to { opacity: 1; transform: translate(-50%, 0); } }
+@keyframes soiEvDockOut { to { opacity: 0; transform: translate(-50%, 28px); } }
+.soi-ev .is-docked .ev-pl-label { color: var(--ev-gold); }
+.soi-ev .is-docked .ev-pl-time { color: rgba(238, 238, 229, 0.85); }
+.soi-ev .is-docked button.ev-pl-play { background: var(--ev-gold); color: #12323E; }
+.soi-ev .is-docked button.ev-pl-btn { color: var(--ev-page); }
+.soi-ev .is-docked button.ev-pl-btn:hover { background: rgba(238, 238, 229, 0.1); }
+.soi-ev .is-docked .ev-pl-speedval { border-color: rgba(212, 204, 115, 0.6); color: var(--ev-gold); }
+.soi-ev .is-docked button.ev-pl-close { display: inline-flex; }
+.soi-ev .is-docked .ev-pl-track { background: rgba(238, 238, 229, 0.18); }
+.soi-ev .is-docked .ev-pl-fill { background: var(--ev-gold); }
+.soi-ev .is-docked .ev-pl-knob { box-shadow: 0 0 0 3px #173A48; }
+.soi-ev .is-docked .ev-pl-next { background: rgba(212, 204, 115, 0.16); }
+.soi-ev .is-docked .ev-pl-next-text span { color: rgba(238, 238, 229, 0.7); }
+.soi-ev .is-docked .ev-pl-next-text b { color: #fff; }
+.soi-ev .is-docked .ev-pl-count .c-bg { stroke: rgba(238, 238, 229, 0.2); }
+.soi-ev .is-docked .ev-pl-count .c-fg { stroke: var(--ev-gold); }
+.soi-ev .is-docked .ev-pl-count b { color: var(--ev-gold); }
+.soi-ev .is-docked button.ev-pl-go { background: var(--ev-gold); color: #12323E; }
+.soi-ev .is-docked button.ev-pl-cancel { color: var(--ev-page); }
+
+/* read-along highlight */
+.soi-ev .ev-s { border-radius: 5px; transition: background-color 0.45s var(--ev-ease), box-shadow 0.45s var(--ev-ease); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.soi-ev .ev-item.has-player .ev-body .ev-s { cursor: pointer; }
+.soi-ev .ev-item.has-player .ev-body .ev-s:hover { background: rgba(212, 204, 115, 0.18); }
+.soi-ev .ev-s.is-reading { background: rgba(212, 204, 115, 0.5) !important; box-shadow: 0 0 0 2px rgba(212, 204, 115, 0.5); color: #12323E; }
+.soi-ev .ev-tab .ev-s.is-reading { background: rgba(212, 204, 115, 0.3) !important; color: #fff; }
+
+/* drop cap that starts with a quotation mark: the mark stays small, the letter is enlarged */
+.soi-ev .ev-body > p.ev-first-q::first-letter { all: unset; }
+.soi-ev .ev-dc { float: left; display: flex; align-items: flex-start; margin: 0.06em 0.12em 0 0; color: var(--ev-primary); }
+.soi-ev .ev-dc-q { font-family: var(--ev-display); font-size: 1.6em; line-height: 1; margin-right: 0.04em; margin-top: 0.05em; }
+.soi-ev .ev-dc-l { font-family: var(--ev-display); font-weight: 700; font-size: 3.9em; line-height: 0.8; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 640px) {
+  .soi-ev .ev-pl-row { gap: 0.55rem; }
+  .soi-ev .ev-pl-tools { gap: 0.05rem; }
+  .soi-ev button.ev-pl-btn { min-width: 40px; padding: 0.3rem 0.15rem 0.2rem; }
+  .soi-ev .ev-player.is-docked { padding: 0.65rem 0.7rem 0.6rem; }
+}
+@media (max-width: 420px) {
+  .soi-ev .ev-pl-label { display: none; }
+  .soi-ev button.ev-pl-play { width: 42px; height: 42px; }
+  .soi-ev button.ev-pl-btn { min-width: 36px; }
+  .soi-ev .ev-pl-cap { font-size: 0.56rem; }
+  .soi-ev .ev-pl-speedval { min-width: 34px; padding: 0 0.25rem; }
+  .soi-ev .ev-pl-next { flex-wrap: wrap; }
+  .soi-ev .ev-pl-next-text { flex-basis: calc(100% - 50px); }
+  .soi-ev .ev-pl-next .ev-pl-nbtn { flex: 1; text-align: center; }
+}
+@media (max-width: 340px) {
+  .soi-ev .ev-pl-cap { display: none; }
+  .soi-ev .ev-pl-time { font-size: 0.74rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .soi-ev .ev-player, .soi-ev .ev-player * { animation: none !important; transition: none !important; }
+}
+.soi-ev .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* download link styled like the other tool buttons */
+.soi-ev a.ev-pl-btn {
+  position: relative; min-width: 46px; padding: 0.3rem 0.3rem 0.25rem; border-radius: 10px;
+  display: inline-flex; flex-direction: column; align-items: center; gap: 0.15rem;
+  color: var(--ev-primary) !important; text-decoration: none !important; transition: background 0.25s var(--ev-ease);
+}
+.soi-ev a.ev-pl-btn:hover { background: rgba(32, 78, 96, 0.08); }
+.soi-ev a.ev-pl-btn:hover .ev-pl-ico svg { animation: soiEvDl 0.6s var(--ev-ease); }
+@keyframes soiEvDl { 40% { transform: translateY(3px); } }
+.soi-ev .is-docked a.ev-pl-dl { display: none; }      /* the docked capsule shows Close instead */
+@media (max-width: 640px) { .soi-ev a.ev-pl-btn { min-width: 40px; padding: 0.3rem 0.15rem 0.2rem; } }
+@media (max-width: 420px) { .soi-ev a.ev-pl-btn { min-width: 36px; } }
+.soi-ev a.ev-pl-mdl { text-decoration: none !important; display: none; }
+@media (max-width: 480px) {
+  .soi-ev a.ev-pl-dl { display: none; }
+  .soi-ev a.ev-pl-mdl { display: flex; }
+}
+.soi-ev .ev-player a.ev-pl-mdl { align-items: center; gap: 0.7rem; width: 100%; padding: 0.6rem; border-radius: 10px; color: var(--ev-ink) !important; }
+.soi-ev .ev-player a.ev-pl-mdl:hover { background: rgba(32, 78, 96, 0.06); }
+/* keep the open panel inside the card on narrow phones */
+.soi-ev .ev-panel { grid-template-columns: minmax(0, 1fr); }
+.soi-ev .ev-panel-inner { min-width: 0; }
+@media (max-width: 360px) {
+  .soi-ev .ev-pl-row { gap: 0.4rem; }
+  .soi-ev button.ev-pl-play { width: 40px; height: 40px; }
+  .soi-ev button.ev-pl-btn, .soi-ev a.ev-pl-btn { min-width: 30px; padding: 0.3rem 0.05rem 0.2rem; }
+  .soi-ev .ev-pl-speedval { min-width: 30px; }
+  .soi-ev .ev-pl-time { font-size: 0.7rem; white-space: normal; line-height: 1.25; }
+}
+
+@media (max-width: 640px) {
+  .soi-ev { gap: 0.7rem; }
+  .soi-ev .ev-item { border-radius: 14px; }
+  .soi-ev button.ev-tab { gap: 0.8rem; padding: 0.95rem 1rem 0.95rem 0.9rem; }
+  .soi-ev .ev-num { width: 2.1rem; height: 2.1rem; font-size: 0.72rem; }
+  .soi-ev .ev-chev { width: 1.9rem; height: 1.9rem; }
+  .soi-ev .ev-listen-label { display: none; }
+  .soi-ev[data-quote="1"] .ev-thought::before { font-size: 5.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .soi-ev * { transition: none !important; }
+}
+</style>
+
+<!-- data-quote: end-quote style · data-icon: tab icon · data-anim: diamond animation -->
+<div class="soi-ev" data-quote="2" data-icon="4" data-anim="4" role="list">
+  <!-- ===================== 01 · Awe-Inspiring Universe ===================== -->
+  <section class="ev-item" id="soi-awe-inspiring-universe" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">01</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">From the Editor-In-Chief’s Desk</span>
+        <span class="ev-tab-title"><span class="ev-s">Awe-Inspiring Universe</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>Prof Farida Khanam</span><span>·</span><span>2 min read</span></div>
+      
+      <div class="ev-body">
+        <p><a class="ev-link" href="mailto:spiritofislamperiodical@gmail.com" target="_blank" rel="noopener noreferrer">Email<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></p>
+        <p class="ev-first"><span class="ev-s">When the night sky is clear, the sight of twinkling stars brings peace to the human heart.</span> <span class="ev-s">However, those who study the universe know that many of these seemingly tiny stars are in fact enormous celestial bodies, much larger and brighter than the sun.</span> <span class="ev-s">In reality, the stars visible to us are not even the largest or the brightest ones.</span></p>
+        <p><span class="ev-s">According to astronomical research, the universe contains a type of star called a Quasar, which is a thousand times brighter than the sun.</span> <span class="ev-s">These quasars are so distant that their light takes millions of years to reach us, yet their brightness remains visible even from such great distances.</span> <span class="ev-s">If one such quasar were placed in our solar system, its intensity would be so immense that the entire sky would be overwhelmed by its light, rendering the night indistinguishable from day.</span></p>
+        <p><span class="ev-s">This extraordinary brightness results from the quasar’s internal thermonuclear reactions, which continuously release an immense amount of energy.</span> <span class="ev-s">Scientists believe that the energy emitted from one quasar is greater than that of an entire galaxy containing billions of stars.</span> <span class="ev-s">However, the creation and sustenance of these celestial bodies remain a profound mystery.</span> <span class="ev-s">Human knowledge, despite its progress, has yet to uncover the complete reality behind these cosmic wonders.</span></p>
+        <p><span class="ev-s">Throughout history, humans have been misled by the superficial appearance of things, failing to recognize their true nature.</span> <span class="ev-s">The Quran mentions this tendency: They only know the outward appearance of the life of this world, and they are neglectful of the Hereafter.</span> <span class="ev-s"><span class="ev-ref">(30: 7)</span> This means while humans excel in understanding the material world, they often remain ignorant of the greater realities beyond it.</span></p>
+        <p><span class="ev-s">Modern science has allowed humans to explore the vastness of the universe, but despite their advanced knowledge, they still fail to grasp the ultimate truth of existence.</span> <span class="ev-s">The true reality, which lies beyond the reach of material observation, can only be understood through divine guidance.</span> <span class="ev-s">Today, humankind is in a state where they witness astonishing discoveries in space yet remain heedless of the deeper wisdom behind creation.</span></p>
+        <p><span class="ev-s">The Quran invites humans to reflect on these cosmic signs and recognize the power of the Creator.</span> <span class="ev-s">The grand scale of the universe is not just a marvel but also a reminder of human insignificance and the need to acknowledge God’s existence and supremacy.</span></p>
+        <aside class="ev-note"><span class="ev-note-label">About the author</span><p>Prof Farida Khanam is an author, editor, translator, public speaker and former professor of Islamic Studies at Jamia Millia Islamia, New Delhi. Among her books are ‘A Simple Guide to Islam’ and ‘A Study of World’s Major Religions’. She has translated into English many books authored by Maulana Wahiduddin Khan. Currently the chairperson of CPS International, she is a regular contributor of articles to various publications. Prof Khanam has edited Maulana’s English translation of the Quran and has also translated his Urdu commentary on the Quran into English. She can be reached at <a class="ev-a" href="mailto:spiritofislamperiodical@gmail.com">spiritofislamperiodical@gmail.com</a></p></aside>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 02 · The Transformation of the Universe ===================== -->
+  <section class="ev-item" id="soi-the-transformation-of-the-universe" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">02</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Discovering Strength in Faith</span>
+        <span class="ev-tab-title"><span class="ev-s">The Transformation of the Universe</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>3 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">Our world encompasses two distinct aspects: the visible and the invisible.</span> <span class="ev-s">The visible world can be likened to an iceberg, with only a tiny portion visible above the water’s surface while the majority remains submerged.</span> <span class="ev-s">Religion provides a way to glimpse this hidden part of the iceberg, enabling individuals to transcend the surface of life and venture into the depths of the ocean, metaphorically speaking, to the bed of the ocean.</span></p>
+        <p><span class="ev-s">Life presents us with numerous instances where we feel helpless, as if all the ends of life have slipped away from our grasp.</span> <span class="ev-s">In such moments, religion emerges as our saviour, offering us the courage and conviction to navigate through these challenges.</span> <span class="ev-s">It becomes a source of strength and resilience, helping us to overcome adversity.</span></p>
+        <p><span class="ev-s">This unwavering faith does not mean a life free of difficulties, but it transforms how one experiences them.</span> <span class="ev-s">While others may be overwhelmed by loss, fear, or uncertainty, a religious person interprets trials as part of a divine plan.</span> <span class="ev-s">Each challenge becomes a stepping stone toward spiritual growth, a lesson crafted by the Creator to deepen one’s understanding, humility, and trust.</span> <span class="ev-s">In this way, religion doesn’t merely offer emotional comfort—it provides a framework for interpreting suffering with meaning and dignity.</span> <span class="ev-s">Just as the roots of a tree grow deeper in the storm, so too does the soul of a believer grow stronger through life’s turbulence.</span></p>
+        <p><span class="ev-s">Religion serves as the foundation of positive ethics.</span> <span class="ev-s">It empowers individuals to forgive, transcending greed and envy.</span> <span class="ev-s">It fosters tolerance and respect for all people, regardless of their background or beliefs.</span> <span class="ev-s">By upholding justice and fairness, religious individuals become givers rather than takers, contributing to a more harmonious society.</span></p>
+        <p><span class="ev-s">Religion instills in us a sense of principle and principled character.</span> <span class="ev-s">It cultivates self-control and self-discipline, making religious individuals predictable and reliable.</span> <span class="ev-s">They are serious-minded and honest, always ready to acknowledge their mistakes and strive for self-improvement.</span> <span class="ev-s">This self-corrective mechanism keeps their personalities rejuvenated and vibrant.</span></p>
+        <p><span class="ev-s">So, how does religion cultivate these superior qualities within us?</span> <span class="ev-s">The ultimate goal of religion lies in connecting us with God, the source of all goodness.</span> <span class="ev-s">God serves as an inspiration for everyone, providing guidance and direction on our journey through life.</span></p>
+        <p><span class="ev-s">Religion makes a person God-oriented, producing God-oriented thinking and a life that is God-oriented.</span> <span class="ev-s">This is what makes a religious person unconquerable.</span> <span class="ev-s">They develop communion with God, becoming far more powerful than even the sun, moon, mountains, and seas.</span></p>
+        <p><span class="ev-s">Here’s an incident that illustrates this in symbolic language.</span> <span class="ev-s">A person with complete faith in God becomes unconquerable.</span> <span class="ev-s">Even the tidal waves fail to disturb their peace.</span></p>
+        <p><span class="ev-s">Once, a ship sailed from the American coast to Africa.</span> <span class="ev-s">It was still on the way when it was hit by a severe storm in the Atlantic Ocean.</span> <span class="ev-s">The ship began to shake violently, and all the passengers panicked, running helter skelter.</span> <span class="ev-s">It seemed imminent that it would sink any moment.</span></p>
+        <p><span class="ev-s">In this hour of panic, one passenger caught sight of a child in a corner of the ship, playing with her doll.</span> <span class="ev-s">The passenger asked the child, “Do you know what’s going to happen?</span> <span class="ev-s">The child, in all innocence, asked, “What’s the matter?</span> <span class="ev-s">The passenger replied, “Our ship is hit by a storm and it’s going to sink.</span> <span class="ev-s">The child continued to play with her doll and replied, “You know, my father is the captain of the ship.</span> <span class="ev-s">He’s not going to let it sink.”</span></p>
+        <p><span class="ev-s">This incident relating to the child gives us a picture of a truly religious person.</span> <span class="ev-s">They never fall prey to frustration, don’t get disturbed in times of crises, and never lose courage.</span> <span class="ev-s">They always live in hope.</span> <span class="ev-s">In every situation, they can say, “God Almighty is the captain of my ship.</span> <span class="ev-s">He’s not going to let it sink.”</span></p>
+        <blockquote class="ev-quote">The most excellent struggle is for conquest of self.</blockquote>
+        <blockquote class="ev-thought"><p><span class="ev-s">The ultimate goal of religion lies in connecting us with God, the source of all goodness.</span> <span class="ev-s">God serves as an inspiration for everyone, providing guidance and direction on our journey through life.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 03 · The Opportunity to Learn ===================== -->
+  <section class="ev-item" id="soi-the-opportunity-to-learn" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">03</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Personal Experiences</span>
+        <span class="ev-tab-title"><span class="ev-s">The Opportunity to Learn</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>7 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">It’s generally accepted that interfaith dialogue aims to establish harmony among religious groups.</span> <span class="ev-s">However, I believe history suggests otherwise.</span> <span class="ev-s">Interfaith dialogue has been ongoing for centuries, possibly even several hundred years.</span> <span class="ev-s">The earliest recorded instance was the World’s Parliament of Religions in 1893, Chicago, where representatives from various major religions gathered.</span> <span class="ev-s">Despite these efforts, I’ve found that these dialogues have been largely fruitless and ineffective.</span> <span class="ev-s">Religious harmony among different groups remains an elusive dream.</span> <span class="ev-s">If this was the purpose of dialogue, we must reevaluate its effectiveness.</span> <span class="ev-s">The question arises: why have these efforts failed?</span></p>
+        <h3 class="ev-h"><span class="ev-s">DIALOGUE NOT FOR UNIFORMITY OR DEBATING</span></h3>
+        <p><span class="ev-s">I believe the method employed in these interfaith dialogues was flawed.</span> <span class="ev-s">There were two main models: one based on the concept of uniformity.</span> <span class="ev-s">This idea posits that all religions are essentially one and the same, with an inherent unity that needs to be discovered and shared.</span> <span class="ev-s">Achieving this unity, according to this thinking, would lead to harmony between religious groups.</span> <span class="ev-s">However, this approach has proven to be a complete failure.</span> <span class="ev-s">Thousands of renowned figures have supported this method, yet it has consistently failed.</span></p>
+        <h3 class="ev-h"><span class="ev-s">THE REASON FOR FAILURE</span></h3>
+        <p><span class="ev-s">The reason for this failure lies in the unnatural nature of the uniformity concept.</span> <span class="ev-s">It contradicts the Creation Plan of God.</span> <span class="ev-s">Nature embraces diversity and differences.</span> <span class="ev-s">Both the material and human worlds are built on differences.</span> <span class="ev-s">It’s impossible to find two identical individuals.</span> <span class="ev-s">The word “uniformity” exists in dictionaries but not in society or the human world.</span> <span class="ev-s">Since this formula of uniformity is unnatural and not aligned with God’s creation plan, it’s no wonder it has failed.</span></p>
+        <p><span class="ev-s">Another model for interfaith dialogue is based on debating.</span> <span class="ev-s">This model believes that truth is one, and that the truth someone follows is the only truth, not anything else.</span> <span class="ev-s">In this model, everyone tries to establish their superiority, which has also failed.</span> <span class="ev-s">We know that many conferences on interfaith dialogue have been held, and a lot of literature has been published on the subject, but these exercises have failed to establish harmony.</span> <span class="ev-s">Now, we need to reassess the whole matter and find a formula other than these two.</span></p>
+        <h3 class="ev-h"><span class="ev-s">Dialogue for Mutual Learning: The Faruqi Formula</span></h3>
+        <p><span class="ev-s">I have studied this matter and participated in numerous dialogues at both the national and international levels.</span> <span class="ev-s">After studying and experiencing, I have discovered a third formula.</span> <span class="ev-s">In my opinion, this third formula is quite in accordance with the Creation Plan and is undoubtedly feasible, with no question of failure.</span> <span class="ev-s">This third formula is based on a principle, which I can call the Faruqi formula.</span> <span class="ev-s">It was adopted by Umar bin al-Khattab, the second Caliph of Islam.</span> <span class="ev-s">We read about him in books: “He used to learn from everyone.”</span></p>
+        <p><span class="ev-s">This third formula is based on the learning process.</span> <span class="ev-s">When I apply this to the concept of interfaith dialogue, I would say that it is the formula of mutual learning.</span> <span class="ev-s">The purpose of interfaith dialogue is not to discover uniformity among religions or to establish one’s superiority over other religions.</span> <span class="ev-s">Instead, it is based on mutual learning.</span> <span class="ev-s">All participants in the dialogue must try to learn from each other.</span> <span class="ev-s">I can say this is completely based on the law of nature.</span> <span class="ev-s">It is workable, with no doubt about it.</span></p>
+        <p><span class="ev-s">This formula isn’t religious; it’s universal.</span> <span class="ev-s">We apply it in every aspect of life, from education and industry to social interactions.</span> <span class="ev-s">Mutual learning is the cornerstone of life, so why single out religion?</span> <span class="ev-s">Why not apply it to interfaith dialogue?</span> <span class="ev-s">By doing so, it becomes part of the universal process, transcending its religious boundaries.</span></p>
+        <p><span class="ev-s">My experiences in interfaith dialogue have been invaluable.</span> <span class="ev-s">I’ve studied diverse religious texts and participated in numerous dialogues.</span> <span class="ev-s">I’ve never sought to establish superiority; I’ve always been open to learning from others.</span> <span class="ev-s">Books and experiences have been my primary sources of knowledge.</span></p>
+        <h3 class="ev-h"><span class="ev-s">Follow One and Respect All</span></h3>
+        <p><span class="ev-s">Religion is a matter of conviction.</span> <span class="ev-s">When I say I believe in a particular religion, I mean it with absolute certainty.</span> <span class="ev-s">Without this conviction, I can’t have faith.</span> <span class="ev-s">If religion fails to provide conviction, it loses its purpose.</span> <span class="ev-s">The fundamental goal of religion is to instil conviction in the purpose of life and the nature of existence.</span> <span class="ev-s">I have great conviction in Islam; it’s become my faith.</span> <span class="ev-s">I believe in it with unwavering conviction.</span> <span class="ev-s">I have no doubts about it..</span> <span class="ev-s">However, this belief has never engendered hatred in me.</span> <span class="ev-s">I love every human being.</span> <span class="ev-s">This is a fact.</span> <span class="ev-s">Anyone who knows me can attest to my lack of hatred.</span> <span class="ev-s">I respect every religion from the depths of my heart.</span></p>
+        <p><span class="ev-s">I can say that this is possible for every human being.</span> <span class="ev-s">Humans have an enormous capacity, and they are able to live with contradictions.</span> <span class="ev-s">It is quite possible for the human mind to hold both beliefs simultaneously.</span> <span class="ev-s">An American writer, Walt Whitman (1819-1892), famously said, “I am large enough to contain all these contradictions.</span> <span class="ev-s">Therefore, if you believe that one religion is the absolute truth, you should respect other religions.</span> <span class="ev-s">Our minds can hold both concepts.</span> <span class="ev-s">It’s not just lip service; it’s a genuine belief.</span></p>
+        <p><span class="ev-s">Interfaith dialogue is about religious learning.</span> <span class="ev-s">Establishing harmony is a different matter.</span> <span class="ev-s">The best formula for it is given by a reformer: peaceful coexistence.</span> <span class="ev-s">The UN has already adopted this formula, and it applies to religious groups as well.</span></p>
+        <p><span class="ev-s">In terms of social harmony, we must adopt the principle of coexistence.</span> <span class="ev-s">In terms of interfaith dialogue, we must take it as a process of mutual learning.</span> <span class="ev-s">This is my finding, experience, and discovery.</span> <span class="ev-s">I have personally adopted this formula in my life.</span> <span class="ev-s">For me, it’s not just a matter of giving speeches; it’s my way of life.</span> <span class="ev-s">By nature, I am a seeker, always eager to learn from others.</span> <span class="ev-s">My seeking spirit has no end.</span> <span class="ev-s">I learn from secular people and people of other religions.</span> <span class="ev-s">There’s no difficulty in doing this.</span></p>
+        <h3 class="ev-h"><span class="ev-s">Religious Belief and Social Harmony</span></h3>
+        <p><span class="ev-s">We must reassess our approach to interfaith dialogue.</span> <span class="ev-s">When the previous models failed to yield positive results, we must explore alternative formulas.</span> <span class="ev-s">As I mentioned earlier, the model based on uniformity and the model based on debate have both proven ineffective.</span> <span class="ev-s">Therefore, we must find a new formula.</span> <span class="ev-s">I propose the Faruqi formula, which is based on mutual learning.</span></p>
+        <p><span class="ev-s">We must separate the issues of social harmony and religious truth.</span> <span class="ev-s">We are all seekers of truth, and this pursuit is an ongoing and eternal process.</span> <span class="ev-s">To achieve conviction, we must study and interact.</span> <span class="ev-s">Interfaith dialogue serves this purpose of mutual learning and sharing.</span> <span class="ev-s">Everyone should share their experiences and learn from others.</span> <span class="ev-s">This healthy interaction is essential.</span></p>
+        <p><span class="ev-s">Interaction, dialogue, and thought exchange are crucial, but they should not be used to establish superiority over others.</span> <span class="ev-s">Instead, they should be tools for learning, which has no end.</span> <span class="ev-s">The universe of facts is limitless, and our learning process is an eternal one.</span></p>
+        <p><span class="ev-s">As for social harmony, we should adopt the tested formula of peaceful coexistence.</span> <span class="ev-s">As for interfaith dialogue, we should approach it as a learning process, exchanging thoughts and ideas.</span> <span class="ev-s">By following this method, we can achieve both goals: discovering the truth and establishing harmony.</span> <span class="ev-s">By taking interfaith dialogue as mutual learning, we can continue our pursuit of truth.</span> <span class="ev-s">By adopting the formula of coexistence, we can establish harmony in society.</span> <span class="ev-s">This is my experience, and I believe it aligns with the law of nature or the Creation Plan of God.</span> <span class="ev-s">There is no contradiction between this formula and nature.</span> <span class="ev-s">It is the only formula for interfaith dialogue.</span> <span class="ev-s">Dialogue for its own sake is meaningless, so if you want dialogue to have a purpose, you must discover it.</span> <span class="ev-s">In my experience, the purpose is sharing, mutual learning, and interaction.</span></p>
+        <p><span class="ev-s">Once you have a goal, you must adopt a peaceful method to achieve it.</span> <span class="ev-s">If creates problems or negative thinking, it is not the correct method at all.</span> <span class="ev-s">A peaceful method is one that, after following, does not create further problems.</span> <span class="ev-s">It must be highly peaceful.</span> <span class="ev-s">The method should not give rise to any problems.</span> <span class="ev-s">I have found this to be my finding and have adopted it as my way of life.</span></p>
+        <blockquote class="ev-quote">The purpose of interfaith dialogue is not to discover uniformity among religions or to establish one’s superiority over other religions. Instead, it is based on mutual learning. All participants in the dialogue must try to learn from each other.</blockquote>
+        <blockquote class="ev-quote">When envy and arrogance enter man, wisdom goes out.</blockquote>
+        <blockquote class="ev-thought"><p><span class="ev-s">Interaction, dialogue, and thought exchange are crucial, but they should not be used to establish superiority over others.</span> <span class="ev-s">Instead, they should be tools for learning, which has no end.</span> <span class="ev-s">The universe of facts is limitless, and our learning process is an eternal one.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 04 · Infinite Mind, Finite World ===================== -->
+  <section class="ev-item" id="soi-infinite-mind-finite-world" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">04</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Born for Tomorrow</span>
+        <span class="ev-tab-title"><span class="ev-s">Infinite Mind, Finite World</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>4 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">In the universe we know, man is the only creature with intelligence.</span> <span class="ev-s">No other creature possesses this quality, according to our knowledge.</span> <span class="ev-s">Animals are living creatures, but their actions are governed by instinct, which can be called unconscious intelligence.</span> <span class="ev-s">Conscious intelligence is a human specialty, not possessed by any other creature.</span></p>
+        <p><span class="ev-s">Modern research has shown that the human brain has unlimited potential.</span> <span class="ev-s">It contains about 86 billion neurons.</span> <span class="ev-s">Man is born with unlimited potential, but experience shows that everyone departs from the world feeling that they failed to achieve their goals.</span> <span class="ev-s">Fulfilment is the deepest aspiration of a human being, yet every man dies without reaching this destination.</span> <span class="ev-s">This is a tragedy that affects all men and women in the world.</span></p>
+        <p><span class="ev-s">There are countless other creatures in the world, just like humans, who are born and die.</span> <span class="ev-s">However, they never face the same level of discontentment as humans.</span> <span class="ev-s">We can find the answer to this contradiction by comparing man to animals.</span> <span class="ev-s">A comparative study of man and animals reveals that the concept of tomorrow is exceptionally found within humans.</span> <span class="ev-s">It is deeply ingrained in human nature that we want to extend our present into the future, hoping to find what we missed today.</span></p>
+        <p><span class="ev-s">The case of animals is different.</span> <span class="ev-s">Their study shows that they have no concept of tomorrow.</span> <span class="ev-s">They live only in the present moment and die in it.</span> <span class="ev-s">Some animal activities, such as ants gathering food for the future, may seem to be based on a sense of tomorrow, but they are actually driven by the demands of the present rather than by a conscious awareness of the future.</span></p>
+        <p><span class="ev-s">When we consider the unique quality of humanity, we find that our innate drive to find fulfilment lies in the future.</span> <span class="ev-s">This fulfilment can be achieved tomorrow, as our biological span on Earth is limited.</span> <span class="ev-s">Nature has provided for its fulfilment within our lifespan.</span></p>
+        <p><span class="ev-s">Human life is divided into two stages: pre-death and post-death.</span> <span class="ev-s">The pre-death stage is temporary, while the post-death stage is eternal.</span> <span class="ev-s">This division is made to ensure that what we cannot find today, we may find in the next stage of life tomorrow.</span></p>
+        <p><span class="ev-s">As mentioned earlier, our human brain contains an astonishing 100 billion particles, possessing an unlimited potential.</span> <span class="ev-s">However, our physical age of around 100 years is insufficient to realise this potential.</span> <span class="ev-s">Even if our age were much longer, the conditions on Earth are so limited that our unlimited mind cannot fully utilise its potential on this limited planet.</span></p>
+        <p><span class="ev-s">Realising this reality compels us to believe that humanity requires a vastly greater world and a much longer lifespan for its complete fulfilment.</span> <span class="ev-s">In our current state, the potential of our minds remains far from being fully utilised.</span></p>
+        <p><span class="ev-s">When we consider life in this context, we can liken it to an iceberg.</span> <span class="ev-s">A tiny portion of the iceberg is visible in the stage of life before death, while the majority remains hidden in the stage of life after death.</span> <span class="ev-s">It is challenging to fully comprehend human life without this analogy, and when a concept becomes the sole explanation for an observation, it becomes an academic proof of its validity.</span> <span class="ev-s">In this regard, it is the right academic and scientific stance.</span></p>
+        <p><span class="ev-s">When we consider these realities, we learn that the present world is only a temporary abode, not the eternal destination for humanity.</span> <span class="ev-s">Every man is inevitably faced with death.</span> <span class="ev-s">What is death?</span> <span class="ev-s">It’s a bridge between temporal and eternal life.</span> <span class="ev-s">The present world is like a training period for us, a time to receive full training before moving on to the next eternal world.</span> <span class="ev-s">There, we’ll have the opportunity to utilize our full potential and achieve happiness through total fulfilment.</span></p>
+        <p><span class="ev-s">However, in the second stage of life, only those who have received the necessary training in the first stage will be successful.</span> <span class="ev-s">Those who haven’t will be denied the opportunity to benefit from those opportunities.</span> <span class="ev-s">Their fate will be that of one who remained deprived of fulfilment in both the world they left behind and the world of the Hereafter.</span> <span class="ev-s">This deprivation will undoubtedly be a punishment, a harder punishment to imagine.</span></p>
+        <p><span class="ev-s">If a person lives only in the present moment and dies in the present moment, they’re living and dying like an animal.</span> <span class="ev-s">The true man is one who reaches his ‘tomorrow’ by passing through his ‘today’.</span> <span class="ev-s">After expiring their limited worldly age, those who have made full preparation for their ‘tomorrow’ are worthy of being called successful.</span></p>
+        <blockquote class="ev-quote">A true believer requites evil with good.</blockquote>
+        <blockquote class="ev-thought"><p><span class="ev-s">Humanity requires a vastly greater world and a much longer lifespan for its complete fulfilment.</span> <span class="ev-s">In our current state, the potential of our minds remains far from being fully utilised.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 05 · The Essence of Praying ===================== -->
+  <section class="ev-item" id="soi-the-essence-of-praying" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">05</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Spirit of Islam</span>
+        <span class="ev-tab-title"><span class="ev-s">The Essence of Praying</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>17 min read</span></div>
+      
+      <div class="ev-body">
+        <p><span class="ev-s">In the name of God, the Most Gracious, the Most Merciful</span></p>
+        <p><span class="ev-s">My Lord! open up my heart, and make my task easy for me.</span> <span class="ev-s">Loosen the knot in my tongue, so that they may understand my speech.</span></p>
+        <p><span class="ev-s">Today, I would like to discuss the concept of Dua.</span> <span class="ev-s">In English, it is known as prayer.</span> <span class="ev-s">The word Dua means “to call” or “to call upon God.”</span></p>
+        <p><span class="ev-s">Let us begin by understanding what prayer truly is.</span> <span class="ev-s">Prayer is an act of humility, a way for a person to establish a connection with their Lord.</span> <span class="ev-s">This is the essence of prayer.</span> <span class="ev-s">Prayer is a means of building a relationship with God through humility.</span> <span class="ev-s">This is why a Hadith states: Prayer is the essence of worship.</span> <span class="ev-s">(Sunan al-Tirmidhi)</span></p>
+        <p><span class="ev-s">Now, let us turn to the concept of deen, i.e., religion.</span> <span class="ev-s">Religion is the establishment of a relationship between God and His servant.</span> <span class="ev-s">All acts of worship are aimed at achieving this relationship, and prayer is a powerful tool for this purpose.</span> <span class="ev-s">A clear example of this is found in the Quran where the Prophet Moses expresses his sincere need for blessings from God: Lord, I am truly in need of whatever blessing You may send down for me.</span> <span class="ev-s"><span class="ev-ref">(28: 24)</span></span></p>
+        <p><span class="ev-s">Prophet Moses was born in Egypt, as mentioned in both the Quran and the Bible.</span> <span class="ev-s">When he was a child, he was taken to the palace of the king of Egypt.</span> <span class="ev-s">Pharaoh’s wife, being childless, wanted to adopt him as his son.</span> <span class="ev-s">Later, when he received prophethood, he had to leave the palace, and the people turned against him.</span> <span class="ev-s">Certain events led him to quietly leave Egypt, fearing capture by the officials.</span> <span class="ev-s">He travelled day and night until he reached Midian.</span> <span class="ev-s">There, he found a well in a remote area, away from the city.</span> <span class="ev-s">It was an agricultural age, and people raised goats and sheep.</span> <span class="ev-s">There was a man there who had no sons but two daughters.</span> <span class="ev-s">After grazing the animals all day, they had to water them in the evening.</span> <span class="ev-s">When Prophet Moses arrived, he saw two girls standing aside helplessly, while others watered their goats and sheep.</span> <span class="ev-s">Moses asked why they were standing separately.</span> <span class="ev-s">The girls explained that they could not water their animals until the men had finished.</span> <span class="ev-s">They were waiting for the men to finish, but by then it was already evening.</span></p>
+        <p><span class="ev-s">Moses, a strong man, stepped forward and watered the girls’ animals for them.</span> <span class="ev-s">Afterward, the girls took their animals and left.</span> <span class="ev-s">Now, all the people had left, and it was nighttime.</span> <span class="ev-s">He was in an unfamiliar place, alone, and possibly without having eaten.</span> <span class="ev-s">If the Egyptian officials had seen him, they might have caught him.</span> <span class="ev-s">There was no one of his own to help him.</span> <span class="ev-s">It was completely dark, and he might have gone hungry.</span></p>
+        <p><span class="ev-s">Moses sat under a tree, feeling helpless.</span> <span class="ev-s">At that moment, these words came from his lips: Lord, I am truly in need of whatever blessing You may send down for me.</span> <span class="ev-s">This prayer depicts the state of a person who has reached the ultimate level of helplessness.</span> <span class="ev-s">At this point, when a person prays, their connection with God is established through humility.</span> <span class="ev-s">This is the only path to God—through helplessness.</span> <span class="ev-s">There is no other way to establish a connection with God.</span></p>
+        <p><span class="ev-s">When a person discovers their powerlessness and realizes that God is All-Powerful and has the ability to help everyone, these two aspects come together.</span> <span class="ev-s">On one side, there is the All-Powerful God, and on the other side, there is the all-powerless human.</span> <span class="ev-s">This is the state where all barriers between the servant and God are removed, and a direct communion is established between the person and God.</span> <span class="ev-s">When the prayer is made, it becomes a whisper to God.</span> <span class="ev-s">It is mentioned in a Hadith: “When a servant prays, God becomes so near to him that He whispers to him.</span> <span class="ev-s">(Musnad Ahmad)</span></p>
+        <p><span class="ev-s">When Prophet Moses prayed, his prayer was accepted, and that very night, his problem was solved.</span> <span class="ev-s">The girls went and told their elderly father, who was unable to walk.</span> <span class="ev-s">He asked them to bring the man to him, and the girls came shyly to bring Prophet Moses to their house.</span> <span class="ev-s">The prayer that Prophet Moses made in his solitude, in a state of helplessness, was accepted then and there.</span> <span class="ev-s">This is the essence of prayer.</span></p>
+        <p><span class="ev-s">Prayer is not just about memorizing and repeating Arabic words; that is not prayer.</span> <span class="ev-s">It should not be like a tape recorder repeating words.</span> <span class="ev-s">Prayer is about the condition of the heart, about the yearning of the heart.</span> <span class="ev-s">A person’s whole being becomes prayer.</span> <span class="ev-s">Moses’ prayer was not mere lip service; he wasn’t just speaking words; his whole being was absorbed in it.</span></p>
+        <p><span class="ev-s">There are many prayers of the Prophet Muhammad.</span> <span class="ev-s">People memorize these prayers in the name of ‘masnun (prophetic) prayers’ and believe they are making supplication, but this is not true prayer.</span> <span class="ev-s">True prayer comes from the depths of the heart.</span></p>
+        <p><span class="ev-s">During their migration, the Prophet and Abu Bakr sought shelter in the Cave of Thaur.</span> <span class="ev-s">When the enemy, armed with swords, approached them, they were completely helpless.</span> <span class="ev-s">No army or support was available; they were just the two of them.</span> <span class="ev-s">Abu Bakr looked from inside and said, “They have reached here too.</span> <span class="ev-s">In that moment, the Prophet spoke these historic words: “O Abu Bakr!</span> <span class="ev-s">What do you think of the two (us) with whom the third is God?</span> <span class="ev-s">This demonstrates the closeness to God.</span></p>
+        <p><span class="ev-s">Now, I will discuss remembrance (Dhikr) and prayer (Dua).</span> <span class="ev-s">However, before that, I want to emphasize the importance of true prayer.</span> <span class="ev-s">The criterion for recognizing true prayer is not whether it has been accepted or not.</span> <span class="ev-s">A true prayer comes from the heart, and even if it hasn’t been accepted as per our understanding, it still remains a true prayer.</span> <span class="ev-s">Never think that if your prayer isn’t accepted as you wish, it isn’t powerful or meaningful.</span></p>
+        <p><span class="ev-s">I will share an anecdote here.</span> <span class="ev-s">I began my mission of introducing the peaceful message of Islam after India gained independence in 1947.</span> <span class="ev-s">The journey was long, but the madrasa (seminary) where I studied and stayed at, the society I was raised in, and the books I read all shaped my mindset to be Muslim-oriented.</span> <span class="ev-s">The environment I grew up in conditioned me in such a way that my thinking became Muslim-oriented.</span> <span class="ev-s">I began my work in this manner, and I gained immense popularity, not only in India but also in foreign countries.</span> <span class="ev-s">Wherever I went, crowds would gather to listen to me.</span></p>
+        <p><span class="ev-s">However, a time came when people abandoned me, becoming angry.</span> <span class="ev-s">This was particularly evident on December 6, 1996, when the Babri Masjid was demolished.</span> <span class="ev-s">I advised Muslims not to protest, not to gather on the streets, and not to turn this issue into rallies or marches.</span> <span class="ev-s">This angered many people.</span> <span class="ev-s">I endured a difficult period that lasted for a few years.</span> <span class="ev-s">It felt as though I had become isolated.</span> <span class="ev-s">Some people passed away, others left me, and others became angry.</span></p>
+        <p><span class="ev-s">Naturally, I prayed for my mission of introducing the peaceful message of Islam to be revived, for companions to join me once again, and for the work to resume as it once was.</span> <span class="ev-s">However, it felt as though my prayers were not being answered.</span> <span class="ev-s">Because those who had become angry with me remained angry, none of them returned.</span> <span class="ev-s">Some passed away, some went elsewhere, and many good minds who had once been with me left me.</span> <span class="ev-s">I became alone.</span></p>
+        <p><span class="ev-s">In those times of loneliness, I used to read a poem, and I would like to share it with you.</span></p>
+        <p><span class="ev-s">The poem is titled The Last Rose of Summer, and it is written by the Irish poet, Thomas Moore, who died in 1852.</span> <span class="ev-s">This poem was translated by an Urdu poet.</span> <span class="ev-s">I used to read it.</span></p>
+        <h3 class="ev-h"><span class="ev-s">The Last Rose of Summer</span></h3>
+        <p><span class="ev-s">’Tis the last rose of summer,</span></p>
+        <p><span class="ev-s">Left blooming alone;</span></p>
+        <p><span class="ev-s">All her lovely companions</span></p>
+        <p><span class="ev-s">Are faded and gone;</span></p>
+        <p><span class="ev-s">No flower of her kindred,</span></p>
+        <p><span class="ev-s">No rosebud is nigh,</span></p>
+        <p><span class="ev-s">To reflect back her blushes,</span></p>
+        <p><span class="ev-s">Or give sigh for sigh!</span></p>
+        <p><span class="ev-s">I’ll not leave thee, thou lone one,</span></p>
+        <p><span class="ev-s">To pine on the stem;</span></p>
+        <p><span class="ev-s">Since the lovely are sleeping,</span></p>
+        <p><span class="ev-s">Go sleep thou with them.</span></p>
+        <p><span class="ev-s">Thus kindly I scatter</span></p>
+        <p><span class="ev-s">Thy leaves o’er the bed,</span></p>
+        <p><span class="ev-s">Where thy mates of the garden</span></p>
+        <p><span class="ev-s">Lie scentless and dead.</span></p>
+        <p><span class="ev-s">So soon may I follow,</span></p>
+        <p><span class="ev-s">When friendships decay,</span></p>
+        <p><span class="ev-s">And from Love’s shining circle</span></p>
+        <p><span class="ev-s">The gems drop away!</span></p>
+        <p><span class="ev-s">When true hearts lie wither’d,</span></p>
+        <p><span class="ev-s">And fond ones are flown,</span></p>
+        <p><span class="ev-s">Oh! who would inhabit</span></p>
+        <p><span class="ev-s">This bleak world alone?”</span></p>
+        <p><span class="ev-s">I used to read this poem with a strange pain, feeling like my role was over and that my prayers had not been accepted.</span> <span class="ev-s">Those who knew me back then know how difficult that time was for me.</span> <span class="ev-s">But much later, I realized that all my prayers had been accepted by God Almighty.</span> <span class="ev-s">This led to a great revolution in my life.</span></p>
+        <p><span class="ev-s">What was that revolution?</span> <span class="ev-s">It was the formation of my team.</span> <span class="ev-s">These people approached me with secular mentality and modern education.</span> <span class="ev-s">They started coming to me, and we had many interactions.</span> <span class="ev-s">A new way of thinking emerged in my mind: instead of Muslim-oriented, it became human oriented.</span></p>
+        <p><span class="ev-s">When I look back at the books I wrote at that time, in spite of my intention to address humanity, like the book Man Know Thyself, they still reflected a Muslim-oriented mindset.</span></p>
+        <p><span class="ev-s">The interaction with three people in particular led to rethinking, reassisting my thoughts, and re-engineering myself.</span> <span class="ev-s">Gradually, my thinking changed entirely.</span> <span class="ev-s">The Muslim-oriented mindset shifted to a Human-oriented mindset.</span> <span class="ev-s">This was a great revolution in my life.</span> <span class="ev-s">Before that, I was part of Muslim community work.</span> <span class="ev-s">Now, I am part of humanity at large, thinking about humankind as a whole.</span></p>
+        <p><span class="ev-s">If the prayers I used to make at that time had been accepted, I would have remained the same person.</span> <span class="ev-s">But instead of being accepted as they were, God redirected my work.</span> <span class="ev-s">The ‘Muslim-oriented mission’ was transformed into a ‘human-oriented mission’.</span> <span class="ev-s">A Prophetic Mission envisions all of humanity.</span> <span class="ev-s">A Prophet does not think in terms of any single community.</span></p>
+        <p><span class="ev-s">Consider the profound transformation this brought, which came about when my prayers, though heartfelt and sincere, were not accepted as I understood them.</span> <span class="ev-s">When you pray, even if it seems like you’ve poured your entire soul into it, and it still appears unanswered, don’t fall into frustration.</span> <span class="ev-s">Understand that God has indeed accepted your prayer and will respond in a far better way, just as it happened in my case.</span></p>
+        <p><span class="ev-s">Now, I believe that if I had died in that earlier state, I might have died a death of ignorance.</span> <span class="ev-s">That’s why I say three ‘angels’ came to me.</span> <span class="ev-s">Now, I understand that when I die, I will die while engaged in the Prophetic Mission, leaving you with a better legacy.</span></p>
+        <p><span class="ev-s">I would say, make prayer a part of your life, but never think or believe that if your prayer is fulfilled in the way you understand it, then it was a real prayer, and if it is not, then the prayer was wasted.</span> <span class="ev-s">This is not the case.</span></p>
+        <p><span class="ev-s">Now, I want to share something very important with you.</span> <span class="ev-s">Generally, people think that there are some printed books of Quranic supplications or Masnun Duas (Prophetic prayers), and they recite them by rote learning, considering that to be prayer.</span> <span class="ev-s">But that is not true prayer.</span> <span class="ev-s">That is mere lip service.</span> <span class="ev-s">If a person is sincere, they may receive some reward, but this is not the essence of true prayer.</span></p>
+        <p><span class="ev-s">What is true prayer?</span> <span class="ev-s">“When the door of supplication (dua) is opened for someone, the doors of mercy are opened for them.</span> <span class="ev-s">(Sunan al-Tirmidhi) What kind of prayer is this?</span> <span class="ev-s">Such a profound statement cannot refer to mere lip service.</span></p>
+        <p><span class="ev-s">If you memorize a few phrases and recite them, can that open the doors of blessings for you?</span> <span class="ev-s">Is that possible?</span> <span class="ev-s">That would be underestimating God’s mercy.</span> <span class="ev-s">To think that prayer is simply about repeating memorized phrases is to underestimate God.</span> <span class="ev-s">If you believe that prayer exists only to recite words, that is incorrect.</span></p>
+        <p><span class="ev-s">“When the door of prayer is opened for someone, the doors of blessings are opened for them.</span> <span class="ev-s">What type of prayer is being referred to in this Hadith?</span></p>
+        <p><span class="ev-s">After considering this, I have understood that one type of prayer involves reciting memorized words.</span> <span class="ev-s">Second type of prayer arises naturally from your heart, triggered by specific situations.</span> <span class="ev-s">These prayers come from within you, bubbling up spontaneously.</span> <span class="ev-s">The second type of prayer, as mentioned in the Hadith, always originates from a particular point of reference.</span> <span class="ev-s">When a storm stirs within you, you spontaneously express it in words.</span> <span class="ev-s">One prayer is something memorized, while the other is something that naturally flows from the heart, triggered by a specific reference point.</span></p>
+        <p><span class="ev-s">This doesn’t mean we are equating ourselves with the prophets; rather, it’s a reference point that inspires heartfelt prayer.</span></p>
+        <p><span class="ev-s">It has been said in this Hadith that there are two types of prayer: one spoken with words and one that overflows from the heart.</span> <span class="ev-s">For a prayer to overflow from the heart, there must be a condition, situation, or point of reference that triggers it.</span> <span class="ev-s">Those who experience this kind of prayer have highly active minds and emotions that are easily stirred by different situations.</span> <span class="ev-s">As a result, their prayers naturally erupt from their hearts and flow from their lips.</span></p>
+        <p><span class="ev-s">This is the same prayer I mentioned earlier, the one that opens the doors of blessings.</span> <span class="ev-s">But how is it achieved, and who receives it?</span> <span class="ev-s">The most important condition is developing concentration.</span> <span class="ev-s">Your thoughts should not wander aimlessly, and you must protect yourself from distractions.</span> <span class="ev-s">The worst thing is distraction.</span></p>
+        <p><span class="ev-s">What is distraction?</span> <span class="ev-s">Distraction occurs when your focus is on one thing, but your mind wanders elsewhere.</span> <span class="ev-s">This diversion of time, money, and attention to unrelated matters can be seen in various situations.</span> <span class="ev-s">For instance, imagine you’re engrossed in a TV show, captivated by a story or gathering information.</span> <span class="ev-s">Suddenly, an advertisement interrupts, followed by a song, and your attention is diverted.</span> <span class="ev-s">This is a classic example of distraction.</span></p>
+        <p><span class="ev-s">Distractions aren’t limited to TV.</span> <span class="ev-s">In life, people often allow them to take over their lives.</span> <span class="ev-s">Take, for example, a scholar who had to deliver a speech at an event.</span> <span class="ev-s">He arrived late and, when asked why, explained that just as he was leaving, his child grabbed his feet and insisted on coming along.</span> <span class="ev-s">He got caught up trying to deal with the child, which was a distraction.</span></p>
+        <p><span class="ev-s">The doors of blessings will not be opened for those who are distracted.It’s important to avoid getting caught up in minor things.</span> <span class="ev-s">The doors of prayer open only for those who avoid excuses and don’t tolerate distractions.</span> <span class="ev-s">When you stay focussed, your concentration remains unbroken, and you can truly connect with God.</span> <span class="ev-s">Situations will always arise, but it’s crucial to seize them.</span> <span class="ev-s">A person whose focus is scattered will never be able to create a solid foundation for their prayers.</span></p>
+        <p><span class="ev-s">Prayer is the greatest blessing, the means by which we connect with God.</span> <span class="ev-s">It’s incredible to establish direct contact with the Creator.</span> <span class="ev-s">If we miss out on this connection, what greater loss could there be?</span> <span class="ev-s">To seize this opportunity, we must follow a process and stay dedicated.</span></p>
+        <p><span class="ev-s">This morning, I woke up at 5 a.m. Everything was silent and still.</span> <span class="ev-s">Suddenly, the call to prayer rang out: “Allah-u-Akbar, Allah-u-Akbar—God is Great, God is Great.</span> <span class="ev-s">The greatness of God is such that we cannot even see it through telescopes.</span> <span class="ev-s">No star or planet can say “Allah-u-Akbar”—only humans can.</span> <span class="ev-s">Humans have been given an incredible opportunity that nothing else in the universe has.</span> <span class="ev-s">No star, solar system, ocean, mountain, or planet can make prayer; they cannot establish direct contact with God.</span> <span class="ev-s">The only way to establish this direct connection is through prayer, and this ability is unique to humans.</span> <span class="ev-s">How amazing is this gift!</span></p>
+        <p><span class="ev-s">When you place your forehead on the ground in prostration (Sajda), a profound feeling takes over, as if your head is glued to the earth.</span> <span class="ev-s">Why? Only humans can bow down in prostration before God, placing their forehead on the ground, fully acknowledging His glory and greatness.</span> <span class="ev-s">This is something no other creation has been blessed with.</span> <span class="ev-s">Through prayer, humans can establish a direct connection with God—a truly extraordinary blessing, but only through sincere prayer.</span></p>
+        <p><span class="ev-s">What is true prayer?</span> <span class="ev-s">True prayer is not just memorized words.</span> <span class="ev-s">It is when your mind is so alive and aware that, in a meaningful situation, it creates a storm within you.</span> <span class="ev-s">Opportunities to connect with God arise again and again, but most people fail to seize them.</span> <span class="ev-s">What a great opportunity it is that the door of prayer has opened for you, and all the doors of mercy have been opened.</span></p>
+        <p><span class="ev-s">This is an immense opportunity—when the door of prayer opens, all the doors of God’s mercy open too.</span> <span class="ev-s">But this connection comes at a price.</span> <span class="ev-s">Without sincerity and effort, no one can receive this blessing.</span> <span class="ev-s">If you simply memorize prayers and repeat them day and night without understanding their significance, it’s unlikely your prayers will be accepted.</span> <span class="ev-s">The key to a prayer lies in possessing the right qualities.</span></p>
+        <p><span class="ev-s">1. Avoid distractions: Avoid letting your thoughts wander and stay focussed on one point.</span> <span class="ev-s">Such discussions can create internal turmoil.</span></p>
+        <p><span class="ev-s">2. Time: Pray at a time when you’re free and undisturbed.</span></p>
+        <p><span class="ev-s">3. Attention: Give your prayers your full attention.</span></p>
+        <p><span class="ev-s">4. Avoid letting your thoughts wander: Keep your focus on one point.</span></p>
+        <p><span class="ev-s">A story from around 800 years ago, as recounted in Al-Kamil Fi At-Tarikh by Ibn al-Athir, illustrates how prayers are answered.</span></p>
+        <p><span class="ev-s">During the reign of King Abdul Rahman, a powerful ruler of Andalusia, Spain, a severe drought struck.</span> <span class="ev-s">The land withered, and water became scarce for both humans and animals.</span> <span class="ev-s">The situation was dire.</span> <span class="ev-s">At that time, there was a respected Islamic scholar named Qazi Munzir.</span> <span class="ev-s">The king sent a messenger to Qazi Munzir, who was in the city of Cordoba.</span></p>
+        <p><span class="ev-s">The messenger informed the Qazi that the king was in distress due to the lack of rain and the drought.</span> <span class="ev-s">The Qazi asked, “What is the king himself doing in this state?</span> <span class="ev-s">The messenger replied, “I’ve never seen the king in such distress.</span> <span class="ev-s">Today, he removed his crown and shoes and fell to the ground in prostration.</span> <span class="ev-s">He was crying and saying, ‘Oh my Lord, will You punish the people because of me, even though You are the most Merciful of all?’”</span></p>
+        <p><span class="ev-s">Qazi Munzir then said, “Go and bring rain with you.</span> <span class="ev-s">When the earthly king shows humility, the Heavenly King will show mercy and rain down His blessings.</span> <span class="ev-s">When the soldier returned to the king, it had started to rain.</span> <span class="ev-s">The king, having put aside his pride and self-glory, descended to the lowest level of humility.</span> <span class="ev-s">He fell to the ground, weeping and praying, realizing that the distance between God and man is arrogance and self-glory.</span></p>
+        <p><span class="ev-s">When a person removes their self-glory, ceases to feel proud of their own greatness, and reaches a point of helplessness, God immediately intervenes.</span> <span class="ev-s">The distance between us and God is our artificial sense of being great, rich, powerful, or a leader.</span> <span class="ev-s">This false sense of pride and arrogance creates the distance.</span> <span class="ev-s">Once we remove it, it disappears.</span></p>
+        <p><span class="ev-s">The once-powerful king threw away his crown and humbled himself, reaching a state of true helplessness.</span></p>
+        <p><span class="ev-s">According to a Hadith, God says, “Pride is My cloak and majesty is My robe; whoever competes with Me regarding either of them, I shall throw him into the Hellfire.</span> <span class="ev-s">(Sunan Ibn Majah) Arrogance and egoism are the thoughts that make you believe you are great.</span></p>
+        <blockquote class="ev-quote">Make prayer a part of your life, but never think or believe that if your prayer is fulfilled in the way you understand it, then it was a real prayer, and if it is not, then the prayer was wasted.</blockquote>
+        <blockquote class="ev-quote">Prayer is the greatest blessing, the means by which we connect with God. It’s incredible to establish direct contact with the Creator. If we miss out on this connection, what greater loss could there be?</blockquote>
+        <blockquote class="ev-quote">When a person removes their self-glory, ceases to feel proud of their own greatness, and reaches a point of helplessness, God immediately intervenes. The distance between us and God is our artificial sense of being great, rich, powerful, or a leader.</blockquote>
+        <aside class="ev-note"><span class="ev-note-label">About the author</span><p>This is a transcript of a lecture delivered by Maulana Wahiduddin Khan on December 15, 2006.</p></aside>
+        <blockquote class="ev-thought"><p><span class="ev-s">When a person discovers their powerlessness and realizes that God is All-Powerful and has the ability to help everyone, these two aspects come together.</span> <span class="ev-s">On one side, there is the All-Powerful God, and on the other side, there is the all-powerless human.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 06 · World Religions and the Spirit of Tolerance ===================== -->
+  <section class="ev-item" id="soi-world-religions-and-the-spirit-of-tolerance" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">06</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Towards Global Peace</span>
+        <span class="ev-tab-title"><span class="ev-s">World Religions and the Spirit of Tolerance</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>2 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">In its declaration, the United Nations declared 1995 as the year of tolerance.</span> <span class="ev-s">However, tolerance is a permanent human requirement.</span></p>
+        <p><span class="ev-s">All the great religions of the world can be broadly divided into two categories: Aryan religions and Semitic religions.</span> <span class="ev-s">In my studies, I have found that tolerance has been given equal importance in both types of religions.</span> <span class="ev-s">Religion makes a man a spiritually developed human being, and one who has elevated their spirituality cannot afford intolerance.</span> <span class="ev-s">The behaviour of a truly religious person is always one of tolerance.</span></p>
+        <p><span class="ev-s">The difference between the two types of religions lies in the rationale of tolerance rather than tolerance itself.</span> <span class="ev-s">The philosophic ground of tolerance in Aryan religions is derived from their belief that truth is an all-pervading reality.</span> <span class="ev-s">According to this concept, a religious person’s psychology is that “If I am in the right, you too, according to your own tradition, are in the right.</span> <span class="ev-s">In other words, tolerance in Aryan religions is based on the concept of manyness of reality.</span></p>
+        <p><span class="ev-s">The philosophic base of tolerance in Semitic religions is different.</span> <span class="ev-s">These religions believe in the principle of oneness of reality.</span> <span class="ev-s">However, so far as the question of human respect is concerned, Semitic religions lay equal emphasis on this value.</span> <span class="ev-s">The difference in this respect between the two branches of religions is one of philosophy, not of practice.</span></p>
+        <p><span class="ev-s">To put it differently, the basis of tolerance in Aryan religions is on mutual recognition, while its basis in Semitic religions is on mutual respect.</span> <span class="ev-s">This difference is only one of philosophical explanation.</span> <span class="ev-s">As far as practical behaviour is concerned, there is no difference in either religion in this respect.</span></p>
+        <p><span class="ev-s">To sum it up, the spirit of tolerance is the essence of all religions.</span> <span class="ev-s">The man produced by religion can never be divested of the spirit of tolerance.</span> <span class="ev-s">Intolerance appears to be directed at others, but it is akin to killing one’s own religious personality.</span> <span class="ev-s">How can a sincere person be willing to kill themselves by their own hands?</span></p>
+        <aside class="ev-note"><span class="ev-note-label">About the author</span><p>We often talk of peace in the context of war. But this is a very narrow and restricted notion of peace. Peace is deeply linked with the entirety of human life. Peace is a complete ideology in itself. Peace is the only religion for both—man and the universe. It is the master-key that opens the doors to every success. Peace creates a favourable atmosphere for success in every endeavour. Without peace, no positive action—small or big—is possible.</p></aside>
+        <blockquote class="ev-thought"><p><span class="ev-s">The cost of disrespecting others is to be held disrespectful in the eyes of God.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 07 · Treasury of Islamic Virtues ===================== -->
+  <section class="ev-item" id="soi-treasury-of-islamic-virtues" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">07</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">A Selection from the Islamic Scriptures</span>
+        <span class="ev-tab-title"><span class="ev-s">Treasury of Islamic Virtues</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>8 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">Islam believes that virtues are essential for believers’ character and conduct.</span> <span class="ev-s">They include qualities like truthfulness, patience, generosity, and humility, which are crucial for living a life that pleases God.</span> <span class="ev-s">The Quran emphasizes the importance of good character, stating that the best among people are those who exhibit the highest moral standards.</span> <span class="ev-s">Islam encourages believers to embody virtues even in challenging circumstances, as they guide their daily lives.</span></p>
+        <p><span class="ev-s">Virtues in Islam are practical attributes that enhance social harmony and personal integrity.</span> <span class="ev-s">The Quran states that the best among people are those who exhibit the highest moral standards.</span></p>
+        <p><span class="ev-s">Believers are expected to embody certain virtues to benefit humanity:</span></p>
+        <h3 class="ev-h"><span class="ev-s">1. Gratitude</span></h3>
+        <p><span class="ev-s">“Remember Me; I will remember you.</span> <span class="ev-s">Be thankful to Me and do not be ungrateful.</span> <span class="ev-s"><span class="ev-ref">(2: 152)</span></span></p>
+        <p><span class="ev-s">Man is never satisfied with what he has and always seeks more.</span> <span class="ev-s">God has favoured everyone, but people are more concerned with what they lack and disregard what they have.</span> <span class="ev-s">This attitude prevents them from offering thanks to God, which is a priceless virtue essential for admission into Paradise.</span></p>
+        <p><span class="ev-s">This world is limited and challenges people’s personalities, preparing them for the eternal perfect world, Paradise, where all their desires are fulfilled.</span> <span class="ev-s">No one can be truly happy in this world.</span> <span class="ev-s">Cold climates have their drawbacks, as do hot climates, and both low-income and high-income groups face difficulties.</span> <span class="ev-s">If the weak have a hard life, it’s not easy for those in power.</span> <span class="ev-s">There are endless problems, but we should persevere despite them, as we are being tested.</span> <span class="ev-s">We should focus on earning God’s pleasure, not on achieving a trouble-free life, as that can only be achieved in the next world.</span> <span class="ev-s">The greatest offering to earn a place in Paradise is a thankful heart.</span> <span class="ev-s">Cultivating gratitude requires rising above life’s difficulties.</span> <span class="ev-s">Heaven’s price is gratitude; only those who pay this price will enter.</span></p>
+        <h3 class="ev-h"><span class="ev-s">2. Patience</span></h3>
+        <p><span class="ev-s">“Those who do good in this world will receive a good reward, and God’s earth is vast.</span> <span class="ev-s">Those who persevere patiently will be rewarded without measure.</span> <span class="ev-s"><span class="ev-ref">(39: 10)</span></span></p>
+        <p><span class="ev-s">Building a life on faith is a great trial.</span> <span class="ev-s">Only those with faith as their greatest wealth, prepared to forego everything else, succeed.</span> <span class="ev-s">A life of faith is a life of patience.</span> <span class="ev-s">Believers who choose patience are blessed with God’s superior grace.</span> <span class="ev-s">Patience is connected to every aspect of our lives.</span> <span class="ev-s">For example, when overwhelmed by a desire, we control it, think about it, and do what wisdom demands.</span> <span class="ev-s">This is called exercising patience.</span> <span class="ev-s">Similarly, when someone causes us trouble, we feel the desire for revenge but stop ourselves and do what our faith wants us to do.</span> <span class="ev-s">This is also called exercising patience.</span> <span class="ev-s">In short, impatience is a hasty response, while patience is a well-thought-out one.</span></p>
+        <h3 class="ev-h"><span class="ev-s">3. Adjustment</span></h3>
+        <p><span class="ev-s">“You may dislike something though it’s good for you, or like something though it’s bad for you: God knows but you don’t.</span> <span class="ev-s"><span class="ev-ref">(2: 216)</span></span></p>
+        <p><span class="ev-s">What a man dislikes may be pleasing to God, benefiting him in the next world.</span> <span class="ev-s">In God’s sight, evil is choosing one’s own pleasure over the Creator’s.</span> <span class="ev-s">Though it may seem beneficial in this world, it will harm in the afterlife.</span> <span class="ev-s">Adjustment is a way of life, not just a behaviour towards others.</span> <span class="ev-s">Our world is full of differences, and everyone has the freedom to behave as they choose, leading to a chaotic environment.</span> <span class="ev-s">We can’t change this creation plan, so the only realistic option is to adjust with others.</span> <span class="ev-s">Adjustment means not reacting, trying to change others, becoming negative, or taking the situation as an obstacle.</span> <span class="ev-s">Instead, we manage it smoothly.</span> <span class="ev-s">In every situation, we have two options: adjust with others or opt for non-adjustment.</span> <span class="ev-s">Non-adjustment will only worsen our problems, causing stress, mental disturbance, and wasted time and energy.</span> <span class="ev-s">Adjustment, on the other hand, will instantly free our minds, save us from negativity, and help us follow the formula: ‘save yourself’.</span> <span class="ev-s">When we can’t change others, change ourselves.</span> <span class="ev-s">This behaviour is called adjustment.</span></p>
+        <p><span class="ev-s">The present world tests us with various thorns, such as negativity, false issues, and worldly desires.</span> <span class="ev-s">These thorns disturb our minds and lead us away from virtue.</span> <span class="ev-s">They are like thorns lining the path of life, and we fear getting entangled and trapped.</span></p>
+        <p><span class="ev-s">To avoid these thorns, the wise man travels life’s paths by gathering his clothes.</span> <span class="ev-s">This way, he can continue his journey unhindered.</span> <span class="ev-s">However, he must always be aware of the need to protect himself.</span> <span class="ev-s">He must avoid entanglement, not get entangled.</span></p>
+        <p><span class="ev-s">Humans are naturally inclined to choose the right path.</span> <span class="ev-s">Therefore, we must be vigilant against obstacles that hinder our progress.</span> <span class="ev-s">Guided by our upright nature, we will continue on the right path until we meet our Lord.</span></p>
+        <h3 class="ev-h"><span class="ev-s">4. Shunning Idleness</span></h3>
+        <p><span class="ev-s">The second Caliph, Umar ibn Khattab, often expressed his disappointment when he discovered that people he had come to like were idle.</span> <span class="ev-s">He believed that idleness made people worthless.</span> <span class="ev-s">Idleness is a great evil that wastes talents and leaves people unqualified for life.</span></p>
+        <p><span class="ev-s">A student who is too lazy to study will never learn or develop their critical thinking skills.</span> <span class="ev-s">Their failure in exams will leave them without the qualifications needed for good jobs.</span> <span class="ev-s">Without a foundation, they will drift from job to job.</span> <span class="ev-s">Even those who have qualified themselves cannot afford to rest on their laurels.</span></p>
+        <p><span class="ev-s">Many delay entering a profession due to waiting for the right job.</span> <span class="ev-s">However, idleness is not a viable option.</span> <span class="ev-s">People may resort to idleness when they lack economic pressures, such as inheriting wealth or having investments that provide financial security.</span> <span class="ev-s">However, this is not a fulfilling existence.</span> <span class="ev-s">Idleness can lead to financial and emotional burdens on others.</span></p>
+        <p><span class="ev-s">Alternatively, financially independent individuals should pursue noble causes and keep themselves occupied.</span> <span class="ev-s">A person without commitment is living on the fringes of existence and will eventually degenerate.</span> <span class="ev-s">No truly superior being has ever been found among the idle.</span> <span class="ev-s">As the saying goes, the Devil finds work for idle hands.</span></p>
+        <h3 class="ev-h"><span class="ev-s">5. Speech Management</span></h3>
+        <p><span class="ev-s">“A kind word and forgiveness are better than a charitable deed followed by hurtful words: God is self-sufficient and forbearing.”</span></p>
+        <p><span class="ev-s"><span class="ev-ref">(2: 263)</span></span></p>
+        <p><span class="ev-s">Imagine a boulder with soil on its surface.</span> <span class="ev-s">It appears fertile, but a gust of wind and rain wash it away, leaving the rock exposed.</span> <span class="ev-s">This is similar to someone who wears a pious robe without it permeating their being.</span> <span class="ev-s">If someone rudely asks for help or their ego is wounded, they become irritated and exceed decency.</span></p>
+        <p><span class="ev-s">Speech is a rare and exclusive gift, but it comes with responsibility.</span> <span class="ev-s">It’s only valuable when it’s useful, and misuse can lead to punishment.</span> <span class="ev-s">To manage speech effectively, control your tongue, think before speaking, and consider the impact of your words.</span> <span class="ev-s">Avoid negative talk, lying, and misrepresentation, as they can create rifts or suspicion.</span> <span class="ev-s">Misuse of speech often occurs when there’s a misunderstanding between an allegation and a statement based on evidence.</span> <span class="ev-s">Start by examining whether your statement is supported by logic.</span> <span class="ev-s">If you have good reason to speak, then open your mouth; otherwise, remain silent.</span> <span class="ev-s">Right speech is based on truth and objective analysis, using verified, positive data that won’t cause problems.</span></p>
+        <p><span class="ev-s">Most of our activities involve speech, so we should cultivate positive speaking skills to create a healthy atmosphere in our families, societies, and nations.</span> <span class="ev-s">Good speech is the foundation of nation-building.</span> <span class="ev-s">People often lack discipline and dislike constraints on their activities, especially speech.</span> <span class="ev-s">Right speech means disciplined speech, speaking in a controlled manner and weighing each word before uttering.</span> <span class="ev-s">Well-thought-out speech is a source of building harmony and goodwill.</span> <span class="ev-s">The art of managing speech is vital for everyone.</span> <span class="ev-s">Those with the art of right speech can be considered wholesome human beings.</span></p>
+        <h3 class="ev-h"><span class="ev-s">6. Morality</span></h3>
+        <p><span class="ev-s">Morality is crucial.</span> <span class="ev-s">The Quran instructs, “Be good to your parents; don’t kill your children for poverty; refrain from indecent deeds; and don’t kill God’s sacred life except by right.</span> <span class="ev-s"><span class="ev-ref">(6: 151)</span></span></p>
+        <p><span class="ev-s">Many wrongs are so immoral that their evil is obvious without special knowledge.</span> <span class="ev-s">Man’s nature and conscience alone indicate their improper nature.</span> <span class="ev-s">Indulging in shamelessness reveals a lack of basic humanity.</span></p>
+        <p><span class="ev-s">Islamic morality involves living among others according to its teachings.</span> <span class="ev-s">A Hadith states, “Behave as you’d like others to behave towards you.</span> <span class="ev-s">Everyone knows what they approve of and disapprove of, so following this generally accepted moral criterion is essentially Islamic morality.</span></p>
+        <p><span class="ev-s">Islam distinguishes between social manners and social character.</span> <span class="ev-s">Social manners are based on the principle “Do as they do.</span> <span class="ev-s">However, Islamic morality is based on the formula “Do good to others, even if they don’t do good to you.” (al-Tabarani) The Quran portrays Muslims as individuals who “repel evil with good” <span class="ev-ref">(28: 54)</span>.</span> <span class="ev-s">Similarly, the Prophet Muhammad advised Muslims to “do good to those who harm them” (Al-Tirmirdhi).</span> <span class="ev-s">The Prophet Muhammad embodied the finest moral character.</span></p>
+        <p><span class="ev-s">The Quran praises the Prophet’s noble character, saying, ‘You have a sublime character’ <span class="ev-ref">(68: 4)</span>.</span> <span class="ev-s">Islam places great emphasis on moral character, which is used to judge other Islamic virtues.</span> <span class="ev-s">Being good to others shows one’s goodness towards God.</span> <span class="ev-s">The Prophet Muhammad said, ‘One who is not grateful to man cannot be grateful to God either.</span> <span class="ev-s">(Al-Bayhaqi)</span></p>
+        <blockquote class="ev-quote">A person without commitment is living on the fringes of existence and will eventually degenerate. No truly superior being has ever been found among the idle. As the saying goes, the Devil finds work for idle hands.</blockquote>
+        <blockquote class="ev-quote">Islam distinguishes between social manners and social character. Social manners are based on the principle “Do as they do.” However, Islamic morality is based on the formula “Do good to others, even if they don’t do good to you.”</blockquote>
+        <blockquote class="ev-thought"><p><span class="ev-s">A life of faith is a life of patience.</span> <span class="ev-s">Believers who choose patience are blessed with God’s superior grace.</span> <span class="ev-s">Patience is connected to every aspect of our lives.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 08 · From the Cradle to Eternity ===================== -->
+  <section class="ev-item" id="soi-from-the-cradle-to-eternity" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">08</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Discovering the Purpose of Life</span>
+        <span class="ev-tab-title"><span class="ev-s">From the Cradle to Eternity</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>3 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">If a living human being were to emerge from a cave, where no living creature has previously entered, everyone would find it a breathtaking event.</span> <span class="ev-s">They would be left wondering how such a thing could occur.</span> <span class="ev-s">The birth of a live child, a daily occurrence, is equally awe-inspiring yet often overlooked.</span></p>
+        <p><span class="ev-s">Why is there this difference?</span> <span class="ev-s">The reason lies in the familiarity of the daily occurrence.</span> <span class="ev-s">People have become accustomed to this sight, taking it for granted and failing to contemplate its significance.</span></p>
+        <p><span class="ev-s">However, if we were to think about this matter seriously, we would discover the Creator in the act of Creation.</span> <span class="ev-s">Witnessing the birth of a living, conscious human being, capable of walking, seeing, and speaking, we would realize that every human child is a testament to the Creator’s existence.</span> <span class="ev-s">Each human being appears as a living introduction to our Creator.</span></p>
+        <p><span class="ev-s">Similarly, when a human being arrives on Earth, they find themselves enveloped in a comprehensive life support system.</span> <span class="ev-s">This system, without any cost, fulfils all their needs, both great and small.</span> <span class="ev-s">The Earth, the sun, and the moon all serve humanity in exceptional ways.</span></p>
+        <p><span class="ev-s">Then, the time comes when death draws near.</span> <span class="ev-s">By nature, humans desire an eternal life.</span> <span class="ev-s">Yet, within the span of a hundred years, every man and woman, against their will, must leave this world forever.</span></p>
+        <p><span class="ev-s">Every man born into this world experiences two major experiences: those of life and death.</span> <span class="ev-s">If we contemplate these experiences seriously, we will uncover a profound reality: the settling of humanity on this world was not meant as a reward but rather as a test.</span></p>
+        <p><span class="ev-s">Yet, despite the clarity of this reality, many continue to live without pausing to reflect.</span> <span class="ev-s">They become absorbed in the noise of daily life, chasing temporary gains while ignoring the eternal consequences.</span> <span class="ev-s">This negligence stems not from ignorance, but from a lack of serious thought.</span> <span class="ev-s">True wisdom lies in rising above routine and recognizing that life is not simply about comfort and consumption, but about consciously preparing for the moment when the test ends, and accountability begins.</span> <span class="ev-s">Those who think deeply will see every moment as an opportunity—to learn, to grow, and to align their lives with the truth before the final hour arrives.</span></p>
+        <p><span class="ev-s">In this present world, man feels a sense of freedom.</span> <span class="ev-s">This freedom is meant to help him discover who uses it wisely and who misuses it.</span> <span class="ev-s">It’s about finding a principled life and avoiding an unprincipled one.</span></p>
+        <p><span class="ev-s">If man thinks seriously, he’ll realize that death is the day he stands before his Creator.</span> <span class="ev-s">Man is an eternal creature, but his life is divided into two parts: the pre-death period and the post-death period.</span></p>
+        <p><span class="ev-s">The pre-death period is a test, while the post-death period is for reward or punishment, based on our deeds in this life.</span> <span class="ev-s">Today, we live as conscious beings, but this will end when we die.</span> <span class="ev-s">Our conscious existence will leave this temporary world and enter the next permanent one.</span></p>
+        <p><span class="ev-s">This is an unimaginably grave moment.</span> <span class="ev-s">After death, we’ll be resurrected during the second half of our lifespan.</span> <span class="ev-s">But all our material and worldly supports will be gone.</span> <span class="ev-s">Behind us will be the world we’ve lost forever, while before us will be the world where we must now live eternally.</span> <span class="ev-s">The wise person prepares for this day.</span></p>
+        <blockquote class="ev-thought"><p><span class="ev-s">Every man born into this world experiences two major experiences: those of life and death.</span> <span class="ev-s">If we contemplate these experiences seriously, we will uncover a profound reality: the settling of humanity on this world was not meant as a reward but rather as a test.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 09 · From Hospital Rooms to Heavenly Realms ===================== -->
+  <section class="ev-item" id="soi-from-hospital-rooms-to-heavenly-realms" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">09</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Spirit of Islam</span>
+        <span class="ev-tab-title"><span class="ev-s">From Hospital Rooms to Heavenly Realms</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>3 min read</span></div>
+      
+      <div class="ev-body">
+        <p><span class="ev-s">A JOURNEY THROUGH PAIN AND PRAYER</span></p>
+        <p><span class="ev-s"><em>This article is written by Maulana Iqbal Umri</em></span></p>
+        <p><span class="ev-s">On the night of January 30, 2025, our lives took an unexpected turn.</span> <span class="ev-s">My mother, who had been experiencing severe leg pain, was suddenly gripped by cold and fever.</span> <span class="ev-s">We rushed her to the hospital in Jamia Darussalam, Oomerabad.</span> <span class="ev-s">Four days passed in the local hospital, yet the infection refused to subside.</span> <span class="ev-s">The attending doctor diagnosed her with varicose vein pain, cellulitis, and critically high sugar levels—a complex combination needing urgent attention.</span> <span class="ev-s">It became clear we needed expert guidance.</span></p>
+        <p><span class="ev-s">That’s when we turned to Dr Israr, a figure of wisdom and compassion.</span> <span class="ev-s">After examining her condition, he told us what we feared: the infection was also rooted in diabetes, and the situation could escalate.</span> <span class="ev-s">With calm authority, he advised immediate treatment at a multi-specialty hospital capable of handling emergencies.</span> <span class="ev-s">His recommendation?</span> <span class="ev-s">Narayana Hospital in Bengaluru—a name synonymous with excellence in care.</span></p>
+        <p><span class="ev-s">Dr Israr’s role didn’t stop at diagnosis.</span> <span class="ev-s">He provided our parents with strength at a moment they needed it most.</span> <span class="ev-s">He arranged a Rotary Club ambulance and ensured we arrived at Narayana Hospital’s General Emergency—Majumdar Medical Centre Block—at precisely 8:30 PM.</span> <span class="ev-s">Under his guidance, the admission process moved quickly.</span> <span class="ev-s">My mother was shifted to room 403SB on the fourth floor, where treatment began in earnest.</span></p>
+        <p><span class="ev-s">The care had been thorough, the medical staff attentive, and progress had been steady.</span> <span class="ev-s">We are hopeful that with God’s grace, we’ll soon return home—health restored, hearts full of gratitude.</span></p>
+        <p><span class="ev-s">While sitting in the corridors of Narayana Hrudalaya, I found myself reflecting on how massive and coordinated the modern medical system has become.</span> <span class="ev-s">I had visited this hospital several times before for heart-related care, and every time, I’ve been struck by the scale, precision, and humanity within this institution.</span> <span class="ev-s">It’s nothing short of a medical empire.</span></p>
+        <p><span class="ev-s">In earlier times, people knew of only one empire—the political or territorial kind.</span> <span class="ev-s">But in today’s world, every field has become an empire in itself: medical, educational, industrial, economic, and entertainment sectors each operate on a global scale.</span> <span class="ev-s">These are empires not of borders, but of influence and infrastructure.</span></p>
+        <p><span class="ev-s">But in the midst of these powerful empires, one remains dormant: the spiritual empire.</span> <span class="ev-s">As believers in the Last Prophet Muhammad, our mission is not to build physical empires through force, but to establish a moral and spiritual presence in the world—a Spiritual Empire, based on peace and divine consciousness.</span></p>
+        <p><span class="ev-s">For two centuries, misguided efforts have tried to establish dominance through conflict, but the real call is to build an empire of hearts, not territories.</span> <span class="ev-s">One that invites people to understand God’s creation plan, not through fear or force, but through love, reason, and wisdom.</span></p>
+        <p><span class="ev-s">Today, humanity is more informed than ever—about medicine, economics, space, and artificial intelligence.</span> <span class="ev-s">Yet, the knowledge of God and His purpose remains veiled to many.</span> <span class="ev-s">If Muslims do not rise to share this truth, God may choose to reveal His message through non-traditional means—even through AI.</span></p>
+        <p><span class="ev-s">This is not a dismissal of modern tools, but a reminder: truth finds its way.</span> <span class="ev-s">But the question remains—will we be the ones to carry it?</span></p>
+        <p><span class="ev-s">So, as I watch my mother recover, surrounded by the miracle of modern medicine, my heart beats with another prayer—a deeper one.</span> <span class="ev-s">May we awaken to the opportunity before us!</span> <span class="ev-s">May we stop placing obstacles in the path of truth and start building the spiritual empire the world so desperately needs!</span></p>
+        <blockquote class="ev-thought"><p><span class="ev-s">Our mission is not to build physical empires through force, but to establish a moral and spiritual presence in the world—a Spiritual Empire, based on peace and divine consciousness.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 10 · Countdown to Doomsday ===================== -->
+  <section class="ev-item" id="soi-countdown-to-doomsday" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">10</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">A Final Call for Planet Earth</span>
+        <span class="ev-tab-title"><span class="ev-s">Countdown to Doomsday</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>5 min read</span></div>
+      
+      <div class="ev-body">
+        <p><span class="ev-s">This article is written by Maulana Inayath-ullah Umri.</span></p>
+        <p><span class="ev-s">Earth, the magnificent creation of God, is humanity’s unique sanctuary—a haven as vital to us as a mother’s womb is to her child.</span> <span class="ev-s">It is the only place in the known universe where all essential elements for life—liquid water, oxygen, fertile soil, and a balanced ecosystem—exist in perfect harmony.</span> <span class="ev-s">Like a mother, Earth has nurtured, protected, and provided everything we need to thrive.</span> <span class="ev-s">Tragically, humanity’s negligence and self-serving actions are destroying this “mother-like” planet.</span> <span class="ev-s">Instead of safeguarding and preserving it, we are squandering precious time and resources searching for exoplanets in space.</span> <span class="ev-s">This futile pursuit reflects our failure to take responsibility for our home and suggests that we see ourselves as mere temporary guests on this planet.</span></p>
+        <p><span class="ev-s">Just as a mother’s womb provides complete nourishment and protection to her child, Earth offers humanity everything needed for survival.</span> <span class="ev-s">It supplies us with water to drink, fertile soil to grow crops, oxygen to breathe, and an environment where life can flourish.</span> <span class="ev-s">The Quran beautifully highlights Earth’s nurturing role: God made the earth a bed, and the sky a canopy; and it is He who sends down rain from above for the growth of every kind of fruit for your sustenance.</span> <span class="ev-s"><span class="ev-ref">(2: 22)</span></span></p>
+        <p><span class="ev-s">Earth has always been humanity’s ultimate source of comfort and support.</span> <span class="ev-s">Its resources—water, soil, air—are perfectly designed to sustain life.</span> <span class="ev-s">Yet today, humanity’s reckless actions are causing irreparable harm to this “mother.</span> <span class="ev-s">We have taken its blessings for granted while failing to fulfil our responsibility to protect it.</span></p>
+        <p><span class="ev-s">Just as a child depends entirely on its mother’s womb for survival, humanity depends entirely on Earth.</span> <span class="ev-s">However, human greed and carelessness have severely damaged this planet.</span> <span class="ev-s">Deforestation, excessive use of fossil fuels, pollution, and overexploitation of natural resources have disrupted Earth’s delicate balance.</span></p>
+        <p><span class="ev-s">Today, the consequences are alarming.</span> <span class="ev-s">Glaciers are melting at alarming rates due to rising global temperatures, water scarcity is becoming a critical issue as underground reserves dry up, forests are disappearing, weakening nature’s ability to absorb carbon dioxide, and pollution is poisoning our air, water, and soil.</span> <span class="ev-s">Climate change is triggering extreme weather events that threaten ecosystems worldwide.</span> <span class="ev-s">The Quran warns about such consequences: Corruption has appeared on land and sea because of the evil which men’s hands have done: and so He will make them taste the fruit of some of their doings, so that they may turn back from evil.</span> <span class="ev-s"><span class="ev-ref">(30: 41)</span> This corruption is a direct result of human negligence.</span> <span class="ev-s">If we continue down this path, we risk losing Earth’s ability to sustain life altogether.</span></p>
+        <p><span class="ev-s">In an attempt to escape the consequences of their actions on Earth, humans are now looking to space for alternatives.</span> <span class="ev-s">Scientists have discovered thousands of exoplanets through NASA’s Kepler telescope and James Webb Space Telescope.</span> <span class="ev-s">Yet, none possess Earth’s unique qualities—its perfect balance of water, atmosphere, temperature, and biodiversity.</span></p>
+        <p><span class="ev-s">This search reflects humanity’s unwillingness to take responsibility for its actions.</span> <span class="ev-s">Instead of fixing our mistakes here on Earth, we waste time chasing unrealistic dreams of finding another habitable planet.</span> <span class="ev-s">The truth is simple: if we cannot save our current home—a planet perfectly suited for life—how can we expect to survive elsewhere?</span></p>
+        <p><span class="ev-s">The environmental damage caused by human actions has reached an irreversible stage.</span> <span class="ev-s">Polar ice caps have melted significantly, forests have been destroyed, and countless species of animals and plants have gone extinct.</span> <span class="ev-s">Rising temperatures continue to disrupt global ecosystems, indicating that we have missed our chance to save Earth from destruction.</span></p>
+        <p><span class="ev-s">Although much damage is irreversible, there is still hope if humanity acts decisively now.</span> <span class="ev-s">Here are some practical steps we can take:</span></p>
+        <p><span class="ev-s">* Reduce waste by adopting the principles of Reduce, Reuse, Recycle to minimize landfill waste.</span></p>
+        <p><span class="ev-s">* Conserve energy by transitioning to renewable energy sources like solar or wind power.</span></p>
+        <p><span class="ev-s">* Save water by fixing leaks promptly and using water-efficient fixtures.</span></p>
+        <p><span class="ev-s">* Plant trees to support reforestation projects, as trees absorb carbon dioxide and restore biodiversity.</span></p>
+        <p><span class="ev-s">* Adopt sustainable practices by choosing eco-friendly products and reducing your carbon footprint by consuming locally sourced foods.</span></p>
+        <p><span class="ev-s">* Raise awareness by educating communities about environmental conservation through campaigns.</span></p>
+        <p><span class="ev-s">These measures can help mitigate further damage while fostering a culture of sustainability.</span></p>
+        <p><span class="ev-s">When we can no longer save our world, it becomes clear that this is God’s “final call” for us to focus on saving our Hereafter instead.</span> <span class="ev-s">The Quran emphasises the fleeting nature of worldly life: The life of this world is but a sport and a pastime.</span> <span class="ev-s">Surely the Home of the Hereafter is best for those who fear God.</span> <span class="ev-s"><span class="ev-ref">(6: 32)</span></span></p>
+        <p><span class="ev-s">If we fail to prepare for the Hereafter, our fate will be catastrophic.</span> <span class="ev-s">The losers are those who lose themselves and their families on the Day of Resurrection: The real losers will be those who lose themselves and all their kith and kin on the Day of Resurrection.</span> <span class="ev-s">That is the [most] obvious loss.</span> <span class="ev-s"><span class="ev-ref">(39: 15)</span> The Hereafter is humanity’s ultimate destination, where eternal success or failure awaits us.</span></p>
+        <p><span class="ev-s">Earth is our only home, a planet that nurtures us like a mother.</span> <span class="ev-s">However, we destroyed it under the guise of development.</span> <span class="ev-s">Searching for another habitable planet in space is futile because no other celestial body compares to Earth.</span></p>
+        <p><span class="ev-s">Now that destruction has become irreversible, God has given us one last opportunity to prepare for the Hereafter.</span> <span class="ev-s">This is our final chance to correct our actions and strive for eternal success in the Hereafter.</span> <span class="ev-s">If we fail in this too, we will lose both this world and the Hereafter—a loss beyond measure.</span></p>
+        <blockquote class="ev-quote">Earth is our only home, a planet that nurtures us like a mother. However, we destroyed it under the guise of development. Searching for another habitable planet in space is futile because no other celestial body compares to Earth.</blockquote>
+        <blockquote class="ev-thought"><p><span class="ev-s">Instead of fixing our mistakes here on Earth, we waste time chasing unrealistic dreams of finding another habitable planet.</span> <span class="ev-s">The truth is simple: if we cannot save our current home—a planet perfectly suited for life—how can we expect to survive elsewhere?</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 11 · Success Through Struggle ===================== -->
+  <section class="ev-item" id="soi-success-through-struggle" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">11</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Embracing Life’s Hardships</span>
+        <span class="ev-tab-title"><span class="ev-s">Success Through Struggle</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>2 min read</span></div>
+      
+      <div class="ev-body">
+        <p class="ev-first"><span class="ev-s">Life isn’t always easy.</span> <span class="ev-s">In this world, a problem-free life is just not possible.</span> <span class="ev-s">Everyone, regardless of wealth, power, literacy, or illiteracy, faces some or the other dilemma.</span></p>
+        <p><span class="ev-s">However, it’s in our nature to avoid problems.</span> <span class="ev-s">We strive to smooth the path before us, hoping for a life without friction.</span> <span class="ev-s">But after years of struggle, we find ourselves face-to-face with a new set of problems, often more difficult to solve.</span></p>
+        <p><span class="ev-s">This mistake is common.</span> <span class="ev-s">We spend our entire lives searching for a problem-free life, only to find ourselves in the same state when we finally die.</span></p>
+        <p><span class="ev-s">The truth is, the choice for the individual lies not between a life with problems and a life without problems, but between one kind of difficulty and another.</span> <span class="ev-s">If our attempt to resolve one problem only leads to another, the wise course would be to remain content with the problems we’ve already faced.</span></p>
+        <p><span class="ev-s">The secret of success lies in finding opportunities for ourselves despite our problems, rather than wasting our time trying to eradicate them completely.</span> <span class="ev-s">This is a common weakness that causes both individuals and nations to squander their energies.</span></p>
+        <p><span class="ev-s">The Quran says, “Indeed, We have created man into hardship.</span> <span class="ev-s"><span class="ev-ref">(90: 4)</span> Life is meant to be a test.</span> <span class="ev-s">Even the Prophets faced great trials—illness and rejection—yet they responded with patience and trust in God.</span> <span class="ev-s">Islam doesn’t promise a life without problems but teaches us to grow through them.</span> <span class="ev-s">Real success lies not in removing hardships, but in rising above them and fulfilling our purpose despite them.</span></p>
+        <p><span class="ev-s">The only secret of success for both the individual and the nation is to learn to live with their problems and construct their lives despite their existence.</span></p>
+        <blockquote class="ev-thought"><p><span class="ev-s">Islam doesn’t promise a life without problems but teaches us to grow through them.</span> <span class="ev-s">Real success lies not in removing hardships, but in rising above them and fulfilling our purpose despite them.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 12 · Children’s Corner ===================== -->
+  <section class="ev-item" id="soi-childrens-corner" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">12</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">My Islamic Fun Books</span>
+        <span class="ev-tab-title"><span class="ev-s">Children’s Corner</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>Tahera Kassamali</span><span>·</span><span>1 min read</span></div>
+      
+      <div class="ev-body">
+        <p><span class="ev-s">My Islamic Fun Books are designed to help children learn more about Islam in a creative and interesting manner.</span> <span class="ev-s">The books contain imaginative and interesting activities and illustrations to attract the attention of young children.</span> <span class="ev-s">Parents and teachers will find such books useful in teaching today’s children about Islamic beliefs and practices.</span> <span class="ev-s">This gift box contains five books.</span></p>
+        <p><span class="ev-s">1- My Quran Workbook</span></p>
+        <p><span class="ev-s">2- The Holy Prophet Workbook</span></p>
+        <p><span class="ev-s">3- My Salat Fun Book</span></p>
+        <p><span class="ev-s">4- My Hajj Fun Book</span></p>
+        <p><span class="ev-s">5- My Ramadan Fun Book</span></p>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 13 · Hidden Blessings of Life ===================== -->
+  <section class="ev-item" id="soi-hidden-blessings-of-life" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">13</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">A Lesson from One’s Footwear</span>
+        <span class="ev-tab-title"><span class="ev-s">Hidden Blessings of Life</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>3 min read</span></div>
+      
+      <div class="ev-body">
+        <p><span class="ev-s">This article is written by Maulana Iqbal Umri</span></p>
+        <p><span class="ev-s">Recently, I travelled in a general bogie of a train—nothing fancy, just the humble, crowded, and often chaotic space where countless ordinary stories unfold every day.</span> <span class="ev-s">I had recently bought a new pair of slippers, and half the journey went by with them faithfully protecting my feet.</span> <span class="ev-s">As night fell and drowsiness overtook me, I dozed off, laptop bag clutched tightly to my chest.</span> <span class="ev-s">I had removed my slippers for a while, allowing my feet to breathe.</span></p>
+        <p><span class="ev-s">But when I opened my eyes, they were gone.</span> <span class="ev-s">Not the laptop.</span> <span class="ev-s">Not my wallet.</span> <span class="ev-s">Not even my bag.</span> <span class="ev-s">Just the slippers.</span> <span class="ev-s">A strange kind of loss.</span></p>
+        <p><span class="ev-s">For a moment, I couldn’t help but think—so there’s no safety even for slippers ?</span> <span class="ev-s">I had always thought modern thieves had graduated to stealing phones and laptops.</span> <span class="ev-s">But here I was, learning that even the most ordinary items are at risk in a world that takes what it can, whenever it can.</span></p>
+        <p><span class="ev-s">I stepped off the train barefoot into the cold, early morning darkness.</span> <span class="ev-s">The streets were not meant for bare feet—there were stones, broken glass, dirt.</span> <span class="ev-s">And to my dismay, no shop was open that early to buy a replacement.</span> <span class="ev-s">I walked home, each step a small lesson.</span> <span class="ev-s">Some people stared.</span> <span class="ev-s">Some pitied.</span> <span class="ev-s">And for the first time, I felt how easy it is for others to judge someone based on the most superficial things—like what’s on their feet.</span></p>
+        <p><span class="ev-s">But as discomfort gave way to reflection, I realized something powerful.</span> <span class="ev-s">Footwear—something we take for granted is a blessing from God.</span> <span class="ev-s">In the Quran, God says: He has given you all that you asked of Him; and if you try to reckon up God’s favours, you will not be able to count them.</span> <span class="ev-s">Truly man is very unjust, very ungrateful.</span> <span class="ev-s"><span class="ev-ref">(14: 34)</span></span></p>
+        <p><span class="ev-s">We are surrounded by blessings—big and small, visible and hidden.</span> <span class="ev-s">But most of the time, we only realize their worth when they’re gone.</span> <span class="ev-s">A pair of slippers might seem insignificant, but it guards us against harm, pain, and dirt.</span> <span class="ev-s">It gives us dignity, comfort, and ease.</span></p>
+        <p><span class="ev-s">The Prophet Muhammad taught us a profound way to live: to notice our blessings, to be grateful, and to never belittle any gift, no matter how small.</span> <span class="ev-s">He said: “Look at those who are lower than you and do not look at those who are above you, for that is more likely to make you not belittle the blessings of God upon you.</span> <span class="ev-s">(Sahih Muslim)</span></p>
+        <p><span class="ev-s">That night, a missing pair of slippers taught me more than many sermons could.</span> <span class="ev-s">It reminded me to be alert—not just against theft—but alert to the gifts we live with each day.</span> <span class="ev-s">It reminded me to be humble, because everything we possess is temporary.</span> <span class="ev-s">And it reminded me to be thankful, because even something as simple as footwear can be a shield of mercy.</span></p>
+        <p><span class="ev-s">So, next time you slip your feet into your footwear, pause for a second.</span> <span class="ev-s">Say Alhamdulillah (All praise is due to God).</span> <span class="ev-s">That small whisper of gratitude could be the key to recognizing a world full of unnoticed favours.</span></p>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 14 · The Word of God ===================== -->
+  <section class="ev-item" id="soi-the-word-of-god" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">14</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">From the Scriptures</span>
+        <span class="ev-tab-title"><span class="ev-s">The Word of God</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>Translation and commentary by Maulana Wahiduddin Khan</span><span>·</span><span>3 min read</span></div>
+      
+      <div class="ev-body">
+        <aside class="ev-note"><span class="ev-note-label">From the scriptures</span><p><span class="ev-s">The Quran is the book of God.</span> <span class="ev-s">It has been preserved in its entirety since its revelation to the Prophet of Islam between CE 610 and 632.</span> <span class="ev-s">It is a book that brings glad tidings to humankind, along with divine admonition, and stresses the importance of man’s discovery of the Truth on a spiritual and intellectual level.</span></p><p><em>Translated from Arabic and commentary by Maulana Wahiduddin Khan</em></p><p><em>In the name of God, the Most Gracious, the Most Merciful.</em></p><p><em>Never forget that the life of this world is only a game and a passing delight, a show, and mutual boasting and trying to outrival each other in riches and children. It is like the growth of vegetation after the rain, which delights the planter, but which then withers away, turns yellow and becomes worthless stubble. In the life to come there will be a terrible punishment, or God’s forgiveness and approval: the life of this world is nothing but means of deception. Vie with one another for your Lord’s forgiveness and for a Paradise as vast as heaven and earth, which has been made ready for those who believe in God and His messengers. Such is God’s grace. He bestows it upon whoever He pleases. There is no limit to God’s bounty. (57: 20-21)</em></p><p><em>God has created examples of the Hereafter in this world. One of these examples is that of a field. When, after receiving water, the crops ripen, their greenery looks very attractive for a few days. But soon hot winds blow and they begin to wither away. Then, the crops are reaped and threshed. Similarly, the glamour of this world is also temporary. It lasts but a few days. After coming into possession of it, man becomes misled. He starts thinking that it is his everything. But, afterwards, when he is taken back to God, it will be evident to him that the glories of the world were valueless.</em></p><p><em>No misfortune can affect the earth or your own selves without its first having been recorded in a book, before We bring it into being. That is easy for God to do; so that you may not grieve for what has escaped you, nor be exultant over what you have gained. God loves neither the conceited nor the boastful, nor those who, being miserly themselves, urge others to be miserly. He who turns his back should remember that God alone is self-sufficient and worthy of all praise. (57: 22-24)</em></p><p><em>The receiving of things in the world or the losing of them is purely for the purpose of putting man to the test. Almighty God has settled in advance what shape man’s test-paper should take. A man should pay real attention not to what he has received or what has been taken away from him, but to how he reacted on each of these occasions. The correct and required reaction is that a man should not be disheartened if he suffers some loss, nor should he develop feelings of pride and vanity if he gains something.</em></p></aside>
+        <blockquote class="ev-thought"><p><span class="ev-s">God certainly helps those who rely on Him.</span></p></blockquote>
+        <div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div></div></div>
+  </section>
+  <!-- ===================== 15 · Your Questions Answered ===================== -->
+  <section class="ev-item" id="soi-your-questions-answered" data-audio="" data-audio-status="pending" role="listitem">
+    <button class="ev-tab" type="button" aria-expanded="false">
+      <span class="ev-num">15</span>
+      <span class="ev-tab-text">
+        <span class="ev-kicker">Questions and Answers</span>
+        <span class="ev-tab-title"><span class="ev-s">Your Questions Answered</span></span>
+      </span>
+      <span class="ev-chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+    </button>
+    <div class="ev-panel"><div class="ev-panel-inner"><div class="ev-content">
+      <div class="ev-meta"><span>3 min read</span></div>
+      
+      <div class="ev-body">
+        <aside class="ev-intro" aria-label="About this section"><span class="ev-intro-tag"><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M5 0 10 5 5 10 0 5z"/></svg>Before we begin</span><p class="ev-intro-saying">“<span class="ev-s">The remedy for ignorance is asking questions.</span>”</p><p class="ev-intro-who">— Prophet Muhammad</p><p class="ev-intro-text"><span class="ev-s">The spirit of enquiry is the hallmark of an open society and the above saying of the Prophet aptly illustrates this principle.</span> <span class="ev-s">A culture of curiosity and open-mindedness will foster development in any society by motivating its members to learn enthusiastically and enrich their knowledge.</span> <span class="ev-s">This is because awareness of one’s ignorance is half of knowledge, as it becomes a stepping-stone to seeking and finding answers.</span> <span class="ev-s">A questioning mind is like a flowing river that is replenished with fresh thoughts and ideas and continues on its journey.</span></p></aside>
+        <h3 class="ev-qh"><span><span class="ev-s">What is Hadith?</span></span></h3>
+        <p><span class="ev-s">The collection of sayings and teachings of the Prophet Muhammed is called Hadith.</span> <span class="ev-s">The Quran and Hadith constitute the most authentic source of Islamic scriptures.</span> <span class="ev-s">Through the Hadith, we get a glimpse of the man Muhammed was, how he conducted himself and his practical demonstration of Quranic guidance.</span> <span class="ev-s">The Quran constitutes important basic principles but does not go into details.</span> <span class="ev-s">The Hadith, on the contrary, provides explanations for Quranic teachings.</span> <span class="ev-s">For example, in the Quran, God enjoins us to be steadfast in prayer (salah).</span> <span class="ev-s">It is through the Hadith we know how it should be performed, number of units to be offered each time, the different duas to be recited in different parts of the prayer, etc.</span></p>
+        <h3 class="ev-qh"><span><span class="ev-s">What are the different books of Hadith?</span></span></h3>
+        <p><span class="ev-s">Some important books of Hadith are: Sahih Bukhari, Sahih Muslim, Sunan Abu Dawud, Sunan Al Tirmidhi, Sunan Ibn Majah, Musnad Ahmad, etc.</span></p>
+        <h3 class="ev-qh"><span><span class="ev-s">What does the Prophet say about seeking knowledge?</span></span></h3>
+        <p><span class="ev-s">The Prophet Muhammad emphasized the importance of seeking knowledge throughout life.</span> <span class="ev-s">He stated, “Seek knowledge even if you have to go as far as China,” indicating that the pursuit of knowledge should be relentless and without boundaries.</span> <span class="ev-s">This reflects the belief that knowledge is not limited to religious studies but encompasses all forms of wisdom beneficial to humanity.</span></p>
+        <p><span class="ev-s">The Prophet also remarked that “it is the duty of every Muslim, man or woman, to acquire knowledge.</span> <span class="ev-s">This highlights the quest for knowledge as an obligation for all believers.</span> <span class="ev-s">Education in Islam is seen as a means to realize God and understand the world more deeply.</span></p>
+        <p><span class="ev-s">Furthermore, the Prophet conveyed that “good questioning is the half of knowledge,” encouraging individuals to engage actively with their learning process.</span> <span class="ev-s">He taught that knowledge should be pursued not just for personal gain but as a means to develop a well-rounded character and contribute positively to society.</span></p>
+        <p><span class="ev-s">Additionally, the Prophet mentioned that “the worship performed by a learned man is a thousand times better than that performed by the ignorant worshipper,” suggesting that knowledge enhances one’s spiritual practice and understanding of faith.</span> <span class="ev-s">This interrelationship between knowledge and worship is crucial in Islamic teachings, fostering a deeper connection with God and the universe.</span></p>
+        <h3 class="ev-qh"><span><span class="ev-s">What was the character of the Prophet really like?</span></span></h3>
+        <p><span class="ev-s">The character of the Prophet Muhammad is described as having a ‘sublime character’, which is a central aspect of his Prophethood.</span> <span class="ev-s">His noble character was not only a reflection of his personal virtues but also served as a testament to his claim of being a prophet.</span> <span class="ev-s">Those who interacted with him often remarked on his impressive and dignified personality, which grew more admirable with age.</span> <span class="ev-s">The Quran emphasizes the importance of the Prophet’s character, stating that it was through God’s mercy that he was lenient and compassionate towards others, which allowed him to win their hearts.</span></p>
+        <p><span class="ev-s">His character was consistent with the principles he preached, demonstrating that he was a man of high moral standards and integrity.</span> <span class="ev-s">This is further supported by the testimony of his wife Aisha, who noted that the Prophet’s character was essentially a living embodiment of the Quran.</span> <span class="ev-s">Even in the face of adversity, the Prophet maintained a stance of forgiveness and compassion, famously praying for the guidance of his enemies rather than wishing them harm.</span> <span class="ev-s">This ability to embody mercy and kindness was a significant factor in shaping people’s perception of Islam and the acceptance of his message by many.</span> <span class="ev-s">The character of the Prophet Muhammad was marked by integrity, compassion, and a steadfast commitment to the truth, which not only defined his personal life but also shaped the foundation of Islamic teachings.</span></p>
+      </div>
+    </div></div></div>
+  </section>
+</div>
+<style>
+/* small additions for archive issues (footnotes, source lines, contact lines) */
+.soi-ev .ev-body p.ev-fn { font-size: 0.82rem !important; line-height: 1.6 !important; color: var(--ev-muted) !important; margin: 0 0 0.6em !important; }
+.soi-ev .ev-body p.ev-contact { text-align: right; font-size: 0.85rem !important; color: var(--ev-muted) !important; margin-top: -0.6em !important; }
+.soi-ev .ev-body p.ev-contact a, .soi-ev .ev-body p a.ev-a { color: var(--ev-primary); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; word-break: break-word; }
+.soi-ev blockquote.ev-quote, .soi-ev blockquote.ev-ayah { quotes: none; }
+.soi-ev .ev-body, .soi-ev .ev-body p, .soi-ev .ev-note { overflow-wrap: break-word; word-wrap: break-word; }
+.soi-ev .ev-body a.ev-a, .soi-ev .ev-body p.ev-fn { overflow-wrap: anywhere; }
+</style>
+
+<script>
+(function () {
+  var scopes = document.querySelectorAll('.soi-ev');
+
+  Array.prototype.forEach.call(scopes, function (scope) {
+    if (scope.dataset.evReady) return;
+    scope.dataset.evReady = '1';
+    var items = Array.prototype.filter.call(scope.querySelectorAll('.ev-item'), function (i) { return i.querySelector('.ev-tab'); });
+
+    function close(item) {
+      item.classList.remove('is-open');
+      item.querySelector('.ev-tab').setAttribute('aria-expanded', 'false');
+      var a = item._evAudio; if (a && !a.paused) a.pause();
+    }
+    /* height of anything fixed at the top of the screen (admin bar, sticky Divi header) */
+    function topOffset() {
+      var off = 0;
+      ['#wpadminbar', '#main-header', '#top-header', '.et-l--header .et_pb_sticky', '.et-l--header > .et_builder_inner_content'].forEach(function (sel) {
+        var e = document.querySelector(sel); if (!e) return;
+        var cs = getComputedStyle(e); if (cs.position !== 'fixed' && cs.position !== 'sticky') return;
+        var r = e.getBoundingClientRect(); if (r.top <= 2 && r.bottom > 0) off = Math.max(off, r.bottom);
+      });
+      /* phones: leave room for the browser's floating address bar */
+      return off + (window.matchMedia('(max-width: 640px)').matches ? 76 : 20);
+    }
+    function scrollToItem(item, smooth) {
+      var y = item.getBoundingClientRect().top + window.pageYOffset - topOffset();
+      window.scrollTo({ top: Math.max(0, y), behavior: smooth ? 'smooth' : 'auto' });
+    }
+    function open(item) {
+      /* close the others instantly, so the page does not shift while we scroll to this article */
+      items.forEach(function (other) {
+        if (other === item || !other.classList.contains('is-open')) return;
+        var panel = other.querySelector('.ev-panel'); if (panel) panel.style.transition = 'none';
+        close(other);
+        if (panel) { void panel.offsetHeight; panel.style.transition = ''; }
+      });
+      /* stop the browser's scroll anchoring from pushing the page down while the article expands */
+      var html = document.documentElement;
+      html.style.overflowAnchor = 'none';
+      clearTimeout(scope._evAnchorT);
+      item.classList.add('is-open');
+      item.querySelector('.ev-tab').setAttribute('aria-expanded', 'true');
+      requestAnimationFrame(function () { scrollToItem(item, true); });
+      setTimeout(function () {                 /* correct any drift once the opening animation is done */
+        var want = topOffset(), now = item.getBoundingClientRect().top;
+        if (Math.abs(now - want) > 6) scrollToItem(item, true);
+      }, 700);
+      scope._evAnchorT = setTimeout(function () { html.style.overflowAnchor = ''; }, 1500);
+      if (history.replaceState) history.replaceState(null, '', '#' + item.id);
+    }
+
+    items.forEach(function (item) {
+      item.querySelector('.ev-tab').addEventListener('click', function () {
+        item.classList.contains('is-open') ? close(item) : open(item);
+      });
+
+      /* Audio player: shows only when data-audio has an MP3 link */
+      var src = item.dataset.audio;
+      if (!src) return;
+      item.classList.add('has-audio');
+      var audio = item._evAudio = new Audio(src);
+      audio.preload = 'none';
+      var play = item.querySelector('.ev-listen-btn');
+      var fill = item.querySelector('.ev-listen-fill');
+      var time = item.querySelector('.ev-listen-time');
+      var track = item.querySelector('.ev-listen-track');
+      var PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+      var PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
+      function fmt(s) { s = Math.floor(s || 0); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
+      play.addEventListener('click', function () { audio.paused ? audio.play() : audio.pause(); });
+      audio.addEventListener('play', function () { play.innerHTML = PAUSE; });
+      audio.addEventListener('pause', function () { play.innerHTML = PLAY; });
+      audio.addEventListener('timeupdate', function () {
+        fill.style.width = (audio.currentTime / (audio.duration || 1) * 100) + '%';
+        time.textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
+      });
+      track.addEventListener('click', function (e) {
+        var r = track.getBoundingClientRect();
+        audio.currentTime = ((e.clientX - r.left) / r.width) * (audio.duration || 0);
+      });
+    });
+
+    /* Open the article named in the link, e.g. ...?page_id=3389#the-purpose-of-life */
+    var target = location.hash && scope.querySelector(location.hash.replace(/[^#\w-]/g, ''));
+    if (target && target.classList.contains('ev-item')) open(target);
+  });
+})();
+</script>
+<script>
+/* ===== Read-along audio player · Spirit of Islam e-version ===== */
+(function () {
+  if (window.__soiPlayer) return; window.__soiPlayer = true;
+  var SPEEDS = [[0.75, 'Slower'], [1, 'Normal'], [1.25, ''], [1.5, ''], [1.75, ''], [2, 'Fastest']];
+  var COUNTDOWN = 5;
+  function fmt(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+  var settings = {
+    speed: parseFloat(store('soiAudioSpeed')) || 1,
+    follow: store('soiAudioFollow') !== '0',
+    next: store('soiAudioNext') !== '0'
+  };
+
+  /* one audio element for every article, so the next article can start on its own (needed on iPhone) */
+  var audio = new Audio(); audio.preload = 'metadata';
+  var active = null, list = [];
+  var userScrolledAt = 0;
+  window.addEventListener('wheel', function () { userScrolledAt = Date.now(); }, { passive: true });
+  window.addEventListener('touchmove', function () { userScrolledAt = Date.now(); }, { passive: true });
+
+  function Player(item) {
+    var P = this;
+    var el = item.querySelector('.ev-player'), tag = el.querySelector('audio');
+    P.item = item; P.el = el; P.src = tag.getAttribute('src'); P.pos = 0; P.triedBlob = false;
+    P.title = item.querySelector('.ev-tab-title').textContent.trim();
+    P.total = parseFloat(el.dataset.duration) || 0;
+    P.spot = el.parentNode;
+    P.playBtn = el.querySelector('.ev-pl-play'); P.timeEl = el.querySelector('.ev-pl-time');
+    P.seek = el.querySelector('.ev-pl-seek'); P.errorEl = el.querySelector('.ev-pl-error');
+    P.menu = el.querySelector('.ev-pl-menu'); P.speedBtn = el.querySelector('.ev-pl-speed');
+    P.nextBox = el.querySelector('.ev-pl-next');
+    P.spans = Array.prototype.slice.call(item.querySelectorAll('.ev-s[data-t]'));
+    P.starts = P.spans.map(function (s) { return parseFloat(s.dataset.t); });
+    P.current = -1; P.spotVisible = true; P.countTimer = null;
+    item.classList.add('has-player');
+    P.timeEl.textContent = '0:00 / ' + fmt(P.total);
+    P.syncSettings();
+
+    P.playBtn.addEventListener('click', function () { if (active === P && !audio.paused) audio.pause(); else P.play(); });
+    el.querySelector('.ev-pl-back').addEventListener('click', function () { P.jump(-10); });
+    el.querySelector('.ev-pl-fwd').addEventListener('click', function () { P.jump(10); });
+    el.querySelector('.ev-pl-close').addEventListener('click', function () { if (active === P) audio.pause(); P.cancelNext(); P.undock(true); });
+
+    /* menu */
+    P.speedBtn.addEventListener('click', function (e) { e.stopPropagation(); P.toggleMenu(); });
+    P.menu.addEventListener('click', function (e) { e.stopPropagation(); });
+    P.menu.querySelectorAll('.ev-pl-sp').forEach(function (b) {
+      b.addEventListener('click', function () { setSpeed(parseFloat(b.dataset.v)); P.toggleMenu(false); });
+    });
+    P.menu.querySelector('.ev-pl-o-follow').addEventListener('click', function () { settings.follow = !settings.follow; store('soiAudioFollow', settings.follow ? '1' : '0'); syncAll(); });
+    P.menu.querySelector('.ev-pl-o-next').addEventListener('click', function () { settings.next = !settings.next; store('soiAudioNext', settings.next ? '1' : '0'); syncAll(); });
+    document.addEventListener('click', function () { P.toggleMenu(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') P.toggleMenu(false); });
+
+    /* up next */
+    el.querySelector('.ev-pl-go').addEventListener('click', function () { P.goNext(); });
+    el.querySelector('.ev-pl-cancel').addEventListener('click', function () { P.cancelNext(); P.updateDock(); });
+
+    /* seek */
+    var dragging = false;
+    function seekTo(e) {
+      var r = P.seek.getBoundingClientRect(), p = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
+      P.setTime(p * P.dur());
+    }
+    P.seek.addEventListener('pointerdown', function (e) { dragging = true; try { P.seek.setPointerCapture(e.pointerId); } catch (x) {} seekTo(e); });
+    P.seek.addEventListener('pointermove', function (e) { if (dragging) seekTo(e); });
+    P.seek.addEventListener('pointerup', function () { dragging = false; });
+    P.seek.addEventListener('pointercancel', function () { dragging = false; });
+    P.seek.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { P.jump(5); e.preventDefault(); }
+      if (e.key === 'ArrowLeft') { P.jump(-5); e.preventDefault(); }
+    });
+
+    /* tap a sentence to listen from there */
+    P.spans.forEach(function (s, i) {
+      if (s.closest('.ev-tab')) return;
+      s.addEventListener('click', function () { P.play(P.starts[i]); });
+    });
+
+    /* is the player's place in the article on screen? */
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        P.spotVisible = entries[0].isIntersecting; P.updateDock();
+      }, { threshold: 0 }).observe(P.spot);
+    }
+
+    /* stop when the article closes; let the player stick once the article has opened */
+    var wasOpen = false;
+    new MutationObserver(function () {
+      var open = item.classList.contains('is-open');
+      if (open === wasOpen) return;
+      wasOpen = open;
+      if (open) setTimeout(function () { if (item.classList.contains('is-open') && !item.classList.contains('is-settled')) item.classList.add('is-settled'); }, 650);
+      else {
+        if (item.classList.contains('is-settled')) item.classList.remove('is-settled');
+        if (active === P && !P.handingOver) audio.pause();
+        P.cancelNext(); P.undock(false);
+      }
+    }).observe(item, { attributes: true, attributeFilter: ['class'] });
+  }
+
+  Player.prototype.dur = function () { return active === this && isFinite(audio.duration) && audio.duration > 0 ? audio.duration : this.total; };
+  Player.prototype.draw = function (t) {
+    var d = this.dur(), p = d ? Math.min(100, t / d * 100) : 0;
+    this.el.style.setProperty('--p', p + '%');
+    this.timeEl.textContent = fmt(t) + ' / ' + fmt(d);
+    this.seek.setAttribute('aria-valuenow', Math.round(p));
+  };
+  Player.prototype.highlight = function (t, ended) {
+    var i = -1;
+    if (!ended) for (var k = 0; k < this.starts.length; k++) { if (this.starts[k] <= t + 0.05) i = k; else break; }
+    if (i === this.current) return;
+    if (this.current >= 0 && this.spans[this.current]) this.spans[this.current].classList.remove('is-reading');
+    this.current = i;
+    if (i < 0) return;
+    var s = this.spans[i]; s.classList.add('is-reading');
+    if (settings.follow && active === this && !audio.paused && Date.now() - userScrolledAt > 4000 && !s.closest('.ev-tab')) {
+      var r = s.getBoundingClientRect(), vh = window.innerHeight;
+      if (r.top < vh * 0.25 || r.bottom > vh * 0.7) window.scrollBy({ top: r.top - vh * 0.38, behavior: 'smooth' });
+    }
+  };
+  function canSeek(t) {
+    var r = audio.seekable;
+    for (var i = 0; r && i < r.length; i++) if (r.start(i) <= t && t <= r.end(i)) return true;
+    return false;
+  }
+  Player.prototype.setTime = function (t) {
+    var P = this;
+    t = Math.max(0, Math.min(P.dur(), t));
+    P.pos = t;
+    if (active === P && audio.readyState > 0) {
+      if (canSeek(t) || t < 0.5) { try { audio.currentTime = t; } catch (e) {} }
+      else P.loadWhole(t);          /* the host does not allow jumping inside the file: download it once */
+    }
+    P.draw(t); P.highlight(t, false);
+  };
+  Player.prototype.loadWhole = function (t) {
+    var P = this;
+    if (P.loadingWhole || /^blob:/.test(audio.src) || !window.fetch) return;
+    P.loadingWhole = true; P.playBtn.classList.add('is-loading');
+    var wasPlaying = !audio.paused;
+    fetch(P.src).then(function (r) { if (!r.ok) throw new Error(r.status); return r.blob(); }).then(function (b) {
+      P.loadingWhole = false; P.triedBlob = true;
+      P.src = URL.createObjectURL(b);
+      if (active !== P) return;
+      audio.src = P.src;
+      audio.addEventListener('loadedmetadata', function once() {
+        audio.removeEventListener('loadedmetadata', once);
+        try { audio.currentTime = P.pos; } catch (e) {}
+        if (wasPlaying) { audio.playbackRate = settings.speed; audio.play(); }
+        P.playBtn.classList.remove('is-loading');
+      });
+    }).catch(function () { P.loadingWhole = false; P.playBtn.classList.remove('is-loading'); });
+  };
+  Player.prototype.jump = function (by) { this.setTime((active === this ? audio.currentTime : this.pos) + by); };
+
+  Player.prototype.activate = function () {
+    if (active === this) return;
+    if (active) { active.pos = audio.currentTime; active.el.classList.remove('is-playing'); active.undock(false); active.cancelNext(); }
+    active = this; this.triedBlob = false;
+    audio.src = this.src; audio.playbackRate = settings.speed; audio.defaultPlaybackRate = settings.speed;
+  };
+  Player.prototype.play = function (from) {
+    var P = this;
+    P.cancelNext(); P.errorEl.hidden = true;
+    var fresh = active !== P;
+    P.activate();
+    P.playBtn.classList.add('is-loading');
+    var target = from != null ? from : P.pos;
+    var go = function () {
+      if (target && Math.abs(audio.currentTime - target) > 0.25) {
+        if (canSeek(target)) { try { audio.currentTime = target; } catch (e) {} }
+        else if (audio.readyState > 0) { P.pos = target; P.loadWhole(target); }
+      }
+      audio.playbackRate = settings.speed;
+      var pr = audio.play();
+      if (pr && pr.catch) pr.catch(function (err) {
+        if (err && err.name === 'NotAllowedError') P.fail('Your browser paused the audio. Press play to continue.');
+        else if (err && err.name !== 'AbortError') P.retryAsBlob();
+      });
+    };
+    if (fresh && audio.readyState < 1) {
+      audio.addEventListener('loadedmetadata', function once() { audio.removeEventListener('loadedmetadata', once); go(); });
+      go();
+    } else go();
+  };
+  /* fallback: download the file and play it from memory (helps on hosts that block direct streaming) */
+  Player.prototype.retryAsBlob = function () {
+    var P = this;
+    if (P.triedBlob || !window.fetch || /^(blob|data):/.test(audio.src)) return P.fail();
+    P.triedBlob = true;
+    fetch(P.src).then(function (r) { if (!r.ok) throw new Error(r.status); return r.blob(); }).then(function (b) {
+      if (active !== P) return;
+      P.src = URL.createObjectURL(b); audio.src = P.src; P.play(P.pos);
+    }).catch(function () { P.fail(); });
+  };
+  Player.prototype.fail = function (msg) {
+    this.playBtn.classList.remove('is-loading');
+    this.errorEl.innerHTML = msg || ('The audio file could not be loaded. Please check that it is uploaded at:<br /><code>' + (this.el.querySelector('audio').getAttribute('src') || '').replace(/</g, '&lt;') + '</code>');
+    this.errorEl.hidden = false;
+  };
+
+  /* dock only while playing (or counting down to the next article) and when the reader has scrolled away */
+  Player.prototype.updateDock = function () {
+    var want = active === this && (!audio.paused || this.countTimer) && !this.spotVisible && this.item.classList.contains('is-open');
+    if (want) this.dock(); else this.undock(true);
+  };
+  Player.prototype.dock = function () {
+    if (this.el.classList.contains('is-docked') && !this.el.classList.contains('is-leaving')) return;
+    clearTimeout(this.leaveT);
+    this.spot.style.minHeight = this.spot.offsetHeight + 'px';
+    this.el.classList.remove('is-leaving'); this.el.classList.add('is-docked');
+  };
+  Player.prototype.undock = function (animate) {
+    var P = this;
+    if (!P.el.classList.contains('is-docked')) return;
+    P.toggleMenu(false);
+    var done = function () { P.el.classList.remove('is-docked', 'is-leaving'); P.spot.style.minHeight = ''; };
+    if (animate) { P.el.classList.add('is-leaving'); clearTimeout(P.leaveT); P.leaveT = setTimeout(done, 340); } else done();
+  };
+  Player.prototype.toggleMenu = function (force) {
+    var open = force != null ? force : this.menu.hidden;
+    if (open) list.forEach(function (o) { if (o.menu !== this.menu) o.menu.hidden = true; }, this);
+    this.menu.hidden = !open; this.speedBtn.setAttribute('aria-expanded', String(open));
+    if (open) {
+      var m = this.menu, wrap = m.parentNode.getBoundingClientRect(), vw = document.documentElement.clientWidth, pad = 10, mw = m.offsetWidth, left;
+      if (vw <= 640) { var pr = this.el.getBoundingClientRect(); left = pr.left + (pr.width - mw) / 2; }   /* phones: centred on the player */
+      else left = wrap.right - mw;                                                                         /* larger screens: under the Speed button */
+      left = Math.max(pad, Math.min(left, vw - pad - mw));
+      m.style.right = (wrap.right - (left + mw)) + 'px';
+    }
+  };
+  Player.prototype.syncSettings = function () {
+    var v = settings.speed;
+    this.el.querySelector('.ev-pl-speedval').textContent = v + '×';
+    this.menu.querySelectorAll('.ev-pl-sp').forEach(function (b) { b.setAttribute('aria-checked', String(parseFloat(b.dataset.v) === v)); });
+    this.menu.querySelector('.ev-pl-o-follow').setAttribute('aria-checked', String(settings.follow));
+    this.menu.querySelector('.ev-pl-o-next').setAttribute('aria-checked', String(settings.next));
+  };
+
+  /* up next */
+  Player.prototype.nextPlayer = function () { var i = list.indexOf(this); return i >= 0 && i < list.length - 1 ? list[i + 1] : null; };
+  Player.prototype.startCountdown = function () {
+    var P = this, N = P.nextPlayer();
+    if (!settings.next || !N) return;
+    P.nextBox.querySelector('.ev-pl-next-text b').textContent = N.title;
+    P.nextBox.hidden = false;
+    var left = COUNTDOWN, num = P.nextBox.querySelector('.ev-pl-count b'), ring = P.nextBox.querySelector('.c-fg');
+    ring.style.transition = 'none'; ring.style.strokeDashoffset = 0; num.textContent = left;
+    requestAnimationFrame(function () { ring.style.transition = ''; ring.style.strokeDashoffset = 94.2 / COUNTDOWN; });
+    P.countTimer = setInterval(function () {
+      left--; num.textContent = Math.max(0, left);
+      ring.style.strokeDashoffset = 94.2 * Math.min(1, (COUNTDOWN - left + 1) / COUNTDOWN);
+      if (left <= 0) P.goNext();
+    }, 1000);
+    P.updateDock();
+  };
+  Player.prototype.cancelNext = function () {
+    if (this.countTimer) { clearInterval(this.countTimer); this.countTimer = null; }
+    this.nextBox.hidden = true;
+  };
+  Player.prototype.goNext = function () {
+    var P = this, N = P.nextPlayer();
+    P.cancelNext();
+    if (!N) return;
+    P.handingOver = true;
+    N.pos = 0; N.activate();                  /* switch the shared audio while still allowed to play */
+    var tab = N.item.querySelector('.ev-tab');
+    if (!N.item.classList.contains('is-open')) tab.click();
+    setTimeout(function () { P.handingOver = false; }, 50);
+    N.play(0);
+  };
+
+  function setSpeed(v) { settings.speed = v; audio.playbackRate = v; audio.defaultPlaybackRate = v; store('soiAudioSpeed', v); syncAll(); }
+  function syncAll() { list.forEach(function (p) { p.syncSettings(); }); }
+
+  /* audio events go to whichever article is active */
+  audio.addEventListener('playing', function () {
+    if (!active) return;
+    active.playBtn.classList.remove('is-loading'); active.el.classList.add('is-playing', 'is-started');
+    active.playBtn.setAttribute('aria-label', 'Pause'); active.updateDock();
+  });
+  audio.addEventListener('pause', function () {
+    if (!active) return;
+    active.pos = audio.currentTime; active.el.classList.remove('is-playing'); active.playBtn.setAttribute('aria-label', 'Play');
+    var a = active; setTimeout(function () { a.updateDock(); }, 250);
+  });
+  audio.addEventListener('waiting', function () { if (active) active.playBtn.classList.add('is-loading'); });
+  audio.addEventListener('canplay', function () { if (active) active.playBtn.classList.remove('is-loading'); });
+  audio.addEventListener('timeupdate', function () { if (!active) return; active.draw(audio.currentTime); active.highlight(audio.currentTime, false); });
+  audio.addEventListener('loadedmetadata', function () { if (active) active.draw(audio.currentTime); });
+  audio.addEventListener('ended', function () {
+    if (!active) return;
+    var a = active; a.pos = 0; a.highlight(0, true); a.draw(a.dur());
+    a.startCountdown();
+    if (!a.countTimer) a.updateDock();
+  });
+  audio.addEventListener('error', function () { if (active && audio.src) active.retryAsBlob(); });
+  audio.addEventListener('play', function () {
+    if (!active || !('mediaSession' in navigator)) return;
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({ title: active.title, artist: 'Spirit of Islam', album: "Issue 124 · May–Jun 2025" });
+      navigator.mediaSession.setActionHandler('seekbackward', function () { active.jump(-10); });
+      navigator.mediaSession.setActionHandler('seekforward', function () { active.jump(10); });
+      navigator.mediaSession.setActionHandler('nexttrack', function () { if (active.nextPlayer()) active.goNext(); });
+    } catch (e) {}
+  });
+
+  document.querySelectorAll('.soi-ev .ev-item').forEach(function (item) {
+    var el = item.querySelector('.ev-player');
+    if (!el || el.dataset.ready) return;
+    el.dataset.ready = '1';
+    var tag = el.querySelector('audio');
+    if (!tag || !tag.getAttribute('src')) { el.hidden = true; return; }
+    list.push(new Player(item));
+  });
+})();
+</script>
+
+<!-- quiz pending: issues/2025-05/quiz.json not written yet -->
+
+<style>
+/* ---- Fit to the page: only the Divi section/row that holds this block ---- */
+.et_pb_section:has(.soi-ev) { background-color: #EEEEE5 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
+.et_pb_section:has(.soi-ev) > .et_pb_row:has(.soi-ev) {
+  width: 100% !important; max-width: none !important; padding-top: 0 !important; padding-bottom: 0 !important;
+}
+.et_pb_module:has(.soi-ev) { margin-bottom: 0 !important; }
+
+/* Same width and side margins as the magazine banner above (880px max; 16px sides, 28px on phones) */
+div.soi-ev { box-shadow: none; clip-path: none; width: calc(100% - 2rem); max-width: 880px; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0; }
+#soi-quiz { padding-left: 0 !important; padding-right: 0 !important; }
+#soi-quiz .z-wrap { width: calc(100% - 2rem); max-width: 880px; margin-left: auto; margin-right: auto; }
+@media (max-width: 640px) {
+  div.soi-ev, #soi-quiz .z-wrap { width: calc(100% - 3.5rem); }
+
+  /* tabs: tighter, calmer on phones */
+  .soi-ev button.ev-tab { gap: 0.75rem; padding: 0.95rem 0.95rem 0.95rem 0.85rem; }
+  .soi-ev .ev-num { width: 2.1rem; height: 2.1rem; font-size: 0.72rem; }
+  .soi-ev .ev-kicker { font-size: 0.6rem; letter-spacing: 0.1em; line-height: 1.45; margin-bottom: 0.3rem; }
+  .soi-ev .ev-tab-title { font-size: 1.12rem; line-height: 1.22; }
+  .soi-ev .ev-chev { width: 1.9rem; height: 1.9rem; }
+  .soi-ev .ev-content { padding: 1.35rem 1.1rem 1.6rem; }
+  .soi-ev .ev-meta { font-size: 0.76rem; gap: 0.2rem 0.75rem; }
+  .soi-ev .ev-meta > span:nth-child(even) { display: none; }
+  .soi-ev .ev-note { padding: 1.1rem 1rem 1rem; }
+  .soi-ev .ev-ayah { padding: 1.1rem 1.1rem !important; }
+}
+@media (max-width: 420px) {
+  .soi-ev .ev-player { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .soi-ev .ev-pl-row { gap: 0.45rem; }
+  .soi-ev .ev-pl-info { min-width: 3.4rem; }
+  .soi-ev .ev-pl-time { font-size: 0.72rem; white-space: normal; line-height: 1.25; }
+  .soi-ev button.ev-pl-btn, .soi-ev a.ev-pl-btn { min-width: 34px; padding-left: 0.05rem; padding-right: 0.05rem; }
+}
+</style>
+<style>
+/* ---- Go-to-top button with reading progress (added to <body> by the script below) ---- */
+#soi-gotop {
+  all: unset; box-sizing: border-box; position: fixed; z-index: 99991; cursor: pointer;
+  right: calc(18px + env(safe-area-inset-right, 0px)); bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center;
+  background: conic-gradient(#D4CC73 calc(var(--soi-p, 0) * 360deg), rgba(32, 78, 96, 0.16) 0);
+  box-shadow: 0 12px 26px -12px rgba(18, 50, 62, 0.6);
+  opacity: 0; visibility: hidden; transform: translateY(14px) scale(0.92);
+  transition: opacity 0.35s ease, visibility 0.35s, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), bottom 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  -webkit-tap-highlight-color: transparent;
+}
+#soi-gotop::before { content: ''; position: absolute; inset: 4px; border-radius: 50%; background: #F8F8F2; box-shadow: inset 0 0 0 1px #D7D8CA; }
+#soi-gotop.is-shown { opacity: 1; visibility: visible; transform: none; }
+#soi-gotop svg { position: relative; width: 20px; height: 20px; stroke: #204E60; fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; animation: soiSoiGotopBob 1.8s ease-in-out infinite; transition: opacity 0.25s ease; }
+#soi-gotop .soi-gotop-pct {
+  position: absolute; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px; font-weight: 800; line-height: 1; color: #204E60; font-variant-numeric: tabular-nums;
+  opacity: 0; transform: translateY(6px); transition: opacity 0.25s ease, transform 0.25s ease;
+}
+#soi-gotop:hover svg, #soi-gotop.is-pressed svg { opacity: 0; animation: none; }
+#soi-gotop:hover .soi-gotop-pct, #soi-gotop.is-pressed .soi-gotop-pct { opacity: 1; transform: none; }
+#soi-gotop:hover { transform: translateY(-3px); }
+#soi-gotop:focus-visible { outline: 3px solid #D4CC73; outline-offset: 3px; }
+@keyframes soiSoiGotopBob { 50% { transform: translateY(-3px); } }
+@media (max-width: 640px) { #soi-gotop { width: 48px; height: 48px; right: calc(14px + env(safe-area-inset-right, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); } }
+@media (prefers-reduced-motion: reduce) { #soi-gotop, #soi-gotop * { animation: none !important; transition: none !important; } }
+</style>
+<script>
+(function () {
+  if (document.getElementById('soi-gotop')) return;
+  var btn = document.createElement('button');
+  btn.id = 'soi-gotop'; btn.type = 'button'; btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span class="soi-gotop-pct" aria-hidden="true">0%</span>';
+  document.body.appendChild(btn);
+  var pct = btn.querySelector('.soi-gotop-pct'), ticking = false, last = -1;
+
+  function update() {
+    ticking = false;
+    var doc = document.documentElement, max = Math.max(1, doc.scrollHeight - window.innerHeight);
+    var y = window.pageYOffset || doc.scrollTop, p = Math.min(1, Math.max(0, y / max)), n = Math.round(p * 100);
+    btn.style.setProperty('--soi-p', p.toFixed(4));
+    if (n !== last) { last = n; pct.textContent = n + '%'; btn.setAttribute('aria-label', 'Back to top, ' + n + '% read'); }
+    btn.classList.toggle('is-shown', y > 500);
+    place();
+  }
+  /* move up while the docked audio player would sit underneath */
+  function place() {
+    var dock = document.querySelector('.ev-player.is-docked:not(.is-leaving)'), lift = '';
+    if (dock) {
+      var d = dock.getBoundingClientRect(), b = btn.getBoundingClientRect();
+      if (d.right > b.left - 8 && d.left < b.right + 8) lift = (window.innerHeight - d.top + 12) + 'px';
+    }
+    btn.style.bottom = lift;
+  }
+  function request() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+  window.addEventListener('scroll', request, { passive: true });
+  window.addEventListener('resize', request);
+  window.addEventListener('load', request);
+  if ('MutationObserver' in window) {
+    new MutationObserver(function (list) {
+      for (var i = 0; i < list.length; i++) if (list[i].target.classList && list[i].target.classList.contains('ev-player')) { request(); setTimeout(request, 400); return; }
+    }).observe(document.body, { subtree: true, attributes: true, attributeFilter: ['class'] });
+  }
+  btn.addEventListener('click', function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    btn.blur();
+  });
+  btn.addEventListener('touchstart', function () { btn.classList.add('is-pressed'); }, { passive: true });
+  ['touchend', 'touchcancel'].forEach(function (t) { btn.addEventListener(t, function () { setTimeout(function () { btn.classList.remove('is-pressed'); }, 250); }, { passive: true }); });
+  update();
+})();
+</script>

@@ -1,0 +1,413 @@
+{
+ "slug": "2018-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-aim-of-islam",
+   "title": "The Aim of Islam",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 599,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "womanhood-in-islam",
+   "title": "Womanhood in Islam",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 1031,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "omankind"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "jesus-in-the-islamic-scripture",
+   "title": "Jesus in the Islamic Scripture",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 829,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "for-the-good-of-humankind",
+   "title": "For the Good of Humankind",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 448,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p12b12",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "repetition-in-the-quran",
+   "title": "Repetition in the Quran",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 520,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "reading"
+     ]
+    },
+    {
+     "item": "p14b8",
+     "kind": "p",
+     "words": [
+      "teadrinkers"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-faithful-ones",
+   "title": "The Faithful Ones",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 367,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "peace-in-kashmir",
+   "title": "Peace in Kashmir",
+   "pages": [
+    17,
+    23
+   ],
+   "words": 2540,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p20b5",
+     "kind": "p",
+     "words": [
+      "counterproductive"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "lessons-from-nature",
+   "title": "Lessons from Nature",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 566,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "adam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "spiritual-quest",
+   "title": "Spiritual Quest",
+   "pages": [
+    26,
+    28
+   ],
+   "words": 1026,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "great-goals",
+   "title": "Great Goals",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "creative-thinking",
+   "title": "Creative Thinking",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 413,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "opticians"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "sound-judgement",
+   "title": "Sound Judgement",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "abu"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "meaningful-life",
+   "title": "Meaningful Life",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 488,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "wisdom-from-the-prophet",
+   "title": "Wisdom from the Prophet",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 419,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-successful-method",
+   "title": "The Successful Method",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 443,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "an-identity-card",
+   "title": "An Identity Card",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 410,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "remembrance-of-death",
+   "title": "Remembrance of Death",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 767,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "history"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "global-warming",
+   "title": "Global Warming",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1069,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "right-choice",
+   "title": "Right Choice",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 821,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "machines"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-practical-approach",
+   "title": "The Practical Approach",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 262,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p44b4",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 839,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 764,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 23,
+   "id": "re-engineering-minds-towards-peace",
+   "title": "Re-Engineering Minds Towards Peace",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 435,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26560,
+ "article_words": 15725
+}

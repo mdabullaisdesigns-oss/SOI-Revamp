@@ -1,0 +1,310 @@
+{
+ "slug": "2013-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "non-violence-a-way-of-life",
+   "title": "Non-Violence—a Way of Life",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 1064,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p6b3",
+     "kind": "p",
+     "words": [
+      "nonviolence"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "truth-an-analysis",
+   "title": "Truth—an Analysis",
+   "pages": [
+    9,
+    11
+   ],
+   "words": 1117,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-concept-of-tawheed",
+   "title": "The Concept of Tawheed",
+   "pages": [
+    12,
+    14
+   ],
+   "words": 1012,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p12b2",
+     "kind": "p",
+     "words": [
+      "fundamental"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "a-price-for-everything",
+   "title": "A Price for Everything",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 267,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p15b2",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "cultural-version-of-islam",
+   "title": "Cultural Version of Islam",
+   "pages": [
+    16,
+    18
+   ],
+   "words": 857,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "accepting-defeat",
+   "title": "Accepting Defeat",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 296,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p19b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "a-sublime-character",
+   "title": "A Sublime Character",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 602,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p20b2",
+     "kind": "p",
+     "words": [
+      "eastern"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-issue-abuse-of-the-prophet",
+   "title": "The Issue: Abuse of the Prophet",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1014,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p22b2",
+     "kind": "p",
+     "words": [
+      "muslims"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-concept-of-biological-evolution",
+   "title": "The Concept of Biological Evolution",
+   "pages": [
+    25,
+    31
+   ],
+   "words": 2320,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "freedom-in-the-creation-plan-of-god",
+   "title": "Freedom in the Creation Plan of God",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 351,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "assalamu-alaikum",
+   "title": "Assalamu Alaikum",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 567,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p33b2",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "social-harmony",
+   "title": "Social Harmony",
+   "pages": [
+    35,
+    37
+   ],
+   "words": 1005,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p35b2",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-most-important-part-of-the-quran",
+   "title": "The Most Important Part of the Quran",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 404,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "while"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "is-science-in-pursuit-of-god",
+   "title": "Is Science in Pursuit of God?",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 574,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p39b2",
+     "kind": "p",
+     "words": [
+      "from"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "spiritual-progress",
+   "title": "Spiritual Progress",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 346,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p41b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 1128,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    50
+   ],
+   "words": 915,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 14905,
+ "article_words": 13839
+}

@@ -1,0 +1,242 @@
+{
+ "slug": "2018-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-price-of-being-a-taker",
+   "title": "The Price of Being a Taker",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 714,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "heres-the-truth-behind-the-veil",
+   "title": "Here’s the Truth Behind the Veil",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 1160,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "faith-and-reason",
+   "title": "Faith and Reason",
+   "pages": [
+    10,
+    16
+   ],
+   "words": 2832,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "islam-in-a-pluralistic-society",
+   "title": "Islam in a Pluralistic Society",
+   "pages": [
+    17,
+    21
+   ],
+   "words": 1967,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "faith-in-god",
+   "title": "Faith in God",
+   "pages": [
+    22,
+    25
+   ],
+   "words": 1383,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "acknowledgment-of-others-basis-of-love",
+   "title": "Acknowledgment of Others—basis of Love",
+   "pages": [
+    26,
+    28
+   ],
+   "words": 891,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "remember-everything-is-temporary",
+   "title": "Remember, Everything Is Temporary",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 631,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p29b2",
+     "kind": "p",
+     "words": [
+      "ernest"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-period-of-old-age",
+   "title": "The Period of Old Age",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 682,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "politico-spiritual-rendezvous",
+   "title": "Politico-Spiritual Rendezvous",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 590,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p33b2",
+     "kind": "p",
+     "words": [
+      "rudyard"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "realization-of-god",
+   "title": "Realization of God",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 513,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "moses"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "a-believers-attitude-towards-his-neighbour",
+   "title": "A Believer’s Attitude Towards His Neighbour",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 1012,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "love"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-material-and-the-immaterial",
+   "title": "The Material and the Immaterial",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 603,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "deana"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-straight-path",
+   "title": "The Straight Path",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 288,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "death-a-stage-in-life",
+   "title": "Death: A Stage in Life",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 390,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 560,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    49
+   ],
+   "words": 1467,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.97,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26707,
+ "article_words": 15683
+}

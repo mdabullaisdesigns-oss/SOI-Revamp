@@ -23,7 +23,10 @@ with sync_playwright() as pw:
         browser = pw.chromium.launch(channel="chrome")
     except Exception:
         browser = pw.chromium.launch()
-    for width, height in [(1280, 800), (768, 1024), (390, 844), (320, 640)]:
+    sizes = [(1280, 800), (768, 1024), (390, 844), (320, 640)]
+    if "--quick" in sys.argv:                       # batch runs: the widest and the narrowest (same template for every issue)
+        sizes = [sizes[0], sizes[-1]]
+    for width, height in sizes:
         ctx = browser.new_context(viewport={"width": width, "height": height}, has_touch=width < 500)
         ctx.route("**/*", lambda r: r.abort() if r.request.url.startswith("http") else r.continue_())
         page = ctx.new_page()

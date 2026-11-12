@@ -1,0 +1,771 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b1"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 6,
+   "text": "ENGLISH BIMONTHLY ISSUE 119 JULY-AUGUST 2024"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "title",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITOF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "Towards Global Peace & Spiritual Living"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b3",
+    "p1b4",
+    "p1b5"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 25,
+   "text": "Our world is full of opportunities. If someone fails to achieve something, he should take it as a delay and not as a final failure."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "A MAGAZINE FOR THE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "JOURNEY OF LIFE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b11"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 62,
+   "text": "This is a current magazine. Its articles are based on sound principles of reason and science with a particular emphasis on the spirit of Islam rather than the form or the ritual. All the articles have been either written by Maulana Wahiduddin Khan, translated from his Urdu writings, or based on his writings developed by a team trained and guided by him."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Spirit of Islam bimonthly…"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 20,
+   "text": "4 Presents Islam, the religion of nature, in the contemporary idiom to help Muslims rediscover Islam from the original sources"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Explains Creation plan of God for humankind"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Enlightens people on the subject of global peace"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "4 Addresses contemporary issues"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Assists the readers to deal with life’s challenges"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b9"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "4 Offers Spirituality to a wider circle of seekers"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "4 Fosters greater communal harmony through religious understanding"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "United in prayers SOI Editorial Committee"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b2"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 34,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b18"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "ISSUE 119 JULY - AUGUST 2024"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "EDITOR-IN-CHIEF PROF. FARIDA KHANAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4",
+    "p3b12"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "EDITORIAL DIRECTOR OFFICE SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b5",
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "DR. NAGHMA SIDDIQI Bengaluru"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "ADVISORS"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "bio",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "Karnataka, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6",
+    "p3b7"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "INAYATHULLAH UMRI PROF. ZAHEERUDDIN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.cpsglobal.org"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "SENIOR EDITOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8",
+    "p3b16",
+    "p3b17"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 8,
+   "text": "MOHAMMAD USMAN FOR ARCHIVES & ARTICLE SEARCH www.spiritofislam.co.in"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "DEPUTY EDITOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b10"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "SUBIA KAUSER"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "C"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 4,
+   "text": "< CONSCIOUS WORSHIP 12"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b2"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "O"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 8,
+   "text": "< SHIFT THE FOCUS TO DUTY-BASED APPROACH 14"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b3"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "N"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 9,
+   "text": "< THE BELIEVER MUST ALSO BE A TRAVELLER 16"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 6,
+   "text": "< THE PHILOSOPHY OF COMPANIONSHIP 18"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "T"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 5,
+   "text": "< TOWARDS GLOBAL PEACE 23"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "E"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 4,
+   "text": "< BOOK REVIEW 29"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 4,
+   "text": "< CHILDREN’S CORNER 31"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "N"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 4,
+   "text": "< CPS NEWSLETTER 34"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "T"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 6,
+   "text": "< HARMONIZING FAITH AND SCIENCE 37"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b17"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 8,
+   "text": "< AN INTERVIEW WITH MR KHURRAM QURESHI 39"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "dropcap",
+   "why": "outside any article",
+   "words": 1,
+   "text": "S"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b18"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 6,
+   "text": "< DEATH: THE UNEXPECTED GUEST 44"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b19"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 10,
+   "text": "< SHARE YOUR REFLECTIONS ON THE SPIRIT OF ISLAM 45"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b20"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 5,
+   "text": "<THE WORD OF GOD 47"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b21"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 4,
+   "text": "<YOUR QUESTIONS ANSWERED 48"
+  },
+  {
+   "page": 13,
+   "ids": [
+    "p13b3"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "CPS Women's Group"
+  },
+  {
+   "page": 13,
+   "ids": [
+    "p13b4"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "New Delhi Official Number +91 9910288870"
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b11",
+    "p33b12"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 8,
+   "text": "July-August 2024 Issue can be downloaded from: www.cpsglobal.org"
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b2"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b3"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 28,
+   "text": "Towar d s G l o b a l P e a c e & S p i r i t u a l L i v ing"
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b4",
+    "p33b5"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "Spirit of Islam bimonthly is being published in digital format only."
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b6"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 10,
+   "text": "A revamped Spirit of Islam website will be launched soon."
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b7",
+    "p33b8",
+    "p33b9"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 18,
+   "text": "To access the archives (January 2013 to August 2023) and to search the archives topic wise, please visit:"
+  },
+  {
+   "page": 33,
+   "ids": [
+    "p33b10"
+   ],
+   "role": "other",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "https://spiritofislam.co.in/spiritnew/"
+  },
+  {
+   "page": 44,
+   "ids": [
+    "p44b1"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "USA"
+  },
+  {
+   "page": 44,
+   "ids": [
+    "p44b2"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Centre for Peace and Spirituality 2665 Byberry Road, Bensalem, PA 19020 kkaleemuddin@gmail.com"
+  },
+  {
+   "page": 46,
+   "ids": [
+    "p46b2"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "Warm regards,"
+  },
+  {
+   "page": 46,
+   "ids": [
+    "p46b3"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "**The Editorial Team**"
+  },
+  {
+   "page": 46,
+   "ids": [
+    "p46b7"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "self- restraint."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0",
+    "p51b1",
+    "p51b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "WE ASKED CHATGPT TO OFFER SOME INFORMATION ABOUT CPS INTERNATIONAL, NEW DELHI. THIS IS THE RESPONSE."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 101,
+   "text": "The Center for Peace and Spirituality (CPS) is a renowned organization dedicated to promoting peace, harmony, and spiritual enlightenment. Founded by Maulana Wahiduddin Khan, CPS aims to foster understanding and cooperation among people of diverse backgrounds and faiths. The center’s activities include interfaith dialogues, seminars, and conferences that encourage mutual respect and peaceful coexistence. CPS also emphasizes the importance of personal and spiritual growth, offering guidance and resources for individuals seeking a deeper connection with themselves and the world around them. Through its inclusive and compassionate approach, CPS serves as a beacon of peace, inspiring positive change and unity in society."
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1",
+    "p52b2",
+    "p52b3"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 32,
+   "text": "To avoid fight with others, one has to fight oneself. However, people are not ready to fight with themselves, and that is why their fight with others never comes to an end."
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Published & owned by:"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 6,
+   "text": "Fathima Sarah, Bengaluru RNI No: KARENG/2012/46265"
+  }
+ ],
+ "lead_in": [
+  "'IN' -> 'In'",
+  "'ABDULLAH BIN UMAR' -> 'Abdullah Bin Umar'",
+  "'IN' -> 'In'",
+  "'THE' -> 'The'",
+  "'IT' -> 'It'",
+  "'THE' -> 'The'",
+  "'EVERYONE' -> 'Everyone'",
+  "'THIS' -> 'This'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

@@ -1,0 +1,234 @@
+{
+ "slug": "2024-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "realizing-the-true-purpose-in-life",
+   "title": "Realizing the True Purpose in Life",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1004,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "pune-diaries",
+   "title": "Pune Diaries",
+   "pages": [
+    8,
+    14
+   ],
+   "words": 2481,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p8b5",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "gods-signs",
+   "title": "God’s Signs",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 351,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p15b4",
+     "kind": "p",
+     "words": [
+      "multiple"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "after-maulana",
+   "title": "After Maulana",
+   "pages": [
+    16,
+    19
+   ],
+   "words": 1045,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "international-womens-day-special",
+   "title": "International Women’s Day Special",
+   "pages": [
+    20,
+    25
+   ],
+   "words": 2404,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "womans-position-in-islam",
+   "title": "Woman’s Position in Islam",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 262,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p26b8",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "acknowledging-the-role-of-prof-farida-khanam",
+   "title": "Acknowledging the Role of Prof Farida Khanam",
+   "pages": [
+    27,
+    32
+   ],
+   "words": 2054,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p27b4",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "islam-and-peace",
+   "title": "Islam and Peace",
+   "pages": [
+    33,
+    37
+   ],
+   "words": 1831,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "staying-cool",
+   "title": "Staying Cool",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 498,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 164,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    41,
+    44
+   ],
+   "words": 405,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 66,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-night-of-destiny",
+   "title": "The Night of Destiny",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 706,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p45b8",
+     "kind": "p",
+     "words": [
+      "athis"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    47,
+    50
+   ],
+   "words": 1541,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15845,
+ "article_words": 14812
+}

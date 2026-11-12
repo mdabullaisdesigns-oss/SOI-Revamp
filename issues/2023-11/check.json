@@ -1,0 +1,335 @@
+{
+ "slug": "2023-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "character-of-a-true-man",
+   "title": "Character of a True Man",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 698,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "robert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "selections-from-maulanas-diary",
+   "title": "Selections from Maulana’s Diary",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 800,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "two-levels-of-realization-of-god",
+   "title": "Two Levels of Realization of God",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 343,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "glorifying-god",
+   "title": "Glorifying God",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 493,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p12b2",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "modern-atheism",
+   "title": "Modern Atheism",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 472,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-transient-nature-of-life",
+   "title": "The Transient Nature of Life",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 370,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "islamic-principle-of-affordability",
+   "title": "Islamic Principle of Affordability",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 528,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "hatred",
+   "title": "Hatred",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 310,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "respect-what-you-have",
+   "title": "Respect What You Have",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 188,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "towards-global-peace",
+   "title": "Towards Global Peace",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 177,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "unity-and-harmony",
+   "title": "Unity and Harmony",
+   "pages": [
+    21,
+    23
+   ],
+   "words": 743,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p21b4",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "supplications-for-communal-harmony",
+   "title": "Supplications for Communal Harmony",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 762,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 514,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-culture-of-materialism",
+   "title": "The Culture of Materialism",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 281,
+   "match": 97.51,
+   "missing": [
+    {
+     "item": "p28b7",
+     "kind": "thought",
+     "words": [
+      "y",
+      "o",
+      "u",
+      "r",
+      "l",
+      "d"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "commencing-point-of-religion",
+   "title": "Commencing Point of Religion",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 324,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "learning-from-the-prophet-muhammad",
+   "title": "Learning from the Prophet Muhammad",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 1012,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "sayings"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "fulfilling-gandhijis-unfulfilled-mission",
+   "title": "Fulfilling Gandhiji’s Unfulfilled Mission",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 1053,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "unyielding-love-and-vision",
+   "title": "Unyielding Love and Vision",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 296,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p36b2",
+     "kind": "p",
+     "words": [
+      "padma"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    37,
+    41
+   ],
+   "words": 520,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "discovery-of-god",
+   "title": "Discovery of God",
+   "pages": [
+    42,
+    46
+   ],
+   "words": 1034,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 426,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 659,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [
+  14
+ ],
+ "unplaced": [
+  {
+   "page": 21,
+   "words": 5,
+   "text": "unity and harmony o ne"
+  }
+ ],
+ "pdf_words": 13201,
+ "article_words": 12003
+}

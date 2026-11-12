@@ -1,0 +1,319 @@
+{
+ "slug": "2015-06",
+ "articles": [
+  {
+   "n": 1,
+   "id": "you-cannot-hang-an-ideology",
+   "title": "You Cannot Hang an Ideology",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 611,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    },
+    {
+     "item": "p6b12",
+     "kind": "h",
+     "words": [
+      "depoliticize"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "manifesto-of-peace",
+   "title": "Manifesto of Peace",
+   "pages": [
+    7,
+    15
+   ],
+   "words": 3429,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "from-planet-earth-to-planet-paradise",
+   "title": "From Planet Earth to Planet Paradise",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 309,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "a-life-of-moral-restraint",
+   "title": "A Life of Moral Restraint",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 368,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "theoretical-bossism-practical-bossism",
+   "title": "Theoretical Bossism, Practical Bossism",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 298,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "a-counter-ideology-is-required",
+   "title": "A Counter-Ideology Is Required",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 598,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p19b4",
+     "kind": "p",
+     "words": [
+      "recently"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "why-this-contradiction",
+   "title": "Why This Contradiction?",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 341,
+   "match": 99.41,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    },
+    {
+     "item": "p21b6",
+     "kind": "p",
+     "words": [
+      "testingground"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "a-training-course-in-thanksgiving-and-piety",
+   "title": "A Training Course in Thanksgiving and Piety",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 363,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "god-and-man",
+   "title": "God and Man",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 747,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "two-ways-of-addressing-others",
+   "title": "Two Ways of Addressing Others",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 278,
+   "match": 99.28,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p25b4",
+     "kind": "p",
+     "words": [
+      "selfcentred"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "news-of-promotion",
+   "title": "News of Promotion",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 377,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "fasting-for-the-greatest-reward",
+   "title": "Fasting for the Greatest Reward",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 533,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "an-authentic-book-of-reference-on-metaphysics",
+   "title": "An Authentic Book of Reference on Metaphysics",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 338,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "islam-and-the-modern-man-part-ii",
+   "title": "Islam and the Modern Man - Part II",
+   "pages": [
+    31,
+    39
+   ],
+   "words": 3734,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "clarity-of-expression",
+   "title": "Clarity of Expression",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 709,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "you"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "equality",
+   "title": "Equality",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 294,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    46
+   ],
+   "words": 1571,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 821,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17243,
+ "article_words": 15719
+}

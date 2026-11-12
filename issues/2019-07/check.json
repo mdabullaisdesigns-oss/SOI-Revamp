@@ -1,0 +1,376 @@
+{
+ "slug": "2019-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "political-power-a-responsibility",
+   "title": "Political Power: A Responsibility",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1109,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "solomon"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "pious-caliphate",
+   "title": "Pious Caliphate",
+   "pages": [
+    8,
+    19
+   ],
+   "words": 4673,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "every-action-has-a-consequence",
+   "title": "Every Action Has a Consequence",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 337,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-purpose-of-religion",
+   "title": "The Purpose of Religion",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 391,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "orientalism",
+   "title": "Orientalism",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 519,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "after-being-broken",
+   "title": "After Being Broken",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 348,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "complaints-take-you-away-from-god",
+   "title": "Complaints Take You Away from God",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 331,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p25b4",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "gods-reward",
+   "title": "God’s Reward",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 462,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "a-better-price",
+   "title": "A Better Price",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 382,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-construction-of-life",
+   "title": "The Construction of Life",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 291,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "reviewing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "on-a-collision-course",
+   "title": "On a Collision Course",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 316,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "right-to-live-without-terror",
+   "title": "Right to Live Without Terror",
+   "pages": [
+    31,
+    35
+   ],
+   "words": 1748,
+   "match": 98.91,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "to",
+      "adopt",
+      "a",
+      "practical",
+      "strategy",
+      "one",
+      "has",
+      "to",
+      "be",
+      "realistic",
+      "and",
+      "should"
+     ]
+    },
+    {
+     "item": "p33b2",
+     "kind": "p",
+     "words": [
+      "conflict"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-thrill-of-discovery",
+   "title": "The Thrill of Discovery",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 393,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "god-has-a-plan-of-creation",
+   "title": "God Has a Plan of Creation",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 319,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "reality-is-apparent-when-bias-is-shed",
+   "title": "Reality Is Apparent When Bias Is Shed",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 299,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "losing-all-for-the-sake-of-god",
+   "title": "Losing All for the Sake of God",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 419,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-emergence-of-prophet-muhammad",
+   "title": "The Emergence of Prophet Muhammad",
+   "pages": [
+    40,
+    43
+   ],
+   "words": 1591,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "poised"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-test-of-man",
+   "title": "The Test of Man",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 428,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "death-gravest-event",
+   "title": "Death: Gravest Event",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 397,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p45b8",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 741,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 701,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.82,
+ "flagged": [
+  12
+ ],
+ "unplaced": [
+  {
+   "page": 32,
+   "words": 44,
+   "text": "solely through cherish the concept of reconciliation between intellectual civilizations as opposed to the concept of awareness based a clash of civilizations to adopt a practical on religion and strategy"
+  }
+ ],
+ "pdf_words": 27098,
+ "article_words": 16195
+}

@@ -1,0 +1,322 @@
+{
+ "slug": "2020-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-greatest-gift",
+   "title": "The Greatest Gift",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 710,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "paradise-lies-at-the-feet-of-the-mother",
+   "title": "Paradise Lies at the Feet of the Mother",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 398,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "natures-laboratory",
+   "title": "Nature’s Laboratory",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 344,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "my-mother-an-exemplary-woman",
+   "title": "My Mother—an Exemplary Woman",
+   "pages": [
+    10,
+    16
+   ],
+   "words": 2793,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "quest-for-life-in-space",
+   "title": "Quest for Life in Space",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 526,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "why-this-contradiction",
+   "title": "Why This Contradiction?",
+   "pages": [
+    19,
+    21
+   ],
+   "words": 1248,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p19b5",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "be-grateful-for-your-youth",
+   "title": "Be Grateful for Your Youth",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 344,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-object-of-reverence",
+   "title": "The Object of Reverence",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 339,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "burqa-in-the-muslim-society",
+   "title": "Burqa in the Muslim Society",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 646,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p24b12",
+     "kind": "p",
+     "words": [
+      "preislamic"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-spiritual-loss-caused-by-greed",
+   "title": "The Spiritual Loss Caused by Greed",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 398,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "islamic-approach-to-divorce",
+   "title": "Islamic Approach to Divorce",
+   "pages": [
+    28,
+    35
+   ],
+   "words": 3058,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "peace-a-positive-behaviour",
+   "title": "Peace—a Positive Behaviour",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 545,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "waste-of-money",
+   "title": "Waste of Money",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 341,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "true-mark-of-belief",
+   "title": "True Mark of Belief",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 323,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "prophet-as-a-model",
+   "title": "Prophet as a Model",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 739,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "blame-thyself",
+   "title": "Blame Thyself",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 355,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "end-of-the-age-of-war",
+   "title": "End of the Age of War",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 951,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "accept-death-as-a-test",
+   "title": "Accept Death as a Test",
+   "pages": [
+    46,
+    46
+   ],
+   "words": 331,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p46b6",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 564,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 594,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26399,
+ "article_words": 15547
+}

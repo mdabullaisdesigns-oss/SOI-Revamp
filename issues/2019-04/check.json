@@ -1,0 +1,314 @@
+{
+ "slug": "2019-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-prophet-wanted-peace",
+   "title": "The Prophet Wanted Peace",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 969,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-economic-teachings-of-the-quran",
+   "title": "The Economic Teachings of the Quran",
+   "pages": [
+    8,
+    16
+   ],
+   "words": 3514,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "inter-faith-dialogue",
+   "title": "Inter-Faith Dialogue",
+   "pages": [
+    17,
+    21
+   ],
+   "words": 1702,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "realism-is-the-key-to-peace",
+   "title": "Realism Is the Key to Peace",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1180,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "the-existence-of-god",
+   "title": "The Existence of God",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 321,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "since"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-reality-of-tazkiya",
+   "title": "The Reality of Tazkiya",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 423,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "clarification-of-a-fallacy",
+   "title": "Clarification of a Fallacy",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 537,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "excommunication-from-islam",
+   "title": "Excommunication from Islam",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 382,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "who-is-responsible-for-present-day-violence-in-the-name-of-islam",
+   "title": "Who Is Responsible for Present-Day Violence in the Name of Islam?",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 279,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "islamic-virtues",
+   "title": "Islamic Virtues",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 745,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "peace-for-the-sake-of-peace",
+   "title": "Peace for the Sake of Peace",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 395,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "between-a-greater-and-lesser-evil",
+   "title": "Between a Greater and Lesser Evil",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 448,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "forgiveness"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "theme-of-the-quran",
+   "title": "Theme of the Quran",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 678,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "positive-and-negative-spirituality",
+   "title": "Positive and Negative Spirituality",
+   "pages": [
+    38,
+    40
+   ],
+   "words": 1064,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "a-purposeful-life",
+   "title": "A Purposeful Life",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 1260,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "reality-of-life",
+   "title": "Reality of Life",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 694,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "for"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 822,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 653,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 27034,
+ "article_words": 16066
+}

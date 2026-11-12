@@ -1,0 +1,434 @@
+{
+ "slug": "2016-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "development-through-self-struggle",
+   "title": "Development Through Self Struggle",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 422,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-miracle-of-not-getting-agitated",
+   "title": "The Miracle of Not Getting Agitated",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 657,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "establishing-or-upholding-deen",
+   "title": "Establishing or Upholding Deen?",
+   "pages": [
+    9,
+    15
+   ],
+   "words": 2811,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p9b4",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    },
+    {
+     "item": "p14b5",
+     "kind": "p",
+     "words": [
+      "godconsciousness"
+     ]
+    },
+    {
+     "item": "p14b8",
+     "kind": "thought",
+     "words": [
+      "reformation"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "ways-of-self-correction",
+   "title": "Ways of Self-Correction",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 744,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p16b5",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "difference-of-opinion",
+   "title": "Difference of Opinion",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 560,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "evelyn"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "speaking-of-god-today",
+   "title": "Speaking of God Today",
+   "pages": [
+    20,
+    23
+   ],
+   "words": 1324,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "how-to-be-happy",
+   "title": "How to Be Happy",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 346,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "purification-through-illness",
+   "title": "Purification Through Illness",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 423,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p25b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "reverse-publicity",
+   "title": "Reverse Publicity",
+   "pages": [
+    27,
+    27
+   ],
+   "words": 334,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "abdullah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "harmonious-married-life",
+   "title": "Harmonious Married Life",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 312,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p28b6",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-true-spirit-of-islam",
+   "title": "The True Spirit of Islam",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 687,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "radicalization-of-muslim-youth",
+   "title": "Radicalization of Muslim Youth",
+   "pages": [
+    31,
+    34
+   ],
+   "words": 1300,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p31b4",
+     "kind": "p",
+     "words": [
+      "presentday"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-greatest-joy",
+   "title": "The Greatest Joy",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 303,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "who-is-in-loss",
+   "title": "Who Is in Loss?",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 416,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p36b4",
+     "kind": "p",
+     "words": [
+      "alasr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-ethics-of-a-believer",
+   "title": "The Ethics of a Believer",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 341,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-best-story",
+   "title": "The Best Story",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 677,
+   "match": 99.56,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    },
+    {
+     "item": "p38b9",
+     "kind": "pull",
+     "words": [
+      "nonpolitical"
+     ]
+    },
+    {
+     "item": "p38b6",
+     "kind": "p",
+     "words": [
+      "at"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "an-attribute-of-a-person-of-faith",
+   "title": "An Attribute of a Person of Faith",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 391,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p40b4",
+     "kind": "p",
+     "words": [
+      "using"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "success-versus-experience",
+   "title": "Success Versus Experience",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 403,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "on-the-doorstep-of-death",
+   "title": "On the Doorstep of Death",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 1026,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 946,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.85,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16523,
+ "article_words": 14760
+}

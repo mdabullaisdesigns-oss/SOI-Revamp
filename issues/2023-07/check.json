@@ -1,0 +1,250 @@
+{
+ "slug": "2023-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "i-was-important",
+   "title": "I Was Important",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 843,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "mir"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-japan-experience",
+   "title": "The Japan Experience",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 728,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "invoking-gods-infinite-mercy",
+   "title": "Invoking God’s Infinite Mercy",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 373,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p10b11",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "peace-in-a-pluralistic-society",
+   "title": "Peace in a Pluralistic Society",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 592,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "death-the-inevitable-event",
+   "title": "Death: The Inevitable Event",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 761,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p13b8",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "there-is-gain-in-loss",
+   "title": "There Is Gain in Loss",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 408,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p15b9",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-art-of-thinking",
+   "title": "The Art of Thinking",
+   "pages": [
+    16,
+    20
+   ],
+   "words": 1791,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p16b8",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "fighting-frustration",
+   "title": "Fighting Frustration",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 573,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-message-and-meaning-of-hajj",
+   "title": "The Message and Meaning of Hajj",
+   "pages": [
+    23,
+    26
+   ],
+   "words": 1800,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "superior-morality",
+   "title": "Superior Morality",
+   "pages": [
+    27,
+    28
+   ],
+   "words": 669,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    29,
+    31
+   ],
+   "words": 857,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-age-of-technology-and-the-quran",
+   "title": "The Age of Technology and the Quran",
+   "pages": [
+    32,
+    34
+   ],
+   "words": 841,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "interview-with-maulana-wahiduddin-khan",
+   "title": "Interview with Maulana Wahiduddin Khan",
+   "pages": [
+    35,
+    38
+   ],
+   "words": 1049,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    39,
+    43
+   ],
+   "words": 1756,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1089,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 900,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.96,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16381,
+ "article_words": 15030
+}

@@ -1,0 +1,234 @@
+{
+ "slug": "2013-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "where-the-muslim-brotherhood-went-wrong",
+   "title": "Where the Muslim Brotherhood Went Wrong",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 944,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "desire-to-seek-god",
+   "title": "Desire to Seek God",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 563,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "ritual-must-arise-from-the-spirit",
+   "title": "Ritual Must Arise from the Spirit",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 811,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p11b2",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "from-prophet-abraham-to-prophet-muhammad",
+   "title": "From Prophet Abraham to Prophet Muhammad",
+   "pages": [
+    13,
+    15
+   ],
+   "words": 1112,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "de-conditioning-the-mind",
+   "title": "De-Conditioning the Mind",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 655,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p16b2",
+     "kind": "p",
+     "words": [
+      "no"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-message-and-meaning-of-haj",
+   "title": "The Message and Meaning of Haj",
+   "pages": [
+    18,
+    22
+   ],
+   "words": 1948,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "importance-of-positive-thinking",
+   "title": "Importance of Positive Thinking",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 384,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p23b2",
+     "kind": "p",
+     "words": [
+      "about"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-reality-of-sacrifice",
+   "title": "The Reality of Sacrifice",
+   "pages": [
+    24,
+    27
+   ],
+   "words": 1550,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-duty-of-muslims-to-mankind",
+   "title": "The Duty of Muslims to Mankind",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 653,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-social-significance-of-the-sacrifice",
+   "title": "The Social Significance of the Sacrifice",
+   "pages": [
+    30,
+    33
+   ],
+   "words": 1382,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "after-haj",
+   "title": "After Haj",
+   "pages": [
+    34,
+    39
+   ],
+   "words": 2064,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "no-fear-of-accountability",
+   "title": "No Fear of Accountability",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 626,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "opportunities-will-never-cease",
+   "title": "Opportunities Will Never Cease",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 213,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "on-old-age",
+   "title": "On Old Age",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 275,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p43b6",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 800,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    47,
+    47
+   ],
+   "words": 317,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.97,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15499,
+ "article_words": 14297
+}

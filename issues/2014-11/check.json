@@ -1,0 +1,254 @@
+{
+ "slug": "2014-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "now-or-never",
+   "title": "Now or Never",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 542,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "quran-the-preserved-book-of-god",
+   "title": "Quran: The Preserved Book of God",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 631,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p8b8",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "war-and-peace-in-islam",
+   "title": "War and Peace in Islam",
+   "pages": [
+    10,
+    14
+   ],
+   "words": 1895,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "working-together",
+   "title": "Working Together",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 520,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "traditional-versus-creative-mindsets",
+   "title": "Traditional Versus Creative Mindsets",
+   "pages": [
+    17,
+    23
+   ],
+   "words": 2671,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p17b2",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "two-types-of-psyche",
+   "title": "Two Types of Psyche",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 501,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "call-of-the-judgement-day",
+   "title": "Call of the Judgement Day",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 681,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "human-responsibility",
+   "title": "Human Responsibility",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 228,
+   "match": 99.56,
+   "missing": [
+    {
+     "item": "p28b9",
+     "kind": "p",
+     "words": [
+      "both"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "happiness-other-name-for-contentment",
+   "title": "Happiness: Other Name for Contentment",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 565,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "living-in-the-great-blessings-of-god",
+   "title": "Living in the Great Blessings of God",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 543,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-culture-of-peace-part-v",
+   "title": "The Culture of Peace — Part V",
+   "pages": [
+    33,
+    39
+   ],
+   "words": 2532,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "personality-development",
+   "title": "Personality Development",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 641,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p40b2",
+     "kind": "p",
+     "words": [
+      "experience"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "ashes-bear-witness",
+   "title": "Ashes Bear Witness",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 487,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "nabi"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 775,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 922,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15634,
+ "article_words": 14134
+}

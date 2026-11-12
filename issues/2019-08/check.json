@@ -1,0 +1,318 @@
+{
+ "slug": "2019-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-realistic-approach",
+   "title": "A Realistic Approach",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 862,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "an-introduction-to-islamic-jurisprudence",
+   "title": "An Introduction to Islamic Jurisprudence",
+   "pages": [
+    8,
+    14
+   ],
+   "words": 2680,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "islamic-society",
+   "title": "Islamic Society",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 392,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "a-eureka-moment",
+   "title": "A Eureka Moment",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 391,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "sir"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "earthquake",
+   "title": "Earthquake",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 338,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "desist-from-intolerance",
+   "title": "Desist from Intolerance",
+   "pages": [
+    18,
+    20
+   ],
+   "words": 1165,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "perseverance",
+   "title": "Perseverance",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 757,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "india-a-potentially-spiritual-country",
+   "title": "India—a Potentially Spiritual Country",
+   "pages": [
+    24,
+    28
+   ],
+   "words": 2148,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p24b4",
+     "kind": "p",
+     "words": [
+      "tolerance"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "play-your-part-in-conserving-water",
+   "title": "Play Your Part in Conserving Water",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 567,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "a-day-for-justice",
+   "title": "A Day for Justice",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 453,
+   "match": 96.25,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "throughout"
+     ]
+    },
+    {
+     "item": "p31b7",
+     "kind": "p",
+     "words": [
+      "in",
+      "a",
+      "world",
+      "where",
+      "the",
+      "human",
+      "conscience",
+      "and",
+      "the",
+      "order",
+      "of",
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "wishful-thinking",
+   "title": "Wishful Thinking",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 698,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "fifty"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "paradise-a-known-entity",
+   "title": "Paradise: A Known Entity",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 794,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "nineteen-eighty-four",
+   "title": "Nineteen Eighty-Four",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 542,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p37b2",
+     "kind": "p",
+     "words": [
+      "june"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "responsibility-not-pride",
+   "title": "Responsibility, Not Pride",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 357,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "two-methods",
+   "title": "Two Methods",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 341,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "growing-in-faith",
+   "title": "Growing in Faith",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 370,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "two-attitudes",
+   "title": "Two Attitudes",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 322,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "what-is-death",
+   "title": "What Is Death?",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 609,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1229,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 827,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.86,
+ "flagged": [
+  10
+ ],
+ "unplaced": [],
+ "pdf_words": 26855,
+ "article_words": 15842
+}

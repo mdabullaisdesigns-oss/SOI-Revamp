@@ -1,0 +1,4452 @@
+{
+ "slug": "2013-01",
+ "pdf": "January-2013.pdf",
+ "pages": 52,
+ "number": 1,
+ "period": "January 2013",
+ "period_short": "January 2013",
+ "label": "Issue 1 · January 2013",
+ "articles": [
+  {
+   "title_raw": "WELCOME",
+   "title": "Welcome",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    7,
+    7
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Dear Readers,"
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Welcome to ‘Spirit of Islam’, a monthly spiritual message, continuing in the tradition of its predecessors, ‘The Spiritual Message’ and ‘Al-Risala English’."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "This is a magazine for the discerning individual, who stops to contemplate the myriad choices available, before deciding on a course of action. It aims at helping individuals discover, for themselves, answers to their questions on life and beyond — questions that have always confronted us, which we have largely ignored as we continue our race towards material gain. Questions such as — why am I here, what will happen to me after I die, what is my purpose in life, why is there so much injustice in this world, is there any meaning in life, and did this Universe happen by chance."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Through the pages of this magazine, we hope to take readers on a spiritual journey to find meaning, to provide guidance and to discover our Creator, in order to achieve total peace and a God-oriented life. It presents concepts of spirituality and peace, wisdom from the learned, and guidance from the Creator, from the scriptures and the teachings of the prophets. It presents the true understanding and interpretation of contemporary issues. On reading without the shackles of pre-conditioning, open minded seekers of the Truth will find food for thought."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "This is a current magazine. All articles are based on sound principles of reason and science with a particular emphasis on the intention and spirit of Islam rather than the form or the ritual. All the articles have been either written by Maulana Wahiduddin Khan, translated from his Urdu writings, or developed under his guidance."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Feedback is welcome and appreciated, and can be sent by email to feedback@thespiritofislam.org or by post to our Bangalore office."
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Happy reading!"
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Associate Editor"
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b9"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "bi",
+       "Aijaz Ahmed"
+      ]
+     ],
+     "page": 7,
+     "ids": [
+      "p7b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "welcome",
+   "words": 297,
+   "n": 1
+  },
+  {
+   "title_raw": "FROM THE EDITOR’S DESK",
+   "title": "From the Editor’s Desk",
+   "kicker": "",
+   "author": "Maulana Wahiduddin Khan",
+   "pages": [
+    8,
+    9
+   ],
+   "items": [
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "bi",
+       "Maulana Wahiduddin Khan"
+      ],
+      [
+       "i",
+       ", born in Azamgarh, Uttar Pradesh in 1925 is an Islamic spiritual scholar who is well-versed in both classical Islamic learning and modern disciplines. The mission of his life has been the establishment of worldwide peace. He has received the Padma Bhushan, the third highest civilian honour in India, and the Demiurgus Peace International Award. He has been called ’Islam’s spiritual ambassador to the world’ and pronounced one of the most influential Muslims1. His books have been translated into sixteen languages and are part of university curricula in six countries. He is the founder of the Centre for Peace and Spirituality based in New Delhi."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "What you have in your hands is not just another magazine. It is much more than that. In fact it is an institution for informal education. The purpose of this magazine is to promote spiritual values in society."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Journals and magazines can be one of the greatest sources of informal education. Our generation gets professional learning in formal educational institutes. But this is insufficient for a life in society. Formal education can give you a job, but it cannot teach you the art of living. The art of living can be promoted only through informal education."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "What is informal education? Basically, it is to inculcate in people those values that are important for better social life, and spiritual values are of prime importance in this regard."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Spirituality stems from positivity. Positive thinking leads to positive behaviour, and positive behaviour results in better social relationships. Maintaining positivity under any circumstance is an integral message of Islam. Circumstances are beyond our control, it is only our actions and responses that are under our control. Therefore, Islam lays great emphasis on patience. Patience is not a negative term, patience is the behaviour of a mature person who has the ability to live with things that he/she cannot change. It is this maturity that is called, "
+      ],
+      [
+       "",
+       "sabr"
+      ],
+      [
+       "i",
+       " (patience) in Islam."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b6"
+     ]
+    },
+    {
+     "k": "footnote",
+     "runs": [
+      [
+       "",
+       "1. The World’s 500 Most Influential Muslims 2012, Royal Islamic Strategic Studies Centre, Jordan."
+      ]
+     ],
+     "page": 8,
+     "ids": [
+      "p8b7"
+     ],
+     "links": [
+      "http://themuslim500.com/profile/khan-wahiduddin"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Some writers have suggested that modern man is in search of a ‘scientific religion’. This magazine believes that Islam is that kind of ‘scientific religion’. The Quran says:"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "“Do they seek a religion other than the religion of God, when everything in the heavens and the earth has submitted to Him, willingly or unwillingly?”"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b2"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 3: 83"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "According to this verse, there is a divine religion that is being followed by the whole universe. Islam is a literal statement of this divine religion; a religion of nature, a scientific religion. It is based on two natural principles: to acknowledge God as the Creator and Sustainer with the belief that man is accountable to God. And, to live a life of spirituality, that is, living with the spirit of love and positivity amongst others. Belief in God gives man the right orientation and spirituality determines that man will adopt a behaviour that is good for all."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Islam is generally associated with Muslims as Muslims are a community who claim to be the followers of Islam. But this is an incorrect perspective. The authentic source of Islamic teachings are its texts, the Quran and Sunnah (way of the Prophet). Anyone who wants to know about Islam, must refer to these texts and not judge Islam based on Muslim behaviour."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "There is a verse in the Quran: “God calls man to the home of peace.”"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b6"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 10: 25"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "According to this Quranic verse, the aim of Islam is to establish a peaceful society. In Islam, peace is the ‘summum bonum’. Peace is the basic condition for every kind of progress. Without peace, there is no development at all, religious or secular."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Peace and spirituality are only two faces of a single coin: spirituality is the inner content of peace, and peace is the external expression of spirituality. Where there is peace, there is spirituality and where there is spirituality, there is peace. Both always go together."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "Let us welcome this year with peace and spirituality in every aspect of our individual and social lives."
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b10"
+     ]
+    },
+    {
+     "k": "signoff",
+     "runs": [
+      [
+       "bi",
+       "Maulana Wahiduddin Khan"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "editor@thespiritofislam.org"
+      ]
+     ],
+     "page": 9,
+     "ids": [
+      "p9b11"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "from-the-editors-desk",
+   "words": 684,
+   "n": 2
+  },
+  {
+   "title_raw": "THE ONLY SOLUTION TO CORRUPTION",
+   "title": "The Only Solution to Corruption",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    10,
+    11
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Every Indian complains about corruption, but no one tries to get to the root cause of this phenomenon. The Gandhian movement in the first half of the twentieth century was, in a sense, an anti-corruption movement. In the mid-1970s, Jayprakash Narayan’s ‘total revolution’ was a strong movement against corruption. Then followed V.P. Singh’s movement in the late 1980s and the fourth in this sequence was Anna Hazare’s movement in August 2011. The criterion to judge the success of these movements is not the crowds they draw, but the result. It is an undeniable fact that in terms of results, all the three previous movements completely failed to achieve their declared goal. It is yet to be seen if the fourth will achieve what it has set out to achieve."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "All these anti-corruption movements made their demands from the system. But it is not the system that is responsible for corruption; it is the human mind."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "At the 25th session of the UNESCO General Conference, the Seville Statement on Violence was adopted. The Statement says, among other things, that “wars begin in the minds of men”. So it is in the case of"
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b4"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "It is not the system that is responsible for corruption; it is the human mind."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b9",
+      "p10b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "corruption; corruption also begins in the mind. Any movement that intends to achieve its goal must target individual minds, rather than the system."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "To eradicate the corruption we see today, we need to re-engineer individual minds. This requires a spiritual campaign. We need to replace the money-oriented mind with a values-oriented mind. We need to make people believe that money is a need, and not a goal. People’s concern of self needs to be replaced with concern for the nation."
+      ]
+     ],
+     "page": 10,
+     "ids": [
+      "p10b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "To eradicate corruption, we have to give individuals a goal greater than money, just as to shorten a line, you only need to draw a longer line next to it. In the same way, to eradicate corruption, we should have a higher goal of intellectual or spiritual development. In other words, we have to replace money as a goal with wisdom as a goal. We have to convince people who pursue money to pursue wisdom. Although it is a long process, it is nevertheless the only process that can produce results. There are no shortcuts."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Anti-corruption movements generally demand the enactment of anti-corruption laws. We already have anti-corruption laws. But these laws have obviously failed to eradicate corruption. Why? Because without implementation, laws are just words on paper. Laws can only be implemented by people. These people have to be people who are not corrupt, and who possess full authority. People such as these are the rarest of the rare; they seem to be non-existent. Had such people existed, the laws we have would have been sufficient."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The pursuit of wealth will only lead to discontentment, while the pursuit of wisdom will always lead to contentment. Only the content can abandon corrupt practices. To achieve this goal, we have to address individual minds, not attract crowds. A spiritual revolution cannot be brought about by a mob."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "And only a spiritual revolution can root out corruption."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b4"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "To eradicate corruption, we have to give individuals a goal greater than money."
+      ]
+     ],
+     "page": 11,
+     "ids": [
+      "p11b8",
+      "p11b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "the-only-solution-to-corruption",
+   "words": 535,
+   "n": 3
+  },
+  {
+   "title_raw": "UNDERSTANDING ISLAM",
+   "title": "Understanding Islam",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    12,
+    16
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Islam is actually a religion of peace and humanism. Not only Islam, but all other religions are religions of peace. The Sufis have given the best interpretation of Islam. A Persian phrase, ‘"
+      ],
+      [
+       "i",
+       "Sulh-e-Kul"
+      ],
+      [
+       "",
+       "’, which means peace with all, truly expresses the spirit of Islam."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There are two major sources of Islam, the Quran, which is the word of God and the Hadith, which are the sayings and the actions of the Prophet of Islam. We find the true message of Islam through these sources."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b3"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "When the Prophet had to choose between two paths, he always chose the easier, the more peaceful, rather than the harder path."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b10",
+      "p12b11",
+      "p12b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There is a very relevant Hadith recorded by Bhukari, which clarifies that when the Prophet had to choose between two paths, he always opted for the easier, that is, peaceful course of action, rather than the harder course of action. One is free to choose between the two paths of peace and violence. According to a Hadith, the Prophet of Islam defined a believer thus—"
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b4"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“A believer is one from whom people are safe as regards their lives and property.”"
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b5",
+      "p12b6"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "HADITH"
+      ],
+      [
+       "i",
+       " "
+      ],
+      [
+       "",
+       "reported by AT-TIRMIZI, AN-NASAI, IBN MAJAH and AHMAD"
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There are two ways of leading one’s life in society. One is to live peacefully among one’s fellow men. The other is to remain always at loggerheads with others. According to this Hadith, the way of the faithful is to live as peaceful citizens in society. No one should pose any danger to others’ lives, property or honour. In no circumstances, should one take the path of violence."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "How should life be led so that the members of a society remain safe and secure from others’ injustices? It is to maintain the way of moderation, irrespective of there being causes for complaint. All members of society "
+      ],
+      [
+       "",
+       "should be able to bury their complaints in their own hearts instead of pouring them out upon others. A society in which such self control is exercised is one in which its members can enjoy a feeling of security. Indeed, a peaceful society is the ideal framework for positive human development. On the contrary, a society fraught with violence is animalistic, not a human society. It can offer little hope of the realization of individual human potential."
+      ]
+     ],
+     "page": 12,
+     "ids": [
+      "p12b8",
+      "p13b1"
+     ],
+     "page_to": 13
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The love of peace is a noble human virtue, whereas the love of violence brings the human being down from a high ethical plane to the level of brutishness."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to a tradition, the Prophet of Islam observed—“The believer is like a gentle plant. Whenever the wind blows, it inclines accordingly, and when the wind stops blowing, it again comes back to its upright position. In this way, it saves itself from the impact of the wind.”"
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to this tradition, there are two ways of acting during hardships. One is to face up to it with total rigidity. The other is to be flexible and bend before it. We can put it differently and say, there are two ways of countering adversity—one by the peaceful method, the other by the violent method. God tells us to renounce the violent method in favour of the peaceful method."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Violence is basically an ego-related problem. It is a provoked ego that creates almost all kinds of violence and disturbance. When one’s ego is affected, it turns into a super ego and the result is breakdown. It is inevitably those who suffer from egoism who choose to be inflexible in weathering life’s storms. Conversely, it is the modest, who in the face of adversity, tread the path of peace. In this world of God, destruction awaits those who indulge in egoism, while success awaits those who conduct themselves with modesty. The same point has been underlined in a Hadith—"
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b5"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“One who chooses the way of modesty will be raised up by God.”"
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b6"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "HADITH"
+      ],
+      [
+       "i",
+       " "
+      ],
+      [
+       "",
+       "reported by AT-TIRMIZI"
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "So the secret of peaceful living is to sedulously avoid any ego-clash taking place between individuals or groups. This is the only successful formula for establishing a peaceful society on a permanent basis."
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Examples from the traditions of the Prophet are many. Once a man came "
+      ],
+      [
+       "",
+       "to the Prophet and asked, “O Prophet, give me some advice which will enable me to manage all the affairs of my life.” The Prophet told him, “Don’t be angry.” As anger is always the result of provocation, we should understand this as, ‘Don’t be angry, even when provoked.’"
+      ]
+     ],
+     "page": 13,
+     "ids": [
+      "p13b9",
+      "p14b1"
+     ],
+     "page_to": 14
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "That is to say, stick to positive behaviour in all situations. In fact, in normal conditions man is governed by his own nature. And nature always takes the course of peace. When people are provoked their nature is upset, and they are derailed into negativity. So the Prophet advised people never to take a negative course of action, and to keep to a peaceful and positive behaviour in all situations, even in the face of provocation."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b2"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "Giving vent to anger is a sign of weakness, whereas mastering anger is a sign of power."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Anger is the killer of peace. Giving vent to anger is a sign of weakness, whereas the mastering of anger is a sign of power. Anger, moreover, confounds one’s thinking capacity. The angry man can neither understand any issue in a clear-headed way, nor can he give a response which is adequate to the situation. What is worse is that when an individual is angry, he is all too prone to turn to violence, but the truth is that violence is no solution to any problem. For one who can prevent himself from succumbing to anger, there is no situation which he will not be able to turn to good account. He will seek a peaceful solution—the only sure way to solve any problem."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This world is a world of differences. Nature abhors uniformity. This means that ‘difference’ is a part of nature. Difference is there in every aspect of life. So it is in the case of religion. Who has the power to remove differences? We have to learn the art of difference management rather than the art of difference elimination."
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Prophet of Islam used this guiding principle in forming an Islamic society in Medina. In 622, he migrated to Medina, where he lived until his death in 632. Medinan society was a multicultural society comprising of Muslims, Christians and Jews. In Medina, the Prophet of Islam issued a declaration called ‘"
+      ],
+      [
+       "i",
+       "Sahifa-e-Madina"
+      ],
+      [
+       "",
+       "’, or the Constitution of Medina. There is a verse in the Quran to this effect—"
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "“For you, your religion and for me, mine.” "
+      ],
+      [
+       "",
+       "THE QURAN, 109: 6 "
+      ],
+      [
+       "",
+       "This means that the formula for social peace, social harmony and interfaith dialogue is based on peaceful co-existence. Mutual respect is an essential condition for Islam. Indeed, this democratic tradition is the basis of Islam. According to the above prophetic tradition everyone is worthy of respect. There may be differences in religion and culture, but there is absolutely no difference or discrimination between people in terms of respect and honour. This Quranic teaching can be formulated in these words - “Follow one and respect all.”"
+      ]
+     ],
+     "page": 14,
+     "ids": [
+      "p14b6",
+      "p15b1"
+     ],
+     "page_to": 15
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Differences are not a curse, but a blessing. History shows that difference of opinion leads to dialogue, and dialogue results in intellectual development. Difference of opinion promotes positive intellectual activities, which is a boon for everyone concerned. Above all difference of opinion leads to high thinking. And high thinking is the sole key to all kinds"
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b2"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "We have to welcome differences wholeheartedly, without any reservation."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b6",
+      "p15b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "of human progress. So we have to welcome differences wholeheartedly, without any reservation. It is hatred, which has to be eliminated, and not difference of opinion."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Here is an event in the life of the Prophet of Islam, which illustrates the true spirit of religious tolerance. One day a funeral procession wound its way along a street in Medina. The Prophet, who was seated there at the time of its passing, stood up in deference to the deceased person. One of his companions said, “O Prophet, but he was a Jew!” meaning thereby that it was the dead body of a non-Muslim. The Prophet replied, “"
+      ],
+      [
+       "i",
+       "Alaisat nafsan"
+      ],
+      [
+       "",
+       "” (was he not a human being?) This ‘humanitarian’ outlook was typical of the Prophet’s vision of life. He was able to see everyone as a human being. In this case, he discovered a commonality between himself and that Jewish person. He felt that just as he was a human being, so also was the Jew a human being. Just as God had created him, so also had God created the Jew. People may have their differences in belief, religion, culture, etc., but a common bond has to be discovered between them, which shows them all to be human beings."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Human life in Islam is held in such high esteem that the killing of a single human being is considered equivalent to the assassination of the whole of mankind; the protection of a single human life is equivalent to the protection of the whole of mankind (The Quran, 5: 32)."
+      ]
+     ],
+     "page": 15,
+     "ids": [
+      "p15b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Yet another pertinent verse from the Quran—"
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b1"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“Good deeds and bad deeds are not alike. Do good deeds in return for bad deeds. And you will see that your enemy has become your dearest friend.”"
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b2",
+      "p16b3"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 41: 34"
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is indeed a very revolutionary kind of teaching. It means that human beings are not like stones. They are always subject to change. Thus the difference between friends and enemies is quite relative. In fact, your enemy is potentially your friend. So there is no need to complain against your enemy. You have to turn this potential into reality. And you will find that the whole world is a world of friends. All men and women are your brothers and sisters."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to a study of the Quran, two distinct entities emerge—the Creator and the created. God is the Creator and all of us are His creations. All of us are human beings. There is no third position. On the one hand, there is God, and on the other hand, there is God’s creation. This is a matter of fact. God is one and mankind also is one. Thus we have the Unity"
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "of God—monotheism—and the unity of mankind. This is the fundamental teaching of Islam."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Consider Hinduism’s great truth — all human beings are one family. The same truth is expressed in the "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ", ‘Mankind is the family of God’. Therefore, as far as ethical values are concerned, there are no differences at all between religions. In daily life, we need to understand that all human beings are God’s family."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One has to differentiate between Islam and the followers of Islam. When one is questioned on the nature of Islam and when the popular media makes a difference between a ‘moderate Muslim’ and a ‘radical Muslim’, one needs to tear down such false barriers and say that Islam does not talk of a ‘moderate’ or ‘radical’ Muslim, but a ‘true’ Muslim in the sense of adhering to the truth that has been continuously preached by the Sufis. The Sufis are Muslims in the true sense of the word."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b9"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "One has to differentiate between Islam and the followers of Islam."
+      ]
+     ],
+     "page": 16,
+     "ids": [
+      "p16b10",
+      "p16b11"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "understanding-islam",
+   "words": 1856,
+   "n": 4
+  },
+  {
+   "title_raw": "THE FAULT OF MAN",
+   "title": "The Fault of Man",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    17,
+    17
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One of the main disclosures of modern physics has been that the energy reaching the Earth from the Sun is the result of nuclear reactions at the centre of the Sun. As the physicist Fritjof Capra wrote, nuclear processes at the centre of the Sun are of singular importance for our planet, “because they furnish the energy which sustains our terrestrial environment.” — "
+      ],
+      [
+       "i",
+       "The Tao of Physics"
+      ],
+      [
+       "",
+       "."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The fact that nuclear energy transmitted by the sun reaches the earth in the form of light and sustenance shows that nuclear energy, in the hands of nature, is a source of life for the world. But the same energy in the hands of men becomes an instrument of death and destruction."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "What is the reason for this starkly contrasting state of affairs? It is that nature has no power of its own; whatever it does conforms exactly to the will of God. We, on the other hand, have been invested with freedom. Just as nuclear energy, when it emanates from nature in the form of sun’s rays, is a source of light and sustenance for the planet, so religion, as revealed to us by God, is a source of light and sustenance for the spiritual world—it nourishes our souls and guides us onto the path of eternal salvation."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "But just as men have mishandled nuclear energy, they have mishandled religion. They have used it to advance themselves to positions of power, to win esteem, to accumulate wealth for themselves at the expense of others and to spread conflict, hate, division and suffering in this world."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The author Richard Dawkins, in his famous book, ‘"
+      ],
+      [
+       "i",
+       "The God Delusion"
+      ],
+      [
+       "",
+       "’, blames religion for much of the bloodshed in the world and many of the ills in society."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It would be wrong to blame nuclear energy for the potential of destruction it holds for us, because that would be due to its misuse, not to any fault of its own. In the same way, it is wrong to blame religion for the evils which men have perpetrated in its name. This is the fault of man, not the fault of the divine religion which he corrupts."
+      ]
+     ],
+     "page": 17,
+     "ids": [
+      "p17b7"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "the-fault-of-man",
+   "words": 359,
+   "n": 5
+  },
+  {
+   "title_raw": "SPIRITUAL LIVING",
+   "title": "Spiritual Living",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    18,
+    20
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "What is spirituality? Being spiritual means to live a God-oriented life. The spiritually inclined elevate themselves in their thinking, and begin to live on a higher divine plane— they remain undisturbed in the face of provocation, their mental balance is not upset by unpleasant experiences, and the trying behaviour of someone else does not arouse any feelings of anger in them. Living strictly by their principles, the mental level of spiritual people becomes so high that stones cast by others cannot reach them. In spirituality, they find such sublimity that all else pales into insignificance. Spirituality is in itself such a great virtue that the seeker after divine bliss need not quest any further."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "How does one attain spirituality? There are two major schools of spirituality—one based on meditation and the other on contemplation. The former relates to feelings ascribed to the ‘heart’ and the latter relates to the mind."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to meditation or the spirituality of the heart, people usually assume that the further away they move from material things, the more spiritual they become. This is the feeling that drives people to leave"
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b4"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "True spirituality is based on contemplation and reflection, which have to do with intellectual activity."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "behind their material lives entirely. The Monk, in the well-known book ‘The Monk Who Sold His Ferrari’, discovers what he believes to be the key to spirituality only after abandoning his material life entirely. Meditation is one way to put aside thoughts of their material lives, and people all over the world rely on it to try to achieve spirituality."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There are many methods of meditation for spiritual discipline, which have been prevalent in one form or the other for centuries. It is generally believed that while intellectual development is grounded in formal "
+      ],
+      [
+       "",
+       "education, meditation is an informal, independent discipline that can lead to spirituality. When people clear their minds of thoughts of the material and try to become one with the spiritual through particular practices, and chants, they experience a feeling that can be likened to ecstasy. This is a form of pleasure that is unknown to them. On the basis of their experience, they begin to associate ecstasy with spirituality. However, ecstasy is only a reduced form of spirituality."
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b6",
+      "p19b1"
+     ],
+     "page_to": 19
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We are intellectual beings. We have been given the ability to think and to reason, which is our greatest faculty. It is the possession of this faculty and our independent thinking, which distinguishes us from all other creatures. Real spirituality is that which is achieved by our minds. This is called contemplative spirituality. Any form of spirituality attained at a lesser level is not true spirituality."
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "True spirituality, therefore, is based on contemplation and reflection, which have to do with intellectual activity. True spirituality is the result of giving serious thought to such questions as, ‘who am I?’, ‘what is the purpose of my life?’ and ‘what happens when I die?’. There are many"
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "questions, but all the answers lie in a rational understanding of the creation plan of God. By looking for rational answers to such questions, we can achieve spirituality at the intellectual level."
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The journey towards spirituality begins with the urge to search for the truth. When people discover the truth and learn of the plan of the Creator, their lives enter a new phase, that of building their personalities according to spiritual principles."
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This journey is purely intellectual in nature. Its quest is two-fold—to solve the riddle of why everyone goes through negative experiences in this world, and to offer positive solutions. It addresses the paradox of our having been given the freedom to make our own moral choices, and our frequent misuse of this freedom—actions which repeatedly present us with situations where people react in anger and incur loss."
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to the heart-based spirituality, or meditation, the only way to truly remain spiritual is to retire to a desolate place, far from civilization, where there is no provocation."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Contemplative spirituality, however, differs considerably from this point of view. Spirituality is based on intellectual awakening. It is not a passive experience. By understanding the Creation Plan of God, and by developing clear thinking and the ability to re-examine any situation, we can convert negative influences and experiences into positive ones. We can take spiritual lessons from material experiences."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is the best formula for character building; it will give us great strength, promote all that is good, and destroy all that is evil."
+      ]
+     ],
+     "page": 20,
+     "ids": [
+      "p20b5"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "The journey towards spirituality begins with the urge to search for the truth."
+      ]
+     ],
+     "page": 19,
+     "ids": [
+      "p19b7",
+      "p19b8"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "spiritual-living",
+   "words": 751,
+   "n": 6
+  },
+  {
+   "title_raw": "NO END TO OPPORTUNITIES",
+   "title": "No End to Opportunities",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    21,
+    22
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Abd al-RAHMAN (731-788) was a prince of the Umayyad dynasty, which had ruled a gigantic empire from their capital, Damascus, for nearly a century. Abd al-Rahman was the grandson of the Caliph, and second-in-line to the throne."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In 750, the Umayyads were overthrown by the Abbasids. When the conquering army entered Damascus, they killed all the surviving members of the Umayyads, except for the young prince Abd al-Rahman, who managed to flee the city with his family."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Abbasid horsemen were sent to scour the countryside to find and kill Abd al-Rahman. The soldiers closed in on the prince and his family while they"
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "were hiding in a small village. The prince narrowly escaped by swimming across the Euphrates. He was 19 years old. Although Abd al-Rahman had managed to escape, his years in exile were very difficult for him. Constantly on the run from his enemies, he reached Ceuta, near modern-day Morocco. His future was bleak. Once heir to a vast empire, he was now a homeless pauper with no place to go."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Across the sea, al-Andalus was in chaos. Once a province of the original Umayyad empire, the Abbasids had lost control of it, due to the months-long delay in communication over long distances. Hearing that the people were essentially leaderless, the prince crossed the Strait of Gibraltar. He quickly amassed local support, by dint of his extraordinary capability as a leader and his lineage. He raised an army and defeated the rebellion."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "He established a new cultural and social order in al-Andalus. He built roads and aqueducts and began construction of the now world-famous Great Mosque of Córdoba. His enemy, the Abbasid Caliph al-Mansur grudgingly said of him, “He wandered through deserts in Asia and Africa, had the boldness to seek his fortune without an army, in lands unknown to him beyond the sea. Having naught to rely upon save his own wits "
+      ],
+      [
+       "",
+       "and perseverance, he nonetheless exterminated rebels, organized cities, mobilized armies, secured his frontiers, founded a great empire and reunited a realm. No man before him ever did such deeds. He did it alone.”"
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b7",
+      "p22b1"
+     ],
+     "page_to": 22
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There is no end to the opportunities in this world. When one opportunity ceases to exist, another opportunity always arises elsewhere. When stages in our careers come to an end, there are always opportunities to enter new phases."
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "But new opportunities will bear no fruit if they are not seized at once and made use of. Nothing happens on its own. It takes a person of courage to grasp opportunities that present themselves. We must also have the endurance and the determination for the struggle which necessarily ensues. If we possess these essential qualities, we are guaranteed to succeed."
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This world has been devised by God so that we may succeed—but only through struggle. Success does not come to the faint of heart, those lacking in determination, or to the impatient. If we give up the struggle, we will only pay the price of our own shortcomings."
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The sun will rise every morning. But for the sun to rise, the world must unceasingly continue to turn. Success lies ahead. But for us to achieve it, we must unceasingly continue to struggle."
+      ]
+     ],
+     "page": 22,
+     "ids": [
+      "p22b5"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Opportunities will never cease."
+      ]
+     ],
+     "page": 21,
+     "ids": [
+      "p21b8"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "no-end-to-opportunities",
+   "words": 533,
+   "n": 7
+  },
+  {
+   "title_raw": "RESPECTING ALL RELIGIONS",
+   "title": "Respecting All Religions",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    23,
+    24
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There are about a dozen major religions in the world along with thousands of other religions and sects. Differences and disagreements are bound to arise, which lead to conflict. How can we create an atmosphere of unity among the adherents of all these religions, so we can all live in peace and harmony?"
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The solution does not lie in removing religion altogether—that would not solve anything. The urge to believe in a greater power is strongly inherent in human nature, and human nature cannot be changed."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The solution does not lie in accepting that all religions are true. Realistically speaking, that is not possible. To everyone, the path of truth is only one, while false paths are many and varied. Thus, this proposal is not practical."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Religion is not just a means to an end. It is the representation of Truth. If someone believes in a particular religion, it means that they are convinced that that is the Truth, and they stand in conviction of that Truth."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b5"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "Realistically speaking, accepting all religions as true is not possible; to everyone, the path of truth is only one."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b8",
+      "p23b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The proposal that all religions be considered equally true defies the inner conviction of human beings, since everyone has a particular belief and faith that is the only thing they can be confident of in this world. In this world, which is full of trials and tribulations, strife and suffering, the Truth is the only thing that we can hold on to. The suggestion that we accept all religions as being true is not practical, and certainly not the solution to bring about unity."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The only answer lies in adopting a policy of religious tolerance, and respect for other people’s convictions. Everyone is entitled to follow what they think is best and profess their belief in it. But this should not prejudice "
+      ],
+      [
+       "",
+       "our opinions about other’s beliefs. There should be mutual respect for each other’s faiths."
+      ]
+     ],
+     "page": 23,
+     "ids": [
+      "p23b7",
+      "p24b1"
+     ],
+     "page_to": 24
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Mutual recognition of religion might not be practical, but mutual respect certainly is. Say, for example, someone shows utmost respect and reverence for his mother. He will show the same to other women too, although they are not his mothers. To respect a woman, she does not"
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "necessarily have to be his mother. Likewise, we can respect and show tolerance for other people’s religions. It is not necessary that we show respect only for our own religion."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Therefore a formula for maintaining religious harmony is—follow one and respect all."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b4"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Mutual recognition of religion might not be practical, but mutual respect certainly is."
+      ]
+     ],
+     "page": 24,
+     "ids": [
+      "p24b5",
+      "p24b6"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "respecting-all-religions",
+   "words": 424,
+   "n": 8
+  },
+  {
+   "title_raw": "THE CREATION PLAN OF GOD",
+   "title": "The Creation Plan of God",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    25,
+    27
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "God, according to His will, created a perfect world called Paradise. A world in accordance with all of our desires as human beings, in that it is free of all limitations and disadvantages, free of fear and pain; free of all imperfections. An eternal world where there is no death or old age. An ideal world where we could achieve complete fulfilment."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A perfect Paradise cannot be inhabited by less-than-perfect beings. So, God created perfection-seeking beings—us. He intended us to spend a period of trial on this present and imperfect world and after this, according to our deeds, we will earn the right to inhabit the perfect and eternal world."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "As part of this test, Paradise is hidden from us. This world, therefore, has all the components necessary for a test. It has perfection-seeking beings in a less-than-perfect world. Beings who have been given complete freedom to choose their actions. We thus have a choice—we can misuse our freedom to do evil, or we can use our freedom wisely, submit to God and qualify for Paradise."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Who will qualify for paradise? Those pure souls who, in their life on this world, come up to the standard of citizenship of Paradise—a perfect world of eternal comfort and pleasure, a world which holds far greater meaning than this one. Perhaps it is this divine plan which Jesus Christ was referring to—"
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b5"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "”Pray to God in these words—Our Father in Heaven, hallowed be your name, Your kingdom come, Your will be done, on Earth as it is in heaven.”"
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b6",
+      "p25b7"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "MATTHEW, 6: 9"
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The test rests on our discovery of God, who is unseen. Before we can see Him, we should voluntarily surrender ourselves to Him. Our desire for Paradise should make us willingly adopt divine ethics. We should develop intellectually and spiritually until we are fit to inhabit the refined world of Paradise. Only those of us who succeed in maintaining a high moral character will find a place in a world of peace, love, and understanding."
+      ]
+     ],
+     "page": 25,
+     "ids": [
+      "p25b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "For people who have no concept of Paradise, complete fulfilment in this world will be a quest doomed to failure. They could expend all their energy in pursuit of a dream world, but they will ultimately fail to construct it."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "For those who understand the concept, however, life in Paradise begins right here and now, in this world itself. We have the pleasure of discovering it intellectually now, and will have the pleasure of experiencing it physically in the next world. Today, peace of mind; tomorrow, a truly peaceful life. Today, the satisfaction of intellectual conviction; tomorrow, the pleasure and comfort of a perfect and eternal life. Today, intellectual Paradise; tomorrow, Paradise itself. What could possibly be greater?"
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Unlike other beings, we are conscious of the past, the present and the future. We cherish a very pleasant consciousness of the future, aspirations"
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b3"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "God created this limited world to put us on trial, so He can select those fit to inhabit the perfect world of Paradise."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b7",
+      "p26b8",
+      "p26b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "of a better life or of the fulfilment of our dreams. Our lives centre on our constant efforts to improve our future. But this perfect future does not seem to ever materialize. This is a part of God’s creation plan. Our perfect future will not materialize in this world, but in the next. Those who have passed the test will find it, while those who have failed will not. This world is only a pathway to our final destination—Paradise."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In this world, everyone suffers frustration and failure. The reason for this is that everyone wants to make a perfect life in this world, which is not possible, because this limited and ephemeral world was not created for that purpose. Despite all our efforts, we are doomed to fail to make a perfect life. The present world is not Paradise; it only introduces the concept of paradise to us. We are allowed to see only glimpses of perfection in this world, which only increases our desire for complete perfection—Paradise. This life is a journey, not the destination. But we sometimes mistake it for a destination, and life becomes just a missed opportunity."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The life of this world is a journey. Not the destination. It is a time to sow, not to reap. The present world is limited. It does not have the means to "
+      ],
+      [
+       "",
+       "fulfil our unlimited desires. It has the means to provide us subsistence at the physical level, but does not have the means to give us fulfilment at the spiritual level."
+      ]
+     ],
+     "page": 26,
+     "ids": [
+      "p26b6",
+      "p27b1"
+     ],
+     "page_to": 27
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "During this limited life on Earth, what we need to do, first and foremost, is to seek out the Creator and Sustainer of the Universe. Having seen a glimpse of Paradise on this earth, we should seek it in the core of our being. Intellectually, spiritually and morally, we should make ourselves deserving of Paradise. We should devote our lives to preparing for the next life. All of us come into this world like ore, which has to be extracted and refined until it can be of use. We have to expand our consciousness through intellectual and spiritual development. This expanded consciousness is what being human means. Those who fail to attain the human level fail the test, and fail to achieve Paradise. Those who succeed will find both peace and happiness in this world, and a place in the Garden of Joy in the world to come, which we call Paradise."
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b2"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "This life is a journey, not a destination. It is a time to sow, not to reap."
+      ]
+     ],
+     "page": 27,
+     "ids": [
+      "p27b8",
+      "p27b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "the-creation-plan-of-god",
+   "words": 921,
+   "n": 9
+  },
+  {
+   "title_raw": "IS THERE A HEAVEN?",
+   "title": "Is There a Heaven?",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    28,
+    28
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The renowned English theoretical physicist Stephen Hawking, in a May 2011 interview with The Guardian said, “"
+      ],
+      [
+       "i",
+       "There is no heaven or afterlife; that is a fairy story."
+      ],
+      [
+       "",
+       "” It is unfortunate that Mr. Hawking, a scientist, chose to make such an unscientific statement."
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A person who does not believe in heaven can only say that according to known physical laws, heaven does not exist. The currently accepted theory of the composition of the Universe states that only 4% of the Universe consists of matter as we know it. The remaining 96% of the Universe is thought to consist of dark matter and dark energy, which are poorly understood, if at all. Only the 4% of the Universe that"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b3",
+      "p28b4",
+      "p28b5",
+      "p28b6"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "73% Dark Energy"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b15"
+     ],
+     "font": "nevis-Bold",
+     "size": 10.0
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "we do understand—the observable universe—is subject to scientific study. Science is defined as the systematic study of the physical and natural world through observation"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b7",
+      "p28b8",
+      "p28b9"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "4%"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b16"
+     ],
+     "font": "nevis-Bold",
+     "size": 10.0
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "and experiment."
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Only that which can be observed can thus be considered to be subject to scientific "
+      ],
+      [
+       "i",
+       "study"
+      ],
+      [
+       "",
+       ". Since the greater part of the universe cannot be observed, it clearly cannot be studied."
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b11"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "23% Dark Matter"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b14"
+     ],
+     "font": "nevis-Bold",
+     "size": 10.0
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In earlier times, there was no scientific method. In the present day, any statement is considered valid only if it has been made via the established scientific method. This method has to be adopted by scientists and non-scientists alike. The only scientifically valid statement on this subject that Mr. Hawking could have made was that—"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "‘according to "
+      ],
+      [
+       "i",
+       "known"
+      ],
+      [
+       "",
+       " physical laws, in the 4% of the Universe "
+      ],
+      [
+       "i",
+       "subject"
+      ],
+      [
+       "",
+       " to "
+      ],
+      [
+       "i",
+       "scientific study"
+      ],
+      [
+       "",
+       ", there is "
+      ],
+      [
+       "i",
+       "probably"
+      ],
+      [
+       "",
+       " no heaven.’"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b13"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "A meaningful world cannot have a meaningless end"
+      ]
+     ],
+     "page": 28,
+     "ids": [
+      "p28b18"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "is-there-a-heaven",
+   "words": 264,
+   "n": 10
+  },
+  {
+   "title_raw": "THROUGH HARDSHIP, TO THE STARS",
+   "title": "Through Hardship, to the Stars",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    29,
+    30
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "T he March 2011 Tōhoku earthquake was the most powerful known earthquake ever to have hit Japan, and one of the five most powerful in the world since 1900. The earthquake triggered a tsunami whose waves reached heights of 133 feet and travelled 10 kilometres inland. The tsunami then caused a nuclear meltdown at the Fukushima Daiichi Nuclear Power Plant. Losses were estimated at $200 billion."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "One might imagine that any country which has been dealt such a shattering blow would never be able to return to its former glory. But this is far from true, for only one year since, Japan is not only far along on the road to recovery, but is still the world’s third largest economy, and the fourth fastest growing."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Japan still figures most prominently of all on the world manufacturing and industrial scene. It is a hive of commercial activity, which is even more remarkable considering that industry in Japan began from scratch long after other developed nations, and after the destruction left behind by World War II, and that Japan has no natural resources to speak of."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b5"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "It is not ease, but effort; not facility, but difficulty, which makes a man."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b8",
+      "p29b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In life, the most important thing is the will to act. Had the Japanese succumbed to a sense of loss and frustration, and frittered their energy away, their country would have not have risen from the ashes as it has in the past, and will in the future. They have conquered their setbacks and set about reconstructing their nation. Earthquakes have brought the Japanese people death and destruction, but the Japanese have always resolutely set about rebuilding their lives afterwards."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In such situations of hardship, if we have the will, all our hidden potential is brought to the fore. We think better, plan better and make greater "
+      ],
+      [
+       "",
+       "efforts to bring those plans to fruition. Anyone who lacks the will is like an idling motor, burning fuel and going nowhere."
+      ]
+     ],
+     "page": 29,
+     "ids": [
+      "p29b7",
+      "p30b1"
+     ],
+     "page_to": 30
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Complacency and a sense of luxury can be even greater subverting factors that affect progress, than despair and devastation. By no means does this imply that adversity is itself beneficial. It is not. But it can be the spark which ignites the fuel of our souls and drives us onwards to greater things. It can be the source of our initiative and the force which drives us forward. In the face of adversity, our hidden capacities come to the fore"
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "and it becomes possible for us to reach heights we have never dreamed of. But for all this, there has to be the "
+      ],
+      [
+       "i",
+       "will"
+      ],
+      [
+       "",
+       " to do so. There has to be the "
+      ],
+      [
+       "i",
+       "will "
+      ],
+      [
+       "",
+       "to stop wallowing in self-pity and to take action."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is not ease, but effort; not facility, but difficulty, which makes a man. "
+      ],
+      [
+       "i",
+       "Per ardua ad astra"
+      ],
+      [
+       "",
+       ". Through hardship, to the stars."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b4"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "In situations of hardship, all our hidden potential is brought to the fore."
+      ]
+     ],
+     "page": 30,
+     "ids": [
+      "p30b13"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "through-hardship-to-the-stars",
+   "words": 485,
+   "n": 11
+  },
+  {
+   "title_raw": "RIGHT THINKING",
+   "title": "Right Thinking",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    31,
+    35
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "As human beings, we have the capacity to think, in the sense that we can, at a purely intellectual level, conceptualize and discriminate between right and wrong, good and bad. Animals, on the other hand, are governed by their instincts. The greatness of humanity lies in our ability to think and plan a course of action. Animals have no need to do this and are not liable to err, for their actions are governed by their natural instincts."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Since human beings are endowed with the ability to decide on a course of action (and cannot, in reality, do otherwise), it is necessary for everyone to fully awaken their senses and bend their mental faculties to the right way of thinking. Once we start thinking right, our actions will consequently be right."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b3"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "THINK POSITIVE"
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Right living is an art. Those who have learned the art can construct a successful life in this world. Those who are oblivious to it have nothing but failure in store for them."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "To put it briefly, this art can be described as ‘positive thinking’. That is, keeping an open mind, so that we can rise above the psychology of reaction or retaliation and plan objectively, after having arrived at"
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b6"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "Right thinking leads us to progress and development. Wrong thinking leads us in the opposite direction."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b8",
+      "p31b9",
+      "p31b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "rational conclusions. If positive thinking gives us the direction to use our intellectual capacity, negative thinking acts as a check upon the development of that intellectual capacity. Those who have a tendency towards negative thinking, think and plan only under the influence of external situations, which may or may not be particularly good."
+      ]
+     ],
+     "page": 31,
+     "ids": [
+      "p31b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Humans are social beings. We cannot survive by ourselves. We need each other to sustain our needs. We are all, in one way or the other, indispensable to each other. In such a situation, reacting negatively is never beneficial. Success will come only to those who respond positively, even in negative situations."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b1"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "DISCOVER, BY THINKING"
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is a fact that all of our activities are governed by our minds. We first think, then act. If we think right, our actions are right. If we do not think right, our actions will not be right. Simple."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Right thinking leads to making the right beginnings, and the right beginnings lead to the right results. When an apple falls from a tree, it always falls straight down. This has been so since the beginning of time. But people took this falling-down for granted. They probably felt that there was nothing to it to think about. What was happening was what should be happening. No one thought to question why."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Sir Isaac Newton, like the story goes, was probably the first person to think about this phenomenon. Why did the apple fall to the ground? Why did it fall down? Why not up? Unusual thoughts, but they helped Newton arrive at the conclusion that the Earth exerted a force on the apple. He proceeded to discover the laws of gravity."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In a similar way, for millennia, people believed that the earth was flat. This theory appeared to be true as far as anyone could see. Therefore, it was held to be established fact. Standing on the coast, if you watch the horizon for ships, you will first see the masts of any ship. As the ship comes closer, the mast rises up until the entire ship is visible. The ship seems to have risen from below the horizon. Think about this phenomenon. If the earth was flat, the entire ship would have appeared in the distance. The entire ship would have been visible as a speck on the horizon that became clearer as the ship came closer. But only the masts of the ships were visible at first. The earth is obviously not flat, as we can see for ourselves."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The truth is that all discoveries are made solely by thinking. They are not things that you stumble upon. Think, and you will discover the answers to everything."
+      ]
+     ],
+     "page": 32,
+     "ids": [
+      "p32b7"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "LEARN FROM EXPERIENCE"
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Another important principle of right thinking concerns our ability to control our minds. This enables us to derive lessons from the various incidents we experience. The readiness to learn lessons from our experiences, and those of others, helps us in intellectual development and saves us from unnecessary loss."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Life is a series of experiences. If our eyes and ears are open, and receptive, we can always derive useful lessons from them. These lessons enable us to construct our lives better. Acquire a receptive and open mind, and develop the ability to learn from experience, both your own, and that of others."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b3"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "DISTINGUISH"
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "An important aspect of the art of thinking is to be able to distinguish between things which, on the surface, appear to be similar, but on a deeper level, are radically different. There are a number of things in this world which fall into this category, and our failure to understand the difference often results in great loss."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "At every point in our lives, we are faced with a choice—between courses of action; between opinions; between ideas. This can be related to all matters in our daily life. We must refrain from forming opinions due to apparent or partial similarities. We must clearly analyse the difference between things and then form our own opinions. Anyone who fails to comprehend this wisdom is like a driver who fails to differentiate between an empty street and a street full of traffic."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b6"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "ADJUST"
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We are all born idealists. We constantly seek higher ideals, the highest and best in all spheres. This idealistic approach sounds good in theory, but is "
+      ],
+      [
+       "",
+       "destructive in the long run. The reason is that we do not live our lives alone. Everyone’s interests, considerations and choices vary. Everyone has a personal, unique view of what is good, bad, and ideal. Owing to this state of affairs, the achievement of the personal ideal is impossible. The only practical solution is to adopt the policy of adjustment with others."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b8",
+      "p34b1"
+     ],
+     "page_to": 34
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "IGNORE PROVOCATION"
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Conflicts and quarrels have always been a feature of human society. That is not to say that there is no escape from this deplorable situation. It depends solely upon the concerned individuals whether they entangle themselves in such conflicts or manage to keep themselves away. This holds true for individuals, as well as for nations."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Most quarrels start with verbal exchanges that grow heated. People over-react and become hostile to each other. Their retaliatory thinking often results in full-fledged enmity. Negative action is the result of negative thinking."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Negative activities should be countered in a positive manner. The best principle to follow is that whenever you encounter any unpleasant situation, think carefully before speaking, or acting. Verbal exchanges can snowball into more serious conflicts; if something poses a real threat, it must be taken seriously. You should make every effort to solve the problem at hand, but confine yourself to resolving it by discussing it. Even if your feelings are hurt, there is no real harm, only imaginary harm. And reacting on imaginary grounds would not be wise. Exercise restraint. Ignore provocation."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b5"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "THINK OUT OF THE BOX"
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "To think out of the box is to think differently, unconventionally, and from new perspectives. You are not limited to thinking in terms of black and white. There are grey areas in between. Better options exist. And thinking out of the box will lead you to these better options."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "For instance, if someone says something hurting to us, we tend to become angry and quarrel with the person responsible. We sometimes feel that if we do not react to the insult, it shows cowardice, while fighting back would be considered brave."
+      ]
+     ],
+     "page": 34,
+     "ids": [
+      "p34b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "But this is the result of wrong thinking. The truth is that in this situation, there is a better option—the way of avoidance. Instead of wasting your time being provoked into fighting, you should stick to the path of positive action and avoid negative action. There is a saying that illustrates this better option—“Dogs may bark, but the elephant goes on”."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is not just a matter of morality. It is in fact an important part of life’s reality. There are different types of people in this world. That is why we are confronted with unpleasant experiences. If we are provoked by every unpleasant experience, we will fail to devote ourselves to any worthwhile goal. Time and resources in this world are limited. We cannot afford to spend these precious things on ‘teaching someone a lesson’, or on retaliation, or other such negative actions. The price we pay for these futile engagements is our own progress and development."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b2"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "BE ACCOUNTABLE"
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We are not machines controlled by some sort of system, nor are we animals, governed only by instincts. We enjoy freedom. We make decisions and take action of our own free will. The question is how to make sure we make the right decisions and take the right action."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "History shows the ineffectiveness of all worldly measures in this connection—whether social pressure, law enforcement or reformation. It is not possible for people on their own to bind themselves to moral values or to adhere to justice. This is possible only when they are convinced that they are under a super-power—a living and powerful God who is perfect, and just."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The concept of a living and powerful God is necessarily accompanied by the concept of accountability. God is just, and everyone will answer to Him for their actions. We will answer to Him for our actions. This guarantees that we think right, and do right. And this gives us the conviction that we will receive God’s eternal reward if we always think right, and do right."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b6"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "FINALLY"
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The truth of the matter is that it is our level of thinking which determines success or failure. Success is the result of right thinking. Think right, do right, and succeed."
+      ]
+     ],
+     "page": 35,
+     "ids": [
+      "p35b8"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Avoid all friction by ignoring obvious provocation, for trouble avoided is trouble averted."
+      ]
+     ],
+     "page": 33,
+     "ids": [
+      "p33b9",
+      "p33b10",
+      "p33b11"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "right-thinking",
+   "words": 1659,
+   "n": 12
+  },
+  {
+   "title_raw": "DIALOGUE IN RELIGION",
+   "title": "Dialogue in Religion",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    36,
+    38
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Religious differences have always existed between people. That is why inter-religious dialogue has been found in one form or the other since ancient times. Fourteen hundred years ago, the Prophet of Islam held a three-religion conference in Medina to exchange views on religious issues."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Such attempts have repeatedly been made in history. The circumstances that unfolded following World War II led the Church, in particular, to pay great attention to this issue. Through its continuous efforts, dialogues of this nature are regularly being held in various countries, between Muslims and Christians in particular."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "These efforts have borne fruit. As an example of Christian-Muslim solidarity, during the Arab Spring protests in Cairo, Muslims and Christians protected each other whilst they prayed."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "If the Quran is consulted on this subject, we find two main principles on which to hold dialogues. One is derived from this verse of the Quran —"
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b5"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“Say: O People of the Book, let us come to a word common to us and you that we will worship none but God.”"
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b6",
+      "p36b7"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 3: 64"
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The first and foremost principle for any dialogue held to discuss two or more religions is to strive to find a mutual basis for peaceful co-existence."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Finding common ground in secular matters is comparatively easy, for nothing is held as sacred in secularism. On the contrary, everything is sacred in religion. That is why it becomes the most difficult task to find a basis for agreement in religious matters. However, despite all difficulties, we must continue our peaceful efforts, irrespective of the results."
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The second principle given to us by the Quran is purely a matter of pragmatism. We learn that matters should be settled on practical grounds, avoiding their theoretical aspects.This principle is derived from this verse of the Quran — "
+      ],
+      [
+       "i",
+       "“For you, your religion and for me, mine.” "
+      ]
+     ],
+     "page": 36,
+     "ids": [
+      "p36b11",
+      "p37b1"
+     ],
+     "page_to": 37
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 109: 6"
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This is the principle of religious co-existence. This means that whenever common grounds for agreement between two or more parties cannot be arrived at on an ideological basis, then the way of practical co-existence must be adopted."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Community of Sant’Egidio is a Christian community that provides a good example of a continuing dialogue of this nature. The community promotes interaction on a mass scale between adherents of different religions. The religious meet held under the auspices of the Community of Sant’Egidio on a large scale each year makes a considerable contribution towards the achievement of the goal targeted by dialogue."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We should not judge our efforts in this matter only by the results of meetings held in the name of formally arranged inter-religious dialogue. The truth is that ‘inter-religious dialogue’ is not limited to specific meetings held in the field of religion. It has assumed the form of a vast historical process—spontaneous, ongoing and perhaps never completely recorded. Negotiation in controversial matters is in tune with the spirit of the age."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The industrial revolution and modern communication have added such vast dimensions to human relations that the entire world has been converted into a global village. People of various beliefs are coming closer, on a global scale. This interaction serves as an informal and on-going dialogue. With distances shortened, the confrontational attitude gives way to compromise. Interaction in itself is unannounced dialogue. As a result of circumstances, when interactions between people of different beliefs increase, the purpose of the dialogue is served on its own."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Today, in educational institutions, offices, in travel, and in national and international activities, adherents of different religious traditions are meeting one another on a scale hitherto unwitnessed. In the course of this continuous and vast interaction, for the first time in human history, people seem less like strangers to one another. A great gap has been bridged. People are learning one another’s languages. They are becoming familiar with one another’s culture. Making concessions to one another has become a basic social need."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "These factors have brought people all over the world closer. And it is a psychological truth that closeness and interaction serve the purpose of a "
+      ],
+      [
+       "",
+       "practical dialogue. In this way, a natural dialogue has come into existence and has become an on-going process at all times and in all places."
+      ]
+     ],
+     "page": 37,
+     "ids": [
+      "p37b8",
+      "p38b1"
+     ],
+     "page_to": 38
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Probably the most dramatic result of this historical process is that after a long intellectual struggle, religious intolerance has been universally rejected. Religious intolerance has now been replaced with complete religious freedom. Today under the auspices of the United Nations, all the nations of the world have signed the universal declaration of human rights. In accordance with this declaration, religious freedom has been accepted as the natural birthright of all human beings. As opposed to practices in ancient times, no one can persecute anyone on the basis of religion. This is the change which has elevated the sphere of religious difference to peaceful negotiation."
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The effects of this can be seen in all walks of life, whether religious or secular. Every one of us, consciously or unconsciously, plays a part in making religious co-existence a reality. Interfaith dialogue becoming a part of the historical process holds great promise for us, as in this way its success is assured. This is how every great revolution of history has got under way. Whenever a movement goes beyond the stage of individual or group efforts and joins the historical process itself, then the continuity of that movement is ensured and nothing can stop it reaching its goal."
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In short, inter-religious dialogue had its beginnings in individual interaction, paving the way for discussions held in religious gatherings. The time has now come when it has become a part of a world movement. If the course of events is any indication, God willing, that day too will dawn when the world is no more ridden with religious disputes, and we are able to live in a peaceful and harmonious world."
+      ]
+     ],
+     "page": 38,
+     "ids": [
+      "p38b4"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "dialogue-in-religion",
+   "words": 973,
+   "n": 13
+  },
+  {
+   "title_raw": "DOES ISLAM PERMIT VIOLENCE?",
+   "title": "Does Islam Permit Violence?",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    39,
+    41
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Does Islam permit violence? No, it does not. However it is true that Islam grants permission to fight in self-defence as a last resort, just as is done by any other religious or non-religious system of justice. But perpetration of violence is completely different from self-defence, and is expressly forbidden in Islam. The purpose of violence, in the sense in which it is generally used, is to coerce or destroy an enemy. This has no justification or sanction in Islam. If someone is considered an enemy by someone else, that does not make it lawful for the latter to engage in violence aimed at destruction."
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A study of the Quran shows that Islam differentiates between enemies and aggressors. If a group unilaterally commits violent aggression without provocation against another, the latter have the right, according to the Quran, to counter this action in self-defence, using violence only if necessary in retaliation. The Quran says—"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b3"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“Permission to take up arms is given to those who are attacked.”"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b4"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 22: 39"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "But dealings with enemies are a totally different matter. The teachings of Islam on this subject are exactly the same as those of Jesus Christ, from the Bible—"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "“Love your enemy.”"
+      ],
+      [
+       "",
+       " LUKE, 6: 31"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The following verse of the Quran advises us of the correct Islamic Principles in any dealings with enemies—"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "“"
+      ],
+      [
+       "i",
+       "And who is better in speech than he who invites men to the service of God, and does good works, and says,“I am surely of those who submit”? And good and evil are not alike. Requite evil with good, and he who is your enemy will become your dearest friend."
+      ],
+      [
+       "",
+       "”"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b9",
+      "p39b10",
+      "p39b11"
+     ]
+    },
+    {
+     "k": "footnote",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 41: 33-34"
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b12"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This shows that according to the teachings of Islam, our duty is not to annihilate any enemies, but to befriend them. According to Islam, "
+      ],
+      [
+       "",
+       "everyone is born in this world with a good nature. But sometimes, people temporarily go against their natural selves and become ‘enemies’. But if they are treated with unilateral good behaviour, they will return to their original nature. And enemies of the past will be transformed into friends of the present."
+      ]
+     ],
+     "page": 39,
+     "ids": [
+      "p39b13",
+      "p40b1"
+     ],
+     "page_to": 40
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Let us examine the reasons why people resort to violence. One reason is ideological extremism. Without zealotry, there will be no violence. The Prophet of Islam enjoined upon us to shun extremes. He observed—"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b2"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“There is no extremism in religion.”"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b3"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "HADITH reported by AL-NASAI, IBN MAJAH and AHMAD"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Another reason for resorting to violence is anger. Islam regards anger as one of the major moral evils. The Quran defines true believers as those who “when angered are willing to forgive.”"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Obviously, if according to the teachings of Islam, people forgive and forget, then the need to resort to violence will not arise at all."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The third reason for resorting to violence is the fact that violence has come to be regarded as a supremely powerful means of achieving a goal."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b7"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "Perpetration of violence is expressly forbidden in Islam."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b13",
+      "p40b14"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "But the Quran puts an end to this line of thinking also. According to the Quran, violence is a negative reaction yielding no result but destruction. It is neither a useful nor a positive means of achieving any objective."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Quran teaches us that no disagreement should be allowed to reach the level of a confrontation, and that attempts should be made to bring it to an end by adopting measures of reconciliation. The Quran says—"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "i",
+       "“Reconciliation is best.”"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b10"
+     ]
+    },
+    {
+     "k": "footnote",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 4: 128"
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b11"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "A conciliatory, rather than a confrontational, course of action should be adopted to deal effectively with any disagreement. It is obvious that if the "
+      ],
+      [
+       "",
+       "real teachings of Islam were followed, no disagreement would escalate to the point of violence."
+      ]
+     ],
+     "page": 40,
+     "ids": [
+      "p40b12",
+      "p41b1"
+     ],
+     "page_to": 41
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There is a relevant saying of the Prophet—"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b2"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“God grants to non-violence what he does not grant to violence.”"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b3"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "HADITH from SAHIH MUSLIM"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This saying of the Prophet is indicative of the true system of nature. In this world, the system of nature established by God is based on the principle that peaceful methods are far more useful and result-oriented"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "in the achievement of any goal. Violent methods can only bring about destruction; and cannot produce any positive result."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is necessary here, to add that ‘Islam’ and ‘Muslims’ are not terms that are interchangeable. Islam is the name of an ideology, while Muslims are the group of people who profess to have adopted Islam as their religion. This being so, the actions of Muslims must be judged by the teachings of Islam, rather than assume that Islam is defined as the sum of all the activities of Muslims."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b7"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "If a Muslim, or a group of Muslims, indulge in violence, they must personally be held responsible. Their actions cannot be attributed to the influence of Islam. Of those who claim to be Muslims, the Quran observes—"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b8"
+     ]
+    },
+    {
+     "k": "quote",
+     "runs": [
+      [
+       "i",
+       "“You have not believed yet; but rather say, “we have accepted Islam”, for the true belief has not yet entered your hearts.”"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b9",
+      "p41b10"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "THE QURAN, 49: 14"
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b11"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Muslims must be judged in the light of Islam, not Islam in the light of Muslim actions."
+      ]
+     ],
+     "page": 41,
+     "ids": [
+      "p41b14",
+      "p41b15"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "does-islam-permit-violence",
+   "words": 840,
+   "n": 14
+  },
+  {
+   "title_raw": "LESSONS FROM NATURE",
+   "title": "Lessons from Nature",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    42,
+    43
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We find ourselves in a vast universe. We are only a miniscule part of a gigantic society. We should adopt the same behaviour in our lives as that adopted by all the other components of the Universe. This is the correct natural course, and the secret to our success lies in adopting this course."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "What is this behavioural model present in the Universe? Observe the stars and the planets in the Universe. Each star and planet moves in its own orbit with incredible precision and regularity, in accordance with the laws of nature. None of them move out of their own orbits and trespass on another’s orbit. Due to this discipline, there is peace and order in the Universe."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Likewise, we should also adopt this policy of non-interference in society. Everyone should be conscious of the fact that their freedom ends where the freedom of others begins."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b4"
+     ]
+    },
+    {
+     "k": "pull",
+     "runs": [
+      [
+       "b",
+       "The discipline of the laws of nature ensures peace and order in the universe."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b8",
+      "p42b9"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Look at the world of plants. Plants have silently adopted the mechanism of photosynthesis. They continuously supply oxygen that fulfils the necessities of other living things, using up unwanted carbon dioxide. This is a selfless system of profitability. It is essential that we also choose to follow this system in our lives."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Look at the flow of water in a mountain stream. The flow is repeatedly obstructed by stones in its path that appear to be obstacles to its journey. But the spring does not attempt to remove the stones to continue its journey. Instead, it carves its way ahead around and alongside the stones. As if telling us not to collide with obstacles, but to continue on our way by keeping away from them."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Similarly, we see in the world of animals, that now and then, animals quarrel. But it is always for a short time. They quickly become normal as "
+      ],
+      [
+       "",
+       "if nothing had happened. In the same way, throughout our social lives, we will go through a lot of unpleasant experiences, but we should make sure they are only temporary."
+      ]
+     ],
+     "page": 42,
+     "ids": [
+      "p42b7",
+      "p43b1"
+     ],
+     "page_to": 43
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The study of the Universe shows that everything gives something to the others without taking anything in return. For instance, the sun provides light and warmth to inhabitants of our little world, but it does not take anything in return. The atmosphere continuously provides life-sustaining oxygen, without taking anything in return. Similarly, all the natural resources of the world serve us without taking anything in return."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This entire world is a world that gives, not takes. It is a culture of giving. Everything in the world continuously conveys the message that we should give, without taking anything in return. We should adopt this culture, and live as givers, rather than takers."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The Universe around us serves as a vast model. The secret of success for us is to follow this model of submission. But with a difference—in the rest of the Universe, the model has been established compulsively, under the laws of nature, while we have to establish this model in our lives consciously, of our own free will."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "We have to bring our free will under the universal discipline, living as though we are following the laws of nature, as though we have no choice. We have to submit to the will of God, which is expressed in the Universe in the form of the laws of nature. This attitude of submission is the only right behaviour, which will guarantee us eternal success."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b5"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "b",
+       "Submission by choice to the laws of nature — the will of God is the only way to eternal success."
+      ]
+     ],
+     "page": 43,
+     "ids": [
+      "p43b8",
+      "p43b9"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "lessons-from-nature",
+   "words": 597,
+   "n": 15
+  },
+  {
+   "title_raw": "HISTORICAL PROPHET",
+   "title": "Historical Prophet",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    44,
+    44
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In the year 610, in Mecca, the Catholic scholar Waraqa ibn Naufal said to the Prophet of Islam, “I wish I could be alive at the time when your people expel you from your tribe.” His prediction came true in 620. This, along with most other incidents of the Prophet’s life have been historically documented."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Of all the prophets, the Prophet Mohammad is unique in having led an existence so open and so well documented that all of the incidents in his life may be narrated chronologically. His life is a chapter of history, rather than a set of tales."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This appears to be something quite simple or obvious, but it is in fact quite remarkable. The bona fide status of all the prophets, except for that of the Prophet Mohammed, is purely a matter of personal belief and is not a historical fact. They are mentioned only in religious scriptures, and we find no complete record of them in world history."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "When did the Prophet Noah board his ark? When did the Prophet Abraham leave Iraq? When did the Prophet Moses receive the Ten Commandments? When was Jesus Christ born? All these questions remain unanswered according to purely historical criteria."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b5"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The historical documentation of the Prophet Mohammad’s life is a great blessing for humanity. For now, given this historical authenticity, we no longer need to rely on mythological stories or the legends of the prophets in the search for divine guidance. We can confine our search for divine guidance to historical fact."
+      ]
+     ],
+     "page": 44,
+     "ids": [
+      "p44b6"
+     ]
+    }
+   ],
+   "type": "article",
+   "id": "historical-prophet",
+   "words": 253,
+   "n": 16
+  },
+  {
+   "title_raw": "THE WORD OF GOD",
+   "title": "The Word of God",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    45,
+    47
+   ],
+   "items": [
+    {
+     "k": "intro",
+     "runs": [
+      [
+       "i",
+       "The Quran is the book of God. It has been preserved in its entirety since its revelation to the Prophet of Islam between 610 and 632. It is a book that brings glad tidings to mankind, along with divine admonition, and stresses the importance of man’s discovery of the Truth on a spiritual and intellectual level."
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b2"
+     ]
+    },
+    {
+     "k": "intro",
+     "runs": [
+      [
+       "",
+       "Translated from Arabic and commentary by "
+      ],
+      [
+       "b",
+       "Maulana Wahiduddin Khan"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b3"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "Your God is one God. There is no deity save Him. He is the Compassionate, "
+      ],
+      [
+       "bi",
+       "the Merciful. "
+      ],
+      [
+       "",
+       "2: 163"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Mankind has only one God: He is the only worthy focus of man’s attention. Our very existence on earth, and all the benefits we derive from the world around us, are manifestations of His unbounded grace and mercy. In return, we should become God’s devoted servants, living for Him, dying for Him, and setting all our hopes on winning His eternal favour. Man owes everything to his Creator. If he becomes conscious of this, his Lord will mean everything to him, as a mother means everything to her infant."
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b5"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "In the creation of the heavens and the earth; in the alternation of night and day; in the ships that sail the ocean bearing cargoes beneficial to man; in the water which God sends down from the sky and with which He revives the earth after its death; scattering over it all kinds of animals; in the courses of the winds, and in the clouds pressed into service between earth and sky, there are indeed signs "
+      ],
+      [
+       "bi",
+       "for people who use their reason."
+      ],
+      [
+       "",
+       " 2: 164"
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The vast universe spread out before us serves as a magnificent introduction to God. The existence of a limitless world in the form of the Earth and the heavens is a proof that there must be a Creator behind it. Despite apparently different and contrasting elements, all things work together in absolute harmony, showing that their Creator and Sustainer is the one and only God. Then the fact that every single thing benefits the rest of the Universe, in some manner or the other, shows that all things "
+      ],
+      [
+       "",
+       "have been designed according to a definite and absolutely conscious plan. Apparently lifeless objects are invested with life through a natural process: this shows that death is only a temporary phase in this universe. Here death is always followed by new life. Every variety of animate creature flourishes in this world in huge numbers. All are being sustained by varied forms of the same food and drink, indicating the unfathomable power of God. The atmosphere totally encompassing the earth shows that man’s life is entirely in his Creator’s hands. Everything in this universe has been tamed to cater to man’s needs. This is indicative of the fact that man’s Creator is a highly compassionate being. Even before an individual has been born into the world, all his requirements have already been taken care of."
+      ]
+     ],
+     "page": 45,
+     "ids": [
+      "p45b7",
+      "p46b1"
+     ],
+     "page_to": 46
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The presence of all these signs in the universe are reflections of the Creator in His creation. The universe displays God’s very existence and His oneness on a vast scale; it is an amalgam of every aspect of perfection, so that no one with any vision or even a grain of intelligence can fail to discover Him in it. But these signs, spread all over the universe, serve as proofs of God’s existence and His role as Sustainer of the entire universe, only to one who sincerely reflects on these signs. For, to be able to arrive at the truth, one has to be sincere in one’s search for it, and one has to rise above worldly considerations before drawing one’s conclusions. This can be achieved only by total absorption, not in externals, but in the search for the inner reality that lies beneath the outward surface of things."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b2"
+     ]
+    },
+    {
+     "k": "ayah",
+     "runs": [
+      [
+       "bi",
+       "Yet there are some who set up equals with God and adore them with the adoration due to God, but those who believe love God most. If only the wrongdoers could see — as they will see when they face the punishment — that all power belongs to God, and that God is severe "
+      ],
+      [
+       "bi",
+       "in punishment."
+      ],
+      [
+       "",
+       " 2: 165"
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "By their nature and circumstances, human beings always look for an external support—a being, who may compensate for their feelings of helplessness, and may serve as a source of confidence and conviction. To make someone a part of one’s life in this capacity is akin to accepting that being as a deity. When a being (or an object) is taken as a deity, it is assumed to be someone or something worthy of being worshipped. It necessarily entails that all one’s feelings of love and devotion become exclusively reserved for that being or object. Their own nature compels human beings to have some focus for all their feelings of love, devotion and reverence. And whatever becomes the focus of these emotions is held to be God. (That is, that object has been accorded the status of divinity)."
+      ]
+     ],
+     "page": 46,
+     "ids": [
+      "p46b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Since God remains invisible in this present world, one who judges things by appearances tends to accord some visible being the status due only to the Almighty. Such beings are generally leaders who, because of certain marks of distinction, become the centre of public attention. This vacuum in human nature was in actual fact to be filled by God Almighty, but many people chose something or someone other than God for this purpose."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b1"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "This happens when ordinary human beings, seeing someone surrounded by visible pomp and splendour, are impressed by certain special talents or qualities; when they find certain individuals occupying ‘seats’ sanctified by centuries-old traditions; when at times they are impressed by the large following which certain people enjoy and when they see public figures surrounded with the halo of mysterious legends. Being ordinary mortals themselves, they come thus to regard certain persons as possessing extraordinary power and therefore superior to the common man."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "But the truth is that in this universe of God, no one save God possesses any power or greatness. Man may continue to receive the status of divinity only for so long as God remains invisible. But when God appears on Doomsday, the state of affairs will change so drastically that people will flee from one another. Today people take great pride in their association with and devotion to great men. They think that they are clinging to a firm rock which will surely help them in the Hereafter. Such association will prove meaningless on Doomsday—as if they had never existed at all."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b3"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Man will look at his past life in despair, but he will be utterly helpless to rectify the situation. He will be able to do nothing but regret his past deeds."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b4"
+     ]
+    }
+   ],
+   "type": "scripture",
+   "id": "the-word-of-god",
+   "words": 1112,
+   "n": 17
+  },
+  {
+   "title_raw": "ASK MAULANA",
+   "title": "Ask Maulana",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    48,
+    49
+   ],
+   "items": [
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "What is the importance of ritual?"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Ritual is the outer form of worship. When imbued with the inner spirit, rituals are good, but without that, rituals are of no avail. The body of a human being is important, but without the inner spirit, the body is lifeless. By this example you can understand the significance of rituals."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b3"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Can I ever be free of negative feelings such as fear and doubt?"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "No. Negative feelings are not an evil. They also have their positive aspect. Negative feelings are like shocking experiences that awaken your mind; negative feelings make you able to reassess your plans and your mode of life. If you engage in introspection, negative feeling becomes a great teacher for you, provided you do not allow your negative thoughts to overcome you."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "What is the difference between adjustment and compromise?"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "There is a great difference between the two. Adjustment is a principle of wisdom; it is the well-considered behaviour of a wise person, while a compromise is a form of expediency designed merely to secure your interests, without following any particular principle."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b7"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "What is your view of the problem of suffering?"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The problem of suffering is not an evil. The positive point of suffering is that it is a challenge. It gives us an incentive to work. It activates one’s mind. Suffering is a blessing in disguise. History shows that those who were born with a silver spoon in their mouths failed to achieve any great success, while those who faced hardship and disadvantages emerged as super-achievers. It is not ease, but effort; not facility but difficulty, that makes a man."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Why is it difficult for people to accept their limitations?"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "The reason is that people generally do not apply their mind; they run after their emotions. If you apply your reason, and think about the pros and cons, if you try to understand the result of your actions, then you "
+      ],
+      [
+       "",
+       "will never forget that a rational approach is the best approach and that a rational approach is based on the real situation, which is a situation of limitations. Reason will never allow one to ignore one’s own limitations."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11",
+      "p49b1"
+     ],
+     "page_to": 49
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "According to Islam, what is the purpose of life?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b2"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "According to Islam, Paradise is the goal of every human being. And the purpose of life is to make yourself a deserving candidate for Paradise."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "Can we say that spirituality is a powerful tool for managing stress?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Yes. It is the mind that is the source of both joy and sorrow. So when you rid yourself of your negativity by the application of your intellect, you become free of tension. Tension is the result of moral unawareness and we can have a tension-free life simply by creating true awareness regarding our situation."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b5"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "How can we strike a balance between the material and the spiritual?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "It is very easy. Follow the well-known principle ‘simple living, and high thinking’. This is the best formula for a spiritual life. Simple living saves you from distractions, and high thinking enables you to discover the sublime aspects of nature and life."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "What must we do to develop ourselves spiritually?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "In my experience, the only effective formula is to save yourself from distraction. We are all spiritual by birth. But different distractions erode our nature and our spirituality. Therefore, save yourself from distraction and maintain your true nature, so that your spirituality remains intact."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9"
+     ]
+    },
+    {
+     "k": "qh",
+     "runs": [
+      [
+       "bi",
+       "What constitutes distraction?"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b10"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "Giving in to temptation is distraction. So, do not allow your desires to lead you into temptation. You must instead work towards achieving your goals. In every situation, your response must be a well-considered response. Going against these norms is distraction."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "thought",
+     "runs": [
+      [
+       "",
+       "You can send your questions to"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ],
+     "source": "quote panel after the article"
+    }
+   ],
+   "type": "qa",
+   "id": "ask-maulana",
+   "words": 615,
+   "n": 18
+  }
+ ]
+}

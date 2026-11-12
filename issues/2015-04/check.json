@@ -1,0 +1,314 @@
+{
+ "slug": "2015-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "unawareness-of-muslims",
+   "title": "Unawareness of Muslims",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 593,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "peace-of-mind-for-what",
+   "title": "Peace of Mind—for What?",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 635,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "progress-in-the-long-haul",
+   "title": "Progress in the Long Haul",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 335,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-mosque",
+   "title": "The Mosque",
+   "pages": [
+    10,
+    12
+   ],
+   "words": 962,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "man-know-thyself",
+   "title": "Man, Know Thyself",
+   "pages": [
+    13,
+    25
+   ],
+   "words": 5315,
+   "match": 99.98,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "thankfulness",
+   "title": "Thankfulness",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 388,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "problem-or-challenge",
+   "title": "Problem or Challenge?",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 703,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "muslim"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "violence-is-not-an-option",
+   "title": "Violence Is Not an Option",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 1134,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "mind-boggling-universe",
+   "title": "Mind-Boggling Universe",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 341,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "islam-in-history",
+   "title": "Islam in History",
+   "pages": [
+    34,
+    37
+   ],
+   "words": 1165,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p34b2",
+     "kind": "p",
+     "words": [
+      "at"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "love-and-knowledge",
+   "title": "Love and Knowledge",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 267,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "belief-in-god",
+   "title": "Belief in God",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 209,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "relinquishing-power-for-god",
+   "title": "Relinquishing Power for God",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p40b2",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "through-fire-and-water",
+   "title": "Through Fire and Water",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 300,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p41b2",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "individual-reform-not-protest-activism",
+   "title": "Individual Reform, Not ‘protest Activism’",
+   "pages": [
+    42,
+    44
+   ],
+   "words": 1065,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p42b2",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "utilize-yourself",
+   "title": "Utilize Yourself",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 294,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p45b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 892,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 855,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17157,
+ "article_words": 15800
+}

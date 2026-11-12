@@ -1,0 +1,350 @@
+{
+ "slug": "2019-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-babri-mosque-verdict",
+   "title": "The Babri Mosque Verdict",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 720,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "complaining-a-sign-of-weakness",
+   "title": "Complaining: A Sign of Weakness",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 434,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "what-to-do-in-an-unfavourable-situation",
+   "title": "What to Do in an Unfavourable Situation?",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 569,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "peace-better-than-political-supremacy",
+   "title": "Peace Better Than Political Supremacy",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 727,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p11b5",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "belief-in-the-revealed-books",
+   "title": "Belief in the Revealed Books",
+   "pages": [
+    13,
+    18
+   ],
+   "words": 2231,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "in-giving-we-receive",
+   "title": "In Giving, We Receive",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 786,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p19b2",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "atheism",
+   "title": "Atheism",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 760,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "jesus-christ-and-islam",
+   "title": "Jesus Christ and Islam",
+   "pages": [
+    23,
+    25
+   ],
+   "words": 1058,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "gods-bounties",
+   "title": "God’s Bounties",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 407,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "indirect-gain",
+   "title": "Indirect Gain",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 373,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "unanticipated-circumstances",
+   "title": "Unanticipated Circumstances",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 362,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "gaining-lost-respect",
+   "title": "Gaining Lost Respect",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 366,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p30b2",
+     "kind": "p",
+     "words": [
+      "muslims"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "a-sure-path-to-success",
+   "title": "A Sure Path to Success",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 616,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p31b2",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "indian-muslims-at-the-crossroads",
+   "title": "Indian Muslims at the Crossroads",
+   "pages": [
+    33,
+    36
+   ],
+   "words": 1549,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p33b2",
+     "kind": "p",
+     "words": [
+      "keeping"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "intellectual-rebirth",
+   "title": "Intellectual Rebirth",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 420,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "simple-living-brings-positive-results",
+   "title": "Simple Living Brings Positive Results",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 528,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p38b2",
+     "kind": "p",
+     "words": [
+      "he"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "patience-and-piety",
+   "title": "Patience and Piety",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 675,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "of"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "price-of-worldly-seats",
+   "title": "Price of Worldly Seats",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 233,
+   "match": 99.57,
+   "missing": [
+    {
+     "item": "p42b2",
+     "kind": "p",
+     "words": [
+      "mr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "simplifying-ones-difficulties",
+   "title": "Simplifying One’s Difficulties",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 433,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 934,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 673,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 25531,
+ "article_words": 14854
+}

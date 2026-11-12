@@ -1,0 +1,182 @@
+{
+ "slug": "2021-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "deconditioning-the-mind",
+   "title": "Deconditioning the Mind",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 806,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "no"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "islamic-concept-of-gender-equality",
+   "title": "Islamic Concept of Gender Equality",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1110,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p8b5",
+     "kind": "p",
+     "words": [
+      "men"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-spiritual-role-of-women",
+   "title": "The Spiritual Role of Women",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 942,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "studies"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "women-can-play-a-revolutionary-role-in-islamic-missionary-tasks",
+   "title": "Women Can Play a Revolutionary Role in Islamic Missionary Tasks:",
+   "pages": [
+    16,
+    29
+   ],
+   "words": 6042,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "a-faultless-universe",
+   "title": "A Faultless Universe",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 404,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "the-art-of-thinking",
+   "title": "The Art of Thinking",
+   "pages": [
+    32,
+    36
+   ],
+   "words": 1784,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "as"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "a-life-dedicated-to-peace-spirituality",
+   "title": "A Life Dedicated to Peace & Spirituality",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 763,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-story-of-khadija",
+   "title": "The Story of Khadija",
+   "pages": [
+    39,
+    41
+   ],
+   "words": 1271,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "mothers-of-the-believers",
+   "title": "Mothers of the Believers",
+   "pages": [
+    42,
+    45
+   ],
+   "words": 1598,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 703,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 958,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.97,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17718,
+ "article_words": 16381
+}

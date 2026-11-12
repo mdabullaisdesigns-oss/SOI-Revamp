@@ -1,0 +1,333 @@
+{
+ "slug": "2016-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-problem-of-intolerance",
+   "title": "The Problem of Intolerance",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 609,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "running-after-two-hares",
+   "title": "Running After Two Hares",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 268,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "living"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-essence-of-religion-part-i",
+   "title": "The Essence of Religion—part I",
+   "pages": [
+    8,
+    12
+   ],
+   "words": 2202,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-importance-of-time",
+   "title": "The Importance of Time",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 643,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "lord"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "advice-for-the-kashmiri-youth",
+   "title": "Advice for the Kashmiri Youth",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 682,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "mohammad"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "political-extremism-and-islam",
+   "title": "Political Extremism and Islam",
+   "pages": [
+    17,
+    22
+   ],
+   "words": 2012,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "we-belong-to-god",
+   "title": "We Belong to God",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "mans-helplessness",
+   "title": "Man’s Helplessness",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 684,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p24b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "creative-solution",
+   "title": "Creative Solution",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 267,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "sound-speech",
+   "title": "Sound Speech",
+   "pages": [
+    27,
+    28
+   ],
+   "words": 726,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-treasure-of-god-realization",
+   "title": "The Treasure of God Realization",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 279,
+   "match": 99.28,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "mentioning"
+     ]
+    },
+    {
+     "item": "p29b5",
+     "kind": "p",
+     "words": [
+      "is"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-age-of-alternatives",
+   "title": "The Age of Alternatives",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 1005,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "service-to-mankind",
+   "title": "Service to Mankind",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 1186,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "salvation",
+   "title": "Salvation",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 340,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "unending-war",
+   "title": "Unending War",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 813,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "increasing-in-faith",
+   "title": "Increasing in Faith",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 328,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "observing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "universal-message-for-global-citizenship",
+   "title": "Universal Message for Global Citizenship",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 1159,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 1062,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    49
+   ],
+   "words": 1301,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17414,
+ "article_words": 15903
+}

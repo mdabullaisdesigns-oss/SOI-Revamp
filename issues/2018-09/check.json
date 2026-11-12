@@ -1,0 +1,333 @@
+{
+ "slug": "2018-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "aspiring-for-more-and-settling-for-less",
+   "title": "Aspiring for More and Settling for Less",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 697,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-status-of-woman-in-islam",
+   "title": "The Status of Woman in Islam",
+   "pages": [
+    7,
+    10
+   ],
+   "words": 1512,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p7b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "principles-for-success",
+   "title": "Principles for Success",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 704,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p11b5",
+     "kind": "p",
+     "words": [
+      "psychologists"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "give-nature-a-chance",
+   "title": "Give Nature a Chance",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 718,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "prophet-of-peace",
+   "title": "Prophet of Peace",
+   "pages": [
+    15,
+    20
+   ],
+   "words": 2291,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p15b4",
+     "kind": "p",
+     "words": [
+      "due"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "re-engineering-minds-towards-peace",
+   "title": "Re-Engineering Minds Towards Peace",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 242,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "the-pharaoh-of-moses",
+   "title": "The Pharaoh of Moses",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 284,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-superiority-of-truth",
+   "title": "The Superiority of Truth",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 350,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "dont-live-in-suspicion",
+   "title": "Don’t Live in Suspicion",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 609,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-simple-formula-of-maarifat",
+   "title": "The Simple Formula of Ma’arifat",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 411,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "failure-of-the-philosophical-search",
+   "title": "Failure of the Philosophical Search",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 234,
+   "match": 99.57,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "forgiveness",
+   "title": "Forgiveness",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 688,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "god-almighty",
+   "title": "God Almighty",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 720,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p31b2",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p32b3",
+     "kind": "thought",
+     "words": [
+      "selfsufficient"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "losers-can-be-gainers",
+   "title": "Losers Can Be Gainers",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 584,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "an"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "an-intellectual-transformation",
+   "title": "An Intellectual Transformation",
+   "pages": [
+    35,
+    39
+   ],
+   "words": 2070,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p35b4",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    },
+    {
+     "item": "p39b2",
+     "kind": "p",
+     "words": [
+      "causes",
+      "intellectually"
+     ]
+    },
+    {
+     "item": "p39b6",
+     "kind": "thought",
+     "words": [
+      "soulsearching",
+      "selfanalysis"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "principles-of-islam",
+   "title": "Principles of Islam",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 753,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "death",
+   "title": "Death",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 623,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "of"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 754,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1166,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 21795,
+ "article_words": 15410
+}

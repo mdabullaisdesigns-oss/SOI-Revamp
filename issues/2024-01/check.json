@@ -1,0 +1,347 @@
+{
+ "slug": "2024-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "navigating-the-new-year-with-purpose-and-wisdom",
+   "title": "Navigating the New Year with Purpose and Wisdom",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 817,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "hyderabad-diaries",
+   "title": "Hyderabad Diaries",
+   "pages": [
+    8,
+    16
+   ],
+   "words": 3684,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "travelling"
+     ]
+    },
+    {
+     "item": "p14b5",
+     "kind": "p",
+     "words": [
+      "offshoots"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "living-for-god",
+   "title": "Living for God",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p17b4",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "traits-of-a-good-personality",
+   "title": "Traits of a Good Personality",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-challenges-of-the-later-era",
+   "title": "The Challenges of the Later Era",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 422,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p20b10",
+     "kind": "p",
+     "words": [
+      "prophet"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "role-of-prophets-in-shaping-human-destiny",
+   "title": "Role of Prophets in Shaping Human Destiny",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 339,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p22b4",
+     "kind": "p",
+     "words": [
+      "both"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "towards-marital-bliss",
+   "title": "Towards Marital Bliss",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 711,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p23b10",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-test-paper",
+   "title": "The Test Paper",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 357,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "rebuilding-the-self",
+   "title": "Rebuilding the Self",
+   "pages": [
+    26,
+    28
+   ],
+   "words": 494,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p26b3",
+     "kind": "p",
+     "words": [
+      "within"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-incentive-spoon",
+   "title": "The Incentive Spoon",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 420,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "the-escalation-of-violence",
+   "title": "The Escalation of Violence",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 341,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "leadership-and-social-harmony",
+   "title": "Leadership and Social Harmony",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 491,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "within"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "peace-in-the-promised-land",
+   "title": "Peace in the Promised Land",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 663,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p33b5",
+     "kind": "p",
+     "words": [
+      "palestine"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-spirit-of-faith",
+   "title": "The Spirit of Faith",
+   "pages": [
+    35,
+    37
+   ],
+   "words": 932,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "oneness-of-god-in-islam",
+   "title": "Oneness of God in Islam",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 476,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 634,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    42,
+    45
+   ],
+   "words": 432,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 785,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 892,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [
+  {
+   "page": 43,
+   "words": 20,
+   "text": "maulana wahiduddin khan click on the thumbnail image to download a book spirit of islam issue 116 januaryfebruary 2024 43"
+  }
+ ],
+ "pdf_words": 14957,
+ "article_words": 13559
+}

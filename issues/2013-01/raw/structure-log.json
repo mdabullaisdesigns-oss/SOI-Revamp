@@ -1,0 +1,1563 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b0"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 21,
+   "text": "13 | 52 eect {RNIN No: KARENG/2012/46265 eenitcercl under Postal Pah No: saab hc yt 2-2014 Posted at MBC Bangalore GPO"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0",
+    "p1b1",
+    "p1b2"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 39,
+   "text": "on 24/26th of every month | Printed, published, owned and edited by Fathima Sarah 002, HM Wimberly, 6 Berlie Street Cross, Langford Town, Bangalore, 560025 Printed at Cosmos Printers and Publishers, 450, 3rd Cross, Wilson Garden, Bangalore - 560027"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0",
+    "p2b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "fe SUE 1 |-JAN, 2013 | 23"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 19,
+   "text": "Is there a heaven? WHY WE’RE HERE DOES ISLAM SCIENCE AND RELIGION the creation plan of God PERMIT VIOLENCE?"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b0"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 5,
+   "text": "This page left blank intentionally"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 25,
+   "text": "SPIRIT OF ISLAM T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b13"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "SPIRIT OF ISLAM VOLUME 1, ISSUE 1, JANUARY 2013"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b0"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "EDITOR-IN-CHIEF"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b0"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b1"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "ASSOCIATE EDITORS"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b2",
+    "p5b3",
+    "p5b4"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 9,
+   "text": "DR. FARIDA KHANAM MARIA KHAN NAGHMA SIDDIQI AIJAZ AHMED"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b5"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PRINTER AND PUBLISHER"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b7"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "DESIGN"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b7",
+    "p5b8"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 4,
+   "text": "AMEEN AHMED SADIA KHAN"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b9"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "COVER ART"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b9",
+    "p5b10"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 10,
+   "text": "DETAIL FROM ‘Le Bassin des Nympheas’, 1904, BY CLAUDE MONET"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b11"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 1,
+   "text": "OFFICE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b11"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 15,
+   "text": "SPIRIT OF ISLAM, 002, HM WIMBERLY, 6, BERLIE STREET CROSS, LANGFORD TOWN, BANGALORE 560025, INDIA."
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12"
+   ],
+   "role": "label",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PRINTED AT"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 11,
+   "text": "COSMOS PRINTERS AND PUBLISHERS, 450, 3RD CROSS, WILSON GARDEN, BANGALORE 560027."
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b0"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b1",
+    "p6b2"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "1. 7"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b1"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "A Spiritual Solution"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b3"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "2."
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b3"
+   ],
+   "role": "subhead",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "UNDERSTANDING ISLAM"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b4",
+    "p6b3"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "9 A Religion Of Peace"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b5",
+    "p6b6"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "3. 14"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE FAULT OF MAN"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b5"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "The Right Perspective"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b7",
+    "p6b8"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "4. 15"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "SPIRITUAL LIVING"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b7"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "The Search For Truth"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b9",
+    "p6b10"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "5. 18"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "NO END TO OPPORTUNITIES"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b9"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Lessons From History"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b11",
+    "p6b12"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "6. 20"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "RESPECTING ALL RELIGIONS"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b11"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "Harmony"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b13",
+    "p6b14"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "7. 22"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "THE CREATION PLAN OF GOD"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b13"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Why We’re Here"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b15",
+    "p6b16"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "8. 25"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "IS THERE A HEAVEN?"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b15"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "In Answer To Mr. Stephen Hawking"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b17",
+    "p6b18"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "9. 26"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "THROUGH HARDSHIP, TO THE STARS"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b17"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Per Ardua Ad Astra"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b19",
+    "p6b20"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "10. 28"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b19"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "RIGHT THINKING"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b19"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "How To Build A Positive Personality"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b21",
+    "p6b22"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "11. 33"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b21"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "DIALOGUE IN RELIGION"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b21"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Understanding Each Other"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b23",
+    "p6b24"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "12. 36"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b23"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "DOES ISLAM PERMIT VIOLENCE?"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b23"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "No"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b25",
+    "p6b26"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "13. 39"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b25"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "LESSONS FROM NATURE"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b25"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "The Universal Model"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b27",
+    "p6b28"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "14. 41"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b27"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "HISTORICAL PROPHET"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b27"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Continuing The Search"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b29",
+    "p6b30"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "15. 42"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b29"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "THE WORD OF GOD"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b29"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "From The Scriptures"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b31",
+    "p6b32"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "16. 45"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b31"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "ASK MAULANA"
+  },
+  {
+   "page": 6,
+   "ids": [
+    "p6b31"
+   ],
+   "role": "body",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Your Questions, Answered"
+  },
+  {
+   "page": 11,
+   "ids": [
+    "p11b5"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "Education is the first step towards"
+  },
+  {
+   "page": 11,
+   "ids": [
+    "p11b6"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 5,
+   "text": "the construction of a nation."
+  },
+  {
+   "page": 11,
+   "ids": [
+    "p11b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 9,
+   "text": "There can be no other beginning to the journey."
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Notice",
+   "words": 1,
+   "text": "NOTICE"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b2"
+   ],
+   "role": "bio",
+   "why": "non-article page: Notice",
+   "words": 4,
+   "text": "for the subscribers of"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b2"
+   ],
+   "role": "label",
+   "why": "non-article page: Notice",
+   "words": 2,
+   "text": "SPIRITUAL MESSAGE"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b6",
+    "p20b7",
+    "p20b8"
+   ],
+   "role": "body",
+   "why": "non-article page: Notice",
+   "words": 24,
+   "text": "Since ‘Spiritual Message’ has been discontinued from Dec 2012, you will continue to receive ‘Spirit of Islam’ until your subscription to ‘Spiritual Message’ expires."
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b9",
+    "p20b10",
+    "p20b11"
+   ],
+   "role": "body",
+   "why": "non-article page: Notice",
+   "words": 21,
+   "text": "You are requested to confirm your address, and the estimated date of expiry of your current subscription with an email to"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Notice",
+   "words": 6,
+   "text": "subscription@thespiritofislam.org, with the words ’Spiritual Message’"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b13"
+   ],
+   "role": "body",
+   "why": "non-article page: Notice",
+   "words": 4,
+   "text": "in the subject line."
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b14"
+   ],
+   "role": "body",
+   "why": "non-article page: Notice",
+   "words": 11,
+   "text": "You may also send a letter to our office in Bangalore."
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b15",
+    "p20b16",
+    "p20b17"
+   ],
+   "role": "body",
+   "why": "non-article page: Notice",
+   "words": 24,
+   "text": "After the expiry of your ‘Spiritual Message’ subscription, if you wish to continue receiving ‘Spirit of Islam’, you can subscribe with an email to"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Notice",
+   "words": 1,
+   "text": "subscription@thespiritofislam.org"
+  },
+  {
+   "page": 20,
+   "ids": [
+    "p20b18",
+    "p20b19"
+   ],
+   "role": "body",
+   "why": "non-article page: Notice",
+   "words": 6,
+   "text": "following subscription instructions on page 47."
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b6"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "Complaining is Fruitless"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 8,
+   "text": "To complain about things is a fruitless exercise."
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b8"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 10,
+   "text": "If one wants to complain, one is sure to find"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b9"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "plenty to complain about in life."
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b10"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 10,
+   "text": "The intelligent thing to do is to forget the unpleasant"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b11"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 9,
+   "text": "things which are a part and parcel of life,"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b12"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 7,
+   "text": "bury grudges, and carry on seeking to"
+  },
+  {
+   "page": 22,
+   "ids": [
+    "p22b13"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "fulfill one’s true purpose in life."
+  },
+  {
+   "page": 24,
+   "ids": [
+    "p24b12"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 5,
+   "text": "Peace is the Only Religion"
+  },
+  {
+   "page": 24,
+   "ids": [
+    "p24b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 21,
+   "text": "Peace is the only religion for both man and the universe. In a peaceful environment all good things are possible, whereas"
+  },
+  {
+   "page": 24,
+   "ids": [
+    "p24b8"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 14,
+   "text": "in the absence of peace, we cannot achieve anything of a positive nature, either"
+  },
+  {
+   "page": 24,
+   "ids": [
+    "p24b9"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "as individuals, or as a community."
+  },
+  {
+   "page": 24,
+   "ids": [
+    "p24b10"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "The same holds true at national"
+  },
+  {
+   "page": 24,
+   "ids": [
+    "p24b11"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "and international levels"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b3"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "Better Living"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b4"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 55,
+   "text": "If you want to live like a flower you will find your way to a bed of flowers. But if your existence is replete with thorns, you will find a world full of thorny shrubs. This means that in order to lead a life in this world, finding good atmosphere is in one’s own power."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b5"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 18,
+   "text": "You become friends of others and everyone will become your friend. You bear with the unpleasantness of others"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b6"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 19,
+   "text": "then you will find people around you who bear with the unpleasantness from you.You benefit others and then you"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 9,
+   "text": "will find a world where everyone benefits each other."
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b5"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 5,
+   "text": "The Pleasant and the Unpleasant"
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b6"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 11,
+   "text": "God has placed unpleasant things alongside the pleasant things of life."
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 14,
+   "text": "Just as the rose bush, along with its exquisite flowers, also possesses piercing thorns,"
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b8"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 9,
+   "text": "so also does life contain an amalgam of both"
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b9"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 13,
+   "text": "pleasing and displeasing objects. This is the way God has created the world."
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b10"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 21,
+   "text": "There is nothing for us to do but to fit in with this order of nature that He has laid down."
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b11"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 10,
+   "text": "Much as we may try, it is impossible for us"
+  },
+  {
+   "page": 30,
+   "ids": [
+    "p30b12"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "to have things any other way."
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b5"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "Prophetic Model"
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b6"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 9,
+   "text": "The life of the Prophet Mohammad tells us that,"
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 14,
+   "text": "in all matters, he abandoned the violent or confrontational course in favour of the"
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b8"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 4,
+   "text": "peaceful or non-confrontational course."
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b9"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 8,
+   "text": "The whole life of the Prophet provides a"
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b10"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "successful, practical example"
+  },
+  {
+   "page": 38,
+   "ids": [
+    "p38b11"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "of this principle."
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b12"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 19,
+   "text": "Those who complain of unfavourable circumstances, and of not being recognised, whose eyes are set on problems rather than"
+  },
+  {
+   "page": 41,
+   "ids": [
+    "p41b13"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 8,
+   "text": "opportunities, can never attain their goals in life."
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b6"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "If you have a good excuse,"
+  },
+  {
+   "page": 43,
+   "ids": [
+    "p43b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "don’t use it."
+  },
+  {
+   "page": 44,
+   "ids": [
+    "p44b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 21,
+   "text": "The migration or “hijrath” of the Prophet Mohammad is a clear example of abandoning violent actions in favour of peaceful solutions."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b5"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "Al-Ikhlas (Oneness)"
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b6"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 19,
+   "text": "Say, ‘He is God, the One, God, the Self-sufficient One. He does not give birth, nor was He born."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b7"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "And there is nothing like Him."
+  },
+  {
+   "page": 47,
+   "ids": [
+    "p47b8"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 4,
+   "text": "THE QURAN, 112: 1-4"
+  },
+  {
+   "page": 49,
+   "ids": [
+    "p49b12"
+   ],
+   "role": "subtitle",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "askmaulana@thespiritofislam.org"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b10"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 1,
+   "text": "subscribe"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b11"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 25,
+   "text": "SPIRIT OF ISLAM T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b12"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 13,
+   "text": "Annual Subscription (12 issues) All-India - J 400 Overseas - US $ 25"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b1"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 11,
+   "text": "To subscribe, please send the following information along with the payment"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b2"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 14,
+   "text": "Full Name Postal address with Pin Code Phone / Mobile number Choice of payment"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b3"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 5,
+   "text": "by any of the following"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b4"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 2,
+   "text": "SMS :"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b4"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 2,
+   "text": "8050202626 (India)"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b5"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 2,
+   "text": "Email: subscription@thespiritofislam.org"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b6"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 18,
+   "text": "Mail: Spirit of Islam, 002, HM Wimberly, 6, Berlie Street Cross, Langford Town, Bangalore - 560 025. INDIA"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b7"
+   ],
+   "role": "subhead",
+   "why": "outside any article",
+   "words": 2,
+   "text": "Payment Instructions:"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b8"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 5,
+   "text": "Money Order / VPP :"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b8"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 9,
+   "text": "Write your Name and phone number in message column."
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b8"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 25,
+   "text": "Cheque or DD in favour of ‘Centre for Peace’, payable at Bangalore. Write your name and phone number at the back of cheque / DD"
+  },
+  {
+   "page": 50,
+   "ids": [
+    "p50b9"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 21,
+   "text": "Bank transfer to: ‘Centre for Peace’, SB account No - 01360 1000016325, Indian Overseas Bank, Bangalore IFS Code - IOBA00 00136."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "The Quran"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b2"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 4,
+   "text": "TRANSLATION AND COMMENTARY BY"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b3"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PARALLEL ARABIC TEXT"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b4"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 72,
+   "text": "This concise, easy-to-read commentary will help you understand the deeper meaning of the Quran and its relevance in the world today. While focusing on the main themes of the Quran, such as God-realization, enlightenment, closeness to God, remembrance, prayer, peace and spirituality, this guide to the Quran will show you how through reflection and contemplation, you can learn divine lessons from the Signs of God that are a part of our world."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b5"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 7,
+   "text": "1792 PAGES | HARDCOVER | GOODWORD BOOKS"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b5"
+   ],
+   "role": "pull",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b6"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 11,
+   "text": "A translation of the Quran in simple English is also available"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 5,
+   "text": "This page left blank intentionally"
+  }
+ ],
+ "lead_in": [
+  "'WHAT' -> 'What'",
+  "'EVERY I' -> 'Every I'",
+  "'ISLAM' -> 'Islam'",
+  "'ONE' -> 'One'",
+  "'WHAT' -> 'What'",
+  "'ABD' -> 'Abd'",
+  "'THERE' -> 'There'",
+  "'GOD,' -> 'God,'",
+  "'THE' -> 'The'",
+  "'AS' -> 'As'",
+  "'RELIGIOUS' -> 'Religious'",
+  "'DOES I' -> 'Does I'",
+  "'WE' -> 'We'",
+  "'IN' -> 'In'",
+  "'THE Q' -> 'The Q'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

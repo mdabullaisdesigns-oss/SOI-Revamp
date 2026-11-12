@@ -1,0 +1,925 @@
+{
+ "skipped": [
+  {
+   "page": 2,
+   "ids": [
+    "p2b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "The Quran"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b4"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 4,
+   "text": "TRANSLATION AND COMMENTARY BY"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b6"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PARALLEL ARABIC TEXT"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b7",
+    "p2b8",
+    "p2b9",
+    "p2b10"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 80,
+   "text": "This commentary on the Quran is a concise, easy-to-read guide that enables today’s readers to understand the deeper meanings of the Quran and to reflect upon its relevance in the present world. It focuses on the main themes of the Quran, such as God-realization, enlightenment, closeness to God, remembrance, prayer, peace and spirituality. It lays stress on the fact that through reflection, deep thinking and contemplation, divine lessons can be learnt from the signs of God scattered across the world."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b11",
+    "p2b12",
+    "p2b13",
+    "p2b14"
+   ],
+   "role": "body",
+   "why": "outside any article",
+   "words": 40,
+   "text": "This commentary thus explains the meaning of the Quran in such a way as to give readers a clearer understanding of the message of the Quran and helps them in finding their own way of making it relevant to themselves."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 10,
+   "text": "1792 PAGES | HARDCOVER | 5.5x8.5 inches | Rs. 300"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b2"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 11,
+   "text": "A translation of the Quran in simple English is also available."
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b2"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 22,
+   "text": "T o w a r d s S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "bio",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "ISSUE 25, JANUARY 2015"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "CHIEF EDITOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "MAULANA WAHIDUDDIN KHAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "EDITORIAL COMMITTEE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b5",
+    "p3b6",
+    "p3b7",
+    "p3b8"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "DR. FARIDA KHANAM NAGHMA SIDDIQI MARIA KHAN PROF. ZAHEERUDDIN AIJAZ AHMED"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "COVER ART"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b9"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 8,
+   "text": "Garden with Flowers, 1888 VINCENT VAN GOGH (1853–1890)"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PRINTER AND PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "OFFICE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 15,
+   "text": "SPIRIT OF ISLAM 002, HM WIMBERLY, 6, BERLIE STREET CROSS LANGFORD TOWN, BANGALORE 560025, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "PRINTED AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "COSMOS PRINTERS AND PUBLISHERS 450, 3RD CROSS, WILSON GARDEN, BANGALORE 560027"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.spiritofislam.co.in"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b4"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "4"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b3",
+    "p5b7"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Road To Happiness 6"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b6",
+    "p5b10"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "The Human World And The Material World 8"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< ANALYZING PRESENT-DAY MUSLIM MILITANCY"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b9",
+    "p5b13"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "An Un-Islamic Political Ideology 11"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< MONOTHEISM: ONENESS OF GOD"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b12",
+    "p5b16"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "The Creator, Sustainer and Cherisher 14"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "< PATIENCE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b15",
+    "p5b19"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Personality Development 16"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< MATERIALISM AND SPIRITUALITY"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b18",
+    "p5b22"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "Transient Joy or Eternal Pleasure 18"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b20"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< STARTING FROM SCRATCH"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b21",
+    "p5b25"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Motivation From Deprivation 20"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b23"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< EDUCATION ALONE WILL NOT WORK"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b24",
+    "p5b28"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Renouncing Muslim Militancy 22"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b26"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE PEOPLE OF THE BOOK"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b27",
+    "p5b31"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "No Community Favoured 24"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b29"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< FROM THE SPIRITUAL TREE"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b30",
+    "p5b34"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 2,
+   "text": "Indifference 26"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b32"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 9,
+   "text": "< ARGUMENTS AGAINST GOD AND RELIGION — Part I"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b33",
+    "p5b37"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "From Physical Sciences 36"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b35"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< MOTHER’S ADVICE TO HER SON"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b36",
+    "p5b40"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "Make Excellence Your Goal 37"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b38"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 10,
+   "text": "< A PHENOMENON OF THE BODY, NOT OF THE SOUL"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b39",
+    "p5b43"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Innate Energy 38"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b41"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "< MISTAKE PLUS"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b42",
+    "p5b46"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "Creativity From Error 40"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b44"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< GET RID OF DEPRESSION"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b45",
+    "p5b49"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "Discover The Creation Plan 42"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b47"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "< THE IDEOLOGY OF PEACE IN ISLAM"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b48",
+    "p5b52"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Unconditional Peace 44"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b50"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< THE WORD OF GOD"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b51",
+    "p5b55"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "From The Scriptures 47"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b53"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "< ASK MAULANA"
+  },
+  {
+   "page": 5,
+   "ids": [
+    "p5b54"
+   ],
+   "role": "bio",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "Your Questions Answered"
+  },
+  {
+   "page": 7,
+   "ids": [
+    "p7b6"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "Maulana Wahiddudin Khan"
+  },
+  {
+   "page": 7,
+   "ids": [
+    "p7b6"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "editor@thespiritofislam.org"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b1"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "BOOKS"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b10"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "VIDEOS"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b2"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Read online or download literature by Maulana Wahiduddin Khan in 11 languages!"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b11"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Watch Maulana Wahiduddin Khan deal with the pressing issues of our times."
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b3",
+    "p21b12"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "4cpsglobal.org/books 4cpsglobal.org/videos"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b4"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "ARTICLES"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b13"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "PODCASTS"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b5"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 15,
+   "text": "Read Maulana’s writings as he expounds on the spiritual wisdom of the religion of Islam."
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b14"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 11,
+   "text": "Listen to the audio of Maulana Wahiduddin Khan’s books and lectures."
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b6",
+    "p21b15"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "4cpsglobal.org/articles 4cpsglobal.org/podcasts"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b7"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "QURAN"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b16"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "MAGAZINES"
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b8"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 15,
+   "text": "Read online and Download the Quran and its commentary in Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b17"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Boost your spiritual health every month with our English and Urdu Magazines."
+  },
+  {
+   "page": 21,
+   "ids": [
+    "p21b9",
+    "p21b18"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 2,
+   "text": "4cpsglobal.org/quran 4cpsglobal.org/magazines"
+  },
+  {
+   "page": 37,
+   "ids": [
+    "p37b10"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": ".....to be continued."
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b5"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "NOTICE"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b6",
+    "p48b7"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 23,
+   "text": "Subscribers are requested to inform us about non-receipt of their copies, latest by 18th of the month providing their full name and address."
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b8"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 4,
+   "text": "SMS 8050202626 email: thecentreforpeace@gmail.com"
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b9"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 7,
+   "text": "A fresh copy will be promptly despatched."
+  },
+  {
+   "page": 48,
+   "ids": [
+    "p48b10"
+   ],
+   "role": "small",
+   "why": "after the end of the article (notice or advert)",
+   "words": 7,
+   "text": "Kindly do not call for this purpose."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "Spiritual Writings of Maulana Wahiduddin Khan"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  }
+ ],
+ "lead_in": [
+  "'IF' -> 'If'",
+  "'IT' -> 'It'",
+  "'ON N' -> 'On N'",
+  "'MONOTHEISM' -> 'Monotheism'",
+  "'THE Q' -> 'The Q'",
+  "'WHAT' -> 'What'",
+  "'EDSON A' -> 'Edson A'",
+  "'MALALA Y' -> 'Malala Y'",
+  "'FOUR' -> 'Four'",
+  "'WERE' -> 'Were'",
+  "'ATHEIST' -> 'Atheist'",
+  "'PABLO P' -> 'Pablo P'",
+  "'RICHARD A' -> 'Richard A'",
+  "'ONE' -> 'One'",
+  "'DEPRESSION' -> 'Depression'",
+  "'SCHOLARS' -> 'Scholars'",
+  "'THE Q' -> 'The Q'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

@@ -1,0 +1,230 @@
+{
+ "slug": "2013-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "nairobi-and-peshawar-attacks-completely-anti-islamic",
+   "title": "Nairobi and Peshawar Attacks Completely Anti-Islamic",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 900,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "last"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-fear-of-god",
+   "title": "The Fear of God",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 627,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "plato"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "wisdom-in-retreat",
+   "title": "Wisdom in Retreat",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 1133,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p11b2",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-message-from-the-quran",
+   "title": "The Message from the Quran",
+   "pages": [
+    14,
+    16
+   ],
+   "words": 1163,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-greater-jihad",
+   "title": "The Greater Jihad",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 941,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p17b2",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "war-as-an-instrument-to-acquire-power",
+   "title": "War as an Instrument to Acquire Power",
+   "pages": [
+    20,
+    22
+   ],
+   "words": 992,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p20b8",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-sectarian-phenomenon",
+   "title": "The Sectarian Phenomenon",
+   "pages": [
+    23,
+    28
+   ],
+   "words": 2122,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p23b2",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "a-good-society",
+   "title": "A Good Society",
+   "pages": [
+    29,
+    31
+   ],
+   "words": 977,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "key-to-peace",
+   "title": "Key to Peace",
+   "pages": [
+    32,
+    34
+   ],
+   "words": 1149,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-concept-of-state-in-islam",
+   "title": "The Concept of State in Islam",
+   "pages": [
+    35,
+    41
+   ],
+   "words": 2765,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "belief-and-disbelief",
+   "title": "Belief and Disbelief",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 489,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p42b2",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 1201,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 685,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16502,
+ "article_words": 15144
+}

@@ -1,0 +1,306 @@
+{
+ "slug": "2022-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "hijab-a-comprehensive-term",
+   "title": "Hijab: A Comprehensive Term",
+   "pages": [
+    5,
+    8
+   ],
+   "words": 1159,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "pages-from-maulanas-diary",
+   "title": "Pages from Maulana's Diary",
+   "pages": [
+    9,
+    11
+   ],
+   "words": 1129,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-existence-of-god",
+   "title": "The Existence of God",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 533,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "a-solution-oriented-approach",
+   "title": "A Solution-Oriented Approach",
+   "pages": [
+    14,
+    18
+   ],
+   "words": 1722,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p14b4",
+     "kind": "p",
+     "words": [
+      "probably"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "importance-of-time",
+   "title": "Importance of Time",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 230,
+   "match": 99.57,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "todays-youth",
+   "title": "Today’s Youth",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 345,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "clarity-in-discourse",
+   "title": "Clarity in Discourse",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p21b12",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-life-and-work-of-maulana-wahiduddin-khan",
+   "title": "The Life and Work of Maulana Wahiduddin Khan",
+   "pages": [
+    22,
+    25
+   ],
+   "words": 1245,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "wrong-argument",
+   "title": "Wrong Argument",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 430,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p26b8",
+     "kind": "p",
+     "words": [
+      "waki"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "through-the-eyes-of-the-intellect",
+   "title": "Through the Eyes of the Intellect",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 608,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "under"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "from-humble-beginnings-to-greatness",
+   "title": "From Humble Beginnings to Greatness",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 593,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p30b12",
+     "kind": "p",
+     "words": [
+      "although"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "one-man-two-missions",
+   "title": "One Man, Two Missions",
+   "pages": [
+    32,
+    37
+   ],
+   "words": 2426,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "natural-simplicity",
+   "title": "Natural Simplicity",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 385,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p38b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    40,
+    42
+   ],
+   "words": 501,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 395,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p43b18",
+     "kind": "small",
+     "words": [
+      "1the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 638,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 499,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 639,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 14961,
+ "article_words": 13796
+}

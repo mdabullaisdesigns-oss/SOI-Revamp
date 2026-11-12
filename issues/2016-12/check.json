@@ -1,0 +1,357 @@
+{
+ "slug": "2016-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-american-election",
+   "title": "The American Election",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 724,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "on-jesus-christ",
+   "title": "On Jesus Christ",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 706,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "help-to-a-seeker-of-truth",
+   "title": "Help to a Seeker of Truth",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 668,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "marriage-in-islam",
+   "title": "Marriage in Islam",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 414,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "nature"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "divorce-in-islam",
+   "title": "Divorce in Islam",
+   "pages": [
+    12,
+    17
+   ],
+   "words": 2584,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p12b2",
+     "kind": "p",
+     "words": [
+      "although"
+     ]
+    },
+    {
+     "item": "p15b5",
+     "kind": "pull",
+     "words": [
+      "wellconsidered"
+     ]
+    },
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "introducing-the-quran",
+   "title": "Introducing the Quran",
+   "pages": [
+    18,
+    21
+   ],
+   "words": 1657,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p18b2",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    },
+    {
+     "item": "p20b2",
+     "kind": "p",
+     "words": [
+      "distractions"
+     ]
+    },
+    {
+     "item": "p20b8",
+     "kind": "pull",
+     "words": [
+      "beforedeath"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "despite-differences",
+   "title": "Despite Differences",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 304,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p22b7",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-discovery-of-divine-blessings",
+   "title": "The Discovery of Divine Blessings",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 435,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "uniform-civil-code",
+   "title": "Uniform Civil Code",
+   "pages": [
+    25,
+    28
+   ],
+   "words": 1496,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "even"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "worshipping-ones-children",
+   "title": "Worshipping One’s Children",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 344,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p29b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "islamic-inspiration-for-peace",
+   "title": "Islamic Inspiration for Peace",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 863,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "eligibility-for-paradise",
+   "title": "Eligibility for Paradise",
+   "pages": [
+    33,
+    35
+   ],
+   "words": 1161,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "nearness-to-god",
+   "title": "Nearness to God",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 313,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-politics-of-partition",
+   "title": "The Politics of Partition",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 632,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "enjoining-good-and-forbidding-wrong",
+   "title": "Enjoining Good and Forbidding Wrong",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 658,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p39b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    },
+    {
+     "item": "p39b8",
+     "kind": "p",
+     "words": [
+      "alarab"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "death-a-positive-reminder",
+   "title": "Death: A Positive Reminder",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 663,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "pakistans"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    46
+   ],
+   "words": 1536,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 705,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17544,
+ "article_words": 15863
+}

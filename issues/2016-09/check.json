@@ -1,0 +1,435 @@
+{
+ "slug": "2016-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "conversion-versus-dawah",
+   "title": "Conversion Versus Dawah",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1163,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "war-is-no-choice-at-all",
+   "title": "War Is No Choice at All",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 309,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "rid-yourself-of-complaints",
+   "title": "Rid Yourself of Complaints",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 259,
+   "match": 99.61,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "complaint"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "harmonious-marital-relations",
+   "title": "Harmonious Marital Relations",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 274,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "secular-knowledge-at-its-islamic-best",
+   "title": "Secular Knowledge at Its Islamic Best",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 673,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p11b6",
+     "kind": "p",
+     "words": [
+      "success"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "less-speech-more-silence",
+   "title": "Less Speech, More Silence",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 361,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p13b5",
+     "kind": "p",
+     "words": [
+      "listening"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-hereafter",
+   "title": "The Hereafter",
+   "pages": [
+    14,
+    17
+   ],
+   "words": 1629,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "those"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-acceptance-of-reality",
+   "title": "The Acceptance of Reality",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 279,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "shah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-teaching-of-patience",
+   "title": "The Teaching of Patience",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 316,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "gods-blessing",
+   "title": "God’s Blessing",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 734,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "reform-yourself",
+   "title": "Reform Yourself",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 824,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-goal-of-man",
+   "title": "The Goal of Man",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 277,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p25b5",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-difference-between-a-believer-and-an-unbeliever",
+   "title": "The Difference Between a Believer and an Unbeliever",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 541,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "quranic-wisdom",
+   "title": "Quranic Wisdom",
+   "pages": [
+    28,
+    34
+   ],
+   "words": 2890,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    },
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "superachievement"
+     ]
+    },
+    {
+     "item": "p34b2",
+     "kind": "p",
+     "words": [
+      "given"
+     ]
+    },
+    {
+     "item": "p34b6",
+     "kind": "thought",
+     "words": [
+      "fullfledged"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "dont-take-things-in-negative-terms",
+   "title": "Don’t Take Things in Negative Terms",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 275,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p35b7",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "know-your-limits",
+   "title": "Know Your Limits",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 331,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "a-dream-world",
+   "title": "A Dream World",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 291,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "peace-is-possible-but-only-through-the-right-way",
+   "title": "Peace Is Possible, but Only Through the Right Way",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 671,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p38b5",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "criticism-or-allegation",
+   "title": "Criticism or Allegation?",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 190,
+   "match": 99.47,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "human-values-through-islam",
+   "title": "Human Values Through Islam",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 1223,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "procession-of-death",
+   "title": "Procession of Death",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 394,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p44b7",
+     "kind": "p",
+     "words": [
+      "profitmaking"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 654,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 23,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1251,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17462,
+ "article_words": 15809
+}

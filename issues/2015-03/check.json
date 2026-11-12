@@ -1,0 +1,314 @@
+{
+ "slug": "2015-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "differences-of-opinion",
+   "title": "Differences of Opinion",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 483,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "peace-for-the-sake-of-peace",
+   "title": "Peace for the Sake of Peace",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 350,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "gender-equality",
+   "title": "Gender Equality",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 734,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "arguments-against-god-and-religion-part-iii",
+   "title": "Arguments Against God and Religion — Part III",
+   "pages": [
+    10,
+    20
+   ],
+   "words": 4446,
+   "match": 99.98,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "lead",
+     "words": [
+      "atheistic"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-answer-is-very-much-here",
+   "title": "The Answer Is Very Much Here",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 735,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "esther"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "eligibility-for-paradise",
+   "title": "Eligibility for Paradise",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 290,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "the-method-of-repentance",
+   "title": "The Method of Repentance",
+   "pages": [
+    24,
+    24
+   ],
+   "words": 316,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "big-or-beneficial",
+   "title": "Big or Beneficial",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 305,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "two"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "gods-neighbour",
+   "title": "God’s Neighbour",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 384,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "women-in-islam",
+   "title": "Women in Islam",
+   "pages": [
+    28,
+    35
+   ],
+   "words": 2885,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "why-has-god-given-man-freedom",
+   "title": "Why Has God Given Man Freedom?",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 345,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p36b2",
+     "kind": "p",
+     "words": [
+      "unlike"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "religious-imitation-political-imitation",
+   "title": "Religious Imitation, Political Imitation",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 786,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p37b2",
+     "kind": "p",
+     "words": [
+      "followers"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "where-all-hopes-end-new-hope-emerges",
+   "title": "Where All Hopes End, New Hope Emerges",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 498,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p39b4",
+     "kind": "p",
+     "words": [
+      "theodore"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "prophethood",
+   "title": "Prophethood",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 1140,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "time-is-up",
+   "title": "Time Is Up",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p44b2",
+     "kind": "p",
+     "words": [
+      "students"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1276,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "letters-to-the-editor",
+   "title": "Letters to the Editor",
+   "pages": [
+    48,
+    48
+   ],
+   "words": 310,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "letters-to-the-editor-2",
+   "title": "Letters to the Editor",
+   "pages": [
+    49,
+    49
+   ],
+   "words": 218,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17355,
+ "article_words": 15838
+}

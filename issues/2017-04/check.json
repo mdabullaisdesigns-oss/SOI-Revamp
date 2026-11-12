@@ -1,0 +1,329 @@
+{
+ "slug": "2017-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-sane-voice-from-america",
+   "title": "A Sane Voice from America",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 891,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "in",
+      "full"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "defeat-in-one-arena",
+   "title": "Defeat in One Arena",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 581,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "all-the-blood-of-ones-body",
+   "title": "All the Blood of One’s Body",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 320,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p10b3",
+     "kind": "p",
+     "words": [
+      "professor"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "discover-yourself",
+   "title": "Discover Yourself",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 680,
+   "match": 99.26,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "of"
+     ]
+    },
+    {
+     "item": "p12b7",
+     "kind": "p",
+     "words": [
+      "an",
+      "equally",
+      "difficult",
+      "price"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "issue-of-blasphemy",
+   "title": "Issue of Blasphemy",
+   "pages": [
+    13,
+    16
+   ],
+   "words": 1556,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "understanding-the-quran",
+   "title": "Understanding the Quran",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-first-law-of-success",
+   "title": "The First Law of Success",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 605,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "the-road-to-paradise",
+   "title": "The Road to Paradise",
+   "pages": [
+    20,
+    24
+   ],
+   "words": 2134,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "human-life",
+   "title": "Human Life",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 397,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "gift-from-the-lord-of-the-worlds",
+   "title": "Gift from the Lord of the Worlds",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 440,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "more-than-money",
+   "title": "More Than Money",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 635,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "political-insurrection-unlawful",
+   "title": "Political Insurrection Unlawful",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 603,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "acceptance-of-reality",
+   "title": "Acceptance of Reality",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 659,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "accept"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "labour-of-a-lifetime",
+   "title": "Labour of a Lifetime",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 637,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "helen"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "parenting",
+   "title": "Parenting",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 645,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p36b7",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "tolerance",
+   "title": "Tolerance",
+   "pages": [
+    38,
+    41
+   ],
+   "words": 1386,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p38b10",
+     "kind": "p",
+     "words": [
+      "nothing"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-journey-of-life",
+   "title": "The Journey of Life",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 326,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p42b6",
+     "kind": "p",
+     "words": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 959,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 974,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16467,
+ "article_words": 14775
+}

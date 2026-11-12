@@ -1,0 +1,349 @@
+{
+ "slug": "2023-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "gratitude-to-prof-farida-khanam",
+   "title": "Gratitude to Prof Farida Khanam",
+   "pages": [
+    5,
+    5
+   ],
+   "words": 317,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p5b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-journey-continues",
+   "title": "The Journey Continues…",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 681,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p6b4",
+     "kind": "p",
+     "words": [
+      "spirit"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "discovering-the-purpose-of-my-writings",
+   "title": "Discovering the Purpose of My Writings",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 385,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p9b6",
+     "kind": "p",
+     "words": [
+      "to"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "from-science-to-god-realization",
+   "title": "From Science to God-Realization",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 521,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p11b4",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "prophetic-wisdom",
+   "title": "Prophetic Wisdom",
+   "pages": [
+    13,
+    18
+   ],
+   "words": 2218,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p13b4",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "alarm-for-the-end-of-human-history",
+   "title": "Alarm for the End of Human History",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 617,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p19b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "bitterness-leads-to-failure",
+   "title": "Bitterness Leads to Failure",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 471,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "zafar"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "give-nature-its-due",
+   "title": "Give Nature Its Due",
+   "pages": [
+    23,
+    23
+   ],
+   "words": 271,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "huge"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    24,
+    28
+   ],
+   "words": 1905,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "importance-of-concentration",
+   "title": "Importance of Concentration",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 361,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "in-search-of-paradise",
+   "title": "In Search of Paradise",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 391,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "islamic-ethics",
+   "title": "Islamic Ethics",
+   "pages": [
+    31,
+    34
+   ],
+   "words": 1564,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "from-our-readers",
+   "title": "From Our Readers",
+   "pages": [
+    35,
+    37
+   ],
+   "words": 995,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    38,
+    40
+   ],
+   "words": 694,
+   "match": 99.42,
+   "missing": [
+    {
+     "item": "p38b5",
+     "kind": "p",
+     "words": [
+      "goodword",
+      "books",
+      "new",
+      "delhi"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "stuck-in-the-past",
+   "title": "Stuck in the Past",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 355,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 339,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-problem-of-violent-conflicts",
+   "title": "The Problem of Violent Conflicts",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 464,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-path-of-realism",
+   "title": "The Path of Realism",
+   "pages": [
+    46,
+    46
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p46b2",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 722,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "your-questions-answered",
+   "title": "Your Questions Answered",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 496,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.89,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15361,
+ "article_words": 14114
+}

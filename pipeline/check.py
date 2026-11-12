@@ -30,6 +30,9 @@ def norm(text):
     return out
 
 
+LIG = re.compile(r"ffi|ffl|ff|fi|fl")
+
+
 def match(a, b):
     """How many words of a are found, in order, in b.  Returns (hits, matched flags for a, for b)."""
     fa, fb = [False] * len(a), [False] * len(b)
@@ -39,7 +42,7 @@ def match(a, b):
         if tag == "equal" and (i2 - i1 >= min(3, len(a)) or i1 == 0 or i2 == len(a)):
             for k in range(i2 - i1):
                 fa[i1 + k] = fb[j1 + k] = True
-        elif tag == "replace" and "".join(a[i1:i2]) == "".join(b[j1:j2]):
+        elif tag == "replace" and LIG.sub("", "".join(a[i1:i2])) == LIG.sub("", "".join(b[j1:j2])):   # also: a reading that lost its ff/fi ligatures
             for k in range(i1, i2):                              # "w" + "ith"  ==  "with"
                 fa[k] = True
             for k in range(j1, j2):
@@ -85,6 +88,23 @@ def main():
                 need = collections.Counter(norm(plain(i)))
                 h = sum(min(n, bag[w]) for w, n in need.items())
                 miss = [w for w, n in need.items() if bag[w] < n]
+            if miss and i["k"] not in ("pull", "thought"):
+                # text that wraps round a picture or a box is read in a different order by the second reading:
+                # words still unconfirmed are looked for among the page's words that nothing else has claimed
+                pgs = range(i["page"] - 1, min(i.get("page_to", i["page"]), len(pdf_words)))
+                free = collections.Counter(LIG.sub("", pdf_words[p][k]) for p in pgs for k in range(len(pdf_words[p])) if not covered[p][k])
+                still = []
+                for w in miss:
+                    key = LIG.sub("", w)
+                    if free[key] > 0:
+                        free[key] -= 1; h += 1
+                        for p in pgs:
+                            k = next((k for k in range(len(pdf_words[p])) if not covered[p][k] and LIG.sub("", pdf_words[p][k]) == key), None)
+                            if k is not None:
+                                covered[p][k] = True; break
+                    else:
+                        still.append(w)
+                miss = still
             hits, total = hits + h, total + t
             if miss:
                 missing.append({"item": i["ids"][0], "kind": i["k"], "words": miss[:12]})
@@ -135,6 +155,16 @@ def main():
                     set(run) <= {"towards", "global", "peace", "spiritual", "living", "spirit", "of", "islam"}
                 # boxed quotes carry a shadow copy of their text in the PDF: a repeat of placed text is not new text
                 repeat = " ".join(run) in page_text.get(p, "") or " ".join(run[1:-1]) in all_text
+                if not repeat and not footer:
+                    # the same, when the running footer is caught in the run or the quote's lines are interleaved
+                    core = re.sub(r"(\d+ )?spirit of islam (vol \d+ )?issue \d+ [a-z]+ \d{4}( \d+)?", " ", " ".join(run))
+                    core = re.sub(r"^(o )+|( o)+$", "", re.sub(r"\s+", " ", core).strip()).split()
+                    grams = [" ".join(core[g:g + 4]) for g in range(max(1, len(core) - 3))]
+                    boxed = collections.Counter(w for a in issue["articles"] for i in a["items"]
+                                                if i["k"] in ("pull", "thought") and i["page"] <= p <= i.get("page_to", i["page"])
+                                                for w in norm(plain(i)))
+                    repeat = len(core) < 5 or sum(g in all_text for g in grams) >= 0.8 * len(grams) \
+                        or sum(min(n, boxed[w]) for w, n in collections.Counter(core).items()) >= 0.9 * len(core)
                 if len(run) >= 5 and not footer and not repeat:
                     (unplaced if p in article_pages else frontback).append(
                         {"page": p, "words": len(run), "text": " ".join(run[:30])})

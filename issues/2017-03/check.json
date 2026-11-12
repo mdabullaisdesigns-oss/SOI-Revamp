@@ -1,0 +1,343 @@
+{
+ "slug": "2017-03",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-greatness-of-humility",
+   "title": "The Greatness of Humility",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 587,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p5b7",
+     "kind": "p",
+     "words": [
+      "everexpanding"
+     ]
+    },
+    {
+     "item": "p5b2",
+     "kind": "footnote",
+     "words": [
+      "1"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "rights-of-women-in-islam",
+   "title": "Rights of Women in Islam",
+   "pages": [
+    7,
+    14
+   ],
+   "words": 2896,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "progress"
+     ]
+    },
+    {
+     "item": "p13b4",
+     "kind": "p",
+     "words": [
+      "selfsufficient"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "status-of-women-vis-a-vis-men",
+   "title": "Status of Women Vis-A-Vis Men",
+   "pages": [
+    15,
+    18
+   ],
+   "words": 1627,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "veil-of-interpretation-over-islam",
+   "title": "Veil of Interpretation Over Islam",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 678,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "legalistic-or-psychological-language",
+   "title": "Legalistic or Psychological Language",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 377,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p21b4",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-teachings-of-the-prophet",
+   "title": "The Teachings of the Prophet",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1037,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "gods"
+     ]
+    },
+    {
+     "item": "p22b4",
+     "kind": "p",
+     "words": [
+      "selfsurrender"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-human-personality",
+   "title": "The Human Personality",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 405,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "deprived-of-paradise",
+   "title": "Deprived of Paradise",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 526,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-wisdom-of-life",
+   "title": "The Wisdom of Life",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 1058,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "machines"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "success-in-perseverance",
+   "title": "Success in Perseverance",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 798,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-period-of-youth",
+   "title": "The Period of Youth",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 439,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-modern-age-and-non-violence",
+   "title": "The Modern Age and Non-Violence",
+   "pages": [
+    34,
+    37
+   ],
+   "words": 1269,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p34b6",
+     "kind": "p",
+     "words": [
+      "gain"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "ideological-hatred",
+   "title": "Ideological Hatred",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 561,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p38b5",
+     "kind": "p",
+     "words": [
+      "likeminded"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "a-higher-form-of-worship",
+   "title": "A Higher Form of Worship",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 625,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-greatest-blessing",
+   "title": "The Greatest Blessing",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 298,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-flight-of-the-bee",
+   "title": "The Flight of the Bee",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 391,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "bees"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 643,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1269,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17171,
+ "article_words": 15484
+}

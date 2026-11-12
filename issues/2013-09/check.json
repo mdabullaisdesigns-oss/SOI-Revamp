@@ -1,0 +1,214 @@
+{
+ "slug": "2013-09",
+ "articles": [
+  {
+   "n": 1,
+   "id": "terrorism-in-the-light-of-islamic-teachings",
+   "title": "Terrorism in the Light of Islamic Teachings",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 784,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "forbidden-tree",
+   "title": "Forbidden Tree",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 508,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p8b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "peace-in-islam",
+   "title": "Peace in Islam",
+   "pages": [
+    10,
+    22
+   ],
+   "words": 4351,
+   "match": 99.98,
+   "missing": [
+    {
+     "item": "p10b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "artificial-flowers",
+   "title": "Artificial Flowers",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 582,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p23b2",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "spirit-not-form",
+   "title": "Spirit, Not Form",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 363,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p25b2",
+     "kind": "p",
+     "words": [
+      "here"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "true-jihad",
+   "title": "True Jihad",
+   "pages": [
+    26,
+    31
+   ],
+   "words": 2127,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p26b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "controlling-anger",
+   "title": "Controlling Anger",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 291,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "prophet-of-peace-or-of-violence",
+   "title": "Prophet of Peace, or of Violence",
+   "pages": [
+    33,
+    39
+   ],
+   "words": 2339,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "due"
+     ]
+    },
+    {
+     "item": "p37b17",
+     "kind": "footnote",
+     "words": [
+      "uhud",
+      "hunain"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-middle-nation",
+   "title": "The Middle Nation",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 360,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p40b2",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 953,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 983,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15251,
+ "article_words": 13641
+}

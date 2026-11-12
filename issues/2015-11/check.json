@@ -1,0 +1,340 @@
+{
+ "slug": "2015-11",
+ "articles": [
+  {
+   "n": 1,
+   "id": "thoughts-on-countering-terrorism",
+   "title": "Thoughts on Countering Terrorism",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 658,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "america"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "prophet-muhammad-part-ii",
+   "title": "Prophet Muhammad—part II",
+   "pages": [
+    7,
+    13
+   ],
+   "words": 2963,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p7b7",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "on-the-other-side-of-death",
+   "title": "On the Other Side of Death",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 654,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p14b11",
+     "kind": "p",
+     "words": [
+      "almansur"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "maturity",
+   "title": "Maturity",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 235,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "freedom-of-choice",
+   "title": "Freedom of Choice",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 289,
+   "match": 99.65,
+   "missing": [
+    {
+     "item": "p17b8",
+     "kind": "p",
+     "words": [
+      "here"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "pride-and-modesty",
+   "title": "Pride and Modesty",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 328,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "difference-between-shariah-and-deen",
+   "title": "Difference Between Shariah and Deen",
+   "pages": [
+    19,
+    23
+   ],
+   "words": 1963,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "perfection-of-the-creator",
+   "title": "Perfection of the Creator",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 466,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "nature-bears-witness",
+   "title": "Nature Bears Witness",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 442,
+   "match": 99.77,
+   "missing": [
+    {
+     "item": "p26b7",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-age-of-peace",
+   "title": "The Age of Peace",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 594,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "on-the-threshold-of-paradise",
+   "title": "On the Threshold of Paradise",
+   "pages": [
+    30,
+    35
+   ],
+   "words": 2258,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "a-most-evident-mystery",
+   "title": "A Most Evident Mystery",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 303,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p36b7",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "application-of-the-quran",
+   "title": "Application of the Quran",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 786,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "scholars"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "god-has-created-you-for-a-higher-purpose",
+   "title": "God Has Created You for a Higher Purpose",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 315,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p39b8",
+     "kind": "p",
+     "words": [
+      "robert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "ideology-or-history",
+   "title": "Ideology or History?",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 360,
+   "match": 99.17,
+   "missing": [
+    {
+     "item": "p40b12",
+     "kind": "p",
+     "words": [
+      "part",
+      "of",
+      "islamic"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-most-difficult-and-the-most-easy",
+   "title": "The Most Difficult, and the Most Easy",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 302,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p41b4",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "god-a-source-of-conviction",
+   "title": "God: A Source of Conviction",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 759,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "individual-and-society",
+   "title": "Individual and Society",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 520,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 687,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 608,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17214,
+ "article_words": 15490
+}

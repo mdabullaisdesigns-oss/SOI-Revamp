@@ -1,0 +1,457 @@
+{
+ "slug": "2016-08",
+ "articles": [
+  {
+   "n": 1,
+   "id": "un-islamic-culture-in-the-name-of-islam",
+   "title": "Un-Islamic Culture in the Name of Islam",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 864,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p5b4",
+     "kind": "p",
+     "words": [
+      "july"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-case-of-the-mass-shooter-at-orlando",
+   "title": "The Case of the Mass Shooter at Orlando",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 722,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "finding-common-ground",
+   "title": "Finding Common Ground",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 296,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "never-losing-hope",
+   "title": "Never Losing Hope",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 275,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "abraham"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "hajj-a-pilgrimage",
+   "title": "Hajj: A Pilgrimage",
+   "pages": [
+    12,
+    14
+   ],
+   "words": 953,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p12b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "patience-sabr",
+   "title": "Patience (sabr)",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 357,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "quiet-endeavour",
+   "title": "Quiet Endeavour",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 397,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "tolerance-its-significance-today",
+   "title": "Tolerance, Its Significance Today",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 1006,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "the-rituals-of-hajj",
+   "title": "The Rituals of Hajj",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 396,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "on-the-occasion-of-differences",
+   "title": "On the Occasion of Differences",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 360,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "indian-muslims",
+   "title": "Indian Muslims",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1080,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    },
+    {
+     "item": "p23b6",
+     "kind": "p",
+     "words": [
+      "selfdevelopment"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "when-all-things-come-to-light",
+   "title": "When All Things Come to Light",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 416,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "responsibility-according-to-capacity",
+   "title": "Responsibility According to Capacity",
+   "pages": [
+    27,
+    27
+   ],
+   "words": 321,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "negative-mindset",
+   "title": "Negative Mindset",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 318,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "human-brotherhood",
+   "title": "Human Brotherhood",
+   "pages": [
+    29,
+    29
+   ],
+   "words": 310,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p29b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-policy-of-the-prophet",
+   "title": "The Policy of the Prophet",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 1143,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "from"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "relatives-and-neighbours",
+   "title": "Relatives and Neighbours",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 575,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "criticism-as-an-intellectual-mirror",
+   "title": "Criticism as an Intellectual Mirror",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 628,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "generally"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "human-equality",
+   "title": "Human Equality",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 361,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "negative-thinking",
+   "title": "Negative Thinking",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 640,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "love-of-god",
+   "title": "Love of God",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p40b4",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "id": "the-possible-and-the-impossible",
+   "title": "The Possible and the Impossible",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 341,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p41b7",
+     "kind": "p",
+     "words": [
+      "whether"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "id": "western-agenda",
+   "title": "Western Agenda",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 564,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "presentday"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "id": "funeral-service",
+   "title": "Funeral Service",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 331,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 708,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 26,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1040,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16400,
+ "article_words": 14721
+}

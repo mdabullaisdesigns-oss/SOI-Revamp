@@ -1,0 +1,300 @@
+{
+ "slug": "2014-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "winners-and-losers-all",
+   "title": "Winners and Losers, All",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 649,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "winning"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-trial-of-man",
+   "title": "The Trial of Man",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1128,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p8b6",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "definition-of-a-great-mind",
+   "title": "Definition of a Great Mind",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 246,
+   "match": 99.59,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "francois"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-spirit-of-ramazan",
+   "title": "The Spirit of Ramazan",
+   "pages": [
+    12,
+    14
+   ],
+   "words": 1000,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "true-face",
+   "title": "True Face",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 392,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "revelation-and-inspiration",
+   "title": "Revelation and Inspiration",
+   "pages": [
+    16,
+    21
+   ],
+   "words": 1836,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "zakat-the-prescribed-charity",
+   "title": "Zakat: The Prescribed Charity",
+   "pages": [
+    22,
+    24
+   ],
+   "words": 1051,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "touch-me-not",
+   "title": "Touch Me Not",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 342,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-significance-of-iftar",
+   "title": "The Significance of Iftar",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 709,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-culture-of-peace",
+   "title": "The Culture of Peace",
+   "pages": [
+    28,
+    35
+   ],
+   "words": 2721,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "qualitative-or-quantitative-islam",
+   "title": "Qualitative or Quantitative Islam",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 514,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "fasting-and-feasting",
+   "title": "Fasting and Feasting",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 612,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "devotion-to-god",
+   "title": "Devotion to God",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 399,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "ramazan-and-eid-ul-fitr",
+   "title": "Ramazan and Eid-Ul-Fitr",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 454,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p41b10",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-relationship-between-fasting-and-life",
+   "title": "The Relationship Between Fasting and Life",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 338,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 795,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 653,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [
+  {
+   "page": 18,
+   "words": 7,
+   "text": "mediterranean black sea fact sheet birdlife international"
+  }
+ ],
+ "pdf_words": 15726,
+ "article_words": 13839
+}

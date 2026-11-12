@@ -1,0 +1,294 @@
+{
+ "slug": "2020-05",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-message-of-hope",
+   "title": "A Message of Hope",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1124,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "fake-news",
+   "title": "Fake News",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 899,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "spreading"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "spring-clean-your-mind",
+   "title": "Spring-Clean Your Mind",
+   "pages": [
+    11,
+    12
+   ],
+   "words": 559,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "intellectual-fog",
+   "title": "Intellectual Fog",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 458,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "parts"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "in-pursuit-of-truth",
+   "title": "In Pursuit of Truth",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 411,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "fate-of-the-truth-teller",
+   "title": "Fate of the Truth-Teller",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 378,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "napoleon"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "seeker-of-truth",
+   "title": "Seeker of Truth",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 356,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "truth-an-analysis",
+   "title": "Truth—an Analysis",
+   "pages": [
+    18,
+    20
+   ],
+   "words": 1113,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "an-overview-of-modern-atheism",
+   "title": "An Overview of Modern Atheism",
+   "pages": [
+    21,
+    25
+   ],
+   "words": 1736,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "acknowledgment-of-the-truth",
+   "title": "Acknowledgment of the Truth",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 479,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "atheism-refuted",
+   "title": "Atheism Refuted",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 792,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "appearance-and-reality",
+   "title": "Appearance and Reality",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 774,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p30b4",
+     "kind": "p",
+     "words": [
+      "finelytuned"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "faith-and-reason",
+   "title": "Faith and Reason",
+   "pages": [
+    32,
+    37
+   ],
+   "words": 2342,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "rationality-of-faith",
+   "title": "Rationality of Faith",
+   "pages": [
+    38,
+    42
+   ],
+   "words": 2007,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "denial-of-truth",
+   "title": "Denial of Truth",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 555,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "actions-matter",
+   "title": "Actions Matter",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 338,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-moment-of-truth",
+   "title": "The Moment of Truth",
+   "pages": [
+    46,
+    46
+   ],
+   "words": 454,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 869,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 811,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.96,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 27077,
+ "article_words": 16455
+}

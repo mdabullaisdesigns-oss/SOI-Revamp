@@ -65,7 +65,6 @@ None.
 
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 
-- page 1, 66 words: issue 66 june 2018 52 pages licensed to post without prepayment license no wpp284 postal regn no krnabge110120182020 rni no kareng201246265 
 - page 4, 9 words: from maulanas desk 3 from the editorial director 5
 - page 52, 20 words: develop your personality by admitting your mistakes discover your weaknesses and strive to rectify them towards global peace spiritual livin
 

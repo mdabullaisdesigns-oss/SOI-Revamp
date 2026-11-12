@@ -1,0 +1,302 @@
+{
+ "slug": "2020-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-message-for-the-new-year",
+   "title": "A Message for the New Year",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 511,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "taking-setbacks-as-challenges",
+   "title": "Taking Setbacks as Challenges",
+   "pages": [
+    7,
+    9
+   ],
+   "words": 848,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p7b5",
+     "kind": "p",
+     "words": [
+      "muslims"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "religion-and-humanity",
+   "title": "Religion and Humanity",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 451,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p10b4",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-universe-declares",
+   "title": "The Universe Declares",
+   "pages": [
+    12,
+    17
+   ],
+   "words": 2396,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "restoration-of-religion",
+   "title": "Restoration of Religion",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 583,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "signs-of-god-scattered-in-the-universe",
+   "title": "Signs of God Scattered in the Universe",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 249,
+   "match": 99.6,
+   "missing": [
+    {
+     "item": "p20b2",
+     "kind": "p",
+     "words": [
+      "samuel"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "god-the-voice-of-human-nature",
+   "title": "God—the Voice of Human Nature",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 649,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "guiding-the-misguided",
+   "title": "Guiding the Misguided",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 303,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p31b5",
+     "kind": "p",
+     "words": [
+      "these"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "make-god-your-supreme-concern",
+   "title": "Make God Your Supreme Concern",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 655,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p32b4",
+     "kind": "p",
+     "words": [
+      "most"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "managing-controversy",
+   "title": "Managing Controversy",
+   "pages": [
+    34,
+    34
+   ],
+   "words": 280,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "faith-and-human-behaviour",
+   "title": "Faith and Human Behaviour",
+   "pages": [
+    35,
+    40
+   ],
+   "words": 2565,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-flawless-universe",
+   "title": "The Flawless Universe",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 373,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "appearance-and-reality",
+   "title": "Appearance and Reality",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 823,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "a-perpetual-enterprise",
+   "title": "A Perpetual Enterprise",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 329,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "procession-of-death",
+   "title": "Procession of Death",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 424,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p45b3",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 519,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 700,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 24553,
+ "article_words": 12658
+}

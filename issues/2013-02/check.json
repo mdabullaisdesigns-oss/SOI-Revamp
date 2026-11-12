@@ -1,0 +1,334 @@
+{
+ "slug": "2013-02",
+ "articles": [
+  {
+   "n": 1,
+   "id": "welcome",
+   "title": "Welcome",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 301,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "from-the-chief-editors-desk",
+   "title": "From the Chief Editor’s Desk",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 766,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "religion-and-scientific-reasoning",
+   "title": "Religion and Scientific Reasoning",
+   "pages": [
+    10,
+    12
+   ],
+   "words": 998,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p10b2",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "stress-is-a-good-servant",
+   "title": "Stress Is a Good Servant",
+   "pages": [
+    13,
+    14
+   ],
+   "words": 638,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p13b2",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "silence-is-golden",
+   "title": "Silence Is Golden",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 269,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "ernest"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "likeness-of-god",
+   "title": "Likeness of God",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 380,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "a-formula-for-peace",
+   "title": "A Formula for Peace",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 692,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p17b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "present-world-and-the-next",
+   "title": "Present World and the Next",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 394,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p19b2",
+     "kind": "p",
+     "words": [
+      "any"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "religion",
+   "title": "Religion",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 648,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p21b2",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-human-potential",
+   "title": "The Human Potential",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 471,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "is-islam-against-democracy",
+   "title": "Is Islam Against Democracy?",
+   "pages": [
+    25,
+    26
+   ],
+   "words": 697,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p25b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "human-destiny",
+   "title": "Human Destiny",
+   "pages": [
+    27,
+    28
+   ],
+   "words": 706,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p27b2",
+     "kind": "p",
+     "words": [
+      "once"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "quran-the-sacred-book-of-islam",
+   "title": "Quran: The Sacred Book of Islam",
+   "pages": [
+    29,
+    31
+   ],
+   "words": 910,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "consistent-character",
+   "title": "Consistent Character",
+   "pages": [
+    32,
+    33
+   ],
+   "words": 800,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p32b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "on-the-threshold-of-paradise",
+   "title": "On the Threshold of Paradise",
+   "pages": [
+    34,
+    40
+   ],
+   "words": 2468,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p34b2",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-path-to-success",
+   "title": "The Path to Success",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 539,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p41b2",
+     "kind": "p",
+     "words": [
+      "while"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "a-refusal-to-suffer",
+   "title": "A Refusal to Suffer",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 643,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p43b2",
+     "kind": "p",
+     "words": [
+      "whenever"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1144,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 591,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15400,
+ "article_words": 14055
+}

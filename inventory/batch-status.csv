@@ -1,0 +1,133 @@
+slug,label,route,pdf,articles,words,match,chars,quiz,audio,result,problems
+2013-01,Issue 1 · January 2013,pdf,January-2013.pdf,18,13158,99.91,75363,pending,pending,ok,
+2013-02,Issue 2 · February 2013,pdf,February-2013.pdf,19,14108,99.92,79159,pending,pending,ok,
+2013-03,Issue 3 · March 2013,pdf,March-2013.pdf,18,14068,99.91,76503,yes,pending,ok,
+2013-04,Issue 4 · April 2013,pdf,April-2013.pdf,16,14418,99.76,77213,pending,pending,CHECK,1 article(s) below 99% word match; 4 block(s) the rules could not classify (shown as notes)
+2013-05,Issue 5 · May 2013,pdf,May-2013.pdf,17,13848,99.91,74469,pending,pending,ok,
+2013-06,Issue 6 · June 2013,pdf,June-2013.pdf,16,13528,99.92,73664,pending,pending,CHECK,3 block(s) the rules could not classify (shown as notes)
+2013-07,Issue 7 · July 2013,pdf,July-2013.pdf,16,14222,99.91,76480,pending,pending,CHECK,1 block(s) the rules could not classify (shown as notes)
+2013-08,Issue 8 · August 2013,pdf,August-2013.pdf,15,13225,99.94,72736,pending,pending,CHECK,"page 47: 428 words left out as “outside any article” (“Glossary Abu Bakr Siddiq, (573-634 AD) a close Ism…”)"
+2013-09,Issue 9 · September 2013,pdf,September-2013.pdf,11,13656,99.93,72635,pending,pending,CHECK,"page 47: 481 words left out as “outside any article” (“Glossary Ahkam al-Quran, 'The Commands of the Bhag…”)"
+2013-10,Issue 10 · October 2013,pdf,October-2013.pdf,15,14140,99.11,74721,pending,pending,CHECK,5 article(s) below 99% word match; 1 run(s) of PDF text in no article and not listed
+2013-11,Issue 11 · November 2013,pdf,November-2013.pdf,13,15162,99.95,83485,pending,pending,ok,
+2013-12,Issue 12 · December 2013,pdf,December-2013.pdf,16,14169,99.91,78066,pending,pending,ok,
+2014-01,Issue 13 · January 2014,pdf,January-2014.pdf,17,13438,99.94,74392,pending,pending,CHECK,page 48: 494 words left out as “outside any article” (“Glossary Abraham also Ibrahim; prophet and Jabal a…”)
+2014-02,Issue 14 · February 2014,pdf,February-2014.pdf,16,13724,99.93,74319,pending,pending,CHECK,page 48: 278 words left out as “outside any article” (“Glossary Abu Dawood noted 9th century collector Su…”)
+2014-03,Issue 15 · March 2014,pdf,March-2014.pdf,16,14541,99.92,78465,pending,pending,CHECK,page 48: 315 words left out as “outside any article” (“Glossary Abu Dawud (817-889); Abu Dawud as-Jinn A …”)
+2014-04,Issue 16 · April 2014,pdf,April-2014.pdf,16,14379,99.92,77261,pending,pending,CHECK,page 48: 456 words left out as “outside any article” (“Glossary Abraha also known as Abraha al-Ashram dur…”)
+2014-05,Issue 17 · May 2014,pdf,May-2014.pdf,17,14648,99.93,79272,pending,pending,CHECK,page 48: 462 words left out as “outside any article” (“Glossary Alim religious scholar Abdullah ibn Abbas…”)
+2014-06,Issue 18 · June 2014,pdf,June-2014.pdf,17,14526,99.93,78782,pending,pending,CHECK,7 block(s) the rules could not classify (shown as notes)
+2014-07,Issue 19 · July 2014,pdf,July-2014.pdf,17,13859,99.93,75221,pending,pending,CHECK,1 run(s) of PDF text in no article and not listed
+2014-08,Issue 20 · August 2014,pdf,August-2014.pdf,19,13375,99.9,70967,pending,pending,ok,
+2014-09,Issue 21 · September 2014,pdf,September-2014.pdf,18,14722,99.92,79384,pending,pending,ok,
+2014-10,Issue 22 · October 2014,pdf,October-2014.pdf,16,13869,99.92,74546,pending,pending,ok,
+2014-11,Issue 23 · November 2014,pdf,November-2014.pdf,15,14139,99.94,75296,pending,pending,ok,
+2014-12,Issue 24 · December 2014,pdf,December-2014.pdf,17,14562,99.94,77565,pending,pending,ok,
+2015-01,Issue 25 · January 2015,pdf,January-2015.pdf,19,15197,99.91,83404,pending,pending,ok,
+2015-02,Issue 26 · February 2015,pdf,February-2015.pdf,18,15860,100.0,84817,pending,pending,ok,
+2015-03,Issue 27 · March 2015,pdf,March-2015.pdf,18,15839,99.93,88208,pending,pending,ok,
+2015-04,Issue 28 · April 2015,pdf,April-2015.pdf,18,15815,99.93,85088,pending,pending,ok,
+2015-05,Issue 29 · May 2015,pdf,May-2015.pdf,21,14277,99.91,77334,pending,pending,ok,
+2015-06,Issue 30 · June 2015,pdf,June-2015.pdf,18,15727,99.92,85492,pending,pending,ok,
+2015-07,Issue 31 · July 2015,pdf,July-2015.pdf,24,13519,99.88,72715,pending,pending,ok,
+2015-08,Issue 32 · August 2015,pdf,August-2015.pdf,19,14714,99.84,82332,pending,pending,ok,
+2015-09,Issue 33 · September 2015,pdf,September-2015.pdf,19,15103,99.93,81724,pending,pending,ok,
+2015-10,Issue 34 · October 2015,pdf,October-2015.pdf,18,15270,99.91,84265,pending,pending,ok,
+2015-11,Issue 35 · November 2015,pdf,November-2015.pdf,20,15494,99.92,84276,pending,pending,ok,
+2015-12,Issue 36 · December 2015,pdf,December-2015.pdf,20,14334,99.9,77065,pending,pending,CHECK,1 run(s) of PDF text in no article and not listed
+2016-01,Issue 37 · January 2016,pdf,January-2016.pdf,20,14210,99.92,76323,pending,pending,ok,
+2016-02,Issue 38 · February 2016,pdf,February-2016.pdf,18,14013,99.9,75344,pending,pending,ok,
+2016-03,Issue 39 · March 2016,pdf,March-2016.pdf,17,14956,99.93,82501,pending,pending,ok,
+2016-04,Issue 40 · April 2016,pdf,April-2016.pdf,19,15904,99.92,84972,pending,pending,ok,
+2016-05,Issue 41 · May 2016,pdf,May-2016.pdf,23,14841,99.89,81970,pending,pending,ok,
+2016-06,Issue 42 · June 2016,pdf,June-2016.pdf,19,15961,99.93,86598,pending,pending,ok,
+2016-07,Issue 43 · July 2016,pdf,July-2016.pdf,24,15192,99.86,80505,pending,pending,CHECK,1 block(s) the rules could not classify (shown as notes)
+2016-08,Issue 44 · August 2016,pdf,August-2016.pdf,26,14722,99.88,80246,pending,pending,ok,
+2016-09,Issue 45 · September 2016,pdf,September-2016.pdf,23,15811,99.88,84702,pending,pending,ok,
+2016-10,Issue 46 · October 2016,pdf,October-2016.pdf,22,15302,99.9,82973,pending,pending,ok,
+2016-11,Issue 47 · November 2016,pdf,November-2016.pdf,21,14764,99.85,77436,pending,pending,ok,
+2016-12,Issue 48 · December 2016,pdf,December-2016.pdf,18,15865,99.89,85088,pending,pending,ok,
+2017-01,Issue 49 · January 2017,pdf,January-2017.pdf,22,15420,99.88,83350,pending,pending,CHECK,1 article(s) below 99% word match
+2017-02,Issue 50 · February 2017,pdf,February-2017.pdf,25,14771,99.9,79397,pending,pending,ok,
+2017-03,Issue 51 · March 2017,pdf,March-2017.pdf,18,15485,99.9,84070,pending,pending,ok,
+2017-04,Issue 52 · April 2017,pdf,April-2017.pdf,19,14775,99.9,79172,pending,pending,ok,
+2017-05,Issue 53 · May 2017,pdf,May-2017.pdf,21,14765,99.95,78603,pending,pending,ok,
+2017-06,Issue 54 · June 2017,pdf,June-2017.pdf,24,15269,99.88,82607,pending,pending,ok,
+2017-07,Issue 55 · July 2017,pdf,July-2017.pdf,21,15232,99.89,81880,pending,pending,ok,
+2017-08,Issue 56 · August 2017,pdf,August-2017.pdf,20,15686,99.92,86686,pending,pending,ok,
+2017-09,Issue 57 · September 2017,pdf,September-2017.pdf,18,14700,99.92,79173,pending,pending,ok,
+2017-10,Issue 58 · October 2017,pdf,October-2017.pdf,20,15651,99.95,86148,pending,pending,ok,
+2017-11,Issue 59 · November 2017,pdf,November-2017.pdf,18,14723,99.93,80346,pending,pending,ok,
+2017-12,Issue 60 · December 2017,pdf,December-2017.pdf,19,15429,99.93,81812,pending,pending,ok,
+2018-01,Issue 61 · January 2018,pdf,January-2018.pdf,21,14500,99.92,79775,pending,pending,ok,
+2018-02,Issue 62 · February 2018,pdf,February-2018.pdf,21,14556,99.88,80913,pending,pending,ok,
+2018-03,Issue 63 · March 2018,pdf,March-2018.pdf,16,14811,99.93,80256,pending,pending,ok,
+2018-04,Issue 64 · April 2018,pdf,April-2018.pdf,19,14862,99.92,80116,pending,pending,ok,
+2018-05,Issue 65 · May 2018,pdf,May-2018.pdf,20,14497,99.9,77936,pending,pending,ok,
+2018-06,Issue 66 · June 2018,pdf,June-2018.pdf,17,15692,99.91,85933,yes,pending,ok,
+2018-07,Issue 67 · July 2018,pdf,July-2018.pdf,17,14913,99.91,80849,pending,pending,CHECK,3 block(s) the rules could not classify (shown as notes)
+2018-08,Issue 68 · August 2018,pdf,August-2018.pdf,16,16473,99.93,89703,pending,pending,ok,
+2018-09,Issue 69 · September 2018,pdf,September-2018.pdf,19,15418,99.91,82869,pending,pending,ok,
+2018-10,Issue 70 · October 2018,pdf,October-2018.pdf,18,16629,99.94,90072,pending,pending,ok,
+2018-11,Issue 71 · November 2018,pdf,November-2018.pdf,16,15685,99.81,86476,pending,pending,CHECK,1 article(s) below 99% word match
+2018-12,Issue 72 · December 2018,pdf,December-2018.pdf,23,15745,99.9,82173,pending,pending,ok,
+2019-01,Issue 73 · January 2019,pdf,January-2019.pdf,18,11959,99.83,65027,pending,pending,CHECK,"page 23: 237 words left out as “outside any article” (“Re-engineering Minds Towards Peace The Way to Peac…”); page 25: 260 words left out as “outside any article” (“Awards and Recognition In 2015, under the patronag…”); page 30: 302 words left out as “outside any article” (“Join Maulana Wahiduddin Khan Peace Foundation Proj…”)"
+2019-02,Issue 74 · February 2019,pdf,February-2019.pdf,19,12378,99.9,67098,pending,pending,CHECK,"page 23: 223 words left out as “outside any article” (“The Solution to Present-day Terrorism P resent-day…”); page 24: 225 words left out as “outside any article” (“Quran Foundation Centre, New Delhi M Quran Study C…”)"
+2019-03,Issue 75 · March 2019,pdf,March-2019.pdf,25,15258,99.89,82926,pending,pending,ok,
+2019-04,Issue 76 · April 2019,pdf,April-2019.pdf,18,16067,99.93,88761,pending,pending,ok,
+2019-05,Issue 77 · May 2019,pdf,May-2019.pdf,21,14880,99.88,80488,pending,pending,CHECK,1 run(s) of PDF text in no article and not listed
+2019-06,Issue 78 · June 2019,pdf,June-2019.pdf,22,15129,99.92,82730,pending,pending,ok,
+2019-07,Issue 79 · July 2019,pdf,July-2019.pdf,21,16205,99.82,88654,pending,pending,CHECK,1 article(s) below 99% word match; 1 run(s) of PDF text in no article and not listed
+2019-08,Issue 80 · August 2019,pdf,August-2019.pdf,20,15844,99.86,87922,pending,pending,CHECK,1 article(s) below 99% word match
+2019-09,Issue 81 · September 2019,pdf,September-2019.pdf,21,15144,99.95,80998,pending,pending,ok,
+2019-10,Issue 82 · October 2019,pdf,October-2019.pdf,22,14969,99.91,81686,pending,pending,ok,
+2019-11,Issue 83 · November 2019,pdf,November-2019.pdf,18,15269,99.94,81478,pending,pending,ok,
+2019-12,Issue 84 · December 2019,pdf,December-2019.pdf,21,14855,99.93,80140,pending,pending,ok,
+2020-01,Issue 85 · January 2020,pdf,January_2020.pdf,17,12659,99.91,68131,pending,pending,CHECK,"page 23: 239 words left out as “outside any article” (“Re-engineering Minds Towards Peace The Way to Peac…”); page 25: 260 words left out as “outside any article” (“Awards and Recognition In 2015, under the patronag…”); page 30: 290 words left out as “outside any article” (“Join Maulana Wahiduddin Khan Peace Foundation Proj…”)"
+2020-02,Issue 86 · February 2020,pdf,February-2020.pdf,20,15900,99.91,87728,pending,pending,ok,
+2020-03,Issue 87 · March 2020,pdf,March-2020.pdf,20,15558,99.94,83561,pending,pending,ok,
+2020-04,Issue 88 · April 2020,pdf,April-2020.pdf,21,15566,99.95,84179,pending,pending,ok,
+2020-05,Issue 89 · May 2020,pdf,May-2020.pdf,19,16464,99.96,90220,pending,pending,ok,
+2020-06,Issue 90 · June 2020,pdf,June-2020.pdf,21,15696,99.94,84165,pending,pending,ok,
+2020-07,Issue 91 · July 2020,pdf,July-2020.pdf,18,15930,99.9,89104,pending,pending,ok,
+2020-08,Issue 92 · August 2020,pdf,August-2020.pdf,23,15424,99.9,84149,pending,pending,ok,
+2020-09,Issue 93 · September 2020,pdf,September-2020.pdf,21,14911,99.89,82362,pending,pending,ok,
+2020-10,Issue 94 · October 2020,pdf,October-2020.pdf,24,15919,99.85,87332,pending,pending,ok,
+2020-11,Issue 95 · November 2020,pdf,November-2020.pdf,21,15790,99.88,85892,pending,pending,ok,
+2020-12,Issue 96 · December 2020,pdf,December-2020.pdf,19,15234,99.9,84483,pending,pending,ok,
+2021-01,Issue 97 · January 2021,pdf,January-2021.pdf,22,15121,99.89,83360,pending,pending,ok,
+2021-02,Issue 98 · February 2021,pdf,February-2021.pdf,22,14614,99.87,80471,pending,pending,ok,
+2021-03,Issue 99 · March 2021,pdf,March-2021.pdf,11,16384,99.97,91451,pending,pending,ok,
+2021-04,Issue 100 · April–May–June 2021,pdf,April-May-June-2021.pdf,22,13950,99.94,79171,pending,pending,CHECK,1 block(s) the rules could not classify (shown as notes)
+2021-07,Issue 101 · July–August 2021,pdf,July-August-2021.pdf,22,14032,99.91,77059,pending,pending,ok,
+2021-09,Issue 102 · September–October 2021,pdf,September-October-2021.pdf,18,14243,99.92,81067,pending,pending,ok,
+2021-11,Issue 103 · November–December 2021,pdf,November-December-2021.pdf,22,14816,99.89,82068,pending,pending,CHECK,1 article(s) below 99% word match
+2022-01,Issue 104 · January–February 2022,pdf,January-2022.pdf,19,13279,99.9,73423,pending,pending,ok,
+2022-03,Issue 105 · March–April 2022,pdf,February-2022.pdf,16,15153,99.95,84594,pending,pending,ok,
+2022-05,Issue 106 · May–June 2022,pdf,May-June-2022.pdf,18,13808,99.93,78076,pending,pending,ok,
+2022-07,Issue 107 · July–August 2022,pdf,July-August-2022.pdf,17,14841,99.95,82092,pending,pending,CHECK,1 block(s) the rules could not classify (shown as notes)
+2022-09,Issue 108 · September–October 2022,pdf,Sept-October-2022.pdf,23,14471,99.9,82015,pending,pending,CHECK,7 block(s) the rules could not classify (shown as notes)
+2022-11,Issue 109 · November–December 2022,pdf,Nov-Dec-2022.pdf,18,12742,99.95,72107,pending,pending,ok,
+2023-01,Issue 110 · January–February 2023,pdf,Jan-Feb_2023.pdf,20,14120,99.89,79127,pending,pending,ok,
+2023-03,Issue 111 · March–April 2023,pdf,march_april_2023.pdf,22,14245,99.85,77744,pending,pending,CHECK,1 article(s) below 99% word match; 2 run(s) of PDF text in no article and not listed
+2023-05,Issue 112 · May–June 2023,pdf,May_2023.pdf,15,15582,99.97,84460,pending,pending,ok,
+2023-07,Issue 113 · July–August 2023,pdf,July-August-2023.pdf,16,15037,99.96,84383,pending,pending,ok,
+2023-09,Issue 114 · September–October 2023,pdf,SOI-Sept-Oct-2023.pdf,26,14299,99.9,80374,yes,pending,ok,
+2023-11,Issue 115 · November–December 2023,pdf,SOI-Nov-Dec-23.pdf,22,12010,99.84,68942,pending,pending,CHECK,1 article(s) below 99% word match; 1 run(s) of PDF text in no article and not listed
+2024-01,Issue 116 · January–February 2024,pdf,SOI-Jan-Feb-2024.pdf,19,13561,99.91,76789,pending,pending,CHECK,1 run(s) of PDF text in no article and not listed; 4 block(s) the rules could not classify (shown as notes)
+2024-03,Issue 117 · March–April 2024,pdf,SOI-Womens-Day-Ramzaan-Special-Issue-117-Mar-Apr-2024.pdf,14,14826,99.95,82867,pending,pending,ok,
+2024-05,Issue 118 · May–June 2024,pdf,Spirit-of-Islam-Issue-118-May-June-2024.pdf,17,13689,99.93,76028,pending,pending,ok,
+2024-07,Issue 119 · July–August 2024,pdf,SOI-Issue-119-Jul-Aug-2024.pdf,16,14857,99.95,84759,pending,pending,ok,
+2024-09,Issue 120 · September–October 2024,wp,Spirit_of_Islam_Sep-Oct2024.pdf,18,12591,95.24,71714,pending,pending,CHECK,11 article(s) below 99% word match; PDF page 7: 235 words are on no web article (“in focus we bring you two articles every…”); PDF page 33: 263 words are on no web article (“students shared their impressions of the talk two…”); PDF page 45: 355 words are on no web article (“the word of god from the scriptures the…”)
+2024-11,Issue 121 · November–December 2024,wp,Issue-121-SOI-Nov-Dec-2024.pdf,18,13088,96.78,76672,pending,pending,CHECK,11 article(s) below 99% word match; no recording on the site for article 15 “The Consideration of Circumstances”; PDF page 7: 235 words are on no web article (“in focus we bring you two articles every…”); PDF page 39: 207 words are on no web article (“cps newsletter we are pleased to report that…”)
+2025-01,Issue 122 · January–February 2025,wp,JAN-FEB-25-Magazine-file.pdf,15,10351,94.49,63809,pending,pending,CHECK,11 article(s) below 99% word match; PDF page 12: 242 words are on no web article (“in focus we bring you two articles every…”)
+2025-03,Issue 123 · March–April 2025,wp,MAR-APR-25-Magazine.pdf,16,10562,95.09,65228,pending,pending,CHECK,13 article(s) below 99% word match; PDF page 8: 243 words are on no web article (“in focus we bring you two articles every…”); PDF page 35: 254 words are on no web article (“cps newsletter mr khurram qureshis report on meeting…”); PDF page 39: 255 words are on no web article (“quran stall at msi royal function hall raichur…”); PDF page 40: 230 words are on no web article (“stance particularly his opposition to the fatwa against…”); PDF page 41: 215 words are on no web article (“with immense gratitude to god i am delighted…”)
+2025-05,Issue 124 · May–June 2025,wp,MAY-JUN-25-Magazine-file.pdf,15,13173,95.41,76356,pending,pending,CHECK,9 article(s) below 99% word match; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)
+2025-07,Issue 125 · July–August 2025,wp,JUL-AUG-25-Magazine-file.pdf,18,14190,95.6,81113,pending,pending,CHECK,12 article(s) below 99% word match; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)
+2025-09,Issue 126 · September–October 2025,wp,SEP-OCT-25-Magazine-file.pdf,20,12688,95.73,74466,pending,pending,CHECK,11 article(s) below 99% word match; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)
+2025-11,Issue 127 · November–December 2025,wp,NOV-DEC-25-Magazine-file.pdf,17,14317,95.62,83696,pending,pending,CHECK,12 article(s) below 99% word match; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)
+2026-01,Issue 128 · January–February 2026,wp,JAN-FEB-26-Magazine-file.pdf,20,12340,96.36,73023,pending,pending,CHECK,11 article(s) below 99% word match; PDF page 10: 238 words are on no web article (“in focus we bring you two articles every…”)
+2026-03,Issue 129 · March–April 2026,wp,MAR-APR-26-Magazine-file.pdf,17,10588,95.58,63759,pending,pending,CHECK,11 article(s) below 99% word match; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”); PDF page 37: 237 words are on no web article (“maulana wahiduddin khans message of peace humbly describing…”); PDF page 41: 205 words are on no web article (“young readers to their strength faith and devotion…”)
+2026-05,Issue 130 · May–June 2026,wp,MAY-JUNE-26-Magazine-file.pdf,15,13064,96.76,78335,pending,pending,CHECK,9 article(s) below 99% word match; no recording on the site for article 4 “Eclipse: A Divine Miracle”; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)
+2026-07,Issue 131 · July–August 2026,wp,JULY-AUG-26-Magazine-file.pdf,17,11049,94.78,65897,pending,pending,CHECK,11 article(s) below 99% word match; PDF page 9: 238 words are on no web article (“in focus we bring you two articles every…”)
+2026-09,Issue 132 · September–October 2026,wp,SEP-OCT-26-Magazine-file.pdf,17,10860,96.6,64920,pending,pending,CHECK,8 article(s) below 99% word match; PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)

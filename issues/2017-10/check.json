@@ -1,0 +1,314 @@
+{
+ "slug": "2017-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "instant-triple-talaq-is-un-islamic",
+   "title": "Instant Triple Talaq Is Un-Islamic",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 719,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-end-of-history-is-near",
+   "title": "The End of History Is Near",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 659,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "the-vision-of-islam",
+   "title": "The Vision of Islam",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 723,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "the-existence-of-god",
+   "title": "The Existence of God",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 1121,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p11b7",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "when-the-lion-speaks",
+   "title": "When the Lion Speaks",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 355,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "why"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "avoiding-confrontation",
+   "title": "Avoiding Confrontation",
+   "pages": [
+    15,
+    18
+   ],
+   "words": 1621,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "the-psychology-of-super-achievers",
+   "title": "The Psychology of Super-Achievers",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 440,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "no-end-to-possibilities",
+   "title": "No End to Possibilities",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 389,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p21b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "avoiding-the-useless",
+   "title": "Avoiding the Useless",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 619,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "garden-of-spirituality",
+   "title": "Garden of Spirituality",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 694,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "just"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "love-of-god",
+   "title": "Love of God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 650,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "true-progress-for-women",
+   "title": "True Progress for Women",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 684,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "trusting-human-nature",
+   "title": "Trusting Human Nature",
+   "pages": [
+    30,
+    32
+   ],
+   "words": 1266,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "during"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-learner-teacher",
+   "title": "The Learner—teacher",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 450,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "within"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "value-of-education",
+   "title": "Value of Education",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 556,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-importance-of-patience-in-islam",
+   "title": "The Importance of Patience in Islam",
+   "pages": [
+    36,
+    38
+   ],
+   "words": 1235,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "how-to-become-beautiful",
+   "title": "How to Become Beautiful",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 607,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p39b4",
+     "kind": "p",
+     "words": [
+      "herbert"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "death",
+   "title": "Death",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 553,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "of"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 773,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    45,
+    48
+   ],
+   "words": 1532,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17382,
+ "article_words": 15646
+}

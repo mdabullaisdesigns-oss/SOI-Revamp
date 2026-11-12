@@ -1,0 +1,370 @@
+{
+ "slug": "2019-06",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-spirit-of-modesty",
+   "title": "The Spirit of Modesty",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 731,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p6b8",
+     "kind": "p",
+     "words": [
+      "allahuakbar"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-importance-of-education-in-islam",
+   "title": "The Importance of Education in Islam",
+   "pages": [
+    7,
+    14
+   ],
+   "words": 2810,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "missionary-zeal",
+   "title": "Missionary Zeal",
+   "pages": [
+    15,
+    16
+   ],
+   "words": 516,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "an-islamic-principle",
+   "title": "An Islamic Principle",
+   "pages": [
+    17,
+    17
+   ],
+   "words": 313,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "man-and-his-mind",
+   "title": "Man and His Mind",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 254,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "reason-and-revelation",
+   "title": "Reason and Revelation",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 563,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p19b5",
+     "kind": "p",
+     "words": [
+      "all"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "a-happy-ending-to-the-tragedy-of-life",
+   "title": "A Happy Ending to the Tragedy of Life",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 392,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "sanctity-of-marriage-in-islam",
+   "title": "Sanctity of Marriage in Islam",
+   "pages": [
+    22,
+    26
+   ],
+   "words": 1913,
+   "match": 99.95,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "turning-to-god-at-times-of-crises",
+   "title": "Turning to God at Times of Crises",
+   "pages": [
+    27,
+    27
+   ],
+   "words": 342,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "a-phenomenon-of-degeneration",
+   "title": "A Phenomenon of Degeneration",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 327,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p28b4",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "can-the-universe-help-a-seeker-reach-the-truth",
+   "title": "Can the Universe Help a Seeker Reach the Truth?",
+   "pages": [
+    29,
+    30
+   ],
+   "words": 633,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p29b4",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "sir-syed-ahmad-khans-legacy",
+   "title": "Sir Syed Ahmad Khan’s Legacy",
+   "pages": [
+    31,
+    33
+   ],
+   "words": 908,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "islam-and-peace",
+   "title": "Islam and Peace",
+   "pages": [
+    34,
+    36
+   ],
+   "words": 1141,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "a-good-society",
+   "title": "A Good Society",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 962,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-antidote",
+   "title": "The Antidote",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 322,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-message-of-the-quran",
+   "title": "The Message of the Quran",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 441,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "two-categories",
+   "title": "Two Categories",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 366,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "paradise"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "distinctive-quality",
+   "title": "Distinctive Quality",
+   "pages": [
+    43,
+    43
+   ],
+   "words": 291,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p43b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "dare-to-take-risks",
+   "title": "Dare to Take Risks",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 268,
+   "match": 99.63,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "walter"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "a-grand-adventure",
+   "title": "A Grand Adventure",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 414,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p45b4",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 664,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 552,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 25790,
+ "article_words": 15123
+}

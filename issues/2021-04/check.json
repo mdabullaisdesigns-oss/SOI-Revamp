@@ -1,0 +1,346 @@
+{
+ "slug": "2021-04",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-moment-of-gratitude",
+   "title": "A Moment of Gratitude",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 567,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "maulana-wahiduddin-khan-passes-away",
+   "title": "Maulana Wahiduddin Khan Passes Away",
+   "pages": [
+    7,
+    7
+   ],
+   "words": 383,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p7b3",
+     "kind": "p",
+     "words": [
+      "founder"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "life-without-god",
+   "title": "Life Without God",
+   "pages": [
+    9,
+    11
+   ],
+   "words": 894,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "paying-homage-to-my-teacher",
+   "title": "Paying Homage to My Teacher",
+   "pages": [
+    12,
+    13
+   ],
+   "words": 737,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "a-serious-mistake",
+   "title": "A Serious Mistake",
+   "pages": [
+    14,
+    14
+   ],
+   "words": 337,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "from-pride-to-arrogance",
+   "title": "From Pride to Arrogance",
+   "pages": [
+    15,
+    15
+   ],
+   "words": 262,
+   "match": 99.62,
+   "missing": [
+    {
+     "item": "p15b5",
+     "kind": "p",
+     "words": [
+      "people"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "every-person-is-your-potential-friend-maulana-wahiduddin-khan",
+   "title": "Every Person Is Your Potential Friend: Maulana Wahiduddin Khan",
+   "pages": [
+    16,
+    20
+   ],
+   "words": 1882,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "spiritual-aspects-of-ramadan",
+   "title": "Spiritual Aspects of Ramadan",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 507,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "laylat-ul-qadr",
+   "title": "Laylat-Ul-Qadr",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 614,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "shabeqadr"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "ideal-individual-ideal-society",
+   "title": "Ideal Individual, Ideal Society",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 318,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p25b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "silence-and-god-realization",
+   "title": "Silence and God-Realization",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 324,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "eid-ul-fitr",
+   "title": "Eid-Ul-Fitr",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 559,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "two-lives",
+   "title": "Two Lives",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 335,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p30b3",
+     "kind": "p",
+     "words": [
+      "man"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "anger-management",
+   "title": "Anger Management",
+   "pages": [
+    31,
+    31
+   ],
+   "words": 351,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "the-primacy-of-prayer",
+   "title": "The Primacy of Prayer",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 363,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-end-of-the-age-of-persecution",
+   "title": "The End of the Age of Persecution",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 771,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 595,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p35b6",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "letters-and-opinions",
+   "title": "Letters and Opinions",
+   "pages": [
+    37,
+    39
+   ],
+   "words": 1067,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "the-world-mourns-the-loss-of-maulana",
+   "title": "The World Mourns the Loss of Maulana",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 361,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "book-review",
+   "title": "Book Review",
+   "pages": [
+    41,
+    44
+   ],
+   "words": 1230,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p41b9",
+     "kind": "p",
+     "words": [
+      "hardly"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 548,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 930,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15156,
+ "article_words": 13935
+}

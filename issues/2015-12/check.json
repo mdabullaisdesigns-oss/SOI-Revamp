@@ -1,0 +1,368 @@
+{
+ "slug": "2015-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "ungodly-activities-in-the-name-of-god",
+   "title": "Ungodly Activities in the Name of God",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 1005,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "acknowledgment-of-the-truth",
+   "title": "Acknowledgment of the Truth",
+   "pages": [
+    8,
+    8
+   ],
+   "words": 315,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "intellectual-fog",
+   "title": "Intellectual Fog",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 530,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p9b5",
+     "kind": "p",
+     "words": [
+      "parts"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-ideology-of-peace-in-islam",
+   "title": "The Ideology of Peace in Islam",
+   "pages": [
+    11,
+    15
+   ],
+   "words": 1644,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p11b7",
+     "kind": "p",
+     "words": [
+      "scholars"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "power-of-an-individual",
+   "title": "Power of an Individual",
+   "pages": [
+    16,
+    16
+   ],
+   "words": 356,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p16b7",
+     "kind": "p",
+     "words": [
+      "gustave"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "lessons-from-jesus-christ",
+   "title": "Lessons from Jesus Christ",
+   "pages": [
+    17,
+    19
+   ],
+   "words": 946,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p17b3",
+     "kind": "p",
+     "words": [
+      "we"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "a-good-start",
+   "title": "A Good Start",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 535,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p20b10",
+     "kind": "p",
+     "words": [
+      "here"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "idleness",
+   "title": "Idleness",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 534,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p22b7",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "on-deaths-doorstep",
+   "title": "On Death’s Doorstep",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 524,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "of"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "thankfulness",
+   "title": "Thankfulness",
+   "pages": [
+    26,
+    26
+   ],
+   "words": 354,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "predicting-the-afterlife",
+   "title": "Predicting the Afterlife",
+   "pages": [
+    27,
+    29
+   ],
+   "words": 864,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p27b5",
+     "kind": "p",
+     "words": [
+      "presentation"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "dont-be-a-slave-to-your-desires",
+   "title": "Don’t Be a Slave to Your Desires",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 552,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "patience-source-of-certainty",
+   "title": "Patience: Source of Certainty",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 278,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "living-in-dichotomy",
+   "title": "Living in Dichotomy",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 370,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "president"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "life-after-death",
+   "title": "Life After Death",
+   "pages": [
+    34,
+    36
+   ],
+   "words": 1093,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "consciousness"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "mars-or-paradise",
+   "title": "Mars or Paradise?",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 517,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "defence"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "simple-living-high-thinking",
+   "title": "Simple Living, High Thinking",
+   "pages": [
+    39,
+    43
+   ],
+   "words": 1942,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-order-of-nature",
+   "title": "The Order of Nature",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 387,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p44b5",
+     "kind": "p",
+     "words": [
+      "try"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 578,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    49
+   ],
+   "words": 1008,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [
+  {
+   "page": 27,
+   "words": 11,
+   "text": "paul dirac predicted the existence of antipresentation matter before it was"
+  }
+ ],
+ "pdf_words": 16046,
+ "article_words": 14332
+}

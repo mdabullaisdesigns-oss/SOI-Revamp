@@ -1,0 +1,358 @@
+{
+ "slug": "2018-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "entering-the-new-year",
+   "title": "Entering the New Year",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 709,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "from-the-editorial-director",
+   "title": "From the Editorial Director",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 603,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "discover-reasons-for-gratitude",
+   "title": "Discover Reasons for Gratitude",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 358,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "every-moment-is-precious",
+   "title": "Every Moment Is Precious",
+   "pages": [
+    10,
+    10
+   ],
+   "words": 310,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p10b9",
+     "kind": "p",
+     "words": [
+      "abdullah"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "principles-of-success",
+   "title": "Principles of Success",
+   "pages": [
+    11,
+    15
+   ],
+   "words": 1462,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "mutual-consultation",
+   "title": "Mutual Consultation",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 493,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "women-in-islam",
+   "title": "Women in Islam",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 781,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p18b5",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "introspection",
+   "title": "Introspection",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 500,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "the-quran-a-book-of-guidance",
+   "title": "The Quran: A Book of Guidance",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 403,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-importance-of-a-secondary-role",
+   "title": "The Importance of a Secondary Role",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 588,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p23b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-payment-of-dues",
+   "title": "The Payment of Dues",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 369,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "worship-of-god",
+   "title": "Worship of God",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 456,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "god-realization",
+   "title": "God Realization",
+   "pages": [
+    28,
+    33
+   ],
+   "words": 2334,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "root-cause-of-terrorism-and-its-solution",
+   "title": "Root Cause of Terrorism and Its Solution",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 725,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p34b4",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "social-etiquette",
+   "title": "Social Etiquette",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 408,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "time-is-a-treasure",
+   "title": "Time Is a Treasure",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 420,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-spirit-of-islam",
+   "title": "The Spirit of Islam",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 753,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "reflections-on-life-and-death",
+   "title": "Reflections on Life and Death",
+   "pages": [
+    41,
+    41
+   ],
+   "words": 418,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "of"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "consolidation-before-expansion",
+   "title": "Consolidation Before Expansion",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 219,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 1026,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 21,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1164,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16268,
+ "article_words": 14499
+}

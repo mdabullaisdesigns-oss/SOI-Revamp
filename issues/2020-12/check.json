@@ -1,0 +1,364 @@
+{
+ "slug": "2020-12",
+ "articles": [
+  {
+   "n": 1,
+   "id": "facebook-a-study-club",
+   "title": "Facebook: A Study Club",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 470,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p5b5",
+     "kind": "p",
+     "words": [
+      "many"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-beautiful-names-of-god",
+   "title": "The Beautiful Names of God",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 734,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p7b4",
+     "kind": "p",
+     "words": [
+      "ever"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-explanation-of-meaningfulness-of-the-universe",
+   "title": "The Explanation of Meaningfulness of the Universe",
+   "pages": [
+    9,
+    11
+   ],
+   "words": 947,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "among"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "political-interpretation-of-islam",
+   "title": "Political Interpretation of Islam",
+   "pages": [
+    12,
+    15
+   ],
+   "words": 1572,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p15b3",
+     "kind": "p",
+     "words": [
+      "spirituallyinclined"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "islamic-literature-an-analysis",
+   "title": "Islamic Literature: An Analysis",
+   "pages": [
+    16,
+    19
+   ],
+   "words": 1483,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "homeschooling",
+   "title": "Homeschooling",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 396,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "relationship-with-the-messenger-of-god",
+   "title": "Relationship with the Messenger of God",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 363,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "fault-finding-eulogizing",
+   "title": "Fault-Finding, Eulogizing",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 368,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p22b11",
+     "kind": "p",
+     "words": [
+      "muslim"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "education-ancient-and-modern",
+   "title": "Education, Ancient and Modern",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 668,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "submission-to-god",
+   "title": "Submission to God",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 415,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p25b8",
+     "kind": "p",
+     "words": [
+      "everything"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "calling-upon-god-with-his-greatest-name",
+   "title": "Calling Upon God with His Greatest Name",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 489,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p26b6",
+     "kind": "p",
+     "words": [
+      "ismeazam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-history-of-knowledge",
+   "title": "The History of Knowledge",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 1094,
+   "match": 99.73,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    },
+    {
+     "item": "p29b2",
+     "kind": "p",
+     "words": [
+      "will"
+     ]
+    },
+    {
+     "item": "p29b6",
+     "kind": "pull",
+     "words": [
+      "allpowerful"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "asking-for-the-impossible",
+   "title": "Asking for the Impossible",
+   "pages": [
+    31,
+    32
+   ],
+   "words": 532,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-christian-model",
+   "title": "The Christian Model",
+   "pages": [
+    33,
+    36
+   ],
+   "words": 1229,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p33b11",
+     "kind": "p",
+     "words": [
+      "chapter"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "faith-and-guidance",
+   "title": "Faith and Guidance",
+   "pages": [
+    37,
+    42
+   ],
+   "words": 2130,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-key-to-success",
+   "title": "The Key to Success",
+   "pages": [
+    44,
+    44
+   ],
+   "words": 356,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p44b8",
+     "kind": "p",
+     "words": [
+      "delivering"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "on-pride-and-arrogance",
+   "title": "On Pride and Arrogance",
+   "pages": [
+    45,
+    45
+   ],
+   "words": 328,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 548,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    50
+   ],
+   "words": 1111,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 24346,
+ "article_words": 15233
+}

@@ -1,0 +1,226 @@
+{
+ "slug": "2015-02",
+ "articles": [
+  {
+   "n": 1,
+   "id": "condemnation-of-attack-on-charlie-hebdo-in-paris",
+   "title": "Condemnation of Attack on Charlie Hebdo in Paris",
+   "pages": [
+    4,
+    4
+   ],
+   "words": 275,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "between-lesser-evil-and-greater-evil",
+   "title": "Between Lesser Evil and Greater Evil",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 690,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "lessons-from-peshawar-killings",
+   "title": "Lessons from Peshawar Killings",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 655,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "intellectual-freedom-in-islam",
+   "title": "Intellectual Freedom in Islam",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 718,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "spirituality-in-islam",
+   "title": "Spirituality in Islam",
+   "pages": [
+    12,
+    19
+   ],
+   "words": 3130,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "reaction-to-provocation",
+   "title": "Reaction to Provocation",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 664,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 7,
+   "id": "special-blessing-to-mankind",
+   "title": "Special Blessing to Mankind",
+   "pages": [
+    22,
+    22
+   ],
+   "words": 331,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "justified-militancy",
+   "title": "Justified Militancy",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 682,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "always-be-ready-for-reassessment",
+   "title": "Always Be Ready for Reassessment",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 346,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "the-seeker-finds",
+   "title": "The Seeker Finds",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 407,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 11,
+   "id": "arguments-against-god-and-religion-part-ii",
+   "title": "Arguments Against God and Religion — Part II",
+   "pages": [
+    28,
+    33
+   ],
+   "words": 2302,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "the-straight-path-for-social-living",
+   "title": "The Straight Path for Social Living",
+   "pages": [
+    34,
+    36
+   ],
+   "words": 1052,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "peace-mission",
+   "title": "Peace Mission",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 711,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "waiting-for-a-highway",
+   "title": "Waiting for a Highway",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 629,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 15,
+   "id": "dichotomous-thinking-is-wrong",
+   "title": "Dichotomous Thinking Is Wrong",
+   "pages": [
+    41,
+    42
+   ],
+   "words": 709,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-concept-of-the-hereafter-in-islam",
+   "title": "The Concept of the Hereafter in Islam",
+   "pages": [
+    43,
+    44
+   ],
+   "words": 628,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    45,
+    47
+   ],
+   "words": 1136,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 784,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 100.0,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17346,
+ "article_words": 15849
+}

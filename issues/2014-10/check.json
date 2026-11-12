@@ -1,0 +1,290 @@
+{
+ "slug": "2014-10",
+ "articles": [
+  {
+   "n": 1,
+   "id": "a-new-age-dawns-over-kashmir",
+   "title": "A New Age Dawns Over Kashmir",
+   "pages": [
+    6,
+    8
+   ],
+   "words": 1006,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "hajj-fifth-pillar-of-islam",
+   "title": "Hajj: Fifth Pillar of Islam",
+   "pages": [
+    9,
+    10
+   ],
+   "words": 700,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p9b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-greatness-of-god",
+   "title": "The Greatness of God",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 701,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p11b3",
+     "kind": "p",
+     "words": [
+      "discovery"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-moment-of-truth",
+   "title": "The Moment of Truth",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 525,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-message-and-meaning-of-hajj",
+   "title": "The Message and Meaning of Hajj",
+   "pages": [
+    16,
+    20
+   ],
+   "words": 1920,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "religious-state-versus-democratic-state",
+   "title": "Religious State Versus Democratic State",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 484,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p21b4",
+     "kind": "p",
+     "words": [
+      "some"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-islamic-state-of-is-is-not-an-islamic-state",
+   "title": "The ‘islamic State of Is’ Is Not an Islamic State",
+   "pages": [
+    23,
+    25
+   ],
+   "words": 928,
+   "match": 99.89,
+   "missing": [
+    {
+     "item": "p23b4",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "divine-food",
+   "title": "Divine Food",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 593,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "hajj-lifes-fulfilment",
+   "title": "Hajj—life’s Fulfilment",
+   "pages": [
+    28,
+    28
+   ],
+   "words": 300,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p28b3",
+     "kind": "p",
+     "words": [
+      "muslims"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-culture-of-peace-part-iv",
+   "title": "The Culture of Peace — Part IV",
+   "pages": [
+    29,
+    35
+   ],
+   "words": 2403,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p29b10",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "tunnel-strategy-versus-surface-strategy",
+   "title": "Tunnel Strategy Versus Surface Strategy",
+   "pages": [
+    36,
+    37
+   ],
+   "words": 581,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p36b4",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "a-common-human-weakness",
+   "title": "A Common Human Weakness",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 354,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "a-matter-of-wisdom",
+   "title": "A Matter of Wisdom",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 353,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "peace-and-justice",
+   "title": "Peace and Justice",
+   "pages": [
+    40,
+    40
+   ],
+   "words": 280,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-spirit-of-hajj",
+   "title": "The Spirit of Hajj",
+   "pages": [
+    41,
+    46
+   ],
+   "words": 1980,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 760,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.92,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15504,
+ "article_words": 13868
+}

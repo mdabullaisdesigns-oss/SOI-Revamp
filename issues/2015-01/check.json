@@ -1,0 +1,350 @@
+{
+ "slug": "2015-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "from-the-editors-desk",
+   "title": "From the Editor's Desk",
+   "pages": [
+    4,
+    4
+   ],
+   "words": 320,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "road-to-happiness",
+   "title": "Road to Happiness",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 794,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p6b5",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "explaining-the-universe-in-rational-terms",
+   "title": "Explaining the Universe in Rational Terms",
+   "pages": [
+    8,
+    9
+   ],
+   "words": 703,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p8b4",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "analyzing-present-day-muslim-militancy",
+   "title": "Analyzing Present-Day Muslim Militancy",
+   "pages": [
+    10,
+    12
+   ],
+   "words": 992,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p10b4",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "monotheism-oneness-of-god",
+   "title": "Monotheism: Oneness of God",
+   "pages": [
+    13,
+    15
+   ],
+   "words": 964,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "patience",
+   "title": "Patience",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 628,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p16b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "materialism-and-spirituality",
+   "title": "Materialism and Spirituality",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 602,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p18b2",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "starting-from-scratch",
+   "title": "Starting from Scratch",
+   "pages": [
+    20,
+    21
+   ],
+   "words": 484,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "edson"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "education-alone-will-not-work",
+   "title": "Education Alone Will Not Work",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 591,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p22b4",
+     "kind": "p",
+     "words": [
+      "malala"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-people-of-the-book",
+   "title": "The People of the Book",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 573,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p24b9",
+     "kind": "p",
+     "words": [
+      "four"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "indifference",
+   "title": "Indifference",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 507,
+   "match": 99.8,
+   "missing": [
+    {
+     "item": "p26b3",
+     "kind": "p",
+     "words": [
+      "were"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "arguments-against-god-and-religion-part-i",
+   "title": "Arguments Against God and Religion — Part I",
+   "pages": [
+    28,
+    37
+   ],
+   "words": 3702,
+   "match": 99.97,
+   "missing": [
+    {
+     "item": "p28b2",
+     "kind": "p",
+     "words": [
+      "atheist"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "mothers-advice-to-her-son",
+   "title": "Mother’s Advice to Her Son",
+   "pages": [
+    38,
+    38
+   ],
+   "words": 396,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "pablo"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "a-phenomenon-of-the-body-not-of-the-soul",
+   "title": "A Phenomenon of the Body, Not of the Soul",
+   "pages": [
+    39,
+    39
+   ],
+   "words": 359,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p39b4",
+     "kind": "p",
+     "words": [
+      "richard"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "mistake-plus",
+   "title": "Mistake Plus",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 667,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "get-rid-of-depression",
+   "title": "Get Rid of Depression",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 643,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-ideology-of-peace-in-islam",
+   "title": "The Ideology of Peace in Islam",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 592,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p44b3",
+     "kind": "p",
+     "words": [
+      "scholars"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1028,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 646,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16277,
+ "article_words": 15191
+}

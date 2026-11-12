@@ -1,0 +1,10033 @@
+{
+ "skipped": [
+  {
+   "page": 1,
+   "ids": [
+    "p1b1",
+    "p1b1079"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 16,
+   "text": "ENGLISH MONTHLY ISSUE 69 SEPTEMBER 2018 ` 35 ENGLISH MONTHLY ISSUE 70 OCTOBER 2018 ` 35"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b0",
+    "p1b1078"
+   ],
+   "role": "title",
+   "why": "cover",
+   "words": 4,
+   "text": "SPIRITOF ISLAM SPIRITOF ISLAM"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b2",
+    "p1b1080"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 40,
+   "text": "T owards G l o bal Pe ac e & Spi ri t u al L i vi n g T owards G l o bal Pe ac e & Spi ri t u al L i vi n g"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b12",
+    "p1b750",
+    "p1b751",
+    "p1b760"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE SPIRITUALITYSPIRITUALITY PEACE PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b10"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b13",
+    "p1b875"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE SPIRITUALITY PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b783",
+    "p1b14",
+    "p1b782",
+    "p1b212",
+    "p1b11",
+    "p1b218",
+    "p1b213",
+    "p1b748",
+    "p1b211"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 11,
+   "text": "PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b747"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b217"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b216",
+    "p1b214",
+    "p1b210",
+    "p1b215",
+    "p1b209",
+    "p1b761",
+    "p1b785",
+    "p1b759",
+    "p1b223",
+    "p1b222",
+    "p1b224",
+    "p1b762",
+    "p1b198",
+    "p1b758",
+    "p1b7"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 21,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b752",
+    "p1b768",
+    "p1b784",
+    "p1b763",
+    "p1b753",
+    "p1b765",
+    "p1b208",
+    "p1b221"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b755",
+    "p1b713",
+    "p1b754"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b766",
+    "p1b20"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b199",
+    "p1b764",
+    "p1b23",
+    "p1b746",
+    "p1b207",
+    "p1b767"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE SPIRITUALITY PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b756",
+    "p1b15"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b24"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b749",
+    "p1b9",
+    "p1b42",
+    "p1b745",
+    "p1b200",
+    "p1b157"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE SPIRITUALITY PEACE SPIRITUALITY PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b16",
+    "p1b168",
+    "p1b730",
+    "p1b17",
+    "p1b757"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE SPIRITUALITY PEACEPEACE SPIRITUALITY PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b189",
+    "p1b188",
+    "p1b18",
+    "p1b156"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b158",
+    "p1b769",
+    "p1b187",
+    "p1b35",
+    "p1b27",
+    "p1b186",
+    "p1b159",
+    "p1b166",
+    "p1b726",
+    "p1b178"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY SPIRITUALITY PEACE SPIRITUALITY PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b717"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b19"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b165",
+    "p1b185",
+    "p1b167"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b160",
+    "p1b153",
+    "p1b38",
+    "p1b164",
+    "p1b179"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 19,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b152",
+    "p1b155",
+    "p1b161"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b8",
+    "p1b744",
+    "p1b724",
+    "p1b725"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "SPIRITUALITY PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b162"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b154",
+    "p1b25"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b151",
+    "p1b43"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "SPIRITUALITY PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b36"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "SPIRITUALITY SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b723",
+    "p1b150",
+    "p1b721",
+    "p1b26",
+    "p1b718"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b743",
+    "p1b34",
+    "p1b201",
+    "p1b714"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE SPIRITUALITY PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b722"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b190",
+    "p1b720",
+    "p1b21",
+    "p1b728",
+    "p1b205",
+    "p1b177",
+    "p1b204",
+    "p1b719",
+    "p1b716"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "SPIRITUALITY PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b284"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b510"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 19,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b28",
+    "p1b770"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE SPIRITUALITY PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b511",
+    "p1b37"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b512"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b193",
+    "p1b715",
+    "p1b283"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b729"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b183",
+    "p1b182",
+    "p1b282",
+    "p1b517",
+    "p1b176",
+    "p1b180"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b279",
+    "p1b226"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACEPEACE PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b731",
+    "p1b288",
+    "p1b184"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b181",
+    "p1b742",
+    "p1b202"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b29"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "SPIRITUALITYSPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b490",
+    "p1b194",
+    "p1b281",
+    "p1b513",
+    "p1b493",
+    "p1b492"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b192",
+    "p1b280"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b494",
+    "p1b489",
+    "p1b780",
+    "p1b514"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b195",
+    "p1b732"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b505",
+    "p1b480"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b144",
+    "p1b197",
+    "p1b498",
+    "p1b515"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b191",
+    "p1b169"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b237",
+    "p1b22",
+    "p1b170"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "SPIRITUALITY PEACE PEACE PEACE PEACEPEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b172",
+    "p1b289",
+    "p1b500",
+    "p1b171",
+    "p1b733"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b148",
+    "p1b147",
+    "p1b499",
+    "p1b31",
+    "p1b145"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE SPIRITUALITY PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b146",
+    "p1b241",
+    "p1b240",
+    "p1b734",
+    "p1b149",
+    "p1b30",
+    "p1b496"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE SPIRITUALITY PEACE PEACEPEACE PEACE PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b509",
+    "p1b735",
+    "p1b507"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b143",
+    "p1b508",
+    "p1b736",
+    "p1b290",
+    "p1b504",
+    "p1b142",
+    "p1b502",
+    "p1b737",
+    "p1b501"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b196"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b738",
+    "p1b1067",
+    "p1b739"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b141",
+    "p1b239",
+    "p1b140",
+    "p1b497",
+    "p1b253",
+    "p1b740"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b252",
+    "p1b486",
+    "p1b503",
+    "p1b558",
+    "p1b238",
+    "p1b256",
+    "p1b485",
+    "p1b287"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b175"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b243"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b559"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b560"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b557"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b481"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b278",
+    "p1b251",
+    "p1b562"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b245"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b173"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b531",
+    "p1b250",
+    "p1b242"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b533",
+    "p1b254"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b532",
+    "p1b534"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b535"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b561"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b548",
+    "p1b565"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b257",
+    "p1b249",
+    "p1b44"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACEPEACE PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b483",
+    "p1b536",
+    "p1b248"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b542",
+    "p1b563",
+    "p1b541"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b174",
+    "p1b537"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b482"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b712"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b551"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b67"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b247"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b543",
+    "p1b66",
+    "p1b550"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b229",
+    "p1b246"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b139",
+    "p1b68"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b564"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b69"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b65"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b549"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b291",
+    "p1b76",
+    "p1b255"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b73",
+    "p1b258"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b71",
+    "p1b72",
+    "p1b64"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b70",
+    "p1b82",
+    "p1b227",
+    "p1b63"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b62"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b810"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b329",
+    "p1b555"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b811"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b547",
+    "p1b230"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b566"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b277"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b235",
+    "p1b328",
+    "p1b89"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACEPEACEPEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b81"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b267",
+    "p1b234"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b271"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b6"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b90"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b80"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b518"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b114",
+    "p1b584"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b259",
+    "p1b83"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b228",
+    "p1b266",
+    "p1b138",
+    "p1b77"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b568"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b853",
+    "p1b116"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b272",
+    "p1b567",
+    "p1b585"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b261",
+    "p1b583"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b233",
+    "p1b115",
+    "p1b852"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b232"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b274"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b582",
+    "p1b546",
+    "p1b556"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACEPEACEPEACEPEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b590",
+    "p1b231",
+    "p1b78",
+    "p1b109"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b581",
+    "p1b827",
+    "p1b264",
+    "p1b578"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b592",
+    "p1b117",
+    "p1b110"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b262"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b236"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b826"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b273",
+    "p1b829"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b579",
+    "p1b263",
+    "p1b79"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b577",
+    "p1b292"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b265",
+    "p1b108",
+    "p1b123"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b260",
+    "p1b576",
+    "p1b591",
+    "p1b46"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b107",
+    "p1b580",
+    "p1b124"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b125",
+    "p1b127",
+    "p1b128",
+    "p1b126",
+    "p1b135"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b129",
+    "p1b421",
+    "p1b122"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b133",
+    "p1b132",
+    "p1b99",
+    "p1b588"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b131",
+    "p1b134"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1074"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b91"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b589",
+    "p1b275",
+    "p1b55"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b47",
+    "p1b1073",
+    "p1b865",
+    "p1b833"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "SPIRITUALITY PEACEPEACEPEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b861",
+    "p1b105",
+    "p1b858",
+    "p1b866"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b45",
+    "p1b106"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b863"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1068"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b321"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b92"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b859",
+    "p1b873",
+    "p1b864",
+    "p1b597",
+    "p1b862"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACEPEACE PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b596",
+    "p1b276",
+    "p1b834"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b860",
+    "p1b867",
+    "p1b880",
+    "p1b322",
+    "p1b4"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITYSPIRITUALITY PEACE SPIRITUALITYSPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b872",
+    "p1b93",
+    "p1b595",
+    "p1b98"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1069",
+    "p1b296"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "SPIRITUALITY PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b835",
+    "p1b869",
+    "p1b95"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b293"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b323",
+    "p1b295",
+    "p1b836",
+    "p1b298"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b837"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b674",
+    "p1b94"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b297",
+    "p1b97",
+    "p1b838"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b857",
+    "p1b311"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b856",
+    "p1b879",
+    "p1b313",
+    "p1b839",
+    "p1b54",
+    "p1b1071",
+    "p1b294",
+    "p1b96",
+    "p1b840"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b855",
+    "p1b299"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b843",
+    "p1b841"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b603",
+    "p1b876"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b305",
+    "p1b309"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b842"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b53",
+    "p1b52",
+    "p1b304",
+    "p1b306"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 15,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b307",
+    "p1b51"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b308"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b670",
+    "p1b1034",
+    "p1b985"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1065",
+    "p1b677"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b621"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1064"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b986",
+    "p1b363",
+    "p1b1035",
+    "p1b708"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b991",
+    "p1b988",
+    "p1b619",
+    "p1b341",
+    "p1b362"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 15,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b339",
+    "p1b335"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b300",
+    "p1b877"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1033"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b342"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b620",
+    "p1b340",
+    "p1b990"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b5"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b301",
+    "p1b361",
+    "p1b679"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b987"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b302"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b678"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b690",
+    "p1b680"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 18,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b989",
+    "p1b358",
+    "p1b303",
+    "p1b702",
+    "p1b333"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b638",
+    "p1b683",
+    "p1b367",
+    "p1b706",
+    "p1b331",
+    "p1b334",
+    "p1b366"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACEPEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1036",
+    "p1b368",
+    "p1b675"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b639"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b709"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b371"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1003",
+    "p1b705"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b707",
+    "p1b640",
+    "p1b1037"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b378",
+    "p1b704",
+    "p1b684"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b377",
+    "p1b386",
+    "p1b637",
+    "p1b691"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b369",
+    "p1b382",
+    "p1b1038",
+    "p1b618",
+    "p1b332",
+    "p1b1002"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b385"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b370"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 19,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b384"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b949"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b694"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACEPEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b703",
+    "p1b612",
+    "p1b614",
+    "p1b687",
+    "p1b380"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b617"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b686",
+    "p1b693",
+    "p1b636"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b696"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b383",
+    "p1b1039",
+    "p1b685",
+    "p1b654"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b402",
+    "p1b698",
+    "p1b641"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b697"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b613"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b664",
+    "p1b681"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b642"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b656"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACEPEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b404",
+    "p1b397"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b381",
+    "p1b389",
+    "p1b606",
+    "p1b359",
+    "p1b657",
+    "p1b401",
+    "p1b399",
+    "p1b695",
+    "p1b405",
+    "p1b616",
+    "p1b652"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 24,
+   "text": "PEACE PEACEPEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b663",
+    "p1b644"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b390",
+    "p1b343",
+    "p1b403",
+    "p1b645",
+    "p1b692",
+    "p1b396",
+    "p1b615",
+    "p1b372",
+    "p1b406",
+    "p1b374",
+    "p1b373"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 15,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b376"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b393"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b604",
+    "p1b391",
+    "p1b658",
+    "p1b400",
+    "p1b398"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b647"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b651",
+    "p1b394",
+    "p1b699",
+    "p1b392",
+    "p1b607",
+    "p1b649"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b661",
+    "p1b360",
+    "p1b653"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b622",
+    "p1b646"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b951",
+    "p1b660",
+    "p1b655",
+    "p1b662",
+    "p1b643"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b375",
+    "p1b648",
+    "p1b659",
+    "p1b605"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b650"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b60",
+    "p1b625"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b630",
+    "p1b701"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b431"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b427"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b632",
+    "p1b430",
+    "p1b957"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b631"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b950"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b633"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b346",
+    "p1b453",
+    "p1b348",
+    "p1b434",
+    "p1b700",
+    "p1b433",
+    "p1b634"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b960"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b357",
+    "p1b432",
+    "p1b624",
+    "p1b635",
+    "p1b710"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1027",
+    "p1b626"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b439",
+    "p1b344"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b435",
+    "p1b959",
+    "p1b623"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b958"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b429"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b628"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b441",
+    "p1b627"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b937",
+    "p1b454"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACEPEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b629",
+    "p1b901",
+    "p1b440"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1077",
+    "p1b1030"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE SPIRITUALITY"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b442"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1031",
+    "p1b423",
+    "p1b1025"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1018",
+    "p1b451"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1024",
+    "p1b1026"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1029"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b345"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b347"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1019"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b908"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1020"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b460",
+    "p1b1047"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1021",
+    "p1b1022",
+    "p1b909",
+    "p1b895"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b424",
+    "p1b470",
+    "p1b917",
+    "p1b461",
+    "p1b1023",
+    "p1b910",
+    "p1b1046",
+    "p1b896",
+    "p1b900",
+    "p1b443"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 20,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b936",
+    "p1b918"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b471",
+    "p1b465"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b446"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1016"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b945"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b935",
+    "p1b894",
+    "p1b472",
+    "p1b444",
+    "p1b468"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b934",
+    "p1b462",
+    "p1b478"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 20,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1017"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b445"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b467",
+    "p1b933"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b469",
+    "p1b897",
+    "p1b923",
+    "p1b466",
+    "p1b473",
+    "p1b898",
+    "p1b922",
+    "p1b932",
+    "p1b911",
+    "p1b931",
+    "p1b899",
+    "p1b927"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 17,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b474",
+    "p1b920"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b929",
+    "p1b477",
+    "p1b930"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b476",
+    "p1b475",
+    "p1b464",
+    "p1b919",
+    "p1b463"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b946"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b928",
+    "p1b921"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b924",
+    "p1b925",
+    "p1b947",
+    "p1b938"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b948",
+    "p1b926",
+    "p1b905"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b906",
+    "p1b966"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b967",
+    "p1b965",
+    "p1b944",
+    "p1b968",
+    "p1b978",
+    "p1b979",
+    "p1b938"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b969"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b980",
+    "p1b977"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b943",
+    "p1b981"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b982",
+    "p1b971"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 4,
+   "text": "PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b976",
+    "p1b940",
+    "p1b941",
+    "p1b970",
+    "p1b972",
+    "p1b974"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b975",
+    "p1b939"
+   ],
+   "role": "other",
+   "why": "cover",
+   "words": 3,
+   "text": "PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 1,
+   "ids": [
+    "p1b1081",
+    "p1b3"
+   ],
+   "role": "pull",
+   "why": "cover",
+   "words": 20,
+   "text": "Success depends on the ability to convert Setbacks of life can be blessings in disguise. unfavourable circumstances into favourable ones."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b17"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "ABOUT THE MAGAZINE"
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b0",
+    "p2b1",
+    "p2b2",
+    "p2b3",
+    "p2b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 91,
+   "text": "Spirit of Islam is a monthly magazine which is now in its sixth year of publication. The aim of this journal is to present Islam in the contemporary idiom, while at the same time the contents are of universal appeal and of interest to a wider circle of spiritual seekers. It is our desire to help Muslims rediscover Islam, focusing on its message of peace and spirituality as derived from the Quran and the teachings of the Prophet, and in general we strive towards religious understanding for bringing about greater harmony."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b5",
+    "p2b6",
+    "p2b7",
+    "p2b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 73,
+   "text": "Another purpose of this magazine is to assist its readers to deal with life’s challenges, deriving positivity even from negative occurrences, gaining in spirituality and developing themselves intellectually so that they may contribute constructively to society. The magazine’s regular readers will appreciate that the entire thrust of its articles is directed to the individual—a collection of intellectually prepared individuals being the sole foundation on which a peaceful and harmonious society can be built."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b9",
+    "p2b10",
+    "p2b11",
+    "p2b12",
+    "p2b13",
+    "p2b14"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 82,
+   "text": "As the subtitle indicates, Spirit of Islam is working towards enlightening people on the subject of global peace and regularly addresses relevant contemporary issues. The articles on peace based on the teachings of the Prophet of Islam offer us an ideology of peace—principles which lay down how peace may be established between conflicting groups, controversies resolved and conflicts defused. We believe that violence begins in the mind and so an effective ideology of peace needs to be presented to counter its influence."
+  },
+  {
+   "page": 2,
+   "ids": [
+    "p2b15",
+    "p2b16"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 18,
+   "text": "We hope and pray that God helps us in this noble endeavour and grants us His special blessings!"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b2"
+   ],
+   "role": "title",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "SPIRIT OF ISLAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b3"
+   ],
+   "role": "body",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 34,
+   "text": "T o w a r d s G l o b a l P e a c e & S p i r i t u a l L i v i n g"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b1"
+   ],
+   "role": "bio",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "ISSUE 70 OCTOBER 2018"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "CHIEF EDITOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b4"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 4,
+   "text": "MAULANA WAHIDUDDIN KHAN www.facebook.com/maulanawkhan"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "EDITORIAL DIRECTOR"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b6"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PROF. FARIDA KHANAM"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "EDITORIAL COMMITTEE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b8",
+    "p3b9",
+    "p3b10"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 11,
+   "text": "DR. NAGHMA SIDDIQI MARIA KHAN PROF. ZAHEERUDDIN AIJAZ AHMED MOHAMMAD USMAN"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "PRINTER AND PUBLISHER"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b12"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "FATHIMA SARAH"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "OFFICE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b13"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 15,
+   "text": "SPIRIT OF ISLAM 002, HM WIMBERLY, 6, BERLIE STREET CROSS LANGFORD TOWN, BENGALURU 560025, INDIA"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "PRINTED AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b14"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 10,
+   "text": "PRINTERS AND PUBLISHERS 450, 3RD CROSS, WILSON GARDEN, BENGALURU 560027"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "ACCESS ONLINE AT"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b15"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.spiritofislam.co.in"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 6,
+   "text": "DOWNLOAD APP AT GOOGLE PLAY STORE"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b17",
+    "p3b18"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "https://goo.gl/cCGpQJ www.newshunt.com"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b19"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "FOR LATEST UPDATES"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b19",
+    "p3b20",
+    "p3b21"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 3,
+   "text": "https://www.facebook.com/spiritofislamnew/ https://instagram.com/soimagazinenew https://twitter.com/spiritofislamnw"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b22"
+   ],
+   "role": "label",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 2,
+   "text": "CPS INTERNATIONAL"
+  },
+  {
+   "page": 3,
+   "ids": [
+    "p3b23"
+   ],
+   "role": "small",
+   "why": "non-article page: Spirit Of Islam",
+   "words": 1,
+   "text": "www.cpsglobal.org"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b1"
+   ],
+   "role": "title",
+   "why": "non-article page: Contents",
+   "words": 1,
+   "text": "CONTENTS"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b4"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "< PROBLEMS: A SOURCE OF SELF-DEVELOPMENT 13"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b5"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE VALUE OF SILENCE 16"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b6"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 8,
+   "text": "< ISLAM: A SCHEME OF SPIRITUAL DEVELOPMENT 19"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b7"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< A LESSON FROM HISTORY 22"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b8"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< FROM THE SPIRITUAL TREE 24"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b9"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 7,
+   "text": "< SATAN: THE TRENDSETTER OF HISTORY 26"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b10"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< UNITY DESPITE DIVERSITY 27"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b11"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< WORDS OF THE PROPHET 28"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b12"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< TOWARDS GLOBAL PEACE 29"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b13"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 3,
+   "text": "< SOCIETY 35"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b14"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< SUCCESS THROUGH SUPERIOR SOLUTIONS 37"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b15"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 5,
+   "text": "< ADJUSTMENT WITH PEOPLE 38"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b16"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< HOW STRANGE! 41"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b17"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 6,
+   "text": "< THE WORD OF GOD 42"
+  },
+  {
+   "page": 4,
+   "ids": [
+    "p4b18"
+   ],
+   "role": "label",
+   "why": "non-article page: Contents",
+   "words": 4,
+   "text": "< ASK MAULANA 44"
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b9"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "NOTICE"
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b10",
+    "p23b11",
+    "p23b12"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 26,
+   "text": "Subscribers are requested to inform us about damaged copies and non-receipt of their copies, latest by 15th of every month, providing their full name and address."
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b13"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 6,
+   "text": "WhatsApp & SMS 9060555757 email: thecentreforpeace@gmail.com"
+  },
+  {
+   "page": 23,
+   "ids": [
+    "p23b14"
+   ],
+   "role": "bio",
+   "why": "after the end of the article (notice or advert)",
+   "words": 7,
+   "text": "A fresh copy will be promptly despatched."
+  },
+  {
+   "page": 39,
+   "ids": [
+    "p39b14"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "USA"
+  },
+  {
+   "page": 39,
+   "ids": [
+    "p39b15"
+   ],
+   "role": "body",
+   "why": "after the end of the article (notice or advert)",
+   "words": 12,
+   "text": "Centre for Peace and Spirituality 2665 Byberry Road, Bensalem, PA 19020 kkaleemuddin@gmail.com"
+  },
+  {
+   "page": 42,
+   "ids": [
+    "p42b1"
+   ],
+   "role": "subhead",
+   "why": "after the end of the article (notice or advert)",
+   "words": 3,
+   "text": "Our vernacular websites:"
+  },
+  {
+   "page": 42,
+   "ids": [
+    "p42b5"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "www.peaceandspiritualityintamil.com"
+  },
+  {
+   "page": 42,
+   "ids": [
+    "p42b2"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "www.peaceandspiritualityinkannada.com"
+  },
+  {
+   "page": 42,
+   "ids": [
+    "p42b3"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "www.peaceandspiritualityinmarathi.com"
+  },
+  {
+   "page": 42,
+   "ids": [
+    "p42b4"
+   ],
+   "role": "other",
+   "why": "after the end of the article (notice or advert)",
+   "words": 1,
+   "text": "www.peaceandspiritualityinmalayalam.com"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b0"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "THE QURAN"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b1",
+    "p51b2",
+    "p51b3",
+    "p51b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 56,
+   "text": "A book which brings glad tidings to mankind along with divine admonition, stresses the importance of man’s discovery of truth on both spiritual and intellectual planes. The main themes of the Quran are enlightenment, closeness to God, peace and spirituality. The objective of the Quran is to make man aware of the Creation Plan of God."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "Available in different languages"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b6"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "Easy to understand"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b9",
+    "p51b11",
+    "p51b13",
+    "p51b15",
+    "p51b17"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "Chinese Dutch French Italian Portuguese"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b10",
+    "p51b12",
+    "p51b14",
+    "p51b16",
+    "p51b18"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "English Malayalam Tamil Urdu Hindi"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b19"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 19,
+   "text": "Also available in: Spanish, German, Arabic, Telugu and Marathi. Also with commentary available in: Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b8"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "Buy Online / Order Free Quran/ Download / Be a Quran Distributor"
+  },
+  {
+   "page": 51,
+   "ids": [
+    "p51b7"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "www.goodwordbooks.com"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1765"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 48,
+   "text": "Date of Publication 15th of every month Spirit of Islam | Issue 70 | October 2018 | 52 Pages Licensed To Post Without Prepayment | License No: WPP-284 Postal Regn. No: KRNA/BGE-1101/2018-2020 | RNI No: KARENG/2012/46265 Posted at Bengaluru PSO, Mysore Road, Bengaluru-560026 on 24/26th of every month"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b0",
+    "p52b1766"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 55,
+   "text": "Date of Publication 15th of every month Spirit of Islam | Issue 69 | September 2018 | 52 Pages Licensed To Post Without Prepayment | License No: WPP-284 Postal Regn. No: KRNA/BGE-1101/2018-2020 | RNI No: KARENG/2012/46265 Posted at Bengaluru PSO, Mysore Road, Bengaluru-560026 on 24/26th of every month Permitted to post on 1st October, 2018"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1217"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1218",
+    "p52b1219",
+    "p52b1247"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACEPEACEPEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b948",
+    "p52b807"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b805",
+    "p52b947",
+    "p52b1260"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1221",
+    "p52b810",
+    "p52b1220"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b814",
+    "p52b809",
+    "p52b946",
+    "p52b1280"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1248",
+    "p52b1246",
+    "p52b808",
+    "p52b1252",
+    "p52b1222"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1281",
+    "p52b806",
+    "p52b1282",
+    "p52b1245"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1250",
+    "p52b895",
+    "p52b894",
+    "p52b1286",
+    "p52b1244",
+    "p52b811"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1223",
+    "p52b1249",
+    "p52b1283",
+    "p52b877",
+    "p52b1224",
+    "p52b1287"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b942",
+    "p52b1243"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1284",
+    "p52b1242"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b941",
+    "p52b1216",
+    "p52b893",
+    "p52b940",
+    "p52b1285",
+    "p52b1288"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b892",
+    "p52b800",
+    "p52b801"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b861",
+    "p52b793"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b799"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b891",
+    "p52b888",
+    "p52b943",
+    "p52b879",
+    "p52b804",
+    "p52b794"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACEPEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1261",
+    "p52b444",
+    "p52b797",
+    "p52b890"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1241"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b796",
+    "p52b880",
+    "p52b1215",
+    "p52b795",
+    "p52b1240",
+    "p52b798",
+    "p52b443",
+    "p52b1279"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1239"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b878",
+    "p52b980",
+    "p52b889",
+    "p52b933",
+    "p52b979",
+    "p52b938"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b815"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1263",
+    "p52b1262"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b817"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b963"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 15,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b816"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b881"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1237",
+    "p52b887",
+    "p52b934",
+    "p52b1265"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b959",
+    "p52b886",
+    "p52b937",
+    "p52b862",
+    "p52b1236"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b978",
+    "p52b970",
+    "p52b935",
+    "p52b962",
+    "p52b960"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b964"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1235",
+    "p52b961"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b786",
+    "p52b968"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b969"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b818",
+    "p52b936",
+    "p52b1226",
+    "p52b965"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b973",
+    "p52b863"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b776"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b830",
+    "p52b883"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b829"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b836",
+    "p52b958",
+    "p52b966",
+    "p52b967",
+    "p52b819",
+    "p52b828"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b974",
+    "p52b785",
+    "p52b826"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b827",
+    "p52b1238",
+    "p52b1256",
+    "p52b841",
+    "p52b975"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b601"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b837"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b930",
+    "p52b976"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b820"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b438",
+    "p52b977",
+    "p52b825",
+    "p52b497",
+    "p52b1269",
+    "p52b821"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b716",
+    "p52b822",
+    "p52b1266"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1268",
+    "p52b1257",
+    "p52b498",
+    "p52b782",
+    "p52b600",
+    "p52b496",
+    "p52b778",
+    "p52b840",
+    "p52b1267",
+    "p52b717"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1234"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b638",
+    "p52b781",
+    "p52b823",
+    "p52b932",
+    "p52b875"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1275"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b931",
+    "p52b831",
+    "p52b1270",
+    "p52b495",
+    "p52b486",
+    "p52b1233"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1253",
+    "p52b951"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b953",
+    "p52b839",
+    "p52b865",
+    "p52b777"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b783"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b838",
+    "p52b724",
+    "p52b1277"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b824",
+    "p52b789"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b780",
+    "p52b864",
+    "p52b842"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b723",
+    "p52b950"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b792",
+    "p52b832"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b952",
+    "p52b722",
+    "p52b835",
+    "p52b954"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b446"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1278"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b779"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b721"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b488",
+    "p52b957",
+    "p52b718",
+    "p52b866",
+    "p52b788"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1231",
+    "p52b487"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b521"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b719",
+    "p52b929"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b846"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b520",
+    "p52b1230"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b492",
+    "p52b843"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1271",
+    "p52b1229",
+    "p52b720"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b519"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b493",
+    "p52b518"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b743"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b790"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1274"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1228",
+    "p52b674",
+    "p52b859"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b516"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b471"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b517",
+    "p52b858",
+    "p52b490",
+    "p52b515"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b491"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b845"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b494",
+    "p52b512",
+    "p52b741"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1227",
+    "p52b673",
+    "p52b857",
+    "p52b537",
+    "p52b505",
+    "p52b528"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b675",
+    "p52b691"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b731"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b844",
+    "p52b1272",
+    "p52b513",
+    "p52b536",
+    "p52b527"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b514",
+    "p52b1030"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b485",
+    "p52b511",
+    "p52b1029",
+    "p52b470",
+    "p52b538"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b447",
+    "p52b529",
+    "p52b860"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b531",
+    "p52b751"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b727"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b472"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b473",
+    "p52b676",
+    "p52b532"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b483",
+    "p52b1028",
+    "p52b729",
+    "p52b506"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b689",
+    "p52b710"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b693",
+    "p52b469"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b535"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b688",
+    "p52b738",
+    "p52b1027",
+    "p52b530"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1022",
+    "p52b463",
+    "p52b533",
+    "p52b687",
+    "p52b711"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b690",
+    "p52b534",
+    "p52b677",
+    "p52b998"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b692",
+    "p52b510"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b732"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1026"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1254",
+    "p52b736",
+    "p52b712"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b474"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b522",
+    "p52b468",
+    "p52b737",
+    "p52b678",
+    "p52b1007",
+    "p52b1014",
+    "p52b995"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b984",
+    "p52b997",
+    "p52b1021",
+    "p52b509",
+    "p52b467"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1002"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1008",
+    "p52b996",
+    "p52b448",
+    "p52b742",
+    "p52b983",
+    "p52b1004"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACEPEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1013",
+    "p52b1017",
+    "p52b679"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1012"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1005",
+    "p52b982"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1001",
+    "p52b1003",
+    "p52b1006"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACEPEACE PEACEPEACEPEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b526",
+    "p52b735"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b680"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1197",
+    "p52b728",
+    "p52b1020",
+    "p52b744"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b745"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b746"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b747",
+    "p52b1018"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b994",
+    "p52b1011",
+    "p52b1009",
+    "p52b734"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1019",
+    "p52b749"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b981",
+    "p52b999"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b733",
+    "p52b1015"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b508",
+    "p52b985"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b748"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b563",
+    "p52b1010",
+    "p52b740",
+    "p52b1025",
+    "p52b523",
+    "p52b1000"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 22,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACEPEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b672",
+    "p52b507",
+    "p52b1203",
+    "p52b752",
+    "p52b1202",
+    "p52b682"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b683",
+    "p52b993",
+    "p52b986",
+    "p52b480"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACEPEACEPEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b739",
+    "p52b681",
+    "p52b553",
+    "p52b525",
+    "p52b756",
+    "p52b1201",
+    "p52b482"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1042"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b750"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1043"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b481"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1044"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b639"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1214",
+    "p52b554"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1198"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b307"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b306",
+    "p52b187",
+    "p52b914",
+    "p52b760",
+    "p52b684"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b708"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1289"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b320",
+    "p52b555",
+    "p52b1041"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b484"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b304",
+    "p52b913"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b578",
+    "p52b761"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b552",
+    "p52b303",
+    "p52b685"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b311"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b757",
+    "p52b912",
+    "p52b1037"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b317",
+    "p52b186",
+    "p52b1048",
+    "p52b770"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b308"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b759"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b580"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b562",
+    "p52b661",
+    "p52b911"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b410",
+    "p52b660"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b401"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b319",
+    "p52b662",
+    "p52b302"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b297",
+    "p52b668",
+    "p52b551",
+    "p52b758",
+    "p52b910",
+    "p52b667",
+    "p52b316",
+    "p52b659",
+    "p52b321",
+    "p52b663",
+    "p52b1053",
+    "p52b407"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 20,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b318"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b406"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b666",
+    "p52b775"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b658",
+    "p52b405",
+    "p52b176",
+    "p52b707",
+    "p52b315"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b664"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b409",
+    "p52b393",
+    "p52b298"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b771",
+    "p52b380"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACEPEACEPEACEPEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b665",
+    "p52b392",
+    "p52b381",
+    "p52b698",
+    "p52b550",
+    "p52b657",
+    "p52b397",
+    "p52b395"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b408",
+    "p52b394"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b379",
+    "p52b423",
+    "p52b378",
+    "p52b383",
+    "p52b396",
+    "p52b382",
+    "p52b185",
+    "p52b299",
+    "p52b772"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 22,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b296",
+    "p52b377"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b177",
+    "p52b300"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b314"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b295"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b762",
+    "p52b773"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b301",
+    "p52b909",
+    "p52b175",
+    "p52b764"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1199"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b376",
+    "p52b699",
+    "p52b341",
+    "p52b549"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1196",
+    "p52b338",
+    "p52b1038",
+    "p52b400",
+    "p52b1208",
+    "p52b640",
+    "p52b766",
+    "p52b670",
+    "p52b404",
+    "p52b768"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b654",
+    "p52b763",
+    "p52b581",
+    "p52b602",
+    "p52b655"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b774"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b908",
+    "p52b544",
+    "p52b767"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b388",
+    "p52b653",
+    "p52b649",
+    "p52b412"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b642",
+    "p52b547",
+    "p52b650",
+    "p52b180"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b643",
+    "p52b765"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b648",
+    "p52b700",
+    "p52b656",
+    "p52b641",
+    "p52b651"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b384"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b907",
+    "p52b387",
+    "p52b647",
+    "p52b769",
+    "p52b927"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b646",
+    "p52b543",
+    "p52b896",
+    "p52b920",
+    "p52b385",
+    "p52b375",
+    "p52b342",
+    "p52b645",
+    "p52b1054",
+    "p52b1195"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 17,
+   "text": "PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b644"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b371"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b415"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b548",
+    "p52b1344"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b399"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b373",
+    "p52b546"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1302"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b918",
+    "p52b416",
+    "p52b422",
+    "p52b915"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b386",
+    "p52b652",
+    "p52b1301",
+    "p52b671",
+    "p52b414",
+    "p52b921",
+    "p52b1343"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1290"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b897"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b370",
+    "p52b541",
+    "p52b374"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b390"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b413",
+    "p52b545",
+    "p52b1206",
+    "p52b1300",
+    "p52b343",
+    "p52b286",
+    "p52b1303"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 20,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b372",
+    "p52b906",
+    "p52b669",
+    "p52b420"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b919"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1209"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1342",
+    "p52b1662",
+    "p52b369",
+    "p52b1296",
+    "p52b1096",
+    "p52b1299"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b389",
+    "p52b903"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b542",
+    "p52b899",
+    "p52b917",
+    "p52b1095",
+    "p52b344",
+    "p52b904"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1661",
+    "p52b898",
+    "p52b1055",
+    "p52b1094"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b916",
+    "p52b1092",
+    "p52b1346"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1652",
+    "p52b367",
+    "p52b583",
+    "p52b1345",
+    "p52b1557",
+    "p52b366",
+    "p52b281",
+    "p52b274"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b928",
+    "p52b345",
+    "p52b1091"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1651",
+    "p52b1348"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b368",
+    "p52b1347",
+    "p52b174"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b280"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b273",
+    "p52b900",
+    "p52b902",
+    "p52b905",
+    "p52b282"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1180"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1093",
+    "p52b1097"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b457",
+    "p52b584"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1349",
+    "p52b1102",
+    "p52b599",
+    "p52b1650",
+    "p52b901",
+    "p52b275",
+    "p52b586",
+    "p52b1100",
+    "p52b1056"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 17,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b362",
+    "p52b449",
+    "p52b1350",
+    "p52b391",
+    "p52b170"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1352"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1291",
+    "p52b585"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1090"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b592",
+    "p52b1353",
+    "p52b1351",
+    "p52b1101"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1070"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b589"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b363",
+    "p52b1647"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1080",
+    "p52b594"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1088",
+    "p52b593"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b591"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1103"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1079"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1297",
+    "p52b1089"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1071",
+    "p52b364",
+    "p52b1087"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b450"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b346",
+    "p52b1207",
+    "p52b358",
+    "p52b1072",
+    "p52b590"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b365",
+    "p52b1098",
+    "p52b1073"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b283"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1304",
+    "p52b1295"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b361",
+    "p52b285"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1086",
+    "p52b1074",
+    "p52b1658",
+    "p52b353",
+    "p52b1630"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1194",
+    "p52b1075",
+    "p52b588"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b636",
+    "p52b587"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACEPEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1657"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1305"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1298",
+    "p52b1076",
+    "p52b354",
+    "p52b1653",
+    "p52b1354",
+    "p52b359",
+    "p52b1057"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1099",
+    "p52b1179",
+    "p52b284",
+    "p52b355",
+    "p52b1109",
+    "p52b1374",
+    "p52b1123"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1077"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1085"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b603"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACEPEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1646",
+    "p52b1125",
+    "p52b451",
+    "p52b356"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1122",
+    "p52b1078",
+    "p52b276",
+    "p52b360"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b278",
+    "p52b1656",
+    "p52b1124",
+    "p52b1068",
+    "p52b357",
+    "p52b1654",
+    "p52b1292"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1375",
+    "p52b632"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b171"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1069"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1058",
+    "p52b452",
+    "p52b1178"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b167"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1084",
+    "p52b277",
+    "p52b1062",
+    "p52b1306"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b453",
+    "p52b631"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1355",
+    "p52b633",
+    "p52b1294"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b279",
+    "p52b1655"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1356"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b454"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1177",
+    "p52b1110",
+    "p52b1648"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1083",
+    "p52b455",
+    "p52b1373"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1357",
+    "p52b437",
+    "p52b189",
+    "p52b1116"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1136"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b456"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b140",
+    "p52b198",
+    "p52b190",
+    "p52b1293",
+    "p52b137",
+    "p52b1126",
+    "p52b1131"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b195",
+    "p52b192",
+    "p52b1307",
+    "p52b1358"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b194",
+    "p52b135"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1649"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1128",
+    "p52b623",
+    "p52b1376",
+    "p52b634"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE SPIRITUALITY PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b197",
+    "p52b291",
+    "p52b193",
+    "p52b1135",
+    "p52b1130"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1111",
+    "p52b1664",
+    "p52b196"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1313"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1117",
+    "p52b290",
+    "p52b1359"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1127"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1377",
+    "p52b139",
+    "p52b136",
+    "p52b1335",
+    "p52b1637",
+    "p52b1632",
+    "p52b635"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 17,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1336"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b289",
+    "p52b1118",
+    "p52b1334",
+    "p52b1333"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1361"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACEPEACEPEACE PEACEPEACEPEACE PEACEPEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1112",
+    "p52b166",
+    "p52b138"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b144"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b624",
+    "p52b288",
+    "p52b1368",
+    "p52b1631"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b431"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1332"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b199"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1143"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b628",
+    "p52b637",
+    "p52b1328",
+    "p52b1325",
+    "p52b1132"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1329"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1686",
+    "p52b162",
+    "p52b1330"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1371",
+    "p52b1324",
+    "p52b1363",
+    "p52b436",
+    "p52b1323"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b153",
+    "p52b1137"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1138",
+    "p52b150",
+    "p52b1337",
+    "p52b435",
+    "p52b1113"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b163",
+    "p52b146",
+    "p52b1321",
+    "p52b1331"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b625"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b152",
+    "p52b1370",
+    "p52b1372",
+    "p52b145"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACEPEACE PEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1320"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b77"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1314"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b147",
+    "p52b432",
+    "p52b164"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b134",
+    "p52b1319",
+    "p52b1364",
+    "p52b151",
+    "p52b1360",
+    "p52b1362",
+    "p52b1378",
+    "p52b1369",
+    "p52b200",
+    "p52b165",
+    "p52b630"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 19,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b154"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1129"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b430",
+    "p52b1318",
+    "p52b629",
+    "p52b1665",
+    "p52b1316",
+    "p52b1322"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1634"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1317"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b424",
+    "p52b1633",
+    "p52b1315",
+    "p52b155"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1635"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1338"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1139"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1629",
+    "p52b627",
+    "p52b1636"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "SPIRITUALITY PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1114",
+    "p52b1379",
+    "p52b18",
+    "p52b425",
+    "p52b626"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1210",
+    "p52b1115",
+    "p52b1365"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1663"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b426",
+    "p52b20"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1638"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b262"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b427"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b2"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1144",
+    "p52b1061",
+    "p52b263"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1366"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1380",
+    "p52b1383"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b429"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1108"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1666"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b19",
+    "p52b1639",
+    "p52b1060",
+    "p52b17",
+    "p52b1367"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1644"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b264"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b261",
+    "p52b614",
+    "p52b1645"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b3"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1671"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1668"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b133",
+    "p52b611"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 14,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1687"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b613"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b258"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b257",
+    "p52b256",
+    "p52b612"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1667",
+    "p52b1669",
+    "p52b260",
+    "p52b15"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b255"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b259",
+    "p52b1528"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b23"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b16",
+    "p52b604",
+    "p52b21",
+    "p52b254",
+    "p52b212",
+    "p52b22",
+    "p52b24",
+    "p52b1640"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 15,
+   "text": "PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b25",
+    "p52b609"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b606",
+    "p52b272"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b27"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1641"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b26"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b14",
+    "p52b605"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1527",
+    "p52b247",
+    "p52b35",
+    "p52b34",
+    "p52b36"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b40",
+    "p52b33",
+    "p52b1522",
+    "p52b248",
+    "p52b13"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1516"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b38",
+    "p52b55",
+    "p52b1521",
+    "p52b1524",
+    "p52b249",
+    "p52b271",
+    "p52b1523",
+    "p52b31",
+    "p52b37"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 48,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1643",
+    "p52b30",
+    "p52b1517"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b246",
+    "p52b1514",
+    "p52b1642",
+    "p52b130",
+    "p52b11",
+    "p52b211",
+    "p52b618",
+    "p52b39"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b607",
+    "p52b76",
+    "p52b250",
+    "p52b1518"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1515",
+    "p52b12",
+    "p52b1133",
+    "p52b619",
+    "p52b10"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b251"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b28",
+    "p52b1525",
+    "p52b608",
+    "p52b32",
+    "p52b1688",
+    "p52b1519"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b101",
+    "p52b4"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b209",
+    "p52b29",
+    "p52b1541",
+    "p52b1423",
+    "p52b207"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b57",
+    "p52b1689",
+    "p52b206",
+    "p52b100",
+    "p52b98"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b58",
+    "p52b252",
+    "p52b1581",
+    "p52b245",
+    "p52b5"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b9",
+    "p52b99"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b131"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1534"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1580",
+    "p52b102",
+    "p52b1424"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACEPEACE SPIRITUALITY PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b208"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b253"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b233"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b97",
+    "p52b1520"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b54",
+    "p52b56"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b108"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b53"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1579",
+    "p52b232",
+    "p52b42"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE SPIRITUALITY PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b43",
+    "p52b205",
+    "p52b1536",
+    "p52b49"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b6",
+    "p52b51",
+    "p52b1513"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b230"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b44"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b52",
+    "p52b1619"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACEPEACE PEACE PEACEPEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b47",
+    "p52b7",
+    "p52b50"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 12,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b48"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1626"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b210"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1529",
+    "p52b45",
+    "p52b96",
+    "p52b231"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b226",
+    "p52b79",
+    "p52b223"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1530"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1703",
+    "p52b222"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1531",
+    "p52b234"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b46",
+    "p52b1584",
+    "p52b1532",
+    "p52b110"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 14,
+   "text": "PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1535",
+    "p52b82",
+    "p52b1533",
+    "p52b1622"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1620",
+    "p52b1472"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1583"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b228"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1480",
+    "p52b111",
+    "p52b1482"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1582",
+    "p52b1618",
+    "p52b1452",
+    "p52b1621",
+    "p52b1453",
+    "p52b224",
+    "p52b1471",
+    "p52b1474"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACEPEACE SPIRITUALITY SPIRITUALITY PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1479"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b129",
+    "p52b1512",
+    "p52b95",
+    "p52b1508",
+    "p52b1478"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1481"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1470",
+    "p52b225",
+    "p52b83"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1475"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1454"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACEPEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1509",
+    "p52b1690"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1477",
+    "p52b227"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1440",
+    "p52b1468"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1473",
+    "p52b1476",
+    "p52b1439",
+    "p52b1425",
+    "p52b1500",
+    "p52b1458",
+    "p52b235",
+    "p52b1455",
+    "p52b1504",
+    "p52b1501",
+    "p52b1628",
+    "p52b1469",
+    "p52b1506"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b213"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1505",
+    "p52b1696",
+    "p52b1503",
+    "p52b1587",
+    "p52b1502",
+    "p52b1442",
+    "p52b1467",
+    "p52b80",
+    "p52b1444",
+    "p52b1507",
+    "p52b1499"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 17,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b229",
+    "p52b1699",
+    "p52b1484",
+    "p52b1450",
+    "p52b1485",
+    "p52b1445",
+    "p52b1486"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b214",
+    "p52b1695",
+    "p52b1443",
+    "p52b1483",
+    "p52b1438",
+    "p52b1487",
+    "p52b94",
+    "p52b84",
+    "p52b1463"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1492",
+    "p52b1488"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1464"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1465"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1451",
+    "p52b1462"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1704"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1466",
+    "p52b1489",
+    "p52b1496",
+    "p52b1430"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1426"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b128",
+    "p52b1491"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b239",
+    "p52b241"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1490",
+    "p52b244"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1497",
+    "p52b1431",
+    "p52b240",
+    "p52b1386",
+    "p52b242",
+    "p52b1461",
+    "p52b125"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b93"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1700",
+    "p52b1498",
+    "p52b1460",
+    "p52b1494",
+    "p52b1586",
+    "p52b1459",
+    "p52b221"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "PEACE PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1495",
+    "p52b1385",
+    "p52b1437"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE SPIRITUALITY PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b126",
+    "p52b86",
+    "p52b1585",
+    "p52b1578",
+    "p52b124",
+    "p52b268"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE SPIRITUALITY SPIRITUALITY PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1590"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1694"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1436",
+    "p52b92"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1589"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1588",
+    "p52b1384",
+    "p52b1432",
+    "p52b1592",
+    "p52b91",
+    "p52b1672",
+    "p52b87",
+    "p52b1591",
+    "p52b81"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 11,
+   "text": "SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1593"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b127",
+    "p52b1429"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1428"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1400",
+    "p52b1393",
+    "p52b88"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1427"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1387"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1595"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1401",
+    "p52b1558",
+    "p52b1399",
+    "p52b1394",
+    "p52b121",
+    "p52b1388"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACEPEACE PEACE PEACE SPIRITUALITY PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1596",
+    "p52b1559"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b267",
+    "p52b1705"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b89",
+    "p52b1597",
+    "p52b1389"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "SPIRITUALITY PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1601"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 15,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1395",
+    "p52b90",
+    "p52b1560",
+    "p52b1398",
+    "p52b1575"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1684"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b270"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1396",
+    "p52b266"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1712",
+    "p52b1612",
+    "p52b1684",
+    "p52b1397",
+    "p52b1577"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1390"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1391"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1709"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1711"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1713"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1714"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1617"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1603",
+    "p52b1715"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1392",
+    "p52b1716",
+    "p52b1680"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "SPIRITUALITYSPIRITUALITY PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1402"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1717",
+    "p52b1762"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1676",
+    "p52b1719",
+    "p52b1403"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1720",
+    "p52b1404",
+    "p52b1718",
+    "p52b1721",
+    "p52b1722"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1602",
+    "p52b1710",
+    "p52b439",
+    "p52b1723",
+    "p52b1724",
+    "p52b1685",
+    "p52b1725"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 19,
+   "text": "PEACE PEACE SPIRITUALITY PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1409",
+    "p52b1408"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 6,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1614",
+    "p52b1677",
+    "p52b1726"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACEPEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1727"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1678"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1405"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1728"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1406"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 4,
+   "text": "PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1616",
+    "p52b1729",
+    "p52b1613"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 9,
+   "text": "PEACE PEACE PEACE PEACE PEACE SPIRITUALITY SPIRITUALITY SPIRITUALITY SPIRITUALITY"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1730"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 13,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1419",
+    "p52b1681"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1679",
+    "p52b1418",
+    "p52b1731"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1683"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 3,
+   "text": "PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1732"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1733"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1410"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 5,
+   "text": "PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1682"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 1,
+   "text": "PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1734",
+    "p52b1611",
+    "p52b1610",
+    "p52b1735",
+    "p52b1759",
+    "p52b1761",
+    "p52b1736"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE SPIRITUALITY SPIRITUALITY PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1760",
+    "p52b1604",
+    "p52b1757",
+    "p52b1758",
+    "p52b1615",
+    "p52b1756"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1737"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 2,
+   "text": "PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1755",
+    "p52b1739",
+    "p52b1609"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 8,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1738",
+    "p52b1411",
+    "p52b1416",
+    "p52b1740",
+    "p52b1754",
+    "p52b1412",
+    "p52b1417",
+    "p52b1608",
+    "p52b1753",
+    "p52b1414",
+    "p52b1752",
+    "p52b1749"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 16,
+   "text": "PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1413",
+    "p52b1741",
+    "p52b1606",
+    "p52b1742",
+    "p52b1605",
+    "p52b1743",
+    "p52b1748"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 10,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1744",
+    "p52b1607",
+    "p52b1745",
+    "p52b1747"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 7,
+   "text": "PEACE PEACE PEACEPEACE PEACE PEACE PEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1746",
+    "p52b1750",
+    "p52b1751"
+   ],
+   "role": "other",
+   "why": "outside any article",
+   "words": 23,
+   "text": "PEACE PEACEPEACE PEACE PEACE PEACEPEACE PEACE PEACEPEACE PEACEPEACE PEACEPEACE PEACE PEACEPEACEPEACEPEACE PEACEPEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACE PEACEPEACE PEACE"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1",
+    "p52b1767"
+   ],
+   "role": "small",
+   "why": "outside any article",
+   "words": 10,
+   "text": "Printed, published & owned by Printed, published & owned by"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 27,
+   "text": "Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross, Langford Town, Bengaluru - 560025 Printed at Printers and Publishers, 450, 3rd Cross, Wilson Garden, Bengaluru - 560027"
+  },
+  {
+   "page": 52,
+   "ids": [
+    "p52b1767"
+   ],
+   "role": "bio",
+   "why": "outside any article",
+   "words": 27,
+   "text": "Fathima Sarah, 002, HM Wimberly, 6 Berlie Street Cross, Langford Town, Bengaluru - 560025 Printed at Printers and Publishers, 450, 3rd Cross, Wilson Garden, Bengaluru - 560027"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b2",
+    "p27b10"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "BOOKS VIDEOS"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b3"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 12,
+   "text": "Read online or download literature by Maulana Wahiduddin Khan in 11 languages!"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b11"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 12,
+   "text": "Watch Maulana Wahiduddin Khan deal with the pressing issues of our times."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b3",
+    "p27b11"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/books 4cpsglobal.org/videos"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b4",
+    "p27b12"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "ARTICLES PODCASTS"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b5"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 15,
+   "text": "Read Maulana’s writings as he expounds on the spiritual wisdom of the religion of Islam."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b13"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 11,
+   "text": "Listen to the audio of Maulana Wahiduddin Khan’s books and lectures."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b5",
+    "p27b13"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/articles 4cpsglobal.org/podcasts"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b6",
+    "p27b14"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "QURAN MAGAZINES"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b7"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 15,
+   "text": "Read online and download the Quran and its commentary in Arabic, English, Urdu and Hindi."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b15"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 12,
+   "text": "Boost your spiritual health every month with our English and Urdu Magazines."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b7",
+    "p27b15"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/quran 4cpsglobal.org/magazines"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b8"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "FAQs"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b16"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 1,
+   "text": "MAILERS"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b9"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 13,
+   "text": "Find answers to the questions of your soul. Send in queries at info@cpsglobal.org"
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b17"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 14,
+   "text": "Discover what’s on at the centre, subscribe to our daily, weekly and monthly mailers."
+  },
+  {
+   "page": 27,
+   "ids": [
+    "p27b9",
+    "p27b17"
+   ],
+   "role": "other",
+   "why": "advert or notice box after the article",
+   "words": 2,
+   "text": "4cpsglobal.org/faqs 4cpsglobal.org/mailers"
+  }
+ ],
+ "lead_in": [
+  "'IMRAN KHAN’S' -> 'Imran Khan’S'",
+  "'SPIRITUALITY' -> 'Spirituality'",
+  "'EVERYONE' -> 'Everyone'",
+  "'ONE' -> 'One'",
+  "'THE C' -> 'The C'",
+  "'THE P' -> 'The P'",
+  "'ACCORDING' -> 'According'",
+  "'TO' -> 'To'",
+  "'THE' -> 'The'",
+  "'PEACE' -> 'Peace'",
+  "'THE' -> 'The'",
+  "'THINKING' -> 'Thinking'",
+  "'THERE' -> 'There'",
+  "'HOW' -> 'How'"
+ ],
+ "hyphen_unsure": [],
+ "ligatures_rejoined": 0
+}

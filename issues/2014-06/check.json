@@ -1,0 +1,294 @@
+{
+ "slug": "2014-06",
+ "articles": [
+  {
+   "n": 1,
+   "id": "follow-reason-manage-emotions",
+   "title": "Follow Reason, Manage Emotions",
+   "pages": [
+    6,
+    7
+   ],
+   "words": 592,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "god-oriented-life",
+   "title": "God-Oriented Life",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1011,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p8b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "the-creation-plan-of-god",
+   "title": "The Creation Plan of God",
+   "pages": [
+    11,
+    17
+   ],
+   "words": 2503,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "message-of-ramazan",
+   "title": "Message of Ramazan",
+   "pages": [
+    18,
+    19
+   ],
+   "words": 780,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p18b7",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "reputation-will-pay-not-honour",
+   "title": "Reputation Will Pay, Not Honour",
+   "pages": [
+    20,
+    20
+   ],
+   "words": 260,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "sanctity-of-human-life",
+   "title": "Sanctity of Human Life",
+   "pages": [
+    21,
+    22
+   ],
+   "words": 667,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p21b9",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "ulema-and-the-modern-age",
+   "title": "Ulema and the Modern Age",
+   "pages": [
+    23,
+    29
+   ],
+   "words": 2533,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p23b3",
+     "kind": "p",
+     "words": [
+      "with"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-divine-way",
+   "title": "The Divine Way",
+   "pages": [
+    30,
+    31
+   ],
+   "words": 541,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "result-oriented-action",
+   "title": "Result-Oriented Action",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 280,
+   "match": 99.64,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "bertrand"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-individual-and-the-state",
+   "title": "The Individual and the State",
+   "pages": [
+    33,
+    33
+   ],
+   "words": 395,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p33b5",
+     "kind": "p",
+     "words": [
+      "this"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "fasting-as-a-spiritual-culture",
+   "title": "Fasting as a Spiritual Culture",
+   "pages": [
+    34,
+    35
+   ],
+   "words": 472,
+   "match": 99.79,
+   "missing": [
+    {
+     "item": "p34b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "embellishment-of-deeds",
+   "title": "Embellishment of Deeds",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 284,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "the-concept-of-accountability",
+   "title": "The Concept of Accountability",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 721,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "second-expulsion",
+   "title": "Second Expulsion",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 599,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p39b3",
+     "kind": "p",
+     "words": [
+      "by"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "paradise-and-man",
+   "title": "Paradise and Man",
+   "pages": [
+    41,
+    43
+   ],
+   "words": 1242,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p41b3",
+     "kind": "p",
+     "words": [
+      "professor"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    46
+   ],
+   "words": 933,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 684,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.93,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 16109,
+ "article_words": 14497
+}

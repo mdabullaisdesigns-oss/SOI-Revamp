@@ -1,0 +1,418 @@
+{
+ "slug": "2017-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "publishers-note",
+   "title": "Publisher’s Note",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 543,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "lessons-from-de-monetisation",
+   "title": "Lessons from De-Monetisation",
+   "pages": [
+    7,
+    10
+   ],
+   "words": 1560,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p7b5",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "discovering-the-modern-age",
+   "title": "Discovering the Modern Age",
+   "pages": [
+    11,
+    11
+   ],
+   "words": 329,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "need-or-pandering-to-desires",
+   "title": "Need, or Pandering to Desires?",
+   "pages": [
+    12,
+    12
+   ],
+   "words": 293,
+   "match": 99.66,
+   "missing": [
+    {
+     "item": "p12b5",
+     "kind": "p",
+     "words": [
+      "every"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "the-complete-world",
+   "title": "The Complete World",
+   "pages": [
+    13,
+    13
+   ],
+   "words": 421,
+   "match": 99.76,
+   "missing": [
+    {
+     "item": "p13b3",
+     "kind": "p",
+     "words": [
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "god-a-source-of-conviction",
+   "title": "God: A Source of Conviction",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 669,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p14b2",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "peace-as-a-principle-to-be-practised",
+   "title": "Peace as a Principle to Be Practised",
+   "pages": [
+    16,
+    18
+   ],
+   "words": 1218,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 8,
+   "id": "responsibility-of-trendsetters",
+   "title": "Responsibility of Trendsetters",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 259,
+   "match": 98.84,
+   "missing": [
+    {
+     "item": "p19b6",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    },
+    {
+     "item": "p19b7",
+     "kind": "p",
+     "words": [
+      "deeprooted",
+      "opinionmakers"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "fatwa-activism",
+   "title": "Fatwa Activism",
+   "pages": [
+    20,
+    23
+   ],
+   "words": 1334,
+   "match": 99.78,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "there"
+     ]
+    },
+    {
+     "item": "p22b6",
+     "kind": "pull",
+     "words": [
+      "selfstyled"
+     ]
+    },
+    {
+     "item": "p22b4",
+     "kind": "p",
+     "words": [
+      "rather"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "islam-in-the-changing-world",
+   "title": "Islam in the Changing World",
+   "pages": [
+    24,
+    26
+   ],
+   "words": 1220,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "modern"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "religion-a-divine-not-a-social-phenomenon",
+   "title": "Religion, a Divine Not a Social Phenomenon",
+   "pages": [
+    27,
+    27
+   ],
+   "words": 347,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p27b3",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "man-an-exceptional-creature",
+   "title": "Man, an Exceptional Creature",
+   "pages": [
+    28,
+    29
+   ],
+   "words": 455,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 13,
+   "id": "respect-for-humanity-in-islam",
+   "title": "Respect for Humanity in Islam",
+   "pages": [
+    30,
+    30
+   ],
+   "words": 334,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "conflict-resolution",
+   "title": "Conflict-Resolution",
+   "pages": [
+    31,
+    34
+   ],
+   "words": 1439,
+   "match": 99.93,
+   "missing": [
+    {
+     "item": "p31b3",
+     "kind": "p",
+     "words": [
+      "todays"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "man-made-dwarfism",
+   "title": "Man-Made Dwarfism",
+   "pages": [
+    35,
+    35
+   ],
+   "words": 334,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p35b3",
+     "kind": "p",
+     "words": [
+      "human"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "new-phase-of-history",
+   "title": "New Phase of History",
+   "pages": [
+    36,
+    36
+   ],
+   "words": 406,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p36b3",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "id": "high-thinking",
+   "title": "High Thinking",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 300,
+   "match": 99.67,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "today"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "id": "the-scientific-basis-of-rituals",
+   "title": "The Scientific Basis of Rituals",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 608,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "id": "the-signs-of-hypocrisy",
+   "title": "The Signs of Hypocrisy",
+   "pages": [
+    40,
+    41
+   ],
+   "words": 613,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "id": "journey-after-death",
+   "title": "Journey After Death",
+   "pages": [
+    42,
+    42
+   ],
+   "words": 353,
+   "match": 99.72,
+   "missing": [
+    {
+     "item": "p42b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    43,
+    45
+   ],
+   "words": 1208,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 22,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    48
+   ],
+   "words": 1173,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.88,
+ "flagged": [
+  8
+ ],
+ "unplaced": [],
+ "pdf_words": 17150,
+ "article_words": 15416
+}

@@ -1,0 +1,350 @@
+{
+ "slug": "2020-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "science-a-means-of-reinforcing-faith",
+   "title": "Science: A Means of Reinforcing Faith",
+   "pages": [
+    5,
+    6
+   ],
+   "words": 694,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p5b6",
+     "kind": "p",
+     "words": [
+      "with"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "the-scientific-approach-of-the-quran",
+   "title": "The Scientific Approach of the Quran",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 706,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "islams-contribution-to-modern-science",
+   "title": "Islam’s Contribution to Modern Science",
+   "pages": [
+    9,
+    13
+   ],
+   "words": 1786,
+   "match": 99.94,
+   "missing": [
+    {
+     "item": "p9b4",
+     "kind": "p",
+     "words": [
+      "islam"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "science-and-theology",
+   "title": "Science and Theology",
+   "pages": [
+    14,
+    20
+   ],
+   "words": 2684,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p14b3",
+     "kind": "p",
+     "words": [
+      "professor"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "evidence-of-god",
+   "title": "Evidence of God",
+   "pages": [
+    21,
+    21
+   ],
+   "words": 382,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "signs-of-god",
+   "title": "Signs of God",
+   "pages": [
+    22,
+    23
+   ],
+   "words": 328,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p22b3",
+     "kind": "p",
+     "words": [
+      "james"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "the-foundation-of-reality",
+   "title": "The Foundation of Reality",
+   "pages": [
+    24,
+    25
+   ],
+   "words": 535,
+   "match": 99.81,
+   "missing": [
+    {
+     "item": "p24b3",
+     "kind": "p",
+     "words": [
+      "modern"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "science-an-aid-to-god-realization",
+   "title": "Science—an Aid to God-Realization",
+   "pages": [
+    26,
+    28
+   ],
+   "words": 1179,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p26b5",
+     "kind": "p",
+     "words": [
+      "while"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "science-opens-new-horizons",
+   "title": "Science Opens New Horizons",
+   "pages": [
+    29,
+    31
+   ],
+   "words": 997,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "a-delay-of-nine-days",
+   "title": "A Delay of Nine Days",
+   "pages": [
+    32,
+    32
+   ],
+   "words": 386,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p32b3",
+     "kind": "p",
+     "words": [
+      "according"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "science-speaks-about-god",
+   "title": "Science Speaks About God",
+   "pages": [
+    33,
+    34
+   ],
+   "words": 715,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p33b3",
+     "kind": "p",
+     "words": [
+      "nature"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "the-greatness-of-god",
+   "title": "The Greatness of God",
+   "pages": [
+    35,
+    36
+   ],
+   "words": 664,
+   "match": 99.85,
+   "missing": [
+    {
+     "item": "p35b4",
+     "kind": "p",
+     "words": [
+      "discovery"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "miracles-or-signs-of-god",
+   "title": "Miracles or Signs of God",
+   "pages": [
+    37,
+    38
+   ],
+   "words": 642,
+   "match": 99.53,
+   "missing": [
+    {
+     "item": "p37b3",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    },
+    {
+     "item": "p37b4",
+     "kind": "p",
+     "words": [
+      "accepted"
+     ]
+    },
+    {
+     "item": "p37b8",
+     "kind": "pull",
+     "words": [
+      "allpervading"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "the-big-bang-theory",
+   "title": "The Big Bang Theory",
+   "pages": [
+    39,
+    40
+   ],
+   "words": 631,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p39b6",
+     "kind": "p",
+     "words": [
+      "universe"
+     ]
+    },
+    {
+     "item": "p39b8",
+     "kind": "thought",
+     "words": [
+      "everexpanding"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "clash-between-science-and-religion",
+   "title": "Clash Between Science and Religion",
+   "pages": [
+    41,
+    44
+   ],
+   "words": 1562,
+   "match": 99.87,
+   "missing": [
+    {
+     "item": "p41b6",
+     "kind": "p",
+     "words": [
+      "those"
+     ]
+    },
+    {
+     "item": "p41b4",
+     "kind": "small",
+     "words": [
+      "1"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "islam-and-science",
+   "title": "Islam and Science",
+   "pages": [
+    45,
+    46
+   ],
+   "words": 730,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    47,
+    48
+   ],
+   "words": 528,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 18,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    49,
+    50
+   ],
+   "words": 779,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.9,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 26630,
+ "article_words": 15928
+}

@@ -1,6 +1,6 @@
 # Issues whose text comes from the WordPress page (existing Gary audio):
 # <slug> <page id> <issue number> <PDF file>
-2024-09 2506 120 SOI-Issue-120-Sep-Oct-2024.pdf
+2024-09 2506 120 Spirit_of_Islam_Sep-Oct2024.pdf
 2024-11 2564 121 Issue-121-SOI-Nov-Dec-2024.pdf
 2025-01 2643 122 JAN-FEB-25-Magazine-file.pdf
 2025-03 2771 123 MAR-APR-25-Magazine.pdf

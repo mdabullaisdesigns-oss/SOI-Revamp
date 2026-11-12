@@ -1,0 +1,310 @@
+{
+ "slug": "2018-07",
+ "articles": [
+  {
+   "n": 1,
+   "id": "the-prophet-of-wisdom",
+   "title": "The Prophet of Wisdom",
+   "pages": [
+    5,
+    7
+   ],
+   "words": 800,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "spiritual-role-of-women",
+   "title": "Spiritual Role of Women",
+   "pages": [
+    8,
+    10
+   ],
+   "words": 1072,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 3,
+   "id": "man-and-god",
+   "title": "Man and God",
+   "pages": [
+    11,
+    13
+   ],
+   "words": 1107,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 4,
+   "id": "peace-in-afghanistan",
+   "title": "Peace in Afghanistan",
+   "pages": [
+    14,
+    15
+   ],
+   "words": 402,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "islam-and-politics",
+   "title": "Islam and Politics",
+   "pages": [
+    16,
+    17
+   ],
+   "words": 869,
+   "match": 99.88,
+   "missing": [
+    {
+     "item": "p16b6",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "the-cause-of-dissatisfaction",
+   "title": "The Cause of Dissatisfaction",
+   "pages": [
+    18,
+    18
+   ],
+   "words": 329,
+   "match": 99.7,
+   "missing": [
+    {
+     "item": "p18b3",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "destiny-and-freewill",
+   "title": "Destiny and Freewill",
+   "pages": [
+    19,
+    20
+   ],
+   "words": 581,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "is"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "the-right-response",
+   "title": "The Right Response",
+   "pages": [
+    21,
+    24
+   ],
+   "words": 1255,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 9,
+   "id": "no-acknowledgement-of-god",
+   "title": "No Acknowledgement of God",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 315,
+   "match": 99.68,
+   "missing": [
+    {
+     "item": "p25b8",
+     "kind": "p",
+     "words": [
+      "most"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "happiness-only-in-the-hereafter",
+   "title": "Happiness Only in the Hereafter",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 398,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p26b4",
+     "kind": "p",
+     "words": [
+      "charlie"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-concept-of-the-caliphate",
+   "title": "The Concept of the Caliphate",
+   "pages": [
+    28,
+    36
+   ],
+   "words": 3607,
+   "match": 99.86,
+   "missing": [
+    {
+     "item": "p31b1",
+     "kind": "pull",
+     "words": [
+      "godrealization"
+     ]
+    },
+    {
+     "item": "p31b12",
+     "kind": "p",
+     "words": [
+      "in"
+     ]
+    },
+    {
+     "item": "p35b7",
+     "kind": "p",
+     "words": [
+      "19th",
+      "and",
+      "20th"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "running-without-a-destination",
+   "title": "Running Without a Destination",
+   "pages": [
+    37,
+    37
+   ],
+   "words": 319,
+   "match": 99.69,
+   "missing": [
+    {
+     "item": "p37b8",
+     "kind": "p",
+     "words": [
+      "everyone"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "the-rational-basis-of-rituals",
+   "title": "The Rational Basis of Rituals",
+   "pages": [
+    38,
+    39
+   ],
+   "words": 575,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p38b3",
+     "kind": "p",
+     "words": [
+      "what"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "unity",
+   "title": "Unity",
+   "pages": [
+    40,
+    43
+   ],
+   "words": 1274,
+   "match": 99.92,
+   "missing": [
+    {
+     "item": "p40b3",
+     "kind": "p",
+     "words": [
+      "it"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "after-death",
+   "title": "After Death",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 568,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p44b2",
+     "kind": "p",
+     "words": [
+      "most"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 648,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 787,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.91,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 17133,
+ "article_words": 14906
+}

@@ -1,0 +1,278 @@
+{
+ "slug": "2014-01",
+ "articles": [
+  {
+   "n": 1,
+   "id": "greetings-of-peace",
+   "title": "Greetings of Peace!",
+   "pages": [
+    6,
+    6
+   ],
+   "words": 284,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 2,
+   "id": "the-key-to-happiness",
+   "title": "The Key to Happiness",
+   "pages": [
+    7,
+    8
+   ],
+   "words": 611,
+   "match": 99.84,
+   "missing": [
+    {
+     "item": "p7b5",
+     "kind": "p",
+     "words": [
+      "if"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "nature-a-model-of-peace",
+   "title": "Nature, a Model of Peace",
+   "pages": [
+    9,
+    9
+   ],
+   "words": 378,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p9b2",
+     "kind": "p",
+     "words": [
+      "the"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "the-big-bang-theory",
+   "title": "The Big Bang Theory",
+   "pages": [
+    10,
+    11
+   ],
+   "words": 608,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "the-human-right-to-live-without-terror",
+   "title": "The Human Right to Live Without Terror",
+   "pages": [
+    12,
+    16
+   ],
+   "words": 1631,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 6,
+   "id": "life-after-death",
+   "title": "Life After Death",
+   "pages": [
+    17,
+    18
+   ],
+   "words": 553,
+   "match": 99.82,
+   "missing": [
+    {
+     "item": "p17b2",
+     "kind": "p",
+     "words": [
+      "on"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "no-shortcuts",
+   "title": "No Shortcuts",
+   "pages": [
+    19,
+    19
+   ],
+   "words": 407,
+   "match": 99.75,
+   "missing": [
+    {
+     "item": "p19b3",
+     "kind": "p",
+     "words": [
+      "november"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "perceptions-about-islam",
+   "title": "Perceptions About Islam",
+   "pages": [
+    20,
+    22
+   ],
+   "words": 1074,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p20b3",
+     "kind": "p",
+     "words": [
+      "one"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "duty-before-right",
+   "title": "Duty Before Right",
+   "pages": [
+    23,
+    24
+   ],
+   "words": 667,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 10,
+   "id": "lessons-from-a-road-block",
+   "title": "Lessons from a Road Block",
+   "pages": [
+    25,
+    25
+   ],
+   "words": 387,
+   "match": 99.74,
+   "missing": [
+    {
+     "item": "p25b2",
+     "kind": "p",
+     "words": [
+      "when"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "the-spiritual-tree",
+   "title": "The Spiritual Tree",
+   "pages": [
+    26,
+    27
+   ],
+   "words": 539,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 12,
+   "id": "salah",
+   "title": "Salah",
+   "pages": [
+    28,
+    30
+   ],
+   "words": 964,
+   "match": 99.9,
+   "missing": [
+    {
+     "item": "p28b14",
+     "kind": "p",
+     "words": [
+      "al"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "why-this-contradiction",
+   "title": "Why This Contradiction?",
+   "pages": [
+    31,
+    33
+   ],
+   "words": 836,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 14,
+   "id": "the-prophet-and-his-mission",
+   "title": "The Prophet and His Mission",
+   "pages": [
+    34,
+    41
+   ],
+   "words": 2730,
+   "match": 99.96,
+   "missing": [
+    {
+     "item": "p34b6",
+     "kind": "p",
+     "words": [
+      "by"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "from-the-spiritual-tree",
+   "title": "From the Spiritual Tree",
+   "pages": [
+    42,
+    43
+   ],
+   "words": 577,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 16,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "pages": [
+    44,
+    45
+   ],
+   "words": 660,
+   "match": 100.0,
+   "missing": []
+  },
+  {
+   "n": 17,
+   "id": "ask-maulana",
+   "title": "Ask Maulana",
+   "pages": [
+    46,
+    47
+   ],
+   "words": 516,
+   "match": 100.0,
+   "missing": []
+  }
+ ],
+ "overall_match": 99.94,
+ "flagged": [],
+ "unplaced": [],
+ "pdf_words": 15150,
+ "article_words": 13422
+}
