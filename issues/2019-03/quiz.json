@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Existence of God",
+   "page": 5,
+   "link": "the-existence-of-god",
+   "q": "What does the author find even stranger than believing in God?",
+   "options": [
+    [
+     "Believing in nature",
+     "Not quite. The article says: Not believing in God."
+    ],
+    [
+     "Asking questions",
+     "Not quite. The article says: Not believing in God."
+    ],
+    [
+     "Not believing in God",
+     "So he prefers the less strange."
+    ],
+    [
+     "Believing in science",
+     "Not quite. The article says: Not believing in God."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It is strange to believe that there is a God, but not to believe in God is even stranger."
+  },
+  {
+   "article": "The Eternal Journey",
+   "page": 11,
+   "link": "the-eternal-journey",
+   "q": "In what context should every affair be looked at?",
+   "options": [
+    [
+     "Its political context",
+     "Not quite. The article says: Its eternal context."
+    ],
+    [
+     "Its eternal context",
+     "No one will help in the next world."
+    ],
+    [
+     "Its local context",
+     "Not quite. The article says: Its eternal context."
+    ],
+    [
+     "Its financial context",
+     "Not quite. The article says: Its eternal context."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Every affair should be looked at in its eternal context."
+  },
+  {
+   "article": "Concerning Women",
+   "page": 19,
+   "link": "concerning-women",
+   "q": "What did Edward William Lane’s foreword of 1843 claim?",
+   "options": [
+    [
+     "That Islam honoured women most",
+     "Not quite. The article says: That “the fatal point in Islam is the degradation of woman”."
+    ],
+    [
+     "Nothing about women",
+     "Not quite. The article says: That “the fatal point in Islam is the degradation of woman”."
+    ],
+    [
+     "That “the fatal point in Islam is the degradation of woman”",
+     "The article calls this ill-considered."
+    ],
+    [
+     "That the Quran is brief",
+     "Not quite. The article says: That “the fatal point in Islam is the degradation of woman”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It stated that “the fatal point in Islam is the degradation of woman.” This ill-considered observation …"
+  },
+  {
+   "article": "Tolerating Lesser Evil",
+   "page": 28,
+   "link": "tolerating-lesser-evil",
+   "q": "What happens to one who refuses to tolerate the lesser evil of a foolish person?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: He will have to tolerate the bigger evil."
+    ],
+    [
+     "He will have to tolerate the bigger evil",
+     "Advice of a Companion to his son."
+    ],
+    [
+     "He wins",
+     "Not quite. The article says: He will have to tolerate the bigger evil."
+    ],
+    [
+     "He is praised",
+     "Not quite. The article says: He will have to tolerate the bigger evil."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“He who refuses to tolerate the lesser evil of a foolish person will have to tolerate the bigger evil of such a person.”"
+  },
+  {
+   "article": "The Moment of Truth",
+   "page": 31,
+   "link": "the-moment-of-truth",
+   "q": "What had the Ivory Coast once been called?",
+   "options": [
+    [
+     "The “Roof of Africa”",
+     "Not quite. The article says: The “Showcase of Africa”."
+    ],
+    [
+     "The “Garden of Eden”",
+     "Not quite. The article says: The “Showcase of Africa”."
+    ],
+    [
+     "The “Pearl of Asia”",
+     "Not quite. The article says: The “Showcase of Africa”."
+    ],
+    [
+     "The “Showcase of Africa”",
+     "Until the power failed in December 1983."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The country had at one time been called the “Showcase of Africa”."
+  },
+  {
+   "article": "Prayer Fends Away Indecency and Evil",
+   "page": 33,
+   "link": "prayer-fends-away-indecency-and-evil",
+   "q": "What does prayer fend away, according to the Quran?",
+   "options": [
+    [
+     "Poverty",
+     "Not quite. The article says: Indecency and evil."
+    ],
+    [
+     "Travel",
+     "Not quite. The article says: Indecency and evil."
+    ],
+    [
+     "Sleep",
+     "Not quite. The article says: Indecency and evil."
+    ],
+    [
+     "Indecency and evil",
+     "Otherwise it is not truly prayer."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Prayer fends away indecency and evil."
+  },
+  {
+   "article": "The News of Salvation",
+   "page": 37,
+   "link": "the-news-of-salvation",
+   "q": "What message is no one seeking to convey, according to the article?",
+   "options": [
+    [
+     "Market prices",
+     "Not quite. The article says: The message of eternal life."
+    ],
+    [
+     "The message of eternal life",
+     "Amid a mass of information."
+    ],
+    [
+     "Sports results",
+     "Not quite. The article says: The message of eternal life."
+    ],
+    [
+     "The latest news",
+     "Not quite. The article says: The message of eternal life."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "There is no one seeking to convey the message of eternal life."
+  },
+  {
+   "article": "Morning Is the Best Time",
+   "page": 39,
+   "link": "morning-is-the-best-time",
+   "q": "Why is morning the best time?",
+   "options": [
+    [
+     "The markets are open",
+     "Not quite. The article says: The mind is most fresh."
+    ],
+    [
+     "The mind is most fresh",
+     "“The recitation at dawn is indeed witnessed.”"
+    ],
+    [
+     "It is warmest",
+     "Not quite. The article says: The mind is most fresh."
+    ],
+    [
+     "The streets are busy",
+     "Not quite. The article says: The mind is most fresh."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Morning time is the best time because one’s mind is most fresh at this time of the day."
+  },
+  {
+   "article": "Why Is Prayer Not Accepted?",
+   "page": 42,
+   "link": "why-is-prayer-not-accepted",
+   "q": "Why, said the sage, are prayers not answered?",
+   "options": [
+    [
+     "You pray too often",
+     "Not quite. The article says: You ask of God what you are not prepared to give to others."
+    ],
+    [
+     "You ask of God what you are not prepared to give to others",
+     "An elder’s reply."
+    ],
+    [
+     "God does not listen",
+     "Not quite. The article says: You ask of God what you are not prepared to give to others."
+    ],
+    [
+     "You pray too softly",
+     "Not quite. The article says: You ask of God what you are not prepared to give to others."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "You people ask of God what you are not prepared to give to other human beings."
+  },
+  {
+   "article": "What Is Takeaway?",
+   "page": 44,
+   "link": "what-is-takeaway",
+   "q": "Which word on a London shop board set the author thinking?",
+   "options": [
+    [
+     "‘WELCOME’",
+     "Not quite. The article says: ‘TAKEAWAY’."
+    ],
+    [
+     "‘CLOSED’",
+     "Not quite. The article says: ‘TAKEAWAY’."
+    ],
+    [
+     "‘TAKEAWAY’",
+     "First used for food bought to eat elsewhere."
+    ],
+    [
+     "‘SALE’",
+     "Not quite. The article says: ‘TAKEAWAY’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A board in front of a shop with the words ‘TAKEAWAY’ written in bold."
+  }
+ ]
+}

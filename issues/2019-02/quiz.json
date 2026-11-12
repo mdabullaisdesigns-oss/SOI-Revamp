@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Know Your Rights and Perform Your Duties",
+   "page": 5,
+   "link": "know-your-rights-and-perform-your-duties",
+   "q": "To what does the article attribute today’s upheaval?",
+   "options": [
+    [
+     "Lack of leaders",
+     "Not quite. The article says: An unrealistic concept of rights."
+    ],
+    [
+     "An unrealistic concept of rights",
+     "Not simply injustice."
+    ],
+    [
+     "Too little protest",
+     "Not quite. The article says: An unrealistic concept of rights."
+    ],
+    [
+     "Bad weather",
+     "Not quite. The article says: An unrealistic concept of rights."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is due to an unrealistic concept …"
+  },
+  {
+   "article": "Spirit of Islam",
+   "page": 7,
+   "link": "spirit-of-islam",
+   "q": "What must you differentiate to understand Islam in its original form?",
+   "options": [
+    [
+     "Between men and women",
+     "Not quite. The article says: Between Islam and Muslims."
+    ],
+    [
+     "Between Arabs and others",
+     "Not quite. The article says: Between Islam and Muslims."
+    ],
+    [
+     "Between old and young",
+     "Not quite. The article says: Between Islam and Muslims."
+    ],
+    [
+     "Between Islam and Muslims",
+     "Judge Islam by its original text."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "You have to differentiate between Islam and Muslims."
+  },
+  {
+   "article": "The Work of Nation-Building",
+   "page": 11,
+   "link": "the-work-of-nation-building",
+   "q": "To what is nation-building similar?",
+   "options": [
+    [
+     "A sprint",
+     "Not quite. The article says: Planting an orchard."
+    ],
+    [
+     "Building a wall in a day",
+     "Not quite. The article says: Planting an orchard."
+    ],
+    [
+     "Planting an orchard",
+     "A lengthy affair."
+    ],
+    [
+     "Winning a lottery",
+     "Not quite. The article says: Planting an orchard."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The work of nation-building is similar to planting an orchard."
+  },
+  {
+   "article": "Quran",
+   "page": 14,
+   "link": "quran",
+   "q": "What did many say when the Prophet claimed the Quran was divine?",
+   "options": [
+    [
+     "They left the city",
+     "Not quite. The article says: They did not believe him."
+    ],
+    [
+     "They did not believe him",
+     "The Quran then gave a challenge."
+    ],
+    [
+     "They all agreed",
+     "Not quite. The article says: They did not believe him."
+    ],
+    [
+     "They asked for gold",
+     "Not quite. The article says: They did not believe him."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "There were many who did not believe him."
+  },
+  {
+   "article": "Greater Than Political Victory",
+   "page": 21,
+   "link": "greater-than-political-victory",
+   "q": "What is the summum bonum, according to the Quran?",
+   "options": [
+    [
+     "Political victory",
+     "Not quite. The article says: Peace."
+    ],
+    [
+     "Territory",
+     "Not quite. The article says: Peace."
+    ],
+    [
+     "Peace",
+     "Its ambit is unlimited."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Peace."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "According to the Quran, peace is the summum bonum."
+  },
+  {
+   "article": "Indeciseveness",
+   "page": 32,
+   "link": "indeciseveness",
+   "q": "What do critical matters in life require?",
+   "options": [
+    [
+     "The appropriate step without delay – and a correct decision",
+     "Or a lifetime of repentance."
+    ],
+    [
+     "No decision",
+     "Not quite. The article says: The appropriate step without delay – and a correct decision."
+    ],
+    [
+     "Endless waiting",
+     "Not quite. The article says: The appropriate step without delay – and a correct decision."
+    ],
+    [
+     "A coin toss",
+     "Not quite. The article says: The appropriate step without delay – and a correct decision."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They require the appropriate step to be taken without delaying. But the decisions must also be correct ones."
+  },
+  {
+   "article": "Qualities Required for Great Achievement",
+   "page": 37,
+   "link": "qualities-required-for-great-achievement",
+   "q": "What is the first quality of great achievers in the study cited?",
+   "options": [
+    [
+     "Physical strength",
+     "Not quite. The article says: A great sense of mission."
+    ],
+    [
+     "A great sense of mission",
+     "One of five qualities."
+    ],
+    [
+     "Noble birth",
+     "Not quite. The article says: A great sense of mission."
+    ],
+    [
+     "Great wealth",
+     "Not quite. The article says: A great sense of mission."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "First and foremost, they have a great sense of mission."
+  },
+  {
+   "article": "Spiritual Progress",
+   "page": 39,
+   "link": "spiritual-progress",
+   "q": "What is the actual target of Islam?",
+   "options": [
+    [
+     "Economic gain",
+     "Not quite. The article says: Spiritual progress."
+    ],
+    [
+     "Spiritual progress",
+     "Called purification in the Quran."
+    ],
+    [
+     "Military strength",
+     "Not quite. The article says: Spiritual progress."
+    ],
+    [
+     "Political rule",
+     "Not quite. The article says: Spiritual progress."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The actual target of Islam is spiritual progress."
+  },
+  {
+   "article": "Lessons from Nature",
+   "page": 42,
+   "link": "lessons-from-nature",
+   "q": "What does the article say of disease-causing bacteria and viruses?",
+   "options": [
+    [
+     "They are easily seen",
+     "Not quite. The article says: Though tiny, they breed at a furious rate."
+    ],
+    [
+     "They are harmless",
+     "Not quite. The article says: Though tiny, they breed at a furious rate."
+    ],
+    [
+     "Though tiny, they breed at a furious rate",
+     "And can be fatal."
+    ],
+    [
+     "They never multiply",
+     "Not quite. The article says: Though tiny, they breed at a furious rate."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Invisible to the naked eye but they breed at such a furious rate …"
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "By which mountain does the chapter quoted swear?",
+   "options": [
+    [
+     "Mount Sinai",
+     "And by the Scripture on unrolled parchment."
+    ],
+    [
+     "Mount Everest",
+     "Not quite. The article says: Mount Sinai."
+    ],
+    [
+     "Mount Olympus",
+     "Not quite. The article says: Mount Sinai."
+    ],
+    [
+     "Mount Uhud",
+     "Not quite. The article says: Mount Sinai."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "By the Mount Sinai, and by the Scripture penned on unrolled parchment."
+  }
+ ]
+}

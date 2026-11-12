@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Price of Being a Taker",
+   "page": 5,
+   "link": "the-price-of-being-a-taker",
+   "q": "What concern do senior Indians in the US share, as the author found?",
+   "options": [
+    [
+     "That the next generation is losing its traditional culture",
+     "Among both Muslims and Hindus."
+    ],
+    [
+     "That taxes are high",
+     "Not quite. The article says: That the next generation is losing its traditional culture."
+    ],
+    [
+     "That jobs are few",
+     "Not quite. The article says: That the next generation is losing its traditional culture."
+    ],
+    [
+     "That the weather is cold",
+     "Not quite. The article says: That the next generation is losing its traditional culture."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They fear that the future generation is rapidly losing the identity of its traditional culture."
+  },
+  {
+   "article": "Here’s the Truth Behind the Veil",
+   "page": 7,
+   "link": "heres-the-truth-behind-the-veil",
+   "q": "What does the article say the burqa is part of?",
+   "options": [
+    [
+     "Prophetic law",
+     "Not quite. The article says: Muslim culture, not Islamic teaching."
+    ],
+    [
+     "The five pillars",
+     "Not quite. The article says: Muslim culture, not Islamic teaching."
+    ],
+    [
+     "The Quran",
+     "Not quite. The article says: Muslim culture, not Islamic teaching."
+    ],
+    [
+     "Muslim culture, not Islamic teaching",
+     "The two differ greatly."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The burqa is a part of Muslim culture and not a part of Islamic teaching."
+  },
+  {
+   "article": "Islam in a Pluralistic Society",
+   "page": 17,
+   "link": "islam-in-a-pluralistic-society",
+   "q": "How did the Prophet behave towards adherents of other religions?",
+   "options": [
+    [
+     "With indifference",
+     "Not quite. The article says: With respect and tolerance."
+    ],
+    [
+     "With avoidance",
+     "Not quite. The article says: With respect and tolerance."
+    ],
+    [
+     "With respect and tolerance",
+     "He lived among them most of his life."
+    ],
+    [
+     "With hostility",
+     "Not quite. The article says: With respect and tolerance."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The Prophet’s behaviour towards the former was invariably that of respect and tolerance."
+  },
+  {
+   "article": "Faith in God",
+   "page": 22,
+   "link": "faith-in-god",
+   "q": "On how many pillars has Islam been built?",
+   "options": [
+    [
+     "Five",
+     "Testimony, prayer, zakat, pilgrimage and fasting."
+    ],
+    [
+     "Two",
+     "Not quite. The article says: Five."
+    ],
+    [
+     "Four",
+     "Not quite. The article says: Five."
+    ],
+    [
+     "Twelve",
+     "Not quite. The article says: Five."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“Islam has been built on five pillars.”"
+  },
+  {
+   "article": "Remember, Everything Is Temporary",
+   "page": 29,
+   "link": "remember-everything-is-temporary",
+   "q": "For what is Ernest Shackleton best known?",
+   "options": [
+    [
+     "Climbing Everest",
+     "Not quite. The article says: His expeditions to Antarctica."
+    ],
+    [
+     "Crossing the Sahara",
+     "Not quite. The article says: His expeditions to Antarctica."
+    ],
+    [
+     "His expeditions to Antarctica",
+     "His ship sank on the third."
+    ],
+    [
+     "Flying the Atlantic",
+     "Not quite. The article says: His expeditions to Antarctica."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Ernest Shackleton is best known for his expeditions to Antarctica."
+  },
+  {
+   "article": "Politico-Spiritual Rendezvous",
+   "page": 33,
+   "link": "politico-spiritual-rendezvous",
+   "q": "Who said, “East is East and West is West, and never the twain shall meet”?",
+   "options": [
+    [
+     "Tagore",
+     "Not quite. The article says: Rudyard Kipling."
+    ],
+    [
+     "Mark Twain",
+     "Not quite. The article says: Rudyard Kipling."
+    ],
+    [
+     "Rudyard Kipling",
+     "The article applies it to spirituality and politics."
+    ],
+    [
+     "Churchill",
+     "Not quite. The article says: Rudyard Kipling."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Rudyard Kipling once said, “East is East and West is West, and never the twain shall meet.”"
+  },
+  {
+   "article": "Realization of God",
+   "page": 35,
+   "link": "realization-of-god",
+   "q": "What did Moses ask on Mount Sinai (7: 143)?",
+   "options": [
+    [
+     "“Give me a kingdom”",
+     "Not quite. The article says: “My Lord, show Yourself to me”."
+    ],
+    [
+     "“My Lord, show Yourself to me”",
+     "He had the experience of conversing with God."
+    ],
+    [
+     "“Destroy my enemies”",
+     "Not quite. The article says: “My Lord, show Yourself to me”."
+    ],
+    [
+     "“Make me rich”",
+     "Not quite. The article says: “My Lord, show Yourself to me”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Moses said: “My Lord, show Yourself to me so that I may look at You”."
+  },
+  {
+   "article": "The Material and the Immaterial",
+   "page": 40,
+   "link": "the-material-and-the-immaterial",
+   "q": "What did Deana Uppal call the greatest love of her life?",
+   "options": [
+    [
+     "Travel",
+     "Not quite. The article says: Money."
+    ],
+    [
+     "Money",
+     "“Because I don’t believe in love.”"
+    ],
+    [
+     "Music",
+     "Not quite. The article says: Money."
+    ],
+    [
+     "Her family",
+     "Not quite. The article says: Money."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“The greatest love of my life is money, because I don’t believe in love.”"
+  },
+  {
+   "article": "The Straight Path",
+   "page": 42,
+   "link": "the-straight-path",
+   "q": "What happens to a train whose wheels slip off the rails?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: Its journey comes to a sudden, disastrous end."
+    ],
+    [
+     "It finds a shortcut",
+     "Not quite. The article says: Its journey comes to a sudden, disastrous end."
+    ],
+    [
+     "Its journey comes to a sudden, disastrous end",
+     "Man’s journey is similar."
+    ],
+    [
+     "It goes faster",
+     "Not quite. The article says: Its journey comes to a sudden, disastrous end."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Should its wheels slip off the rails … its journey will come to a sudden and disastrous end."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "To what does ‘By the pen, and all that they write’ refer?",
+   "options": [
+    [
+     "Poetry",
+     "Not quite. The article says: Historical record."
+    ],
+    [
+     "Trade accounts",
+     "Not quite. The article says: Historical record."
+    ],
+    [
+     "Historical record",
+     "Quran 68: 1."
+    ],
+    [
+     "Letters of kings",
+     "Not quite. The article says: Historical record."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘By the pen, and all that they write’ refers to historical record."
+  }
+ ]
+}

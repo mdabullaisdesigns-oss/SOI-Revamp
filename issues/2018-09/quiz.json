@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Aspiring for More and Settling for Less",
+   "page": 5,
+   "link": "aspiring-for-more-and-settling-for-less",
+   "q": "Which addictions does the article mention?",
+   "options": [
+    [
+     "Books",
+     "Not quite. The article says: Alcohol, tobacco and psychotropic drugs."
+    ],
+    [
+     "Tea and coffee only",
+     "Not quite. The article says: Alcohol, tobacco and psychotropic drugs."
+    ],
+    [
+     "Sport",
+     "Not quite. The article says: Alcohol, tobacco and psychotropic drugs."
+    ],
+    [
+     "Alcohol, tobacco and psychotropic drugs",
+     "Known to be bad, yet hard to give up."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Addictions like alcohol, tobacco and psychotropic drugs."
+  },
+  {
+   "article": "The Status of Woman in Islam",
+   "page": 7,
+   "link": "the-status-of-woman-in-islam",
+   "q": "From what has God created man and woman?",
+   "options": [
+    [
+     "Earth and water separately",
+     "Not quite. The article says: The same soul – the same substance."
+    ],
+    [
+     "The same soul – the same substance",
+     "The whole race comes from Adam and Eve."
+    ],
+    [
+     "Different substances",
+     "Not quite. The article says: The same soul – the same substance."
+    ],
+    [
+     "Light and fire",
+     "Not quite. The article says: The same soul – the same substance."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "God has created man and woman from the same soul, that is, from the same substance."
+  },
+  {
+   "article": "The Status of Woman in Islam",
+   "page": 7,
+   "link": "the-status-of-woman-in-islam",
+   "q": "From whom has the entire human race come?",
+   "options": [
+    [
+     "The angels",
+     "Not quite. The article says: Adam and Eve."
+    ],
+    [
+     "Abraham",
+     "Not quite. The article says: Adam and Eve."
+    ],
+    [
+     "Noah alone",
+     "Not quite. The article says: Adam and Eve."
+    ],
+    [
+     "Adam and Eve",
+     "The first man and the first woman."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The entire human race has come from Adam and Eve—the first man and the first woman."
+  },
+  {
+   "article": "Give Nature a Chance",
+   "page": 13,
+   "link": "give-nature-a-chance",
+   "q": "What did the man who had been a ‘social activist’ for decades suddenly do?",
+   "options": [
+    [
+     "He stood for election",
+     "Not quite. The article says: He stopped social work completely."
+    ],
+    [
+     "He doubled his work",
+     "Not quite. The article says: He stopped social work completely."
+    ],
+    [
+     "He stopped social work completely",
+     "He explained what he had really been doing."
+    ],
+    [
+     "He moved abroad",
+     "Not quite. The article says: He stopped social work completely."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "He suddenly stopped social work completely."
+  },
+  {
+   "article": "The Superiority of Truth",
+   "page": 23,
+   "link": "the-superiority-of-truth",
+   "q": "What did the ‘alim reply when told he should not differ with his Shaikh?",
+   "options": [
+    [
+     "“The Shaikh is dear to me, but the truth is dearer”",
+     "The superiority of truth."
+    ],
+    [
+     "“I will stay silent.”",
+     "Not quite. The article says: “The Shaikh is dear to me, but the truth is dearer”."
+    ],
+    [
+     "“I was wrong.”",
+     "Not quite. The article says: “The Shaikh is dear to me, but the truth is dearer”."
+    ],
+    [
+     "“He is not my Shaikh.”",
+     "Not quite. The article says: “The Shaikh is dear to me, but the truth is dearer”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“The Shaikh is dear to me, but the truth is …”"
+  },
+  {
+   "article": "The Simple Formula of Ma’arifat",
+   "page": 26,
+   "link": "the-simple-formula-of-maarifat",
+   "q": "Of what does every unfulfilled desire remind man?",
+   "options": [
+    [
+     "His wealth",
+     "Not quite. The article says: His limitations."
+    ],
+    [
+     "His greatness",
+     "Not quite. The article says: His limitations."
+    ],
+    [
+     "His limitations",
+     "A simple formula of God-realization."
+    ],
+    [
+     "His friends",
+     "Not quite. The article says: His limitations."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Every such experience reminds man of his limitations."
+  },
+  {
+   "article": "Forgiveness",
+   "page": 29,
+   "link": "forgiveness",
+   "q": "What are the two options when we meet a bad experience with people?",
+   "options": [
+    [
+     "To laugh or to cry",
+     "Not quite. The article says: To ignore it, or to take counter measures."
+    ],
+    [
+     "To pay or to borrow",
+     "Not quite. The article says: To ignore it, or to take counter measures."
+    ],
+    [
+     "To flee or to hide",
+     "Not quite. The article says: To ignore it, or to take counter measures."
+    ],
+    [
+     "To ignore it, or to take counter measures",
+     "The first is a form of forgiveness."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Either to ignore it or try to take some counter measures. The first option is a form of forgiveness."
+  },
+  {
+   "article": "Losers Can Be Gainers",
+   "page": 33,
+   "link": "losers-can-be-gainers",
+   "q": "Why was the outsider in the small town harassed?",
+   "options": [
+    [
+     "He had broken the law",
+     "Not quite. The article says: Just because he belonged to another community."
+    ],
+    [
+     "He was rude",
+     "Not quite. The article says: Just because he belonged to another community."
+    ],
+    [
+     "Just because he belonged to another community",
+     "An elderly holy man witnessed it."
+    ],
+    [
+     "He owed money",
+     "Not quite. The article says: Just because he belonged to another community."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Just because he belonged to another community, he was subjected to all kinds of unfair treatment."
+  },
+  {
+   "article": "Principles of Islam",
+   "page": 40,
+   "link": "principles-of-islam",
+   "q": "What is a believer necessarily?",
+   "options": [
+    [
+     "A lover of peace",
+     "He will not endure its loss."
+    ],
+    [
+     "A warrior",
+     "Not quite. The article says: A lover of peace."
+    ],
+    [
+     "A ruler",
+     "Not quite. The article says: A lover of peace."
+    ],
+    [
+     "A recluse",
+     "Not quite. The article says: A lover of peace."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A believer is necessarily a lover of peace."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What is forbidden, according to the commentary?",
+   "options": [
+    [
+     "To learn",
+     "Not quite. The article says: To hold one’s opinion superior to that of the Prophet."
+    ],
+    [
+     "To keep silent",
+     "Not quite. The article says: To hold one’s opinion superior to that of the Prophet."
+    ],
+    [
+     "To hold one’s opinion superior to that of the Prophet",
+     "In his time it showed as verbosity at his meetings."
+    ],
+    [
+     "To ask questions",
+     "Not quite. The article says: To hold one’s opinion superior to that of the Prophet."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "To hold one’s opinion superior to that of the Prophet is forbidden."
+  }
+ ]
+}

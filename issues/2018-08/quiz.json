@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Religious Base Plus Objective Thinking",
+   "page": 5,
+   "link": "religious-base-plus-objective-thinking",
+   "q": "Who was the elder of the author’s extended family after his father’s death?",
+   "options": [
+    [
+     "His grandfather",
+     "Not quite. The article says: His uncle, Sufi Abdul Majeed Khan."
+    ],
+    [
+     "His uncle, Sufi Abdul Majeed Khan",
+     "A spiritual person."
+    ],
+    [
+     "A neighbour",
+     "Not quite. The article says: His uncle, Sufi Abdul Majeed Khan."
+    ],
+    [
+     "His elder brother",
+     "Not quite. The article says: His uncle, Sufi Abdul Majeed Khan."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The elder in the extended family was my uncle, Sufi Abdul Majeed Khan, who was my father’s younger brother."
+  },
+  {
+   "article": "Hajj—the Pilgrimage",
+   "page": 8,
+   "link": "hajj-the-pilgrimage",
+   "q": "How many basic pillars of Islam did the Prophet name?",
+   "options": [
+    [
+     "Ten",
+     "Not quite. The article says: Five."
+    ],
+    [
+     "Five",
+     "Hajj is one of them."
+    ],
+    [
+     "Seven",
+     "Not quite. The article says: Five."
+    ],
+    [
+     "Three",
+     "Not quite. The article says: Five."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Prophet observed: “There are five basic pillars of Islam.”"
+  },
+  {
+   "article": "The Quran and Sunnah",
+   "page": 11,
+   "link": "the-quran-and-sunnah",
+   "q": "What is religion another name for, according to the article?",
+   "options": [
+    [
+     "National culture",
+     "Not quite. The article says: Eternal values."
+    ],
+    [
+     "Ancient law",
+     "Not quite. The article says: Eternal values."
+    ],
+    [
+     "Local custom",
+     "Not quite. The article says: Eternal values."
+    ],
+    [
+     "Eternal values",
+     "Timeless like the sun and the moon."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Religion, in fact, is another name for eternal values."
+  },
+  {
+   "article": "Islamic Virtues",
+   "page": 17,
+   "link": "islamic-virtues",
+   "q": "Whose lives have served for centuries as models of a God-fearing existence?",
+   "options": [
+    [
+     "The Prophet and his Companions",
+     "Their history is preserved with exactitude."
+    ],
+    [
+     "Poets",
+     "Not quite. The article says: The Prophet and his Companions."
+    ],
+    [
+     "Kings and emperors",
+     "Not quite. The article says: The Prophet and his Companions."
+    ],
+    [
+     "Philosophers of Greece",
+     "Not quite. The article says: The Prophet and his Companions."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The lives of the Prophet and his Companions have served as models of a truly God-fearing existence for all humankind."
+  },
+  {
+   "article": "To Make Up for Our Helplessness",
+   "page": 23,
+   "link": "to-make-up-for-our-helplessness",
+   "q": "What is the difference between God and man, according to the article?",
+   "options": [
+    [
+     "Of age",
+     "Not quite. The article says: One of power and powerlessness."
+    ],
+    [
+     "One of power and powerlessness",
+     "Not of more or less power."
+    ],
+    [
+     "Of more power and less power",
+     "Not quite. The article says: One of power and powerlessness."
+    ],
+    [
+     "None",
+     "Not quite. The article says: One of power and powerlessness."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The difference is one of power and powerlessness."
+  },
+  {
+   "article": "What Is Truth",
+   "page": 25,
+   "link": "what-is-truth",
+   "q": "What would happen if truth followed people’s whims (23: 71)?",
+   "options": [
+    [
+     "Knowledge would grow",
+     "Not quite. The article says: Heavens and earth would be brought to ruin."
+    ],
+    [
+     "Everyone would be happy",
+     "Not quite. The article says: Heavens and earth would be brought to ruin."
+    ],
+    [
+     "Heavens and earth would be brought to ruin",
+     "God’s scheme of creation is perfect."
+    ],
+    [
+     "Nothing would change",
+     "Not quite. The article says: Heavens and earth would be brought to ruin."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“If truth had followed their whims and desires, heavens and earth and all that lives in them would have been brought to ruin.”"
+  },
+  {
+   "article": "Acknowledgement",
+   "page": 26,
+   "link": "acknowledgement",
+   "q": "What is the greatest thing desired from man?",
+   "options": [
+    [
+     "That he be grateful to his Creator",
+     "Yet this is the rarest of things."
+    ],
+    [
+     "That he be strong",
+     "Not quite. The article says: That he be grateful to his Creator."
+    ],
+    [
+     "That he be wealthy",
+     "Not quite. The article says: That he be grateful to his Creator."
+    ],
+    [
+     "That he be famous",
+     "Not quite. The article says: That he be grateful to his Creator."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The greatest thing that is desired from man is that he should be grateful to his Creator and Sustainer."
+  },
+  {
+   "article": "Suicide",
+   "page": 35,
+   "link": "suicide",
+   "q": "Who came to Delhi on an official visit in February 1984?",
+   "options": [
+    [
+     "General Atiqur Rahman",
+     "Former Chairman of the Pakistan Federal Service Commission."
+    ],
+    [
+     "General Zia",
+     "Not quite. The article says: General Atiqur Rahman."
+    ],
+    [
+     "Field Marshal Manekshaw",
+     "Not quite. The article says: General Atiqur Rahman."
+    ],
+    [
+     "Lord Mountbatten",
+     "Not quite. The article says: General Atiqur Rahman."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "General Atiqur Rahman … came to Delhi on an official visit in February 1984."
+  },
+  {
+   "article": "The Message and Meaning of Hajj",
+   "page": 36,
+   "link": "the-message-and-meaning-of-hajj",
+   "q": "What is Hajj a comprehensive guide for?",
+   "options": [
+    [
+     "Trade",
+     "Not quite. The article says: The entirety of one’s life."
+    ],
+    [
+     "The month of Hajj alone",
+     "Not quite. The article says: The entirety of one’s life."
+    ],
+    [
+     "The entirety of one’s life",
+     "Though it lasts a few days."
+    ],
+    [
+     "Travel only",
+     "Not quite. The article says: The entirety of one’s life."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Hajj is a comprehensive guide for the entirety of one’s life."
+  },
+  {
+   "article": "The Word of God",
+   "page": 42,
+   "link": "the-word-of-god",
+   "q": "Where does God stand, according to the verse quoted?",
+   "options": [
+    [
+     "Far from man",
+     "Not quite. The article says: Between man and his heart."
+    ],
+    [
+     "Beyond the stars only",
+     "Not quite. The article says: Between man and his heart."
+    ],
+    [
+     "In the mountains",
+     "Not quite. The article says: Between man and his heart."
+    ],
+    [
+     "Between man and his heart",
+     "“You shall all be gathered in His presence.”"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Know that God stands between man and his heart."
+  }
+ ]
+}

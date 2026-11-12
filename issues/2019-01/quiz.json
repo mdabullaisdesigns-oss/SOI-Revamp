@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A Message for the New Year",
+   "page": 5,
+   "link": "a-message-for-the-new-year",
+   "q": "Which year of the magazine began in January 2019?",
+   "options": [
+    [
+     "The 20th",
+     "Not quite. The article says: The 7th."
+    ],
+    [
+     "The 7th",
+     "With thanks to all readers."
+    ],
+    [
+     "The 3rd",
+     "Not quite. The article says: The 7th."
+    ],
+    [
+     "The 1st",
+     "Not quite. The article says: The 7th."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The beginning of the 7th year of …"
+  },
+  {
+   "article": "125 Years of Swami Vivekananda in the West",
+   "page": 7,
+   "link": "125-years-of-swami-vivekananda-in-the-west",
+   "q": "Where did Swami Vivekananda speak 125 years earlier?",
+   "options": [
+    [
+     "Oxford University",
+     "Not quite. The article says: The Parliament of World’s Religions in Chicago."
+    ],
+    [
+     "The Parliament of World’s Religions in Chicago",
+     "He was 29."
+    ],
+    [
+     "Paris",
+     "Not quite. The article says: The Parliament of World’s Religions in Chicago."
+    ],
+    [
+     "The United Nations",
+     "Not quite. The article says: The Parliament of World’s Religions in Chicago."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The 29-year-old Swami Vivekananda took to stage at the Parliament in Chicago 125 years ago."
+  },
+  {
+   "article": "Deception on All Sides",
+   "page": 12,
+   "link": "deception-on-all-sides",
+   "q": "How does the article describe this world?",
+   "options": [
+    [
+     "A world of perfect honesty",
+     "Not quite. The article says: A world of deception and delusion."
+    ],
+    [
+     "A world of silence",
+     "Not quite. The article says: A world of deception and delusion."
+    ],
+    [
+     "A world of deception and delusion",
+     "People do one thing and claim another."
+    ],
+    [
+     "A world without choice",
+     "Not quite. The article says: A world of deception and delusion."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "This is a world of deception and delusion."
+  },
+  {
+   "article": "A Believer’s Behaviour",
+   "page": 15,
+   "link": "a-believers-behaviour",
+   "q": "What is a true believer’s behaviour in his environment?",
+   "options": [
+    [
+     "One of suspicion",
+     "Not quite. The article says: One of love, mercy and compassion."
+    ],
+    [
+     "One of rivalry",
+     "Not quite. The article says: One of love, mercy and compassion."
+    ],
+    [
+     "One of love, mercy and compassion",
+     "With sayings of the Prophet in support."
+    ],
+    [
+     "One of indifference",
+     "Not quite. The article says: One of love, mercy and compassion."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The behaviour of a true believer in his environment is one of love, mercy and compassion."
+  },
+  {
+   "article": "Two Pictures",
+   "page": 20,
+   "link": "two-pictures",
+   "q": "What did the neighbour of Shaykh Bayazid Bastami say?",
+   "options": [
+    [
+     "“I saw nothing.”",
+     "Not quite. The article says: “I saw two Islams, neither of which I liked.”."
+    ],
+    [
+     "“I never met him.”",
+     "Not quite. The article says: “I saw two Islams, neither of which I liked.”."
+    ],
+    [
+     "“I became a Muslim at once.”",
+     "Not quite. The article says: “I saw two Islams, neither of which I liked.”."
+    ],
+    [
+     "“I saw two Islams, neither of which I liked.”",
+     "Asked if he had been attracted to Islam."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“I saw two Islams, neither of which I liked.”"
+  },
+  {
+   "article": "Man’s Plight",
+   "page": 31,
+   "link": "mans-plight",
+   "q": "What lay beneath the grand dome?",
+   "options": [
+    [
+     "A throne",
+     "Not quite. The article says: A solitary, lowly grave."
+    ],
+    [
+     "A solitary, lowly grave",
+     "Testimony to man’s helplessness."
+    ],
+    [
+     "A library",
+     "Not quite. The article says: A solitary, lowly grave."
+    ],
+    [
+     "A treasure",
+     "Not quite. The article says: A solitary, lowly grave."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "There appeared, lying as low as low could be, a solitary grave."
+  },
+  {
+   "article": "From Denial to Belief",
+   "page": 37,
+   "link": "from-denial-to-belief",
+   "q": "Who is Professor Chandra Wickramasinghe?",
+   "options": [
+    [
+     "An Indian poet",
+     "Not quite. The article says: A Sri Lankan-born British scientist and astronomer."
+    ],
+    [
+     "A Sri Lankan-born British scientist and astronomer",
+     "He researched the origin of life."
+    ],
+    [
+     "An American president",
+     "Not quite. The article says: A Sri Lankan-born British scientist and astronomer."
+    ],
+    [
+     "An Egyptian historian",
+     "Not quite. The article says: A Sri Lankan-born British scientist and astronomer."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Professor Chandra Wickramasinghe is a Sri Lankan-born British scientist, mathematician, astronomer and astrobiologist."
+  },
+  {
+   "article": "Working Together",
+   "page": 41,
+   "link": "working-together",
+   "q": "What do the words quoted give an insight into?",
+   "options": [
+    [
+     "Ancient history",
+     "Not quite. The article says: The type of people needed to achieve any great purpose."
+    ],
+    [
+     "The type of people needed to achieve any great purpose",
+     "Relevant to the real world."
+    ],
+    [
+     "The rules of poetry",
+     "Not quite. The article says: The type of people needed to achieve any great purpose."
+    ],
+    [
+     "The price of success",
+     "Not quite. The article says: The type of people needed to achieve any great purpose."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It gives us an insight into the type of people needed to achieve any great purpose in life."
+  },
+  {
+   "article": "Islamic Virtues",
+   "page": 33,
+   "link": "islamic-virtues",
+   "q": "What has God preserved with exactitude?",
+   "options": [
+    [
+     "Ancient poetry",
+     "Not quite. The article says: The history of the Prophet and his Companions."
+    ],
+    [
+     "Old maps",
+     "Not quite. The article says: The history of the Prophet and his Companions."
+    ],
+    [
+     "The histories of kings",
+     "Not quite. The article says: The history of the Prophet and his Companions."
+    ],
+    [
+     "The history of the Prophet and his Companions",
+     "As models for all humankind."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Hence God’s preservation of this page of history with such exactitude."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What were the Messengers sent before, according to the verse?",
+   "options": [
+    [
+     "Angels",
+     "Not quite. The article says: Mortal men to whom revelation was given."
+    ],
+    [
+     "Mortal men to whom revelation was given",
+     "“Ask the People of the Book.”"
+    ],
+    [
+     "Kings",
+     "Not quite. The article says: Mortal men to whom revelation was given."
+    ],
+    [
+     "Poets",
+     "Not quite. The article says: Mortal men to whom revelation was given."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Messengers We sent were but [mortal] men to whom We vouchsafed revelation."
+  }
+ ]
+}
