@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Condemnation of Attack on Charlie Hebdo in Paris",
+   "page": 4,
+   "link": "condemnation-of-attack-on-charlie-hebdo-in-paris",
+   "q": "How many people were killed in the attack on Charlie Hebdo?",
+   "options": [
+    [
+     "None",
+     "Not quite. The article says: Twelve, including ten journalists."
+    ],
+    [
+     "Twelve, including ten journalists",
+     "On January 7, 2015."
+    ],
+    [
+     "Fifty",
+     "Not quite. The article says: Twelve, including ten journalists."
+    ],
+    [
+     "Two",
+     "Not quite. The article says: Twelve, including ten journalists."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In this attack, twelve people, including ten journalists of the magazine, were killed."
+  },
+  {
+   "article": "Between Lesser Evil and Greater Evil",
+   "page": 6,
+   "link": "between-lesser-evil-and-greater-evil",
+   "q": "Who authored the Serenity Prayer?",
+   "options": [
+    [
+     "Billy Graham",
+     "Not quite. The article says: The American theologian Reinhold Niebuhr."
+    ],
+    [
+     "Thomas Carlyle",
+     "Not quite. The article says: The American theologian Reinhold Niebuhr."
+    ],
+    [
+     "The American theologian Reinhold Niebuhr",
+     "It asks for serenity, courage and wisdom."
+    ],
+    [
+     "William Penn",
+     "Not quite. The article says: The American theologian Reinhold Niebuhr."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The Serenity Prayer is the common name for a prayer authored by the American theologian Reinhold Niebuhr."
+  },
+  {
+   "article": "Intellectual Freedom in Islam",
+   "page": 10,
+   "link": "intellectual-freedom-in-islam",
+   "q": "What system prevailed in the world before Islam, according to the article?",
+   "options": [
+    [
+     "Democracy",
+     "Not quite. The article says: Absolutism, denying man intellectual freedom."
+    ],
+    [
+     "Free enquiry",
+     "Not quite. The article says: Absolutism, denying man intellectual freedom."
+    ],
+    [
+     "Rule by scholars",
+     "Not quite. The article says: Absolutism, denying man intellectual freedom."
+    ],
+    [
+     "Absolutism, denying man intellectual freedom",
+     "Islam brought freedom of expression."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Prior to Islam in all periods of human history, the system of absolutism prevailed in the world."
+  },
+  {
+   "article": "Reaction to Provocation",
+   "page": 20,
+   "link": "reaction-to-provocation",
+   "q": "What does Islam teach in the face of provocation?",
+   "options": [
+    [
+     "Patience in the fullest sense",
+     "Not reaction."
+    ],
+    [
+     "Immediate retaliation",
+     "Not quite. The article says: Patience in the fullest sense."
+    ],
+    [
+     "Public protest",
+     "Not quite. The article says: Patience in the fullest sense."
+    ],
+    [
+     "Boycott",
+     "Not quite. The article says: Patience in the fullest sense."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Islam teaches patience in the fullest sense of the word."
+  },
+  {
+   "article": "Justified Militancy",
+   "page": 23,
+   "link": "justified-militancy",
+   "q": "Why is condemning militancy in human rights terms not enough?",
+   "options": [
+    [
+     "It is an ideologically justified militancy",
+     "Those engaged in it brush such condemnation aside."
+    ],
+    [
+     "It has already ended",
+     "Not quite. The article says: It is an ideologically justified militancy."
+    ],
+    [
+     "No one is listening",
+     "Not quite. The article says: It is an ideologically justified militancy."
+    ],
+    [
+     "It is too small to matter",
+     "Not quite. The article says: It is an ideologically justified militancy."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It is an ideologically justified militancy. Therefore, it is not enough to condemn it in human rights terms."
+  },
+  {
+   "article": "The Seeker Finds",
+   "page": 26,
+   "link": "the-seeker-finds",
+   "q": "What does the article say is impossible?",
+   "options": [
+    [
+     "To pray sincerely",
+     "Not quite. The article says: To ask God for heaven and be given hell instead."
+    ],
+    [
+     "To be forgiven",
+     "Not quite. The article says: To ask God for heaven and be given hell instead."
+    ],
+    [
+     "To ask God for heaven and be given hell instead",
+     "Those bound for hell never truly sought heaven."
+    ],
+    [
+     "To change one’s ways",
+     "Not quite. The article says: To ask God for heaven and be given hell instead."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It is impossible that one should ask God for heaven and be given hell instead."
+  },
+  {
+   "article": "Arguments Against God and Religion — Part II",
+   "page": 28,
+   "link": "arguments-against-god-and-religion-part-ii",
+   "q": "In the argument described, what is the rainbow said to be?",
+   "options": [
+    [
+     "A fire in the sky",
+     "Not quite. The article says: Merely a reflection of sunlight in droplets of water."
+    ],
+    [
+     "A painted cloud",
+     "Not quite. The article says: Merely a reflection of sunlight in droplets of water."
+    ],
+    [
+     "Merely a reflection of sunlight in droplets of water",
+     "So, it is argued, not a sign placed by God."
+    ],
+    [
+     "An illusion of the eye",
+     "Not quite. The article says: Merely a reflection of sunlight in droplets of water."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "If the rainbow is merely a reflection of sunlight in minute droplets of water in the air …"
+  },
+  {
+   "article": "Peace Mission",
+   "page": 37,
+   "link": "peace-mission",
+   "q": "Under God’s creation plan, what is avoided and what is availed?",
+   "options": [
+    [
+     "People are avoided; wealth is availed",
+     "Not quite. The article says: Confrontation is avoided; opportunities are availed."
+    ],
+    [
+     "Confrontation is avoided; opportunities are availed",
+     "As farmers use the rain."
+    ],
+    [
+     "Peace is avoided; conflict is availed",
+     "Not quite. The article says: Confrontation is avoided; opportunities are availed."
+    ],
+    [
+     "Work is avoided; rest is availed",
+     "Not quite. The article says: Confrontation is avoided; opportunities are availed."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Under this plan, confrontation is avoided and opportunities are availed of."
+  },
+  {
+   "article": "Dichotomous Thinking Is Wrong",
+   "page": 41,
+   "link": "dichotomous-thinking-is-wrong",
+   "q": "What did Communist leaders say during the First World War?",
+   "options": [
+    [
+     "“Peace at any price.”",
+     "Not quite. The article says: “One who is not with us is our enemy.”."
+    ],
+    [
+     "“All men are brothers.”",
+     "Not quite. The article says: “One who is not with us is our enemy.”."
+    ],
+    [
+     "“One who is not with us is our enemy.”",
+     "The article calls this unnatural."
+    ],
+    [
+     "“Live and let live.”",
+     "Not quite. The article says: “One who is not with us is our enemy.”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "They used to say: “One who is not with us is our enemy.” This thinking is quite unnatural."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "What is the criterion of the proper performance of a task (ihsan)?",
+   "options": [
+    [
+     "That it accords with the facts",
+     "Such a person admits the reality (muhsin)."
+    ],
+    [
+     "That it is profitable",
+     "Not quite. The article says: That it accords with the facts."
+    ],
+    [
+     "That it is praised",
+     "Not quite. The article says: That it accords with the facts."
+    ],
+    [
+     "That it is done quickly",
+     "Not quite. The article says: That it accords with the facts."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The criterion of the proper performance of a task (ihsan) is that it should be in accordance with the facts."
+  }
+ ]
+}

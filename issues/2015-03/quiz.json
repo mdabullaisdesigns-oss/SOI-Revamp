@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Differences of Opinion",
+   "page": 5,
+   "link": "differences-of-opinion",
+   "q": "What did the Western scholar name as the secret of the West’s progress?",
+   "options": [
+    [
+     "Climate",
+     "Not quite. The article says: Freedom of dissent."
+    ],
+    [
+     "Military power",
+     "Not quite. The article says: Freedom of dissent."
+    ],
+    [
+     "Freedom of dissent",
+     "The author calls it a law of nature."
+    ],
+    [
+     "Natural wealth",
+     "Not quite. The article says: Freedom of dissent."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "He replied that it was the freedom of dissent, which the West has come to consider as sacrosanct."
+  },
+  {
+   "article": "Peace for the Sake of Peace",
+   "page": 7,
+   "link": "peace-for-the-sake-of-peace",
+   "q": "What contradiction does the article point out about peace?",
+   "options": [
+    [
+     "Everyone claims to want it, yet it has not become a practical reality",
+     "It remains a talking subject."
+    ],
+    [
+     "It is never discussed",
+     "Not quite. The article says: Everyone claims to want it, yet it has not become a practical reality."
+    ],
+    [
+     "It exists everywhere",
+     "Not quite. The article says: Everyone claims to want it, yet it has not become a practical reality."
+    ],
+    [
+     "No one wants it",
+     "Not quite. The article says: Everyone claims to want it, yet it has not become a practical reality."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Why is it that peace has remained only a talking subject, and to this day failed to become a practical reality?"
+  },
+  {
+   "article": "Arguments Against God and Religion — Part III",
+   "page": 10,
+   "link": "arguments-against-god-and-religion-part-iii",
+   "q": "What do modern atheistic thinkers believe man can now do?",
+   "options": [
+    [
+     "Re-appraise traditional ways of thought in the light of advanced learning",
+     "As myths were exploded in secular matters."
+    ],
+    [
+     "Abandon all learning",
+     "Not quite. The article says: Re-appraise traditional ways of thought in the light of advanced learning."
+    ],
+    [
+     "Stop asking questions",
+     "Not quite. The article says: Re-appraise traditional ways of thought in the light of advanced learning."
+    ],
+    [
+     "Return to ancient beliefs",
+     "Not quite. The article says: Re-appraise traditional ways of thought in the light of advanced learning."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Man is now in a position to make a re-appraisal of traditional ways of thought."
+  },
+  {
+   "article": "The Answer Is Very Much Here",
+   "page": 21,
+   "link": "the-answer-is-very-much-here",
+   "q": "What did Esther Freud say about the reading world?",
+   "options": [
+    [
+     "It prefers films",
+     "Not quite. The article says: It is hungry for experiences of people they’ve never heard from."
+    ],
+    [
+     "It wants only old classics",
+     "Not quite. The article says: It is hungry for experiences of people they’ve never heard from."
+    ],
+    [
+     "It has stopped reading",
+     "Not quite. The article says: It is hungry for experiences of people they’ve never heard from."
+    ],
+    [
+     "It is hungry for experiences of people they’ve never heard from",
+     "In an interview to The Times of India."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“The reading world is hungry for experiences of people they’ve never heard from.”"
+  },
+  {
+   "article": "The Method of Repentance",
+   "page": 24,
+   "link": "the-method-of-repentance",
+   "q": "How does the article define repentance?",
+   "options": [
+    [
+     "Forgetting the wrong",
+     "Not quite. The article says: Turning around in regret after wrongdoing, resolving to reform."
+    ],
+    [
+     "Paying a fine",
+     "Not quite. The article says: Turning around in regret after wrongdoing, resolving to reform."
+    ],
+    [
+     "Blaming circumstances",
+     "Not quite. The article says: Turning around in regret after wrongdoing, resolving to reform."
+    ],
+    [
+     "Turning around in regret after wrongdoing, resolving to reform",
+     "Man is created weak."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Repentance is to turn around in regret and express remorse after wrongdoing resolving to reform oneself."
+  },
+  {
+   "article": "God’s Neighbour",
+   "page": 26,
+   "link": "gods-neighbour",
+   "q": "What happens to one who has discovered God?",
+   "options": [
+    [
+     "He leaves the world",
+     "Not quite. The article says: He becomes close to God even in this world."
+    ],
+    [
+     "He becomes close to God even in this world",
+     "His spirit is bathed in the light of God."
+    ],
+    [
+     "He becomes proud",
+     "Not quite. The article says: He becomes close to God even in this world."
+    ],
+    [
+     "Nothing changes",
+     "Not quite. The article says: He becomes close to God even in this world."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "One who has discovered God becomes close to God even in this world."
+  },
+  {
+   "article": "Women in Islam",
+   "page": 28,
+   "link": "women-in-islam",
+   "q": "On what basic principle do the teachings of Islam rest, according to the article?",
+   "options": [
+    [
+     "That custom is supreme",
+     "Not quite. The article says: That Islam is a religion of nature."
+    ],
+    [
+     "That law never changes",
+     "Not quite. The article says: That Islam is a religion of nature."
+    ],
+    [
+     "That Islam is a religion of nature",
+     "God is the creator of woman as well as man."
+    ],
+    [
+     "That men alone are addressed",
+     "Not quite. The article says: That Islam is a religion of nature."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "All the tenets and the teachings of Islam rest on the basic principle that Islam is a religion of nature."
+  },
+  {
+   "article": "Religious Imitation, Political Imitation",
+   "page": 37,
+   "link": "religious-imitation-political-imitation",
+   "q": "What is the literal meaning of ‘muzahat’?",
+   "options": [
+    [
+     "Struggle",
+     "Not quite. The article says: Imitation."
+    ],
+    [
+     "Charity",
+     "Not quite. The article says: Imitation."
+    ],
+    [
+     "Migration",
+     "Not quite. The article says: Imitation."
+    ],
+    [
+     "Imitation",
+     "Adopting irreligious ways under a religious name."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The literal meaning of ‘muzahat’ is ‘imitation’."
+  },
+  {
+   "article": "Where All Hopes End, New Hope Emerges",
+   "page": 39,
+   "link": "where-all-hopes-end-new-hope-emerges",
+   "q": "Which office did Theodore Roosevelt hold?",
+   "options": [
+    [
+     "Governor of California",
+     "Not quite. The article says: 26th President of the United States."
+    ],
+    [
+     "First President of the United States",
+     "Not quite. The article says: 26th President of the United States."
+    ],
+    [
+     "Chief Justice",
+     "Not quite. The article says: 26th President of the United States."
+    ],
+    [
+     "26th President of the United States",
+     "A tragedy struck him on February 14, 1884."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Theodore Roosevelt (1858-1919) … served as the 26th President of the United States of America."
+  },
+  {
+   "article": "Time Is Up",
+   "page": 44,
+   "link": "time-is-up",
+   "q": "What did the invigilator announce when the exam time was over?",
+   "options": [
+    [
+     "‘Start again.’",
+     "Not quite. The article says: ‘Stop writing. Time is up.’."
+    ],
+    [
+     "‘Stop writing. Time is up.’",
+     "Life’s larger case is the same."
+    ],
+    [
+     "‘Take ten more minutes.’",
+     "Not quite. The article says: ‘Stop writing. Time is up.’."
+    ],
+    [
+     "‘Check your answers.’",
+     "Not quite. The article says: ‘Stop writing. Time is up.’."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The invigilator present in the room announced, ‘Stop writing. Time is up.’"
+  }
+ ]
+}

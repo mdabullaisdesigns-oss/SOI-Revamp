@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "You Cannot Hang an Ideology",
+   "page": 5,
+   "link": "you-cannot-hang-an-ideology",
+   "q": "On whom did an Egyptian court confirm a death sentence in April 2015?",
+   "options": [
+    [
+     "Foreign journalists",
+     "Not quite. The article says: Muslim Brotherhood chief Mohammed Badie and thirteen others."
+    ],
+    [
+     "Army officers",
+     "Not quite. The article says: Muslim Brotherhood chief Mohammed Badie and thirteen others."
+    ],
+    [
+     "President Morsi alone",
+     "Not quite. The article says: Muslim Brotherhood chief Mohammed Badie and thirteen others."
+    ],
+    [
+     "Muslim Brotherhood chief Mohammed Badie and thirteen others",
+     "For planning attacks against the state."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "An Egyptian court has confirmed the death sentence on Muslim Brotherhood chief Mohammed Badie and thirteen others."
+  },
+  {
+   "article": "Manifesto of Peace",
+   "page": 7,
+   "link": "manifesto-of-peace",
+   "q": "How have scholars defined peace, as quoted?",
+   "options": [
+    [
+     "“Peace is victory.”",
+     "Not quite. The article says: “Peace is the absence of war.”."
+    ],
+    [
+     "“Peace is the absence of war.”",
+     "Peace is the only religion for man and the universe."
+    ],
+    [
+     "“Peace is wealth.”",
+     "Not quite. The article says: “Peace is the absence of war.”."
+    ],
+    [
+     "“Peace is silence.”",
+     "Not quite. The article says: “Peace is the absence of war.”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Scholars have defined peace thus: “Peace is the absence of war.”"
+  },
+  {
+   "article": "A Life of Moral Restraint",
+   "page": 17,
+   "link": "a-life-of-moral-restraint",
+   "q": "What is the month of Ramazan called?",
+   "options": [
+    [
+     "The month of harvest",
+     "Not quite. The article says: The month of patience (sabr)."
+    ],
+    [
+     "The month of trade",
+     "Not quite. The article says: The month of patience (sabr)."
+    ],
+    [
+     "The month of travel",
+     "Not quite. The article says: The month of patience (sabr)."
+    ],
+    [
+     "The month of patience (sabr)",
+     "The believer learns to control negative feelings."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The month of Ramazan is called the month of patience (sabr)."
+  },
+  {
+   "article": "A Counter-Ideology Is Required",
+   "page": 19,
+   "link": "a-counter-ideology-is-required",
+   "q": "What was the theme of the Washington conference of February 17–19, 2015?",
+   "options": [
+    [
+     "World Trade",
+     "Not quite. The article says: Countering Violent Extremism."
+    ],
+    [
+     "Countering Violent Extremism",
+     "Sixty nations took part."
+    ],
+    [
+     "Space Exploration",
+     "Not quite. The article says: Countering Violent Extremism."
+    ],
+    [
+     "Climate Change",
+     "Not quite. The article says: Countering Violent Extremism."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The theme of the meeting was: Countering Violent Extremism. Sixty nations participated in the conference."
+  },
+  {
+   "article": "A Training Course in Thanksgiving and Piety",
+   "page": 22,
+   "link": "a-training-course-in-thanksgiving-and-piety",
+   "q": "Why has fasting been prescribed, according to the verse quoted?",
+   "options": [
+    [
+     "So that food may be saved",
+     "Not quite. The article says: So that you may guard yourselves against evil."
+    ],
+    [
+     "So that you may guard yourselves against evil",
+     "As it was prescribed for those before you."
+    ],
+    [
+     "So that the rich may rest",
+     "Not quite. The article says: So that you may guard yourselves against evil."
+    ],
+    [
+     "So that travel is easier",
+     "Not quite. The article says: So that you may guard yourselves against evil."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Fasting has been prescribed for you, just as it was prescribed for those before you, so that you may guard yourselves against evil.”"
+  },
+  {
+   "article": "Two Ways of Addressing Others",
+   "page": 25,
+   "link": "two-ways-of-addressing-others",
+   "q": "What often happens to those who address people’s minds?",
+   "options": [
+    [
+     "They grow rich",
+     "Not quite. The article says: They do not gather a large following."
+    ],
+    [
+     "They become famous at once",
+     "Not quite. The article says: They do not gather a large following."
+    ],
+    [
+     "They are always thanked",
+     "Not quite. The article says: They do not gather a large following."
+    ],
+    [
+     "They do not gather a large following",
+     "‘Fine’ speeches draw crowds but change nothing."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Those who seek to address people’s minds … often do not gather a large following."
+  },
+  {
+   "article": "News of Promotion",
+   "page": 26,
+   "link": "news-of-promotion",
+   "q": "Of what did the young man’s promotion remind the author?",
+   "options": [
+    [
+     "A friend’s misfortune",
+     "Not quite. The article says: What is going to happen in the Hereafter."
+    ],
+    [
+     "His own youth",
+     "Not quite. The article says: What is going to happen in the Hereafter."
+    ],
+    [
+     "What is going to happen in the Hereafter",
+     "A higher stage with greater blessings."
+    ],
+    [
+     "The price of cars",
+     "Not quite. The article says: What is going to happen in the Hereafter."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Listening to him, I thought that this is precisely what is going to happen in the Hereafter."
+  },
+  {
+   "article": "An Authentic Book of Reference on Metaphysics",
+   "page": 30,
+   "link": "an-authentic-book-of-reference-on-metaphysics",
+   "q": "How did the young man drive his scooter?",
+   "options": [
+    [
+     "In a rash manner, as if the whole road belonged to him",
+     "Then a car came from the opposite direction."
+    ],
+    [
+     "With a helmet and great care",
+     "Not quite. The article says: In a rash manner, as if the whole road belonged to him."
+    ],
+    [
+     "Only at night",
+     "Not quite. The article says: In a rash manner, as if the whole road belonged to him."
+    ],
+    [
+     "Slowly and carefully",
+     "Not quite. The article says: In a rash manner, as if the whole road belonged to him."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He drove his vehicle in a rash manner as if the whole road belonged to him."
+  },
+  {
+   "article": "Clarity of Expression",
+   "page": 40,
+   "link": "clarity-of-expression",
+   "q": "What should a reader or listener be able to do?",
+   "options": [
+    [
+     "Guess the meaning",
+     "Not quite. The article says: Clearly understand and not be confused."
+    ],
+    [
+     "Admire the style only",
+     "Not quite. The article says: Clearly understand and not be confused."
+    ],
+    [
+     "Read it many times",
+     "Not quite. The article says: Clearly understand and not be confused."
+    ],
+    [
+     "Clearly understand and not be confused",
+     "Be clear in speech and in writing."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The person who hears or reads what you have written should clearly understand and not be confused."
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "How often does the earth rotate on its axis, as the commentary notes?",
+   "options": [
+    [
+     "Once a month",
+     "Not quite. The article says: Once in twenty-four hours."
+    ],
+    [
+     "Once a year",
+     "Not quite. The article says: Once in twenty-four hours."
+    ],
+    [
+     "Once a week",
+     "Not quite. The article says: Once in twenty-four hours."
+    ],
+    [
+     "Once in twenty-four hours",
+     "So day and night follow each other."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The earth rotates on its axis once in twenty-four hours, due to which day and night follow upon each other."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Unawareness of Muslims",
+   "page": 5,
+   "link": "unawareness-of-muslims",
+   "q": "What does the author say of calling present-day Muslims’ case one of ‘terrorism’?",
+   "options": [
+    [
+     "It is a legal term",
+     "Not quite. The article says: Such comment is based on face-value; a deeper look shows otherwise."
+    ],
+    [
+     "Such comment is based on face-value; a deeper look shows otherwise",
+     "He sees a case of unawareness."
+    ],
+    [
+     "It is exactly right",
+     "Not quite. The article says: Such comment is based on face-value; a deeper look shows otherwise."
+    ],
+    [
+     "It is too mild",
+     "Not quite. The article says: Such comment is based on face-value; a deeper look shows otherwise."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Such comment is based on face-value. If we go deeper we would realize that this way of looking at the phenomenon is not right."
+  },
+  {
+   "article": "Peace of Mind—for What?",
+   "page": 7,
+   "link": "peace-of-mind-for-what",
+   "q": "How does the article define peace of mind?",
+   "options": [
+    [
+     "A condition characterized by the absence of anxiety",
+     "It then asks what this peace is for."
+    ],
+    [
+     "A full bank account",
+     "Not quite. The article says: A condition characterized by the absence of anxiety."
+    ],
+    [
+     "Having no duties",
+     "Not quite. The article says: A condition characterized by the absence of anxiety."
+    ],
+    [
+     "A long holiday",
+     "Not quite. The article says: A condition characterized by the absence of anxiety."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Peace of mind means a condition that is characterized by the absence of anxiety."
+  },
+  {
+   "article": "The Mosque",
+   "page": 10,
+   "link": "the-mosque",
+   "q": "What does ‘masjid’ literally mean?",
+   "options": [
+    [
+     "A place of rest",
+     "Not quite. The article says: A place for self-prostration."
+    ],
+    [
+     "A place for self-prostration",
+     "“The masjid is a house of God-fearing people.”"
+    ],
+    [
+     "A place of gathering",
+     "Not quite. The article says: A place for self-prostration."
+    ],
+    [
+     "A place of teaching",
+     "Not quite. The article says: A place for self-prostration."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "‘Masjid’, or mosque, literally means ‘A place for self-prostration’."
+  },
+  {
+   "article": "Thankfulness",
+   "page": 26,
+   "link": "thankfulness",
+   "q": "Why does man never cease to be discontent?",
+   "options": [
+    [
+     "He works too hard",
+     "Not quite. The article says: He is more concerned with what he does not have."
+    ],
+    [
+     "He is more concerned with what he does not have",
+     "And pays scant regard to what he has."
+    ],
+    [
+     "Others envy him",
+     "Not quite. The article says: He is more concerned with what he does not have."
+    ],
+    [
+     "He has too little",
+     "Not quite. The article says: He is more concerned with what he does not have."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Man is more concerned with what he does not have; he pays scant regard to what he has."
+  },
+  {
+   "article": "Violence Is Not an Option",
+   "page": 30,
+   "link": "violence-is-not-an-option",
+   "q": "What did the Prophet do when he had to choose between two options?",
+   "options": [
+    [
+     "He asked others to choose",
+     "Not quite. The article says: He chose the easier course."
+    ],
+    [
+     "He chose the easier course",
+     "Peace is the easier option."
+    ],
+    [
+     "He delayed the choice",
+     "Not quite. The article says: He chose the easier course."
+    ],
+    [
+     "He chose the harder course",
+     "Not quite. The article says: He chose the easier course."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Whenever the Prophet had to choose between two options, he always opted for the easier course of action.”"
+  },
+  {
+   "article": "Islam in History",
+   "page": 34,
+   "link": "islam-in-history",
+   "q": "What dominated the world at the advent of Islam?",
+   "options": [
+    [
+     "Superstition in ideas and kingship in politics",
+     "The world has since been freed of both."
+    ],
+    [
+     "Printing and schooling",
+     "Not quite. The article says: Superstition in ideas and kingship in politics."
+    ],
+    [
+     "Trade and industry",
+     "Not quite. The article says: Superstition in ideas and kingship in politics."
+    ],
+    [
+     "Science and democracy",
+     "Not quite. The article says: Superstition in ideas and kingship in politics."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The entire world was dominated by superstition at the ideological level and kingship at the political level."
+  },
+  {
+   "article": "Love and Knowledge",
+   "page": 38,
+   "link": "love-and-knowledge",
+   "q": "What did Thomas Carlyle write about a loving heart?",
+   "options": [
+    [
+     "It is a weakness",
+     "Not quite. The article says: It is the beginning of all knowledge."
+    ],
+    [
+     "It is rare",
+     "Not quite. The article says: It is the beginning of all knowledge."
+    ],
+    [
+     "It is the end of wisdom",
+     "Not quite. The article says: It is the beginning of all knowledge."
+    ],
+    [
+     "It is the beginning of all knowledge",
+     "The author adds: loving despite a cause for hatred."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A loving heart is the beginning of all knowledge."
+  },
+  {
+   "article": "Relinquishing Power for God",
+   "page": 40,
+   "link": "relinquishing-power-for-god",
+   "q": "Why has God granted man freedom in this world?",
+   "options": [
+    [
+     "So that he may be tested",
+     "All power belongs to God."
+    ],
+    [
+     "For no reason",
+     "Not quite. The article says: So that he may be tested."
+    ],
+    [
+     "So that he may rest",
+     "Not quite. The article says: So that he may be tested."
+    ],
+    [
+     "So that he may rule others",
+     "Not quite. The article says: So that he may be tested."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God has granted man freedom in this world so that he may be tested."
+  },
+  {
+   "article": "Individual Reform, Not ‘protest Activism’",
+   "page": 42,
+   "link": "individual-reform-not-protest-activism",
+   "q": "What does the article call demonstrating against the state and ‘ruling class’?",
+   "options": [
+    [
+     "‘Nation building’",
+     "Not quite. The article says: ‘Protest activism’."
+    ],
+    [
+     "‘Social service’",
+     "Not quite. The article says: ‘Protest activism’."
+    ],
+    [
+     "‘True reform’",
+     "Not quite. The article says: ‘Protest activism’."
+    ],
+    [
+     "‘Protest activism’",
+     "It argues for individual reform instead."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This kind of activism is nothing but ‘protest activism’."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "How does the verse describe the Prophet to his people?",
+   "options": [
+    [
+     "A magician",
+     "Not quite. The article says: He is not mad; he is only a plain warner."
+    ],
+    [
+     "A poet",
+     "Not quite. The article says: He is not mad; he is only a plain warner."
+    ],
+    [
+     "A king",
+     "Not quite. The article says: He is not mad; he is only a plain warner."
+    ],
+    [
+     "He is not mad; he is only a plain warner",
+     "They are asked to look into the heavens and the earth."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Have they not reflected that their companion is not mad? He is only a plain warner."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "From the Editor's Desk",
+   "page": 4,
+   "link": "from-the-editors-desk",
+   "q": "Which year of publication began with the January 2015 issue?",
+   "options": [
+    [
+     "The first year",
+     "Not quite. The article says: The third year."
+    ],
+    [
+     "The third year",
+     "After completing another year with God’s help."
+    ],
+    [
+     "The tenth year",
+     "Not quite. The article says: The third year."
+    ],
+    [
+     "The fifth year",
+     "Not quite. The article says: The third year."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "… to complete another year of publication of our magazine Spirit of Islam and start on our third year with this January 2015 issue."
+  },
+  {
+   "article": "Road to Happiness",
+   "page": 6,
+   "link": "road-to-happiness",
+   "q": "What does the article call the most common issue faced by people everywhere?",
+   "options": [
+    [
+     "‘Living in unhappiness’",
+     "Rich and poor alike."
+    ],
+    [
+     "Lack of schools",
+     "Not quite. The article says: ‘Living in unhappiness’."
+    ],
+    [
+     "Bad weather",
+     "Not quite. The article says: ‘Living in unhappiness’."
+    ],
+    [
+     "Too little sleep",
+     "Not quite. The article says: ‘Living in unhappiness’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "You will certainly reach the conclusion that it is ‘living in unhappiness’."
+  },
+  {
+   "article": "Analyzing Present-Day Muslim Militancy",
+   "page": 10,
+   "link": "analyzing-present-day-muslim-militancy",
+   "q": "Where did the suicide bomb blast of November 2, 2014 take place?",
+   "options": [
+    [
+     "Nairobi",
+     "Not quite. The article says: The Wagah border in Pakistan."
+    ],
+    [
+     "The Wagah border in Pakistan",
+     "More than 60 died."
+    ],
+    [
+     "Paris",
+     "Not quite. The article says: The Wagah border in Pakistan."
+    ],
+    [
+     "Baghdad",
+     "Not quite. The article says: The Wagah border in Pakistan."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A deadly suicide bomb blast took place at the Wagah border in Pakistan."
+  },
+  {
+   "article": "Patience",
+   "page": 16,
+   "link": "patience",
+   "q": "What does the Quran promise those who persevere patiently (39: 10)?",
+   "options": [
+    [
+     "Nothing more than others",
+     "Not quite. The article says: They will be requited without measure."
+    ],
+    [
+     "They will be requited without measure",
+     "Said of no other deed."
+    ],
+    [
+     "A fixed, small reward",
+     "Not quite. The article says: They will be requited without measure."
+    ],
+    [
+     "Wealth in this world only",
+     "Not quite. The article says: They will be requited without measure."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Truly those who persevere patiently will be requited without measure."
+  },
+  {
+   "article": "Starting from Scratch",
+   "page": 20,
+   "link": "starting-from-scratch",
+   "q": "Why could the young Pelé not buy a proper football?",
+   "options": [
+    [
+     "Footballs were banned",
+     "Not quite. The article says: He grew up in abject poverty."
+    ],
+    [
+     "He grew up in abject poverty",
+     "His father could not earn enough to feed the family."
+    ],
+    [
+     "His school forbade it",
+     "Not quite. The article says: He grew up in abject poverty."
+    ],
+    [
+     "He disliked football",
+     "Not quite. The article says: He grew up in abject poverty."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Pelé grew up in abject poverty and could not purchase a proper football."
+  },
+  {
+   "article": "The People of the Book",
+   "page": 24,
+   "link": "the-people-of-the-book",
+   "q": "Which four communities are mentioned in the verse quoted?",
+   "options": [
+    [
+     "Kings, priests, traders and farmers",
+     "Not quite. The article says: Muslims, Jews, Christians and Sabaeans."
+    ],
+    [
+     "Muslims, Jews, Christians and Sabaeans",
+     "All who believe and do good will be rewarded."
+    ],
+    [
+     "Muslims only",
+     "Not quite. The article says: Muslims, Jews, Christians and Sabaeans."
+    ],
+    [
+     "Arabs, Persians, Romans and Greeks",
+     "Not quite. The article says: Muslims, Jews, Christians and Sabaeans."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The believers, the Jews, the Christians, and the Sabaeans — all those who believe in God and the Last Day and do good deeds."
+  },
+  {
+   "article": "Arguments Against God and Religion — Part I",
+   "page": 28,
+   "link": "arguments-against-god-and-religion-part-i",
+   "q": "From what do atheist thinkers say religion springs?",
+   "options": [
+    [
+     "Scientific proof",
+     "Not quite. The article says: Man’s desire to find meaning in the universe."
+    ],
+    [
+     "Man’s desire to find meaning in the universe",
+     "They dismiss it as unfounded in fact."
+    ],
+    [
+     "Royal decree",
+     "Not quite. The article says: Man’s desire to find meaning in the universe."
+    ],
+    [
+     "Revelation",
+     "Not quite. The article says: Man’s desire to find meaning in the universe."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They maintain that it springs from man’s desire to find meaning in the universe."
+  },
+  {
+   "article": "A Phenomenon of the Body, Not of the Soul",
+   "page": 39,
+   "link": "a-phenomenon-of-the-body-not-of-the-soul",
+   "q": "What happened to drummer Richard Allen in 1984?",
+   "options": [
+    [
+     "He lost his hearing",
+     "Not quite. The article says: A near fatal car accident."
+    ],
+    [
+     "He left the band for good",
+     "Not quite. The article says: A near fatal car accident."
+    ],
+    [
+     "He retired",
+     "Not quite. The article says: A near fatal car accident."
+    ],
+    [
+     "A near fatal car accident",
+     "He was twenty-one."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In 1984 at the age of twenty-one Allen met with a near fatal car accident."
+  },
+  {
+   "article": "Get Rid of Depression",
+   "page": 42,
+   "link": "get-rid-of-depression",
+   "q": "What gap in human nature makes people live in unrest?",
+   "options": [
+    [
+     "Long life and short memory",
+     "Not quite. The article says: Unlimited desire for enjoyment but very limited capacity of fulfilment."
+    ],
+    [
+     "Great strength and little skill",
+     "Not quite. The article says: Unlimited desire for enjoyment but very limited capacity of fulfilment."
+    ],
+    [
+     "Unlimited desire for enjoyment but very limited capacity of fulfilment",
+     "Depression is discontentment."
+    ],
+    [
+     "Too much work and too little pay",
+     "Not quite. The article says: Unlimited desire for enjoyment but very limited capacity of fulfilment."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Every person is born with an unlimited desire for enjoyment. But, everyone has very limited capacity of fulfilment."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What reminder does the verse draw from rain and vegetation?",
+   "options": [
+    [
+     "Plants grow in many colours, then wither, yellow and crumble",
+     "A reminder for those of understanding."
+    ],
+    [
+     "That springs are rare",
+     "Not quite. The article says: Plants grow in many colours, then wither, yellow and crumble."
+    ],
+    [
+     "That rain never fails",
+     "Not quite. The article says: Plants grow in many colours, then wither, yellow and crumble."
+    ],
+    [
+     "That plants live for ever",
+     "Not quite. The article says: Plants grow in many colours, then wither, yellow and crumble."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "… brings forth vegetation of various colours, which later withers, turns yellow before your eyes, and then He makes it crumble away."
+  }
+ ]
+}

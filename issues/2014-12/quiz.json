@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Targeted Therapy",
+   "page": 5,
+   "link": "targeted-therapy",
+   "q": "What does targeted therapy do?",
+   "options": [
+    [
+     "It treats the whole body equally",
+     "Not quite. The article says: It targets the specific genes that contribute to cancer growth."
+    ],
+    [
+     "It replaces surgery with rest",
+     "Not quite. The article says: It targets the specific genes that contribute to cancer growth."
+    ],
+    [
+     "It removes all 25,000 genes",
+     "Not quite. The article says: It targets the specific genes that contribute to cancer growth."
+    ],
+    [
+     "It targets the specific genes that contribute to cancer growth",
+     "Leaving other genes alone."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Targeted therapy is a type of treatment that targets those specific genes that contribute to cancer growth."
+  },
+  {
+   "article": "Signs of God",
+   "page": 7,
+   "link": "signs-of-god",
+   "q": "What did Boltzmann exclaim on seeing Maxwell’s equations?",
+   "options": [
+    [
+     "“Who was the God who wrote these signs?”",
+     "Every study of nature ends in something meaningful."
+    ],
+    [
+     "“What use are they?”",
+     "Not quite. The article says: “Who was the God who wrote these signs?”."
+    ],
+    [
+     "“I should have written these.”",
+     "Not quite. The article says: “Who was the God who wrote these signs?”."
+    ],
+    [
+     "“These cannot be right.”",
+     "Not quite. The article says: “Who was the God who wrote these signs?”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He exclaimed, “Who was the God who wrote these signs?”"
+  },
+  {
+   "article": "The Culture of Peace — Part VI",
+   "page": 10,
+   "link": "the-culture-of-peace-part-vi",
+   "q": "From what does violence result, according to the article?",
+   "options": [
+    [
+     "Too much leisure",
+     "Not quite. The article says: A sense of being deprived."
+    ],
+    [
+     "Good health",
+     "Not quite. The article says: A sense of being deprived."
+    ],
+    [
+     "A sense of being deprived",
+     "Peace results from a sense of attainment."
+    ],
+    [
+     "A sense of achievement",
+     "Not quite. The article says: A sense of being deprived."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Violence results from a sense of being deprived, while peace is the result of a sense of attainment or achievement."
+  },
+  {
+   "article": "Lessons Eternal and Ephemeral",
+   "page": 22,
+   "link": "lessons-eternal-and-ephemeral",
+   "q": "Which two aspects of Gandhi’s independence movement does the article name?",
+   "options": [
+    [
+     "Trade and industry",
+     "Not quite. The article says: Civil Disobedience and Home Rule."
+    ],
+    [
+     "Civil Disobedience and Home Rule",
+     "The first defied British-made laws."
+    ],
+    [
+     "Education and health",
+     "Not quite. The article says: Civil Disobedience and Home Rule."
+    ],
+    [
+     "War and treaty",
+     "Not quite. The article says: Civil Disobedience and Home Rule."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "1. Civil Disobedience 2. Home Rule."
+  },
+  {
+   "article": "Spirituality — a Universal Religion",
+   "page": 26,
+   "link": "spirituality-a-universal-religion",
+   "q": "In which era does the author say higher spirituality became possible?",
+   "options": [
+    [
+     "The pre-scientific era",
+     "Not quite. The article says: The post-scientific era."
+    ],
+    [
+     "The middle ages only",
+     "Not quite. The article says: The post-scientific era."
+    ],
+    [
+     "The stone age",
+     "Not quite. The article says: The post-scientific era."
+    ],
+    [
+     "The post-scientific era",
+     "Pre-scientific spirituality was of a lower level."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "It is only in the post scientific era that it has become possible to attain the spirituality of a higher level."
+  },
+  {
+   "article": "A Ray of Hope",
+   "page": 33,
+   "link": "a-ray-of-hope",
+   "q": "What did Billy Graham do on receiving the statesman’s urgent message?",
+   "options": [
+    [
+     "He sent a letter",
+     "Not quite. The article says: He cancelled his appointments and set out at once."
+    ],
+    [
+     "He cancelled his appointments and set out at once",
+     "He was taken straight to the statesman."
+    ],
+    [
+     "He declined",
+     "Not quite. The article says: He cancelled his appointments and set out at once."
+    ],
+    [
+     "He waited a week",
+     "Not quite. The article says: He cancelled his appointments and set out at once."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Billy Graham cancelled his appointments and immediately set out to meet this man."
+  },
+  {
+   "article": "Living as an Underdeveloped Personality",
+   "page": 37,
+   "link": "living-as-an-underdeveloped-personality",
+   "q": "How did the actor explain playing roles unlike himself?",
+   "options": [
+    [
+     "“I only play myself.”",
+     "Not quite. The article says: “We detach ourselves …” when performing for the screen."
+    ],
+    [
+     "“I never prepare.”",
+     "Not quite. The article says: “We detach ourselves …” when performing for the screen."
+    ],
+    [
+     "“We detach ourselves …” when performing for the screen",
+     "From an All-India Radio interview."
+    ],
+    [
+     "“The director does it all.”",
+     "Not quite. The article says: “We detach ourselves …” when performing for the screen."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The actor replied: “When we perform for the screen, we detach ourselves …”"
+  },
+  {
+   "article": "The Honey Bee Culture",
+   "page": 38,
+   "link": "the-honey-bee-culture",
+   "q": "What does the honey bee do about thorns?",
+   "options": [
+    [
+     "It complains of them",
+     "Not quite. The article says: It simply ignores them and takes the nectar."
+    ],
+    [
+     "It avoids the garden",
+     "Not quite. The article says: It simply ignores them and takes the nectar."
+    ],
+    [
+     "It simply ignores them and takes the nectar",
+     "It cares only for the flowers."
+    ],
+    [
+     "It attacks them",
+     "Not quite. The article says: It simply ignores them and takes the nectar."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The honey bee simply ignores the presence of thorns."
+  },
+  {
+   "article": "Emergence of a New India",
+   "page": 41,
+   "link": "emergence-of-a-new-india",
+   "q": "What single phrase sums up the process the article describes?",
+   "options": [
+    [
+     "‘Industrialization of India’",
+     "Not quite. The article says: ‘Democratization of India’."
+    ],
+    [
+     "‘Partition of India’",
+     "Not quite. The article says: ‘Democratization of India’."
+    ],
+    [
+     "‘Democratization of India’",
+     "Democracy de-monopolizes opportunities."
+    ],
+    [
+     "‘Westernization of India’",
+     "Not quite. The article says: ‘Democratization of India’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "In a single word it can be called ‘democratization of India’."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What will hearts and eyes be like on the Day of the violent convulsion?",
+   "options": [
+    [
+     "Hearts calm, eyes bright",
+     "Not quite. The article says: Hearts throbbing, eyes downcast."
+    ],
+    [
+     "Hearts throbbing, eyes downcast",
+     "The passage opens with oaths by the winds and clouds."
+    ],
+    [
+     "Eyes closed in rest",
+     "Not quite. The article says: Hearts throbbing, eyes downcast."
+    ],
+    [
+     "Hearts asleep",
+     "Not quite. The article says: Hearts throbbing, eyes downcast."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Hearts will be throbbing, while eyes will be downcast."
+  }
+ ]
+}

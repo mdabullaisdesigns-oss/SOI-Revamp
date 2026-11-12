@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Unintended Consequences of One’s Actions",
+   "page": 5,
+   "link": "unintended-consequences-of-ones-actions",
+   "q": "What lesson did President Obama draw from the rise of ISIL?",
+   "options": [
+    [
+     "“We should generally aim before we shoot”",
+     "He called it an unintended consequence of the Iraq war."
+    ],
+    [
+     "“We should never talk”",
+     "Not quite. The article says: “We should generally aim before we shoot”."
+    ],
+    [
+     "“We should spend more”",
+     "Not quite. The article says: “We should generally aim before we shoot”."
+    ],
+    [
+     "“We should act faster”",
+     "Not quite. The article says: “We should generally aim before we shoot”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“… an example of unintended consequences which is why we should generally aim before we shoot.”"
+  },
+  {
+   "article": "Jihad, or Extension of Tribal Culture?",
+   "page": 8,
+   "link": "jihad-or-extension-of-tribal-culture",
+   "q": "In which year did Makkah come under the fold of Islam?",
+   "options": [
+    [
+     "622 A.D.",
+     "Not quite. The article says: 630 A.D."
+    ],
+    [
+     "661 A.D.",
+     "Not quite. The article says: 630 A.D."
+    ],
+    [
+     "630 A.D.",
+     "After which tribes entered Islam in multitudes."
+    ],
+    [
+     "610 A.D.",
+     "Not quite. The article says: 630 A.D."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Makkah came under its fold in the year 630 A.D."
+  },
+  {
+   "article": "Life and Health",
+   "page": 13,
+   "link": "life-and-health",
+   "q": "What illness did Dr. Shehzad Ali of Meerut develop?",
+   "options": [
+    [
+     "Malaria",
+     "Not quite. The article says: Cancer."
+    ],
+    [
+     "Cancer",
+     "He died at 45."
+    ],
+    [
+     "Heart disease",
+     "Not quite. The article says: Cancer."
+    ],
+    [
+     "Diabetes",
+     "Not quite. The article says: Cancer."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He appeared quite healthy but later he developed cancer."
+  },
+  {
+   "article": "Islam and the Modern Man — Part I",
+   "page": 17,
+   "link": "islam-and-the-modern-man-part-i",
+   "q": "To what one cause does the article trace modern man’s problems?",
+   "options": [
+    [
+     "Poor government",
+     "Not quite. The article says: The separation of man from God."
+    ],
+    [
+     "The separation of man from God",
+     "Material progress has left the soul to starve."
+    ],
+    [
+     "Overpopulation",
+     "Not quite. The article says: The separation of man from God."
+    ],
+    [
+     "Lack of technology",
+     "Not quite. The article says: The separation of man from God."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "One underlying cause: the separation of man from God."
+  },
+  {
+   "article": "Secret of Progress",
+   "page": 30,
+   "link": "secret-of-progress",
+   "q": "What share of the world’s 100 richest people were ‘self-made’, in the survey cited?",
+   "options": [
+    [
+     "36%",
+     "Not quite. The article says: 73%."
+    ],
+    [
+     "100%",
+     "Not quite. The article says: 73%."
+    ],
+    [
+     "10%",
+     "Not quite. The article says: 73%."
+    ],
+    [
+     "73%",
+     "The vast majority did not inherit their fortunes."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "73% of them were ‘self-made’."
+  },
+  {
+   "article": "Dealing with Political Difference",
+   "page": 32,
+   "link": "dealing-with-political-difference",
+   "q": "What does one Hadith call the best jihad?",
+   "options": [
+    [
+     "To leave the country",
+     "Not quite. The article says: To speak a word of truth and justice before an oppressive ruler."
+    ],
+    [
+     "To remain silent always",
+     "Not quite. The article says: To speak a word of truth and justice before an oppressive ruler."
+    ],
+    [
+     "To speak a word of truth and justice before an oppressive ruler",
+     "Another Hadith is set beside it."
+    ],
+    [
+     "To seize the throne",
+     "Not quite. The article says: To speak a word of truth and justice before an oppressive ruler."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The best jihad is to speak a word of truth and justice in front of an oppressive ruler."
+  },
+  {
+   "article": "Hidden Camera",
+   "page": 34,
+   "link": "hidden-camera",
+   "q": "When do the hidden traffic cameras take photographs?",
+   "options": [
+    [
+     "Only in rain",
+     "Not quite. The article says: Only when the lights are at red."
+    ],
+    [
+     "Only at night",
+     "Not quite. The article says: Only when the lights are at red."
+    ],
+    [
+     "Only when the lights are at red",
+     "Triggered by wires under the road."
+    ],
+    [
+     "All the time",
+     "Not quite. The article says: Only when the lights are at red."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "They take photographs only when the traffic lights are at red."
+  },
+  {
+   "article": "Turning Loss into Gain",
+   "page": 37,
+   "link": "turning-loss-into-gain",
+   "q": "How many chapters are there in the Quran?",
+   "options": [
+    [
+     "144",
+     "Not quite. The article says: 114."
+    ],
+    [
+     "114",
+     "Chapter 103 says time is a witness that man is in loss."
+    ],
+    [
+     "99",
+     "Not quite. The article says: 114."
+    ],
+    [
+     "30",
+     "Not quite. The article says: 114."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "There are 114 Chapters in the Quran."
+  },
+  {
+   "article": "Living with a Strong Sense of Purpose",
+   "page": 40,
+   "link": "living-with-a-strong-sense-of-purpose",
+   "q": "What may a strong sense of purpose in life lower, according to the study?",
+   "options": [
+    [
+     "The need for sleep",
+     "Not quite. The article says: The risk of heart disease."
+    ],
+    [
+     "The risk of heart disease",
+     "Presented at the American Heart Association in 2015."
+    ],
+    [
+     "The cost of living",
+     "Not quite. The article says: The risk of heart disease."
+    ],
+    [
+     "The length of life",
+     "Not quite. The article says: The risk of heart disease."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Having a strong sense of purpose in life may lower your risk of heart disease."
+  },
+  {
+   "article": "Eternal Consequence",
+   "page": 43,
+   "link": "eternal-consequence",
+   "q": "What does man’s everyday experience of mistakes lead him to feel?",
+   "options": [
+    [
+     "That mistakes are other people’s fault",
+     "Not quite. The article says: That mistakes can always be rectified."
+    ],
+    [
+     "That mistakes never happen",
+     "Not quite. The article says: That mistakes can always be rectified."
+    ],
+    [
+     "That mistakes can always be rectified",
+     "But consequences in the Hereafter are eternal."
+    ],
+    [
+     "That mistakes are always punished at once",
+     "Not quite. The article says: That mistakes can always be rectified."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "On each occasion, he is able to rectify his mistakes and save himself from their evil consequences."
+  }
+ ]
+}

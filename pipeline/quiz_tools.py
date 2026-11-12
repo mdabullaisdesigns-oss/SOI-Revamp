@@ -43,7 +43,7 @@ def digest(slugs):
         for a, part in picks(issue):
             w = words(a)
             start = 0 if part == 0 else len(w) // 2
-            print(f"@ {a['id']}{' (second passage)' if part else ''} | {a['title']}\n  {' '.join(w[start:start + 62])}")
+            print(f"@ {a['id']}{' (second passage)' if part else ''} | {a['title']}\n  {' '.join(w[start:start + 48])}")
 
 
 _foot = {}
