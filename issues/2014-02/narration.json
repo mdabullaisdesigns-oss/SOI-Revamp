@@ -1,7 +1,7 @@
 {
  "slug": "2014-02",
  "voice": "TTSMaker Gary (2560)",
- "chars": 74328,
+ "chars": 74319,
  "articles": {
   "this-is-not-the-time": {
    "title": "This Is Not the Time",
@@ -856,12 +856,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-02-glossary.mp3",
-   "chars": 9,
-   "sentences": [
-    "Glossary"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

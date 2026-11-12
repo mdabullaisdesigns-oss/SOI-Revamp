@@ -1,7 +1,7 @@
 {
  "slug": "2013-10",
  "voice": "TTSMaker Gary (2560)",
- "chars": 74616,
+ "chars": 74600,
  "articles": {
   "where-the-muslim-brotherhood-went-wrong": {
    "title": "Where the Muslim Brotherhood Went Wrong",
@@ -888,13 +888,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2013-10-glossary.mp3",
-   "chars": 16,
-   "sentences": [
-    "Glossary",
-    "NOTICE"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

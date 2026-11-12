@@ -1,7 +1,7 @@
 {
  "slug": "2014-07",
  "voice": "TTSMaker Gary (2560)",
- "chars": 75230,
+ "chars": 75221,
  "articles": {
   "winners-and-losers-all": {
    "title": "Winners and Losers, All",
@@ -923,12 +923,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-07-glossary.mp3",
-   "chars": 9,
-   "sentences": [
-    "Glossary"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "slug": "2013-12",
  "voice": "TTSMaker Gary (2560)",
- "chars": 78104,
+ "chars": 78066,
  "articles": {
   "make-it-a-starting-point": {
    "title": "Make It a Starting Point",
@@ -942,16 +942,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2013-12-glossary.mp3",
-   "chars": 38,
-   "sentences": [
-    "Glossary",
-    "BOOKS",
-    "MAGAZINES",
-    "QURAN",
-    "VIDEOS"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

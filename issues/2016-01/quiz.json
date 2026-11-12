@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "From Maulana’s Desk",
+   "page": 3,
+   "link": "from-maulanas-desk",
+   "q": "When did the first issue of Spirit of Islam appear?",
+   "options": [
+    [
+     "January 2016",
+     "Not quite. The article says: January 2013."
+    ],
+    [
+     "January 2000",
+     "Not quite. The article says: January 2013."
+    ],
+    [
+     "June 2010",
+     "Not quite. The article says: January 2013."
+    ],
+    [
+     "January 2013",
+     "The magazine had completed three years."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The first issue of the monthly Spirit of Islam appeared in January 2013."
+  },
+  {
+   "article": "Positive Aspect of Illness",
+   "page": 7,
+   "link": "positive-aspect-of-illness",
+   "q": "Which prayer of Prophet Abraham is quoted (26: 80)?",
+   "options": [
+    [
+     "‘Make me rich.’",
+     "Not quite. The article says: ‘He who cures me when I am ill.’."
+    ],
+    [
+     "‘Give me a kingdom.’",
+     "Not quite. The article says: ‘He who cures me when I am ill.’."
+    ],
+    [
+     "‘He who cures me when I am ill.’",
+     "A wisdom learnt through illness."
+    ],
+    [
+     "‘Lengthen my days.’",
+     "Not quite. The article says: ‘He who cures me when I am ill.’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘He who cures me when I am ill.’"
+  },
+  {
+   "article": "Pollution",
+   "page": 14,
+   "link": "pollution",
+   "q": "What is man’s duty regarding nature?",
+   "options": [
+    [
+     "To sell it",
+     "Not quite. The article says: To maintain its purity."
+    ],
+    [
+     "To leave it unused",
+     "Not quite. The article says: To maintain its purity."
+    ],
+    [
+     "To maintain its purity",
+     "He may use resources without destroying the natural order."
+    ],
+    [
+     "To conquer it",
+     "Not quite. The article says: To maintain its purity."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It is man’s duty to maintain the purity of nature. Failure to do so is a sin and a crime."
+  },
+  {
+   "article": "All Praise Is Due to God",
+   "page": 18,
+   "link": "all-praise-is-due-to-god",
+   "q": "What is the essence of the Quran, according to the article?",
+   "options": [
+    [
+     "Law",
+     "Not quite. The article says: Praise of God in true spirit."
+    ],
+    [
+     "Praise of God in true spirit",
+     "‘All praise is due to God, the Lord of the worlds.’"
+    ],
+    [
+     "Poetry",
+     "Not quite. The article says: Praise of God in true spirit."
+    ],
+    [
+     "History",
+     "Not quite. The article says: Praise of God in true spirit."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Praise of God, in true spirit, is the essence of the Quran."
+  },
+  {
+   "article": "The Islamic Way of Life",
+   "page": 21,
+   "link": "the-islamic-way-of-life",
+   "q": "What is the focus of a Muslim’s whole life?",
+   "options": [
+    [
+     "His reputation",
+     "Not quite. The article says: The Hereafter."
+    ],
+    [
+     "The Hereafter",
+     "The ideal world of God."
+    ],
+    [
+     "His career",
+     "Not quite. The article says: The Hereafter."
+    ],
+    [
+     "His tribe",
+     "Not quite. The article says: The Hereafter."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The focus of his whole life is the Hereafter, which is the ideal world of God."
+  },
+  {
+   "article": "Turning Negative into Positive",
+   "page": 29,
+   "link": "turning-negative-into-positive",
+   "q": "How long did Mahatma Gandhi spend in South Africa?",
+   "options": [
+    [
+     "Two years",
+     "Not quite. The article says: Twenty years."
+    ],
+    [
+     "Forty years",
+     "Not quite. The article says: Twenty years."
+    ],
+    [
+     "Five months",
+     "Not quite. The article says: Twenty years."
+    ],
+    [
+     "Twenty years",
+     "He was ordered out of a first-class compartment in 1893."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Mahatma Gandhi spent twenty years in South Africa."
+  },
+  {
+   "article": "The Price of Peace",
+   "page": 31,
+   "link": "the-price-of-peace",
+   "q": "What is the price of peace?",
+   "options": [
+    [
+     "Great wealth",
+     "Not quite. The article says: Tolerating loss."
+    ],
+    [
+     "Winning a war",
+     "Not quite. The article says: Tolerating loss."
+    ],
+    [
+     "Tolerating loss",
+     "Everything has its price."
+    ],
+    [
+     "Silence",
+     "Not quite. The article says: Tolerating loss."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "What is the price of peace? Tolerating loss!"
+  },
+  {
+   "article": "Speech Management",
+   "page": 34,
+   "link": "speech-management",
+   "q": "How does the Quran teach us to use words?",
+   "options": [
+    [
+     "Only in private",
+     "Not quite. The article says: With an extreme sense of responsibility."
+    ],
+    [
+     "With an extreme sense of responsibility",
+     "Not letting the tongue get out of control."
+    ],
+    [
+     "Only in anger",
+     "Not quite. The article says: With an extreme sense of responsibility."
+    ],
+    [
+     "As freely as possible",
+     "Not quite. The article says: With an extreme sense of responsibility."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "An important teaching of the Quran is to use words with an extreme sense of responsibility."
+  },
+  {
+   "article": "God, Prophethood and Life After Death",
+   "page": 37,
+   "link": "god-prophethood-and-life-after-death",
+   "q": "What will sincere seekers of truth find?",
+   "options": [
+    [
+     "A great diversity of proof of God’s existence",
+     "By looking deeply into things."
+    ],
+    [
+     "Only symbols",
+     "Not quite. The article says: A great diversity of proof of God’s existence."
+    ],
+    [
+     "Only doubts",
+     "Not quite. The article says: A great diversity of proof of God’s existence."
+    ],
+    [
+     "No proof at all",
+     "Not quite. The article says: A great diversity of proof of God’s existence."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They will find a great diversity of proof of God’s existence."
+  },
+  {
+   "article": "The Word of God",
+   "page": 42,
+   "link": "the-word-of-god",
+   "q": "In what does God create you stage by stage in the womb?",
+   "options": [
+    [
+     "A threefold darkness",
+     "“Such is God, your Lord.”"
+    ],
+    [
+     "A single moment",
+     "Not quite. The article says: A threefold darkness."
+    ],
+    [
+     "Open air",
+     "Not quite. The article says: A threefold darkness."
+    ],
+    [
+     "Bright light",
+     "Not quite. The article says: A threefold darkness."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He creates you stage by stage in your mothers’ wombs in a threefold darkness."
+  }
+ ]
+}

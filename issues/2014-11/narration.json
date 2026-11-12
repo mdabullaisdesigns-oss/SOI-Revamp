@@ -1,7 +1,7 @@
 {
  "slug": "2014-11",
  "voice": "TTSMaker Gary (2560)",
- "chars": 75326,
+ "chars": 75296,
  "articles": {
   "now-or-never": {
    "title": "Now or Never",
@@ -858,13 +858,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-11-glossary.mp3",
-   "chars": 30,
-   "sentences": [
-    "Glossary",
-    "(present day Mecca)."
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

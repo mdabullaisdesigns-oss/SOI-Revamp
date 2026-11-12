@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "From Maulana’s Desk",
+   "page": 3,
+   "link": "from-maulanas-desk",
+   "q": "To which country did the author travel 12,000 kilometres from Delhi?",
+   "options": [
+    [
+     "Brazil",
+     "Not quite. The article says: Canada."
+    ],
+    [
+     "Japan",
+     "Not quite. The article says: Canada."
+    ],
+    [
+     "Canada",
+     "He reached Toronto."
+    ],
+    [
+     "Australia",
+     "Not quite. The article says: Canada."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "On a 12000 kilometre journey from Delhi to Canada, I reached Toronto."
+  },
+  {
+   "article": "Islam—creator of the Modern Age",
+   "page": 5,
+   "link": "islam-creator-of-the-modern-age",
+   "q": "Who was the first man to set foot on the moon?",
+   "options": [
+    [
+     "James Irwin",
+     "Not quite. The article says: Neil Armstrong."
+    ],
+    [
+     "Buzz Aldrin",
+     "Not quite. The article says: Neil Armstrong."
+    ],
+    [
+     "Neil Armstrong",
+     "July 21, 1969."
+    ],
+    [
+     "Yuri Gagarin",
+     "Not quite. The article says: Neil Armstrong."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The American astronaut, Neil Armstrong, was the first man to set foot on the moon."
+  },
+  {
+   "article": "On Pacifism",
+   "page": 9,
+   "link": "on-pacifism",
+   "q": "What is pacifism?",
+   "options": [
+    [
+     "A doctrine of those who find war and its evils abhorrent",
+     "Peace has interested thinkers from the earliest times."
+    ],
+    [
+     "A style of art",
+     "Not quite. The article says: A doctrine of those who find war and its evils abhorrent."
+    ],
+    [
+     "A form of government",
+     "Not quite. The article says: A doctrine of those who find war and its evils abhorrent."
+    ],
+    [
+     "A theory of trade",
+     "Not quite. The article says: A doctrine of those who find war and its evils abhorrent."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Pacifism is a doctrine subscribed to by those who find war and its attendant evils abhorrent."
+  },
+  {
+   "article": "The Greatest Teacher—death",
+   "page": 14,
+   "link": "the-greatest-teacher-death",
+   "q": "Whose statue moved Julius Caesar to tears?",
+   "options": [
+    [
+     "Alexander the Great’s",
+     "He felt he had achieved not a tenth as much."
+    ],
+    [
+     "Hannibal’s",
+     "Not quite. The article says: Alexander the Great’s."
+    ],
+    [
+     "His father’s",
+     "Not quite. The article says: Alexander the Great’s."
+    ],
+    [
+     "His own",
+     "Not quite. The article says: Alexander the Great’s."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Julius Caesar on passing by a statue of Alexander the Great in Spain, paused to gaze at it. Moved to tears …"
+  },
+  {
+   "article": "Dowry and Dower",
+   "page": 16,
+   "link": "dowry-and-dower",
+   "q": "What does the article say of dowry?",
+   "options": [
+    [
+     "It is required by the Quran",
+     "Not quite. The article says: It has never been sanctioned by Islam."
+    ],
+    [
+     "It has never been sanctioned by Islam",
+     "Its origin lies in another tradition."
+    ],
+    [
+     "It was begun by the Prophet",
+     "Not quite. The article says: It has never been sanctioned by Islam."
+    ],
+    [
+     "It is a pillar of Islam",
+     "Not quite. The article says: It has never been sanctioned by Islam."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Dowry—a practice which has never been sanctioned by Islam."
+  },
+  {
+   "article": "Human Values in Islam",
+   "page": 23,
+   "link": "human-values-in-islam",
+   "q": "With what did God endow the human being?",
+   "options": [
+    [
+     "Inborn knowledge and values – a natural moral sense",
+     "To recognise what is good."
+    ],
+    [
+     "Physical might alone",
+     "Not quite. The article says: Inborn knowledge and values – a natural moral sense."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: Inborn knowledge and values – a natural moral sense."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Inborn knowledge and values – a natural moral sense."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God endowed him with inborn, or innate knowledge and values."
+  },
+  {
+   "article": "Right Thinking",
+   "page": 28,
+   "link": "right-thinking",
+   "q": "In what does the greatness of humanity lie?",
+   "options": [
+    [
+     "Physical strength",
+     "Not quite. The article says: The ability to think and plan a course of action."
+    ],
+    [
+     "Speed",
+     "Not quite. The article says: The ability to think and plan a course of action."
+    ],
+    [
+     "Numbers",
+     "Not quite. The article says: The ability to think and plan a course of action."
+    ],
+    [
+     "The ability to think and plan a course of action",
+     "Animals lack it."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The greatness of humanity lies in our ability to think and plan a course of action."
+  },
+  {
+   "article": "High Achievers",
+   "page": 32,
+   "link": "high-achievers",
+   "q": "What did the 90 leaders in Charles Garfield’s study speak of?",
+   "options": [
+    [
+     "Constant failure",
+     "Not quite. The article says: False starts, but never of failure."
+    ],
+    [
+     "Easy success",
+     "Not quite. The article says: False starts, but never of failure."
+    ],
+    [
+     "False starts, but never of failure",
+     "Disappointment spawns greater resolve."
+    ],
+    [
+     "Good luck",
+     "Not quite. The article says: False starts, but never of failure."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘Many spoke of false starts but never of failure.’"
+  },
+  {
+   "article": "Successful Marriage",
+   "page": 37,
+   "link": "successful-marriage",
+   "q": "What does the article call the coming together of a man and a woman in marriage?",
+   "options": [
+    [
+     "An accident",
+     "Not quite. The article says: The most unique event in the universe."
+    ],
+    [
+     "The most unique event in the universe",
+     "Their compatibility is unmatched."
+    ],
+    [
+     "A burden",
+     "Not quite. The article says: The most unique event in the universe."
+    ],
+    [
+     "A social contract only",
+     "Not quite. The article says: The most unique event in the universe."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The coming together of a man and a woman in marriage is the most unique event in the universe."
+  },
+  {
+   "article": "The Word of God",
+   "page": 42,
+   "link": "the-word-of-god",
+   "q": "What do the verses foretell about the defeated Romans?",
+   "options": [
+    [
+     "They will vanish",
+     "Not quite. The article says: They will reverse their defeat within a few years."
+    ],
+    [
+     "They will rule the world",
+     "Not quite. The article says: They will reverse their defeat within a few years."
+    ],
+    [
+     "They will never recover",
+     "Not quite. The article says: They will reverse their defeat within a few years."
+    ],
+    [
+     "They will reverse their defeat within a few years",
+     "With God rests all power of decision."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Romans have been defeated in a nearby land. They will reverse their defeat with a victory within a few years."
+  }
+ ]
+}

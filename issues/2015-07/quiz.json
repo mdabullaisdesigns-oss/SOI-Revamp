@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Dates on a Calendar",
+   "page": 5,
+   "link": "dates-on-a-calendar",
+   "q": "What are the two ways to lead your life, according to the article?",
+   "options": [
+    [
+     "Speaking or listening",
+     "Not quite. The article says: Simply passing your time, or using it meaningfully."
+    ],
+    [
+     "Simply passing your time, or using it meaningfully",
+     "The first wastes life."
+    ],
+    [
+     "Working or resting",
+     "Not quite. The article says: Simply passing your time, or using it meaningfully."
+    ],
+    [
+     "Earning or spending",
+     "Not quite. The article says: Simply passing your time, or using it meaningfully."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "One is to simply pass your time. The other is to use your time meaningfully."
+  },
+  {
+   "article": "Finally, in the Grave",
+   "page": 8,
+   "link": "finally-in-the-grave",
+   "q": "What will we take with us of the things accumulated in life?",
+   "options": [
+    [
+     "Our houses",
+     "Not quite. The article says: Nothing."
+    ],
+    [
+     "Our wealth",
+     "Not quite. The article says: Nothing."
+    ],
+    [
+     "Our titles",
+     "Not quite. The article says: Nothing."
+    ],
+    [
+     "Nothing",
+     "One day we all find ourselves in the grave."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "After we die, we will not take any of the things we have accumulated when we were alive."
+  },
+  {
+   "article": "Losing the Opportunity",
+   "page": 12,
+   "link": "losing-the-opportunity",
+   "q": "What was the White House conference of February 2015 titled?",
+   "options": [
+    [
+     "“Trade and Peace”",
+     "Not quite. The article says: “Countering Violent Extremism”."
+    ],
+    [
+     "“Faith and Science”",
+     "Not quite. The article says: “Countering Violent Extremism”."
+    ],
+    [
+     "“Cities of the Future”",
+     "Not quite. The article says: “Countering Violent Extremism”."
+    ],
+    [
+     "“Countering Violent Extremism”",
+     "The article calls it a missed opportunity for Muslims."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A three-day conference titled “Countering Violent Extremism”. This was a great opportunity for Muslims."
+  },
+  {
+   "article": "Murder of Humanity",
+   "page": 16,
+   "link": "murder-of-humanity",
+   "q": "How does the Quran (5: 32) regard the unjust killing of one human being?",
+   "options": [
+    [
+     "As the killing of one family",
+     "Not quite. The article says: As having killed all humankind."
+    ],
+    [
+     "As having killed all humankind",
+     "Divine law mandates respect for human life."
+    ],
+    [
+     "As a minor fault",
+     "Not quite. The article says: As having killed all humankind."
+    ],
+    [
+     "As a private matter",
+     "Not quite. The article says: As having killed all humankind."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Killing a human being … shall be regarded as having killed all humankind."
+  },
+  {
+   "article": "Complete Person",
+   "page": 20,
+   "link": "complete-person",
+   "q": "What prevails over the ego in a complete person?",
+   "options": [
+    [
+     "His friends",
+     "Not quite. The article says: His conscience."
+    ],
+    [
+     "His conscience",
+     "He is emotionally balanced."
+    ],
+    [
+     "His wealth",
+     "Not quite. The article says: His conscience."
+    ],
+    [
+     "His anger",
+     "Not quite. The article says: His conscience."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "His conscience prevails over his ego in all situations."
+  },
+  {
+   "article": "Acceptance of Supplications",
+   "page": 24,
+   "link": "acceptance-of-supplications",
+   "q": "What was the young man’s complaint?",
+   "options": [
+    [
+     "His prayers were never accepted and no problem was solved",
+     "After many years of supplication."
+    ],
+    [
+     "His friends prayed too much",
+     "Not quite. The article says: His prayers were never accepted and no problem was solved."
+    ],
+    [
+     "He had no problems",
+     "Not quite. The article says: His prayers were never accepted and no problem was solved."
+    ],
+    [
+     "He had no time to pray",
+     "Not quite. The article says: His prayers were never accepted and no problem was solved."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“I keep praying to God to have them solved but my prayers are never accepted.”"
+  },
+  {
+   "article": "A World of Opportunities",
+   "page": 28,
+   "link": "a-world-of-opportunities",
+   "q": "What is the test of life a measure of?",
+   "options": [
+    [
+     "Physical strength",
+     "Not quite. The article says: Each one’s response to the situations and challenges of life."
+    ],
+    [
+     "Each one’s response to the situations and challenges of life",
+     "To identify those deserving of heaven."
+    ],
+    [
+     "Wealth gathered",
+     "Not quite. The article says: Each one’s response to the situations and challenges of life."
+    ],
+    [
+     "Family name",
+     "Not quite. The article says: Each one’s response to the situations and challenges of life."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is a measure of each ones response to the situations and challenges we face in our lives."
+  },
+  {
+   "article": "Religious Conversion or Religious Choice?",
+   "page": 35,
+   "link": "religious-conversion-or-religious-choice",
+   "q": "On what does the article say the debate on conversion is based?",
+   "options": [
+    [
+     "Misunderstanding",
+     "Making choices is everyone’s right."
+    ],
+    [
+     "Clear law",
+     "Not quite. The article says: Misunderstanding."
+    ],
+    [
+     "Agreement of all sides",
+     "Not quite. The article says: Misunderstanding."
+    ],
+    [
+     "Sound history",
+     "Not quite. The article says: Misunderstanding."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "There is a heated debate on the issue of religious conversion. This is based on misunderstanding."
+  },
+  {
+   "article": "Zakat—the Prescribed Charity",
+   "page": 40,
+   "link": "zakat-the-prescribed-charity",
+   "q": "On what wealth is zakat obligatory?",
+   "options": [
+    [
+     "Only inherited wealth",
+     "Not quite. The article says: All wealth that is subject to growth."
+    ],
+    [
+     "Only land",
+     "Not quite. The article says: All wealth that is subject to growth."
+    ],
+    [
+     "All wealth that is subject to growth",
+     "At a minimum of 2.5% a year."
+    ],
+    [
+     "Only gold",
+     "Not quite. The article says: All wealth that is subject to growth."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Its payment is obligatory, at the minimum fixed rate of 2.5% per annum, on all wealth that is subject to growth."
+  },
+  {
+   "article": "Learning Lessons from Material Things",
+   "page": 44,
+   "link": "learning-lessons-from-material-things",
+   "q": "Who wrote the poem ‘Miss T’?",
+   "options": [
+    [
+     "William Wordsworth",
+     "Not quite. The article says: Walter de la Mare."
+    ],
+    [
+     "Walter de la Mare",
+     "“Whatever Miss T eats turns into Miss T.”"
+    ],
+    [
+     "T. S. Eliot",
+     "Not quite. The article says: Walter de la Mare."
+    ],
+    [
+     "Rudyard Kipling",
+     "Not quite. The article says: Walter de la Mare."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "British writer Walter de la Mare (1873-1956) wrote a poem called ‘Miss T’."
+  }
+ ]
+}

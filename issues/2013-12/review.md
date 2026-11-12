@@ -1,6 +1,6 @@
 # Review – Issue 12 · December 2013
 
-PDF `December-2013.pdf`, 52 pages. **17 articles, 14,380 words, word match 99.96%** (second reading of the PDF; flag below 99%).
+PDF `December-2013.pdf`, 52 pages. **17 articles, 14,384 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -22,7 +22,7 @@ PDF `December-2013.pdf`, 52 pages. **17 articles, 14,380 words, word match 99.96
 | 14 | 44 |  | Inter-Faith Harmony | 291 | 99.66% |
 | 15 | 45–46 |  | The Word of God | 681 | 100.0% |
 | 16 | 47–48 |  | Ask Maulana | 639 | 100.0% |
-| 17 | 49 |  | Glossary | 235 | 100.0% |
+| 17 | 49 |  | Glossary | 239 | 100.0% |
 
 ## Words the second reading did not confirm
 

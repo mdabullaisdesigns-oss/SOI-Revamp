@@ -1,7 +1,7 @@
 {
  "slug": "2013-09",
  "voice": "TTSMaker Gary (2560)",
- "chars": 72657,
+ "chars": 72635,
  "articles": {
   "terrorism-in-the-light-of-islamic-teachings": {
    "title": "Terrorism in the Light of Islamic Teachings",
@@ -840,13 +840,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2013-09-glossary.mp3",
-   "chars": 22,
-   "sentences": [
-    "Glossary",
-    "(1301-1373)."
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

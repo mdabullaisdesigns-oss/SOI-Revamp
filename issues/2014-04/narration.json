@@ -1,7 +1,7 @@
 {
  "slug": "2014-04",
  "voice": "TTSMaker Gary (2560)",
- "chars": 77288,
+ "chars": 77261,
  "articles": {
   "seven-billion-issues": {
    "title": "Seven Billion Issues!",
@@ -911,13 +911,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-04-glossary.mp3",
-   "chars": 27,
-   "sentences": [
-    "Glossary",
-    "(b. 1930, Syria)."
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Spirituality—a Universal Religion",
+   "page": 5,
+   "link": "spirituality-a-universal-religion",
+   "q": "What did the scientific era do for spirituality, in the author’s view?",
+   "options": [
+    [
+     "It replaced it with ritual",
+     "Not quite. The article says: It made a higher plane of spirituality attainable."
+    ],
+    [
+     "It ended spirituality",
+     "Not quite. The article says: It made a higher plane of spirituality attainable."
+    ],
+    [
+     "It made a higher plane of spirituality attainable",
+     "Pre-scientific spirituality was lower."
+    ],
+    [
+     "It made no difference",
+     "Not quite. The article says: It made a higher plane of spirituality attainable."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The scientific era facilitated the attainment of spirituality at a higher plane."
+  },
+  {
+   "article": "The Role of Muslims in Diaspora",
+   "page": 8,
+   "link": "the-role-of-muslims-in-diaspora",
+   "q": "What does the article give as the total number of Muslims in the world?",
+   "options": [
+    [
+     "5 million",
+     "Not quite. The article says: 1.57 billion."
+    ],
+    [
+     "3 billion",
+     "Not quite. The article says: 1.57 billion."
+    ],
+    [
+     "157 million",
+     "Not quite. The article says: 1.57 billion."
+    ],
+    [
+     "1.57 billion",
+     "Many live as minorities."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The total number of Muslims in the world today is 1.57 billion."
+  },
+  {
+   "article": "Keeping Calm in the Face of Adversity",
+   "page": 16,
+   "link": "keeping-calm-in-the-face-of-adversity",
+   "q": "From which island did Napoleon escape after his first imprisonment?",
+   "options": [
+    [
+     "St Helena",
+     "Not quite. The article says: Elba."
+    ],
+    [
+     "Elba",
+     "With a small group of loyal soldiers."
+    ],
+    [
+     "Corsica",
+     "Not quite. The article says: Elba."
+    ],
+    [
+     "Malta",
+     "Not quite. The article says: Elba."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Napoleon Bonaparte escaped from the Island of Elba after his first term of imprisonment."
+  },
+  {
+   "article": "Peace of Mind Is Most Important",
+   "page": 18,
+   "link": "peace-of-mind-is-most-important",
+   "q": "What is the most favourable environment for the mind?",
+   "options": [
+    [
+     "Peace",
+     "The mind is man’s greatest faculty."
+    ],
+    [
+     "Competition",
+     "Not quite. The article says: Peace."
+    ],
+    [
+     "Noise",
+     "Not quite. The article says: Peace."
+    ],
+    [
+     "Luxury",
+     "Not quite. The article says: Peace."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The mind is the greatest faculty of man, and peace the most favourable environment in which the mind can function to its full capacity."
+  },
+  {
+   "article": "Going Places on Home Ground",
+   "page": 22,
+   "link": "going-places-on-home-ground",
+   "q": "In what field did Paul Dirac receive his initial education?",
+   "options": [
+    [
+     "Law",
+     "Not quite. The article says: Electrical engineering."
+    ],
+    [
+     "Medicine",
+     "Not quite. The article says: Electrical engineering."
+    ],
+    [
+     "Music",
+     "Not quite. The article says: Electrical engineering."
+    ],
+    [
+     "Electrical engineering",
+     "Not mathematics."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He received his initial education, however, not in the field of mathematics, but in electrical engineering."
+  },
+  {
+   "article": "When Truth Is Revealed",
+   "page": 25,
+   "link": "when-truth-is-revealed",
+   "q": "What will happen in the next world to those whose prostration was pretence?",
+   "options": [
+    [
+     "They will not be asked",
+     "Not quite. The article says: They will be asked to bow but will not be able to."
+    ],
+    [
+     "They will bow easily",
+     "Not quite. The article says: They will be asked to bow but will not be able to."
+    ],
+    [
+     "They will be asked to bow but will not be able to",
+     "Quran 68: 42."
+    ],
+    [
+     "They will be excused",
+     "Not quite. The article says: They will be asked to bow but will not be able to."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "They will be asked to bow down before the Lord but they will not be able to do so."
+  },
+  {
+   "article": "Prophet Muhammad—part I",
+   "page": 27,
+   "link": "prophet-muhammad-part-i",
+   "q": "When was the Prophet Muhammad born, according to the article?",
+   "options": [
+    [
+     "12 March 610 AD",
+     "Not quite. The article says: 22 April 570 AD."
+    ],
+    [
+     "8 June 632 AD",
+     "Not quite. The article says: 22 April 570 AD."
+    ],
+    [
+     "1 January 600 AD",
+     "Not quite. The article says: 22 April 570 AD."
+    ],
+    [
+     "22 April 570 AD",
+     "He died on 8 June 632 AD."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Prophet of Islam, Muhammad, was born in Arabia on 22 April 570 AD."
+  },
+  {
+   "article": "Worshipping Money",
+   "page": 34,
+   "link": "worshipping-money",
+   "q": "What is the one ‘religion’ of today’s world in terms of ideology?",
+   "options": [
+    [
+     "The worship of ancestors",
+     "Not quite. The article says: The worship of money."
+    ],
+    [
+     "The worship of money",
+     "Almost everyone aims to accumulate wealth."
+    ],
+    [
+     "The worship of science",
+     "Not quite. The article says: The worship of money."
+    ],
+    [
+     "The worship of nature",
+     "Not quite. The article says: The worship of money."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In terms of ideology, the religion of today’s world is just one—the worship of money."
+  },
+  {
+   "article": "Radicalization of Muslim Youth",
+   "page": 39,
+   "link": "radicalization-of-muslim-youth",
+   "q": "Where did the shooting of July 16, 2015 take place?",
+   "options": [
+    [
+     "Chattanooga, Tennessee",
+     "At two military installations."
+    ],
+    [
+     "Paris",
+     "Not quite. The article says: Chattanooga, Tennessee."
+    ],
+    [
+     "London",
+     "Not quite. The article says: Chattanooga, Tennessee."
+    ],
+    [
+     "Sydney",
+     "Not quite. The article says: Chattanooga, Tennessee."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Muhammad Youssef Abdulazeez opened fire on two military installations in Chattanooga, Tennessee, USA."
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "What does God bear witness to about the hypocrites (63: 1)?",
+   "options": [
+    [
+     "That they are leaders",
+     "Not quite. The article says: That they are surely liars."
+    ],
+    [
+     "That they are surely liars",
+     "Though they say, ‘We bear witness.’"
+    ],
+    [
+     "That they are forgiven",
+     "Not quite. The article says: That they are surely liars."
+    ],
+    [
+     "That they are sincere",
+     "Not quite. The article says: That they are surely liars."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "God bears witness that the hypocrites are surely liars."
+  }
+ ]
+}

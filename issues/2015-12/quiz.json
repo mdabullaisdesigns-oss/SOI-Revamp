@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Ungodly Activities in the Name of God",
+   "page": 5,
+   "link": "ungodly-activities-in-the-name-of-god",
+   "q": "How many coordinated attacks occurred in and around Paris on November 13, 2015?",
+   "options": [
+    [
+     "Twenty",
+     "Not quite. The article says: Six."
+    ],
+    [
+     "Two",
+     "Not quite. The article says: Six."
+    ],
+    [
+     "Six",
+     "129 people were reported killed."
+    ],
+    [
+     "One",
+     "Not quite. The article says: Six."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "On November 13, 2015, six coordinated terrorist attacks occurred in and around Paris."
+  },
+  {
+   "article": "Intellectual Fog",
+   "page": 9,
+   "link": "intellectual-fog",
+   "q": "What has Indian Railways developed for winter travel?",
+   "options": [
+    [
+     "Faster engines",
+     "Not quite. The article says: A ‘fog-safe device’."
+    ],
+    [
+     "A ‘fog-safe device’",
+     "For more than 2,000 trains."
+    ],
+    [
+     "Glass roofs",
+     "Not quite. The article says: A ‘fog-safe device’."
+    ],
+    [
+     "Heated tracks",
+     "Not quite. The article says: A ‘fog-safe device’."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Indian Railways has developed a ‘fog-safe device’."
+  },
+  {
+   "article": "Power of an Individual",
+   "page": 16,
+   "link": "power-of-an-individual",
+   "q": "What does Gustave Le Bon say crowds are powerful for?",
+   "options": [
+    [
+     "Lasting reform",
+     "Not quite. The article says: Only destruction."
+    ],
+    [
+     "Creating civilisations",
+     "Not quite. The article says: Only destruction."
+    ],
+    [
+     "Careful thought",
+     "Not quite. The article says: Only destruction."
+    ],
+    [
+     "Only destruction",
+     "Civilisations are created by a small intellectual aristocracy."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Crowds are only powerful for destruction.”"
+  },
+  {
+   "article": "A Good Start",
+   "page": 20,
+   "link": "a-good-start",
+   "q": "What did the elderly scholar give his newly wed daughter and son-in-law?",
+   "options": [
+    [
+     "A house",
+     "Not quite. The article says: A cheque for Rs. 10,000 – his entire life’s savings."
+    ],
+    [
+     "A cheque for Rs. 10,000 – his entire life’s savings",
+     "Given in the utmost simplicity."
+    ],
+    [
+     "Gold jewellery",
+     "Not quite. The article says: A cheque for Rs. 10,000 – his entire life’s savings."
+    ],
+    [
+     "A car",
+     "Not quite. The article says: A cheque for Rs. 10,000 – his entire life’s savings."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Here are my entire life’s savings.” … placed a cheque for Rs. 10,000/- in the hands of his newly wed daughter and son-in-law."
+  },
+  {
+   "article": "On Death’s Doorstep",
+   "page": 24,
+   "link": "on-deaths-doorstep",
+   "q": "Which stage of man’s journey is the most certain?",
+   "options": [
+    [
+     "Death",
+     "Everyone alive is sure to die."
+    ],
+    [
+     "Fame",
+     "Not quite. The article says: Death."
+    ],
+    [
+     "Old age",
+     "Not quite. The article says: Death."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Death."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Of all the stages through which man shall have to pass, death is the most certain."
+  },
+  {
+   "article": "Predicting the Afterlife",
+   "page": 27,
+   "link": "predicting-the-afterlife",
+   "q": "What did Paul Dirac predict before it was observed?",
+   "options": [
+    [
+     "The atom",
+     "Not quite. The article says: The existence of “anti-matter”."
+    ],
+    [
+     "Gravity",
+     "Not quite. The article says: The existence of “anti-matter”."
+    ],
+    [
+     "The telephone",
+     "Not quite. The article says: The existence of “anti-matter”."
+    ],
+    [
+     "The existence of “anti-matter”",
+     "The preacher likewise predicts the afterlife."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The physicist Paul Dirac predicted the existence of “anti-matter” before it was observed."
+  },
+  {
+   "article": "Patience: Source of Certainty",
+   "page": 32,
+   "link": "patience-source-of-certainty",
+   "q": "What reward does the Quran (39: 10) promise the patient?",
+   "options": [
+    [
+     "Requital without measure",
+     "Islam gives great importance to patience."
+    ],
+    [
+     "A long life",
+     "Not quite. The article says: Requital without measure."
+    ],
+    [
+     "Praise from people",
+     "Not quite. The article says: Requital without measure."
+    ],
+    [
+     "A small fixed reward",
+     "Not quite. The article says: Requital without measure."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "‘Truly, those who persevere patiently will be requited without measure.’"
+  },
+  {
+   "article": "Life After Death",
+   "page": 34,
+   "link": "life-after-death",
+   "q": "What do scientists now believe may continue after death?",
+   "options": [
+    [
+     "Breathing",
+     "Not quite. The article says: Consciousness."
+    ],
+    [
+     "Hunger",
+     "Not quite. The article says: Consciousness."
+    ],
+    [
+     "Consciousness",
+     "From patients who were clinically dead."
+    ],
+    [
+     "Growth",
+     "Not quite. The article says: Consciousness."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Consciousness may continue even after death, scientists now believe."
+  },
+  {
+   "article": "Simple Living, High Thinking",
+   "page": 39,
+   "link": "simple-living-high-thinking",
+   "q": "What does the article say about followers of ‘simple living, high thinking’?",
+   "options": [
+    [
+     "Everyone follows it",
+     "Not quite. The article says: It is very rare to find someone who sincerely follows it."
+    ],
+    [
+     "It is forbidden",
+     "Not quite. The article says: It is very rare to find someone who sincerely follows it."
+    ],
+    [
+     "It is very rare to find someone who sincerely follows it",
+     "Though the formula is well known."
+    ],
+    [
+     "It is new",
+     "Not quite. The article says: It is very rare to find someone who sincerely follows it."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It is very rare to find someone who sincerely follows it in letter and in spirit."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "From what did God create man, in the verse quoted?",
+   "options": [
+    [
+     "Light",
+     "Not quite. The article says: An essence of clay."
+    ],
+    [
+     "Water alone",
+     "Not quite. The article says: An essence of clay."
+    ],
+    [
+     "Fire",
+     "Not quite. The article says: An essence of clay."
+    ],
+    [
+     "An essence of clay",
+     "Then stage by stage in a safe place."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "We created man from an essence of clay, then We placed him as a drop of fluid in a safe place."
+  }
+ ]
+}

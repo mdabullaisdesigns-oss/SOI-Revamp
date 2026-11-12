@@ -1,6 +1,6 @@
 # Review – Issue 10 · October 2013
 
-PDF `October-2013.pdf`, 52 pages. **16 articles, 14,286 words, word match 99.97%** (second reading of the PDF; flag below 99%).
+PDF `October-2013.pdf`, 52 pages. **16 articles, 14,287 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -21,7 +21,7 @@ PDF `October-2013.pdf`, 52 pages. **16 articles, 14,286 words, word match 99.97%
 | 13 | 42 |  | Opportunities Will Never Cease | 213 | 100.0% |
 | 14 | 43 |  | On Old Age | 275 | 99.64% |
 | 15 | 44–46 |  | The Word of God | 800 | 100.0% |
-| 16 | 47 |  | Glossary | 316 | 100.0% |
+| 16 | 47 |  | Glossary | 317 | 100.0% |
 
 ## Words the second reading did not confirm
 

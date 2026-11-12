@@ -5536,12 +5536,64 @@
       "p49b29",
       "p49b30"
      ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "BOOKS"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b19"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "MAGAZINES"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b25"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "QURAN"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b22"
+     ]
+    },
+    {
+     "k": "h",
+     "runs": [
+      [
+       "b",
+       "VIDEOS"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b28"
+     ]
     }
    ],
    "type": "glossary",
    "audio": false,
    "id": "glossary",
-   "words": 235,
+   "words": 239,
    "n": 17
   }
  ]

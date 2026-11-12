@@ -1,7 +1,7 @@
 {
  "slug": "2014-10",
  "voice": "TTSMaker Gary (2560)",
- "chars": 74555,
+ "chars": 74546,
  "articles": {
   "a-new-age-dawns-over-kashmir": {
    "title": "A New Age Dawns Over Kashmir",
@@ -892,12 +892,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-10-glossary.mp3",
-   "chars": 9,
-   "sentences": [
-    "Glossary"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

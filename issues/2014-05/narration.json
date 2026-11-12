@@ -1,7 +1,7 @@
 {
  "slug": "2014-05",
  "voice": "TTSMaker Gary (2560)",
- "chars": 79288,
+ "chars": 79272,
  "articles": {
   "ready-to-respond-every-moment": {
    "title": "Ready to Respond Every Moment",
@@ -987,13 +987,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-05-glossary.mp3",
-   "chars": 16,
-   "sentences": [
-    "Glossary",
-    "(Cain)"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

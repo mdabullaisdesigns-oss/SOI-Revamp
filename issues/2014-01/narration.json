@@ -1,7 +1,7 @@
 {
  "slug": "2014-01",
  "voice": "TTSMaker Gary (2560)",
- "chars": 74401,
+ "chars": 74392,
  "articles": {
   "greetings-of-peace": {
    "title": "Greetings of Peace!",
@@ -981,12 +981,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-01-glossary.mp3",
-   "chars": 9,
-   "sentences": [
-    "Glossary"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

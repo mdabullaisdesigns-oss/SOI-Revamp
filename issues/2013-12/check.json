@@ -249,7 +249,7 @@
     49,
     49
    ],
-   "words": 235,
+   "words": 239,
    "match": 100.0,
    "missing": []
   }
@@ -258,5 +258,5 @@
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15365,
- "article_words": 14380
+ "article_words": 14384
 }

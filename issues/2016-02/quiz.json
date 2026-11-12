@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "From Maulana’s Desk",
+   "page": 5,
+   "link": "from-maulanas-desk",
+   "q": "Which statesman observed that politics is the art of the possible?",
+   "options": [
+    [
+     "Churchill",
+     "Not quite. The article says: Otto von Bismarck."
+    ],
+    [
+     "Lincoln",
+     "Not quite. The article says: Otto von Bismarck."
+    ],
+    [
+     "Napoleon",
+     "Not quite. The article says: Otto von Bismarck."
+    ],
+    [
+     "Otto von Bismarck",
+     "The author extends it to planning."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "German statesman Otto von Bismarck observed that politics is the art of the possible."
+  },
+  {
+   "article": "Another Day How Wonderful!",
+   "page": 7,
+   "link": "another-day-how-wonderful",
+   "q": "What should you shout on waking, according to the businessman quoted?",
+   "options": [
+    [
+     "“Where is my tea?”",
+     "Not quite. The article says: “Great! Another day!”."
+    ],
+    [
+     "“Five more minutes!”",
+     "Not quite. The article says: “Great! Another day!”."
+    ],
+    [
+     "“Great! Another day!”",
+     "Then you are a success."
+    ],
+    [
+     "“Not again!”",
+     "Not quite. The article says: “Great! Another day!”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Jump out of bed and shout, “Great! Another day!” You are a success."
+  },
+  {
+   "article": "Unlocking the Gates to Success",
+   "page": 10,
+   "link": "unlocking-the-gates-to-success",
+   "q": "What did the guest shout as he struggled with the key?",
+   "options": [
+    [
+     "“Call the police!”",
+     "Not quite. The article says: “This lock is defective!”."
+    ],
+    [
+     "“This lock is defective!”",
+     "His vexation had turned to fury."
+    ],
+    [
+     "“I have lost the key!”",
+     "Not quite. The article says: “This lock is defective!”."
+    ],
+    [
+     "“The door is open!”",
+     "Not quite. The article says: “This lock is defective!”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“This lock is defective!” He shouted to anyone who cared to listen."
+  },
+  {
+   "article": "Making the Right Choice",
+   "page": 22,
+   "link": "making-the-right-choice",
+   "q": "In what does the chapter Al-Tin say man was created?",
+   "options": [
+    [
+     "Darkness",
+     "Not quite. The article says: The best of moulds."
+    ],
+    [
+     "Haste",
+     "Not quite. The article says: The best of moulds."
+    ],
+    [
+     "The best of moulds",
+     "Then cast down as the lowest of the low."
+    ],
+    [
+     "Weakness only",
+     "Not quite. The article says: The best of moulds."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "We have indeed created man in the best of moulds."
+  },
+  {
+   "article": "The Creation Plan of God",
+   "page": 25,
+   "link": "the-creation-plan-of-god",
+   "q": "Into what single question does the article sum up life’s questions?",
+   "options": [
+    [
+     "Who rules the world?",
+     "Not quite. The article says: What is the creation plan of the Creator?."
+    ],
+    [
+     "When will I die?",
+     "Not quite. The article says: What is the creation plan of the Creator?."
+    ],
+    [
+     "What is the creation plan of the Creator?",
+     "Who am I? Why am I here?"
+    ],
+    [
+     "How can I become rich?",
+     "Not quite. The article says: What is the creation plan of the Creator?."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "These questions may be summed up in a single sentence: What is the creation plan of the Creator?"
+  },
+  {
+   "article": "Respect All Cultures",
+   "page": 30,
+   "link": "respect-all-cultures",
+   "q": "How many prophets does the article say God sent?",
+   "options": [
+    [
+     "Twenty-five only",
+     "Not quite. The article says: More than one hundred thousand."
+    ],
+    [
+     "One",
+     "Not quite. The article says: More than one hundred thousand."
+    ],
+    [
+     "Twelve",
+     "Not quite. The article says: More than one hundred thousand."
+    ],
+    [
+     "More than one hundred thousand",
+     "All enjoy the same status."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "God Almighty sent more than one hundred thousand prophets or messengers."
+  },
+  {
+   "article": "Love—the Common Point",
+   "page": 32,
+   "link": "love-the-common-point",
+   "q": "What is common to the three Semitic religions?",
+   "options": [
+    [
+     "Law",
+     "Not quite. The article says: Love."
+    ],
+    [
+     "Land",
+     "Not quite. The article says: Love."
+    ],
+    [
+     "Love",
+     "Judaism, Christianity and Islam."
+    ],
+    [
+     "Language",
+     "Not quite. The article says: Love."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Common to all the three religions is love."
+  },
+  {
+   "article": "Suicide Bombing",
+   "page": 36,
+   "link": "suicide-bombing",
+   "q": "Which event does the article call the deadliest instance of suicide bombing?",
+   "options": [
+    [
+     "The Paris attacks",
+     "Not quite. The article says: 9/11 in New York."
+    ],
+    [
+     "The Mumbai attacks",
+     "Not quite. The article says: 9/11 in New York."
+    ],
+    [
+     "9/11 in New York",
+     "The Twin Towers were destroyed."
+    ],
+    [
+     "The London bombings",
+     "Not quite. The article says: 9/11 in New York."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The deadliest instance took place in New York, commonly referred to as 9/11."
+  },
+  {
+   "article": "The Lesson of Death",
+   "page": 41,
+   "link": "the-lesson-of-death",
+   "q": "What is a culprit like from the moment he hears the death sentence?",
+   "options": [
+    [
+     "Relieved",
+     "Not quite. The article says: As good as dead."
+    ],
+    [
+     "As good as dead",
+     "Life loses all meaning."
+    ],
+    [
+     "Full of plans",
+     "Not quite. The article says: As good as dead."
+    ],
+    [
+     "Proud",
+     "Not quite. The article says: As good as dead."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The moment a culprit hears the death sentence, he is as good as dead."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "How will those who obey God and His Messenger and do good be rewarded?",
+   "options": [
+    [
+     "With less than others",
+     "Not quite. The article says: Doubly."
+    ],
+    [
+     "Not at all",
+     "Not quite. The article says: Doubly."
+    ],
+    [
+     "Doubly",
+     "An excellent provision is made for them."
+    ],
+    [
+     "Later than others",
+     "Not quite. The article says: Doubly."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Those of you who obey God and His Messenger and do good deeds, shall be doubly rewarded."
+  }
+ ]
+}

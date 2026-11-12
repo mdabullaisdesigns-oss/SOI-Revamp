@@ -1,7 +1,7 @@
 {
  "slug": "2014-09",
  "voice": "TTSMaker Gary (2560)",
- "chars": 79393,
+ "chars": 79384,
  "articles": {
   "avoid-confrontation-at-all-cost": {
    "title": "Avoid Confrontation at All Cost",
@@ -1002,12 +1002,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-09-glossary.mp3",
-   "chars": 9,
-   "sentences": [
-    "Glossary"
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }
