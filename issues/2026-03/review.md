@@ -6,26 +6,27 @@ Text from the WordPress page **ISSUE MAR-APR 2026** (id 3198). **17 articles, 9,
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–7 | From the Editor-In-Chief’s Desk | One Life, Two Responsibilities | 454 | 99.78% | on site, not timed yet |
-| 2 | 9–13 | Personal Experiences | Human Welfare and Intellectual Freedom | 1381 | 99.86% | on site, not timed yet |
-| 3 | 14–15 | Journey Towards God-Realization | The Path to Paradise | 641 | 100.0% | on site, not timed yet |
-| 4 | 16–17 | Living Today with the Grave in View | At the Threshold of Eternity | 563 | 99.82% | on site, not timed yet |
-| 5 | 18 | A Sacred Responsibility | Human Life as a Trust | 331 | 100.0% | on site, not timed yet |
-| 6 | 19–20 | Trials and Response | Life Is a Test | 340 | 99.71% | on site, not timed yet |
-| 7 | 21–22 | Be a Giver Member of Society | Profitability and Beneficence | 318 | 99.69% | on site, not timed yet |
-| 8 | 23–24 | How Sudden Upheavals Reshape Human Destiny | Shock: A Blessing in Disguise | 531 | 99.81% | on site, not timed yet |
-| 9 | 25–26 | The Creation Plan of God | The World and Its Perfect Counterpart | 329 | 99.7% | on site, not timed yet |
-| 10 | 27–28 | Towards Global Peace | The Construction of the Mind | 505 | 100.0% | on site, not timed yet |
-| 11 | 29–30 |  | The Quran and Near-Death Experiences | 575 | 99.83% | on site, not timed yet |
-| 12 | 31–33 | The Power of Will | Through Hardship to the Stars | 671 | 99.85% | on site, not timed yet |
-| 13 | 34–35 | Women in Islam | International Women’s Day | 644 | 100.0% | on site, not timed yet |
-| 14 | 42–45 | Restoring the Lost Balance | Islam and the Modern Man | 1120 | 100.0% | on site, not timed yet |
-| 15 | 46–47 | The Language of Fear | Backbiting | 482 | 99.79% | on site, not timed yet |
-| 16 | 48–49 |  | Your Questions Answered | 649 | 100.0% | on site, not timed yet |
-| 17 | 50–51 | From the Scriptures | The Word of God | 404 | 100.0% | on site, not timed yet |
+| 1 | 6–7 | From the Editor-In-Chief’s Desk | One Life, Two Responsibilities | 454 | 99.78% | 98.2% heard |
+| 2 | 9–13 | Personal Experiences | Human Welfare and Intellectual Freedom | 1381 | 99.86% | 96.8% heard |
+| 3 | 14–15 | Journey Towards God-Realization | The Path to Paradise | 641 | 100.0% | 60.6% heard – **check** |
+| 4 | 16–17 | Living Today with the Grave in View | At the Threshold of Eternity | 563 | 99.82% | 99.2% heard |
+| 5 | 18 | A Sacred Responsibility | Human Life as a Trust | 331 | 100.0% | 97.9% heard |
+| 6 | 19–20 | Trials and Response | Life Is a Test | 340 | 99.71% | 98.1% heard |
+| 7 | 21–22 | Be a Giver Member of Society | Profitability and Beneficence | 318 | 99.69% | 98.1% heard |
+| 8 | 23–24 | How Sudden Upheavals Reshape Human Destiny | Shock: A Blessing in Disguise | 531 | 99.81% | 98.6% heard |
+| 9 | 25–26 | The Creation Plan of God | The World and Its Perfect Counterpart | 329 | 99.7% | 96.2% heard |
+| 10 | 27–28 | Towards Global Peace | The Construction of the Mind | 505 | 100.0% | 97.2% heard |
+| 11 | 29–30 |  | The Quran and Near-Death Experiences | 575 | 99.83% | 95.8% heard |
+| 12 | 31–33 | The Power of Will | Through Hardship to the Stars | 671 | 99.85% | 99.1% heard |
+| 13 | 34–35 | Women in Islam | International Women’s Day | 644 | 100.0% | 99.0% heard |
+| 14 | 42–45 | Restoring the Lost Balance | Islam and the Modern Man | 1120 | 100.0% | 97.5% heard |
+| 15 | 46–47 | The Language of Fear | Backbiting | 482 | 99.79% | 95.5% heard |
+| 16 | 48–49 |  | Your Questions Answered | 649 | 100.0% | 96.5% heard |
+| 17 | 50–51 | From the Scriptures | The Word of God | 404 | 100.0% | 98.5% heard |
 
 ## Needs a look
 
+- recording of article 3 “The Path to Paradise”: 253 words of the text are not read (“selfassertion such people strive to restrain negative emotions…”); the recording has 400 words that are not in the text (“makes the heart beat in harmony with higher…”); only 60.6% of the text is heard in the recording
 - PDF page 37: 237 words are on no web article (“maulana wahiduddin khans message of peace humbly describing…”)
 - PDF page 41: 205 words are on no web article (“young readers to their strength faith and devotion…”)
 

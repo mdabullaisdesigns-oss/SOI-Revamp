@@ -5,7 +5,7 @@
  "articles": {
   "new-years-message-for-2026": {
    "title": "New Year’s Message for 2026",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-new-years-message-for-2026.mp3",
    "chars": 2076,
    "sentences": [
@@ -41,7 +41,7 @@
   },
   "a-tragic-day-in-delhi-and-call-for-peace": {
    "title": "A Tragic Day in Delhi and Call for Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-a-tragic-day-in-delhi-and-call-for-peace.mp3",
    "chars": 3536,
    "sentences": [
@@ -84,7 +84,7 @@
   },
   "the-vision-for-india": {
    "title": "The Vision for India",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-the-vision-for-india.mp3",
    "chars": 6003,
    "sentences": [
@@ -167,7 +167,7 @@
   },
   "the-upbringing-of-children": {
    "title": "The Upbringing of Children",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-the-upbringing-of-children.mp3",
    "chars": 3564,
    "sentences": [
@@ -229,7 +229,7 @@
   },
   "fasting-and-character-building": {
    "title": "Fasting and Character-Building",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-fasting-and-character-building.mp3",
    "chars": 3913,
    "sentences": [
@@ -265,7 +265,7 @@
   },
   "a-culture-of-self-control": {
    "title": "A Culture of Self-Control",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-a-culture-of-self-control.mp3",
    "chars": 3897,
    "sentences": [
@@ -313,7 +313,7 @@
   },
   "man-an-exceptional-creature": {
    "title": "Man: An Exceptional Creature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-man-an-exceptional-creature.mp3",
    "chars": 2222,
    "sentences": [
@@ -341,7 +341,7 @@
   },
   "national-awareness-and-nation-building": {
    "title": "National Awareness and Nation-Building",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-national-awareness-and-nation-building.mp3",
    "chars": 2417,
    "sentences": [
@@ -370,7 +370,7 @@
   },
   "planting-the-tree-of-the-nation": {
    "title": "Planting the Tree of the Nation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-planting-the-tree-of-the-nation.mp3",
    "chars": 2125,
    "sentences": [
@@ -400,7 +400,7 @@
   },
   "how-to-behave-with-neighbours": {
    "title": "How to Behave with Neighbours",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-how-to-behave-with-neighbours.mp3",
    "chars": 2158,
    "sentences": [
@@ -424,7 +424,7 @@
   },
   "compassionate-behaviour": {
    "title": "Compassionate Behaviour",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-compassionate-behaviour.mp3",
    "chars": 2051,
    "sentences": [
@@ -460,7 +460,7 @@
   },
   "in-search-of-meaning": {
    "title": "In Search of Meaning",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-in-search-of-meaning.mp3",
    "chars": 5478,
    "sentences": [
@@ -530,7 +530,7 @@
   },
   "when-kings-feared-the-humble": {
    "title": "When Kings Feared the Humble",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-when-kings-feared-the-humble.mp3",
    "chars": 2196,
    "sentences": [
@@ -558,7 +558,7 @@
   },
   "how-resilience-rebuilds-lives": {
    "title": "How Resilience Rebuilds Lives",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-how-resilience-rebuilds-lives.mp3",
    "chars": 5016,
    "sentences": [
@@ -627,7 +627,7 @@
   },
   "when-machines-begin-to-speak-of-god": {
    "title": "When Machines Begin to Speak of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-when-machines-begin-to-speak-of-god.mp3",
    "chars": 3610,
    "sentences": [
@@ -675,7 +675,7 @@
   },
   "the-true-measure-of-wealth": {
    "title": "The True Measure of Wealth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-the-true-measure-of-wealth.mp3",
    "chars": 2105,
    "sentences": [
@@ -708,7 +708,7 @@
   },
   "what-parents-face-today": {
    "title": "What Parents Face Today",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-what-parents-face-today.mp3",
    "chars": 4733,
    "sentences": [
@@ -767,7 +767,7 @@
   },
   "the-divine-warning-of-doomsday": {
    "title": "The Divine Warning of Doomsday",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-the-divine-warning-of-doomsday.mp3",
    "chars": 4611,
    "sentences": [
@@ -814,7 +814,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-your-questions-answered.mp3",
    "chars": 8354,
    "sentences": [
@@ -914,7 +914,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-01-the-word-of-god.mp3",
    "chars": 2958,
    "sentences": [

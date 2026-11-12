@@ -6,27 +6,30 @@ Text from the WordPress page **ISSUE SEP-OCT 2024** (id 2506). **18 articles, 11
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 5–6 | From the Editor-In-Chief’s Desk | The Earth Is Moving Toward Its End | 673 | 100.0% | on site, not timed yet |
-| 2 | 8–11 | Personal Experiences | Discovery of the Quran | 1624 | 99.94% | on site, not timed yet |
-| 3 | 12–14 | Journey Towards God-Realization | The Search for True Divine Connection | 771 | 99.87% | on site, not timed yet |
-| 4 | 15–16 | Count Your Blessings | Superior Management | 689 | 100.0% | on site, not timed yet |
-| 5 | 17–18 | A Poison to the Soul | The Destructive Force of Hatred | 535 | 99.81% | on site, not timed yet |
-| 6 | 19 | A Noble Endeavour | The Reality of Tazkiyah | 379 | 100.0% | on site, not timed yet |
-| 7 | 20–21 | Contemplate Life’s Greatest Realities | Think, Reflect, and Realize | 738 | 99.86% | on site, not timed yet |
-| 8 | 22–24 | Balancing Quranic Interpretation | Traditional Scholars and Modern Science | 713 | 99.86% | on site, not timed yet |
-| 9 | 25–26 | Towards Global Peace | The Cause of Extremism Is Discontentment | 419 | 95.94% | on site, not timed yet |
-| 10 | 27–28 | Help for Tsunami Victims | Children’s Corner | 513 | 99.42% | on site, not timed yet |
-| 11 | 29–30 | Through Education and Home | Nurturing Better Human Beings | 689 | 100.0% | on site, not timed yet |
-| 12 | 36 | A Mirage of Success | The Greatest Deception | 314 | 100.0% | on site, not timed yet |
-| 13 | 37–38 | A Spiritual Perspective | The Path to Contentment | 507 | 99.8% | on site, not timed yet |
-| 14 | 39 |  | The Virtue of Returning Good for Evil | 309 | 100.0% | on site, not timed yet |
-| 15 | 40–42 | Evidence of Eternal Existence | Life After Death | 881 | 99.89% | on site, not timed yet |
-| 16 | 43–44 | When Death Approaches | The Final Realization | 780 | 99.87% | on site, not timed yet |
-| 17 | 46–48 |  | Your Questions Answered | 965 | 99.9% | on site, not timed yet |
-| 18 | 49–50 |  | Share Your Reflections on the Spirit of Islam | 321 | 99.69% | on site, not timed yet |
+| 1 | 5–6 | From the Editor-In-Chief’s Desk | The Earth Is Moving Toward Its End | 673 | 100.0% | 95.6% heard |
+| 2 | 8–11 | Personal Experiences | Discovery of the Quran | 1624 | 99.94% | 68.0% heard – **check** |
+| 3 | 12–14 | Journey Towards God-Realization | The Search for True Divine Connection | 771 | 99.87% | 96.7% heard |
+| 4 | 15–16 | Count Your Blessings | Superior Management | 689 | 100.0% | 96.8% heard |
+| 5 | 17–18 | A Poison to the Soul | The Destructive Force of Hatred | 535 | 99.81% | 97.1% heard |
+| 6 | 19 | A Noble Endeavour | The Reality of Tazkiyah | 379 | 100.0% | 89.6% heard |
+| 7 | 20–21 | Contemplate Life’s Greatest Realities | Think, Reflect, and Realize | 738 | 99.86% | 97.0% heard – **check** |
+| 8 | 22–24 | Balancing Quranic Interpretation | Traditional Scholars and Modern Science | 713 | 99.86% | 98.3% heard |
+| 9 | 25–26 | Towards Global Peace | The Cause of Extremism Is Discontentment | 419 | 95.94% | 95.1% heard |
+| 10 | 27–28 | Help for Tsunami Victims | Children’s Corner | 513 | 99.42% | 98.6% heard |
+| 11 | 29–30 | Through Education and Home | Nurturing Better Human Beings | 689 | 100.0% | 97.8% heard |
+| 12 | 36 | A Mirage of Success | The Greatest Deception | 314 | 100.0% | 98.3% heard |
+| 13 | 37–38 | A Spiritual Perspective | The Path to Contentment | 507 | 99.8% | 98.2% heard – **check** |
+| 14 | 39 |  | The Virtue of Returning Good for Evil | 309 | 100.0% | 95.9% heard |
+| 15 | 40–42 | Evidence of Eternal Existence | Life After Death | 881 | 99.89% | 98.4% heard |
+| 16 | 43–44 | When Death Approaches | The Final Realization | 780 | 99.87% | 98.1% heard |
+| 17 | 46–48 |  | Your Questions Answered | 965 | 99.9% | 96.1% heard |
+| 18 | 49–50 |  | Share Your Reflections on the Spirit of Islam | 321 | 99.69% | 95.1% heard |
 
 ## Needs a look
 
+- recording of article 2 “Discovery of the Quran”: 500 words of the text are not read (“the minimum is that at least one month…”); the recording has 485 words that are not in the text (“in this world we see people living in…”); only 68.0% of the text is heard in the recording
+- recording of article 7 “Think, Reflect, and Realize”: the recording has 736 words that are not in the text (“death is not the end but the beginning…”)
+- recording of article 13 “The Path to Contentment”: the recording has 323 words that are not in the text (“qur an reminds us of the transient nature…”)
 - PDF page 33: 263 words are on no web article (“students shared their impressions of the talk two…”)
 - PDF page 45: 355 words are on no web article (“the word of god from the scriptures the…”)
 

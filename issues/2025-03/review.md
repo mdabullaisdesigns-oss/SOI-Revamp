@@ -6,25 +6,26 @@ Text from the WordPress page **ISSUE MAR-APR 2025** (id 2771). **16 articles, 9,
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–7 | From the Editor-In-Chief’s Desk | The Realization of Paradise | 433 | 99.77% | on site, not timed yet |
-| 2 | 9–11 | Journey Towards God-Realization | The Transformation of the Universe | 659 | 100.0% | on site, not timed yet |
-| 3 | 12–13 | Personal Experiences | Importance of Education | 556 | 100.0% | on site, not timed yet |
-| 4 | 14–17 | Utilize the Month of Ramadan | A Month of Self-Purification | 944 | 100.0% | on site, not timed yet |
-| 5 | 18–19 | A Night of Spiritual Awakening and Intellectual Revolution | Laylat-Ul-Qadr | 671 | 100.0% | on site, not timed yet |
-| 6 | 20–21 | Time to Wake Up | The Los Angeles Wildfires | 620 | 99.84% | on site, not timed yet |
-| 7 | 22–24 | Know the Divine Wisdom | The Problem of Evil | 751 | 100.0% | on site, not timed yet |
-| 8 | 25–27 | Towards Global Peace | The Power of Peace | 577 | 100.0% | on site, not timed yet |
-| 9 | 28–31 |  | The Importance of Situation Management | 1267 | 99.84% | on site, not timed yet |
-| 10 | 32 | Realize and Progress | Our Potential Is Our Worth | 302 | 99.67% | on site, not timed yet |
-| 11 | 33–34 | Quran Stories – Little Library (4 Board Books Set) | Children’s Corner | 275 | 100.0% | on site, not timed yet |
-| 12 | 42–43 | From the Scriptures | Women in Islam | 411 | 100.0% | on site, not timed yet |
-| 13 | 44 | Nurturing Greatness | Woman at the Beginning of All Great Things | 290 | 100.0% | on site, not timed yet |
-| 14 | 45 | Key to Success | Total Involvement | 419 | 99.76% | on site, not timed yet |
-| 15 | 46–47 | From the Scriptures | The Word of God | 533 | 100.0% | on site, not timed yet |
-| 16 | 48–51 |  | Your Questions Answered | 1290 | 100.0% | on site, not timed yet |
+| 1 | 6–7 | From the Editor-In-Chief’s Desk | The Realization of Paradise | 433 | 99.77% | 97.6% heard |
+| 2 | 9–11 | Journey Towards God-Realization | The Transformation of the Universe | 659 | 100.0% | 96.0% heard |
+| 3 | 12–13 | Personal Experiences | Importance of Education | 556 | 100.0% | 97.8% heard |
+| 4 | 14–17 | Utilize the Month of Ramadan | A Month of Self-Purification | 944 | 100.0% | 97.3% heard |
+| 5 | 18–19 | A Night of Spiritual Awakening and Intellectual Revolution | Laylat-Ul-Qadr | 671 | 100.0% | 95.6% heard |
+| 6 | 20–21 | Time to Wake Up | The Los Angeles Wildfires | 620 | 99.84% | 97.0% heard – **check** |
+| 7 | 22–24 | Know the Divine Wisdom | The Problem of Evil | 751 | 100.0% | 97.6% heard |
+| 8 | 25–27 | Towards Global Peace | The Power of Peace | 577 | 100.0% | 97.9% heard |
+| 9 | 28–31 |  | The Importance of Situation Management | 1267 | 99.84% | 96.5% heard |
+| 10 | 32 | Realize and Progress | Our Potential Is Our Worth | 302 | 99.67% | 98.8% heard |
+| 11 | 33–34 | Quran Stories – Little Library (4 Board Books Set) | Children’s Corner | 275 | 100.0% | 96.4% heard |
+| 12 | 42–43 | From the Scriptures | Women in Islam | 411 | 100.0% | 96.0% heard |
+| 13 | 44 | Nurturing Greatness | Woman at the Beginning of All Great Things | 290 | 100.0% | 98.8% heard |
+| 14 | 45 | Key to Success | Total Involvement | 419 | 99.76% | 97.5% heard |
+| 15 | 46–47 | From the Scriptures | The Word of God | 533 | 100.0% | 98.5% heard |
+| 16 | 48–51 |  | Your Questions Answered | 1290 | 100.0% | 98.6% heard |
 
 ## Needs a look
 
+- recording of article 6 “The Los Angeles Wildfires”: the recording has 60 words that are not in the text (“bakari this teaching underscores the act of planting…”)
 - PDF page 35: 254 words are on no web article (“cps newsletter mr khurram qureshis report on meeting…”)
 - PDF page 39: 255 words are on no web article (“quran stall at msi royal function hall raichur…”)
 - PDF page 40: 230 words are on no web article (“stance particularly his opposition to the fatwa against…”)

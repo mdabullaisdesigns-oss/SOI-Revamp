@@ -6,27 +6,28 @@ Text from the WordPress page **ISSUE NOV-DEC 2025** (id 3046). **17 articles, 13
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–7 | Nonviolence: A Force Stronger Than War | From the Desk of the Editorial Director | 631 | 99.84% | on site, not timed yet |
-| 2 | 9–11 | Personal Experiences | Trials Ignite Growth | 652 | 99.85% | on site, not timed yet |
-| 3 | 12–15 | Journey Towards God-Realization | A God-Oriented Life | 1162 | 99.91% | on site, not timed yet |
-| 4 | 16–18 | Thinking Beyond Ourselves | The Case for External Guidance | 897 | 99.78% | on site, not timed yet |
-| 5 | 19–20 |  | Islamic Interpretation of Life | 773 | 100.0% | on site, not timed yet |
-| 6 | 21–24 | Need for Divine Guidance | In Quest of Reality | 1054 | 99.81% | on site, not timed yet |
-| 7 | 25–26 |  | Love for God Beyond Worldly Attachments | 692 | 99.86% | on site, not timed yet |
-| 8 | 27–30 | Towards Global Peace | Better Home, Better Society | 1043 | 99.9% | on site, not timed yet |
-| 9 | 31–32 | A Lifetime of Self-Mastery | Beyond Excuses | 604 | 99.83% | on site, not timed yet |
-| 10 | 33–34 | How to Nurture It? | Feeling of Gratitude | 611 | 99.84% | on site, not timed yet |
-| 11 | 35–38 |  | An Interview with Janab Abdus-Samad | 1402 | 100.0% | on site, not timed yet |
-| 12 | 39–41 | From Premium Features to the Soul’s True Upgrade | Beyond the Latest Model | 1012 | 99.7% | on site, not timed yet |
-| 13 | 42 | Surah Al-Fatiha for Kids | Children’s Corner | 236 | 100.0% | on site, not timed yet |
-| 14 | 43–44 |  | The Upper Hand of Effort | 559 | 100.0% | on site, not timed yet |
-| 15 | 45–46 |  | Blueprint for Lasting Peace in Palestine | 568 | 99.12% | on site, not timed yet |
-| 16 | 47–48 | From the Scriptures | The Word of God | 604 | 100.0% | on site, not timed yet |
-| 17 | 49–51 |  | Your Questions Answered | 1106 | 100.0% | on site, not timed yet |
+| 1 | 6–7 | Nonviolence: A Force Stronger Than War | From the Desk of the Editorial Director | 631 | 99.84% | 96.8% heard |
+| 2 | 9–11 | Personal Experiences | Trials Ignite Growth | 652 | 99.85% | 96.7% heard |
+| 3 | 12–15 | Journey Towards God-Realization | A God-Oriented Life | 1162 | 99.91% | 98.4% heard |
+| 4 | 16–18 | Thinking Beyond Ourselves | The Case for External Guidance | 897 | 99.78% | 97.2% heard |
+| 5 | 19–20 |  | Islamic Interpretation of Life | 773 | 100.0% | 98.3% heard |
+| 6 | 21–24 | Need for Divine Guidance | In Quest of Reality | 1054 | 99.81% | 96.5% heard |
+| 7 | 25–26 |  | Love for God Beyond Worldly Attachments | 692 | 99.86% | 96.1% heard |
+| 8 | 27–30 | Towards Global Peace | Better Home, Better Society | 1043 | 99.9% | 98.8% heard |
+| 9 | 31–32 | A Lifetime of Self-Mastery | Beyond Excuses | 604 | 99.83% | 97.0% heard |
+| 10 | 33–34 | How to Nurture It? | Feeling of Gratitude | 611 | 99.84% | 98.3% heard |
+| 11 | 35–38 |  | An Interview with Janab Abdus-Samad | 1402 | 100.0% | 95.5% heard |
+| 12 | 39–41 | From Premium Features to the Soul’s True Upgrade | Beyond the Latest Model | 1012 | 99.7% | 96.4% heard |
+| 13 | 42 | Surah Al-Fatiha for Kids | Children’s Corner | 236 | 100.0% | 96.6% heard |
+| 14 | 43–44 |  | The Upper Hand of Effort | 559 | 100.0% | 64.1% heard – **check** |
+| 15 | 45–46 |  | Blueprint for Lasting Peace in Palestine | 568 | 99.12% | 95.9% heard |
+| 16 | 47–48 | From the Scriptures | The Word of God | 604 | 100.0% | 97.8% heard |
+| 17 | 49–51 |  | Your Questions Answered | 1106 | 100.0% | 90.5% heard – **check** |
 
 ## Needs a look
 
-Nothing.
+- recording of article 14 “The Upper Hand of Effort”: 202 words of the text are not read (“a man came to the prophet of islam…”); the recording has 409 words that are not in the text (“favors makes one a taker in society society…”); only 64.1% of the text is heard in the recording
+- recording of article 17 “Your Questions Answered”: 52 words of the text are not read (“personality development is through patience practically patience preserves…”); the recording has 245 words that are not in the text (“time what is time time is a passing…”)
 
 ## Passages on the web page that the PDF does not have (4+ words)
 

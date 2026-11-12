@@ -41,6 +41,7 @@ def main():
     narr = json.load(open(base + "/narration.json", encoding="utf-8"))["articles"]
     src = json.load(open(base + "/audio-source.json", encoding="utf-8"))
     audio = {}
+    full = {a["id"]: a for a in json.load(open(base + "/issue.json", encoding="utf-8"))["articles"]}
     for aid, a in narr.items():
         raw = f"{base}/audio-raw/{aid}.json"
         if aid not in src or not os.path.exists(raw):
@@ -82,9 +83,18 @@ def main():
                 after = min(((s, t) for s, t in known if s > si), default=(n_s, r["duration"]))
                 t = before[1] + (after[1] - before[1]) * (si - before[0]) / max(1, after[0] - before[0])
             times.append(round(max(t, times[-1] if times else 0.0), 2))
+        # the old recordings also read the kicker, the author note and the boxed quotes, which are on the page
+        # but outside the read-along sentences: those words are not a difference between recording and text
+        fw = norm(" ".join([full.get(aid, {}).get("kicker", ""), full.get(aid, {}).get("author", "")] +
+                           ["".join(x[1] for x in it["runs"]) for it in full.get(aid, {}).get("items", [])]))
+        fh_page = list(fh)
+        for i, j, n in difflib.SequenceMatcher(None, fw, hw, autojunk=False).get_matching_blocks():
+            if n >= 4:
+                for k in range(n):
+                    fh_page[j + k] = True
         match = round(100.0 * sum(ft) / max(1, len(tw)), 1)
         extra = round(100.0 * (len(hw) - sum(fh)) / max(1, len(hw)), 1)
-        miss, more = runs_of(ft, tw), runs_of(fh, hw)
+        miss, more = runs_of(ft, tw), runs_of(fh_page, hw)
         entry = {"url": src[aid]["url"].replace("http://", "https://"), "duration": r["duration"], "times": times,
                  "match": match, "not_in_text": extra, "voice": "Gary (existing recording)"}
         notes = []

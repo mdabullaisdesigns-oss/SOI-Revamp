@@ -5,7 +5,7 @@
  "articles": {
   "new-years-message": {
    "title": "New Year’s Message",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-new-years-message.mp3",
    "chars": 3416,
    "sentences": [
@@ -48,7 +48,7 @@
   },
   "steps-towards-shared-global-prosperity": {
    "title": "Steps Towards Shared Global Prosperity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-steps-towards-shared-global-prosperity.mp3",
    "chars": 5320,
    "sentences": [
@@ -92,7 +92,7 @@
   },
   "the-universe-as-a-grand-factory": {
    "title": "The Universe as a Grand Factory",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-the-universe-as-a-grand-factory.mp3",
    "chars": 2687,
    "sentences": [
@@ -125,7 +125,7 @@
   },
   "the-upbringing-of-children": {
    "title": "The Upbringing of Children",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-the-upbringing-of-children.mp3",
    "chars": 4095,
    "sentences": [
@@ -169,7 +169,7 @@
   },
   "the-power-of-quality-in-todays-world": {
    "title": "The Power of Quality in Today’s World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-the-power-of-quality-in-todays-world.mp3",
    "chars": 3266,
    "sentences": [
@@ -203,7 +203,7 @@
   },
   "inheritance": {
    "title": "Inheritance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-inheritance.mp3",
    "chars": 5044,
    "sentences": [
@@ -257,7 +257,7 @@
   },
   "the-art-of-thinking": {
    "title": "The Art of Thinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-the-art-of-thinking.mp3",
    "chars": 3750,
    "sentences": [
@@ -309,7 +309,7 @@
   },
   "adjustment-in-married-life": {
    "title": "Adjustment in Married Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-adjustment-in-married-life.mp3",
    "chars": 4507,
    "sentences": [
@@ -370,7 +370,7 @@
   },
   "religious-differences": {
    "title": "Religious Differences",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-religious-differences.mp3",
    "chars": 4452,
    "sentences": [
@@ -417,7 +417,7 @@
   },
   "peace-and-security": {
    "title": "Peace and Security",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-peace-and-security.mp3",
    "chars": 9864,
    "sentences": [
@@ -512,7 +512,7 @@
   },
   "the-evolution-of-anesthesia": {
    "title": "The Evolution of Anesthesia",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-the-evolution-of-anesthesia.mp3",
    "chars": 5103,
    "sentences": [
@@ -564,7 +564,7 @@
   },
   "childrens-corner": {
    "title": "Children’s Corner",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-childrens-corner.mp3",
    "chars": 1923,
    "sentences": [
@@ -599,7 +599,7 @@
   },
   "transforming-challenges-into-opportunities": {
    "title": "Transforming Challenges into Opportunities",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-transforming-challenges-into-opportunities.mp3",
    "chars": 2272,
    "sentences": [
@@ -631,7 +631,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-your-questions-answered.mp3",
    "chars": 4932,
    "sentences": [
@@ -686,7 +686,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-01-the-word-of-god.mp3",
    "chars": 3178,
    "sentences": [

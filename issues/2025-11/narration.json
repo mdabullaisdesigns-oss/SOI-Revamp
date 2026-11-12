@@ -5,7 +5,7 @@
  "articles": {
   "from-the-desk-of-the-editorial-director": {
    "title": "From the Desk of the Editorial Director",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-from-the-desk-of-the-editorial-director.mp3",
    "chars": 3670,
    "sentences": [
@@ -50,7 +50,7 @@
   },
   "trials-ignite-growth": {
    "title": "Trials Ignite Growth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-trials-ignite-growth.mp3",
    "chars": 3959,
    "sentences": [
@@ -102,7 +102,7 @@
   },
   "a-god-oriented-life": {
    "title": "A God-Oriented Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-a-god-oriented-life.mp3",
    "chars": 6674,
    "sentences": [
@@ -191,7 +191,7 @@
   },
   "the-case-for-external-guidance": {
    "title": "The Case for External Guidance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-the-case-for-external-guidance.mp3",
    "chars": 6179,
    "sentences": [
@@ -261,7 +261,7 @@
   },
   "islamic-interpretation-of-life": {
    "title": "Islamic Interpretation of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-islamic-interpretation-of-life.mp3",
    "chars": 4627,
    "sentences": [
@@ -316,7 +316,7 @@
   },
   "in-quest-of-reality": {
    "title": "In Quest of Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-in-quest-of-reality.mp3",
    "chars": 7496,
    "sentences": [
@@ -393,7 +393,7 @@
   },
   "love-for-god-beyond-worldly-attachments": {
    "title": "Love for God Beyond Worldly Attachments",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-love-for-god-beyond-worldly-attachments.mp3",
    "chars": 4171,
    "sentences": [
@@ -448,7 +448,7 @@
   },
   "better-home-better-society": {
    "title": "Better Home, Better Society",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-better-home-better-society.mp3",
    "chars": 6279,
    "sentences": [
@@ -527,7 +527,7 @@
   },
   "beyond-excuses": {
    "title": "Beyond Excuses",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-beyond-excuses.mp3",
    "chars": 3686,
    "sentences": [
@@ -572,7 +572,7 @@
   },
   "feeling-of-gratitude": {
    "title": "Feeling of Gratitude",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-feeling-of-gratitude.mp3",
    "chars": 3735,
    "sentences": [
@@ -620,7 +620,7 @@
   },
   "an-interview-with-janab-abdus-samad": {
    "title": "An Interview with Janab Abdus-Samad",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-an-interview-with-janab-abdus-samad.mp3",
    "chars": 8011,
    "sentences": [
@@ -726,7 +726,7 @@
   },
   "beyond-the-latest-model": {
    "title": "Beyond the Latest Model",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-beyond-the-latest-model.mp3",
    "chars": 6115,
    "sentences": [
@@ -798,7 +798,7 @@
   },
   "childrens-corner": {
    "title": "Children’s Corner",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-childrens-corner.mp3",
    "chars": 1530,
    "sentences": [
@@ -821,7 +821,7 @@
   },
   "the-upper-hand-of-effort": {
    "title": "The Upper Hand of Effort",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-the-upper-hand-of-effort.mp3",
    "chars": 3438,
    "sentences": [
@@ -875,7 +875,7 @@
   },
   "blueprint-for-lasting-peace-in-palestine": {
    "title": "Blueprint for Lasting Peace in Palestine",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-blueprint-for-lasting-peace-in-palestine.mp3",
    "chars": 4153,
    "sentences": [
@@ -927,7 +927,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-the-word-of-god.mp3",
    "chars": 3438,
    "sentences": [
@@ -971,7 +971,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-11-your-questions-answered.mp3",
    "chars": 6535,
    "sentences": [

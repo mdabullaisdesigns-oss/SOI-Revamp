@@ -6,27 +6,29 @@ Text from the WordPress page **ISSUE JULY-AUGUST 2026** (id 3320). **17 articles
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–8 | From the Editor-In-Chief’s Desk | The Test of Power | 874 | 100.0% | on site, not timed yet |
-| 2 | 10–11 | Personal Experiences | A Tomato Miracle | 339 | 100.0% | on site, not timed yet |
-| 3 | 12–13 | Journey Towards God-Realization | Hidden Signs of Life | 352 | 100.0% | on site, not timed yet |
-| 4 | 14–15 | Signs Beyond Knowledge | The Unseen Reality | 505 | 99.8% | on site, not timed yet |
-| 5 | 16–20 | Understanding Man Across History, Religion and Philosophy | In Search of Self | 1348 | 99.93% | on site, not timed yet |
-| 6 | 21–22 | The Secret Peace | Accepting Life’s Reality | 339 | 100.0% | on site, not timed yet |
-| 7 | 15–24 | Journey to Faith | Beyond Material Pleasure | 654 | 100.0% | on site, not timed yet |
-| 8 | 25–26 | Towards Global Peace | The Positive Mind | 418 | 100.0% | on site, not timed yet |
-| 9 | 27–29 | Thinking Good Thoughts | The Power of Trust | 781 | 91.68% | on site, not timed yet |
-| 10 | 30–31 | The Secret Strength | Rising Above Storms | 323 | 99.69% | on site, not timed yet |
-| 11 | 32 | Giving Without Expectation | The Rose’s Secret | 322 | 100.0% | on site, not timed yet |
-| 12 | 33 | Lessons in Giving | The Tree’s Message | 321 | 100.0% | on site, not timed yet |
-| 13 | 34–35 | Salman Al Farsi – the Devoted Companion of the Prophet | Children’s Corner | 553 | 100.0% | on site, not timed yet |
-| 14 | 40–42 | The Purpose of Intelligence | Beyond Mere Appearance | 911 | 100.0% | on site, not timed yet |
-| 15 | 43–45 | Preparing for Eternity | The Truly Lived Day | 631 | 100.0% | on site, not timed yet |
-| 16 | 46–48 |  | Your Questions Answered | 1148 | 100.0% | on site, not timed yet |
-| 17 | 49–50 | From the Scriptures | The Word of God | 506 | 100.0% | on site, not timed yet |
+| 1 | 6–8 | From the Editor-In-Chief’s Desk | The Test of Power | 874 | 100.0% | 99.0% heard |
+| 2 | 10–11 | Personal Experiences | A Tomato Miracle | 339 | 100.0% | 99.2% heard |
+| 3 | 12–13 | Journey Towards God-Realization | Hidden Signs of Life | 352 | 100.0% | 98.3% heard |
+| 4 | 14–15 | Signs Beyond Knowledge | The Unseen Reality | 505 | 99.8% | 96.0% heard |
+| 5 | 16–20 | Understanding Man Across History, Religion and Philosophy | In Search of Self | 1348 | 99.93% | 66.0% heard – **check** |
+| 6 | 21–22 | The Secret Peace | Accepting Life’s Reality | 339 | 100.0% | 99.7% heard |
+| 7 | 15–24 | Journey to Faith | Beyond Material Pleasure | 654 | 100.0% | 98.8% heard |
+| 8 | 25–26 | Towards Global Peace | The Positive Mind | 418 | 100.0% | 99.2% heard |
+| 9 | 27–29 | Thinking Good Thoughts | The Power of Trust | 781 | 91.68% | 96.5% heard |
+| 10 | 30–31 | The Secret Strength | Rising Above Storms | 323 | 99.69% | 99.5% heard |
+| 11 | 32 | Giving Without Expectation | The Rose’s Secret | 322 | 100.0% | 98.8% heard |
+| 12 | 33 | Lessons in Giving | The Tree’s Message | 321 | 100.0% | 99.1% heard |
+| 13 | 34–35 | Salman Al Farsi – the Devoted Companion of the Prophet | Children’s Corner | 553 | 100.0% | 95.3% heard |
+| 14 | 40–42 | The Purpose of Intelligence | Beyond Mere Appearance | 911 | 100.0% | 98.5% heard |
+| 15 | 43–45 | Preparing for Eternity | The Truly Lived Day | 631 | 100.0% | 99.3% heard |
+| 16 | 46–48 |  | Your Questions Answered | 1148 | 100.0% | 87.5% heard – **check** |
+| 17 | 49–50 | From the Scriptures | The Word of God | 506 | 100.0% | 83.9% heard – **check** |
 
 ## Needs a look
 
-Nothing.
+- recording of article 5 “In Search of Self”: 440 words of the text are not read (“the quran presents a profound picture of human…”); only 66.0% of the text is heard in the recording
+- recording of article 16 “Your Questions Answered”: 96 words of the text are not read (“the remedy for ignorance is asking questions prophet…”); only 87.5% of the text is heard in the recording
+- recording of article 17 “The Word of God”: 66 words of the text are not read (“the quran is the book of god it…”); only 83.9% of the text is heard in the recording
 
 ## Passages on the web page that the PDF does not have (4+ words)
 

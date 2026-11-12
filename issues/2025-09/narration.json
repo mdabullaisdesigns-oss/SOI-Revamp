@@ -5,7 +5,7 @@
  "articles": {
   "lessons-from-the-honeybee": {
    "title": "Lessons from the Honeybee",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-lessons-from-the-honeybee.mp3",
    "chars": 3303,
    "sentences": [
@@ -50,7 +50,7 @@
   },
   "purification-of-the-heart": {
    "title": "Purification of the Heart",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-purification-of-the-heart.mp3",
    "chars": 2184,
    "sentences": [
@@ -79,7 +79,7 @@
   },
   "overcoming-ones-limitations": {
    "title": "Overcoming One’s Limitations",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-overcoming-ones-limitations.mp3",
    "chars": 2427,
    "sentences": [
@@ -111,7 +111,7 @@
   },
   "mahatma-gandhis-unfulfilled-mission": {
    "title": "Mahatma Gandhi’s Unfulfilled Mission",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-mahatma-gandhis-unfulfilled-mission.mp3",
    "chars": 4678,
    "sentences": [
@@ -156,7 +156,7 @@
   },
   "the-sublime-character-of-the-prophet": {
    "title": "The Sublime Character of the Prophet",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-the-sublime-character-of-the-prophet.mp3",
    "chars": 4889,
    "sentences": [
@@ -216,7 +216,7 @@
   },
   "only-givers-remain": {
    "title": "Only Givers Remain",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-only-givers-remain.mp3",
    "chars": 3372,
    "sentences": [
@@ -262,7 +262,7 @@
   },
   "religion-and-politics": {
    "title": "Religion and Politics",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-religion-and-politics.mp3",
    "chars": 2532,
    "sentences": [
@@ -300,7 +300,7 @@
   },
   "the-other-side-of-death": {
    "title": "The Other Side of Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-the-other-side-of-death.mp3",
    "chars": 2027,
    "sentences": [
@@ -325,7 +325,7 @@
   },
   "creation-plan-of-god": {
    "title": "Creation Plan of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-creation-plan-of-god.mp3",
    "chars": 7674,
    "sentences": [
@@ -432,7 +432,7 @@
   },
   "the-world-is-not-a-typewriter": {
    "title": "The World Is Not a Typewriter",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-the-world-is-not-a-typewriter.mp3",
    "chars": 2216,
    "sentences": [
@@ -468,7 +468,7 @@
   },
   "objective-thinking": {
    "title": "Objective Thinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-objective-thinking.mp3",
    "chars": 2058,
    "sentences": [
@@ -494,7 +494,7 @@
   },
   "man-in-gods-world": {
    "title": "Man in God’s World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-man-in-gods-world.mp3",
    "chars": 2212,
    "sentences": [
@@ -520,7 +520,7 @@
   },
   "islam-misunderstood": {
    "title": "Islam Misunderstood",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-islam-misunderstood.mp3",
    "chars": 2138,
    "sentences": [
@@ -549,7 +549,7 @@
   },
   "how-to-be-happy": {
    "title": "How to Be Happy",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-how-to-be-happy.mp3",
    "chars": 6772,
    "sentences": [
@@ -641,7 +641,7 @@
   },
   "from-escape-to-awakening": {
    "title": "From Escape to Awakening",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-from-escape-to-awakening.mp3",
    "chars": 5108,
    "sentences": [
@@ -708,7 +708,7 @@
   },
   "abandoning-arrogance": {
    "title": "Abandoning Arrogance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-abandoning-arrogance.mp3",
    "chars": 6009,
    "sentences": [
@@ -774,7 +774,7 @@
   },
   "maulana-wahiduddin-khan-ambassador-of-peace": {
    "title": "Maulana Wahiduddin Khan — Ambassador of Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-maulana-wahiduddin-khan-ambassador-of-peace.mp3",
    "chars": 6569,
    "sentences": [
@@ -854,7 +854,7 @@
   },
   "childrens-corner": {
    "title": "Children’s Corner",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-childrens-corner.mp3",
    "chars": 1609,
    "sentences": [
@@ -878,7 +878,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-the-word-of-god.mp3",
    "chars": 1808,
    "sentences": [
@@ -905,7 +905,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-09-your-questions-answered.mp3",
    "chars": 4881,
    "sentences": [

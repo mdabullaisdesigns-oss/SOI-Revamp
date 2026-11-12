@@ -229,7 +229,10 @@
  "overall_match": 99.86,
  "flagged": [],
  "unplaced": [],
- "warnings": [],
+ "warnings": [
+  "recording of article 14 “The Upper Hand of Effort”: 202 words of the text are not read (“a man came to the prophet of islam…”); the recording has 409 words that are not in the text (“favors makes one a taker in society society…”); only 64.1% of the text is heard in the recording",
+  "recording of article 17 “Your Questions Answered”: 52 words of the text are not read (“personality development is through patience practically patience preserves…”); the recording has 245 words that are not in the text (“time what is time time is a passing…”)"
+ ],
  "pdf_pages_not_on_page": [
   {
    "page": 1,

@@ -5,7 +5,7 @@
  "articles": {
   "the-test-of-power": {
    "title": "The Test of Power",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-test-of-power.mp3",
    "chars": 5477,
    "sentences": [
@@ -76,7 +76,7 @@
   },
   "a-tomato-miracle": {
    "title": "A Tomato Miracle",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-a-tomato-miracle.mp3",
    "chars": 2242,
    "sentences": [
@@ -116,7 +116,7 @@
   },
   "hidden-signs-of-life": {
    "title": "Hidden Signs of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-hidden-signs-of-life.mp3",
    "chars": 2442,
    "sentences": [
@@ -159,7 +159,7 @@
   },
   "the-unseen-reality": {
    "title": "The Unseen Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-unseen-reality.mp3",
    "chars": 3404,
    "sentences": [
@@ -210,7 +210,7 @@
   },
   "in-search-of-self": {
    "title": "In Search of Self",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-in-search-of-self.mp3",
    "chars": 9133,
    "sentences": [
@@ -324,7 +324,7 @@
   },
   "accepting-lifes-reality": {
    "title": "Accepting Life’s Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-accepting-lifes-reality.mp3",
    "chars": 2353,
    "sentences": [
@@ -367,7 +367,7 @@
   },
   "beyond-material-pleasure": {
    "title": "Beyond Material Pleasure",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-beyond-material-pleasure.mp3",
    "chars": 4040,
    "sentences": [
@@ -428,7 +428,7 @@
   },
   "the-positive-mind": {
    "title": "The Positive Mind",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-positive-mind.mp3",
    "chars": 2447,
    "sentences": [
@@ -465,7 +465,7 @@
   },
   "the-power-of-trust": {
    "title": "The Power of Trust",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-power-of-trust.mp3",
    "chars": 5205,
    "sentences": [
@@ -537,7 +537,7 @@
   },
   "rising-above-storms": {
    "title": "Rising Above Storms",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-rising-above-storms.mp3",
    "chars": 2247,
    "sentences": [
@@ -581,7 +581,7 @@
   },
   "the-roses-secret": {
    "title": "The Rose’s Secret",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-roses-secret.mp3",
    "chars": 1976,
    "sentences": [
@@ -619,7 +619,7 @@
   },
   "the-trees-message": {
    "title": "The Tree’s Message",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-trees-message.mp3",
    "chars": 2086,
    "sentences": [
@@ -656,7 +656,7 @@
   },
   "childrens-corner": {
    "title": "Children’s Corner",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-childrens-corner.mp3",
    "chars": 3162,
    "sentences": [
@@ -701,7 +701,7 @@
   },
   "beyond-mere-appearance": {
    "title": "Beyond Mere Appearance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-beyond-mere-appearance.mp3",
    "chars": 5670,
    "sentences": [
@@ -776,7 +776,7 @@
   },
   "the-truly-lived-day": {
    "title": "The Truly Lived Day",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-truly-lived-day.mp3",
    "chars": 3970,
    "sentences": [
@@ -839,7 +839,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-your-questions-answered.mp3",
    "chars": 7086,
    "sentences": [
@@ -898,7 +898,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-07-the-word-of-god.mp3",
    "chars": 2957,
    "sentences": [

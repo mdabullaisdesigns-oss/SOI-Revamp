@@ -6,21 +6,21 @@ Text from the WordPress page **ISSUE JAN-FEB 2025** (id 2643). **15 articles, 9,
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–7 |  | New Year’s Message | 568 | 99.82% | on site, not timed yet |
-| 2 | 8–11 | From the Editor-In-Chief’s Desk | Steps Towards Shared Global Prosperity | 805 | 100.0% | on site, not timed yet |
-| 3 | 13–14 | Journey Towards God-Realization | The Universe as a Grand Factory | 365 | 99.73% | on site, not timed yet |
-| 4 | 15–16 | Personal Experiences | The Upbringing of Children | 575 | 99.48% | on site, not timed yet |
-| 5 | 17–18 | Awakening the Potential Within | The Power of Quality in Today’s World | 454 | 98.68% | on site, not timed yet |
-| 6 | 19–20 | Material vs Moral | Inheritance | 735 | 99.86% | on site, not timed yet |
-| 7 | 21–22 | Result-Oriented Thinking | The Art of Thinking | 580 | 99.48% | on site, not timed yet |
-| 8 | 23–25 |  | Adjustment in Married Life | 655 | 100.0% | on site, not timed yet |
-| 9 | 26–28 | The Road Ahead | Religious Differences | 656 | 99.85% | on site, not timed yet |
-| 10 | 29–34 | Towards Global Peace | Peace and Security | 1644 | 99.88% | on site, not timed yet |
-| 11 | 35–37 | A Progressive Journey from Science to Spirituality | The Evolution of Anesthesia | 764 | 100.0% | on site, not timed yet |
-| 12 | 38–40 | Prophet Muhammad Stories – Little Library (4 Board Books Set) | Children’s Corner | 311 | 99.04% | on site, not timed yet |
-| 13 | 46–47 | Through Positive Thinking | Transforming Challenges into Opportunities | 306 | 96.08% | on site, not timed yet |
-| 14 | 48–50 |  | Your Questions Answered | 808 | 99.63% | on site, not timed yet |
-| 15 | 51–52 | From the Scriptures | The Word of God | 577 | 100.0% | on site, not timed yet |
+| 1 | 6–7 |  | New Year’s Message | 568 | 99.82% | 97.2% heard |
+| 2 | 8–11 | From the Editor-In-Chief’s Desk | Steps Towards Shared Global Prosperity | 805 | 100.0% | 97.3% heard |
+| 3 | 13–14 | Journey Towards God-Realization | The Universe as a Grand Factory | 365 | 99.73% | 99.0% heard |
+| 4 | 15–16 | Personal Experiences | The Upbringing of Children | 575 | 99.48% | 99.0% heard |
+| 5 | 17–18 | Awakening the Potential Within | The Power of Quality in Today’s World | 454 | 98.68% | 98.0% heard |
+| 6 | 19–20 | Material vs Moral | Inheritance | 735 | 99.86% | 96.7% heard |
+| 7 | 21–22 | Result-Oriented Thinking | The Art of Thinking | 580 | 99.48% | 97.1% heard |
+| 8 | 23–25 |  | Adjustment in Married Life | 655 | 100.0% | 98.3% heard |
+| 9 | 26–28 | The Road Ahead | Religious Differences | 656 | 99.85% | 98.3% heard |
+| 10 | 29–34 | Towards Global Peace | Peace and Security | 1644 | 99.88% | 96.7% heard |
+| 11 | 35–37 | A Progressive Journey from Science to Spirituality | The Evolution of Anesthesia | 764 | 100.0% | 96.5% heard |
+| 12 | 38–40 | Prophet Muhammad Stories – Little Library (4 Board Books Set) | Children’s Corner | 311 | 99.04% | 92.7% heard |
+| 13 | 46–47 | Through Positive Thinking | Transforming Challenges into Opportunities | 306 | 96.08% | 97.1% heard |
+| 14 | 48–50 |  | Your Questions Answered | 808 | 99.63% | 98.6% heard |
+| 15 | 51–52 | From the Scriptures | The Word of God | 577 | 100.0% | 97.9% heard |
 
 ## Needs a look
 

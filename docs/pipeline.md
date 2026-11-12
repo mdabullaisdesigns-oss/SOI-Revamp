@@ -20,4 +20,10 @@ Re-run stages 2–6 afterwards.
 ## Rules the pipeline keeps
 - Nothing is dropped silently: `review.md` lists every block that is not in an article, for the owner to confirm.
 - The "We asked ChatGPT about CPS International" page is never included.
-- Issues with Gary audio (Sep-Oct 2024 → Sep-Oct 2026) take their text from the WordPress page (`sources/pages.txt`), not from the PDF. Not built yet – see `docs/pilot-results.md`.
+- Issues with Gary audio (Sep-Oct 2024 → Sep-Oct 2026, `sources/gary-issues.txt`) take their text from the WordPress page: `pipeline/from_wp.py` → `issue.json`, `pipeline/check_wp.py` cross-checks it with the PDF, the "Listen to existing audio" workflow writes the words heard in each MP3 to `audio-raw/`, and `pipeline/align.py` turns them into read-along timings (`audio.json`) and flags recordings that do not match the text.
+
+## Whole archive
+`python3 pipeline/batch.py --quick` runs stages 2–6 for every issue and writes `inventory/batch-status.csv`; `docs/batch-results.md` lists the issues that need a look.
+
+## Website
+`python3 site/build_site.py` writes the static site to `dist/` (home, archive, one page per issue, Pagefind search with one record per article, redirects for old `?page_id=` links). Publish with Cloudflare Pages: build command `pip install "pagefind[bin]" && python3 site/build_site.py`, output directory `dist`.

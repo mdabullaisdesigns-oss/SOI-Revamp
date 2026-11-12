@@ -6,27 +6,28 @@ Text from the WordPress page **ISSUE NOV-DEC 2024** (id 2564). **18 articles, 12
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 5–6 | From the Editor-In-Chief’s Desk | Peaceful Resolution of Conflict | 652 | 99.85% | on site, not timed yet |
-| 2 | 8–9 | Personal Experiences | Recognizing Our Own Faults | 315 | 99.37% | on site, not timed yet |
-| 3 | 10–11 | Journey Towards God-Realization | Modern Atheism: An Analysis | 477 | 99.79% | on site, not timed yet |
-| 4 | 12 | The Key to Success | The Power of Quality in Today’s World | 244 | 100.0% | on site, not timed yet |
-| 5 | 13–14 | Be a Positive Force | The Destructive Force of Hatred | 621 | 99.68% | on site, not timed yet |
-| 6 | 15–17 | Through Science and Religion | In Quest of Reality | 1053 | 99.91% | on site, not timed yet |
-| 7 | 18–20 | Lessons from the Rightly-Guided Caliphs | Leadership Through Expertise | 966 | 100.0% | on site, not timed yet |
-| 8 | 21–22 | Reconciling the Two Extremes | Human Nature and Positive Thinking | 459 | 99.78% | on site, not timed yet |
-| 9 | 23–25 | Reconciling the Two Extremes | The Creative Study of the Quran | 865 | 100.0% | on site, not timed yet |
-| 10 | 26–27 | Articles Written by CPS Members | Discoveries of the Modern Age | 777 | 100.0% | on site, not timed yet |
-| 11 | 28–30 | Towards Global Peace | The True Meaning of Martyrdom | 746 | 100.0% | on site, not timed yet |
-| 12 | 31–32 | Restoring Faith and Universal Fraternity | Pilgrims of Hope | 643 | 100.0% | on site, not timed yet |
-| 13 | 33 | Be a Giver Member | A Peaceful Citizen | 240 | 98.75% | on site, not timed yet |
-| 14 | 34–37 |  | An Interview with Maulana Iqbal Umri | 1526 | 100.0% | on site, not timed yet |
+| 1 | 5–6 | From the Editor-In-Chief’s Desk | Peaceful Resolution of Conflict | 652 | 99.85% | 97.4% heard |
+| 2 | 8–9 | Personal Experiences | Recognizing Our Own Faults | 315 | 99.37% | 96.3% heard |
+| 3 | 10–11 | Journey Towards God-Realization | Modern Atheism: An Analysis | 477 | 99.79% | 98.1% heard |
+| 4 | 12 | The Key to Success | The Power of Quality in Today’s World | 244 | 100.0% | 96.8% heard |
+| 5 | 13–14 | Be a Positive Force | The Destructive Force of Hatred | 621 | 99.68% | 96.1% heard |
+| 6 | 15–17 | Through Science and Religion | In Quest of Reality | 1053 | 99.91% | 97.0% heard |
+| 7 | 18–20 | Lessons from the Rightly-Guided Caliphs | Leadership Through Expertise | 966 | 100.0% | 55.7% heard – **check** |
+| 8 | 21–22 | Reconciling the Two Extremes | Human Nature and Positive Thinking | 459 | 99.78% | 98.8% heard |
+| 9 | 23–25 | Reconciling the Two Extremes | The Creative Study of the Quran | 865 | 100.0% | 96.9% heard |
+| 10 | 26–27 | Articles Written by CPS Members | Discoveries of the Modern Age | 777 | 100.0% | 98.0% heard |
+| 11 | 28–30 | Towards Global Peace | The True Meaning of Martyrdom | 746 | 100.0% | 97.7% heard |
+| 12 | 31–32 | Restoring Faith and Universal Fraternity | Pilgrims of Hope | 643 | 100.0% | 98.1% heard |
+| 13 | 33 | Be a Giver Member | A Peaceful Citizen | 240 | 98.75% | 98.8% heard |
+| 14 | 34–37 |  | An Interview with Maulana Iqbal Umri | 1526 | 100.0% | 94.0% heard |
 | 15 | 38 | A Fundamental Requirement | The Consideration of Circumstances | 301 | 100.0% | **none** |
-| 16 | 43–44 |  | Children’s Corner | 610 | 100.0% | on site, not timed yet |
-| 17 | 45–47 |  | Your Questions Answered | 910 | 100.0% | on site, not timed yet |
-| 18 | 48–50 | From the Scriptures | The Word of God | 1062 | 100.0% | on site, not timed yet |
+| 16 | 43–44 |  | Children’s Corner | 610 | 100.0% | 97.2% heard |
+| 17 | 45–47 |  | Your Questions Answered | 910 | 100.0% | 96.7% heard |
+| 18 | 48–50 | From the Scriptures | The Word of God | 1062 | 100.0% | 98.6% heard |
 
 ## Needs a look
 
+- recording of article 7 “Leadership Through Expertise”: 420 words of the text are not read (“the dangers of misplaced leadership when a financier…”); the recording has 1107 words that are not in the text (“in quest of reality through science and religion…”); only 55.7% of the text is heard in the recording
 - no recording on the site for article 15 “The Consideration of Circumstances”
 - PDF page 39: 207 words are on no web article (“cps newsletter we are pleased to report that…”)
 

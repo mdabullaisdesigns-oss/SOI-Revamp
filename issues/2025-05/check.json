@@ -201,7 +201,10 @@
  "overall_match": 99.91,
  "flagged": [],
  "unplaced": [],
- "warnings": [],
+ "warnings": [
+  "recording of article 5 “The Essence of Praying”: 54 words of the text are not read (“if you memorize a few phrases and recite…”)",
+  "recording of article 7 “Treasury of Islamic Virtues”: 603 words of the text are not read (“alternatively financially independent individuals should pursue noble causes…”); only 59.9% of the text is heard in the recording"
+ ],
  "pdf_pages_not_on_page": [
   {
    "page": 2,

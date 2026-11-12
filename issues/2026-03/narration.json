@@ -5,7 +5,7 @@
  "articles": {
   "one-life-two-responsibilities": {
    "title": "One Life, Two Responsibilities",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-one-life-two-responsibilities.mp3",
    "chars": 2295,
    "sentences": [
@@ -39,7 +39,7 @@
   },
   "human-welfare-and-intellectual-freedom": {
    "title": "Human Welfare and Intellectual Freedom",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-human-welfare-and-intellectual-freedom.mp3",
    "chars": 9241,
    "sentences": [
@@ -122,7 +122,7 @@
   },
   "the-path-to-paradise": {
    "title": "The Path to Paradise",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-the-path-to-paradise.mp3",
    "chars": 3913,
    "sentences": [
@@ -172,7 +172,7 @@
   },
   "at-the-threshold-of-eternity": {
    "title": "At the Threshold of Eternity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-at-the-threshold-of-eternity.mp3",
    "chars": 3668,
    "sentences": [
@@ -215,7 +215,7 @@
   },
   "human-life-as-a-trust": {
    "title": "Human Life as a Trust",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-human-life-as-a-trust.mp3",
    "chars": 2026,
    "sentences": [
@@ -249,7 +249,7 @@
   },
   "life-is-a-test": {
    "title": "Life Is a Test",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-life-is-a-test.mp3",
    "chars": 2347,
    "sentences": [
@@ -285,7 +285,7 @@
   },
   "profitability-and-beneficence": {
    "title": "Profitability and Beneficence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-profitability-and-beneficence.mp3",
    "chars": 2184,
    "sentences": [
@@ -313,7 +313,7 @@
   },
   "shock-a-blessing-in-disguise": {
    "title": "Shock: A Blessing in Disguise",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-shock-a-blessing-in-disguise.mp3",
    "chars": 3496,
    "sentences": [
@@ -363,7 +363,7 @@
   },
   "the-world-and-its-perfect-counterpart": {
    "title": "The World and Its Perfect Counterpart",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-the-world-and-its-perfect-counterpart.mp3",
    "chars": 2185,
    "sentences": [
@@ -395,7 +395,7 @@
   },
   "the-construction-of-the-mind": {
    "title": "The Construction of the Mind",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-the-construction-of-the-mind.mp3",
    "chars": 2983,
    "sentences": [
@@ -435,7 +435,7 @@
   },
   "the-quran-and-near-death-experiences": {
    "title": "The Quran and Near-Death Experiences",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-the-quran-and-near-death-experiences.mp3",
    "chars": 3710,
    "sentences": [
@@ -487,7 +487,7 @@
   },
   "through-hardship-to-the-stars": {
    "title": "Through Hardship to the Stars",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-through-hardship-to-the-stars.mp3",
    "chars": 4705,
    "sentences": [
@@ -537,7 +537,7 @@
   },
   "international-womens-day": {
    "title": "International Women’s Day",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-international-womens-day.mp3",
    "chars": 4281,
    "sentences": [
@@ -595,7 +595,7 @@
   },
   "islam-and-the-modern-man": {
    "title": "Islam and the Modern Man",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-islam-and-the-modern-man.mp3",
    "chars": 7573,
    "sentences": [
@@ -694,7 +694,7 @@
   },
   "backbiting": {
    "title": "Backbiting",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-backbiting.mp3",
    "chars": 3157,
    "sentences": [
@@ -748,7 +748,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-your-questions-answered.mp3",
    "chars": 3767,
    "sentences": [
@@ -796,7 +796,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-03-the-word-of-god.mp3",
    "chars": 2228,
    "sentences": [

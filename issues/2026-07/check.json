@@ -231,7 +231,11 @@
   9
  ],
  "unplaced": [],
- "warnings": [],
+ "warnings": [
+  "recording of article 5 “In Search of Self”: 440 words of the text are not read (“the quran presents a profound picture of human…”); only 66.0% of the text is heard in the recording",
+  "recording of article 16 “Your Questions Answered”: 96 words of the text are not read (“the remedy for ignorance is asking questions prophet…”); only 87.5% of the text is heard in the recording",
+  "recording of article 17 “The Word of God”: 66 words of the text are not read (“the quran is the book of god it…”); only 83.9% of the text is heard in the recording"
+ ],
  "pdf_pages_not_on_page": [
   {
    "page": 2,

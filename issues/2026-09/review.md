@@ -6,23 +6,23 @@ Text from the WordPress page **ISSUE SEPTEMBER-OCTOBER 2026** (id 3389). **17 ar
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–7 | From the Editor-In-Chief’s Desk | The Gift of Criticism | 435 | 99.77% | on site, not timed yet |
-| 2 | 9–10 | Personal Experiences | A Glimpse of Paradise | 345 | 99.71% | on site, not timed yet |
-| 3 | 11–13 | Journey Towards God-Realization | Discovering God Everywhere | 718 | 99.86% | on site, not timed yet |
-| 4 | 14–15 | Preparation for Eternal Life | Death Is Not Extinction | 575 | 99.83% | on site, not timed yet |
-| 5 | 16–17 | Food for the Mind | Discover Something Every Day | 391 | 87.47% | on site, not timed yet |
-| 6 | 18–19 | Freedom from Needless Anger | Save Yourself First | 355 | 99.44% | on site, not timed yet |
-| 7 | 20–21 | Character Above Every Insult | The Art of Non-Provocation | 339 | 99.71% | on site, not timed yet |
-| 8 | 22–26 | Beyond Money and Markets | The Divine System of Sustenance | 1518 | 99.93% | on site, not timed yet |
-| 9 | 27–29 | Nurturing Harmony and Hope | Women: A Force for Peace | 798 | 99.25% | on site, not timed yet |
-| 10 | 31–32 | Towards Global Peace | The Culture of Peace | 432 | 99.77% | on site, not timed yet |
-| 11 | 33–36 | Charles Duke’s Spiritual Awakening | The Voice from Mission Control | 1055 | 99.91% | on site, not timed yet |
-| 12 | 37–38 | Keep Digging Every Day | The Power of Perseverance | 351 | 99.72% | on site, not timed yet |
-| 13 | 39–40 | Daughters of the Prophet Muhammad | Children’s Corner | 407 | 100.0% | on site, not timed yet |
-| 14 | 41–44 |  | CPS Newsletter | 662 | 100.0% | on site, not timed yet |
-| 15 | 45 | What Lies Within | A Drop Reveals Character | 329 | 100.0% | on site, not timed yet |
-| 16 | 46–48 |  | Your Questions Answered | 897 | 100.0% | on site, not timed yet |
-| 17 | 49–50 | From the Scriptures | The Word of God | 577 | 100.0% | on site, not timed yet |
+| 1 | 6–7 | From the Editor-In-Chief’s Desk | The Gift of Criticism | 435 | 99.77% | 97.5% heard |
+| 2 | 9–10 | Personal Experiences | A Glimpse of Paradise | 345 | 99.71% | 99.2% heard |
+| 3 | 11–13 | Journey Towards God-Realization | Discovering God Everywhere | 718 | 99.86% | 97.4% heard |
+| 4 | 14–15 | Preparation for Eternal Life | Death Is Not Extinction | 575 | 99.83% | 98.4% heard |
+| 5 | 16–17 | Food for the Mind | Discover Something Every Day | 391 | 87.47% | 99.0% heard |
+| 6 | 18–19 | Freedom from Needless Anger | Save Yourself First | 355 | 99.44% | 94.8% heard |
+| 7 | 20–21 | Character Above Every Insult | The Art of Non-Provocation | 339 | 99.71% | 97.1% heard |
+| 8 | 22–26 | Beyond Money and Markets | The Divine System of Sustenance | 1518 | 99.93% | 97.4% heard |
+| 9 | 27–29 | Nurturing Harmony and Hope | Women: A Force for Peace | 798 | 99.25% | 92.1% heard |
+| 10 | 31–32 | Towards Global Peace | The Culture of Peace | 432 | 99.77% | 96.3% heard |
+| 11 | 33–36 | Charles Duke’s Spiritual Awakening | The Voice from Mission Control | 1055 | 99.91% | 97.0% heard |
+| 12 | 37–38 | Keep Digging Every Day | The Power of Perseverance | 351 | 99.72% | 99.5% heard |
+| 13 | 39–40 | Daughters of the Prophet Muhammad | Children’s Corner | 407 | 100.0% | 95.4% heard |
+| 14 | 41–44 |  | CPS Newsletter | 662 | 100.0% | 90.1% heard |
+| 15 | 45 | What Lies Within | A Drop Reveals Character | 329 | 100.0% | 97.9% heard |
+| 16 | 46–48 |  | Your Questions Answered | 897 | 100.0% | 98.0% heard |
+| 17 | 49–50 | From the Scriptures | The Word of God | 577 | 100.0% | 98.5% heard |
 
 ## Needs a look
 

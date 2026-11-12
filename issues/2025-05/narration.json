@@ -5,7 +5,7 @@
  "articles": {
   "awe-inspiring-universe": {
    "title": "Awe-Inspiring Universe",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-awe-inspiring-universe.mp3",
    "chars": 2402,
    "sentences": [
@@ -32,7 +32,7 @@
   },
   "the-transformation-of-the-universe": {
    "title": "The Transformation of the Universe",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-the-transformation-of-the-universe.mp3",
    "chars": 4101,
    "sentences": [
@@ -86,7 +86,7 @@
   },
   "the-opportunity-to-learn": {
    "title": "The Opportunity to Learn",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-the-opportunity-to-learn.mp3",
    "chars": 8516,
    "sentences": [
@@ -214,7 +214,7 @@
   },
   "infinite-mind-finite-world": {
    "title": "Infinite Mind, Finite World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-infinite-mind-finite-world.mp3",
    "chars": 4649,
    "sentences": [
@@ -271,7 +271,7 @@
   },
   "the-essence-of-praying": {
    "title": "The Essence of Praying",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-the-essence-of-praying.mp3",
    "chars": 18976,
    "sentences": [
@@ -535,7 +535,7 @@
   },
   "world-religions-and-the-spirit-of-tolerance": {
    "title": "World Religions and the Spirit of Tolerance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-world-religions-and-the-spirit-of-tolerance.mp3",
    "chars": 2158,
    "sentences": [
@@ -566,7 +566,7 @@
   },
   "treasury-of-islamic-virtues": {
    "title": "Treasury of Islamic Virtues",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-treasury-of-islamic-virtues.mp3",
    "chars": 9541,
    "sentences": [
@@ -700,7 +700,7 @@
   },
   "from-the-cradle-to-eternity": {
    "title": "From the Cradle to Eternity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-from-the-cradle-to-eternity.mp3",
    "chars": 3538,
    "sentences": [
@@ -746,7 +746,7 @@
   },
   "from-hospital-rooms-to-heavenly-realms": {
    "title": "From Hospital Rooms to Heavenly Realms",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-from-hospital-rooms-to-heavenly-realms.mp3",
    "chars": 3824,
    "sentences": [
@@ -794,7 +794,7 @@
   },
   "countdown-to-doomsday": {
    "title": "Countdown to Doomsday",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-countdown-to-doomsday.mp3",
    "chars": 6139,
    "sentences": [
@@ -861,7 +861,7 @@
   },
   "success-through-struggle": {
    "title": "Success Through Struggle",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-success-through-struggle.mp3",
    "chars": 1894,
    "sentences": [
@@ -890,7 +890,7 @@
   },
   "childrens-corner": {
    "title": "Children’s Corner",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-childrens-corner.mp3",
    "chars": 513,
    "sentences": [
@@ -908,7 +908,7 @@
   },
   "hidden-blessings-of-life": {
    "title": "Hidden Blessings of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-hidden-blessings-of-life.mp3",
    "chars": 2880,
    "sentences": [
@@ -957,7 +957,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-the-word-of-god.mp3",
    "chars": 2842,
    "sentences": [
@@ -999,7 +999,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-your-questions-answered.mp3",
    "chars": 4383,
    "sentences": [

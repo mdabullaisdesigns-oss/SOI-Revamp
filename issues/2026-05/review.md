@@ -6,24 +6,25 @@ Text from the WordPress page **ISSUE MAY-JUNE 2026** (id 3252). **15 articles, 1
 
 | # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |
 |---|---|---|---|---|---|---|
-| 1 | 6–7 | From the Editor-In-Chief’s Desk | Reaching for Higher Ground | 599 | 99.83% | on site, not timed yet |
-| 2 | 9–11 | Personal Experiences | Age and Health | 755 | 100.0% | on site, not timed yet |
-| 3 | 12–15 | Journey Towards God-Realization | Spiritual Uplift | 1233 | 99.84% | on site, not timed yet |
+| 1 | 6–7 | From the Editor-In-Chief’s Desk | Reaching for Higher Ground | 599 | 99.83% | 98.9% heard |
+| 2 | 9–11 | Personal Experiences | Age and Health | 755 | 100.0% | 98.9% heard |
+| 3 | 12–15 | Journey Towards God-Realization | Spiritual Uplift | 1233 | 99.84% | 25.7% heard – **check** |
 | 4 | 16–20 | Signs Beyond Science | Eclipse: A Divine Miracle | 1602 | 99.81% | **none** |
-| 5 | 21–23 | From Conflict to Insight | The Blessings of Disagreement | 1041 | 99.9% | on site, not timed yet |
-| 6 | 24–26 | A Trust from God | Nature at Man’s Service | 1008 | 99.9% | on site, not timed yet |
-| 7 | 27 | Duty Beyond Emotion | Honouring One’s Parents | 273 | 99.63% | on site, not timed yet |
-| 8 | 28–30 | Evidence Beyond Observation | Scientific Principles for God’s Existence | 966 | 99.9% | on site, not timed yet |
-| 9 | 31–33 | Towards Global Peace | No Extremism | 706 | 99.58% | on site, not timed yet |
-| 10 | 34–35 | Driven by Purpose | Super Performers | 622 | 99.84% | on site, not timed yet |
-| 11 | 36–38 | Harmony Through Balance | Divine Order of Life | 751 | 99.87% | on site, not timed yet |
-| 12 | 39–40 | Signs of Divine Care | The Preservation of Planet Earth | 640 | 99.53% | on site, not timed yet |
-| 13 | 44–46 | A Necessary Step for Wider Understanding | Roman Urdu Translation of the Quran | 792 | 99.62% | on site, not timed yet |
-| 14 | 47–48 |  | Your Questions Answered | 727 | 97.25% | on site, not timed yet |
-| 15 | 49–50 | From the Scriptures | The Word of God | 765 | 100.0% | on site, not timed yet |
+| 5 | 21–23 | From Conflict to Insight | The Blessings of Disagreement | 1041 | 99.9% | 96.4% heard |
+| 6 | 24–26 | A Trust from God | Nature at Man’s Service | 1008 | 99.9% | 98.9% heard |
+| 7 | 27 | Duty Beyond Emotion | Honouring One’s Parents | 273 | 99.63% | 97.8% heard |
+| 8 | 28–30 | Evidence Beyond Observation | Scientific Principles for God’s Existence | 966 | 99.9% | 97.6% heard |
+| 9 | 31–33 | Towards Global Peace | No Extremism | 706 | 99.58% | 97.0% heard |
+| 10 | 34–35 | Driven by Purpose | Super Performers | 622 | 99.84% | 99.0% heard |
+| 11 | 36–38 | Harmony Through Balance | Divine Order of Life | 751 | 99.87% | 97.2% heard |
+| 12 | 39–40 | Signs of Divine Care | The Preservation of Planet Earth | 640 | 99.53% | 97.6% heard |
+| 13 | 44–46 | A Necessary Step for Wider Understanding | Roman Urdu Translation of the Quran | 792 | 99.62% | 95.8% heard |
+| 14 | 47–48 |  | Your Questions Answered | 727 | 97.25% | 96.6% heard |
+| 15 | 49–50 | From the Scriptures | The Word of God | 765 | 100.0% | 97.9% heard |
 
 ## Needs a look
 
+- recording of article 3 “Spiritual Uplift”: 949 words of the text are not read (“spiritual uplift spiritual refinement islam provides a complete…”); the recording has 1291 words that are not in the text (“in earlier times eclipses were explained solely through…”); only 25.7% of the text is heard in the recording
 - no recording on the site for article 4 “Eclipse: A Divine Miracle”
 
 ## Passages on the web page that the PDF does not have (4+ words)
