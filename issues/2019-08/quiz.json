@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A Realistic Approach",
+   "page": 5,
+   "link": "a-realistic-approach",
+   "q": "What is the foremost problem of Muslims, according to the article?",
+   "options": [
+    [
+     "Lack of history",
+     "Not quite. The article says: Their inability to be realistic in their approach."
+    ],
+    [
+     "Their inability to be realistic in their approach",
+     "It needs immediate solution."
+    ],
+    [
+     "Lack of numbers",
+     "Not quite. The article says: Their inability to be realistic in their approach."
+    ],
+    [
+     "Lack of land",
+     "Not quite. The article says: Their inability to be realistic in their approach."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Their inability to be realistic in their approach."
+  },
+  {
+   "article": "Islamic Society",
+   "page": 15,
+   "link": "islamic-society",
+   "q": "What does the Quran (93: 9) command about the orphan?",
+   "options": [
+    [
+     "‘Ignore the orphan.’",
+     "Not quite. The article says: ‘Do not oppress the orphan.’."
+    ],
+    [
+     "‘Do not oppress the orphan.’",
+     "Treat him with love."
+    ],
+    [
+     "‘Take his wealth.’",
+     "Not quite. The article says: ‘Do not oppress the orphan.’."
+    ],
+    [
+     "‘Send him away.’",
+     "Not quite. The article says: ‘Do not oppress the orphan.’."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "‘Do not oppress the orphan.’"
+  },
+  {
+   "article": "Earthquake",
+   "page": 17,
+   "link": "earthquake",
+   "q": "What comment was frequently heard after the 1990 earthquake in Iran?",
+   "options": [
+    [
+     "That it was predicted",
+     "Not quite. The article says: That it was God’s punishment for the Iranians."
+    ],
+    [
+     "That it was God’s punishment for the Iranians",
+     "The article questions such remarks."
+    ],
+    [
+     "That it was man-made",
+     "Not quite. The article says: That it was God’s punishment for the Iranians."
+    ],
+    [
+     "That it was mild",
+     "Not quite. The article says: That it was God’s punishment for the Iranians."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A comment frequently heard at that time was that this was God’s punishment for the Iranians."
+  },
+  {
+   "article": "Perseverance",
+   "page": 21,
+   "link": "perseverance",
+   "q": "What does the wayfarer have to do despite unfavourable situations?",
+   "options": [
+    [
+     "Continue his journey",
+     "Success lies in perseverance."
+    ],
+    [
+     "Turn back",
+     "Not quite. The article says: Continue his journey."
+    ],
+    [
+     "Wait for help",
+     "Not quite. The article says: Continue his journey."
+    ],
+    [
+     "Complain",
+     "Not quite. The article says: Continue his journey."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Yet the wayfarer has to continue his journey."
+  },
+  {
+   "article": "Play Your Part in Conserving Water",
+   "page": 29,
+   "link": "play-your-part-in-conserving-water",
+   "q": "Which poem has the line “Water, water everywhere, Nor any drop to drink”?",
+   "options": [
+    [
+     "Paradise Lost",
+     "Not quite. The article says: The Rime of the Ancient Mariner."
+    ],
+    [
+     "The Rime of the Ancient Mariner",
+     "By Coleridge."
+    ],
+    [
+     "The Waste Land",
+     "Not quite. The article says: The Rime of the Ancient Mariner."
+    ],
+    [
+     "Daffodils",
+     "Not quite. The article says: The Rime of the Ancient Mariner."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In The Rime of the Ancient Mariner … he exclaims, “Water, water everywhere, Nor any drop to drink!”"
+  },
+  {
+   "article": "Wishful Thinking",
+   "page": 33,
+   "link": "wishful-thinking",
+   "q": "What did Neil Armstrong do after leaving NASA in 1971?",
+   "options": [
+    [
+     "He retired to a farm at once",
+     "Not quite. The article says: He became a university professor."
+    ],
+    [
+     "He became a university professor",
+     "At the University of Cincinnati."
+    ],
+    [
+     "He entered politics",
+     "Not quite. The article says: He became a university professor."
+    ],
+    [
+     "He became a pilot for an airline",
+     "Not quite. The article says: He became a university professor."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He took up a job as a university professor at the University of Cincinnati."
+  },
+  {
+   "article": "Nineteen Eighty-Four",
+   "page": 37,
+   "link": "nineteen-eighty-four",
+   "q": "Who wrote the novel 1984?",
+   "options": [
+    [
+     "Aldous Huxley",
+     "Not quite. The article says: George Orwell."
+    ],
+    [
+     "H. G. Wells",
+     "Not quite. The article says: George Orwell."
+    ],
+    [
+     "George Orwell",
+     "Its 70th anniversary fell on June 8, 2019."
+    ],
+    [
+     "Charles Dickens",
+     "Not quite. The article says: George Orwell."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The publication of 1984, George Orwell’s famous novel of life in the future."
+  },
+  {
+   "article": "Two Methods",
+   "page": 40,
+   "link": "two-methods",
+   "q": "Who challenged one another in the legend?",
+   "options": [
+    [
+     "The wind and the sun",
+     "To see which was more powerful."
+    ],
+    [
+     "The river and the sea",
+     "Not quite. The article says: The wind and the sun."
+    ],
+    [
+     "The hare and the tortoise",
+     "Not quite. The article says: The wind and the sun."
+    ],
+    [
+     "The lion and the mouse",
+     "Not quite. The article says: The wind and the sun."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The wind and the sun once challenged one another as to which one was more powerful."
+  },
+  {
+   "article": "Two Attitudes",
+   "page": 42,
+   "link": "two-attitudes",
+   "q": "What will those who denied God cry out on Judgement Day (78: 40)?",
+   "options": [
+    [
+     "“Give us more time to enjoy!”",
+     "Not quite. The article says: “Would that I were dust!”."
+    ],
+    [
+     "“We have won!”",
+     "Not quite. The article says: “Would that I were dust!”."
+    ],
+    [
+     "“Would that I were dust!”",
+     "On seeing their doom."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: “Would that I were dust!”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "In anguish they will cry out: “Would that I were dust!”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "Why did God create angels?",
+   "options": [
+    [
+     "To carry messages and execute orders",
+     "Not as sources of blessing themselves."
+    ],
+    [
+     "To be worshipped",
+     "Not quite. The article says: To carry messages and execute orders."
+    ],
+    [
+     "To rule men",
+     "Not quite. The article says: To carry messages and execute orders."
+    ],
+    [
+     "For no purpose",
+     "Not quite. The article says: To carry messages and execute orders."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God created angels to carry messages and execute orders."
+  }
+ ]
+}

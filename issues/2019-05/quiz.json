@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Ramazan",
+   "page": 5,
+   "link": "ramazan",
+   "q": "Where was the Prophet when the first revelation came?",
+   "options": [
+    [
+     "On a journey to Syria",
+     "Not quite. The article says: In the cave of Hira."
+    ],
+    [
+     "In Madinah",
+     "Not quite. The article says: In the cave of Hira."
+    ],
+    [
+     "In the cave of Hira",
+     "It continued for the next 23 years."
+    ],
+    [
+     "At the Kabah",
+     "Not quite. The article says: In the cave of Hira."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The first revelation was made to the Prophet when he was in the cave of Hira."
+  },
+  {
+   "article": "The Way of the Faithful",
+   "page": 10,
+   "link": "the-way-of-the-faithful",
+   "q": "Which tribe’s delegation came to Madinah in the incident recounted?",
+   "options": [
+    [
+     "The Quraysh",
+     "Not quite. The article says: The Banu Tamim."
+    ],
+    [
+     "The Banu Hashim",
+     "Not quite. The article says: The Banu Tamim."
+    ],
+    [
+     "The Banu Tamim",
+     "It explains verses of chapter forty-nine."
+    ],
+    [
+     "The Aws",
+     "Not quite. The article says: The Banu Tamim."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Once a delegation of the Banu Tamim tribe had come to Madinah."
+  },
+  {
+   "article": "Remembering God",
+   "page": 13,
+   "link": "remembering-god",
+   "q": "What is remembering God known as?",
+   "options": [
+    [
+     "Zikrullah",
+     "The Quran repeatedly enjoins it."
+    ],
+    [
+     "Hijrah",
+     "Not quite. The article says: Zikrullah."
+    ],
+    [
+     "Zakat",
+     "Not quite. The article says: Zikrullah."
+    ],
+    [
+     "Ijtihad",
+     "Not quite. The article says: Zikrullah."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Quran repeatedly tells us to remember God. This is what is known as zikrullah."
+  },
+  {
+   "article": "Lessons from Nature",
+   "page": 16,
+   "link": "lessons-from-nature",
+   "q": "What does the study of the universe show?",
+   "options": [
+    [
+     "Everything takes without giving",
+     "Not quite. The article says: Everything gives to others without taking in return."
+    ],
+    [
+     "Everything gives to others without taking in return",
+     "Like the sun and the atmosphere."
+    ],
+    [
+     "Nothing is connected",
+     "Not quite. The article says: Everything gives to others without taking in return."
+    ],
+    [
+     "Only man gives",
+     "Not quite. The article says: Everything gives to others without taking in return."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Everything gives something to the others without taking anything in return."
+  },
+  {
+   "article": "Building This World, or Preparing for the Hereafter?",
+   "page": 18,
+   "link": "building-this-world-or-preparing-for-the-hereafter",
+   "q": "How does everyone around you seem, according to the article?",
+   "options": [
+    [
+     "Idle",
+     "Not quite. The article says: Frantically busy with something or other."
+    ],
+    [
+     "Calm and reflective",
+     "Not quite. The article says: Frantically busy with something or other."
+    ],
+    [
+     "Asleep",
+     "Not quite. The article says: Frantically busy with something or other."
+    ],
+    [
+     "Frantically busy with something or other",
+     "With no time to think of anything else."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Everyone (including probably yourself) seems frantically busy with something or the other."
+  },
+  {
+   "article": "An Interview with Dr. Saniyasnain Khan",
+   "page": 23,
+   "link": "an-interview-with-dr-saniyasnain-khan",
+   "q": "For what is Dr. Saniyasnain Khan known?",
+   "options": [
+    [
+     "As a film director",
+     "Not quite. The article says: As a television host and author of over 100 children’s books."
+    ],
+    [
+     "As an astronaut",
+     "Not quite. The article says: As a television host and author of over 100 children’s books."
+    ],
+    [
+     "As a television host and author of over 100 children’s books",
+     "Translated into many languages."
+    ],
+    [
+     "As a cricketer",
+     "Not quite. The article says: As a television host and author of over 100 children’s books."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Saniyasnain Khan is an Indian television host and children’s author, with over 100 children’s books to his credit."
+  },
+  {
+   "article": "A Comparison",
+   "page": 37,
+   "link": "a-comparison",
+   "q": "What did the Prophet exclaim about Ramazan?",
+   "options": [
+    [
+     "“A month like any other.”",
+     "Not quite. The article says: “Welcome to the one who purifies!”."
+    ],
+    [
+     "“Let it pass quickly.”",
+     "Not quite. The article says: “Welcome to the one who purifies!”."
+    ],
+    [
+     "“The hardest month!”",
+     "Not quite. The article says: “Welcome to the one who purifies!”."
+    ],
+    [
+     "“Welcome to the one who purifies!”",
+     "Inspired by its many benefits."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The multitude of benefits of this month inspired the Prophet to exclaim: “Welcome to the one who purifies!”"
+  },
+  {
+   "article": "Unlimited Reward",
+   "page": 41,
+   "link": "unlimited-reward",
+   "q": "Who will be requited without measure (39: 10)?",
+   "options": [
+    [
+     "Those who rule",
+     "Not quite. The article says: Those who persevere patiently."
+    ],
+    [
+     "Those who are wealthy",
+     "Not quite. The article says: Those who persevere patiently."
+    ],
+    [
+     "Those who travel",
+     "Not quite. The article says: Those who persevere patiently."
+    ],
+    [
+     "Those who persevere patiently",
+     "“God’s earth is spacious.”"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Truly, those who persevere patiently will be requited without measure."
+  },
+  {
+   "article": "Respect for Humanity",
+   "page": 43,
+   "link": "respect-for-humanity",
+   "q": "What has God done for the Children of Adam (17: 70)?",
+   "options": [
+    [
+     "Honoured them and exalted them above many creatures",
+     "Man is honourable by creation."
+    ],
+    [
+     "Made them equal to animals",
+     "Not quite. The article says: Honoured them and exalted them above many creatures."
+    ],
+    [
+     "Forgotten them",
+     "Not quite. The article says: Honoured them and exalted them above many creatures."
+    ],
+    [
+     "Left them without means",
+     "Not quite. The article says: Honoured them and exalted them above many creatures."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“We have indeed honoured the Children of Adam … and exalted them above many of Our creatures.”"
+  },
+  {
+   "article": "The Way of Moderation",
+   "page": 45,
+   "link": "the-way-of-moderation",
+   "q": "What did the Prophet say of moderate action?",
+   "options": [
+    [
+     "It is the best of all actions",
+     "‘Adopt the middle path.’"
+    ],
+    [
+     "It is forbidden",
+     "Not quite. The article says: It is the best of all actions."
+    ],
+    [
+     "It is for the old",
+     "Not quite. The article says: It is the best of all actions."
+    ],
+    [
+     "It is weakness",
+     "Not quite. The article says: It is the best of all actions."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The moderate action is the best of all actions."
+  }
+ ]
+}

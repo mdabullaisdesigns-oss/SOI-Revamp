@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Cause of Discord",
+   "page": 5,
+   "link": "the-cause-of-discord",
+   "q": "To what does the article trace Muslims’ counterproductive reaction to provocation?",
+   "options": [
+    [
+     "Their numbers",
+     "Not quite. The article says: Their pride psychology."
+    ],
+    [
+     "Their geography",
+     "Not quite. The article says: Their pride psychology."
+    ],
+    [
+     "Their pride psychology",
+     "The reaction is senseless and unnecessary."
+    ],
+    [
+     "Their poverty",
+     "Not quite. The article says: Their pride psychology."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Perhaps the reason for this can be traced back to their pride psychology."
+  },
+  {
+   "article": "Without Prejudice",
+   "page": 13,
+   "link": "without-prejudice",
+   "q": "What counter-strategy did the Quran not advocate against plotters?",
+   "options": [
+    [
+     "Unearthing their plots and launching movements against them",
+     "Though it mentions the plots."
+    ],
+    [
+     "Avoidance",
+     "Not quite. The article says: Unearthing their plots and launching movements against them."
+    ],
+    [
+     "Trust in God",
+     "Not quite. The article says: Unearthing their plots and launching movements against them."
+    ],
+    [
+     "Patience",
+     "Not quite. The article says: Unearthing their plots and launching movements against them."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The counter-strategy advocated by the Quran was not to unearth their plots and launch movements."
+  },
+  {
+   "article": "Growing Old Is Certainly Not a Countdown",
+   "page": 15,
+   "link": "growing-old-is-certainly-not-a-countdown",
+   "q": "What is widely held about old age?",
+   "options": [
+    [
+     "That it is time for withdrawal or retirement",
+     "The article disagrees."
+    ],
+    [
+     "That it brings strength",
+     "Not quite. The article says: That it is time for withdrawal or retirement."
+    ],
+    [
+     "That it is the time to start a career",
+     "Not quite. The article says: That it is time for withdrawal or retirement."
+    ],
+    [
+     "That it does not exist",
+     "Not quite. The article says: That it is time for withdrawal or retirement."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It is widely held that once individuals become old, it is time to spend their remaining years in withdrawal or retirement."
+  },
+  {
+   "article": "Noble Attributes of the Prophet",
+   "page": 19,
+   "link": "noble-attributes-of-the-prophet",
+   "q": "How does the Quran describe the Prophet’s character?",
+   "options": [
+    [
+     "“Hidden”",
+     "Not quite. The article says: “Sublime”."
+    ],
+    [
+     "“Sublime”",
+     "Two sayings illustrate it."
+    ],
+    [
+     "“Ordinary”",
+     "Not quite. The article says: “Sublime”."
+    ],
+    [
+     "“Stern”",
+     "Not quite. The article says: “Sublime”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Quran describes Prophet Muhammad as one possessing a “sublime character.”"
+  },
+  {
+   "article": "Adapting to a New World",
+   "page": 28,
+   "link": "adapting-to-a-new-world",
+   "q": "Which animals were flown from Kenya to the United States in 1984?",
+   "options": [
+    [
+     "Giraffes",
+     "A long-necked species, for breeding."
+    ],
+    [
+     "Elephants",
+     "Not quite. The article says: Giraffes."
+    ],
+    [
+     "Lions",
+     "Not quite. The article says: Giraffes."
+    ],
+    [
+     "Zebras",
+     "Not quite. The article says: Giraffes."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A host of giraffes from Kenya were transported by aeroplane to the United States."
+  },
+  {
+   "article": "Serendipity",
+   "page": 33,
+   "link": "serendipity",
+   "q": "Who coined the word ‘serendipity’?",
+   "options": [
+    [
+     "Samuel Johnson",
+     "Not quite. The article says: Horace Walpole."
+    ],
+    [
+     "Coleridge",
+     "Not quite. The article says: Horace Walpole."
+    ],
+    [
+     "Shakespeare",
+     "Not quite. The article says: Horace Walpole."
+    ],
+    [
+     "Horace Walpole",
+     "For happy discoveries by accident."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Horace Walpole … then coined the word ‘serendipity’."
+  },
+  {
+   "article": "Military Power Is Self-Damaging",
+   "page": 35,
+   "link": "military-power-is-self-damaging",
+   "q": "When should force be resorted to?",
+   "options": [
+    [
+     "Whenever possible",
+     "Not quite. The article says: Only when absolutely necessary, and only temporarily."
+    ],
+    [
+     "Always",
+     "Not quite. The article says: Only when absolutely necessary, and only temporarily."
+    ],
+    [
+     "Only when absolutely necessary, and only temporarily",
+     "Excessive military focus harms."
+    ],
+    [
+     "As a first step",
+     "Not quite. The article says: Only when absolutely necessary, and only temporarily."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The use of force should be resorted to only when absolutely necessary, and that too only temporarily."
+  },
+  {
+   "article": "Silence",
+   "page": 40,
+   "link": "silence",
+   "q": "Why, said the wise man, has man two ears but one tongue?",
+   "options": [
+    [
+     "By accident",
+     "Not quite. The article says: So that we may listen more than we speak."
+    ],
+    [
+     "For balance",
+     "Not quite. The article says: So that we may listen more than we speak."
+    ],
+    [
+     "So that we may listen more than we speak",
+     "He was a man of few words."
+    ],
+    [
+     "To hear twice as fast",
+     "Not quite. The article says: So that we may listen more than we speak."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“This is so that we may listen more than we speak.”"
+  },
+  {
+   "article": "Is There an Afterlife?",
+   "page": 43,
+   "link": "is-there-an-afterlife",
+   "q": "What question opens the article?",
+   "options": [
+    [
+     "“When I am dead, will I then be raised up again?”",
+     "Few give it thought."
+    ],
+    [
+     "“What is wealth?”",
+     "Not quite. The article says: “When I am dead, will I then be raised up again?”."
+    ],
+    [
+     "“Where is paradise?”",
+     "Not quite. The article says: “When I am dead, will I then be raised up again?”."
+    ],
+    [
+     "“Who made the stars?”",
+     "Not quite. The article says: “When I am dead, will I then be raised up again?”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "When I am dead, will I then be raised up again?"
+  },
+  {
+   "article": "Islamic Virtues",
+   "page": 25,
+   "link": "islamic-virtues",
+   "q": "Who can learn from the preserved history of the Prophet and his Companions?",
+   "options": [
+    [
+     "Only historians",
+     "Not quite. The article says: Anyone who is sincere about learning from it."
+    ],
+    [
+     "No one",
+     "Not quite. The article says: Anyone who is sincere about learning from it."
+    ],
+    [
+     "Anyone who is sincere about learning from it",
+     "It is preserved with exactitude."
+    ],
+    [
+     "Only Arabs",
+     "Not quite. The article says: Anyone who is sincere about learning from it."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "… with such exactitude that anyone, who is sincere about learning from their …"
+  }
+ ]
+}

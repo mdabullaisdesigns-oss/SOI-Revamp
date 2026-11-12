@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Babri Mosque Verdict",
+   "page": 5,
+   "link": "the-babri-mosque-verdict",
+   "q": "When did the Supreme Court announce its final verdict on the Babri Masjid issue?",
+   "options": [
+    [
+     "15th August, 1947",
+     "Not quite. The article says: 9th November, 2019."
+    ],
+    [
+     "1st January, 2000",
+     "Not quite. The article says: 9th November, 2019."
+    ],
+    [
+     "6th December, 1992",
+     "Not quite. The article says: 9th November, 2019."
+    ],
+    [
+     "9th November, 2019",
+     "A unanimous five-judge Bench."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Supreme Court of India announced its final verdict on 9th November, 2019."
+  },
+  {
+   "article": "What to Do in an Unfavourable Situation?",
+   "page": 9,
+   "link": "what-to-do-in-an-unfavourable-situation",
+   "q": "Between what is the choice in life often, according to the article?",
+   "options": [
+    [
+     "East and West",
+     "Not quite. The article says: The lesser evil and the greater evil."
+    ],
+    [
+     "The lesser evil and the greater evil",
+     "Not always right and wrong."
+    ],
+    [
+     "Youth and age",
+     "Not quite. The article says: The lesser evil and the greater evil."
+    ],
+    [
+     "Wealth and fame",
+     "Not quite. The article says: The lesser evil and the greater evil."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The choice is rather between the lesser evil and the greater evil."
+  },
+  {
+   "article": "Belief in the Revealed Books",
+   "page": 13,
+   "link": "belief-in-the-revealed-books",
+   "q": "What forms an integral part of Islamic faith?",
+   "options": [
+    [
+     "Belief in poetry",
+     "Not quite. The article says: Belief in all of God’s revealed books."
+    ],
+    [
+     "Belief in no book",
+     "Not quite. The article says: Belief in all of God’s revealed books."
+    ],
+    [
+     "Belief in one book only",
+     "Not quite. The article says: Belief in all of God’s revealed books."
+    ],
+    [
+     "Belief in all of God’s revealed books",
+     "Sent to lead people from darkness to light."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The belief in all of God’s revealed books forms an integral part of Islamic faith."
+  },
+  {
+   "article": "Atheism",
+   "page": 21,
+   "link": "atheism",
+   "q": "What does atheism not result from, according to the article?",
+   "options": [
+    [
+     "A discovery of the non-existence of God",
+     "It is an outcome of being against theism."
+    ],
+    [
+     "Argument",
+     "Not quite. The article says: A discovery of the non-existence of God."
+    ],
+    [
+     "Opposition to theism",
+     "Not quite. The article says: A discovery of the non-existence of God."
+    ],
+    [
+     "Habit",
+     "Not quite. The article says: A discovery of the non-existence of God."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It does not result from a discovery of the non-existence of God."
+  },
+  {
+   "article": "God’s Bounties",
+   "page": 26,
+   "link": "gods-bounties",
+   "q": "Which phrase appears several times in the chapter Al-Rahman?",
+   "options": [
+    [
+     "‘Read!’",
+     "Not quite. The article says: ‘Which of your Lord’s wonders would you deny?’."
+    ],
+    [
+     "‘Peace be upon you.’",
+     "Not quite. The article says: ‘Which of your Lord’s wonders would you deny?’."
+    ],
+    [
+     "‘Be, and it is.’",
+     "Not quite. The article says: ‘Which of your Lord’s wonders would you deny?’."
+    ],
+    [
+     "‘Which of your Lord’s wonders would you deny?’",
+     "‘Ālā’ means wondrous bounties."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The phrase ‘Which of your Lord’s wonders would you deny?’ appears several times."
+  },
+  {
+   "article": "Unanticipated Circumstances",
+   "page": 29,
+   "link": "unanticipated-circumstances",
+   "q": "How did the woman from Lima plan to reach North America?",
+   "options": [
+    [
+     "By swimming",
+     "Not quite. The article says: Shut inside a suitcase."
+    ],
+    [
+     "By walking",
+     "Not quite. The article says: Shut inside a suitcase."
+    ],
+    [
+     "Shut inside a suitcase",
+     "She was too poor for an air fare."
+    ],
+    [
+     "By hot-air balloon",
+     "Not quite. The article says: Shut inside a suitcase."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "She conceived the notion of shutting herself inside a suitcase."
+  },
+  {
+   "article": "A Sure Path to Success",
+   "page": 31,
+   "link": "a-sure-path-to-success",
+   "q": "Whom did Raja Mahendra Pratap meet in Moscow in 1919?",
+   "options": [
+    [
+     "The Tsar",
+     "Not quite. The article says: Vladimir Lenin."
+    ],
+    [
+     "Vladimir Lenin",
+     "Who had learnt four languages."
+    ],
+    [
+     "Tolstoy",
+     "Not quite. The article says: Vladimir Lenin."
+    ],
+    [
+     "Stalin",
+     "Not quite. The article says: Vladimir Lenin."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Raja Mahendra Pratap met Vladimir Lenin in Moscow in 1919."
+  },
+  {
+   "article": "Intellectual Rebirth",
+   "page": 37,
+   "link": "intellectual-rebirth",
+   "q": "What does God do for the servant who remains patient under test?",
+   "options": [
+    [
+     "Puts new flesh and blood in him",
+     "He works with renewed vigour."
+    ],
+    [
+     "Takes his wealth",
+     "Not quite. The article says: Puts new flesh and blood in him."
+    ],
+    [
+     "Tests him for ever",
+     "Not quite. The article says: Puts new flesh and blood in him."
+    ],
+    [
+     "Leaves him alone",
+     "Not quite. The article says: Puts new flesh and blood in him."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“I free him from My clutches and put new flesh and blood in him.”"
+  },
+  {
+   "article": "Patience and Piety",
+   "page": 40,
+   "link": "patience-and-piety",
+   "q": "What are most people in the world trying to do?",
+   "options": [
+    [
+     "Avoid work",
+     "Not quite. The article says: Achieve success and outdo their fellowmen."
+    ],
+    [
+     "Leave the world",
+     "Not quite. The article says: Achieve success and outdo their fellowmen."
+    ],
+    [
+     "Help others quietly",
+     "Not quite. The article says: Achieve success and outdo their fellowmen."
+    ],
+    [
+     "Achieve success and outdo their fellowmen",
+     "With complete freedom of action."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Most of them are trying to achieve some kind of success, and striving to outdo their fellowmen."
+  },
+  {
+   "article": "Simplifying One’s Difficulties",
+   "page": 43,
+   "link": "simplifying-ones-difficulties",
+   "q": "What always accompanies adversity, in the Islamic concept of peaceful living?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: Some positive, simplifying factor."
+    ],
+    [
+     "Some positive, simplifying factor",
+     "Disadvantages come with advantages."
+    ],
+    [
+     "Punishment",
+     "Not quite. The article says: Some positive, simplifying factor."
+    ],
+    [
+     "More adversity",
+     "Not quite. The article says: Some positive, simplifying factor."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Adversity is always accompanied by some positive, simplifying factor."
+  }
+ ]
+}

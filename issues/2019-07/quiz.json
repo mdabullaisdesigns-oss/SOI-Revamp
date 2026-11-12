@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Political Power: A Responsibility",
+   "page": 5,
+   "link": "political-power-a-responsibility",
+   "q": "Whose throne did Solomon ask to be brought to him?",
+   "options": [
+    [
+     "Pharaoh’s",
+     "Not quite. The article says: The Queen of Sheba’s."
+    ],
+    [
+     "The Queen of Sheba’s",
+     "He was prophet and king."
+    ],
+    [
+     "Caesar’s",
+     "Not quite. The article says: The Queen of Sheba’s."
+    ],
+    [
+     "David’s",
+     "Not quite. The article says: The Queen of Sheba’s."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He asked for the throne of the Queen of Sheba to be brought to him."
+  },
+  {
+   "article": "Every Action Has a Consequence",
+   "page": 20,
+   "link": "every-action-has-a-consequence",
+   "q": "What advice did the Prophet give the man who asked?",
+   "options": [
+    [
+     "“Ask no one.”",
+     "Not quite. The article says: “When you decide on some action, think of its consequences.”."
+    ],
+    [
+     "“Never act.”",
+     "Not quite. The article says: “When you decide on some action, think of its consequences.”."
+    ],
+    [
+     "“Act first, think later.”",
+     "Not quite. The article says: “When you decide on some action, think of its consequences.”."
+    ],
+    [
+     "“When you decide on some action, think of its consequences.”",
+     "If good, go ahead."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“When you decide on some action, think of its consequences.”"
+  },
+  {
+   "article": "Orientalism",
+   "page": 22,
+   "link": "orientalism",
+   "q": "After which wars did modern Orientalism begin?",
+   "options": [
+    [
+     "The Napoleonic wars",
+     "Not quite. The article says: The Crusades."
+    ],
+    [
+     "The World Wars",
+     "Not quite. The article says: The Crusades."
+    ],
+    [
+     "The Crusades",
+     "From the 11th to the 14th centuries."
+    ],
+    [
+     "The Mongol invasions",
+     "Not quite. The article says: The Crusades."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Modern Orientalism began after the Crusades that continued from the 11th to the 14th centuries."
+  },
+  {
+   "article": "Complaints Take You Away from God",
+   "page": 25,
+   "link": "complaints-take-you-away-from-god",
+   "q": "What did the Prophet say of the town he was ordered to migrate to?",
+   "options": [
+    [
+     "It “will swallow other towns”",
+     "After the chieftains of Makkah forced him out."
+    ],
+    [
+     "It was unknown",
+     "Not quite. The article says: It “will swallow other towns”."
+    ],
+    [
+     "It would be destroyed",
+     "Not quite. The article says: It “will swallow other towns”."
+    ],
+    [
+     "It was very rich",
+     "Not quite. The article says: It “will swallow other towns”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“I was ordered to migrate to a town which will swallow other towns.”"
+  },
+  {
+   "article": "A Better Price",
+   "page": 28,
+   "link": "a-better-price",
+   "q": "Whose trading caravan arrived from Syria during the drought?",
+   "options": [
+    [
+     "Khalid’s",
+     "Not quite. The article says: Usman’s."
+    ],
+    [
+     "Umar’s",
+     "Not quite. The article says: Usman’s."
+    ],
+    [
+     "Ali’s",
+     "Not quite. The article says: Usman’s."
+    ],
+    [
+     "Usman’s",
+     "In the Caliphate of Abu Bakr."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The trading caravan of Usman (a senior Companion) arrived with its merchandise from Syria."
+  },
+  {
+   "article": "On a Collision Course",
+   "page": 30,
+   "link": "on-a-collision-course",
+   "q": "What did the ATC ask the commander of Flight IC 467 to do?",
+   "options": [
+    [
+     "Land at once",
+     "Not quite. The article says: Delay landing and hold at 3,000 feet."
+    ],
+    [
+     "Climb to 30,000 feet",
+     "Not quite. The article says: Delay landing and hold at 3,000 feet."
+    ],
+    [
+     "Return to Delhi",
+     "Not quite. The article says: Delay landing and hold at 3,000 feet."
+    ],
+    [
+     "Delay landing and hold at 3,000 feet",
+     "Near Goa, October 26, 1992."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He was asked by the ATC to delay landing, and to maintain his altitude at 3,000 feet."
+  },
+  {
+   "article": "The Thrill of Discovery",
+   "page": 36,
+   "link": "the-thrill-of-discovery",
+   "q": "How many times the size of the earth is the sun?",
+   "options": [
+    [
+     "1,000 times",
+     "Not quite. The article says: 1,300,000 times."
+    ],
+    [
+     "1,300,000 times",
+     "Yet a relatively small star."
+    ],
+    [
+     "10 times",
+     "Not quite. The article says: 1,300,000 times."
+    ],
+    [
+     "100 times",
+     "Not quite. The article says: 1,300,000 times."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The sun is 1,300,000 times the size of our earth."
+  },
+  {
+   "article": "Reality Is Apparent When Bias Is Shed",
+   "page": 38,
+   "link": "reality-is-apparent-when-bias-is-shed",
+   "q": "Whose equations prompted Boltzmann’s question, “Who was the God who wrote these signs?”",
+   "options": [
+    [
+     "James Clerk Maxwell’s",
+     "On electromagnetic interaction."
+    ],
+    [
+     "Newton’s",
+     "Not quite. The article says: James Clerk Maxwell’s."
+    ],
+    [
+     "Dirac’s",
+     "Not quite. The article says: James Clerk Maxwell’s."
+    ],
+    [
+     "Einstein’s",
+     "Not quite. The article says: James Clerk Maxwell’s."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The inspired equations which the celebrated Scottish physicist, James Clerk Maxwell, had written."
+  },
+  {
+   "article": "The Emergence of Prophet Muhammad",
+   "page": 40,
+   "link": "the-emergence-of-prophet-muhammad",
+   "q": "Between which continents is the Arabian Peninsula poised?",
+   "options": [
+    [
+     "Europe and America",
+     "Not quite. The article says: Africa, Asia and Europe."
+    ],
+    [
+     "Asia and Australia",
+     "Not quite. The article says: Africa, Asia and Europe."
+    ],
+    [
+     "Africa and America",
+     "Not quite. The article says: Africa, Asia and Europe."
+    ],
+    [
+     "Africa, Asia and Europe",
+     "At the heart of the ancient world."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Poised between Africa, Asia, and Europe, the Arabian Peninsula lay at the very heart of the ancient world."
+  },
+  {
+   "article": "Death: Gravest Event",
+   "page": 45,
+   "link": "death-gravest-event",
+   "q": "How does the article describe the moment of death?",
+   "options": [
+    [
+     "Harsher than any moment we can imagine",
+     "Life’s hardships are nothing beside it."
+    ],
+    [
+     "Unimportant",
+     "Not quite. The article says: Harsher than any moment we can imagine."
+    ],
+    [
+     "Joyful for all",
+     "Not quite. The article says: Harsher than any moment we can imagine."
+    ],
+    [
+     "Easy",
+     "Not quite. The article says: Harsher than any moment we can imagine."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The moment of death is harsher than any moment we can imagine."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Shift of Emphasis",
+   "page": 5,
+   "link": "shift-of-emphasis",
+   "q": "To what does the Quran attribute the perversion in society, as the article explains?",
+   "options": [
+    [
+     "Foreign rule",
+     "Not quite. The article says: Deviation, or shift of emphasis."
+    ],
+    [
+     "Climate",
+     "Not quite. The article says: Deviation, or shift of emphasis."
+    ],
+    [
+     "Lack of wealth",
+     "Not quite. The article says: Deviation, or shift of emphasis."
+    ],
+    [
+     "Deviation, or shift of emphasis",
+     "Turning the focus from one aspect to another."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Deviation or shift of emphasis, that is, turning the focus from one aspect …"
+  },
+  {
+   "article": "Hollow Success",
+   "page": 9,
+   "link": "hollow-success",
+   "q": "What are men of fortune to those around them?",
+   "options": [
+    [
+     "Unknown",
+     "Not quite. The article says: Subjects of envy."
+    ],
+    [
+     "Subjects of envy",
+     "But they may not feel fortunate."
+    ],
+    [
+     "Objects of pity",
+     "Not quite. The article says: Subjects of envy."
+    ],
+    [
+     "Teachers",
+     "Not quite. The article says: Subjects of envy."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Men of fortune become subjects of envy to the people around them."
+  },
+  {
+   "article": "The Peace Treaty of Hudaibiya",
+   "page": 11,
+   "link": "the-peace-treaty-of-hudaibiya",
+   "q": "With how many Companions did the Prophet set out for Makkah in AD 628?",
+   "options": [
+    [
+     "313",
+     "Not quite. The article says: 1400."
+    ],
+    [
+     "1400",
+     "The Quraysh stopped them at Hudaibiya."
+    ],
+    [
+     "10",
+     "Not quite. The article says: 1400."
+    ],
+    [
+     "100,000",
+     "Not quite. The article says: 1400."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Prophet set out on a pilgrimage to Makkah along with 1400 Companions."
+  },
+  {
+   "article": "From the Life of the Prophet",
+   "page": 19,
+   "link": "from-the-life-of-the-prophet",
+   "q": "To which town did the Muslims of Makkah migrate in AD 622?",
+   "options": [
+    [
+     "Damascus",
+     "Not quite. The article says: Yathrib."
+    ],
+    [
+     "Jerusalem",
+     "Not quite. The article says: Yathrib."
+    ],
+    [
+     "Yathrib",
+     "Opening a new chapter."
+    ],
+    [
+     "Taif",
+     "Not quite. The article says: Yathrib."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The migration, or Hijrah, of the Muslims of Makkah to Yathrib in AD 622."
+  },
+  {
+   "article": "The Makers of History",
+   "page": 28,
+   "link": "the-makers-of-history",
+   "q": "What does the second group of people do about reward?",
+   "options": [
+    [
+     "They demand double",
+     "Not quite. The article says: They simply do a job and forget about it."
+    ],
+    [
+     "They complain",
+     "Not quite. The article says: They simply do a job and forget about it."
+    ],
+    [
+     "They refuse to work",
+     "Not quite. The article says: They simply do a job and forget about it."
+    ],
+    [
+     "They simply do a job and forget about it",
+     "The first expect more than their due."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The second group of people simply do a job and then forget about it."
+  },
+  {
+   "article": "Each Creation Is a Miracle",
+   "page": 31,
+   "link": "each-creation-is-a-miracle",
+   "q": "What did Moses see on the mountainside?",
+   "options": [
+    [
+     "A caravan",
+     "Not quite. The article says: A fire."
+    ],
+    [
+     "A river",
+     "Not quite. The article says: A fire."
+    ],
+    [
+     "A fire",
+     "While travelling from Midian in a storm."
+    ],
+    [
+     "A city",
+     "Not quite. The article says: A fire."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "On the mountainside, Moses saw a fire."
+  },
+  {
+   "article": "Laid-Back Attitude Leads to Failure",
+   "page": 36,
+   "link": "laid-back-attitude-leads-to-failure",
+   "q": "What is the most dangerous enemy of man, according to the article?",
+   "options": [
+    [
+     "The snake",
+     "Not quite. The article says: Bacteria."
+    ],
+    [
+     "The tiger",
+     "Not quite. The article says: Bacteria."
+    ],
+    [
+     "Bacteria",
+     "Not the tiger or the bear."
+    ],
+    [
+     "The bear",
+     "Not quite. The article says: Bacteria."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The most dangerous of our enemies are the bacteria."
+  },
+  {
+   "article": "The Mirage of the Good Egg",
+   "page": 39,
+   "link": "the-mirage-of-the-good-egg",
+   "q": "When do we find out whether an egg is really good?",
+   "options": [
+    [
+     "By its colour",
+     "Not quite. The article says: When we break the shell."
+    ],
+    [
+     "By its price",
+     "Not quite. The article says: When we break the shell."
+    ],
+    [
+     "When we break the shell",
+     "So with many human beings."
+    ],
+    [
+     "By its weight",
+     "Not quite. The article says: When we break the shell."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It is not until we break the shell that we find out whether it is really good."
+  },
+  {
+   "article": "Nuclear Fission",
+   "page": 43,
+   "link": "nuclear-fission",
+   "q": "How far can twelve pounds of uranium send a high-speed rocket?",
+   "options": [
+    [
+     "40,000 miles",
+     "Compared with coal and petrol."
+    ],
+    [
+     "40 miles",
+     "Not quite. The article says: 40,000 miles."
+    ],
+    [
+     "400 miles",
+     "Not quite. The article says: 40,000 miles."
+    ],
+    [
+     "70 miles",
+     "Not quite. The article says: 40,000 miles."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It can send a high-speed rocket soaring 40,000 miles."
+  },
+  {
+   "article": "The Making and Breaking of History",
+   "page": 45,
+   "link": "the-making-and-breaking-of-history",
+   "q": "How did Barbara W. Tuchman describe history?",
+   "options": [
+    [
+     "“The record of kings”",
+     "Not quite. The article says: “The unfolding of miscalculations”."
+    ],
+    [
+     "“The unfolding of miscalculations”",
+     "It defies expectations."
+    ],
+    [
+     "“A fairy tale”",
+     "Not quite. The article says: “The unfolding of miscalculations”."
+    ],
+    [
+     "“A straight road”",
+     "Not quite. The article says: “The unfolding of miscalculations”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“History is the unfolding of miscalculations”."
+  }
+ ]
+}
