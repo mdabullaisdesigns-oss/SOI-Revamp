@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Realization of Paradise",
+   "page": 6,
+   "link": "the-realization-of-paradise",
+   "q": "To which country is Doodhpathri in Kashmir often compared?",
+   "options": [
+    [
+     "Brazil",
+     "Not quite. The article says: Switzerland."
+    ],
+    [
+     "Switzerland",
+     "For its breathtaking natural beauty."
+    ],
+    [
+     "Japan",
+     "Not quite. The article says: Switzerland."
+    ],
+    [
+     "Egypt",
+     "Not quite. The article says: Switzerland."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Doodhpathri, a picturesque district in Budgam, Kashmir, is often compared to Switzerland."
+  },
+  {
+   "article": "The Transformation of the Universe",
+   "page": 9,
+   "link": "the-transformation-of-the-universe",
+   "q": "What does the Quran say will happen to the earth on that Day?",
+   "options": [
+    [
+     "It will be sold",
+     "Not quite. The article says: It shall be changed into another earth."
+    ],
+    [
+     "It will grow larger",
+     "Not quite. The article says: It shall be changed into another earth."
+    ],
+    [
+     "It will stay the same",
+     "Not quite. The article says: It shall be changed into another earth."
+    ],
+    [
+     "It shall be changed into another earth",
+     "This life is a fleeting moment."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Day when the earth shall be changed into another …"
+  },
+  {
+   "article": "A Month of Self-Purification",
+   "page": 14,
+   "link": "a-month-of-self-purification",
+   "q": "What is Ramadan designed to provide?",
+   "options": [
+    [
+     "A season of trade",
+     "Not quite. The article says: Spiritual, physical and emotional training."
+    ],
+    [
+     "A holiday",
+     "Not quite. The article says: Spiritual, physical and emotional training."
+    ],
+    [
+     "Spiritual, physical and emotional training",
+     "More than a set of rituals."
+    ],
+    [
+     "Entertainment",
+     "Not quite. The article says: Spiritual, physical and emotional training."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Ramadan is a divine gift from God, designed to provide spiritual, physical, and emotional training to believers."
+  },
+  {
+   "article": "Laylat-Ul-Qadr",
+   "page": 18,
+   "link": "laylat-ul-qadr",
+   "q": "How does God describe Laylat-ul-Qadr?",
+   "options": [
+    [
+     "“The longest night”",
+     "Not quite. The article says: “Better than a thousand months”."
+    ],
+    [
+     "“A night like any other”",
+     "Not quite. The article says: “Better than a thousand months”."
+    ],
+    [
+     "“Better than a thousand months”",
+     "The Night of Power."
+    ],
+    [
+     "“Shorter than an hour”",
+     "Not quite. The article says: “Better than a thousand months”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Described by God as “better than a thousand months.”"
+  },
+  {
+   "article": "The Problem of Evil",
+   "page": 22,
+   "link": "the-problem-of-evil",
+   "q": "What common question does the article take up?",
+   "options": [
+    [
+     "Who built the pyramids?",
+     "Not quite. The article says: If God is real, why do suffering and evil exist?."
+    ],
+    [
+     "If God is real, why do suffering and evil exist?",
+     "It looks for the deeper meaning."
+    ],
+    [
+     "How old is the sun?",
+     "Not quite. The article says: If God is real, why do suffering and evil exist?."
+    ],
+    [
+     "What is money?",
+     "Not quite. The article says: If God is real, why do suffering and evil exist?."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "If God is real, why do suffering, pain, and evil exist?"
+  },
+  {
+   "article": "The Power of Peace",
+   "page": 25,
+   "link": "the-power-of-peace",
+   "q": "How does the article compare peace and violence?",
+   "options": [
+    [
+     "Peace is the path of wisdom; violence the path of the foolish",
+     "The power of peace is greater."
+    ],
+    [
+     "They are equal",
+     "Not quite. The article says: Peace is the path of wisdom; violence the path of the foolish."
+    ],
+    [
+     "Violence is wiser",
+     "Not quite. The article says: Peace is the path of wisdom; violence the path of the foolish."
+    ],
+    [
+     "Neither has power",
+     "Not quite. The article says: Peace is the path of wisdom; violence the path of the foolish."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Peace is the path of wisdom, while violence is the path of the foolish."
+  },
+  {
+   "article": "Our Potential Is Our Worth",
+   "page": 32,
+   "link": "our-potential-is-our-worth",
+   "q": "How much of his inborn abilities does man use, by psychologists’ estimate?",
+   "options": [
+    [
+     "Half",
+     "Not quite. The article says: Only ten percent."
+    ],
+    [
+     "Only ten percent",
+     "William James observed the same."
+    ],
+    [
+     "All of them",
+     "Not quite. The article says: Only ten percent."
+    ],
+    [
+     "Ninety percent",
+     "Not quite. The article says: Only ten percent."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Man puts to use only ten percent of the abilities with which he is born."
+  },
+  {
+   "article": "Women in Islam",
+   "page": 42,
+   "link": "women-in-islam",
+   "q": "What does verse 2: 228 say of wives’ rights?",
+   "options": [
+    [
+     "They correspond to those the husbands have",
+     "“Live with them in fairness and kindness.”"
+    ],
+    [
+     "They have none",
+     "Not quite. The article says: They correspond to those the husbands have."
+    ],
+    [
+     "They are fewer",
+     "Not quite. The article says: They correspond to those the husbands have."
+    ],
+    [
+     "They are unknown",
+     "Not quite. The article says: They correspond to those the husbands have."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The wives have rights corresponding to those which the husbands have."
+  },
+  {
+   "article": "Total Involvement",
+   "page": 45,
+   "link": "total-involvement",
+   "q": "What did Elias Howe invent?",
+   "options": [
+    [
+     "The sewing machine",
+     "He died at 48."
+    ],
+    [
+     "The radio",
+     "Not quite. The article says: The sewing machine."
+    ],
+    [
+     "The camera",
+     "Not quite. The article says: The sewing machine."
+    ],
+    [
+     "The telephone",
+     "Not quite. The article says: The sewing machine."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "His contribution to the world of clothes—that of the sewing machine—will always be remembered."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What does God seek for the Prophet’s Household?",
+   "options": [
+    [
+     "To make them rich",
+     "Not quite. The article says: To remove all impurity from them."
+    ],
+    [
+     "To make them rulers",
+     "Not quite. The article says: To remove all impurity from them."
+    ],
+    [
+     "To hide them",
+     "Not quite. The article says: To remove all impurity from them."
+    ],
+    [
+     "To remove all impurity from them",
+     "“Attend to your prayers, pay the zakat.”"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "God seeks only to remove all impurity from you."
+  }
+ ]
+}

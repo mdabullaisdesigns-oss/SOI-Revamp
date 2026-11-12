@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Terrorism Is Prohibited in Islam",
+   "page": 6,
+   "link": "terrorism-is-prohibited-in-islam",
+   "q": "Where did the attack of April 22, 2025 take place?",
+   "options": [
+    [
+     "Paris",
+     "Not quite. The article says: Near Pahalgam, Kashmir."
+    ],
+    [
+     "Near Pahalgam, Kashmir",
+     "Twenty-six sightseers were killed."
+    ],
+    [
+     "Dhaka",
+     "Not quite. The article says: Near Pahalgam, Kashmir."
+    ],
+    [
+     "Nairobi",
+     "Not quite. The article says: Near Pahalgam, Kashmir."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The attack near the famous tourist spot in Pahalgam, Kashmir, on April 22, 2025."
+  },
+  {
+   "article": "Deception on All Sides",
+   "page": 9,
+   "link": "deception-on-all-sides",
+   "q": "What do people use to disguise self-advancement?",
+   "options": [
+    [
+     "Slogans that make it appear otherwise",
+     "A world of deception."
+    ],
+    [
+     "Uniforms",
+     "Not quite. The article says: Slogans that make it appear otherwise."
+    ],
+    [
+     "Silence",
+     "Not quite. The article says: Slogans that make it appear otherwise."
+    ],
+    [
+     "Maps",
+     "Not quite. The article says: Slogans that make it appear otherwise."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They use slogans which make it appear as though …"
+  },
+  {
+   "article": "Peace in Plural Societies",
+   "page": 13,
+   "link": "peace-in-plural-societies",
+   "q": "On what basis did Partition come in 1947?",
+   "options": [
+    [
+     "Language alone",
+     "Not quite. The article says: The so-called ‘two nation theory’."
+    ],
+    [
+     "A referendum",
+     "Not quite. The article says: The so-called ‘two nation theory’."
+    ],
+    [
+     "Geography alone",
+     "Not quite. The article says: The so-called ‘two nation theory’."
+    ],
+    [
+     "The so-called ‘two nation theory’",
+     "It divided communities as well as territory."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Partition, which was on the basis of the so-called ‘two nation theory’."
+  },
+  {
+   "article": "Precision in the Universe",
+   "page": 21,
+   "link": "precision-in-the-universe",
+   "q": "What tragedy of June 3, 1988 does the article recall?",
+   "options": [
+    [
+     "An Iran Air passenger plane was mistakenly shot down",
+     "Over the Persian Gulf."
+    ],
+    [
+     "A train derailed in India",
+     "Not quite. The article says: An Iran Air passenger plane was mistakenly shot down."
+    ],
+    [
+     "A ship sank in the Atlantic",
+     "Not quite. The article says: An Iran Air passenger plane was mistakenly shot down."
+    ],
+    [
+     "A dam burst",
+     "Not quite. The article says: An Iran Air passenger plane was mistakenly shot down."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "An Iran Air passenger plane … was mistakenly shot down."
+  },
+  {
+   "article": "The Invisible God",
+   "page": 22,
+   "link": "the-invisible-god",
+   "q": "Where was the speaker sitting that morning?",
+   "options": [
+    [
+     "At the airport",
+     "Not quite. The article says: In front of the office, thinking."
+    ],
+    [
+     "In a garden abroad",
+     "Not quite. The article says: In front of the office, thinking."
+    ],
+    [
+     "On a train",
+     "Not quite. The article says: In front of the office, thinking."
+    ],
+    [
+     "In front of the office, thinking",
+     "The talk opens with a prayer."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This morning, I was sitting in front of the office, thinking …"
+  },
+  {
+   "article": "Personality Development",
+   "page": 30,
+   "link": "personality-development",
+   "q": "What did God create but leave for man to shape?",
+   "options": [
+    [
+     "Wood, but not the boat; iron, but not the machine",
+     "So that man develops himself."
+    ],
+    [
+     "Ready-made machines",
+     "Not quite. The article says: Wood, but not the boat; iron, but not the machine."
+    ],
+    [
+     "Finished ships",
+     "Not quite. The article says: Wood, but not the boat; iron, but not the machine."
+    ],
+    [
+     "Cities",
+     "Not quite. The article says: Wood, but not the boat; iron, but not the machine."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God created wood, but He did not make a boat. He put iron in the ground, but He did not mould the iron into a machine."
+  },
+  {
+   "article": "Interdependence—a Law of Nature",
+   "page": 34,
+   "link": "interdependence-a-law-of-nature",
+   "q": "On what principle is human life based?",
+   "options": [
+    [
+     "Interdependence",
+     "Society is cohesive only if disparities are accepted."
+    ],
+    [
+     "Uniformity",
+     "Not quite. The article says: Interdependence."
+    ],
+    [
+     "Isolation",
+     "Not quite. The article says: Interdependence."
+    ],
+    [
+     "Rivalry",
+     "Not quite. The article says: Interdependence."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Human life is based on the principle of interdependence."
+  },
+  {
+   "article": "Islam and the Myth of Two-Nation Theory",
+   "page": 36,
+   "link": "islam-and-the-myth-of-two-nation-theory",
+   "q": "Who recently reiterated the two-nation theory, according to the article?",
+   "options": [
+    [
+     "Pakistan’s army chief Asim Munir",
+     "The article calls the theory a myth."
+    ],
+    [
+     "An Indian minister",
+     "Not quite. The article says: Pakistan’s army chief Asim Munir."
+    ],
+    [
+     "A British historian",
+     "Not quite. The article says: Pakistan’s army chief Asim Munir."
+    ],
+    [
+     "The UN Secretary-General",
+     "Not quite. The article says: Pakistan’s army chief Asim Munir."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Pakistan’s army chief Asim Munir recently reiterated the two-nation theory."
+  },
+  {
+   "article": "Death-The Leveler",
+   "page": 43,
+   "link": "death-the-leveler",
+   "q": "How many people were aboard the Air India Boeing 747 of June 23, 1985?",
+   "options": [
+    [
+     "50",
+     "Not quite. The article says: 329."
+    ],
+    [
+     "1,000",
+     "Not quite. The article says: 329."
+    ],
+    [
+     "329",
+     "Bound for Delhi via London."
+    ],
+    [
+     "12",
+     "Not quite. The article says: 329."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Carrying 329 people aboard including the crew."
+  },
+  {
+   "article": "Your Questions Answered",
+   "page": 47,
+   "link": "your-questions-answered",
+   "q": "How can we save ourselves from frustration?",
+   "options": [
+    [
+     "By avoiding people",
+     "Not quite. The article says: By cultivating patience and a positive mindset."
+    ],
+    [
+     "By giving up",
+     "Not quite. The article says: By cultivating patience and a positive mindset."
+    ],
+    [
+     "By cultivating patience and a positive mindset",
+     "Problems are temporary."
+    ],
+    [
+     "By blaming others",
+     "Not quite. The article says: By cultivating patience and a positive mindset."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Saving oneself from frustration involves cultivating patience and maintaining a positive mindset."
+  }
+ ]
+}

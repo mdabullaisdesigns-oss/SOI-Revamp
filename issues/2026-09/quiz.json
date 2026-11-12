@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Gift of Criticism",
+   "page": 6,
+   "link": "the-gift-of-criticism",
+   "q": "What is one sign of intellectual maturity?",
+   "options": [
+    [
+     "Speaking loudly",
+     "Not quite. The article says: Listening to criticism without becoming disturbed."
+    ],
+    [
+     "Criticising others",
+     "Not quite. The article says: Listening to criticism without becoming disturbed."
+    ],
+    [
+     "Never being criticised",
+     "Not quite. The article says: Listening to criticism without becoming disturbed."
+    ],
+    [
+     "Listening to criticism without becoming disturbed",
+     "Anger closes the door to learning."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "One sign of intellectual maturity is the ability to listen to criticism without becoming disturbed."
+  },
+  {
+   "article": "A Glimpse of Paradise",
+   "page": 9,
+   "link": "a-glimpse-of-paradise",
+   "q": "What happened one summer afternoon in Delhi?",
+   "options": [
+    [
+     "It snowed",
+     "Not quite. The article says: The electricity suddenly went off."
+    ],
+    [
+     "A flood came",
+     "Not quite. The article says: The electricity suddenly went off."
+    ],
+    [
+     "A festival began",
+     "Not quite. The article says: The electricity suddenly went off."
+    ],
+    [
+     "The electricity suddenly went off",
+     "The room became unbearably hot."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "One summer afternoon in Delhi, the electricity suddenly went off."
+  },
+  {
+   "article": "Death Is Not Extinction",
+   "page": 14,
+   "link": "death-is-not-extinction",
+   "q": "From what standpoint does the dictionary define death?",
+   "options": [
+    [
+     "Poetry",
+     "Not quite. The article says: Physical observation."
+    ],
+    [
+     "Physical observation",
+     "“The permanent cessation of life”."
+    ],
+    [
+     "Religion",
+     "Not quite. The article says: Physical observation."
+    ],
+    [
+     "Law",
+     "Not quite. The article says: Physical observation."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "This definition describes death from the standpoint of physical observation."
+  },
+  {
+   "article": "Discover Something Every Day",
+   "page": 16,
+   "link": "discover-something-every-day",
+   "q": "What does the Japanese saying advise?",
+   "options": [
+    [
+     "“Rest every day”",
+     "Not quite. The article says: “Discover something new every day”."
+    ],
+    [
+     "“Speak less every year”",
+     "Not quite. The article says: “Discover something new every day”."
+    ],
+    [
+     "“Discover something new every day”",
+     "Even a new way of threading a needle."
+    ],
+    [
+     "“Earn more every day”",
+     "Not quite. The article says: “Discover something new every day”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Discover something new every day, even if it be a new method of threading a needle.”"
+  },
+  {
+   "article": "The Art of Non-Provocation",
+   "page": 20,
+   "link": "the-art-of-non-provocation",
+   "q": "What did the Prophet’s opponents find difficult?",
+   "options": [
+    [
+     "To hear him",
+     "Not quite. The article says: To provoke him."
+    ],
+    [
+     "To trade with him",
+     "Not quite. The article says: To provoke him."
+    ],
+    [
+     "To find him",
+     "Not quite. The article says: To provoke him."
+    ],
+    [
+     "To provoke him",
+     "His conduct remained dignified."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "His opponents found it difficult to provoke him."
+  },
+  {
+   "article": "The Divine System of Sustenance",
+   "page": 22,
+   "link": "the-divine-system-of-sustenance",
+   "q": "What is the common misconception about sustenance?",
+   "options": [
+    [
+     "That it is unnecessary",
+     "Not quite. The article says: That it is essentially a financial transaction."
+    ],
+    [
+     "That it is essentially a financial transaction",
+     "Paying at a shop is only the last step."
+    ],
+    [
+     "That it is free",
+     "Not quite. The article says: That it is essentially a financial transaction."
+    ],
+    [
+     "That it grows in shops",
+     "Not quite. The article says: That it is essentially a financial transaction."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "We tend to believe that obtaining the necessities of life is essentially a financial transaction."
+  },
+  {
+   "article": "The Culture of Peace",
+   "page": 31,
+   "link": "the-culture-of-peace",
+   "q": "What did Einstein say about peace?",
+   "options": [
+    [
+     "It is weakness",
+     "Not quite. The article says: It cannot be kept by force; only achieved by understanding."
+    ],
+    [
+     "It cannot be kept by force; only achieved by understanding",
+     "The universe moves without collision."
+    ],
+    [
+     "It needs larger armies",
+     "Not quite. The article says: It cannot be kept by force; only achieved by understanding."
+    ],
+    [
+     "It is impossible",
+     "Not quite. The article says: It cannot be kept by force; only achieved by understanding."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Peace cannot be kept by force; it can only be achieved by understanding.”"
+  },
+  {
+   "article": "The Voice from Mission Control",
+   "page": 33,
+   "link": "the-voice-from-mission-control",
+   "q": "Whose voice guided Armstrong and Aldrin through the final descent?",
+   "options": [
+    [
+     "James Irwin",
+     "Not quite. The article says: Charles Duke Jr., serving as CAPCOM."
+    ],
+    [
+     "Yuri Gagarin",
+     "Not quite. The article says: Charles Duke Jr., serving as CAPCOM."
+    ],
+    [
+     "John Glenn",
+     "Not quite. The article says: Charles Duke Jr., serving as CAPCOM."
+    ],
+    [
+     "Charles Duke Jr., serving as CAPCOM",
+     "July 20, 1969."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The voice of Mission Control … belonged to astronaut Charles Duke Jr."
+  },
+  {
+   "article": "A Drop Reveals Character",
+   "page": 45,
+   "link": "a-drop-reveals-character",
+   "q": "What can a single drop of water reveal?",
+   "options": [
+    [
+     "The time",
+     "Not quite. The article says: The nature of the vessel it comes from."
+    ],
+    [
+     "The weather",
+     "Not quite. The article says: The nature of the vessel it comes from."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: The nature of the vessel it comes from."
+    ],
+    [
+     "The nature of the vessel it comes from",
+     "So with human character."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A single drop of water can reveal the nature of the vessel from which it comes."
+  },
+  {
+   "article": "Your Questions Answered",
+   "page": 46,
+   "link": "your-questions-answered",
+   "q": "What is the greatest harm parents can do to a child?",
+   "options": [
+    [
+     "To set limits",
+     "Not quite. The article says: To indulge every demand out of love."
+    ],
+    [
+     "To teach patience",
+     "Not quite. The article says: To indulge every demand out of love."
+    ],
+    [
+     "To send them to school",
+     "Not quite. The article says: To indulge every demand out of love."
+    ],
+    [
+     "To indulge every demand out of love",
+     "It creates false expectations."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The greatest harm parents can do to a child is to indulge every demand out of love."
+  }
+ ]
+}

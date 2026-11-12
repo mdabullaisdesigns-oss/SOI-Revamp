@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Lessons from the Honeybee",
+   "page": 6,
+   "link": "lessons-from-the-honeybee",
+   "q": "Which creature does the article call one of nature’s finest teachers?",
+   "options": [
+    [
+     "The spider",
+     "Not quite. The article says: The honeybee."
+    ],
+    [
+     "The honeybee",
+     "It takes only nectar."
+    ],
+    [
+     "The tiger",
+     "Not quite. The article says: The honeybee."
+    ],
+    [
+     "The crow",
+     "Not quite. The article says: The honeybee."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "One of nature’s finest teachers in this regard is the honeybee."
+  },
+  {
+   "article": "Purification of the Heart",
+   "page": 9,
+   "link": "purification-of-the-heart",
+   "q": "Who will be deserving of Paradise (26: 89)?",
+   "options": [
+    [
+     "Those with long lives",
+     "Not quite. The article says: Those who come to God with a sound heart."
+    ],
+    [
+     "Those who come to God with a sound heart",
+     "‘Heart’ here means the inner self."
+    ],
+    [
+     "Those with titles",
+     "Not quite. The article says: Those who come to God with a sound heart."
+    ],
+    [
+     "Those with wealth",
+     "Not quite. The article says: Those who come to God with a sound heart."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Only those will be deserving of Paradise in the Hereafter who come to God with a sound heart."
+  },
+  {
+   "article": "Mahatma Gandhi’s Unfulfilled Mission",
+   "page": 13,
+   "link": "mahatma-gandhis-unfulfilled-mission",
+   "q": "When is Gandhi Jayanti observed?",
+   "options": [
+    [
+     "October 2",
+     "His birth anniversary."
+    ],
+    [
+     "November 14",
+     "Not quite. The article says: October 2."
+    ],
+    [
+     "August 15",
+     "Not quite. The article says: October 2."
+    ],
+    [
+     "January 26",
+     "Not quite. The article says: October 2."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Gandhi Jayanti is observed annually on October 2."
+  },
+  {
+   "article": "Only Givers Remain",
+   "page": 18,
+   "link": "only-givers-remain",
+   "q": "Who can truly endure, according to the parable in Al-Ra‘d?",
+   "options": [
+    [
+     "Those who are strongest",
+     "Not quite. The article says: Those who prove to be givers."
+    ],
+    [
+     "Those who hide",
+     "Not quite. The article says: Those who prove to be givers."
+    ],
+    [
+     "Those who prove to be givers",
+     "Contributing something of value."
+    ],
+    [
+     "Those who take most",
+     "Not quite. The article says: Those who prove to be givers."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Only those who prove to be givers—those who contribute something of value to others—can truly endure."
+  },
+  {
+   "article": "The Other Side of Death",
+   "page": 22,
+   "link": "the-other-side-of-death",
+   "q": "What has the approach of death done throughout history?",
+   "options": [
+    [
+     "Brought wealth",
+     "Not quite. The article says: Stripped away illusions and revealed deeper truths."
+    ],
+    [
+     "Changed nothing",
+     "Not quite. The article says: Stripped away illusions and revealed deeper truths."
+    ],
+    [
+     "Stripped away illusions and revealed deeper truths",
+     "As in the account of Alexander."
+    ],
+    [
+     "Made people prouder",
+     "Not quite. The article says: Stripped away illusions and revealed deeper truths."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The approach of death has stripped away illusions and revealed life’s deeper truths."
+  },
+  {
+   "article": "The World Is Not a Typewriter",
+   "page": 28,
+   "link": "the-world-is-not-a-typewriter",
+   "q": "What kind of world is this, according to the article?",
+   "options": [
+    [
+     "A world of ease",
+     "Not quite. The article says: A world of hard realities."
+    ],
+    [
+     "A world of wishes",
+     "Not quite. The article says: A world of hard realities."
+    ],
+    [
+     "A world of hard realities",
+     "To be recognized and adjusted to."
+    ],
+    [
+     "A world like a typewriter",
+     "Not quite. The article says: A world of hard realities."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "This is a world of hard realities."
+  },
+  {
+   "article": "Man in God’s World",
+   "page": 31,
+   "link": "man-in-gods-world",
+   "q": "How large was the revolutionary telescope designed in California?",
+   "options": [
+    [
+     "10 metres",
+     "Funded by the W.M. Keck Foundation."
+    ],
+    [
+     "100 metres",
+     "Not quite. The article says: 10 metres."
+    ],
+    [
+     "1 kilometre",
+     "Not quite. The article says: 10 metres."
+    ],
+    [
+     "1 metre",
+     "Not quite. The article says: 10 metres."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A revolutionary 10-metre telescope with four times the “seeing power”."
+  },
+  {
+   "article": "How to Be Happy",
+   "page": 34,
+   "link": "how-to-be-happy",
+   "q": "How is happiness often misunderstood?",
+   "options": [
+    [
+     "As a duty",
+     "Not quite. The article says: As an emotion triggered instantly by external things."
+    ],
+    [
+     "As silence",
+     "Not quite. The article says: As an emotion triggered instantly by external things."
+    ],
+    [
+     "As hard work",
+     "Not quite. The article says: As an emotion triggered instantly by external things."
+    ],
+    [
+     "As an emotion triggered instantly by external things",
+     "Like music or possessions."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Many people think of happiness as an emotion that can be instantly triggered by external stimuli."
+  },
+  {
+   "article": "Abandoning Arrogance",
+   "page": 41,
+   "link": "abandoning-arrogance",
+   "q": "In whom is arrogance found?",
+   "options": [
+    [
+     "One who is patient",
+     "Not quite. The article says: One who disdains to worship God and despises others."
+    ],
+    [
+     "One who serves",
+     "Not quite. The article says: One who disdains to worship God and despises others."
+    ],
+    [
+     "One who disdains to worship God and despises others",
+     "Forgetting his own weakness."
+    ],
+    [
+     "One who is grateful",
+     "Not quite. The article says: One who disdains to worship God and despises others."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Arrogance is found in one who disdains to worship God, by forgetting his weaknesses, despising others, and feeling proud."
+  },
+  {
+   "article": "The Word of God",
+   "page": 49,
+   "link": "the-word-of-god",
+   "q": "What will everyone know when the graves are laid open?",
+   "options": [
+    [
+     "What he has sent ahead and what he has left behind",
+     "When the sky is cleft asunder."
+    ],
+    [
+     "The names of kings",
+     "Not quite. The article says: What he has sent ahead and what he has left behind."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: What he has sent ahead and what he has left behind."
+    ],
+    [
+     "The price of gold",
+     "Not quite. The article says: What he has sent ahead and what he has left behind."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Then everyone will know what he has sent ahead, and what he has left behind."
+  }
+ ]
+}

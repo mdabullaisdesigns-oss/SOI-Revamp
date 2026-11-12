@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Test of Power",
+   "page": 6,
+   "link": "the-test-of-power",
+   "q": "What does a change in political power bring in every society?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: A wave of emotions."
+    ],
+    [
+     "Instant wealth",
+     "Not quite. The article says: A wave of emotions."
+    ],
+    [
+     "A wave of emotions",
+     "Celebration for some, anxiety for others."
+    ],
+    [
+     "Complete silence",
+     "Not quite. The article says: A wave of emotions."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A change in political power brings with it a wave of emotions."
+  },
+  {
+   "article": "A Tomato Miracle",
+   "page": 10,
+   "link": "a-tomato-miracle",
+   "q": "What did the first home-grown ripe tomato appear to the writer as?",
+   "options": [
+    [
+     "A living sign of God’s creative power",
+     "A feeling of deep awe."
+    ],
+    [
+     "An ordinary vegetable",
+     "Not quite. The article says: A living sign of God’s creative power."
+    ],
+    [
+     "A disappointment",
+     "Not quite. The article says: A living sign of God’s creative power."
+    ],
+    [
+     "A burden",
+     "Not quite. The article says: A living sign of God’s creative power."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It appeared to me as a living sign of God’s creative power."
+  },
+  {
+   "article": "The Unseen Reality",
+   "page": 14,
+   "link": "the-unseen-reality",
+   "q": "About how many species of trees have scientists identified so far?",
+   "options": [
+    [
+     "About 640",
+     "Not quite. The article says: About 64,100."
+    ],
+    [
+     "About 1 million",
+     "Not quite. The article says: About 64,100."
+    ],
+    [
+     "About 64,100",
+     "Reported by CNN in January 2022."
+    ],
+    [
+     "About 100",
+     "Not quite. The article says: About 64,100."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Scientists have so far identified about 64,100 species of trees on Earth."
+  },
+  {
+   "article": "In Search of Self",
+   "page": 16,
+   "link": "in-search-of-self",
+   "q": "Which question does the article call the most fundamental?",
+   "options": [
+    [
+     "“What time is it?”",
+     "Not quite. The article says: “Who am I?”."
+    ],
+    [
+     "“Who am I?”",
+     "Every civilization has grappled with it."
+    ],
+    [
+     "“Who is richest?”",
+     "Not quite. The article says: “Who am I?”."
+    ],
+    [
+     "“Where is the sea?”",
+     "Not quite. The article says: “Who am I?”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "None is more fundamental than the question: “Who am I?”"
+  },
+  {
+   "article": "Beyond Material Pleasure",
+   "page": 15,
+   "link": "beyond-material-pleasure",
+   "q": "In what kind of world does modern man live?",
+   "options": [
+    [
+     "One without comforts",
+     "Not quite. The article says: One overflowing with material comforts."
+    ],
+    [
+     "One of constant hunger",
+     "Not quite. The article says: One overflowing with material comforts."
+    ],
+    [
+     "One overflowing with material comforts",
+     "Yet there is a deeper need."
+    ],
+    [
+     "One without technology",
+     "Not quite. The article says: One overflowing with material comforts."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Modern man lives in a world overflowing with material comforts."
+  },
+  {
+   "article": "The Power of Trust",
+   "page": 27,
+   "link": "the-power-of-trust",
+   "q": "On which journey did the lesson about trust emerge?",
+   "options": [
+    [
+     "A voyage to Africa",
+     "Not quite. The article says: A flight from Chennai to Malaysia."
+    ],
+    [
+     "A flight from Chennai to Malaysia",
+     "On May 25, 2026."
+    ],
+    [
+     "A train to Delhi",
+     "Not quite. The article says: A flight from Chennai to Malaysia."
+    ],
+    [
+     "A walk in Kashmir",
+     "Not quite. The article says: A flight from Chennai to Malaysia."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "On May 25, 2026, I travelled from Chennai to Malaysia on Malaysia Airlines Flight 183."
+  },
+  {
+   "article": "Rising Above Storms",
+   "page": 30,
+   "link": "rising-above-storms",
+   "q": "What do small birds often do in a storm?",
+   "options": [
+    [
+     "Build nests",
+     "Not quite. The article says: Become trapped, flapping desperately against it."
+    ],
+    [
+     "Sleep through it",
+     "Not quite. The article says: Become trapped, flapping desperately against it."
+    ],
+    [
+     "Sing",
+     "Not quite. The article says: Become trapped, flapping desperately against it."
+    ],
+    [
+     "Become trapped, flapping desperately against it",
+     "Nature teaches through this."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Small birds often become trapped in them. They flap their wings desperately."
+  },
+  {
+   "article": "The Tree’s Message",
+   "page": 33,
+   "link": "the-trees-message",
+   "q": "How does a tree teach?",
+   "options": [
+    [
+     "By moving about",
+     "Not quite. The article says: Without words – giving despite enduring hardship."
+    ],
+    [
+     "By speaking",
+     "Not quite. The article says: Without words – giving despite enduring hardship."
+    ],
+    [
+     "Without words – giving despite enduring hardship",
+     "One of the world’s great teachers."
+    ],
+    [
+     "It does not teach",
+     "Not quite. The article says: Without words – giving despite enduring hardship."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A tree is one of the greatest teachers in the world, yet it teaches without words."
+  },
+  {
+   "article": "Beyond Mere Appearance",
+   "page": 40,
+   "link": "beyond-mere-appearance",
+   "q": "Which animals had become a nuisance in the locality described?",
+   "options": [
+    [
+     "Tigers",
+     "Not quite. The article says: Monkeys."
+    ],
+    [
+     "Monkeys",
+     "They broke flower pots and damaged things."
+    ],
+    [
+     "Camels",
+     "Not quite. The article says: Monkeys."
+    ],
+    [
+     "Elephants",
+     "Not quite. The article says: Monkeys."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A locality where monkeys had become a persistent nuisance."
+  },
+  {
+   "article": "Your Questions Answered",
+   "page": 46,
+   "link": "your-questions-answered",
+   "q": "How can the current generation find God?",
+   "options": [
+    [
+     "Through ancestry",
+     "Not quite. The article says: Through conscious reflection, not inherited rituals or blind faith."
+    ],
+    [
+     "Through wealth",
+     "Not quite. The article says: Through conscious reflection, not inherited rituals or blind faith."
+    ],
+    [
+     "Through conscious reflection, not inherited rituals or blind faith",
+     "Observing the universe and conscience."
+    ],
+    [
+     "It cannot",
+     "Not quite. The article says: Through conscious reflection, not inherited rituals or blind faith."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Not through inherited rituals or blind faith, but through conscious reflection."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "One Life, Two Responsibilities",
+   "page": 6,
+   "link": "one-life-two-responsibilities",
+   "q": "What did the educated Muslim say modern people have become?",
+   "options": [
+    [
+     "“Idle dreamers”",
+     "Not quite. The article says: “Earning animals”."
+    ],
+    [
+     "“Earning animals”",
+     "A valid concern, but not the whole picture."
+    ],
+    [
+     "“Wise elders”",
+     "Not quite. The article says: “Earning animals”."
+    ],
+    [
+     "“Thinking machines”",
+     "Not quite. The article says: “Earning animals”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Modern people have become nothing more than “earning animals”."
+  },
+  {
+   "article": "Human Welfare and Intellectual Freedom",
+   "page": 9,
+   "link": "human-welfare-and-intellectual-freedom",
+   "q": "What was the author invited to inaugurate in Srinagar?",
+   "options": [
+    [
+     "A blood bank",
+     "An initiative of humanitarian value."
+    ],
+    [
+     "A shopping mall",
+     "Not quite. The article says: A blood bank."
+    ],
+    [
+     "A cinema",
+     "Not quite. The article says: A blood bank."
+    ],
+    [
+     "A stadium",
+     "Not quite. The article says: A blood bank."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The establishment of a blood bank … which I have been invited to inaugurate."
+  },
+  {
+   "article": "At the Threshold of Eternity",
+   "page": 16,
+   "link": "at-the-threshold-of-eternity",
+   "q": "In what does every journey end?",
+   "options": [
+    [
+     "Fame",
+     "Not quite. The article says: Death."
+    ],
+    [
+     "Death",
+     "The great divider."
+    ],
+    [
+     "Rest",
+     "Not quite. The article says: Death."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Death."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Everyone is on a journey, and every journey ends in death."
+  },
+  {
+   "article": "Life Is a Test",
+   "page": 19,
+   "link": "life-is-a-test",
+   "q": "What does a CAPTCHA test confirm?",
+   "options": [
+    [
+     "That the user is old",
+     "Not quite. The article says: That the user is a real human being."
+    ],
+    [
+     "That the computer is new",
+     "Not quite. The article says: That the user is a real human being."
+    ],
+    [
+     "That the user is a real human being",
+     "Access comes only after passing."
+    ],
+    [
+     "That the user is rich",
+     "Not quite. The article says: That the user is a real human being."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "To confirm that the user is a real human being and not an automated programme."
+  },
+  {
+   "article": "Profitability and Beneficence",
+   "page": 21,
+   "link": "profitability-and-beneficence",
+   "q": "What remains on the earth (13: 17)?",
+   "options": [
+    [
+     "That which is of use to humankind",
+     "A principle of all creation."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: That which is of use to humankind."
+    ],
+    [
+     "That which is oldest",
+     "Not quite. The article says: That which is of use to humankind."
+    ],
+    [
+     "That which is largest",
+     "Not quite. The article says: That which is of use to humankind."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Only “that which is of use to humankind remains on the earth” (13:17)."
+  },
+  {
+   "article": "The World and Its Perfect Counterpart",
+   "page": 25,
+   "link": "the-world-and-its-perfect-counterpart",
+   "q": "On what principle is our world built?",
+   "options": [
+    [
+     "Sameness",
+     "Not quite. The article says: The principle of pairs."
+    ],
+    [
+     "The principle of pairs",
+     "Electrons and protons, light and darkness."
+    ],
+    [
+     "Isolation",
+     "Not quite. The article says: The principle of pairs."
+    ],
+    [
+     "Chance",
+     "Not quite. The article says: The principle of pairs."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The world we inhabit is built upon the principle of pairs."
+  },
+  {
+   "article": "The Quran and Near-Death Experiences",
+   "page": 29,
+   "link": "the-quran-and-near-death-experiences",
+   "q": "What did Dr. Jeffrey Long study for more than thirty years?",
+   "options": [
+    [
+     "Volcanoes",
+     "Not quite. The article says: Near-death experiences."
+    ],
+    [
+     "Coins",
+     "Not quite. The article says: Near-death experiences."
+    ],
+    [
+     "Near-death experiences",
+     "An American oncologist."
+    ],
+    [
+     "Languages",
+     "Not quite. The article says: Near-death experiences."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Over more than thirty years, he studied near-death experiences (NDEs)."
+  },
+  {
+   "article": "Through Hardship to the Stars",
+   "page": 31,
+   "link": "through-hardship-to-the-stars",
+   "q": "What shook the Japanese most profoundly, according to Ian Nash?",
+   "options": [
+    [
+     "A change of emperor",
+     "Not quite. The article says: The Great Kanto earthquake of 1923."
+    ],
+    [
+     "The Great Kanto earthquake of 1923",
+     "Not political upheaval."
+    ],
+    [
+     "A trade treaty",
+     "Not quite. The article says: The Great Kanto earthquake of 1923."
+    ],
+    [
+     "A new railway",
+     "Not quite. The article says: The Great Kanto earthquake of 1923."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "What shook the Japanese most profoundly was not political upheaval, but the Great Kanto earthquake."
+  },
+  {
+   "article": "Islam and the Modern Man",
+   "page": 42,
+   "link": "islam-and-the-modern-man",
+   "q": "What one cause lies beneath modern man’s difficulties?",
+   "options": [
+    [
+     "The separation of man from God",
+     "Despite material comfort."
+    ],
+    [
+     "Too little leisure",
+     "Not quite. The article says: The separation of man from God."
+    ],
+    [
+     "Poor roads",
+     "Not quite. The article says: The separation of man from God."
+    ],
+    [
+     "Lack of machines",
+     "Not quite. The article says: The separation of man from God."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "One underlying cause: the separation of man from God."
+  },
+  {
+   "article": "Your Questions Answered",
+   "page": 48,
+   "link": "your-questions-answered",
+   "q": "How many articles of faith are essential in Islam, in the answer given?",
+   "options": [
+    [
+     "Seven",
+     "Spelled out in Iman Mufassal."
+    ],
+    [
+     "Two",
+     "Not quite. The article says: Seven."
+    ],
+    [
+     "Five",
+     "Not quite. The article says: Seven."
+    ],
+    [
+     "Twelve",
+     "Not quite. The article says: Seven."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "There are seven things which are essential for a Muslim to believe in."
+  }
+ ]
+}

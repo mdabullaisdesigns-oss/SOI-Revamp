@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Reaching for Higher Ground",
+   "page": 6,
+   "link": "reaching-for-higher-ground",
+   "q": "What is spirituality (rabbaniyat), as described in the Quran?",
+   "options": [
+    [
+     "Seeking wealth",
+     "Not quite. The article says: Raising the human condition to a higher level, connected with God."
+    ],
+    [
+     "Raising the human condition to a higher level, connected with God",
+     "Beyond material things."
+    ],
+    [
+     "Avoiding people",
+     "Not quite. The article says: Raising the human condition to a higher level, connected with God."
+    ],
+    [
+     "Leaving all work",
+     "Not quite. The article says: Raising the human condition to a higher level, connected with God."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is the raising of the human condition to a higher level."
+  },
+  {
+   "article": "Age and Health",
+   "page": 9,
+   "link": "age-and-health",
+   "q": "At what age did the man the author knew pass away?",
+   "options": [
+    [
+     "Ninety",
+     "Not quite. The article says: Forty-five."
+    ],
+    [
+     "Seventy",
+     "Not quite. The article says: Forty-five."
+    ],
+    [
+     "Twenty",
+     "Not quite. The article says: Forty-five."
+    ],
+    [
+     "Forty-five",
+     "Once the picture of strength."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A man I once knew passed away at the age of forty-five."
+  },
+  {
+   "article": "Eclipse: A Divine Miracle",
+   "page": 16,
+   "link": "eclipse-a-divine-miracle",
+   "q": "From which Greek word is ‘eclipse’ derived?",
+   "options": [
+    [
+     "Helios",
+     "Not quite. The article says: Ekleipsis."
+    ],
+    [
+     "Logos",
+     "Not quite. The article says: Ekleipsis."
+    ],
+    [
+     "Kosmos",
+     "Not quite. The article says: Ekleipsis."
+    ],
+    [
+     "Ekleipsis",
+     "Meaning disappearance or abandonment."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The term ‘eclipse’ is derived from the Greek word ekleipsis."
+  },
+  {
+   "article": "The Blessings of Disagreement",
+   "page": 21,
+   "link": "the-blessings-of-disagreement",
+   "q": "What does the report in Al-Jami‘ al-Saghir say?",
+   "options": [
+    [
+     "“All must think alike”",
+     "Not quite. The article says: “The differences among my followers are a mercy”."
+    ],
+    [
+     "“The differences among my followers are a mercy”",
+     "Its authenticity is discussed."
+    ],
+    [
+     "“Never disagree”",
+     "Not quite. The article says: “The differences among my followers are a mercy”."
+    ],
+    [
+     "“Differences are a curse”",
+     "Not quite. The article says: “The differences among my followers are a mercy”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“The differences among my followers are a mercy”."
+  },
+  {
+   "article": "Honouring One’s Parents",
+   "page": 27,
+   "link": "honouring-ones-parents",
+   "q": "After God, towards whom is a person’s greatest obligation?",
+   "options": [
+    [
+     "Their rulers",
+     "Not quite. The article says: Their parents."
+    ],
+    [
+     "Themselves",
+     "Not quite. The article says: Their parents."
+    ],
+    [
+     "Their friends",
+     "Not quite. The article says: Their parents."
+    ],
+    [
+     "Their parents",
+     "The command is repeated in the Quran."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "After God, the greatest obligation of a person is towards their parents."
+  },
+  {
+   "article": "Scientific Principles for God’s Existence",
+   "page": 28,
+   "link": "scientific-principles-for-gods-existence",
+   "q": "What does a careful study of Einstein’s statements suggest?",
+   "options": [
+    [
+     "He never spoke of God",
+     "Not quite. The article says: He was neither a denier of God nor a simple affirmer."
+    ],
+    [
+     "He was a priest",
+     "Not quite. The article says: He was neither a denier of God nor a simple affirmer."
+    ],
+    [
+     "He was an outright atheist",
+     "Not quite. The article says: He was neither a denier of God nor a simple affirmer."
+    ],
+    [
+     "He was neither a denier of God nor a simple affirmer",
+     "There is much confusion about his views."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Einstein was neither a denier of God nor …"
+  },
+  {
+   "article": "Super Performers",
+   "page": 34,
+   "link": "super-performers",
+   "q": "What awakens extraordinary ability, according to Peak Performers?",
+   "options": [
+    [
+     "Long holidays",
+     "Not quite. The article says: Being driven by a great mission."
+    ],
+    [
+     "Great wealth",
+     "Not quite. The article says: Being driven by a great mission."
+    ],
+    [
+     "Good luck",
+     "Not quite. The article says: Being driven by a great mission."
+    ],
+    [
+     "Being driven by a great mission",
+     "A 1986 American study."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "When a person is driven by a great mission, it awakens within them …"
+  },
+  {
+   "article": "Divine Order of Life",
+   "page": 36,
+   "link": "divine-order-of-life",
+   "q": "Why were pairs of all things created (51: 49)?",
+   "options": [
+    [
+     "So that you might reflect",
+     "An invitation to understand life’s structure."
+    ],
+    [
+     "For decoration",
+     "Not quite. The article says: So that you might reflect."
+    ],
+    [
+     "By accident",
+     "Not quite. The article says: So that you might reflect."
+    ],
+    [
+     "For conflict",
+     "Not quite. The article says: So that you might reflect."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“We created pairs of all things so that you might reflect.”"
+  },
+  {
+   "article": "Roman Urdu Translation of the Quran",
+   "page": 44,
+   "link": "roman-urdu-translation-of-the-quran",
+   "q": "What has Goodword Books undertaken?",
+   "options": [
+    [
+     "A dictionary of Greek",
+     "Not quite. The article says: A Roman Urdu translation of the Quran."
+    ],
+    [
+     "A film",
+     "Not quite. The article says: A Roman Urdu translation of the Quran."
+    ],
+    [
+     "A cookbook",
+     "Not quite. The article says: A Roman Urdu translation of the Quran."
+    ],
+    [
+     "A Roman Urdu translation of the Quran",
+     "To make guidance accessible."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The initiative by Goodword Books to produce a Roman Urdu translation of the Quran."
+  },
+  {
+   "article": "Your Questions Answered",
+   "page": 47,
+   "link": "your-questions-answered",
+   "q": "When will the Day of Judgement take place?",
+   "options": [
+    [
+     "On a known calendar date",
+     "Not quite. The article says: When the period of human trial comes to an end."
+    ],
+    [
+     "Every century",
+     "Not quite. The article says: When the period of human trial comes to an end."
+    ],
+    [
+     "Never",
+     "Not quite. The article says: When the period of human trial comes to an end."
+    ],
+    [
+     "When the period of human trial comes to an end",
+     "Its signs include widespread immorality."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Day of Judgement will take place when the period of human trial comes to an end."
+  }
+ ]
+}

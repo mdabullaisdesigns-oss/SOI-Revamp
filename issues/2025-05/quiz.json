@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Awe-Inspiring Universe",
+   "page": 6,
+   "link": "awe-inspiring-universe",
+   "q": "What are many of the seemingly tiny stars in fact?",
+   "options": [
+    [
+     "Small lamps",
+     "Not quite. The article says: Enormous bodies, larger and brighter than the sun."
+    ],
+    [
+     "Enormous bodies, larger and brighter than the sun",
+     "As students of the universe know."
+    ],
+    [
+     "Planets like ours",
+     "Not quite. The article says: Enormous bodies, larger and brighter than the sun."
+    ],
+    [
+     "Clouds",
+     "Not quite. The article says: Enormous bodies, larger and brighter than the sun."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Many of these seemingly tiny stars are in fact enormous celestial bodies, much larger and brighter than the sun."
+  },
+  {
+   "article": "The Transformation of the Universe",
+   "page": 9,
+   "link": "the-transformation-of-the-universe",
+   "q": "To what is the visible world likened?",
+   "options": [
+    [
+     "A flat field",
+     "Not quite. The article says: An iceberg, mostly hidden below the surface."
+    ],
+    [
+     "A mountain fully in view",
+     "Not quite. The article says: An iceberg, mostly hidden below the surface."
+    ],
+    [
+     "A closed door",
+     "Not quite. The article says: An iceberg, mostly hidden below the surface."
+    ],
+    [
+     "An iceberg, mostly hidden below the surface",
+     "Religion gives a glimpse of the hidden part."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The visible world can be likened to an iceberg, with only a tiny portion visible above the water’s surface."
+  },
+  {
+   "article": "The Opportunity to Learn",
+   "page": 12,
+   "link": "the-opportunity-to-learn",
+   "q": "What was the earliest recorded instance of interfaith dialogue named in the article?",
+   "options": [
+    [
+     "The Bamako Conference",
+     "Not quite. The article says: The World’s Parliament of Religions, Chicago, 1893."
+    ],
+    [
+     "The Council of Nicaea",
+     "Not quite. The article says: The World’s Parliament of Religions, Chicago, 1893."
+    ],
+    [
+     "The World’s Parliament of Religions, Chicago, 1893",
+     "The author sees dialogue as a chance to learn."
+    ],
+    [
+     "The Doha Pact",
+     "Not quite. The article says: The World’s Parliament of Religions, Chicago, 1893."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The earliest recorded instance was the World’s Parliament of Religions in 1893, Chicago."
+  },
+  {
+   "article": "Infinite Mind, Finite World",
+   "page": 17,
+   "link": "infinite-mind-finite-world",
+   "q": "What can instinct be called?",
+   "options": [
+    [
+     "Reason",
+     "Not quite. The article says: Unconscious intelligence."
+    ],
+    [
+     "Free will",
+     "Not quite. The article says: Unconscious intelligence."
+    ],
+    [
+     "Unconscious intelligence",
+     "Conscious intelligence is a human specialty."
+    ],
+    [
+     "Wisdom",
+     "Not quite. The article says: Unconscious intelligence."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Their actions are governed by instinct, which can be called unconscious intelligence."
+  },
+  {
+   "article": "World Religions and the Spirit of Tolerance",
+   "page": 29,
+   "link": "world-religions-and-the-spirit-of-tolerance",
+   "q": "Which year did the United Nations declare the year of tolerance?",
+   "options": [
+    [
+     "2020",
+     "Not quite. The article says: 1995."
+    ],
+    [
+     "1945",
+     "Not quite. The article says: 1995."
+    ],
+    [
+     "1995",
+     "But tolerance is a permanent need."
+    ],
+    [
+     "1893",
+     "Not quite. The article says: 1995."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The United Nations declared 1995 as the year of tolerance."
+  },
+  {
+   "article": "Treasury of Islamic Virtues",
+   "page": 31,
+   "link": "treasury-of-islamic-virtues",
+   "q": "Which virtues does the article name as essential?",
+   "options": [
+    [
+     "Speed and strength",
+     "Not quite. The article says: Truthfulness, patience, generosity and humility."
+    ],
+    [
+     "Truthfulness, patience, generosity and humility",
+     "For a life that pleases God."
+    ],
+    [
+     "Wealth and rank",
+     "Not quite. The article says: Truthfulness, patience, generosity and humility."
+    ],
+    [
+     "Pride and power",
+     "Not quite. The article says: Truthfulness, patience, generosity and humility."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They include qualities like truthfulness, patience, generosity, and humility."
+  },
+  {
+   "article": "From the Cradle to Eternity",
+   "page": 36,
+   "link": "from-the-cradle-to-eternity",
+   "q": "What daily occurrence is as awe-inspiring as a man emerging from an untouched cave?",
+   "options": [
+    [
+     "A train arriving",
+     "Not quite. The article says: The birth of a live child."
+    ],
+    [
+     "The birth of a live child",
+     "We take it for granted."
+    ],
+    [
+     "Rainfall",
+     "Not quite. The article says: The birth of a live child."
+    ],
+    [
+     "Sunset",
+     "Not quite. The article says: The birth of a live child."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The birth of a live child, a daily occurrence, is equally awe-inspiring."
+  },
+  {
+   "article": "Countdown to Doomsday",
+   "page": 40,
+   "link": "countdown-to-doomsday",
+   "q": "To what does the article compare the Earth for humanity?",
+   "options": [
+    [
+     "A ship at sea",
+     "Not quite. The article says: A mother’s womb to her child."
+    ],
+    [
+     "A marketplace",
+     "Not quite. The article says: A mother’s womb to her child."
+    ],
+    [
+     "A mother’s womb to her child",
+     "Our unique sanctuary."
+    ],
+    [
+     "A prison",
+     "Not quite. The article says: A mother’s womb to her child."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A haven as vital to us as a mother’s womb is to her child."
+  },
+  {
+   "article": "Success Through Struggle",
+   "page": 43,
+   "link": "success-through-struggle",
+   "q": "What kind of life is not possible in this world?",
+   "options": [
+    [
+     "A problem-free life",
+     "Everyone faces some dilemma."
+    ],
+    [
+     "A quiet life",
+     "Not quite. The article says: A problem-free life."
+    ],
+    [
+     "A long life",
+     "Not quite. The article says: A problem-free life."
+    ],
+    [
+     "A busy life",
+     "Not quite. The article says: A problem-free life."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In this world, a problem-free life is just not possible."
+  },
+  {
+   "article": "Hidden Blessings of Life",
+   "page": 46,
+   "link": "hidden-blessings-of-life",
+   "q": "Where did Maulana Iqbal Umri travel recently?",
+   "options": [
+    [
+     "In first class",
+     "Not quite. The article says: In a general bogie of a train."
+    ],
+    [
+     "In a private jet",
+     "Not quite. The article says: In a general bogie of a train."
+    ],
+    [
+     "In a general bogie of a train",
+     "Where ordinary stories unfold."
+    ],
+    [
+     "On a cruise ship",
+     "Not quite. The article says: In a general bogie of a train."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "I travelled in a general bogie of a train—nothing fancy."
+  }
+ ]
+}
