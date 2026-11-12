@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Authority Over Religious Affairs",
+   "page": 5,
+   "link": "the-authority-over-religious-affairs",
+   "q": "What question do Christian friends often pose at interfaith programmes?",
+   "options": [
+    [
+     "What Muslims eat",
+     "Not quite. The article says: What hierarchical order Islam follows."
+    ],
+    [
+     "Where Makkah is",
+     "Not quite. The article says: What hierarchical order Islam follows."
+    ],
+    [
+     "How many Muslims there are",
+     "Not quite. The article says: What hierarchical order Islam follows."
+    ],
+    [
+     "What hierarchical order Islam follows",
+     "Thinking of the church’s role."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "What is the hierarchical order followed by Islam?"
+  },
+  {
+   "article": "It’s a Give and Take World",
+   "page": 9,
+   "link": "its-a-give-and-take-world",
+   "q": "What does the weighing machine do when a one-rupee coin is inserted?",
+   "options": [
+    [
+     "It returns two coins",
+     "Not quite. The article says: It gives a card showing one’s weight."
+    ],
+    [
+     "It gives a card showing one’s weight",
+     "A little boy was fascinated by it."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: It gives a card showing one’s weight."
+    ],
+    [
+     "It plays music",
+     "Not quite. The article says: It gives a card showing one’s weight."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "An electronic weighing machine ejects a neatly printed card showing one’s weight."
+  },
+  {
+   "article": "A Lifetime of Devotion",
+   "page": 11,
+   "link": "a-lifetime-of-devotion",
+   "q": "What mission did Pandit Ashu Ram Arya pursue for forty years?",
+   "options": [
+    [
+     "Travelling the world",
+     "Not quite. The article says: Translating all four Vedas into Urdu."
+    ],
+    [
+     "Translating all four Vedas into Urdu",
+     "Begun in his youth."
+    ],
+    [
+     "Writing a novel",
+     "Not quite. The article says: Translating all four Vedas into Urdu."
+    ],
+    [
+     "Building a temple",
+     "Not quite. The article says: Translating all four Vedas into Urdu."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "His self-ordained mission to translate all of the four Vedas into Urdu."
+  },
+  {
+   "article": "Names of God",
+   "page": 16,
+   "link": "names-of-god",
+   "q": "How many names does God have, in the saying recorded in Sahih al-Bukhari?",
+   "options": [
+    [
+     "Ninety-nine",
+     "One less than a hundred."
+    ],
+    [
+     "Seven",
+     "Not quite. The article says: Ninety-nine."
+    ],
+    [
+     "Twelve",
+     "Not quite. The article says: Ninety-nine."
+    ],
+    [
+     "One thousand",
+     "Not quite. The article says: Ninety-nine."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God has ninety-nine names, one less than a hundred."
+  },
+  {
+   "article": "Peace: A Universal Religion",
+   "page": 19,
+   "link": "peace-a-universal-religion",
+   "q": "Of what is peace a product?",
+   "options": [
+    [
+     "Wealth",
+     "Not quite. The article says: A positive mental attitude."
+    ],
+    [
+     "Military strength",
+     "Not quite. The article says: A positive mental attitude."
+    ],
+    [
+     "A positive mental attitude",
+     "Violence results from negative thinking."
+    ],
+    [
+     "Fear",
+     "Not quite. The article says: A positive mental attitude."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Peace is a product of a positive mental attitude, while violence is the result of negative thinking."
+  },
+  {
+   "article": "Islamic Message in a Changing World",
+   "page": 23,
+   "link": "islamic-message-in-a-changing-world",
+   "q": "What crumbled, taking the communist ideology with it?",
+   "options": [
+    [
+     "The Soviet empire",
+     "The world has changed tremendously."
+    ],
+    [
+     "The Ottoman empire",
+     "Not quite. The article says: The Soviet empire."
+    ],
+    [
+     "The British empire",
+     "Not quite. The article says: The Soviet empire."
+    ],
+    [
+     "The Roman empire",
+     "Not quite. The article says: The Soviet empire."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Soviet empire crumbled, taking down with it the communist ideology."
+  },
+  {
+   "article": "Successful Marriage",
+   "page": 28,
+   "link": "successful-marriage",
+   "q": "How does verse 4: 19 tell believers to live with their spouses?",
+   "options": [
+    [
+     "In silence",
+     "Not quite. The article says: In accordance with what is fair and kind."
+    ],
+    [
+     "Apart",
+     "Not quite. The article says: In accordance with what is fair and kind."
+    ],
+    [
+     "With suspicion",
+     "Not quite. The article says: In accordance with what is fair and kind."
+    ],
+    [
+     "In accordance with what is fair and kind",
+     "What you dislike may hold abundant good."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Live with them in accordance with what is fair and kind."
+  },
+  {
+   "article": "Mahatma Gandhi: A True Visionary",
+   "page": 30,
+   "link": "mahatma-gandhi-a-true-visionary",
+   "q": "Where did the All India Congress hold its annual meeting in 1919?",
+   "options": [
+    [
+     "Madras",
+     "Not quite. The article says: Amritsar."
+    ],
+    [
+     "Amritsar",
+     "Recalled by Professor Niranjan Singh."
+    ],
+    [
+     "Calcutta",
+     "Not quite. The article says: Amritsar."
+    ],
+    [
+     "Bombay",
+     "Not quite. The article says: Amritsar."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In 1919, the All India Congress held its annual meeting in Amritsar."
+  },
+  {
+   "article": "An Outreach Journey to Brazil",
+   "page": 39,
+   "link": "an-outreach-journey-to-brazil",
+   "q": "To which country was the outreach journey of June 2021?",
+   "options": [
+    [
+     "Canada",
+     "Not quite. The article says: Brazil."
+    ],
+    [
+     "Japan",
+     "Not quite. The article says: Brazil."
+    ],
+    [
+     "Brazil",
+     "On behalf of CPS USA."
+    ],
+    [
+     "Egypt",
+     "Not quite. The article says: Brazil."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "I embarked upon my third outreach journey to Brazil on June 23, 2021."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What extols the glory of God?",
+   "options": [
+    [
+     "All that is in the heavens and on the earth",
+     "To Him belongs the Kingdom."
+    ],
+    [
+     "Only the angels",
+     "Not quite. The article says: All that is in the heavens and on the earth."
+    ],
+    [
+     "Only mankind",
+     "Not quite. The article says: All that is in the heavens and on the earth."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: All that is in the heavens and on the earth."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "All that is in the heavens and on the earth extols the glory of God."
+  }
+ ]
+}

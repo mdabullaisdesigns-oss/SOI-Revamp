@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A Moment of Gratitude",
+   "page": 5,
+   "link": "a-moment-of-gratitude",
+   "q": "Which issue of Spirit of Islam was this?",
+   "options": [
+    [
+     "The 50th",
+     "Not quite. The article says: The 100th."
+    ],
+    [
+     "The 100th",
+     "The journey began in 2013."
+    ],
+    [
+     "The 500th",
+     "Not quite. The article says: The 100th."
+    ],
+    [
+     "The 10th",
+     "Not quite. The article says: The 100th."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "You are reading the 100th issue of Spirit of Islam."
+  },
+  {
+   "article": "Life Without God",
+   "page": 9,
+   "link": "life-without-god",
+   "q": "What became commonplace in the post-scientific age?",
+   "options": [
+    [
+     "Registering as following ‘no religion’",
+     "People call themselves ‘nonreligious’."
+    ],
+    [
+     "Universal fasting",
+     "Not quite. The article says: Registering as following ‘no religion’."
+    ],
+    [
+     "Daily pilgrimage",
+     "Not quite. The article says: Registering as following ‘no religion’."
+    ],
+    [
+     "Belief in many gods",
+     "Not quite. The article says: Registering as following ‘no religion’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It became commonplace for many to register themselves as following ‘no religion’."
+  },
+  {
+   "article": "A Serious Mistake",
+   "page": 14,
+   "link": "a-serious-mistake",
+   "q": "How do people’s methods differ between worldly affairs and religion?",
+   "options": [
+    [
+     "They reason more in religion",
+     "Not quite. The article says: They reason carefully in worldly affairs but not in religion."
+    ],
+    [
+     "They treat both alike",
+     "Not quite. The article says: They reason carefully in worldly affairs but not in religion."
+    ],
+    [
+     "They ignore worldly affairs",
+     "Not quite. The article says: They reason carefully in worldly affairs but not in religion."
+    ],
+    [
+     "They reason carefully in worldly affairs but not in religion",
+     "A serious mistake."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "People are very intelligent in their worldly affairs … but in the matter of religion, their method is completely different."
+  },
+  {
+   "article": "Every Person Is Your Potential Friend: Maulana Wahiduddin Khan",
+   "page": 16,
+   "link": "every-person-is-your-potential-friend-maulana-wahiduddin-khan",
+   "q": "Where was Maulana Wahiduddin Khan born?",
+   "options": [
+    [
+     "Hyderabad",
+     "Not quite. The article says: Badhariya village, Azamgarh district."
+    ],
+    [
+     "Badhariya village, Azamgarh district",
+     "On January 1, 1925, by official records."
+    ],
+    [
+     "Delhi",
+     "Not quite. The article says: Badhariya village, Azamgarh district."
+    ],
+    [
+     "Lahore",
+     "Not quite. The article says: Badhariya village, Azamgarh district."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "I was born in a village called Badhariya, which is in the Azamgarh district of Uttar Pradesh."
+  },
+  {
+   "article": "Laylat-Ul-Qadr",
+   "page": 23,
+   "link": "laylat-ul-qadr",
+   "q": "What does Laylat-ul-Qadr mean?",
+   "options": [
+    [
+     "‘Night of Fasting’",
+     "Not quite. The article says: ‘Night of Destiny’."
+    ],
+    [
+     "‘Night of Destiny’",
+     "Better than a thousand months."
+    ],
+    [
+     "‘Night of the Moon’",
+     "Not quite. The article says: ‘Night of Destiny’."
+    ],
+    [
+     "‘Night of Journey’",
+     "Not quite. The article says: ‘Night of Destiny’."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Shab-e-Qadr or Laylat-ul-Qadr means, ‘Night of Destiny’."
+  },
+  {
+   "article": "Silence and God-Realization",
+   "page": 26,
+   "link": "silence-and-god-realization",
+   "q": "What did the Prophet say about silence?",
+   "options": [
+    [
+     "“Hold fast to silence.”",
+     "He usually observed it."
+    ],
+    [
+     "“Silence is weakness.”",
+     "Not quite. The article says: “Hold fast to silence.”."
+    ],
+    [
+     "“Avoid silence.”",
+     "Not quite. The article says: “Hold fast to silence.”."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: “Hold fast to silence.”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He said: “Hold fast to silence.”"
+  },
+  {
+   "article": "Two Lives",
+   "page": 30,
+   "link": "two-lives",
+   "q": "Why is man called a mixture of opposites?",
+   "options": [
+    [
+     "He has two names",
+     "Not quite. The article says: Contradictory attributes are found in him."
+    ],
+    [
+     "He speaks two languages",
+     "Not quite. The article says: Contradictory attributes are found in him."
+    ],
+    [
+     "He lives in two countries",
+     "Not quite. The article says: Contradictory attributes are found in him."
+    ],
+    [
+     "Contradictory attributes are found in him",
+     "Such as powerful desires and their limits."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Contradictory attributes are found in him. That is why it is said that man is a mixture of opposites."
+  },
+  {
+   "article": "The Primacy of Prayer",
+   "page": 32,
+   "link": "the-primacy-of-prayer",
+   "q": "How many times daily are believers enjoined to perform salat?",
+   "options": [
+    [
+     "Ten",
+     "Not quite. The article says: Five."
+    ],
+    [
+     "Once",
+     "Not quite. The article says: Five."
+    ],
+    [
+     "Five",
+     "It has a specific ritual."
+    ],
+    [
+     "Three",
+     "Not quite. The article says: Five."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Islam enjoins believers to perform salat five times daily."
+  },
+  {
+   "article": "The World Mourns the Loss of Maulana",
+   "page": 40,
+   "link": "the-world-mourns-the-loss-of-maulana",
+   "q": "What began as soon as the news of Maulana’s demise was reported?",
+   "options": [
+    [
+     "Celebrations",
+     "Not quite. The article says: Condolences poured in from all over the world."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: Condolences poured in from all over the world."
+    ],
+    [
+     "A public holiday",
+     "Not quite. The article says: Condolences poured in from all over the world."
+    ],
+    [
+     "Condolences poured in from all over the world",
+     "A few are listed in the issue."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Condolences started to pour in from all over the world."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What would God’s creatures do if all were granted abundant provision?",
+   "options": [
+    [
+     "Rest",
+     "Not quite. The article says: Act insolently on earth."
+    ],
+    [
+     "Give thanks",
+     "Not quite. The article says: Act insolently on earth."
+    ],
+    [
+     "Act insolently on earth",
+     "So He sends down in due measure."
+    ],
+    [
+     "Share equally",
+     "Not quite. The article says: Act insolently on earth."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "If God were to grant abundant provision to [all] His creatures, they would act insolently on earth."
+  }
+ ]
+}

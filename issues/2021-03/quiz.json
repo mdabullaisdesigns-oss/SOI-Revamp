@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Deconditioning the Mind",
+   "page": 5,
+   "link": "deconditioning-the-mind",
+   "q": "Of what is every person a product?",
+   "options": [
+    [
+     "His stars",
+     "Not quite. The article says: The environment or society he lives in."
+    ],
+    [
+     "His diet",
+     "Not quite. The article says: The environment or society he lives in."
+    ],
+    [
+     "His wealth",
+     "Not quite. The article says: The environment or society he lives in."
+    ],
+    [
+     "The environment or society he lives in",
+     "“No man is an island.”"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Every person is a product of the environment …"
+  },
+  {
+   "article": "Islamic Concept of Gender Equality",
+   "page": 8,
+   "link": "islamic-concept-of-gender-equality",
+   "q": "Who wrote Men Are from Mars, Women Are from Venus?",
+   "options": [
+    [
+     "John Gray",
+     "On psychological differences between the sexes."
+    ],
+    [
+     "Dale Carnegie",
+     "Not quite. The article says: John Gray."
+    ],
+    [
+     "Sheryl Sandberg",
+     "Not quite. The article says: John Gray."
+    ],
+    [
+     "Napoleon Hill",
+     "Not quite. The article says: John Gray."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A book written by American author and relationship counselor John Gray."
+  },
+  {
+   "article": "The Spiritual Role of Women",
+   "page": 11,
+   "link": "the-spiritual-role-of-women",
+   "q": "In what times does the article say women’s qualities help bring peace?",
+   "options": [
+    [
+     "Festivals",
+     "Not quite. The article says: Times of conflict."
+    ],
+    [
+     "Times of plenty",
+     "Not quite. The article says: Times of conflict."
+    ],
+    [
+     "Never",
+     "Not quite. The article says: Times of conflict."
+    ],
+    [
+     "Times of conflict",
+     "Gentleness, compassion and more."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "… bringing about peace and harmony in society in times of conflict."
+  },
+  {
+   "article": "Women Can Play a Revolutionary Role in Islamic Missionary Tasks:",
+   "page": 16,
+   "link": "women-can-play-a-revolutionary-role-in-islamic-missionary-tasks",
+   "q": "Who is the Editorial Director of Spirit of Islam?",
+   "options": [
+    [
+     "Maulana Azad",
+     "Not quite. The article says: Prof. Farida Khanam."
+    ],
+    [
+     "Dr. Saniyasnain Khan",
+     "Not quite. The article says: Prof. Farida Khanam."
+    ],
+    [
+     "Prof. Farida Khanam",
+     "A former professor at Jamia Millia Islamia."
+    ],
+    [
+     "Prof. Niranjan Singh",
+     "Not quite. The article says: Prof. Farida Khanam."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Editorial Director of Spirit of Islam Prof. Farida Khanam is a former professor of Islamic Studies."
+  },
+  {
+   "article": "A Faultless Universe",
+   "page": 30,
+   "link": "a-faultless-universe",
+   "q": "What is a person’s spontaneous utterance on observing the universe?",
+   "options": [
+    [
+     "“How small it is”",
+     "Not quite. The article says: “Praise be to God, the Lord of the Universe”."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: “Praise be to God, the Lord of the Universe”."
+    ],
+    [
+     "“It made itself”",
+     "Not quite. The article says: “Praise be to God, the Lord of the Universe”."
+    ],
+    [
+     "“Praise be to God, the Lord of the Universe”",
+     "Quran 1: 2."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Praise be to God, the Lord of the Universe” are a person’s spontaneous utterance when he observes the universe."
+  },
+  {
+   "article": "The Art of Thinking",
+   "page": 32,
+   "link": "the-art-of-thinking",
+   "q": "By what are animals governed?",
+   "options": [
+    [
+     "Their leaders",
+     "Not quite. The article says: Their instincts."
+    ],
+    [
+     "Their instincts",
+     "Humans can think and plan."
+    ],
+    [
+     "Their reason",
+     "Not quite. The article says: Their instincts."
+    ],
+    [
+     "Their laws",
+     "Not quite. The article says: Their instincts."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Animals, on the other hand, are governed by their instincts."
+  },
+  {
+   "article": "A Life Dedicated to Peace & Spirituality",
+   "page": 37,
+   "link": "a-life-dedicated-to-peace-spirituality",
+   "q": "Which honour was Maulana Wahiduddin Khan awarded?",
+   "options": [
+    [
+     "A knighthood",
+     "Not quite. The article says: The Padma Vibhushan."
+    ],
+    [
+     "The Bharat Ratna",
+     "Not quite. The article says: The Padma Vibhushan."
+    ],
+    [
+     "The Nobel Prize",
+     "Not quite. The article says: The Padma Vibhushan."
+    ],
+    [
+     "The Padma Vibhushan",
+     "India’s second-highest civilian honour."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Maulana Wahiduddin Khan has recently been awarded India’s second-highest civilian honour, the Padma Vibhushan."
+  },
+  {
+   "article": "The Story of Khadija",
+   "page": 39,
+   "link": "the-story-of-khadija",
+   "q": "To which tribe did Khadija belong?",
+   "options": [
+    [
+     "The Banu Tamim",
+     "Not quite. The article says: The Quraysh."
+    ],
+    [
+     "The Khazraj",
+     "Not quite. The article says: The Quraysh."
+    ],
+    [
+     "The Aws",
+     "Not quite. The article says: The Quraysh."
+    ],
+    [
+     "The Quraysh",
+     "Like the Prophet Muhammad."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Like the Prophet Muhammad, she belonged to the tribe of the Quraysh."
+  },
+  {
+   "article": "Mothers of the Believers",
+   "page": 42,
+   "link": "mothers-of-the-believers",
+   "q": "What title does the Quran (33: 6) give the wives of the Prophet?",
+   "options": [
+    [
+     "Daughters of Quraysh",
+     "Not quite. The article says: Mothers of the believers."
+    ],
+    [
+     "Queens of Arabia",
+     "Not quite. The article says: Mothers of the believers."
+    ],
+    [
+     "Teachers of women",
+     "Not quite. The article says: Mothers of the believers."
+    ],
+    [
+     "Mothers of the believers",
+     "Showing the honour due to them."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The wives of the Prophet are the mothers of the believers."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What will the Day of Gathering be?",
+   "options": [
+    [
+     "The Day of loss and gain",
+     "Believers who do good will be forgiven."
+    ],
+    [
+     "A day of rest",
+     "Not quite. The article says: The Day of loss and gain."
+    ],
+    [
+     "A day like any other",
+     "Not quite. The article says: The Day of loss and gain."
+    ],
+    [
+     "A day of trade",
+     "Not quite. The article says: The Day of loss and gain."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "That will be the Day of loss and gain."
+  }
+ ]
+}

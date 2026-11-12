@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A New Lease of Life",
+   "page": 5,
+   "link": "a-new-lease-of-life",
+   "q": "For what had Eric Morecambe just said he was grateful, hours before he died?",
+   "options": [
+    [
+     "His fame",
+     "Not quite. The article says: A new lease of life."
+    ],
+    [
+     "A new lease of life",
+     "He died on May 28, 1984."
+    ],
+    [
+     "His audience",
+     "Not quite. The article says: A new lease of life."
+    ],
+    [
+     "His wealth",
+     "Not quite. The article says: A new lease of life."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He had told an audience how grateful he was for a new lease of life."
+  },
+  {
+   "article": "All Are Equal in the Eyes of Law",
+   "page": 9,
+   "link": "all-are-equal-in-the-eyes-of-law",
+   "q": "To whom did the Egyptian come seeking shelter from oppression?",
+   "options": [
+    [
+     "Caliph Umar ibn al-Khattab",
+     "His request was granted."
+    ],
+    [
+     "Caesar",
+     "Not quite. The article says: Caliph Umar ibn al-Khattab."
+    ],
+    [
+     "Pharaoh",
+     "Not quite. The article says: Caliph Umar ibn al-Khattab."
+    ],
+    [
+     "The Negus",
+     "Not quite. The article says: Caliph Umar ibn al-Khattab."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "An Egyptian once came to the second Caliph Umar ibn al-Khattab."
+  },
+  {
+   "article": "The Hudaibiyah Revolution",
+   "page": 11,
+   "link": "the-hudaibiyah-revolution",
+   "q": "What have people believed since time immemorial?",
+   "options": [
+    [
+     "That talk is useless",
+     "Not quite. The article says: That war is the most powerful means of attaining one’s purpose."
+    ],
+    [
+     "That trade is evil",
+     "Not quite. The article says: That war is the most powerful means of attaining one’s purpose."
+    ],
+    [
+     "That war is the most powerful means of attaining one’s purpose",
+     "Hudaibiyah showed otherwise."
+    ],
+    [
+     "That peace always wins",
+     "Not quite. The article says: That war is the most powerful means of attaining one’s purpose."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "People have believed that war is the most powerful means of attaining one’s purpose."
+  },
+  {
+   "article": "The Task of Global Dawah",
+   "page": 17,
+   "link": "the-task-of-global-dawah",
+   "q": "Who was the last in the series of prophets?",
+   "options": [
+    [
+     "The Prophet Muhammad",
+     "After him the task falls to believers."
+    ],
+    [
+     "Jesus",
+     "Not quite. The article says: The Prophet Muhammad."
+    ],
+    [
+     "Abraham",
+     "Not quite. The article says: The Prophet Muhammad."
+    ],
+    [
+     "Moses",
+     "Not quite. The article says: The Prophet Muhammad."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Prophet Muhammad was the Last Prophet in the series of prophets."
+  },
+  {
+   "article": "Dust Unto Dust",
+   "page": 22,
+   "link": "dust-unto-dust",
+   "q": "In which year did Napoleon have himself proclaimed Emperor of France?",
+   "options": [
+    [
+     "1900",
+     "Not quite. The article says: 1804."
+    ],
+    [
+     "1769",
+     "Not quite. The article says: 1804."
+    ],
+    [
+     "1804",
+     "He then set out to conquer the world."
+    ],
+    [
+     "1821",
+     "Not quite. The article says: 1804."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "He had himself proclaimed Emperor of France in 1804."
+  },
+  {
+   "article": "The Veil of Satan",
+   "page": 26,
+   "link": "the-veil-of-satan",
+   "q": "Why does Satan hover over people’s eyes, in the Hadith?",
+   "options": [
+    [
+     "To make them sleep",
+     "Not quite. The article says: So that they may not reflect upon the divine signs."
+    ],
+    [
+     "To guard them",
+     "Not quite. The article says: So that they may not reflect upon the divine signs."
+    ],
+    [
+     "So that they may not reflect upon the divine signs",
+     "Scattered over earth and heavens."
+    ],
+    [
+     "To make them rich",
+     "Not quite. The article says: So that they may not reflect upon the divine signs."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Satan keeps hovering over the eyes of human beings, so that they may not reflect upon the divine signs.”"
+  },
+  {
+   "article": "The Quest for Ideal Society",
+   "page": 29,
+   "link": "the-quest-for-ideal-society",
+   "q": "By what title is Aristotle known?",
+   "options": [
+    [
+     "“The First Teacher”",
+     "His philosophy shaped the history of thought."
+    ],
+    [
+     "“The Last Sage”",
+     "Not quite. The article says: “The First Teacher”."
+    ],
+    [
+     "“The Silent One”",
+     "Not quite. The article says: “The First Teacher”."
+    ],
+    [
+     "“The Great King”",
+     "Not quite. The article says: “The First Teacher”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Aristotle, one of the greatest thinkers of the world, is known as “The First Teacher”."
+  },
+  {
+   "article": "A Positive Concept of Death",
+   "page": 37,
+   "link": "a-positive-concept-of-death",
+   "q": "How does the dictionary describe death?",
+   "options": [
+    [
+     "Permanent cessation of life",
+     "A negative picture, says the article."
+    ],
+    [
+     "A journey home",
+     "Not quite. The article says: Permanent cessation of life."
+    ],
+    [
+     "A deep sleep",
+     "Not quite. The article says: Permanent cessation of life."
+    ],
+    [
+     "A new beginning",
+     "Not quite. The article says: Permanent cessation of life."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "You will find ‘death’ described as: Permanent cessation of life."
+  },
+  {
+   "article": "Horticulture Therapy",
+   "page": 40,
+   "link": "horticulture-therapy",
+   "q": "Which of these do trees do, according to the article?",
+   "options": [
+    [
+     "Consume oxygen only",
+     "Not quite. The article says: Absorb noise and give off oxygen."
+    ],
+    [
+     "Absorb noise and give off oxygen",
+     "They are vital to human existence."
+    ],
+    [
+     "Raise temperatures",
+     "Not quite. The article says: Absorb noise and give off oxygen."
+    ],
+    [
+     "Produce smog",
+     "Not quite. The article says: Absorb noise and give off oxygen."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Trees absorb noise, give off precious oxygen, clean the air of pollution."
+  },
+  {
+   "article": "The Prophet and His Companions",
+   "page": 44,
+   "link": "the-prophet-and-his-companions",
+   "q": "What did the Prophet do on meeting two men in the mountain pass of Rakooba?",
+   "options": [
+    [
+     "He invited them to Islam",
+     "While emigrating to Madinah."
+    ],
+    [
+     "He avoided them",
+     "Not quite. The article says: He invited them to Islam."
+    ],
+    [
+     "He asked the way",
+     "Not quite. The article says: He invited them to Islam."
+    ],
+    [
+     "He traded with them",
+     "Not quite. The article says: He invited them to Islam."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He invited them to Islam, and they accepted."
+  }
+ ]
+}

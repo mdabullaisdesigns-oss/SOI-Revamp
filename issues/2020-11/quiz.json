@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Question of Intellect",
+   "page": 5,
+   "link": "the-question-of-intellect",
+   "q": "What is intellect, according to the article?",
+   "options": [
+    [
+     "The mind’s ability to reach correct conclusions about true and false",
+     "A precious gift from the Creator."
+    ],
+    [
+     "Physical quickness",
+     "Not quite. The article says: The mind’s ability to reach correct conclusions about true and false."
+    ],
+    [
+     "A large vocabulary",
+     "Not quite. The article says: The mind’s ability to reach correct conclusions about true and false."
+    ],
+    [
+     "The ability to memorise",
+     "Not quite. The article says: The mind’s ability to reach correct conclusions about true and false."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Intellect is the ability of the mind to reach correct conclusions about what is true and what is false."
+  },
+  {
+   "article": "In Search of Heaven",
+   "page": 10,
+   "link": "in-search-of-heaven",
+   "q": "What did Stephen Hawking say about heaven in 2011?",
+   "options": [
+    [
+     "That it is on another planet",
+     "Not quite. The article says: That it is “a fairy story for people afraid of the dark”."
+    ],
+    [
+     "That it is “a fairy story for people afraid of the dark”",
+     "The article calls this unscientific."
+    ],
+    [
+     "That he had seen it",
+     "Not quite. The article says: That it is “a fairy story for people afraid of the dark”."
+    ],
+    [
+     "That it is certain",
+     "Not quite. The article says: That it is “a fairy story for people afraid of the dark”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“There is no heaven or afterlife…; that is a fairy story for people afraid of the dark.”"
+  },
+  {
+   "article": "Love for Humanity",
+   "page": 14,
+   "link": "love-for-humanity",
+   "q": "What do few people realise about the building of their lives?",
+   "options": [
+    [
+     "That they did it alone",
+     "Not quite. The article says: That the whole of humanity has played a part in it."
+    ],
+    [
+     "That luck did it",
+     "Not quite. The article says: That the whole of humanity has played a part in it."
+    ],
+    [
+     "That the whole of humanity has played a part in it",
+     "Not only their parents."
+    ],
+    [
+     "That teachers alone did it",
+     "Not quite. The article says: That the whole of humanity has played a part in it."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The whole of humanity has played a part in the building of their lives."
+  },
+  {
+   "article": "The Eternal Journey",
+   "page": 17,
+   "link": "the-eternal-journey",
+   "q": "Who will lend a helping hand in the next world?",
+   "options": [
+    [
+     "No one",
+     "Worldly supports are temporary."
+    ],
+    [
+     "One’s wealth",
+     "Not quite. The article says: No one."
+    ],
+    [
+     "One’s friends",
+     "Not quite. The article says: No one."
+    ],
+    [
+     "One’s guard",
+     "Not quite. The article says: No one."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "When one reaches the next world, there will be no one to lend a helping hand."
+  },
+  {
+   "article": "Argument for the Life Hereafter",
+   "page": 21,
+   "link": "argument-for-the-life-hereafter",
+   "q": "What is one of the most important tenets of religion?",
+   "options": [
+    [
+     "The existence of the life Hereafter",
+     "The present world is a place of trial."
+    ],
+    [
+     "The love of wealth",
+     "Not quite. The article says: The existence of the life Hereafter."
+    ],
+    [
+     "The study of stars",
+     "Not quite. The article says: The existence of the life Hereafter."
+    ],
+    [
+     "National pride",
+     "Not quite. The article says: The existence of the life Hereafter."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "One of the most important tenets of religion is the existence of the life Hereafter."
+  },
+  {
+   "article": "Desist from Intolerance",
+   "page": 28,
+   "link": "desist-from-intolerance",
+   "q": "What happens if impatient people demand fruit from a new tree after a few months?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: They destroy the tree."
+    ],
+    [
+     "They destroy the tree",
+     "Nature’s law needs years."
+    ],
+    [
+     "It grows faster",
+     "Not quite. The article says: They destroy the tree."
+    ],
+    [
+     "It fruits at once",
+     "Not quite. The article says: They destroy the tree."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They will destroy the tree with their impatience."
+  },
+  {
+   "article": "Secret of Mental Peace",
+   "page": 32,
+   "link": "secret-of-mental-peace",
+   "q": "Who is Charles Moss Duke Jr.?",
+   "options": [
+    [
+     "A French chef",
+     "Not quite. The article says: An American astronaut."
+    ],
+    [
+     "An Indian judge",
+     "Not quite. The article says: An American astronaut."
+    ],
+    [
+     "A British poet",
+     "Not quite. The article says: An American astronaut."
+    ],
+    [
+     "An American astronaut",
+     "Selected by NASA in 1966."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Charles Moss Duke Jr. is an American astronaut."
+  },
+  {
+   "article": "Paradise: A Universal Concept",
+   "page": 35,
+   "link": "paradise-a-universal-concept",
+   "q": "Where can the concept of Paradise be found?",
+   "options": [
+    [
+     "Only in one religion",
+     "Not quite. The article says: In all human societies."
+    ],
+    [
+     "Nowhere",
+     "Not quite. The article says: In all human societies."
+    ],
+    [
+     "In all human societies",
+     "A universal dream."
+    ],
+    [
+     "Only in the East",
+     "Not quite. The article says: In all human societies."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The concept of Paradise can be found in all human societies."
+  },
+  {
+   "article": "Trying to Deceive God",
+   "page": 41,
+   "link": "trying-to-deceive-god",
+   "q": "Whom do those who seek to deceive God actually deceive (2: 9)?",
+   "options": [
+    [
+     "No one",
+     "Not quite. The article says: Themselves."
+    ],
+    [
+     "The angels",
+     "Not quite. The article says: Themselves."
+    ],
+    [
+     "Themselves",
+     "Though they do not realize it."
+    ],
+    [
+     "The believers",
+     "Not quite. The article says: Themselves."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "They seek to deceive God and the believers, but they only deceive themselves."
+  },
+  {
+   "article": "The Two Courses",
+   "page": 44,
+   "link": "the-two-courses",
+   "q": "Where does the straight way lead (16: 9)?",
+   "options": [
+    [
+     "To God",
+     "Other ways deviate."
+    ],
+    [
+     "To wealth",
+     "Not quite. The article says: To God."
+    ],
+    [
+     "To power",
+     "Not quite. The article says: To God."
+    ],
+    [
+     "Nowhere",
+     "Not quite. The article says: To God."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "‘The straight way leads to God and there are ways which deviate from the right course.’"
+  }
+ ]
+}

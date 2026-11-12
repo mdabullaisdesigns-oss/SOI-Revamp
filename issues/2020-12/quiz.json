@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Facebook: A Study Club",
+   "page": 5,
+   "link": "facebook-a-study-club",
+   "q": "What is social media, in the article’s words?",
+   "options": [
+    [
+     "A postal service",
+     "Not quite. The article says: A method of electronic communication."
+    ],
+    [
+     "A television channel",
+     "Not quite. The article says: A method of electronic communication."
+    ],
+    [
+     "A kind of newspaper",
+     "Not quite. The article says: A method of electronic communication."
+    ],
+    [
+     "A method of electronic communication",
+     "A person builds a community on the Internet."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Social media is a method of electronic communication."
+  },
+  {
+   "article": "The Beautiful Names of God",
+   "page": 7,
+   "link": "the-beautiful-names-of-god",
+   "q": "What did acquaintances ask the writer during the pandemic?",
+   "options": [
+    [
+     "Where to buy masks",
+     "Not quite. The article says: Which name of God to recite for protection from Coronavirus."
+    ],
+    [
+     "How to travel",
+     "Not quite. The article says: Which name of God to recite for protection from Coronavirus."
+    ],
+    [
+     "Which name of God to recite for protection from Coronavirus",
+     "This prompted reflection on chanting."
+    ],
+    [
+     "When schools would open",
+     "Not quite. The article says: Which name of God to recite for protection from Coronavirus."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Which name of God should they recite often to protect themselves from Coronavirus."
+  },
+  {
+   "article": "Political Interpretation of Islam",
+   "page": 12,
+   "link": "political-interpretation-of-islam",
+   "q": "What is life, according to the article?",
+   "options": [
+    [
+     "A single undivided thing",
+     "Not quite. The article says: A collection of parts that are separate yet interlinked."
+    ],
+    [
+     "An accident",
+     "Not quite. The article says: A collection of parts that are separate yet interlinked."
+    ],
+    [
+     "A political struggle only",
+     "Not quite. The article says: A collection of parts that are separate yet interlinked."
+    ],
+    [
+     "A collection of parts that are separate yet interlinked",
+     "Hence different interpretations."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Life is a collection of various parts or aspects. These are separate from each other but yet are interlinked."
+  },
+  {
+   "article": "Homeschooling",
+   "page": 20,
+   "link": "homeschooling",
+   "q": "Around what did all the Hyderabad family’s discussions centre?",
+   "options": [
+    [
+     "Travel",
+     "Not quite. The article says: Complaints."
+    ],
+    [
+     "Complaints",
+     "As in most homes."
+    ],
+    [
+     "Religion",
+     "Not quite. The article says: Complaints."
+    ],
+    [
+     "Science",
+     "Not quite. The article says: Complaints."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "All of their discussions centred around complaints, as is the case in most homes."
+  },
+  {
+   "article": "Fault-Finding, Eulogizing",
+   "page": 22,
+   "link": "fault-finding-eulogizing",
+   "q": "Which two cultures do Muslim writers and speakers know today, according to the article?",
+   "options": [
+    [
+     "Poetry and music",
+     "Not quite. The article says: Fault-finding and eulogizing."
+    ],
+    [
+     "Fault-finding and eulogizing",
+     "Praise for their own, slander for others."
+    ],
+    [
+     "Silence and prayer",
+     "Not quite. The article says: Fault-finding and eulogizing."
+    ],
+    [
+     "Research and debate",
+     "Not quite. The article says: Fault-finding and eulogizing."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Muslim writers and speakers today know only of two cultures: fault-finding or slandering and eulogizing."
+  },
+  {
+   "article": "Submission to God",
+   "page": 25,
+   "link": "submission-to-god",
+   "q": "What is the true religion for both man and the universe?",
+   "options": [
+    [
+     "Submission to God",
+     "Everything submits to His will."
+    ],
+    [
+     "Self-rule",
+     "Not quite. The article says: Submission to God."
+    ],
+    [
+     "Philosophy",
+     "Not quite. The article says: Submission to God."
+    ],
+    [
+     "Custom",
+     "Not quite. The article says: Submission to God."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Submission to God is the true religion for both man and the universe."
+  },
+  {
+   "article": "The History of Knowledge",
+   "page": 28,
+   "link": "the-history-of-knowledge",
+   "q": "What did Aristotle and Plato believe about matter?",
+   "options": [
+    [
+     "That it was alive",
+     "Not quite. The article says: That it was eternal."
+    ],
+    [
+     "That it began yesterday",
+     "Not quite. The article says: That it was eternal."
+    ],
+    [
+     "That it was an illusion",
+     "Not quite. The article says: That it was eternal."
+    ],
+    [
+     "That it was eternal",
+     "Always existing."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Greek philosophers such as Aristotle and Plato believed that matter was eternal."
+  },
+  {
+   "article": "The Christian Model",
+   "page": 33,
+   "link": "the-christian-model",
+   "q": "Which chapter of the Quran presents the Christian example as a model?",
+   "options": [
+    [
+     "Chapter 1",
+     "Not quite. The article says: Chapter 61, Al-Saff."
+    ],
+    [
+     "Chapter 61, Al-Saff",
+     "Two events from Christian history explain it."
+    ],
+    [
+     "Chapter 114",
+     "Not quite. The article says: Chapter 61, Al-Saff."
+    ],
+    [
+     "Chapter 103",
+     "Not quite. The article says: Chapter 61, Al-Saff."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Chapter 61 (Ranks―Al-Saff) of the Quran presents to the believers the Christian example as a model worthy of emulation."
+  },
+  {
+   "article": "The Key to Success",
+   "page": 44,
+   "link": "the-key-to-success",
+   "q": "What did Admiral S.N. Kohli say success is?",
+   "options": [
+    [
+     "A matter of birth",
+     "Not quite. The article says: Wholly a thing of the mind."
+    ],
+    [
+     "A matter of luck",
+     "Not quite. The article says: Wholly a thing of the mind."
+    ],
+    [
+     "A matter of money",
+     "Not quite. The article says: Wholly a thing of the mind."
+    ],
+    [
+     "Wholly a thing of the mind",
+     "With the will, one finds the means."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Success is wholly a thing of the mind.”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What must not be dearer to you than God and His Messenger?",
+   "options": [
+    [
+     "Prayer",
+     "Not quite. The article says: Family, wealth, commerce and homes."
+    ],
+    [
+     "Family, wealth, commerce and homes",
+     "The verse lists them."
+    ],
+    [
+     "Truth",
+     "Not quite. The article says: Family, wealth, commerce and homes."
+    ],
+    [
+     "Knowledge",
+     "Not quite. The article says: Family, wealth, commerce and homes."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "If your fathers and your sons … and the homes you love are dearer to you than God and His Messenger …"
+  }
+ ]
+}

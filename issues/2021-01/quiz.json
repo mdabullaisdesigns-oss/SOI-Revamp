@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "New Year’s Message",
+   "page": 5,
+   "link": "new-years-message",
+   "q": "Which year of publication began in January 2021?",
+   "options": [
+    [
+     "The first",
+     "Not quite. The article says: The ninth."
+    ],
+    [
+     "The twentieth",
+     "Not quite. The article says: The ninth."
+    ],
+    [
+     "The fifth",
+     "Not quite. The article says: The ninth."
+    ],
+    [
+     "The ninth",
+     "Despite the pandemic."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This is the beginning of the ninth year of the publication of Spirit of Islam."
+  },
+  {
+   "article": "Lessons from 2020",
+   "page": 9,
+   "link": "lessons-from-2020",
+   "q": "How did most people spend most of 2020?",
+   "options": [
+    [
+     "At sea",
+     "Not quite. The article says: Confined to their homes."
+    ],
+    [
+     "At festivals",
+     "Not quite. The article says: Confined to their homes."
+    ],
+    [
+     "Travelling widely",
+     "Not quite. The article says: Confined to their homes."
+    ],
+    [
+     "Confined to their homes",
+     "The year passed as a blur."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "People all over the world confined themselves to their homes."
+  },
+  {
+   "article": "Correcting People’s Mistakes",
+   "page": 13,
+   "link": "correcting-peoples-mistakes",
+   "q": "Who entered the Prophet’s Mosque in the incident recorded?",
+   "options": [
+    [
+     "A king",
+     "Not quite. The article says: A Bedouin."
+    ],
+    [
+     "A merchant from Syria",
+     "Not quite. The article says: A Bedouin."
+    ],
+    [
+     "A poet",
+     "Not quite. The article says: A Bedouin."
+    ],
+    [
+     "A Bedouin",
+     "The Prophet was there with Companions."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A Bedouin—an uncouth tribesman from the desert, entered the mosque."
+  },
+  {
+   "article": "A Misplaced Call for Violence",
+   "page": 18,
+   "link": "a-misplaced-call-for-violence",
+   "q": "With what spirit is the Quran imbued?",
+   "options": [
+    [
+     "The spirit of war",
+     "Not quite. The article says: The spirit of peace."
+    ],
+    [
+     "The spirit of peace",
+     "Unlike the culture of war seen in some countries."
+    ],
+    [
+     "The spirit of revenge",
+     "Not quite. The article says: The spirit of peace."
+    ],
+    [
+     "The spirit of trade",
+     "Not quite. The article says: The spirit of peace."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Quran, on the contrary, is imbued with the spirit …"
+  },
+  {
+   "article": "Right-Thinking",
+   "page": 24,
+   "link": "right-thinking",
+   "q": "Who came to live in the Mojave Desert in the story?",
+   "options": [
+    [
+     "A gold miner",
+     "Not quite. The article says: Thelma Thompson, a soldier’s wife."
+    ],
+    [
+     "Thelma Thompson, a soldier’s wife",
+     "A place of dust, wind and heat."
+    ],
+    [
+     "A scientist",
+     "Not quite. The article says: Thelma Thompson, a soldier’s wife."
+    ],
+    [
+     "A film star",
+     "Not quite. The article says: Thelma Thompson, a soldier’s wife."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Into this situation came Thelma Thompson, a young American soldier’s wife."
+  },
+  {
+   "article": "The Value of Supplication (dua)",
+   "page": 29,
+   "link": "the-value-of-supplication-dua",
+   "q": "What is supplication in the hands of a believer?",
+   "options": [
+    [
+     "A last resort only",
+     "Not quite. The article says: The most powerful weapon."
+    ],
+    [
+     "A burden",
+     "Not quite. The article says: The most powerful weapon."
+    ],
+    [
+     "The most powerful weapon",
+     "It gives courage and hope."
+    ],
+    [
+     "A formality",
+     "Not quite. The article says: The most powerful weapon."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Supplication (Dua) is the most powerful weapon in the hands of a believer."
+  },
+  {
+   "article": "A Grand Compromise",
+   "page": 31,
+   "link": "a-grand-compromise",
+   "q": "What had President Reagan called the USSR before his 1988 visit?",
+   "options": [
+    [
+     "A ‘sleeping giant’",
+     "Not quite. The article says: An ‘evil empire’."
+    ],
+    [
+     "A ‘good neighbour’",
+     "Not quite. The article says: An ‘evil empire’."
+    ],
+    [
+     "A ‘trading partner’",
+     "Not quite. The article says: An ‘evil empire’."
+    ],
+    [
+     "An ‘evil empire’",
+     "He then sought amicable relations."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Previously, President Reagan had been calling the USSR an ‘evil empire.’"
+  },
+  {
+   "article": "Truth Needs No Defence",
+   "page": 33,
+   "link": "truth-needs-no-defence",
+   "q": "What does the article say of how the Prophet Muhammad has been treated by detractors?",
+   "options": [
+    [
+     "He was unknown",
+     "Not quite. The article says: Few great men have been so maligned."
+    ],
+    [
+     "He was always praised",
+     "Not quite. The article says: Few great men have been so maligned."
+    ],
+    [
+     "He was ignored",
+     "Not quite. The article says: Few great men have been so maligned."
+    ],
+    [
+     "Few great men have been so maligned",
+     "Especially in medieval Europe."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Few great men have been so maligned as the Prophet Muhammad."
+  },
+  {
+   "article": "When Plans Fail",
+   "page": 38,
+   "link": "when-plans-fail",
+   "q": "What is an air show?",
+   "options": [
+    [
+     "A radio programme",
+     "Not quite. The article says: A public event where aircraft are exhibited."
+    ],
+    [
+     "A public event where aircraft are exhibited",
+     "Often with aerobatics."
+    ],
+    [
+     "A weather forecast",
+     "Not quite. The article says: A public event where aircraft are exhibited."
+    ],
+    [
+     "A kite festival",
+     "Not quite. The article says: A public event where aircraft are exhibited."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "An air show is a public event where aircraft are exhibited."
+  },
+  {
+   "article": "Following the Model of Nature",
+   "page": 44,
+   "link": "following-the-model-of-nature",
+   "q": "Whose behaviour should we adopt?",
+   "options": [
+    [
+     "That of the other components of the universe",
+     "The natural course to success."
+    ],
+    [
+     "That of kings",
+     "Not quite. The article says: That of the other components of the universe."
+    ],
+    [
+     "That of rivals",
+     "Not quite. The article says: That of the other components of the universe."
+    ],
+    [
+     "That of crowds",
+     "Not quite. The article says: That of the other components of the universe."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "We should adopt the same behaviour in our lives as that adopted by all the other components of the universe."
+  }
+ ]
+}
