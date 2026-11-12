@@ -48,12 +48,14 @@ def one(slug, test=True):
         i = json.load(open(f"issues/{slug}/issue.json"))
         row.update(articles=len(i["articles"]), words=sum(a["words"] for a in i["articles"]), match=c.get("overall_match"),
                    label=i.get("label", ""), pdf=i.get("pdf", ""))
-        if c.get("flagged"):
-            row["problems"].append(f"{len(c['flagged'])} article(s) below 99% word match")
+        row["renarrate"] = []
+        if c.get("flagged") and row["route"] == "pdf":   # Gary issues: the web text is used as it is (decided),
+            row["problems"].append(f"{len(c['flagged'])} article(s) below 99% word match")   # so an edited article is not a fault
         if c.get("unplaced"):
             row["problems"].append(f"{len(c['unplaced'])} run(s) of PDF text in no article and not listed")
         for w in c.get("warnings", []):
-            row["problems"].append(w)
+            # a recording that does not match, or is missing: decided - the article waits for a new Gary narration
+            (row["renarrate"] if re.match(r"(recording of|no recording)", w) else row["problems"]).append(w)
         # sanity of the structure itself (the word match cannot see a title in the wrong place)
         if not i.get("number"):
             row["problems"].append("issue number / period not found in the running footer")

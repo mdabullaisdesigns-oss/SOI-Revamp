@@ -210,7 +210,7 @@
   },
   "in-search-of-self": {
    "title": "In Search of Self",
-   "status": "ready",
+   "status": "pending",
    "file": "SOI-2026-07-in-search-of-self.mp3",
    "chars": 9133,
    "sentences": [
@@ -839,7 +839,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "ready",
+   "status": "pending",
    "file": "SOI-2026-07-your-questions-answered.mp3",
    "chars": 7086,
    "sentences": [
@@ -898,7 +898,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "ready",
+   "status": "pending",
    "file": "SOI-2026-07-the-word-of-god.mp3",
    "chars": 2957,
    "sentences": [
