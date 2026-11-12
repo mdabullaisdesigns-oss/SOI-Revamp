@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Captcha Test",
+   "page": 5,
+   "link": "captcha-test",
+   "q": "What must a user do with a CAPTCHA?",
+   "options": [
+    [
+     "Read, recognize and type the letters shown",
+     "A step in creating an account."
+    ],
+    [
+     "Ignore it",
+     "Not quite. The article says: Read, recognize and type the letters shown."
+    ],
+    [
+     "Draw a picture",
+     "Not quite. The article says: Read, recognize and type the letters shown."
+    ],
+    [
+     "Pay a fee",
+     "Not quite. The article says: Read, recognize and type the letters shown."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A picture consisting of random letters, which must be read, recognized, and written in the designated box."
+  },
+  {
+   "article": "Part One",
+   "page": 8,
+   "link": "part-one",
+   "q": "What was written on the Air India menu-card?",
+   "options": [
+    [
+     "“Fasten seat belts.”",
+     "Not quite. The article says: “Indian hospitality across five continents.”."
+    ],
+    [
+     "“Welcome home.”",
+     "Not quite. The article says: “Indian hospitality across five continents.”."
+    ],
+    [
+     "“Indian hospitality across five continents.”",
+     "At breakfast time."
+    ],
+    [
+     "“Fly the friendly skies.”",
+     "Not quite. The article says: “Indian hospitality across five continents.”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "On it was written: “Indian hospitality across five continents.”"
+  },
+  {
+   "article": "From the Military to the Non-Military Age",
+   "page": 15,
+   "link": "from-the-military-to-the-non-military-age",
+   "q": "What system ruled the world when Islam emerged?",
+   "options": [
+    [
+     "Socialism",
+     "Not quite. The article says: Absolute Imperialism."
+    ],
+    [
+     "Democracy",
+     "Not quite. The article says: Absolute Imperialism."
+    ],
+    [
+     "Absolute Imperialism",
+     "A coercive system."
+    ],
+    [
+     "Free trade",
+     "Not quite. The article says: Absolute Imperialism."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Almost the whole world was groaning under political coercion, ruled by a system of Absolute Imperialism."
+  },
+  {
+   "article": "The Month of Ramadan",
+   "page": 20,
+   "link": "the-month-of-ramadan",
+   "q": "What did the benefits of Ramadan inspire the Prophet to exclaim?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: “Welcome to the one that purifies!”."
+    ],
+    [
+     "“How long it is!”",
+     "Not quite. The article says: “Welcome to the one that purifies!”."
+    ],
+    [
+     "“Welcome to the one that purifies!”",
+     "A special and blessed month."
+    ],
+    [
+     "“Let us feast!”",
+     "Not quite. The article says: “Welcome to the one that purifies!”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Welcome to the one that purifies!”"
+  },
+  {
+   "article": "The Tragedy of Life",
+   "page": 25,
+   "link": "the-tragedy-of-life",
+   "q": "In which language did Masti Venkatesha Iyengar write?",
+   "options": [
+    [
+     "Bengali",
+     "Not quite. The article says: Kannada."
+    ],
+    [
+     "Hindi",
+     "Not quite. The article says: Kannada."
+    ],
+    [
+     "Tamil",
+     "Not quite. The article says: Kannada."
+    ],
+    [
+     "Kannada",
+     "He was also a civil servant."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Masti Venkatesha Iyengar (d. 1986) is a famous Kannada language writer."
+  },
+  {
+   "article": "The Most Valuable Asset",
+   "page": 28,
+   "link": "the-most-valuable-asset",
+   "q": "Who wrote Al-Tarikh al-Saghir?",
+   "options": [
+    [
+     "Al-Ghazali",
+     "Not quite. The article says: Imam Bukhari."
+    ],
+    [
+     "Imam Bukhari",
+     "A ninth-century scholar."
+    ],
+    [
+     "Ibn Khaldun",
+     "Not quite. The article says: Imam Bukhari."
+    ],
+    [
+     "Ibn Taimiyah",
+     "Not quite. The article says: Imam Bukhari."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It was written by ninth century Islamic scholar Imam Bukhari."
+  },
+  {
+   "article": "Quran and Modern Science",
+   "page": 30,
+   "link": "quran-and-modern-science",
+   "q": "What was Dr Keith Moore’s field?",
+   "options": [
+    [
+     "Anatomy and embryology",
+     "At the University of Toronto."
+    ],
+    [
+     "Astronomy",
+     "Not quite. The article says: Anatomy and embryology."
+    ],
+    [
+     "Law",
+     "Not quite. The article says: Anatomy and embryology."
+    ],
+    [
+     "Economics",
+     "Not quite. The article says: Anatomy and embryology."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Dr Keith Moore was a professor emeritus of the Anatomy Department of the University of Toronto … He has written two books on embryology."
+  },
+  {
+   "article": "Seeking the Pleasure of God",
+   "page": 34,
+   "link": "seeking-the-pleasure-of-god",
+   "q": "What is a good deed, according to Islam?",
+   "options": [
+    [
+     "One that is praised",
+     "Not quite. The article says: One essentially intended to seek the pleasure of God."
+    ],
+    [
+     "One that is seen by many",
+     "Not quite. The article says: One essentially intended to seek the pleasure of God."
+    ],
+    [
+     "One essentially intended to seek the pleasure of God",
+     "God sees the intent."
+    ],
+    [
+     "One that costs most",
+     "Not quite. The article says: One essentially intended to seek the pleasure of God."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A good deed is one which is essentially intended to seek the pleasure of God."
+  },
+  {
+   "article": "Seeking the Pleasure of God",
+   "page": 34,
+   "link": "seeking-the-pleasure-of-god",
+   "q": "By what does God not go?",
+   "options": [
+    [
+     "Appearances",
+     "He sees the inner motive."
+    ],
+    [
+     "Intentions",
+     "Not quite. The article says: Appearances."
+    ],
+    [
+     "Truth",
+     "Not quite. The article says: Appearances."
+    ],
+    [
+     "Sincerity",
+     "Not quite. The article says: Appearances."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God does not go by appearances. He sees the inner motive called intent."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "What is the Prophet told to say about himself?",
+   "options": [
+    [
+     "‘I know the unseen.’",
+     "Not quite. The article says: ‘I am only a warner.’."
+    ],
+    [
+     "‘I am a king.’",
+     "Not quite. The article says: ‘I am only a warner.’."
+    ],
+    [
+     "‘I am only a warner.’",
+     "There is no god but God."
+    ],
+    [
+     "‘I am an angel.’",
+     "Not quite. The article says: ‘I am only a warner.’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Say, [Prophet], ‘I am only a warner.’"
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A Source of Spiritual Nourishment",
+   "page": 5,
+   "link": "a-source-of-spiritual-nourishment",
+   "q": "What does linguist David Crystal prescribe to students of English?",
+   "options": [
+    [
+     "Reading the quarterly English Today three times daily",
+     "The writer applies the idea to spiritual reading."
+    ],
+    [
+     "Travelling abroad",
+     "Not quite. The article says: Reading the quarterly English Today three times daily."
+    ],
+    [
+     "Memorising a dictionary",
+     "Not quite. The article says: Reading the quarterly English Today three times daily."
+    ],
+    [
+     "Watching films",
+     "Not quite. The article says: Reading the quarterly English Today three times daily."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He prescribes reading the quarterly English Today three times daily before or after meals."
+  },
+  {
+   "article": "Spirit of Islam",
+   "page": 7,
+   "link": "spirit-of-islam",
+   "q": "Which year of the magazine began in January 2022?",
+   "options": [
+    [
+     "The 5th",
+     "Not quite. The article says: The 10th."
+    ],
+    [
+     "The 50th",
+     "Not quite. The article says: The 10th."
+    ],
+    [
+     "The 1st",
+     "Not quite. The article says: The 10th."
+    ],
+    [
+     "The 10th",
+     "Its readership is a blessing of God."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This January 2022 is the beginning of the 10th year of our magazine."
+  },
+  {
+   "article": "Remembrance of God",
+   "page": 12,
+   "link": "remembrance-of-god",
+   "q": "What is ‘surely the greatest thing’ (29: 45)?",
+   "options": [
+    [
+     "Power",
+     "Not quite. The article says: Remembrance of God."
+    ],
+    [
+     "Remembrance of God",
+     "The greatest form of worship."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Remembrance of God."
+    ],
+    [
+     "Fame",
+     "Not quite. The article says: Remembrance of God."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Remembrance of God is surely the greatest thing.”"
+  },
+  {
+   "article": "The Importance of True Leadership",
+   "page": 18,
+   "link": "the-importance-of-true-leadership",
+   "q": "Whose merits does a chapter of Sahih al-Bukhari describe?",
+   "options": [
+    [
+     "The people of Madinah who helped the Prophet",
+     "When he migrated there."
+    ],
+    [
+     "The traders of Syria",
+     "Not quite. The article says: The people of Madinah who helped the Prophet."
+    ],
+    [
+     "The poets of Arabia",
+     "Not quite. The article says: The people of Madinah who helped the Prophet."
+    ],
+    [
+     "The kings of Persia",
+     "Not quite. The article says: The people of Madinah who helped the Prophet."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The merits of the people of Madinah who helped the Prophet Muhammad when he migrated there."
+  },
+  {
+   "article": "Mature and Proactive Individuals",
+   "page": 20,
+   "link": "mature-and-proactive-individuals",
+   "q": "What had the people of Madinah agreed about Abdullah ibn Ubayy?",
+   "options": [
+    [
+     "To exile him",
+     "Not quite. The article says: To make him their king."
+    ],
+    [
+     "To ignore him",
+     "Not quite. The article says: To make him their king."
+    ],
+    [
+     "To make him a judge",
+     "Not quite. The article says: To make him their king."
+    ],
+    [
+     "To make him their king",
+     "Before the Prophet arrived."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The people of Madinah had unanimously agreed to make him their king."
+  },
+  {
+   "article": "An Incomplete Life",
+   "page": 26,
+   "link": "an-incomplete-life",
+   "q": "Which world does the article call strange and far from the real world?",
+   "options": [
+    [
+     "The world of farming",
+     "Not quite. The article says: The world of advertising and marketing."
+    ],
+    [
+     "The world of advertising and marketing",
+     "Shown by a 2021 interview."
+    ],
+    [
+     "The world of teaching",
+     "Not quite. The article says: The world of advertising and marketing."
+    ],
+    [
+     "The world of science",
+     "Not quite. The article says: The world of advertising and marketing."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The world of advertising and marketing is strange indeed."
+  },
+  {
+   "article": "The Role of Women in Islam",
+   "page": 30,
+   "link": "the-role-of-women-in-islam",
+   "q": "What does Ms Fahmida Khan conduct every week?",
+   "options": [
+    [
+     "Online lectures in Urdu",
+     "Based on Maulana Wahiduddin Khan’s teachings."
+    ],
+    [
+     "Cookery classes",
+     "Not quite. The article says: Online lectures in Urdu."
+    ],
+    [
+     "Sports coaching",
+     "Not quite. The article says: Online lectures in Urdu."
+    ],
+    [
+     "Court hearings",
+     "Not quite. The article says: Online lectures in Urdu."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "She conducts weekly online lectures in Urdu."
+  },
+  {
+   "article": "Patience",
+   "page": 35,
+   "link": "patience",
+   "q": "What is patience, according to the Quran?",
+   "options": [
+    [
+     "A superior action – wisdom-based thinking",
+     "Not passivity or inaction."
+    ],
+    [
+     "Delay",
+     "Not quite. The article says: A superior action – wisdom-based thinking."
+    ],
+    [
+     "Weakness",
+     "Not quite. The article says: A superior action – wisdom-based thinking."
+    ],
+    [
+     "Inaction",
+     "Not quite. The article says: A superior action – wisdom-based thinking."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Patience is neither a passive attitude nor any kind of inaction. According to the Quran, patience is a superior action."
+  },
+  {
+   "article": "Would That I Were Dust!",
+   "page": 37,
+   "link": "would-that-i-were-dust",
+   "q": "What is the gravest prospect for a believer?",
+   "options": [
+    [
+     "To travel alone",
+     "Not quite. The article says: To stand before God on the Day of Judgement."
+    ],
+    [
+     "To stand before God on the Day of Judgement",
+     "After resurrection."
+    ],
+    [
+     "To grow old",
+     "Not quite. The article says: To stand before God on the Day of Judgement."
+    ],
+    [
+     "To lose wealth",
+     "Not quite. The article says: To stand before God on the Day of Judgement."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The gravest and most grim prospect for a believer is to stand before God Almighty on the Day of Judgement."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "Where did Abraham settle some of his offspring (14: 37)?",
+   "options": [
+    [
+     "In a fertile plain",
+     "Not quite. The article says: In an uncultivable valley near the Sacred House."
+    ],
+    [
+     "On an island",
+     "Not quite. The article says: In an uncultivable valley near the Sacred House."
+    ],
+    [
+     "In an uncultivable valley near the Sacred House",
+     "So that they might establish prayer."
+    ],
+    [
+     "By a great river",
+     "Not quite. The article says: In an uncultivable valley near the Sacred House."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "I have settled some of my offspring in an uncultivable valley near Your Sacred House."
+  }
+ ]
+}

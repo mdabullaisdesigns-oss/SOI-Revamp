@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Recipe of Success",
+   "page": 5,
+   "link": "the-recipe-of-success",
+   "q": "Who was elected CEO of Twitter in November 2021?",
+   "options": [
+    [
+     "Parag Agrawal",
+     "The reasons for choosing him were disclosed."
+    ],
+    [
+     "Satya Nadella",
+     "Not quite. The article says: Parag Agrawal."
+    ],
+    [
+     "Elon Musk",
+     "Not quite. The article says: Parag Agrawal."
+    ],
+    [
+     "Sundar Pichai",
+     "Not quite. The article says: Parag Agrawal."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Indian American Mr Parag Agrawal was elected as the new CEO of Twitter."
+  },
+  {
+   "article": "The Goal of CPS",
+   "page": 8,
+   "link": "the-goal-of-cps",
+   "q": "What did a gentleman say Maulana’s statements had done?",
+   "options": [
+    [
+     "Pleased all leaders",
+     "Not quite. The article says: Isolated him from the Muslim community."
+    ],
+    [
+     "Won every argument",
+     "Not quite. The article says: Isolated him from the Muslim community."
+    ],
+    [
+     "Made him rich",
+     "Not quite. The article says: Isolated him from the Muslim community."
+    ],
+    [
+     "Isolated him from the Muslim community",
+     "He advised a different approach."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“You have made statements … that have made you isolated from the Muslim community.”"
+  },
+  {
+   "article": "A Readymade World",
+   "page": 10,
+   "link": "a-readymade-world",
+   "q": "What would a person transported to the moon experience?",
+   "options": [
+    [
+     "A larger earth",
+     "Not quite. The article says: A great shock – nothing of earth exists there."
+    ],
+    [
+     "Nothing unusual",
+     "Not quite. The article says: A great shock – nothing of earth exists there."
+    ],
+    [
+     "Great comfort",
+     "Not quite. The article says: A great shock – nothing of earth exists there."
+    ],
+    [
+     "A great shock – nothing of earth exists there",
+     "The earth is a readymade world."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "It would be a very shocking experience for him."
+  },
+  {
+   "article": "Where Do We Stand?",
+   "page": 14,
+   "link": "where-do-we-stand",
+   "q": "What filled newspapers after a great Islamic figure died in 1979?",
+   "options": [
+    [
+     "Advertisements",
+     "Not quite. The article says: Adulatory articles."
+    ],
+    [
+     "Adulatory articles",
+     "Expressing love and respect."
+    ],
+    [
+     "Silence",
+     "Not quite. The article says: Adulatory articles."
+    ],
+    [
+     "Criticism",
+     "Not quite. The article says: Adulatory articles."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Newspapers and magazines were then flooded with adulatory articles about this person."
+  },
+  {
+   "article": "The Month of Ramadan",
+   "page": 16,
+   "link": "the-month-of-ramadan",
+   "q": "What kind of month is Ramadan?",
+   "options": [
+    [
+     "A month of trade",
+     "Not quite. The article says: A month of restraint and worship, caring and thanksgiving."
+    ],
+    [
+     "A month of restraint and worship, caring and thanksgiving",
+     "“Welcome to the one who purifies!”"
+    ],
+    [
+     "A month of feasting only",
+     "Not quite. The article says: A month of restraint and worship, caring and thanksgiving."
+    ],
+    [
+     "A month of travel",
+     "Not quite. The article says: A month of restraint and worship, caring and thanksgiving."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is a month of restraint and worship; of caring and thanksgiving; of repentance and piety."
+  },
+  {
+   "article": "The Journey of Religious Tolerance",
+   "page": 20,
+   "link": "the-journey-of-religious-tolerance",
+   "q": "What does the article call the Prophet’s three-religion conference in modern terms?",
+   "options": [
+    [
+     "A debate",
+     "Not quite. The article says: A trialogue."
+    ],
+    [
+     "A trialogue",
+     "Held in Madinah."
+    ],
+    [
+     "A treaty",
+     "Not quite. The article says: A trialogue."
+    ],
+    [
+     "A summit",
+     "Not quite. The article says: A trialogue."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A three-religion conference— in modern terminology, a trialogue."
+  },
+  {
+   "article": "The Power of Speech",
+   "page": 23,
+   "link": "the-power-of-speech",
+   "q": "What is a great blessing possessed by man alone?",
+   "options": [
+    [
+     "The tongue – meaningful speech",
+     "Rare in the universe."
+    ],
+    [
+     "Strength",
+     "Not quite. The article says: The tongue – meaningful speech."
+    ],
+    [
+     "Sight",
+     "Not quite. The article says: The tongue – meaningful speech."
+    ],
+    [
+     "Speed",
+     "Not quite. The article says: The tongue – meaningful speech."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The tongue is a great blessing for humankind. No creature other than man possesses such an asset."
+  },
+  {
+   "article": "The Role of Women in Communicating the Word of God",
+   "page": 26,
+   "link": "the-role-of-women-in-communicating-the-word-of-god",
+   "q": "What did Maulana’s writings help the writer to do?",
+   "options": [
+    [
+     "Learn Arabic",
+     "Not quite. The article says: Realize her Creator and understand His creation plan."
+    ],
+    [
+     "Realize her Creator and understand His creation plan",
+     "She had always felt close to God."
+    ],
+    [
+     "Travel",
+     "Not quite. The article says: Realize her Creator and understand His creation plan."
+    ],
+    [
+     "Start a business",
+     "Not quite. The article says: Realize her Creator and understand His creation plan."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "I realized my Creator and understood His Creation …"
+  },
+  {
+   "article": "International Women’s Day",
+   "page": 44,
+   "link": "international-womens-day",
+   "q": "Through whose classes was the writer first introduced to Maulana Wahiduddin Khan?",
+   "options": [
+    [
+     "Dr Saniyasnain Khan’s",
+     "Not quite. The article says: Ms Fathima Sarah’s."
+    ],
+    [
+     "Ms Fathima Sarah’s",
+     "Weekend classes for children."
+    ],
+    [
+     "Prof Farida Khanam’s",
+     "Not quite. The article says: Ms Fathima Sarah’s."
+    ],
+    [
+     "Her mother’s",
+     "Not quite. The article says: Ms Fathima Sarah’s."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "My first introduction to Maulana Wahiduddin Khan was through Ms Fathima Sarah’s classes."
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "What did deniers object to about the Messenger?",
+   "options": [
+    [
+     "That he was a king",
+     "Not quite. The article says: That he eats food and walks about in the market-places."
+    ],
+    [
+     "That he eats food and walks about in the market-places",
+     "They asked for an angel."
+    ],
+    [
+     "That he never spoke",
+     "Not quite. The article says: That he eats food and walks about in the market-places."
+    ],
+    [
+     "That he was too rich",
+     "Not quite. The article says: That he eats food and walks about in the market-places."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "‘What kind of a messenger is this who eats food and walks about in the market-places?’"
+  }
+ ]
+}

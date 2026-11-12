@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Lessons from the Volcanic Eruptions",
+   "page": 4,
+   "link": "lessons-from-the-volcanic-eruptions",
+   "q": "How does NASA define a volcano?",
+   "options": [
+    [
+     "A storm cloud",
+     "Not quite. The article says: An opening on the surface of a planet."
+    ],
+    [
+     "An opening on the surface of a planet",
+     "Emitting molten rock and gases."
+    ],
+    [
+     "A kind of mountain lake",
+     "Not quite. The article says: An opening on the surface of a planet."
+    ],
+    [
+     "A deep cave",
+     "Not quite. The article says: An opening on the surface of a planet."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A volcano is an opening on the surface of a planet …"
+  },
+  {
+   "article": "Pages from Maulana's Diary",
+   "page": 7,
+   "link": "pages-from-maulanas-diary",
+   "q": "What happened to many talented, educated men Maulana saw?",
+   "options": [
+    [
+     "They never grew old",
+     "Not quite. The article says: They failed in their practical lives."
+    ],
+    [
+     "They failed in their practical lives",
+     "Talent alone was not enough."
+    ],
+    [
+     "They all became rulers",
+     "Not quite. The article says: They failed in their practical lives."
+    ],
+    [
+     "They all grew rich",
+     "Not quite. The article says: They failed in their practical lives."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They also received higher education. However, they failed in their practical lives."
+  },
+  {
+   "article": "The Relationship Between Man and God",
+   "page": 10,
+   "link": "the-relationship-between-man-and-god",
+   "q": "What should be said when God’s servants ask about Him?",
+   "options": [
+    [
+     "That He is unknown",
+     "Not quite. The article says: That He is near."
+    ],
+    [
+     "That He is near",
+     "He responds to the one who calls."
+    ],
+    [
+     "That He cannot hear",
+     "Not quite. The article says: That He is near."
+    ],
+    [
+     "That He is far",
+     "Not quite. The article says: That He is near."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "When My servants ask you about Me, say that I am near."
+  },
+  {
+   "article": "End Misunderstandings Through Sound Arguments",
+   "page": 11,
+   "link": "end-misunderstandings-through-sound-arguments",
+   "q": "How should blasphemy be treated in Islam, according to the article?",
+   "options": [
+    [
+     "With violence",
+     "Not quite. The article says: As a subject of intellectual discussion."
+    ],
+    [
+     "As a subject of intellectual discussion",
+     "Sound arguments, not retaliation."
+    ],
+    [
+     "With boycott",
+     "Not quite. The article says: As a subject of intellectual discussion."
+    ],
+    [
+     "With protest marches",
+     "Not quite. The article says: As a subject of intellectual discussion."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In Islam, blasphemy is a subject of intellectual discussion rather than condemnation, protest and retaliation."
+  },
+  {
+   "article": "Ethics and Technology",
+   "page": 14,
+   "link": "ethics-and-technology",
+   "q": "Why did the Akashdeep building in Mumbai collapse?",
+   "options": [
+    [
+     "An earthquake",
+     "Not quite. The article says: Less cement was used than regulations specified."
+    ],
+    [
+     "A fire",
+     "Not quite. The article says: Less cement was used than regulations specified."
+    ],
+    [
+     "A flood",
+     "Not quite. The article says: Less cement was used than regulations specified."
+    ],
+    [
+     "Less cement was used than regulations specified",
+     "Soon after completion."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Less cement had been used than specified by safety regulations."
+  },
+  {
+   "article": "On the Threshold of Paradise",
+   "page": 15,
+   "link": "on-the-threshold-of-paradise",
+   "q": "What is Paradise in reality, according to the article?",
+   "options": [
+    [
+     "Another galaxy",
+     "Not quite. The article says: A transformation of the earth."
+    ],
+    [
+     "A transformation of the earth",
+     "No mystery."
+    ],
+    [
+     "A legend",
+     "Not quite. The article says: A transformation of the earth."
+    ],
+    [
+     "A dream",
+     "Not quite. The article says: A transformation of the earth."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In reality, it is a transformation of the earth."
+  },
+  {
+   "article": "God Helps Those Who Help Themselves",
+   "page": 25,
+   "link": "god-helps-those-who-help-themselves",
+   "q": "What was the Principal’s first reply to A.M. Khan?",
+   "options": [
+    [
+     "“Come tomorrow.”",
+     "Not quite. The article says: “The admissions are closed.”."
+    ],
+    [
+     "“You are admitted.”",
+     "Not quite. The article says: “The admissions are closed.”."
+    ],
+    [
+     "“Pay the fee.”",
+     "Not quite. The article says: “The admissions are closed.”."
+    ],
+    [
+     "“The admissions are closed.”",
+     "He stood nervously before him."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The reaction was sharp. “The admissions are closed.”"
+  },
+  {
+   "article": "An Interview with Ms Kauser Izhar",
+   "page": 27,
+   "link": "an-interview-with-ms-kauser-izhar",
+   "q": "Where was Ms Kauser Izhar raised?",
+   "options": [
+    [
+     "Dubai",
+     "Not quite. The article says: Multan and then Karachi."
+    ],
+    [
+     "Multan and then Karachi",
+     "In a family influenced by Sufism."
+    ],
+    [
+     "London",
+     "Not quite. The article says: Multan and then Karachi."
+    ],
+    [
+     "Delhi",
+     "Not quite. The article says: Multan and then Karachi."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "I was raised in Multan and then in Karachi, Pakistan."
+  },
+  {
+   "article": "The Relationship Between Man and God",
+   "page": 10,
+   "link": "the-relationship-between-man-and-god",
+   "q": "What does God do when someone calls to Him?",
+   "options": [
+    [
+     "He responds to the call",
+     "“Let them, then, respond to Me.”"
+    ],
+    [
+     "He ignores it",
+     "Not quite. The article says: He responds to the call."
+    ],
+    [
+     "He forbids calling",
+     "Not quite. The article says: He responds to the call."
+    ],
+    [
+     "He delays for ever",
+     "Not quite. The article says: He responds to the call."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "I respond to the call of one who calls, whenever he calls to Me."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "What became of towns that rebelled against their Lord’s commands?",
+   "options": [
+    [
+     "They were called sternly to account and ruined",
+     "They tasted the consequences."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: They were called sternly to account and ruined."
+    ],
+    [
+     "They were rewarded",
+     "Not quite. The article says: They were called sternly to account and ruined."
+    ],
+    [
+     "They prospered",
+     "Not quite. The article says: They were called sternly to account and ruined."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "We called them sternly to account and punished them severely … the result of their conduct was ruin."
+  }
+ ]
+}

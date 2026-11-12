@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Know God’s Creation Plan",
+   "page": 5,
+   "link": "know-gods-creation-plan",
+   "q": "Who publishes the e-magazine Span?",
+   "options": [
+    [
+     "The Government of India",
+     "Not quite. The article says: The Embassy of the United States in New Delhi."
+    ],
+    [
+     "The Embassy of the United States in New Delhi",
+     "Since November 1960."
+    ],
+    [
+     "The United Nations",
+     "Not quite. The article says: The Embassy of the United States in New Delhi."
+    ],
+    [
+     "CPS International",
+     "Not quite. The article says: The Embassy of the United States in New Delhi."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Published in English, Hindi, and Urdu by the Embassy of the United States in New Delhi since November 1960."
+  },
+  {
+   "article": "Impressions and Lessons",
+   "page": 8,
+   "link": "impressions-and-lessons",
+   "q": "Which conference was inaugurated on December 6, 1985?",
+   "options": [
+    [
+     "The Bamako Islamic Conference",
+     "In Mali."
+    ],
+    [
+     "The Geneva Convention",
+     "Not quite. The article says: The Bamako Islamic Conference."
+    ],
+    [
+     "The Delhi Durbar",
+     "Not quite. The article says: The Bamako Islamic Conference."
+    ],
+    [
+     "The Cairo Summit",
+     "Not quite. The article says: The Bamako Islamic Conference."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Bamako Islamic Conference was inaugurated on the evening of December 6, 1985."
+  },
+  {
+   "article": "Sources for God-Realization",
+   "page": 11,
+   "link": "sources-for-god-realization",
+   "q": "What is the formula for God-realization?",
+   "options": [
+    [
+     "The more profound the thinking, the higher the realization",
+     "Thinking on God’s words and creations."
+    ],
+    [
+     "The longer the journey",
+     "Not quite. The article says: The more profound the thinking, the higher the realization."
+    ],
+    [
+     "The greater the wealth",
+     "Not quite. The article says: The more profound the thinking, the higher the realization."
+    ],
+    [
+     "The louder the chanting",
+     "Not quite. The article says: The more profound the thinking, the higher the realization."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The more profound the thinking, the higher …"
+  },
+  {
+   "article": "Tolerance: A Virtue in Itself",
+   "page": 12,
+   "link": "tolerance-a-virtue-in-itself",
+   "q": "Does tolerance have to be externally imposed?",
+   "options": [
+    [
+     "It cannot exist",
+     "Not quite. The article says: No – the human desire for tolerance is limitless."
+    ],
+    [
+     "No – the human desire for tolerance is limitless",
+     "A permanent law of nature."
+    ],
+    [
+     "Yes, by law",
+     "Not quite. The article says: No – the human desire for tolerance is limitless."
+    ],
+    [
+     "Yes, by force",
+     "Not quite. The article says: No – the human desire for tolerance is limitless."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is not something which has to be externally imposed, for the human desire for tolerance is limitless."
+  },
+  {
+   "article": "History of Hajj",
+   "page": 20,
+   "link": "history-of-hajj",
+   "q": "How many generations after Noah was Abraham born, according to the Bible?",
+   "options": [
+    [
+     "Two",
+     "Not quite. The article says: Ten."
+    ],
+    [
+     "Fifty",
+     "Not quite. The article says: Ten."
+    ],
+    [
+     "One hundred",
+     "Not quite. The article says: Ten."
+    ],
+    [
+     "Ten",
+     "He was chosen to raise a new nation."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Prophet Abraham was born ten generations after the Prophet Noah."
+  },
+  {
+   "article": "In Search of Truth",
+   "page": 22,
+   "link": "in-search-of-truth",
+   "q": "What must mark the character of one who calls people to God?",
+   "options": [
+    [
+     "Anger",
+     "Not quite. The article says: Patience."
+    ],
+    [
+     "Pride",
+     "Not quite. The article says: Patience."
+    ],
+    [
+     "Patience",
+     "To wait for the right opportunities."
+    ],
+    [
+     "Haste",
+     "Not quite. The article says: Patience."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The moral character of a person who calls people to God (dayee) must be marked by patience."
+  },
+  {
+   "article": "Lessons from the Road Traffic",
+   "page": 23,
+   "link": "lessons-from-the-road-traffic",
+   "q": "What did Abu Dhar Ghiffari say of the Prophet’s habit?",
+   "options": [
+    [
+     "Even a bird fluttering its wings became an occasion for a lesson",
+     "Musnad Ahmad."
+    ],
+    [
+     "He taught only in the mosque",
+     "Not quite. The article says: Even a bird fluttering its wings became an occasion for a lesson."
+    ],
+    [
+     "He avoided examples",
+     "Not quite. The article says: Even a bird fluttering its wings became an occasion for a lesson."
+    ],
+    [
+     "He never spoke of nature",
+     "Not quite. The article says: Even a bird fluttering its wings became an occasion for a lesson."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Even if a bird fluttered its wings in the air, the Prophet would use this occasion to remind us of some lesson."
+  },
+  {
+   "article": "Interview with Maulana Wahiduddin Khan",
+   "page": 25,
+   "link": "interview-with-maulana-wahiduddin-khan",
+   "q": "What does Maulana say he has been since childhood?",
+   "options": [
+    [
+     "A soldier",
+     "Not quite. The article says: A pacifist."
+    ],
+    [
+     "A merchant",
+     "Not quite. The article says: A pacifist."
+    ],
+    [
+     "A pacifist",
+     "Inspired by his elder brother."
+    ],
+    [
+     "A politician",
+     "Not quite. The article says: A pacifist."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "I have been a pacifist since childhood."
+  },
+  {
+   "article": "The Essence of All Worship",
+   "page": 39,
+   "link": "the-essence-of-all-worship",
+   "q": "What has no limit, according to Abdullah ibn Abbas?",
+   "options": [
+    [
+     "Zakat",
+     "Not quite. The article says: Dhikr – the remembrance of God."
+    ],
+    [
+     "Pilgrimage",
+     "Not quite. The article says: Dhikr – the remembrance of God."
+    ],
+    [
+     "Fasting",
+     "Not quite. The article says: Dhikr – the remembrance of God."
+    ],
+    [
+     "Dhikr – the remembrance of God",
+     "Other duties have definite limits."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Dhikr, or remembrance of God, on the other hand, has no limit."
+  },
+  {
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "What was Abraham told about the House?",
+   "options": [
+    [
+     "To purify it for those who circumambulate, stand, bow and prostrate",
+     "And to associate nothing with God."
+    ],
+    [
+     "To sell it",
+     "Not quite. The article says: To purify it for those who circumambulate, stand, bow and prostrate."
+    ],
+    [
+     "To hide it",
+     "Not quite. The article says: To purify it for those who circumambulate, stand, bow and prostrate."
+    ],
+    [
+     "To close it",
+     "Not quite. The article says: To purify it for those who circumambulate, stand, bow and prostrate."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "‘Do not associate with Me anything and purify My House for those who circumambulate …’"
+  }
+ ]
+}

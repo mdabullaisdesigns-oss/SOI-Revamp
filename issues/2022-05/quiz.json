@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Hijab: A Comprehensive Term",
+   "page": 5,
+   "link": "hijab-a-comprehensive-term",
+   "q": "What has become a topic of debate on print and TV media?",
+   "options": [
+    [
+     "Fasting",
+     "Not quite. The article says: The Hijab."
+    ],
+    [
+     "Zakat",
+     "Not quite. The article says: The Hijab."
+    ],
+    [
+     "The Hijab",
+     "Its meaning must be understood."
+    ],
+    [
+     "Hajj",
+     "Not quite. The article says: The Hijab."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "These days, the Hijab has become a topic of debate, discussion and serious contention."
+  },
+  {
+   "article": "Pages from Maulana's Diary",
+   "page": 9,
+   "link": "pages-from-maulanas-diary",
+   "q": "What did Advocate Daniyal Latifi say even the best lawyers cannot do?",
+   "options": [
+    [
+     "Win a case",
+     "Not quite. The article says: Manipulate an honest witness."
+    ],
+    [
+     "Manipulate an honest witness",
+     "Who says only what he saw."
+    ],
+    [
+     "Speak in court",
+     "Not quite. The article says: Manipulate an honest witness."
+    ],
+    [
+     "Read the law",
+     "Not quite. The article says: Manipulate an honest witness."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Even the best of lawyers cannot manipulate an honest witness."
+  },
+  {
+   "article": "A Solution-Oriented Approach",
+   "page": 14,
+   "link": "a-solution-oriented-approach",
+   "q": "How did Time magazine term the 1988 accommodation between the USSR and the USA?",
+   "options": [
+    [
+     "A ‘final war’",
+     "Not quite. The article says: A ‘grand compromise’."
+    ],
+    [
+     "A ‘silent pact’",
+     "Not quite. The article says: A ‘grand compromise’."
+    ],
+    [
+     "A ‘grand compromise’",
+     "Between rivals of 70 years."
+    ],
+    [
+     "A ‘cold peace’",
+     "Not quite. The article says: A ‘grand compromise’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Time magazine aptly termed it a ‘grand compromise.’"
+  },
+  {
+   "article": "Importance of Time",
+   "page": 19,
+   "link": "importance-of-time",
+   "q": "How is prayer enjoined on believers (4: 103)?",
+   "options": [
+    [
+     "At fixed hours",
+     "A lesson in punctuality for all tasks."
+    ],
+    [
+     "Only at night",
+     "Not quite. The article says: At fixed hours."
+    ],
+    [
+     "Once a week",
+     "Not quite. The article says: At fixed hours."
+    ],
+    [
+     "Whenever convenient",
+     "Not quite. The article says: At fixed hours."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Verily, the prayer is enjoined on the believers at fixed hours."
+  },
+  {
+   "article": "Clarity in Discourse",
+   "page": 21,
+   "link": "clarity-in-discourse",
+   "q": "What is the least found quality in speech or writing?",
+   "options": [
+    [
+     "Clarity",
+     "Many are academic, few are clear."
+    ],
+    [
+     "Vocabulary",
+     "Not quite. The article says: Clarity."
+    ],
+    [
+     "Length",
+     "Not quite. The article says: Clarity."
+    ],
+    [
+     "Speed",
+     "Not quite. The article says: Clarity."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The least found quality in a piece of speech or writing is clarity."
+  },
+  {
+   "article": "Wrong Argument",
+   "page": 26,
+   "link": "wrong-argument",
+   "q": "What position did Caliph Haroon al-Rasheed offer Waki ibn al-Jarrah?",
+   "options": [
+    [
+     "Qazi (judge) – which he refused",
+     "A great scholar of Hadith."
+    ],
+    [
+     "General",
+     "Not quite. The article says: Qazi (judge) – which he refused."
+    ],
+    [
+     "Treasurer",
+     "Not quite. The article says: Qazi (judge) – which he refused."
+    ],
+    [
+     "Governor",
+     "Not quite. The article says: Qazi (judge) – which he refused."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Caliph Haroon al-Rasheed offered him the position of Qazi, i.e., a judge, but he refused."
+  },
+  {
+   "article": "Through the Eyes of the Intellect",
+   "page": 28,
+   "link": "through-the-eyes-of-the-intellect",
+   "q": "Whom was the young Abu Yusuf put to serve after his father died?",
+   "options": [
+    [
+     "A soldier",
+     "Not quite. The article says: A washerman."
+    ],
+    [
+     "A washerman",
+     "He often slipped away to learn."
+    ],
+    [
+     "A blacksmith",
+     "Not quite. The article says: A washerman."
+    ],
+    [
+     "A merchant",
+     "Not quite. The article says: A washerman."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "My mother put me to serve a washerman."
+  },
+  {
+   "article": "One Man, Two Missions",
+   "page": 32,
+   "link": "one-man-two-missions",
+   "q": "From which city did the writer’s family migrate after the partition?",
+   "options": [
+    [
+     "Kabul",
+     "Not quite. The article says: Lahore."
+    ],
+    [
+     "Lahore",
+     "They lost their wealth yet stayed positive."
+    ],
+    [
+     "Dhaka",
+     "Not quite. The article says: Lahore."
+    ],
+    [
+     "Karachi",
+     "Not quite. The article says: Lahore."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "I was born in a Punjabi business family that migrated from Lahore, Pakistan after the partition."
+  },
+  {
+   "article": "Natural Simplicity",
+   "page": 38,
+   "link": "natural-simplicity",
+   "q": "How many times did the Prophet perform Hajj during his mission?",
+   "options": [
+    [
+     "Just once – the Farewell Pilgrimage",
+     "In AD 632."
+    ],
+    [
+     "Ten times",
+     "Not quite. The article says: Just once – the Farewell Pilgrimage."
+    ],
+    [
+     "Never",
+     "Not quite. The article says: Just once – the Farewell Pilgrimage."
+    ],
+    [
+     "Every year",
+     "Not quite. The article says: Just once – the Farewell Pilgrimage."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Prophet of Islam performed just one Hajj during the period of his prophetic mission."
+  },
+  {
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "Why has God subjected the sea to you?",
+   "options": [
+    [
+     "To divide lands",
+     "Not quite. The article says: So that you may sail, seek His bounty and be grateful."
+    ],
+    [
+     "So that you may sail, seek His bounty and be grateful",
+     "By His command."
+    ],
+    [
+     "To frighten you",
+     "Not quite. The article says: So that you may sail, seek His bounty and be grateful."
+    ],
+    [
+     "For no reason",
+     "Not quite. The article says: So that you may sail, seek His bounty and be grateful."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is God who has subjected the sea to you so that you may sail thereon by His command."
+  }
+ ]
+}

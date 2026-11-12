@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Calamities and Afflictions",
+   "page": 5,
+   "link": "calamities-and-afflictions",
+   "q": "Which illnesses does the article name as changing how we live?",
+   "options": [
+    [
+     "Plague and cholera",
+     "Not quite. The article says: Swine flu, Covid-19 and Monkey-Pox."
+    ],
+    [
+     "Measles and mumps",
+     "Not quite. The article says: Swine flu, Covid-19 and Monkey-Pox."
+    ],
+    [
+     "None",
+     "Not quite. The article says: Swine flu, Covid-19 and Monkey-Pox."
+    ],
+    [
+     "Swine flu, Covid-19 and Monkey-Pox",
+     "Alongside climate change."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Swine flu, Covid-19, and now Monkey-Pox have changed how we live and interact with people."
+  },
+  {
+   "article": "Gift or Test?",
+   "page": 10,
+   "link": "gift-or-test",
+   "q": "Where is every misfortune recorded before it happens, according to the verse?",
+   "options": [
+    [
+     "Nowhere",
+     "Not quite. The article says: In a book."
+    ],
+    [
+     "In the stars",
+     "Not quite. The article says: In a book."
+    ],
+    [
+     "In people’s minds",
+     "Not quite. The article says: In a book."
+    ],
+    [
+     "In a book",
+     "So you neither grieve nor exult."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "No misfortune can affect the earth or your own selves without its first having been recorded in a book."
+  },
+  {
+   "article": "For the Thinking Soul",
+   "page": 15,
+   "link": "for-the-thinking-soul",
+   "q": "What establishes a person’s pattern of thinking, according to the article?",
+   "options": [
+    [
+     "His schooling",
+     "Not quite. The article says: The urge to worship."
+    ],
+    [
+     "The urge to worship",
+     "The question is whom or what."
+    ],
+    [
+     "His age",
+     "Not quite. The article says: The urge to worship."
+    ],
+    [
+     "His income",
+     "Not quite. The article says: The urge to worship."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is quite simply, the urge to worship."
+  },
+  {
+   "article": "A Perfect World",
+   "page": 19,
+   "link": "a-perfect-world",
+   "q": "How did people once regard smoke from factory chimneys?",
+   "options": [
+    [
+     "As an art",
+     "Not quite. The article says: As a sign of prosperity."
+    ],
+    [
+     "As a danger",
+     "Not quite. The article says: As a sign of prosperity."
+    ],
+    [
+     "As a sign of prosperity",
+     "Pollution emerged as a problem in the 1960s."
+    ],
+    [
+     "As a crime",
+     "Not quite. The article says: As a sign of prosperity."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "People … considered the smoke pouring from their factory chimneys as a sign of prosperity."
+  },
+  {
+   "article": "A Realistic Step",
+   "page": 22,
+   "link": "a-realistic-step",
+   "q": "What is the foundation of a culture, according to Maxim Gorky?",
+   "options": [
+    [
+     "War",
+     "Not quite. The article says: Labour."
+    ],
+    [
+     "Labour",
+     "Each on his own small piece of land."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Labour."
+    ],
+    [
+     "Language",
+     "Not quite. The article says: Labour."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "According to the Russian writer, Maxim Gorky, labour is the foundation of a culture."
+  },
+  {
+   "article": "India: A Spiritual Superpower",
+   "page": 25,
+   "link": "india-a-spiritual-superpower",
+   "q": "What does the author call India?",
+   "options": [
+    [
+     "A potential spiritual superpower",
+     "A land of spirituality."
+    ],
+    [
+     "A military superpower",
+     "Not quite. The article says: A potential spiritual superpower."
+    ],
+    [
+     "A small nation",
+     "Not quite. The article says: A potential spiritual superpower."
+    ],
+    [
+     "A land without tradition",
+     "Not quite. The article says: A potential spiritual superpower."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "I have always maintained that India is a potential spiritual superpower."
+  },
+  {
+   "article": "The Goal of a Believer",
+   "page": 29,
+   "link": "the-goal-of-a-believer",
+   "q": "To whom was Ali, the fourth Caliph, married?",
+   "options": [
+    [
+     "Hafsa",
+     "Not quite. The article says: Fatima, daughter of the Prophet."
+    ],
+    [
+     "Khadija",
+     "Not quite. The article says: Fatima, daughter of the Prophet."
+    ],
+    [
+     "Fatima, daughter of the Prophet",
+     "She did all the housework herself."
+    ],
+    [
+     "Aisha",
+     "Not quite. The article says: Fatima, daughter of the Prophet."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Ali, the fourth Caliph was married to Fatima, who was a daughter of the Prophet Muhammad."
+  },
+  {
+   "article": "Negligence: A Moral Deficiency",
+   "page": 31,
+   "link": "negligence-a-moral-deficiency",
+   "q": "What are the most dangerous enemies of man?",
+   "options": [
+    [
+     "Bears",
+     "Not quite. The article says: Bacteria and viruses."
+    ],
+    [
+     "Tigers",
+     "Not quite. The article says: Bacteria and viruses."
+    ],
+    [
+     "Sharks",
+     "Not quite. The article says: Bacteria and viruses."
+    ],
+    [
+     "Bacteria and viruses",
+     "Not the tiger or the bear."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The most dangerous of our enemies are the bacteria and viruses."
+  },
+  {
+   "article": "Lesser Gratitude, Greater Gratitude",
+   "page": 33,
+   "link": "lesser-gratitude-greater-gratitude",
+   "q": "What did the Prophet say of one who shows no gratitude for lesser things?",
+   "options": [
+    [
+     "He will be grateful later",
+     "Not quite. The article says: He will not express gratitude for greater things either."
+    ],
+    [
+     "He is wise",
+     "Not quite. The article says: He will not express gratitude for greater things either."
+    ],
+    [
+     "He will not express gratitude for greater things either",
+     "A law of nature."
+    ],
+    [
+     "He needs nothing",
+     "Not quite. The article says: He will not express gratitude for greater things either."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“One who does not show gratitude for lesser things, will not express gratitude for greater things as well.”"
+  },
+  {
+   "article": "A Perfect World",
+   "page": 19,
+   "link": "a-perfect-world",
+   "q": "When did the problem of pollution first rear its head?",
+   "options": [
+    [
+     "In 2010",
+     "Not quite. The article says: In the 1960s."
+    ],
+    [
+     "In the 1960s",
+     "Until then smoke meant prosperity."
+    ],
+    [
+     "In ancient times",
+     "Not quite. The article says: In the 1960s."
+    ],
+    [
+     "In the 1760s",
+     "Not quite. The article says: In the 1960s."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The problem of pollution first reared its head in the 1960s."
+  }
+ ]
+}
