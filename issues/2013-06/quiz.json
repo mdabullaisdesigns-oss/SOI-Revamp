@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Age of Neo-Gandhism",
+   "page": 6,
+   "link": "the-age-of-neo-gandhism",
+   "q": "Which slogan did India’s leaders adopt after 1947?",
+   "options": [
+    [
+     "‘Unite India’",
+     "This is not the slogan named."
+    ],
+    [
+     "‘Shining India’",
+     "This is not the slogan named."
+    ],
+    [
+     "‘Quit India’",
+     "That was the goal before 1947."
+    ],
+    [
+     "‘Build India’",
+     "Before 1947 the goal was ‘Quit India’."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Before 1947, the goal was ‘Quit India’. Then, after 1947, our leaders adopted a new slogan: ‘Build India’."
+  },
+  {
+   "article": "Experiencing the Presence of God",
+   "page": 9,
+   "link": "experiencing-the-presence-of-god",
+   "q": "How did Colonel James Irwin describe setting foot on the moon?",
+   "options": [
+    [
+     "A disappointment",
+     "He called it ecstatic."
+    ],
+    [
+     "A frightening ordeal",
+     "He called it ecstatic."
+    ],
+    [
+     "A purely scientific achievement",
+     "He did not see it as mere scientific discovery."
+    ],
+    [
+     "An ecstatic experience of feeling oneself in God’s presence",
+     "It gave him new spiritual life."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "It was an ecstatic experience he said, to feel oneself in God’s presence, to feel so close to Him that His greatness appeared before one’s eyes."
+  },
+  {
+   "article": "Trust Is Golden",
+   "page": 18,
+   "link": "trust-is-golden",
+   "q": "What won the cloth-seller the confidence of his wholesaler?",
+   "options": [
+    [
+     "A large deposit",
+     "He had very little capital."
+    ],
+    [
+     "His family connections",
+     "He began with only a few hundred rupees."
+    ],
+    [
+     "His clever advertising",
+     "This is not in the story."
+    ],
+    [
+     "His honesty and fair dealing",
+     "He always settled his debt before the appointed date."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This freelance cloth-merchant built up a good deal of trust with his wholesaler, whom he impressed with his honesty and fair dealing."
+  },
+  {
+   "article": "Science and Religion",
+   "page": 19,
+   "link": "science-and-religion",
+   "q": "What did Newton write about the rotation of the planets?",
+   "options": [
+    [
+     "That there must also be a divine arm in it",
+     "Not only the law of gravity."
+    ],
+    [
+     "That it is an illusion",
+     "This is not what he wrote."
+    ],
+    [
+     "That gravity alone explains it",
+     "He wrote that it is not only due to gravity."
+    ],
+    [
+     "That it cannot be studied",
+     "He had just discovered its laws."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The continuous rotation of the planets is not only due to the law of gravity; there must also be a divine arm in it."
+  },
+  {
+   "article": "Try, Try, and Try Again",
+   "page": 25,
+   "link": "try-try-and-try-again",
+   "q": "To what did the factory owner compare the growth of his business?",
+   "options": [
+    [
+     "A tree bearing fruit in a season",
+     "This is not his comparison."
+    ],
+    [
+     "A child growing into boyhood over fifteen years",
+     "“It has been a fifteen-year struggle.”"
+    ],
+    [
+     "A lottery win",
+     "He stressed long hard work."
+    ],
+    [
+     "A river in flood",
+     "This is not his comparison."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Just as a young child grows into boyhood after fifteen years, so does a business. I have not reached this stage in one day.”"
+  },
+  {
+   "article": "Moral and Ethical Development in Society",
+   "page": 29,
+   "link": "moral-and-ethical-development-in-society",
+   "q": "What two aspects do all major religions have, according to the article?",
+   "options": [
+    [
+     "Ritual and festival",
+     "These are not the two aspects named."
+    ],
+    [
+     "History and language",
+     "These are not the two aspects named."
+    ],
+    [
+     "Theology and the moral scheme",
+     "Beliefs on one side, the ethical system on the other."
+    ],
+    [
+     "Law and politics",
+     "These are not the two aspects named."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "All the major religions have two different aspects to them — theology and the moral scheme."
+  },
+  {
+   "article": "Disadvantage Turned to Advantage",
+   "page": 34,
+   "link": "disadvantage-turned-to-advantage",
+   "q": "Which personal trait of Mahatma Gandhi does the article begin with?",
+   "options": [
+    [
+     "He was a gifted orator from youth",
+     "The article says the opposite."
+    ],
+    [
+     "He was quick-tempered",
+     "The article speaks of shyness."
+    ],
+    [
+     "He was very shy by nature",
+     "At a London meeting he could not manage his speech."
+    ],
+    [
+     "He disliked reading",
+     "This is not mentioned."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Mahatma Gandhi was very shy by nature … it was a long time before he managed to shake off his shyness."
+  },
+  {
+   "article": "Seeking the Right Alternatives",
+   "page": 36,
+   "link": "seeking-the-right-alternatives",
+   "q": "What did the porter advise the passenger who had missed his train?",
+   "options": [
+    [
+     "To complain to the station master",
+     "This was not the advice."
+    ],
+    [
+     "To wait on the same platform for the next train",
+     "Another train would come in a couple of hours."
+    ],
+    [
+     "To run after the train",
+     "This was not the advice."
+    ],
+    [
+     "To go home and return tomorrow",
+     "The porter said, “Why go away?”"
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“There will be another train along in about a couple of hours. Why go away? Just wait here for it on this same platform.”"
+  },
+  {
+   "article": "The Lesson of Death",
+   "page": 38,
+   "link": "the-lesson-of-death",
+   "q": "What does the article say of everyone alive today?",
+   "options": [
+    [
+     "Everyone is innocent",
+     "The article says everyone is in some sense a culprit."
+    ],
+    [
+     "Everyone remembers death constantly",
+     "The article says few pay heed."
+    ],
+    [
+     "Everyone will live as long as he wishes",
+     "The article says the opposite."
+    ],
+    [
+     "Everyone is to be ‘hanged’ tomorrow, yet is unaware of it",
+     "Like a culprit who has heard his sentence, but heedless."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Everyone alive today is to be ‘hanged’ tomorrow. But everyone is lost in his today and blissfully unaware of his tomorrow."
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "What do the verses quoted (29: 56–59) say every soul shall taste?",
+   "options": [
+    [
+     "Death",
+     "“and then to Us you shall return.”"
+    ],
+    [
+     "Fame",
+     "The verse speaks of death."
+    ],
+    [
+     "Victory",
+     "The verse speaks of death."
+    ],
+    [
+     "Wealth",
+     "The verse speaks of death."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Every soul shall taste death and then to Us you shall return."
+  }
+ ]
+}

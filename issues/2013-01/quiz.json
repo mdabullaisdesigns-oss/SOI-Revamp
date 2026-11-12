@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Welcome",
+   "page": 7,
+   "link": "welcome",
+   "q": "The Welcome note describes Spirit of Islam as continuing the tradition of which predecessors?",
+   "options": [
+    [
+     "‘Peace Times’ and ‘Al-Hilal’",
+     "These titles are not mentioned."
+    ],
+    [
+     "‘The Muslim World’ and ‘Islamic Voice’",
+     "These titles are not mentioned."
+    ],
+    [
+     "‘The Spiritual Message’ and ‘Al-Risala English’",
+     "These are the two predecessors named in the Welcome note."
+    ],
+    [
+     "It had no predecessors",
+     "The note names two earlier publications."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Welcome to ‘Spirit of Islam’, a monthly spiritual message, continuing in the tradition of its predecessors, ‘The Spiritual Message’ and ‘Al-Risala English’."
+  },
+  {
+   "article": "From the Editor’s Desk",
+   "page": 8,
+   "link": "from-the-editors-desk",
+   "q": "According to the Editor’s Desk, what can formal education not teach?",
+   "options": [
+    [
+     "The art of living",
+     "Formal education can give you a job, but not the art of living."
+    ],
+    [
+     "Reading and writing",
+     "The article does not say this."
+    ],
+    [
+     "A profession",
+     "Professional learning is exactly what formal institutes give."
+    ],
+    [
+     "How to find a job",
+     "It says formal education can give you a job."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Formal education can give you a job, but it cannot teach you the art of living. The art of living can be promoted only through informal education."
+  },
+  {
+   "article": "Understanding Islam",
+   "page": 12,
+   "link": "understanding-islam",
+   "q": "What does the Persian phrase ‘Sulh-e-Kul’ mean?",
+   "options": [
+    [
+     "Victory for all",
+     "The phrase is about peace, not victory."
+    ],
+    [
+     "Justice above all",
+     "This is not the meaning given."
+    ],
+    [
+     "Peace with all",
+     "This is the meaning given, and it is said to express the spirit of Islam."
+    ],
+    [
+     "Knowledge for all",
+     "This is not the meaning given."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A Persian phrase, ‘Sulh-e-Kul’, which means peace with all, truly expresses the spirit of Islam."
+  },
+  {
+   "article": "Spiritual Living",
+   "page": 18,
+   "link": "spiritual-living",
+   "q": "How does the article define being spiritual?",
+   "options": [
+    [
+     "Performing many rituals",
+     "The definition is about orientation towards God."
+    ],
+    [
+     "Giving up all possessions",
+     "This is not the definition given."
+    ],
+    [
+     "Living a God-oriented life",
+     "This is the article’s opening definition."
+    ],
+    [
+     "Withdrawing from society",
+     "The article does not define it this way."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "What is spirituality? Being spiritual means to live a God-oriented life."
+  },
+  {
+   "article": "Respecting All Religions",
+   "page": 23,
+   "link": "respecting-all-religions",
+   "q": "Why does the article say removing religion altogether is no solution to religious conflict?",
+   "options": [
+    [
+     "Governments would not allow it",
+     "This reason is not given."
+    ],
+    [
+     "All religions are identical",
+     "The article does not claim this."
+    ],
+    [
+     "The urge to believe in a greater power is inherent in human nature",
+     "Human nature cannot be changed, so removing religion solves nothing."
+    ],
+    [
+     "Religions never disagree",
+     "The article says differences are bound to arise."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The urge to believe in a greater power is strongly inherent in human nature, and human nature cannot be changed."
+  },
+  {
+   "article": "Is There a Heaven?",
+   "page": 28,
+   "link": "is-there-a-heaven",
+   "q": "According to the currently accepted theory cited, how much of the Universe is matter as we know it?",
+   "options": [
+    [
+     "About 50%",
+     "The figure given is far smaller."
+    ],
+    [
+     "All of it",
+     "The article says most of the Universe is unknown to us."
+    ],
+    [
+     "Only 4%",
+     "The remaining 96% is thought to be dark matter and dark energy."
+    ],
+    [
+     "96%",
+     "That is the share thought to be dark matter and dark energy."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Only 4% of the Universe consists of matter as we know it. The remaining 96% is thought to consist of dark matter and dark energy."
+  },
+  {
+   "article": "Through Hardship, to the Stars",
+   "page": 29,
+   "link": "through-hardship-to-the-stars",
+   "q": "Which disaster does the article use to show a nation rising again after a shattering blow?",
+   "options": [
+    [
+     "The 2004 Indian Ocean tsunami",
+     "This is not the example used."
+    ],
+    [
+     "The 2010 Haiti earthquake",
+     "This is not the example used."
+    ],
+    [
+     "The March 2011 Tōhoku earthquake and tsunami in Japan",
+     "The article opens with this disaster and Japan’s recovery."
+    ],
+    [
+     "The 1906 San Francisco earthquake",
+     "This is not the example used."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The March 2011 Tōhoku earthquake was the most powerful known earthquake ever to have hit Japan."
+  },
+  {
+   "article": "Dialogue in Religion",
+   "page": 36,
+   "link": "dialogue-in-religion",
+   "q": "Where did the Prophet of Islam hold a three-religion conference fourteen hundred years ago?",
+   "options": [
+    [
+     "Damascus",
+     "The article names Medina."
+    ],
+    [
+     "Jerusalem",
+     "The article names Medina."
+    ],
+    [
+     "Medina",
+     "The article says the conference was held in Medina."
+    ],
+    [
+     "Makkah",
+     "The article names Medina."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Fourteen hundred years ago, the Prophet of Islam held a three-religion conference in Medina to exchange views on religious issues."
+  },
+  {
+   "article": "Lessons from Nature",
+   "page": 42,
+   "link": "lessons-from-nature",
+   "q": "What behaviour of the stars and planets does the article hold up as a model?",
+   "options": [
+    [
+     "Each moves in its own orbit without trespassing on another’s",
+     "This precision and non-interference is the model for human life."
+    ],
+    [
+     "They compete for space",
+     "The article says none trespasses on another."
+    ],
+    [
+     "They constantly change course",
+     "The article stresses their regularity."
+    ],
+    [
+     "They shine without resting",
+     "This is not the lesson drawn."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Each star and planet moves in its own orbit with incredible precision and regularity, in accordance with the laws of nature."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "Which attributes of God are named in the verse quoted (2: 163)?",
+   "options": [
+    [
+     "The Compassionate, the Merciful",
+     "“He is the Compassionate, the Merciful.”"
+    ],
+    [
+     "The First, the Last",
+     "These are not in the verse quoted."
+    ],
+    [
+     "The Seen, the Hidden",
+     "These are not in the verse quoted."
+    ],
+    [
+     "The Avenger, the Subduer",
+     "These are not in the verse quoted."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Your God is one God. There is no deity save Him. He is the Compassionate, the Merciful."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Be Aware of Your Unawareness",
+   "page": 6,
+   "link": "be-aware-of-your-unawareness",
+   "q": "Which two formulas does the article call impractical?",
+   "options": [
+    [
+     "‘Might is right’ and ‘Silence is golden’",
+     "These are not the formulas discussed."
+    ],
+    [
+     "‘Know yourself’ and ‘Know your enemy’",
+     "These are not the formulas discussed."
+    ],
+    [
+     "‘Live and let live’ and ‘Forgive and forget’",
+     "These are not the formulas discussed."
+    ],
+    [
+     "‘I am right, you are wrong’ and ‘I am right, you are also right’",
+     "Neither yields a positive result."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Both these formulas are impractical, and will not yield any positive result."
+  },
+  {
+   "article": "Giving as God Wills",
+   "page": 8,
+   "link": "giving-as-god-wills",
+   "q": "What is the only way to give thanks for life and property, according to the article?",
+   "options": [
+    [
+     "To renounce them entirely",
+     "The article speaks of using them as God wishes."
+    ],
+    [
+     "To hoard them carefully",
+     "The article speaks of spending as God wills."
+    ],
+    [
+     "To dispose of them as God wishes",
+     "They are gifts of God."
+    ],
+    [
+     "To display them",
+     "This is not what the article says."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The only way to give thanks for these innumerable gifts is to dispose of them as God wishes."
+  },
+  {
+   "article": "Practicable Formula",
+   "page": 16,
+   "link": "practicable-formula",
+   "q": "How does the article judge the idea that all religions are equally true?",
+   "options": [
+    [
+     "A proven fact",
+     "The article disagrees."
+    ],
+    [
+     "Unnatural as well as irrational",
+     "In worldly matters no one holds opposing theories both to be right."
+    ],
+    [
+     "A teaching of every scripture",
+     "This is not claimed."
+    ],
+    [
+     "The only basis for peace",
+     "The article questions this."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A logical analysis will show that this concept is unnatural as well as irrational."
+  },
+  {
+   "article": "The Problem of Evil",
+   "page": 17,
+   "link": "the-problem-of-evil",
+   "q": "Why can human history not be interpreted by a predetermined law as the physical world is?",
+   "options": [
+    [
+     "Physical laws change",
+     "The article says the physical world is explainable by law."
+    ],
+    [
+     "Records are incomplete",
+     "This is not the reason given."
+    ],
+    [
+     "History is too short",
+     "This is not the reason given."
+    ],
+    [
+     "The events of the human world are not amenable to any such law",
+     "Those who try meet with failure."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The events of the human world are simply not amenable to interpretation in terms of any such law."
+  },
+  {
+   "article": "Total Involvement",
+   "page": 20,
+   "link": "total-involvement",
+   "q": "For what is Elias Howe remembered?",
+   "options": [
+    [
+     "The sewing machine",
+     "Its breakthrough was a needle with the hole at its tip."
+    ],
+    [
+     "The telephone",
+     "The article is about the sewing machine."
+    ],
+    [
+     "The steam engine",
+     "The article is about the sewing machine."
+    ],
+    [
+     "The printing press",
+     "The article is about the sewing machine."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "His contribution to the world of clothes—that of the sewing machine—will always be remembered."
+  },
+  {
+   "article": "Religion and Secularism",
+   "page": 28,
+   "link": "religion-and-secularism",
+   "q": "How does the article describe secularism’s relation to religion?",
+   "options": [
+    [
+     "A passing fashion",
+     "This is not what it says."
+    ],
+    [
+     "Of no consequence",
+     "The article sees a real benefit."
+    ],
+    [
+     "A great blessing for religion",
+     "Religious people now enjoy freedom."
+    ],
+    [
+     "Its greatest enemy",
+     "The article calls this thinking unfounded."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A deeper study shows that this kind of thinking is completely unfounded. Instead, secularism is a great blessing for religion."
+  },
+  {
+   "article": "A Fool’s Paradise",
+   "page": 30,
+   "link": "a-fools-paradise",
+   "q": "What would people do better to discover, according to the article?",
+   "options": [
+    [
+     "New ways of gathering wealth",
+     "The article criticises hoarding."
+    ],
+    [
+     "Praise from other people",
+     "It says praise is due to God."
+    ],
+    [
+     "Their humility and helplessness in the presence of God",
+     "Instead of taking pride in asserting themselves."
+    ],
+    [
+     "Arguments to justify their errors",
+     "It says they should admit them."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "People take pride in asserting themselves, but they would do better to discover their humility and abject helplessness in the presence of God."
+  },
+  {
+   "article": "Eid-Ul-Fitr",
+   "page": 35,
+   "link": "eid-ul-fitr",
+   "q": "What does the Arabic word Eid mean?",
+   "options": [
+    [
+     "A new moon",
+     "This is not the meaning given."
+    ],
+    [
+     "Returning at regular intervals",
+     "It gives a repeated opportunity for renewal."
+    ],
+    [
+     "A great feast",
+     "This is not the meaning given."
+    ],
+    [
+     "The end of hardship",
+     "This is not the meaning given."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The word Eid in Arabic means ‘returning at regular intervals’ and refers to the two annual Islamic religious celebrations."
+  },
+  {
+   "article": "The Concept of Tomorrow",
+   "page": 37,
+   "link": "the-concept-of-tomorrow",
+   "q": "How does the article define instinct?",
+   "options": [
+    [
+     "Blind chance",
+     "This is not the definition given."
+    ],
+    [
+     "Moral choice",
+     "That belongs to conscious intelligence."
+    ],
+    [
+     "Learned habit",
+     "This is not the definition given."
+    ],
+    [
+     "Unconscious intelligence",
+     "Conscious intelligence is the hallmark of man."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Instinct, in a broad sense, may be defined as unconscious intelligence."
+  },
+  {
+   "article": "The Word of God",
+   "page": 42,
+   "link": "the-word-of-god",
+   "q": "By what does the passage quoted open with an oath?",
+   "options": [
+    [
+     "The Day of Resurrection and the self-reproaching soul",
+     "These are the opening words."
+    ],
+    [
+     "The fig and the olive",
+     "This is another chapter."
+    ],
+    [
+     "The sun and the moon",
+     "These appear later in the passage."
+    ],
+    [
+     "The pen",
+     "This is another chapter."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "By the Day of Resurrection, and by the self-reproaching soul!"
+  }
+ ]
+}

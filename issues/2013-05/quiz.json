@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Non-Violence—a Way of Life",
+   "page": 6,
+   "link": "non-violence-a-way-of-life",
+   "q": "To what does the article liken this world?",
+   "options": [
+    [
+     "A battlefield",
+     "The article argues against confrontation."
+    ],
+    [
+     "A marketplace",
+     "This is not the image used."
+    ],
+    [
+     "A rose bush with thorns as well as flowers",
+     "To pluck the flowers one must avoid the thorns."
+    ],
+    [
+     "A stormy sea",
+     "This is not the image used."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "This world can be likened to a rose bush, which possesses thorns as well as flowers."
+  },
+  {
+   "article": "Truth—an Analysis",
+   "page": 9,
+   "link": "truth-an-analysis",
+   "q": "How does the article respond to the idea that Truth is only relative?",
+   "options": [
+    [
+     "It says only philosophers can decide",
+     "This is not what it says."
+    ],
+    [
+     "It says the question cannot be answered",
+     "The article gives a clear answer."
+    ],
+    [
+     "It accepts it fully",
+     "The article rejects the idea."
+    ],
+    [
+     "It rejects it as having no logical or rational ground",
+     "Whatever man believes, he believes in an absolute sense."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This supposition does not have any logic or rational ground to stand on."
+  },
+  {
+   "article": "A Price for Everything",
+   "page": 15,
+   "link": "a-price-for-everything",
+   "q": "Which law of nature does the article describe?",
+   "options": [
+    [
+     "There is a price to be paid for every end in life",
+     "Without paying it, nothing can be achieved."
+    ],
+    [
+     "The strong always win",
+     "This is not the law described."
+    ],
+    [
+     "Everything comes to those who wait",
+     "The article speaks of paying a price."
+    ],
+    [
+     "Good fortune is shared equally",
+     "This is not the law described."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "There is a price to be paid for every end in life: without paying that price, nothing can be achieved."
+  },
+  {
+   "article": "Accepting Defeat",
+   "page": 19,
+   "link": "accepting-defeat",
+   "q": "What happened to the American citizen’s first business venture of 1831?",
+   "options": [
+    [
+     "He sold it at a profit",
+     "The business failed."
+    ],
+    [
+     "It failed in 1832",
+     "He then turned to politics, again without success."
+    ],
+    [
+     "It made him rich",
+     "The article lists a series of failures."
+    ],
+    [
+     "He never started it",
+     "He did go into business in 1831."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In 1831, an American citizen went into business. In 1832 his business failed."
+  },
+  {
+   "article": "A Sublime Character",
+   "page": 20,
+   "link": "a-sublime-character",
+   "q": "Which city was the seat of Sultan Ghiyasuddin Azam Shah’s government?",
+   "options": [
+    [
+     "Sonargaon",
+     "Dhaka was not then in existence."
+    ],
+    [
+     "Delhi",
+     "He had revolted against the Delhi Sultanate."
+    ],
+    [
+     "Dhaka",
+     "The article says Dhaka did not yet exist."
+    ],
+    [
+     "Murshidabad",
+     "This is not the city named."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "At that time Dhaka was not in existence; Sonargaon was the seat of the government."
+  },
+  {
+   "article": "The Concept of Biological Evolution",
+   "page": 25,
+   "link": "the-concept-of-biological-evolution",
+   "q": "Who presented the concept of evolution in an elementary form before Darwin?",
+   "options": [
+    [
+     "Isaac Newton",
+     "He is not mentioned in this connection."
+    ],
+    [
+     "Thomas Huxley",
+     "He is not mentioned in this connection."
+    ],
+    [
+     "Gregor Mendel",
+     "He is not mentioned in this connection."
+    ],
+    [
+     "Jean Baptiste Lamarck",
+     "Darwin then presented it in a more organized manner."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Jean Baptiste Lamarck had presented the concept of evolution in its elementary form before Darwin."
+  },
+  {
+   "article": "Assalamu Alaikum",
+   "page": 33,
+   "link": "assalamu-alaikum",
+   "q": "What does the greeting ‘Assalamu alaikum’ mean?",
+   "options": [
+    [
+     "Welcome, friend",
+     "This is not its meaning."
+    ],
+    [
+     "May you live long",
+     "This is not its meaning."
+    ],
+    [
+     "Peace be upon you",
+     "The other person replies, ‘Peace be upon you too.’"
+    ],
+    [
+     "God is great",
+     "This is not its meaning."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Islam teaches Muslims to greet people by saying ‘Assalamu alaikum’ that is, peace be upon you."
+  },
+  {
+   "article": "Social Harmony",
+   "page": 35,
+   "link": "social-harmony",
+   "q": "What turned the two farmers’ boundary dispute into a disaster?",
+   "options": [
+    [
+     "The land was very valuable",
+     "It began over a petty piece of land."
+    ],
+    [
+     "The court ruled unfairly",
+     "The harm came before the court case."
+    ],
+    [
+     "It became an issue of honour",
+     "Withdrawing their claims seemed like losing face."
+    ],
+    [
+     "A third farmer interfered",
+     "This is not in the story."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The dispute concerned a piece of land but soon developed into an issue of honour."
+  },
+  {
+   "article": "Is Science in Pursuit of God?",
+   "page": 39,
+   "link": "is-science-in-pursuit-of-god",
+   "q": "Who is named as perhaps the first scientist to point to a mathematical mind behind the universe?",
+   "options": [
+    [
+     "Isaac Newton",
+     "The article names Sir James Jeans."
+    ],
+    [
+     "Sir James Jeans",
+     "The article names him."
+    ],
+    [
+     "Stephen Hawking",
+     "The article names Sir James Jeans."
+    ],
+    [
+     "Albert Einstein",
+     "Einstein is mentioned for his search for a unified theory."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Perhaps the first scientist who pointed out that there is a mathematical mind behind the universe was Sir James Jeans."
+  },
+  {
+   "article": "The Word of God",
+   "page": 42,
+   "link": "the-word-of-god",
+   "q": "According to the verses quoted (6: 82–84), who will be secure and rightly guided?",
+   "options": [
+    [
+     "Those who have faith and do not mix it with wrongdoing",
+     "This is the opening of the passage."
+    ],
+    [
+     "Those descended from prophets",
+     "The verse speaks of faith, not descent."
+    ],
+    [
+     "Those with the largest following",
+     "This is not in the verse."
+    ],
+    [
+     "Those who are wealthy",
+     "This is not in the verse."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It is those who have faith, and do not mix their faith with wrongdoing, who will be secure, and it is they who are rightly guided."
+  }
+ ]
+}

@@ -1,15 +1,15 @@
 name: Build the website
 
-# Builds the static site (dist/) with its Pagefind search index and keeps it as
-# a downloadable artifact.  To publish, connect this repository to Cloudflare
-# Pages with build command
-#   pip install "pagefind[bin]" && python3 site/build_site.py
-# and output directory  dist
+# Builds the static site (dist/) with its Pagefind search index, keeps it as a
+# downloadable artifact and, when the repository secret CLOUDFLARE_API_TOKEN
+# exists (a token with "Cloudflare Pages: Edit"), publishes it as the Cloudflare
+# Pages project "soi-preview"  ->  https://soi-preview.pages.dev  (a preview
+# address only; the real domain is not touched).
 on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["site/**", "issues/*/SOI-*-complete.html"]
+    paths: ["site/**", "issues/*/SOI-*-complete.html", ".github/workflows/soi-site.yml"]
 
 jobs:
   build:
@@ -26,3 +26,16 @@ jobs:
           name: soi-site
           path: dist
           retention-days: 14
+      - name: Publish the preview on Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::notice::CLOUDFLARE_API_TOKEN is not set - site built but not published"; exit 0
+          fi
+          printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt      # a preview: keep it out of search engines
+          npx --yes wrangler@4 pages project create soi-preview --production-branch main || true
+          npx --yes wrangler@4 pages deploy dist --project-name soi-preview --branch main --commit-dirty=true | tee deploy.log
+          echo "### Preview published" >> "$GITHUB_STEP_SUMMARY"
+          grep -o 'https://[a-z0-9.-]*pages.dev' deploy.log | sort -u >> "$GITHUB_STEP_SUMMARY"

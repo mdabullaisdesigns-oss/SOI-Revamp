@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Arab Spring",
+   "page": 7,
+   "link": "arab-spring",
+   "q": "What does the author say is needed for an upheaval to lead to a positive result?",
+   "options": [
+    [
+     "A strong army",
+     "This is not the condition named."
+    ],
+    [
+     "A prepared, educated society",
+     "Every future result needs present preparation."
+    ],
+    [
+     "Foreign support",
+     "This is not the condition named."
+    ],
+    [
+     "A change of rulers alone",
+     "The author doubts that this is enough."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Only a prepared society or educated society is the guarantee that this kind of upheaval may lead to a positive result."
+  },
+  {
+   "article": "God, the Greatest",
+   "page": 9,
+   "link": "god-the-greatest",
+   "q": "Which physicist is quoted as saying ‘God is a mathematician of a very high order’?",
+   "options": [
+    [
+     "Paul Dirac",
+     "The Nobel Prize winning physicist is quoted in the article."
+    ],
+    [
+     "Pythagoras",
+     "He is quoted as saying all things are numbers."
+    ],
+    [
+     "Einstein",
+     "He is quoted as saying the Lord is subtle."
+    ],
+    [
+     "Picasso",
+     "To Picasso, God was an artist."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Nobel Prize winning physicist, Paul Dirac has said ‘God is a mathematician of a very high order.’"
+  },
+  {
+   "article": "Global Warming or Warning",
+   "page": 12,
+   "link": "global-warming-or-warning",
+   "q": "Because all food crops may be wiped out, which strategy does the article mention?",
+   "options": [
+    [
+     "Farming the oceans",
+     "This is not mentioned."
+    ],
+    [
+     "Moving to another planet",
+     "This is not mentioned."
+    ],
+    [
+     "Banning all industry",
+     "This is not mentioned."
+    ],
+    [
+     "Building a vault to preserve seeds",
+     "One of the strategies has been to build a vault."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Since it is feared that all food crops may be wiped off the face of the earth, one of the strategies has been to build a vault."
+  },
+  {
+   "article": "Islamic Spirituality",
+   "page": 15,
+   "link": "islamic-spirituality",
+   "q": "What does the article name as the opposite of spirituality?",
+   "options": [
+    [
+     "Materialism",
+     "Giving all one’s attention to worldly things and appearances."
+    ],
+    [
+     "Science",
+     "Science is not named as its opposite."
+    ],
+    [
+     "Reason",
+     "This is not named."
+    ],
+    [
+     "Solitude",
+     "This is not named."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The opposite of spirituality is materialism, a course followed all too often in this world."
+  },
+  {
+   "article": "Think, Think, Think",
+   "page": 21,
+   "link": "think-think-think",
+   "q": "Why do people not marvel at the birth of a child?",
+   "options": [
+    [
+     "It is not remarkable",
+     "The article calls it breathtaking."
+    ],
+    [
+     "They are told not to",
+     "This is not the reason."
+    ],
+    [
+     "It is kept hidden",
+     "This is not the reason."
+    ],
+    [
+     "It is a daily occurrence, so they take it for granted",
+     "People have become used to the sight."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A child born to a mother is a daily occurrence. People have become used to this sight. They take it for granted."
+  },
+  {
+   "article": "Science and Theology",
+   "page": 26,
+   "link": "science-and-theology",
+   "q": "How did one scientist typify the earth’s life support system?",
+   "options": [
+    [
+     "“An unfinished experiment”",
+     "This is not the phrase quoted."
+    ],
+    [
+     "“A fortunate accident”",
+     "This is not the phrase quoted."
+    ],
+    [
+     "“The right type of material at the right place”",
+     "This phrase is quoted in the article."
+    ],
+    [
+     "“One world among many like it”",
+     "The article says no planet similar to earth has been found."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One scientist typified it as “the right type of material at the right place.”"
+  },
+  {
+   "article": "World Religions and the Spirit of Tolerance",
+   "page": 33,
+   "link": "world-religions-and-the-spirit-of-tolerance",
+   "q": "Into which two categories does the article divide the great religions?",
+   "options": [
+    [
+     "Eastern and Western religions",
+     "These are not the terms used."
+    ],
+    [
+     "Aryan and Semitic religions",
+     "Tolerance is given equal importance in both."
+    ],
+    [
+     "Ancient and modern religions",
+     "These are not the terms used."
+    ],
+    [
+     "Revealed and philosophical religions",
+     "These are not the terms used."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "All the great religions of the world can be broadly divided into two categories: Aryan religions and Semitic religions."
+  },
+  {
+   "article": "Reservation: A Suicidal Approach",
+   "page": 36,
+   "link": "reservation-a-suicidal-approach",
+   "q": "What does the article say the policy of reservation implies?",
+   "options": [
+    [
+     "Better schooling",
+     "This is not what the article says."
+    ],
+    [
+     "Equal effort by all",
+     "The article says the opposite."
+    ],
+    [
+     "Fair competition",
+     "The article says people no longer had to compete."
+    ],
+    [
+     "‘Achievement without hard work’",
+     "It says this led to lethargy."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Such a policy implies ‘achievement without hard work’."
+  },
+  {
+   "article": "Introduction to the Quran",
+   "page": 39,
+   "link": "introduction-to-the-quran",
+   "q": "Where did the Angel Gabriel first appear to the Prophet Muhammad in A.D. 610?",
+   "options": [
+    [
+     "At the Kabah",
+     "The article names the Cave of Hira."
+    ],
+    [
+     "On Mount Sinai",
+     "The article names Mount An-Nur."
+    ],
+    [
+     "In the Cave of Hira on Mount An-Nur",
+     "He used to retreat there to think deeply about life."
+    ],
+    [
+     "In Medina",
+     "The article names the Cave of Hira near Mecca."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One night in the year A.D. 610, the Angel Gabriel appeared to him in this cave. He commanded him: “Read, in the name of your Lord!”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "According to the verse quoted (10: 5), why were stages ordained for the moon?",
+   "options": [
+    [
+     "To guide ships",
+     "This is not in the verse."
+    ],
+    [
+     "So that people may count the years and reckon time",
+     "This is the purpose stated in the verse."
+    ],
+    [
+     "To mark the seasons of rain",
+     "This is not in the verse."
+    ],
+    [
+     "To light the night only",
+     "The verse speaks of reckoning time."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He ordained for it stages so that you may learn to count out the years and [to make other such] reckoning of time."
+  }
+ ]
+}
