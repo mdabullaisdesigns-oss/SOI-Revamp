@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Entering the New Year",
+   "page": 5,
+   "link": "entering-the-new-year",
+   "q": "What are you bound to exclaim on seeing the first rays of the morning sun?",
+   "options": [
+    [
+     "“Too early!”",
+     "Not quite. The article says: “What a beautiful morning!”."
+    ],
+    [
+     "“What a beautiful morning!”",
+     "New year’s morning is extra special."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: “What a beautiful morning!”."
+    ],
+    [
+     "“Another dull day.”",
+     "Not quite. The article says: “What a beautiful morning!”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "You are bound to exclaim, “What a beautiful morning!”"
+  },
+  {
+   "article": "Discover Reasons for Gratitude",
+   "page": 9,
+   "link": "discover-reasons-for-gratitude",
+   "q": "What does the article call saying ‘Alhamdulillah’ only for a delicious meal?",
+   "options": [
+    [
+     "Gratitude at a very base level",
+     "Based on taste and appearance."
+    ],
+    [
+     "A mistake",
+     "Not quite. The article says: Gratitude at a very base level."
+    ],
+    [
+     "Hypocrisy",
+     "Not quite. The article says: Gratitude at a very base level."
+    ],
+    [
+     "The highest gratitude",
+     "Not quite. The article says: Gratitude at a very base level."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "This would be gratitude at a very base level."
+  },
+  {
+   "article": "Principles of Success",
+   "page": 11,
+   "link": "principles-of-success",
+   "q": "Who called the Prophet of Islam a hero?",
+   "options": [
+    [
+     "Voltaire",
+     "Not quite. The article says: Thomas Carlyle."
+    ],
+    [
+     "Michael Hart",
+     "Not quite. The article says: Thomas Carlyle."
+    ],
+    [
+     "Napoleon",
+     "Not quite. The article says: Thomas Carlyle."
+    ],
+    [
+     "Thomas Carlyle",
+     "The Quran calls him an example to be followed."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He was not just a hero, as Thomas Carlyle has called him."
+  },
+  {
+   "article": "Women in Islam",
+   "page": 18,
+   "link": "women-in-islam",
+   "q": "To what does the saying of the Prophet discussed refer?",
+   "options": [
+    [
+     "Only Eve",
+     "Not quite. The article says: Women in general, not the creation of Adam and Eve."
+    ],
+    [
+     "Women in general, not the creation of Adam and Eve",
+     "The manner of every woman’s creation."
+    ],
+    [
+     "Only mothers of prophets",
+     "Not quite. The article says: Women in general, not the creation of Adam and Eve."
+    ],
+    [
+     "Only queens",
+     "Not quite. The article says: Women in general, not the creation of Adam and Eve."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "This saying does not refer to the creation of Adam and Eve, rather it is about women in general."
+  },
+  {
+   "article": "The Quran: A Book of Guidance",
+   "page": 22,
+   "link": "the-quran-a-book-of-guidance",
+   "q": "Into what has the Quran been turned today, according to the article?",
+   "options": [
+    [
+     "A book of pride",
+     "It must again be a book of guidance."
+    ],
+    [
+     "A book of law",
+     "Not quite. The article says: A book of pride."
+    ],
+    [
+     "A book of science",
+     "Not quite. The article says: A book of pride."
+    ],
+    [
+     "A forgotten book",
+     "Not quite. The article says: A book of pride."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In earlier times, the Quran was a book of guidance for people, but now it has been turned into a book of pride."
+  },
+  {
+   "article": "The Payment of Dues",
+   "page": 25,
+   "link": "the-payment-of-dues",
+   "q": "Towards whom does a believer have responsibilities?",
+   "options": [
+    [
+     "Both God and man",
+     "Dues to be paid to each."
+    ],
+    [
+     "Man only",
+     "Not quite. The article says: Both God and man."
+    ],
+    [
+     "God only",
+     "Not quite. The article says: Both God and man."
+    ],
+    [
+     "Himself only",
+     "Not quite. The article says: Both God and man."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A believer has important responsibilities towards both God and man."
+  },
+  {
+   "article": "God Realization",
+   "page": 28,
+   "link": "god-realization",
+   "q": "What is the only problem with this beautiful world?",
+   "options": [
+    [
+     "It is too crowded",
+     "Not quite. The article says: We cannot enjoy it."
+    ],
+    [
+     "It is too small",
+     "Not quite. The article says: We cannot enjoy it."
+    ],
+    [
+     "It is ugly",
+     "Not quite. The article says: We cannot enjoy it."
+    ],
+    [
+     "We cannot enjoy it",
+     "Boredom, disease and death intervene."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "This world is beautiful. The only problem is that we cannot enjoy it."
+  },
+  {
+   "article": "Social Etiquette",
+   "page": 36,
+   "link": "social-etiquette",
+   "q": "What should believers do before entering other people’s houses?",
+   "options": [
+    [
+     "Knock and walk in",
+     "Not quite. The article says: Ask the owners’ permission and greet them."
+    ],
+    [
+     "Call from the street only",
+     "Not quite. The article says: Ask the owners’ permission and greet them."
+    ],
+    [
+     "Enter quietly",
+     "Not quite. The article says: Ask the owners’ permission and greet them."
+    ],
+    [
+     "Ask the owners’ permission and greet them",
+     "From the chapter Al-Nur."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Do not enter other people’s houses until you have asked their owners’ permission and greeted them."
+  },
+  {
+   "article": "The Spirit of Islam",
+   "page": 39,
+   "link": "the-spirit-of-islam",
+   "q": "What has Islam been called in the Quran and Hadith?",
+   "options": [
+    [
+     "A religion of nature",
+     "A counterpart of human nature."
+    ],
+    [
+     "A religion of the desert",
+     "Not quite. The article says: A religion of nature."
+    ],
+    [
+     "A religion of kings",
+     "Not quite. The article says: A religion of nature."
+    ],
+    [
+     "A religion of mystery",
+     "Not quite. The article says: A religion of nature."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Islam has been called a religion of nature in the Quran and Hadith."
+  },
+  {
+   "article": "Consolidation Before Expansion",
+   "page": 42,
+   "link": "consolidation-before-expansion",
+   "q": "What lesson does the tree teach?",
+   "options": [
+    [
+     "Roots go deep before the branches spread",
+     "Consolidation before expansion."
+    ],
+    [
+     "Grow fast at any cost",
+     "Not quite. The article says: Roots go deep before the branches spread."
+    ],
+    [
+     "Avoid the soil",
+     "Not quite. The article says: Roots go deep before the branches spread."
+    ],
+    [
+     "Spread before rooting",
+     "Not quite. The article says: Roots go deep before the branches spread."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Its roots go deep into the soil and its trunk rises up and its branches spread out high above."
+  }
+ ]
+}

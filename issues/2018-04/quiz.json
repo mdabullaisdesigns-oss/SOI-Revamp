@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Stephen Hawking Is No More",
+   "page": 5,
+   "link": "stephen-hawking-is-no-more",
+   "q": "When did Stephen Hawking die?",
+   "options": [
+    [
+     "March 14, 2018, aged 76",
+     "The most important theoretical scientist of his time."
+    ],
+    [
+     "June 2020",
+     "Not quite. The article says: March 14, 2018, aged 76."
+    ],
+    [
+     "1988",
+     "Not quite. The article says: March 14, 2018, aged 76."
+    ],
+    [
+     "January 2000",
+     "Not quite. The article says: March 14, 2018, aged 76."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Stephen Hawking died on March 14, 2018 at the age of 76."
+  },
+  {
+   "article": "The Concept of Social Welfare in Islam",
+   "page": 8,
+   "link": "the-concept-of-social-welfare-in-islam",
+   "q": "Why do all human beings belong to one brotherhood, according to Islam?",
+   "options": [
+    [
+     "They share one trade",
+     "Not quite. The article says: They were created by one and the same God."
+    ],
+    [
+     "They speak one language",
+     "Not quite. The article says: They were created by one and the same God."
+    ],
+    [
+     "They live in one country",
+     "Not quite. The article says: They were created by one and the same God."
+    ],
+    [
+     "They were created by one and the same God",
+     "Like members of one large family."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "All human beings have been created by one and the same God, and for this reason they belong to one great brotherhood."
+  },
+  {
+   "article": "Religion: A Divine, Not a Social Phenomenon",
+   "page": 12,
+   "link": "religion-a-divine-not-a-social-phenomenon",
+   "q": "What example does the article use to distinguish a social from a natural phenomenon?",
+   "options": [
+    [
+     "Rainfall",
+     "Not quite. The article says: Nuclear energy."
+    ],
+    [
+     "Nuclear energy",
+     "Weapons versus a force of nature."
+    ],
+    [
+     "Music",
+     "Not quite. The article says: Nuclear energy."
+    ],
+    [
+     "Language",
+     "Not quite. The article says: Nuclear energy."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "If nuclear energy is treated as an American societal phenomenon … But if nuclear energy is taken to be a natural phenomenon …"
+  },
+  {
+   "article": "A New Age",
+   "page": 14,
+   "link": "a-new-age",
+   "q": "What has replaced religious persecution in the present age?",
+   "options": [
+    [
+     "Religious freedom",
+     "A unique period of history."
+    ],
+    [
+     "Rule by priests",
+     "Not quite. The article says: Religious freedom."
+    ],
+    [
+     "Stricter persecution",
+     "Not quite. The article says: Religious freedom."
+    ],
+    [
+     "No religion",
+     "Not quite. The article says: Religious freedom."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Religious persecution has been abolished and replaced by religious freedom."
+  },
+  {
+   "article": "Missions and Movements",
+   "page": 22,
+   "link": "missions-and-movements",
+   "q": "How do leaders of popular movements mobilize support?",
+   "options": [
+    [
+     "By quiet teaching",
+     "Not quite. The article says: By rousing people’s sentiments."
+    ],
+    [
+     "By rousing people’s sentiments",
+     "One of two types of movement."
+    ],
+    [
+     "By avoiding crowds",
+     "Not quite. The article says: By rousing people’s sentiments."
+    ],
+    [
+     "By writing books only",
+     "Not quite. The article says: By rousing people’s sentiments."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Leaders of such movements mobilize support by rousing people’s sentiments."
+  },
+  {
+   "article": "God Is the Greatest",
+   "page": 26,
+   "link": "god-is-the-greatest",
+   "q": "In which call is ‘Allahu Akbar’ repeated, besides the prayers?",
+   "options": [
+    [
+     "The market cry",
+     "Not quite. The article says: The azan."
+    ],
+    [
+     "The azan",
+     "The call to prayer."
+    ],
+    [
+     "The wedding sermon",
+     "Not quite. The article says: The azan."
+    ],
+    [
+     "The funeral oration",
+     "Not quite. The article says: The azan."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "If you add up the number of times this phrase is used in the azan (the call to prayer) …"
+  },
+  {
+   "article": "Only One Authority",
+   "page": 29,
+   "link": "only-one-authority",
+   "q": "What does the Hadith say Moses would do were he alive?",
+   "options": [
+    [
+     "Remain apart",
+     "Not quite. The article says: Follow the Prophet."
+    ],
+    [
+     "Lead the prayer",
+     "Not quite. The article says: Follow the Prophet."
+    ],
+    [
+     "Follow the Prophet",
+     "From Shuab al-Iman, al-Bayhaqi."
+    ],
+    [
+     "Write a new law",
+     "Not quite. The article says: Follow the Prophet."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Were Moses alive, he would have no choice but to follow me.”"
+  },
+  {
+   "article": "Acceptance of Our Prayer Requests",
+   "page": 32,
+   "link": "acceptance-of-our-prayer-requests",
+   "q": "How did the young man feel about his supplications?",
+   "options": [
+    [
+     "Proud",
+     "Not quite. The article says: Hopeless and helpless – they seemed unanswered."
+    ],
+    [
+     "Hopeless and helpless – they seemed unanswered",
+     "He prayed for material things."
+    ],
+    [
+     "Indifferent",
+     "Not quite. The article says: Hopeless and helpless – they seemed unanswered."
+    ],
+    [
+     "Fully satisfied",
+     "Not quite. The article says: Hopeless and helpless – they seemed unanswered."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He felt hopeless and helpless."
+  },
+  {
+   "article": "An Expert in Gems",
+   "page": 34,
+   "link": "an-expert-in-gems",
+   "q": "What did the strange-looking stone turn out to be?",
+   "options": [
+    [
+     "A piece of glass",
+     "Not quite. The article says: A very large diamond."
+    ],
+    [
+     "A lump of coal",
+     "Not quite. The article says: A very large diamond."
+    ],
+    [
+     "A fossil",
+     "Not quite. The article says: A very large diamond."
+    ],
+    [
+     "A very large diamond",
+     "A lapidary recognised it."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He discovered that it was actually a very large diamond!"
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What comes with every hardship?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: Ease."
+    ],
+    [
+     "Ease",
+     "“Have We not lifted up your heart?”"
+    ],
+    [
+     "More hardship",
+     "Not quite. The article says: Ease."
+    ],
+    [
+     "Fame",
+     "Not quite. The article says: Ease."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "So, surely with every hardship there is ease."
+  }
+ ]
+}

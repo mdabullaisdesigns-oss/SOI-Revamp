@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Prophet of Wisdom",
+   "page": 5,
+   "link": "the-prophet-of-wisdom",
+   "q": "What question did the author put to a journalist?",
+   "options": [
+    [
+     "Whom he had found possessing 100% clarity of thought",
+     "After a decade of meeting people."
+    ],
+    [
+     "What he earned",
+     "Not quite. The article says: Whom he had found possessing 100% clarity of thought."
+    ],
+    [
+     "Which city he liked best",
+     "Not quite. The article says: Whom he had found possessing 100% clarity of thought."
+    ],
+    [
+     "Who was the richest man he met",
+     "Not quite. The article says: Whom he had found possessing 100% clarity of thought."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“Whom did you find possessing 100% clarity of thought?”"
+  },
+  {
+   "article": "Spiritual Role of Women",
+   "page": 8,
+   "link": "spiritual-role-of-women",
+   "q": "Which qualities does the article say fit women for bringing peace?",
+   "options": [
+    [
+     "Wealth and rank",
+     "Not quite. The article says: Gentleness, selflessness, compassion and a spiritual approach."
+    ],
+    [
+     "Gentleness, selflessness, compassion and a spiritual approach",
+     "Gifts of nature."
+    ],
+    [
+     "Sternness",
+     "Not quite. The article says: Gentleness, selflessness, compassion and a spiritual approach."
+    ],
+    [
+     "Strength and speed",
+     "Not quite. The article says: Gentleness, selflessness, compassion and a spiritual approach."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "These qualities are gentleness, selflessness, compassion, mildness and, above all, a spiritual approach to life."
+  },
+  {
+   "article": "Peace in Afghanistan",
+   "page": 14,
+   "link": "peace-in-afghanistan",
+   "q": "What did seventy scholars from three countries declare at Bogor?",
+   "options": [
+    [
+     "That violent extremism and terrorism are against Islamic principles",
+     "Including suicide attacks."
+    ],
+    [
+     "That talks are forbidden",
+     "Not quite. The article says: That violent extremism and terrorism are against Islamic principles."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: That violent extremism and terrorism are against Islamic principles."
+    ],
+    [
+     "That war must continue",
+     "Not quite. The article says: That violent extremism and terrorism are against Islamic principles."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Violent extremism and terrorism, including suicide attacks, are against Islamic principles."
+  },
+  {
+   "article": "The Cause of Dissatisfaction",
+   "page": 18,
+   "link": "the-cause-of-dissatisfaction",
+   "q": "With what feeling does almost every person live?",
+   "options": [
+    [
+     "A feeling of loss, not of gain",
+     "A sense of dissatisfaction."
+    ],
+    [
+     "A feeling of plenty",
+     "Not quite. The article says: A feeling of loss, not of gain."
+    ],
+    [
+     "No feeling",
+     "Not quite. The article says: A feeling of loss, not of gain."
+    ],
+    [
+     "A feeling of triumph",
+     "Not quite. The article says: A feeling of loss, not of gain."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He lives with the feeling of loss and not with the feeling of gain."
+  },
+  {
+   "article": "Destiny and Freewill",
+   "page": 19,
+   "link": "destiny-and-freewill",
+   "q": "Is man free or helpless, according to the article?",
+   "options": [
+    [
+     "Entirely free",
+     "Not quite. The article says: In one sense free, in another helpless – fifty-fifty."
+    ],
+    [
+     "In one sense free, in another helpless – fifty-fifty",
+     "Its answer to the old question."
+    ],
+    [
+     "Neither",
+     "Not quite. The article says: In one sense free, in another helpless – fifty-fifty."
+    ],
+    [
+     "Entirely helpless",
+     "Not quite. The article says: In one sense free, in another helpless – fifty-fifty."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In one sense, man is free, but in another sense he is helpless. It is a matter of fifty-fifty."
+  },
+  {
+   "article": "No Acknowledgement of God",
+   "page": 25,
+   "link": "no-acknowledgement-of-god",
+   "q": "What do some affluent fathers gift their sons?",
+   "options": [
+    [
+     "Cars",
+     "With a sticker naming the giver."
+    ],
+    [
+     "Libraries",
+     "Not quite. The article says: Cars."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: Cars."
+    ],
+    [
+     "Farms",
+     "Not quite. The article says: Cars."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Nowadays it is common to see some affluent fathers gifting their sons with cars."
+  },
+  {
+   "article": "The Concept of the Caliphate",
+   "page": 28,
+   "link": "the-concept-of-the-caliphate",
+   "q": "What did God say to the angels when He made man (2: 30)?",
+   "options": [
+    [
+     "“I am sending an angel.”",
+     "Not quite. The article says: “I am putting a successor on earth.”."
+    ],
+    [
+     "“I am ending the world.”",
+     "Not quite. The article says: “I am putting a successor on earth.”."
+    ],
+    [
+     "“I am creating a king.”",
+     "Not quite. The article says: “I am putting a successor on earth.”."
+    ],
+    [
+     "“I am putting a successor on earth.”",
+     "The article explains khilafat from this."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "God explained the purpose of creating man, saying: “I am putting a successor on earth.”"
+  },
+  {
+   "article": "Running Without a Destination",
+   "page": 37,
+   "link": "running-without-a-destination",
+   "q": "What drives everyone’s non-stop activity, according to the article?",
+   "options": [
+    [
+     "Fear of God",
+     "Not quite. The article says: The purpose of fulfilling unlimited desires."
+    ],
+    [
+     "The purpose of fulfilling unlimited desires",
+     "A mad race."
+    ],
+    [
+     "Love of learning",
+     "Not quite. The article says: The purpose of fulfilling unlimited desires."
+    ],
+    [
+     "Service to others",
+     "Not quite. The article says: The purpose of fulfilling unlimited desires."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They are all driven with the purpose of fulfilling unlimited desires."
+  },
+  {
+   "article": "Unity",
+   "page": 40,
+   "link": "unity",
+   "q": "What kind of closeness has modern technology produced?",
+   "options": [
+    [
+     "A perfect unity",
+     "Not quite. The article says: A purely physical one."
+    ],
+    [
+     "None",
+     "Not quite. The article says: A purely physical one."
+    ],
+    [
+     "A purely physical one",
+     "The ‘global village’ is half the truth."
+    ],
+    [
+     "A spiritual one",
+     "Not quite. The article says: A purely physical one."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The closeness thus produced is of a purely physical …"
+  },
+  {
+   "article": "The Word of God",
+   "page": 46,
+   "link": "the-word-of-god",
+   "q": "For what does God provide livestock?",
+   "options": [
+    [
+     "For nothing",
+     "Not quite. The article says: Some for riding and some for food."
+    ],
+    [
+     "Some for riding and some for food",
+     "They carry you by land as ships do by sea."
+    ],
+    [
+     "Only for beauty",
+     "Not quite. The article says: Some for riding and some for food."
+    ],
+    [
+     "Only for sacrifice",
+     "Not quite. The article says: Some for riding and some for food."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is God who provides livestock for you, some for riding and some for your food."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "U-Turn—a Principle of Life",
+   "page": 5,
+   "link": "u-turn-a-principle-of-life",
+   "q": "How far did the driver go before realizing he was on the wrong road?",
+   "options": [
+    [
+     "Five miles",
+     "He then had to make a U-turn."
+    ],
+    [
+     "A few yards",
+     "Not quite. The article says: Five miles."
+    ],
+    [
+     "Fifty miles",
+     "Not quite. The article says: Five miles."
+    ],
+    [
+     "Two hundred miles",
+     "Not quite. The article says: Five miles."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He made a wrong turn at one point but drove on for five miles before he realized he was on the wrong road."
+  },
+  {
+   "article": "The Inner Diamond",
+   "page": 12,
+   "link": "the-inner-diamond",
+   "q": "Of what are diamonds made?",
+   "options": [
+    [
+     "Silver",
+     "Not quite. The article says: Pure carbon."
+    ],
+    [
+     "Pure carbon",
+     "The same basic element as coal."
+    ],
+    [
+     "Glass",
+     "Not quite. The article says: Pure carbon."
+    ],
+    [
+     "Salt",
+     "Not quite. The article says: Pure carbon."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They are made of pure carbon. They contain the same basic elements as coal."
+  },
+  {
+   "article": "Shocks and Shock Absorbers",
+   "page": 15,
+   "link": "shocks-and-shock-absorbers",
+   "q": "What can a shock be, instead of a negative phenomenon?",
+   "options": [
+    [
+     "A final defeat",
+     "Not quite. The article says: A great educator."
+    ],
+    [
+     "A great educator",
+     "It sets off brainstorming."
+    ],
+    [
+     "A reason to quit",
+     "Not quite. The article says: A great educator."
+    ],
+    [
+     "Meaningless",
+     "Not quite. The article says: A great educator."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Shock, instead of being a negative phenomenon, can be a great educator."
+  },
+  {
+   "article": "Benefits of Tolerance",
+   "page": 19,
+   "link": "benefits-of-tolerance",
+   "q": "What is tolerance, like truth and honesty?",
+   "options": [
+    [
+     "A weakness",
+     "Not quite. The article says: A virtue."
+    ],
+    [
+     "A burden",
+     "Not quite. The article says: A virtue."
+    ],
+    [
+     "A fashion",
+     "Not quite. The article says: A virtue."
+    ],
+    [
+     "A virtue",
+     "A permanent law of nature."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Just as truth and honesty are virtues, so is tolerance a virtue."
+  },
+  {
+   "article": "Miracle of Memory",
+   "page": 25,
+   "link": "miracle-of-memory",
+   "q": "What does your mind set in motion when you want to express an idea?",
+   "options": [
+    [
+     "A simple reflex",
+     "Not quite. The article says: A complex intellectual machine."
+    ],
+    [
+     "A dream",
+     "Not quite. The article says: A complex intellectual machine."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: A complex intellectual machine."
+    ],
+    [
+     "A complex intellectual machine",
+     "It recalls, selects words and orders them."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Your mind instantly sets in motion a complex intellectual machine."
+  },
+  {
+   "article": "Translating the Quran",
+   "page": 28,
+   "link": "translating-the-quran",
+   "q": "Who wrote the Gulistan?",
+   "options": [
+    [
+     "Hafiz",
+     "Not quite. The article says: Shaikh Sadi Shirazi."
+    ],
+    [
+     "Shaikh Sadi Shirazi",
+     "A famous Persian poet."
+    ],
+    [
+     "Rumi",
+     "Not quite. The article says: Shaikh Sadi Shirazi."
+    ],
+    [
+     "Iqbal",
+     "Not quite. The article says: Shaikh Sadi Shirazi."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Shaikh Sadi Shirazi (d. 1291) was a famous Persian poet. In his acclaimed book Gulistan …"
+  },
+  {
+   "article": "The Culture of Radicalization and Terrorism",
+   "page": 31,
+   "link": "the-culture-of-radicalization-and-terrorism",
+   "q": "Since when has the terror culture become prevalent?",
+   "options": [
+    [
+     "Since ancient times",
+     "Not quite. The article says: Since the major upswing in the armaments industry."
+    ],
+    [
+     "Since the invention of writing",
+     "Not quite. The article says: Since the major upswing in the armaments industry."
+    ],
+    [
+     "Since the major upswing in the armaments industry",
+     "It is a recent phenomenon."
+    ],
+    [
+     "Since the middle ages",
+     "Not quite. The article says: Since the major upswing in the armaments industry."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It has become prevalent only since the major upswing in the armaments industry."
+  },
+  {
+   "article": "Lessons from Nature",
+   "page": 37,
+   "link": "lessons-from-nature",
+   "q": "What is nature, for those who wish to learn?",
+   "options": [
+    [
+     "A danger",
+     "Not quite. The article says: A storehouse of learning."
+    ],
+    [
+     "A distraction",
+     "Not quite. The article says: A storehouse of learning."
+    ],
+    [
+     "A storehouse of learning",
+     "It speaks a silent language."
+    ],
+    [
+     "A closed book",
+     "Not quite. The article says: A storehouse of learning."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Nature is a storehouse of learning for those who wish to learn."
+  },
+  {
+   "article": "A Door, Not a Grave",
+   "page": 41,
+   "link": "a-door-not-a-grave",
+   "q": "How did the Imam conduct the funeral prayer in the scene described?",
+   "options": [
+    [
+     "For an hour",
+     "Not quite. The article says: Very quickly."
+    ],
+    [
+     "Very quickly",
+     "People then put on their shoes at once."
+    ],
+    [
+     "Not at all",
+     "Not quite. The article says: Very quickly."
+    ],
+    [
+     "Very slowly",
+     "Not quite. The article says: Very quickly."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "He conducted the whole prayer very quickly."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What do the hypocrites say when they come to the Prophet?",
+   "options": [
+    [
+     "‘We bear witness that you are indeed the Messenger of God.’",
+     "But God bears witness that they are liars."
+    ],
+    [
+     "‘We have come to trade.’",
+     "Not quite. The article says: ‘We bear witness that you are indeed the Messenger of God.’."
+    ],
+    [
+     "‘We do not believe you.’",
+     "Not quite. The article says: ‘We bear witness that you are indeed the Messenger of God.’."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: ‘We bear witness that you are indeed the Messenger of God.’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They say, ‘We bear witness that you are indeed the Messenger of God.’"
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Rohingya Muslims—issue or Non-Issue",
+   "page": 5,
+   "link": "the-rohingya-muslims-issue-or-non-issue",
+   "q": "By what name was the Rakhine state formerly known?",
+   "options": [
+    [
+     "Bengal",
+     "Not quite. The article says: Arakan."
+    ],
+    [
+     "Burma",
+     "Not quite. The article says: Arakan."
+    ],
+    [
+     "Arakan",
+     "Arab traders visited it from the ninth century."
+    ],
+    [
+     "Siam",
+     "Not quite. The article says: Arakan."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The Rakhine state, formerly known as Arakan, on the western coast of Myanmar."
+  },
+  {
+   "article": "A Soul-Stirring Reminder",
+   "page": 9,
+   "link": "a-soul-stirring-reminder",
+   "q": "What happens when religion becomes part of a national tradition?",
+   "options": [
+    [
+     "Faith deepens",
+     "Not quite. The article says: Ceremonies increase, but true religion disappears."
+    ],
+    [
+     "Nothing changes",
+     "Not quite. The article says: Ceremonies increase, but true religion disappears."
+    ],
+    [
+     "Ceremonies vanish",
+     "Not quite. The article says: Ceremonies increase, but true religion disappears."
+    ],
+    [
+     "Ceremonies increase, but true religion disappears",
+     "The case of Muslims today, says the article."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Ceremonies performed in the name of religion increase, but true religion disappears entirely."
+  },
+  {
+   "article": "A World of Second Bests",
+   "page": 15,
+   "link": "a-world-of-second-bests",
+   "q": "Where did God first settle the human being, according to religious tradition?",
+   "options": [
+    [
+     "Paradise",
+     "After his error, man was sent down to earth."
+    ],
+    [
+     "An island",
+     "Not quite. The article says: Paradise."
+    ],
+    [
+     "A desert",
+     "Not quite. The article says: Paradise."
+    ],
+    [
+     "A city",
+     "Not quite. The article says: Paradise."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God created the human being and settled him in Paradise."
+  },
+  {
+   "article": "Putting an End to Superstition",
+   "page": 21,
+   "link": "putting-an-end-to-superstition",
+   "q": "What change did the Islamic revolution share with the scientific revolution?",
+   "options": [
+    [
+     "The rooting out of superstitious thinking",
+     "And thinking based on facts."
+    ],
+    [
+     "Faster travel",
+     "Not quite. The article says: The rooting out of superstitious thinking."
+    ],
+    [
+     "Larger cities",
+     "Not quite. The article says: The rooting out of superstitious thinking."
+    ],
+    [
+     "New weapons",
+     "Not quite. The article says: The rooting out of superstitious thinking."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The rooting out of superstitious thinking and the general prevalence of thinking based on facts."
+  },
+  {
+   "article": "Goodness in Every Situation",
+   "page": 25,
+   "link": "goodness-in-every-situation",
+   "q": "What does a believer do on an occasion of happiness?",
+   "options": [
+    [
+     "He boasts",
+     "Not quite. The article says: He is grateful."
+    ],
+    [
+     "He is grateful",
+     "So the happiness becomes good for him."
+    ],
+    [
+     "He forgets God",
+     "Not quite. The article says: He is grateful."
+    ],
+    [
+     "He fears",
+     "Not quite. The article says: He is grateful."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "If he has an occasion of happiness, he is grateful, thus this happiness becomes good for him."
+  },
+  {
+   "article": "The Power and Price of Peace",
+   "page": 28,
+   "link": "the-power-and-price-of-peace",
+   "q": "What does God grant to gentleness, according to the Hadith?",
+   "options": [
+    [
+     "What He does not grant to harshness",
+     "Peaceful activism is superior."
+    ],
+    [
+     "Less than to harshness",
+     "Not quite. The article says: What He does not grant to harshness."
+    ],
+    [
+     "Only delay",
+     "Not quite. The article says: What He does not grant to harshness."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: What He does not grant to harshness."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“God grants to gentleness what He does not grant to harshness.”"
+  },
+  {
+   "article": "The Spirit of Salath (prayer)",
+   "page": 31,
+   "link": "the-spirit-of-salath-prayer",
+   "q": "What will those cast into Hell reply when asked what brought them there (74: 42-43)?",
+   "options": [
+    [
+     "“We were misled by kings.”",
+     "Not quite. The article says: “We were not among those who prayed.”."
+    ],
+    [
+     "“We were poor.”",
+     "Not quite. The article says: “We were not among those who prayed.”."
+    ],
+    [
+     "“We were not among those who prayed.”",
+     "The spirit of salat."
+    ],
+    [
+     "“We do not know.”",
+     "Not quite. The article says: “We were not among those who prayed.”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "They shall reply, “We were not among those who prayed.”"
+  },
+  {
+   "article": "Abstaining from Baseness",
+   "page": 37,
+   "link": "abstaining-from-baseness",
+   "q": "What does a believer not do, though he makes mistakes?",
+   "options": [
+    [
+     "Apologise",
+     "Not quite. The article says: Stoop to baseness."
+    ],
+    [
+     "Feel regret",
+     "Not quite. The article says: Stoop to baseness."
+    ],
+    [
+     "Learn",
+     "Not quite. The article says: Stoop to baseness."
+    ],
+    [
+     "Stoop to baseness",
+     "He feels ashamed and seeks forgiveness."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A believer makes mistakes, but does not stoop to baseness."
+  },
+  {
+   "article": "When a Nation Suffers Decline",
+   "page": 40,
+   "link": "when-a-nation-suffers-decline",
+   "q": "Which messenger admonished the Jews in their political decline?",
+   "options": [
+    [
+     "David",
+     "Not quite. The article says: Jeremiah."
+    ],
+    [
+     "Moses",
+     "Not quite. The article says: Jeremiah."
+    ],
+    [
+     "Solomon",
+     "Not quite. The article says: Jeremiah."
+    ],
+    [
+     "Jeremiah",
+     "“Humble yourselves and sit down.”"
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In the words of the Old Testament, their messenger Jeremiah admonished them."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What does the Book proclaim, in the verses quoted?",
+   "options": [
+    [
+     "Good news and a warning",
+     "Yet most turn away."
+    ],
+    [
+     "Only stories",
+     "Not quite. The article says: Good news and a warning."
+    ],
+    [
+     "Only laws",
+     "Not quite. The article says: Good news and a warning."
+    ],
+    [
+     "Only threats",
+     "Not quite. The article says: Good news and a warning."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "An Arabic Quran for people who possess knowledge, proclaiming good news and a warning."
+  }
+ ]
+}

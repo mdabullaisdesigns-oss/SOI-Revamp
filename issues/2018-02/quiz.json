@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "In Singapore, the Enraged Go to the Fragment Room",
+   "page": 5,
+   "link": "in-singapore-the-enraged-go-to-the-fragment-room",
+   "q": "What does a ‘rage room’ let stressed-out people do?",
+   "options": [
+    [
+     "Paint",
+     "Not quite. The article says: Take a baseball bat to items such as glass bottles."
+    ],
+    [
+     "Take a baseball bat to items such as glass bottles",
+     "A way some relieve stress."
+    ],
+    [
+     "Sing",
+     "Not quite. The article says: Take a baseball bat to items such as glass bottles."
+    ],
+    [
+     "Sleep",
+     "Not quite. The article says: Take a baseball bat to items such as glass bottles."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A ‘rage room’ lets stressed-out people take a baseball bat to items ranging from glass bottles …"
+  },
+  {
+   "article": "Most Joyous Moment",
+   "page": 9,
+   "link": "most-joyous-moment",
+   "q": "What event did the celebrity describe with joy?",
+   "options": [
+    [
+     "Buying a house",
+     "Not quite. The article says: The birth of her son."
+    ],
+    [
+     "A journey",
+     "Not quite. The article says: The birth of her son."
+    ],
+    [
+     "The birth of her son",
+     "It started a train of thought about God."
+    ],
+    [
+     "Winning an award",
+     "Not quite. The article says: The birth of her son."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A celebrity married and in due course, had a beautiful, healthy son."
+  },
+  {
+   "article": "Management of Envy",
+   "page": 11,
+   "link": "management-of-envy",
+   "q": "At whom should one look in worldly matters, as the Prophet taught?",
+   "options": [
+    [
+     "Those above",
+     "Not quite. The article says: Those below oneself."
+    ],
+    [
+     "Only relatives",
+     "Not quite. The article says: Those below oneself."
+    ],
+    [
+     "No one",
+     "Not quite. The article says: Those below oneself."
+    ],
+    [
+     "Those below oneself",
+     "To appreciate God’s bounty."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "One should look, not at those above themselves, but at those below."
+  },
+  {
+   "article": "Justice in the Hereafter",
+   "page": 13,
+   "link": "justice-in-the-hereafter",
+   "q": "How will a person be rewarded or punished after death?",
+   "options": [
+    [
+     "By chance",
+     "Not quite. The article says: Strictly in accordance with his deeds."
+    ],
+    [
+     "By his ancestry",
+     "Not quite. The article says: Strictly in accordance with his deeds."
+    ],
+    [
+     "By his wealth",
+     "Not quite. The article says: Strictly in accordance with his deeds."
+    ],
+    [
+     "Strictly in accordance with his deeds",
+     "Divine justice is unerring."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A person will be rewarded or punished strictly in accordance with the virtues or vices of his deeds in this world."
+  },
+  {
+   "article": "Going Against the Creation Plan",
+   "page": 19,
+   "link": "going-against-the-creation-plan",
+   "q": "What does the article say of violence as a method?",
+   "options": [
+    [
+     "It is the quickest way",
+     "Not quite. The article says: It is against the creation plan of God."
+    ],
+    [
+     "It is against the creation plan of God",
+     "Both the idea and the deeds."
+    ],
+    [
+     "It is sometimes ideal",
+     "Not quite. The article says: It is against the creation plan of God."
+    ],
+    [
+     "It is neutral",
+     "Not quite. The article says: It is against the creation plan of God."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Subscribing to the notion that violence is a viable method … are against the creation plan of God."
+  },
+  {
+   "article": "Spiritually Strong",
+   "page": 26,
+   "link": "spiritually-strong",
+   "q": "Will a weak believer be rewarded?",
+   "options": [
+    [
+     "Yes, he too shall be rewarded",
+     "On one prerequisite."
+    ],
+    [
+     "Only after punishment",
+     "Not quite. The article says: Yes, he too shall be rewarded."
+    ],
+    [
+     "Only the strong are rewarded",
+     "Not quite. The article says: Yes, he too shall be rewarded."
+    ],
+    [
+     "No",
+     "Not quite. The article says: Yes, he too shall be rewarded."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A weak believer too shall be rewarded."
+  },
+  {
+   "article": "An Exemplary Tale",
+   "page": 31,
+   "link": "an-exemplary-tale",
+   "q": "What degree did Mr. A.M. Khan hold?",
+   "options": [
+    [
+     "B.E. in electrical engineering from Banaras Hindu University",
+     "He applied for a senior lecturer’s post."
+    ],
+    [
+     "A law degree",
+     "Not quite. The article says: B.E. in electrical engineering from Banaras Hindu University."
+    ],
+    [
+     "M.A. in history",
+     "Not quite. The article says: B.E. in electrical engineering from Banaras Hindu University."
+    ],
+    [
+     "A medical degree",
+     "Not quite. The article says: B.E. in electrical engineering from Banaras Hindu University."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Mr. A.M.Khan had procured a B.E. degree in electrical engineering from Banaras Hindu University."
+  },
+  {
+   "article": "Man’s Quest",
+   "page": 34,
+   "link": "mans-quest",
+   "q": "In what kind of world are we compelled to live?",
+   "options": [
+    [
+     "An empty one",
+     "Not quite. The article says: An imperfect one."
+    ],
+    [
+     "A perfect one",
+     "Not quite. The article says: An imperfect one."
+    ],
+    [
+     "An imperfect one",
+     "Though we long for a perfect world."
+    ],
+    [
+     "An imaginary one",
+     "Not quite. The article says: An imperfect one."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Much as we long for a perfect world, we are compelled to live in an imperfect one."
+  },
+  {
+   "article": "Having Regard for Others",
+   "page": 39,
+   "link": "having-regard-for-others",
+   "q": "What was the practice of the Prophet of Islam?",
+   "options": [
+    [
+     "To speak sternly",
+     "Not quite. The article says: To have regard for others to the maximum extent."
+    ],
+    [
+     "To favour the rich",
+     "Not quite. The article says: To have regard for others to the maximum extent."
+    ],
+    [
+     "To have regard for others to the maximum extent",
+     "Abstaining from harshness."
+    ],
+    [
+     "To avoid people",
+     "Not quite. The article says: To have regard for others to the maximum extent."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It was the practice of the Prophet of Islam to have regard for others to the maximum extent."
+  },
+  {
+   "article": "Creative Abilities of Minorities",
+   "page": 42,
+   "link": "creative-abilities-of-minorities",
+   "q": "What has recent research on minorities highlighted?",
+   "options": [
+    [
+     "How certain conditions encourage creativity",
+     "Issues not known before."
+    ],
+    [
+     "Nothing new",
+     "Not quite. The article says: How certain conditions encourage creativity."
+    ],
+    [
+     "That minorities are idle",
+     "Not quite. The article says: How certain conditions encourage creativity."
+    ],
+    [
+     "That numbers decide all",
+     "Not quite. The article says: How certain conditions encourage creativity."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "One of these issues is about creativity and about how certain conditions encourage people to be creative."
+  }
+ ]
+}

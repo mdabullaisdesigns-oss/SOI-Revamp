@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Good News from Muzaffarnagar",
+   "page": 5,
+   "link": "good-news-from-muzaffarnagar",
+   "q": "What long-pending work in Muzaffarnagar was reported?",
+   "options": [
+    [
+     "A new airport",
+     "Not quite. The article says: Construction of an overbridge."
+    ],
+    [
+     "A university",
+     "Not quite. The article says: Construction of an overbridge."
+    ],
+    [
+     "Construction of an overbridge",
+     "The Times of India, February 17, 2018."
+    ],
+    [
+     "A dam",
+     "Not quite. The article says: Construction of an overbridge."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The long-pending construction work of an overbridge in Muzaffarnagar city could now see the light of the day."
+  },
+  {
+   "article": "Women in Islam",
+   "page": 8,
+   "link": "women-in-islam",
+   "q": "What does verse 3: 195 say of men and women?",
+   "options": [
+    [
+     "“You are members one of another”",
+     "Two halves of a whole."
+    ],
+    [
+     "“They are rivals”",
+     "Not quite. The article says: “You are members one of another”."
+    ],
+    [
+     "“They are strangers”",
+     "Not quite. The article says: “You are members one of another”."
+    ],
+    [
+     "“Men are above women”",
+     "Not quite. The article says: “You are members one of another”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Verse 195 of chapter 3 of the Quran says, “You are members one of another”."
+  },
+  {
+   "article": "Suicide",
+   "page": 17,
+   "link": "suicide",
+   "q": "Which of these is listed among the common reasons for suicide?",
+   "options": [
+    [
+     "Good health",
+     "Not quite. The article says: A sense of burden."
+    ],
+    [
+     "A sense of burden",
+     "Also emotional pain and escaping negative feelings."
+    ],
+    [
+     "Too much joy",
+     "Not quite. The article says: A sense of burden."
+    ],
+    [
+     "Success",
+     "Not quite. The article says: A sense of burden."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A sense of burden—Would my loved ones be better off without me?"
+  },
+  {
+   "article": "Positive Aspects of Failure",
+   "page": 20,
+   "link": "positive-aspects-of-failure",
+   "q": "What generally makes people sad, depressed and hopeless?",
+   "options": [
+    [
+     "Friendship",
+     "Not quite. The article says: A sense of failure."
+    ],
+    [
+     "Good news",
+     "Not quite. The article says: A sense of failure."
+    ],
+    [
+     "A sense of failure",
+     "Which the bigger picture can dispel."
+    ],
+    [
+     "Hard work",
+     "Not quite. The article says: A sense of failure."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A sense of failure is what generally makes people sad, depressed and hopeless."
+  },
+  {
+   "article": "Intentions",
+   "page": 25,
+   "link": "intentions",
+   "q": "What kind of actions does God accept?",
+   "options": [
+    [
+     "Only costly ones",
+     "Not quite. The article says: Those performed with proper intention."
+    ],
+    [
+     "Any that look good",
+     "Not quite. The article says: Those performed with proper intention."
+    ],
+    [
+     "Only public ones",
+     "Not quite. The article says: Those performed with proper intention."
+    ],
+    [
+     "Those performed with proper intention",
+     "Not judged by outer appearance."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "God accepts only such actions as are performed with proper intention."
+  },
+  {
+   "article": "On the Eve of Exams",
+   "page": 27,
+   "link": "on-the-eve-of-exams",
+   "q": "What should parents limit themselves to before exams?",
+   "options": [
+    [
+     "Threats",
+     "Not quite. The article says: Wise counselling."
+    ],
+    [
+     "Wise counselling",
+     "Constant pressure is counterproductive."
+    ],
+    [
+     "Constant questioning",
+     "Not quite. The article says: Wise counselling."
+    ],
+    [
+     "Silence",
+     "Not quite. The article says: Wise counselling."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They must limit themselves to doing wise counselling."
+  },
+  {
+   "article": "The Money Culture",
+   "page": 28,
+   "link": "the-money-culture",
+   "q": "What is wealth, according to the article?",
+   "options": [
+    [
+     "Unnecessary",
+     "Not quite. The article says: One of life’s necessities, but not life’s goal."
+    ],
+    [
+     "Life’s goal",
+     "Not quite. The article says: One of life’s necessities, but not life’s goal."
+    ],
+    [
+     "An evil",
+     "Not quite. The article says: One of life’s necessities, but not life’s goal."
+    ],
+    [
+     "One of life’s necessities, but not life’s goal",
+     "The error is to make it the goal."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Wealth is one of life’s necessities. But it is not life’s goal."
+  },
+  {
+   "article": "Argument for the Life Hereafter",
+   "page": 35,
+   "link": "argument-for-the-life-hereafter",
+   "q": "What is the present world, according to the article?",
+   "options": [
+    [
+     "A place of reward",
+     "Not quite. The article says: A place of trial."
+    ],
+    [
+     "A place of trial",
+     "The next world is eternal."
+    ],
+    [
+     "An illusion",
+     "Not quite. The article says: A place of trial."
+    ],
+    [
+     "The final home",
+     "Not quite. The article says: A place of trial."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The present world is but a place of trial."
+  },
+  {
+   "article": "Example of the Prophet",
+   "page": 40,
+   "link": "example-of-the-prophet",
+   "q": "Why did the Prophet finally leave Makkah?",
+   "options": [
+    [
+     "To trade",
+     "Not quite. The article says: To avoid confrontation."
+    ],
+    [
+     "To avoid confrontation",
+     "After showing the utmost patience."
+    ],
+    [
+     "To gather an army",
+     "Not quite. The article says: To avoid confrontation."
+    ],
+    [
+     "To seek wealth",
+     "Not quite. The article says: To avoid confrontation."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Finally to avoid confrontation, left the city along with a handful of his companions."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "When did the Children of Israel differ among themselves?",
+   "options": [
+    [
+     "Never",
+     "Not quite. The article says: Only after knowledge came to them."
+    ],
+    [
+     "Before any revelation",
+     "Not quite. The article says: Only after knowledge came to them."
+    ],
+    [
+     "Only after knowledge came to them",
+     "They had been given Scriptures and wisdom."
+    ],
+    [
+     "In Egypt",
+     "Not quite. The article says: Only after knowledge came to them."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It was only after knowledge came to them that they differed among themselves."
+  }
+ ]
+}
