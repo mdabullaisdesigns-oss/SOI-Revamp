@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Positive Always",
+   "page": 5,
+   "link": "positive-always",
+   "q": "Whom did the author meet in Delhi at the end of December 2016?",
+   "options": [
+    [
+     "An Egyptian scholar",
+     "Not quite. The article says: A Muslim youth of Indian origin living in the USA."
+    ],
+    [
+     "A Muslim youth of Indian origin living in the USA",
+     "He asked about his experiences there."
+    ],
+    [
+     "A British journalist",
+     "Not quite. The article says: A Muslim youth of Indian origin living in the USA."
+    ],
+    [
+     "A Japanese engineer",
+     "Not quite. The article says: A Muslim youth of Indian origin living in the USA."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "I happened to meet a Muslim youth of Indian origin in Delhi who had been living in the USA for several years."
+  },
+  {
+   "article": "Intellectual Development",
+   "page": 8,
+   "link": "intellectual-development",
+   "q": "What is the most desirable thing in Islam?",
+   "options": [
+    [
+     "Political power",
+     "Not quite. The article says: The purification – the intellectual development – of the individual."
+    ],
+    [
+     "Large numbers",
+     "Not quite. The article says: The purification – the intellectual development – of the individual."
+    ],
+    [
+     "The purification – the intellectual development – of the individual",
+     "In line with God’s creation plan."
+    ],
+    [
+     "Fine buildings",
+     "Not quite. The article says: The purification – the intellectual development – of the individual."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The most desirable thing in Islam is the purification of the individual."
+  },
+  {
+   "article": "The Scientific Temper",
+   "page": 12,
+   "link": "the-scientific-temper",
+   "q": "Where did Nehru write The Discovery of India?",
+   "options": [
+    [
+     "In London",
+     "Not quite. The article says: In prison at Ahmednagar Fort."
+    ],
+    [
+     "In prison at Ahmednagar Fort",
+     "He praised the scientific temper."
+    ],
+    [
+     "At Anand Bhavan",
+     "Not quite. The article says: In prison at Ahmednagar Fort."
+    ],
+    [
+     "In Kashmir",
+     "Not quite. The article says: In prison at Ahmednagar Fort."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Written by Jawahar Lal Nehru while he was imprisoned at Ahmednagar Fort in Maharashtra."
+  },
+  {
+   "article": "The Culture of Dialogue",
+   "page": 14,
+   "link": "the-culture-of-dialogue",
+   "q": "How do believers conduct their affairs (42: 38)?",
+   "options": [
+    [
+     "By force",
+     "Not quite. The article says: By mutual consultation."
+    ],
+    [
+     "By mutual consultation",
+     "Dialogue, not debate."
+    ],
+    [
+     "By one man’s order",
+     "Not quite. The article says: By mutual consultation."
+    ],
+    [
+     "By lot",
+     "Not quite. The article says: By mutual consultation."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“They conduct their affairs by mutual consultation.”"
+  },
+  {
+   "article": "The Evil of One’s Soul",
+   "page": 20,
+   "link": "the-evil-of-ones-soul",
+   "q": "From what does the Prophet’s dua ask protection?",
+   "options": [
+    [
+     "Enemies",
+     "Not quite. The article says: The evil of one’s own self."
+    ],
+    [
+     "Illness",
+     "Not quite. The article says: The evil of one’s own self."
+    ],
+    [
+     "The evil of one’s own self",
+     "And guidance to the right path."
+    ],
+    [
+     "Poverty",
+     "Not quite. The article says: The evil of one’s own self."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“O God, guide me to the right path and protect me from the evil of my own self.”"
+  },
+  {
+   "article": "Two Mind Sets",
+   "page": 22,
+   "link": "two-mind-sets",
+   "q": "What was the magazine article titled?",
+   "options": [
+    [
+     "‘Science and Faith’",
+     "Not quite. The article says: ‘The Modern Age and Jihad’."
+    ],
+    [
+     "‘Peace in Our Time’",
+     "Not quite. The article says: ‘The Modern Age and Jihad’."
+    ],
+    [
+     "‘The Art of Living’",
+     "Not quite. The article says: ‘The Modern Age and Jihad’."
+    ],
+    [
+     "‘The Modern Age and Jihad’",
+     "It spoke of oppression leading to ‘jihadi’ groups."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "An article in a well-known Muslim magazine titled ‘The Modern Age and Jihad’."
+  },
+  {
+   "article": "Reforming a Community",
+   "page": 28,
+   "link": "reforming-a-community",
+   "q": "What does reforming a community mean?",
+   "options": [
+    [
+     "Bringing later generations back to the path of the prophets",
+     "After degeneration has set in."
+    ],
+    [
+     "Founding a new religion",
+     "Not quite. The article says: Bringing later generations back to the path of the prophets."
+    ],
+    [
+     "Changing its language",
+     "Not quite. The article says: Bringing later generations back to the path of the prophets."
+    ],
+    [
+     "Moving it elsewhere",
+     "Not quite. The article says: Bringing later generations back to the path of the prophets."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "To bring back on to the path of the prophets the later generations of a people among whom degeneration has set in."
+  },
+  {
+   "article": "Right and Wrong Thinking",
+   "page": 34,
+   "link": "right-and-wrong-thinking",
+   "q": "What has man been given that no other creature has?",
+   "options": [
+    [
+     "Wings",
+     "Not quite. The article says: Amanat – the trust."
+    ],
+    [
+     "Amanat – the trust",
+     "It makes him the most noble of creatures."
+    ],
+    [
+     "Immortality",
+     "Not quite. The article says: Amanat – the trust."
+    ],
+    [
+     "Strength",
+     "Not quite. The article says: Amanat – the trust."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Man has been given something that has not been given to anybody else—and that is, amanat or trust."
+  },
+  {
+   "article": "Glad Tidings",
+   "page": 39,
+   "link": "glad-tidings",
+   "q": "Why has the Quran been made easy (19: 97)?",
+   "options": [
+    [
+     "So that good news may be conveyed to the righteous",
+     "Glad tidings of Paradise."
+    ],
+    [
+     "So that poets may copy it",
+     "Not quite. The article says: So that good news may be conveyed to the righteous."
+    ],
+    [
+     "So that it may be sold",
+     "Not quite. The article says: So that good news may be conveyed to the righteous."
+    ],
+    [
+     "So that it may be shortened",
+     "Not quite. The article says: So that good news may be conveyed to the righteous."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "We have made it easy, in your own language, so that you may convey good news to the righteous."
+  },
+  {
+   "article": "Unfulfilled Desire",
+   "page": 43,
+   "link": "unfulfilled-desire",
+   "q": "What was the dying teenager’s wish in the news report?",
+   "options": [
+    [
+     "To have her body frozen",
+     "Reported by The Guardian."
+    ],
+    [
+     "To write a book",
+     "Not quite. The article says: To have her body frozen."
+    ],
+    [
+     "To travel to space",
+     "Not quite. The article says: To have her body frozen."
+    ],
+    [
+     "To meet the Queen",
+     "Not quite. The article says: To have her body frozen."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Dying girl gets wish to have her body frozen."
+  }
+ ]
+}

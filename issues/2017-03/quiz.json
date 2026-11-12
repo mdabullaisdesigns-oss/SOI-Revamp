@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Greatness of Humility",
+   "page": 5,
+   "link": "the-greatness-of-humility",
+   "q": "What did the gentleman regard as his greatest asset?",
+   "options": [
+    [
+     "His grandfather’s closeness to the Nawab",
+     "He had neither education nor means."
+    ],
+    [
+     "His health",
+     "Not quite. The article says: His grandfather’s closeness to the Nawab."
+    ],
+    [
+     "His own learning",
+     "Not quite. The article says: His grandfather’s closeness to the Nawab."
+    ],
+    [
+     "His business",
+     "Not quite. The article says: His grandfather’s closeness to the Nawab."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "His greatest asset as he saw it, was the fact that his grandfather … had been one of the Nawab’s close associates."
+  },
+  {
+   "article": "Rights of Women in Islam",
+   "page": 7,
+   "link": "rights-of-women-in-islam",
+   "q": "On which two factors does the progress of society depend?",
+   "options": [
+    [
+     "Wealth and weapons",
+     "Not quite. The article says: Proper human relationship and the inter-connection of rights and duties."
+    ],
+    [
+     "Trade and travel",
+     "Not quite. The article says: Proper human relationship and the inter-connection of rights and duties."
+    ],
+    [
+     "Proper human relationship and the inter-connection of rights and duties",
+     "Oppression destroys society."
+    ],
+    [
+     "Numbers and land",
+     "Not quite. The article says: Proper human relationship and the inter-connection of rights and duties."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Two basic factors: proper human relationship and the inter-connection of rights and duties."
+  },
+  {
+   "article": "Veil of Interpretation Over Islam",
+   "page": 19,
+   "link": "veil-of-interpretation-over-islam",
+   "q": "What gradually placed a veil over the original texts?",
+   "options": [
+    [
+     "Foreign rule",
+     "Not quite. The article says: Self-styled interpretations of the Quran and Sunnah."
+    ],
+    [
+     "Self-styled interpretations of the Quran and Sunnah",
+     "Until original Islam was obscured."
+    ],
+    [
+     "Printing errors",
+     "Not quite. The article says: Self-styled interpretations of the Quran and Sunnah."
+    ],
+    [
+     "Lost manuscripts",
+     "Not quite. The article says: Self-styled interpretations of the Quran and Sunnah."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Self-styled interpretations of the Quran and Sunnah gradually placed a veil over the original content."
+  },
+  {
+   "article": "The Teachings of the Prophet",
+   "page": 22,
+   "link": "the-teachings-of-the-prophet",
+   "q": "What did Prophet Muhammad do for the divine religion?",
+   "options": [
+    [
+     "Revived it and presented it in scriptural form",
+     "God’s religion is one."
+    ],
+    [
+     "Invented it",
+     "Not quite. The article says: Revived it and presented it in scriptural form."
+    ],
+    [
+     "Replaced it",
+     "Not quite. The article says: Revived it and presented it in scriptural form."
+    ],
+    [
+     "Kept it secret",
+     "Not quite. The article says: Revived it and presented it in scriptural form."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Prophet Muhammad revived the divine religion and presented it in scriptural form for posterity."
+  },
+  {
+   "article": "Deprived of Paradise",
+   "page": 26,
+   "link": "deprived-of-paradise",
+   "q": "Where should believers obtain an introduction to Paradise?",
+   "options": [
+    [
+     "In this very world",
+     "Quran 47: 6."
+    ],
+    [
+     "Nowhere",
+     "Not quite. The article says: In this very world."
+    ],
+    [
+     "Only after death",
+     "Not quite. The article says: In this very world."
+    ],
+    [
+     "In dreams only",
+     "Not quite. The article says: In this very world."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They obtain an introduction to Paradise in this very world itself."
+  },
+  {
+   "article": "Success in Perseverance",
+   "page": 31,
+   "link": "success-in-perseverance",
+   "q": "In what does success lie?",
+   "options": [
+    [
+     "Luck",
+     "Not quite. The article says: Perseverance."
+    ],
+    [
+     "Speed",
+     "Not quite. The article says: Perseverance."
+    ],
+    [
+     "Perseverance",
+     "History testifies to it."
+    ],
+    [
+     "Inheritance",
+     "Not quite. The article says: Perseverance."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It has been very aptly observed that success lies in perseverance."
+  },
+  {
+   "article": "The Period of Youth",
+   "page": 33,
+   "link": "the-period-of-youth",
+   "q": "About what will everyone be questioned on the Day of Judgment?",
+   "options": [
+    [
+     "His favourite food",
+     "Not quite. The article says: How he spent his youth."
+    ],
+    [
+     "How he spent his youth",
+     "Among other things."
+    ],
+    [
+     "His height",
+     "Not quite. The article says: How he spent his youth."
+    ],
+    [
+     "His birthplace",
+     "Not quite. The article says: How he spent his youth."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Every person would be questioned about some issues, one of these being how he spent his youth."
+  },
+  {
+   "article": "Ideological Hatred",
+   "page": 38,
+   "link": "ideological-hatred",
+   "q": "What is impossible to eliminate, according to the article?",
+   "options": [
+    [
+     "Illness",
+     "Not quite. The article says: The hatred produced by a sacred ideology."
+    ],
+    [
+     "Ignorance",
+     "Not quite. The article says: The hatred produced by a sacred ideology."
+    ],
+    [
+     "Poverty",
+     "Not quite. The article says: The hatred produced by a sacred ideology."
+    ],
+    [
+     "The hatred produced by a sacred ideology",
+     "Ideological hatred is the greatest crime."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "What is impossible to eliminate is the hatred produced by a sacred ideology."
+  },
+  {
+   "article": "The Greatest Blessing",
+   "page": 42,
+   "link": "the-greatest-blessing",
+   "q": "To what is a woman’s potential compared?",
+   "options": [
+    [
+     "Iron ore, a gift of nature that must be transformed",
+     "The man must turn potential into actuality."
+    ],
+    [
+     "A closed book",
+     "Not quite. The article says: Iron ore, a gift of nature that must be transformed."
+    ],
+    [
+     "A finished sword",
+     "Not quite. The article says: Iron ore, a gift of nature that must be transformed."
+    ],
+    [
+     "A locked door",
+     "Not quite. The article says: Iron ore, a gift of nature that must be transformed."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Just as iron ore which is a gift of nature but gets transformed into …"
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What should believers do when they contract a debt for a stated term?",
+   "options": [
+    [
+     "Tell no one",
+     "Not quite. The article says: Put it down in writing."
+    ],
+    [
+     "Keep it secret",
+     "Not quite. The article says: Put it down in writing."
+    ],
+    [
+     "Trust memory",
+     "Not quite. The article says: Put it down in writing."
+    ],
+    [
+     "Put it down in writing",
+     "With a scribe writing fairly."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "When you contract a debt for a stated term, put it down in writing."
+  }
+ ]
+}

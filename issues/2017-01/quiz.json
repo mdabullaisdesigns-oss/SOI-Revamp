@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Publisher’s Note",
+   "page": 5,
+   "link": "publishers-note",
+   "q": "What chance does the new year give every individual, in the Publisher’s Note?",
+   "options": [
+    [
+     "To blame others",
+     "Not quite. The article says: To change, improve, repent and learn from past mistakes."
+    ],
+    [
+     "To forget the past entirely",
+     "Not quite. The article says: To change, improve, repent and learn from past mistakes."
+    ],
+    [
+     "To rest for a month",
+     "Not quite. The article says: To change, improve, repent and learn from past mistakes."
+    ],
+    [
+     "To change, improve, repent and learn from past mistakes",
+     "January 2017."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Every individual has a chance to change, to improve, to repent, to learn from the past mistakes."
+  },
+  {
+   "article": "Discovering the Modern Age",
+   "page": 11,
+   "link": "discovering-the-modern-age",
+   "q": "In which century did modern Western colonialism gain momentum?",
+   "options": [
+    [
+     "The 13th century",
+     "Not quite. The article says: The 17th century."
+    ],
+    [
+     "The 20th century",
+     "Not quite. The article says: The 17th century."
+    ],
+    [
+     "The 10th century",
+     "Not quite. The article says: The 17th century."
+    ],
+    [
+     "The 17th century",
+     "It was industry-oriented but militarily reinforced."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Modern Western colonialism which gained momentum in the 17th century."
+  },
+  {
+   "article": "The Complete World",
+   "page": 13,
+   "link": "the-complete-world",
+   "q": "With what has God created man?",
+   "options": [
+    [
+     "No desires",
+     "Not quite. The article says: Innumerable desires and longings."
+    ],
+    [
+     "Unlimited powers",
+     "Not quite. The article says: Innumerable desires and longings."
+    ],
+    [
+     "Innumerable desires and longings",
+     "Which he cannot fulfil in this world."
+    ],
+    [
+     "Perfect contentment",
+     "Not quite. The article says: Innumerable desires and longings."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "God has created man with innumerable desires and longings."
+  },
+  {
+   "article": "Peace as a Principle to Be Practised",
+   "page": 16,
+   "link": "peace-as-a-principle-to-be-practised",
+   "q": "What contradiction does the article find between the Quran and later Muslim history?",
+   "options": [
+    [
+     "Between old and new copies",
+     "Not quite. The article says: Between principle and practice."
+    ],
+    [
+     "Between Arabic and Persian",
+     "Not quite. The article says: Between principle and practice."
+    ],
+    [
+     "Between principle and practice",
+     "The Quran is imbued with the spirit of peace."
+    ],
+    [
+     "None at all",
+     "Not quite. The article says: Between principle and practice."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A blatant contradiction between the two—that between principle and practice."
+  },
+  {
+   "article": "Fatwa Activism",
+   "page": 20,
+   "link": "fatwa-activism",
+   "q": "What new form of activism have some religious leaders launched?",
+   "options": [
+    [
+     "‘Fatwa activism’",
+     "Alongside political, social and media activism."
+    ],
+    [
+     "‘Trade activism’",
+     "Not quite. The article says: ‘Fatwa activism’."
+    ],
+    [
+     "‘Silent activism’",
+     "Not quite. The article says: ‘Fatwa activism’."
+    ],
+    [
+     "‘Garden activism’",
+     "Not quite. The article says: ‘Fatwa activism’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A new form of activism of their own—what can be called ‘fatwa activism’."
+  },
+  {
+   "article": "Man, an Exceptional Creature",
+   "page": 28,
+   "link": "man-an-exceptional-creature",
+   "q": "What does “God created Adam in His own image” not mean?",
+   "options": [
+    [
+     "That man has abilities",
+     "Not quite. The article says: That man is like God in physical appearance."
+    ],
+    [
+     "That man is honoured",
+     "Not quite. The article says: That man is like God in physical appearance."
+    ],
+    [
+     "That man is like God in physical appearance",
+     "God granted man certain attributes in a limited way."
+    ],
+    [
+     "That man can think",
+     "Not quite. The article says: That man is like God in physical appearance."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "This does not mean that man is like God in physical appearance."
+  },
+  {
+   "article": "Conflict-Resolution",
+   "page": 31,
+   "link": "conflict-resolution",
+   "q": "Of what are today’s Muslims unaware, according to the article?",
+   "options": [
+    [
+     "Where the Quran was revealed",
+     "Not quite. The article says: The immense reward for following the Quran in their own lives."
+    ],
+    [
+     "The immense reward for following the Quran in their own lives",
+     "They know the rewards of reciting it."
+    ],
+    [
+     "The number of its chapters",
+     "Not quite. The article says: The immense reward for following the Quran in their own lives."
+    ],
+    [
+     "How to recite the Quran",
+     "Not quite. The article says: The immense reward for following the Quran in their own lives."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They are unaware of the immense reward for following the Quran in their own lives."
+  },
+  {
+   "article": "New Phase of History",
+   "page": 36,
+   "link": "new-phase-of-history",
+   "q": "In which century did Islam emerge?",
+   "options": [
+    [
+     "The fifteenth",
+     "Not quite. The article says: The seventh."
+    ],
+    [
+     "The twelfth",
+     "Not quite. The article says: The seventh."
+    ],
+    [
+     "The seventh",
+     "A revolution then came about in the world."
+    ],
+    [
+     "The first",
+     "Not quite. The article says: The seventh."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Islam emerged in the seventh century."
+  },
+  {
+   "article": "The Scientific Basis of Rituals",
+   "page": 38,
+   "link": "the-scientific-basis-of-rituals",
+   "q": "What does religion become without rituals?",
+   "options": [
+    [
+     "A language",
+     "Not quite. The article says: An abstract philosophy."
+    ],
+    [
+     "A science",
+     "Not quite. The article says: An abstract philosophy."
+    ],
+    [
+     "An abstract philosophy",
+     "Rituals are part of every religion."
+    ],
+    [
+     "A law code",
+     "Not quite. The article says: An abstract philosophy."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "In their absence, religion becomes an abstract philosophy."
+  },
+  {
+   "article": "Journey After Death",
+   "page": 42,
+   "link": "journey-after-death",
+   "q": "How do dictionaries often define death?",
+   "options": [
+    [
+     "‘A journey’",
+     "Not quite. The article says: ‘The permanent cessation of life’."
+    ],
+    [
+     "‘A long sleep’",
+     "Not quite. The article says: ‘The permanent cessation of life’."
+    ],
+    [
+     "‘The permanent cessation of life’",
+     "The article finds this image negative."
+    ],
+    [
+     "‘A new birth’",
+     "Not quite. The article says: ‘The permanent cessation of life’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Dictionaries often define death as ‘the permanent cessation of life’."
+  }
+ ]
+}

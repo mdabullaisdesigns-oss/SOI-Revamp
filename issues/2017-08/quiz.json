@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Welcoming the 71st Independence Day",
+   "page": 5,
+   "link": "welcoming-the-71st-independence-day",
+   "q": "About how long did British rule last in India?",
+   "options": [
+    [
+     "20 years",
+     "Not quite. The article says: About 200 years."
+    ],
+    [
+     "500 years",
+     "Not quite. The article says: About 200 years."
+    ],
+    [
+     "50 years",
+     "Not quite. The article says: About 200 years."
+    ],
+    [
+     "About 200 years",
+     "The freedom struggle began in 1857."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The British rule lasted in India for about 200 years."
+  },
+  {
+   "article": "The Political Interpretation of Islam",
+   "page": 15,
+   "link": "the-political-interpretation-of-islam",
+   "q": "What is the literal meaning of the Arabic word hukm?",
+   "options": [
+    [
+     "“Journey”",
+     "Not quite. The article says: “Power” or “authority”."
+    ],
+    [
+     "“Book”",
+     "Not quite. The article says: “Power” or “authority”."
+    ],
+    [
+     "“Power” or “authority”",
+     "“All power belongs to God alone.”"
+    ],
+    [
+     "“Prayer”",
+     "Not quite. The article says: “Power” or “authority”."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The literal meaning of the Arabic word hukm is “power” or “authority”."
+  },
+  {
+   "article": "Purification (tazkiya)",
+   "page": 17,
+   "link": "purification-tazkiya",
+   "q": "Who is successful, according to the Quran (91: 9)?",
+   "options": [
+    [
+     "He who ruled a kingdom",
+     "Not quite. The article says: He who purified his soul."
+    ],
+    [
+     "He who gathered wealth",
+     "Not quite. The article says: He who purified his soul."
+    ],
+    [
+     "He who lived long",
+     "Not quite. The article says: He who purified his soul."
+    ],
+    [
+     "He who purified his soul",
+     "Such people enter Paradise."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Successful is he who purified his soul.”"
+  },
+  {
+   "article": "Deception (dajjaliyat)",
+   "page": 23,
+   "link": "deception-dajjaliyat",
+   "q": "How can dajjaliyat be defined in the words of the Quran?",
+   "options": [
+    [
+     "‘The beautification of wrong deeds’",
+     "A known fact, not a mystery."
+    ],
+    [
+     "‘The fear of death’",
+     "Not quite. The article says: ‘The beautification of wrong deeds’."
+    ],
+    [
+     "‘The search for truth’",
+     "Not quite. The article says: ‘The beautification of wrong deeds’."
+    ],
+    [
+     "‘The love of travel’",
+     "Not quite. The article says: ‘The beautification of wrong deeds’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Dajjaliyat can be defined as ‘the beautification of wrong deeds’."
+  },
+  {
+   "article": "Conversion to God",
+   "page": 26,
+   "link": "conversion-to-god",
+   "q": "What do cows convert grass into?",
+   "options": [
+    [
+     "Milk",
+     "A living laboratory."
+    ],
+    [
+     "Wool",
+     "Not quite. The article says: Milk."
+    ],
+    [
+     "Honey",
+     "Not quite. The article says: Milk."
+    ],
+    [
+     "Gold",
+     "Not quite. The article says: Milk."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Cows are a living laboratory in which grass is converted into milk."
+  },
+  {
+   "article": "Working in Unison",
+   "page": 29,
+   "link": "working-in-unison",
+   "q": "How long do Japanese shipbuilders take to build a 50-thousand ton tanker?",
+   "options": [
+    [
+     "Two years",
+     "Not quite. The article says: Eight months."
+    ],
+    [
+     "Sixteen months",
+     "Not quite. The article says: Eight months."
+    ],
+    [
+     "Twenty-four months",
+     "Not quite. The article says: Eight months."
+    ],
+    [
+     "Eight months",
+     "Americans take sixteen, Spaniards twenty-four."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Japanese shipbuilders do the job in just eight months."
+  },
+  {
+   "article": "The Khawarij",
+   "page": 35,
+   "link": "the-khawarij",
+   "q": "What question is often asked about the Khawarij?",
+   "options": [
+    [
+     "Why they were removed from the mainstream of Islam despite their strictness",
+     "The article answers it."
+    ],
+    [
+     "Who their kings were",
+     "Not quite. The article says: Why they were removed from the mainstream of Islam despite their strictness."
+    ],
+    [
+     "Where they traded",
+     "Not quite. The article says: Why they were removed from the mainstream of Islam despite their strictness."
+    ],
+    [
+     "What language they spoke",
+     "Not quite. The article says: Why they were removed from the mainstream of Islam despite their strictness."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Then why were they removed from the mainstream of Islam?"
+  },
+  {
+   "article": "Concealing Others' Faults",
+   "page": 38,
+   "link": "concealing-others-faults",
+   "q": "What will God do for one who conceals another’s faults?",
+   "options": [
+    [
+     "Expose him",
+     "Not quite. The article says: Conceal his faults in this world and the Hereafter."
+    ],
+    [
+     "Forget him",
+     "Not quite. The article says: Conceal his faults in this world and the Hereafter."
+    ],
+    [
+     "Conceal his faults in this world and the Hereafter",
+     "Sunan Ibn Majah."
+    ],
+    [
+     "Make him rich",
+     "Not quite. The article says: Conceal his faults in this world and the Hereafter."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“For whoever conceals the faults of another, God will conceal his faults in this world and the Hereafter.”"
+  },
+  {
+   "article": "Close-Mindedness",
+   "page": 41,
+   "link": "close-mindedness",
+   "q": "What is ‘half knowledge itself’, according to the Arabic saying?",
+   "options": [
+    [
+     "To own many books",
+     "Not quite. The article says: To know that you do not know."
+    ],
+    [
+     "To speak well",
+     "Not quite. The article says: To know that you do not know."
+    ],
+    [
+     "To know that you do not know",
+     "Awareness of ignorance begins learning."
+    ],
+    [
+     "To know many languages",
+     "Not quite. The article says: To know that you do not know."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "To know that you do not know is half knowledge itself."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "For whom are there signs in the earth, mountains, rivers and fruits (13: 3)?",
+   "options": [
+    [
+     "No one",
+     "Not quite. The article says: People who reflect."
+    ],
+    [
+     "Travellers only",
+     "Not quite. The article says: People who reflect."
+    ],
+    [
+     "Kings",
+     "Not quite. The article says: People who reflect."
+    ],
+    [
+     "People who reflect",
+     "He drew the veil of night over the day."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In all this, truly, there are signs for people who reflect."
+  }
+ ]
+}

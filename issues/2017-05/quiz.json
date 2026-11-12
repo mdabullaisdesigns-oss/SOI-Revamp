@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Post Elections: Winners & Losers",
+   "page": 5,
+   "link": "post-elections-winners-losers",
+   "q": "How did Lincoln define democracy at Gettysburg?",
+   "options": [
+    [
+     "“One man, one rule.”",
+     "Not quite. The article says: “Government of the people, by the people, for the people.”."
+    ],
+    [
+     "“Government of the people, by the people, for the people.”",
+     "Democracy needs discipline."
+    ],
+    [
+     "“Rule of the wise.”",
+     "Not quite. The article says: “Government of the people, by the people, for the people.”."
+    ],
+    [
+     "“Power to the strong.”",
+     "Not quite. The article says: “Government of the people, by the people, for the people.”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Democracy is: “Government of the people, by the people, for the people.”"
+  },
+  {
+   "article": "The Galaxy Speaks About Its Creator",
+   "page": 10,
+   "link": "the-galaxy-speaks-about-its-creator",
+   "q": "What did a new study find about the Milky Way?",
+   "options": [
+    [
+     "It is shrinking",
+     "Not quite. The article says: It is at least 50% bigger than previously estimated."
+    ],
+    [
+     "It is half as big",
+     "Not quite. The article says: It is at least 50% bigger than previously estimated."
+    ],
+    [
+     "It is at least 50% bigger than previously estimated",
+     "A ring of stars lies beyond its known plane."
+    ],
+    [
+     "It has no stars",
+     "Not quite. The article says: It is at least 50% bigger than previously estimated."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The Milky Way is at least 50% bigger than previously estimated."
+  },
+  {
+   "article": "The Donald Trump Phenomenon",
+   "page": 13,
+   "link": "the-donald-trump-phenomenon",
+   "q": "Which President of the United States was Donald Trump elected as in 2016?",
+   "options": [
+    [
+     "The 45th",
+     "On November 8, 2016."
+    ],
+    [
+     "The 50th",
+     "Not quite. The article says: The 45th."
+    ],
+    [
+     "The 16th",
+     "Not quite. The article says: The 45th."
+    ],
+    [
+     "The 26th",
+     "Not quite. The article says: The 45th."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Donald Trump was elected the 45th President of the United States on November 8, 2016."
+  },
+  {
+   "article": "The Greatest Evil of History",
+   "page": 17,
+   "link": "the-greatest-evil-of-history",
+   "q": "Who was killed in the very first generation of man?",
+   "options": [
+    [
+     "Adam",
+     "Not quite. The article says: Abel, by his brother Cain."
+    ],
+    [
+     "Noah’s son",
+     "Not quite. The article says: Abel, by his brother Cain."
+    ],
+    [
+     "Cain, by Abel",
+     "Not quite. The article says: Abel, by his brother Cain."
+    ],
+    [
+     "Abel, by his brother Cain",
+     "War has always been part of history."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Fighting broke out between Adam’s two sons and Abel was killed by his brother Cain."
+  },
+  {
+   "article": "The Miracle of Teamwork",
+   "page": 22,
+   "link": "the-miracle-of-teamwork",
+   "q": "Which industry did Andrew Carnegie lead?",
+   "options": [
+    [
+     "Oil in Arabia",
+     "Not quite. The article says: American steel."
+    ],
+    [
+     "American steel",
+     "A Scottish American industrialist."
+    ],
+    [
+     "Railways in India",
+     "Not quite. The article says: American steel."
+    ],
+    [
+     "Shipping in Japan",
+     "Not quite. The article says: American steel."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Andrew Carnegie led the expansion of the American steel industry in the late 19th century."
+  },
+  {
+   "article": "‘allahu Akbar’ Speaks of a Belief",
+   "page": 26,
+   "link": "allahu-akbar-speaks-of-a-belief",
+   "q": "What does Allahu Akbar mean?",
+   "options": [
+    [
+     "God is Great",
+     "The most repeated phrase of the prayer."
+    ],
+    [
+     "God is One",
+     "Not quite. The article says: God is Great."
+    ],
+    [
+     "Peace be upon you",
+     "Not quite. The article says: God is Great."
+    ],
+    [
+     "Praise the Prophet",
+     "Not quite. The article says: God is Great."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The phrase Allahu Akbar (or God is Great) is the most important part of the Islamic form of ritual prayer."
+  },
+  {
+   "article": "Zakat—the Prescribed Charity",
+   "page": 29,
+   "link": "zakat-the-prescribed-charity",
+   "q": "In whose name is zakat given?",
+   "options": [
+    [
+     "In the name of God",
+     "Out of one’s own private means."
+    ],
+    [
+     "The family’s",
+     "Not quite. The article says: In the name of God."
+    ],
+    [
+     "The giver’s own",
+     "Not quite. The article says: In the name of God."
+    ],
+    [
+     "The ruler’s",
+     "Not quite. The article says: In the name of God."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It takes the form of the giving of alms out of one’s own private means."
+  },
+  {
+   "article": "Western Civilization",
+   "page": 34,
+   "link": "western-civilization",
+   "q": "Which prediction of the Quran (30: 1-2) was fulfilled within ten years?",
+   "options": [
+    [
+     "The victory of the Romans over Sassanid Persia",
+     "One of several predictions."
+    ],
+    [
+     "The rise of printing",
+     "Not quite. The article says: The victory of the Romans over Sassanid Persia."
+    ],
+    [
+     "The fall of Makkah",
+     "Not quite. The article says: The victory of the Romans over Sassanid Persia."
+    ],
+    [
+     "The discovery of America",
+     "Not quite. The article says: The victory of the Romans over Sassanid Persia."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The prediction of the victory of the Romans over Sassanid Persia. This prediction was fulfilled within ten years."
+  },
+  {
+   "article": "Worship in Islam",
+   "page": 38,
+   "link": "worship-in-islam",
+   "q": "What is the principal goal of life on earth, according to Islam?",
+   "options": [
+    [
+     "To gather knowledge only",
+     "Not quite. The article says: To show profound reverence for the Creator."
+    ],
+    [
+     "To build cities",
+     "Not quite. The article says: To show profound reverence for the Creator."
+    ],
+    [
+     "To show profound reverence for the Creator",
+     "Quran 51: 56."
+    ],
+    [
+     "To enjoy comfort",
+     "Not quite. The article says: To show profound reverence for the Creator."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The principal goal of life on this earth is for human beings to show profound reverence for their Creator."
+  },
+  {
+   "article": "Death: A Demolisher of Desires",
+   "page": 41,
+   "link": "death-a-demolisher-of-desires",
+   "q": "What is every human being bound to taste (3: 185)?",
+   "options": [
+    [
+     "Fame",
+     "Not quite. The article says: Death."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Death."
+    ],
+    [
+     "Death",
+     "Decided by God."
+    ],
+    [
+     "Power",
+     "Not quite. The article says: Death."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Every human being is bound to taste death."
+  }
+ ]
+}

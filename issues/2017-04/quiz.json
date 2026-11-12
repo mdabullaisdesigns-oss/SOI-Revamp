@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "A Sane Voice from America",
+   "page": 5,
+   "link": "a-sane-voice-from-america",
+   "q": "Who wrote Green Card Warrior?",
+   "options": [
+    [
+     "Billy Graham",
+     "Not quite. The article says: Nick Adams, an Australian immigrant to America."
+    ],
+    [
+     "Donald Trump",
+     "Not quite. The article says: Nick Adams, an Australian immigrant to America."
+    ],
+    [
+     "Nick Adams, an Australian immigrant to America",
+     "Quoted from The Times of India."
+    ],
+    [
+     "Michael Hart",
+     "Not quite. The article says: Nick Adams, an Australian immigrant to America."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "An Australian immigrant to America, Nick Adams, has written a book titled Green Card Warrior."
+  },
+  {
+   "article": "Defeat in One Arena",
+   "page": 8,
+   "link": "defeat-in-one-arena",
+   "q": "When did Sicily become part of the Islamic empire?",
+   "options": [
+    [
+     "1070 CE",
+     "Not quite. The article says: 827 CE."
+    ],
+    [
+     "827 CE",
+     "It stayed so for nearly three hundred years."
+    ],
+    [
+     "1492 CE",
+     "Not quite. The article says: 827 CE."
+    ],
+    [
+     "622 CE",
+     "Not quite. The article says: 827 CE."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In 827 CE, the Mediterranean island of Sicily became part of the growing Islamic empire."
+  },
+  {
+   "article": "Discover Yourself",
+   "page": 11,
+   "link": "discover-yourself",
+   "q": "What innate feeling is man born with, in the definition quoted?",
+   "options": [
+    [
+     "That he is worthless",
+     "Not quite. The article says: That he is better than another."
+    ],
+    [
+     "That he is better than another",
+     "Than his neighbour or colleague."
+    ],
+    [
+     "That he is alone",
+     "Not quite. The article says: That he is better than another."
+    ],
+    [
+     "That he is immortal",
+     "Not quite. The article says: That he is better than another."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Man is born with an innate feeling which tells him that he is better than another."
+  },
+  {
+   "article": "Understanding the Quran",
+   "page": 17,
+   "link": "understanding-the-quran",
+   "q": "What is the most important way to understand the Quran?",
+   "options": [
+    [
+     "Memorising poetry",
+     "Not quite. The article says: Taqwa, or God-consciousness."
+    ],
+    [
+     "Knowing fifteen disciplines",
+     "Not quite. The article says: Taqwa, or God-consciousness."
+    ],
+    [
+     "Travel",
+     "Not quite. The article says: Taqwa, or God-consciousness."
+    ],
+    [
+     "Taqwa, or God-consciousness",
+     "Beyond the scholarly disciplines."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The most important … is taqwa, or God-consciousness."
+  },
+  {
+   "article": "The Road to Paradise",
+   "page": 20,
+   "link": "the-road-to-paradise",
+   "q": "How does the article describe the world of nature?",
+   "options": [
+    [
+     "A chaotic world",
+     "Not quite. The article says: A zero defect world."
+    ],
+    [
+     "A failing world",
+     "Not quite. The article says: A zero defect world."
+    ],
+    [
+     "A silent, empty world",
+     "Not quite. The article says: A zero defect world."
+    ],
+    [
+     "A zero defect world",
+     "Activity without noise or smog."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The world of nature is a zero defect world."
+  },
+  {
+   "article": "Gift from the Lord of the Worlds",
+   "page": 26,
+   "link": "gift-from-the-lord-of-the-worlds",
+   "q": "In which year did the Prophet begin his mission in Makkah?",
+   "options": [
+    [
+     "700 CE",
+     "Not quite. The article says: 610 CE."
+    ],
+    [
+     "570 CE",
+     "Not quite. The article says: 610 CE."
+    ],
+    [
+     "632 CE",
+     "Not quite. The article says: 610 CE."
+    ],
+    [
+     "610 CE",
+     "Later he was compelled to leave the city."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The Prophet Muhammad began his mission in Makkah in 610 CE."
+  },
+  {
+   "article": "Political Insurrection Unlawful",
+   "page": 30,
+   "link": "political-insurrection-unlawful",
+   "q": "How did religious scholars respond to corrupt rulers after the pious Caliphate?",
+   "options": [
+    [
+     "They rose in revolt",
+     "Not quite. The article says: They avoided confrontation and worked in non-political fields."
+    ],
+    [
+     "They left the country",
+     "Not quite. The article says: They avoided confrontation and worked in non-political fields."
+    ],
+    [
+     "They avoided confrontation and worked in non-political fields",
+     "They did not revolt."
+    ],
+    [
+     "They joined the rulers",
+     "Not quite. The article says: They avoided confrontation and worked in non-political fields."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The religious scholars did not rise in revolt against the rulers, scrupulously avoiding any confrontation."
+  },
+  {
+   "article": "Labour of a Lifetime",
+   "page": 34,
+   "link": "labour-of-a-lifetime",
+   "q": "When was Helen Hooven Santmyer’s best-selling epic published?",
+   "options": [
+    [
+     "After her death",
+     "Not quite. The article says: When she was in her eighties."
+    ],
+    [
+     "When she was in her eighties",
+     "And the Ladies of the Club."
+    ],
+    [
+     "In her twenties",
+     "Not quite. The article says: When she was in her eighties."
+    ],
+    [
+     "In her teens",
+     "Not quite. The article says: When she was in her eighties."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Her best-selling epic … published when she was in her eighties."
+  },
+  {
+   "article": "Tolerance",
+   "page": 38,
+   "link": "tolerance",
+   "q": "Who said, “Tolerance is a law of nature stamped on the hearts of all men”?",
+   "options": [
+    [
+     "Gandhi",
+     "Not quite. The article says: Voltaire."
+    ],
+    [
+     "Plato",
+     "Not quite. The article says: Voltaire."
+    ],
+    [
+     "Voltaire",
+     "The article agrees."
+    ],
+    [
+     "Hegel",
+     "Not quite. The article says: Voltaire."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Tolerance is a law of nature stamped on the hearts of all men. —Voltaire"
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "Believers must uphold justice even if it is against whom?",
+   "options": [
+    [
+     "Only strangers",
+     "Not quite. The article says: Themselves, their parents or their kindred."
+    ],
+    [
+     "Only enemies",
+     "Not quite. The article says: Themselves, their parents or their kindred."
+    ],
+    [
+     "Themselves, their parents or their kindred",
+     "Bearing witness for God."
+    ],
+    [
+     "No one",
+     "Not quite. The article says: Themselves, their parents or their kindred."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Be strict in upholding justice … even though it be against yourselves, your parents, or your kindred."
+  }
+ ]
+}

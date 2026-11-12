@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "News from Australia",
+   "page": 5,
+   "link": "news-from-australia",
+   "q": "What would a proposed New South Wales law allow police to do?",
+   "options": [
+    [
+     "Stop all immigration",
+     "Not quite. The article says: Shoot suspects in “terrorist-related” incidents even without an imminent threat."
+    ],
+    [
+     "Close all mosques",
+     "Not quite. The article says: Shoot suspects in “terrorist-related” incidents even without an imminent threat."
+    ],
+    [
+     "Shoot suspects in “terrorist-related” incidents even without an imminent threat",
+     "Reported from Sydney."
+    ],
+    [
+     "Ban public meetings",
+     "Not quite. The article says: Shoot suspects in “terrorist-related” incidents even without an imminent threat."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Police will be allowed, under a proposed law, to shoot suspects in “terrorist-related” incidents."
+  },
+  {
+   "article": "The Role of Difficulty",
+   "page": 11,
+   "link": "the-role-of-difficulty",
+   "q": "What did Samuel Smiles observe in Self-Help?",
+   "options": [
+    [
+     "‘Luck is everything.’",
+     "Not quite. The article says: ‘It is not ease but effort, not facility but difficulty that makes man.’."
+    ],
+    [
+     "‘Ease makes the man.’",
+     "Not quite. The article says: ‘It is not ease but effort, not facility but difficulty that makes man.’."
+    ],
+    [
+     "‘Difficulty breaks all men.’",
+     "Not quite. The article says: ‘It is not ease but effort, not facility but difficulty that makes man.’."
+    ],
+    [
+     "‘It is not ease but effort, not facility but difficulty that makes man.’",
+     "Published in 1859."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "‘It is not ease but effort, not facility but difficulty that makes man.’"
+  },
+  {
+   "article": "The Policy of Delinking",
+   "page": 18,
+   "link": "the-policy-of-delinking",
+   "q": "What did E.E. Kellett write of the Prophet Muhammad?",
+   "options": [
+    [
+     "‘He faced adversity with the determination to wring success out of failure.’",
+     "In A Short History of Religions."
+    ],
+    [
+     "‘He relied on fortune.’",
+     "Not quite. The article says: ‘He faced adversity with the determination to wring success out of failure.’."
+    ],
+    [
+     "‘He never faced adversity.’",
+     "Not quite. The article says: ‘He faced adversity with the determination to wring success out of failure.’."
+    ],
+    [
+     "‘He gave up early.’",
+     "Not quite. The article says: ‘He faced adversity with the determination to wring success out of failure.’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "‘He faced adversity with the determination to wring success out of failure.’"
+  },
+  {
+   "article": "The Power of Will Power",
+   "page": 22,
+   "link": "the-power-of-will-power",
+   "q": "In which city did the Gujarati shopkeeper of the story live?",
+   "options": [
+    [
+     "Lagos, Nigeria",
+     "Not quite. The article says: Kigali, Rwanda."
+    ],
+    [
+     "Durban, South Africa",
+     "Not quite. The article says: Kigali, Rwanda."
+    ],
+    [
+     "Nairobi, Kenya",
+     "Not quite. The article says: Kigali, Rwanda."
+    ],
+    [
+     "Kigali, Rwanda",
+     "He had a cloth shop."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In Kigali, the capital city of Rwanda … a Gujrati Indian had a cloth shop."
+  },
+  {
+   "article": "A Dangerous Phenomenon",
+   "page": 25,
+   "link": "a-dangerous-phenomenon",
+   "q": "What does the article say helps in understanding the Hadith it discusses?",
+   "options": [
+    [
+     "A list of names",
+     "Not quite. The article says: A hidden point that appears between the lines."
+    ],
+    [
+     "A dictionary",
+     "Not quite. The article says: A hidden point that appears between the lines."
+    ],
+    [
+     "A hidden point that appears between the lines",
+     "It concerns a prediction by the Prophet."
+    ],
+    [
+     "A map",
+     "Not quite. The article says: A hidden point that appears between the lines."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "There is a point in this Hadith that appears between the lines."
+  },
+  {
+   "article": "Confidence; Not Overconfidence",
+   "page": 28,
+   "link": "confidence-not-overconfidence",
+   "q": "What does an over-confident person do?",
+   "options": [
+    [
+     "Takes risks beyond his capacity",
+     "Like fighting the laws of nature."
+    ],
+    [
+     "Avoids all risk",
+     "Not quite. The article says: Takes risks beyond his capacity."
+    ],
+    [
+     "Asks for advice",
+     "Not quite. The article says: Takes risks beyond his capacity."
+    ],
+    [
+     "Works harder",
+     "Not quite. The article says: Takes risks beyond his capacity."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He takes such great risks as are beyond his capacity to deal with successfully."
+  },
+  {
+   "article": "Reasoning",
+   "page": 32,
+   "link": "reasoning",
+   "q": "What did the Prophet say in answer to a question?",
+   "options": [
+    [
+     "“Seek the answer from your heart”",
+     "Guiding us to use common sense."
+    ],
+    [
+     "“Do not ask”",
+     "Not quite. The article says: “Seek the answer from your heart”."
+    ],
+    [
+     "“Ask the ruler”",
+     "Not quite. The article says: “Seek the answer from your heart”."
+    ],
+    [
+     "“Follow the crowd”",
+     "Not quite. The article says: “Seek the answer from your heart”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Prophet Muhammad said: “Seek the answer from your heart.”"
+  },
+  {
+   "article": "Temptation and Anger",
+   "page": 36,
+   "link": "temptation-and-anger",
+   "q": "Where were Adam and Eve first settled?",
+   "options": [
+    [
+     "An island",
+     "Not quite. The article says: The garden of Paradise."
+    ],
+    [
+     "A desert",
+     "Not quite. The article says: The garden of Paradise."
+    ],
+    [
+     "A mountain cave",
+     "Not quite. The article says: The garden of Paradise."
+    ],
+    [
+     "The garden of Paradise",
+     "With only one restriction."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "They were settled in the garden of Paradise."
+  },
+  {
+   "article": "Thought Crime",
+   "page": 39,
+   "link": "thought-crime",
+   "q": "Where was Imam Ibn Taimiyah born?",
+   "options": [
+    [
+     "Spain",
+     "Not quite. The article says: Syria."
+    ],
+    [
+     "Egypt",
+     "Not quite. The article says: Syria."
+    ],
+    [
+     "Syria",
+     "He is called Shaikh-e Akbar by some."
+    ],
+    [
+     "India",
+     "Not quite. The article says: Syria."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Imam Ibn Taimiyah Al-Harrani was born in Syria."
+  },
+  {
+   "article": "Death",
+   "page": 43,
+   "link": "death",
+   "q": "What may the government consider a servant’s leave without approval?",
+   "options": [
+    [
+     "A holiday",
+     "Not quite. The article says: A break in service."
+    ],
+    [
+     "A break in service",
+     "His seniority is affected."
+    ],
+    [
+     "A reward",
+     "Not quite. The article says: A break in service."
+    ],
+    [
+     "A promotion",
+     "Not quite. The article says: A break in service."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The government has the right to consider his absence a break in service."
+  }
+ ]
+}
