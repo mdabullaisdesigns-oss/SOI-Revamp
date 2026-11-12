@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Make It a Starting Point",
+   "page": 6,
+   "link": "make-it-a-starting-point",
+   "q": "What does the article say about the word ‘Allah’ historically?",
+   "options": [
+    [
+     "Only Muslims have ever used it",
+     "The article says otherwise."
+    ],
+    [
+     "It is not found in the Quran",
+     "The article does not say this."
+    ],
+    [
+     "It was first used in Malaysia",
+     "The article says it was prevalent in pre-Islamic Mecca."
+    ],
+    [
+     "It has never been the monopoly of Muslims",
+     "It was used in pre-Islamic Mecca."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Historically, the word ‘Allah’ has never been the monopoly of Muslims."
+  },
+  {
+   "article": "Dua, According to the Quran and the Bible",
+   "page": 8,
+   "link": "dua-according-to-the-quran-and-the-bible",
+   "q": "What is dua, according to the Hadith cited?",
+   "options": [
+    [
+     "Only for times of illness",
+     "This is not what the Hadith says."
+    ],
+    [
+     "A substitute for effort",
+     "This is not what the Hadith says."
+    ],
+    [
+     "A minor custom",
+     "The Hadith calls it the essence of worship."
+    ],
+    [
+     "The essence of worship",
+     "Dua in reality is worship."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "According to a Hadith report, dua or supplication to God, is the essence of worship."
+  },
+  {
+   "article": "Freedom of Expression",
+   "page": 11,
+   "link": "freedom-of-expression",
+   "q": "To what does the article say all human progress is linked?",
+   "options": [
+    [
+     "Population size",
+     "The article names freedom of thought."
+    ],
+    [
+     "Natural resources",
+     "The article names freedom of thought."
+    ],
+    [
+     "Freedom of thought",
+     "Islam provides full freedom of thought and expression."
+    ],
+    [
+     "Military strength",
+     "The article names freedom of thought."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Freedom of thought is no ordinary matter. In actual fact, all human progress is linked to this freedom."
+  },
+  {
+   "article": "Journey Towards Final Destination",
+   "page": 12,
+   "link": "journey-towards-final-destination",
+   "q": "Who narrates the meeting with the American statesman?",
+   "options": [
+    [
+     "An unnamed doctor",
+     "The article names Billy Graham."
+    ],
+    [
+     "Martin Luther King",
+     "The article names Billy Graham."
+    ],
+    [
+     "The evangelist Billy Graham",
+     "He cancelled his appointments to go to him."
+    ],
+    [
+     "Mahatma Gandhi",
+     "The article names Billy Graham."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The well-known American evangelist Billy Graham narrates one of his life’s experiences."
+  },
+  {
+   "article": "Negus, the King of Abyssinia",
+   "page": 16,
+   "link": "negus-the-king-of-abyssinia",
+   "q": "Why did the Prophet advise believers to migrate to Abyssinia?",
+   "options": [
+    [
+     "It was rich in trade",
+     "The reason was freedom from persecution."
+    ],
+    [
+     "It was nearer than Medina",
+     "The reason was freedom from persecution."
+    ],
+    [
+     "Its Christian king did not persecute anyone for their beliefs",
+     "The oppression of the Quraysh had become severe."
+    ],
+    [
+     "Its king was already a Muslim",
+     "He was a Christian king."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Abyssinia, he told them, was ruled by a Christian king Negus, who did not persecute anyone based on their beliefs."
+  },
+  {
+   "article": "Spiritual Unity",
+   "page": 22,
+   "link": "spiritual-unity",
+   "q": "What does the article call man’s greatest need today?",
+   "options": [
+    [
+     "To be shown the path of spiritual unity",
+     "The ‘global village’ is only half the truth."
+    ],
+    [
+     "Faster communications",
+     "Technology has already reduced distances."
+    ],
+    [
+     "More wealth",
+     "The article names spiritual unity."
+    ],
+    [
+     "Stronger borders",
+     "The article names spiritual unity."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Man’s greatest need today is to be shown the path of spiritual unity."
+  },
+  {
+   "article": "Discover Thanksgiving",
+   "page": 26,
+   "link": "discover-thanksgiving",
+   "q": "What did the Prophet say of one who fails to acknowledge man?",
+   "options": [
+    [
+     "He will become rich",
+     "This is not the saying."
+    ],
+    [
+     "He will surely fail to acknowledge God",
+     "Shukr has to be discovered through the intellect."
+    ],
+    [
+     "He will be forgiven",
+     "This is not the saying."
+    ],
+    [
+     "He needs no one",
+     "This is not the saying."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "One who fails to acknowledge man, he will surely fail to acknowledge God."
+  },
+  {
+   "article": "Non-Violence",
+   "page": 31,
+   "link": "non-violence",
+   "q": "How does the article explain fasad, which God does not approve?",
+   "options": [
+    [
+     "Travel",
+     "This is not fasad."
+    ],
+    [
+     "Honest trade",
+     "This is not fasad."
+    ],
+    [
+     "Disagreement in opinion",
+     "The article defines it as violent disruption."
+    ],
+    [
+     "Action that disrupts the social system, causing loss of life and property",
+     "This shows that God espouses non-violence."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Fasad is that action which results in disruption of the social system, causing losses in terms of lives and property."
+  },
+  {
+   "article": "Peace in Different Religions",
+   "page": 38,
+   "link": "peace-in-different-religions",
+   "q": "Why is peace the essence of all religions, according to the article?",
+   "options": [
+    [
+     "The objectives of religion can never be fulfilled without peace",
+     "Spiritual development needs a peaceful atmosphere."
+    ],
+    [
+     "War is too costly",
+     "This is not the reason given."
+    ],
+    [
+     "Rulers demand it",
+     "This is not the reason given."
+    ],
+    [
+     "Peace is profitable",
+     "This is not the reason given."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Peace is the essence of all religions, the reason being that the objectives of religion can never be fulfilled without peace."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "What does verse 2: 254 ask believers to do before the Day comes?",
+   "options": [
+    [
+     "Spend out of what God has given them",
+     "On that Day there will be no trading, friendship or intercession."
+    ],
+    [
+     "Gather more wealth",
+     "The verse says to spend."
+    ],
+    [
+     "Travel the earth",
+     "This is not in the verse."
+    ],
+    [
+     "Build tall houses",
+     "This is not in the verse."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Believers, spend out of what We have given you, before the Day comes when there will be neither trading, friendship nor intercession."
+  }
+ ]
+}

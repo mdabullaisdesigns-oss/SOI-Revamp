@@ -8,7 +8,7 @@ Text format (the right answer is written first; the order shown to readers is sh
   @ article-id
   Q question
   * right answer :: why
-  - wrong answer :: why not      (three of these)
+  - wrong answer :: why not      (three of these; the note may be left out)
   R what the article says
 """
 import json, os, random, re, sys
@@ -43,7 +43,7 @@ def digest(slugs):
         for a, part in picks(issue):
             w = words(a)
             start = 0 if part == 0 else len(w) // 2
-            print(f"@ {a['id']}{' (second passage)' if part else ''} | {a['title']}\n  {' '.join(w[start:start + 72])}")
+            print(f"@ {a['id']}{' (second passage)' if part else ''} | {a['title']}\n  {' '.join(w[start:start + 62])}")
 
 
 _foot = {}
@@ -102,8 +102,12 @@ def compile_(path):
             if not a:
                 errs.append(f"unknown article {q['link']}"); continue
             if len(q["opts"]) != 4 or sum(o[2] for o in q["opts"]) != 1 or not q.get("q") or not q.get("rationale") \
-                    or any(not o[0] or not o[1] for o in q["opts"]) or len({o[0].lower() for o in q["opts"]}) != 4:
+                    or any(not o[0] for o in q["opts"]) or not next((o[1] for o in q["opts"] if o[2]), "") or len({o[0].lower() for o in q["opts"]}) != 4:
                 errs.append(f"question {n + 1} is incomplete"); continue
+            right = next(o[0] for o in q["opts"] if o[2]).rstrip(".")
+            for o in q["opts"]:                      # a wrong answer written without a note points to the right one
+                if not o[2] and not o[1]:
+                    o[1] = f"Not quite. The article says: {right}."
             opts = q["opts"][:]
             random.Random(f"{slug}-{n}").shuffle(opts)
             page = printed(slug, (a.get("pages") or [None])[0])

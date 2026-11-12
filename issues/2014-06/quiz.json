@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Follow Reason, Manage Emotions",
+   "page": 6,
+   "link": "follow-reason-manage-emotions",
+   "q": "How does the article define life?",
+   "options": [
+    [
+     "A race for wealth",
+     "Not quite. The article says: The art of making right decisions."
+    ],
+    [
+     "A game of chance",
+     "Not quite. The article says: The art of making right decisions."
+    ],
+    [
+     "A long rest",
+     "Not quite. The article says: The art of making right decisions."
+    ],
+    [
+     "The art of making right decisions",
+     "At crucial moments."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Life is the art of making right decisions."
+  },
+  {
+   "article": "God-Oriented Life",
+   "page": 8,
+   "link": "god-oriented-life",
+   "q": "What example from nature opens the article?",
+   "options": [
+    [
+     "A river reaching the sea",
+     "Not quite. The article says: The earth constantly orbiting the sun."
+    ],
+    [
+     "A bird building its nest",
+     "Not quite. The article says: The earth constantly orbiting the sun."
+    ],
+    [
+     "A seed becoming a tree",
+     "Not quite. The article says: The earth constantly orbiting the sun."
+    ],
+    [
+     "The earth constantly orbiting the sun",
+     "Without it life would end."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The earth is the sun’s satellite. It constantly orbits around the sun."
+  },
+  {
+   "article": "Message of Ramazan",
+   "page": 18,
+   "link": "message-of-ramazan",
+   "q": "What did the Prophet prefer to a valley of gold?",
+   "options": [
+    [
+     "A larger house",
+     "Not quite. The article says: To eat well one day and remain hungry the next."
+    ],
+    [
+     "An army",
+     "Not quite. The article says: To eat well one day and remain hungry the next."
+    ],
+    [
+     "To eat well one day and remain hungry the next",
+     "So that in hunger he could beseech God."
+    ],
+    [
+     "A long life",
+     "Not quite. The article says: To eat well one day and remain hungry the next."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘I desire that one day I should eat well and be satisfied and remain hungry the next day.’"
+  },
+  {
+   "article": "Sanctity of Human Life",
+   "page": 21,
+   "link": "sanctity-of-human-life",
+   "q": "According to verse 5: 32, what is saving one human life like?",
+   "options": [
+    [
+     "Saving one family",
+     "Not quite. The article says: Saving all mankind."
+    ],
+    [
+     "A small good deed",
+     "Not quite. The article says: Saving all mankind."
+    ],
+    [
+     "Saving a city",
+     "Not quite. The article says: Saving all mankind."
+    ],
+    [
+     "Saving all mankind",
+     "And killing one is like killing all mankind."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Whoever saved a human life shall be regarded as having saved all mankind."
+  },
+  {
+   "article": "Ulema and the Modern Age",
+   "page": 23,
+   "link": "ulema-and-the-modern-age",
+   "q": "What was the primary focus of the western colonial powers, according to the article?",
+   "options": [
+    [
+     "Spreading their religion",
+     "Not quite. The article says: Their discoveries in science and technology, and new opportunities."
+    ],
+    [
+     "Their discoveries in science and technology, and new opportunities",
+     "Not political power as such."
+    ],
+    [
+     "Collecting art",
+     "Not quite. The article says: Their discoveries in science and technology, and new opportunities."
+    ],
+    [
+     "Building monuments",
+     "Not quite. The article says: Their discoveries in science and technology, and new opportunities."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Their primary focus was not the establishment of political power; it was their discoveries in science and technology."
+  },
+  {
+   "article": "Result-Oriented Action",
+   "page": 32,
+   "link": "result-oriented-action",
+   "q": "Why was Bertrand Russell imprisoned at the end of the First World War?",
+   "options": [
+    [
+     "For taking part in anti-war protest",
+     "He was a philosopher and a peace activist."
+    ],
+    [
+     "For debt",
+     "Not quite. The article says: For taking part in anti-war protest."
+    ],
+    [
+     "For a libel",
+     "Not quite. The article says: For taking part in anti-war protest."
+    ],
+    [
+     "For spying",
+     "Not quite. The article says: For taking part in anti-war protest."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He had been imprisoned for six months for participating in anti-war protest."
+  },
+  {
+   "article": "Fasting as a Spiritual Culture",
+   "page": 34,
+   "link": "fasting-as-a-spiritual-culture",
+   "q": "Which month of the Hijri calendar is Ramazan?",
+   "options": [
+    [
+     "The twelfth",
+     "Not quite. The article says: The ninth."
+    ],
+    [
+     "The seventh",
+     "Not quite. The article says: The ninth."
+    ],
+    [
+     "The first",
+     "Not quite. The article says: The ninth."
+    ],
+    [
+     "The ninth",
+     "Believers fast from dawn till sunset."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Ramazan — the ninth month of the Hijri (Islamic) calendar — is the month of fasting."
+  },
+  {
+   "article": "Embellishment of Deeds",
+   "page": 36,
+   "link": "embellishment-of-deeds",
+   "q": "What is the one thing in Satan’s power?",
+   "options": [
+    [
+     "To put evil suggestions into man’s mind",
+     "He has no physical power over man."
+    ],
+    [
+     "To take man’s wealth",
+     "Not quite. The article says: To put evil suggestions into man’s mind."
+    ],
+    [
+     "To strike man down",
+     "Not quite. The article says: To put evil suggestions into man’s mind."
+    ],
+    [
+     "To shorten man’s life",
+     "Not quite. The article says: To put evil suggestions into man’s mind."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "There is only one thing in Satan’s power and that is to put evil suggestions into man’s mind."
+  },
+  {
+   "article": "Second Expulsion",
+   "page": 39,
+   "link": "second-expulsion",
+   "q": "What damaging aspect of industrial progress was found in the 21st century?",
+   "options": [
+    [
+     "Falling prices",
+     "Not quite. The article says: Carbon emissions."
+    ],
+    [
+     "Too much leisure",
+     "Not quite. The article says: Carbon emissions."
+    ],
+    [
+     "Carbon emissions",
+     "Leading to pollution and global warming."
+    ],
+    [
+     "Longer lives",
+     "Not quite. The article says: Carbon emissions."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "There was a very damaging aspect of industrial progress — that of carbon emissions."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "Why, according to the verse, did God create the heavens and the earth?",
+   "options": [
+    [
+     "For the angels alone",
+     "Not quite. The article says: To test which of you is best in conduct."
+    ],
+    [
+     "To test which of you is best in conduct",
+     "In six Days [periods]."
+    ],
+    [
+     "For no purpose",
+     "Not quite. The article says: To test which of you is best in conduct."
+    ],
+    [
+     "To display His wealth",
+     "Not quite. The article says: To test which of you is best in conduct."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It was He who created the heavens and the earth in six Days, in order to test which of you is best in conduct."
+  }
+ ]
+}

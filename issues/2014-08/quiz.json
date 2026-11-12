@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Emergence of a New India",
+   "page": 6,
+   "link": "the-emergence-of-a-new-india",
+   "q": "What does the article call democracy?",
+   "options": [
+    [
+     "A western fashion",
+     "Not quite. The article says: The art of difference management."
+    ],
+    [
+     "The end of all differences",
+     "Not quite. The article says: The art of difference management."
+    ],
+    [
+     "The rule of the strongest",
+     "Not quite. The article says: The art of difference management."
+    ],
+    [
+     "The art of difference management",
+     "A non-confrontational settlement of differences."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Democracy, in one sense, is the art of difference management."
+  },
+  {
+   "article": "True Islam",
+   "page": 9,
+   "link": "true-islam",
+   "q": "What does Islam literally mean?",
+   "options": [
+    [
+     "Community",
+     "Not quite. The article says: Submission."
+    ],
+    [
+     "Submission",
+     "Surrender to God."
+    ],
+    [
+     "Tradition",
+     "Not quite. The article says: Submission."
+    ],
+    [
+     "Victory",
+     "Not quite. The article says: Submission."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Islam literally means submission. Submission is the essence of Islam."
+  },
+  {
+   "article": "Creative Leadership",
+   "page": 12,
+   "link": "creative-leadership",
+   "q": "What marks the better kind of leadership?",
+   "options": [
+    [
+     "It blames others",
+     "Not quite. The article says: It solves the problem or at least reduces it."
+    ],
+    [
+     "It wins every election",
+     "Not quite. The article says: It solves the problem or at least reduces it."
+    ],
+    [
+     "It solves the problem or at least reduces it",
+     "The other kind only makes it worse."
+    ],
+    [
+     "It makes stirring speeches",
+     "Not quite. The article says: It solves the problem or at least reduces it."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One kind of leadership only exacerbates the problem, while the other kind either solves the problem or at least reduces the magnitude."
+  },
+  {
+   "article": "The Difference Between Al-Deen and Shariah",
+   "page": 16,
+   "link": "the-difference-between-al-deen-and-shariah",
+   "q": "According to verse 42: 13, the same way of religion was enjoined on which earlier prophets?",
+   "options": [
+    [
+     "None before Muhammad",
+     "Not quite. The article says: Noah, Abraham, Moses and Jesus."
+    ],
+    [
+     "Only Abraham",
+     "Not quite. The article says: Noah, Abraham, Moses and Jesus."
+    ],
+    [
+     "Noah, Abraham, Moses and Jesus",
+     "“so that you should remain steadfast in religion”."
+    ],
+    [
+     "Only Moses and Jesus",
+     "Not quite. The article says: Noah, Abraham, Moses and Jesus."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "He has ordained for you the same way of religion which He had enjoined on Noah … Abraham and Moses and Jesus."
+  },
+  {
+   "article": "Silence: An Intellectual Process",
+   "page": 20,
+   "link": "silence-an-intellectual-process",
+   "q": "What should a person do when angry, according to the Prophet?",
+   "options": [
+    [
+     "Speak at once",
+     "Not quite. The article says: Keep silence."
+    ],
+    [
+     "Write a letter",
+     "Not quite. The article says: Keep silence."
+    ],
+    [
+     "Keep silence",
+     "Silence is an intellectual process, not a vacuum."
+    ],
+    [
+     "Leave the town",
+     "Not quite. The article says: Keep silence."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "When a person is angry, he should keep silence."
+  },
+  {
+   "article": "The Challenge of Satan",
+   "page": 28,
+   "link": "the-challenge-of-satan",
+   "q": "What did Satan say of most of the children of Adam?",
+   "options": [
+    [
+     "‘Most of them will be wise’",
+     "Not quite. The article says: ‘Most of them, You will not find grateful’."
+    ],
+    [
+     "‘Most of them will forget me’",
+     "Not quite. The article says: ‘Most of them, You will not find grateful’."
+    ],
+    [
+     "‘Most of them will be poor’",
+     "Not quite. The article says: ‘Most of them, You will not find grateful’."
+    ],
+    [
+     "‘Most of them, You will not find grateful’",
+     "His challenge after refusing to bow."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He challenged God saying: Most of them, You will not find grateful."
+  },
+  {
+   "article": "The Making of the Indian Nation",
+   "page": 32,
+   "link": "the-making-of-the-indian-nation",
+   "q": "What does the article name as one reason India has not joined the developed countries?",
+   "options": [
+    [
+     "Lack of natural resources",
+     "Not quite. The article says: The people’s lack of national character."
+    ],
+    [
+     "Its small size",
+     "Not quite. The article says: The people’s lack of national character."
+    ],
+    [
+     "The people’s lack of national character",
+     "Despite the country’s great potential."
+    ],
+    [
+     "Its climate",
+     "Not quite. The article says: The people’s lack of national character."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One reason for this tragic failure is the Indian people’s lack of national character."
+  },
+  {
+   "article": "India-Pakistan Relations",
+   "page": 37,
+   "link": "india-pakistan-relations",
+   "q": "Who personally attended the swearing-in of India’s Prime Minister on May 26, 2014?",
+   "options": [
+    [
+     "The President of the United States",
+     "Not quite. The article says: Pakistan’s Prime Minister."
+    ],
+    [
+     "The Secretary-General of the UN",
+     "Not quite. The article says: Pakistan’s Prime Minister."
+    ],
+    [
+     "Pakistan’s Prime Minister",
+     "The two later held a meeting."
+    ],
+    [
+     "No foreign leader",
+     "Not quite. The article says: Pakistan’s Prime Minister."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Pakistan’s Prime Minister personally attended the ceremony."
+  },
+  {
+   "article": "Suicide Is Not an Option",
+   "page": 43,
+   "link": "suicide-is-not-an-option",
+   "q": "Who was Hermann Hesse?",
+   "options": [
+    [
+     "A famous German poet and novelist",
+     "He attempted suicide at fifteen and was saved."
+    ],
+    [
+     "A Russian scientist",
+     "Not quite. The article says: A famous German poet and novelist."
+    ],
+    [
+     "A French painter",
+     "Not quite. The article says: A famous German poet and novelist."
+    ],
+    [
+     "An English statesman",
+     "Not quite. The article says: A famous German poet and novelist."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Hermann Hesse (1877–1962) was a famous German poet and novelist."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "How close is God to man, in the verse quoted (50: 16)?",
+   "options": [
+    [
+     "Closer than his jugular vein",
+     "Two angels record each word."
+    ],
+    [
+     "As far as the stars",
+     "Not quite. The article says: Closer than his jugular vein."
+    ],
+    [
+     "As close as his shadow",
+     "Not quite. The article says: Closer than his jugular vein."
+    ],
+    [
+     "As close as his neighbour",
+     "Not quite. The article says: Closer than his jugular vein."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "We know the prompting of his soul, and are closer to him than his jugular vein."
+  }
+ ]
+}

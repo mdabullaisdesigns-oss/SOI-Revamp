@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Seven Billion Issues!",
+   "page": 6,
+   "link": "seven-billion-issues",
+   "q": "What does the article say differences are?",
+   "options": [
+    [
+     "Something to be eliminated",
+     "Not quite. The article says: A part of nature."
+    ],
+    [
+     "A modern problem",
+     "Not quite. The article says: A part of nature."
+    ],
+    [
+     "A part of nature",
+     "Every man and woman is born unique."
+    ],
+    [
+     "A sign of bad upbringing",
+     "Not quite. The article says: A part of nature."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Differences are a part of nature. By birth itself, every man and woman is unique and different from everyone else."
+  },
+  {
+   "article": "The Jungle of Forbidden Trees",
+   "page": 8,
+   "link": "the-jungle-of-forbidden-trees",
+   "q": "What was the one condition of Adam’s life in Paradise?",
+   "options": [
+    [
+     "Not to approach a particular tree",
+     "He otherwise had full freedom."
+    ],
+    [
+     "Not to leave his house",
+     "Not quite. The article says: Not to approach a particular tree."
+    ],
+    [
+     "Not to speak",
+     "Not quite. The article says: Not to approach a particular tree."
+    ],
+    [
+     "Not to sleep",
+     "Not quite. The article says: Not to approach a particular tree."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In Paradise he was forbidden from approaching a particular tree or eating of its fruit."
+  },
+  {
+   "article": "Religious Education in Madrasas'",
+   "page": 11,
+   "link": "religious-education-in-madrasas",
+   "q": "What did Muslims establish wherever they spread in the early period of Islam?",
+   "options": [
+    [
+     "Fortresses",
+     "Not quite. The article says: Large centres of learning – madrasas."
+    ],
+    [
+     "Palaces",
+     "Not quite. The article says: Large centres of learning – madrasas."
+    ],
+    [
+     "Markets only",
+     "Not quite. The article says: Large centres of learning – madrasas."
+    ],
+    [
+     "Large centres of learning – madrasas",
+     "The Quran stresses education for all."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Wherever Muslims spread, they established large centres of learning in the form of madrasas."
+  },
+  {
+   "article": "Miracles or Signs of God",
+   "page": 16,
+   "link": "miracles-or-signs-of-god",
+   "q": "How do the Quran and Hadith refer to what are commonly called miracles?",
+   "options": [
+    [
+     "As rewards",
+     "Not quite. The article says: As signs."
+    ],
+    [
+     "As signs",
+     "Which shows them to be natural phenomena."
+    ],
+    [
+     "As magic",
+     "Not quite. The article says: As signs."
+    ],
+    [
+     "As legends",
+     "Not quite. The article says: As signs."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Quran and Hadith refer to these prophetic examples not as miracles, but as signs."
+  },
+  {
+   "article": "Heavenly Personality",
+   "page": 26,
+   "link": "heavenly-personality",
+   "q": "Whose hearts will those who go to heaven resemble, according to the Hadith?",
+   "options": [
+    [
+     "Little birds",
+     "Birds are free of hatred and vengeance."
+    ],
+    [
+     "Lions",
+     "Not quite. The article says: Little birds."
+    ],
+    [
+     "Scholars",
+     "Not quite. The article says: Little birds."
+    ],
+    [
+     "Kings",
+     "Not quite. The article says: Little birds."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "‘Such people will go to heaven whose hearts are like those of little birds.’"
+  },
+  {
+   "article": "More Than Legal Rights",
+   "page": 30,
+   "link": "more-than-legal-rights",
+   "q": "For what work is Satyendra Nath Bose best known?",
+   "options": [
+    [
+     "Quantum mechanics",
+     "He was a very hardworking student at Presidency College."
+    ],
+    [
+     "Astronomy",
+     "Not quite. The article says: Quantum mechanics."
+    ],
+    [
+     "Chemistry of dyes",
+     "Not quite. The article says: Quantum mechanics."
+    ],
+    [
+     "Botany",
+     "Not quite. The article says: Quantum mechanics."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "He is best known for his work on quantum mechanics."
+  },
+  {
+   "article": "Blaming Others",
+   "page": 31,
+   "link": "blaming-others",
+   "q": "What did Mikhail Kalashnikov invent?",
+   "options": [
+    [
+     "The jet engine",
+     "Not quite. The article says: The AK-47 firearm."
+    ],
+    [
+     "The tank",
+     "Not quite. The article says: The AK-47 firearm."
+    ],
+    [
+     "The AK-47 firearm",
+     "An estimated 100 million are spread worldwide."
+    ],
+    [
+     "Dynamite",
+     "Not quite. The article says: The AK-47 firearm."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Mikhail Kalashnikov, inventor of the well-known firearm AK-47 or Kalashnikov, died on December 23, 2013."
+  },
+  {
+   "article": "Political Realism",
+   "page": 36,
+   "link": "political-realism",
+   "q": "What did the Prophet instruct his followers regarding the political authorities?",
+   "options": [
+    [
+     "Not to engage in conflict with them under any circumstances",
+     "And to work in the non-political sphere."
+    ],
+    [
+     "To join them at court",
+     "Not quite. The article says: Not to engage in conflict with them under any circumstances."
+    ],
+    [
+     "To overthrow them when possible",
+     "Not quite. The article says: Not to engage in conflict with them under any circumstances."
+    ],
+    [
+     "To ignore all laws",
+     "Not quite. The article says: Not to engage in conflict with them under any circumstances."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Prophet instructed the ummah not to engage in conflict with the political authorities under any circumstances."
+  },
+  {
+   "article": "Surah Al-Asr",
+   "page": 38,
+   "link": "surah-al-asr",
+   "q": "How many verses does Surah Al-Asr have?",
+   "options": [
+    [
+     "Three",
+     "It swears by the passage of time."
+    ],
+    [
+     "Seven",
+     "Not quite. The article says: Three."
+    ],
+    [
+     "Ten",
+     "Not quite. The article says: Three."
+    ],
+    [
+     "One",
+     "Not quite. The article says: Three."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Surah Al-Asr is a small chapter in the Quran. It has just three verses."
+  },
+  {
+   "article": "The Word of God",
+   "page": 42,
+   "link": "the-word-of-god",
+   "q": "Who are those ‘who will lose the most through their actions’?",
+   "options": [
+    [
+     "Those who gave too much in charity",
+     "Not quite. The article says: Those whose efforts were wasted while they thought they were doing good."
+    ],
+    [
+     "Those who were poor",
+     "Not quite. The article says: Those whose efforts were wasted while they thought they were doing good."
+    ],
+    [
+     "Those who travelled far",
+     "Not quite. The article says: Those whose efforts were wasted while they thought they were doing good."
+    ],
+    [
+     "Those whose efforts were wasted while they thought they were doing good",
+     "They deny their Lord’s signs."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "They are those whose efforts have been wasted in the life of the world while they thought they were doing good."
+  }
+ ]
+}

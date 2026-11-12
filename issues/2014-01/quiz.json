@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Greetings of Peace!",
+   "page": 6,
+   "link": "greetings-of-peace",
+   "q": "What milestone does the note celebrate?",
+   "options": [
+    [
+     "Ten years of publication",
+     "The note marks one year."
+    ],
+    [
+     "One year of publication of Spirit of Islam",
+     "It is for serious readers and seekers of truth and peace."
+    ],
+    [
+     "A new editor",
+     "The note marks one year."
+    ],
+    [
+     "The hundredth issue",
+     "The note marks one year."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "… enabling us to successfully complete one year of publication of our magazine, SPIRIT OF ISLAM."
+  },
+  {
+   "article": "The Key to Happiness",
+   "page": 7,
+   "link": "the-key-to-happiness",
+   "q": "How does the article describe happiness?",
+   "options": [
+    [
+     "A matter of luck",
+     "The article calls it a state of mind."
+    ],
+    [
+     "Not a destination but a state of mind",
+     "Be happy with what you already have."
+    ],
+    [
+     "A list of things to obtain",
+     "The article says conditions prevent happiness."
+    ],
+    [
+     "A reward for wealth",
+     "No material good can give it."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Happiness is not a destination; it is a state of mind. No material good can give you happiness."
+  },
+  {
+   "article": "The Big Bang Theory",
+   "page": 10,
+   "link": "the-big-bang-theory",
+   "q": "Which Quranic image does the article link to the Big Bang?",
+   "options": [
+    [
+     "The mountains set as pegs",
+     "This is not the verse quoted."
+    ],
+    [
+     "The night covering the day",
+     "This is not the verse quoted."
+    ],
+    [
+     "The heavens and the earth were one solid mass which was torn asunder",
+     "The verse is quoted in the article."
+    ],
+    [
+     "The sea that does not mix",
+     "This is not the verse quoted."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Do not those who deny the truth see that the heavens and the earth were one solid mass which we tore asunder?"
+  },
+  {
+   "article": "Life After Death",
+   "page": 17,
+   "link": "life-after-death",
+   "q": "What was broadcast just after the news of Nelson Mandela’s death?",
+   "options": [
+    [
+     "Nothing",
+     "His speech was broadcast."
+    ],
+    [
+     "A film of his funeral",
+     "The article speaks of his recorded speech."
+    ],
+    [
+     "The speech he gave as President in Parliament on May 10, 1994",
+     "The speaker was no more, but his voice could be heard."
+    ],
+    [
+     "A song in his honour",
+     "The article speaks of his recorded speech."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The speaker was physically no more, but his voice could still be heard by all without the slightest alteration."
+  },
+  {
+   "article": "No Shortcuts",
+   "page": 19,
+   "link": "no-shortcuts",
+   "q": "What advice did Sachin Tendulkar’s father give him at eleven?",
+   "options": [
+    [
+     "“Study first, play later.”",
+     "This is not the advice."
+    ],
+    [
+     "“Chase your dreams, but do not take shortcuts.”",
+     "He credited his success to it."
+    ],
+    [
+     "“Winning is everything.”",
+     "This is not the advice."
+    ],
+    [
+     "“Never listen to critics.”",
+     "This is not the advice."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "His father advised him: “Chase your dreams, but do not take shortcuts.”"
+  },
+  {
+   "article": "Duty Before Right",
+   "page": 23,
+   "link": "duty-before-right",
+   "q": "Which society does the article call the best?",
+   "options": [
+    [
+     "A right-conscious society",
+     "The article calls that the worst."
+    ],
+    [
+     "A powerful society",
+     "This is not the measure used."
+    ],
+    [
+     "A wealthy society",
+     "This is not the measure used."
+    ],
+    [
+     "A duty-conscious society",
+     "The worst is a right-conscious society."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The best society is a duty-conscious society. The worst society is a right-conscious society."
+  },
+  {
+   "article": "The Spiritual Tree",
+   "page": 26,
+   "link": "the-spiritual-tree",
+   "q": "What inner quality lets a seed grow into a full-fledged tree?",
+   "options": [
+    [
+     "It takes food from everything – soil, water, air and sunlight",
+     "A tree illustrates the spiritual life."
+    ],
+    [
+     "It is protected by walls",
+     "This is not in the article."
+    ],
+    [
+     "It needs nothing at all",
+     "The article says it draws from everything."
+    ],
+    [
+     "It grows only in rich soil",
+     "The article says it takes from everything."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It is able to take food from everything: from soil, water, air, and sunlight."
+  },
+  {
+   "article": "Salah",
+   "page": 28,
+   "link": "salah",
+   "q": "What is each cycle of movements in salah called?",
+   "options": [
+    [
+     "A raka’a",
+     "Salah is the second pillar of Islam."
+    ],
+    [
+     "A surah",
+     "That is a chapter of the Quran."
+    ],
+    [
+     "A khutbah",
+     "That is a sermon."
+    ],
+    [
+     "A tasbih",
+     "This is not the term."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Each series or cycle of this movement is called a raka’a (or ‘bowing’)."
+  },
+  {
+   "article": "The Prophet and His Mission",
+   "page": 34,
+   "link": "the-prophet-and-his-mission",
+   "q": "How did Aisha describe the Prophet’s character?",
+   "options": [
+    [
+     "“No one can describe it.”",
+     "This is not her answer."
+    ],
+    [
+     "“He was like other men.”",
+     "This is not her answer."
+    ],
+    [
+     "“His character was the Quran.”",
+     "Her commentary on the verse “Surely you have a sublime character.”"
+    ],
+    [
+     "“He was stern.”",
+     "This is not her answer."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Aisha, referring to this verse of the Quran, said: “His character was the Quran.”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "What do people of understanding say as they ponder creation?",
+   "options": [
+    [
+     "‘This has no meaning.’",
+     "The verse says the opposite."
+    ],
+    [
+     "‘We made this ourselves.’",
+     "This is not in the verse."
+    ],
+    [
+     "‘Lord, You have not created all this without purpose.’",
+     "They remember God standing, sitting and lying down."
+    ],
+    [
+     "‘It will last for ever.’",
+     "This is not in the verse."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘Lord, You have not created all this without purpose. Glory be to You! Save us from the torment of the Fire.’"
+  }
+ ]
+}

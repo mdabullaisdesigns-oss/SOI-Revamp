@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "This Is Not the Time",
+   "page": 6,
+   "link": "this-is-not-the-time",
+   "q": "What happened on the young man’s way to the railway station?",
+   "options": [
+    [
+     "Some boys threw stones at his rickshaw",
+     "His friend lost his temper."
+    ],
+    [
+     "He fell ill",
+     "The incident was stone-throwing."
+    ],
+    [
+     "He lost his ticket",
+     "The incident was stone-throwing."
+    ],
+    [
+     "The train was cancelled",
+     "The incident was stone-throwing."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It so happened that some boys threw stones at the rickshaw."
+  },
+  {
+   "article": "Science and the Existence of God",
+   "page": 8,
+   "link": "science-and-the-existence-of-god",
+   "q": "What does the article conclude about Einstein’s belief?",
+   "options": [
+    [
+     "He was a monk",
+     "This is not what it says."
+    ],
+    [
+     "He was a firm atheist",
+     "The article says he was not."
+    ],
+    [
+     "He was not an atheist, but was in doubt about God’s existence",
+     "Based on his various statements."
+    ],
+    [
+     "He never spoke on the subject",
+     "The article analyses his statements."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "An analysis of the various statements made by Einstein will show that Einstein was not an atheist, and was in doubt about the existence of God."
+  },
+  {
+   "article": "The Final Destination",
+   "page": 18,
+   "link": "the-final-destination",
+   "q": "Who was one of the first people to try to ascend Mt. Everest, in 1934?",
+   "options": [
+    [
+     "Edmund Hillary",
+     "The article names Maurice Wilson."
+    ],
+    [
+     "George Mallory",
+     "The article names Maurice Wilson."
+    ],
+    [
+     "Maurice Wilson",
+     "A British soldier of the First World War."
+    ],
+    [
+     "Tenzing Norgay",
+     "The article names Maurice Wilson."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One of the first people to try to ascend this peak was a British man called Maurice Wilson. This was in 1934."
+  },
+  {
+   "article": "Differences Between Men and Women",
+   "page": 20,
+   "link": "differences-between-men-and-women",
+   "q": "For what was the term ‘gender equality’ first used?",
+   "options": [
+    [
+     "To argue for women’s right to vote",
+     "In Europe in the late nineteenth century."
+    ],
+    [
+     "Equal pay",
+     "At first it concerned the vote."
+    ],
+    [
+     "Dress",
+     "At first it concerned the vote."
+    ],
+    [
+     "Schooling",
+     "At first it concerned the vote."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "To begin with, it was used only to argue for women’s right to vote."
+  },
+  {
+   "article": "What Went Wrong with Muslims",
+   "page": 24,
+   "link": "what-went-wrong-with-muslims",
+   "q": "What is George Harris said to have exclaimed on hearing of Tipu Sultan’s death?",
+   "options": [
+    [
+     "“Peace at last.”",
+     "This is not the quotation."
+    ],
+    [
+     "“A brave man is gone.”",
+     "This is not the quotation."
+    ],
+    [
+     "“The war has only begun.”",
+     "This is not the quotation."
+    ],
+    [
+     "“Today, India is ours!”",
+     "After the Fourth Mysore War of 1799."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He is said to have exclaimed: “Today, India is ours!”"
+  },
+  {
+   "article": "Lessons from Jesus Christ",
+   "page": 28,
+   "link": "lessons-from-jesus-christ",
+   "q": "What does the article say of most prophets from the historical point of view?",
+   "options": [
+    [
+     "All are fully recorded",
+     "The article says the opposite."
+    ],
+    [
+     "Only kings recorded them",
+     "The article says records make no mention."
+    ],
+    [
+     "Nearly all are unknown; contemporary records do not mention them",
+     "As if they were not thought worth mentioning."
+    ],
+    [
+     "They wrote their own histories",
+     "This is not what it says."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Nearly all of these prophets are unknown from the historical point of view."
+  },
+  {
+   "article": "Dominion as a Test",
+   "page": 31,
+   "link": "dominion-as-a-test",
+   "q": "What was William Penn a great advocate of?",
+   "options": [
+    [
+     "Monarchy",
+     "The article names religious tolerance."
+    ],
+    [
+     "Religious tolerance",
+     "He took part in both religious affairs and politics."
+    ],
+    [
+     "Empire",
+     "The article names religious tolerance."
+    ],
+    [
+     "Free trade",
+     "The article names religious tolerance."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "William Penn was born in London in 1644 and died in 1718. A great advocate of religious tolerance …"
+  },
+  {
+   "article": "Life Is a Tightrope Walk",
+   "page": 34,
+   "link": "life-is-a-tightrope-walk",
+   "q": "What does ‘tightrope walking’ mean in life?",
+   "options": [
+    [
+     "Entertaining others",
+     "That was the word’s first use, not its spirit."
+    ],
+    [
+     "Moving as fast as possible",
+     "The article speaks of caution."
+    ],
+    [
+     "Taking great risks for fame",
+     "The article speaks of balance."
+    ],
+    [
+     "Keeping your balance between two opposite positions",
+     "Proceeding cautiously to avoid two equally bad situations."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "‘Tightrope walking’ means maintaining your balance between two opposite positions."
+  },
+  {
+   "article": "Religious Harmony",
+   "page": 36,
+   "link": "religious-harmony",
+   "q": "What does the article say the world needs perhaps more than anything else?",
+   "options": [
+    [
+     "One language",
+     "This is not what it says."
+    ],
+    [
+     "A single world government",
+     "This is not what it says."
+    ],
+    [
+     "Fewer religions",
+     "This is not what it says."
+    ],
+    [
+     "An acceptable formula for religious harmony",
+     "The author presents the Islamic viewpoint."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "What the world needs today—perhaps more than anything else—is an acceptable formula for the attainment of religious harmony."
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "With what greeting will those who believed and did good be welcomed in the Gardens?",
+   "options": [
+    [
+     "‘Victory’",
+     "The verse says ‘Peace’."
+    ],
+    [
+     "‘Peace’",
+     "Saying assalamu alaykum is a symbol of a heartfelt connection."
+    ],
+    [
+     "‘Welcome home’",
+     "The verse says ‘Peace’."
+    ],
+    [
+     "No greeting",
+     "The verse says they are welcomed with ‘Peace’."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They shall abide there forever by their Lord’s permission, and will be welcomed with the greeting, ‘Peace’!"
+  }
+ ]
+}
