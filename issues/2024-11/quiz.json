@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Peaceful Resolution of Conflict",
+   "page": 5,
+   "link": "peaceful-resolution-of-conflict",
+   "q": "What was the secret behind the Prophet’s success, according to the article?",
+   "options": [
+    [
+     "Great wealth",
+     "Not quite. The article says: Consistently favouring peaceful resolutions over warfare."
+    ],
+    [
+     "Superior weapons",
+     "Not quite. The article says: Consistently favouring peaceful resolutions over warfare."
+    ],
+    [
+     "Consistently favouring peaceful resolutions over warfare",
+     "A policy of avoidance."
+    ],
+    [
+     "Larger numbers",
+     "Not quite. The article says: Consistently favouring peaceful resolutions over warfare."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The secret lies in the Prophet consistently favouring peaceful resolutions over warfare."
+  },
+  {
+   "article": "Recognizing Our Own Faults",
+   "page": 8,
+   "link": "recognizing-our-own-faults",
+   "q": "What was the title of the article the author read in his youth?",
+   "options": [
+    [
+     "The Fault Lies Within",
+     "Inspired by a verse of Momin Khan Momin."
+    ],
+    [
+     "The Perfect Man",
+     "Not quite. The article says: The Fault Lies Within."
+    ],
+    [
+     "No One Is Wrong",
+     "Not quite. The article says: The Fault Lies Within."
+    ],
+    [
+     "Blame the World",
+     "Not quite. The article says: The Fault Lies Within."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "An article in an Urdu monthly magazine titled, The Fault Lies Within."
+  },
+  {
+   "article": "The Power of Quality in Today’s World",
+   "page": 12,
+   "link": "the-power-of-quality-in-todays-world",
+   "q": "To what has the emphasis shifted in today’s scientific age?",
+   "options": [
+    [
+     "From power to quality",
+     "“The one who wields the sword” belongs to the past."
+    ],
+    [
+     "From learning to custom",
+     "Not quite. The article says: From power to quality."
+    ],
+    [
+     "From quality to power",
+     "Not quite. The article says: From power to quality."
+    ],
+    [
+     "From peace to war",
+     "Not quite. The article says: From power to quality."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In today’s scientific age, the emphasis has shifted from power to quality."
+  },
+  {
+   "article": "The Destructive Force of Hatred",
+   "page": 13,
+   "link": "the-destructive-force-of-hatred",
+   "q": "Upon what is every life built, according to the article?",
+   "options": [
+    [
+     "Rivalry",
+     "Not quite. The article says: A silent covenant between us and our Creator."
+    ],
+    [
+     "A silent covenant between us and our Creator",
+     "Each born with unique abilities."
+    ],
+    [
+     "Family fortune",
+     "Not quite. The article says: A silent covenant between us and our Creator."
+    ],
+    [
+     "Chance",
+     "Not quite. The article says: A silent covenant between us and our Creator."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Every life is built upon a silent covenant between us and our Creator."
+  },
+  {
+   "article": "Leadership Through Expertise",
+   "page": 18,
+   "link": "leadership-through-expertise",
+   "q": "What are the first four Caliphs known as?",
+   "options": [
+    [
+     "The Khulafa-e-Rashideen (rightly-guided Caliphs)",
+     "Their governance was exemplary."
+    ],
+    [
+     "The Abbasids",
+     "Not quite. The article says: The Khulafa-e-Rashideen (rightly-guided Caliphs)."
+    ],
+    [
+     "The Ottomans",
+     "Not quite. The article says: The Khulafa-e-Rashideen (rightly-guided Caliphs)."
+    ],
+    [
+     "The Umayyads",
+     "Not quite. The article says: The Khulafa-e-Rashideen (rightly-guided Caliphs)."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The first four Caliphs, known as the Khulafa-e-Rashideen (rightly-guided Caliphs)."
+  },
+  {
+   "article": "The Creative Study of the Quran",
+   "page": 23,
+   "link": "the-creative-study-of-the-quran",
+   "q": "When was the Urdu talk translated here delivered?",
+   "options": [
+    [
+     "April 21, 2019",
+     "By Maulana Wahiduddin Khan."
+    ],
+    [
+     "August 4, 2013",
+     "Not quite. The article says: April 21, 2019."
+    ],
+    [
+     "January 1, 2000",
+     "Not quite. The article says: April 21, 2019."
+    ],
+    [
+     "May 20, 1986",
+     "Not quite. The article says: April 21, 2019."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Maulana Wahiduddin Khan’s Urdu talk delivered on April 21, 2019."
+  },
+  {
+   "article": "Pilgrims of Hope",
+   "page": 31,
+   "link": "pilgrims-of-hope",
+   "q": "Who gave the presentation ‘Pilgrims of Hope’?",
+   "options": [
+    [
+     "Mr Khurram Qureshi",
+     "Not quite. The article says: Shabina Ali of the Kolkata Chapter."
+    ],
+    [
+     "Maulana Iqbal Umri",
+     "Not quite. The article says: Shabina Ali of the Kolkata Chapter."
+    ],
+    [
+     "Prof Farida Khanam",
+     "Not quite. The article says: Shabina Ali of the Kolkata Chapter."
+    ],
+    [
+     "Shabina Ali of the Kolkata Chapter",
+     "At an interfaith programme."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The presentation by Shabina Ali (Kolkata Chapter CPS) in an Interfaith programme."
+  },
+  {
+   "article": "A Peaceful Citizen",
+   "page": 33,
+   "link": "a-peaceful-citizen",
+   "q": "What is a true Muslim to those around them?",
+   "options": [
+    [
+     "A rival",
+     "Not quite. The article says: A source of reassurance, not fear."
+    ],
+    [
+     "A source of fear",
+     "Not quite. The article says: A source of reassurance, not fear."
+    ],
+    [
+     "A source of reassurance, not fear",
+     "Bringing peace by word and deed."
+    ],
+    [
+     "A stranger",
+     "Not quite. The article says: A source of reassurance, not fear."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A true Muslim is a source of reassurance, not fear, for those around them."
+  },
+  {
+   "article": "The Consideration of Circumstances",
+   "page": 38,
+   "link": "the-consideration-of-circumstances",
+   "q": "What does Islam emphasize in applying divine directives?",
+   "options": [
+    [
+     "Speed",
+     "Not quite. The article says: The importance of context."
+    ],
+    [
+     "Ignoring context",
+     "Not quite. The article says: The importance of context."
+    ],
+    [
+     "The importance of context",
+     "Considering circumstances."
+    ],
+    [
+     "Uniform force",
+     "Not quite. The article says: The importance of context."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Islam emphasizes the importance of context in the application of divine directives."
+  },
+  {
+   "article": "Discoveries of the Modern Age",
+   "page": 26,
+   "link": "discoveries-of-the-modern-age",
+   "q": "Graduates of which institution spent time under Maulana’s guidance?",
+   "options": [
+    [
+     "Jamia Dar-us-Salam, Oomerabad",
+     "Many scholars have supported the mission."
+    ],
+    [
+     "Oxford University",
+     "Not quite. The article says: Jamia Dar-us-Salam, Oomerabad."
+    ],
+    [
+     "Al-Azhar",
+     "Not quite. The article says: Jamia Dar-us-Salam, Oomerabad."
+    ],
+    [
+     "Harvard",
+     "Not quite. The article says: Jamia Dar-us-Salam, Oomerabad."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Few graduates from Jamia Dar-us-Salam, Oomerabad spent a considerable time under the guidance … of Maulana Wahiduddin Khan."
+  }
+ ]
+}

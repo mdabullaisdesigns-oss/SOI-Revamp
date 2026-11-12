@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Earth Is Moving Toward Its End",
+   "page": 5,
+   "link": "the-earth-is-moving-toward-its-end",
+   "q": "What was the Times of India headline of June 17, 2023?",
+   "options": [
+    [
+     "Markets soar",
+     "Not quite. The article says: Heatwaves and wildfires hit the globe."
+    ],
+    [
+     "Heatwaves and wildfires hit the globe",
+     "Asia, Europe and the US sizzled at 40°C+."
+    ],
+    [
+     "Oceans freeze over",
+     "Not quite. The article says: Heatwaves and wildfires hit the globe."
+    ],
+    [
+     "Record snowfall worldwide",
+     "Not quite. The article says: Heatwaves and wildfires hit the globe."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "HEATWAVES, wildfires hit globe; Asia, Europe, US sizzle at 40°C+."
+  },
+  {
+   "article": "Discovery of the Quran",
+   "page": 8,
+   "link": "discovery-of-the-quran",
+   "q": "What should every person keep, according to the talk?",
+   "options": [
+    [
+     "A watch",
+     "Not quite. The article says: A pocket-sized Quran with translation."
+    ],
+    [
+     "A diary of complaints",
+     "Not quite. The article says: A pocket-sized Quran with translation."
+    ],
+    [
+     "A pocket-sized Quran with translation",
+     "Kept in the pocket."
+    ],
+    [
+     "A map",
+     "Not quite. The article says: A pocket-sized Quran with translation."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Every person should have a pocket-sized Quran with translation."
+  },
+  {
+   "article": "Superior Management",
+   "page": 15,
+   "link": "superior-management",
+   "q": "For what was Maulana Iqbal Umri admitted to hospital in July 2024?",
+   "options": [
+    [
+     "A broken leg",
+     "Not quite. The article says: Kidney stones."
+    ],
+    [
+     "An eye test",
+     "Not quite. The article says: Kidney stones."
+    ],
+    [
+     "Fever",
+     "Not quite. The article says: Kidney stones."
+    ],
+    [
+     "Kidney stones",
+     "He recounts insights from his surgery."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "I was suffering from kidney stones."
+  },
+  {
+   "article": "The Reality of Tazkiyah",
+   "page": 19,
+   "link": "the-reality-of-tazkiyah",
+   "q": "What is purification called in Arabic?",
+   "options": [
+    [
+     "Tazkiyah",
+     "Essential for every believer."
+    ],
+    [
+     "Hijrah",
+     "Not quite. The article says: Tazkiyah."
+    ],
+    [
+     "Zakat",
+     "Not quite. The article says: Tazkiyah."
+    ],
+    [
+     "Dawah",
+     "Not quite. The article says: Tazkiyah."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Purification, known as tazkiyah in Arabic, is essential for every believer."
+  },
+  {
+   "article": "Traditional Scholars and Modern Science",
+   "page": 22,
+   "link": "traditional-scholars-and-modern-science",
+   "q": "Which two types of verses does the Quran contain?",
+   "options": [
+    [
+     "Religious commandments, and verses about the universe and the self",
+     "A comprehensive guide."
+    ],
+    [
+     "Old and new",
+     "Not quite. The article says: Religious commandments, and verses about the universe and the self."
+    ],
+    [
+     "Long and short",
+     "Not quite. The article says: Religious commandments, and verses about the universe and the self."
+    ],
+    [
+     "Poems and stories",
+     "Not quite. The article says: Religious commandments, and verses about the universe and the self."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The first type pertains to religious commandments, while the second type relates to cosmic verses or verses about the universe and the self."
+  },
+  {
+   "article": "Nurturing Better Human Beings",
+   "page": 29,
+   "link": "nurturing-better-human-beings",
+   "q": "To what is humanity compared?",
+   "options": [
+    [
+     "A locked room",
+     "Not quite. The article says: A flowing river."
+    ],
+    [
+     "A stone wall",
+     "Not quite. The article says: A flowing river."
+    ],
+    [
+     "A desert",
+     "Not quite. The article says: A flowing river."
+    ],
+    [
+     "A flowing river",
+     "Old water flows away, making room for new."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Humanity is like a flowing river, where the old water constantly flows away, making room for new water."
+  },
+  {
+   "article": "The Greatest Deception",
+   "page": 36,
+   "link": "the-greatest-deception",
+   "q": "Which course did the young man complete before his MBA?",
+   "options": [
+    [
+     "Medicine",
+     "Not quite. The article says: Chartered Accountancy."
+    ],
+    [
+     "Law",
+     "Not quite. The article says: Chartered Accountancy."
+    ],
+    [
+     "Engineering",
+     "Not quite. The article says: Chartered Accountancy."
+    ],
+    [
+     "Chartered Accountancy",
+     "He came first in both."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A young man completed a C.A. (Chartered Accountancy) course."
+  },
+  {
+   "article": "The Virtue of Returning Good for Evil",
+   "page": 39,
+   "link": "the-virtue-of-returning-good-for-evil",
+   "q": "How does the Quran (42: 37) describe God’s beloved servants?",
+   "options": [
+    [
+     "Those who forgive when angered",
+     "True strength is controlling anger."
+    ],
+    [
+     "Those who retaliate",
+     "Not quite. The article says: Those who forgive when angered."
+    ],
+    [
+     "Those who stay silent always",
+     "Not quite. The article says: Those who forgive when angered."
+    ],
+    [
+     "Those who never feel anger",
+     "Not quite. The article says: Those who forgive when angered."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The Quran describes God’s beloved servants as those who forgive when angered."
+  },
+  {
+   "article": "The Final Realization",
+   "page": 43,
+   "link": "the-final-realization",
+   "q": "Whose son was Alexander the Great?",
+   "options": [
+    [
+     "King Philip of Macedonia",
+     "Alexandria still bears his name."
+    ],
+    [
+     "Julius Caesar",
+     "Not quite. The article says: King Philip of Macedonia."
+    ],
+    [
+     "Aristotle",
+     "Not quite. The article says: King Philip of Macedonia."
+    ],
+    [
+     "Darius of Persia",
+     "Not quite. The article says: King Philip of Macedonia."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Alexander the Great (356–323 BC), the son of King Philip of Macedonia."
+  },
+  {
+   "article": "The Final Realization",
+   "page": 43,
+   "link": "the-final-realization",
+   "q": "Which city in Egypt stands as a testament to Alexander’s victory?",
+   "options": [
+    [
+     "Suez",
+     "Not quite. The article says: Alexandria."
+    ],
+    [
+     "Luxor",
+     "Not quite. The article says: Alexandria."
+    ],
+    [
+     "Cairo",
+     "Not quite. The article says: Alexandria."
+    ],
+    [
+     "Alexandria",
+     "Despite his successes he met his end."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The city of Alexandria in Egypt still stands as a testament to his victory there."
+  }
+ ]
+}

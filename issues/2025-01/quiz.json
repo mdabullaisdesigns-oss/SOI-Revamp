@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "New Year’s Message",
+   "page": 6,
+   "link": "new-years-message",
+   "q": "Which global crisis began in February 2020?",
+   "options": [
+    [
+     "The COVID-19 pandemic",
+     "It highlighted our vulnerability."
+    ],
+    [
+     "A financial crash",
+     "Not quite. The article says: The COVID-19 pandemic."
+    ],
+    [
+     "A world war",
+     "Not quite. The article says: The COVID-19 pandemic."
+    ],
+    [
+     "A great flood",
+     "Not quite. The article says: The COVID-19 pandemic."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "In February 2020, the world faced an unprecedented challenge: the COVID-19 pandemic."
+  },
+  {
+   "article": "Steps Towards Shared Global Prosperity",
+   "page": 8,
+   "link": "steps-towards-shared-global-prosperity",
+   "q": "Which conflicts does the article mention?",
+   "options": [
+    [
+     "The Napoleonic wars",
+     "Not quite. The article says: Ukraine–Russia and Palestine–Israel."
+    ],
+    [
+     "The Crusades",
+     "Not quite. The article says: Ukraine–Russia and Palestine–Israel."
+    ],
+    [
+     "Ukraine–Russia and Palestine–Israel",
+     "A call for peace and unity."
+    ],
+    [
+     "Korea and Vietnam",
+     "Not quite. The article says: Ukraine–Russia and Palestine–Israel."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Complex challenges such as the ongoing Ukraine-Russia and Palestine-Israel conflicts."
+  },
+  {
+   "article": "The Universe as a Grand Factory",
+   "page": 13,
+   "link": "the-universe-as-a-grand-factory",
+   "q": "What does the article ask you to imagine?",
+   "options": [
+    [
+     "Reading a map",
+     "Not quite. The article says: Stepping into a meticulously organized factory."
+    ],
+    [
+     "Sailing a ship",
+     "Not quite. The article says: Stepping into a meticulously organized factory."
+    ],
+    [
+     "Stepping into a meticulously organized factory",
+     "With plaques, staff and literature explaining all."
+    ],
+    [
+     "Climbing a mountain",
+     "Not quite. The article says: Stepping into a meticulously organized factory."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Imagine stepping into a factory where everything is meticulously organized and seamlessly operational."
+  },
+  {
+   "article": "The Power of Quality in Today’s World",
+   "page": 17,
+   "link": "the-power-of-quality-in-todays-world",
+   "q": "What is one of the most remarkable gifts bestowed on humanity?",
+   "options": [
+    [
+     "Physical strength",
+     "Not quite. The article says: The extraordinary power of the mind."
+    ],
+    [
+     "Instinct",
+     "Not quite. The article says: The extraordinary power of the mind."
+    ],
+    [
+     "The extraordinary power of the mind",
+     "Dormant until we make an effort."
+    ],
+    [
+     "Long life",
+     "Not quite. The article says: The extraordinary power of the mind."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One of the most remarkable gifts bestowed upon humanity is the extraordinary power of the mind."
+  },
+  {
+   "article": "The Art of Thinking",
+   "page": 21,
+   "link": "the-art-of-thinking",
+   "q": "What is the actual target of the Quran?",
+   "options": [
+    [
+     "To change borders",
+     "Not quite. The article says: To change the thinking of an individual."
+    ],
+    [
+     "To change dress",
+     "Not quite. The article says: To change the thinking of an individual."
+    ],
+    [
+     "To change the thinking of an individual",
+     "Thinking is a person’s greatest action."
+    ],
+    [
+     "To change rulers",
+     "Not quite. The article says: To change the thinking of an individual."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The actual target of the Book of God (the Quran) is to change the thinking of an individual."
+  },
+  {
+   "article": "Adjustment in Married Life",
+   "page": 23,
+   "link": "adjustment-in-married-life",
+   "q": "What is the key to a successful married life?",
+   "options": [
+    [
+     "Adjustment – for a higher purpose",
+     "To create a harmonious environment."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Adjustment – for a higher purpose."
+    ],
+    [
+     "Winning arguments",
+     "Not quite. The article says: Adjustment – for a higher purpose."
+    ],
+    [
+     "Living apart",
+     "Not quite. The article says: Adjustment – for a higher purpose."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Adjustment is the key to a successful married life."
+  },
+  {
+   "article": "Religious Differences",
+   "page": 26,
+   "link": "religious-differences",
+   "q": "What does a comparative study of religions reveal?",
+   "options": [
+    [
+     "That all are identical",
+     "Not quite. The article says: Distinct differences among them."
+    ],
+    [
+     "That none has beliefs",
+     "Not quite. The article says: Distinct differences among them."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: Distinct differences among them."
+    ],
+    [
+     "Distinct differences among them",
+     "Such as monism and monotheism."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "A comparative study of various religions reveals distinct differences among them."
+  },
+  {
+   "article": "The Evolution of Anesthesia",
+   "page": 35,
+   "link": "the-evolution-of-anesthesia",
+   "q": "Which substance did Dr. Simpson study for anesthesia?",
+   "options": [
+    [
+     "Quinine",
+     "Not quite. The article says: Chloroform."
+    ],
+    [
+     "Aspirin",
+     "Not quite. The article says: Chloroform."
+    ],
+    [
+     "Penicillin",
+     "Not quite. The article says: Chloroform."
+    ],
+    [
+     "Chloroform",
+     "From Maulana’s book Secret of Success."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Dr. Simpson had learnt that chloroform possessed certain properties."
+  },
+  {
+   "article": "Transforming Challenges into Opportunities",
+   "page": 46,
+   "link": "transforming-challenges-into-opportunities",
+   "q": "To what is life likened?",
+   "options": [
+    [
+     "A journey full of twists and turns",
+     "Needing a skilled driver’s care."
+    ],
+    [
+     "A closed room",
+     "Not quite. The article says: A journey full of twists and turns."
+    ],
+    [
+     "A straight road",
+     "Not quite. The article says: A journey full of twists and turns."
+    ],
+    [
+     "A still pond",
+     "Not quite. The article says: A journey full of twists and turns."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Life is akin to a journey, full of twists and turns."
+  },
+  {
+   "article": "Your Questions Answered",
+   "page": 48,
+   "link": "your-questions-answered",
+   "q": "What does religion teach about death?",
+   "options": [
+    [
+     "It is the end of everything",
+     "Not quite. The article says: It is the beginning of a new phase, not the end."
+    ],
+    [
+     "It is an illusion",
+     "Not quite. The article says: It is the beginning of a new phase, not the end."
+    ],
+    [
+     "It is the beginning of a new phase, not the end",
+     "Humans are created as eternal beings."
+    ],
+    [
+     "It is a punishment only",
+     "Not quite. The article says: It is the beginning of a new phase, not the end."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Death is not the end of life but rather the beginning of a new phase."
+  }
+ ]
+}

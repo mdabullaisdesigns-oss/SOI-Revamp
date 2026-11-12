@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Character of a True Man",
+   "page": 5,
+   "link": "character-of-a-true-man",
+   "q": "Which book did Robert Greene introduce in a short video?",
+   "options": [
+    [
+     "Option B",
+     "Not quite. The article says: The Laws of Human Nature."
+    ],
+    [
+     "The Law of Success",
+     "Not quite. The article says: The Laws of Human Nature."
+    ],
+    [
+     "Self-Help",
+     "Not quite. The article says: The Laws of Human Nature."
+    ],
+    [
+     "The Laws of Human Nature",
+     "He has written five best-sellers."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In a short video, he introduced his book The Laws of Human Nature."
+  },
+  {
+   "article": "Selections from Maulana’s Diary",
+   "page": 8,
+   "link": "selections-from-maulanas-diary",
+   "q": "Who visited Maulana’s office with Nazrul Islam Sahib?",
+   "options": [
+    [
+     "A cricket captain",
+     "Not quite. The article says: Mr Bhika Ram, an MLA."
+    ],
+    [
+     "A film actor",
+     "Not quite. The article says: Mr Bhika Ram, an MLA."
+    ],
+    [
+     "Mr Bhika Ram, an MLA",
+     "They had a fruitful discussion."
+    ],
+    [
+     "A foreign minister",
+     "Not quite. The article says: Mr Bhika Ram, an MLA."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Mr Bhika Ram (b. 1942) is an MLA in the Uttar Pradesh Legislative Assembly. He came to our office this morning."
+  },
+  {
+   "article": "Glorifying God",
+   "page": 12,
+   "link": "glorifying-god",
+   "q": "What led the writer to a country with a rich royal history?",
+   "options": [
+    [
+     "An invitation to a conference",
+     "Its palaces echoed a bygone era."
+    ],
+    [
+     "A holiday",
+     "Not quite. The article says: An invitation to a conference."
+    ],
+    [
+     "A business deal",
+     "Not quite. The article says: An invitation to a conference."
+    ],
+    [
+     "A pilgrimage",
+     "Not quite. The article says: An invitation to a conference."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "I had the privilege of receiving an invitation to participate in a conference."
+  },
+  {
+   "article": "The Transient Nature of Life",
+   "page": 16,
+   "link": "the-transient-nature-of-life",
+   "q": "Where is the ultimate abode of human beings, according to the Quran?",
+   "options": [
+    [
+     "The eternal world of Paradise",
+     "The current world is temporary."
+    ],
+    [
+     "The grave",
+     "Not quite. The article says: The eternal world of Paradise."
+    ],
+    [
+     "This world",
+     "Not quite. The article says: The eternal world of Paradise."
+    ],
+    [
+     "Nowhere",
+     "Not quite. The article says: The eternal world of Paradise."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Human beings, according to the Quran, have their ultimate abode in the eternal world of Paradise."
+  },
+  {
+   "article": "Hatred",
+   "page": 19,
+   "link": "hatred",
+   "q": "To what did a Western psychologist liken hatred?",
+   "options": [
+    [
+     "A sharp sword",
+     "Not quite. The article says: A corrosive acid that harms its container most."
+    ],
+    [
+     "A corrosive acid that harms its container most",
+     "More than its target."
+    ],
+    [
+     "A healing medicine",
+     "Not quite. The article says: A corrosive acid that harms its container most."
+    ],
+    [
+     "A cool breeze",
+     "Not quite. The article says: A corrosive acid that harms its container most."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Likened hatred to a corrosive acid … it inflicts greater harm upon the container than upon the intended target."
+  },
+  {
+   "article": "Unity and Harmony",
+   "page": 21,
+   "link": "unity-and-harmony",
+   "q": "What is one of the stark realities of life?",
+   "options": [
+    [
+     "All people agree",
+     "Not quite. The article says: Divergence of views exists between human beings."
+    ],
+    [
+     "Views never matter",
+     "Not quite. The article says: Divergence of views exists between human beings."
+    ],
+    [
+     "Differences can be abolished",
+     "Not quite. The article says: Divergence of views exists between human beings."
+    ],
+    [
+     "Divergence of views exists between human beings",
+     "The question is how to forge unity."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Divergence of views does exist between human beings."
+  },
+  {
+   "article": "The Culture of Materialism",
+   "page": 28,
+   "link": "the-culture-of-materialism",
+   "q": "What is the prevailing ideological force of our times?",
+   "options": [
+    [
+     "Philosophy",
+     "Not quite. The article says: Materialism."
+    ],
+    [
+     "Materialism",
+     "The pursuit of wealth."
+    ],
+    [
+     "Chivalry",
+     "Not quite. The article says: Materialism."
+    ],
+    [
+     "Asceticism",
+     "Not quite. The article says: Materialism."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The prevailing ideological force of our times is ‘materialism’."
+  },
+  {
+   "article": "Learning from the Prophet Muhammad",
+   "page": 30,
+   "link": "learning-from-the-prophet-muhammad",
+   "q": "What do the sayings of the Prophet serve as?",
+   "options": [
+    [
+     "Gems of wisdom for humankind",
+     "Elaborated by Maulana Wahiduddin Khan."
+    ],
+    [
+     "Rules for traders only",
+     "Not quite. The article says: Gems of wisdom for humankind."
+    ],
+    [
+     "Legends",
+     "Not quite. The article says: Gems of wisdom for humankind."
+    ],
+    [
+     "Poems",
+     "Not quite. The article says: Gems of wisdom for humankind."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Sayings of the Prophet Muhammad serve as gems of wisdom for humankind."
+  },
+  {
+   "article": "Unyielding Love and Vision",
+   "page": 36,
+   "link": "unyielding-love-and-vision",
+   "q": "What struck Maulana on returning to Delhi from developed nations?",
+   "options": [
+    [
+     "The fine weather",
+     "Not quite. The article says: The stark contrast between the two worlds."
+    ],
+    [
+     "The new airport only",
+     "Not quite. The article says: The stark contrast between the two worlds."
+    ],
+    [
+     "That nothing differed",
+     "Not quite. The article says: The stark contrast between the two worlds."
+    ],
+    [
+     "The stark contrast between the two worlds",
+     "A poignant reflection."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "He was struck by the stark contrast between the two worlds."
+  },
+  {
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "By what does the passage swear?",
+   "options": [
+    [
+     "The fig and the olive",
+     "Not quite. The article says: The night, the day, and the creation of male and female."
+    ],
+    [
+     "The pen",
+     "Not quite. The article says: The night, the day, and the creation of male and female."
+    ],
+    [
+     "The night, the day, and the creation of male and female",
+     "“You strive towards the most diverse ends!”"
+    ],
+    [
+     "The dawn and ten nights",
+     "Not quite. The article says: The night, the day, and the creation of male and female."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "By the night as it veils [the earth] in darkness, and by the day as it appears radiantly, and by the creation of the male and the female."
+  }
+ ]
+}

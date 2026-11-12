@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "I Was Important",
+   "page": 5,
+   "link": "i-was-important",
+   "q": "Who was Mir Taqi Mir?",
+   "options": [
+    [
+     "An English historian",
+     "Not quite. The article says: An Urdu poet and pioneer of the Urdu language."
+    ],
+    [
+     "A Mughal general",
+     "Not quite. The article says: An Urdu poet and pioneer of the Urdu language."
+    ],
+    [
+     "An Urdu poet and pioneer of the Urdu language",
+     "Remembered as one of its best poets."
+    ],
+    [
+     "A Persian king",
+     "Not quite. The article says: An Urdu poet and pioneer of the Urdu language."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Mir Taqi Mir (1723-1810) was an Indian Urdu poet and one of the pioneers who gave shape to the Urdu language itself."
+  },
+  {
+   "article": "The Japan Experience",
+   "page": 8,
+   "link": "the-japan-experience",
+   "q": "How do the Japanese seem to feel towards the Americans after 1945?",
+   "options": [
+    [
+     "They bear no grudge",
+     "Saying America only reacted to Japan’s violence."
+    ],
+    [
+     "A wish for revenge",
+     "Not quite. The article says: They bear no grudge."
+    ],
+    [
+     "Indifference to rebuilding",
+     "Not quite. The article says: They bear no grudge."
+    ],
+    [
+     "Lasting hatred",
+     "Not quite. The article says: They bear no grudge."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Strangely enough, the Japanese seem to bear no grudge against the Americans."
+  },
+  {
+   "article": "Invoking God’s Infinite Mercy",
+   "page": 10,
+   "link": "invoking-gods-infinite-mercy",
+   "q": "Upon whom is the grace to pray with God’s great name bestowed?",
+   "options": [
+    [
+     "One who experiences the greatness of God before praying",
+     "There is no mystery about it."
+    ],
+    [
+     "Everyone alike",
+     "Not quite. The article says: One who experiences the greatness of God before praying."
+    ],
+    [
+     "One who prays loudest",
+     "Not quite. The article says: One who experiences the greatness of God before praying."
+    ],
+    [
+     "One who is wealthy",
+     "Not quite. The article says: One who experiences the greatness of God before praying."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Such grace is bestowed only upon one who experiences the greatness of God before setting himself to pray."
+  },
+  {
+   "article": "Death: The Inevitable Event",
+   "page": 13,
+   "link": "death-the-inevitable-event",
+   "q": "What are people driven by, according to the article?",
+   "options": [
+    [
+     "The thought of death",
+     "Not quite. The article says: Trying to fulfil unlimited desires."
+    ],
+    [
+     "Trying to fulfil unlimited desires",
+     "Busy with all sorts of things."
+    ],
+    [
+     "Love of learning",
+     "Not quite. The article says: Trying to fulfil unlimited desires."
+    ],
+    [
+     "Service to others",
+     "Not quite. The article says: Trying to fulfil unlimited desires."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "They are all driven with the purpose of trying to fulfil unlimited desires."
+  },
+  {
+   "article": "There Is Gain in Loss",
+   "page": 15,
+   "link": "there-is-gain-in-loss",
+   "q": "What ought a person not to do, according to the Quran (57: 23)?",
+   "options": [
+    [
+     "Plan ahead",
+     "Not quite. The article says: Grieve over what has escaped him."
+    ],
+    [
+     "Grieve over what has escaped him",
+     "Essential for a successful life."
+    ],
+    [
+     "Give thanks",
+     "Not quite. The article says: Grieve over what has escaped him."
+    ],
+    [
+     "Work hard",
+     "Not quite. The article says: Grieve over what has escaped him."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "A person ought not to grieve over what has escaped him."
+  },
+  {
+   "article": "Fighting Frustration",
+   "page": 21,
+   "link": "fighting-frustration",
+   "q": "What was the girl in the story particularly keen on learning?",
+   "options": [
+    [
+     "Painting",
+     "Not quite. The article says: English."
+    ],
+    [
+     "English",
+     "Though denied a convent school."
+    ],
+    [
+     "Mathematics",
+     "Not quite. The article says: English."
+    ],
+    [
+     "Music",
+     "Not quite. The article says: English."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "She was particularly keen on learning English."
+  },
+  {
+   "article": "The Message and Meaning of Hajj",
+   "page": 23,
+   "link": "the-message-and-meaning-of-hajj",
+   "q": "How long does Hajj last, and how wide are its lessons?",
+   "options": [
+    [
+     "A few days – with a much broader significance",
+     "A guide for the whole of life."
+    ],
+    [
+     "A month – for scholars only",
+     "Not quite. The article says: A few days – with a much broader significance."
+    ],
+    [
+     "A day – for travellers only",
+     "Not quite. The article says: A few days – with a much broader significance."
+    ],
+    [
+     "A year – with no lessons",
+     "Not quite. The article says: A few days – with a much broader significance."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Although Hajj lasts for just a few days, the lessons it provides have a much broader significance."
+  },
+  {
+   "article": "Superior Morality",
+   "page": 27,
+   "link": "superior-morality",
+   "q": "On what is superior morality based?",
+   "options": [
+    [
+     "One’s own higher principles, not others’ reactions",
+     "Good ethics in every situation."
+    ],
+    [
+     "Reward",
+     "Not quite. The article says: One’s own higher principles, not others’ reactions."
+    ],
+    [
+     "How others behave",
+     "Not quite. The article says: One’s own higher principles, not others’ reactions."
+    ],
+    [
+     "Public praise",
+     "Not quite. The article says: One’s own higher principles, not others’ reactions."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Superior morality is not based on the reactions of others, but rather on one’s own higher principles and standards."
+  },
+  {
+   "article": "Interview with Maulana Wahiduddin Khan",
+   "page": 35,
+   "link": "interview-with-maulana-wahiduddin-khan",
+   "q": "To what does Maulana compare the need for reading?",
+   "options": [
+    [
+     "Travel",
+     "Not quite. The article says: Food – reading is necessary for mental existence."
+    ],
+    [
+     "Sleep",
+     "Not quite. The article says: Food – reading is necessary for mental existence."
+    ],
+    [
+     "Food – reading is necessary for mental existence",
+     "As food is for the body."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Food – reading is necessary for mental existence."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "If food is necessary for physical existence, then reading is necessary for mental existence."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "For what were the heavens and the earth created?",
+   "options": [
+    [
+     "For ever",
+     "Not quite. The article says: For just ends, and for a specific term."
+    ],
+    [
+     "For just ends, and for a specific term",
+     "“This Book is sent down from God.”"
+    ],
+    [
+     "For play",
+     "Not quite. The article says: For just ends, and for a specific term."
+    ],
+    [
+     "Without purpose",
+     "Not quite. The article says: For just ends, and for a specific term."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "We created the heavens and the earth and all that lies between them purely for just ends, and for a specific term."
+  }
+ ]
+}

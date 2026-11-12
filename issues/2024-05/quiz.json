@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Address of Paradise",
+   "page": 5,
+   "link": "address-of-paradise",
+   "q": "Where does Paradise lie, in the famous saying of the Prophet?",
+   "options": [
+    [
+     "Beyond the seas",
+     "Not quite. The article says: Under the feet of the mother."
+    ],
+    [
+     "In a palace",
+     "Not quite. The article says: Under the feet of the mother."
+    ],
+    [
+     "Under the feet of the mother",
+     "The article explains its true meaning."
+    ],
+    [
+     "On a mountain",
+     "Not quite. The article says: Under the feet of the mother."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Paradise lies under the feet of the mother."
+  },
+  {
+   "article": "A Lesson in Simplicity",
+   "page": 8,
+   "link": "a-lesson-in-simplicity",
+   "q": "From what is the article taken?",
+   "options": [
+    [
+     "A newspaper editorial",
+     "Not quite. The article says: Maulana Wahiduddin Khan’s Diary, May 20, 1986."
+    ],
+    [
+     "A film script",
+     "Not quite. The article says: Maulana Wahiduddin Khan’s Diary, May 20, 1986."
+    ],
+    [
+     "Maulana Wahiduddin Khan’s Diary, May 20, 1986",
+     "The tenth day of Ramadan."
+    ],
+    [
+     "A school textbook",
+     "Not quite. The article says: Maulana Wahiduddin Khan’s Diary, May 20, 1986."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The following article is taken from Maulana Wahiduddin Khan’s Diary, May 20, 1986."
+  },
+  {
+   "article": "A Non-Verbal Message",
+   "page": 11,
+   "link": "a-non-verbal-message",
+   "q": "What did the student from Rajasthan do after failing a third time?",
+   "options": [
+    [
+     "He gave a speech",
+     "Not quite. The article says: He left home, too ashamed to show his face."
+    ],
+    [
+     "He became a teacher",
+     "Not quite. The article says: He left home, too ashamed to show his face."
+    ],
+    [
+     "He left home, too ashamed to show his face",
+     "A lesson followed."
+    ],
+    [
+     "He passed at once",
+     "Not quite. The article says: He left home, too ashamed to show his face."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "He was so ashamed of his performance that he left his home."
+  },
+  {
+   "article": "Three Types of People",
+   "page": 13,
+   "link": "three-types-of-people",
+   "q": "Who is the highest-ranking individual, from the religious point of view?",
+   "options": [
+    [
+     "The strongest",
+     "Not quite. The article says: One who goes in constant fear of his Lord."
+    ],
+    [
+     "The wealthiest",
+     "Not quite. The article says: One who goes in constant fear of his Lord."
+    ],
+    [
+     "One who goes in constant fear of his Lord",
+     "Living as if God were watching."
+    ],
+    [
+     "The most famous",
+     "Not quite. The article says: One who goes in constant fear of his Lord."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One who goes in constant fear of his Lord, turning to Him in all matters."
+  },
+  {
+   "article": "The Spirit of Hajj",
+   "page": 16,
+   "link": "the-spirit-of-hajj",
+   "q": "What is Hajj among the pillars of Islam?",
+   "options": [
+    [
+     "A festival only",
+     "Not quite. The article says: One of the five foundation pillars."
+    ],
+    [
+     "A sixth pillar",
+     "Not quite. The article says: One of the five foundation pillars."
+    ],
+    [
+     "An optional custom",
+     "Not quite. The article says: One of the five foundation pillars."
+    ],
+    [
+     "One of the five foundation pillars",
+     "Incumbent once in a lifetime for those with means."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Hajj (pilgrimage) is one important pillar among the five foundation pillars of Islam."
+  },
+  {
+   "article": "Silence",
+   "page": 20,
+   "link": "silence",
+   "q": "How many ears and tongues has the Creator given man, as the wise man noted?",
+   "options": [
+    [
+     "Two of each",
+     "Not quite. The article says: Two ears, one tongue."
+    ],
+    [
+     "One of each",
+     "Not quite. The article says: Two ears, one tongue."
+    ],
+    [
+     "One ear, two tongues",
+     "Not quite. The article says: Two ears, one tongue."
+    ],
+    [
+     "Two ears, one tongue",
+     "To listen more than we speak."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“The Creator of the world has given man two ears, but just one tongue.”"
+  },
+  {
+   "article": "Water as Spiritual Nourishment",
+   "page": 29,
+   "link": "water-as-spiritual-nourishment",
+   "q": "What would the Earth become without water?",
+   "options": [
+    [
+     "Warmer and better",
+     "Not quite. The article says: Barren like other planets."
+    ],
+    [
+     "Barren like other planets",
+     "Water is a great boon."
+    ],
+    [
+     "Greener",
+     "Not quite. The article says: Barren like other planets."
+    ],
+    [
+     "Unchanged",
+     "Not quite. The article says: Barren like other planets."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In the absence of water, the Earth would become barren like other planets."
+  },
+  {
+   "article": "Play Your Part in Conserving Water",
+   "page": 31,
+   "link": "play-your-part-in-conserving-water",
+   "q": "What does Coleridge’s sailor suffer?",
+   "options": [
+    [
+     "He is surrounded by water but cannot drink it",
+     "“Nor any drop to drink!”"
+    ],
+    [
+     "He is lost in a desert",
+     "Not quite. The article says: He is surrounded by water but cannot drink it."
+    ],
+    [
+     "He cannot swim",
+     "Not quite. The article says: He is surrounded by water but cannot drink it."
+    ],
+    [
+     "He has no ship",
+     "Not quite. The article says: He is surrounded by water but cannot drink it."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The agony of a sailor who is surrounded by water but cannot drink it."
+  },
+  {
+   "article": "Memories of Maulana",
+   "page": 36,
+   "link": "memories-of-maulana",
+   "q": "Which bird’s call does the writer recall in April?",
+   "options": [
+    [
+     "The peacock",
+     "Not quite. The article says: The koel."
+    ],
+    [
+     "The koel",
+     "Reminding one of exam times."
+    ],
+    [
+     "The crow",
+     "Not quite. The article says: The koel."
+    ],
+    [
+     "The eagle",
+     "Not quite. The article says: The koel."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "One can hear the call of the koel, reminding one of those ‘exam times’."
+  },
+  {
+   "article": "The Word of God",
+   "page": 44,
+   "link": "the-word-of-god",
+   "q": "How should the Quran be recited at night?",
+   "options": [
+    [
+     "Slowly and distinctly",
+     "“Stand up to pray for much of the night.”"
+    ],
+    [
+     "Silently only",
+     "Not quite. The article says: Slowly and distinctly."
+    ],
+    [
+     "Once a year",
+     "Not quite. The article says: Slowly and distinctly."
+    ],
+    [
+     "Quickly",
+     "Not quite. The article says: Slowly and distinctly."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Recite the Quran slowly and distinctly."
+  }
+ ]
+}

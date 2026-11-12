@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Realizing the True Purpose in Life",
+   "page": 5,
+   "link": "realizing-the-true-purpose-in-life",
+   "q": "Can a life of working, earning and building be called purposeful?",
+   "options": [
+    [
+     "No – these activities do not make a life truly purposeful",
+     "Though they seem worthy."
+    ],
+    [
+     "Only in youth",
+     "Not quite. The article says: No – these activities do not make a life truly purposeful."
+    ],
+    [
+     "Yes, fully",
+     "Not quite. The article says: No – these activities do not make a life truly purposeful."
+    ],
+    [
+     "Only if one is rich",
+     "Not quite. The article says: No – these activities do not make a life truly purposeful."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A life of this nature cannot be called a purposeful life."
+  },
+  {
+   "article": "Pune Diaries",
+   "page": 8,
+   "link": "pune-diaries",
+   "q": "On what date was the author due to travel from Delhi to Poona?",
+   "options": [
+    [
+     "January 1, 2000",
+     "Not quite. The article says: March 19, 1986."
+    ],
+    [
+     "March 19, 1986",
+     "The flight was delayed at the last moment."
+    ],
+    [
+     "June 5, 2010",
+     "Not quite. The article says: March 19, 1986."
+    ],
+    [
+     "August 15, 1947",
+     "Not quite. The article says: March 19, 1986."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "On the evening of March 19, 1986, I was due to travel from Delhi to Poona."
+  },
+  {
+   "article": "God’s Signs",
+   "page": 15,
+   "link": "gods-signs",
+   "q": "For whom are there signs in the heavens and the earth?",
+   "options": [
+    [
+     "No one",
+     "Not quite. The article says: Those who believe."
+    ],
+    [
+     "Only astronomers",
+     "Not quite. The article says: Those who believe."
+    ],
+    [
+     "Those who believe",
+     "In your own creation and all creatures."
+    ],
+    [
+     "Kings",
+     "Not quite. The article says: Those who believe."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“There are signs in the heavens and the earth for those who believe.”"
+  },
+  {
+   "article": "After Maulana",
+   "page": 16,
+   "link": "after-maulana",
+   "q": "Whose residence did the writer reach on October 4, 2022?",
+   "options": [
+    [
+     "A hospital",
+     "Not quite. The article says: Maulana Wahiduddin Khan’s, in Nizamuddin West."
+    ],
+    [
+     "The President’s",
+     "Not quite. The article says: Maulana Wahiduddin Khan’s, in Nizamuddin West."
+    ],
+    [
+     "Maulana Wahiduddin Khan’s, in Nizamuddin West",
+     "Dr Farida Khanam called him upstairs."
+    ],
+    [
+     "A school",
+     "Not quite. The article says: Maulana Wahiduddin Khan’s, in Nizamuddin West."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "I reached the residence of Maulana Wahiduddin Khan (Nizamuddin West, New Delhi)."
+  },
+  {
+   "article": "Woman’s Position in Islam",
+   "page": 26,
+   "link": "womans-position-in-islam",
+   "q": "Which rite of the pilgrimage symbolises the honour Islam accords to woman?",
+   "options": [
+    [
+     "Stoning",
+     "Not quite. The article says: Sa’i."
+    ],
+    [
+     "Shaving the head",
+     "Not quite. The article says: Sa’i."
+    ],
+    [
+     "Sa’i",
+     "Recalling Hajira’s search."
+    ],
+    [
+     "Tawaf",
+     "Not quite. The article says: Sa’i."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The honourable position accorded by Islam to woman is symbolically demonstrated by the performance of the rite of sa’i."
+  },
+  {
+   "article": "Acknowledging the Role of Prof Farida Khanam",
+   "page": 27,
+   "link": "acknowledging-the-role-of-prof-farida-khanam",
+   "q": "Where was Prof Farida Khanam born?",
+   "options": [
+    [
+     "Azamgarh",
+     "On May 2, 1952."
+    ],
+    [
+     "Lucknow",
+     "Not quite. The article says: Azamgarh."
+    ],
+    [
+     "Delhi",
+     "Not quite. The article says: Azamgarh."
+    ],
+    [
+     "Bengaluru",
+     "Not quite. The article says: Azamgarh."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "She was born on May 2, 1952, in Azamgarh."
+  },
+  {
+   "article": "Islam and Peace",
+   "page": 33,
+   "link": "islam-and-peace",
+   "q": "To what does God call man (10: 25)?",
+   "options": [
+    [
+     "The marketplace",
+     "Not quite. The article says: The home of peace."
+    ],
+    [
+     "The battlefield",
+     "Not quite. The article says: The home of peace."
+    ],
+    [
+     "The palace",
+     "Not quite. The article says: The home of peace."
+    ],
+    [
+     "The home of peace",
+     "The goal of Islam is peace."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“God calls man to the home of peace, and He guides whom He wills to a straight path.”"
+  },
+  {
+   "article": "Staying Cool",
+   "page": 38,
+   "link": "staying-cool",
+   "q": "What is the most delicate part of a space journey?",
+   "options": [
+    [
+     "The radio check",
+     "Not quite. The article says: The return to the earth’s atmosphere."
+    ],
+    [
+     "The meal times",
+     "Not quite. The article says: The return to the earth’s atmosphere."
+    ],
+    [
+     "The launch countdown",
+     "Not quite. The article says: The return to the earth’s atmosphere."
+    ],
+    [
+     "The return to the earth’s atmosphere",
+     "As with Apollo-8."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The most delicate and treacherous part of space journeys is when the spacecraft returns to the earth’s atmosphere."
+  },
+  {
+   "article": "The Night of Destiny",
+   "page": 45,
+   "link": "the-night-of-destiny",
+   "q": "When may the Night of Destiny fall?",
+   "options": [
+    [
+     "Perhaps in the last days of Ramadan",
+     "A night of decisions by God."
+    ],
+    [
+     "Every Friday",
+     "Not quite. The article says: Perhaps in the last days of Ramadan."
+    ],
+    [
+     "Mid-winter",
+     "Not quite. The article says: Perhaps in the last days of Ramadan."
+    ],
+    [
+     "The first day of the year",
+     "Not quite. The article says: Perhaps in the last days of Ramadan."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A particular night of the year (perhaps some night in the last days of the month of Ramadan) is the night of decisions by God."
+  },
+  {
+   "article": "International Women’s Day Special",
+   "page": 20,
+   "link": "international-womens-day-special",
+   "q": "How does the writer describe herself as a girl?",
+   "options": [
+    [
+     "Athletic",
+     "Not quite. The article says: Shy and reserved."
+    ],
+    [
+     "Shy and reserved",
+     "Nervous about meeting people."
+    ],
+    [
+     "Fearless",
+     "Not quite. The article says: Shy and reserved."
+    ],
+    [
+     "Outspoken",
+     "Not quite. The article says: Shy and reserved."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "I’ve always been a shy and reserved girl, very emotional and not really into socializing."
+  }
+ ]
+}
