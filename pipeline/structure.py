@@ -666,7 +666,7 @@ def main():
 
         def lig(m):
             joined, pair = (m.group(1) + m.group(2)).lower(), (m.group(1) + " " + m.group(2)).lower()
-            if joined in vocab2 and (pair not in low or spaced >= 15):
+            if (joined in vocab2 and (pair not in low or spaced >= 15)) or (spaced >= 15 and m.group(1).lower() not in vocab2):
                 fixed[m.group(1) + m.group(2)] += 1
                 return m.group(1) + m.group(2)
             return m.group(0)

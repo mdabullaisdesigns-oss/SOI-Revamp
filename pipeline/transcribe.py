@@ -12,6 +12,7 @@ Usage: python3 pipeline/transcribe.py <slug> [--model small.en]
 Needs: pip install faster-whisper
 """
 import json, os, subprocess, sys, tempfile, urllib.request
+import numpy as np
 
 slug = sys.argv[1]
 model_name = sys.argv[sys.argv.index("--model") + 1] if "--model" in sys.argv else "small.en"
@@ -34,7 +35,11 @@ for aid, a in src.items():
         json.dump({"url": url, "error": str(e)}, open(out, "w"))
         print(f"{slug} {aid}: DOWNLOAD FAILED {e}", flush=True)
         continue
-    segs, info = model.transcribe(f, language="en", word_timestamps=True, vad_filter=True, beam_size=1,
+    # decode with ffmpeg ourselves (16 kHz mono) - independent of the audio library the model ships with
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"],
+                         capture_output=True, check=True).stdout
+    pcm = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+    segs, info = model.transcribe(pcm, language="en", word_timestamps=True, vad_filter=True, beam_size=1,
                                   condition_on_previous_text=False)
     words = [[w.word.strip(), round(w.start, 2), round(w.end, 2)] for s in segs for w in s.words]
     json.dump({"url": url, "duration": round(info.duration, 1), "bytes": os.path.getsize(f), "model": model_name, "words": words},

@@ -33,7 +33,12 @@ jobs:
         slug: ${{ fromJson(needs.list.outputs.slugs) }}
     steps:
       - uses: actions/checkout@v4
-      - run: pip install -q faster-whisper
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -q faster-whisper numpy
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - run: python3 pipeline/transcribe.py "${{ matrix.slug }}"
       - name: Commit
         run: |
