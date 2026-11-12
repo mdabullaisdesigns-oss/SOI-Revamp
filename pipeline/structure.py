@@ -162,10 +162,32 @@ def build_units(page, overrides, joiner):
         pitch = statistics.median([b["lines"][i + 1]["bb"][1] - b["lines"][i]["bb"][1]
                                    for i in range(len(b["lines"]) - 1)] or [12.5]) or 12.5
         pitch = max(pitch, 9.0)
-        for l in b["lines"]:
-            if not l["t"].strip():
+        lines = [l for l in b["lines"] if l["t"].strip()]
+        roles = [forced.get(b["id"]) or line_role(l, page["h"]) for l in lines]
+        demoted = {}                                 # line -> length of the bold lead-in that ends in body text
+        for li in range(len(lines) - 2, -1, -1):     # bold words that run on into the paragraph are not a heading
+            l, nx = lines[li], lines[li + 1]
+            if roles[li] not in ("subhead", "signoff") or b["id"] in forced \
+                    or not 0 <= nx["bb"][1] - l["bb"][1] <= 1.38 * pitch:
                 continue
-            role = forced.get(b["id"]) or line_role(l, page["h"])
+            mine = next((st for st, tx in (l.get("runs") or []) if tx.strip()), "")
+            nrs = [(st, tx) for st, tx in (nx.get("runs") or []) if tx.strip()]
+            plain_words = " ".join(tx for st, tx in nrs if "b" not in st)
+            if li + 1 in demoted and demoted[li + 1] < 3:
+                demoted[li] = demoted[li + 1] + 1    # at most three lines: a longer bold passage is a verse
+            elif roles[li + 1] == "body" and nrs and nrs[0][0] == mine and re.search(r"[A-Za-z]{2}", plain_words):
+                demoted[li] = 1                      # (bold then only a reference number = end of a verse)
+            elif roles[li + 1] == "body" and roles[li] == "subhead" and l["t"].rstrip().endswith(":"):
+                demoted[li] = 3
+        for li in sorted(demoted):                   # ...but not when the bold passage began even earlier
+            if li and li - 1 not in demoted and roles[li - 1] == roles[li] and lines[li]["bb"][1] - lines[li - 1]["bb"][1] <= 1.38 * pitch:
+                k = li
+                while k in demoted:
+                    del demoted[k]
+                    k += 1
+        for li in demoted:
+            roles[li] = "body"
+        for l, role in zip(lines, roles):
             new = cur is None or cur["role"] != role or (l["bb"][1] - cur["lines"][-1]["bb"][1]) > 1.38 * pitch \
                 or role in ("dropcap", "endmark")
             if new:
@@ -492,9 +514,17 @@ def main():
         if body and sum(i["k"] == "quote" for i in body) > 0.6 * len(body):
             for i in body:
                 i["k"] = "p"                         # an article set wholly in italics is still body text
-        for i in a["items"]:
-            if i["k"] in ("p", "bio", "quote") and re.search(r"remedy for ignorance", plain(i["runs"]), re.I):
+        for n, i in enumerate(a["items"]):           # the recurring Q&A opening -> "Before we begin" box
+            if i["k"] in ("p", "bio", "quote", "qh") and re.search(r"remedy for ignorance", plain(i["runs"]), re.I):
                 i["k"] = "qa_intro"
+                nxt = a["items"][n + 1] if n + 1 < len(a["items"]) else None
+                if nxt and "spirit of enquiry" not in plain(i["runs"]).lower() \
+                        and re.match(r"\s*The spirit of enquiry", plain(nxt["runs"])):
+                    i["runs"][-1][1] = i["runs"][-1][1].rstrip() + " "   # saying and its explanation are one passage
+                    i["runs"] += nxt["runs"]
+                    i["ids"] += nxt["ids"]
+                    a["items"].pop(n + 1)
+                break
         if a["type"] == "scripture":
             for i in a["items"]:
                 if re.search(r"^In the name of God", plain(i["runs"])):

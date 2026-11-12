@@ -5,3 +5,4 @@ soi-archive/
 *.zip
 .DS_Store
 issues/*/preview.html
+__pycache__/

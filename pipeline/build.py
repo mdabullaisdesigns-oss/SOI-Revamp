@@ -160,7 +160,8 @@ def render_article(a, audio, photo, player_tpl):
         elif k == "h":
             body.append(f'<h3 class="ev-h">{spans(runs, times, emphasis=False)}</h3>')
         elif k == "qh":
-            body.append(f'<h3 class="ev-qh">{spans(runs, times, emphasis=False)}</h3>')
+            # one wrapper: the heading is a flex row, so bare sentence spans would sit side by side as columns
+            body.append(f'<h3 class="ev-qh"><span>{spans(runs, times, emphasis=False)}</span></h3>')
         elif k in ("quote", "ayah"):
             body.append(f'<blockquote class="ev-ayah">{spans(runs, times, emphasis=False)}</blockquote>')
         elif k == "bismillah":

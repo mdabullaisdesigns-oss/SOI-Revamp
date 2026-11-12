@@ -11,7 +11,7 @@
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "2",
+    "score": "0",
     "overflow": 0
    }
   },
@@ -25,46 +25,28 @@
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "4",
+    "score": "1",
     "overflow": 0
    }
   },
   "390": {
    "errors": [],
    "tabs": 26,
-   "bad_tabs": [
-    {
-     "id": "soi-your-questions-answered",
-     "open": 1,
-     "mine": true,
-     "top": 137,
-     "over": 0,
-     "wide": 1
-    }
-   ],
+   "bad_tabs": [],
    "overflow_closed": 0,
    "overflow_open": 0,
    "gotop": true,
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "2",
+    "score": "3",
     "overflow": 0
    }
   },
   "320": {
    "errors": [],
    "tabs": 26,
-   "bad_tabs": [
-    {
-     "id": "soi-your-questions-answered",
-     "open": 1,
-     "mine": true,
-     "top": 137,
-     "over": 0,
-     "wide": 2
-    }
-   ],
+   "bad_tabs": [],
    "overflow_closed": 0,
    "overflow_open": 0,
    "gotop": true,
@@ -76,8 +58,5 @@
    }
   }
  },
- "fails": [
-  "390: 1 tabs misbehave",
-  "320: 1 tabs misbehave"
- ]
+ "fails": []
 }

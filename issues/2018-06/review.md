@@ -1,4 +1,4 @@
-# Review – 2018-06
+# Review – Issue 66 · June 2018
 
 PDF `June-2018.pdf`, 52 pages. **17 articles, 15,690 words, word match 99.91%** (second reading of the PDF; flag below 99%).
 

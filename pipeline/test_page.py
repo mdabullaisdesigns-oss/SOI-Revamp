@@ -40,12 +40,16 @@ with sync_playwright() as pw:
         for n, i in enumerate(ids):
             page.click(f"#{i} .ev-tab")
             page.wait_for_timeout(1250 if n < 4 or n == len(ids) - 1 else 900)
-            st = page.evaluate("""id => { const it = document.getElementById(id);
+            measure = lambda: page.evaluate("""id => { const it = document.getElementById(id);
                 return { open: document.querySelectorAll('.soi-ev .ev-item.is-open').length,
                          mine: it.classList.contains('is-open'),
                          top: Math.round(it.querySelector('.ev-tab').getBoundingClientRect().top),
                          over: document.scrollingElement.scrollWidth - window.innerWidth,
                          wide: [...it.querySelectorAll('.ev-body *')].filter(e => e.getBoundingClientRect().right > window.innerWidth + 1).length } }""", i)
+            st = measure()
+            if not -5 <= st["top"] <= 160:           # the page corrects its scroll position ~700 ms after opening
+                page.wait_for_timeout(900)
+                st = measure()
             worst = max(worst, st["over"])
             if not (st["mine"] and st["open"] == 1 and -5 <= st["top"] <= 160 and st["over"] <= 0 and st["wide"] == 0):
                 res["bad_tabs"].append({"id": i, **st})

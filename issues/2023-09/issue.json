@@ -2437,21 +2437,12 @@
    ],
    "items": [
     {
-     "k": "h",
+     "k": "p",
      "runs": [
       [
        "b",
        "Name of the book: "
-      ]
-     ],
-     "page": 30,
-     "ids": [
-      "p30b2"
-     ]
-    },
-    {
-     "k": "p",
-     "runs": [
+      ],
       [
        "",
        "My First Quran Storybook"
@@ -2514,54 +2505,19 @@
      ]
     },
     {
-     "k": "h",
-     "runs": [
-      [
-       "bi",
-       "The Goodword Book of Quran"
-      ]
-     ],
-     "page": 30,
-     "ids": [
-      "p30b6"
-     ]
-    },
-    {
      "k": "p",
      "runs": [
       [
        "bi",
-       "People for Kids"
+       "The Goodword Book of Quran People for Kids"
       ],
       [
        "",
-       " provides fascinating reading on all the important people in the Quran. Written specially for children aged eight and above, this encyclopaedia includes entries on more than 130 men and women of the greatest importance in the Scripture."
-      ]
-     ],
-     "page": 30,
-     "ids": [
-      "p30b6"
-     ]
-    },
-    {
-     "k": "h",
-     "runs": [
+       " provides fascinating reading on all the important people in the Quran. Written specially for children aged eight and above, this encyclopaedia includes entries on more than 130 men and women of the greatest importance in the Scripture. "
+      ],
       [
        "bi",
-       "The Goodword Book"
-      ]
-     ],
-     "page": 30,
-     "ids": [
-      "p30b6"
-     ]
-    },
-    {
-     "k": "p",
-     "runs": [
-      [
-       "bi",
-       "of Quran People for Kids "
+       "The Goodword Book of Quran People for Kids "
       ],
       [
        "",
@@ -3914,21 +3870,12 @@
      ]
     },
     {
-     "k": "h",
+     "k": "p",
      "runs": [
       [
        "b",
-       "Download your free copy of Al-Risala Hindi here:"
-      ]
-     ],
-     "page": 44,
-     "ids": [
-      "p44b5"
-     ]
-    },
-    {
-     "k": "p",
-     "runs": [
+       "Download your free copy of Al-Risala Hindi here: "
+      ],
       [
        "",
        "https://cpsglobal.org/magazines/al-risala-jan-feb-2023-0"
@@ -4140,21 +4087,12 @@
    ],
    "items": [
     {
-     "k": "qh",
+     "k": "qa_intro",
      "runs": [
       [
        "bi",
-       "The remedy for ignorance is asking questions. (Prophet Muhammad)"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b1"
-     ]
-    },
-    {
-     "k": "qh",
-     "runs": [
+       "The remedy for ignorance is asking questions. (Prophet Muhammad) "
+      ],
       [
        "bi",
        "The spirit of enquiry is the hallmark of an open society and the above saying of the Prophet aptly illustrates this principle. A culture of curiosity and open-mindedness will foster development in any society by motivating its members to learn enthusiastically and enrich their knowledge. This is because awareness of one’s ignorance is half of knowledge, as it becomes a stepping-stone to seeking and finding answers. A questioning mind is like a flowing river that is replenished with fresh thoughts and ideas and continues on its journey."
@@ -4162,6 +4100,7 @@
      ],
      "page": 48,
      "ids": [
+      "p48b1",
       "p48b2"
      ]
     },

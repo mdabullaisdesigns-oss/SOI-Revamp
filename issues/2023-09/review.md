@@ -1,4 +1,4 @@
-# Review – 2023-09
+# Review – Issue 114 · September–October 2023
 
 PDF `SOI-Sept-Oct-2023.pdf`, 52 pages. **26 articles, 14,296 words, word match 99.9%** (second reading of the PDF; flag below 99%).
 

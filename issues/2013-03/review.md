@@ -1,4 +1,4 @@
-# Review – 2013-03
+# Review – Issue 3 · March 2013
 
 PDF `March-2013.pdf`, 52 pages. **18 articles, 14,047 words, word match 99.91%** (second reading of the PDF; flag below 99%).
 
