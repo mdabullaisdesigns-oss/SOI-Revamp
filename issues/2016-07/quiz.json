@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Right Here, Right Now",
+   "page": 5,
+   "link": "right-here-right-now",
+   "q": "What does the author say of the formula ‘right here, right now’?",
+   "options": [
+    [
+     "It is a teaching of the prophets",
+     "Not quite. The article says: It is not workable."
+    ],
+    [
+     "It is the secret of success",
+     "Not quite. The article says: It is not workable."
+    ],
+    [
+     "It is not workable",
+     "People ignore the other side of life."
+    ],
+    [
+     "It is new science",
+     "Not quite. The article says: It is not workable."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The concept of ‘right here, right now’ is not workable."
+  },
+  {
+   "article": "Secret of Happiness",
+   "page": 9,
+   "link": "secret-of-happiness",
+   "q": "What does the article say of happiness in this world?",
+   "options": [
+    [
+     "Only the rich find it",
+     "Not quite. The article says: Nobody gets real happiness in this world."
+    ],
+    [
+     "Everyone finds it",
+     "Not quite. The article says: Nobody gets real happiness in this world."
+    ],
+    [
+     "It can be bought",
+     "Not quite. The article says: Nobody gets real happiness in this world."
+    ],
+    [
+     "Nobody gets real happiness in this world",
+     "It was not created for that."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Every man desires happiness, but nobody gets real happiness in this world."
+  },
+  {
+   "article": "Discovery, Rediscovery",
+   "page": 15,
+   "link": "discovery-rediscovery",
+   "q": "At what level is faith required?",
+   "options": [
+    [
+     "At the level of discovery",
+     "As the prophets’ contemporaries found it."
+    ],
+    [
+     "At the level of dress",
+     "Not quite. The article says: At the level of discovery."
+    ],
+    [
+     "At the level of inheritance",
+     "Not quite. The article says: At the level of discovery."
+    ],
+    [
+     "At the level of custom",
+     "Not quite. The article says: At the level of discovery."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "This verse from the Quran indicates that faith is required at the level of discovery."
+  },
+  {
+   "article": "The Religion of Peace",
+   "page": 19,
+   "link": "the-religion-of-peace",
+   "q": "What does pacifism aim at?",
+   "options": [
+    [
+     "Avoiding trade",
+     "Not quite. The article says: Completely ending war."
+    ],
+    [
+     "Winning wars quickly",
+     "Not quite. The article says: Completely ending war."
+    ],
+    [
+     "Expanding armies",
+     "Not quite. The article says: Completely ending war."
+    ],
+    [
+     "Completely ending war",
+     "A movement several centuries old."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "It aims at completely ending war."
+  },
+  {
+   "article": "Successful Life, Unsuccessful End",
+   "page": 24,
+   "link": "successful-life-unsuccessful-end",
+   "q": "What did the man in a western country believe?",
+   "options": [
+    [
+     "That wealth could give him all the happiness he desired",
+     "He built a palatial house."
+    ],
+    [
+     "That wealth is worthless",
+     "Not quite. The article says: That wealth could give him all the happiness he desired."
+    ],
+    [
+     "That learning is everything",
+     "Not quite. The article says: That wealth could give him all the happiness he desired."
+    ],
+    [
+     "That poverty is noble",
+     "Not quite. The article says: That wealth could give him all the happiness he desired."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "There was a man who believed that wealth could give him all the happiness he desired."
+  },
+  {
+   "article": "When You Make a Mistake",
+   "page": 29,
+   "link": "when-you-make-a-mistake",
+   "q": "What does tauba mean?",
+   "options": [
+    [
+     "Charity",
+     "Not quite. The article says: Repentance."
+    ],
+    [
+     "Pilgrimage",
+     "Not quite. The article says: Repentance."
+    ],
+    [
+     "Repentance",
+     "The blessing of God then returns."
+    ],
+    [
+     "Fasting",
+     "Not quite. The article says: Repentance."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "One of the Quranic teachings is tauba, which means repentance."
+  },
+  {
+   "article": "Wonder of Wonders",
+   "page": 33,
+   "link": "wonder-of-wonders",
+   "q": "Of what is the human body made, from a purely physical point of view?",
+   "options": [
+    [
+     "Stone",
+     "Not quite. The article says: Water, carbon, oxygen and other elements."
+    ],
+    [
+     "Water, carbon, oxygen and other elements",
+     "Their price can even be worked out."
+    ],
+    [
+     "Pure light",
+     "Not quite. The article says: Water, carbon, oxygen and other elements."
+    ],
+    [
+     "Gold and silver",
+     "Not quite. The article says: Water, carbon, oxygen and other elements."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is just made up of water, carbon, oxygen and some other chemical elements."
+  },
+  {
+   "article": "Patience: The Superior Solution",
+   "page": 36,
+   "link": "patience-the-superior-solution",
+   "q": "About how many verses of the Quran focus on patience?",
+   "options": [
+    [
+     "20",
+     "Not quite. The article says: About 200."
+    ],
+    [
+     "About 200",
+     "It may be termed the core subject."
+    ],
+    [
+     "2,000",
+     "Not quite. The article says: About 200."
+    ],
+    [
+     "3",
+     "Not quite. The article says: About 200."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Patience, the focus of about 200 verses of the Quran …"
+  },
+  {
+   "article": "God’s Signs",
+   "page": 41,
+   "link": "gods-signs",
+   "q": "Why has God set up material symbols in the outside world?",
+   "options": [
+    [
+     "To make belief in hidden realities easier",
+     "Signs for men of understanding."
+    ],
+    [
+     "To hide the truth",
+     "Not quite. The article says: To make belief in hidden realities easier."
+    ],
+    [
+     "For decoration",
+     "Not quite. The article says: To make belief in hidden realities easier."
+    ],
+    [
+     "To confuse man",
+     "Not quite. The article says: To make belief in hidden realities easier."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "God requires man to believe in certain hidden realities. To make this easier he has set up material symbols."
+  },
+  {
+   "article": "After Death",
+   "page": 43,
+   "link": "after-death",
+   "q": "What is death, according to the article?",
+   "options": [
+    [
+     "An illusion",
+     "Not quite. The article says: A transition from one period of life into another."
+    ],
+    [
+     "The end of existence",
+     "Not quite. The article says: A transition from one period of life into another."
+    ],
+    [
+     "A long sleep without waking",
+     "Not quite. The article says: A transition from one period of life into another."
+    ],
+    [
+     "A transition from one period of life into another",
+     "Human life is a continuum."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Death is not the end of man’s existence, it is a transition from one period of life into another."
+  }
+ ]
+}

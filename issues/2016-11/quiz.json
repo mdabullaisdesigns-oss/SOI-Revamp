@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Development Through Self Struggle",
+   "page": 5,
+   "link": "development-through-self-struggle",
+   "q": "What does the author say of ‘Institutionalizing Constitutional Rights’?",
+   "options": [
+    [
+     "It is forbidden",
+     "Not quite. The article says: The words sound beautiful, but are not workable."
+    ],
+    [
+     "It is the only way",
+     "Not quite. The article says: The words sound beautiful, but are not workable."
+    ],
+    [
+     "It has already succeeded",
+     "Not quite. The article says: The words sound beautiful, but are not workable."
+    ],
+    [
+     "The words sound beautiful, but are not workable",
+     "Development comes through self-struggle."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "These words sound beautiful, but they are not workable."
+  },
+  {
+   "article": "Establishing or Upholding Deen?",
+   "page": 9,
+   "link": "establishing-or-upholding-deen",
+   "q": "What does ‘aqim ud deen’ ask of believers in the verse?",
+   "options": [
+    [
+     "To change the religion",
+     "Not quite. The article says: To remain steadfast in religion and not be divided."
+    ],
+    [
+     "To fight others",
+     "Not quite. The article says: To remain steadfast in religion and not be divided."
+    ],
+    [
+     "To establish a state",
+     "Not quite. The article says: To remain steadfast in religion and not be divided."
+    ],
+    [
+     "To remain steadfast in religion and not be divided",
+     "The same deen given to earlier prophets."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "… so that you should remain steadfast in religion (aqim ud deen) and not become divided in it."
+  },
+  {
+   "article": "Difference of Opinion",
+   "page": 18,
+   "link": "difference-of-opinion",
+   "q": "Who wrote, “I disapprove of what you say, but I will defend to death your right to say it”?",
+   "options": [
+    [
+     "Thomas Carlyle",
+     "Not quite. The article says: Evelyn Beatrice Hall."
+    ],
+    [
+     "Evelyn Beatrice Hall",
+     "To illustrate Voltaire’s beliefs."
+    ],
+    [
+     "Bertrand Russell",
+     "Not quite. The article says: Evelyn Beatrice Hall."
+    ],
+    [
+     "Voltaire himself",
+     "Not quite. The article says: Evelyn Beatrice Hall."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "In her book, ‘The Friends of Voltaire’, Hall wrote, “I disapprove of what you say, but I will defend to death your right to say it”."
+  },
+  {
+   "article": "How to Be Happy",
+   "page": 24,
+   "link": "how-to-be-happy",
+   "q": "In what do hearts find comfort, according to the Quran?",
+   "options": [
+    [
+     "Travel",
+     "Not quite. The article says: The remembrance of God."
+    ],
+    [
+     "Fame",
+     "Not quite. The article says: The remembrance of God."
+    ],
+    [
+     "The remembrance of God",
+     "A natural principle of happiness."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: The remembrance of God."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Surely in the remembrance of God …”"
+  },
+  {
+   "article": "Reverse Publicity",
+   "page": 27,
+   "link": "reverse-publicity",
+   "q": "When and where was Abdullah & Co. Ltd. started?",
+   "options": [
+    [
+     "London, 1902",
+     "A cigarette company."
+    ],
+    [
+     "Delhi, 1947",
+     "Not quite. The article says: London, 1902."
+    ],
+    [
+     "Cairo, 1850",
+     "Not quite. The article says: London, 1902."
+    ],
+    [
+     "New York, 1920",
+     "Not quite. The article says: London, 1902."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Abdullah & Co. Ltd. was a cigarette company that was started in London in 1902."
+  },
+  {
+   "article": "The True Spirit of Islam",
+   "page": 29,
+   "link": "the-true-spirit-of-islam",
+   "q": "What did one of the Kerala youths say in a voice message?",
+   "options": [
+    [
+     "That they had reached ‘Dar al-Islam’",
+     "Reported on July 12, 2016."
+    ],
+    [
+     "That they were students abroad",
+     "Not quite. The article says: That they had reached ‘Dar al-Islam’."
+    ],
+    [
+     "That they were coming home",
+     "Not quite. The article says: That they had reached ‘Dar al-Islam’."
+    ],
+    [
+     "That they had found work",
+     "Not quite. The article says: That they had reached ‘Dar al-Islam’."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "One of the youths said that they had reached ‘Dar al-Islam’."
+  },
+  {
+   "article": "The Greatest Joy",
+   "page": 35,
+   "link": "the-greatest-joy",
+   "q": "What is Paradise, according to the article?",
+   "options": [
+    [
+     "A garden on earth",
+     "Not quite. The article says: The collection of all blessings."
+    ],
+    [
+     "The collection of all blessings",
+     "Every desire will be fulfilled."
+    ],
+    [
+     "A place of rest only",
+     "Not quite. The article says: The collection of all blessings."
+    ],
+    [
+     "A symbol",
+     "Not quite. The article says: The collection of all blessings."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Paradise is, undoubtedly, the collection of all blessings."
+  },
+  {
+   "article": "The Ethics of a Believer",
+   "page": 37,
+   "link": "the-ethics-of-a-believer",
+   "q": "At which battle was the Prophet wounded, in the narration cited?",
+   "options": [
+    [
+     "Badr",
+     "Not quite. The article says: Uhud."
+    ],
+    [
+     "Hunayn",
+     "Not quite. The article says: Uhud."
+    ],
+    [
+     "Khaybar",
+     "Not quite. The article says: Uhud."
+    ],
+    [
+     "Uhud",
+     "Narrated by Anas ibn Malik."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "At the moment when the Prophet was wounded at the Battle of Uhud …"
+  },
+  {
+   "article": "An Attribute of a Person of Faith",
+   "page": 40,
+   "link": "an-attribute-of-a-person-of-faith",
+   "q": "Which characteristic of a person of faith does the Hadith describe with the simile of a plant?",
+   "options": [
+    [
+     "Humility or modesty",
+     "Faith and humility cannot be separated."
+    ],
+    [
+     "Wealth",
+     "Not quite. The article says: Humility or modesty."
+    ],
+    [
+     "Courage in war",
+     "Not quite. The article says: Humility or modesty."
+    ],
+    [
+     "Eloquence",
+     "Not quite. The article says: Humility or modesty."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "A particular characteristic of a person of faith—that of humility or modesty."
+  },
+  {
+   "article": "On the Doorstep of Death",
+   "page": 42,
+   "link": "on-the-doorstep-of-death",
+   "q": "What is every step of man, according to the article?",
+   "options": [
+    [
+     "A step towards death",
+     "Everyone stands at death’s door."
+    ],
+    [
+     "A step in a circle",
+     "Not quite. The article says: A step towards death."
+    ],
+    [
+     "A step towards wealth",
+     "Not quite. The article says: A step towards death."
+    ],
+    [
+     "A step away from danger",
+     "Not quite. The article says: A step towards death."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Every step of man is a step towards death."
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The American Election",
+   "page": 5,
+   "link": "the-american-election",
+   "q": "What did Muslims fear after the American election?",
+   "options": [
+    [
+     "Nothing",
+     "Not quite. The article says: That the President elect’s policies would be anti-Muslim."
+    ],
+    [
+     "That the President elect’s policies would be anti-Muslim",
+     "The author questions this reaction."
+    ],
+    [
+     "That taxes would rise",
+     "Not quite. The article says: That the President elect’s policies would be anti-Muslim."
+    ],
+    [
+     "That travel would be cheaper",
+     "Not quite. The article says: That the President elect’s policies would be anti-Muslim."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Muslims feared that the policies of the President elect would be anti-Muslim in nature."
+  },
+  {
+   "article": "On Jesus Christ",
+   "page": 7,
+   "link": "on-jesus-christ",
+   "q": "How is Jesus regarded in Islam?",
+   "options": [
+    [
+     "As a king only",
+     "Not quite. The article says: As a prophet of God."
+    ],
+    [
+     "As unknown",
+     "Not quite. The article says: As a prophet of God."
+    ],
+    [
+     "As a philosopher",
+     "Not quite. The article says: As a prophet of God."
+    ],
+    [
+     "As a prophet of God",
+     "Muslims also believe in his miraculous birth."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In Islam Jesus is considered a prophet of God."
+  },
+  {
+   "article": "Marriage in Islam",
+   "page": 11,
+   "link": "marriage-in-islam",
+   "q": "What is the ideal way for men and women to lead their lives together, according to the Shariah?",
+   "options": [
+    [
+     "Within the bonds of marriage",
+     "A social contract by mutual consent."
+    ],
+    [
+     "Without any contract",
+     "Not quite. The article says: Within the bonds of marriage."
+    ],
+    [
+     "Under a guardian’s order alone",
+     "Not quite. The article says: Within the bonds of marriage."
+    ],
+    [
+     "Apart from each other",
+     "Not quite. The article says: Within the bonds of marriage."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The ideal way of leading such a life according to the Shariah is within the bonds of marriage."
+  },
+  {
+   "article": "Introducing the Quran",
+   "page": 18,
+   "link": "introducing-the-quran",
+   "q": "What is the basic theme of the Quran?",
+   "options": [
+    [
+     "Law alone",
+     "Not quite. The article says: The Creation Plan of God."
+    ],
+    [
+     "Poetry",
+     "Not quite. The article says: The Creation Plan of God."
+    ],
+    [
+     "Arab history",
+     "Not quite. The article says: The Creation Plan of God."
+    ],
+    [
+     "The Creation Plan of God",
+     "All other subjects relate to it."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "The basic theme of the Quran is the Creation Plan of God."
+  },
+  {
+   "article": "Despite Differences",
+   "page": 22,
+   "link": "despite-differences",
+   "q": "How did early Islamic scholars treat one another despite their differences?",
+   "options": [
+    [
+     "They respected each other",
+     "Though they differed considerably."
+    ],
+    [
+     "They fought",
+     "Not quite. The article says: They respected each other."
+    ],
+    [
+     "They banned each other’s books",
+     "Not quite. The article says: They respected each other."
+    ],
+    [
+     "They avoided each other",
+     "Not quite. The article says: They respected each other."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "They had considerable differences among themselves on religious issues. Yet, despite this, they respected each other."
+  },
+  {
+   "article": "Uniform Civil Code",
+   "page": 25,
+   "link": "uniform-civil-code",
+   "q": "Which article of the Constitution of India concerns the Uniform Civil Code?",
+   "options": [
+    [
+     "Article 370",
+     "Not quite. The article says: Article 44."
+    ],
+    [
+     "Article 1",
+     "Not quite. The article says: Article 44."
+    ],
+    [
+     "Article 21",
+     "Not quite. The article says: Article 44."
+    ],
+    [
+     "Article 44",
+     "Discussed even before independence."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Article No. 44, Uniform Civil Code."
+  },
+  {
+   "article": "Eligibility for Paradise",
+   "page": 33,
+   "link": "eligibility-for-paradise",
+   "q": "For what purpose was the Quran revealed, according to the article?",
+   "options": [
+    [
+     "To praise kings",
+     "Not quite. The article says: To convey ‘good news’ to the righteous."
+    ],
+    [
+     "To record history",
+     "Not quite. The article says: To convey ‘good news’ to the righteous."
+    ],
+    [
+     "To convey ‘good news’ to the righteous",
+     "Of a place in eternal Paradise."
+    ],
+    [
+     "To teach trade",
+     "Not quite. The article says: To convey ‘good news’ to the righteous."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "A divine book revealed specifically for the purpose of conveying ‘good news’ to the righteous."
+  },
+  {
+   "article": "Nearness to God",
+   "page": 36,
+   "link": "nearness-to-god",
+   "q": "When is a person nearest to his Lord?",
+   "options": [
+    [
+     "While trading",
+     "Not quite. The article says: In prostration."
+    ],
+    [
+     "While asleep",
+     "Not quite. The article says: In prostration."
+    ],
+    [
+     "In prostration",
+     "So make supplications then."
+    ],
+    [
+     "While travelling",
+     "Not quite. The article says: In prostration."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The nearest a person comes to his Lord is when he is in prostration."
+  },
+  {
+   "article": "Enjoining Good and Forbidding Wrong",
+   "page": 39,
+   "link": "enjoining-good-and-forbidding-wrong",
+   "q": "What do those engaged in violence claim?",
+   "options": [
+    [
+     "“We act from anger.”",
+     "Not quite. The article says: “We are only doing what the Prophet of Islam commanded us to.”."
+    ],
+    [
+     "“We are only doing what the Prophet of Islam commanded us to.”",
+     "They cite a Hadith about rectifying wrong."
+    ],
+    [
+     "“We act for money.”",
+     "Not quite. The article says: “We are only doing what the Prophet of Islam commanded us to.”."
+    ],
+    [
+     "“We have no reason.”",
+     "Not quite. The article says: “We are only doing what the Prophet of Islam commanded us to.”."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“We are only doing what the Prophet of Islam commanded us to.”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "What does God split, in verse 6: 95?",
+   "options": [
+    [
+     "The mountains",
+     "Not quite. The article says: The seed and the fruit-stone."
+    ],
+    [
+     "The seed and the fruit-stone",
+     "Bringing the living from the dead."
+    ],
+    [
+     "The moon",
+     "Not quite. The article says: The seed and the fruit-stone."
+    ],
+    [
+     "The sea",
+     "Not quite. The article says: The seed and the fruit-stone."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "It is God who splits the seed and the fruit-stone."
+  }
+ ]
+}

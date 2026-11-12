@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "Lesson from London",
+   "page": 5,
+   "link": "lesson-from-london",
+   "q": "What did the British Muslim say on the radio?",
+   "options": [
+    [
+     "“I want to thank every single Londoner for making the impossible possible today.”",
+     "Heard on May 7."
+    ],
+    [
+     "“I will leave politics.”",
+     "Not quite. The article says: “I want to thank every single Londoner for making the impossible possible today.”."
+    ],
+    [
+     "“London has failed me.”",
+     "Not quite. The article says: “I want to thank every single Londoner for making the impossible possible today.”."
+    ],
+    [
+     "“Nothing has changed.”",
+     "Not quite. The article says: “I want to thank every single Londoner for making the impossible possible today.”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“I want to thank every single Londoner for making the impossible possible today.”"
+  },
+  {
+   "article": "The Relationship Between Fasting and Life",
+   "page": 7,
+   "link": "the-relationship-between-fasting-and-life",
+   "q": "What is fasting in Ramazan, according to the article?",
+   "options": [
+    [
+     "A yearly custom only",
+     "Not quite. The article says: A living creative process."
+    ],
+    [
+     "A test of strength",
+     "Not quite. The article says: A living creative process."
+    ],
+    [
+     "A living creative process",
+     "Not just an annual custom."
+    ],
+    [
+     "A diet",
+     "Not quite. The article says: A living creative process."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Fasting in the month of Ramazan is not just a kind of annual custom. It is a living creative process."
+  },
+  {
+   "article": "The Importance of Religion in Peace Building",
+   "page": 10,
+   "link": "the-importance-of-religion-in-peace-building",
+   "q": "What must religious people refrain from?",
+   "options": [
+    [
+     "Dialogue",
+     "Not quite. The article says: Extremism."
+    ],
+    [
+     "Study",
+     "Not quite. The article says: Extremism."
+    ],
+    [
+     "Charity",
+     "Not quite. The article says: Extremism."
+    ],
+    [
+     "Extremism",
+     "And tread the path of tolerance."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Religious people should refrain from extremism and tread the path of tolerance."
+  },
+  {
+   "article": "Presence of Mind",
+   "page": 14,
+   "link": "presence-of-mind",
+   "q": "What happened as Gandhiji boarded a train?",
+   "options": [
+    [
+     "One of his shoes slipped off",
+     "A story of presence of mind."
+    ],
+    [
+     "He missed the train",
+     "Not quite. The article says: One of his shoes slipped off."
+    ],
+    [
+     "He lost his ticket",
+     "Not quite. The article says: One of his shoes slipped off."
+    ],
+    [
+     "He dropped his glasses",
+     "Not quite. The article says: One of his shoes slipped off."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "As Gandhiji started to board a train, one of his shoes slipped off."
+  },
+  {
+   "article": "Introspection",
+   "page": 17,
+   "link": "introspection",
+   "q": "What is introspection a major source of?",
+   "options": [
+    [
+     "Wealth",
+     "Not quite. The article says: Purification (tazkiya)."
+    ],
+    [
+     "Sorrow",
+     "Not quite. The article says: Purification (tazkiya)."
+    ],
+    [
+     "Purification (tazkiya)",
+     "It awakens the mind and prompts reform."
+    ],
+    [
+     "Pride",
+     "Not quite. The article says: Purification (tazkiya)."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Introspection is a major source of purification known as Tazkiya."
+  },
+  {
+   "article": "God-Oriented Life",
+   "page": 21,
+   "link": "god-oriented-life",
+   "q": "Around whom must all of man’s activities revolve?",
+   "options": [
+    [
+     "Himself",
+     "Not quite. The article says: God."
+    ],
+    [
+     "God",
+     "As the earth revolves around the sun."
+    ],
+    [
+     "His career",
+     "Not quite. The article says: God."
+    ],
+    [
+     "His family",
+     "Not quite. The article says: God."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Just as the earth revolves around the sun, in man’s life, all his activities must revolve around God."
+  },
+  {
+   "article": "Lailatul Qadr (the Night of Destiny)",
+   "page": 24,
+   "link": "lailatul-qadr-the-night-of-destiny",
+   "q": "The Night of Destiny is better than what?",
+   "options": [
+    [
+     "A single year",
+     "Not quite. The article says: A thousand months."
+    ],
+    [
+     "A thousand months",
+     "The Quran was sent down on it."
+    ],
+    [
+     "A hundred days",
+     "Not quite. The article says: A thousand months."
+    ],
+    [
+     "Ten nights",
+     "Not quite. The article says: A thousand months."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "The Night of Destiny is better than a thousand months."
+  },
+  {
+   "article": "Ramazan and Eid-Ul-Fitr",
+   "page": 27,
+   "link": "ramazan-and-eid-ul-fitr",
+   "q": "Who is rewarded on the last night of Ramazan?",
+   "options": [
+    [
+     "Only travellers",
+     "Not quite. The article says: Those who have fasted in the true spirit."
+    ],
+    [
+     "Those who have fasted in the true spirit",
+     "From a Hadith in Musnad Ahmed."
+    ],
+    [
+     "Everyone alike",
+     "Not quite. The article says: Those who have fasted in the true spirit."
+    ],
+    [
+     "Only the wealthy",
+     "Not quite. The article says: Those who have fasted in the true spirit."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "Those amongst the followers of the Prophet who have fasted in the true spirit will be rewarded for their deeds."
+  },
+  {
+   "article": "Man",
+   "page": 33,
+   "link": "man",
+   "q": "What question opens the article?",
+   "options": [
+    [
+     "Where is paradise?",
+     "Not quite. The article says: What is the most important issue for mankind today?."
+    ],
+    [
+     "What is the most important issue for mankind today?",
+     "People give different answers."
+    ],
+    [
+     "How old is the earth?",
+     "Not quite. The article says: What is the most important issue for mankind today?."
+    ],
+    [
+     "Who was the first man?",
+     "Not quite. The article says: What is the most important issue for mankind today?."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“What was the most important issue for mankind today?” Different people would have different answers."
+  },
+  {
+   "article": "The Word of God",
+   "page": 45,
+   "link": "the-word-of-god",
+   "q": "What does the commentary call proof of the Quran being the Book of God?",
+   "options": [
+    [
+     "Its total clarity",
+     "So its tidings are definitive."
+    ],
+    [
+     "Its length",
+     "Not quite. The article says: Its total clarity."
+    ],
+    [
+     "Its rhyme",
+     "Not quite. The article says: Its total clarity."
+    ],
+    [
+     "Its age",
+     "Not quite. The article says: Its total clarity."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The total clarity of the Quran is in itself proof of its being the Book of God."
+  }
+ ]
+}

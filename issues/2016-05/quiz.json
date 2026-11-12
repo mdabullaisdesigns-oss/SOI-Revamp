@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "My Motherland",
+   "page": 5,
+   "link": "my-motherland",
+   "q": "What question did a caller ask the author on March 17, 2016?",
+   "options": [
+    [
+     "Which party to vote for",
+     "Not quite. The article says: Whether Islam allows calling the homeland ‘motherland’."
+    ],
+    [
+     "How to pray on a journey",
+     "Not quite. The article says: Whether Islam allows calling the homeland ‘motherland’."
+    ],
+    [
+     "Whether to emigrate",
+     "Not quite. The article says: Whether Islam allows calling the homeland ‘motherland’."
+    ],
+    [
+     "Whether Islam allows calling the homeland ‘motherland’",
+     "Madar-e-watan."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Is it lawful according to Islam to call the homeland as madar-e-watan (motherland)?"
+  },
+  {
+   "article": "Happiness",
+   "page": 11,
+   "link": "happiness",
+   "q": "Where does happiness seem to lie for people, in the saying quoted?",
+   "options": [
+    [
+     "In other people’s homes",
+     "Not quite. The article says: In an idealized future, not the present."
+    ],
+    [
+     "In an idealized future, not the present",
+     "The author says this is true of every human being."
+    ],
+    [
+     "In the present moment",
+     "Not quite. The article says: In an idealized future, not the present."
+    ],
+    [
+     "In the past",
+     "Not quite. The article says: In an idealized future, not the present."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Happiness does not exist in the present but seems to be distantly encapsulated in an idealized future.”"
+  },
+  {
+   "article": "Zakat: The Prescribed Charity",
+   "page": 13,
+   "link": "zakat-the-prescribed-charity",
+   "q": "What is zakat?",
+   "options": [
+    [
+     "A fee for prayer",
+     "Not quite. The article says: The alms-tax, one of the five basic tenets of Islam."
+    ],
+    [
+     "A voluntary gift only",
+     "Not quite. The article says: The alms-tax, one of the five basic tenets of Islam."
+    ],
+    [
+     "A tax on travel",
+     "Not quite. The article says: The alms-tax, one of the five basic tenets of Islam."
+    ],
+    [
+     "The alms-tax, one of the five basic tenets of Islam",
+     "At least 2.5% a year."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Zakat, or the alms-tax, is one of the five basic tenets of Islam."
+  },
+  {
+   "article": "Genesis of Muslim Militancy",
+   "page": 18,
+   "link": "genesis-of-muslim-militancy",
+   "q": "What kind of militancy does the article describe?",
+   "options": [
+    [
+     "Ideologically justified militancy",
+     "So simple condemnation does not work."
+    ],
+    [
+     "Purely economic",
+     "Not quite. The article says: Ideologically justified militancy."
+    ],
+    [
+     "Accidental",
+     "Not quite. The article says: Ideologically justified militancy."
+    ],
+    [
+     "Imaginary",
+     "Not quite. The article says: Ideologically justified militancy."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "It is an ideologically justified militancy."
+  },
+  {
+   "article": "God-Given Hope",
+   "page": 23,
+   "link": "god-given-hope",
+   "q": "When misfortune strikes, what does the verse say it results from?",
+   "options": [
+    [
+     "Pure chance",
+     "Not quite. The article says: One’s own actions."
+    ],
+    [
+     "The stars",
+     "Not quite. The article says: One’s own actions."
+    ],
+    [
+     "One’s own actions",
+     "Blaming others is meaningless."
+    ],
+    [
+     "Other people’s envy",
+     "Not quite. The article says: One’s own actions."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "When a man is afflicted by misfortune, it is necessarily the result of one or more of his own actions."
+  },
+  {
+   "article": "Waiting for a Better Future",
+   "page": 26,
+   "link": "waiting-for-a-better-future",
+   "q": "Which triad did Hegel and his associates propound?",
+   "options": [
+    [
+     "Thesis, Antithesis and Synthesis",
+     "Thesis marks the beginning."
+    ],
+    [
+     "Body, Mind and Soul",
+     "Not quite. The article says: Thesis, Antithesis and Synthesis."
+    ],
+    [
+     "Faith, Hope and Charity",
+     "Not quite. The article says: Thesis, Antithesis and Synthesis."
+    ],
+    [
+     "Past, Present and Future",
+     "Not quite. The article says: Thesis, Antithesis and Synthesis."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "The theory comprising the triad, Thesis, Antithesis and Synthesis."
+  },
+  {
+   "article": "Between Two Options",
+   "page": 30,
+   "link": "between-two-options",
+   "q": "What did Maulana Abul Kalam Azad write about himself?",
+   "options": [
+    [
+     "‘I had no abilities.’",
+     "Not quite. The article says: ‘People did not give due appreciation to my abilities.’."
+    ],
+    [
+     "‘I achieved all I wished.’",
+     "Not quite. The article says: ‘People did not give due appreciation to my abilities.’."
+    ],
+    [
+     "‘People did not give due appreciation to my abilities.’",
+     "He was not alone in thinking so."
+    ],
+    [
+     "‘I never sought recognition.’",
+     "Not quite. The article says: ‘People did not give due appreciation to my abilities.’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘People did not give due appreciation to my abilities.’"
+  },
+  {
+   "article": "Man’s True Purpose in Life",
+   "page": 34,
+   "link": "mans-true-purpose-in-life",
+   "q": "When does man attain his highest distinction?",
+   "options": [
+    [
+     "When he is wealthy",
+     "Not quite. The article says: When he leads a purposeful life."
+    ],
+    [
+     "When he is feared",
+     "Not quite. The article says: When he leads a purposeful life."
+    ],
+    [
+     "When he leads a purposeful life",
+     "The most advanced stage of development."
+    ],
+    [
+     "When he is idle",
+     "Not quite. The article says: When he leads a purposeful life."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "Man attains his highest distinction only when he leads a purposeful life."
+  },
+  {
+   "article": "Wrong Application of a Criterion",
+   "page": 37,
+   "link": "wrong-application-of-a-criterion",
+   "q": "What is an accepted principle in the physical sciences?",
+   "options": [
+    [
+     "A formula needs no proof",
+     "Not quite. The article says: A formula should be demonstrable."
+    ],
+    [
+     "A formula should be old",
+     "Not quite. The article says: A formula should be demonstrable."
+    ],
+    [
+     "A formula should be secret",
+     "Not quite. The article says: A formula should be demonstrable."
+    ],
+    [
+     "A formula should be demonstrable",
+     "In the humanities this is not possible."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "In physical sciences it is an accepted principle that a formula should be demonstrable."
+  },
+  {
+   "article": "Modern Civilization",
+   "page": 41,
+   "link": "modern-civilization",
+   "q": "What does the Hadith quoted say?",
+   "options": [
+    [
+     "‘Only scholars help religion.’",
+     "Not quite. The article says: ‘God will strengthen Islam through the secular people also.’."
+    ],
+    [
+     "‘Avoid all secular people.’",
+     "Not quite. The article says: ‘God will strengthen Islam through the secular people also.’."
+    ],
+    [
+     "‘Civilization is an enemy.’",
+     "Not quite. The article says: ‘God will strengthen Islam through the secular people also.’."
+    ],
+    [
+     "‘God will strengthen Islam through the secular people also.’",
+     "It warns against black-and-white thinking."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "‘God will strengthen Islam through the secular people also.’"
+  }
+ ]
+}

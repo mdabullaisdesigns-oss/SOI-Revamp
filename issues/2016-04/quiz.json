@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "article": "The Problem of Intolerance",
+   "page": 5,
+   "link": "the-problem-of-intolerance",
+   "q": "What does the author say intolerance is only an improper name for?",
+   "options": [
+    [
+     "Differences of opinion",
+     "It is a phenomenon of society, not of one country."
+    ],
+    [
+     "Patriotism",
+     "Not quite. The article says: Differences of opinion."
+    ],
+    [
+     "Crime",
+     "Not quite. The article says: Differences of opinion."
+    ],
+    [
+     "Poverty",
+     "Not quite. The article says: Differences of opinion."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "Intolerance is only an improper name for differences of opinion."
+  },
+  {
+   "article": "Running After Two Hares",
+   "page": 7,
+   "link": "running-after-two-hares",
+   "q": "What does super-achievement need?",
+   "options": [
+    [
+     "Many helpers",
+     "Not quite. The article says: Super endeavour with a single-focused mind."
+    ],
+    [
+     "Good luck",
+     "Not quite. The article says: Super endeavour with a single-focused mind."
+    ],
+    [
+     "Two goals at once",
+     "Not quite. The article says: Super endeavour with a single-focused mind."
+    ],
+    [
+     "Super endeavour with a single-focused mind",
+     "Living between two agendas is against nature."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Super-achievement needs super endeavour done with a single-focused mind."
+  },
+  {
+   "article": "The Importance of Time",
+   "page": 13,
+   "link": "the-importance-of-time",
+   "q": "What did Lord Chesterfield recommend to his son?",
+   "options": [
+    [
+     "To take care of the minutes",
+     "For the hours will take care of themselves."
+    ],
+    [
+     "To spend freely",
+     "Not quite. The article says: To take care of the minutes."
+    ],
+    [
+     "To sleep late",
+     "Not quite. The article says: To take care of the minutes."
+    ],
+    [
+     "To avoid letters",
+     "Not quite. The article says: To take care of the minutes."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "‘I recommend you to take care of the minutes, for the hours will …’"
+  },
+  {
+   "article": "Political Extremism and Islam",
+   "page": 17,
+   "link": "political-extremism-and-islam",
+   "q": "What does the Quran (4: 171) tell the People of the Book?",
+   "options": [
+    [
+     "‘Leave your religion.’",
+     "Not quite. The article says: ‘Do not go to extremes in your religion.’."
+    ],
+    [
+     "‘Fight for your religion.’",
+     "Not quite. The article says: ‘Do not go to extremes in your religion.’."
+    ],
+    [
+     "‘Do not go to extremes in your religion.’",
+     "Extremism has always been a chief cause of ruin."
+    ],
+    [
+     "‘Hide your religion.’",
+     "Not quite. The article says: ‘Do not go to extremes in your religion.’."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "‘People of the Book! Do not go to extremes in your religion.’"
+  },
+  {
+   "article": "Man’s Helplessness",
+   "page": 24,
+   "link": "mans-helplessness",
+   "q": "What did Sir James Jeans write in The Mysterious Universe?",
+   "options": [
+    [
+     "That man rules the universe",
+     "Not quite. The article says: That man seems to have strayed into a world not made for him."
+    ],
+    [
+     "That the universe is small",
+     "Not quite. The article says: That man seems to have strayed into a world not made for him."
+    ],
+    [
+     "That man made the world",
+     "Not quite. The article says: That man seems to have strayed into a world not made for him."
+    ],
+    [
+     "That man seems to have strayed into a world not made for him",
+     "The author offers a truer wording."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "‘It appears that man has strayed into a world which was not made for him.’"
+  },
+  {
+   "article": "Sound Speech",
+   "page": 27,
+   "link": "sound-speech",
+   "q": "What does the Quran promise those who fear God and say the straight speech?",
+   "options": [
+    [
+     "They will become rich",
+     "Not quite. The article says: He will make their conduct sound."
+    ],
+    [
+     "They will never be tested",
+     "Not quite. The article says: He will make their conduct sound."
+    ],
+    [
+     "They will rule others",
+     "Not quite. The article says: He will make their conduct sound."
+    ],
+    [
+     "He will make their conduct sound",
+     "From the chapter The Confederates."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Believers fear God, and say the straight speech. He will make your conduct sound."
+  },
+  {
+   "article": "The Age of Alternatives",
+   "page": 30,
+   "link": "the-age-of-alternatives",
+   "q": "What was the only arena for ambitious people in ancient times?",
+   "options": [
+    [
+     "The stage",
+     "Not quite. The article says: The battlefield."
+    ],
+    [
+     "The university",
+     "Not quite. The article says: The battlefield."
+    ],
+    [
+     "The market",
+     "Not quite. The article says: The battlefield."
+    ],
+    [
+     "The battlefield",
+     "Now we live in the age of alternatives."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "Ambitious people had only one arena in which to fulfil their ambitions—the battlefield."
+  },
+  {
+   "article": "Salvation",
+   "page": 36,
+   "link": "salvation",
+   "q": "What is the greatest issue facing man in this world?",
+   "options": [
+    [
+     "How to gain power",
+     "Not quite. The article says: How to secure salvation in the life after death."
+    ],
+    [
+     "How to live long",
+     "Not quite. The article says: How to secure salvation in the life after death."
+    ],
+    [
+     "How to secure salvation in the life after death",
+     "To share in God’s eternal blessings."
+    ],
+    [
+     "How to be famous",
+     "Not quite. The article says: How to secure salvation in the life after death."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "It is how to secure salvation in the life after death."
+  },
+  {
+   "article": "Increasing in Faith",
+   "page": 39,
+   "link": "increasing-in-faith",
+   "q": "What did the scientist feel on a day he discovered nothing new in nature?",
+   "options": [
+    [
+     "That the day had been wasted",
+     "‘Observing nature is my religion.’"
+    ],
+    [
+     "Relief",
+     "Not quite. The article says: That the day had been wasted."
+    ],
+    [
+     "Pride",
+     "Not quite. The article says: That the day had been wasted."
+    ],
+    [
+     "Nothing",
+     "Not quite. The article says: That the day had been wasted."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“If any day I don’t discover something new in nature, I feel that the day has been wasted.”"
+  },
+  {
+   "article": "The Word of God",
+   "page": 43,
+   "link": "the-word-of-god",
+   "q": "From what did God create you, as one of His signs?",
+   "options": [
+    [
+     "Dust",
+     "He brings forth the living from the dead."
+    ],
+    [
+     "Fire",
+     "Not quite. The article says: Dust."
+    ],
+    [
+     "Light",
+     "Not quite. The article says: Dust."
+    ],
+    [
+     "Iron",
+     "Not quite. The article says: Dust."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "One of His signs is that He created you from dust."
+  }
+ ]
+}
