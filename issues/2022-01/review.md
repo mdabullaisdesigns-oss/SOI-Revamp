@@ -1,29 +1,29 @@
 # Review – Issue 104 · January–February 2022
 
-PDF `January-2022.pdf`, 52 pages. **19 articles, 13,264 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `January-2022.pdf`, 52 pages. **19 articles, 13,264 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–6 |  | A Source of Spiritual Nourishment | 723 | 99.86% |
-| 2 | 7–9 | From the Editor-In-Chief’s Desk | Spirit of Islam | 741 | 99.87% |
-| 3 | 10–11 | When Words Become | The Truth | 757 | 99.87% |
-| 4 | 12–13 | Journey Towards God-Realization | Remembrance of God | 479 | 99.79% |
+| 2 | 7–9 | From the Editor-In-Chief’s Desk | Spirit of Islam | 741 | 100.0% |
+| 3 | 10–11 | When Words Become | The Truth | 757 | 100.0% |
+| 4 | 12–13 | Journey Towards God-Realization | Remembrance of God | 479 | 100.0% |
 | 5 | 14–17 | Towards Global Peace | Constructive Enterprise vs. Politics | 1572 | 99.94% |
-| 6 | 18–19 | Important and Sensitive | The Importance of True Leadership | 502 | 99.8% |
-| 7 | 20–21 | Asset for a Mission | Mature and Proactive Individuals | 679 | 99.85% |
+| 6 | 18–19 | Important and Sensitive | The Importance of True Leadership | 502 | 100.0% |
+| 7 | 20–21 | Asset for a Mission | Mature and Proactive Individuals | 679 | 100.0% |
 | 8 | 22–25 | Finding Newer Horizons | Communicating the Word of God | 1320 | 100.0% |
-| 9 | 26–27 | Be Realistic | An Incomplete Life | 505 | 99.8% |
-| 10 | 28–29 |  | Islamic Virtues | 683 | 99.85% |
+| 9 | 26–27 | Be Realistic | An Incomplete Life | 505 | 100.0% |
+| 10 | 28–29 |  | Islamic Virtues | 683 | 100.0% |
 | 11 | 30–34 | An Interview with Ms Fahmida Khan | The Role of Women in Islam | 1813 | 100.0% |
 | 12 | 35 | A Wise Policy | Patience | 262 | 100.0% |
 | 13 | 36 | The True Status of Man | The Value of Praying | 308 | 100.0% |
-| 14 | 37 | Expression of True Belief | Would That I Were Dust! | 367 | 99.73% |
+| 14 | 37 | Expression of True Belief | Would That I Were Dust! | 367 | 100.0% |
 | 15 | 38–40 |  | CPS Newsletter | 139 | 100.0% |
 | 16 | 42–43 | Selections from Quran Stories for Kids | Children’s Corner | 557 | 99.82% |
 | 17 | 44–45 |  | Book Review | 457 | 100.0% |
-| 18 | 46–47 | From The Scriptures | The Word of God | 519 | 99.61% |
+| 18 | 46–47 | From The Scriptures | The Word of God | 519 | 100.0% |
 | 19 | 48–50 |  | Your Questions Answered | 881 | 100.0% |
 
 ## Words the second reading did not confirm
@@ -31,17 +31,8 @@ PDF `January-2022.pdf`, 52 pages. **19 articles, 13,264 words, word match 99.9%*
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b3` (p): david
-- article 2, `p7b5` (p): this
-- article 3, `p10b2` (p): in
-- article 4, `p12b2` (p): the
 - article 5, `p14b5` (p): abu
-- article 6, `p18b4` (p): in
-- article 7, `p20b3` (p): abdullah
-- article 9, `p26b3` (p): the
-- article 10, `p28b2` (p): for
-- article 14, `p37b3` (p): the
 - article 16, `p42b4` (footnote): 1the
-- article 18, `p46b4` (intro): commentary by
 
 ## Left out of the e-version – please confirm
 

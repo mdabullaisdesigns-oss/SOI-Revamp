@@ -50,16 +50,8 @@
     10
    ],
    "words": 715,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p9b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -110,22 +102,13 @@
     15
    ],
    "words": 1109,
-   "match": 99.64,
+   "match": 99.91,
    "missing": [
     {
      "item": "p13b3",
      "kind": "p",
      "words": [
       "almost"
-     ]
-    },
-    {
-     "item": "p14b6",
-     "kind": "p",
-     "words": [
-      "committing",
-      "this",
-      "act"
      ]
     }
    ]
@@ -191,16 +174,8 @@
     20
    ],
    "words": 427,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p20b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -211,16 +186,8 @@
     21
    ],
    "words": 260,
-   "match": 99.62,
-   "missing": [
-    {
-     "item": "p21b6",
-     "kind": "p",
-     "words": [
-      "when"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -243,16 +210,8 @@
     23
    ],
    "words": 293,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p23b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -307,23 +266,14 @@
     35
    ],
    "words": 2204,
-   "match": 99.77,
+   "match": 99.91,
    "missing": [
     {
      "item": "p34b5",
      "kind": "p",
      "words": [
       "feb7",
-      "months",
-      "25000",
       "1991"
-     ]
-    },
-    {
-     "item": "p34b9",
-     "kind": "p",
-     "words": [
-      "2011"
      ]
     }
    ]
@@ -337,16 +287,8 @@
     40
    ],
    "words": 1820,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p36b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -389,16 +331,8 @@
     44
    ],
    "words": 380,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p44b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 22,
@@ -409,16 +343,8 @@
     46
    ],
    "words": 598,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p45b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 23,
@@ -445,7 +371,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.85,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 26025,

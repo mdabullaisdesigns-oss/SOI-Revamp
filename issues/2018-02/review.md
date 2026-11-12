@@ -1,6 +1,6 @@
 # Review – Issue 62 · February 2018
 
-PDF `February-2018.pdf`, 52 pages. **21 articles, 14,555 words, word match 99.88%** (second reading of the PDF; flag below 99%).
+PDF `February-2018.pdf`, 52 pages. **21 articles, 14,555 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,22 +9,22 @@ PDF `February-2018.pdf`, 52 pages. **21 articles, 14,555 words, word match 99.88
 | 1 | 5–6 | From Maulana’s Desk | In Singapore, the Enraged Go to the Fragment Room | 714 | 100.0% |
 | 2 | 7–8 | From the Editorial Director | The Culture of Spirituality | 705 | 99.86% |
 | 3 | 9 | Discovery of God | Most Joyous Moment | 332 | 100.0% |
-| 4 | 10 | Being Conscious & Aware | When Things Lose Their Novelty | 398 | 99.75% |
-| 5 | 11 | In Comparison we may Understand | Management of Envy | 340 | 99.41% |
+| 4 | 10 | Being Conscious & Aware | When Things Lose Their Novelty | 398 | 100.0% |
+| 5 | 11 | In Comparison we may Understand | Management of Envy | 340 | 99.71% |
 | 6 | 12 | Through Contemplation | Understanding the Quran | 388 | 99.74% |
 | 7 | 13–15 | Divine Retribution | Justice in the Hereafter | 1122 | 99.91% |
 | 8 | 16–18 | Status in Islam | Men and Women | 1032 | 99.9% |
 | 9 | 19–23 | Towards Global Peace | Going Against the Creation Plan | 1761 | 99.94% |
-| 10 | 24–25 | Introspective Attitude | Constant Choices | 724 | 99.86% |
+| 10 | 24–25 | Introspective Attitude | Constant Choices | 724 | 100.0% |
 | 11 | 26–27 | From the Spiritual Tree | Spiritually Strong | 415 | 100.0% |
 | 12 | 28–30 | Benefit from Understanding | Similarties Between Sikhism & Islam | 1270 | 100.0% |
-| 13 | 31–32 | Progressive Individuals | An Exemplary Tale | 442 | 99.77% |
+| 13 | 31–32 | Progressive Individuals | An Exemplary Tale | 442 | 100.0% |
 | 14 | 33 | Developed Societies | One’s Own Responsibility | 322 | 99.69% |
 | 15 | 34–36 | What is Truth? | Man’s Quest | 973 | 99.9% |
-| 16 | 37–38 | Spiritual Individual | Political Power Not an Objective | 667 | 99.55% |
-| 17 | 39 | A Prophetic Practice | Having Regard for Others | 349 | 99.71% |
+| 16 | 37–38 | Spiritual Individual | Political Power Not an Objective | 667 | 99.7% |
+| 17 | 39 | A Prophetic Practice | Having Regard for Others | 349 | 100.0% |
 | 18 | 40–41 | Ability to Sort out the Relevant from the Irrelevant | Wisdom | 498 | 100.0% |
-| 19 | 42 | Law of Nature | Creative Abilities of Minorities | 316 | 99.68% |
+| 19 | 42 | Law of Nature | Creative Abilities of Minorities | 316 | 100.0% |
 | 20 | 43–45 | From The Scriptures | The Word of God | 893 | 100.0% |
 | 21 | 46–48 | Your Questions Answered | Ask Maulana | 894 | 100.0% |
 
@@ -33,22 +33,15 @@ PDF `February-2018.pdf`, 52 pages. **21 articles, 14,555 words, word match 99.88
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 2, `p7b4` (p): what
-- article 4, `p10b5` (p): this
-- article 5, `p11b3` (p): the
 - article 5, `p11b5` (p): 12131292
 - article 6, `p12b3` (p): wahab
 - article 7, `p13b3` (p): there
 - article 8, `p16b3` (p): umme
 - article 9, `p19b4` (p): subscribing
-- article 10, `p24b3` (p): we
-- article 13, `p31b3` (p): mr
 - article 14, `p33b3` (p): during
 - article 15, `p34b3` (p): much
-- article 16, `p37b6` (p): in
 - article 16, `p37b7` (p): fathul
 - article 16, `p37b10` (thought): selfdefence
-- article 17, `p39b6` (p): the
-- article 19, `p42b3` (p): in
 
 ## Left out of the e-version – please confirm
 

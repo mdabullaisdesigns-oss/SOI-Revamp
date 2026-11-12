@@ -1,15 +1,15 @@
 # Review – Issue 107 · July–August 2022
 
-PDF `July-August-2022.pdf`, 51 pages. **17 articles, 14,824 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `July-August-2022.pdf`, 51 pages. **17 articles, 14,824 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 4–6 | From the Editor-In-Chief’s Desk | Lessons from the Volcanic Eruptions | 717 | 99.86% |
+| 1 | 4–6 | From the Editor-In-Chief’s Desk | Lessons from the Volcanic Eruptions | 717 | 100.0% |
 | 2 | 7–8 | Personal Experiences | Pages from Maulana's Diary | 638 | 100.0% |
-| 3 | 9 |  | History Speaks | 302 | 99.67% |
-| 4 | 10 | Journey Towards God-Realization | The Relationship Between Man and God | 349 | 99.71% |
+| 3 | 9 |  | History Speaks | 302 | 100.0% |
+| 4 | 10 | Journey Towards God-Realization | The Relationship Between Man and God | 349 | 100.0% |
 | 5 | 11–12 | Towards Global Peace | End Misunderstandings Through Sound Arguments | 701 | 100.0% |
 | 6 | 13 | Fundamental Unit of National Progress | Character Builds the Nation | 320 | 99.69% |
 | 7 | 14 | Finding the Point of Emphasis | Ethics and Technology | 358 | 99.72% |
@@ -17,7 +17,7 @@ PDF `July-August-2022.pdf`, 51 pages. **17 articles, 14,824 words, word match 99
 | 9 | 23–24 | Broaden Your Perspective | Seeking the Right Alternatives | 656 | 100.0% |
 | 10 | 25–26 | A Universal Principle | God Helps Those Who Help Themselves | 840 | 100.0% |
 | 11 | 27–34 |  | An Interview with Ms Kauser Izhar | 3112 | 100.0% |
-| 12 | 35 | Everything is from God | Giving as God Wills | 336 | 99.7% |
+| 12 | 35 | Everything is from God | Giving as God Wills | 336 | 100.0% |
 | 13 | 36–37 |  | CPS Newsletter | 246 | 100.0% |
 | 14 | 40–41 | Quran Dictionary for Kids | Children’s Corner | 540 | 99.81% |
 | 15 | 42–44 | Suleiman Khan | Magazine Review | 995 | 100.0% |
@@ -28,13 +28,9 @@ PDF `July-August-2022.pdf`, 51 pages. **17 articles, 14,824 words, word match 99
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p4b5` (p): volcanoes
-- article 3, `p9b2` (p): roger
-- article 4, `p10b5` (p): it
 - article 6, `p13b3` (p): toyota
 - article 7, `p14b3` (p): soon
 - article 8, `p15b2` (p): what
-- article 12, `p35b3` (p): mans
 - article 14, `p40b4` (small): 1the
 
 ## Left out of the e-version – please confirm

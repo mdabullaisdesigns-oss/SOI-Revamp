@@ -62,16 +62,8 @@
     13
    ],
    "words": 861,
-   "match": 99.88,
-   "missing": [
-    {
-     "item": "p11b2",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -186,16 +178,8 @@
     28
    ],
    "words": 277,
-   "match": 99.64,
-   "missing": [
-    {
-     "item": "p28b2",
-     "kind": "p",
-     "words": [
-      "world"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -226,16 +210,8 @@
     37
    ],
    "words": 317,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p37b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -246,16 +222,8 @@
     40
    ],
    "words": 985,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p38b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -286,16 +254,8 @@
     44
    ],
    "words": 1041,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -322,7 +282,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.94,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15213,

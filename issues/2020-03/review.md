@@ -1,6 +1,6 @@
 # Review – Issue 87 · March 2020
 
-PDF `March-2020.pdf`, 52 pages. **20 articles, 15,547 words, word match 99.94%** (second reading of the PDF; flag below 99%).
+PDF `March-2020.pdf`, 52 pages. **20 articles, 15,547 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -11,19 +11,19 @@ PDF `March-2020.pdf`, 52 pages. **20 articles, 15,547 words, word match 99.94%**
 | 3 | 9 | Emulate Nature to Realize God | Nature’s Laboratory | 344 | 100.0% |
 | 4 | 10–16 | A Child’s Schoolroom | My Mother—an Exemplary Woman | 2793 | 99.96% |
 | 5 | 17–18 | A Misplaced Quest | Quest for Life in Space | 526 | 100.0% |
-| 6 | 19–21 | Desire Versus Fulfillment | Why This Contradiction? | 1248 | 99.92% |
+| 6 | 19–21 | Desire Versus Fulfillment | Why This Contradiction? | 1248 | 100.0% |
 | 7 | 22 | The Prime of Life | Be Grateful for Your Youth | 344 | 99.71% |
 | 8 | 23 | God Vs Creation | The Object of Reverence | 339 | 99.71% |
 | 9 | 24–25 | A Cultural Manifestation | Burqa in the Muslim Society | 646 | 99.85% |
 | 10 | 26–27 | From the Spiritual Tree | The Spiritual Loss Caused by Greed | 398 | 100.0% |
 | 11 | 28–35 | Natural and Impartial | Islamic Approach to Divorce | 3058 | 100.0% |
 | 12 | 36–37 | Towards Global Peace | Peace—a Positive Behaviour | 545 | 100.0% |
-| 13 | 38 | Virtues of Frugality | Waste of Money | 341 | 99.71% |
+| 13 | 38 | Virtues of Frugality | Waste of Money | 341 | 100.0% |
 | 14 | 39 | Litmus Test | True Mark of Belief | 323 | 99.69% |
 | 15 | 40–41 | The Right Perspective | Prophet as a Model | 739 | 100.0% |
 | 16 | 42 | Passing the Buck | Blame Thyself | 355 | 100.0% |
 | 17 | 43–45 | War is Now Obsolete | End of the Age of War | 951 | 99.89% |
-| 18 | 46 | No Accident | Accept Death as a Test | 331 | 99.7% |
+| 18 | 46 | No Accident | Accept Death as a Test | 331 | 100.0% |
 | 19 | 47–48 | From The Scriptures | The Word of God | 564 | 100.0% |
 | 20 | 49–50 | Your Questions Answered | Ask Maulana | 594 | 100.0% |
 
@@ -32,14 +32,11 @@ PDF `March-2020.pdf`, 52 pages. **20 articles, 15,547 words, word match 99.94%**
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 4, `p10b3` (p): this
-- article 6, `p19b5` (p): it
 - article 7, `p22b3` (p): according
 - article 8, `p23b3` (p): when
 - article 9, `p24b12` (p): preislamic
-- article 13, `p38b3` (p): there
 - article 14, `p39b3` (p): according
 - article 17, `p43b3` (p): human
-- article 18, `p46b6` (p): the
 
 ## Left out of the e-version – please confirm
 

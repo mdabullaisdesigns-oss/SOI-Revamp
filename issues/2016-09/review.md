@@ -1,31 +1,31 @@
 # Review – Issue 45 · September 2016
 
-PDF `September-2016.pdf`, 52 pages. **23 articles, 15,809 words, word match 99.88%** (second reading of the PDF; flag below 99%).
+PDF `September-2016.pdf`, 52 pages. **23 articles, 15,809 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Conversion Versus Dawah | 1163 | 100.0% |
-| 2 | 8 | Seek Positive Solutions | War Is No Choice at All | 309 | 99.68% |
-| 3 | 9 | Root Cause of Problems | Rid Yourself of Complaints | 259 | 99.61% |
+| 2 | 8 | Seek Positive Solutions | War Is No Choice at All | 309 | 100.0% |
+| 3 | 9 | Root Cause of Problems | Rid Yourself of Complaints | 259 | 100.0% |
 | 4 | 10 | Acknowledge and Appreciate Differences | Harmonious Marital Relations | 274 | 100.0% |
 | 5 | 11–12 | Freedom of Science from Religion | Secular Knowledge at Its Islamic Best | 673 | 99.85% |
-| 6 | 13 | Quick to Listen, Slow to Speak | Less Speech, More Silence | 361 | 99.72% |
-| 7 | 14–17 | Life After Death | The Hereafter | 1629 | 99.94% |
-| 8 | 18 | Face the Facts | The Acceptance of Reality | 279 | 99.64% |
+| 6 | 13 | Quick to Listen, Slow to Speak | Less Speech, More Silence | 361 | 100.0% |
+| 7 | 14–17 | Life After Death | The Hereafter | 1629 | 100.0% |
+| 8 | 18 | Face the Facts | The Acceptance of Reality | 279 | 100.0% |
 | 9 | 19 | Essential Islamic Virtue | The Teaching of Patience | 316 | 100.0% |
 | 10 | 20–21 | Peace and Provision | God’s Blessing | 734 | 99.86% |
 | 11 | 22–24 | Success through Introspection | Reform Yourself | 824 | 100.0% |
 | 12 | 25 | Purpose of Creation | The Goal of Man | 277 | 99.64% |
 | 13 | 26–27 | From the Spiritual Tree | The Difference Between a Believer and an Unbeliever | 541 | 100.0% |
-| 14 | 28–34 | Guidance for Life | Quranic Wisdom | 2890 | 99.86% |
+| 14 | 28–34 | Guidance for Life | Quranic Wisdom | 2890 | 99.9% |
 | 15 | 35 | Positive Thinking | Don’t Take Things in Negative Terms | 275 | 99.64% |
 | 16 | 36 | Achieve Your Goals | Know Your Limits | 331 | 99.7% |
-| 17 | 37 | Answer to our Every Desire | A Dream World | 291 | 99.66% |
-| 18 | 38–39 | Towards Global Peace | Peace Is Possible, but Only Through the Right Way | 671 | 99.85% |
+| 17 | 37 | Answer to our Every Desire | A Dream World | 291 | 100.0% |
+| 18 | 38–39 | Towards Global Peace | Peace Is Possible, but Only Through the Right Way | 671 | 100.0% |
 | 19 | 40 | With or Without Evidence | Criticism or Allegation? | 190 | 99.47% |
-| 20 | 41–43 | Serving Mankind | Human Values Through Islam | 1223 | 99.92% |
+| 20 | 41–43 | Serving Mankind | Human Values Through Islam | 1223 | 100.0% |
 | 21 | 44 | The Final Journey | Procession of Death | 394 | 99.75% |
 | 22 | 45–46 | From The Scriptures | The Word of God | 654 | 100.0% |
 | 23 | 47–49 | Your Questions Answered | Ask Maulana | 1251 | 100.0% |
@@ -34,24 +34,15 @@ PDF `September-2016.pdf`, 52 pages. **23 articles, 15,809 words, word match 99.8
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p8b3` (p): in
-- article 3, `p9b3` (p): complaint
 - article 5, `p11b6` (p): success
-- article 6, `p13b5` (p): listening
-- article 7, `p14b3` (p): those
-- article 8, `p18b3` (p): shah
 - article 10, `p20b3` (p): right
 - article 12, `p25b5` (p): we
-- article 14, `p28b3` (p): according
 - article 14, `p28b4` (p): superachievement
 - article 14, `p34b2` (p): given
 - article 14, `p34b6` (thought): fullfledged
 - article 15, `p35b7` (p): once
 - article 16, `p36b3` (p): people
-- article 17, `p37b3` (p): god
-- article 18, `p38b5` (p): if
 - article 19, `p40b3` (p): if
-- article 20, `p41b3` (p): all
 - article 21, `p44b7` (p): profitmaking
 
 ## Left out of the e-version – please confirm

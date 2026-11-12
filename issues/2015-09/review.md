@@ -1,28 +1,28 @@
 # Review – Issue 33 · September 2015
 
-PDF `September-2015.pdf`, 52 pages. **19 articles, 15,087 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `September-2015.pdf`, 52 pages. **19 articles, 15,087 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–9 | From Maulana’s Desk | Anti-Islam in the Name of Islam | 1798 | 99.89% |
+| 1 | 5–9 | From Maulana’s Desk | Anti-Islam in the Name of Islam | 1798 | 100.0% |
 | 2 | 10 | A Learning Spirit | Living with an Open Mind | 292 | 99.66% |
 | 3 | 11–12 | Be Like A Tree | The Importance of Stability | 591 | 100.0% |
-| 4 | 13 | Responsibilities Over Rights | Two Types of People | 405 | 99.75% |
+| 4 | 13 | Responsibilities Over Rights | Two Types of People | 405 | 100.0% |
 | 5 | 14–18 | Spirit Of Rituals | The Essence of Hajj | 1928 | 100.0% |
-| 6 | 19–20 | True Understanding | Friendliness and Separation | 435 | 99.77% |
-| 7 | 21–25 | Discover God Through Reason | The Age of Science & Religion—part I | 1574 | 99.94% |
+| 6 | 19–20 | True Understanding | Friendliness and Separation | 435 | 100.0% |
+| 7 | 21–25 | Discover God Through Reason | The Age of Science & Religion—part I | 1574 | 100.0% |
 | 8 | 26–27 | From the Spiritual Tree | The Process of Reversal | 610 | 100.0% |
-| 9 | 28 | Never Despair | World of Hope | 274 | 99.64% |
+| 9 | 28 | Never Despair | World of Hope | 274 | 100.0% |
 | 10 | 29–33 |  | Promoting Peace in Muslim Societies | 1848 | 100.0% |
 | 11 | 34–35 | Towards Global Peace | Has the Age of Oppression Returned? | 612 | 100.0% |
 | 12 | 36 | Exemplify Or Enforce | The Question of Justice | 355 | 100.0% |
 | 13 | 37–38 | Receive Divine Guidance | Faith in the Unseen | 716 | 100.0% |
 | 14 | 39 | Ungratefulness Amongst Blessings | The Weakness of Man | 362 | 99.72% |
-| 15 | 40–41 | Healthy Principles | Social Living | 412 | 99.76% |
+| 15 | 40–41 | Healthy Principles | Social Living | 412 | 100.0% |
 | 16 | 42–43 | World's Oldest Quran Found | Quran Maintains Its Originality | 750 | 99.87% |
-| 17 | 44 | Prerequisite | Understanding the Quran | 196 | 99.49% |
+| 17 | 44 | Prerequisite | Understanding the Quran | 196 | 100.0% |
 | 18 | 45–47 | From The Scriptures | The Word of God | 1221 | 100.0% |
 | 19 | 48–49 | Your Questions Answered | Ask Maulana | 708 | 100.0% |
 
@@ -30,17 +30,9 @@ PDF `September-2015.pdf`, 52 pages. **19 articles, 15,087 words, word match 99.9
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): some
-- article 1, `p6b4` (p): socalled
 - article 2, `p10b3` (p): umar
-- article 4, `p13b3` (p): one
-- article 6, `p19b2` (p): muslim
-- article 7, `p21b2` (p): man
-- article 9, `p28b3` (p): the
 - article 14, `p39b9` (p): where
-- article 15, `p40b3` (p): society
 - article 16, `p42b3` (p): fragments
-- article 17, `p44b3` (p): to
 
 ## Left out of the e-version – please confirm
 

@@ -1,6 +1,6 @@
 # Review – Issue 61 · January 2018
 
-PDF `January-2018.pdf`, 52 pages. **21 articles, 14,499 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `January-2018.pdf`, 52 pages. **21 articles, 14,499 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,22 +8,22 @@ PDF `January-2018.pdf`, 52 pages. **21 articles, 14,499 words, word match 99.92%
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Entering the New Year | 709 | 99.86% |
 | 2 | 7–8 |  | From the Editorial Director | 603 | 100.0% |
-| 3 | 9 | Conscious Thankfulness | Discover Reasons for Gratitude | 358 | 99.72% |
+| 3 | 9 | Conscious Thankfulness | Discover Reasons for Gratitude | 358 | 100.0% |
 | 4 | 10 | Fleeting Treasure | Every Moment Is Precious | 310 | 99.68% |
 | 5 | 11–15 | Towards Global Peace | Principles of Success | 1462 | 100.0% |
-| 6 | 16–17 | Seek Wisdom from Others | Mutual Consultation | 493 | 99.8% |
-| 7 | 18–19 | As per Nature | Women in Islam | 781 | 99.87% |
-| 8 | 20–21 | Personality Development | Introspection | 500 | 99.8% |
-| 9 | 22 | Spirit versus Form | The Quran: A Book of Guidance | 403 | 99.75% |
-| 10 | 23–24 | For the Greater Good | The Importance of a Secondary Role | 588 | 99.83% |
+| 6 | 16–17 | Seek Wisdom from Others | Mutual Consultation | 493 | 100.0% |
+| 7 | 18–19 | As per Nature | Women in Islam | 781 | 100.0% |
+| 8 | 20–21 | Personality Development | Introspection | 500 | 100.0% |
+| 9 | 22 | Spirit versus Form | The Quran: A Book of Guidance | 403 | 100.0% |
+| 10 | 23–24 | For the Greater Good | The Importance of a Secondary Role | 588 | 100.0% |
 | 11 | 25 | Trust Factor | The Payment of Dues | 369 | 100.0% |
 | 12 | 26–27 | From the Spiritual Tree | Worship of God | 456 | 99.78% |
 | 13 | 28–33 | Positivity and Purity | God Realization | 2334 | 100.0% |
 | 14 | 34–35 | Changing the Mindset | Root Cause of Terrorism and Its Solution | 725 | 99.86% |
-| 15 | 36–37 | Healthy Society | Social Etiquette | 408 | 99.75% |
+| 15 | 36–37 | Healthy Society | Social Etiquette | 408 | 100.0% |
 | 16 | 38 | Value its Preciousness | Time Is a Treasure | 420 | 100.0% |
 | 17 | 39–40 | Spiritual Upliftment | The Spirit of Islam | 753 | 100.0% |
-| 18 | 41 | Ephemeral and Eternal | Reflections on Life and Death | 418 | 99.76% |
+| 18 | 41 | Ephemeral and Eternal | Reflections on Life and Death | 418 | 100.0% |
 | 19 | 42 | Natural Principle | Consolidation Before Expansion | 219 | 100.0% |
 | 20 | 43–45 | From The Scriptures | The Word of God | 1026 | 100.0% |
 | 21 | 46–48 | Your Questions Answered | Ask Maulana | 1164 | 100.0% |
@@ -33,17 +33,9 @@ PDF `January-2018.pdf`, 52 pages. **21 articles, 14,499 words, word match 99.92%
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): when
-- article 3, `p9b3` (p): if
 - article 4, `p10b9` (p): abdullah
-- article 6, `p16b3` (p): one
-- article 7, `p18b5` (p): it
-- article 8, `p20b3` (p): islam
-- article 9, `p22b3` (p): in
-- article 10, `p23b4` (p): in
 - article 12, `p26b4` (p): according
 - article 14, `p34b4` (p): there
-- article 15, `p36b3` (p): the
-- article 18, `p41b3` (p): of
 
 ## Left out of the e-version – please confirm
 

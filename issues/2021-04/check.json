@@ -66,16 +66,8 @@
     14
    ],
    "words": 337,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p14b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -86,16 +78,8 @@
     15
    ],
    "words": 262,
-   "match": 99.62,
-   "missing": [
-    {
-     "item": "p15b5",
-     "kind": "p",
-     "words": [
-      "people"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -150,16 +134,8 @@
     25
    ],
    "words": 318,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -194,16 +170,8 @@
     30
    ],
    "words": 335,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p30b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -226,16 +194,8 @@
     32
    ],
    "words": 363,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -338,7 +298,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.94,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15156,

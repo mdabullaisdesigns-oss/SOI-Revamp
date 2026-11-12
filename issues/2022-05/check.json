@@ -74,16 +74,8 @@
     19
    ],
    "words": 230,
-   "match": 99.57,
-   "missing": [
-    {
-     "item": "p19b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -114,16 +106,8 @@
     21
    ],
    "words": 319,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p21b12",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -146,16 +130,8 @@
     27
    ],
    "words": 430,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p26b8",
-     "kind": "p",
-     "words": [
-      "waki"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -218,16 +194,8 @@
     39
    ],
    "words": 385,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p38b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -298,7 +266,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 14961,

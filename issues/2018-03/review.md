@@ -1,6 +1,6 @@
 # Review – Issue 63 · March 2018
 
-PDF `March-2018.pdf`, 52 pages. **16 articles, 14,810 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `March-2018.pdf`, 52 pages. **16 articles, 14,810 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,17 +9,17 @@ PDF `March-2018.pdf`, 52 pages. **16 articles, 14,810 words, word match 99.93%**
 | 1 | 5–7 | From Maulana’s Desk | Good News from Muzaffarnagar | 753 | 99.87% |
 | 2 | 8–11 | From the Editorial Director | Women in Islam | 1489 | 99.93% |
 | 3 | 12–16 | Creation Plan of God | About the Quran | 1684 | 99.94% |
-| 4 | 17–19 | An Islamic Perspective | Suicide | 960 | 99.9% |
+| 4 | 17–19 | An Islamic Perspective | Suicide | 960 | 100.0% |
 | 5 | 20–22 | Dealing with Loss | Positive Aspects of Failure | 1022 | 100.0% |
 | 6 | 23–24 | A Comprehensive Principle | Universal Brotherhood | 532 | 99.81% |
-| 7 | 25 | Pure and Sincere | Intentions | 296 | 99.66% |
+| 7 | 25 | Pure and Sincere | Intentions | 296 | 100.0% |
 | 8 | 26 | From the Spiritual Tree | Greenery Returned | 352 | 100.0% |
-| 9 | 27 | Success in Life | On the Eve of Exams | 379 | 99.74% |
-| 10 | 28–29 | For Need, not Greed | The Money Culture | 780 | 99.87% |
+| 9 | 27 | Success in Life | On the Eve of Exams | 379 | 100.0% |
+| 10 | 28–29 | For Need, not Greed | The Money Culture | 780 | 100.0% |
 | 11 | 30–34 | Towards Global Peace | Jihad | 1739 | 100.0% |
 | 12 | 35–39 | From Probability | Argument for the Life Hereafter | 1915 | 99.95% |
 | 13 | 40–42 | Character to Emulate | Example of the Prophet | 1055 | 99.91% |
-| 14 | 43–44 | To Contemplate Seriously | Before Death and After Death | 498 | 99.8% |
+| 14 | 43–44 | To Contemplate Seriously | Before Death and After Death | 498 | 100.0% |
 | 15 | 45–46 | From The Scriptures | The Word of God | 763 | 100.0% |
 | 16 | 47–48 | Your Questions Answered | Ask Maulana | 593 | 100.0% |
 
@@ -30,14 +30,9 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b5` (p): here
 - article 2, `p8b4` (p): referring
 - article 3, `p12b3` (p): if
-- article 4, `p17b3` (p): one
 - article 6, `p23b3` (p): according
-- article 7, `p25b3` (p): islam
-- article 9, `p27b3` (p): parents
-- article 10, `p28b3` (p): wealth
 - article 12, `p35b3` (p): one
 - article 13, `p40b3` (p): about
-- article 14, `p43b10` (p): in
 
 ## Left out of the e-version – please confirm
 

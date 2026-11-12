@@ -34,16 +34,8 @@
     10
    ],
    "words": 350,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p10b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -142,16 +134,8 @@
     29
    ],
    "words": 644,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "people"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -162,16 +146,8 @@
     33
    ],
    "words": 1361,
-   "match": 99.93,
-   "missing": [
-    {
-     "item": "p30b3",
-     "kind": "p",
-     "words": [
-      "as"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -182,16 +158,8 @@
     34
    ],
    "words": 411,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -214,27 +182,13 @@
     41
    ],
    "words": 850,
-   "match": 99.65,
+   "match": 99.88,
    "missing": [
-    {
-     "item": "p39b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    },
     {
      "item": "p39b8",
      "kind": "pull",
      "words": [
       "deconditioning"
-     ]
-    },
-    {
-     "item": "p39b6",
-     "kind": "p",
-     "words": [
-      "intellectual"
      ]
     }
    ]
@@ -284,7 +238,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16414,

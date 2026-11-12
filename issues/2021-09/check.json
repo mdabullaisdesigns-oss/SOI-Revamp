@@ -42,16 +42,8 @@
     10
    ],
    "words": 551,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p9b2",
-     "kind": "p",
-     "words": [
-      "peoples"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -74,16 +66,8 @@
     14
    ],
    "words": 522,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p13b2",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -126,16 +110,8 @@
     20
    ],
    "words": 437,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p20b2",
-     "kind": "p",
-     "words": [
-      "how"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -146,16 +122,8 @@
     21
    ],
    "words": 389,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p21b3",
-     "kind": "p",
-     "words": [
-      "ismet"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -186,16 +154,8 @@
     28
    ],
    "words": 611,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p27b2",
-     "kind": "p",
-     "words": [
-      "india"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -206,16 +166,8 @@
     30
    ],
    "words": 540,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p29b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -306,7 +258,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15617,

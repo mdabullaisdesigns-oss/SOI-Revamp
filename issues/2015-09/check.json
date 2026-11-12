@@ -10,23 +10,8 @@
     9
    ],
    "words": 1798,
-   "match": 99.89,
-   "missing": [
-    {
-     "item": "p5b5",
-     "kind": "p",
-     "words": [
-      "some"
-     ]
-    },
-    {
-     "item": "p6b4",
-     "kind": "p",
-     "words": [
-      "socalled"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -69,16 +54,8 @@
     13
    ],
    "words": 405,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p13b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -101,16 +78,8 @@
     20
    ],
    "words": 435,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p19b2",
-     "kind": "p",
-     "words": [
-      "muslim"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -121,16 +90,8 @@
     25
    ],
    "words": 1574,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p21b2",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -153,16 +114,8 @@
     28
    ],
    "words": 274,
-   "match": 99.64,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -241,16 +194,8 @@
     41
    ],
    "words": 412,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "society"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -281,16 +226,8 @@
     44
    ],
    "words": 196,
-   "match": 99.49,
-   "missing": [
-    {
-     "item": "p44b3",
-     "kind": "p",
-     "words": [
-      "to"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -317,7 +254,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16746,

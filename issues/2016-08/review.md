@@ -1,35 +1,35 @@
 # Review – Issue 44 · August 2016
 
-PDF `August-2016.pdf`, 52 pages. **26 articles, 14,721 words, word match 99.88%** (second reading of the PDF; flag below 99%).
+PDF `August-2016.pdf`, 52 pages. **26 articles, 14,721 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Un-Islamic Culture in the Name of Islam | 864 | 99.88% |
-| 2 | 8–9 | Psychologically Warped | The Case of the Mass Shooter at Orlando | 722 | 99.86% |
+| 2 | 8–9 | Psychologically Warped | The Case of the Mass Shooter at Orlando | 722 | 100.0% |
 | 3 | 10 | Promoting Friendly Atmosphere | Finding Common Ground | 296 | 100.0% |
-| 4 | 11 | Staying Motivated | Never Losing Hope | 275 | 99.64% |
-| 5 | 12–14 | Not a Tour | Hajj: A Pilgrimage | 953 | 99.9% |
+| 4 | 11 | Staying Motivated | Never Losing Hope | 275 | 100.0% |
+| 5 | 12–14 | Not a Tour | Hajj: A Pilgrimage | 953 | 100.0% |
 | 6 | 15 | A Fundamental Virtue | Patience (sabr) | 357 | 100.0% |
-| 7 | 16 | Principle for Success | Quiet Endeavour | 397 | 99.75% |
+| 7 | 16 | Principle for Success | Quiet Endeavour | 397 | 100.0% |
 | 8 | 17–19 | Towards Global Peace | Tolerance, Its Significance Today | 1006 | 100.0% |
 | 9 | 20 | An Act of Worship | The Rituals of Hajj | 396 | 100.0% |
 | 10 | 21 | Unity in Diversity | On the Occasion of Differences | 360 | 100.0% |
-| 11 | 22–24 | An Analysis of the Past 69 Years | Indian Muslims | 1080 | 99.81% |
+| 11 | 22–24 | An Analysis of the Past 69 Years | Indian Muslims | 1080 | 99.91% |
 | 12 | 25–26 | From the Spiritual Tree | When All Things Come to Light | 416 | 100.0% |
-| 13 | 27 | A Wise Policy | Responsibility According to Capacity | 321 | 99.69% |
+| 13 | 27 | A Wise Policy | Responsibility According to Capacity | 321 | 100.0% |
 | 14 | 28 | Most Harmful | Negative Mindset | 318 | 100.0% |
 | 15 | 29 | Message of Hajj | Human Brotherhood | 310 | 99.68% |
-| 16 | 30–32 | Pragmatic | The Policy of the Prophet | 1143 | 99.91% |
+| 16 | 30–32 | Pragmatic | The Policy of the Prophet | 1143 | 100.0% |
 | 17 | 33–34 | Their Rights | Relatives and Neighbours | 575 | 100.0% |
 | 18 | 35–36 | Welcome It | Criticism as an Intellectual Mirror | 628 | 99.84% |
-| 19 | 37 | Practical Demonstration | Human Equality | 361 | 99.72% |
-| 20 | 38–39 | Practice of Satan | Negative Thinking | 640 | 99.84% |
+| 19 | 37 | Practical Demonstration | Human Equality | 361 | 100.0% |
+| 20 | 38–39 | Practice of Satan | Negative Thinking | 640 | 100.0% |
 | 21 | 40 | For True Spirituality | Love of God | 319 | 99.69% |
 | 22 | 41 | Know the Difference | The Possible and the Impossible | 341 | 99.71% |
-| 23 | 42–43 | False Propaganda | Western Agenda | 564 | 99.82% |
-| 24 | 44 | Trigger Your Mind | Funeral Service | 331 | 99.7% |
+| 23 | 42–43 | False Propaganda | Western Agenda | 564 | 100.0% |
+| 24 | 44 | Trigger Your Mind | Funeral Service | 331 | 100.0% |
 | 25 | 45–46 | From The Scriptures | The Word of God | 708 | 100.0% |
 | 26 | 47–49 | Your Questions Answered | Ask Maulana | 1040 | 100.0% |
 
@@ -38,22 +38,11 @@ PDF `August-2016.pdf`, 52 pages. **26 articles, 14,721 words, word match 99.88%*
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b4` (p): july
-- article 2, `p8b4` (p): on
-- article 4, `p11b3` (p): abraham
-- article 5, `p12b3` (p): it
-- article 7, `p16b3` (p): on
-- article 11, `p22b3` (p): all
 - article 11, `p23b6` (p): selfdevelopment
-- article 13, `p27b3` (p): islam
 - article 15, `p29b3` (p): according
-- article 16, `p30b3` (p): from
 - article 18, `p35b3` (p): generally
-- article 19, `p37b3` (p): according
-- article 20, `p38b3` (p): the
 - article 21, `p40b4` (p): one
 - article 22, `p41b7` (p): whether
-- article 23, `p42b3` (p): presentday
-- article 24, `p44b3` (p): the
 
 ## Left out of the e-version – please confirm
 

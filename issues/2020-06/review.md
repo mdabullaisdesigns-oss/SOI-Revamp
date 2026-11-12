@@ -1,6 +1,6 @@
 # Review – Issue 90 · June 2020
 
-PDF `June-2020.pdf`, 52 pages. **21 articles, 15,689 words, word match 99.94%** (second reading of the PDF; flag below 99%).
+PDF `June-2020.pdf`, 52 pages. **21 articles, 15,689 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -14,17 +14,17 @@ PDF `June-2020.pdf`, 52 pages. **21 articles, 15,689 words, word match 99.94%** 
 | 6 | 15 | Towards Realization of God | Likeness of God | 412 | 100.0% |
 | 7 | 16–20 | Expression of God’s Existence | The Glorious God of a Glorious Universe | 1787 | 99.94% |
 | 8 | 21 | Artistry and Precision in the Universe | God, the Greatest | 346 | 100.0% |
-| 9 | 22–23 | Compensation for One’s Weakness | God: A Source of Conviction | 717 | 99.86% |
+| 9 | 22–23 | Compensation for One’s Weakness | God: A Source of Conviction | 717 | 100.0% |
 | 10 | 24–25 | How Great Thou Art! | The Galaxy Speaks About Its Creator | 517 | 99.81% |
 | 11 | 26–27 | From the Spiritual Tree | Love of God | 764 | 100.0% |
 | 12 | 28–29 | Non-replicable Masterpiece | Wonder of Wonders | 465 | 99.78% |
 | 13 | 30 | Source of Beauty and Goodness | God: A Resplendent Being | 298 | 100.0% |
-| 14 | 31 | From Creation to Creator | Experiencing the Presence of God | 372 | 99.73% |
+| 14 | 31 | From Creation to Creator | Experiencing the Presence of God | 372 | 100.0% |
 | 15 | 32–37 | Arguments for the Existence of God | The Universe Declares | 2367 | 100.0% |
-| 16 | 38 | Form Vs Spirit | Belief in God | 425 | 99.76% |
+| 16 | 38 | Form Vs Spirit | Belief in God | 425 | 100.0% |
 | 17 | 39–40 | A Misplaced Quest | Quest for Life in Space | 487 | 100.0% |
-| 18 | 41–44 | Towards Global Peace | Speaking of God Today | 1321 | 99.92% |
-| 19 | 45 | Look through the Eyes of a Child | The Wonders of Creation | 345 | 99.71% |
+| 18 | 41–44 | Towards Global Peace | Speaking of God Today | 1321 | 100.0% |
+| 19 | 45 | Look through the Eyes of a Child | The Wonders of Creation | 345 | 100.0% |
 | 20 | 46–48 | From The Scriptures | The Word of God | 1167 | 100.0% |
 | 21 | 49–50 | Your Questions Answered | Ask Maulana | 485 | 100.0% |
 
@@ -34,13 +34,8 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 3, `p9b3` (p): since
 - article 7, `p16b7` (p): studies
-- article 9, `p22b7` (p): the
 - article 10, `p24b6` (p): according
 - article 12, `p28b3` (p): looking
-- article 14, `p31b11` (p): one
-- article 16, `p38b3` (p): one
-- article 18, `p41b7` (p): nature
-- article 19, `p45b2` (p): in
 
 ## Left out of the e-version – please confirm
 

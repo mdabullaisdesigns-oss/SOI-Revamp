@@ -10,16 +10,8 @@
     7
    ],
    "words": 946,
-   "match": 99.89,
-   "missing": [
-    {
-     "item": "p5b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -98,16 +90,8 @@
     19
    ],
    "words": 1237,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -158,17 +142,8 @@
     28
    ],
    "words": 1089,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "dr",
-      "saniyasnain"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -203,16 +178,8 @@
     35
    ],
    "words": 722,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p33b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -223,16 +190,8 @@
     38
    ],
    "words": 1277,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p36b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -271,7 +230,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 14734,

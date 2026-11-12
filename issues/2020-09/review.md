@@ -1,6 +1,6 @@
 # Review – Issue 93 · September 2020
 
-PDF `September-2020.pdf`, 52 pages. **21 articles, 14,911 words, word match 99.89%** (second reading of the PDF; flag below 99%).
+PDF `September-2020.pdf`, 52 pages. **21 articles, 14,911 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -11,20 +11,20 @@ PDF `September-2020.pdf`, 52 pages. **21 articles, 14,911 words, word match 99.8
 | 3 | 9 | God-oriented Thinking | The Purpose of Religion | 386 | 99.74% |
 | 4 | 10–11 | Spirit through Form | The Purpose of Religious Rituals | 535 | 99.81% |
 | 5 | 12 | A Matter of Introspection | The Cause of Discord | 388 | 100.0% |
-| 6 | 13 | A Domain of Religion, not of Science | Coping with Death | 381 | 99.74% |
-| 7 | 14–15 | Much-needed Task | Restoration of Religion | 571 | 99.82% |
+| 6 | 13 | A Domain of Religion, not of Science | Coping with Death | 381 | 100.0% |
+| 7 | 14–15 | Much-needed Task | Restoration of Religion | 571 | 100.0% |
 | 8 | 16–17 | Religion Backed by Science | From Denial to Belief | 718 | 99.86% |
 | 9 | 18–22 | Points to Ponder | Religion and the Life Hereafter | 2016 | 99.95% |
 | 10 | 23 | Journey of Life | Opportunity for Re-Planning | 290 | 99.66% |
-| 11 | 24–25 | This Life is a Test | Blessing in Disguise | 648 | 99.85% |
+| 11 | 24–25 | This Life is a Test | Blessing in Disguise | 648 | 100.0% |
 | 12 | 26–27 | From the Spiritual Tree | Right Start | 490 | 100.0% |
-| 13 | 28 | Without Religious Beliefs | Is Life Worth Living? | 320 | 99.69% |
-| 14 | 29–30 | Refuting Mechanical Explanation of the Universe | Religion Stages a Comeback | 637 | 99.84% |
+| 13 | 28 | Without Religious Beliefs | Is Life Worth Living? | 320 | 100.0% |
+| 14 | 29–30 | Refuting Mechanical Explanation of the Universe | Religion Stages a Comeback | 637 | 100.0% |
 | 15 | 31–32 | Never Outmoded | Intrinsic Reality | 582 | 99.83% |
-| 16 | 33–35 | Towards Global Peace | The Importance of Religion in Peace-Building | 1085 | 99.91% |
+| 16 | 33–35 | Towards Global Peace | The Importance of Religion in Peace-Building | 1085 | 100.0% |
 | 17 | 36–40 | Follow One, Respect All | The Road to Religious Harmony | 1671 | 99.94% |
 | 18 | 41–43 | No Compulsion at All | Religious Freedom in Islam | 843 | 99.88% |
-| 19 | 44–45 | A Reversal of Fortune | When the Ship Comes Home | 512 | 99.8% |
+| 19 | 44–45 | A Reversal of Fortune | When the Ship Comes Home | 512 | 100.0% |
 | 20 | 46–48 | From The Scriptures | The Word of God | 910 | 100.0% |
 | 21 | 49–50 | Your Questions Answered | Ask Maulana | 708 | 100.0% |
 
@@ -35,19 +35,12 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b5` (p): god
 - article 3, `p9b3` (p): there
 - article 4, `p10b3` (p): what
-- article 6, `p13b3` (p): two
-- article 7, `p14b3` (p): in
 - article 8, `p16b3` (p): professor
 - article 9, `p18b11` (p): so
 - article 10, `p23b3` (p): when
-- article 11, `p24b3` (p): man
-- article 13, `p28b7` (p): everything
-- article 14, `p29b3` (p): if
 - article 15, `p31b3` (p): it
-- article 16, `p33b5` (p): since
 - article 17, `p36b3` (p): what
 - article 18, `p41b3` (p): contrary
-- article 19, `p44b3` (p): in
 
 ## Left out of the e-version – please confirm
 

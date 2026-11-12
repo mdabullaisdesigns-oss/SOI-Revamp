@@ -1,20 +1,20 @@
 # Review – Issue 99 · March 2021
 
-PDF `March-2021.pdf`, 52 pages. **11 articles, 16,381 words, word match 99.97%** (second reading of the PDF; flag below 99%).
+PDF `March-2021.pdf`, 52 pages. **11 articles, 16,381 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Deconditioning the Mind | 806 | 99.88% |
-| 2 | 8–10 | From the Editorial Director | Islamic Concept of Gender Equality | 1110 | 99.91% |
+| 2 | 8–10 | From the Editorial Director | Islamic Concept of Gender Equality | 1110 | 100.0% |
 | 3 | 11–13 | Realizing the Potential of Women | The Spiritual Role of Women | 942 | 99.89% |
 | 4 | 16–29 |  | Women Can Play a Revolutionary Role in Islamic Missionary Tasks: | 6042 | 100.0% |
 | 5 | 30–31 | From the Spiritual Tree | A Faultless Universe | 404 | 100.0% |
-| 6 | 32–36 | Importance of Right-thinking | The Art of Thinking | 1784 | 99.94% |
+| 6 | 32–36 | Importance of Right-thinking | The Art of Thinking | 1784 | 100.0% |
 | 7 | 37–38 | In the way of God for humanity | A Life Dedicated to Peace & Spirituality | 763 | 100.0% |
 | 8 | 39–41 |  | The Story of Khadija | 1271 | 100.0% |
-| 9 | 42–45 | The Extraordinary Role of Muslim Women | Mothers of the Believers | 1598 | 99.94% |
+| 9 | 42–45 | The Extraordinary Role of Muslim Women | Mothers of the Believers | 1598 | 100.0% |
 | 10 | 46–47 | From The Scriptures | The Word of God | 703 | 100.0% |
 | 11 | 48–50 | Your Questions Answered | Ask Maulana | 958 | 100.0% |
 
@@ -23,10 +23,7 @@ PDF `March-2021.pdf`, 52 pages. **11 articles, 16,381 words, word match 99.97%**
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): no
-- article 2, `p8b5` (p): men
 - article 3, `p11b3` (p): studies
-- article 6, `p32b3` (p): as
-- article 9, `p42b3` (p): it
 
 ## Left out of the e-version – please confirm
 

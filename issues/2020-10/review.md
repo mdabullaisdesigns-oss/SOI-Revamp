@@ -1,6 +1,6 @@
 # Review – Issue 94 · October 2020
 
-PDF `October-2020.pdf`, 52 pages. **24 articles, 15,916 words, word match 99.85%** (second reading of the PDF; flag below 99%).
+PDF `October-2020.pdf`, 52 pages. **24 articles, 15,916 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,26 +8,26 @@ PDF `October-2020.pdf`, 52 pages. **24 articles, 15,916 words, word match 99.85%
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Global Library | 502 | 99.8% |
 | 2 | 7–8 | From the Editorial Director | Worldly Gain, Spiritual Loss | 677 | 99.85% |
-| 3 | 9–10 | Essential and Relative Aspects of Religion | Faith and Politics | 715 | 99.86% |
+| 3 | 9–10 | Essential and Relative Aspects of Religion | Faith and Politics | 715 | 100.0% |
 | 4 | 11 | Disillusionment with Humanity | Flawed Ideals | 387 | 99.74% |
 | 5 | 12 | No Escape from the Consequences | The Unerasable Past | 393 | 99.75% |
-| 6 | 13–15 | Addressing the Issue of Suicide | Journey Through the Dark | 1109 | 99.64% |
+| 6 | 13–15 | Addressing the Issue of Suicide | Journey Through the Dark | 1109 | 99.91% |
 | 7 | 16 | Participate in Spirit | Sharing the Rewards | 430 | 100.0% |
 | 8 | 17 | Religion and Worldly Demands | Striking a Balance | 360 | 99.72% |
 | 9 | 18–19 | Before the Action Begins | The Necessity of Pretreatment | 620 | 99.84% |
-| 10 | 20 | Sacrifice Your Opinion | Price of Unity | 427 | 99.77% |
-| 11 | 21 | Physical Strength Alone is not Enough | The Psychology of Success | 260 | 99.62% |
+| 10 | 20 | Sacrifice Your Opinion | Price of Unity | 427 | 100.0% |
+| 11 | 21 | Physical Strength Alone is not Enough | The Psychology of Success | 260 | 100.0% |
 | 12 | 22 | Patience and Tolerance | The Superior Solution | 354 | 100.0% |
-| 13 | 23 | Appreciate Your Benefactors | True Gratitude | 293 | 99.66% |
+| 13 | 23 | Appreciate Your Benefactors | True Gratitude | 293 | 100.0% |
 | 14 | 24–25 | From the Spiritual Tree | Positivity: The Fertile Ground for God-Realization | 430 | 100.0% |
 | 15 | 26–28 | Actions Speak Louder than Words | Upbringing of Children | 1176 | 100.0% |
 | 16 | 29 | Everyone is under Trial | When Judges Are Judged | 415 | 99.76% |
-| 17 | 30–35 | Towards Global Peace | The Prophet: A Man of Peace | 2204 | 99.77% |
-| 18 | 36–40 | The Ultimate Destination | Preparing for Death | 1820 | 99.95% |
+| 17 | 30–35 | Towards Global Peace | The Prophet: A Man of Peace | 2204 | 99.91% |
+| 18 | 36–40 | The Ultimate Destination | Preparing for Death | 1820 | 100.0% |
 | 19 | 41 | Impediment to Forming of a Correct Opinion | Half the Story | 303 | 99.67% |
 | 20 | 42–43 | Journey Towards Death | An Undiscovered Reality | 741 | 100.0% |
-| 21 | 44 | The Only Correct Starting Point | Reforming a Society | 380 | 99.74% |
-| 22 | 45–46 | Learning from Daily Phenomena | Sleep: A Reminder of Death | 598 | 99.83% |
+| 21 | 44 | The Only Correct Starting Point | Reforming a Society | 380 | 100.0% |
+| 22 | 45–46 | Learning from Daily Phenomena | Sleep: A Reminder of Death | 598 | 100.0% |
 | 23 | 47–48 | From The Scriptures | The Word of God | 816 | 100.0% |
 | 24 | 49–50 | Your Questions Answered | Ask Maulana | 506 | 100.0% |
 
@@ -37,23 +37,14 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b5` (p): people
 - article 2, `p7b4` (p): once
-- article 3, `p9b3` (p): the
 - article 4, `p11b3` (p): philip
 - article 5, `p12b3` (p): tony
 - article 6, `p13b3` (p): almost
-- article 6, `p14b6` (p): committing this act
 - article 8, `p17b3` (p): believers
 - article 9, `p18b3` (p): textile
-- article 10, `p20b3` (p): in
-- article 11, `p21b6` (p): when
-- article 13, `p23b3` (p): the
 - article 16, `p29b3` (p): about
-- article 17, `p34b5` (p): feb7 months 25000 1991
-- article 17, `p34b9` (p): 2011
-- article 18, `p36b3` (p): man
+- article 17, `p34b5` (p): feb7 1991
 - article 19, `p41b3` (p): usually
-- article 21, `p44b3` (p): in
-- article 22, `p45b3` (p): the
 
 ## Left out of the e-version – please confirm
 

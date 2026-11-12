@@ -30,16 +30,8 @@
     9
    ],
    "words": 741,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p7b5",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -50,16 +42,8 @@
     11
    ],
    "words": 757,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p10b2",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -70,16 +54,8 @@
     13
    ],
    "words": 479,
-   "match": 99.79,
-   "missing": [
-    {
-     "item": "p12b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -110,16 +86,8 @@
     19
    ],
    "words": 502,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p18b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -130,16 +98,8 @@
     21
    ],
    "words": 679,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p20b3",
-     "kind": "p",
-     "words": [
-      "abdullah"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -162,16 +122,8 @@
     27
    ],
    "words": 505,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p26b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -182,16 +134,8 @@
     29
    ],
    "words": 683,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p28b2",
-     "kind": "p",
-     "words": [
-      "for"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -238,16 +182,8 @@
     37
    ],
    "words": 367,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p37b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -302,17 +238,8 @@
     47
    ],
    "words": 519,
-   "match": 99.61,
-   "missing": [
-    {
-     "item": "p46b4",
-     "kind": "intro",
-     "words": [
-      "commentary",
-      "by"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -327,7 +254,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 14458,

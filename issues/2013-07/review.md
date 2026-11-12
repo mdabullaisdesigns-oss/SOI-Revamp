@@ -1,25 +1,25 @@
 # Review – Issue 7 · July 2013
 
-PDF `July-2013.pdf`, 52 pages. **16 articles, 14,221 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `July-2013.pdf`, 52 pages. **16 articles, 14,221 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 6–7 | From Maulana’s Desk | Be Aware of Your Unawareness | 788 | 99.87% |
-| 2 | 8 |  | Giving as God Wills | 323 | 99.69% |
+| 1 | 6–7 | From Maulana’s Desk | Be Aware of Your Unawareness | 788 | 100.0% |
+| 2 | 8 |  | Giving as God Wills | 323 | 100.0% |
 | 3 | 9–15 |  | The Inner Reality of Fasting | 2532 | 100.0% |
-| 4 | 16 |  | Practicable Formula | 314 | 99.68% |
+| 4 | 16 |  | Practicable Formula | 314 | 100.0% |
 | 5 | 17–18 |  | The Problem of Evil | 591 | 99.83% |
 | 6 | 19 |  | Fasting Leads to Moral Discipline | 292 | 99.66% |
-| 7 | 20 |  | Total Involvement | 419 | 99.76% |
-| 8 | 21–27 |  | Social Welfare in Islam | 2864 | 99.97% |
-| 9 | 28–29 |  | Religion and Secularism | 528 | 99.62% |
-| 10 | 30–31 |  | A Fool’s Paradise | 587 | 99.83% |
+| 7 | 20 |  | Total Involvement | 419 | 100.0% |
+| 8 | 21–27 |  | Social Welfare in Islam | 2864 | 100.0% |
+| 9 | 28–29 |  | Religion and Secularism | 528 | 99.81% |
+| 10 | 30–31 |  | A Fool’s Paradise | 587 | 100.0% |
 | 11 | 32–34 |  | Ramazan : The Month of Peace | 1002 | 100.0% |
-| 12 | 35–36 |  | Eid-Ul-Fitr | 718 | 99.86% |
-| 13 | 37–39 |  | The Concept of Tomorrow | 1093 | 99.91% |
-| 14 | 40–41 |  | Fasting and Feasting | 588 | 99.83% |
+| 12 | 35–36 |  | Eid-Ul-Fitr | 718 | 100.0% |
+| 13 | 37–39 |  | The Concept of Tomorrow | 1093 | 100.0% |
+| 14 | 40–41 |  | Fasting and Feasting | 588 | 100.0% |
 | 15 | 42–44 |  | The Word of God | 967 | 100.0% |
 | 16 | 45–46 |  | Ask Maulana | 615 | 100.0% |
 
@@ -27,19 +27,9 @@ PDF `July-2013.pdf`, 52 pages. **16 articles, 14,221 words, word match 99.91%** 
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p6b4` (p): people
-- article 2, `p8b2` (p): mans
-- article 4, `p16b2` (p): an
 - article 5, `p17b2` (p): those
 - article 6, `p19b2` (p): according
-- article 7, `p20b2` (p): elias
-- article 8, `p21b2` (p): all
-- article 9, `p28b2` (p): people
 - article 9, `p28b10` (p): infrastructure
-- article 10, `p30b2` (p): what
-- article 12, `p35b2` (p): the
-- article 13, `p37b2` (p): in
-- article 14, `p40b2` (p): the
 
 ## Left out of the e-version – please confirm
 

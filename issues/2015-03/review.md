@@ -1,6 +1,6 @@
 # Review – Issue 27 · March 2015
 
-PDF `March-2015.pdf`, 52 pages. **18 articles, 15,838 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `March-2015.pdf`, 52 pages. **18 articles, 15,838 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,18 +9,18 @@ PDF `March-2015.pdf`, 52 pages. **18 articles, 15,838 words, word match 99.93%**
 | 1 | 5–6 | From Maulana’s Desk | Differences of Opinion | 483 | 99.79% |
 | 2 | 7 | Unconditional Peace | Peace for the Sake of Peace | 350 | 100.0% |
 | 3 | 8–9 | Equal Partnership | Gender Equality | 734 | 100.0% |
-| 4 | 10–20 | Argument from History | Arguments Against God and Religion — Part III | 4446 | 99.98% |
+| 4 | 10–20 | Argument from History | Arguments Against God and Religion — Part III | 4446 | 100.0% |
 | 5 | 21–22 | An Explanation for Life | The Answer Is Very Much Here | 735 | 99.86% |
 | 6 | 23 | Example of Adam | Eligibility for Paradise | 290 | 100.0% |
-| 7 | 24 | Secure Forgiveness | The Method of Repentance | 316 | 99.68% |
+| 7 | 24 | Secure Forgiveness | The Method of Repentance | 316 | 100.0% |
 | 8 | 25 | A conscious decision | Big or Beneficial | 305 | 99.67% |
 | 9 | 26–27 | From the Spiritual Tree | God’s Neighbour | 384 | 100.0% |
-| 10 | 28–35 | An Intellectual Role | Women in Islam | 2885 | 99.97% |
+| 10 | 28–35 | An Intellectual Role | Women in Islam | 2885 | 100.0% |
 | 11 | 36 | Privileged Responsibility | Why Has God Given Man Freedom? | 345 | 99.71% |
 | 12 | 37–38 | Corruption in Religion | Religious Imitation, Political Imitation | 786 | 99.87% |
 | 13 | 39–40 | Secret of Success | Where All Hopes End, New Hope Emerges | 498 | 99.8% |
-| 14 | 41–43 | Divine Guidance | Prophethood | 1140 | 99.91% |
-| 15 | 44 | Examination of Life | Time Is Up | 337 | 99.7% |
+| 14 | 41–43 | Divine Guidance | Prophethood | 1140 | 100.0% |
+| 15 | 44 | Examination of Life | Time Is Up | 337 | 100.0% |
 | 16 | 45–47 | From The Scriptures | The Word of God | 1276 | 100.0% |
 | 17 | 48 | Feedback | Letters to the Editor | 310 | 100.0% |
 | 18 | 49 | Feedback | Letters to the Editor | 218 | 100.0% |
@@ -30,16 +30,11 @@ PDF `March-2015.pdf`, 52 pages. **18 articles, 15,838 words, word match 99.93%**
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): once
-- article 4, `p10b3` (lead): atheistic
 - article 5, `p21b3` (p): esther
-- article 7, `p24b3` (p): man
 - article 8, `p25b3` (p): two
-- article 10, `p28b2` (p): the
 - article 11, `p36b2` (p): unlike
 - article 12, `p37b2` (p): followers
 - article 13, `p39b4` (p): theodore
-- article 14, `p41b3` (p): human
-- article 15, `p44b2` (p): students
 
 ## Left out of the e-version – please confirm
 

@@ -30,16 +30,8 @@
     10
    ],
    "words": 1110,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p8b5",
-     "kind": "p",
-     "words": [
-      "men"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -94,16 +86,8 @@
     36
    ],
    "words": 1784,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "as"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -138,16 +122,8 @@
     45
    ],
    "words": 1598,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -174,7 +150,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.97,
+ "overall_match": 99.99,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17718,

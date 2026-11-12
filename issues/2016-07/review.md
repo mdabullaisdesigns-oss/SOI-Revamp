@@ -1,33 +1,33 @@
 # Review – Issue 43 · July 2016
 
-PDF `July-2016.pdf`, 52 pages. **24 articles, 15,191 words, word match 99.86%** (second reading of the PDF; flag below 99%).
+PDF `July-2016.pdf`, 52 pages. **24 articles, 15,191 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Right Here, Right Now | 529 | 99.81% |
-| 2 | 7–8 | Spiritual Nourishment | The Holy Month of Fasting and Prayer | 656 | 99.85% |
-| 3 | 9 | A Journey | Secret of Happiness | 334 | 99.7% |
-| 4 | 10–14 | Barriers to Spirituality | History of Withouts | 1907 | 99.95% |
+| 2 | 7–8 | Spiritual Nourishment | The Holy Month of Fasting and Prayer | 656 | 100.0% |
+| 3 | 9 | A Journey | Secret of Happiness | 334 | 100.0% |
+| 4 | 10–14 | Barriers to Spirituality | History of Withouts | 1907 | 100.0% |
 | 5 | 15 | True Faith | Discovery, Rediscovery | 348 | 100.0% |
-| 6 | 16–17 | Look Within | Negative Thinking Is Un-Islamic | 580 | 99.83% |
-| 7 | 18 | No Regrets | Lamenting Over the Past | 409 | 99.76% |
+| 6 | 16–17 | Look Within | Negative Thinking Is Un-Islamic | 580 | 100.0% |
+| 7 | 18 | No Regrets | Lamenting Over the Past | 409 | 100.0% |
 | 8 | 19–22 | Towards Global Peace | The Religion of Peace | 1488 | 99.93% |
-| 9 | 23 | Forsake Falsehood to Discover Truth | Eliminate Bad Habits | 318 | 99.69% |
+| 9 | 23 | Forsake Falsehood to Discover Truth | Eliminate Bad Habits | 318 | 100.0% |
 | 10 | 24–25 | Lessons from Super Achievers | Successful Life, Unsuccessful End | 612 | 99.84% |
 | 11 | 26–27 | From the Spiritual Tree | Belief in God | 628 | 100.0% |
 | 12 | 28 | Manifestations in the Universe | God, the Greatest | 330 | 100.0% |
-| 13 | 29–30 | Repentance | When You Make a Mistake | 543 | 99.82% |
-| 14 | 31–32 | Purify Yourself | Tazkiya—an Act of Preparation | 690 | 99.86% |
-| 15 | 33–34 | Power and Perfection of God | Wonder of Wonders | 543 | 99.08% |
-| 16 | 35 | Desires Unlimited | The Human Predicament | 260 | 99.62% |
+| 13 | 29–30 | Repentance | When You Make a Mistake | 543 | 100.0% |
+| 14 | 31–32 | Purify Yourself | Tazkiya—an Act of Preparation | 690 | 100.0% |
+| 15 | 33–34 | Power and Perfection of God | Wonder of Wonders | 543 | 99.82% |
+| 16 | 35 | Desires Unlimited | The Human Predicament | 260 | 100.0% |
 | 17 | 36 | Success in this World and the Hereafter | Patience: The Superior Solution | 332 | 100.0% |
-| 18 | 37–38 | Conflict Management | Ignore Them Politely | 585 | 99.83% |
+| 18 | 37–38 | Conflict Management | Ignore Them Politely | 585 | 100.0% |
 | 19 | 39–40 | Need for a Global Perspective | The Case of Present Muslims | 763 | 99.87% |
 | 20 | 41 | Open Your Eyes | God’s Signs | 334 | 100.0% |
 | 21 | 42 | Single-minded Pursuit of Goals | The Secret of Success | 403 | 99.75% |
-| 22 | 43 | Life in the Hereafter | After Death | 331 | 99.7% |
+| 22 | 43 | Life in the Hereafter | After Death | 331 | 100.0% |
 | 23 | 44–47 | From The Scriptures | The Word of God | 1489 | 100.0% |
 | 24 | 48–49 | Your Questions Answered | Ask Maulana | 779 | 100.0% |
 
@@ -36,24 +36,11 @@ PDF `July-2016.pdf`, 52 pages. **24 articles, 15,191 words, word match 99.86%** 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b8` (p): at
-- article 2, `p7b3` (p): ramazan
-- article 3, `p9b6` (p): every
-- article 4, `p10b3` (p): the
-- article 6, `p16b2` (p): one
-- article 7, `p18b3` (p): an
 - article 8, `p19b4` (p): over
-- article 9, `p23b3` (p): the
 - article 10, `p24b3` (p): there
-- article 13, `p29b7` (p): one
-- article 14, `p31b3` (p): in
 - article 15, `p33b3` (p): looking
-- article 15, `p33b4` (small): element symbol
-- article 15, `p33b18` (small): v zn
-- article 16, `p35b3` (p): we
-- article 18, `p37b3` (p): life
 - article 19, `p39b3` (p): former
 - article 21, `p42b3` (p): on
-- article 22, `p43b5` (p): this
 
 ## Left out of the e-version – please confirm
 

@@ -126,16 +126,8 @@
     16
    ],
    "words": 297,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -214,16 +206,8 @@
     27
    ],
    "words": 587,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p26b4",
-     "kind": "p",
-     "words": [
-      "muslim"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -298,15 +282,8 @@
     39
    ],
    "words": 577,
-   "match": 99.65,
+   "match": 99.83,
    "missing": [
-    {
-     "item": "p38b4",
-     "kind": "p",
-     "words": [
-      "lee"
-     ]
-    },
     {
      "item": "p39b3",
      "kind": "p",
@@ -325,15 +302,8 @@
     42
    ],
    "words": 1024,
-   "match": 99.8,
+   "match": 99.9,
    "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "zakat"
-     ]
-    },
     {
      "item": "p42b5",
      "kind": "p",
@@ -384,23 +354,8 @@
     46
    ],
    "words": 490,
-   "match": 99.59,
-   "missing": [
-    {
-     "item": "p45b7",
-     "kind": "p",
-     "words": [
-      "a"
-     ]
-    },
-    {
-     "item": "p46b2",
-     "kind": "p",
-     "words": [
-      "b"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 24,
@@ -415,7 +370,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.88,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15089,

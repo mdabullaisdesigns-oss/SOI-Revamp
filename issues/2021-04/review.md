@@ -1,6 +1,6 @@
 # Review – Issue 100 · April–May–June 2021
 
-PDF `April-May-June-2021.pdf`, 52 pages. **22 articles, 13,935 words, word match 99.94%** (second reading of the PDF; flag below 99%).
+PDF `April-May-June-2021.pdf`, 52 pages. **22 articles, 13,935 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -10,17 +10,17 @@ PDF `April-May-June-2021.pdf`, 52 pages. **22 articles, 13,935 words, word match
 | 2 | 7 |  | Maulana Wahiduddin Khan Passes Away | 383 | 99.74% |
 | 3 | 9–11 | From Maulana’s Desk | Life Without God | 894 | 100.0% |
 | 4 | 12–13 | From the Editorial Director | Paying Homage to My Teacher | 737 | 100.0% |
-| 5 | 14 | Applying a Different Yardstick to Religion | A Serious Mistake | 337 | 99.7% |
-| 6 | 15 | A Journey towards Doom | From Pride to Arrogance | 262 | 99.62% |
+| 5 | 14 | Applying a Different Yardstick to Religion | A Serious Mistake | 337 | 100.0% |
+| 6 | 15 | A Journey towards Doom | From Pride to Arrogance | 262 | 100.0% |
 | 7 | 16–20 |  | Every Person Is Your Potential Friend: Maulana Wahiduddin Khan | 1882 | 100.0% |
 | 8 | 21–22 | Training in God-fearing and Patience | Spiritual Aspects of Ramadan | 507 | 100.0% |
 | 9 | 23–24 | Seek, and You shall Find | Laylat-Ul-Qadr | 614 | 99.84% |
-| 10 | 25 | Finding the Real Target | Ideal Individual, Ideal Society | 318 | 99.69% |
+| 10 | 25 | Finding the Real Target | Ideal Individual, Ideal Society | 318 | 100.0% |
 | 11 | 26–27 | From the Spiritual Tree | Silence and God-Realization | 324 | 100.0% |
 | 12 | 28–29 | A Day of Spiritual Reckoning | Eid-Ul-Fitr | 559 | 100.0% |
-| 13 | 30 | Desire-based, Principle-based | Two Lives | 335 | 99.7% |
+| 13 | 30 | Desire-based, Principle-based | Two Lives | 335 | 100.0% |
 | 14 | 31 | Master Advice for Life | Anger Management | 351 | 100.0% |
-| 15 | 32 | Never Lose Sight of the Hereafter | The Primacy of Prayer | 363 | 99.72% |
+| 15 | 32 | Never Lose Sight of the Hereafter | The Primacy of Prayer | 363 | 100.0% |
 | 16 | 33–34 | Towards Global Peace | The End of the Age of Persecution | 771 | 100.0% |
 | 17 | 35–36 | 365 Days with the Sahaba | Children’s Corner | 595 | 99.83% |
 | 18 | 37–39 |  | Letters and Opinions | 1067 | 100.0% |
@@ -34,12 +34,7 @@ PDF `April-May-June-2021.pdf`, 52 pages. **22 articles, 13,935 words, word match
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 2, `p7b3` (p): founder
-- article 5, `p14b3` (p): it
-- article 6, `p15b5` (p): people
 - article 9, `p23b3` (p): shabeqadr
-- article 10, `p25b3` (p): it
-- article 13, `p30b3` (p): man
-- article 15, `p32b3` (p): islam
 - article 17, `p35b6` (p): when
 - article 20, `p41b9` (p): hardly
 

@@ -150,16 +150,8 @@
     27
    ],
    "words": 479,
-   "match": 99.79,
-   "missing": [
-    {
-     "item": "p26b4",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -226,16 +218,8 @@
     44
    ],
    "words": 555,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p43b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -286,7 +270,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.96,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 27077,

@@ -1,6 +1,6 @@
 # Review – Issue 25 · January 2015
 
-PDF `January-2015.pdf`, 52 pages. **19 articles, 15,191 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `January-2015.pdf`, 52 pages. **19 articles, 15,191 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,19 +8,19 @@ PDF `January-2015.pdf`, 52 pages. **19 articles, 15,191 words, word match 99.91%
 |---|---|---|---|---|---|
 | 1 | 4 |  | From the Editor's Desk | 320 | 100.0% |
 | 2 | 6–7 | From Maulana’s Desk | Road to Happiness | 794 | 99.87% |
-| 3 | 8–9 | The Human World And The Material World | Explaining the Universe in Rational Terms | 703 | 99.86% |
-| 4 | 10–12 | An Un-Islamic Political Ideology | Analyzing Present-Day Muslim Militancy | 992 | 99.9% |
+| 3 | 8–9 | The Human World And The Material World | Explaining the Universe in Rational Terms | 703 | 100.0% |
+| 4 | 10–12 | An Un-Islamic Political Ideology | Analyzing Present-Day Muslim Militancy | 992 | 100.0% |
 | 5 | 13–15 | The Creator, Sustainer and Cherisher | Monotheism: Oneness of God | 964 | 100.0% |
-| 6 | 16–17 | Personality Development | Patience | 628 | 99.84% |
-| 7 | 18–19 | Transient Joy or Eternal Pleasure | Materialism and Spirituality | 602 | 99.83% |
+| 6 | 16–17 | Personality Development | Patience | 628 | 100.0% |
+| 7 | 18–19 | Transient Joy or Eternal Pleasure | Materialism and Spirituality | 602 | 100.0% |
 | 8 | 20–21 | Motivation From Deprivation | Starting from Scratch | 484 | 99.79% |
 | 9 | 22–23 | Renouncing Muslim Militancy | Education Alone Will Not Work | 591 | 99.83% |
 | 10 | 24–25 | No Community Favoured | The People of the Book | 573 | 99.83% |
-| 11 | 26–27 | From the Spiritual Tree | Indifference | 507 | 99.8% |
-| 12 | 28–37 | From Physical Sciences | Arguments Against God and Religion — Part I | 3702 | 99.97% |
+| 11 | 26–27 | From the Spiritual Tree | Indifference | 507 | 100.0% |
+| 12 | 28–37 | From Physical Sciences | Arguments Against God and Religion — Part I | 3702 | 100.0% |
 | 13 | 38 | Make Excellence Your Goal | Mother’s Advice to Her Son | 396 | 99.75% |
 | 14 | 39 | Innate Energy | A Phenomenon of the Body, Not of the Soul | 359 | 99.72% |
-| 15 | 40–41 | Creativity From Error | Mistake Plus | 667 | 99.85% |
+| 15 | 40–41 | Creativity From Error | Mistake Plus | 667 | 100.0% |
 | 16 | 42–43 | Discover The Creation Plan | Get Rid of Depression | 643 | 100.0% |
 | 17 | 44–45 | Unconditional Peace | The Ideology of Peace in Islam | 592 | 99.83% |
 | 18 | 46–48 | From The Scriptures | The Word of God | 1028 | 100.0% |
@@ -31,18 +31,11 @@ PDF `January-2015.pdf`, 52 pages. **19 articles, 15,191 words, word match 99.91%
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 2, `p6b5` (p): if
-- article 3, `p8b4` (p): it
-- article 4, `p10b4` (p): on
-- article 6, `p16b3` (p): the
-- article 7, `p18b2` (p): what
 - article 8, `p20b3` (p): edson
 - article 9, `p22b4` (p): malala
 - article 10, `p24b9` (p): four
-- article 11, `p26b3` (p): were
-- article 12, `p28b2` (p): atheist
 - article 13, `p38b3` (p): pablo
 - article 14, `p39b4` (p): richard
-- article 15, `p40b3` (p): one
 - article 17, `p44b3` (p): scholars
 
 ## Left out of the e-version – please confirm

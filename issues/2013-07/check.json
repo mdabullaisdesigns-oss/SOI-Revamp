@@ -10,16 +10,8 @@
     7
    ],
    "words": 788,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p6b4",
-     "kind": "p",
-     "words": [
-      "people"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -30,16 +22,8 @@
     8
    ],
    "words": 323,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p8b2",
-     "kind": "p",
-     "words": [
-      "mans"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -62,16 +46,8 @@
     16
    ],
    "words": 314,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p16b2",
-     "kind": "p",
-     "words": [
-      "an"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -122,16 +98,8 @@
     20
    ],
    "words": 419,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p20b2",
-     "kind": "p",
-     "words": [
-      "elias"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -142,16 +110,8 @@
     27
    ],
    "words": 2864,
-   "match": 99.97,
-   "missing": [
-    {
-     "item": "p21b2",
-     "kind": "p",
-     "words": [
-      "all"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -162,15 +122,8 @@
     29
    ],
    "words": 528,
-   "match": 99.62,
+   "match": 99.81,
    "missing": [
-    {
-     "item": "p28b2",
-     "kind": "p",
-     "words": [
-      "people"
-     ]
-    },
     {
      "item": "p28b10",
      "kind": "p",
@@ -189,16 +142,8 @@
     31
    ],
    "words": 587,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p30b2",
-     "kind": "p",
-     "words": [
-      "what"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -221,16 +166,8 @@
     36
    ],
    "words": 718,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p35b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -241,16 +178,8 @@
     39
    ],
    "words": 1093,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p37b2",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -261,16 +190,8 @@
     41
    ],
    "words": 588,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p40b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -297,7 +218,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15416,

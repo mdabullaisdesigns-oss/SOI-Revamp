@@ -1,6 +1,6 @@
 # Review – Issue 65 · May 2018
 
-PDF `May-2018.pdf`, 52 pages. **20 articles, 14,497 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `May-2018.pdf`, 52 pages. **20 articles, 14,497 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,14 +9,14 @@ PDF `May-2018.pdf`, 52 pages. **20 articles, 14,497 words, word match 99.9%** (s
 | 1 | 5–6 | From Maulana’s Desk | U-Turn—a Principle of Life | 719 | 99.86% |
 | 2 | 7–11 | From the Editorial Director | The Quran | 1769 | 100.0% |
 | 3 | 12 | Unpolished | The Inner Diamond | 333 | 99.7% |
-| 4 | 13–14 | Spirituality and Mission | The Goal of Ramazan | 729 | 99.86% |
-| 5 | 15–16 | Personality Development | Shocks and Shock Absorbers | 555 | 99.82% |
+| 4 | 13–14 | Spirituality and Mission | The Goal of Ramazan | 729 | 100.0% |
+| 5 | 15–16 | Personality Development | Shocks and Shock Absorbers | 555 | 100.0% |
 | 6 | 17–18 | Receiving in Giving | Being Useful to Society | 748 | 100.0% |
 | 7 | 19–21 | Peaceful Society | Benefits of Tolerance | 1243 | 99.92% |
-| 8 | 22–24 | Realize Your Potential | The Spirit of Learning | 1142 | 99.91% |
+| 8 | 22–24 | Realize Your Potential | The Spirit of Learning | 1142 | 100.0% |
 | 9 | 25 | Reasons to be Grateful | Miracle of Memory | 396 | 99.75% |
 | 10 | 26–27 | From the Spiritual Tree | The Price of Realization | 418 | 100.0% |
-| 11 | 28 | Understanding Your Creator | Translating the Quran | 297 | 99.66% |
+| 11 | 28 | Understanding Your Creator | Translating the Quran | 297 | 100.0% |
 | 12 | 29–30 | Spiritual Training | The Spirit of Ramazan | 528 | 100.0% |
 | 13 | 31–34 | Towards Global Peace | The Culture of Radicalization and Terrorism | 1471 | 99.86% |
 | 14 | 35–36 | Control Your Life | Fasting-Oriented Life | 579 | 99.83% |
@@ -33,12 +33,8 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b5` (p): once
 - article 3, `p12b3` (p): diamonds
-- article 4, `p13b3` (p): according
-- article 5, `p15b3` (p): human
 - article 7, `p19b4` (p): nothing
-- article 8, `p22b3` (p): god
 - article 9, `p25b3` (p): when
-- article 11, `p28b3` (p): shaikh
 - article 13, `p31b6` (p): 19192013
 - article 13, `p31b8` (pull): unnatural
 - article 14, `p35b3` (p): ramazan

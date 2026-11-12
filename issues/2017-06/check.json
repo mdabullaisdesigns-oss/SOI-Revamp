@@ -50,16 +50,8 @@
     10
    ],
    "words": 1043,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p8b3",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -70,23 +62,8 @@
     12
    ],
    "words": 676,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p11b3",
-     "kind": "p",
-     "words": [
-      "ramazan"
-     ]
-    },
-    {
-     "item": "p12b1",
-     "kind": "p",
-     "words": [
-      "godoriented"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -97,16 +74,8 @@
     17
    ],
    "words": 1918,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p13b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -137,16 +106,8 @@
     19
    ],
    "words": 275,
-   "match": 99.64,
-   "missing": [
-    {
-     "item": "p19b3",
-     "kind": "p",
-     "words": [
-      "tazkiya"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -181,16 +142,8 @@
     24
    ],
    "words": 303,
-   "match": 99.67,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "we"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -233,16 +186,8 @@
     29
    ],
    "words": 785,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p28b4",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -349,16 +294,8 @@
     37
    ],
    "words": 319,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p37b8",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 21,
@@ -439,7 +376,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.88,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17050,

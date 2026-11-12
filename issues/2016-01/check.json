@@ -22,16 +22,8 @@
     8
    ],
    "words": 469,
-   "match": 99.79,
-   "missing": [
-    {
-     "item": "p7b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -54,15 +46,8 @@
     15
    ],
    "words": 2205,
-   "match": 99.91,
+   "match": 99.95,
    "missing": [
-    {
-     "item": "p10b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    },
     {
      "item": "p12b2",
      "kind": "p",
@@ -105,16 +90,8 @@
     21
    ],
    "words": 360,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p20b4",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -161,16 +138,8 @@
     31
    ],
    "words": 243,
-   "match": 99.59,
-   "missing": [
-    {
-     "item": "p31b4",
-     "kind": "p",
-     "words": [
-      "mahatma"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -181,16 +150,8 @@
     32
    ],
    "words": 371,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "with"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -233,16 +194,8 @@
     36
    ],
    "words": 380,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p36b3",
-     "kind": "p",
-     "words": [
-      "an"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -253,16 +206,8 @@
     38
    ],
    "words": 631,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p37b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -273,16 +218,8 @@
     41
    ],
    "words": 1067,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p39b4",
-     "kind": "p",
-     "words": [
-      "we"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -293,16 +230,8 @@
     43
    ],
    "words": 559,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "violence"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -329,7 +258,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.99,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15949,

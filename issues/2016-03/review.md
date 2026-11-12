@@ -1,6 +1,6 @@
 # Review – Issue 39 · March 2016
 
-PDF `March-2016.pdf`, 52 pages. **17 articles, 14,952 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `March-2016.pdf`, 52 pages. **17 articles, 14,952 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,18 +8,18 @@ PDF `March-2016.pdf`, 52 pages. **17 articles, 14,952 words, word match 99.93%**
 |---|---|---|---|---|---|
 | 1 | 5–6 |  | From Maulana’s Desk | 799 | 100.0% |
 | 2 | 7–9 | Beginning of Modern Science | Islam—creator of the Modern Age | 917 | 100.0% |
-| 3 | 10 | A Matter of Planning | Bearing Fruit | 350 | 99.71% |
+| 3 | 10 | A Matter of Planning | Bearing Fruit | 350 | 100.0% |
 | 4 | 11–13 | Towards Global Peace | On Pacifism | 881 | 100.0% |
 | 5 | 14 | Treasure to Seek | The Advice of a Wise Man | 330 | 100.0% |
 | 6 | 16–17 | From the Spiritual Tree | The Greatest Teacher—death | 744 | 99.87% |
 | 7 | 18–23 | An Un-Islamic Practice | Dowry and Dower | 2258 | 99.96% |
 | 8 | 24 | Never Ending Possibilities | When One Is Broken into Two | 327 | 100.0% |
 | 9 | 25–27 | Guidance of God | Human Values in Islam | 1050 | 100.0% |
-| 10 | 28–29 | Role of a Good Home | Informal Education | 644 | 99.84% |
-| 11 | 30–33 | Sure Way to Success | Right Thinking | 1361 | 99.93% |
-| 12 | 34 | Adopt Simple Techniques | High Achievers | 411 | 99.76% |
+| 10 | 28–29 | Role of a Good Home | Informal Education | 644 | 100.0% |
+| 11 | 30–33 | Sure Way to Success | Right Thinking | 1361 | 100.0% |
+| 12 | 34 | Adopt Simple Techniques | High Achievers | 411 | 100.0% |
 | 13 | 35–38 | Root Cause of Terrorism | Political Islam & It's Proponents | 1423 | 100.0% |
-| 14 | 39–41 | Conscious Efforts Necessary | Successful Marriage | 850 | 99.65% |
+| 14 | 39–41 | Conscious Efforts Necessary | Successful Marriage | 850 | 99.88% |
 | 15 | 42–43 | The Summum Bonum | Peace: The Greatest Good | 616 | 99.84% |
 | 16 | 44–46 | From The Scriptures | The Word of God | 981 | 100.0% |
 | 17 | 47–49 | Your Questions Answered | Ask Maulana | 1010 | 100.0% |
@@ -28,15 +28,9 @@ PDF `March-2016.pdf`, 52 pages. **17 articles, 14,952 words, word match 99.93%**
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 3, `p10b3` (p): the
 - article 6, `p16b4` (p): julius
 - article 7, `p18b3` (p): dowrya
-- article 10, `p28b3` (p): people
-- article 11, `p30b3` (p): as
-- article 12, `p34b3` (p): the
-- article 14, `p39b3` (p): the
 - article 14, `p39b8` (pull): deconditioning
-- article 14, `p39b6` (p): intellectual
 - article 15, `p42b3` (p): literally
 
 ## Left out of the e-version – please confirm

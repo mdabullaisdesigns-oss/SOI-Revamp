@@ -58,16 +58,8 @@
     17
    ],
    "words": 869,
-   "match": 99.88,
-   "missing": [
-    {
-     "item": "p16b6",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -78,16 +70,8 @@
     18
    ],
    "words": 329,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p18b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -98,16 +82,8 @@
     20
    ],
    "words": 581,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p19b3",
-     "kind": "p",
-     "words": [
-      "is"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -150,16 +126,8 @@
     27
    ],
    "words": 398,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p26b4",
-     "kind": "p",
-     "words": [
-      "charlie"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -170,7 +138,7 @@
     36
    ],
    "words": 3607,
-   "match": 99.86,
+   "match": 99.92,
    "missing": [
     {
      "item": "p31b1",
@@ -180,18 +148,10 @@
      ]
     },
     {
-     "item": "p31b12",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    },
-    {
      "item": "p35b7",
      "kind": "p",
      "words": [
       "19th",
-      "and",
       "20th"
      ]
     }
@@ -246,16 +206,8 @@
     43
    ],
    "words": 1274,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -266,16 +218,8 @@
     45
    ],
    "words": 568,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p44b2",
-     "kind": "p",
-     "words": [
-      "most"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -302,7 +246,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17133,

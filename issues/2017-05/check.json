@@ -166,16 +166,8 @@
     28
    ],
    "words": 334,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "why"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -186,16 +178,8 @@
     31
    ],
    "words": 1072,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p29b3",
-     "kind": "p",
-     "words": [
-      "zakat"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -218,16 +202,8 @@
     35
    ],
    "words": 717,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -310,7 +286,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.95,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16502,

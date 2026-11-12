@@ -9,7 +9,7 @@
     6,
     8
    ],
-   "words": 944,
+   "words": 943,
    "match": 100.0,
    "missing": []
   },
@@ -33,7 +33,7 @@
     11,
     12
    ],
-   "words": 811,
+   "words": 810,
    "match": 99.88,
    "missing": [
     {
@@ -117,7 +117,7 @@
     24,
     27
    ],
-   "words": 1550,
+   "words": 1544,
    "match": 100.0,
    "missing": []
   },
@@ -153,7 +153,7 @@
     34,
     39
    ],
-   "words": 2064,
+   "words": 2063,
    "match": 100.0,
    "missing": []
   },
@@ -165,7 +165,7 @@
     40,
     41
    ],
-   "words": 626,
+   "words": 625,
    "match": 100.0,
    "missing": []
   },
@@ -230,5 +230,5 @@
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15499,
- "article_words": 14297
+ "article_words": 14287
 }

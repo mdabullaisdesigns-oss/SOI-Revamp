@@ -1,7 +1,7 @@
 {
  "slug": "2014-02",
  "voice": "TTSMaker Gary (2560)",
- "chars": 74319,
+ "chars": 74328,
  "articles": {
   "this-is-not-the-time": {
    "title": "This Is Not the Time",
@@ -852,6 +852,15 @@
     "There are numerous subjects other than Mathematics.",
     "The Creator has given different capabilities to different people so that in every field people who can excel emerge.",
     "You also have a special quality; discover it and try to make progress in that field."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-02-glossary.mp3",
+   "chars": 9,
+   "sentences": [
+    "Glossary"
    ]
   }
  }

@@ -1,6 +1,6 @@
 # Review – Issue 88 · April 2020
 
-PDF `April-2020.pdf`, 52 pages. **21 articles, 15,559 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `April-2020.pdf`, 52 pages. **21 articles, 15,559 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,16 +9,16 @@ PDF `April-2020.pdf`, 52 pages. **21 articles, 15,559 words, word match 99.95%**
 | 1 | 5–7 | From Maulana’s Desk | The Doha Pact | 826 | 99.88% |
 | 2 | 8–9 | From the Editorial Director | Ramadan: A Month of Rigorous Training | 559 | 100.0% |
 | 3 | 10–11 | Not a True Goal | Political Sovereignty | 655 | 100.0% |
-| 4 | 12–15 | True Islamic Ideal | Upright System or Upright Individual? | 1569 | 99.94% |
-| 5 | 16–17 | Taken for Granted | Blessings of God | 758 | 99.87% |
+| 4 | 12–15 | True Islamic Ideal | Upright System or Upright Individual? | 1569 | 100.0% |
+| 5 | 16–17 | Taken for Granted | Blessings of God | 758 | 100.0% |
 | 6 | 18–21 | Towards Global Peace | Three Ages of War | 1357 | 99.93% |
 | 7 | 22 | Open Your Eyes | A Glimpse of Heaven | 412 | 99.76% |
 | 8 | 23 | The Devil's Workshop | Idleness | 387 | 100.0% |
-| 9 | 24 | Patience and Piety | Guarantee of God’s Succour | 338 | 99.7% |
+| 9 | 24 | Patience and Piety | Guarantee of God’s Succour | 338 | 100.0% |
 | 10 | 25 | A Veritable Proof | Ramadan and Prophethood | 285 | 100.0% |
 | 11 | 26–27 | From the Spiritual Tree | Spiritual Living | 642 | 100.0% |
-| 12 | 28–29 | Avoidance and Patience | Formula for Coexistence | 643 | 99.84% |
-| 13 | 30–35 | Discover God through His Signs | Essence of Islam | 2464 | 99.96% |
+| 12 | 28–29 | Avoidance and Patience | Formula for Coexistence | 643 | 100.0% |
+| 13 | 30–35 | Discover God through His Signs | Essence of Islam | 2464 | 100.0% |
 | 14 | 36–37 | Respect Nature | Water as Spiritual Nourishment | 683 | 100.0% |
 | 15 | 38–39 | A Divine Arrangement | The Conscious and Unconscious Mind | 587 | 100.0% |
 | 16 | 40 | A Sign of Maturity | Intellectual Rebirth | 400 | 100.0% |
@@ -33,13 +33,8 @@ PDF `April-2020.pdf`, 52 pages. **21 articles, 15,559 words, word match 99.95%**
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): february
-- article 4, `p12b3` (p): at
-- article 5, `p16b13` (p): from
 - article 6, `p18b4` (p): man
 - article 7, `p22b5` (p): if
-- article 9, `p24b8` (p): the
-- article 12, `p28b3` (p): life
-- article 13, `p30b3` (p): everything
 
 ## Left out of the e-version – please confirm
 

@@ -22,16 +22,8 @@
     10
    ],
    "words": 1011,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p8b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -54,16 +46,8 @@
     19
    ],
    "words": 780,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p18b7",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -106,16 +90,8 @@
     29
    ],
    "words": 2533,
-   "match": 99.96,
-   "missing": [
-    {
-     "item": "p23b3",
-     "kind": "p",
-     "words": [
-      "with"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -125,7 +101,7 @@
     30,
     31
    ],
-   "words": 541,
+   "words": 495,
    "match": 100.0,
    "missing": []
   },
@@ -158,16 +134,8 @@
     33
    ],
    "words": 395,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p33b5",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -178,16 +146,8 @@
     35
    ],
    "words": 472,
-   "match": 99.79,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -210,16 +170,8 @@
     38
    ],
    "words": 721,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p37b3",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -230,16 +182,8 @@
     40
    ],
    "words": 599,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p39b3",
-     "kind": "p",
-     "words": [
-      "by"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -250,16 +194,8 @@
     43
    ],
    "words": 1242,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p41b3",
-     "kind": "p",
-     "words": [
-      "professor"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -284,11 +220,29 @@
    "words": 684,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 18,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    49,
+    49
+   ],
+   "words": 393,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.99,
  "flagged": [],
- "unplaced": [],
+ "unplaced": [
+  {
+   "page": 49,
+   "words": 5,
+   "text": "the kabah house of god"
+  }
+ ],
  "pdf_words": 16109,
- "article_words": 14497
+ "article_words": 14844
 }

@@ -1,24 +1,24 @@
 # Review – Issue 116 · January–February 2024
 
-PDF `SOI-Jan-Feb-2024.pdf`, 52 pages. **19 articles, 13,559 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `SOI-Jan-Feb-2024.pdf`, 52 pages. **19 articles, 13,559 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–7 | From the Editor-In-Chief’s Desk | Navigating the New Year with Purpose and Wisdom | 817 | 99.88% |
-| 2 | 8–16 | Personal Experiences | Hyderabad Diaries | 3684 | 99.95% |
-| 3 | 17 | Journey Towards God-Realization | Living for God | 347 | 99.71% |
-| 4 | 18–19 | Well-wishing and Benefitting | Traits of a Good Personality | 322 | 99.69% |
+| 1 | 5–7 | From the Editor-In-Chief’s Desk | Navigating the New Year with Purpose and Wisdom | 817 | 100.0% |
+| 2 | 8–16 | Personal Experiences | Hyderabad Diaries | 3684 | 99.97% |
+| 3 | 17 | Journey Towards God-Realization | Living for God | 347 | 100.0% |
+| 4 | 18–19 | Well-wishing and Benefitting | Traits of a Good Personality | 322 | 100.0% |
 | 5 | 20–21 | A Prophecy Proved True | The Challenges of the Later Era | 422 | 99.76% |
 | 6 | 22 | The Need for Divine Guidance | Role of Prophets in Shaping Human Destiny | 339 | 99.71% |
-| 7 | 23–24 | Intellectual Partnership Between Husband And Wife | Towards Marital Bliss | 711 | 99.86% |
-| 8 | 25 | Embracing Opportunities Amidst Adversity | The Test Paper | 357 | 99.72% |
-| 9 | 26–28 | The Role of Conscience | Rebuilding the Self | 494 | 99.8% |
+| 7 | 23–24 | Intellectual Partnership Between Husband And Wife | Towards Marital Bliss | 711 | 100.0% |
+| 8 | 25 | Embracing Opportunities Amidst Adversity | The Test Paper | 357 | 100.0% |
+| 9 | 26–28 | The Role of Conscience | Rebuilding the Self | 494 | 100.0% |
 | 10 | 28–29 |  | The Incentive Spoon | 420 | 100.0% |
-| 11 | 30 | Finding Solutions | The Escalation of Violence | 341 | 99.71% |
-| 12 | 31–32 | Shun Hate and Embrace Positivity | Leadership and Social Harmony | 491 | 99.8% |
-| 13 | 33–34 | Towards Global Peace | Peace in the Promised Land | 663 | 99.85% |
+| 11 | 30 | Finding Solutions | The Escalation of Violence | 341 | 100.0% |
+| 12 | 31–32 | Shun Hate and Embrace Positivity | Leadership and Social Harmony | 491 | 100.0% |
+| 13 | 33–34 | Towards Global Peace | Peace in the Promised Land | 663 | 100.0% |
 | 14 | 35–37 | Limitless and Always Growing | The Spirit of Faith | 932 | 100.0% |
 | 15 | 38–39 | The Essence of Islamic Faith | Oneness of God in Islam | 476 | 100.0% |
 | 16 | 40–41 |  | Children’s Corner | 634 | 100.0% |
@@ -30,19 +30,9 @@ PDF `SOI-Jan-Feb-2024.pdf`, 52 pages. **19 articles, 13,559 words, word match 99
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): in
-- article 2, `p8b4` (p): travelling
 - article 2, `p14b5` (p): offshoots
-- article 3, `p17b4` (p): there
-- article 4, `p18b3` (p): the
 - article 5, `p20b10` (p): prophet
 - article 6, `p22b4` (p): both
-- article 7, `p23b10` (p): the
-- article 8, `p25b3` (p): in
-- article 9, `p26b3` (p): within
-- article 11, `p30b3` (p): in
-- article 12, `p31b3` (p): within
-- article 13, `p33b5` (p): palestine
 
 ## Left out of the e-version – please confirm
 

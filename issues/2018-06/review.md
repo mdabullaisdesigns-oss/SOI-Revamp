@@ -1,6 +1,6 @@
 # Review – Issue 66 · June 2018
 
-PDF `June-2018.pdf`, 52 pages. **17 articles, 15,690 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `June-2018.pdf`, 52 pages. **17 articles, 15,690 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,19 +8,19 @@ PDF `June-2018.pdf`, 52 pages. **17 articles, 15,690 words, word match 99.91%** 
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Different Is Beautiful | 744 | 100.0% |
 | 2 | 7–9 | From the Editorial Director | The Arabs and the Emergence of Islam | 1164 | 100.0% |
-| 3 | 10 | I Am Wrong | Blame Thyself | 333 | 99.7% |
-| 4 | 11–14 | Purpose and Meaning of Life | Does the World of the Hereafter Exist? | 1295 | 99.61% |
+| 3 | 10 | I Am Wrong | Blame Thyself | 333 | 100.0% |
+| 4 | 11–14 | Purpose and Meaning of Life | Does the World of the Hereafter Exist? | 1295 | 100.0% |
 | 5 | 15–16 | A Three Point Formula | Peace, Spirituality and Health | 780 | 100.0% |
-| 6 | 17–18 | Prevent Distraction | Focused Thinking | 785 | 99.87% |
+| 6 | 17–18 | Prevent Distraction | Focused Thinking | 785 | 100.0% |
 | 7 | 19–21 | Towards Global Peace | Terrorism: A Grave Threat | 1140 | 100.0% |
-| 8 | 22–25 | From the Original Sources | Individual, Society and State | 1597 | 99.94% |
+| 8 | 22–25 | From the Original Sources | Individual, Society and State | 1597 | 100.0% |
 | 9 | 26–27 | From the Spiritual Tree | Love of God | 763 | 100.0% |
-| 10 | 28 | Success in Both Worlds | Truth at All Costs | 364 | 99.73% |
-| 11 | 29–30 | To Emulate | Islamic Virtues | 714 | 99.86% |
-| 12 | 31–35 | Points to Ponder | Religion and the Life Hereafter | 1955 | 99.9% |
+| 10 | 28 | Success in Both Worlds | Truth at All Costs | 364 | 100.0% |
+| 11 | 29–30 | To Emulate | Islamic Virtues | 714 | 100.0% |
+| 12 | 31–35 | Points to Ponder | Religion and the Life Hereafter | 1955 | 99.95% |
 | 13 | 36 | Practical Behaviour | The Way of Balance and Moderation | 254 | 100.0% |
-| 14 | 37–40 | Love for Humankind | Prophet of Islam | 1408 | 99.93% |
-| 15 | 41–42 | Stepping into the Hereafter | At Death’s Door | 504 | 99.8% |
+| 14 | 37–40 | Love for Humankind | Prophet of Islam | 1408 | 100.0% |
+| 15 | 41–42 | Stepping into the Hereafter | At Death’s Door | 504 | 100.0% |
 | 16 | 43–44 | From The Scriptures | The Word of God | 568 | 100.0% |
 | 17 | 45–48 | Your Questions Answered | Ask Maulana | 1322 | 100.0% |
 
@@ -28,17 +28,7 @@ PDF `June-2018.pdf`, 52 pages. **17 articles, 15,690 words, word match 99.91%** 
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 3, `p10b3` (p): in
-- article 4, `p11b3` (p): we
-- article 4, `p12b5` (p): time or the other
-- article 6, `p17b3` (p): the
-- article 8, `p22b2` (p): in
-- article 10, `p28b3` (p): an
-- article 11, `p29b3` (p): for
 - article 12, `p31b4` (p): so
-- article 12, `p32b5` (p): selfexistent
-- article 14, `p37b3` (p): this
-- article 15, `p41b9` (p): death
 
 ## Left out of the e-version – please confirm
 

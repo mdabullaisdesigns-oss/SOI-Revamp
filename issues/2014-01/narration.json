@@ -1,7 +1,7 @@
 {
  "slug": "2014-01",
  "voice": "TTSMaker Gary (2560)",
- "chars": 74392,
+ "chars": 74401,
  "articles": {
   "greetings-of-peace": {
    "title": "Greetings of Peace!",
@@ -977,6 +977,15 @@
     "Never! Religion is a permanent reality.",
     "It is a truth in itself.",
     "Whether there is suffering or not in this world, religion will always prevail, irrespective of circumstances."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-01-glossary.mp3",
+   "chars": 9,
+   "sentences": [
+    "Glossary"
    ]
   }
  }

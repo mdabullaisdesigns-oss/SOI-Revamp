@@ -1,6 +1,6 @@
 # Review – Issue 101 · July–August 2021
 
-PDF `July-August-2021.pdf`, 52 pages. **22 articles, 14,023 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `July-August-2021.pdf`, 52 pages. **22 articles, 14,023 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,42 +8,35 @@ PDF `July-August-2021.pdf`, 52 pages. **22 articles, 14,023 words, word match 99
 |---|---|---|---|---|---|
 | 1 | 5–7 | From the Editor-In-Chief’s Desk | Carrying on the Legacy and Mission of Maulana | 823 | 100.0% |
 | 2 | 8–10 | Personal Experiences | The Message of Pilgrimage | 1125 | 100.0% |
-| 3 | 11 | Journey Towards God-Realization | The Sublimity of Spiritual Experience | 364 | 99.73% |
+| 3 | 11 | Journey Towards God-Realization | The Sublimity of Spiritual Experience | 364 | 100.0% |
 | 4 | 12–16 | Towards Global Peace | Islam and the Challenges of the World | 1844 | 99.95% |
-| 5 | 17–20 |  | Causes and Consequences of Mainstream Media | 1298 | 99.92% |
-| 6 | 21 | Cutting Man to Size | Humility: A Commendable Virtue | 288 | 99.65% |
-| 7 | 22–23 | Status of Woman in Islam | The Boss at Home | 630 | 99.84% |
+| 5 | 17–20 |  | Causes and Consequences of Mainstream Media | 1298 | 100.0% |
+| 6 | 21 | Cutting Man to Size | Humility: A Commendable Virtue | 288 | 100.0% |
+| 7 | 22–23 | Status of Woman in Islam | The Boss at Home | 630 | 100.0% |
 | 8 | 24–25 | From the Archives | A Grand Adventure | 512 | 99.8% |
 | 9 | 26–27 | The Greatest Motivation | The Life Force | 557 | 100.0% |
-| 10 | 28 | Believers must not Despair | Prophetic Model of Success | 372 | 99.73% |
+| 10 | 28 | Believers must not Despair | Prophetic Model of Success | 372 | 100.0% |
 | 11 | 29 | Substance over Shadow | Getting Off to a Good Start | 405 | 99.75% |
 | 12 | 30 | Be Ready to Lose Yourself in a Great Cause | The Spirit of Selfless Devotion | 419 | 100.0% |
 | 13 | 31–32 | Looking at the Brighter Side | Train Your Thinking | 622 | 100.0% |
 | 14 | 33 | Sense of a Mission | Super Performers | 348 | 100.0% |
 | 15 | 34 | Selections from Best-Loved Quran Stories | Children’s Corner | 97 | 100.0% |
-| 16 | 34–35 |  | The King’s Dream | 419 | 99.76% |
+| 16 | 34–35 |  | The King’s Dream | 419 | 100.0% |
 | 17 | 35–36 |  | The Valley of Ants | 306 | 100.0% |
 | 18 | 37–39 |  | Book Review | 773 | 99.87% |
 | 19 | 40 |  | CPS Newsletter | 259 | 100.0% |
 | 20 | 42–46 |  | Tributes to Maulana Wahiduddin Khan | 1422 | 100.0% |
 | 21 | 47–48 | From The Scriptures | The Word of God | 544 | 100.0% |
-| 22 | 49–50 |  | Your Questions Answered | 596 | 99.66% |
+| 22 | 49–50 |  | Your Questions Answered | 596 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 3, `p11b3` (p): god
 - article 4, `p12b5` (p): man
-- article 5, `p17b4` (p): as
-- article 6, `p21b3` (p): on
-- article 7, `p22b2` (p): on
 - article 8, `p24b4` (p): men
-- article 10, `p28b3` (p): the
 - article 11, `p29b3` (p): here
-- article 16, `p34b5` (p): long
 - article 18, `p37b9` (p): some
-- article 22, `p49b4` (p): interfaith programme
 
 ## Left out of the e-version – please confirm
 

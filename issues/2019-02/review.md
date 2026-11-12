@@ -1,6 +1,6 @@
 # Review – Issue 74 · February 2019
 
-PDF `February-2019.pdf`, 52 pages. **19 articles, 12,377 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `February-2019.pdf`, 52 pages. **19 articles, 12,377 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,20 +8,20 @@ PDF `February-2019.pdf`, 52 pages. **19 articles, 12,377 words, word match 99.9%
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Know Your Rights and Perform Your Duties | 671 | 99.85% |
 | 2 | 7–8 | From the Editorial Director | Spirit of Islam | 678 | 99.85% |
-| 3 | 9–10 | Reflections and Resolutions | One Month Has Gone by | 647 | 99.85% |
+| 3 | 9–10 | Reflections and Resolutions | One Month Has Gone by | 647 | 100.0% |
 | 4 | 11 | Individual by Individual | The Work of Nation-Building | 392 | 100.0% |
 | 5 | 12–13 | The Best Example | Basic Tasks and Responsibilities of the Prophet | 723 | 100.0% |
 | 6 | 14–17 | The Book of God | Quran | 1558 | 99.94% |
-| 7 | 18–20 | Convert Your Weakness to Strength | The Emotion of Anger | 922 | 99.89% |
+| 7 | 18–20 | Convert Your Weakness to Strength | The Emotion of Anger | 922 | 100.0% |
 | 8 | 21–22 | Towards Global Peace | Greater Than Political Victory | 671 | 99.85% |
-| 9 | 31 | For Better Solutions | Broader Outlook | 357 | 99.72% |
-| 10 | 32 | Critical Weakness | Indeciseveness | 281 | 99.64% |
+| 9 | 31 | For Better Solutions | Broader Outlook | 357 | 100.0% |
+| 10 | 32 | Critical Weakness | Indeciseveness | 281 | 100.0% |
 | 11 | 33–36 | Personality Development | A Continuous Need for Spirituality | 1577 | 100.0% |
-| 12 | 37 | Secrets of Success | Qualities Required for Great Achievement | 361 | 99.72% |
+| 12 | 37 | Secrets of Success | Qualities Required for Great Achievement | 361 | 100.0% |
 | 13 | 38 | Successful Teamwork | Total Involvement in a Task | 279 | 100.0% |
 | 14 | 39–40 | From the Spiritual Tree | Spiritual Progress | 493 | 99.8% |
-| 15 | 41 | Keeping Your Goal in Sight | Tread Cautiously | 234 | 99.57% |
-| 16 | 42 | Lurking Danger | Lessons from Nature | 407 | 99.75% |
+| 15 | 41 | Keeping Your Goal in Sight | Tread Cautiously | 234 | 100.0% |
+| 16 | 42 | Lurking Danger | Lessons from Nature | 407 | 100.0% |
 | 17 | 43 | Gross Waste | Being Idle | 340 | 99.71% |
 | 18 | 44–46 | From The Scriptures | The Word of God | 819 | 100.0% |
 | 19 | 47–49 | Your Questions Answered | Ask Maulana | 967 | 100.0% |
@@ -32,16 +32,9 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b6` (p): why
 - article 2, `p7b4` (p): during
-- article 3, `p9b3` (p): it
 - article 6, `p14b3` (p): when
-- article 7, `p18b5` (p): when
 - article 8, `p21b4` (p): people
-- article 9, `p31b3` (p): life
-- article 10, `p32b5` (p): certain
-- article 12, `p37b4` (p): people
 - article 14, `p39b6` (p): selfattained
-- article 15, `p41b3` (p): man
-- article 16, `p42b2` (p): we
 - article 17, `p43b5` (p): whichever
 
 ## Left out of the e-version – please confirm

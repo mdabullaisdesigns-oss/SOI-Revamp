@@ -1,6 +1,6 @@
 # Review – Issue 51 · March 2017
 
-PDF `March-2017.pdf`, 52 pages. **18 articles, 15,484 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `March-2017.pdf`, 52 pages. **18 articles, 15,484 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,20 +8,20 @@ PDF `March-2017.pdf`, 52 pages. **18 articles, 15,484 words, word match 99.9%** 
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | The Greatness of Humility | 587 | 99.66% |
 | 2 | 7–14 | Nature & Needs | Rights of Women in Islam | 2896 | 99.93% |
-| 3 | 15–18 | Equal in Respect Different in Role | Status of Women Vis-A-Vis Men | 1627 | 99.94% |
-| 4 | 19–20 | Clear your Understanding | Veil of Interpretation Over Islam | 678 | 99.85% |
+| 3 | 15–18 | Equal in Respect Different in Role | Status of Women Vis-A-Vis Men | 1627 | 100.0% |
+| 4 | 19–20 | Clear your Understanding | Veil of Interpretation Over Islam | 678 | 100.0% |
 | 5 | 21 | Make or Mar the Message | Legalistic or Psychological Language | 377 | 99.73% |
-| 6 | 22–24 | For All Times | The Teachings of the Prophet | 1037 | 99.81% |
-| 7 | 25 | Portrayed through Behaviour | The Human Personality | 405 | 99.75% |
+| 6 | 22–24 | For All Times | The Teachings of the Prophet | 1037 | 99.9% |
+| 7 | 25 | Portrayed through Behaviour | The Human Personality | 405 | 100.0% |
 | 8 | 26–27 | From the Spiritual Tree | Deprived of Paradise | 526 | 100.0% |
 | 9 | 28–30 | For Success | The Wisdom of Life | 1058 | 99.91% |
-| 10 | 31–32 | Time-tested Quality | Success in Perseverance | 798 | 99.87% |
+| 10 | 31–32 | Time-tested Quality | Success in Perseverance | 798 | 100.0% |
 | 11 | 33 | Sole Opportunity | The Period of Youth | 439 | 100.0% |
-| 12 | 34–37 | Towards Global Peace | The Modern Age and Non-Violence | 1269 | 99.92% |
+| 12 | 34–37 | Towards Global Peace | The Modern Age and Non-Violence | 1269 | 100.0% |
 | 13 | 38–39 | Root cause of Violence | Ideological Hatred | 561 | 99.82% |
 | 14 | 40–41 | True Well Wishing | A Higher Form of Worship | 625 | 100.0% |
 | 15 | 42 | Efforts Required | The Greatest Blessing | 298 | 100.0% |
-| 16 | 43 | Lessons from Nature | The Flight of the Bee | 391 | 99.74% |
+| 16 | 43 | Lessons from Nature | The Flight of the Bee | 391 | 100.0% |
 | 17 | 44–45 | From The Scriptures | The Word of God | 643 | 100.0% |
 | 18 | 46–48 | Your Questions Answered | Ask Maulana | 1269 | 100.0% |
 
@@ -33,17 +33,10 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b2` (footnote): 1
 - article 2, `p7b3` (p): progress
 - article 2, `p13b4` (p): selfsufficient
-- article 3, `p15b3` (p): there
-- article 4, `p19b3` (p): one
 - article 5, `p21b4` (p): there
-- article 6, `p22b3` (p): gods
 - article 6, `p22b4` (p): selfsurrender
-- article 7, `p25b3` (p): if
 - article 9, `p28b3` (p): machines
-- article 10, `p31b3` (p): it
-- article 12, `p34b6` (p): gain
 - article 13, `p38b5` (p): likeminded
-- article 16, `p43b3` (p): bees
 
 ## Left out of the e-version – please confirm
 

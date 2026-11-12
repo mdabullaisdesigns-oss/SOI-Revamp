@@ -1,30 +1,30 @@
 # Review – Issue 98 · February 2021
 
-PDF `February-2021.pdf`, 52 pages. **22 articles, 14,611 words, word match 99.87%** (second reading of the PDF; flag below 99%).
+PDF `February-2021.pdf`, 52 pages. **22 articles, 14,611 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–6 | From Maulana’s Desk | A New Lease of Life | 556 | 99.82% |
-| 2 | 7–8 | From the Editorial Director | Coping with Death | 520 | 99.81% |
+| 1 | 5–6 | From Maulana’s Desk | A New Lease of Life | 556 | 100.0% |
+| 2 | 7–8 | From the Editorial Director | Coping with Death | 520 | 100.0% |
 | 3 | 9 | Everyone must Stand Trial | All Are Equal in the Eyes of Law | 316 | 99.68% |
-| 4 | 10 | Find the Alternative Ways | Clearing the Roadblock | 383 | 99.74% |
+| 4 | 10 | Find the Alternative Ways | Clearing the Roadblock | 383 | 100.0% |
 | 5 | 11–15 | Towards Global Peace | The Hudaibiyah Revolution | 1633 | 99.94% |
-| 6 | 16 | Fruits of Consistent Efforts | A Mere Ten Words | 359 | 99.72% |
-| 7 | 17–20 | Raison D’etre of Muslims | The Task of Global Dawah | 1417 | 99.93% |
+| 6 | 16 | Fruits of Consistent Efforts | A Mere Ten Words | 359 | 100.0% |
+| 7 | 17–20 | Raison D’etre of Muslims | The Task of Global Dawah | 1417 | 100.0% |
 | 8 | 21 | Understand God’s Creation Plan | A Purposeful Life | 363 | 99.72% |
-| 9 | 22–23 | An Illusory Asset | Dust Unto Dust | 466 | 99.79% |
+| 9 | 22–23 | An Illusory Asset | Dust Unto Dust | 466 | 100.0% |
 | 10 | 24 | Winner Takes All | Patience vs Impatience | 348 | 99.71% |
-| 11 | 25 | Necessary Traits | Seeker of Paradise | 366 | 99.73% |
+| 11 | 25 | Necessary Traits | Seeker of Paradise | 366 | 100.0% |
 | 12 | 26–27 | From the Spiritual Tree | The Veil of Satan | 460 | 100.0% |
 | 13 | 28 | Follow God’s Creation Plan | The Privilege of Paradise | 340 | 99.71% |
-| 14 | 29–33 | An Unnatural Pursuit | The Quest for Ideal Society | 1902 | 99.95% |
-| 15 | 34–36 | Importance of God-realization | Types of the People of Paradise | 1108 | 99.91% |
+| 14 | 29–33 | An Unnatural Pursuit | The Quest for Ideal Society | 1902 | 100.0% |
+| 15 | 34–36 | Importance of God-realization | Types of the People of Paradise | 1108 | 100.0% |
 | 16 | 37 | Preparatory Period for Unending Rewards | A Positive Concept of Death | 298 | 99.66% |
 | 17 | 38–39 | Through Keenness and Enthusiasm | Breaking the Bonds of Time | 470 | 99.57% |
-| 18 | 40–41 | A Healing Touch of Nature | Horticulture Therapy | 496 | 99.8% |
-| 19 | 42–43 | Failure is not Permanent | Nugget of Wisdom | 448 | 99.78% |
+| 18 | 40–41 | A Healing Touch of Nature | Horticulture Therapy | 496 | 100.0% |
+| 19 | 42–43 | Failure is not Permanent | Nugget of Wisdom | 448 | 100.0% |
 | 20 | 44–45 | An Introduction to the Sublime Attributes | The Prophet and His Companions | 822 | 100.0% |
 | 21 | 47–48 | From The Scriptures | The Word of God | 682 | 100.0% |
 | 22 | 49–50 | Your Questions Answered | Ask Maulana | 858 | 100.0% |
@@ -33,25 +33,14 @@ PDF `February-2021.pdf`, 52 pages. **22 articles, 14,611 words, word match 99.87
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): eric
-- article 2, `p7b4` (p): two
 - article 3, `p9b3` (p): an
-- article 4, `p10b3` (p): when
 - article 5, `p11b4` (p): since
-- article 6, `p16b3` (p): maulvi
-- article 7, `p17b3` (p): god
 - article 8, `p21b7` (p): tumadhir
-- article 9, `p22b3` (p): napoleon
 - article 10, `p24b3` (p): whenever
-- article 11, `p25b3` (p): in
 - article 13, `p28b3` (p): here
-- article 14, `p29b6` (p): aristotle
-- article 15, `p34b3` (p): these
 - article 16, `p37b3` (p): if
 - article 17, `p38b7` (p): him
 - article 17, `p38b8` (thought): timebound
-- article 18, `p40b2` (p): trees
-- article 19, `p42b3` (p): the
 
 ## Left out of the e-version – please confirm
 

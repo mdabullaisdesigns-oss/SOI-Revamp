@@ -10,16 +10,8 @@
     7
    ],
    "words": 642,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p6b5",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -66,16 +58,8 @@
     18
    ],
    "words": 674,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p17b5",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -86,16 +70,8 @@
     19
    ],
    "words": 427,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p19b5",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -106,16 +82,8 @@
     28
    ],
    "words": 3258,
-   "match": 99.97,
-   "missing": [
-    {
-     "item": "p20b3",
-     "kind": "p",
-     "words": [
-      "to"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -126,16 +94,8 @@
     29
    ],
    "words": 349,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p29b3",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -170,16 +130,8 @@
     33
    ],
    "words": 426,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "as"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -190,16 +142,8 @@
     35
    ],
    "words": 697,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "adam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -230,16 +174,8 @@
     41
    ],
    "words": 1793,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p37b2",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -250,16 +186,8 @@
     42
    ],
    "words": 353,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -284,11 +212,38 @@
    "words": 608,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 18,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    48,
+    48
+   ],
+   "words": 461,
+   "match": 99.57,
+   "missing": [
+    {
+     "item": "p48b18",
+     "kind": "small",
+     "words": [
+      "alcompanion"
+     ]
+    },
+    {
+     "item": "p48b19",
+     "kind": "small",
+     "words": [
+      "malik"
+     ]
+    }
+   ]
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16514,
- "article_words": 14628
+ "article_words": 15089
 }

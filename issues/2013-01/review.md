@@ -1,27 +1,27 @@
 # Review – Issue 1 · January 2013
 
-PDF `January-2013.pdf`, 52 pages. **18 articles, 13,148 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `January-2013.pdf`, 52 pages. **18 articles, 13,148 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 7 |  | Welcome | 295 | 100.0% |
-| 2 | 8–9 |  | From the Editor’s Desk | 684 | 99.85% |
+| 2 | 8–9 |  | From the Editor’s Desk | 684 | 100.0% |
 | 3 | 10–11 |  | The Only Solution to Corruption | 535 | 99.81% |
 | 4 | 12–16 |  | Understanding Islam | 1854 | 100.0% |
 | 5 | 17 |  | The Fault of Man | 358 | 99.72% |
-| 6 | 18–20 |  | Spiritual Living | 751 | 99.87% |
-| 7 | 21–22 |  | No End to Opportunities | 533 | 99.81% |
+| 6 | 18–20 |  | Spiritual Living | 751 | 100.0% |
+| 7 | 21–22 |  | No End to Opportunities | 533 | 100.0% |
 | 8 | 23–24 |  | Respecting All Religions | 424 | 99.76% |
 | 9 | 25–27 |  | The Creation Plan of God | 921 | 100.0% |
-| 10 | 28 |  | Is There a Heaven? | 264 | 99.24% |
+| 10 | 28 |  | Is There a Heaven? | 264 | 100.0% |
 | 11 | 29–30 |  | Through Hardship, to the Stars | 485 | 100.0% |
-| 12 | 31–35 |  | Right Thinking | 1659 | 99.94% |
-| 13 | 36–38 |  | Dialogue in Religion | 971 | 99.9% |
+| 12 | 31–35 |  | Right Thinking | 1659 | 100.0% |
+| 13 | 36–38 |  | Dialogue in Religion | 971 | 100.0% |
 | 14 | 39–41 |  | Does Islam Permit Violence? | 840 | 100.0% |
-| 15 | 42–43 |  | Lessons from Nature | 596 | 99.83% |
-| 16 | 44 |  | Historical Prophet | 253 | 99.6% |
+| 15 | 42–43 |  | Lessons from Nature | 596 | 100.0% |
+| 16 | 44 |  | Historical Prophet | 253 | 100.0% |
 | 17 | 45–47 |  | The Word of God | 1110 | 100.0% |
 | 18 | 48–49 |  | Ask Maulana | 615 | 100.0% |
 
@@ -29,18 +29,9 @@ PDF `January-2013.pdf`, 52 pages. **18 articles, 13,148 words, word match 99.91%
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p8b3` (p): what
 - article 3, `p10b2` (p): every
 - article 5, `p17b2` (p): one
-- article 6, `p18b2` (p): what
-- article 7, `p21b2` (p): abd
 - article 8, `p23b2` (p): there
-- article 10, `p28b2` (p): the
-- article 10, `p28b15` (h): 73
-- article 12, `p31b2` (p): as
-- article 13, `p36b2` (p): religious
-- article 15, `p42b2` (p): we
-- article 16, `p44b2` (p): in
 
 ## Left out of the e-version – please confirm
 
@@ -66,8 +57,8 @@ Nothing here is in any article tab. Say if any of it should be included.
 | 44 | after the end of the article (notice or advert) | 21 | The migration or “hijrath” of the Prophet Mohammad is a clear example  |
 | 47 | after the end of the article (notice or advert) | 31 | Al-Ikhlas (Oneness) |
 | 49 | after the end of the article (notice or advert) | 1 | askmaulana@thespiritofislam.org |
-| 50 | outside any article | 155 | subscribe |
-| 51 | outside any article | 103 | The Quran |
+| 50 | non-article page: Subscribe | 155 | subscribe |
+| 51 | non-article page: Subscribe | 103 | The Quran |
 | 52 | outside any article | 5 | This page left blank intentionally |
 
 ## Text of the PDF that is in no article and not on the list above

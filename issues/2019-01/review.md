@@ -1,6 +1,6 @@
 # Review – Issue 73 · January 2019
 
-PDF `January-2019.pdf`, 52 pages. **18 articles, 11,927 words, word match 99.83%** (second reading of the PDF; flag below 99%).
+PDF `January-2019.pdf`, 52 pages. **18 articles, 11,927 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,44 +8,35 @@ PDF `January-2019.pdf`, 52 pages. **18 articles, 11,927 words, word match 99.83%
 |---|---|---|---|---|---|
 | 1 | 5–6 |  | A Message for the New Year | 719 | 99.86% |
 | 2 | 7–8 | From Maulana’s Desk | 125 Years of Swami Vivekananda in the West | 723 | 100.0% |
-| 3 | 9–11 | From the Editorial Director | An Understanding About Islamic Jurisprudence | 1090 | 99.91% |
-| 4 | 12–13 | Until the Day of Truth | Deception on All Sides | 672 | 99.85% |
+| 3 | 9–11 | From the Editorial Director | An Understanding About Islamic Jurisprudence | 1090 | 100.0% |
+| 4 | 12–13 | Until the Day of Truth | Deception on All Sides | 672 | 100.0% |
 | 5 | 14 | The Great Deceiver | Wealth | 406 | 99.75% |
-| 6 | 15–17 | Prophetic Guidance | A Believer’s Behaviour | 757 | 99.87% |
+| 6 | 15–17 | Prophetic Guidance | A Believer’s Behaviour | 757 | 100.0% |
 | 7 | 18–19 | From the Spiritual Tree | The Teacher Tree | 721 | 100.0% |
 | 8 | 20 | Return to Islam | Two Pictures | 382 | 100.0% |
-| 9 | 21–22 | Beat Stress | Feed Your Starved Intellect | 623 | 99.84% |
+| 9 | 21–22 | Beat Stress | Feed Your Starved Intellect | 623 | 100.0% |
 | 10 | 31–32 | Every Dome Has a Grave | Man’s Plight | 554 | 99.82% |
-| 11 | 33–34 | Model Character | Islamic Virtues | 536 | 99.81% |
-| 12 | 35–36 | Reset Your Priorities | Living in a Professional World | 557 | 99.46% |
+| 11 | 33–34 | Model Character | Islamic Virtues | 536 | 100.0% |
+| 12 | 35–36 | Reset Your Priorities | Living in a Professional World | 557 | 99.82% |
 | 13 | 37–38 | Faith and Reason | From Denial to Belief | 715 | 99.86% |
-| 14 | 39–40 | Don’t be Fooled | Delusive Grandeur | 622 | 99.84% |
+| 14 | 39–40 | Don’t be Fooled | Delusive Grandeur | 622 | 100.0% |
 | 15 | 41 | Hold No Grudges | Working Together | 378 | 99.74% |
-| 16 | 42–43 | Creative Mindset | A New India | 704 | 99.43% |
+| 16 | 42–43 | Creative Mindset | A New India | 704 | 99.72% |
 | 17 | 44–46 | From The Scriptures | The Word of God | 1027 | 100.0% |
-| 18 | 47–49 | Your Questions Answered | Ask Maulana | 741 | 99.73% |
+| 18 | 47–49 | Your Questions Answered | Ask Maulana | 741 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b6` (p): being
-- article 3, `p9b5` (p): fiqh
-- article 4, `p12b3` (p): this
 - article 5, `p14b3` (p): according
-- article 6, `p15b3` (p): the
-- article 9, `p21b3` (p): the
 - article 10, `p31b3` (p): how
-- article 11, `p33b3` (p): for
-- article 12, `p35b3` (p): we
-- article 12, `p35b7` (p): meeting to
+- article 12, `p35b7` (p): meeting
 - article 13, `p37b3` (p): professor
-- article 14, `p39b3` (p): man
 - article 15, `p41b6` (p): these
-- article 16, `p42b3` (p): after
-- article 16, `p42b5` (p): had wellknown
+- article 16, `p42b5` (p): wellknown
 - article 16, `p42b8` (pull): selfaware
-- article 18, `p47b13` (quote): muhammadur rasoolullah
 
 ## Left out of the e-version – please confirm
 

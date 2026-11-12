@@ -74,16 +74,8 @@
     13
    ],
    "words": 421,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p13b3",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -94,16 +86,8 @@
     15
    ],
    "words": 669,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p14b2",
-     "kind": "p",
-     "words": [
-      "if"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -154,15 +138,8 @@
     23
    ],
    "words": 1334,
-   "match": 99.78,
+   "match": 99.85,
    "missing": [
-    {
-     "item": "p20b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    },
     {
      "item": "p22b6",
      "kind": "pull",
@@ -188,16 +165,8 @@
     26
    ],
    "words": 1220,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "modern"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -208,16 +177,8 @@
     27
    ],
    "words": 347,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p27b3",
-     "kind": "p",
-     "words": [
-      "if"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -272,16 +233,8 @@
     35
    ],
    "words": 334,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p35b3",
-     "kind": "p",
-     "words": [
-      "human"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -292,16 +245,8 @@
     36
    ],
    "words": 406,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p36b3",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -372,16 +317,8 @@
     42
    ],
    "words": 353,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "what"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 21,
@@ -408,7 +345,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.88,
+ "overall_match": 99.93,
  "flagged": [
   8
  ],

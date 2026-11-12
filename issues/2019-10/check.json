@@ -10,16 +10,8 @@
     6
    ],
    "words": 557,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p5b5",
-     "kind": "p",
-     "words": [
-      "muslims"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -30,16 +22,8 @@
     8
    ],
    "words": 590,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p7b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -70,16 +54,8 @@
     10
    ],
    "words": 318,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p10b2",
-     "kind": "p",
-     "words": [
-      "to"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -166,16 +142,8 @@
     29
    ],
    "words": 347,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p29b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -186,16 +154,8 @@
     30
    ],
    "words": 322,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p30b3",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -238,16 +198,8 @@
     37
    ],
    "words": 485,
-   "match": 99.79,
-   "missing": [
-    {
-     "item": "p36b2",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -290,16 +242,8 @@
     42
    ],
    "words": 1007,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p40b2",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -370,7 +314,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 25720,

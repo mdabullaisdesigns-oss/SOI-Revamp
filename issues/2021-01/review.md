@@ -1,31 +1,31 @@
 # Review – Issue 97 · January 2021
 
-PDF `January-2021.pdf`, 52 pages. **22 articles, 15,111 words, word match 99.89%** (second reading of the PDF; flag below 99%).
+PDF `January-2021.pdf`, 52 pages. **22 articles, 15,111 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–6 |  | New Year’s Message | 798 | 100.0% |
-| 2 | 7–8 | From Maulana’s Desk | Creation for What? | 704 | 99.86% |
+| 2 | 7–8 | From Maulana’s Desk | Creation for What? | 704 | 100.0% |
 | 3 | 9–11 | From the Editorial Director | Lessons from 2020 | 893 | 100.0% |
-| 4 | 12 | Prophetic Model of Speaking | God-Fearing Speech | 346 | 99.71% |
-| 5 | 13–15 | The Prophetic Approach | Correcting People’s Mistakes | 1134 | 99.91% |
-| 6 | 16–17 | A Reason-based Approach | Islamic Meditation | 480 | 99.79% |
+| 4 | 12 | Prophetic Model of Speaking | God-Fearing Speech | 346 | 100.0% |
+| 5 | 13–15 | The Prophetic Approach | Correcting People’s Mistakes | 1134 | 100.0% |
+| 6 | 16–17 | A Reason-based Approach | Islamic Meditation | 480 | 100.0% |
 | 7 | 18–21 | Towards Global Peace | A Misplaced Call for Violence | 1418 | 100.0% |
 | 8 | 22–23 | True Service to Humanity | Looking Beyond the Self | 512 | 99.8% |
 | 9 | 24 | Looking at the Brighter Aspect | Right-Thinking | 405 | 100.0% |
-| 10 | 26–27 | From the Spiritual Tree | A Positive Aspect of Illness | 407 | 99.75% |
-| 11 | 28 | Duty-Consciousness, Not Right-Consciousness | Secret to a Thriving Society | 335 | 99.1% |
+| 10 | 26–27 | From the Spiritual Tree | A Positive Aspect of Illness | 407 | 100.0% |
+| 11 | 28 | Duty-Consciousness, Not Right-Consciousness | Secret to a Thriving Society | 335 | 99.4% |
 | 12 | 29 | The True Status of Man | The Value of Supplication (dua) | 322 | 100.0% |
-| 13 | 30 | Learning from Trees | Training in Resilience | 355 | 99.72% |
+| 13 | 30 | Learning from Trees | Training in Resilience | 355 | 100.0% |
 | 14 | 31 | Learn to Live with Differences | A Grand Compromise | 363 | 99.72% |
 | 15 | 32 | From Creation to the Creator | True Object of Veneration | 391 | 100.0% |
 | 16 | 33–34 | Truth Prevails | Truth Needs No Defence | 451 | 99.78% |
-| 17 | 35–37 | Quest for a Foundation for Unity | Making of the Indian Nation | 1228 | 99.92% |
-| 18 | 38–39 | Man Proposes, God Disposes | When Plans Fail | 547 | 99.82% |
+| 17 | 35–37 | Quest for a Foundation for Unity | Making of the Indian Nation | 1228 | 100.0% |
+| 18 | 38–39 | Man Proposes, God Disposes | When Plans Fail | 547 | 100.0% |
 | 19 | 40–43 | Aided by Belief in Monotheism | Advancement of Medicine | 1639 | 99.94% |
-| 20 | 44–45 | For Human-friendly Earth | Following the Model of Nature | 674 | 99.85% |
+| 20 | 44–45 | For Human-friendly Earth | Following the Model of Nature | 674 | 100.0% |
 | 21 | 46–48 | From The Scriptures | The Word of God | 1114 | 100.0% |
 | 22 | 49–50 | Your Questions Answered | Ask Maulana | 595 | 100.0% |
 
@@ -33,21 +33,11 @@ PDF `January-2021.pdf`, 52 pages. **22 articles, 15,111 words, word match 99.89%
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p7b5` (p): on
-- article 4, `p12b3` (p): the
-- article 5, `p13b3` (p): it
-- article 6, `p16b3` (p): the
 - article 8, `p22b3` (p): when
-- article 10, `p26b4` (p): in
-- article 11, `p28b3` (p): it
 - article 11, `p28b7` (p): dutyconscious faithfully
-- article 13, `p30b3` (p): the
 - article 14, `p31b3` (p): president
 - article 16, `p33b3` (p): few
-- article 17, `p35b3` (p): three
-- article 18, `p38b3` (p): an
 - article 19, `p40b3` (p): just
-- article 20, `p44b3` (p): we
 
 ## Left out of the e-version – please confirm
 

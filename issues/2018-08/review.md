@@ -1,25 +1,25 @@
 # Review – Issue 68 · August 2018
 
-PDF `August-2018.pdf`, 52 pages. **16 articles, 16,470 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `August-2018.pdf`, 52 pages. **16 articles, 16,470 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Religious Base Plus Objective Thinking | 987 | 99.9% |
-| 2 | 8–9 | From the Editorial Director | Hajj—the Pilgrimage | 834 | 99.88% |
+| 2 | 8–9 | From the Editorial Director | Hajj—the Pilgrimage | 834 | 100.0% |
 | 3 | 10 | To God and Man | Gratitude | 302 | 99.67% |
 | 4 | 11–16 | Its Relevance in Modern Times | The Quran and Sunnah | 2513 | 99.96% |
-| 5 | 17–18 | To Emulate | Islamic Virtues | 730 | 99.86% |
+| 5 | 17–18 | To Emulate | Islamic Virtues | 730 | 100.0% |
 | 6 | 19–22 | Towards Global Peace | Misunderstanding Jihad | 1608 | 99.94% |
 | 7 | 23 | God’s Mercy | To Make Up for Our Helplessness | 411 | 100.0% |
 | 8 | 24 | Avert Deception | The Veil of Satan | 351 | 100.0% |
-| 9 | 25 | Nature | What Is Truth | 293 | 99.66% |
+| 9 | 25 | Nature | What Is Truth | 293 | 100.0% |
 | 10 | 26–27 | From the Spiritual Tree | Acknowledgement | 413 | 100.0% |
 | 11 | 28–34 | An Intellectual Pursuit | Search for Truth | 2752 | 99.96% |
 | 12 | 35 | Not an Option | Suicide | 366 | 99.73% |
 | 13 | 36–40 | God-oriented Life | The Message and Meaning of Hajj | 1921 | 99.9% |
-| 14 | 41 | A Test | The Recognition of Truth | 397 | 99.75% |
+| 14 | 41 | A Test | The Recognition of Truth | 397 | 100.0% |
 | 15 | 42–44 | From The Scriptures | The Word of God | 1042 | 100.0% |
 | 16 | 45–48 | Your Questions Answered | Ask Maulana | 1550 | 100.0% |
 
@@ -28,17 +28,13 @@ PDF `August-2018.pdf`, 52 pages. **16 articles, 16,470 words, word match 99.93%*
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b6` (p): after
-- article 2, `p8b4` (p): hajj
 - article 3, `p10b5` (p): thankfulness
 - article 4, `p11b3` (p): every
-- article 5, `p17b3` (p): for
 - article 6, `p19b4` (p): because
-- article 9, `p25b3` (p): the
 - article 11, `p28b3` (p): man
 - article 12, `p35b3` (p): general
 - article 13, `p40b2` (p): hajis
 - article 13, `p40b9` (thought): godoriented
-- article 14, `p41b3` (p): when
 
 ## Left out of the e-version – please confirm
 

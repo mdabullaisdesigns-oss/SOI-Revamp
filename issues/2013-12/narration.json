@@ -1,7 +1,7 @@
 {
  "slug": "2013-12",
  "voice": "TTSMaker Gary (2560)",
- "chars": 78066,
+ "chars": 78104,
  "articles": {
   "make-it-a-starting-point": {
    "title": "Make It a Starting Point",
@@ -938,6 +938,19 @@
     "One who chooses this course will succeed in the test of freedom.",
     "He will be handsomely rewarded by God as no other creature.",
     "Held to be the chosen servant of God, he will remain in an everlasting state of blissfulness and blessedness."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2013-12-glossary.mp3",
+   "chars": 38,
+   "sentences": [
+    "Glossary",
+    "BOOKS",
+    "MAGAZINES",
+    "QURAN",
+    "VIDEOS"
    ]
   }
  }

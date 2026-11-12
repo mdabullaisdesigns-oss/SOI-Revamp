@@ -1,6 +1,6 @@
 # Review – Issue 91 · July 2020
 
-PDF `July-2020.pdf`, 52 pages. **18 articles, 15,928 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `July-2020.pdf`, 52 pages. **18 articles, 15,928 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,19 +8,19 @@ PDF `July-2020.pdf`, 52 pages. **18 articles, 15,928 words, word match 99.9%** (
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Science: A Means of Reinforcing Faith | 694 | 99.86% |
 | 2 | 7–8 | From the Editorial Director | The Scientific Approach of the Quran | 706 | 100.0% |
-| 3 | 9–13 | Conquest of Nature | Islam’s Contribution to Modern Science | 1786 | 99.94% |
+| 3 | 9–13 | Conquest of Nature | Islam’s Contribution to Modern Science | 1786 | 100.0% |
 | 4 | 14–20 | A Reaffirmation of God’s Existence | Science and Theology | 2684 | 99.96% |
 | 5 | 21 | Knowledge Leads the Way | Evidence of God | 382 | 100.0% |
 | 6 | 22–23 | Mathematical Precision in Nature | Signs of God | 328 | 99.7% |
-| 7 | 24–25 | Contemporary Intellect | The Foundation of Reality | 535 | 99.81% |
+| 7 | 24–25 | Contemporary Intellect | The Foundation of Reality | 535 | 100.0% |
 | 8 | 26–28 | From the Spiritual Tree | Science—an Aid to God-Realization | 1179 | 99.92% |
 | 9 | 29–31 | Discover the Creator through Creation | Science Opens New Horizons | 997 | 100.0% |
 | 10 | 32 | Divine Intervention or Chance? | A Delay of Nine Days | 386 | 99.74% |
-| 11 | 33–34 | The Perfection of Natural Laws | Science Speaks About God | 715 | 99.86% |
-| 12 | 35–36 | Faith of a Believer | The Greatness of God | 664 | 99.85% |
-| 13 | 37–38 | Phenomena in Nature | Miracles or Signs of God | 642 | 99.53% |
-| 14 | 39–40 | Birth of the Beginning | The Big Bang Theory | 631 | 99.68% |
-| 15 | 41–44 | Real or Imagined? | Clash Between Science and Religion | 1562 | 99.87% |
+| 11 | 33–34 | The Perfection of Natural Laws | Science Speaks About God | 715 | 100.0% |
+| 12 | 35–36 | Faith of a Believer | The Greatness of God | 664 | 100.0% |
+| 13 | 37–38 | Phenomena in Nature | Miracles or Signs of God | 642 | 99.69% |
+| 14 | 39–40 | Birth of the Beginning | The Big Bang Theory | 631 | 99.84% |
+| 15 | 41–44 | Real or Imagined? | Clash Between Science and Religion | 1562 | 99.94% |
 | 16 | 45–46 | Emergence of the Modern World | Islam and Science | 730 | 100.0% |
 | 17 | 47–48 | From The Scriptures | The Word of God | 528 | 100.0% |
 | 18 | 49–50 | Your Questions Answered | Ask Maulana | 779 | 100.0% |
@@ -30,21 +30,14 @@ PDF `July-2020.pdf`, 52 pages. **18 articles, 15,928 words, word match 99.9%** (
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b6` (p): with
-- article 3, `p9b4` (p): islam
 - article 4, `p14b3` (p): professor
 - article 6, `p22b3` (p): james
-- article 7, `p24b3` (p): modern
 - article 8, `p26b5` (p): while
 - article 10, `p32b3` (p): according
-- article 11, `p33b3` (p): nature
-- article 12, `p35b4` (p): discovery
-- article 13, `p37b3` (p): the
 - article 13, `p37b4` (p): accepted
 - article 13, `p37b8` (pull): allpervading
-- article 14, `p39b6` (p): universe
 - article 14, `p39b8` (thought): everexpanding
 - article 15, `p41b6` (p): those
-- article 15, `p41b4` (small): 1
 
 ## Left out of the e-version – please confirm
 

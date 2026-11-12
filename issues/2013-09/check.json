@@ -30,16 +30,8 @@
     9
    ],
    "words": 508,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p8b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -50,16 +42,8 @@
     22
    ],
    "words": 4351,
-   "match": 99.98,
-   "missing": [
-    {
-     "item": "p10b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -70,16 +54,8 @@
     24
    ],
    "words": 582,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p23b2",
-     "kind": "p",
-     "words": [
-      "these"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -110,16 +86,8 @@
     31
    ],
    "words": 2127,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p26b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -142,21 +110,13 @@
     39
    ],
    "words": 2339,
-   "match": 99.87,
+   "match": 99.96,
    "missing": [
     {
      "item": "p33b3",
      "kind": "p",
      "words": [
       "due"
-     ]
-    },
-    {
-     "item": "p37b17",
-     "kind": "footnote",
-     "words": [
-      "uhud",
-      "hunain"
      ]
     }
    ]
@@ -204,11 +164,23 @@
    "words": 983,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 12,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    47,
+    47
+   ],
+   "words": 480,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15251,
- "article_words": 13641
+ "article_words": 14121
 }

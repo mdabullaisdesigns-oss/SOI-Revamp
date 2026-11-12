@@ -34,16 +34,8 @@
     11
    ],
    "words": 364,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p11b3",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -74,16 +66,8 @@
     20
    ],
    "words": 1298,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p17b4",
-     "kind": "p",
-     "words": [
-      "as"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -94,16 +78,8 @@
     21
    ],
    "words": 288,
-   "match": 99.65,
-   "missing": [
-    {
-     "item": "p21b3",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -114,16 +90,8 @@
     23
    ],
    "words": 630,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p22b2",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -166,16 +134,8 @@
     28
    ],
    "words": 372,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -254,16 +214,8 @@
     35
    ],
    "words": 419,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p34b5",
-     "kind": "p",
-     "words": [
-      "long"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -342,20 +294,11 @@
     50
    ],
    "words": 596,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p49b4",
-     "kind": "p",
-     "words": [
-      "interfaith",
-      "programme"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15556,

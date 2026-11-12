@@ -1,23 +1,23 @@
 # Review – Issue 10 · October 2013
 
-PDF `October-2013.pdf`, 52 pages. **16 articles, 14,297 words, word match 99.97%** (second reading of the PDF; flag below 99%).
+PDF `October-2013.pdf`, 52 pages. **16 articles, 14,287 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 6–8 | From Maulana’s Desk | Where the Muslim Brotherhood Went Wrong | 944 | 100.0% |
+| 1 | 6–8 | From Maulana’s Desk | Where the Muslim Brotherhood Went Wrong | 943 | 100.0% |
 | 2 | 9–10 |  | Desire to Seek God | 563 | 100.0% |
-| 3 | 11–12 |  | Ritual Must Arise from the Spirit | 811 | 99.88% |
+| 3 | 11–12 |  | Ritual Must Arise from the Spirit | 810 | 99.88% |
 | 4 | 13–15 |  | From Prophet Abraham to Prophet Muhammad | 1112 | 100.0% |
 | 5 | 16–17 |  | De-Conditioning the Mind | 655 | 99.85% |
 | 6 | 18–22 |  | The Message and Meaning of Haj | 1948 | 100.0% |
 | 7 | 23 |  | Importance of Positive Thinking | 384 | 99.74% |
-| 8 | 24–27 |  | The Reality of Sacrifice | 1550 | 100.0% |
+| 8 | 24–27 |  | The Reality of Sacrifice | 1544 | 100.0% |
 | 9 | 28–29 |  | The Duty of Muslims to Mankind | 653 | 100.0% |
 | 10 | 30–33 |  | The Social Significance of the Sacrifice | 1382 | 100.0% |
-| 11 | 34–39 |  | After Haj | 2064 | 100.0% |
-| 12 | 40–41 |  | No Fear of Accountability | 626 | 100.0% |
+| 11 | 34–39 |  | After Haj | 2063 | 100.0% |
+| 12 | 40–41 |  | No Fear of Accountability | 625 | 100.0% |
 | 13 | 42 |  | Opportunities Will Never Cease | 213 | 100.0% |
 | 14 | 43 |  | On Old Age | 275 | 99.64% |
 | 15 | 44–46 |  | The Word of God | 800 | 100.0% |

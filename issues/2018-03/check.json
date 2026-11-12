@@ -70,16 +70,8 @@
     19
    ],
    "words": 960,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -122,16 +114,8 @@
     25
    ],
    "words": 296,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -154,16 +138,8 @@
     27
    ],
    "words": 379,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p27b3",
-     "kind": "p",
-     "words": [
-      "parents"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -174,16 +150,8 @@
     29
    ],
    "words": 780,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "wealth"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -246,16 +214,8 @@
     44
    ],
    "words": 498,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p43b10",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -282,7 +242,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16580,

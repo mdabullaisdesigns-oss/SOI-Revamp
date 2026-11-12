@@ -1,25 +1,25 @@
 # Review – Issue 6 · June 2013
 
-PDF `June-2013.pdf`, 52 pages. **16 articles, 13,527 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `June-2013.pdf`, 52 pages. **16 articles, 13,527 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 6–8 | From Maulana’s Desk | The Age of Neo-Gandhism | 996 | 99.9% |
-| 2 | 9–10 |  | Experiencing the Presence of God | 582 | 99.83% |
+| 2 | 9–10 |  | Experiencing the Presence of God | 582 | 100.0% |
 | 3 | 11–17 |  | Islam and Human Rights | 2139 | 100.0% |
-| 4 | 18 |  | Trust Is Golden | 349 | 99.71% |
+| 4 | 18 |  | Trust Is Golden | 349 | 100.0% |
 | 5 | 19 |  | Science and Religion | 227 | 99.56% |
 | 6 | 20–24 |  | Prophetic Wisdom | 1667 | 99.94% |
 | 7 | 25–26 |  | Try, Try, and Try Again | 631 | 100.0% |
-| 8 | 27–28 |  | Some Make Themselves, Others Make History | 625 | 99.84% |
-| 9 | 29–33 |  | Moral and Ethical Development in Society | 1615 | 99.94% |
-| 10 | 34 |  | Disadvantage Turned to Advantage | 313 | 99.68% |
-| 11 | 35 |  | Criticism and Denigration | 324 | 99.69% |
+| 8 | 27–28 |  | Some Make Themselves, Others Make History | 625 | 100.0% |
+| 9 | 29–33 |  | Moral and Ethical Development in Society | 1615 | 100.0% |
+| 10 | 34 |  | Disadvantage Turned to Advantage | 313 | 100.0% |
+| 11 | 35 |  | Criticism and Denigration | 324 | 100.0% |
 | 12 | 36–37 |  | Seeking the Right Alternatives | 648 | 100.0% |
-| 13 | 38 |  | The Lesson of Death | 325 | 99.69% |
-| 14 | 39–42 |  | The Hereafter | 1341 | 99.93% |
+| 13 | 38 |  | The Lesson of Death | 325 | 100.0% |
+| 14 | 39–42 |  | The Hereafter | 1341 | 100.0% |
 | 15 | 43–45 |  | The Word of God | 1073 | 100.0% |
 | 16 | 46–48 |  | Ask Maulana | 672 | 100.0% |
 
@@ -28,16 +28,8 @@ PDF `June-2013.pdf`, 52 pages. **16 articles, 13,527 words, word match 99.92%** 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p6b3` (p): indias
-- article 2, `p9b2` (p): one
-- article 4, `p18b2` (p): with
 - article 5, `p19b2` (p): those
 - article 6, `p20b2` (p): one
-- article 8, `p27b3` (p): there
-- article 9, `p29b3` (p): all
-- article 10, `p34b2` (p): mahatma
-- article 11, `p35b2` (p): the
-- article 13, `p38b2` (p): from
-- article 14, `p39b2` (p): those
 
 ## Left out of the e-version – please confirm
 

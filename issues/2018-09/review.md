@@ -1,13 +1,13 @@
 # Review – Issue 69 · September 2018
 
-PDF `September-2018.pdf`, 52 pages. **19 articles, 15,410 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `September-2018.pdf`, 52 pages. **19 articles, 15,410 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Aspiring for More and Settling for Less | 697 | 100.0% |
-| 2 | 7–10 | From the Editorial Director | The Status of Woman in Islam | 1512 | 99.93% |
+| 2 | 7–10 | From the Editorial Director | The Status of Woman in Islam | 1512 | 100.0% |
 | 3 | 11–12 | A Superior Life | Principles for Success | 704 | 99.86% |
 | 4 | 13–14 | An Achievable Target | Give Nature a Chance | 718 | 100.0% |
 | 5 | 15–20 | Towards Global Peace | Prophet of Peace | 2291 | 99.96% |
@@ -18,11 +18,11 @@ PDF `September-2018.pdf`, 52 pages. **19 articles, 15,410 words, word match 99.9
 | 10 | 26–27 | From the Spiritual Tree | The Simple Formula of Ma’arifat | 411 | 100.0% |
 | 11 | 28 | Search for Truth | Failure of the Philosophical Search | 234 | 99.57% |
 | 12 | 29–30 | What is its Value? | Forgiveness | 688 | 100.0% |
-| 13 | 31–32 | The One and Only | God Almighty | 720 | 99.72% |
+| 13 | 31–32 | The One and Only | God Almighty | 720 | 99.86% |
 | 14 | 33–34 | Benefits of Patience | Losers Can Be Gainers | 584 | 99.83% |
 | 15 | 35–39 | Rational Outlook | An Intellectual Transformation | 2070 | 99.76% |
 | 16 | 40–41 | Islam: A Scheme of Spiritual Development | Principles of Islam | 753 | 100.0% |
-| 17 | 42–43 | The Inevitable | Death | 623 | 99.84% |
+| 17 | 42–43 | The Inevitable | Death | 623 | 100.0% |
 | 18 | 44–45 | From The Scriptures | The Word of God | 754 | 100.0% |
 | 19 | 46–48 | Your Questions Answered | Ask Maulana | 1166 | 100.0% |
 
@@ -30,18 +30,15 @@ PDF `September-2018.pdf`, 52 pages. **19 articles, 15,410 words, word match 99.9
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p7b5` (p): this
 - article 3, `p11b5` (p): psychologists
 - article 5, `p15b4` (p): due
 - article 8, `p23b3` (p): once
 - article 11, `p28b3` (p): all
-- article 13, `p31b2` (p): there
 - article 13, `p32b3` (thought): selfsufficient
 - article 14, `p33b3` (p): an
 - article 15, `p35b4` (p): when
 - article 15, `p39b2` (p): causes intellectually
 - article 15, `p39b6` (thought): soulsearching selfanalysis
-- article 17, `p42b3` (p): of
 
 ## Left out of the e-version – please confirm
 

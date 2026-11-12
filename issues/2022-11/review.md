@@ -1,6 +1,6 @@
 # Review – Issue 109 · November–December 2022
 
-PDF `Nov-Dec-2022.pdf`, 52 pages. **18 articles, 12,732 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `Nov-Dec-2022.pdf`, 52 pages. **18 articles, 12,732 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -16,7 +16,7 @@ PDF `Nov-Dec-2022.pdf`, 52 pages. **18 articles, 12,732 words, word match 99.95%
 | 8 | 22–24 | A Chastisement from the Past | Nature Has Its Own Mind | 984 | 99.9% |
 | 9 | 25–27 |  | An Interview with Ms Gul Zeba | 1117 | 100.0% |
 | 10 | 28–29 | The State of Emergency | The Precipice | 517 | 99.81% |
-| 11 | 30–31 | The Most Harmful Emotion | The Evils of Jealousy | 599 | 99.83% |
+| 11 | 30–31 | The Most Harmful Emotion | The Evils of Jealousy | 599 | 100.0% |
 | 12 | 32–35 |  | Book Review | 1384 | 100.0% |
 | 13 | 36–37 |  | Children’s Corner | 435 | 100.0% |
 | 14 | 38 |  | CPS Newsletter | 160 | 100.0% |
@@ -33,7 +33,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 5, `p18b2` (p): when
 - article 8, `p22b3` (p): myriad
 - article 10, `p28b8` (p): today
-- article 11, `p30b3` (p): when
 - article 16, `p45b3` (p): publius
 
 ## Left out of the e-version – please confirm

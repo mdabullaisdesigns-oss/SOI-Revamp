@@ -1,6 +1,6 @@
 # Review – Issue 89 · May 2020
 
-PDF `May-2020.pdf`, 52 pages. **19 articles, 16,455 words, word match 99.96%** (second reading of the PDF; flag below 99%).
+PDF `May-2020.pdf`, 52 pages. **19 articles, 16,455 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -15,12 +15,12 @@ PDF `May-2020.pdf`, 52 pages. **19 articles, 16,455 words, word match 99.96%** (
 | 7 | 17 | What is the Purpose of Truth? | Seeker of Truth | 356 | 100.0% |
 | 8 | 18–20 | Relative or Absolute | Truth—an Analysis | 1113 | 100.0% |
 | 9 | 21–25 | An Unsatisfactory Explanation of Nature | An Overview of Modern Atheism | 1736 | 100.0% |
-| 10 | 26–27 | From the Spiritual Tree | Acknowledgment of the Truth | 479 | 99.79% |
+| 10 | 26–27 | From the Spiritual Tree | Acknowledgment of the Truth | 479 | 100.0% |
 | 11 | 28–29 | A Causeless Cause | Atheism Refuted | 792 | 100.0% |
 | 12 | 30–31 | Looking Beyond the Veil | Appearance and Reality | 774 | 99.87% |
 | 13 | 32–37 | An Objective Study | Faith and Reason | 2342 | 100.0% |
 | 14 | 38–42 | An Academic Approach to Religion | Rationality of Faith | 2007 | 100.0% |
-| 15 | 43–44 | Psychology at Work | Denial of Truth | 555 | 99.82% |
+| 15 | 43–44 | Psychology at Work | Denial of Truth | 555 | 100.0% |
 | 16 | 45 | Sincerity | Actions Matter | 338 | 100.0% |
 | 17 | 46 | Believing When it Matters | The Moment of Truth | 454 | 100.0% |
 | 18 | 47–48 | From The Scriptures | The Word of God | 869 | 100.0% |
@@ -34,9 +34,7 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 2, `p8b4` (p): spreading
 - article 4, `p13b3` (p): parts
 - article 6, `p16b3` (p): napoleon
-- article 10, `p26b4` (p): god
 - article 12, `p30b4` (p): finelytuned
-- article 15, `p43b3` (p): the
 
 ## Left out of the e-version – please confirm
 

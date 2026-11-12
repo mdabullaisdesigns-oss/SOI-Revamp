@@ -1,25 +1,25 @@
 # Review – Issue 40 · April 2016
 
-PDF `April-2016.pdf`, 52 pages. **19 articles, 15,903 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `April-2016.pdf`, 52 pages. **19 articles, 15,903 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–6 | From Maulana’s Desk | The Problem of Intolerance | 609 | 99.84% |
+| 1 | 5–6 | From Maulana’s Desk | The Problem of Intolerance | 609 | 100.0% |
 | 2 | 7 | Jack of All, Master of None | Running After Two Hares | 268 | 99.63% |
 | 3 | 8–12 | Worship of God | The Essence of Religion—part I | 2202 | 100.0% |
 | 4 | 13–14 | Your Greatest Asset | The Importance of Time | 643 | 99.84% |
 | 5 | 15–16 | Hundred Percent Literacy | Advice for the Kashmiri Youth | 682 | 99.85% |
 | 6 | 17–22 | Towards Global Peace | Political Extremism and Islam | 2012 | 100.0% |
-| 7 | 23 | And We Shall Return to Him | We Belong to God | 337 | 99.7% |
-| 8 | 24–25 | From the Spiritual Tree | Man’s Helplessness | 684 | 99.85% |
+| 7 | 23 | And We Shall Return to Him | We Belong to God | 337 | 100.0% |
+| 8 | 24–25 | From the Spiritual Tree | Man’s Helplessness | 684 | 100.0% |
 | 9 | 26 | Objective Thinking | Creative Solution | 267 | 100.0% |
 | 10 | 27–28 | The Language of Paradise | Sound Speech | 726 | 100.0% |
-| 11 | 29 | Wonders of the Universe | The Treasure of God Realization | 279 | 99.28% |
-| 12 | 30–32 | The Peaceful Method | The Age of Alternatives | 1005 | 99.9% |
-| 13 | 33–35 | Social Service | Service to Mankind | 1186 | 99.92% |
-| 14 | 36 | Eternal Blessings of God | Salvation | 340 | 99.71% |
+| 11 | 29 | Wonders of the Universe | The Treasure of God Realization | 279 | 99.64% |
+| 12 | 30–32 | The Peaceful Method | The Age of Alternatives | 1005 | 100.0% |
+| 13 | 33–35 | Social Service | Service to Mankind | 1186 | 100.0% |
+| 14 | 36 | Eternal Blessings of God | Salvation | 340 | 100.0% |
 | 15 | 37–38 | Needless Suffering | Unending War | 813 | 100.0% |
 | 16 | 39 | Discover God | Increasing in Faith | 328 | 99.7% |
 | 17 | 40–42 | The Quran | Universal Message for Global Citizenship | 1159 | 100.0% |
@@ -30,17 +30,10 @@ PDF `April-2016.pdf`, 52 pages. **19 articles, 15,903 words, word match 99.92%**
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): it
 - article 2, `p7b3` (p): living
 - article 4, `p13b3` (p): lord
 - article 5, `p15b3` (p): mohammad
-- article 7, `p23b3` (p): it
-- article 8, `p24b4` (p): in
 - article 11, `p29b3` (p): mentioning
-- article 11, `p29b5` (p): is
-- article 12, `p30b3` (p): in
-- article 13, `p33b3` (p): all
-- article 14, `p36b3` (p): what
 - article 16, `p39b3` (p): observing
 
 ## Left out of the e-version – please confirm

@@ -1,6 +1,6 @@
 # Review – Issue 102 · September–October 2021
 
-PDF `September-October-2021.pdf`, 52 pages. **18 articles, 14,220 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `September-October-2021.pdf`, 52 pages. **18 articles, 14,220 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,16 +8,16 @@ PDF `September-October-2021.pdf`, 52 pages. **18 articles, 14,220 words, word ma
 |---|---|---|---|---|---|
 | 1 | 5–7 | From the Editor-In-Chief’s Desk | Obstacle in the Acceptance of Truth | 838 | 99.88% |
 | 2 | 8 | Personal Experiences | Sense of Reform | 387 | 100.0% |
-| 3 | 9–10 | Journey Towards God-Realization | Guiding One to a Purposeful Life | 551 | 99.82% |
+| 3 | 9–10 | Journey Towards God-Realization | Guiding One to a Purposeful Life | 551 | 100.0% |
 | 4 | 11–12 | A Realistic Solution to a Permanent Problem | How to Avoid Tension | 481 | 100.0% |
-| 5 | 13–14 | Reversal of Roles | Teaching the Teachers | 522 | 99.81% |
+| 5 | 13–14 | Reversal of Roles | Teaching the Teachers | 522 | 100.0% |
 | 6 | 15–16 | Be Realistic and Positive | Think Good of Others | 461 | 99.78% |
 | 7 | 17–19 | Towards Global Peace | Nuggets of Wisdom | 810 | 100.0% |
-| 8 | 20 | Giving back to Society | Fruits of Sacrifice | 437 | 99.77% |
-| 9 | 21 | The Permanency of Religion | A Lesson from Turkey | 389 | 99.74% |
+| 8 | 20 | Giving back to Society | Fruits of Sacrifice | 437 | 100.0% |
+| 9 | 21 | The Permanency of Religion | A Lesson from Turkey | 389 | 100.0% |
 | 10 | 22–26 | Targeting the Priorities | Role of Ulema in the Contemporary Times | 1720 | 99.94% |
-| 11 | 27–28 | Prerequisite Qualities | Cultivating National Treasures | 611 | 99.84% |
-| 12 | 29–30 | A Threat that has Become Reality | Code Red for Humanity | 540 | 99.81% |
+| 11 | 27–28 | Prerequisite Qualities | Cultivating National Treasures | 611 | 100.0% |
+| 12 | 29–30 | A Threat that has Become Reality | Code Red for Humanity | 540 | 100.0% |
 | 13 | 31–38 |  | An Interview | 3127 | 99.97% |
 | 14 | 39–40 | Selections from Best-Loved Quran Stories | Children’s Corner | 649 | 100.0% |
 | 15 | 41–43 |  | Book Review | 896 | 100.0% |
@@ -30,14 +30,8 @@ PDF `September-October-2021.pdf`, 52 pages. **18 articles, 14,220 words, word ma
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): calling
-- article 3, `p9b2` (p): peoples
-- article 5, `p13b2` (p): in
 - article 6, `p15b2` (p): will
-- article 8, `p20b2` (p): how
-- article 9, `p21b3` (p): ismet
 - article 10, `p22b2` (p): what
-- article 11, `p27b2` (p): india
-- article 12, `p29b3` (p): the
 - article 13, `p31b2` (lead): united
 - article 16, `p44b2` (p): five
 

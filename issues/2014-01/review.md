@@ -1,41 +1,36 @@
 # Review – Issue 13 · January 2014
 
-PDF `January-2014.pdf`, 52 pages. **17 articles, 13,422 words, word match 99.94%** (second reading of the PDF; flag below 99%).
+PDF `January-2014.pdf`, 52 pages. **18 articles, 13,914 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 6 | From the Editor’s Desk | Greetings of Peace! | 284 | 100.0% |
-| 2 | 7–8 | From Maulana’s Desk | The Key to Happiness | 611 | 99.84% |
-| 3 | 9 | Towards Positive Living | Nature, a Model of Peace | 378 | 99.74% |
+| 2 | 7–8 | From Maulana’s Desk | The Key to Happiness | 611 | 100.0% |
+| 3 | 9 | Towards Positive Living | Nature, a Model of Peace | 378 | 100.0% |
 | 4 | 10–11 | Proving The Existence Of God | The Big Bang Theory | 608 | 100.0% |
 | 5 | 12–16 | Draft Charter | The Human Right to Live Without Terror | 1631 | 100.0% |
-| 6 | 17–18 | A Perspective | Life After Death | 553 | 99.82% |
+| 6 | 17–18 | A Perspective | Life After Death | 553 | 100.0% |
 | 7 | 19 | A Tall Order | No Shortcuts | 407 | 99.75% |
-| 8 | 20–22 | What Needs To Be Done | Perceptions About Islam | 1074 | 99.91% |
+| 8 | 20–22 | What Needs To Be Done | Perceptions About Islam | 1074 | 100.0% |
 | 9 | 23–24 | In The Right Order | Duty Before Right | 667 | 100.0% |
-| 10 | 25 | Road Block, Not Mental Block | Lessons from a Road Block | 387 | 99.74% |
+| 10 | 25 | Road Block, Not Mental Block | Lessons from a Road Block | 387 | 100.0% |
 | 11 | 26–27 | Personality Of A Believer | The Spiritual Tree | 539 | 100.0% |
 | 12 | 28–30 | The Islamic Prayer | Salah | 964 | 99.9% |
 | 13 | 31–33 | Endless Desires and Limited Fulfilment | Why This Contradiction? | 836 | 100.0% |
-| 14 | 34–41 | From The Quran | The Prophet and His Mission | 2730 | 99.96% |
+| 14 | 34–41 | From The Quran | The Prophet and His Mission | 2730 | 100.0% |
 | 15 | 42–43 |  | From the Spiritual Tree | 577 | 100.0% |
 | 16 | 44–45 | From the Scriptures | The Word of God | 660 | 100.0% |
 | 17 | 46–47 | Your Questions, Answered | Ask Maulana | 516 | 100.0% |
+| 18 | 48 |  | Glossary | 492 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p7b5` (p): if
-- article 3, `p9b2` (p): the
-- article 6, `p17b2` (p): on
 - article 7, `p19b3` (p): november
-- article 8, `p20b3` (p): one
-- article 10, `p25b2` (p): when
 - article 12, `p28b14` (p): al
-- article 14, `p34b6` (p): by
 
 ## Left out of the e-version – please confirm
 
@@ -51,7 +46,6 @@ Nothing here is in any article tab. Say if any of it should be included.
 | 27 | after the end of the article (notice or advert) | 4 | ILLUSTRATION BY SETH MCWHORTER |
 | 33 | after the end of the article (notice or advert) | 87 | BOOKS |
 | 45 | after the end of the article (notice or advert) | 42 | NOTICE |
-| 48 | outside any article | 494 | Glossary |
 | 49 | non-article page: Subscribe | 153 | SUBSCRIBE |
 | 50 | non-article page: Subscribe | 103 | The Quran |
 | 51 | outside any article | 5 | This page left blank intentionally |
@@ -61,10 +55,21 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 None.
 
-On cover, contents and advert pages (not part of any article) the second reading also saw:
+## Pieces the rules could not classify (kept, shown as a small note)
 
-- page 48, 30 words: service one of the central messages of the bhagavad gitaa key religious text of hinduism qiblah direction of the kabah the sacred house of g
-- page 48, 12 words: quran by famous islamic scholar alqurtubi the urantia book a spiritual and
+- article 18, page 48: Abraham also Ibrahim; prophet and Jabal al-Noor near Makkah where prophet Muhammad received the first revelati
+- article 18, page 48: patriarch of Islam, Christianity and Judaism. He was the first pioneer of Islam and the original founder-build
+- article 18, page 48: where the Treaty of Hudaibiya was made between Muhammad representing the state of Medina and the Quraysh tribe
+- article 18, page 48: the principle of non-violence, one of the cardinal virtues of major Indian religions. Aisha (612–678); daughte
+- article 18, page 48: wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. Al-Bukhari; I
+- article 18, page 48: originally by prophets Abraham and Ismael in present day Mecca (Makkah). Musnad Ahmed a collection of Hadith r
+- article 18, page 48: service'; one of the central messages of the Bhagavad Gita—a key religious text of Hinduism. God. Qiblah direc
+- article 18, page 48: movements and words to be followed while offering salah (prayer). Sahih Al-Bukhari Hadith collection by Imam A
+- article 18, page 48: fast; one of the two festivals of Islam; It celebrates the conclusion of the month of fasting — Ramazan. Fatwa
+- article 18, page 48: biography. status-quoism accepting the political sent to the prophets with His divine message. Hadith sayings 
+- article 18, page 48: status quo and at the same time availing of opportunities in non-political fields. Tafsir commentary of the Qu
+- article 18, page 48: of Islam. Hajira also Hagar; wife of prophet Abraham who bore his first son Ismael. Hijaz desert region in wes
+- article 18, page 48: Quran by famous Islamic scholar Al-Qurtubi. present day Saudi Arabia where the The Urantia Book a spiritual an
 
 ## Automatic text adjustments
 

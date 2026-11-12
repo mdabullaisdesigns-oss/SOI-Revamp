@@ -10,20 +10,13 @@
     6
    ],
    "words": 611,
-   "match": 99.67,
+   "match": 99.84,
    "missing": [
     {
      "item": "p5b5",
      "kind": "p",
      "words": [
       "according"
-     ]
-    },
-    {
-     "item": "p6b12",
-     "kind": "h",
-     "words": [
-      "depoliticize"
      ]
     }
    ]
@@ -49,16 +42,8 @@
     16
    ],
    "words": 309,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -69,16 +54,8 @@
     17
    ],
    "words": 368,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -121,23 +98,8 @@
     21
    ],
    "words": 341,
-   "match": 99.41,
-   "missing": [
-    {
-     "item": "p21b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    },
-    {
-     "item": "p21b6",
-     "kind": "p",
-     "words": [
-      "testingground"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -148,16 +110,8 @@
     22
    ],
    "words": 363,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -231,16 +185,8 @@
     30
    ],
    "words": 338,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p30b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -263,16 +209,8 @@
     41
    ],
    "words": 709,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "you"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -311,7 +249,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17243,

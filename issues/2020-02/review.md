@@ -1,6 +1,6 @@
 # Review – Issue 86 · February 2020
 
-PDF `February-2020.pdf`, 52 pages. **20 articles, 15,899 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `February-2020.pdf`, 52 pages. **20 articles, 15,899 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,22 +8,22 @@ PDF `February-2020.pdf`, 52 pages. **20 articles, 15,899 words, word match 99.91
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Setting the Right Priorities | 743 | 100.0% |
 | 2 | 7–8 | From the Editorial Director | Islam: Religion of Tolerance | 754 | 100.0% |
-| 3 | 9–12 | Equal Status, Different Role | Woman’s Role in Islam | 1565 | 99.94% |
+| 3 | 9–12 | Equal Status, Different Role | Woman’s Role in Islam | 1565 | 100.0% |
 | 4 | 13–16 | The Way to God-realization | The Meaningfulness of the Universe | 1602 | 99.88% |
 | 5 | 17–19 | The True Import | Changing Direction | 1068 | 100.0% |
-| 6 | 20–21 | Aspire For More, Settle For Less | Road to Tranquility of Mind | 649 | 99.85% |
+| 6 | 20–21 | Aspire For More, Settle For Less | Road to Tranquility of Mind | 649 | 100.0% |
 | 7 | 22–23 | Choose the Wise Strategy | Patient Perseverence vs Protest | 712 | 99.86% |
-| 8 | 24 | The Source of True Bliss | Discovery of God | 431 | 99.77% |
+| 8 | 24 | The Source of True Bliss | Discovery of God | 431 | 100.0% |
 | 9 | 25 | Through Unilateral Good Behaviour | Winning Friends | 324 | 99.69% |
 | 10 | 26–27 | From the Spiritual Tree | Signs of God | 731 | 99.86% |
 | 11 | 28–29 | Towards Global Peace | Towards a Nonviolent World | 730 | 99.86% |
-| 12 | 30–31 | Never Outmoded | Intrinsic Reality | 482 | 99.79% |
-| 13 | 32–34 | Be Ready with Plan B | Future Planning | 1186 | 99.92% |
+| 12 | 30–31 | Never Outmoded | Intrinsic Reality | 482 | 100.0% |
+| 13 | 32–34 | Be Ready with Plan B | Future Planning | 1186 | 100.0% |
 | 14 | 35–38 | Putting a Check on Man | Belief in the Day of Judgement | 1535 | 100.0% |
 | 15 | 39 | Traits of Real Value | Honesty and Hard Work | 328 | 99.7% |
 | 16 | 40–41 | Holding a Mirror to Human Affairs | Zero-Defect Universe | 708 | 99.86% |
 | 17 | 42 | Make Your Efforts Result-oriented | Motion and Direction | 381 | 99.74% |
-| 18 | 43–44 | The True World to Set Eyes on | One Life Not Enough | 446 | 99.78% |
+| 18 | 43–44 | The True World to Set Eyes on | One Life Not Enough | 446 | 100.0% |
 | 19 | 45–47 | From The Scriptures | The Word of God | 927 | 100.0% |
 | 20 | 48–49 | Your Questions Answered | Ask Maulana | 597 | 100.0% |
 
@@ -31,21 +31,15 @@ PDF `February-2020.pdf`, 52 pages. **20 articles, 15,899 words, word match 99.91
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 3, `p9b3` (p): the
 - article 4, `p13b11` (p): science
 - article 4, `p13b12` (p): custommade
-- article 6, `p20b3` (p): in
 - article 7, `p22b3` (p): youth
-- article 8, `p24b3` (p): one
 - article 9, `p25b3` (p): someone
 - article 10, `p26b5` (p): when
 - article 11, `p28b5` (p): though
-- article 12, `p30b3` (p): it
-- article 13, `p32b3` (p): in
 - article 15, `p39b3` (p): prophet
 - article 16, `p40b3` (p): some
 - article 17, `p42b3` (p): bill
-- article 18, `p43b3` (p): when
 
 ## Left out of the e-version – please confirm
 

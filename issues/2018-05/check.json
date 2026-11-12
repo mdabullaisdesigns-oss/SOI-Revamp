@@ -62,16 +62,8 @@
     14
    ],
    "words": 729,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p13b3",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -82,16 +74,8 @@
     16
    ],
    "words": 555,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p15b3",
-     "kind": "p",
-     "words": [
-      "human"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -134,16 +118,8 @@
     24
    ],
    "words": 1142,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -186,16 +162,8 @@
     28
    ],
    "words": 297,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "shaikh"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -353,7 +321,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16829,

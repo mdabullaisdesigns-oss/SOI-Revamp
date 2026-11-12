@@ -10,7 +10,7 @@ PDF `May_2023.pdf`, 52 pages. **15 articles, 15,581 words, word match 99.97%** (
 | 2 | 8–10 |  | Impressions and Lessons | 1074 | 100.0% |
 | 3 | 11 | Journey Towards God-Realization | Sources for God-Realization | 333 | 100.0% |
 | 4 | 12–17 | Towards Global Peace | Tolerance: A Virtue in Itself | 2207 | 99.95% |
-| 5 | 18–19 | The Delusion of Support | Are You Really Not Alone? | 452 | 99.78% |
+| 5 | 18–19 | The Delusion of Support | Are You Really Not Alone? | 452 | 100.0% |
 | 6 | 20–21 | Witnessing God’s Plan | History of Hajj | 877 | 99.89% |
 | 7 | 22 | Formula from the Quran | In Search of Truth | 349 | 100.0% |
 | 8 | 23 |  | Lessons from the Road Traffic | 411 | 100.0% |
@@ -28,7 +28,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b5` (p): span
 - article 4, `p12b5` (p): nothing
-- article 5, `p18b2` (p): when
 - article 6, `p20b3` (p): according
 - article 9, `p24b2` (p): abu
 

@@ -1,6 +1,6 @@
 # Review – Issue 41 · May 2016
 
-PDF `May-2016.pdf`, 52 pages. **23 articles, 14,841 words, word match 99.89%** (second reading of the PDF; flag below 99%).
+PDF `May-2016.pdf`, 52 pages. **23 articles, 14,841 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,21 +9,21 @@ PDF `May-2016.pdf`, 52 pages. **23 articles, 14,841 words, word match 99.89%** (
 | 1 | 5–6 | From Maulana’s Desk | My Motherland | 712 | 99.86% |
 | 2 | 7–10 | Worship of God | The Essence of Religion–part II | 1394 | 99.93% |
 | 3 | 11 | A Mirage | Happiness | 313 | 99.68% |
-| 4 | 12 | Unhealthy Mindset | The 'i Am Right' Syndrome | 337 | 99.7% |
+| 4 | 12 | Unhealthy Mindset | The 'i Am Right' Syndrome | 337 | 100.0% |
 | 5 | 13–15 | Social Welfare | Zakat: The Prescribed Charity | 1021 | 100.0% |
 | 6 | 16–17 | A Trump Card For Muslims | Remarks of Donald Trump | 683 | 100.0% |
 | 7 | 18–19 | Towards Global Peace | Genesis of Muslim Militancy | 759 | 100.0% |
-| 8 | 20 | A Misunderstood Concept | The Quran and Wazu | 239 | 99.58% |
+| 8 | 20 | A Misunderstood Concept | The Quran and Wazu | 239 | 100.0% |
 | 9 | 21–22 | From the Spiritual Tree | Spiritual Development | 422 | 99.76% |
-| 10 | 23 | Inspite of Our Mistakes | God-Given Hope | 276 | 99.64% |
-| 11 | 24–25 | Simple Living—High Thinking | Fasting as a Spiritual Culture | 482 | 99.79% |
-| 12 | 26 | Patience Pays | Waiting for a Better Future | 220 | 99.55% |
-| 13 | 27–29 | A Law of Nature | Interdependence | 921 | 99.89% |
-| 14 | 30 | Impractical Expectations | Between Two Options | 247 | 99.6% |
+| 10 | 23 | Inspite of Our Mistakes | God-Given Hope | 276 | 100.0% |
+| 11 | 24–25 | Simple Living—High Thinking | Fasting as a Spiritual Culture | 482 | 100.0% |
+| 12 | 26 | Patience Pays | Waiting for a Better Future | 220 | 100.0% |
+| 13 | 27–29 | A Law of Nature | Interdependence | 921 | 100.0% |
+| 14 | 30 | Impractical Expectations | Between Two Options | 247 | 100.0% |
 | 15 | 31–32 | Message of Ramazan | Emotions of Faith | 809 | 99.88% |
-| 16 | 33 | Hopeful Not Hopeless | Patience, a Matter of Wisdom | 316 | 99.68% |
-| 17 | 34–35 | To Elevate Himself | Man’s True Purpose in Life | 749 | 99.87% |
-| 18 | 36 | Known Certainty | Undiscovered Reality | 366 | 99.73% |
+| 16 | 33 | Hopeful Not Hopeless | Patience, a Matter of Wisdom | 316 | 100.0% |
+| 17 | 34–35 | To Elevate Himself | Man’s True Purpose in Life | 749 | 100.0% |
+| 18 | 36 | Known Certainty | Undiscovered Reality | 366 | 100.0% |
 | 19 | 37 | A Common Mistake | Wrong Application of a Criterion | 287 | 100.0% |
 | 20 | 38–40 | Role of Science | The Return to Religion | 1002 | 100.0% |
 | 21 | 41–43 | A Supporter | Modern Civilization | 1128 | 99.82% |
@@ -37,18 +37,8 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b5` (p): on
 - article 2, `p7b5` (p): what
 - article 3, `p11b3` (p): someone
-- article 4, `p12b3` (p): in
-- article 8, `p20b3` (p): many
 - article 9, `p21b4` (p): what
-- article 10, `p23b5` (p): this
-- article 11, `p24b2` (p): according
-- article 12, `p26b3` (p): the
-- article 13, `p27b3` (p): according
-- article 14, `p30b2` (p): maulana
 - article 15, `p31b2` (p): according
-- article 16, `p33b3` (p): the
-- article 17, `p34b3` (p): man
-- article 18, `p36b2` (p): death
 - article 21, `p41b3` (p): according
 - article 21, `p42b3` (p): idkhalekalimah
 

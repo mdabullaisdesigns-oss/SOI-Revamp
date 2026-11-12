@@ -1,6 +1,6 @@
 # Review – Issue 80 · August 2019
 
-PDF `August-2019.pdf`, 52 pages. **20 articles, 15,842 words, word match 99.86%** (second reading of the PDF; flag below 99%).
+PDF `August-2019.pdf`, 52 pages. **20 articles, 15,842 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -10,12 +10,12 @@ PDF `August-2019.pdf`, 52 pages. **20 articles, 15,842 words, word match 99.86%*
 | 2 | 8–14 | From the Editorial Director | An Introduction to Islamic Jurisprudence | 2680 | 100.0% |
 | 3 | 15 | The Rights of the Orphan | Islamic Society | 392 | 100.0% |
 | 4 | 16 | Discover Your Religion | A Eureka Moment | 391 | 99.74% |
-| 5 | 17 | A Glimpse of the Doomsday | Earthquake | 338 | 99.7% |
+| 5 | 17 | A Glimpse of the Doomsday | Earthquake | 338 | 100.0% |
 | 6 | 18–20 | Towards Global Peace | Desist from Intolerance | 1165 | 100.0% |
 | 7 | 21–22 | Prerequisite of Success | Perseverance | 757 | 100.0% |
-| 8 | 24–28 | Power of Spirituality | India—a Potentially Spiritual Country | 2148 | 99.95% |
+| 8 | 24–28 | Power of Spirituality | India—a Potentially Spiritual Country | 2148 | 100.0% |
 | 9 | 29–30 | Indispensible Resource | Play Your Part in Conserving Water | 567 | 100.0% |
-| 10 | 31–32 | A Lesson from History | A Day for Justice | 453 | 96.25% ⚠ |
+| 10 | 31–32 | A Lesson from History | A Day for Justice | 453 | 99.78% |
 | 11 | 33–34 | Living in Wonderland | Wishful Thinking | 698 | 99.86% |
 | 12 | 35–36 | From the Spiritual Tree | Paradise: A Known Entity | 794 | 100.0% |
 | 13 | 37–38 | A Case for the Life Hereafter | Nineteen Eighty-Four | 542 | 99.82% |
@@ -32,10 +32,7 @@ PDF `August-2019.pdf`, 52 pages. **20 articles, 15,842 words, word match 99.86%*
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 4, `p16b3` (p): sir
-- article 5, `p17b3` (p): on
-- article 8, `p24b4` (p): tolerance
 - article 10, `p31b3` (p): throughout
-- article 10, `p31b7` (p): in a world where the human conscience and the order of the
 - article 11, `p33b3` (p): fifty
 - article 13, `p37b2` (p): june
 

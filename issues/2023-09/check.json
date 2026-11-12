@@ -22,15 +22,8 @@
     13
    ],
    "words": 2149,
-   "match": 99.91,
+   "match": 99.95,
    "missing": [
-    {
-     "item": "p8b4",
-     "kind": "p",
-     "words": [
-      "i"
-     ]
-    },
     {
      "item": "p12b8",
      "kind": "p",
@@ -69,16 +62,8 @@
     15
    ],
    "words": 331,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p15b7",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -113,16 +98,8 @@
     18
    ],
    "words": 387,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p18b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -285,16 +262,8 @@
     35
    ],
    "words": 660,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -325,16 +294,8 @@
     39
    ],
    "words": 582,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p38b2",
-     "kind": "p",
-     "words": [
-      "helen"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 21,
@@ -357,16 +318,8 @@
     42
    ],
    "words": 292,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p42b2",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 23,
@@ -425,7 +378,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.94,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15790,

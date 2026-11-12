@@ -42,16 +42,8 @@
     10
    ],
    "words": 599,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p9b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -62,16 +54,8 @@
     11
    ],
    "words": 358,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p11b3",
-     "kind": "p",
-     "words": [
-      "when"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -94,16 +78,8 @@
     19
    ],
    "words": 707,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p18b3",
-     "kind": "p",
-     "words": [
-      "animals"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -134,16 +110,8 @@
     22
    ],
    "words": 316,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "louis"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -154,16 +122,8 @@
     25
    ],
    "words": 1324,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p23b3",
-     "kind": "p",
-     "words": [
-      "dr"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -174,16 +134,8 @@
     26
    ],
    "words": 370,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p26b3",
-     "kind": "p",
-     "words": [
-      "mr"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -194,16 +146,8 @@
     34
    ],
    "words": 2826,
-   "match": 99.96,
-   "missing": [
-    {
-     "item": "p27b3",
-     "kind": "p",
-     "words": [
-      "building"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -254,16 +198,8 @@
     41
    ],
    "words": 680,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -288,11 +224,32 @@
    "words": 852,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 17,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    48,
+    48
+   ],
+   "words": 312,
+   "match": 99.36,
+   "missing": [
+    {
+     "item": "p48b1",
+     "kind": "small",
+     "words": [
+      "asjinn",
+      "sijistani"
+     ]
+    }
+   ]
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15968,
- "article_words": 14510
+ "article_words": 14822
 }

@@ -1,25 +1,25 @@
 # Review – Issue 56 · August 2017
 
-PDF `August-2017.pdf`, 52 pages. **20 articles, 15,686 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `August-2017.pdf`, 52 pages. **20 articles, 15,686 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Welcoming the 71st Independence Day | 1011 | 100.0% |
-| 2 | 8–14 | Islam As It Is | Islam’s Commitment to Nation-Building | 2615 | 99.96% |
+| 2 | 8–14 | Islam As It Is | Islam’s Commitment to Nation-Building | 2615 | 100.0% |
 | 3 | 15 | A Most Fundamental Error | The Political Interpretation of Islam | 401 | 100.0% |
 | 4 | 16 | Life Skill | Utilize Anger as a Blessing | 393 | 99.75% |
-| 5 | 17 | On the Road to Paradise | Purification (tazkiya) | 302 | 99.67% |
-| 6 | 18–22 | Harmonious Living | Moral and Ethical Development in Society | 1649 | 99.94% |
+| 5 | 17 | On the Road to Paradise | Purification (tazkiya) | 302 | 100.0% |
+| 6 | 18–22 | Harmonious Living | Moral and Ethical Development in Society | 1649 | 100.0% |
 | 7 | 23–24 | Towards Global Peace | Deception (dajjaliyat) | 732 | 99.86% |
 | 8 | 25 | Natural Process | Working Your Way Up | 328 | 100.0% |
 | 9 | 26–27 | From the Spiritual Tree | Conversion to God | 433 | 100.0% |
-| 10 | 28 | Matter of Understanding | There Is a Reason Behind Everything | 371 | 99.73% |
+| 10 | 28 | Matter of Understanding | There Is a Reason Behind Everything | 371 | 100.0% |
 | 11 | 29 | Teamwork | Working in Unison | 326 | 99.39% |
-| 12 | 30–34 | Result Oriented Work | Towards an Advanced Nation | 1995 | 99.95% |
+| 12 | 30–34 | Result Oriented Work | Towards an Advanced Nation | 1995 | 100.0% |
 | 13 | 35–36 | Extremist Mindset | The Khawarij | 764 | 100.0% |
-| 14 | 37 | Sincerity of Purpose | Necessary Preparation | 375 | 99.73% |
+| 14 | 37 | Sincerity of Purpose | Necessary Preparation | 375 | 100.0% |
 | 15 | 38 | Sign of Good Character | Concealing Others' Faults | 268 | 99.63% |
 | 16 | 39–40 | For a Better Society | Intellectual Crusades | 674 | 99.85% |
 | 17 | 41–43 | Un-Islamic Practice | Close-Mindedness | 1203 | 99.92% |
@@ -31,16 +31,10 @@ PDF `August-2017.pdf`, 52 pages. **20 articles, 15,686 words, word match 99.92%*
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p8b2` (p): our
 - article 4, `p16b3` (p): once
-- article 5, `p17b3` (p): according
-- article 6, `p18b3` (p): all
 - article 7, `p23b5` (p): harakiri
-- article 10, `p28b3` (p): if
 - article 11, `p29b8` (p): american
 - article 11, `p29b10` (p): expert
-- article 12, `p30b3` (p): india
-- article 14, `p37b8` (p): gandhi
 - article 15, `p38b3` (p): according
 - article 16, `p39b3` (p): what
 - article 17, `p41b9` (qa_intro): according

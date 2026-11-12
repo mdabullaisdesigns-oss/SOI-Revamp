@@ -30,16 +30,8 @@
     11
    ],
    "words": 1117,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p9b2",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -70,16 +62,8 @@
     15
    ],
    "words": 267,
-   "match": 99.63,
-   "missing": [
-    {
-     "item": "p15b2",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -102,16 +86,8 @@
     19
    ],
    "words": 296,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p19b2",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -122,16 +98,8 @@
     21
    ],
    "words": 602,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p20b2",
-     "kind": "p",
-     "words": [
-      "eastern"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -186,16 +154,8 @@
     34
    ],
    "words": 567,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p33b2",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -266,16 +226,8 @@
     41
    ],
    "words": 346,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p41b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -295,14 +247,14 @@
    "title": "Ask Maulana",
    "pages": [
     45,
-    50
+    48
    ],
    "words": 915,
    "match": 100.0,
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 14905,

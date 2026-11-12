@@ -22,16 +22,8 @@
     8
    ],
    "words": 706,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p7b3",
-     "kind": "p",
-     "words": [
-      "many"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -42,16 +34,8 @@
     10
    ],
    "words": 668,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p9b3",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -150,16 +134,8 @@
     22
    ],
    "words": 304,
-   "match": 99.67,
-   "missing": [
-    {
-     "item": "p22b7",
-     "kind": "p",
-     "words": [
-      "if"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -182,16 +158,8 @@
     28
    ],
    "words": 1496,
-   "match": 99.93,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "even"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -202,16 +170,8 @@
     29
    ],
    "words": 344,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p29b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -234,16 +194,8 @@
     35
    ],
    "words": 1161,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p33b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -266,16 +218,8 @@
     38
    ],
    "words": 632,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p37b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -286,15 +230,8 @@
     40
    ],
    "words": 658,
-   "match": 99.7,
+   "match": 99.85,
    "missing": [
-    {
-     "item": "p39b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    },
     {
      "item": "p39b8",
      "kind": "p",
@@ -349,7 +286,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.89,
+ "overall_match": 99.94,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17544,

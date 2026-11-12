@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from check import norm, match
 
 THRESHOLD = 97.0          # the page text was edited by hand after the magazine went to print
-EXPECTED = re.compile(r"contents|chatgpt|subscri|bank|cheque|published|printed|goodword|available at|order|www\.|issue \d+", re.I)
+EXPECTED = re.compile(r"in focus we bring you|contents|chatgpt|subscri|bank|cheque|published|printed|goodword|available at|order|www\.|issue \d+", re.I)
 
 
 def main():
@@ -39,7 +39,8 @@ def main():
             for k in range(len(w) - 4):
                 grams[tuple(w[k:k + 5])].add(pn)
     for a in issue["articles"]:
-        text = " ".join(plain(i) for i in a["items"])
+        # the boxed quotes are drawn as pictures in the newer PDFs, so only the running text is compared
+        text = " ".join(plain(i) for i in a["items"] if i["k"] not in ("pull", "thought"))
         w = norm(text)
         row = {"n": a["n"], "id": a["id"], "title": a["title"], "words": len(w), "audio": a["id"] in audio,
                "match": None, "pages": a["pages"], "missing": []}
@@ -76,8 +77,9 @@ def main():
         rows.append(row)
         if a["id"] not in audio and a["type"] not in ("newsletter",):
             warnings.append(f"no recording on the site for article {a['n']} “{a['title']}”")
-        if a["id"] in timed and timed[a["id"]].get("match") is not None and timed[a["id"]]["match"] < 95:
-            warnings.append(f"recording does not match the text of article {a['n']} “{a['title']}” ({timed[a['id']]['match']}%)")
+        t = timed.get(a["id"], {})
+        if t.get("flag") or t.get("error"):
+            warnings.append(f"recording of article {a['n']} “{a['title']}”: {t.get('flag') or t.get('error')}")
     for u in log["audio_unmatched"]:
         warnings.append(f"recording “{u['title']}” belongs to no article")
     if have_pdf:
@@ -105,7 +107,8 @@ def main():
           "## Articles", "", "| # | PDF pages | Section / kicker | Title | Words | In PDF | Recording |", "|---|---|---|---|---|---|---|"]
     for a, r in zip(issue["articles"], rows):
         pg = "–".join(str(x) for x in dict.fromkeys(r["pages"])) if r["pages"][0] else ""
-        rec = ("timed" if a["id"] in timed else "on site, not timed yet") if r["audio"] else "**none**"
+        t = timed.get(a["id"], {})
+        rec = ((f"{t['match']}% heard" + (" – **check**" if t.get("flag") else "")) if "match" in t else "on site, not timed yet") if r["audio"] else "**none**"
         md.append(f"| {r['n']} | {pg} | {a['kicker']} | {a['title']} | {r['words']} | {r['match']}% | {rec} |")
     md += ["", "## Needs a look", ""] + ([f"- {w}" for w in warnings] or ["Nothing."])
     diff = [(r["n"], m) for r in rows for m in r["missing"]]

@@ -1,0 +1,28 @@
+name: Build the website
+
+# Builds the static site (dist/) with its Pagefind search index and keeps it as
+# a downloadable artifact.  To publish, connect this repository to Cloudflare
+# Pages with build command
+#   pip install "pagefind[bin]" && python3 site/build_site.py
+# and output directory  dist
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["site/**", "issues/*/SOI-*-complete.html"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q "pagefind[bin]"
+      - run: python3 site/build_site.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: soi-site
+          path: dist
+          retention-days: 14

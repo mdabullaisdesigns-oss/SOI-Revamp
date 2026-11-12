@@ -22,16 +22,8 @@
     10
    ],
    "words": 1512,
-   "match": 99.93,
-   "missing": [
-    {
-     "item": "p7b5",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -194,15 +186,8 @@
     32
    ],
    "words": 720,
-   "match": 99.72,
+   "match": 99.86,
    "missing": [
-    {
-     "item": "p31b2",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    },
     {
      "item": "p32b3",
      "kind": "thought",
@@ -289,16 +274,8 @@
     43
    ],
    "words": 623,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "of"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -325,7 +302,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 21795,

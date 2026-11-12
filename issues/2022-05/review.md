@@ -1,6 +1,6 @@
 # Review – Issue 106 · May–June 2022
 
-PDF `May-June-2022.pdf`, 52 pages. **18 articles, 13,796 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `May-June-2022.pdf`, 52 pages. **18 articles, 13,796 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -10,15 +10,15 @@ PDF `May-June-2022.pdf`, 52 pages. **18 articles, 13,796 words, word match 99.93
 | 2 | 9–11 | Personal Experiences | Pages from Maulana's Diary | 1129 | 100.0% |
 | 3 | 12–13 | Journey Towards God-Realization | The Existence of God | 533 | 100.0% |
 | 4 | 14–18 | Towards Global Peace | A Solution-Oriented Approach | 1722 | 99.94% |
-| 5 | 19 | A Way of Life | Importance of Time | 230 | 99.57% |
+| 5 | 19 | A Way of Life | Importance of Time | 230 | 100.0% |
 | 6 | 20 | Employing a Reason-based Approach | Today’s Youth | 345 | 99.71% |
-| 7 | 21 | Separate the Relevant from the Irrelevant | Clarity in Discourse | 319 | 99.69% |
+| 7 | 21 | Separate the Relevant from the Irrelevant | Clarity in Discourse | 319 | 100.0% |
 | 8 | 22–25 |  | The Life and Work of Maulana Wahiduddin Khan | 1245 | 100.0% |
-| 9 | 26–27 | See Things in Totality | Wrong Argument | 430 | 99.77% |
+| 9 | 26–27 | See Things in Totality | Wrong Argument | 430 | 100.0% |
 | 10 | 28–29 | Looking beyond the Obvious | Through the Eyes of the Intellect | 608 | 99.84% |
 | 11 | 30–31 | An Incentive, not a Drawback | From Humble Beginnings to Greatness | 593 | 99.83% |
 | 12 | 32–37 | An Interview with Mr Navdeep Kapur | One Man, Two Missions | 2426 | 100.0% |
-| 13 | 38–39 | A Simple Religion | Natural Simplicity | 385 | 99.74% |
+| 13 | 38–39 | A Simple Religion | Natural Simplicity | 385 | 100.0% |
 | 14 | 40–42 |  | CPS Newsletter | 501 | 100.0% |
 | 15 | 43–44 | The Quran Explorer for Kids | Children’s Corner | 395 | 99.75% |
 | 16 | 45–46 |  | Book Review | 638 | 100.0% |
@@ -31,13 +31,9 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b4` (p): these
 - article 4, `p14b4` (p): probably
-- article 5, `p19b3` (p): the
 - article 6, `p20b3` (p): when
-- article 7, `p21b12` (p): one
-- article 9, `p26b8` (p): waki
 - article 10, `p28b4` (p): under
 - article 11, `p30b12` (p): although
-- article 13, `p38b2` (p): the
 - article 15, `p43b18` (small): 1the
 
 ## Left out of the e-version – please confirm

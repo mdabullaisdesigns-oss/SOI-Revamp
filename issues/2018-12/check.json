@@ -62,16 +62,8 @@
     13
    ],
    "words": 448,
-   "match": 99.78,
-   "missing": [
-    {
-     "item": "p12b12",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -173,16 +165,8 @@
     29
    ],
    "words": 322,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p29b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -213,16 +197,8 @@
     31
    ],
    "words": 347,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p31b3",
-     "kind": "p",
-     "words": [
-      "abu"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -253,16 +229,8 @@
     34
    ],
    "words": 419,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -317,16 +285,8 @@
     41
    ],
    "words": 1069,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p39b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -357,16 +317,8 @@
     44
    ],
    "words": 262,
-   "match": 99.62,
-   "missing": [
-    {
-     "item": "p44b4",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 21,
@@ -405,7 +357,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.94,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 26560,

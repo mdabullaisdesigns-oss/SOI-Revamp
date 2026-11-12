@@ -1,6 +1,6 @@
 # Review – Issue 54 · June 2017
 
-PDF `June-2017.pdf`, 52 pages. **24 articles, 15,265 words, word match 99.88%** (second reading of the PDF; flag below 99%).
+PDF `June-2017.pdf`, 52 pages. **24 articles, 15,265 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,24 +8,24 @@ PDF `June-2017.pdf`, 52 pages. **24 articles, 15,265 words, word match 99.88%** 
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | No Thought Crime in Islam | 742 | 99.87% |
 | 2 | 7 | Giving Short Measure | Wrong Generalization | 340 | 99.71% |
-| 3 | 8–10 | Positive Thinking | Developing One’s Personality | 1043 | 99.9% |
-| 4 | 11–12 | Patience and Self-Control | The Month of Contemplation | 676 | 99.7% |
-| 5 | 13–17 | Being Beneficial | Make Yourself Eligible | 1918 | 99.95% |
+| 3 | 8–10 | Positive Thinking | Developing One’s Personality | 1043 | 100.0% |
+| 4 | 11–12 | Patience and Self-Control | The Month of Contemplation | 676 | 100.0% |
+| 5 | 13–17 | Being Beneficial | Make Yourself Eligible | 1918 | 100.0% |
 | 6 | 18 | Responsibility and Privilege | Man’s Uniqueness | 333 | 99.7% |
-| 7 | 19 | Purification of the Soul | Character Development | 275 | 99.64% |
+| 7 | 19 | Purification of the Soul | Character Development | 275 | 100.0% |
 | 8 | 20–22 | Towards Global Peace | Communal Egos and Inter-Community Conflict | 1218 | 100.0% |
 | 9 | 23 | Seek the Mercy of God | The Sense of Repentance | 310 | 100.0% |
-| 10 | 24 | Save Yourself | Know the World and Hereafter | 303 | 99.67% |
+| 10 | 24 | Save Yourself | Know the World and Hereafter | 303 | 100.0% |
 | 11 | 25 | Address the Individual | Right Starting-Point | 326 | 99.69% |
 | 12 | 26–27 | From the Spiritual Tree | The Price of a Principled Life | 463 | 100.0% |
-| 13 | 28–29 | Creation Plan of God | The Quranic Concept of History | 785 | 99.87% |
+| 13 | 28–29 | Creation Plan of God | The Quranic Concept of History | 785 | 100.0% |
 | 14 | 30–31 | A Long Arduous Search | Lailatul Qadr (the Night of Destiny) | 633 | 100.0% |
 | 15 | 32 | Discover Your Creator | Knowing the Known | 314 | 100.0% |
 | 16 | 33 | Nurturing | The Responsibility of Parents | 337 | 99.7% |
 | 17 | 34 | Cowardly Opposition | What Is a Conspiracy? | 317 | 100.0% |
 | 18 | 35 | Intellectual Food | Study of the Quran | 321 | 99.69% |
 | 19 | 36 | Importance of Well Being | Prayer for Good Health | 319 | 99.69% |
-| 20 | 37 | Rule of Self Interest | There Is No Enemy | 319 | 99.69% |
+| 20 | 37 | Rule of Self Interest | There Is No Enemy | 319 | 100.0% |
 | 21 | 38–41 | An Achievable Goal | Islamic Spirituality | 1547 | 99.81% |
 | 22 | 42–43 | Reminder of Life in Paradise | Eid That Brings People Together | 641 | 99.84% |
 | 23 | 44–46 | From The Scriptures | The Word of God | 1188 | 100.0% |
@@ -37,19 +37,11 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b5` (p): on
 - article 2, `p7b8` (p): some
-- article 3, `p8b3` (p): this
-- article 4, `p11b3` (p): ramazan
-- article 4, `p12b1` (p): godoriented
-- article 5, `p13b3` (p): the
 - article 6, `p18b3` (p): according
-- article 7, `p19b3` (p): tazkiya
-- article 10, `p24b3` (p): we
 - article 11, `p25b3` (p): when
-- article 13, `p28b4` (p): this
 - article 16, `p33b3` (p): according
 - article 18, `p35b6` (p): according
 - article 19, `p36b3` (p): according
-- article 20, `p37b8` (p): in
 - article 21, `p38b3` (p): there
 - article 21, `p39b11` (p): godconsciousness
 - article 21, `p39b1` (pull): requirements

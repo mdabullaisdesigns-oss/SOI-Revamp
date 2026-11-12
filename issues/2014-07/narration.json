@@ -1,7 +1,7 @@
 {
  "slug": "2014-07",
  "voice": "TTSMaker Gary (2560)",
- "chars": 75221,
+ "chars": 75230,
  "articles": {
   "winners-and-losers-all": {
    "title": "Winners and Losers, All",
@@ -919,6 +919,15 @@
     "Man is born with ego.",
     "Modesty comes when we exercise control over our ego.",
     "Ego comes by birth and modesty comes by choice. o"
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-07-glossary.mp3",
+   "chars": 9,
+   "sentences": [
+    "Glossary"
    ]
   }
  }

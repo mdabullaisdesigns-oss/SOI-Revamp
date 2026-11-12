@@ -92,7 +92,7 @@ def title_case(s):
             out.append(w.lower())
         else:
             out.append("-".join(p[:1].upper() + p[1:].lower() for p in w.split("-")))
-    return " ".join(out)
+    return re.sub(r"\b(Part|Vol|Volume) ([IVXivx]{1,4})\b", lambda m: m.group(1) + " " + m.group(2).upper(), " ".join(out))
 
 
 def slugify(s):

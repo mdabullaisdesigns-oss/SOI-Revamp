@@ -66,16 +66,8 @@
     17
    ],
    "words": 338,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -110,16 +102,8 @@
     28
    ],
    "words": 2148,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p24b4",
-     "kind": "p",
-     "words": [
-      "tolerance"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -142,31 +126,13 @@
     32
    ],
    "words": 453,
-   "match": 96.25,
+   "match": 99.78,
    "missing": [
     {
      "item": "p31b3",
      "kind": "p",
      "words": [
       "throughout"
-     ]
-    },
-    {
-     "item": "p31b7",
-     "kind": "p",
-     "words": [
-      "in",
-      "a",
-      "world",
-      "where",
-      "the",
-      "human",
-      "conscience",
-      "and",
-      "the",
-      "order",
-      "of",
-      "the"
      ]
     }
    ]
@@ -308,10 +274,8 @@
    "missing": []
   }
  ],
- "overall_match": 99.86,
- "flagged": [
-  10
- ],
+ "overall_match": 99.97,
+ "flagged": [],
  "unplaced": [],
  "pdf_words": 26855,
  "article_words": 15842

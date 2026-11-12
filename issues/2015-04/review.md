@@ -1,27 +1,27 @@
 # Review – Issue 28 · April 2015
 
-PDF `April-2015.pdf`, 52 pages. **18 articles, 15,800 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `April-2015.pdf`, 52 pages. **18 articles, 15,800 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–6 | From Maulana’s Desk | Unawareness of Muslims | 593 | 99.83% |
+| 1 | 5–6 | From Maulana’s Desk | Unawareness of Muslims | 593 | 100.0% |
 | 2 | 7–8 | Personality Development | Peace of Mind—for What? | 635 | 100.0% |
 | 3 | 9 | Enthusiasm and Perseverance | Progress in the Long Haul | 335 | 100.0% |
-| 4 | 10–12 | House of the God-fearing | The Mosque | 962 | 99.9% |
-| 5 | 13–25 | Purpose of Life | Man, Know Thyself | 5315 | 99.98% |
+| 4 | 10–12 | House of the God-fearing | The Mosque | 962 | 100.0% |
+| 5 | 13–25 | Purpose of Life | Man, Know Thyself | 5315 | 100.0% |
 | 6 | 26–27 | From the Spiritual Tree | Thankfulness | 388 | 100.0% |
-| 7 | 28–29 | Unfounded Conspiracies | Problem or Challenge? | 703 | 99.86% |
-| 8 | 30–32 | Choose the Easier Option | Violence Is Not an Option | 1134 | 99.91% |
+| 7 | 28–29 | Unfounded Conspiracies | Problem or Challenge? | 703 | 100.0% |
+| 8 | 30–32 | Choose the Easier Option | Violence Is Not an Option | 1134 | 100.0% |
 | 9 | 33 | Custom-made for Man | Mind-Boggling Universe | 341 | 100.0% |
-| 10 | 34–37 | Ideological Power | Islam in History | 1165 | 99.91% |
-| 11 | 38 | Love, Despite Hatred | Love and Knowledge | 267 | 99.63% |
+| 10 | 34–37 | Ideological Power | Islam in History | 1165 | 100.0% |
+| 11 | 38 | Love, Despite Hatred | Love and Knowledge | 267 | 100.0% |
 | 12 | 39 | Source of All Goodness | Belief in God | 209 | 100.0% |
-| 13 | 40 | Unforced Submission | Relinquishing Power for God | 347 | 99.71% |
+| 13 | 40 | Unforced Submission | Relinquishing Power for God | 347 | 100.0% |
 | 14 | 41 | Profit from Loss | Through Fire and Water | 300 | 99.67% |
 | 15 | 42–44 | Beginning of True Reform | Individual Reform, Not ‘protest Activism’ | 1065 | 99.91% |
-| 16 | 45 | Nature’s Gift to Everyone | Utilize Yourself | 294 | 99.66% |
+| 16 | 45 | Nature’s Gift to Everyone | Utilize Yourself | 294 | 100.0% |
 | 17 | 46–47 | From The Scriptures | The Word of God | 892 | 100.0% |
 | 18 | 48–50 | Your Questions Answered | Ask Maulana | 855 | 100.0% |
 
@@ -29,17 +29,8 @@ PDF `April-2015.pdf`, 52 pages. **18 articles, 15,800 words, word match 99.93%**
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): these
-- article 4, `p10b3` (p): what
-- article 5, `p13b3` (p): if
-- article 7, `p28b3` (p): muslim
-- article 8, `p30b3` (p): in
-- article 10, `p34b2` (p): at
-- article 11, `p38b3` (p): this
-- article 13, `p40b2` (p): all
 - article 14, `p41b2` (p): as
 - article 15, `p42b2` (p): some
-- article 16, `p45b3` (p): according
 
 ## Left out of the e-version – please confirm
 

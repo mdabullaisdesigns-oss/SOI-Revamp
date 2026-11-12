@@ -1,7 +1,7 @@
 {
  "slug": "2013-11",
  "voice": "TTSMaker Gary (2560)",
- "chars": 83485,
+ "chars": 83494,
  "articles": {
   "nairobi-and-peshawar-attacks-completely-anti-islamic": {
    "title": "Nairobi and Peshawar Attacks Completely Anti-Islamic",
@@ -907,6 +907,15 @@
     "It should be impressed upon the people, in the light of both history and ideology, that violence is only an ill-considered reaction.",
     "It is not the result of well-thought-out planning.",
     "No group or nation in human history has ever achieved any worthwhile success through violence; and it is certainly not possible, even today."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2013-11-glossary.mp3",
+   "chars": 9,
+   "sentences": [
+    "Glossary"
    ]
   }
  }

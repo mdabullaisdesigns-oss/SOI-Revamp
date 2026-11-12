@@ -42,16 +42,8 @@
     9
    ],
    "words": 703,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p8b4",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -62,16 +54,8 @@
     12
    ],
    "words": 992,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p10b4",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -94,16 +78,8 @@
     17
    ],
    "words": 628,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -114,16 +90,8 @@
     19
    ],
    "words": 602,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p18b2",
-     "kind": "p",
-     "words": [
-      "what"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -194,16 +162,8 @@
     27
    ],
    "words": 507,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p26b3",
-     "kind": "p",
-     "words": [
-      "were"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -214,16 +174,8 @@
     37
    ],
    "words": 3702,
-   "match": 99.97,
-   "missing": [
-    {
-     "item": "p28b2",
-     "kind": "p",
-     "words": [
-      "atheist"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -274,16 +226,8 @@
     41
    ],
    "words": 667,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -342,7 +286,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.95,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16277,

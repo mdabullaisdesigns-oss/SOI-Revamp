@@ -10,16 +10,8 @@
     8
    ],
    "words": 1006,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p6b5",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -30,16 +22,8 @@
     10
    ],
    "words": 700,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p9b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -70,16 +54,8 @@
     15
    ],
    "words": 525,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p14b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -154,16 +130,8 @@
     28
    ],
    "words": 300,
-   "match": 99.67,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "muslims"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -194,16 +162,8 @@
     37
    ],
    "words": 581,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p36b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -226,16 +186,8 @@
     39
    ],
    "words": 353,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p39b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -246,16 +198,8 @@
     40
    ],
    "words": 280,
-   "match": 99.64,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -280,11 +224,23 @@
    "words": 760,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 17,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    49,
+    49
+   ],
+   "words": 380,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15504,
- "article_words": 13868
+ "article_words": 14248
 }

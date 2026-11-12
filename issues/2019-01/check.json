@@ -42,16 +42,8 @@
     11
    ],
    "words": 1090,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p9b5",
-     "kind": "p",
-     "words": [
-      "fiqh"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -62,16 +54,8 @@
     13
    ],
    "words": 672,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p12b3",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -102,16 +86,8 @@
     17
    ],
    "words": 757,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p15b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -146,16 +122,8 @@
     22
    ],
    "words": 623,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p21b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -186,16 +154,8 @@
     34
    ],
    "words": 536,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p33b3",
-     "kind": "p",
-     "words": [
-      "for"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -206,21 +166,13 @@
     36
    ],
    "words": 557,
-   "match": 99.46,
+   "match": 99.82,
    "missing": [
-    {
-     "item": "p35b3",
-     "kind": "p",
-     "words": [
-      "we"
-     ]
-    },
     {
      "item": "p35b7",
      "kind": "p",
      "words": [
-      "meeting",
-      "to"
+      "meeting"
      ]
     }
    ]
@@ -254,16 +206,8 @@
     40
    ],
    "words": 622,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p39b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -294,20 +238,12 @@
     43
    ],
    "words": 704,
-   "match": 99.43,
+   "match": 99.72,
    "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "after"
-     ]
-    },
     {
      "item": "p42b5",
      "kind": "p",
      "words": [
-      "had",
       "wellknown"
      ]
     },
@@ -341,20 +277,11 @@
     49
    ],
    "words": 741,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p47b13",
-     "kind": "quote",
-     "words": [
-      "muhammadur",
-      "rasoolullah"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.83,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 24222,

@@ -1,7 +1,7 @@
 {
  "slug": "2014-04",
  "voice": "TTSMaker Gary (2560)",
- "chars": 77261,
+ "chars": 77288,
  "articles": {
   "seven-billion-issues": {
    "title": "Seven Billion Issues!",
@@ -907,6 +907,16 @@
     "The programme presenter replied, half-jokingly, that the media is based on ‘hot’ news, and that no such ‘hot’ news ever seems to emanate from Mauritius!",
     "‘Create some hot news there’, he told the caller, ‘and we’ll report about your country!’",
     "So, the point is that if you want to change the way the media reports about something, you have to work at changing people’s mindsets. o"
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-04-glossary.mp3",
+   "chars": 27,
+   "sentences": [
+    "Glossary",
+    "(b. 1930, Syria)."
    ]
   }
  }

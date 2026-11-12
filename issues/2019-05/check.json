@@ -74,16 +74,8 @@
     14
    ],
    "words": 788,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p13b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -114,16 +106,8 @@
     16
    ],
    "words": 351,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -146,16 +130,8 @@
     19
    ],
    "words": 511,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p18b4",
-     "kind": "p",
-     "words": [
-      "if"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -166,14 +142,13 @@
     22
    ],
    "words": 1031,
-   "match": 99.81,
+   "match": 99.9,
    "missing": [
     {
      "item": "p21b4",
      "kind": "p",
      "words": [
-      "wellbeing",
-      "wellwishing"
+      "wellbeing"
      ]
     }
    ]
@@ -313,16 +288,8 @@
     43
    ],
    "words": 335,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p43b3",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -333,16 +300,8 @@
     44
    ],
    "words": 359,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p44b3",
-     "kind": "p",
-     "words": [
-      "do"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -353,16 +312,8 @@
     45
    ],
    "words": 350,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p45b3",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 20,
@@ -389,7 +340,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.88,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [
   {

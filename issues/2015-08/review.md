@@ -1,27 +1,27 @@
 # Review – Issue 32 · August 2015
 
-PDF `August-2015.pdf`, 52 pages. **19 articles, 14,713 words, word match 99.84%** (second reading of the PDF; flag below 99%).
+PDF `August-2015.pdf`, 52 pages. **19 articles, 14,713 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–9 | From Maulana’s Desk | Some Reflections on the Last 100 Years | 1871 | 99.73% |
-| 2 | 10–11 | A Good Harvest | As You Sow, So Shall You Reap | 817 | 99.88% |
+| 1 | 5–9 | From Maulana’s Desk | Some Reflections on the Last 100 Years | 1871 | 100.0% |
+| 2 | 10–11 | A Good Harvest | As You Sow, So Shall You Reap | 817 | 100.0% |
 | 3 | 12 | Ride The Waves Of Challenge | Unnecessary Complaints | 286 | 100.0% |
 | 4 | 13 | Disagreement To Rebellion | The Practice of Satan | 318 | 99.69% |
 | 5 | 14–24 | Towards Global Peace | Islamic Pacifism | 4080 | 99.98% |
 | 6 | 25 | Mental Solution To A Mental Problem | How to Overcome Anxiety | 399 | 100.0% |
 | 7 | 26–27 | From the Spiritual Tree | Realization of God | 533 | 99.62% |
-| 8 | 28 | Principled Response | What Is Patience? | 332 | 99.7% |
-| 9 | 29–30 | Building Bridges | Jewish-Muslim Relationship | 534 | 99.81% |
-| 10 | 31–32 | Seek Your Rights Through Duty | Human Rights Versus Human Duties | 549 | 99.82% |
+| 8 | 28 | Principled Response | What Is Patience? | 332 | 100.0% |
+| 9 | 29–30 | Building Bridges | Jewish-Muslim Relationship | 534 | 100.0% |
+| 10 | 31–32 | Seek Your Rights Through Duty | Human Rights Versus Human Duties | 549 | 100.0% |
 | 11 | 33–36 | Building A New India | India Rises Again | 1295 | 99.92% |
-| 12 | 37–38 | Discover God | Turn Your Weakness into Your Strength | 610 | 99.84% |
-| 13 | 39 | Proven Authenticity | Which Religion? | 322 | 99.69% |
+| 12 | 37–38 | Discover God | Turn Your Weakness into Your Strength | 610 | 100.0% |
+| 13 | 39 | Proven Authenticity | Which Religion? | 322 | 100.0% |
 | 14 | 40–41 | Understand The Times | Lack of Personalities or Lack of Awareness? | 581 | 99.83% |
-| 15 | 42–43 | Gratitude—To God And Man | Between Pride and Modesty | 462 | 99.13% |
-| 16 | 44 | Principles Of Social Living | Dealing with Differences | 289 | 99.65% |
+| 15 | 42–43 | Gratitude—To God And Man | Between Pride and Modesty | 462 | 100.0% |
+| 16 | 44 | Principles Of Social Living | Dealing with Differences | 289 | 100.0% |
 | 17 | 45 | The Ultimate Leveller | Experience of Death | 275 | 99.64% |
 | 18 | 46–47 | From The Scriptures | The Word of God | 661 | 100.0% |
 | 19 | 48–49 | Your Questions Answered | Ask Maulana | 499 | 100.0% |
@@ -30,22 +30,12 @@ PDF `August-2015.pdf`, 52 pages. **19 articles, 14,713 words, word match 99.84%*
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p7b6` (h): the natural
-- article 1, `p8b7` (h): partition the hindumuslim
-- article 2, `p10b3` (p): human
 - article 4, `p13b3` (p): according
 - article 5, `p14b5` (p): some
 - article 7, `p26b5` (p): failing
 - article 7, `p27b3` (p): evergrowing
-- article 8, `p28b3` (p): the
-- article 9, `p29b3` (p): this
-- article 10, `p31b4` (p): the
 - article 11, `p33b3` (p): over
-- article 12, `p37b4` (p): in
-- article 13, `p39b3` (p): dr
 - article 14, `p40b4` (p): it
-- article 15, `p42b4` (p): next to a santro
-- article 16, `p44b3` (p): the
 - article 17, `p45b7` (p): these
 
 ## Left out of the e-version – please confirm

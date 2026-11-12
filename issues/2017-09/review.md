@@ -1,27 +1,27 @@
 # Review – Issue 57 · September 2017
 
-PDF `September-2017.pdf`, 52 pages. **18 articles, 14,699 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `September-2017.pdf`, 52 pages. **18 articles, 14,699 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–7 | From Maulana’s Desk | Hajj Should Inculcate Love for Humanity | 899 | 99.89% |
+| 1 | 5–7 | From Maulana’s Desk | Hajj Should Inculcate Love for Humanity | 899 | 100.0% |
 | 2 | 8–10 | Rational Explanation | Science and God-Realization | 1060 | 99.91% |
-| 3 | 11 | Unfair Practice | One-Sided Reporting | 358 | 99.72% |
-| 4 | 12–13 | For Personality Development | The Significance of Hajj | 845 | 99.88% |
-| 5 | 14–15 | A Conscious Effort | Develop a Creative Mind | 663 | 99.85% |
-| 6 | 16 | A Law of Nature | Supporting Role | 305 | 99.67% |
+| 3 | 11 | Unfair Practice | One-Sided Reporting | 358 | 100.0% |
+| 4 | 12–13 | For Personality Development | The Significance of Hajj | 845 | 100.0% |
+| 5 | 14–15 | A Conscious Effort | Develop a Creative Mind | 663 | 100.0% |
+| 6 | 16 | A Law of Nature | Supporting Role | 305 | 100.0% |
 | 7 | 17 | A Most Serious Matter | Hell and Heaven | 273 | 99.63% |
-| 8 | 18–19 | True Character | The Prophet’s Life Was an Open Book | 620 | 99.84% |
+| 8 | 18–19 | True Character | The Prophet’s Life Was an Open Book | 620 | 100.0% |
 | 9 | 20–21 | Per Ardua ad Astra | Motivation Is Greater Than Favour | 649 | 99.85% |
-| 10 | 22–23 | Between Peace & Problems | Rational Choice and Emotional Choice | 768 | 99.87% |
+| 10 | 22–23 | Between Peace & Problems | Rational Choice and Emotional Choice | 768 | 100.0% |
 | 11 | 24–25 | No Challenge Zone | The Comfort Zone | 618 | 99.84% |
 | 12 | 26–27 | From the Spiritual Tree | The Next World | 638 | 100.0% |
 | 13 | 28–38 | Towards Global Peace | Peace in the Quran | 4066 | 100.0% |
 | 14 | 39–40 | Differences are Healthy | Discrimination Is Alien to the Quran | 579 | 100.0% |
 | 15 | 41–42 | Based on Rationality | The Modern Science of Theology | 470 | 100.0% |
-| 16 | 43 | Preparation only Possibility | Conquering Death | 348 | 99.71% |
+| 16 | 43 | Preparation only Possibility | Conquering Death | 348 | 100.0% |
 | 17 | 44–45 | From The Scriptures | The Word of God | 574 | 100.0% |
 | 18 | 46–48 | Your Questions Answered | Ask Maulana | 966 | 100.0% |
 
@@ -29,18 +29,10 @@ PDF `September-2017.pdf`, 52 pages. **18 articles, 14,699 words, word match 99.9
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b6` (p): it
 - article 2, `p8b3` (p): if
-- article 3, `p11b3` (p): people
-- article 4, `p12b3` (p): according
-- article 5, `p14b3` (p): the
-- article 6, `p16b3` (p): we
 - article 7, `p17b6` (p): why
-- article 8, `p18b3` (p): according
 - article 9, `p20b4` (p): according
-- article 10, `p22b4` (p): life
 - article 11, `p24b3` (p): ones
-- article 16, `p43b6` (p): louis
 
 ## Left out of the e-version – please confirm
 

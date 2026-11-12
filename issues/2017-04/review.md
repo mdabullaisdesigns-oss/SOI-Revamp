@@ -1,17 +1,17 @@
 # Review – Issue 52 · April 2017
 
-PDF `April-2017.pdf`, 52 pages. **19 articles, 14,775 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `April-2017.pdf`, 52 pages. **19 articles, 14,775 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–7 | From Maulana’s Desk | A Sane Voice from America | 891 | 99.78% |
+| 1 | 5–7 | From Maulana’s Desk | A Sane Voice from America | 891 | 100.0% |
 | 2 | 8–9 | Victory in Another | Defeat in One Arena | 581 | 100.0% |
 | 3 | 10 | Total Dedication | All the Blood of One’s Body | 320 | 99.69% |
-| 4 | 11–12 | Pay the Price | Discover Yourself | 680 | 99.26% |
+| 4 | 11–12 | Pay the Price | Discover Yourself | 680 | 100.0% |
 | 5 | 13–16 | Towards Global Peace | Issue of Blasphemy | 1556 | 100.0% |
-| 6 | 17 | Need for Piety | Understanding the Quran | 347 | 99.71% |
+| 6 | 17 | Need for Piety | Understanding the Quran | 347 | 100.0% |
 | 7 | 18–19 | Persist and Persevere | The First Law of Success | 605 | 100.0% |
 | 8 | 20–24 | Beset by Challenges | The Road to Paradise | 2134 | 100.0% |
 | 9 | 25 | A Flowing River | Human Life | 397 | 100.0% |
@@ -19,10 +19,10 @@ PDF `April-2017.pdf`, 52 pages. **19 articles, 14,775 words, word match 99.9%** 
 | 11 | 28–29 | Potential | More Than Money | 635 | 100.0% |
 | 12 | 30–31 | No Confrontation | Political Insurrection Unlawful | 603 | 99.83% |
 | 13 | 32–33 | For a Stress Free Life | Acceptance of Reality | 659 | 99.85% |
-| 14 | 34–35 | Motivation | Labour of a Lifetime | 637 | 99.84% |
-| 15 | 36–37 | An Intellectual Challenge | Parenting | 645 | 99.84% |
+| 14 | 34–35 | Motivation | Labour of a Lifetime | 637 | 100.0% |
+| 15 | 36–37 | An Intellectual Challenge | Parenting | 645 | 100.0% |
 | 16 | 38–41 | Eternal Principle | Tolerance | 1386 | 99.93% |
-| 17 | 42 | An Abrupt End | The Journey of Life | 326 | 99.69% |
+| 17 | 42 | An Abrupt End | The Journey of Life | 326 | 100.0% |
 | 18 | 43–45 | From The Scriptures | The Word of God | 959 | 100.0% |
 | 19 | 46–48 | Your Questions Answered | Ask Maulana | 974 | 100.0% |
 
@@ -30,17 +30,10 @@ PDF `April-2017.pdf`, 52 pages. **19 articles, 14,775 words, word match 99.9%** 
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): in full
 - article 3, `p10b3` (p): professor
-- article 4, `p11b3` (p): of
-- article 4, `p12b7` (p): an equally difficult price
-- article 6, `p17b3` (p): in
 - article 12, `p30b3` (p): after
 - article 13, `p32b3` (p): accept
-- article 14, `p34b3` (p): helen
-- article 15, `p36b7` (p): the
 - article 16, `p38b10` (p): nothing
-- article 17, `p42b6` (p): after
 
 ## Left out of the e-version – please confirm
 

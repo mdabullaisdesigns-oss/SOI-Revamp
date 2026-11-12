@@ -1,28 +1,28 @@
 # Review – Issue 82 · October 2019
 
-PDF `October-2019.pdf`, 52 pages. **22 articles, 14,963 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `October-2019.pdf`, 52 pages. **22 articles, 14,963 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–6 | From Maulana’s Desk | Shift of Emphasis | 557 | 99.82% |
-| 2 | 7–8 | From the Editorial Director | How Can You Ban an Idea? | 590 | 99.83% |
+| 1 | 5–6 | From Maulana’s Desk | Shift of Emphasis | 557 | 100.0% |
+| 2 | 7–8 | From the Editorial Director | How Can You Ban an Idea? | 590 | 100.0% |
 | 3 | 9 | Feed the Body and the Soul | Hollow Success | 435 | 99.77% |
-| 4 | 10 | Recognize True Worth | Revering the Dead, Reviling the Living | 318 | 99.69% |
+| 4 | 10 | Recognize True Worth | Revering the Dead, Reviling the Living | 318 | 100.0% |
 | 5 | 11–15 | Towards Global Peace | The Peace Treaty of Hudaibiya | 1673 | 100.0% |
 | 6 | 16–18 | Religion of Nature | The Spirit of Islam | 1076 | 100.0% |
 | 7 | 19–25 | Peaceful Coexistence with People of other Faiths | From the Life of the Prophet | 2797 | 99.96% |
 | 8 | 26–27 | From the Spiritual Tree | Gratitude Even for Lesser Things | 424 | 100.0% |
 | 9 | 28 | Sacrifice for Greater Good | The Makers of History | 315 | 99.68% |
-| 10 | 29 | Look through the Eyes of a Child | The Wonders of Creation | 347 | 99.71% |
-| 11 | 30 | The Road to Success | Facing Misfortune | 322 | 99.69% |
+| 10 | 29 | Look through the Eyes of a Child | The Wonders of Creation | 347 | 100.0% |
+| 11 | 30 | The Road to Success | Facing Misfortune | 322 | 100.0% |
 | 12 | 31–32 | Window to God-realization | Each Creation Is a Miracle | 765 | 99.87% |
 | 13 | 33–35 | True Fulfilment | Belief in Angels | 865 | 100.0% |
-| 14 | 36–37 | Take Stock of Every Moment | Laid-Back Attitude Leads to Failure | 485 | 99.79% |
+| 14 | 36–37 | Take Stock of Every Moment | Laid-Back Attitude Leads to Failure | 485 | 100.0% |
 | 15 | 38 | The Right Criterion to Judge | The Mission of the Prophets | 404 | 100.0% |
 | 16 | 39 | The Ungentlemanly Gentleman | The Mirage of the Good Egg | 268 | 99.63% |
-| 17 | 40–42 | Superficial Knowledge is Misleading | Appearance and Reality | 1007 | 99.9% |
+| 17 | 40–42 | Superficial Knowledge is Misleading | Appearance and Reality | 1007 | 100.0% |
 | 18 | 43 | Unbounded Reservoir of Energy | Nuclear Fission | 283 | 100.0% |
 | 19 | 44 | Death is Not the End | The Beginning of a New Life | 342 | 100.0% |
 | 20 | 45 | Divine Design | The Making and Breaking of History | 381 | 99.74% |
@@ -33,18 +33,11 @@ PDF `October-2019.pdf`, 52 pages. **22 articles, 14,963 words, word match 99.91%
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): muslims
-- article 2, `p7b4` (p): in
 - article 3, `p9b3` (p): men
-- article 4, `p10b2` (p): to
 - article 7, `p24b10` (p): wellreported
 - article 9, `p28b2` (p): when
-- article 10, `p29b3` (p): in
-- article 11, `p30b3` (p): this
 - article 12, `p31b3` (p): before
-- article 14, `p36b2` (p): it
 - article 16, `p39b3` (p): look
-- article 17, `p40b2` (p): one
 - article 20, `p45b2` (p): according
 
 ## Left out of the e-version – please confirm

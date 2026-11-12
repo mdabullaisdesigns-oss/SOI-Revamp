@@ -42,16 +42,8 @@
     13
    ],
    "words": 1786,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p9b4",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -114,16 +106,8 @@
     25
    ],
    "words": 535,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "modern"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -186,16 +170,8 @@
     34
    ],
    "words": 715,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p33b3",
-     "kind": "p",
-     "words": [
-      "nature"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -206,16 +182,8 @@
     36
    ],
    "words": 664,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p35b4",
-     "kind": "p",
-     "words": [
-      "discovery"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -226,15 +194,8 @@
     38
    ],
    "words": 642,
-   "match": 99.53,
+   "match": 99.69,
    "missing": [
-    {
-     "item": "p37b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    },
     {
      "item": "p37b4",
      "kind": "p",
@@ -260,15 +221,8 @@
     40
    ],
    "words": 631,
-   "match": 99.68,
+   "match": 99.84,
    "missing": [
-    {
-     "item": "p39b6",
-     "kind": "p",
-     "words": [
-      "universe"
-     ]
-    },
     {
      "item": "p39b8",
      "kind": "thought",
@@ -287,20 +241,13 @@
     44
    ],
    "words": 1562,
-   "match": 99.87,
+   "match": 99.94,
    "missing": [
     {
      "item": "p41b6",
      "kind": "p",
      "words": [
       "those"
-     ]
-    },
-    {
-     "item": "p41b4",
-     "kind": "small",
-     "words": [
-      "1"
      ]
     }
    ]
@@ -342,7 +289,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.94,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 26630,

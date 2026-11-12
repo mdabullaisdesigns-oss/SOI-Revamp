@@ -22,16 +22,8 @@
     14
    ],
    "words": 2615,
-   "match": 99.96,
-   "missing": [
-    {
-     "item": "p8b2",
-     "kind": "p",
-     "words": [
-      "our"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -74,16 +66,8 @@
     17
    ],
    "words": 302,
-   "match": 99.67,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -94,16 +78,8 @@
     22
    ],
    "words": 1649,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p18b3",
-     "kind": "p",
-     "words": [
-      "all"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -158,16 +134,8 @@
     28
    ],
    "words": 371,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "if"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -205,16 +173,8 @@
     34
    ],
    "words": 1995,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p30b3",
-     "kind": "p",
-     "words": [
-      "india"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -237,16 +197,8 @@
     37
    ],
    "words": 375,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p37b8",
-     "kind": "p",
-     "words": [
-      "gandhi"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -345,7 +297,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17504,

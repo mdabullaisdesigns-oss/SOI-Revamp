@@ -89,16 +89,8 @@
     14
    ],
    "words": 320,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p14b7",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -129,14 +121,13 @@
     17
    ],
    "words": 338,
-   "match": 99.41,
+   "match": 99.7,
    "missing": [
     {
      "item": "p17b3",
      "kind": "p",
      "words": [
-      "every",
-      "hand"
+      "every"
      ]
     }
    ]
@@ -230,16 +221,8 @@
     31
    ],
    "words": 364,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p31b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -250,16 +233,8 @@
     33
    ],
    "words": 809,
-   "match": 99.88,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "charles"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -290,18 +265,8 @@
     39
    ],
    "words": 1692,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p35b5",
-     "kind": "small",
-     "words": [
-      "greek",
-      "paradeisas",
-      "latin"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -348,16 +313,8 @@
     46
    ],
    "words": 1257,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p44b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 20,
@@ -384,7 +341,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.88,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 25767,

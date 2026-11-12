@@ -1,6 +1,6 @@
 # Review – Issue 117 · March–April 2024
 
-PDF `SOI-Womens-Day-Ramzaan-Special-Issue-117-Mar-Apr-2024.pdf`, 52 pages. **14 articles, 14,812 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `SOI-Womens-Day-Ramzaan-Special-Issue-117-Mar-Apr-2024.pdf`, 52 pages. **14 articles, 14,812 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,9 +9,9 @@ PDF `SOI-Womens-Day-Ramzaan-Special-Issue-117-Mar-Apr-2024.pdf`, 52 pages. **14 
 | 1 | 5–7 | From the Editor-In-Chief’s Desk | Realizing the True Purpose in Life | 1004 | 99.9% |
 | 2 | 8–14 | Personal Experiences | Pune Diaries | 2481 | 99.96% |
 | 3 | 15 | Journey Towards God-Realization | God’s Signs | 351 | 99.72% |
-| 4 | 16–19 | A CPS Members Reminisces | After Maulana | 1045 | 99.9% |
+| 4 | 16–19 | A CPS Members Reminisces | After Maulana | 1045 | 100.0% |
 | 5 | 20–25 | An Interview with Dr Stuti Malhotra | International Women’s Day Special | 2404 | 100.0% |
-| 6 | 26 | Leading by Example | Woman’s Position in Islam | 262 | 99.62% |
+| 6 | 26 | Leading by Example | Woman’s Position in Islam | 262 | 100.0% |
 | 7 | 27–32 | On the occasion of International Women’s Day, we bring to the fore some aspects of Prof Farida Khanam (or Farida Aapa, as we fondly call her) from the pen of Maulana Wahiduddin Khan. | Acknowledging the Role of Prof Farida Khanam | 2054 | 99.95% |
 | 8 | 33–37 | Towards Global Peace | Islam and Peace | 1831 | 100.0% |
 | 9 | 38–39 | The Road to Success | Staying Cool | 498 | 100.0% |
@@ -28,8 +28,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b5` (p): when
 - article 2, `p8b5` (p): on
 - article 3, `p15b4` (p): multiple
-- article 4, `p16b3` (p): on
-- article 6, `p26b8` (p): the
 - article 7, `p27b4` (p): an
 - article 13, `p45b8` (p): athis
 

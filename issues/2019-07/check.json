@@ -74,16 +74,8 @@
     23
    ],
    "words": 519,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -106,16 +98,8 @@
     25
    ],
    "words": 331,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p25b4",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -126,16 +110,8 @@
     27
    ],
    "words": 462,
-   "match": 99.78,
-   "missing": [
-    {
-     "item": "p26b4",
-     "kind": "p",
-     "words": [
-      "people"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -198,26 +174,8 @@
     35
    ],
    "words": 1748,
-   "match": 98.91,
+   "match": 99.94,
    "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "to",
-      "adopt",
-      "a",
-      "practical",
-      "strategy",
-      "one",
-      "has",
-      "to",
-      "be",
-      "realistic",
-      "and",
-      "should"
-     ]
-    },
     {
      "item": "p33b2",
      "kind": "p",
@@ -304,16 +262,8 @@
     44
    ],
    "words": 428,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p44b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -324,16 +274,8 @@
     45
    ],
    "words": 397,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p45b8",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 20,
@@ -360,15 +302,18 @@
    "missing": []
   }
  ],
- "overall_match": 99.82,
- "flagged": [
-  12
- ],
+ "overall_match": 99.96,
+ "flagged": [],
  "unplaced": [
   {
    "page": 32,
-   "words": 44,
-   "text": "solely through cherish the concept of reconciliation between intellectual civilizations as opposed to the concept of awareness based a clash of civilizations to adopt a practical on religion and strategy"
+   "words": 12,
+   "text": "solely through cherish the concept of reconciliation between intellectual civilizations as opposed"
+  },
+  {
+   "page": 32,
+   "words": 5,
+   "text": "the concept of awareness based"
   }
  ],
  "pdf_words": 27098,

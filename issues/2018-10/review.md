@@ -1,25 +1,25 @@
 # Review – Issue 70 · October 2018
 
-PDF `October-2018.pdf`, 52 pages. **18 articles, 16,614 words, word match 99.94%** (second reading of the PDF; flag below 99%).
+PDF `October-2018.pdf`, 52 pages. **18 articles, 16,614 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | Pakistan’s New Pm and the Prophet’s Delinking Policy | 698 | 99.86% |
-| 2 | 7–14 | From the Editorial Director | The Concept of Spirituality in Islam | 3266 | 99.94% |
+| 2 | 7–14 | From the Editorial Director | The Concept of Spirituality in Islam | 3266 | 99.97% |
 | 3 | 15–17 | Avail the Opportunities | Problems: A Source of Self-Development | 1189 | 99.92% |
-| 4 | 18–20 | Silence is Golden | The Value of Silence | 1116 | 99.91% |
+| 4 | 18–20 | Silence is Golden | The Value of Silence | 1116 | 100.0% |
 | 5 | 21–23 | Islam: A Scheme of Spiritual Development | Principles of Islam | 960 | 100.0% |
 | 6 | 24–25 | The Divine Mission | A Lesson from History | 778 | 100.0% |
 | 7 | 26–27 | From the Spiritual Tree | Silence and God Realization | 326 | 100.0% |
-| 8 | 28 | Blame Culture | Satan: The Trendsetter of History | 295 | 99.66% |
-| 9 | 29 | Towards National Integration | Unity Despite Diversity | 369 | 99.73% |
+| 8 | 28 | Blame Culture | Satan: The Trendsetter of History | 295 | 100.0% |
+| 9 | 29 | Towards National Integration | Unity Despite Diversity | 369 | 100.0% |
 | 10 | 30 | Prophetic Guidance | Words of the Prophet | 333 | 100.0% |
 | 11 | 31–36 | Towards Global Peace | The Difference Between Peace and Violence | 2419 | 100.0% |
-| 12 | 37–38 | Mutual Respect | Society | 772 | 99.87% |
+| 12 | 37–38 | Mutual Respect | Society | 772 | 100.0% |
 | 13 | 39 | Brainstorming | Success Through Superior Solutions | 251 | 99.6% |
-| 14 | 40–42 | Healthy Relationships | Adjustment with People | 1084 | 99.91% |
+| 14 | 40–42 | Healthy Relationships | Adjustment with People | 1084 | 100.0% |
 | 15 | 43 | Death, the Greatest Teacher | How Strange! | 377 | 100.0% |
 | 16 | 44–45 | From The Scriptures | The Word of God | 809 | 100.0% |
 | 17 | 46–48 | Your Questions Answered | Ask Maulana | 1138 | 100.0% |
@@ -30,15 +30,9 @@ PDF `October-2018.pdf`, 52 pages. **18 articles, 16,614 words, word match 99.94%
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): imran
-- article 2, `p10b3` (p): higher
 - article 2, `p10b8` (pull): godrealization
 - article 3, `p15b4` (p): everyone
-- article 4, `p18b3` (p): one
-- article 8, `p28b4` (p): according
-- article 9, `p29b3` (p): to
-- article 12, `p37b3` (p): the
 - article 13, `p39b3` (p): thinking
-- article 14, `p40b3` (p): there
 
 ## Left out of the e-version – please confirm
 

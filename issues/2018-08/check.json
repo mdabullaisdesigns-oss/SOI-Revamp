@@ -30,16 +30,8 @@
     9
    ],
    "words": 834,
-   "match": 99.88,
-   "missing": [
-    {
-     "item": "p8b4",
-     "kind": "p",
-     "words": [
-      "hajj"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -90,16 +82,8 @@
     18
    ],
    "words": 730,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "for"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -154,16 +138,8 @@
     25
    ],
    "words": 293,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -253,16 +229,8 @@
     41
    ],
    "words": 397,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p41b3",
-     "kind": "p",
-     "words": [
-      "when"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -289,7 +257,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.95,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 18668,

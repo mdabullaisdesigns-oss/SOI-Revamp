@@ -1,27 +1,27 @@
 # Review – Issue 42 · June 2016
 
-PDF `June-2016.pdf`, 52 pages. **19 articles, 15,959 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `June-2016.pdf`, 52 pages. **19 articles, 15,959 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5–6 | From Maulana’s Desk | Lesson from London | 542 | 99.63% |
+| 1 | 5–6 | From Maulana’s Desk | Lesson from London | 542 | 100.0% |
 | 2 | 7 | Brakes on Desires | The Relationship Between Fasting and Life | 338 | 100.0% |
-| 3 | 8–9 | Not as a Problem | Take It as a Challenge | 782 | 99.87% |
-| 4 | 10–12 | Towards Global Peace | The Importance of Religion in Peace Building | 1081 | 99.91% |
+| 3 | 8–9 | Not as a Problem | Take It as a Challenge | 782 | 100.0% |
+| 4 | 10–12 | Towards Global Peace | The Importance of Religion in Peace Building | 1081 | 100.0% |
 | 5 | 13 | Until the End | Greed Till the Grave | 292 | 100.0% |
 | 6 | 14 | A Gift of God | Presence of Mind | 321 | 99.69% |
 | 7 | 15–16 | True Perspective | The Significance of Iftar | 731 | 100.0% |
 | 8 | 17–18 | After Making a Mistake | Introspection | 609 | 100.0% |
 | 9 | 19–20 | From the Spiritual Tree | The Life After Death | 735 | 100.0% |
 | 10 | 21–22 | Leading Towards Success | God-Oriented Life | 428 | 99.77% |
-| 11 | 23 | Great Wisdom | Patience | 272 | 99.63% |
+| 11 | 23 | Great Wisdom | Patience | 272 | 100.0% |
 | 12 | 24–25 | A Long Arduous Search | Lailatul Qadr (the Night of Destiny) | 634 | 100.0% |
-| 13 | 26 | Leading Man Astray | Wrong Criterion | 397 | 99.75% |
+| 13 | 26 | Leading Man Astray | Wrong Criterion | 397 | 100.0% |
 | 14 | 27–28 | Deeds and Reward | Ramazan and Eid-Ul-Fitr | 463 | 99.78% |
 | 15 | 29–32 | Goal of Islam | Spiritual Power Not Political Power | 1442 | 100.0% |
-| 16 | 33–42 | An Islamic Perspective | Man | 4219 | 99.95% |
+| 16 | 33–42 | An Islamic Perspective | Man | 4219 | 99.98% |
 | 17 | 43–44 | Semblance of The World and The Hereafter | Fasting and Feasting | 657 | 100.0% |
 | 18 | 45–46 | From The Scriptures | The Word of God | 816 | 100.0% |
 | 19 | 47–49 | Your Questions Answered | Ask Maulana | 1200 | 100.0% |
@@ -30,15 +30,9 @@ PDF `June-2016.pdf`, 52 pages. **19 articles, 15,959 words, word match 99.93%** 
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b5` (p): on today
-- article 3, `p8b3` (p): people
-- article 4, `p10b5` (p): since
 - article 6, `p14b3` (p): mohandas
 - article 10, `p21b3` (p): if
-- article 11, `p23b3` (p): the
-- article 13, `p26b4` (p): from
 - article 14, `p27b7` (p): according
-- article 16, `p33b3` (p): if
 - article 16, `p36b3` (p): nonabsolute
 
 ## Left out of the e-version – please confirm

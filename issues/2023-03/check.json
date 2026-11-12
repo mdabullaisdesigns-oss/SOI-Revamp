@@ -94,16 +94,8 @@
     19
    ],
    "words": 490,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p18b9",
-     "kind": "p",
-     "words": [
-      "james"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -146,16 +138,8 @@
     25
    ],
    "words": 404,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p25b11",
-     "kind": "p",
-     "words": [
-      "masti"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -166,16 +150,8 @@
     27
    ],
    "words": 610,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p26b11",
-     "kind": "p",
-     "words": [
-      "eid"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -250,24 +226,13 @@
     34
    ],
    "words": 354,
-   "match": 98.31,
+   "match": 99.72,
    "missing": [
     {
      "item": "p34b11",
      "kind": "p",
      "words": [
       "according"
-     ]
-    },
-    {
-     "item": "p34b16",
-     "kind": "p",
-     "words": [
-      "however",
-      "the",
-      "individual",
-      "becomes",
-      "sensitive"
      ]
     }
    ]
@@ -281,16 +246,8 @@
     35
    ],
    "words": 319,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p35b9",
-     "kind": "p",
-     "words": [
-      "paradise"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -325,19 +282,8 @@
     43
    ],
    "words": 488,
-   "match": 99.18,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "author",
-      "maulana",
-      "wahiduddin",
-      "khan"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 20,
@@ -348,16 +294,8 @@
     44
    ],
    "words": 350,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p44b3",
-     "kind": "p",
-     "words": [
-      "human"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 21,
@@ -384,22 +322,9 @@
    "missing": []
   }
  ],
- "overall_match": 99.85,
- "flagged": [
-  15
- ],
- "unplaced": [
-  {
-   "page": 34,
-   "words": 26,
-   "text": "of god will be his however the individual whose aim is to creator he seeks seek the pleasure of god becomes sensitive to find out whether"
-  },
-  {
-   "page": 42,
-   "words": 7,
-   "text": "name of the wahiduddin khan author maulana"
-  }
- ],
+ "overall_match": 99.95,
+ "flagged": [],
+ "unplaced": [],
  "pdf_words": 15705,
  "article_words": 14244
 }

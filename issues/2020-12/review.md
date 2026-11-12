@@ -1,6 +1,6 @@
 # Review – Issue 96 · December 2020
 
-PDF `December-2020.pdf`, 52 pages. **19 articles, 15,233 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `December-2020.pdf`, 52 pages. **19 articles, 15,233 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -10,16 +10,16 @@ PDF `December-2020.pdf`, 52 pages. **19 articles, 15,233 words, word match 99.9%
 | 2 | 7–8 | From the Editorial Director | The Beautiful Names of God | 734 | 99.86% |
 | 3 | 9–11 | Belief in God-ordained Universe | The Explanation of Meaningfulness of the Universe | 947 | 99.89% |
 | 4 | 12–15 | Towards Global Peace | Political Interpretation of Islam | 1572 | 99.94% |
-| 5 | 16–19 | Finding the Cause of Muslims' Deviation | Islamic Literature: An Analysis | 1483 | 99.93% |
-| 6 | 20 | A Hub of Intellectual Activities | Homeschooling | 396 | 99.75% |
+| 5 | 16–19 | Finding the Cause of Muslims' Deviation | Islamic Literature: An Analysis | 1483 | 100.0% |
+| 6 | 20 | A Hub of Intellectual Activities | Homeschooling | 396 | 100.0% |
 | 7 | 21 | Never Losing Sight of Inner Spirit | Relationship with the Messenger of God | 363 | 100.0% |
 | 8 | 22 | Reviving a Community | Fault-Finding, Eulogizing | 368 | 99.73% |
-| 9 | 23–24 | A Paradigm Shift | Education, Ancient and Modern | 668 | 99.85% |
-| 10 | 25 | Islamic Perspective | Submission to God | 415 | 99.76% |
-| 11 | 26–27 | From the Spiritual Tree | Calling Upon God with His Greatest Name | 489 | 99.8% |
-| 12 | 28–30 | A Pointer to World’s End | The History of Knowledge | 1094 | 99.73% |
-| 13 | 31–32 | Know Your Limitations | Asking for the Impossible | 532 | 99.81% |
-| 14 | 33–36 | A Model worth Emulating | The Christian Model | 1229 | 99.92% |
+| 9 | 23–24 | A Paradigm Shift | Education, Ancient and Modern | 668 | 100.0% |
+| 10 | 25 | Islamic Perspective | Submission to God | 415 | 100.0% |
+| 11 | 26–27 | From the Spiritual Tree | Calling Upon God with His Greatest Name | 489 | 100.0% |
+| 12 | 28–30 | A Pointer to World’s End | The History of Knowledge | 1094 | 99.82% |
+| 13 | 31–32 | Know Your Limitations | Asking for the Impossible | 532 | 100.0% |
+| 14 | 33–36 | A Model worth Emulating | The Christian Model | 1229 | 100.0% |
 | 15 | 37–42 | Man’s Permanent Need | Faith and Guidance | 2130 | 100.0% |
 | 16 | 44 | Plan the Best Use of Your Resources | The Key to Success | 356 | 99.72% |
 | 17 | 45 | A Deathblow to Spirituality | On Pride and Arrogance | 328 | 100.0% |
@@ -34,17 +34,9 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 2, `p7b4` (p): ever
 - article 3, `p9b3` (p): among
 - article 4, `p15b3` (p): spirituallyinclined
-- article 5, `p16b3` (p): islam
-- article 6, `p20b3` (p): there
 - article 8, `p22b11` (p): muslim
-- article 9, `p23b3` (p): in
-- article 10, `p25b8` (p): everything
-- article 11, `p26b6` (p): ismeazam
-- article 12, `p28b3` (p): it
 - article 12, `p29b2` (p): will
 - article 12, `p29b6` (pull): allpowerful
-- article 13, `p31b3` (p): one
-- article 14, `p33b11` (p): chapter
 - article 16, `p44b8` (p): delivering
 
 ## Left out of the e-version – please confirm

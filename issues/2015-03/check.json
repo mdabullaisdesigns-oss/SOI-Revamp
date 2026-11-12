@@ -54,16 +54,8 @@
     20
    ],
    "words": 4446,
-   "match": 99.98,
-   "missing": [
-    {
-     "item": "p10b3",
-     "kind": "lead",
-     "words": [
-      "atheistic"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -106,16 +98,8 @@
     24
    ],
    "words": 316,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -158,16 +142,8 @@
     35
    ],
    "words": 2885,
-   "match": 99.97,
-   "missing": [
-    {
-     "item": "p28b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -238,16 +214,8 @@
     43
    ],
    "words": 1140,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p41b3",
-     "kind": "p",
-     "words": [
-      "human"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -258,16 +226,8 @@
     44
    ],
    "words": 337,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p44b2",
-     "kind": "p",
-     "words": [
-      "students"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -306,7 +266,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17355,

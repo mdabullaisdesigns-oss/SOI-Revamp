@@ -1,28 +1,28 @@
 # Review – Issue 64 · April 2018
 
-PDF `April-2018.pdf`, 52 pages. **19 articles, 14,861 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `April-2018.pdf`, 52 pages. **19 articles, 14,861 words, word match 99.98%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Stephen Hawking Is No More | 944 | 100.0% |
-| 2 | 8–10 | From the Editorial Director | The Concept of Social Welfare in Islam | 807 | 99.88% |
+| 2 | 8–10 | From the Editorial Director | The Concept of Social Welfare in Islam | 807 | 100.0% |
 | 3 | 11 | Duty Before Right | Doing One’s Duty | 303 | 100.0% |
-| 4 | 12 | Right Perspective | Religion: A Divine, Not a Social Phenomenon | 338 | 99.7% |
+| 4 | 12 | Right Perspective | Religion: A Divine, Not a Social Phenomenon | 338 | 100.0% |
 | 5 | 13 | Pampering or Hammering | The Responsibility of Parents | 310 | 99.68% |
-| 6 | 14–19 | Towards Global Peace | A New Age | 2161 | 99.95% |
+| 6 | 14–19 | Towards Global Peace | A New Age | 2161 | 100.0% |
 | 7 | 20–21 | Mind Power | There Is an Enormous Energy Reservoir in You | 606 | 99.83% |
-| 8 | 22–23 | Seek the Help of God | Missions and Movements | 758 | 99.87% |
-| 9 | 24–25 | Different Perspectives | Misunderstanding | 441 | 99.77% |
+| 8 | 22–23 | Seek the Help of God | Missions and Movements | 758 | 100.0% |
+| 9 | 24–25 | Different Perspectives | Misunderstanding | 441 | 100.0% |
 | 10 | 26–27 | From the Spiritual Tree | God Is the Greatest | 450 | 100.0% |
 | 11 | 28 | Moral Obligation | Duty to Parents | 344 | 100.0% |
-| 12 | 29 | A Necessity | Only One Authority | 307 | 99.67% |
+| 12 | 29 | A Necessity | Only One Authority | 307 | 100.0% |
 | 13 | 30–31 | Natural Behaviour | In Times of Crisis | 590 | 99.83% |
 | 14 | 32 | God's Domain | Acceptance of Our Prayer Requests | 326 | 100.0% |
-| 15 | 33 | Give and Take | Negotiating Social Life | 284 | 99.65% |
+| 15 | 33 | Give and Take | Negotiating Social Life | 284 | 100.0% |
 | 16 | 34 | Uncut Jewels | An Expert in Gems | 323 | 100.0% |
-| 17 | 35–43 | Soul Eternal | Life After Death | 3768 | 99.97% |
+| 17 | 35–43 | Soul Eternal | Life After Death | 3768 | 100.0% |
 | 18 | 44–45 | From The Scriptures | The Word of God | 502 | 100.0% |
 | 19 | 46–48 | Your Questions Answered | Ask Maulana | 1299 | 100.0% |
 
@@ -30,17 +30,9 @@ PDF `April-2018.pdf`, 52 pages. **19 articles, 14,861 words, word match 99.92%**
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p8b5` (p): all
-- article 4, `p12b4` (p): if
 - article 5, `p13b7` (p): according
-- article 6, `p18b4` (p): nonmuslim
 - article 7, `p20b4` (p): scottish
-- article 8, `p22b3` (p): there
-- article 9, `p24b3` (p): the
-- article 12, `p29b3` (p): there
 - article 13, `p30b3` (p): time
-- article 15, `p33b6` (p): to
-- article 17, `p35b3` (p): is
 
 ## Left out of the e-version – please confirm
 

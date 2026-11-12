@@ -1,18 +1,18 @@
 # Review – Issue 113 · July–August 2023
 
-PDF `July-August-2023.pdf`, 52 pages. **16 articles, 15,030 words, word match 99.96%** (second reading of the PDF; flag below 99%).
+PDF `July-August-2023.pdf`, 52 pages. **16 articles, 15,030 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From the Editor-In-Chief’s Desk | I Was Important | 843 | 99.88% |
-| 2 | 8–9 | Personal Experiences | The Japan Experience | 728 | 99.86% |
-| 3 | 10 | Journey Towards God-Realization | Invoking God’s Infinite Mercy | 373 | 99.73% |
+| 2 | 8–9 | Personal Experiences | The Japan Experience | 728 | 100.0% |
+| 3 | 10 | Journey Towards God-Realization | Invoking God’s Infinite Mercy | 373 | 100.0% |
 | 4 | 11–12 | Towards Global Peace | Peace in a Pluralistic Society | 592 | 100.0% |
 | 5 | 13–14 | Prepare When There is Time | Death: The Inevitable Event | 761 | 99.87% |
-| 6 | 15 | A Teaching of the Quran | There Is Gain in Loss | 408 | 99.75% |
-| 7 | 16–20 | Importance of Right Thinking | The Art of Thinking | 1791 | 99.94% |
+| 6 | 15 | A Teaching of the Quran | There Is Gain in Loss | 408 | 100.0% |
+| 7 | 16–20 | Importance of Right Thinking | The Art of Thinking | 1791 | 100.0% |
 | 8 | 21–22 | Where There is a Will | Fighting Frustration | 573 | 100.0% |
 | 9 | 23–26 | God-oriented Life | The Message and Meaning of Hajj | 1800 | 100.0% |
 | 10 | 27–28 | Love Thy Neighbours | Superior Morality | 669 | 100.0% |
@@ -28,11 +28,7 @@ PDF `July-August-2023.pdf`, 52 pages. **16 articles, 15,030 words, word match 99
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b4` (p): mir
-- article 2, `p8b4` (p): in
-- article 3, `p10b11` (p): it
 - article 5, `p13b8` (p): everyone
-- article 6, `p15b9` (p): one
-- article 7, `p16b8` (p): as
 
 ## Left out of the e-version – please confirm
 

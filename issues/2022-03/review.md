@@ -1,13 +1,13 @@
 # Review – Issue 105 · March–April 2022
 
-PDF `February-2022.pdf`, 52 pages. **16 articles, 15,134 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `February-2022.pdf`, 52 pages. **16 articles, 15,134 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From the Editor-In-Chief’s Desk | The Recipe of Success | 616 | 99.84% |
-| 2 | 8–9 | Personal Experiences | The Goal of CPS | 494 | 99.8% |
+| 2 | 8–9 | Personal Experiences | The Goal of CPS | 494 | 100.0% |
 | 3 | 10 | Journey Towards God-Realization | A Readymade World | 343 | 99.71% |
 | 4 | 11–13 | Towards Global Peace | The Key to Peaceful Living | 949 | 99.89% |
 | 5 | 14–15 | Recognize the Greatness of God | Where Do We Stand? | 597 | 100.0% |
@@ -19,7 +19,7 @@ PDF `February-2022.pdf`, 52 pages. **16 articles, 15,134 words, word match 99.95
 | 11 | 37–38 |  | CPS Newsletter | 409 | 100.0% |
 | 12 | 39–40 | Selections from All About Akhlaaq | Children’s Corner | 522 | 100.0% |
 | 13 | 41–43 |  | Book Review | 870 | 100.0% |
-| 14 | 44–45 | Discovering the Role of Women in Islam | International Women’s Day | 569 | 99.82% |
+| 14 | 44–45 | Discovering the Role of Women in Islam | International Women’s Day | 569 | 100.0% |
 | 15 | 46–47 | From The Scriptures | The Word of God | 661 | 100.0% |
 | 16 | 48–50 |  | Your Questions Answered | 859 | 100.0% |
 
@@ -28,12 +28,10 @@ PDF `February-2022.pdf`, 52 pages. **16 articles, 15,134 words, word match 99.95
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b4` (p): twitter
-- article 2, `p8b12` (p): our
 - article 3, `p10b9` (p): if
 - article 4, `p11b4` (p): everyone
 - article 6, `p16b3` (p): ramadanthe
 - article 7, `p18b10` (p): we
-- article 14, `p44b4` (p): my
 
 ## Left out of the e-version – please confirm
 

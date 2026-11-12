@@ -1,6 +1,6 @@
 # Review – Issue 72 · December 2018
 
-PDF `December-2018.pdf`, 52 pages. **23 articles, 15,725 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `December-2018.pdf`, 52 pages. **23 articles, 15,725 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,23 +9,23 @@ PDF `December-2018.pdf`, 52 pages. **23 articles, 15,725 words, word match 99.9%
 | 1 | 5–6 | From Maulana’s Desk | The Aim of Islam | 599 | 99.83% |
 | 2 | 7–9 | From the Editorial Director | Womanhood in Islam | 1031 | 99.9% |
 | 3 | 10–11 | The Messiah | Jesus in the Islamic Scripture | 829 | 100.0% |
-| 4 | 12–13 | Courageous Souls | For the Good of Humankind | 448 | 99.78% |
+| 4 | 12–13 | Courageous Souls | For the Good of Humankind | 448 | 100.0% |
 | 5 | 14–15 | Coherent with Nature | Repetition in the Quran | 520 | 99.62% |
 | 6 | 16 | To Deserve | The Faithful Ones | 367 | 100.0% |
 | 7 | 17–23 | Towards Global Peace | Peace in Kashmir | 2540 | 99.96% |
 | 8 | 24–25 | Silent Teachers | Lessons from Nature | 566 | 99.82% |
 | 9 | 26–28 | From the Spiritual Tree | Spiritual Quest | 1026 | 100.0% |
-| 10 | 29 | Surmounting Difficulties | Great Goals | 322 | 99.69% |
+| 10 | 29 | Surmounting Difficulties | Great Goals | 322 | 100.0% |
 | 11 | 30 | Mind Power | Creative Thinking | 413 | 99.76% |
-| 12 | 31 | Accountability | Sound Judgement | 347 | 99.71% |
+| 12 | 31 | Accountability | Sound Judgement | 347 | 100.0% |
 | 13 | 32–33 | Achievement | Meaningful Life | 488 | 99.8% |
-| 14 | 34 | Gift to Humankind | Wisdom from the Prophet | 419 | 99.76% |
+| 14 | 34 | Gift to Humankind | Wisdom from the Prophet | 419 | 100.0% |
 | 15 | 35 | Goodwill | The Successful Method | 443 | 100.0% |
 | 16 | 36 | For Privileges | An Identity Card | 410 | 100.0% |
 | 17 | 37–38 | Not Morbid | Remembrance of Death | 767 | 99.87% |
-| 18 | 39–41 | A Divine Warning | Global Warming | 1069 | 99.91% |
+| 18 | 39–41 | A Divine Warning | Global Warming | 1069 | 100.0% |
 | 19 | 42–43 | Pragmatism | Right Choice | 821 | 99.88% |
-| 20 | 44 | For Success | The Practical Approach | 262 | 99.62% |
+| 20 | 44 | For Success | The Practical Approach | 262 | 100.0% |
 | 21 | 45–46 | From The Scriptures | The Word of God | 839 | 100.0% |
 | 22 | 47–48 | Your Questions Answered | Ask Maulana | 764 | 100.0% |
 | 23 | 49–50 |  | Re-Engineering Minds Towards Peace | 435 | 100.0% |
@@ -36,20 +36,14 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b5` (p): there
 - article 2, `p7b4` (p): omankind
-- article 4, `p12b12` (p): it
 - article 5, `p14b3` (p): reading
 - article 5, `p14b8` (p): teadrinkers
 - article 7, `p20b5` (p): counterproductive
 - article 8, `p24b3` (p): adam
-- article 10, `p29b3` (p): the
 - article 11, `p30b3` (p): opticians
-- article 12, `p31b3` (p): abu
 - article 13, `p32b3` (p): an
-- article 14, `p34b3` (p): there
 - article 17, `p37b3` (p): history
-- article 18, `p39b3` (p): the
 - article 19, `p42b3` (p): machines
-- article 20, `p44b4` (p): man
 
 ## Left out of the e-version – please confirm
 

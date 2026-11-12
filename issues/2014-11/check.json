@@ -62,16 +62,8 @@
     16
    ],
    "words": 520,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p15b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -134,16 +126,8 @@
     28
    ],
    "words": 228,
-   "match": 99.56,
-   "missing": [
-    {
-     "item": "p28b9",
-     "kind": "p",
-     "words": [
-      "both"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -190,16 +174,8 @@
     41
    ],
    "words": 641,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p40b2",
-     "kind": "p",
-     "words": [
-      "experience"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -244,11 +220,23 @@
    "words": 922,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 16,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    49,
+    49
+   ],
+   "words": 312,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.94,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15634,
- "article_words": 14134
+ "article_words": 14446
 }

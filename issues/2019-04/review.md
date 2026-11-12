@@ -1,6 +1,6 @@
 # Review – Issue 76 · April 2019
 
-PDF `April-2019.pdf`, 52 pages. **18 articles, 16,066 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `April-2019.pdf`, 52 pages. **18 articles, 16,066 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -8,20 +8,20 @@ PDF `April-2019.pdf`, 52 pages. **18 articles, 16,066 words, word match 99.93%**
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | The Prophet Wanted Peace | 969 | 100.0% |
 | 2 | 8–16 | From the Editorial Director | The Economic Teachings of the Quran | 3514 | 100.0% |
-| 3 | 17–21 | Building Bridges | Inter-Faith Dialogue | 1702 | 99.94% |
+| 3 | 17–21 | Building Bridges | Inter-Faith Dialogue | 1702 | 100.0% |
 | 4 | 22–24 | Towards Global Peace | Realism Is the Key to Peace | 1180 | 100.0% |
 | 5 | 25 | Discover Your Helplessness | The Existence of God | 321 | 99.69% |
 | 6 | 26–27 | From the Spiritual Tree | The Reality of Tazkiya | 423 | 99.76% |
 | 7 | 28–29 | Matter of Prudence | Clarification of a Fallacy | 537 | 99.81% |
-| 8 | 30 | God’s Domain | Excommunication from Islam | 382 | 99.74% |
+| 8 | 30 | God’s Domain | Excommunication from Islam | 382 | 100.0% |
 | 9 | 31 | An Objective Analysis | Who Is Responsible for Present-Day Violence in the Name of Islam? | 279 | 100.0% |
-| 10 | 32–33 | To Emulate | Islamic Virtues | 745 | 99.87% |
+| 10 | 32–33 | To Emulate | Islamic Virtues | 745 | 100.0% |
 | 11 | 34 | Realistic Goal | Peace for the Sake of Peace | 395 | 100.0% |
 | 12 | 35 | Pragmatism | Between a Greater and Lesser Evil | 448 | 99.78% |
 | 13 | 36–37 | Paradisiacal Personality | Theme of the Quran | 678 | 99.85% |
-| 14 | 38–40 | Different Results | Positive and Negative Spirituality | 1064 | 99.91% |
-| 15 | 41–43 | A Life Well Lived | A Purposeful Life | 1260 | 99.92% |
-| 16 | 44–45 | Accountability in the Hereafter | Reality of Life | 694 | 99.86% |
+| 14 | 38–40 | Different Results | Positive and Negative Spirituality | 1064 | 100.0% |
+| 15 | 41–43 | A Life Well Lived | A Purposeful Life | 1260 | 100.0% |
+| 16 | 44–45 | Accountability in the Hereafter | Reality of Life | 694 | 100.0% |
 | 17 | 46–47 | From The Scriptures | The Word of God | 822 | 100.0% |
 | 18 | 48–49 | Your Questions Answered | Ask Maulana | 653 | 100.0% |
 
@@ -29,17 +29,11 @@ PDF `April-2019.pdf`, 52 pages. **18 articles, 16,066 words, word match 99.93%**
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 3, `p17b3` (p): we
 - article 5, `p25b3` (p): since
 - article 6, `p26b4` (p): as
 - article 7, `p28b3` (p): there
-- article 8, `p30b3` (p): the
-- article 10, `p32b3` (p): for
 - article 12, `p35b3` (p): forgiveness
 - article 13, `p36b3` (p): if
-- article 14, `p38b3` (p): the
-- article 15, `p41b3` (p): man
-- article 16, `p44b3` (p): for
 
 ## Left out of the e-version – please confirm
 

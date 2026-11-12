@@ -10,16 +10,8 @@
     6
    ],
    "words": 731,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p6b8",
-     "kind": "p",
-     "words": [
-      "allahuakbar"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -54,16 +46,8 @@
     17
    ],
    "words": 313,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -118,16 +102,8 @@
     26
    ],
    "words": 1913,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -150,16 +126,8 @@
     28
    ],
    "words": 327,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p28b4",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -170,16 +138,8 @@
     30
    ],
    "words": 633,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p29b4",
-     "kind": "p",
-     "words": [
-      "god"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -286,16 +246,8 @@
     43
    ],
    "words": 291,
-   "match": 99.66,
-   "missing": [
-    {
-     "item": "p43b3",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -326,16 +278,8 @@
     45
    ],
    "words": 414,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p45b4",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 21,
@@ -362,7 +306,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 25790,

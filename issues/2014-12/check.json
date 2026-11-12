@@ -22,16 +22,8 @@
     7
    ],
    "words": 242,
-   "match": 99.59,
-   "missing": [
-    {
-     "item": "p7b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -48,7 +40,7 @@
   {
    "n": 4,
    "id": "the-culture-of-peace-part-vi",
-   "title": "The Culture of Peace — Part Vi",
+   "title": "The Culture of Peace — Part VI",
    "pages": [
     10,
     19
@@ -66,16 +58,8 @@
     21
    ],
    "words": 695,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p20b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -86,16 +70,8 @@
     25
    ],
    "words": 1295,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -150,16 +126,8 @@
     36
    ],
    "words": 605,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p35b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -170,16 +138,8 @@
     37
    ],
    "words": 360,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p37b3",
-     "kind": "p",
-     "words": [
-      "on"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -190,16 +150,8 @@
     38
    ],
    "words": 322,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p38b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -210,16 +162,8 @@
     40
    ],
    "words": 778,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p39b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -230,16 +174,8 @@
     42
    ],
    "words": 533,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p41b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -276,11 +212,38 @@
    "words": 1211,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 18,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    49,
+    49
+   ],
+   "words": 382,
+   "match": 99.48,
+   "missing": [
+    {
+     "item": "p49b20",
+     "kind": "small",
+     "words": [
+      "661and"
+     ]
+    },
+    {
+     "item": "p49b21",
+     "kind": "small",
+     "words": [
+      "750"
+     ]
+    }
+   ]
   }
  ],
- "overall_match": 99.94,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16212,
- "article_words": 14556
+ "article_words": 14938
 }

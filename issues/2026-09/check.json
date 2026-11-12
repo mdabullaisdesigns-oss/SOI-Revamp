@@ -6,9 +6,9 @@
    "n": 1,
    "id": "the-gift-of-criticism",
    "title": "The Gift of Criticism",
-   "words": 449,
+   "words": 435,
    "audio": true,
-   "match": 99.78,
+   "match": 99.77,
    "pages": [
     6,
     7
@@ -19,128 +19,117 @@
    "n": 2,
    "id": "a-glimpse-of-paradise",
    "title": "A Glimpse of Paradise",
-   "words": 390,
+   "words": 345,
    "audio": true,
-   "match": 92.31,
+   "match": 99.71,
    "pages": [
     9,
     10
    ],
-   "missing": [
-    "spirituality develops in a person the ability to draw higher lessons from ordinary happenings he begins to see beyond appearances and discovers meaning in what others regard as commonplace"
-   ]
+   "missing": []
   },
   {
    "n": 3,
    "id": "discovering-god-everywhere",
    "title": "Discovering God Everywhere",
-   "words": 752,
+   "words": 718,
    "audio": true,
-   "match": 95.35,
+   "match": 99.86,
    "pages": [
     11,
     13
    ],
-   "missing": [
-    "the universe is more than a place in which man has been given temporary residence it is a divine classroom everything around us is teaching a lesson provided we are prepared to become students"
-   ]
+   "missing": []
   },
   {
    "n": 4,
    "id": "death-is-not-extinction",
    "title": "Death Is Not Extinction",
-   "words": 623,
+   "words": 575,
    "audio": true,
-   "match": 92.13,
+   "match": 99.83,
    "pages": [
     14,
     15
+   ],
+   "missing": []
+  },
+  {
+   "n": 5,
+   "id": "discover-something-every-day",
+   "title": "Discover Something Every Day",
+   "words": 391,
+   "audio": true,
+   "match": 87.47,
+   "pages": [
+    16,
+    17
    ],
    "missing": [
     "dryness is not always the final reality beneath the surface life may still be waiting to emerge a barren tree can blossom a rough vegetable can be fresh within likewise a seemingly empty human heart can by the grace of god become filled with faith gratitude and realization"
    ]
   },
   {
-   "n": 5,
-   "id": "discover-something-every-day",
-   "title": "Discover Something Every Day",
-   "words": 450,
-   "audio": true,
-   "match": 83.56,
-   "pages": [
-    16,
-    17
-   ],
-   "missing": [
-    "dryness is not always the final reality beneath the surface life may still be waiting to emerge a barren tree can blossom a rough vegetable can be fresh within likewise a seemingly empty human heart can by the grace of god become filled with faith gratitude and realization",
-    "yesterdays knowledge is not enough for todays intellectual life the mind requires fresh nourishment in the form of new ideas new observations and new realizations"
-   ]
-  },
-  {
    "n": 6,
    "id": "save-yourself-first",
    "title": "Save Yourself First",
-   "words": 408,
+   "words": 355,
    "audio": true,
-   "match": 92.16,
+   "match": 99.44,
    "pages": [
     18,
     19
    ],
-   "missing": [
-    "to save yourself means refusing to allow another persons bad behaviour to enter your mind and destroy your inner balance his behaviour belongs to him your response belongs to you"
-   ]
+   "missing": []
   },
   {
    "n": 7,
    "id": "the-art-of-non-provocation",
    "title": "The Art of Non-Provocation",
-   "words": 390,
+   "words": 339,
    "audio": true,
-   "match": 91.54,
+   "match": 99.71,
    "pages": [
     20,
     21
    ],
-   "missing": [
-    "many conflicts arise not merely because someone says something unpleasant but because the other person immediately reacts one provocative word produces another and soon a minor incident develops into a major confrontation"
-   ]
+   "missing": []
   },
   {
    "n": 8,
    "id": "the-divine-system-of-sustenance",
    "title": "The Divine System of Sustenance",
-   "words": 1601,
+   "words": 1518,
    "audio": true,
-   "match": 95.38,
+   "match": 99.93,
    "pages": [
     22,
     26
    ],
-   "missing": [
-    "the quran repeatedly draws attention to the vast infrastructure that supports human life consider water every civilization depends upon it yet humanity does not manufacture the worlds basic supply of fresh water a thoughtful person sees things differently when food reaches his table he sees not merely a commercial commodity but the final product of a vast chain of divine facilitation when he drinks water he remembers the planetary system that delivered it"
-   ]
+   "missing": []
   },
   {
    "n": 9,
    "id": "women-a-force-for-peace",
    "title": "Women: A Force for Peace",
-   "words": 887,
+   "words": 798,
    "audio": true,
-   "match": 99.89,
+   "match": 99.25,
    "pages": [
     27,
-    30
+    29
    ],
-   "missing": []
+   "missing": [
+    "a gift for our readers"
+   ]
   },
   {
    "n": 10,
    "id": "the-culture-of-peace",
    "title": "The Culture of Peace",
-   "words": 452,
+   "words": 432,
    "audio": true,
-   "match": 99.78,
+   "match": 99.77,
    "pages": [
     31,
     32
@@ -151,7 +140,7 @@
    "n": 11,
    "id": "the-voice-from-mission-control",
    "title": "The Voice from Mission Control",
-   "words": 1104,
+   "words": 1055,
    "audio": true,
    "match": 99.91,
    "pages": [
@@ -164,16 +153,14 @@
    "n": 12,
    "id": "the-power-of-perseverance",
    "title": "The Power of Perseverance",
-   "words": 416,
+   "words": 351,
    "audio": true,
-   "match": 91.11,
+   "match": 99.72,
    "pages": [
     37,
     38
    ],
-   "missing": [
-    "great achievements seldom appear suddenly they are generally the accumulated result of small efforts made consistently a book is written page by page knowledge acquired lesson by lesson and a great institution built step by step"
-   ]
+   "missing": []
   },
   {
    "n": 13,
@@ -218,7 +205,7 @@
    "n": 16,
    "id": "your-questions-answered",
    "title": "Your Questions Answered",
-   "words": 919,
+   "words": 897,
    "audio": true,
    "match": 100.0,
    "pages": [
@@ -231,7 +218,7 @@
    "n": 17,
    "id": "the-word-of-god",
    "title": "The Word of God",
-   "words": 591,
+   "words": 577,
    "audio": true,
    "match": 100.0,
    "pages": [
@@ -241,21 +228,12 @@
    "missing": []
   }
  ],
- "overall_match": 96.6,
+ "overall_match": 99.35,
  "flagged": [
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  12
+  5
  ],
  "unplaced": [],
- "warnings": [
-  "PDF page 8: 238 words are on no web article (“in focus we bring you two articles every…”)"
- ],
+ "warnings": [],
  "pdf_pages_not_on_page": [
   {
    "page": 2,
@@ -290,7 +268,28 @@
    "words": 238,
    "of": 238,
    "starts": "in focus we bring you two articles every issue under the headings of personal",
+   "expected": true
+  },
+  {
+   "page": 19,
+   "words": 60,
+   "of": 142,
+   "starts": "control to means refusing to allow another persons bad behaviour to enter your mind",
    "expected": false
+  },
+  {
+   "page": 21,
+   "words": 57,
+   "of": 135,
+   "starts": "many conflicts arise not merely because someone says something unpleasant but because other person",
+   "expected": false
+  },
+  {
+   "page": 30,
+   "words": 78,
+   "of": 78,
+   "starts": "a gift for our readers share your thoughts on the article women a force",
+   "expected": true
   },
   {
    "page": 51,

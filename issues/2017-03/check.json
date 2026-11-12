@@ -64,16 +64,8 @@
     18
    ],
    "words": 1627,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p15b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -84,16 +76,8 @@
     20
    ],
    "words": 678,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p19b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -124,15 +108,8 @@
     24
    ],
    "words": 1037,
-   "match": 99.81,
+   "match": 99.9,
    "missing": [
-    {
-     "item": "p22b3",
-     "kind": "p",
-     "words": [
-      "gods"
-     ]
-    },
     {
      "item": "p22b4",
      "kind": "p",
@@ -151,16 +128,8 @@
     25
    ],
    "words": 405,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "if"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -203,16 +172,8 @@
     32
    ],
    "words": 798,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p31b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -235,16 +196,8 @@
     37
    ],
    "words": 1269,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p34b6",
-     "kind": "p",
-     "words": [
-      "gain"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -299,16 +252,8 @@
     43
    ],
    "words": 391,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p43b3",
-     "kind": "p",
-     "words": [
-      "bees"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -335,7 +280,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.95,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17171,

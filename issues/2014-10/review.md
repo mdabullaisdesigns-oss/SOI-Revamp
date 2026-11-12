@@ -1,43 +1,37 @@
 # Review – Issue 22 · October 2014
 
-PDF `October-2014.pdf`, 52 pages. **16 articles, 13,868 words, word match 99.92%** (second reading of the PDF; flag below 99%).
+PDF `October-2014.pdf`, 52 pages. **17 articles, 14,248 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 6–8 | From Maulana’s Desk | A New Age Dawns Over Kashmir | 1006 | 99.9% |
-| 2 | 9–10 | A Superior Worship | Hajj: Fifth Pillar of Islam | 700 | 99.86% |
+| 1 | 6–8 | From Maulana’s Desk | A New Age Dawns Over Kashmir | 1006 | 100.0% |
+| 2 | 9–10 | A Superior Worship | Hajj: Fifth Pillar of Islam | 700 | 100.0% |
 | 3 | 11–13 | Discover His Glory | The Greatness of God | 701 | 99.86% |
-| 4 | 14–15 | Prepare Yourself | The Moment of Truth | 525 | 99.81% |
+| 4 | 14–15 | Prepare Yourself | The Moment of Truth | 525 | 100.0% |
 | 5 | 16–20 | God-oriented Life | The Message and Meaning of Hajj | 1920 | 100.0% |
 | 6 | 21–22 | Social Affairs by Consensus | Religious State Versus Democratic State | 484 | 99.79% |
 | 7 | 23–25 | Against True Islam | The ‘islamic State of Is’ Is Not an Islamic State | 928 | 99.89% |
 | 8 | 26–27 | From the Spiritual Tree | Divine Food | 593 | 100.0% |
-| 9 | 28 | Training for Life | Hajj—life’s Fulfilment | 300 | 99.67% |
+| 9 | 28 | Training for Life | Hajj—life’s Fulfilment | 300 | 100.0% |
 | 10 | 29–35 | Teachings of Islam | The Culture of Peace — Part IV | 2403 | 99.96% |
-| 11 | 36–37 | Choose Success Over Failure | Tunnel Strategy Versus Surface Strategy | 581 | 99.83% |
+| 11 | 36–37 | Choose Success Over Failure | Tunnel Strategy Versus Surface Strategy | 581 | 100.0% |
 | 12 | 38 | Jealousy | A Common Human Weakness | 354 | 100.0% |
-| 13 | 39 | Never Despair | A Matter of Wisdom | 353 | 99.72% |
-| 14 | 40 | Differentiate Between Them | Peace and Justice | 280 | 99.64% |
+| 13 | 39 | Never Despair | A Matter of Wisdom | 353 | 100.0% |
+| 14 | 40 | Differentiate Between Them | Peace and Justice | 280 | 100.0% |
 | 15 | 41–46 | Personality Changing | The Spirit of Hajj | 1980 | 100.0% |
 | 16 | 47–48 | From The Scriptures | The Word of God | 760 | 100.0% |
+| 17 | 49 |  | Glossary | 380 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p6b5` (p): on
-- article 2, `p9b3` (p): it
 - article 3, `p11b3` (p): discovery
-- article 4, `p14b3` (p): in
 - article 6, `p21b4` (p): some
 - article 7, `p23b4` (p): on
-- article 9, `p28b3` (p): muslims
 - article 10, `p29b10` (p): there
-- article 11, `p36b4` (p): in
-- article 13, `p39b3` (p): the
-- article 14, `p40b3` (p): it
 
 ## Left out of the e-version – please confirm
 
@@ -53,7 +47,6 @@ Nothing here is in any article tab. Say if any of it should be included.
 | 8 | after the end of the article (notice or advert) | 4 | Maulana Wahiddudin Khan |
 | 35 | after the end of the article (notice or advert) | 65 | .....to be continued. This article is in continuation of a series enti |
 | 46 | after the end of the article (notice or advert) | 90 | BOOKS |
-| 49 | outside any article | 381 | Glossary |
 | 50 | non-article page: Subscribe Spirit Of Islam | 153 | SUBSCRIBE SPIRIT OF ISLAM |
 | 51 | outside any article | 69 | Bringing you a splendid range of Islamic books and children’s products |
 
@@ -64,7 +57,6 @@ None.
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 
 - page 5, 6 words: hajj fifth pillar of islam 7
-- page 49, 8 words: originally by prophets abraham and ishmael in makkah
 
 ## Pieces the rules could not classify (kept, shown as a small note)
 
@@ -81,6 +73,9 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 11, page 36: THE QURAN 7: 176
 - article 13, page 39: THE QURAN 38: 43
 - article 15, page 41: THE QURAN 2: 197
+- article 17, page 49: Assalamu Alaikum Peace be upon
+- article 17, page 49: Khalifa ruler khalifa al-muslimin ruler of
+- article 17, page 49: Imam Abu Hanifa (699-767 AD)
 
 ## Automatic text adjustments
 

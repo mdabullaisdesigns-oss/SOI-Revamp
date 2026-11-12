@@ -54,16 +54,8 @@
     10
    ],
    "words": 398,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p10b5",
-     "kind": "p",
-     "words": [
-      "this"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -74,15 +66,8 @@
     11
    ],
    "words": 340,
-   "match": 99.41,
+   "match": 99.71,
    "missing": [
-    {
-     "item": "p11b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    },
     {
      "item": "p11b5",
      "kind": "p",
@@ -181,16 +166,8 @@
     25
    ],
    "words": 724,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "we"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -225,16 +202,8 @@
     32
    ],
    "words": 442,
-   "match": 99.77,
-   "missing": [
-    {
-     "item": "p31b3",
-     "kind": "p",
-     "words": [
-      "mr"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -285,15 +254,8 @@
     38
    ],
    "words": 667,
-   "match": 99.55,
+   "match": 99.7,
    "missing": [
-    {
-     "item": "p37b6",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    },
     {
      "item": "p37b7",
      "kind": "p",
@@ -319,16 +281,8 @@
     39
    ],
    "words": 349,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p39b6",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -351,16 +305,8 @@
     42
    ],
    "words": 316,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 20,
@@ -387,7 +333,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.88,
+ "overall_match": 99.93,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16669,

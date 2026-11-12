@@ -10,16 +10,8 @@
     7
    ],
    "words": 817,
-   "match": 99.88,
-   "missing": [
-    {
-     "item": "p5b5",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -30,15 +22,8 @@
     16
    ],
    "words": 3684,
-   "match": 99.95,
+   "match": 99.97,
    "missing": [
-    {
-     "item": "p8b4",
-     "kind": "p",
-     "words": [
-      "travelling"
-     ]
-    },
     {
      "item": "p14b5",
      "kind": "p",
@@ -57,16 +42,8 @@
     17
    ],
    "words": 347,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p17b4",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -77,16 +54,8 @@
     19
    ],
    "words": 322,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p18b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -137,16 +106,8 @@
     24
    ],
    "words": 711,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p23b10",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -157,16 +118,8 @@
     25
    ],
    "words": 357,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p25b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -177,16 +130,8 @@
     28
    ],
    "words": 494,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p26b3",
-     "kind": "p",
-     "words": [
-      "within"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -209,16 +154,8 @@
     30
    ],
    "words": 341,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p30b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -229,16 +166,8 @@
     32
    ],
    "words": 491,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p31b3",
-     "kind": "p",
-     "words": [
-      "within"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 13,
@@ -249,16 +178,8 @@
     34
    ],
    "words": 663,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p33b5",
-     "kind": "p",
-     "words": [
-      "palestine"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -333,7 +254,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [
   {

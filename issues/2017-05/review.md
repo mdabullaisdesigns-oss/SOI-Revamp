@@ -1,6 +1,6 @@
 # Review – Issue 53 · May 2017
 
-PDF `May-2017.pdf`, 52 pages. **21 articles, 14,763 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `May-2017.pdf`, 52 pages. **21 articles, 14,763 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -17,10 +17,10 @@ PDF `May-2017.pdf`, 52 pages. **21 articles, 14,763 words, word match 99.95%** (
 | 9 | 22–23 | Achieve Great Success | The Miracle of Teamwork | 606 | 100.0% |
 | 10 | 24–25 | Guidance for All Times | Companionship of the Prophet | 617 | 100.0% |
 | 11 | 26–27 | From the Spiritual Tree | ‘allahu Akbar’ Speaks of a Belief | 443 | 100.0% |
-| 12 | 28 | Purpose of Life | Explaining Creation | 334 | 99.7% |
-| 13 | 29–31 | Social Welfare | Zakat—the Prescribed Charity | 1072 | 99.91% |
+| 12 | 28 | Purpose of Life | Explaining Creation | 334 | 100.0% |
+| 13 | 29–31 | Social Welfare | Zakat—the Prescribed Charity | 1072 | 100.0% |
 | 14 | 32–33 | Equip Your Children for Life | Good Parenting | 690 | 100.0% |
-| 15 | 34–35 | Age of Peace | Western Civilization | 717 | 99.86% |
+| 15 | 34–35 | Age of Peace | Western Civilization | 717 | 100.0% |
 | 16 | 36–37 | In the Company of the Prophet | Training in Wisdom | 688 | 100.0% |
 | 17 | 38–39 | Connect to God | Worship in Islam | 845 | 99.88% |
 | 18 | 40 | Continuous Experience | Learning About Life from the Family | 340 | 100.0% |
@@ -35,9 +35,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 2, `p8b6` (p): wrong
 - article 3, `p10b6` (p): according
 - article 6, `p15b3` (p): muslims
-- article 12, `p28b3` (p): why
-- article 13, `p29b3` (p): zakat
-- article 15, `p34b3` (p): there
 - article 17, `p38b7` (p): not
 
 ## Left out of the e-version – please confirm

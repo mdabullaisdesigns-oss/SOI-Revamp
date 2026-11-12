@@ -30,16 +30,8 @@
     10
    ],
    "words": 582,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p9b2",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -62,16 +54,8 @@
     18
    ],
    "words": 349,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p18b2",
-     "kind": "p",
-     "words": [
-      "with"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -134,16 +118,8 @@
     28
    ],
    "words": 625,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p27b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -154,16 +130,8 @@
     33
    ],
    "words": 1615,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p29b3",
-     "kind": "p",
-     "words": [
-      "all"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -174,16 +142,8 @@
     34
    ],
    "words": 313,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p34b2",
-     "kind": "p",
-     "words": [
-      "mahatma"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -194,16 +154,8 @@
     35
    ],
    "words": 324,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p35b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -226,16 +178,8 @@
     38
    ],
    "words": 325,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p38b2",
-     "kind": "p",
-     "words": [
-      "from"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -246,16 +190,8 @@
     42
    ],
    "words": 1341,
-   "match": 99.93,
-   "missing": [
-    {
-     "item": "p39b2",
-     "kind": "p",
-     "words": [
-      "those"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -282,7 +218,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.92,
+ "overall_match": 99.98,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 14562,

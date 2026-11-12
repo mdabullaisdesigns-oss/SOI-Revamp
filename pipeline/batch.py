@@ -35,6 +35,9 @@ def one(slug, test=True):
             row["result"] = "FAIL"; row["problems"].append("structure: " + out[0][:160]); return row
         rc, out = run("check.py", slug)
     else:
+        run("narrate.py", "prepare", slug)
+        if os.path.isdir(f"issues/{slug}/audio-raw"):
+            run("align.py", slug)                        # timings + match for the recordings that exist
         rc, out = run("check_wp.py", slug)
     try:
         c = json.load(open(f"issues/{slug}/check.json"))

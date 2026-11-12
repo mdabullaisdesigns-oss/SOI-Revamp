@@ -142,16 +142,8 @@
     23
    ],
    "words": 534,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p22b7",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -162,16 +154,8 @@
     25
    ],
    "words": 524,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "of"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -226,16 +210,8 @@
     32
    ],
    "words": 278,
-   "match": 99.64,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -266,16 +242,8 @@
     36
    ],
    "words": 1093,
-   "match": 99.91,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "consciousness"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -318,16 +286,8 @@
     44
    ],
    "words": 387,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p44b5",
-     "kind": "p",
-     "words": [
-      "try"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -354,7 +314,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.94,
  "flagged": [],
  "unplaced": [
   {

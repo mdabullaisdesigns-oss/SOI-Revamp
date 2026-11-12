@@ -51,7 +51,9 @@ def linkify(escaped):
 def run_html(st, text, links=True):
     h = esc(text)
     if st == "ref":
-        return f'<span class="ev-ref">{h.strip()}</span>'
+        # a long source line (book title, author) must be allowed to wrap on a phone; a verse number must not
+        wrap = ' style="white-space:normal"' if len(re.sub(r"<[^>]+>", "", h)) > 24 else ""
+        return f'<span class="ev-ref"{wrap}>{h.strip()}</span>'
     h = REF.sub(lambda m: f'<span class="ev-ref">{m.group(0)}</span>', h)
     if links:
         h = linkify(h)

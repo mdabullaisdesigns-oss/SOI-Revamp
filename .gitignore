@@ -6,3 +6,4 @@ soi-archive/
 .DS_Store
 issues/*/preview.html
 __pycache__/
+dist/

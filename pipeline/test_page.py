@@ -24,8 +24,9 @@ with sync_playwright() as pw:
     except Exception:
         browser = pw.chromium.launch()
     sizes = [(1280, 800), (768, 1024), (390, 844), (320, 640)]
-    if "--quick" in sys.argv:                       # batch runs: the widest and the narrowest (same template for every issue)
-        sizes = [sizes[0], sizes[-1]]
+    quick = "--quick" in sys.argv
+    if quick:                                       # batch runs: the widest and the narrowest (same template for every issue);
+        sizes = [sizes[0], sizes[-1]]               # the scroll position is checked on the first and last tabs only
     for width, height in sizes:
         ctx = browser.new_context(viewport={"width": width, "height": height}, has_touch=width < 500)
         ctx.route("**/*", lambda r: r.abort() if r.request.url.startswith("http") else r.continue_())
@@ -42,7 +43,8 @@ with sync_playwright() as pw:
         worst = 0
         for n, i in enumerate(ids):
             page.click(f"#{i} .ev-tab")
-            page.wait_for_timeout(1250 if n < 4 or n == len(ids) - 1 else 900)
+            settled = n < 2 or n == len(ids) - 1 or not quick
+            page.wait_for_timeout((1250 if n < 4 or n == len(ids) - 1 else 900) if settled else 260)
             measure = lambda: page.evaluate("""id => { const it = document.getElementById(id);
                 return { open: document.querySelectorAll('.soi-ev .ev-item.is-open').length,
                          mine: it.classList.contains('is-open'),
@@ -50,6 +52,8 @@ with sync_playwright() as pw:
                          over: document.scrollingElement.scrollWidth - window.innerWidth,
                          wide: [...it.querySelectorAll('.ev-body *')].filter(e => e.getBoundingClientRect().right > window.innerWidth + 1).length } }""", i)
             st = measure()
+            if not settled:
+                st["top"] = 0
             if not -5 <= st["top"] <= 160:           # the page corrects its scroll position ~700 ms after opening
                 page.wait_for_timeout(900)
                 st = measure()

@@ -1,25 +1,25 @@
 # Review – Issue 60 · December 2017
 
-PDF `December-2017.pdf`, 52 pages. **19 articles, 15,427 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `December-2017.pdf`, 52 pages. **19 articles, 15,427 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–7 | From Maulana’s Desk | Error of the Political Interpretation of Islam | 1004 | 99.9% |
-| 2 | 8–9 | Acceptance of Truth | Intellectual Freedom in Islam | 734 | 99.86% |
+| 2 | 8–9 | Acceptance of Truth | Intellectual Freedom in Islam | 734 | 100.0% |
 | 3 | 10–11 | The Creator, Sustainer and Cherisher | Monotheism: Oneness of God | 532 | 100.0% |
 | 4 | 12–13 | The Messiah | Jesus in the Quran | 705 | 100.0% |
 | 5 | 14 | Obstacles to Growth | Avoidance of Conflict | 292 | 100.0% |
 | 6 | 15–17 | Acceptance of the Creation Plan of God | Right Approach to Life | 1161 | 99.91% |
 | 7 | 18 | Discover Yourself | Trials and Tribulations in Life | 327 | 100.0% |
-| 8 | 19–20 | Continue on our Journey | We Have the Ability to Bounce Back | 626 | 99.84% |
+| 8 | 19–20 | Continue on our Journey | We Have the Ability to Bounce Back | 626 | 100.0% |
 | 9 | 21–23 | Towards Global Peace | Islam Advocates Peace | 1176 | 99.74% |
-| 10 | 24–25 | Purification | Freedom of Expression and Dissent in Islam | 605 | 99.83% |
+| 10 | 24–25 | Purification | Freedom of Expression and Dissent in Islam | 605 | 100.0% |
 | 11 | 26–27 | From the Spiritual Tree | Prayer from the Heart | 797 | 99.87% |
 | 12 | 28 | Secret of Success | No Half Measures | 317 | 100.0% |
 | 13 | 29–31 | Exalted amongst Women | Mary, the Mother of Jesus | 1216 | 100.0% |
-| 14 | 32–35 | True Focus for Man | God–oriented Life | 1710 | 99.94% |
+| 14 | 32–35 | True Focus for Man | God–oriented Life | 1710 | 100.0% |
 | 15 | 36–38 | Seek the Gardens of Paradise | Environmental Activism, the Islamic Way | 915 | 99.89% |
 | 16 | 39–40 | Mirror of Reality | Cleanliness in Islam | 690 | 100.0% |
 | 17 | 41–42 | Global Personality of Believer | Universality of the Quran | 585 | 100.0% |
@@ -31,14 +31,10 @@ PDF `December-2017.pdf`, 52 pages. **19 articles, 15,427 words, word match 99.93
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p5b5` (p): marxism
-- article 2, `p8b3` (p): man
 - article 6, `p15b3` (p): according
-- article 8, `p19b4` (p): resilience
 - article 9, `p23b4` (p): escalate
 - article 9, `p23b10` (thought): peaceloving assalamoalaikum
-- article 10, `p24b4` (p): the
 - article 11, `p26b4` (p): any
-- article 14, `p32b3` (p): the
 - article 15, `p36b4` (p): according
 
 ## Left out of the e-version – please confirm

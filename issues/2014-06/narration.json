@@ -1,7 +1,7 @@
 {
  "slug": "2014-06",
  "voice": "TTSMaker Gary (2560)",
- "chars": 78782,
+ "chars": 78815,
  "articles": {
   "follow-reason-manage-emotions": {
    "title": "Follow Reason, Manage Emotions",
@@ -889,6 +889,17 @@
     "However, if the harm is non-physical in nature, then one should simply avoid even thinking about it.",
     "A problem is a problem if it is material or physical in nature.",
     "One must learn to differentiate between the two. o"
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-06-glossary.mp3",
+   "chars": 33,
+   "sentences": [
+    "Glossary",
+    "(Cain).",
+    "(house of God)."
    ]
   }
  }

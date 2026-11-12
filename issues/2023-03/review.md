@@ -1,6 +1,6 @@
 # Review – Issue 111 · March–April 2023
 
-PDF `march_april_2023.pdf`, 52 pages. **22 articles, 14,244 words, word match 99.85%** (second reading of the PDF; flag below 99%).
+PDF `march_april_2023.pdf`, 52 pages. **22 articles, 14,244 words, word match 99.95%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -11,21 +11,21 @@ PDF `march_april_2023.pdf`, 52 pages. **22 articles, 14,244 words, word match 99
 | 3 | 8–12 |  | Part One | 1891 | 99.95% |
 | 4 | 13–14 | Journey Towards God-Realization | How God-Realization Impacts One’s Life | 463 | 99.78% |
 | 5 | 15–17 | Towards Global Peace | From the Military to the Non-Military Age | 1118 | 100.0% |
-| 6 | 18–19 | No Time for Frivolity | A Life of Purpose | 490 | 99.8% |
+| 6 | 18–19 | No Time for Frivolity | A Life of Purpose | 490 | 100.0% |
 | 7 | 20–22 | For Introspection | The Month of Ramadan | 906 | 99.89% |
 | 8 | 23–24 | Acknowledging the Great Blessing | Fasting and the Quran | 653 | 100.0% |
-| 9 | 25 | Prepare before It’s Too Late | The Tragedy of Life | 404 | 99.75% |
-| 10 | 26–27 | The True Significance | Festival of Peace | 610 | 99.84% |
+| 9 | 25 | Prepare before It’s Too Late | The Tragedy of Life | 404 | 100.0% |
+| 10 | 26–27 | The True Significance | Festival of Peace | 610 | 100.0% |
 | 11 | 28 | A Person of Principle | The Most Valuable Asset | 364 | 99.73% |
 | 12 | 29 | The Most Noble Task | Purification of the Self | 312 | 100.0% |
 | 13 | 30 | Putting Quran to Test | Quran and Modern Science | 396 | 100.0% |
 | 14 | 31–33 | Are They Irreconcilable? | Religion and Science | 1200 | 99.92% |
-| 15 | 34 | The Focal Point of Every Endeavour | Seeking the Pleasure of God | 354 | 98.31% ⚠ |
-| 16 | 35 | A Unique Human Quality | Sense of Pleasure | 319 | 99.69% |
+| 15 | 34 | The Focal Point of Every Endeavour | Seeking the Pleasure of God | 354 | 99.72% |
+| 16 | 35 | A Unique Human Quality | Sense of Pleasure | 319 | 100.0% |
 | 17 | 36–38 |  | CPS Newsletter | 290 | 100.0% |
 | 18 | 39–41 |  | Children’s Corner | 906 | 100.0% |
-| 19 | 42–43 |  | Book Review | 488 | 99.18% |
-| 20 | 44 | Maximize Your Chances | Three Stages of Life | 350 | 99.71% |
+| 19 | 42–43 |  | Book Review | 488 | 100.0% |
+| 20 | 44 | Maximize Your Chances | Three Stages of Life | 350 | 100.0% |
 | 21 | 45–47 | From The Scriptures | The Word of God | 1011 | 100.0% |
 | 22 | 48–50 |  | Your Questions Answered | 929 | 100.0% |
 
@@ -36,17 +36,10 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b4` (p): when
 - article 3, `p8b6` (p): illsuited
 - article 4, `p13b10` (p): none
-- article 6, `p18b9` (p): james
 - article 7, `p20b10` (p): ramadanthe
-- article 9, `p25b11` (p): masti
-- article 10, `p26b11` (p): eid
 - article 11, `p28b10` (p): altarikh
 - article 14, `p31b11` (p): indian
 - article 15, `p34b11` (p): according
-- article 15, `p34b16` (p): however the individual becomes sensitive
-- article 16, `p35b9` (p): paradise
-- article 19, `p42b3` (p): author maulana wahiduddin khan
-- article 20, `p44b3` (p): human
 
 ## Left out of the e-version – please confirm
 
@@ -67,8 +60,7 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 ## Text of the PDF that is in no article and not on the list above
 
-- page 34, 26 words: of god will be his however the individual whose aim is to creator he seeks seek the pleasure of god becomes sensitive to find out whether
-- page 42, 7 words: name of the wahiduddin khan author maulana
+None.
 
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 

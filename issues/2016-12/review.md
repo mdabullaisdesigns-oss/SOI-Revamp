@@ -1,26 +1,26 @@
 # Review – Issue 48 · December 2016
 
-PDF `December-2016.pdf`, 52 pages. **18 articles, 15,863 words, word match 99.89%** (second reading of the PDF; flag below 99%).
+PDF `December-2016.pdf`, 52 pages. **18 articles, 15,863 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 5–6 | From Maulana’s Desk | The American Election | 724 | 100.0% |
-| 2 | 7–8 | Son of Mary | On Jesus Christ | 706 | 99.86% |
-| 3 | 9–10 | Observations in Nature | Help to a Seeker of Truth | 668 | 99.85% |
+| 2 | 7–8 | Son of Mary | On Jesus Christ | 706 | 100.0% |
+| 3 | 9–10 | Observations in Nature | Help to a Seeker of Truth | 668 | 100.0% |
 | 4 | 11 | Social Contract & Sacred Bond | Marriage in Islam | 414 | 99.76% |
 | 5 | 12–17 | Permissible but Disliked | Divorce in Islam | 2584 | 99.88% |
 | 6 | 18–21 | Creation Plan of God | Introducing the Quran | 1657 | 99.82% |
-| 7 | 22 | Harmony in Society | Despite Differences | 304 | 99.67% |
+| 7 | 22 | Harmony in Society | Despite Differences | 304 | 100.0% |
 | 8 | 23–24 | From the Spiritual Tree | The Discovery of Divine Blessings | 435 | 100.0% |
-| 9 | 25–28 | A Perspective | Uniform Civil Code | 1496 | 99.93% |
-| 10 | 29 | Losing Your Hereafter | Worshipping One’s Children | 344 | 99.71% |
+| 9 | 25–28 | A Perspective | Uniform Civil Code | 1496 | 100.0% |
+| 10 | 29 | Losing Your Hereafter | Worshipping One’s Children | 344 | 100.0% |
 | 11 | 30–32 | Towards Global Peace | Islamic Inspiration for Peace | 863 | 100.0% |
-| 12 | 33–35 | Towards a Life of Restraint | Eligibility for Paradise | 1161 | 99.91% |
+| 12 | 33–35 | Towards a Life of Restraint | Eligibility for Paradise | 1161 | 100.0% |
 | 13 | 36 | Greatest Happiness | Nearness to God | 313 | 100.0% |
-| 14 | 37–38 | Leading to Culture of Hatred | The Politics of Partition | 632 | 99.84% |
-| 15 | 39–40 | Replace Evil with Good | Enjoining Good and Forbidding Wrong | 658 | 99.7% |
+| 14 | 37–38 | Leading to Culture of Hatred | The Politics of Partition | 632 | 100.0% |
+| 15 | 39–40 | Replace Evil with Good | Enjoining Good and Forbidding Wrong | 658 | 99.85% |
 | 16 | 41–42 | Live a Fruitful Life | Death: A Positive Reminder | 663 | 99.85% |
 | 17 | 43–46 | From The Scriptures | The Word of God | 1536 | 100.0% |
 | 18 | 47–48 | Your Questions Answered | Ask Maulana | 705 | 100.0% |
@@ -29,8 +29,6 @@ PDF `December-2016.pdf`, 52 pages. **18 articles, 15,863 words, word match 99.89
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 2, `p7b3` (p): many
-- article 3, `p9b3` (p): god
 - article 4, `p11b3` (p): nature
 - article 5, `p12b2` (p): although
 - article 5, `p15b5` (pull): wellconsidered
@@ -38,12 +36,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 6, `p18b2` (p): if
 - article 6, `p20b2` (p): distractions
 - article 6, `p20b8` (pull): beforedeath
-- article 7, `p22b7` (p): if
-- article 9, `p25b3` (p): even
-- article 10, `p29b4` (p): in
-- article 12, `p33b3` (p): the
-- article 14, `p37b3` (p): in
-- article 15, `p39b4` (p): in
 - article 15, `p39b8` (p): alarab
 - article 16, `p41b3` (p): pakistans
 

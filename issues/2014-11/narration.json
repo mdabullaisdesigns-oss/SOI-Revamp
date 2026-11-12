@@ -1,7 +1,7 @@
 {
  "slug": "2014-11",
  "voice": "TTSMaker Gary (2560)",
- "chars": 75296,
+ "chars": 75326,
  "articles": {
   "now-or-never": {
    "title": "Now or Never",
@@ -854,6 +854,16 @@
     "The truth is that suicide is totally forbidden (haram) in Islam.",
     "Under no circumstances and on no pretext whatsoever is committing suicide lawful.",
     "It is forbidden to the point where, if someone is dying, and it is certain that he will not survive, even in his final moments Islam does not allow him to take his own life."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-11-glossary.mp3",
+   "chars": 30,
+   "sentences": [
+    "Glossary",
+    "(present day Mecca)."
    ]
   }
  }

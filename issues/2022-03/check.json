@@ -30,16 +30,8 @@
     9
    ],
    "words": 494,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p8b12",
-     "kind": "p",
-     "words": [
-      "our"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -214,16 +206,8 @@
     45
    ],
    "words": 569,
-   "match": 99.82,
-   "missing": [
-    {
-     "item": "p44b4",
-     "kind": "p",
-     "words": [
-      "my"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -250,7 +234,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.95,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16590,

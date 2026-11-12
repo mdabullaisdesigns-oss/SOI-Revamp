@@ -30,16 +30,8 @@
     9
    ],
    "words": 734,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p8b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 3,
@@ -118,16 +110,8 @@
     20
    ],
    "words": 626,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p19b4",
-     "kind": "p",
-     "words": [
-      "resilience"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -166,16 +150,8 @@
     25
    ],
    "words": 605,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p24b4",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -230,16 +206,8 @@
     35
    ],
    "words": 1710,
-   "match": 99.94,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -310,7 +278,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.95,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 17287,

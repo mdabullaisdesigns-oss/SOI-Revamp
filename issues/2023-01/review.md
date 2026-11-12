@@ -1,29 +1,29 @@
 # Review – Issue 110 · January–February 2023
 
-PDF `Jan-Feb_2023.pdf`, 52 pages. **20 articles, 14,114 words, word match 99.89%** (second reading of the PDF; flag below 99%).
+PDF `Jan-Feb_2023.pdf`, 52 pages. **20 articles, 14,114 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
-| 1 | 5 |  | Gratitude to Prof Farida Khanam | 317 | 99.68% |
-| 2 | 6–8 | From the Editor-In-Chief’s Desk | The Journey Continues… | 681 | 99.85% |
-| 3 | 9–10 | Personal Experiences | Discovering the Purpose of My Writings | 385 | 99.74% |
-| 4 | 11–12 | Journey Towards God-Realization | From Science to God-Realization | 521 | 99.81% |
+| 1 | 5 |  | Gratitude to Prof Farida Khanam | 317 | 100.0% |
+| 2 | 6–8 | From the Editor-In-Chief’s Desk | The Journey Continues… | 681 | 100.0% |
+| 3 | 9–10 | Personal Experiences | Discovering the Purpose of My Writings | 385 | 100.0% |
+| 4 | 11–12 | Journey Towards God-Realization | From Science to God-Realization | 521 | 100.0% |
 | 5 | 13–18 | Towards Global Peace | Prophetic Wisdom | 2218 | 99.95% |
-| 6 | 19–20 | Start Preparing | Alarm for the End of Human History | 617 | 99.84% |
-| 7 | 21–22 | Focus on Your Goals | Bitterness Leads to Failure | 471 | 99.79% |
+| 6 | 19–20 | Start Preparing | Alarm for the End of Human History | 617 | 100.0% |
+| 7 | 21–22 | Focus on Your Goals | Bitterness Leads to Failure | 471 | 100.0% |
 | 8 | 23 | Taking Nature for Granted | Give Nature Its Due | 271 | 99.63% |
 | 9 | 24–28 |  | Book Review | 1905 | 100.0% |
-| 10 | 29 | A Sure Way to Success | Importance of Concentration | 361 | 99.72% |
+| 10 | 29 | A Sure Way to Success | Importance of Concentration | 361 | 100.0% |
 | 11 | 30 | Know God’s Creation Plan | In Search of Paradise | 391 | 100.0% |
 | 12 | 31–34 | Through the Consciousness of Accountability | Islamic Ethics | 1564 | 100.0% |
 | 13 | 35–37 |  | From Our Readers | 995 | 100.0% |
-| 14 | 38–40 |  | Children’s Corner | 694 | 99.42% |
+| 14 | 38–40 |  | Children’s Corner | 694 | 100.0% |
 | 15 | 41 | Misplaced Glorification of Tradition | Stuck in the Past | 355 | 100.0% |
 | 16 | 42–43 |  | CPS Newsletter | 339 | 100.0% |
-| 17 | 44–45 | One Party must Show the Way | The Problem of Violent Conflicts | 464 | 99.78% |
-| 18 | 46 | Patience and Avoidance | The Path of Realism | 347 | 99.71% |
+| 17 | 44–45 | One Party must Show the Way | The Problem of Violent Conflicts | 464 | 100.0% |
+| 18 | 46 | Patience and Avoidance | The Path of Realism | 347 | 100.0% |
 | 19 | 47–48 | From The Scriptures | The Word of God | 722 | 100.0% |
 | 20 | 49–50 |  | Your Questions Answered | 496 | 100.0% |
 
@@ -31,18 +31,8 @@ PDF `Jan-Feb_2023.pdf`, 52 pages. **20 articles, 14,114 words, word match 99.89%
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 1, `p5b2` (p): the
-- article 2, `p6b4` (p): spirit
-- article 3, `p9b6` (p): to
-- article 4, `p11b4` (p): what
 - article 5, `p13b4` (p): there
-- article 6, `p19b4` (p): in
-- article 7, `p21b3` (p): zafar
 - article 8, `p23b3` (p): huge
-- article 10, `p29b3` (p): the
-- article 14, `p38b5` (p): goodword books new delhi
-- article 17, `p44b3` (p): there
-- article 18, `p46b2` (p): if
 
 ## Left out of the e-version – please confirm
 

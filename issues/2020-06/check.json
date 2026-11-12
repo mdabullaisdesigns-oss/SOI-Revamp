@@ -122,16 +122,8 @@
     23
    ],
    "words": 717,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p22b7",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -206,16 +198,8 @@
     31
    ],
    "words": 372,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p31b11",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -238,16 +222,8 @@
     38
    ],
    "words": 425,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p38b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -270,16 +246,8 @@
     44
    ],
    "words": 1321,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p41b7",
-     "kind": "p",
-     "words": [
-      "nature"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 19,
@@ -290,16 +258,8 @@
     45
    ],
    "words": 345,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p45b2",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 20,
@@ -326,7 +286,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.94,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 26375,

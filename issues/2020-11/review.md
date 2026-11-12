@@ -1,6 +1,6 @@
 # Review – Issue 95 · November 2020
 
-PDF `November-2020.pdf`, 52 pages. **21 articles, 15,789 words, word match 99.88%** (second reading of the PDF; flag below 99%).
+PDF `November-2020.pdf`, 52 pages. **21 articles, 15,789 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -10,21 +10,21 @@ PDF `November-2020.pdf`, 52 pages. **21 articles, 15,789 words, word match 99.88
 | 2 | 7–9 | From the Editorial Director | Suicide—an Islamic Perspective | 791 | 99.87% |
 | 3 | 10 | A Scientific Stand | In Search of Heaven | 296 | 99.32% |
 | 4 | 11–13 | A Natural Corollary of the Present Life | Predicting the Afterlife | 896 | 100.0% |
-| 5 | 14 | Bigger Picture | Love for Humanity | 320 | 99.69% |
+| 5 | 14 | Bigger Picture | Love for Humanity | 320 | 100.0% |
 | 6 | 15–16 | Mars, or Paradise? | Quest for Another Habitable Planet | 485 | 99.79% |
-| 7 | 17 | Take Provision for the Next World | The Eternal Journey | 338 | 99.41% |
+| 7 | 17 | Take Provision for the Next World | The Eternal Journey | 338 | 99.7% |
 | 8 | 18–20 | Finding the True Cause | The Problem of Suffering | 1045 | 99.9% |
 | 9 | 21–25 | From Probability Theory | Argument for the Life Hereafter | 1985 | 99.95% |
 | 10 | 26–27 | From the Spiritual Tree | Marifah, or God Realization | 662 | 99.85% |
 | 11 | 28–30 | Towards Global Peace | Desist from Intolerance | 1207 | 99.92% |
-| 12 | 31 | Be a Realist | Towards a Life of Comfort and Peace | 364 | 99.73% |
-| 13 | 32–33 | Pinning Your Hopes on the Eternal | Secret of Mental Peace | 809 | 99.88% |
+| 12 | 31 | Be a Realist | Towards a Life of Comfort and Peace | 364 | 100.0% |
+| 13 | 32–33 | Pinning Your Hopes on the Eternal | Secret of Mental Peace | 809 | 100.0% |
 | 14 | 34 | Living for an Immediate Gain | Leading a Godless Life | 366 | 99.73% |
-| 15 | 35–39 | In Search of the Ideal World | Paradise: A Universal Concept | 1692 | 99.82% |
+| 15 | 35–39 | In Search of the Ideal World | Paradise: A Universal Concept | 1692 | 100.0% |
 | 16 | 40 | The Two Attributes of God | Wrath, Mercy | 305 | 100.0% |
 | 17 | 41 | Maximizing One’s Guilt | Trying to Deceive God | 319 | 100.0% |
 | 18 | 42–43 | The Key to Contentment and Progress | Accomodating One’s Shortcomings | 537 | 100.0% |
-| 19 | 44–46 | A Sincere Inclination towards Truth | The Two Courses | 1257 | 99.92% |
+| 19 | 44–46 | A Sincere Inclination towards Truth | The Two Courses | 1257 | 100.0% |
 | 20 | 47–48 | From The Scriptures | The Word of God | 609 | 100.0% |
 | 21 | 49–50 | Your Questions Answered | Ask Maulana | 778 | 100.0% |
 
@@ -36,18 +36,13 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 2, `p7b4` (p): mans
 - article 3, `p10b3` (p): renowned
 - article 3, `p10b6` (p): object
-- article 5, `p14b7` (p): in
 - article 6, `p15b9` (p): defence
-- article 7, `p17b3` (p): every hand
+- article 7, `p17b3` (p): every
 - article 8, `p18b3` (p): one
 - article 9, `p21b3` (p): one
 - article 10, `p26b4` (p): most
 - article 11, `p28b4` (p): consider
-- article 12, `p31b3` (p): the
-- article 13, `p32b3` (p): charles
 - article 14, `p34b3` (p): agodoriented
-- article 15, `p35b5` (small): greek paradeisas latin
-- article 19, `p44b3` (p): in
 
 ## Left out of the e-version – please confirm
 

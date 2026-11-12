@@ -1,6 +1,6 @@
 # Review – Issue 77 · May 2019
 
-PDF `May-2019.pdf`, 52 pages. **21 articles, 14,875 words, word match 99.88%** (second reading of the PDF; flag below 99%).
+PDF `May-2019.pdf`, 52 pages. **21 articles, 14,875 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -10,21 +10,21 @@ PDF `May-2019.pdf`, 52 pages. **21 articles, 14,875 words, word match 99.88%** (
 | 2 | 8–9 | From the Editorial Director | Quran and Hadith | 720 | 99.86% |
 | 3 | 10–11 | Action not Diction | The Way of the Faithful | 689 | 100.0% |
 | 4 | 12 | Helpers of Humankind | The Angels | 304 | 99.67% |
-| 5 | 13–14 | True Zikr | Remembering God | 788 | 99.87% |
+| 5 | 13–14 | True Zikr | Remembering God | 788 | 100.0% |
 | 6 | 15 | Spiritual and Physical Strength | Honesty and Hard Work | 398 | 99.75% |
-| 7 | 16 | Silent Teachers | Lessons from Nature | 351 | 99.72% |
+| 7 | 16 | Silent Teachers | Lessons from Nature | 351 | 100.0% |
 | 8 | 17 | God’s Worshipper, Man’s Well-wisher | The Gist of Islam | 347 | 100.0% |
-| 9 | 18–19 | From the Spiritual Tree | Building This World, or Preparing for the Hereafter? | 511 | 99.8% |
-| 10 | 20–22 | Towards Global Peace | The Meaning of Jihad | 1031 | 99.81% |
+| 9 | 18–19 | From the Spiritual Tree | Building This World, or Preparing for the Hereafter? | 511 | 100.0% |
+| 10 | 20–22 | Towards Global Peace | The Meaning of Jihad | 1031 | 99.9% |
 | 11 | 23–27 |  | An Interview with Dr. Saniyasnain Khan | 1429 | 100.0% |
 | 12 | 31–36 | Strongly Connected | Spirituality & Gratitude | 2503 | 99.92% |
 | 13 | 37–38 | For Introspection | A Comparison | 780 | 99.87% |
 | 14 | 39–40 | For Better Understanding | Clarification of a Misunderstanding | 705 | 99.72% |
 | 15 | 41 | Patience Unlimited | Unlimited Reward | 272 | 99.63% |
 | 16 | 42 | Qualification Required | Paradise and Its Inhabitants | 376 | 99.73% |
-| 17 | 43 | A Foundation Virtue | Respect for Humanity | 335 | 99.7% |
-| 18 | 44 | Maintain the Order | Reformed Behaviour | 359 | 99.72% |
-| 19 | 45 | Beneficial Always | The Way of Moderation | 350 | 99.71% |
+| 17 | 43 | A Foundation Virtue | Respect for Humanity | 335 | 100.0% |
+| 18 | 44 | Maintain the Order | Reformed Behaviour | 359 | 100.0% |
+| 19 | 45 | Beneficial Always | The Way of Moderation | 350 | 100.0% |
 | 20 | 46–47 | From The Scriptures | The Word of God | 706 | 100.0% |
 | 21 | 48–50 | Your Questions Answered | Ask Maulana | 951 | 100.0% |
 
@@ -34,11 +34,8 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 2, `p8b4` (p): during
 - article 4, `p12b8` (p): amongst
-- article 5, `p13b3` (p): the
 - article 6, `p15b3` (p): prophet
-- article 7, `p16b3` (p): the
-- article 9, `p18b4` (p): if
-- article 10, `p21b4` (p): wellbeing wellwishing
+- article 10, `p21b4` (p): wellbeing
 - article 12, `p31b3` (p): there
 - article 12, `p32b5` (p): godconsciousness
 - article 13, `p37b3` (p): ramazanthe
@@ -46,9 +43,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 14, `p39b7` (p): albukhari
 - article 15, `p41b3` (p): say
 - article 16, `p42b3` (p): what
-- article 17, `p43b3` (p): god
-- article 18, `p44b3` (p): do
-- article 19, `p45b3` (p): according
 
 ## Left out of the e-version – please confirm
 

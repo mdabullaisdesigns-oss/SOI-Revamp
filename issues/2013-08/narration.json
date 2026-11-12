@@ -1,7 +1,7 @@
 {
  "slug": "2013-08",
  "voice": "TTSMaker Gary (2560)",
- "chars": 72736,
+ "chars": 72768,
  "articles": {
   "islam-and-hinduism": {
    "title": "Islam and Hinduism",
@@ -846,6 +846,16 @@
     "Thanksgiving is the most comprehensive form of worship: gratefulness is the essence of the godly life.",
     "The best expression of that gratefulness is the expenditure of time and money in the way of God.",
     "It is God after all, who has given man the reason to worship Him and the means to do so."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2013-08-glossary.mp3",
+   "chars": 32,
+   "sentences": [
+    "Glossary",
+    "(sacred house of God)."
    ]
   }
  }

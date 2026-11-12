@@ -4995,6 +4995,590 @@
    "id": "ask-maulana",
    "words": 922,
    "n": 15
+  },
+  {
+   "title_raw": "Glossary",
+   "title": "Glossary",
+   "kicker": "",
+   "author": "",
+   "pages": [
+    49,
+    49
+   ],
+   "items": [
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "b",
+       "Al-Bukhari"
+      ],
+      [
+       "",
+       " 810-870 AD; Muhammad"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b1"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "b",
+       "Musnad; Musnad Ahmed"
+      ],
+      [
+       "",
+       " a"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b13"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "Al-Bukhari; Persian Islamic scholar who authored the "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " collection known as Sahih al-Bukhari, regarded as the most authentic collection of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ". "
+      ],
+      [
+       "b",
+       "As-Salaam"
+      ],
+      [
+       "",
+       " The Peace; The Source"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b2"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "collection of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " reports by Islamic scholar Ahmad bin Hanbal 780-855 AD. "
+      ],
+      [
+       "b",
+       "Muwatta"
+      ],
+      [
+       "",
+       " The first written collection of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " compiled and edited by Imam Malik ibn Anas 711-795 AD. of Peace and Security; one of the "
+      ],
+      [
+       "b",
+       "Queen of Sheba"
+      ],
+      [
+       "",
+       " Monarch of the names (attributes) of God. "
+      ],
+      [
+       "b",
+       "at-Tirmidhi"
+      ],
+      [
+       "",
+       " Sunan at-Tirmidhi;"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b14",
+      "p49b15",
+      "p49b3"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "ancient kingdom of Sheba or Saba. "
+      ],
+      [
+       "b",
+       "Quraysh"
+      ],
+      [
+       "",
+       " the dominant tribe of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " collection of Abu Isa Muhammad ibn `Isa at-Tirmidhi, Persian Islamic scholar died 892 AD; one of the six major "
+      ],
+      [
+       "i",
+       "hadith "
+      ],
+      [
+       "",
+       "collections. "
+      ],
+      [
+       "bi",
+       "fitna"
+      ],
+      [
+       "",
+       " persecution "
+      ],
+      [
+       "bi",
+       "Hadith"
+      ],
+      [
+       "",
+       " sayings and deeds of the"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b16",
+      "p49b4"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. "
+      ],
+      [
+       "b",
+       "Sahih Muslim"
+      ],
+      [
+       "",
+       " Famous "
+      ],
+      [
+       "i",
+       "Hadith"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b17"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "collection by Imam Muslim ibn al-Hajjaj 815-875 AD. "
+      ],
+      [
+       "bi",
+       "salam"
+      ],
+      [
+       "",
+       " peace "
+      ],
+      [
+       "b",
+       "Shariah; Shir’a"
+      ],
+      [
+       "",
+       " moral code and"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "Prophet of Islam. "
+      ],
+      [
+       "bi",
+       "halal"
+      ],
+      [
+       "",
+       " permissible "
+      ],
+      [
+       "bi",
+       "haram"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "forbidden "
+      ],
+      [
+       "b",
+       "Ibn Majah "
+      ],
+      [
+       "",
+       "824-887 AD; Islamic"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b5"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "religious law of Islam. "
+      ],
+      [
+       "bi",
+       "Sunnah "
+      ],
+      [
+       "",
+       "also"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "i",
+       "Sunnath"
+      ],
+      [
+       "",
+       " practice and scholar and compiler of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       ". "
+      ],
+      [
+       "bi",
+       "ijtihad "
+      ],
+      [
+       "",
+       "exercise of judgement with"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b19",
+      "p49b6"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "teachings of Prophet Muhammad. "
+      ],
+      [
+       "bi",
+       "taqlidi"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "traditional; imitative of past reasoning. "
+      ],
+      [
+       "bi",
+       "ijtihadi"
+      ],
+      [
+       "",
+       " creative reinterpretation "
+      ],
+      [
+       "b",
+       "Jihad "
+      ],
+      [
+       "",
+       "struggle in the way of God. "
+      ],
+      [
+       "bi",
+       "jizyah"
+      ],
+      [
+       "",
+       " punitive tax "
+      ],
+      [
+       "b",
+       "Kabah; Kaaba"
+      ],
+      [
+       "",
+       " the sacred house of"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b20",
+      "p49b7"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "precedent. "
+      ],
+      [
+       "bi",
+       "Ulema"
+      ],
+      [
+       "",
+       " also ulama; religious scholars. "
+      ],
+      [
+       "bi",
+       "Ummah"
+      ],
+      [
+       "",
+       " religious community; followers of a prophet. "
+      ],
+      [
+       "b",
+       "Ummul Kitab"
+      ],
+      [
+       "",
+       " The Essence of the God built originally by prophets Abraham and Ishmael in Makkah"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21",
+      "p49b22",
+      "p49b8"
+     ]
+    },
+    {
+     "k": "bio",
+     "runs": [
+      [
+       "",
+       "Book—Quran. "
+      ],
+      [
+       "bi",
+       "Zulm"
+      ],
+      [
+       "",
+       " oppression"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b23"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "",
+       "(present day Mecca)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "b",
+       "Kanzul Ummal"
+      ],
+      [
+       "",
+       " "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " collection by Islamic scholar Ali ibn Abd-al-Malik al-Hindi. "
+      ],
+      [
+       "b",
+       "Luke"
+      ],
+      [
+       "",
+       " One of the books of the New Testament; the Book of Acts. "
+      ],
+      [
+       "b",
+       "Madinah "
+      ],
+      [
+       "",
+       "Medina; also called Yathrib during the time of Prophet Muhammad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9",
+      "p49b10",
+      "p49b11"
+     ]
+    },
+    {
+     "k": "footnote",
+     "runs": [
+      [
+       "b",
+       "Madinat ul-Rasul; Madinat ul-Nabi"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "The City of the Prophet."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    },
+    {
+     "k": "footnote",
+     "runs": [
+      [
+       "b",
+       "Makkah"
+      ],
+      [
+       "",
+       " Mecca"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    },
+    {
+     "k": "small",
+     "runs": [
+      [
+       "b",
+       "Makkan"
+      ],
+      [
+       "",
+       " from or of Makkah (Mecca). "
+      ],
+      [
+       "bi",
+       "momin "
+      ],
+      [
+       "",
+       "Arabic for true believer."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    }
+   ],
+   "type": "glossary",
+   "id": "glossary",
+   "words": 312,
+   "n": 16
   }
  ]
 }

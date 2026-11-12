@@ -61,16 +61,8 @@
     16
    ],
    "words": 363,
-   "match": 99.72,
-   "missing": [
-    {
-     "item": "p16b2",
-     "kind": "p",
-     "words": [
-      "when"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -93,16 +85,8 @@
     20
    ],
    "words": 943,
-   "match": 99.89,
-   "missing": [
-    {
-     "item": "p18b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -145,16 +129,8 @@
     24
    ],
    "words": 618,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p23b2",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -185,16 +161,8 @@
     32
    ],
    "words": 2314,
-   "match": 99.96,
-   "missing": [
-    {
-     "item": "p27b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -237,14 +205,12 @@
     38
    ],
    "words": 1570,
-   "match": 99.81,
+   "match": 99.94,
    "missing": [
     {
      "item": "p35b4",
      "kind": "p",
      "words": [
-      "selfanalysis",
-      "actions",
       "selfpurification"
      ]
     }
@@ -259,16 +225,8 @@
     41
    ],
    "words": 1005,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p39b2",
-     "kind": "p",
-     "words": [
-      "according"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -279,16 +237,8 @@
     42
    ],
    "words": 276,
-   "match": 99.64,
-   "missing": [
-    {
-     "item": "p42b3",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -315,7 +265,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16932,

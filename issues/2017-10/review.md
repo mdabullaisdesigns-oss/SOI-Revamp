@@ -1,6 +1,6 @@
 # Review – Issue 58 · October 2017
 
-PDF `October-2017.pdf`, 52 pages. **20 articles, 15,646 words, word match 99.95%** (second reading of the PDF; flag below 99%).
+PDF `October-2017.pdf`, 52 pages. **20 articles, 15,646 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -9,13 +9,13 @@ PDF `October-2017.pdf`, 52 pages. **20 articles, 15,646 words, word match 99.95%
 | 1 | 5–6 | From Maulana’s Desk | Instant Triple Talaq Is Un-Islamic | 719 | 100.0% |
 | 2 | 7–8 | Final Warning | The End of History Is Near | 659 | 100.0% |
 | 3 | 9–10 | God Worshipping, Man’s Well-wishing | The Vision of Islam | 723 | 100.0% |
-| 4 | 11–13 | The Existence of Man is Proof of the Existence of God. | The Existence of God | 1121 | 99.91% |
+| 4 | 11–13 | The Existence of Man is Proof of the Existence of God. | The Existence of God | 1121 | 100.0% |
 | 5 | 14 | Truth Will Prevail | When the Lion Speaks | 355 | 99.72% |
 | 6 | 15–18 | Towards Global Peace | Avoiding Confrontation | 1621 | 100.0% |
 | 7 | 19–20 | Stepping Stones to Success | The Psychology of Super-Achievers | 440 | 100.0% |
-| 8 | 21 | Just Don’t Lose Hope | No End to Possibilities | 389 | 99.74% |
+| 8 | 21 | Just Don’t Lose Hope | No End to Possibilities | 389 | 100.0% |
 | 9 | 22–23 | To Achieve the Useful | Avoiding the Useless | 619 | 100.0% |
-| 10 | 24–25 | Seek its Nectar | Garden of Spirituality | 694 | 99.86% |
+| 10 | 24–25 | Seek its Nectar | Garden of Spirituality | 694 | 100.0% |
 | 11 | 26–27 | From the Spiritual Tree | Love of God | 650 | 100.0% |
 | 12 | 28–29 | Real Empowerment | True Progress for Women | 684 | 100.0% |
 | 13 | 30–32 | Assured Results | Trusting Human Nature | 1266 | 99.92% |
@@ -23,7 +23,7 @@ PDF `October-2017.pdf`, 52 pages. **20 articles, 15,646 words, word match 99.95%
 | 15 | 34–35 | Love, Despite Hatred | Value of Education | 556 | 100.0% |
 | 16 | 36–38 | Highest Virtue | The Importance of Patience in Islam | 1235 | 100.0% |
 | 17 | 39–40 | Sincerity in Character | How to Become Beautiful | 607 | 99.84% |
-| 18 | 41–42 | Compulsory Eviction | Death | 553 | 99.82% |
+| 18 | 41–42 | Compulsory Eviction | Death | 553 | 100.0% |
 | 19 | 43–44 | From The Scriptures | The Word of God | 773 | 100.0% |
 | 20 | 45–48 | Your Questions Answered | Ask Maulana | 1532 | 100.0% |
 
@@ -31,14 +31,10 @@ PDF `October-2017.pdf`, 52 pages. **20 articles, 15,646 words, word match 99.95%
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
-- article 4, `p11b7` (p): if
 - article 5, `p14b3` (p): why
-- article 8, `p21b3` (p): the
-- article 10, `p24b3` (p): just
 - article 13, `p30b3` (p): during
 - article 14, `p33b3` (p): within
 - article 17, `p39b4` (p): herbert
-- article 18, `p41b3` (p): of
 
 ## Left out of the e-version – please confirm
 

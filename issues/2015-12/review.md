@@ -1,6 +1,6 @@
 # Review – Issue 36 · December 2015
 
-PDF `December-2015.pdf`, 52 pages. **20 articles, 14,332 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `December-2015.pdf`, 52 pages. **20 articles, 14,332 words, word match 99.94%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -13,17 +13,17 @@ PDF `December-2015.pdf`, 52 pages. **20 articles, 14,332 words, word match 99.9%
 | 5 | 16 | The Beginning of Reformation | Power of an Individual | 356 | 99.72% |
 | 6 | 17–19 | Prophet of God | Lessons from Jesus Christ | 946 | 99.89% |
 | 7 | 20–21 | Pomposity or Austerity | A Good Start | 535 | 99.81% |
-| 8 | 22–23 | An Evil Breeding Evils | Idleness | 534 | 99.81% |
-| 9 | 24–25 | A Step Into The Hereafter | On Death’s Doorstep | 524 | 99.81% |
+| 8 | 22–23 | An Evil Breeding Evils | Idleness | 534 | 100.0% |
+| 9 | 24–25 | A Step Into The Hereafter | On Death’s Doorstep | 524 | 100.0% |
 | 10 | 26 | From the Spiritual Tree | Thankfulness | 354 | 100.0% |
 | 11 | 27–29 | Scientifically Speaking | Predicting the Afterlife | 864 | 99.88% |
 | 12 | 30–31 | Master Yourself | Don’t Be a Slave to Your Desires | 552 | 100.0% |
-| 13 | 32 | Seek an Unlimited Reward | Patience: Source of Certainty | 278 | 99.64% |
+| 13 | 32 | Seek an Unlimited Reward | Patience: Source of Certainty | 278 | 100.0% |
 | 14 | 33 | The World is Your Supporter | Living in Dichotomy | 370 | 99.73% |
-| 15 | 34–36 | Immortal Soul | Life After Death | 1093 | 99.91% |
+| 15 | 34–36 | Immortal Soul | Life After Death | 1093 | 100.0% |
 | 16 | 37–38 | Man's Future Abode | Mars or Paradise? | 517 | 99.81% |
 | 17 | 39–43 | The Art of Living | Simple Living, High Thinking | 1942 | 100.0% |
-| 18 | 44 | Pleasant alongside Unpleasant | The Order of Nature | 387 | 99.74% |
+| 18 | 44 | Pleasant alongside Unpleasant | The Order of Nature | 387 | 100.0% |
 | 19 | 45–46 | From The Scriptures | The Word of God | 578 | 100.0% |
 | 20 | 47–49 | Your Questions Answered | Ask Maulana | 1008 | 100.0% |
 
@@ -37,14 +37,9 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 5, `p16b7` (p): gustave
 - article 6, `p17b3` (p): we
 - article 7, `p20b10` (p): here
-- article 8, `p22b7` (p): the
-- article 9, `p24b3` (p): of
 - article 11, `p27b5` (p): presentation
-- article 13, `p32b3` (p): islam
 - article 14, `p33b3` (p): president
-- article 15, `p34b3` (p): consciousness
 - article 16, `p37b3` (p): defence
-- article 18, `p44b5` (p): try
 
 ## Left out of the e-version – please confirm
 

@@ -82,16 +82,8 @@
     15
    ],
    "words": 392,
-   "match": 99.74,
-   "missing": [
-    {
-     "item": "p15b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -218,16 +210,8 @@
     40
    ],
    "words": 399,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p40b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -284,6 +268,33 @@
    "words": 653,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 18,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    48,
+    49
+   ],
+   "words": 686,
+   "match": 99.71,
+   "missing": [
+    {
+     "item": "p48b5",
+     "kind": "small",
+     "words": [
+      "al"
+     ]
+    },
+    {
+     "item": "p48b6",
+     "kind": "small",
+     "words": [
+      "bukhari"
+     ]
+    }
+   ]
   }
  ],
  "overall_match": 99.93,
@@ -296,5 +307,5 @@
   }
  ],
  "pdf_words": 15726,
- "article_words": 13839
+ "article_words": 14525
 }

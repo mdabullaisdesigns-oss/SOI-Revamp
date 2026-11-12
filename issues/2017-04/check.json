@@ -10,17 +10,8 @@
     7
    ],
    "words": 891,
-   "match": 99.78,
-   "missing": [
-    {
-     "item": "p5b5",
-     "kind": "p",
-     "words": [
-      "in",
-      "full"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 2,
@@ -63,26 +54,8 @@
     12
    ],
    "words": 680,
-   "match": 99.26,
-   "missing": [
-    {
-     "item": "p11b3",
-     "kind": "p",
-     "words": [
-      "of"
-     ]
-    },
-    {
-     "item": "p12b7",
-     "kind": "p",
-     "words": [
-      "an",
-      "equally",
-      "difficult",
-      "price"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -105,16 +78,8 @@
     17
    ],
    "words": 347,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p17b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -225,16 +190,8 @@
     35
    ],
    "words": 637,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p34b3",
-     "kind": "p",
-     "words": [
-      "helen"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -245,16 +202,8 @@
     37
    ],
    "words": 645,
-   "match": 99.84,
-   "missing": [
-    {
-     "item": "p36b7",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 16,
@@ -285,16 +234,8 @@
     42
    ],
    "words": 326,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p42b6",
-     "kind": "p",
-     "words": [
-      "after"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -321,7 +262,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16467,

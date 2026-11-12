@@ -1,7 +1,7 @@
 {
  "slug": "2014-12",
  "voice": "TTSMaker Gary (2560)",
- "chars": 77565,
+ "chars": 77605,
  "articles": {
   "targeted-therapy": {
    "title": "Targeted Therapy",
@@ -109,12 +109,12 @@
    ]
   },
   "the-culture-of-peace-part-vi": {
-   "title": "The Culture of Peace — Part Vi",
+   "title": "The Culture of Peace — Part VI",
    "status": "pending",
    "file": "SOI-2014-12-the-culture-of-peace-part-vi.mp3",
    "chars": 17316,
    "sentences": [
-    "The Culture of Peace — Part Vi",
+    "The Culture of Peace — Part VI",
     "Violence, a Result of Frustration",
     "Violence results from a sense of being deprived, while peace is the result of a sense of attainment or achievement.",
     "People who think they have been deprived or robbed of something of their's by others always remain immersed in negative thinking.",
@@ -980,6 +980,17 @@
     "The material things provided to him for the purposes of trial come to be considered by him as dependable supports, and he feels sure that he will come to no harm as he stands on firm ground.",
     "But this is his greatest misconception.",
     "On the Day of Judgment, when these ephemeral supports have left him, it will become plain that he had rejected the truth all along due to haughtiness, using the many words at his disposal to justify his refusal of truth on false grounds of principle."
+   ]
+  },
+  "glossary": {
+   "title": "Glossary",
+   "status": "pending",
+   "file": "SOI-2014-12-glossary.mp3",
+   "chars": 40,
+   "sentences": [
+    "Glossary",
+    "(present-day Mecca).",
+    "(of God)."
    ]
   }
  }

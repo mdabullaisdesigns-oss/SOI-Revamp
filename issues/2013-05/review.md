@@ -1,45 +1,39 @@
 # Review – Issue 5 · May 2013
 
-PDF `May-2013.pdf`, 52 pages. **17 articles, 13,839 words, word match 99.91%** (second reading of the PDF; flag below 99%).
+PDF `May-2013.pdf`, 52 pages. **17 articles, 13,839 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
 | # | Pages | Section / kicker | Title | Words | Match |
 |---|---|---|---|---|---|
 | 1 | 6–8 | From the Chief Editor’s Desk | Non-Violence—a Way of Life | 1064 | 99.91% |
-| 2 | 9–11 |  | Truth—an Analysis | 1117 | 99.91% |
+| 2 | 9–11 |  | Truth—an Analysis | 1117 | 100.0% |
 | 3 | 12–14 |  | The Concept of Tawheed | 1012 | 99.9% |
-| 4 | 15 |  | A Price for Everything | 267 | 99.63% |
+| 4 | 15 |  | A Price for Everything | 267 | 100.0% |
 | 5 | 16–18 |  | Cultural Version of Islam | 857 | 100.0% |
-| 6 | 19 |  | Accepting Defeat | 296 | 99.66% |
-| 7 | 20–21 |  | A Sublime Character | 602 | 99.83% |
+| 6 | 19 |  | Accepting Defeat | 296 | 100.0% |
+| 7 | 20–21 |  | A Sublime Character | 602 | 100.0% |
 | 8 | 22–24 |  | The Issue: Abuse of the Prophet | 1014 | 99.9% |
 | 9 | 25–31 |  | The Concept of Biological Evolution | 2320 | 100.0% |
 | 10 | 32 |  | Freedom in the Creation Plan of God | 351 | 100.0% |
-| 11 | 33–34 |  | Assalamu Alaikum | 567 | 99.82% |
+| 11 | 33–34 |  | Assalamu Alaikum | 567 | 100.0% |
 | 12 | 35–37 |  | Social Harmony | 1005 | 99.9% |
 | 13 | 38 |  | The Most Important Part of the Quran | 404 | 99.75% |
 | 14 | 39–40 |  | Is Science in Pursuit of God? | 574 | 99.83% |
-| 15 | 41 |  | Spiritual Progress | 346 | 99.71% |
+| 15 | 41 |  | Spiritual Progress | 346 | 100.0% |
 | 16 | 42–44 |  | The Word of God | 1128 | 100.0% |
-| 17 | 45–50 |  | Ask Maulana | 915 | 100.0% |
+| 17 | 45–48 |  | Ask Maulana | 915 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 1, `p6b3` (p): nonviolence
-- article 2, `p9b2` (p): it
 - article 3, `p12b2` (p): fundamental
-- article 4, `p15b2` (p): there
-- article 6, `p19b2` (p): in
-- article 7, `p20b2` (p): eastern
 - article 8, `p22b2` (p): muslims
-- article 11, `p33b2` (p): islam
 - article 12, `p35b2` (p): once
 - article 13, `p38b3` (p): while
 - article 14, `p39b2` (p): from
-- article 15, `p41b2` (p): the
 
 ## Left out of the e-version – please confirm
 
@@ -52,11 +46,11 @@ Nothing here is in any article tab. Say if any of it should be included.
 | 3 | outside any article | 25 | SPIRIT OF ISLAM |
 | 4 | outside any article | 74 | SPIRIT OF ISLAM |
 | 5 | non-article page: Contents | 139 | CONTENTS |
+| 49 | non-article page: Subscribe | 153 | subscribe |
+| 50 | non-article page: Subscribe | 103 | The Quran |
 | 51 | outside any article | 5 | This page left blank intentionally |
 | 52 | outside any article | 70 | Spirit Of Islam / Issue 5 / May 2013 / 52 Pages / License No: WPP-284  |
 | 48 | advert or notice box after the article | 36 | SPIRIT OF ISLAM |
-| 49 | advert or notice box after the article | 153 | subscribe |
-| 50 | advert or notice box after the article | 103 | The Quran |
 
 ## Text of the PDF that is in no article and not on the list above
 

@@ -11,35 +11,7 @@
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "4",
-    "overflow": 0
-   }
-  },
-  "768": {
-   "errors": [],
-   "tabs": 17,
-   "bad_tabs": [],
-   "overflow_closed": 0,
-   "overflow_open": 0,
-   "gotop": true,
-   "quiz": {
-    "answered": 10,
-    "finished": true,
-    "score": "1",
-    "overflow": 0
-   }
-  },
-  "390": {
-   "errors": [],
-   "tabs": 17,
-   "bad_tabs": [],
-   "overflow_closed": 0,
-   "overflow_open": 0,
-   "gotop": true,
-   "quiz": {
-    "answered": 10,
-    "finished": true,
-    "score": "3",
+    "score": "2",
     "overflow": 0
    }
   },
@@ -53,7 +25,7 @@
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "1",
+    "score": "0",
     "overflow": 0
    }
   }

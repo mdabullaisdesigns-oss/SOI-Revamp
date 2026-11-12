@@ -90,16 +90,8 @@
     19
    ],
    "words": 1483,
-   "match": 99.93,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "islam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -110,16 +102,8 @@
     20
    ],
    "words": 396,
-   "match": 99.75,
-   "missing": [
-    {
-     "item": "p20b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 7,
@@ -162,16 +146,8 @@
     24
    ],
    "words": 668,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p23b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 10,
@@ -182,16 +158,8 @@
     25
    ],
    "words": 415,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p25b8",
-     "kind": "p",
-     "words": [
-      "everything"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -202,16 +170,8 @@
     27
    ],
    "words": 489,
-   "match": 99.8,
-   "missing": [
-    {
-     "item": "p26b6",
-     "kind": "p",
-     "words": [
-      "ismeazam"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -222,15 +182,8 @@
     30
    ],
    "words": 1094,
-   "match": 99.73,
+   "match": 99.82,
    "missing": [
-    {
-     "item": "p28b3",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    },
     {
      "item": "p29b2",
      "kind": "p",
@@ -256,16 +209,8 @@
     32
    ],
    "words": 532,
-   "match": 99.81,
-   "missing": [
-    {
-     "item": "p31b3",
-     "kind": "p",
-     "words": [
-      "one"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -276,16 +221,8 @@
     36
    ],
    "words": 1229,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p33b11",
-     "kind": "p",
-     "words": [
-      "chapter"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -356,7 +293,7 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
+ "overall_match": 99.95,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 24346,

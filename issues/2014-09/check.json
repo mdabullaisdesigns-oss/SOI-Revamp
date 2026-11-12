@@ -34,16 +34,8 @@
     15
    ],
    "words": 1293,
-   "match": 99.92,
-   "missing": [
-    {
-     "item": "p12b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 4,
@@ -54,16 +46,8 @@
     17
    ],
    "words": 591,
-   "match": 99.83,
-   "missing": [
-    {
-     "item": "p16b3",
-     "kind": "p",
-     "words": [
-      "what"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -74,16 +58,8 @@
     18
    ],
    "words": 323,
-   "match": 99.69,
-   "missing": [
-    {
-     "item": "p18b7",
-     "kind": "p",
-     "words": [
-      "it"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -106,16 +82,8 @@
     26
    ],
    "words": 367,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p26b3",
-     "kind": "p",
-     "words": [
-      "science"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -126,16 +94,8 @@
     29
    ],
    "words": 1046,
-   "match": 99.9,
-   "missing": [
-    {
-     "item": "p27b4",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 9,
@@ -158,16 +118,8 @@
     32
    ],
    "words": 369,
-   "match": 99.73,
-   "missing": [
-    {
-     "item": "p32b3",
-     "kind": "p",
-     "words": [
-      "there"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 11,
@@ -178,16 +130,8 @@
     34
    ],
    "words": 754,
-   "match": 99.87,
-   "missing": [
-    {
-     "item": "p33b2",
-     "kind": "p",
-     "words": [
-      "dr"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 12,
@@ -218,16 +162,8 @@
     37
    ],
    "words": 313,
-   "match": 99.68,
-   "missing": [
-    {
-     "item": "p37b2",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -270,16 +206,8 @@
     45
    ],
    "words": 1869,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p41b3",
-     "kind": "p",
-     "words": [
-      "man"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 17,
@@ -290,16 +218,8 @@
     46
    ],
    "words": 330,
-   "match": 99.7,
-   "missing": [
-    {
-     "item": "p46b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -312,11 +232,54 @@
    "words": 655,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 19,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    49,
+    49
+   ],
+   "words": 384,
+   "match": 98.96,
+   "missing": [
+    {
+     "item": "p49b16",
+     "kind": "bio",
+     "words": [
+      "reconcili"
+     ]
+    },
+    {
+     "item": "p49b17",
+     "kind": "bio",
+     "words": [
+      "ation"
+     ]
+    },
+    {
+     "item": "p49b24",
+     "kind": "bio",
+     "words": [
+      "altheologian"
+     ]
+    },
+    {
+     "item": "p49b26",
+     "kind": "bio",
+     "words": [
+      "dawsi"
+     ]
+    }
+   ]
   }
  ],
- "overall_match": 99.92,
- "flagged": [],
+ "overall_match": 99.96,
+ "flagged": [
+  19
+ ],
  "unplaced": [],
  "pdf_words": 16313,
- "article_words": 14717
+ "article_words": 15101
 }

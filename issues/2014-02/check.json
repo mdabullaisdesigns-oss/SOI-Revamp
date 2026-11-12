@@ -61,16 +61,8 @@
     19
    ],
    "words": 673,
-   "match": 99.85,
-   "missing": [
-    {
-     "item": "p18b3",
-     "kind": "p",
-     "words": [
-      "mt"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 5,
@@ -81,16 +73,8 @@
     21
    ],
    "words": 423,
-   "match": 99.76,
-   "missing": [
-    {
-     "item": "p20b4",
-     "kind": "p",
-     "words": [
-      "the"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 6,
@@ -113,16 +97,8 @@
     25
    ],
    "words": 731,
-   "match": 99.86,
-   "missing": [
-    {
-     "item": "p24b3",
-     "kind": "p",
-     "words": [
-      "in"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 8,
@@ -217,16 +193,8 @@
     41
    ],
    "words": 1978,
-   "match": 99.95,
-   "missing": [
-    {
-     "item": "p36b3",
-     "kind": "p",
-     "words": [
-      "what"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 14,
@@ -271,11 +239,23 @@
    "words": 786,
    "match": 100.0,
    "missing": []
+  },
+  {
+   "n": 17,
+   "id": "glossary",
+   "title": "Glossary",
+   "pages": [
+    48,
+    48
+   ],
+   "words": 277,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.96,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15214,
- "article_words": 13708
+ "article_words": 13985
 }
