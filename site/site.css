@@ -156,3 +156,8 @@ a { color: var(--soi-teal); }
 .soi-q-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
 .soi-home-quote { margin-top: 44px; }
 @media (prefers-reduced-motion: reduce) { .soi-q-toast { transition: none; } }
+@media (max-width: 360px) {
+  .soi-brand { font-size: .98rem; gap: 7px; }
+  .soi-nav { gap: 0; }
+  .soi-nav a { padding: 8px 6px; font-size: .8rem; }
+}

@@ -27,3 +27,11 @@ Re-run stages 2–6 afterwards.
 
 ## Website
 `python3 site/build_site.py` writes the static site to `dist/` (home, archive, one page per issue, Pagefind search with one record per article, redirects for old `?page_id=` links). Publish with Cloudflare Pages: build command `pip install "pagefind[bin]" && python3 site/build_site.py`, output directory `dist`.
+
+## Quizzes
+`python3 pipeline/quiz_tools.py digest <slugs>` prints ten article passages per issue; questions are written in `quiz-src/*.txt`
+(`## slug`, `@ article-id`, `Q`, `* right :: why`, three `- wrong`, `R`) and `quiz_tools.py compile <file>` writes each `quiz.json`.
+
+## Quotes library and preview
+`site/quotes.py` collects every closing reflection and In Focus quotation into `/quotes/` (topics, find, year, quote of the day, share as image / WhatsApp / copy).
+`.github/workflows/soi-site.yml` builds the site and publishes it to the Cloudflare Pages project `soi-preview` (needs the `CLOUDFLARE_API_TOKEN` secret).
