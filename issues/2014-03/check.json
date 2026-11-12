@@ -234,20 +234,11 @@
     48
    ],
    "words": 312,
-   "match": 99.36,
-   "missing": [
-    {
-     "item": "p48b1",
-     "kind": "small",
-     "words": [
-      "asjinn",
-      "sijistani"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.96,
+ "overall_match": 99.97,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 15968,

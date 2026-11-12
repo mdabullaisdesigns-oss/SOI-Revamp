@@ -261,9 +261,24 @@
     51
    ],
    "missing": []
+  },
+  {
+   "n": 21,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 430,
+   "audio": false,
+   "match": 98.6,
+   "pages": [
+    43,
+    45
+   ],
+   "missing": [
+    "hindi articles click here click here"
+   ]
   }
  ],
- "overall_match": 99.89,
+ "overall_match": 99.84,
  "flagged": [],
  "unplaced": [],
  "warnings": [],
@@ -316,28 +331,28 @@
    "of": 136,
    "starts": "if god exists then why is there suffering this question has shaken faiths for",
    "expected": false
-  },
-  {
-   "page": 43,
-   "words": 138,
-   "of": 138,
-   "starts": "cps newsletter note kindly open the magazine in a pdf reader for the links",
-   "expected": false
-  },
-  {
-   "page": 44,
-   "words": 168,
-   "of": 168,
-   "starts": "visit of henry martyn institute students to cps international on 18 november 2025 we",
-   "expected": false
-  },
-  {
-   "page": 45,
-   "words": 179,
-   "of": 179,
-   "starts": "visitors including maulana syed iqbal umri khateeb israrul hasan umri and mr asif khan",
-   "expected": true
   }
  ],
- "left_out": []
+ "left_out": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 45: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 45: note about the PDF / button label (its link is kept)"
+  }
+ ]
 }

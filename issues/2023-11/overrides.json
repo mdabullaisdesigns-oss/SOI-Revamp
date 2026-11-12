@@ -1,0 +1,22 @@
+{
+ "join_items": [
+  [
+   "p28b7",
+   "p28b8"
+  ]
+ ],
+ "text_fixes": [
+  [
+   "Y O U R L O R D",
+   "YOUR LORD"
+  ]
+ ],
+ "accepted": {
+  "unplaced": [
+   "unity and harmony o ne"
+  ],
+  "articles": {
+   "the-culture-of-materialism": "closing quote is letter-spaced in the PDF; words are the same"
+  }
+ }
+}

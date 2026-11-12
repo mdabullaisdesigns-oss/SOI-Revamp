@@ -55,22 +55,6 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 None.
 
-## Pieces the rules could not classify (kept, shown as a small note)
-
-- article 18, page 48: Abraham also Ibrahim; prophet and Jabal al-Noor near Makkah where prophet Muhammad received the first revelati
-- article 18, page 48: patriarch of Islam, Christianity and Judaism. He was the first pioneer of Islam and the original founder-build
-- article 18, page 48: where the Treaty of Hudaibiya was made between Muhammad representing the state of Medina and the Quraysh tribe
-- article 18, page 48: the principle of non-violence, one of the cardinal virtues of major Indian religions. Aisha (612–678); daughte
-- article 18, page 48: wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. Al-Bukhari; I
-- article 18, page 48: originally by prophets Abraham and Ismael in present day Mecca (Makkah). Musnad Ahmed a collection of Hadith r
-- article 18, page 48: service'; one of the central messages of the Bhagavad Gita—a key religious text of Hinduism. God. Qiblah direc
-- article 18, page 48: movements and words to be followed while offering salah (prayer). Sahih Al-Bukhari Hadith collection by Imam A
-- article 18, page 48: fast; one of the two festivals of Islam; It celebrates the conclusion of the month of fasting — Ramazan. Fatwa
-- article 18, page 48: biography. status-quoism accepting the political sent to the prophets with His divine message. Hadith sayings 
-- article 18, page 48: status quo and at the same time availing of opportunities in non-political fields. Tafsir commentary of the Qu
-- article 18, page 48: of Islam. Hajira also Hagar; wife of prophet Abraham who bore his first son Ismael. Hijaz desert region in wes
-- article 18, page 48: Quran by famous Islamic scholar Al-Qurtubi. present day Saudi Arabia where the The Urantia Book a spiritual an
-
 ## Automatic text adjustments
 
 Drop-cap openings set in capitals, put back to normal case: 'IF' -> 'If'; 'THE' -> 'The'; 'THE' -> 'The'; 'THE H' -> 'The H'; 'ON D' -> 'On D'; 'NOVEMBER' -> 'November'; 'ONE' -> 'One'; 'THE' -> 'The'; 'WHEN' -> 'When'; 'A TREE' -> 'A tree'; 'THIS' -> 'This'; 'BY' -> 'By'; 'SPIRITUALITY' -> 'Spirituality'; 'THE Q' -> 'The Q'.

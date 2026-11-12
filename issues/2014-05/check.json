@@ -222,26 +222,11 @@
     48
    ],
    "words": 461,
-   "match": 99.57,
-   "missing": [
-    {
-     "item": "p48b18",
-     "kind": "small",
-     "words": [
-      "alcompanion"
-     ]
-    },
-    {
-     "item": "p48b19",
-     "kind": "small",
-     "words": [
-      "malik"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.98,
+ "overall_match": 99.99,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16514,

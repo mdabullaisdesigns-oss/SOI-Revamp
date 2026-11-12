@@ -33,8 +33,12 @@ def prepare(slug):
     base = os.path.join("issues", slug)
     issue = json.load(open(os.path.join(base, "issue.json"), encoding="utf-8"))
     audio = json.load(open(os.path.join(base, "audio.json"), encoding="utf-8")) if os.path.exists(os.path.join(base, "audio.json")) else {}
+    audio = {k: v for k, v in audio.items() if not v.get("flag") and not v.get("error")}   # mismatched recordings are re-narrated
     out, total = {}, 0
     for a in issue["articles"]:
+        if a.get("audio") is False:                  # decided: no narration (glossary, CPS feature, added newsletter)
+            out[a["id"]] = {"title": a["title"], "status": "none", "file": "", "chars": 0, "sentences": []}
+            continue
         sents = [a["title"]]
         thought = []
         for i in a["items"]:

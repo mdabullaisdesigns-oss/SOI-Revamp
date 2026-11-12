@@ -5047,7 +5047,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5055,105 +5055,54 @@
       ],
       [
        "",
-       "(624–692);"
+       "(624–692); companion of the Prophet Muhammad; first Muslim born in Madinah after the Hijrath."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b1"
+      "p49b1",
+      "p49b2"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "collection known as "
-      ],
-      [
-       "i",
-       "Musnad Ahmad"
-      ],
-      [
-       "",
-       ". companion of the Prophet "
-      ],
-      [
-       "bi",
-       "Jinn"
-      ],
-      [
-       "",
-       " A living creation of God made Muhammad; first Muslim born in Madinah after the Hijrath. "
-      ],
       [
        "b",
        "Aisha"
       ],
       [
        "",
-       " (612–678); daughter of Abu"
+       " (612–678); daughter of Abu Bakr, wife of Prophet Muhammad."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b16",
-      "p49b2"
+      "p49b2",
+      "p49b3"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "from fire; "
-      ],
-      [
-       "i",
-       "Jinns"
-      ],
-      [
-       "",
-       " have free-will just like mankind. "
-      ],
-      [
-       "b",
-       "Kabah"
-      ],
-      [
-       "",
-       " the sacred house of God built Bakr, wife of Prophet Muhammad. "
-      ],
       [
        "b",
        "Akbar"
       ],
       [
        "",
-       " (1542–1605), Mughal dynasty"
+       " (1542–1605), Mughal dynasty Emperor in India from 1556-1605."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b17",
-      "p49b3"
+      "p49b3",
+      "p49b4"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "originally by prophets Abraham and Ismael in Makkah (Mecca). Emperor in India from 1556-1605. "
-      ],
-      [
-       "bi",
-       "Kalima"
-      ],
-      [
-       "",
-       " The Islamic creed—‘There is "
-      ],
       [
        "bi",
        "Akhirah"
@@ -5168,8 +5117,17 @@
       ],
       [
        "",
-       " ; The Hereafter "
-      ],
+       " ; The Hereafter"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Al-Deen"
@@ -5184,76 +5142,43 @@
       ],
       [
        "",
-       " (religion); religious"
+       " (religion); religious ideology."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b18",
-      "p49b4"
+      "p49b4",
+      "p49b5"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "no god but God, Muhammad is the messenger of God.’ ideology. "
-      ],
-      [
-       "bi",
-       "Khilafat-e-Rashida"
-      ],
-      [
-       "",
-       " also Rashidun "
-      ],
       [
        "b",
        "Babar"
       ],
       [
        "",
-       " (1483-1530) 16th-century ruler Caliphate or \"Rightly Guided\" caliphs (632–661 AD) is the collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali). "
-      ],
-      [
-       "bi",
-       "khushu‘ "
-      ],
-      [
-       "",
-       "divine consciousness; God"
+       " (1483-1530) 16th-century ruler of the Indian subcontinent and founder of the Mughal Empire."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b19",
       "p49b5",
-      "p49b20"
+      "p49b6"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of the Indian subcontinent and founder of the Mughal Empire. "
-      ],
       [
        "b",
        "Bhagwan Das, Dr."
       ],
       [
        "",
-       " Dr. Bhagwan Das (January 12, 1869 – September 18, 1958) was an Indian Theosophist and public figure. "
-      ],
-      [
-       "b",
-       "Bukhari"
-      ],
-      [
-       "",
-       " (810–870); Muhammad"
+       " Dr. Bhagwan Das (January 12, 1869 – September 18, 1958) was an Indian Theosophist and public figure."
       ]
      ],
      "page": 49,
@@ -5263,27 +5188,15 @@
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "consciousness. "
-      ],
-      [
-       "bi",
-       "Minhaj"
+       "b",
+       "Bukhari"
       ],
       [
        "",
-       " the path or method. Al-Bukhari; Persian Islamic scholar "
-      ],
-      [
-       "bi",
-       "mufti"
-      ],
-      [
-       "",
-       " Islamic scholar who is an who authored the Hadith collection known as "
+       " (810–870); Muhammad Al-Bukhari; Persian Islamic scholar who authored the Hadith collection known as "
       ],
       [
        "i",
@@ -5291,38 +5204,36 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7",
+      "p49b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "dark energy"
       ],
       [
        "",
-       " — energy embedded in"
+       " — energy embedded in the space surface of the universe that causes the universe to expand faster and faster as it ages."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b21",
-      "p49b8"
+      "p49b8",
+      "p49b9"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "interpreter or expounder of Islamic law. "
-      ],
-      [
-       "b",
-       "quantum foam "
-      ],
-      [
-       "",
-       "abstraction in the space surface of the universe that causes the universe to expand faster and faster as it ages. "
-      ],
       [
        "bi",
        "Darul Ifta"
@@ -5337,29 +5248,7 @@
       ],
       [
        "",
-       " from"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b22",
-      "p49b9"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "quantum mechanics conceptual­ ised as the foundation of the fabric of the universe. "
-      ],
-      [
-       "bi",
-       "Sahaba"
-      ],
-      [
-       "",
-       " Companions of the Prophet. where "
+       " from where "
       ],
       [
        "i",
@@ -5367,8 +5256,335 @@
       ],
       [
        "",
-       " are issued. "
+       " are issued."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9",
+      "p49b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Darul Qaza "
       ],
+      [
+       "",
+       "Muslim judicial court."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "dawah"
+      ],
+      [
+       "",
+       " communication of the message of God."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b10",
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fasad"
+      ],
+      [
+       "",
+       " spreading corruption, rebellion, dissension, mischief and disorder across society."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11",
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fatwa"
+      ],
+      [
+       "",
+       " legal opinion; judicial verdict."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "fine-tuning problem"
+      ],
+      [
+       "",
+       " an explanation for the fine-tuning of the universe required for the human species to thrive.."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12",
+      "p49b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "ijtihad"
+      ],
+      [
+       "",
+       " exercise of judgement with reasoning."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b13",
+      "p49b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Ahmad"
+      ],
+      [
+       "",
+       " Ahmad ibn Hanbal (780-855); Islamic scholar and theologian; famous for "
+      ],
+      [
+       "i",
+       "Hadith"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b14",
+      "p49b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "",
+       "collection known as "
+      ],
+      [
+       "i",
+       "Musnad Ahmad"
+      ],
+      [
+       "",
+       "."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Jinn"
+      ],
+      [
+       "",
+       " A living creation of God made from fire; "
+      ],
+      [
+       "i",
+       "Jinns"
+      ],
+      [
+       "",
+       " have free-will just like mankind."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b16",
+      "p49b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Kabah"
+      ],
+      [
+       "",
+       " the sacred house of God built originally by prophets Abraham and Ismael in Makkah (Mecca)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b17",
+      "p49b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kalima"
+      ],
+      [
+       "",
+       " The Islamic creed—‘There is no god but God, Muhammad is the messenger of God.’"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18",
+      "p49b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Khilafat-e-Rashida"
+      ],
+      [
+       "",
+       " also Rashidun Caliphate or \"Rightly Guided\" caliphs (632–661 AD) is the collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b19",
+      "p49b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "khushu‘ "
+      ],
+      [
+       "",
+       "divine consciousness; God consciousness."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b20",
+      "p49b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Minhaj"
+      ],
+      [
+       "",
+       " the path or method."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "mufti"
+      ],
+      [
+       "",
+       " Islamic scholar who is an interpreter or expounder of Islamic law."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21",
+      "p49b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "quantum foam "
+      ],
+      [
+       "",
+       "abstraction in quantum mechanics conceptual­ ised as the foundation of the fabric of the universe."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b22",
+      "p49b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Sahaba"
+      ],
+      [
+       "",
+       " Companions of the Prophet."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Sahih Muslim"
@@ -5382,35 +5598,19 @@
        "Hadith "
       ],
       [
-       "bi",
-       "Darul Qaza "
-      ],
-      [
        "",
-       "Muslim judicial court. "
-      ],
-      [
-       "bi",
-       "dawah"
-      ],
-      [
-       "",
-       " communication of the"
+       "collection by Imam Muslim ibn al-Hajjaj (815–875)."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b23",
-      "p49b10"
+      "p49b24"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "collection by Imam Muslim ibn al-Hajjaj (815–875). message of God. "
-      ],
       [
        "bi",
        "Shariah"
@@ -5425,131 +5625,90 @@
       ],
       [
        "",
-       "; moral code and "
-      ],
-      [
-       "bi",
-       "fasad"
-      ],
-      [
-       "",
-       " spreading corruption, religious law of Islam. rebellion, dissension, mischief and "
-      ],
+       "; moral code and religious law of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b24",
+      "p49b25"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "shura"
       ],
       [
        "",
-       " council for mutual disorder across society. "
-      ],
-      [
-       "bi",
-       "fatwa"
-      ],
-      [
-       "",
-       " legal opinion; judicial verdict."
+       " council for mutual consultation."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b24",
-      "p49b11",
       "p49b25",
-      "p49b12"
+      "p49b26"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "consultation. "
-      ],
       [
        "bi",
        "Tabi’een"
       ],
       [
        "",
-       "; tabeée —those followers"
+       "; tabeée —those followers or companions who directly learnt from the Companions of the Prophet of Islam."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b26"
+      "p49b26",
+      "p49b27"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "b",
-       "fine-tuning problem"
-      ],
-      [
-       "",
-       " an explanation"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b12"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "or companions who directly learnt from the Companions of the Prophet of Islam. "
-      ],
       [
        "bi",
        "Ummah "
       ],
       [
        "",
-       "religious community;"
+       "religious community; followers of a prophet."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b27"
+      "p49b27",
+      "p49b28"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "for the fine-tuning of the universe required for the human species to thrive.. "
-      ],
-      [
-       "bi",
-       "ijtihad"
-      ],
-      [
-       "",
-       " exercise of judgement with followers of a prophet. reasoning. "
-      ],
       [
        "bi",
        "ummah Muhammadiyyah "
       ],
       [
        "",
-       "Muslim "
-      ],
-      [
-       "b",
-       "Imam Ahmad"
-      ],
-      [
-       "",
-       " Ahmad ibn Hanbal community; followers of the Prophet of Islam. "
-      ],
+       "Muslim community; followers of the Prophet of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b28",
+      "p49b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Zulm"
@@ -5561,31 +5720,12 @@
      ],
      "page": 49,
      "ids": [
-      "p49b13",
-      "p49b28",
-      "p49b14",
       "p49b29"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "(780-855); Islamic scholar and theologian; famous for "
-      ],
-      [
-       "i",
-       "Hadith"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b15"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 378,
    "n": 20

@@ -35,6 +35,10 @@ def one(slug, test=True):
             row["result"] = "FAIL"; row["problems"].append("structure: " + out[0][:160]); return row
         rc, out = run("check.py", slug)
     else:
+        g = next((l.split() for l in open("sources/gary-issues.txt", encoding="utf-8") if l.split()[:1] == [slug]), None)
+        if g:
+            run("from_wp.py", *g)                    # the page text again, then what the page lacks from the PDF
+            run("add_from_pdf.py", slug)
         run("narrate.py", "prepare", slug)
         if os.path.isdir(f"issues/{slug}/audio-raw"):
             run("align.py", slug)                        # timings + match for the recordings that exist
@@ -119,8 +123,9 @@ if __name__ == "__main__":
         old = {r["slug"]: r for r in csv.DictReader(open("inventory/batch-status.csv", encoding="utf-8"))}
     for r in rows:
         r["problems"] = "; ".join(r["problems"])
+        r["renarrate"] = "; ".join(r.get("renarrate", []))
         old[r["slug"]] = r
-    cols = ["slug", "label", "route", "pdf", "articles", "words", "match", "chars", "quiz", "audio", "result", "problems"]
+    cols = ["slug", "label", "route", "pdf", "articles", "words", "match", "chars", "quiz", "audio", "result", "problems", "renarrate"]
     with open("inventory/batch-status.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, cols, extrasaction="ignore")
         w.writeheader()

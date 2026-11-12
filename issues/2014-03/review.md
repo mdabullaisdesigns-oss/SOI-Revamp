@@ -1,6 +1,6 @@
 # Review – Issue 15 · March 2014
 
-PDF `March-2014.pdf`, 52 pages. **17 articles, 14,822 words, word match 99.96%** (second reading of the PDF; flag below 99%).
+PDF `March-2014.pdf`, 52 pages. **17 articles, 14,822 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -22,7 +22,7 @@ PDF `March-2014.pdf`, 52 pages. **17 articles, 14,822 words, word match 99.96%**
 | 14 | 40–41 | An introduction | Paradise | 680 | 100.0% |
 | 15 | 42–44 | From The Scriptures | The Word of God | 1254 | 100.0% |
 | 16 | 45–47 | Your Questions, Answered | Ask Maulana | 852 | 100.0% |
-| 17 | 48 |  | Glossary | 312 | 99.36% |
+| 17 | 48 |  | Glossary | 312 | 100.0% |
 
 ## Words the second reading did not confirm
 
@@ -32,7 +32,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 7, `p20b3` (p): if
 - article 12, `p35b3` (p): studies
 - article 13, `p38b3` (p): if
-- article 17, `p48b1` (small): asjinn sijistani
 
 ## Left out of the e-version – please confirm
 
@@ -62,14 +61,6 @@ None.
 - article 5, page 17: THE QURAN 20: 81
 - article 13, page 38: THE QURAN 33: 48
 - article 13, page 39: THE QURAN 30: 30
-- article 17, page 48: Abu Dawud (817-889); Abu Dawud as-Jinn A living creation of God made Sijistani; Persian Islamic scholar and co
-- article 17, page 48: from fire; Jinns have free-will just like mankind. Kalima The Islamic creed — ‘There is no god but God, Muhamm
-- article 17, page 48: wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. Akhirah The H
-- article 17, page 48: first wife of Prophet Muhammad. ma'arifah also ma'rifat — God-realization Musnad Ahmed a collection of Hadith 
-- article 17, page 48: reports by Islamic scholar Ahmad bin Hanbal (780-855). Rab ul-alamin Lord of the Worlds. sabr Patience. Shukr 
-- article 17, page 48: ibn Husayn al-Bayhaqi or Imam al-Bayhaqi; Islamic scholar of fiqh and collector of Hadith. Al-Bukhari; Imam Al
-- article 17, page 48: to God. Sunnah Practice and teachings of Prophet Muhammad. Tafsir ibn Kathir commentary of the Quran by the fa
-- article 17, page 48: light; Angels have no free-will and are in constant obedience to God. At-Tirmidhi or At-Tirmizi (824-892); Isl
 
 ## Automatic text adjustments
 

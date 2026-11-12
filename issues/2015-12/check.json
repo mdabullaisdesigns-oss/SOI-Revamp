@@ -316,13 +316,7 @@
  ],
  "overall_match": 99.94,
  "flagged": [],
- "unplaced": [
-  {
-   "page": 27,
-   "words": 11,
-   "text": "paul dirac predicted the existence of antipresentation matter before it was"
-  }
- ],
+ "unplaced": [],
  "pdf_words": 16046,
  "article_words": 14332
 }

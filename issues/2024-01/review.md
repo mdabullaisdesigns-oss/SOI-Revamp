@@ -55,7 +55,7 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 ## Text of the PDF that is in no article and not on the list above
 
-- page 43, 20 words: maulana wahiduddin khan click on the thumbnail image to download a book spirit of islam issue 116 januaryfebruary 2024 43
+None.
 
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 
@@ -64,10 +64,8 @@ On cover, contents and advert pages (not part of any article) the second reading
 ## Pieces the rules could not classify (kept, shown as a small note)
 
 - article 17, page 42: Download link: https://www.cpsglobal.org/books/allah-o-akbar-kannada
-- article 17, page 43: New Release
-- article 17, page 43: New Release
-- article 17, page 43: A Brief History Of Dawah
-- article 17, page 43: PALESTINE CHARTING A PEACEFUL COURSE In Light of Quranic Guidance
+- article 17, page 43: New Release · A Brief History Of Dawah
+- article 17, page 43: New Release · PALESTINE: CHARTING A PEACEFUL COURSE In Light of Quranic Guidance
 
 ## Automatic text adjustments
 

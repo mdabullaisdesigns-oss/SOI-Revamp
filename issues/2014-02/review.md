@@ -76,11 +76,6 @@ None.
 - article 13, page 37: THE QURAN 10: 32
 - article 13, page 38: THE QURAN 6: 108.
 - article 16, page 46: Maulana Wahiduddin Khan answers questions posed by students on the eve of their exams.
-- article 17, page 48: Abu Dawood noted 9th century collector Sunan al-Tirmidhi Hadith collection of of Hadith. An-Nasai noted 9th/ea
-- article 17, page 48: Abu Isa Muhammad ibn Isa at-Tirmidhi. Tawbah turning to God in repentance. Ulema also ulama; religious scholar
-- article 17, page 48: scholar and collector of Hadith. At-Tirmidhi 9th century Islamic scholar and collector of Hadith. Dar ul-Harb 
-- article 17, page 48: a prophet. Yathrib now known as Madinah.
-- article 17, page 48: ‘Divine Faith’. It was an elitist, eclectic religious movement which never numbered more than 19 adherents, fo
 
 ## Automatic text adjustments
 

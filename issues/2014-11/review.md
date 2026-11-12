@@ -67,10 +67,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 3, page 13: THE QURAN 22: 39
 - article 8, page 28: Luke 20: 25
 - article 8, page 28: Sahih Bukhari
-- article 16, page 49: Musnad; Musnad Ahmed a
-- article 16, page 49: Kanzul Ummal Hadith collection by Islamic scholar Ali ibn Abd-al-Malik al-Hindi. Luke One of the books of the 
-- article 16, page 49: The City of the Prophet.
-- article 16, page 49: Makkan from or of Makkah (Mecca). momin Arabic for true believer.
 
 ## Automatic text adjustments
 

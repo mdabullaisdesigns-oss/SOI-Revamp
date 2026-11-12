@@ -1,6 +1,6 @@
 # Review – 2024-09
 
-Text from the WordPress page **ISSUE SEP-OCT 2024** (id 2506). **18 articles, 11,820 words**; cross-check with `Spirit_of_Islam_Sep-Oct2024.pdf`: **99.75%** of the page's words are in the PDF (flag below 97%).
+Text from the WordPress page **ISSUE SEP-OCT 2024** (id 2506). **20 articles, 12,669 words**; cross-check with `Spirit_of_Islam_Sep-Oct2024.pdf`: **99.76%** of the page's words are in the PDF (flag below 97%).
 
 ## Articles
 
@@ -24,14 +24,15 @@ Text from the WordPress page **ISSUE SEP-OCT 2024** (id 2506). **18 articles, 11
 | 16 | 43–44 | When Death Approaches | The Final Realization | 780 | 99.87% | 98.1% heard |
 | 17 | 46–48 |  | Your Questions Answered | 965 | 99.9% | 96.1% heard |
 | 18 | 49–50 |  | Share Your Reflections on the Spirit of Islam | 321 | 99.69% | 95.1% heard |
+| 19 | 32–35 |  | CPS Newsletter | 510 | 99.8% | **none** |
+| 20 | 45 | From The Scriptures | The Word of God | 339 | 100.0% | **none** |
 
 ## Needs a look
 
 - recording of article 2 “Discovery of the Quran”: 500 words of the text are not read (“the minimum is that at least one month…”); the recording has 485 words that are not in the text (“in this world we see people living in…”); only 68.0% of the text is heard in the recording
 - recording of article 7 “Think, Reflect, and Realize”: the recording has 736 words that are not in the text (“death is not the end but the beginning…”)
 - recording of article 13 “The Path to Contentment”: the recording has 323 words that are not in the text (“qur an reminds us of the transient nature…”)
-- PDF page 33: 263 words are on no web article (“students shared their impressions of the talk two…”)
-- PDF page 45: 355 words are on no web article (“the word of god from the scriptures the…”)
+- no recording on the site for article 20 “The Word of God”
 
 ## Passages on the web page that the PDF does not have (4+ words)
 
@@ -52,11 +53,6 @@ Text from the WordPress page **ISSUE SEP-OCT 2024** (id 2506). **18 articles, 11
 | 4 | 116 of 116 | from the editorinchiefs desk 5 c discovery of the quran 8 the search for | yes |
 | 7 | 235 of 235 | in focus we bring you two articles every issue under the headings of personal | yes |
 | 14 | 134 of 247 | o i made a mistake is only a sentence of four words however it | **no** |
-| 32 | 118 of 118 | cps newsletter quran hall has been recently opened at the cps international centre new | **no** |
-| 33 | 263 of 263 | students shared their impressions of the talk two of these are mentioned here comment | **no** |
-| 34 | 87 of 87 | ghamidi centre of islamic learning usa has produced a documentary on maulana wahiduddin khan | **no** |
-| 35 | 76 of 76 | book release new book on life of prophet muhammad in punjabi language download pdf | **no** |
-| 45 | 355 of 355 | the word of god from the scriptures the quran is the book of god | **no** |
 | 51 | 117 of 117 | we asked chatgpt to offer some information about cps international new delhi this is | yes |
 
 ## Automatic text adjustments

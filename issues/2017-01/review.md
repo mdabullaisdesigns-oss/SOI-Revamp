@@ -1,6 +1,6 @@
 # Review – Issue 49 · January 2017
 
-PDF `January-2017.pdf`, 52 pages. **22 articles, 15,416 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `January-2017.pdf`, 52 pages. **22 articles, 15,415 words, word match 99.93%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -13,7 +13,7 @@ PDF `January-2017.pdf`, 52 pages. **22 articles, 15,416 words, word match 99.93%
 | 5 | 13 | Paradise Awaits You | The Complete World | 421 | 100.0% |
 | 6 | 14–15 | Succour for Helpless Man | God: A Source of Conviction | 669 | 100.0% |
 | 7 | 16–18 | Towards Global Peace | Peace as a Principle to Be Practised | 1218 | 100.0% |
-| 8 | 19 | Role Models | Responsibility of Trendsetters | 259 | 98.84% ⚠ |
+| 8 | 19 | Role Models | Responsibility of Trendsetters | 258 | 98.84% ⚠ |
 | 9 | 20–23 | Self-styled Shariah | Fatwa Activism | 1334 | 99.85% |
 | 10 | 24–26 | Reformation Through Re-application | Islam in the Changing World | 1220 | 100.0% |
 | 11 | 27 | Differentiate between Islam and Muslims | Religion, a Divine Not a Social Phenomenon | 347 | 100.0% |

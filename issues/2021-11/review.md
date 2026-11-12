@@ -1,6 +1,6 @@
 # Review – Issue 103 · November–December 2021
 
-PDF `November-December-2021.pdf`, 52 pages. **22 articles, 14,805 words, word match 99.94%** (second reading of the PDF; flag below 99%).
+PDF `November-December-2021.pdf`, 52 pages. **22 articles, 14,797 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -22,7 +22,7 @@ PDF `November-December-2021.pdf`, 52 pages. **22 articles, 14,805 words, word ma
 | 14 | 29 | Sign of an Objective Person | Understand Things in Correct Perspective | 389 | 100.0% |
 | 15 | 30 | Know the Ground Reality before Taking Action | Mahatma Gandhi: A True Visionary | 322 | 100.0% |
 | 16 | 31–38 | In Conversation with Khaja Kaleemuddin | An Interview | 3001 | 100.0% |
-| 17 | 39–40 |  | An Outreach Journey to Brazil | 648 | 98.92% ⚠ |
+| 17 | 39–40 |  | An Outreach Journey to Brazil | 640 | 100.0% |
 | 18 | 41 | Selections from Children's Stories from the Quran | Children’s Corner | 189 | 100.0% |
 | 19 | 42–44 |  | Book Review | 996 | 100.0% |
 | 20 | 45 |  | CPS Newsletter | 196 | 100.0% |
@@ -35,7 +35,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b5` (p): during
 - article 8, `p18b2` (p): robert
-- article 17, `p40b5` (thought): without introspection you cannot stand true faith
 
 ## Left out of the e-version – please confirm
 

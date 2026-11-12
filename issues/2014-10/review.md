@@ -73,9 +73,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 11, page 36: THE QURAN 7: 176
 - article 13, page 39: THE QURAN 38: 43
 - article 15, page 41: THE QURAN 2: 197
-- article 17, page 49: Assalamu Alaikum Peace be upon
-- article 17, page 49: Khalifa ruler khalifa al-muslimin ruler of
-- article 17, page 49: Imam Abu Hanifa (699-767 AD)
 
 ## Automatic text adjustments
 

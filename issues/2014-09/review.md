@@ -1,6 +1,6 @@
 # Review – Issue 21 · September 2014
 
-PDF `September-2014.pdf`, 52 pages. **19 articles, 15,101 words, word match 99.96%** (second reading of the PDF; flag below 99%).
+PDF `September-2014.pdf`, 52 pages. **19 articles, 15,100 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -24,7 +24,7 @@ PDF `September-2014.pdf`, 52 pages. **19 articles, 15,101 words, word match 99.9
 | 16 | 41–45 | Find the Answer in the Creation Plan of God | The Greatest Question | 1869 | 100.0% |
 | 17 | 46 | Recognise and Acknowledge Him | All Credit Goes to God Almighty | 330 | 100.0% |
 | 18 | 47–48 | From The Scriptures | The Word of God | 655 | 100.0% |
-| 19 | 49 |  | Glossary | 384 | 98.96% ⚠ |
+| 19 | 49 |  | Glossary | 383 | 100.0% |
 
 ## Words the second reading did not confirm
 
@@ -32,10 +32,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 12, `p35b2` (p): har
 - article 14, `p38b3` (p): aryan
-- article 19, `p49b16` (bio): reconcili
-- article 19, `p49b17` (bio): ation
-- article 19, `p49b24` (bio): altheologian
-- article 19, `p49b26` (bio): dawsi
 
 ## Left out of the e-version – please confirm
 

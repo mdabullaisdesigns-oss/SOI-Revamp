@@ -1,0 +1,22 @@
+[
+ {
+  "pages": [
+   36,
+   39
+  ],
+  "title": "CPS Newsletter",
+  "type": "newsletter",
+  "audio": false,
+  "mode": "blocks"
+ },
+ {
+  "pages": [
+   40,
+   41
+  ],
+  "title": "Children’s Corner",
+  "type": "children",
+  "audio": true,
+  "mode": "blocks"
+ }
+]

@@ -4601,7 +4601,7 @@
    ],
    "items": [
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4609,30 +4609,18 @@
       ],
       [
        "",
-       " (1915–2002) Israeli collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali); founded after Prophet Muhammad's death in 632 AD. "
-      ],
-      [
-       "b",
-       "Michael Hart"
-      ],
-      [
-       "",
-       " Dr. Michael H. Hart (b."
+       " (1915–2002) Israeli diplomat and politician and a scholar of Hebrew and Arabic languages."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b1",
-      "p49b15"
+      "p49b2"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "diplomat and politician and a scholar of Hebrew and Arabic languages. "
-      ],
       [
        "b",
        "Abu Hurairah"
@@ -4647,15 +4635,7 @@
       ],
       [
        "",
-       "; died 681 AD. "
-      ],
-      [
-       "b",
-       "Aisha"
-      ],
-      [
-       "",
-       " (612–678); daughter of Abu"
+       "; died 681 AD."
       ]
      ],
      "page": 49,
@@ -4665,123 +4645,80 @@
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "1932); American astrophysicist and author. Bakr, wife of Prophet Muhammad; "
-      ],
-      [
        "b",
-       "Monism "
+       "Aisha"
       ],
       [
        "",
-       "the philosophical view that one of the most intellectual and influential women in Islamic history. "
-      ],
+       " (612–678); daughter of Abu Bakr, wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3",
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "as-sulh khair"
       ],
       [
        "",
-       " Arabic for 'reconcili-"
+       " Arabic for 'reconcili-ation or settlement is best'."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b16",
-      "p49b4"
+      "p49b4",
+      "p49b5"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "a variety of existing things can be explained in terms of a single reality or substance. "
-      ],
-      [
-       "b",
-       "Queen of Sheba"
-      ],
-      [
-       "",
-       " monarch of the ation or settlement is best'. "
-      ],
       [
        "b",
        "Caesar"
       ],
       [
        "",
-       " imperial title adopted by the"
+       " imperial title adopted by the Roman Emperors."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b17",
-      "p49b5"
+      "p49b5",
+      "p49b6"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "ancient kingdom of Sheba or Saba. "
-      ],
-      [
-       "b",
-       "Quraysh"
-      ],
-      [
-       "",
-       " the dominant tribe of Roman Emperors. "
-      ],
       [
        "b",
        "Doomsday"
       ],
       [
        "",
-       " Day of Reckoning or"
+       " Day of Reckoning or Judgement."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b18",
-      "p49b6"
+      "p49b6",
+      "p49b7"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. "
-      ],
-      [
-       "bi",
-       "roza"
-      ],
-      [
-       "",
-       " fasting; abstaining from food"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b19"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Judgement. "
-      ],
       [
        "b",
        "Dous"
@@ -4796,15 +4733,7 @@
       ],
       [
        "",
-       "; one of the tribes of Arabia during Prophet Muhammad's times. "
-      ],
-      [
-       "b",
-       "Gabriel"
-      ],
-      [
-       "",
-       " one of the archangels whom"
+       "; one of the tribes of Arabia during Prophet Muhammad's times."
       ]
      ],
      "page": 49,
@@ -4814,32 +4743,26 @@
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "and drink from dawn to dusk. "
-      ],
-      [
-       "bi",
-       "ruku‘"
-      ],
-      [
        "b",
-       " "
+       "Gabriel"
       ],
       [
        "",
-       "bowing down. God sent to the prophets with His "
-      ],
-      [
-       "bi",
-       "Shariah"
-      ],
-      [
-       "",
-       " moral code and religious law divine message. "
-      ],
+       " one of the archangels whom God sent to the prophets with His divine message."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Hijrath"
@@ -4854,134 +4777,43 @@
       ],
       [
        "",
-       "; the migration"
+       "; the migration of prophet Muhammad and his followers from Makkah to Medina in 622 AD."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b20",
-      "p49b9"
+      "p49b9",
+      "p49b10"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of Islam. "
-      ],
-      [
-       "bi",
-       "shura"
-      ],
-      [
-       "",
-       " council for mutual of prophet Muhammad and his followers from Makkah to Medina in 622 AD. "
-      ],
       [
        "b",
        "Hudaibiya"
       ],
       [
        "",
-       " place just outside Makkah"
+       " place just outside Makkah where the Treaty of Hudaibiya was made between Muhammad representing the state of Medina and the Quraysh in 628 AD."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b21",
-      "p49b10"
+      "p49b10",
+      "p49b11"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "consultation. "
-      ],
-      [
-       "b",
-       "status quoism"
-      ],
-      [
-       "",
-       " to keep things the way they presently are; from "
-      ],
-      [
-       "i",
-       "status quo"
-      ],
-      [
-       "",
-       ", Latin term for 'existing state of affairs'. "
-      ],
-      [
-       "bi",
-       "summum bonum"
-      ],
-      [
-       "",
-       " Latin expression"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b22",
-      "p49b23"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "where the Treaty of Hudaibiya was made between Muhammad representing the state of Medina and the Quraysh in 628 AD. "
-      ],
       [
        "b",
        "Imam Ahmad"
       ],
       [
        "",
-       " Ahmad ibn Hanbal"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b11"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "meaning 'the highest good'. "
-      ],
-      [
-       "bi",
-       "Sunnah"
-      ],
-      [
-       "",
-       ";"
-      ],
-      [
-       "bi",
-       " Sunnath"
-      ],
-      [
-       "",
-       " practice and teachings of Prophet Muhammad. (780–855); Islamic scholar and "
-      ],
-      [
-       "b",
-       "Tufail bin Amr"
-      ],
-      [
-       "",
-       " Tufail bin Amr al-theologian; famous for "
+       " Ahmad ibn Hanbal (780–855); Islamic scholar and theologian; famous for "
       ],
       [
        "i",
@@ -4993,16 +4825,35 @@
       ],
       [
        "i",
-       "Musnad Ahmad. "
-      ],
+       "Musnad Ahmad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11",
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Jihad"
       ],
       [
        "",
-       " struggle in the way of God. "
-      ],
+       " struggle in the way of God."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Kanzul Ummal"
@@ -5017,52 +4868,17 @@
       ],
       [
        "",
-       " collection by"
+       " collection by Islamic scholar Ali ibn Abd-al-Malik al-Hindi."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b24",
-      "p49b25",
-      "p49b12"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Dawsi (d 633); chief of Banu Daws tribe from Arabia in pre-Quranic times. He accepted Islam and was a companion of the Prophet Muhammad. "
-      ],
-      [
-       "bi",
-       "Ummah"
-      ],
-      [
-       "",
-       " religious community;"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b26"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Islamic scholar Ali ibn Abd-al-Malik al-Hindi."
-      ]
-     ],
-     "page": 49,
-     "ids": [
+      "p49b12",
       "p49b13"
      ]
     },
     {
-     "k": "footnote",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5070,32 +4886,286 @@
       ],
       [
        "",
-       " also Rashidun"
+       " also Rashidun Caliphate or \"Rightly Guided\" caliphs (632–661 AD) is the"
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b13"
+      "p49b13",
+      "p49b14"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
        "",
-       "followers of a prophet. Caliphate or \"Rightly Guided\" caliphs (632–661 AD) is the"
+       "collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali); founded after Prophet Muhammad's death in 632 AD."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b27",
-      "p49b14"
+      "p49b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Michael Hart"
+      ],
+      [
+       "",
+       " Dr. Michael H. Hart (b. 1932); American astrophysicist and author."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b15",
+      "p49b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Monism "
+      ],
+      [
+       "",
+       "the philosophical view that a variety of existing things can be explained in terms of a single reality or substance."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b16",
+      "p49b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Queen of Sheba"
+      ],
+      [
+       "",
+       " monarch of the ancient kingdom of Sheba or Saba."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b17",
+      "p49b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Quraysh"
+      ],
+      [
+       "",
+       " the dominant tribe of Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18",
+      "p49b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "roza"
+      ],
+      [
+       "",
+       " fasting; abstaining from food and drink from dawn to dusk."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b19",
+      "p49b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "ruku‘"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "bowing down."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Shariah"
+      ],
+      [
+       "",
+       " moral code and religious law of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b20",
+      "p49b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "shura"
+      ],
+      [
+       "",
+       " council for mutual consultation."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21",
+      "p49b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "status quoism"
+      ],
+      [
+       "",
+       " to keep things the way they presently are; from "
+      ],
+      [
+       "i",
+       "status quo"
+      ],
+      [
+       "",
+       ", Latin term for 'existing state of affairs'."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b22",
+      "p49b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "summum bonum"
+      ],
+      [
+       "",
+       " Latin expression meaning 'the highest good'."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b23",
+      "p49b24"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Sunnah"
+      ],
+      [
+       "",
+       ";"
+      ],
+      [
+       "bi",
+       " Sunnath"
+      ],
+      [
+       "",
+       " practice and teachings of Prophet Muhammad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b24",
+      "p49b25"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Tufail bin Amr"
+      ],
+      [
+       "",
+       " Tufail bin Amr al-Dawsi (d 633); chief of Banu Daws tribe from Arabia in pre-Quranic times. He accepted Islam and was a companion of the Prophet Muhammad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b25",
+      "p49b26"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Ummah"
+      ],
+      [
+       "",
+       " religious community; followers of a prophet."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b26",
+      "p49b27"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
-   "words": 384,
+   "words": 383,
    "n": 19
   }
  ]

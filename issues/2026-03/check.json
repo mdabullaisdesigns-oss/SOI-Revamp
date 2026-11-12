@@ -222,15 +222,40 @@
     51
    ],
    "missing": []
+  },
+  {
+   "n": 18,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 700,
+   "audio": false,
+   "match": 100.0,
+   "pages": [
+    36,
+    39
+   ],
+   "missing": []
+  },
+  {
+   "n": 19,
+   "id": "childrens-corner",
+   "title": "Children’s Corner",
+   "words": 321,
+   "audio": false,
+   "match": 100.0,
+   "pages": [
+    40,
+    41
+   ],
+   "missing": []
   }
  ],
- "overall_match": 99.89,
+ "overall_match": 99.9,
  "flagged": [],
  "unplaced": [],
  "warnings": [
   "recording of article 3 “The Path to Paradise”: 253 words of the text are not read (“selfassertion such people strive to restrain negative emotions…”); the recording has 400 words that are not in the text (“makes the heart beat in harmony with higher…”); only 60.6% of the text is heard in the recording",
-  "PDF page 37: 237 words are on no web article (“maulana wahiduddin khans message of peace humbly describing…”)",
-  "PDF page 41: 205 words are on no web article (“young readers to their strength faith and devotion…”)"
+  "no recording on the site for article 19 “Children’s Corner”"
  ],
  "pdf_pages_not_on_page": [
   {
@@ -269,48 +294,6 @@
    "expected": true
   },
   {
-   "page": 36,
-   "words": 185,
-   "of": 185,
-   "starts": "cps newsletter note kindly open the magazine in a pdf reader for the links",
-   "expected": false
-  },
-  {
-   "page": 37,
-   "words": 237,
-   "of": 237,
-   "starts": "maulana wahiduddin khans message of peace humbly describing himself as one of his students",
-   "expected": false
-  },
-  {
-   "page": 38,
-   "words": 174,
-   "of": 174,
-   "starts": "events students of theology from marquette university united states visited the cps international centre",
-   "expected": false
-  },
-  {
-   "page": 39,
-   "words": 180,
-   "of": 180,
-   "starts": "resolution sustainable development and communitydriven initiatives across more than 60 countries worldwide through this",
-   "expected": false
-  },
-  {
-   "page": 40,
-   "words": 167,
-   "of": 167,
-   "starts": "childrens corner 101 sahabiyat stories with dua author dr saniyasnain khan isbn 9789351790501 no",
-   "expected": false
-  },
-  {
-   "page": 41,
-   "words": 205,
-   "of": 205,
-   "starts": "young readers to their strength faith and devotion each story is written in simple",
-   "expected": false
-  },
-  {
    "page": 51,
    "words": 116,
    "of": 215,
@@ -318,5 +301,22 @@
    "expected": true
   }
  ],
- "left_out": []
+ "left_out": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Scan or Click the button",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Kindle Website",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 37: note about the PDF / button label (its link is kept)"
+  }
+ ]
 }

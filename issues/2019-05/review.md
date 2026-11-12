@@ -66,7 +66,7 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 ## Text of the PDF that is in no article and not on the list above
 
-- page 39, 9 words: aland striving to come bukhari closer to god by
+None.
 
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 

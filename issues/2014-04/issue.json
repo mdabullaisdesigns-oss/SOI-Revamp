@@ -5129,7 +5129,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5137,69 +5137,25 @@
       ],
       [
        "",
-       "also known as Abraha al-Ashram during the time of Prophet Muhammad. "
-      ],
-      [
-       "b",
-       "madrasa "
-      ],
-      [
-       "",
-       "centre of religious learning "
-      ],
-      [
-       "b",
-       "Makkah "
-      ],
-      [
-       "",
-       "Mecca. "
-      ],
-      [
-       "b",
-       "Makkan "
-      ],
-      [
-       "",
-       "from or, of Makkah (Mecca) "
-      ],
-      [
-       "b",
-       "Monism "
-      ],
-      [
-       "",
-       "is the philosophical view that"
+       "also known as Abraha al-Ashram was an Aksumite general, then the viceroy of southern Arabia. He later declared himself an independent king."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b1",
-      "p48b14"
+      "p48b2"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "was an Aksumite general, then the viceroy of southern Arabia. He later declared himself an independent king. "
-      ],
       [
        "b",
        "Abdul Muttalib "
       ],
       [
        "",
-       "(497–578 AD); also known as Shaybah Ibn Hashim, was the grand father of Islamic prophet Muhammad. "
-      ],
-      [
-       "b",
-       "Abu Bakr Siddiq "
-      ],
-      [
-       "",
-       "died 632 AD; a close"
+       "(497–578 AD); also known as Shaybah Ibn Hashim, was the grand father of Islamic prophet Muhammad."
       ]
      ],
      "page": 48,
@@ -5209,58 +5165,61 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "a variety of existing things can be explained in terms of a single reality or substance. companion of the Prophet; also the first "
-      ],
-      [
        "b",
-       "Monotheism "
+       "Abu Bakr Siddiq "
       ],
       [
        "",
-       "is the belief in the existence Muslim Caliph. "
-      ],
+       "died 632 AD; a close companion of the Prophet; also the first Muslim Caliph."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b3",
+      "p48b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Abu Hurairah "
       ],
       [
        "",
-       "a companion of the"
+       "a companion of the Prophet known for his photographic memory. Died 681 AD."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b15",
-      "p48b4"
+      "p48b4",
+      "p48b5"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of one God or oneness of God. "
-      ],
-      [
-       "b",
-       "Moses"
-      ],
-      [
-       "",
-       " Prophet of God who existed in the Prophet known for his photographic memory. Died 681 AD. "
-      ],
       [
        "b",
        "Adam "
       ],
       [
        "",
-       "First man and first prophet. "
-      ],
+       "First man and first prophet."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Al-Asr"
@@ -5271,22 +5230,472 @@
       ],
       [
        "",
-       "The Passage of time; the name of"
+       "The Passage of time; the name of 103rd chapter of the Quran."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5",
+      "p48b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Al-Hadi "
+      ],
+      [
+       "",
+       "One of the attributes of God which means Guide."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6",
+      "p48b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Bhagwan Das "
+      ],
+      [
+       "",
+       "(Jan 12, 1869–Sept 18, 1958) was an Indian Theosophist and public figure."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b7",
+      "p48b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Byzantines "
+      ],
+      [
+       "",
+       "The Byzantine Empire was the predominantly Greek-speaking continuation of the Roman Empire during Late Antiquity and the Middle Ages."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8",
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Dar ul Kufr "
+      ],
+      [
+       "",
+       "Abode of disbelief."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Dar-ul ta‘leem"
+      ],
+      [
+       "",
+       " Abode of learning."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "dawah"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "communication of the message of God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9",
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fasiq"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "transgressor; sinner."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fatwa"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "legal opinion; judicial verdict."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Hadith"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10",
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam "
+      ],
+      [
+       "",
+       "One who leads the prayers."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Shafi "
+      ],
+      [
+       "",
+       "Also known as Idris al-Shafi, he was active in judicial matters and is considered as the founder of Islamic jurisprudence."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11",
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "iqra"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "read"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kafir"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "One who denies."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kitab al-Fitan"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "Chapters in the books of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " that predict certain events which will happen towards the end of the times."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b12",
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kufr"
+      ],
+      [
+       "b",
+       " "
+      ],
+      [
+       "",
+       "Denial"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Madani "
+      ],
+      [
+       "",
+       "Pertaining to Madinah."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Madinah "
+      ],
+      [
+       "",
+       "Medina; also called Yathrib"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "",
+       "during the time of Prophet Muhammad."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "madrasa "
+      ],
+      [
+       "",
+       "centre of religious learning"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Makkah "
+      ],
+      [
+       "",
+       "Mecca."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Makkan "
+      ],
+      [
+       "",
+       "from or, of Makkah (Mecca)"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Monism "
+      ],
+      [
+       "",
+       "is the philosophical view that a variety of existing things can be explained in terms of a single reality or substance."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14",
+      "p48b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Monotheism "
+      ],
+      [
+       "",
+       "is the belief in the existence of one God or oneness of God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b15",
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Moses"
+      ],
+      [
+       "",
+       " Prophet of God who existed in the 16th century B.C."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b16",
-      "p48b5"
+      "p48b17"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "16th century B.C. "
-      ],
       [
        "b",
        "Musnad Ahmed "
@@ -5305,165 +5714,71 @@
       ],
       [
        "b",
-       ". "
-      ],
-      [
-       "",
-       "103rd chapter of the Quran. "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17",
+      "p48b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Pharaoh"
       ],
       [
        "",
-       " is a title used in many modern "
-      ],
-      [
-       "bi",
-       "Al-Hadi "
-      ],
-      [
-       "",
-       "One of the attributes of God discussions of the rulers of all Ancient Egyptian dynasties. "
-      ],
+       " is a title used in many modern discussions of the rulers of all Ancient Egyptian dynasties."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b18",
+      "p48b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Quraysh"
       ],
       [
        "",
-       " the dominant tribe of Makkah"
+       " the dominant tribe of Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b17",
-      "p48b18",
-      "p48b6",
-      "p48b19"
+      "p48b19",
+      "p48b20"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "which means Guide. "
-      ],
-      [
-       "b",
-       "Bhagwan Das "
-      ],
-      [
-       "",
-       "(Jan 12, 1869–Sept 18, 1958) was an Indian Theosophist and public figure. "
-      ],
-      [
-       "b",
-       "Byzantines "
-      ],
-      [
-       "",
-       "The Byzantine Empire was"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b7",
-      "p48b8"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. "
-      ],
       [
        "bi",
        "Safwat al-Tafaseer "
       ],
       [
        "",
-       "the commentary of"
+       "the commentary of the Quran in the Arabic language by Sheikh Muhammad Ali al-Sabuni (b. 1930, Syria)."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b20"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "the predominantly Greek-speaking continuation of the Roman Empire during Late Antiquity and the Middle Ages. "
-      ],
-      [
-       "bi",
-       "Dar ul Kufr "
-      ],
-      [
-       "",
-       "Abode of disbelief. "
-      ],
-      [
-       "bi",
-       "Dar-ul ta‘leem"
-      ],
-      [
-       "",
-       " Abode of learning. "
-      ],
-      [
-       "bi",
-       "dawah"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "communication of the message of"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b9"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "the Quran in the Arabic language by Sheikh Muhammad Ali al-Sabuni"
-      ]
-     ],
-     "page": 48,
-     "ids": [
+      "p48b20",
       "p48b21"
      ]
     },
     {
-     "k": "p",
-     "runs": [
-      [
-       "",
-       "(b. 1930, Syria)."
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b21"
-     ]
-    },
-    {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "bi",
@@ -5479,8 +5794,17 @@
       ],
       [
        "",
-       "; the Islamic prayer. "
-      ],
+       "; the Islamic prayer."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Shariah"
@@ -5491,66 +5815,36 @@
       ],
       [
        "",
-       "moral code and religious law of God. "
-      ],
-      [
-       "bi",
-       "fasiq"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "transgressor; sinner. "
-      ],
-      [
-       "bi",
-       "fatwa"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "legal opinion; judicial verdict. "
-      ],
-      [
-       "bi",
-       "Hadith"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "sayings and deeds of the Prophet"
+       "moral code and religious law of Islam."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b21",
-      "p48b10"
+      "p48b22"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Islam. "
-      ],
       [
        "b",
        "Somnath Temple "
       ],
       [
        "",
-       "is the place of worship of Hindus located in the Prabhas Kshetra near Veraval in Saurashtra, on the western coast of Gujarat, India. "
-      ],
+       "is the place of worship of Hindus located in the Prabhas Kshetra near Veraval in Saurashtra, on the western coast of Gujarat, India."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b22",
+      "p48b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Surah"
@@ -5561,8 +5855,17 @@
       ],
       [
        "",
-       "chapter of the Quran "
-      ],
+       "chapter of the Quran"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "talaq"
@@ -5573,8 +5876,17 @@
       ],
       [
        "",
-       "Divorce "
-      ],
+       "Divorce"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Ulema"
@@ -5593,96 +5905,35 @@
       ],
       [
        "",
-       "; religious scholars "
-      ],
+       "; religious scholars"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Umar "
       ],
       [
        "",
-       "also Umar Faruq or Omar bin"
+       "also Umar Faruq or Omar bin al Khattab; died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b22",
-      "p48b23"
+      "p48b23",
+      "p48b24"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of Islam. "
-      ],
-      [
-       "b",
-       "Imam "
-      ],
-      [
-       "",
-       "One who leads the prayers. "
-      ],
-      [
-       "b",
-       "Imam Shafi "
-      ],
-      [
-       "",
-       "Also known as Idris al-Shafi, he was active in judicial matters and is considered as the founder of Islamic jurisprudence. "
-      ],
-      [
-       "bi",
-       "iqra"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "read "
-      ],
-      [
-       "bi",
-       "Kafir"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "One who denies. "
-      ],
-      [
-       "bi",
-       "Kitab al-Fitan"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "Chapters in the books of"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b11",
-      "p48b12"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "al Khattab; died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph. "
-      ],
       [
        "bi",
        "Ummah"
@@ -5693,66 +5944,18 @@
       ],
       [
        "",
-       "religious community; followers of "
-      ],
-      [
-       "i",
-       "Hadith"
-      ],
-      [
-       "",
-       " that predict certain events which will happen towards the end of the times. "
-      ],
-      [
-       "bi",
-       "Kufr"
-      ],
-      [
-       "b",
-       " "
-      ],
-      [
-       "",
-       "Denial "
-      ],
-      [
-       "b",
-       "Madani "
-      ],
-      [
-       "",
-       "Pertaining to Madinah. "
-      ],
-      [
-       "b",
-       "Madinah "
-      ],
-      [
-       "",
-       "Medina; also called Yathrib"
+       "religious community; followers of a prophet."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b24",
-      "p48b13"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "a prophet."
-      ]
-     ],
-     "page": 48,
-     "ids": [
       "p48b25"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 455,
    "n": 17

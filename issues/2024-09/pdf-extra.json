@@ -1,0 +1,18 @@
+[
+ {
+  "pages": [
+   32,
+   35
+  ],
+  "mode": "rules",
+  "audio": false
+ },
+ {
+  "pages": [
+   45,
+   45
+  ],
+  "mode": "rules",
+  "audio": true
+ }
+]

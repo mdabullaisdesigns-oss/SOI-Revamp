@@ -209,17 +209,26 @@
     51
    ],
    "missing": []
+  },
+  {
+   "n": 17,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 1206,
+   "audio": false,
+   "match": 100.0,
+   "pages": [
+    35,
+    41
+   ],
+   "missing": []
   }
  ],
- "overall_match": 99.94,
+ "overall_match": 99.95,
  "flagged": [],
  "unplaced": [],
  "warnings": [
-  "recording of article 6 “The Los Angeles Wildfires”: the recording has 60 words that are not in the text (“bakari this teaching underscores the act of planting…”)",
-  "PDF page 35: 254 words are on no web article (“cps newsletter mr khurram qureshis report on meeting…”)",
-  "PDF page 39: 255 words are on no web article (“quran stall at msi royal function hall raichur…”)",
-  "PDF page 40: 230 words are on no web article (“stance particularly his opposition to the fatwa against…”)",
-  "PDF page 41: 215 words are on no web article (“with immense gratitude to god i am delighted…”)"
+  "recording of article 6 “The Los Angeles Wildfires”: the recording has 60 words that are not in the text (“bakari this teaching underscores the act of planting…”)"
  ],
  "pdf_pages_not_on_page": [
   {
@@ -256,55 +265,6 @@
    "of": 243,
    "starts": "in focus we bring you two articles every issue under the headings of personal",
    "expected": true
-  },
-  {
-   "page": 35,
-   "words": 254,
-   "of": 254,
-   "starts": "cps newsletter mr khurram qureshis report on meeting with imam mohammed sualeh at saigon",
-   "expected": false
-  },
-  {
-   "page": 36,
-   "words": 105,
-   "of": 105,
-   "starts": "goodword books and cps international at the world book fair goodword books and cps",
-   "expected": true
-  },
-  {
-   "page": 37,
-   "words": 93,
-   "of": 93,
-   "starts": "cps internationalgoodword at the international kolkata book fair cps internationalgoodword kolkata chapter participated in",
-   "expected": true
-  },
-  {
-   "page": 38,
-   "words": 130,
-   "of": 130,
-   "starts": "cps hyderabad team at the peace camp the cps hyderabad team participated in a",
-   "expected": false
-  },
-  {
-   "page": 39,
-   "words": 255,
-   "of": 255,
-   "starts": "quran stall at msi royal function hall raichur on the occasion of amjad bhais",
-   "expected": false
-  },
-  {
-   "page": 40,
-   "words": 230,
-   "of": 230,
-   "starts": "stance particularly his opposition to the fatwa against salman rushdie which he deemed unislamic",
-   "expected": false
-  },
-  {
-   "page": 41,
-   "words": 215,
-   "of": 215,
-   "starts": "with immense gratitude to god i am delighted to share the wonderful news of",
-   "expected": false
   }
  ],
  "left_out": []

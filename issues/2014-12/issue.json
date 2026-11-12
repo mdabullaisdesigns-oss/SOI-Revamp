@@ -4872,7 +4872,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4880,63 +4880,17 @@
       ],
       [
        "",
-       "(614-693);"
+       "(614-693); companion of the Prophet Muhammad; son of Umar bin al Khattab, the second Muslim Caliph."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b1"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "bi",
-       "fitna"
-      ],
-      [
-       "",
-       " persecution. companion of the Prophet "
-      ],
-      [
-       "bi",
-       "Hadith"
-      ],
-      [
-       "",
-       " sayings and deeds of the Muhammad; son of Umar bin al Khattab, the second Muslim Caliph."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b11",
+      "p49b1",
       "p49b2"
      ]
     },
     {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Prophet of Islam. "
-      ],
-      [
-       "b",
-       "Imam Al-Bukhari"
-      ],
-      [
-       "",
-       " (810-870); Islamic"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b12"
-     ]
-    },
-    {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4944,20 +4898,240 @@
       ],
       [
        "",
-       " (624-692);"
+       " (624-692); companion of the Prophet Muhammad; first Muslim born in Madinah after the Hijrath."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b2"
+      "p49b2",
+      "p49b3"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
+       "b",
+       "Albert Einstein"
+      ],
+      [
        "",
-       "scholar who authored the "
+       " (1879-1955) German born theoretical physicist and philosopher of science; best known for his theory of relativity one of the pillars of modern physics"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3",
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Alexis Carrel"
+      ],
+      [
+       "",
+       " (1873-1944) French surgeon, biologist and intellectual well-known for his best selling book, "
+      ],
+      [
+       "i",
+       "Man, the Unknown."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4",
+      "p49b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ali bin Abi Talib"
+      ],
+      [
+       "",
+       " died 661 AD; cousin and son-in-law of Prophet Muhammad; the fourth Muslim Caliph."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b5",
+      "p49b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "anal haq"
+      ],
+      [
+       "",
+       " Arabic for 'I am the Truth'."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "at-Tirmidhi"
+      ],
+      [
+       "",
+       " Sunan at- Tirmidhi; "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " collection of Abu `Isa Muhammad ibn `Isa at-Tirmidhi, Persian Islamic scholar died 892 AD; one of the six major "
+      ],
+      [
+       "i",
+       "Hadith "
+      ],
+      [
+       "",
+       "collections."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6",
+      "p49b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "batil"
+      ],
+      [
+       "",
+       " falsehood."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Billy Graham"
+      ],
+      [
+       "",
+       " born 1918, American Christian evangelist and spiritual advisor to several American Presidents."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7",
+      "p49b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Dandi Salt March"
+      ],
+      [
+       "",
+       " Salt Satyagraha, 1930; Campaign of tax resistance and non-violent protest against the British salt monopoly in colonial India. Took the form of a march led by Mahatma Gandhi from Sabarmati Ashram to the coastal village of Dandi."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Fathul Bari"
+      ],
+      [
+       "",
+       " commentary of Sahih al-Bukhari written by Ibn Hajr Asqalani 1372-1449 AD."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9",
+      "p49b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fitna"
+      ],
+      [
+       "",
+       " persecution."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Hadith"
+      ],
+      [
+       "",
+       " sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11",
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Al-Bukhari"
+      ],
+      [
+       "",
+       " (810-870); Islamic scholar who authored the "
       ],
       [
        "i",
@@ -4981,93 +5155,53 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12",
+      "p49b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Jagjit Singh"
       ],
       [
        "",
-       " (1941-2011) Prominent"
+       " (1941-2011) Prominent Indian ghazal singer, songwriter and musician."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b13"
+      "p49b13",
+      "p49b14"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "companion of the Prophet Muhammad; first Muslim born in Madinah after the Hijrath. "
-      ],
-      [
-       "b",
-       "Albert Einstein"
-      ],
-      [
-       "",
-       " (1879-1955) German born theoretical physicist and philosopher of science; best known for his theory of relativity one of the pillars of modern physics "
-      ],
-      [
-       "b",
-       "Alexis Carrel"
-      ],
-      [
-       "",
-       " (1873-1944) French"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b3",
-      "p49b4"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Indian ghazal singer, songwriter and musician. "
-      ],
       [
        "b",
        "James Clerk Maxwell"
       ],
       [
        "",
-       " (1831–"
+       " (1831– 1879), Scottish mathematical physicist famous for his work on electromagnetism."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b14"
+      "p49b14",
+      "p49b15"
      ]
     },
     {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "1879), Scottish mathematical physicist famous for his work on surgeon, biologist and intellectual electromagnetism. well-known for his best selling book, "
-      ],
-      [
-       "i",
-       "Man, the Unknown."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b15",
-      "p49b5"
-     ]
-    },
-    {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5075,109 +5209,35 @@
       ],
       [
        "",
-       "(1877-1946)"
+       "(1877-1946) English physicist, astronomer and mathematician."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b15"
+      "p49b15",
+      "p49b16"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "English physicist, astronomer and mathematician. "
-      ],
       [
        "b",
        "Kabah; Kaaba"
       ],
       [
        "",
-       " the sacred house of"
+       " the sacred house of God built originally by prophets Abraham and Ishmael in Makkah (present-day Mecca)."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b16"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "b",
-       "Ali bin Abi Talib"
-      ],
-      [
-       "",
-       " died 661 AD;"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b5"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "cousin and son-in-law of Prophet Muhammad; the fourth Muslim Caliph. "
-      ],
-      [
-       "bi",
-       "anal haq"
-      ],
-      [
-       "",
-       " Arabic for 'I am the Truth'. "
-      ],
-      [
-       "b",
-       "at-Tirmidhi"
-      ],
-      [
-       "",
-       " Sunan at- Tirmidhi;"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b6"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "God built originally by prophets Abraham and Ishmael in Makkah"
-      ]
-     ],
-     "page": 49,
-     "ids": [
+      "p49b16",
       "p49b17"
      ]
     },
     {
-     "k": "p",
-     "runs": [
-      [
-       "",
-       "(present-day Mecca)."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b17"
-     ]
-    },
-    {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "bi",
@@ -5185,15 +5245,7 @@
       ],
       [
        "",
-       " God-realization. "
-      ],
-      [
-       "b",
-       "Musnad; Musnad Ahmad"
-      ],
-      [
-       "",
-       " (780-855)"
+       " God-realization."
       ]
      ],
      "page": 49,
@@ -5202,61 +5254,34 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
+      [
+       "b",
+       "Musnad; Musnad Ahmad"
+      ],
+      [
+       "",
+       " (780-855) a collection of "
+      ],
       [
        "i",
        "Hadith"
       ],
       [
        "",
-       " collection of Abu `Isa Muhammad ibn `Isa at-Tirmidhi, Persian Islamic scholar died 892 AD; one of the six major "
-      ],
-      [
-       "i",
-       "Hadith "
-      ],
-      [
-       "",
-       "collections. "
-      ],
-      [
-       "bi",
-       "batil"
-      ],
-      [
-       "",
-       " falsehood. "
-      ],
-      [
-       "b",
-       "Billy Graham"
-      ],
-      [
-       "",
-       " born 1918, American"
+       " reports by Islamic scholar Ahmad bin Hanbal."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b7"
+      "p49b17",
+      "p49b18"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "a collection of "
-      ],
-      [
-       "i",
-       "Hadith"
-      ],
-      [
-       "",
-       " reports by Islamic scholar Ahmad bin Hanbal. "
-      ],
       [
        "b",
        "Sufi"
@@ -5267,124 +5292,124 @@
       ],
       [
        "",
-       "a practitioner of Sufism. "
-      ],
+       "a practitioner of Sufism."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Sufism"
       ],
       [
        "",
-       " a branch of Islam, defined by adherents as the inner, mystical dimension of Islam. Christian evangelist and spiritual "
-      ],
+       " a branch of Islam, defined by adherents as the inner, mystical dimension of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18",
+      "p49b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Umar"
       ],
       [
        "",
-       " also Umar Faruq, Umar Farooq advisor to several American Presidents. "
-      ],
-      [
-       "b",
-       "Dandi Salt March"
-      ],
-      [
-       "",
-       " Salt Satyagraha,"
+       " also Umar Faruq, Umar Farooq or Omar bin al Khattab; died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b18",
       "p49b19",
-      "p49b8"
+      "p49b20"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "or Omar bin al Khattab; died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph. 1930; Campaign of tax resistance "
-      ],
       [
        "b",
        "Umayyad"
       ],
       [
        "",
-       " Muslim Caliphate (661-and non-violent protest against the British salt monopoly in colonial India. Took the form of a march led by Mahatma Gandhi from Sabarmati Ashram to the coastal village of Dandi. "
-      ],
-      [
-       "bi",
-       "Fathul Bari"
-      ],
-      [
-       "",
-       " commentary of Sahih"
+       " Muslim Caliphate (661-750 AD) established after Prophet Muhammad; from the Banu Umayya clan of Makkah; founded by Muawiya ibn Abi Sufiyan."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b20",
-      "p49b9"
+      "p49b21"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "750 AD) established after Prophet Muhammad; from the Banu Umayya clan of Makkah; founded by Muawiya ibn Abi Sufiyan. "
-      ],
       [
        "bi",
        "Ummah"
       ],
       [
        "",
-       " religious community; followers of a prophet. "
-      ],
+       " religious community; followers of a prophet."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21",
+      "p49b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "zikr"
       ],
       [
        "",
-       " remembrance (of God) al-Bukhari written by Ibn Hajr "
-      ],
+       " remembrance (of God)"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "zikr-e-kathir"
       ],
       [
        "",
-       " much remembrance Asqalani 1372-1449 AD."
+       " much remembrance (of God)."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b21",
       "p49b22",
-      "p49b10"
-     ]
-    },
-    {
-     "k": "p",
-     "runs": [
-      [
-       "",
-       "(of God)."
-      ]
-     ],
-     "page": 49,
-     "ids": [
       "p49b23"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 382,
    "n": 18

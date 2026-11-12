@@ -64,9 +64,8 @@ On cover, contents and advert pages (not part of any article) the second reading
 
 ## Pieces the rules could not classify (kept, shown as a small note)
 
-- article 4, page 15: Happiness
-- article 4, page 15: is a result of intellectual management and not a result of material achievement.
 - article 8, page 21: Isra Mohammed: ‘My name is Isra Mohammed, I am a Muslim and I am not a terrorist’, Kenton School assembly - 20
+- article 8, page 21: 16 December 2015, Kenton School, Newcastle, UK
 
 ## Automatic text adjustments
 

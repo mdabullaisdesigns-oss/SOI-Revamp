@@ -1,7 +1,36 @@
 {
  "page_id": 3320,
  "page_title": "ISSUE JULY-AUGUST 2026",
- "skipped": [],
+ "skipped": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 37: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 38: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  }
+ ],
  "case": [],
  "audio_unmatched": []
 }

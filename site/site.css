@@ -1,8 +1,15 @@
 /* Spirit of Islam – site shell.  Approved palette: teal #204E60 / #173A48, gold #D4CC73, cream #EEEEE5.
    Crimson is used only inside the e-version (end-of-article quote hover).  The issue pages carry their
    own scoped styles (.soi-ev / #soi-quiz); everything here is prefixed "soi-". */
-@font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-Regular.woff2') format('woff2'); font-weight: 400 700; font-display: swap; }
-@font-face { font-family: 'Cita Pro Ita'; src: url('/assets/fonts/CitaPro-Italic.woff2') format('woff2'); font-style: italic; font-display: swap; }
+@font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic; font-display: swap; }
+/* Divi's name for the italic cut; declared for both styles so it shows whichever way it is asked for */
+@font-face { font-family: 'Cita Pro Ita'; src: url('/assets/fonts/CitaPro-Italic.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Cita Pro Ita'; src: url('/assets/fonts/CitaPro-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Cita Pro Ita'; src: url('/assets/fonts/CitaPro-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Cita Pro Ita'; src: url('/assets/fonts/CitaPro-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic; font-display: swap; }
 :root {
   --soi-teal: #204E60; --soi-teal-dark: #173A48; --soi-gold: #D4CC73; --soi-cream: #EEEEE5; --soi-paper: #F8F8F2;
   --soi-line: #D7D8CA; --soi-ink: #2A3A40; --soi-muted: #5E6E74;
@@ -112,3 +119,40 @@ a { color: var(--soi-teal); }
   .soi-pager { flex-direction: column; }
   .soi-pager a { max-width: none; }
 }
+
+/* ---- quotes library */
+.soi-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.soi-q-tools { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+.soi-q-find { flex: 1 1 240px; }
+.soi-q-tools input, .soi-q-tools select { width: 100%; font: inherit; color: var(--soi-ink); background: var(--soi-paper); border: 1.5px solid var(--soi-line); border-radius: 999px; padding: 10px 16px; }
+.soi-q-tools input:focus-visible, .soi-q-tools select:focus-visible { outline: 2px solid var(--soi-teal); outline-offset: 2px; }
+.soi-q-topics { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+.soi-q-topics button { font: inherit; font-size: .82rem; font-weight: 600; color: var(--soi-teal); background: transparent; border: 1.5px solid var(--soi-line); border-radius: 999px; padding: 6px 13px; cursor: pointer; }
+.soi-q-topics button:hover { border-color: var(--soi-teal); }
+.soi-q-topics button[aria-pressed="true"] { background: var(--soi-teal); border-color: var(--soi-teal); color: var(--soi-cream); }
+.soi-q-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 16px; }
+.soi-q { background: var(--soi-paper); border: 1px solid var(--soi-line); border-radius: 14px; padding: 22px 22px 16px; display: flex; flex-direction: column; min-width: 0; }
+.soi-q blockquote { margin: 0 0 14px; padding: 0 0 0 16px; border-left: 3px solid var(--soi-gold); }
+.soi-q blockquote p { margin: 0; font-family: var(--soi-display-ita); font-style: italic; font-size: 1.16rem; line-height: 1.5; color: var(--soi-teal-dark); overflow-wrap: anywhere; }
+.soi-q-src { margin: auto 0 0; font-size: .8rem; color: var(--soi-muted); }
+.soi-q-src a { color: var(--soi-teal); font-weight: 600; }
+.soi-q-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+.soi-q-tags i { font-style: normal; font-size: .68rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--soi-teal); background: rgba(212, 204, 115, .32); border-radius: 999px; padding: 3px 9px; }
+.soi-q-act { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; padding-top: 12px; border-top: 1px solid var(--soi-line); }
+.soi-q-act button { font: inherit; font-size: .78rem; font-weight: 600; color: var(--soi-teal); background: transparent; border: 1.5px solid var(--soi-line); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.soi-q-act button:hover, .soi-q-act button:focus-visible { border-color: var(--soi-teal); background: var(--soi-cream); }
+.soi-q-big { background: var(--soi-teal); border-color: var(--soi-teal); padding: 30px 28px 20px; }
+.soi-q-big blockquote p { color: var(--soi-cream); font-size: clamp(1.3rem, 3.6vw, 1.75rem); line-height: 1.42; }
+.soi-q-big .soi-q-src { color: rgba(238, 238, 229, .8); margin-top: 6px; }
+.soi-q-big .soi-q-src a { color: var(--soi-gold); }
+.soi-q-big .soi-q-tags i { color: var(--soi-teal-dark); background: var(--soi-gold); }
+.soi-q-big .soi-q-act { border-top-color: rgba(238, 238, 229, .22); }
+.soi-q-big .soi-q-act button { color: var(--soi-cream); border-color: rgba(238, 238, 229, .35); }
+.soi-q-big .soi-q-act button:hover, .soi-q-big .soi-q-act button:focus-visible { background: var(--soi-teal-dark); border-color: var(--soi-gold); }
+.soi-q-more { text-align: center; margin-top: 24px; }
+.soi-q-more .soi-btn { cursor: pointer; background: transparent; font: inherit; font-weight: 600; }
+.soi-q-none { color: var(--soi-muted); }
+.soi-q-toast { position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 20px); background: var(--soi-teal-dark); color: var(--soi-cream); padding: 9px 18px; border-radius: 999px; font-size: .85rem; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 50; }
+.soi-q-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+.soi-home-quote { margin-top: 44px; }
+@media (prefers-reduced-motion: reduce) { .soi-q-toast { transition: none; } }

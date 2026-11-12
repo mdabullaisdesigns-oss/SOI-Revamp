@@ -4689,7 +4689,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4697,15 +4697,7 @@
       ],
       [
        "",
-       " (817-889); Abu Dawud as-"
-      ],
-      [
-       "bi",
-       "Jinn"
-      ],
-      [
-       "",
-       " A living creation of God made Sijistani; Persian Islamic scholar and compiler of "
+       " (817-889); Abu Dawud as-Sijistani; Persian Islamic scholar and compiler of "
       ],
       [
        "i",
@@ -4721,69 +4713,36 @@
       ],
       [
        "",
-       " collection. "
-      ],
+       " collection."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b1",
+      "p48b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Aisha"
       ],
       [
        "",
-       " (612-678); daughter of Abu Bakr,"
+       " (612-678); daughter of Abu Bakr, wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b1",
-      "p48b13",
-      "p48b2"
+      "p48b2",
+      "p48b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "from fire;"
-      ],
-      [
-       "i",
-       " Jinns"
-      ],
-      [
-       "",
-       " have free-will just like mankind. "
-      ],
-      [
-       "bi",
-       "Kalima"
-      ],
-      [
-       "",
-       " The Islamic creed — ‘There is no god but God, Muhammad is the messenger of God’. "
-      ],
-      [
-       "b",
-       "Khadija"
-      ],
-      [
-       "",
-       " (555-620); Khadija bint Khuwaylid;"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b14",
-      "p48b15"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. "
-      ],
       [
        "bi",
        "Akhirah"
@@ -4794,8 +4753,17 @@
       ],
       [
        "",
-       "The Hereafter. "
-      ],
+       "The Hereafter."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Al-Adab al-Mufrad "
@@ -4810,119 +4778,25 @@
       ],
       [
        "",
-       " by"
+       " by Imam Al-Bukhari."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b3"
+      "p48b3",
+      "p48b4"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "first wife of Prophet Muhammad. "
-      ],
-      [
-       "bi",
-       "ma'arifah"
-      ],
-      [
-       "",
-       " also "
-      ],
-      [
-       "i",
-       "ma'rifat"
-      ],
-      [
-       "",
-       " — God-realization "
-      ],
-      [
-       "b",
-       "Musnad Ahmed"
-      ],
-      [
-       "",
-       " a collection of "
-      ],
-      [
-       "i",
-       "Hadith "
-      ],
-      [
-       "",
-       "Imam Al-Bukhari. "
-      ],
       [
        "bi",
        "Al-Bayhaqi "
       ],
       [
        "",
-       "(994-1066); Abu Bakr Ahmad"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b16",
-      "p48b4"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "reports by Islamic scholar Ahmad bin Hanbal (780-855). "
-      ],
-      [
-       "bi",
-       "Rab ul-alamin"
-      ],
-      [
-       "",
-       " Lord of the Worlds. "
-      ],
-      [
-       "bi",
-       "sabr"
-      ],
-      [
-       "",
-       " Patience. "
-      ],
-      [
-       "bi",
-       "Shukr"
-      ],
-      [
-       "",
-       " Gratefulness. "
-      ],
-      [
-       "bi",
-       "Shukr-e Kaseer"
-      ],
-      [
-       "",
-       " to express much gratitude"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b17"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "ibn Husayn al-Bayhaqi or Imam al-Bayhaqi; Islamic scholar of "
+       "(994-1066); Abu Bakr Ahmad ibn Husayn al-Bayhaqi or Imam al-Bayhaqi; Islamic scholar of "
       ],
       [
        "i",
@@ -4938,8 +4812,18 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4",
+      "p48b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Al-Bukhari; Imam Al-Bukhari ("
@@ -4962,39 +4846,7 @@
       ],
       [
        "",
-       ". "
-      ],
-      [
-       "bi",
-       "al-Insan"
-      ],
-      [
-       "",
-       " Mankind. "
-      ],
-      [
-       "bi",
-       "Allah"
-      ],
-      [
-       "",
-       " Arabic word for God. "
-      ],
-      [
-       "b",
-       "al-Nas"
-      ],
-      [
-       "",
-       " Man. "
-      ],
-      [
-       "b",
-       "angel"
-      ],
-      [
-       "",
-       " a living creation of God made from"
+       "."
       ]
      ],
      "page": 48,
@@ -5004,43 +4856,77 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "to God. "
-      ],
-      [
        "bi",
-       "Sunnah"
+       "al-Insan"
       ],
       [
        "",
-       " Practice and teachings of Prophet Muhammad. "
-      ],
-      [
-       "bi",
-       "Tafsir ibn Kathir"
-      ],
-      [
-       "",
-       " commentary of the Quran by the famous scholar Ibn Kathir."
+       " Mankind."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b18",
-      "p48b19",
-      "p48b20"
+      "p48b6"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "light; Angels have no free-will and are in constant obedience to God. "
+       "bi",
+       "Allah"
       ],
+      [
+       "",
+       " Arabic word for God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "al-Nas"
+      ],
+      [
+       "",
+       " Man."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "angel"
+      ],
+      [
+       "",
+       " a living creation of God made from light; Angels have no free-will and are in constant obedience to God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6",
+      "p48b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "At-Tirmidhi "
@@ -5067,80 +4953,174 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b7",
+      "p48b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Bani-Adam"
       ],
       [
        "",
-       " Children of Adam. "
-      ],
+       " Children of Adam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Dar al-insan"
       ],
       [
        "",
-       " Abode of mankind. "
-      ],
+       " Abode of mankind."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "dhikr"
       ],
       [
        "",
-       " to remember or think about God often. "
-      ],
+       " to remember or think about God often."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8",
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "fikr "
       ],
       [
        "",
-       "Contemplation. "
-      ],
+       "Contemplation."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "fiqh"
       ],
       [
        "",
-       " Islamic jurisprudence. "
-      ],
+       " Islamic jurisprudence."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Hadith"
       ],
       [
        "",
-       " sayings and deeds of the Prophet of Islam. "
-      ],
+       " sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9",
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Haj"
       ],
       [
        "",
-       " Pilgrimage. "
-      ],
+       " Pilgrimage."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Hira"
       ],
       [
        "",
-       " or Cave of Hira; cave on the mount Jabal al-Noor near Makkah where prophet Muhammad received the first revelation from God. "
-      ],
+       " or Cave of Hira; cave on the mount Jabal al-Noor near Makkah where prophet Muhammad received the first revelation from God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10",
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "ibadah"
       ],
       [
        "",
-       " Worship. "
-      ],
+       " Worship."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Ibn Majah"
@@ -5159,8 +5139,18 @@
       ],
       [
        "i",
-       "Hadith. "
-      ],
+       "Hadith."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11",
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "iman"
@@ -5172,16 +5162,230 @@
      ],
      "page": 48,
      "ids": [
-      "p48b7",
-      "p48b8",
-      "p48b9",
-      "p48b10",
-      "p48b11",
       "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Jinn"
+      ],
+      [
+       "",
+       " A living creation of God made from fire;"
+      ],
+      [
+       "i",
+       " Jinns"
+      ],
+      [
+       "",
+       " have free-will just like mankind."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13",
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kalima"
+      ],
+      [
+       "",
+       " The Islamic creed — ‘There is no god but God, Muhammad is the messenger of God’."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14",
+      "p48b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Khadija"
+      ],
+      [
+       "",
+       " (555-620); Khadija bint Khuwaylid; first wife of Prophet Muhammad."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b15",
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "ma'arifah"
+      ],
+      [
+       "",
+       " also "
+      ],
+      [
+       "i",
+       "ma'rifat"
+      ],
+      [
+       "",
+       " — God-realization"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Musnad Ahmed"
+      ],
+      [
+       "",
+       " a collection of "
+      ],
+      [
+       "i",
+       "Hadith "
+      ],
+      [
+       "",
+       "reports by Islamic scholar Ahmad bin Hanbal (780-855)."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16",
+      "p48b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Rab ul-alamin"
+      ],
+      [
+       "",
+       " Lord of the Worlds."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "sabr"
+      ],
+      [
+       "",
+       " Patience."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Shukr"
+      ],
+      [
+       "",
+       " Gratefulness."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Shukr-e Kaseer"
+      ],
+      [
+       "",
+       " to express much gratitude to God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17",
+      "p48b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Sunnah"
+      ],
+      [
+       "",
+       " Practice and teachings of Prophet Muhammad."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b18",
+      "p48b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Tafsir ibn Kathir"
+      ],
+      [
+       "",
+       " commentary of the Quran by the famous scholar Ibn Kathir."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b19",
+      "p48b20"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 314,
    "n": 17

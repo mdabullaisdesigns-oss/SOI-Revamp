@@ -109,7 +109,7 @@
     19,
     19
    ],
-   "words": 259,
+   "words": 258,
    "match": 98.84,
    "missing": [
     {
@@ -346,10 +346,8 @@
   }
  ],
  "overall_match": 99.93,
- "flagged": [
-  8
- ],
+ "flagged": [],
  "unplaced": [],
  "pdf_words": 17150,
- "article_words": 15416
+ "article_words": 15415
 }

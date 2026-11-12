@@ -76,21 +76,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 8, page 37: World War I 1914 – 1918 4 years Over 15 million World War II 1939 – 1945 6 years About 65 million American Civ
 - article 11, page 45: THE QURAN 2: 256
 - article 11, page 45: THE QURAN 109: 6
-- article 12, page 47: Ahkam al-Quran, 'The Commands of the Bhagavad Gita, is a 700-verse scripture Quran' an exegesis (Tafsir) of th
-- article 12, page 47: that is part of the Hindu epic Mahabharata. Dar us Salaam, 'Home of Peace'; referred wife of Prophet Muhammad;
-- article 12, page 47: to as Paradise. Dawah, calling people towards God. fiqh, Islamic jurisprudence fuqaha, Islamic jurists ghulu, 
-- article 12, page 47: and the End' a classic work of Islamic History by scholar Ibn Kathir
-- article 12, page 47: of Hunain (also Hunayn) was fought 630 AD between Prophet Muhammad and his followers and the Bedoin tribe of H
-- article 12, page 47: Al-Bukhari; Imam Al-Bukhari, (810-870); Islamic scholar who authored the Hadith collection known as Sahih al-B
-- article 12, page 47: biographer of Prophet Muhammad. Ibn Majah, (824-887); Islamic scholar and also known as al-Jassas al-Razi, die
-- article 12, page 47: compiler of Hadith. Ibn Shahaab Zuhri, a traditionist or compiler of Hadith. Ikhwan, Arabic meaning—brother. J
-- article 12, page 47: son-in-law of Prophet Muhammad; the 4th Muslim Caliph. Aljame le Ahkam al-Quran, Arabic book of sayings of the
-- article 12, page 47: commentary of the Quran by Shamsuddin Al Qurtubi (1671 Hijri) Ammar, Ammar bin Yasir; a companion of to contro
-- article 12, page 47: the Prophet (658). As salam o alaikum Peace be upon you; greeting often used by Muslims. Aws and Khazraj, the 
-- article 12, page 47: of the Prophet Muhammad. Khandaq, Trench; see Battle of the tribes of Medina who were the helpers of Prophet M
-- article 12, page 47: Trench. Khazraj, see Aws and Khazraj. Medina, Mddinah; also called Yathrib during the time of Prophet Muhammad
-- article 12, page 47: towards God. mujahid, one who struggles in the way of God. to which Prophet Muhammad belonged. Omar, also (Uma
-- article 12, page 47: also Battle of Khandaq, Battle of the Confederates (Ahzab) was a seige of Medina by Arab and Jewish tribes whe
 
 ## Automatic text adjustments
 

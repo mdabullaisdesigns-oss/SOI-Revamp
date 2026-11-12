@@ -5418,7 +5418,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5426,23 +5426,7 @@
       ],
       [
        "",
-       " noted 9th century collector "
-      ],
-      [
-       "bi",
-       "Sunan al-Tirmidhi"
-      ],
-      [
-       "",
-       " "
-      ],
-      [
-       "i",
-       "Hadith "
-      ],
-      [
-       "",
-       "collection of of "
+       " noted 9th century collector of "
       ],
       [
        "i",
@@ -5450,80 +5434,40 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b1",
+      "p48b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "An-Nasai "
       ],
       [
        "",
-       "noted 9th/early 10th century"
+       "noted 9th/early 10th century scholar and collector of "
+      ],
+      [
+       "i",
+       "Hadith."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b1",
-      "p48b15",
-      "p48b2"
+      "p48b2",
+      "p48b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Abu Isa Muhammad ibn Isa at-Tirmidhi. "
-      ],
-      [
-       "bi",
-       "Tawbah"
-      ],
-      [
-       "",
-       " turning to God in repentance. "
-      ],
-      [
-       "bi",
-       "Ulema"
-      ],
-      [
-       "",
-       " also "
-      ],
-      [
-       "i",
-       "ulama"
-      ],
-      [
-       "",
-       "; religious scholars. "
-      ],
-      [
-       "bi",
-       "Ummah"
-      ],
-      [
-       "",
-       " religious community; followers of"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b16"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "scholar and collector of "
-      ],
-      [
-       "i",
-       "Hadith. "
-      ],
       [
        "b",
        "At-Tirmidhi "
@@ -5534,47 +5478,7 @@
       ],
       [
        "i",
-       "Hadith. "
-      ],
-      [
-       "bi",
-       "Dar ul-Harb"
-      ],
-      [
-       "",
-       " Abode of War. "
-      ],
-      [
-       "bi",
-       "Dar ul-Islam"
-      ],
-      [
-       "",
-       " Abode of Islam. "
-      ],
-      [
-       "bi",
-       "Dar ul-Kufr"
-      ],
-      [
-       "",
-       " Abode of Disbelief. "
-      ],
-      [
-       "bi",
-       "Dawah"
-      ],
-      [
-       "",
-       " Conveying the message of God "
-      ],
-      [
-       "b",
-       "Din-e-ilahi "
-      ],
-      [
-       "",
-       "a Persian term which means"
+       "Hadith."
       ]
      ],
      "page": 48,
@@ -5584,49 +5488,129 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "a prophet. "
-      ],
-      [
-       "b",
-       "Yathrib"
+       "bi",
+       "Dar ul-Harb"
       ],
       [
        "",
-       " now known as Madinah."
+       " Abode of War."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b17"
+      "p48b4"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "‘Divine Faith’. It was an elitist, eclectic religious movement which never numbered more than 19 adherents, formulated by the Mughal emperor Akbar in the late 16th Century CE. "
+       "bi",
+       "Dar ul-Islam"
       ],
+      [
+       "",
+       " Abode of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Dar ul-Kufr"
+      ],
+      [
+       "",
+       " Abode of Disbelief."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Dawah"
+      ],
+      [
+       "",
+       " Conveying the message of God"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Din-e-ilahi "
+      ],
+      [
+       "",
+       "a Persian term which means ‘Divine Faith’. It was an elitist, eclectic religious movement which never numbered more than 19 adherents, formulated by the Mughal emperor Akbar in the late 16th Century CE."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4",
+      "p48b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Fiqh"
       ],
       [
        "",
-       " Islamic jurisprudence. "
-      ],
+       " Islamic jurisprudence."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Hadith "
       ],
       [
        "",
-       "sayings and deeds of the Prophet of Islam. "
-      ],
+       "sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5",
+      "p48b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Hudaibiya"
@@ -5637,8 +5621,18 @@
       ],
       [
        "",
-       "a place just outside Makkah where, in 628 CE, the Treaty of Hudaibiya was entered into between the Prophet Muhammad, representing the state of Madinah, and the Quraysh tribe of Makkah. "
-      ],
+       "a place just outside Makkah where, in 628 CE, the Treaty of Hudaibiya was entered into between the Prophet Muhammad, representing the state of Madinah, and the Quraysh tribe of Makkah."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6",
+      "p48b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Ibn Majah"
@@ -5649,8 +5643,18 @@
       ],
       [
        "i",
-       "Hadith. "
-      ],
+       "Hadith."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b7",
+      "p48b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Ijtihad"
@@ -5665,8 +5669,18 @@
       ],
       [
        "",
-       "to arrive at a knowledge of truth in religious matters. "
-      ],
+       "to arrive at a knowledge of truth in religious matters."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8",
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Imam Al-Bukhari"
@@ -5689,8 +5703,18 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9",
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Mujtahid"
@@ -5713,16 +5737,36 @@
       ],
       [
        "",
-       " to understand religious matters. "
-      ],
+       " to understand religious matters."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10",
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Najd"
       ],
       [
        "",
-       " a region in the centre of the Arabian Peninsula. "
-      ],
+       " a region in the centre of the Arabian Peninsula."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11",
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Sahih Al-Bukhari"
@@ -5737,8 +5781,18 @@
       ],
       [
        "",
-       " collection by Imam Al-Bukhari, regarded as the most authentic such collection. "
-      ],
+       " collection by Imam Al-Bukhari, regarded as the most authentic such collection."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b12",
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Salah "
@@ -5753,8 +5807,17 @@
       ],
       [
        "",
-       "; the Islamic prayer. "
-      ],
+       "; the Islamic prayer."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Shariah"
@@ -5766,20 +5829,116 @@
      ],
      "page": 48,
      "ids": [
-      "p48b5",
-      "p48b6",
-      "p48b7",
-      "p48b8",
-      "p48b9",
-      "p48b10",
-      "p48b11",
-      "p48b12",
       "p48b13",
       "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Sunan al-Tirmidhi"
+      ],
+      [
+       "",
+       " "
+      ],
+      [
+       "i",
+       "Hadith "
+      ],
+      [
+       "",
+       "collection of Abu Isa Muhammad ibn Isa at-Tirmidhi."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b15",
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Tawbah"
+      ],
+      [
+       "",
+       " turning to God in repentance."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Ulema"
+      ],
+      [
+       "",
+       " also "
+      ],
+      [
+       "i",
+       "ulama"
+      ],
+      [
+       "",
+       "; religious scholars."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Ummah"
+      ],
+      [
+       "",
+       " religious community; followers of a prophet."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16",
+      "p48b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Yathrib"
+      ],
+      [
+       "",
+       " now known as Madinah."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 277,
    "n": 17

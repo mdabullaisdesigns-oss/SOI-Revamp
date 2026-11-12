@@ -5284,7 +5284,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5292,15 +5292,7 @@
       ],
       [
        "",
-       "The Commands of the "
-      ],
-      [
-       "b",
-       "Bhagavad Gita,"
-      ],
-      [
-       "",
-       " is a 700-verse scripture Quran' an exegesis ("
+       "The Commands of the Quran' an exegesis ("
       ],
       [
        "i",
@@ -5308,39 +5300,36 @@
       ],
       [
        "",
-       ") of the Quran by Al-Jassas. "
-      ],
+       ") of the Quran by Al-Jassas."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b1",
+      "p47b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Aisha, "
       ],
       [
        "",
-       "(612-678); daughter of Abu Bakr,"
+       "(612-678); daughter of Abu Bakr, wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b1",
-      "p47b15",
-      "p47b2"
+      "p47b2",
+      "p47b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "that is part of the Hindu epic Mahabharata. "
-      ],
-      [
-       "b",
-       "Dar us Salaam, "
-      ],
-      [
-       "",
-       "'Home of Peace'; referred wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. "
-      ],
       [
        "b",
        "Al-Bidaya wa'l-Nihayah, "
@@ -5351,121 +5340,21 @@
       ],
       [
        "i",
-       "The Beginning"
+       "The Beginning and the End"
+      ],
+      [
+       "",
+       "' a classic work of Islamic History by scholar Ibn Kathir (1301-1373)."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b16",
-      "p47b3"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "to as Paradise. "
-      ],
-      [
-       "b",
-       "Dawah,"
-      ],
-      [
-       "",
-       " calling people towards God. "
-      ],
-      [
-       "b",
-       "fiqh, "
-      ],
-      [
-       "",
-       "Islamic jurisprudence "
-      ],
-      [
-       "b",
-       "fuqaha, "
-      ],
-      [
-       "",
-       "Islamic jurists "
-      ],
-      [
-       "b",
-       "ghulu, "
-      ],
-      [
-       "",
-       "extremism "
-      ],
-      [
-       "b",
-       "Hunain, "
-      ],
-      [
-       "",
-       "place in Arabia where the Battle"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b17"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "i",
-       "and the End"
-      ],
-      [
-       "",
-       "' a classic work of Islamic History by scholar Ibn Kathir"
-      ]
-     ],
-     "page": 47,
-     "ids": [
+      "p47b3",
       "p47b4"
      ]
     },
     {
-     "k": "p",
-     "runs": [
-      [
-       "",
-       "(1301-1373)."
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b4"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "of Hunain (also Hunayn) was fought 630 AD between Prophet Muhammad and his followers and the Bedoin tribe of Hawazin. "
-      ],
-      [
-       "b",
-       "Ibn Ishaq, "
-      ],
-      [
-       "",
-       "(704-761); historian and"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b18"
-     ]
-    },
-    {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5481,15 +5370,7 @@
       ],
       [
        "",
-       ". "
-      ],
-      [
-       "b",
-       "Al Jassas, "
-      ],
-      [
-       "",
-       "Imam Ahmed bin Ali Abu Bakr,"
+       "."
       ]
      ],
      "page": 47,
@@ -5499,41 +5380,317 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "biographer of Prophet Muhammad. "
-      ],
-      [
        "b",
-       "Ibn Majah, "
+       "Al Jassas, "
       ],
       [
        "",
-       "(824-887); Islamic scholar and also known as al-Jassas al-Razi, died 981 AD, Islamic scholar and author "
-      ],
+       "Imam Ahmed bin Ali Abu Bakr, also known as al-Jassas al-Razi, died 981 AD, Islamic scholar and author"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b5",
+      "p47b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Ali bin Abi Talib, "
       ],
       [
        "",
-       "died 661; cousin and"
+       "died 661; cousin and son-in-law of Prophet Muhammad; the 4th Muslim Caliph."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b19",
-      "p47b6"
+      "p47b6",
+      "p47b7"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
+       "b",
+       "Aljame le Ahkam al-Quran,"
+      ],
+      [
        "",
-       "compiler of "
+       " Arabic commentary of the Quran by Shamsuddin Al Qurtubi (1671 Hijri)"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b7",
+      "p47b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ammar, "
+      ],
+      [
+       "",
+       "Ammar bin Yasir; a companion of the Prophet (658)."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b8",
+      "p47b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "As salam o alaikum "
+      ],
+      [
+       "",
+       "Peace be upon you; greeting often used by Muslims."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b9",
+      "p47b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Aws and Khazraj, "
+      ],
+      [
+       "",
+       "the two main Arab tribes of Medina who were the helpers of Prophet Muhammad when he migrated there."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b10",
+      "p47b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Badr,"
+      ],
+      [
+       "",
+       " is a town in Saudi Arabia, where the famous Battle of Badr took place, between the Quraish of Makkah and the Muslims of Medina in 624 AD."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b11",
+      "p47b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Banu Hashim, "
+      ],
+      [
+       "",
+       "a clan of the Quraysh tribe to which Prophet Muhammad belonged."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b12",
+      "p47b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Battle of the Trench, "
+      ],
+      [
+       "",
+       "March-April 627AD; also Battle of Khandaq, Battle of the Confederates (Ahzab) was a seige of Medina by Arab and Jewish tribes where the Prophet and his companions tactically overcame their opponents without any fighting by digging a trench that rendered the confederate cavalry useless."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b13",
+      "p47b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Bhagavad Gita,"
+      ],
+      [
+       "",
+       " is a 700-verse scripture that is part of the Hindu epic Mahabharata."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b15",
+      "p47b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Dar us Salaam, "
+      ],
+      [
+       "",
+       "'Home of Peace'; referred to as Paradise."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b16",
+      "p47b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Dawah,"
+      ],
+      [
+       "",
+       " calling people towards God."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "fiqh, "
+      ],
+      [
+       "",
+       "Islamic jurisprudence"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "fuqaha, "
+      ],
+      [
+       "",
+       "Islamic jurists"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "ghulu, "
+      ],
+      [
+       "",
+       "extremism"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hunain, "
+      ],
+      [
+       "",
+       "place in Arabia where the Battle of Hunain (also Hunayn) was fought 630 AD between Prophet Muhammad and his followers and the Bedoin tribe of Hawazin."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b17",
+      "p47b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ibn Ishaq, "
+      ],
+      [
+       "",
+       "(704-761); historian and biographer of Prophet Muhammad."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b18",
+      "p47b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ibn Majah, "
+      ],
+      [
+       "",
+       "(824-887); Islamic scholar and compiler of "
       ],
       [
        "i",
@@ -5541,8 +5698,18 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b19",
+      "p47b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Ibn Shahaab Zuhri, "
@@ -5557,19 +5724,7 @@
       ],
       [
        "",
-       ". "
-      ],
-      [
-       "b",
-       "Ikhwan, "
-      ],
-      [
-       "",
-       "Arabic meaning—brother. "
-      ],
-      [
-       "b",
-       "Jame Al-Usool fi Ahaadith Ar-Rasool,"
+       "."
       ]
      ],
      "page": 47,
@@ -5579,264 +5734,255 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "son-in-law of Prophet Muhammad; the 4th Muslim Caliph. "
+       "b",
+       "Ikhwan, "
       ],
+      [
+       "",
+       "Arabic meaning—brother."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
-       "Aljame le Ahkam al-Quran,"
+       "Jame Al-Usool fi Ahaadith Ar-Rasool, "
       ],
       [
        "",
-       " Arabic book of sayings of the Prophet by Ibnul Atheer (1209 AD). "
-      ],
+       "book of sayings of the Prophet by Ibnul Atheer (1209 AD)."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b21",
+      "p47b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Jihad-bil-nafs, "
       ],
       [
        "",
-       "struggle against ourselves"
+       "struggle against ourselves to control negative and undesirable feelings."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b7",
-      "p47b22"
+      "p47b22",
+      "p47b23"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "commentary of the Quran by Shamsuddin Al Qurtubi (1671 Hijri) "
-      ],
-      [
-       "b",
-       "Ammar, "
-      ],
-      [
-       "",
-       "Ammar bin Yasir; a companion of to control negative and undesirable feelings. "
-      ],
       [
        "b",
        "Khabbab-bin-Arth, "
       ],
       [
        "",
-       "(~658) a companion"
+       "(~658) a companion of the Prophet Muhammad."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b8",
-      "p47b23"
+      "p47b23",
+      "p47b24"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "the Prophet (658). "
-      ],
-      [
-       "b",
-       "As salam o alaikum "
-      ],
-      [
-       "",
-       "Peace be upon you; greeting often used by Muslims. "
-      ],
-      [
-       "b",
-       "Aws and Khazraj, "
-      ],
-      [
-       "",
-       "the two main Arab"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b9",
-      "p47b10"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "of the Prophet Muhammad. "
-      ],
       [
        "b",
        "Khandaq, "
       ],
       [
        "",
-       "Trench; see Battle of the tribes of Medina who were the helpers of Prophet Muhammad when he migrated there. "
-      ],
-      [
-       "b",
-       "Badr,"
-      ],
-      [
-       "",
-       " is a town in Saudi Arabia, where"
+       "Trench; see Battle of the Trench."
       ]
      ],
      "page": 47,
      "ids": [
       "p47b24",
-      "p47b11"
+      "p47b25"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Trench. "
-      ],
       [
        "b",
        "Khazraj, "
       ],
       [
        "",
-       "see Aws and Khazraj. "
-      ],
+       "see Aws and Khazraj."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b25"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Medina, "
       ],
       [
        "",
-       "Mddinah; also called Yathrib during the time of Prophet Muhammad. the famous Battle of Badr took place, "
-      ],
+       "Mddinah; also called Yathrib during the time of Prophet Muhammad."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b25",
+      "p47b26"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "mad'u, "
       ],
       [
        "",
-       "one who is invited or called between the Quraish of Makkah and the Muslims of Medina in 624 AD. "
-      ],
-      [
-       "b",
-       "Banu Hashim, "
-      ],
-      [
-       "",
-       "a clan of the Quraysh tribe"
+       "one who is invited or called towards God."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b25",
       "p47b26",
-      "p47b12"
+      "p47b27"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "towards God. "
-      ],
       [
        "b",
        "mujahid, "
       ],
       [
        "",
-       "one who struggles in the way of God. to which Prophet Muhammad belonged. "
-      ],
+       "one who struggles in the way of God."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b27",
+      "p47b28"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Omar, "
       ],
       [
        "",
-       "also (Umar) or Omar bin al Khattab "
-      ],
-      [
-       "b",
-       "Battle of the Trench, "
-      ],
-      [
-       "",
-       "March-April 627AD; (579-644 AD); a close companion of the Prophet; the 2nd Muslim Caliph. "
-      ],
+       "also (Umar) or Omar bin al Khattab (579-644 AD); a close companion of the Prophet; the 2nd Muslim Caliph."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b28",
+      "p47b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Qital, "
       ],
       [
        "",
-       "armed warfare. "
-      ],
+       "armed warfare."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "shahadat, "
       ],
       [
        "",
-       "witness "
-      ],
+       "witness"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "shirk, "
       ],
       [
        "",
-       "association of partners with God. "
-      ],
+       "association of partners with God."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "tab’een, "
       ],
       [
        "",
-       "making the message of God clear"
+       "making the message of God clear to people"
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b27",
-      "p47b28",
-      "p47b13",
-      "p47b29"
+      "p47b29",
+      "p47b30"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "also Battle of Khandaq, Battle of the Confederates (Ahzab) was a seige of Medina by Arab and Jewish tribes where the Prophet and his companions tactically overcame their opponents without any fighting by digging a trench that rendered the confederate cavalry useless."
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b14"
-     ]
-    },
-    {
-     "k": "footnote",
-     "runs": [
-      [
-       "",
-       "to people "
-      ],
       [
        "b",
        "Zaid bin Muhalhil, "
@@ -5854,6 +6000,7 @@
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 480,
    "n": 12

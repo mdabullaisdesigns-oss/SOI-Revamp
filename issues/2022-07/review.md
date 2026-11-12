@@ -66,7 +66,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 
 - article 1, page 5: to her? (99: 1-3)
 - article 14, page 40: 1The World’s 500 Most Influential Muslims 2022, Royal Islamic Strategic Studies Centre, Jordan.
-- article 14, page 41: Prayers from the Quran
 
 ## Automatic text adjustments
 

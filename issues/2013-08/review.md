@@ -72,22 +72,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 12, page 38: THE QURAN 20: 76
 - article 13, page 39: THE QURAN 2: 152
 - article 15, page 45: THE QURAN 9: 60
-- article 16, page 47: Abu Bakr Siddiq, (573-634 AD) a close Ismael, also (Ishmael), firstborn son companion of the Prophet; also the
-- article 16, page 47: of Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Muhammad, the 
-- article 16, page 47: of the Prophet. Ad-Darimi, a traditionist or compiler of Hadith, 9th century. AH, Islamic lunar year of Hijrat
-- article 16, page 47: Ishmael), son of Abraham. Jame Al-Usool fi Ahaadith Ar-Rasool, book of sayings of the Prophet by Ibnul Atheer 
-- article 16, page 47: commentary of the Quran by Shamsuddin Al Qurtubi (1671 Hijri) Al-Risala, Urdu monthly publication of Maulana W
-- article 16, page 47: originally by prophets Abraham and Ismael. biography; book written by Ibn Kathir. Kalima, the Islamic creed — 
-- article 16, page 47: the famous Battle of Badr took place, between the Quraish of Makkah and the Muslims of Medina in 624 AD. Bhaga
-- article 16, page 47: (579-644 AD); a close companion of the Prophet; the 2nd Muslim Caliph. Qital, armed warfare. Quraysh, the domi
-- article 16, page 47: that is part of the Hindu epic Mahabharata. Dawah, calling people towards God. Hadith, sayings and deeds of th
-- article 16, page 47: during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. U
-- article 16, page 47: of Islam. Hayat as-Sahaba, (English: Lives of the Sahabah) is a known collection (2000+ pages) about the compa
-- article 16, page 47: Samadhi, a state of deep meditative contemplation which leads to higher consciousness. (World English Dictiona
-- article 16, page 47: where a treaty was signed between Muhammad, representing the state of Medina, and the Quraish tribe of Makkah 
-- article 16, page 47: Uhud, Saudi Arabia, where the second battle was fought in 625 AD, between the Makkans and the Muslims. scholar
-- article 16, page 47: calendar.
-- article 16, page 47: scholar who authored the Hadith collection known as Sahih al-Bukhari, regarded as the most authentic collectio
 
 ## Automatic text adjustments
 

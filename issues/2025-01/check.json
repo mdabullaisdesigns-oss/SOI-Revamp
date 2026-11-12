@@ -198,9 +198,24 @@
     52
    ],
    "missing": []
+  },
+  {
+   "n": 16,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 491,
+   "audio": false,
+   "match": 99.19,
+   "pages": [
+    41,
+    45
+   ],
+   "missing": [
+    "islamic parenting guiding lights"
+   ]
   }
  ],
- "overall_match": 99.63,
+ "overall_match": 99.61,
  "flagged": [
   13
  ],
@@ -255,42 +270,48 @@
    "of": 153,
    "starts": "people asked the prophet is our lord close can we address him softly or",
    "expected": false
-  },
-  {
-   "page": 41,
-   "words": 48,
-   "of": 48,
-   "starts": "cps newsletter a revamped and renovated cps international new delhi centre was inaugurated on",
-   "expected": true
-  },
-  {
-   "page": 42,
-   "words": 105,
-   "of": 105,
-   "starts": "the following is a list of youtube links for some parts of the inauguration",
-   "expected": false
-  },
-  {
-   "page": 43,
-   "words": 126,
-   "of": 126,
-   "starts": "cps wisdom bot welcome to cps wisdom bot a chatbot based on maulana wahiduddin",
-   "expected": false
-  },
-  {
-   "page": 44,
-   "words": 109,
-   "of": 109,
-   "starts": "access the wisdom of the quran on iphone app quran 365 app offers translations",
-   "expected": false
-  },
-  {
-   "page": 45,
-   "words": 182,
-   "of": 182,
-   "starts": "peace promotion in muslim societies literature on peace and spirituality were gifted by members",
-   "expected": false
   }
  ],
- "left_out": []
+ "left_out": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  }
+ ]
 }

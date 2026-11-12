@@ -222,26 +222,11 @@
     49
    ],
    "words": 382,
-   "match": 99.48,
-   "missing": [
-    {
-     "item": "p49b20",
-     "kind": "small",
-     "words": [
-      "661and"
-     ]
-    },
-    {
-     "item": "p49b21",
-     "kind": "small",
-     "words": [
-      "750"
-     ]
-    }
-   ]
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.98,
+ "overall_match": 99.99,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16212,

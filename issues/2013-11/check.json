@@ -173,29 +173,14 @@
     49,
     49
    ],
-   "words": 469,
-   "match": 99.57,
-   "missing": [
-    {
-     "item": "p49b20",
-     "kind": "small",
-     "words": [
-      "ur"
-     ]
-    },
-    {
-     "item": "p49b21",
-     "kind": "small",
-     "words": [
-      "rashidun"
-     ]
-    }
-   ]
+   "words": 468,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.98,
+ "overall_match": 99.99,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 16502,
- "article_words": 15613
+ "article_words": 15612
 }

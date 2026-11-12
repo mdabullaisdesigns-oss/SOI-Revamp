@@ -1,6 +1,6 @@
 # Review – Issue 17 · May 2014
 
-PDF `May-2014.pdf`, 52 pages. **18 articles, 15,089 words, word match 99.98%** (second reading of the PDF; flag below 99%).
+PDF `May-2014.pdf`, 52 pages. **18 articles, 15,089 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -23,15 +23,13 @@ PDF `May-2014.pdf`, 52 pages. **18 articles, 15,089 words, word match 99.98%** (
 | 15 | 42 | Divine Protection | Miraculous Nine Days | 353 | 100.0% |
 | 16 | 43–45 | From The Scriptures | The Word of God | 992 | 100.0% |
 | 17 | 46–47 | Your Questions, Answered | Ask Maulana | 608 | 100.0% |
-| 18 | 48 |  | Glossary | 461 | 99.57% |
+| 18 | 48 |  | Glossary | 461 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 13, `p36b3` (p): there
-- article 18, `p48b18` (small): alcompanion
-- article 18, `p48b19` (small): malik
 
 ## Left out of the e-version – please confirm
 
@@ -73,21 +71,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 12, page 35: THE QURAN 5: 28
 - article 14, page 37: THE QURAN 57: 25
 - article 14, page 38: THE QURAN 57: 25
-- article 18, page 48: Alim religious scholar Abdullah ibn Abbas (618-687 AD);
-- article 18, page 48: Hadith sayings and deeds of the Prophet of Islam. cousin and companion of the Prophet Hasan ibn Thabit died 67
-- article 18, page 48: companion of the Prophet Muhammad. Ibn Hisham Abu Muhammad 'Abd al-companion of the Prophet Muhammad Abdullah 
-- article 18, page 48: Malik bin Hisham; Islamic historian well known for editing the biography of Prophet Muhammad written by Ibn Is
-- article 18, page 48: companion of the Prophet Muhammad; son of Umar bin al Khattab, the second Muslim Caliph. Abu Bakr Siddiq died 
-- article 18, page 48: from fire; Jinns have free-will just like mankind. Kabah the sacred house of God built companion of the Prophe
-- article 18, page 48: originally by prophets Abraham and Ismael in Makkah (present day Mecca). as-Sijistani; Persian Islamic scholar
-- article 18, page 48: Caliphate or "Rightly Guided" caliphs (632–661 AD) is the collective term comprising the first four caliphs in
-- article 18, page 48: of the Prophet known for his photographic memory. Ahimsa Sanskrit for 'do no harm'; denotes the principle of n
-- article 18, page 48: during the time of Prophet Muhammad. Makkah Mecca. Makkan from or of Makkah (Mecca). AD); Muhammad Al-Bukhari;
-- article 18, page 48: Hadith collection by Hadith scholar Khatib al-Tabrizi (d. 1340 AD). Orientalist scholar of Oriental studies; o
-- article 18, page 48: Adam. qaumi belonging to qaum (community) Qibla also qiblah; direction of the Kabah, Peace and Security; one o
-- article 18, page 48: the sacred house of God. Qital armed warfare. Quraysh the dominant tribe of Makkah as Paradise. dawah communic
-- article 18, page 48: during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. S
-- article 18, page 48: God. Fiqh Islamic jurisprudence. fuqaha Islamic jurists. Habil Abel,the second son of Adam; was murdered by hi
 
 ## Automatic text adjustments
 

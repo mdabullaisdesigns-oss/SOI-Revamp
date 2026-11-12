@@ -1,6 +1,6 @@
 # Review – Issue 10 · October 2013
 
-PDF `October-2013.pdf`, 52 pages. **16 articles, 14,287 words, word match 99.97%** (second reading of the PDF; flag below 99%).
+PDF `October-2013.pdf`, 52 pages. **16 articles, 14,286 words, word match 99.97%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -21,7 +21,7 @@ PDF `October-2013.pdf`, 52 pages. **16 articles, 14,287 words, word match 99.97%
 | 13 | 42 |  | Opportunities Will Never Cease | 213 | 100.0% |
 | 14 | 43 |  | On Old Age | 275 | 99.64% |
 | 15 | 44–46 |  | The Word of God | 800 | 100.0% |
-| 16 | 47 |  | Glossary | 317 | 100.0% |
+| 16 | 47 |  | Glossary | 316 | 100.0% |
 
 ## Words the second reading did not confirm
 
@@ -67,18 +67,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 10, page 31: THE QURAN 37: 102
 - article 10, page 33: THE QURAN 22: 27-28
 - article 11, page 39: THE QURAN 2: 197
-- article 16, page 47: Allahuma Labbaik, Here I am O God, Ihram Lit., 'Prohibiting'. Pilgrim's robe. Here I am. Arafat, Plain about 9
-- article 16, page 47: Jamarath, The three stone pillars in Mina where the pilgrims throw small pebbles, this being a rite of Haj.
-- article 16, page 47: It is a major focal point for Haj. On 9th Dhul Hijjah (12th month of the lunar calendar) all pilgrims must pre
-- article 16, page 47: Jurham, The name of an Arab tribe. Kabah, the sacred house of God built originally by prophets, Abraham and Is
-- article 16, page 47: Safa and Marwah, Two small hills in Makkah near the Kabah between which pilgrims go back and forth seven times
-- article 16, page 47: Hadith, Sayings and deeds of the Prophet of Islam. Hagar (Hajira), Name of the wife of
-- article 16, page 47: Sahih Bukhari, Most authentic Hadith collection by Muhammad bin Ismail Al-Bukhari (810-870).
-- article 16, page 47: Prophet Abraham. Haj Lit., 'to set out for a place'. Pilgrimage to Makkah, which is one of the five Salath, Fi
-- article 16, page 47: daily. Tawaaf, A rite of Haj which is performed by going around the Kabah seven times in an anti-clockwise dir
-- article 16, page 47: Hijrah, migration or the journey of the Prophet Muhammad from Makkah to Medina. It marks the beginning of the 
-- article 16, page 47: Tazkiyah, Purification of the soul.
-- article 16, page 47: SMS 8050202626 email: thecentreforpeace@gmail.com
 
 ## Automatic text adjustments
 

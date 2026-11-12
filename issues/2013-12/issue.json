@@ -4992,7 +4992,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5004,73 +5004,7 @@
       ],
       [
        "",
-       "compiler of the sayings of and Ismael. "
-      ],
-      [
-       "bi",
-       "kalima-e-sawa,"
-      ],
-      [
-       "",
-       " common ground "
-      ],
-      [
-       "bi",
-       "nafs ammara, "
-      ],
-      [
-       "",
-       "ego "
-      ],
-      [
-       "bi",
-       "nafs lawwama, "
-      ],
-      [
-       "",
-       "conscience "
-      ],
-      [
-       "bi",
-       "rifq, "
-      ],
-      [
-       "",
-       "gentleness "
-      ],
-      [
-       "bi",
-       "sabr, "
-      ],
-      [
-       "",
-       "patience "
-      ],
-      [
-       "b",
-       "Sahih Bukhari,"
-      ],
-      [
-       "",
-       " most authentic "
-      ],
-      [
-       "i",
-       "Hadith"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b1",
-      "p49b11"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "the Prophet Abu Dawud Sulaiman"
+       "compiler of the sayings of the Prophet Abu Dawud Sulaiman"
       ],
       [
        "bi",
@@ -5078,24 +5012,52 @@
       ],
       [
        "",
-       "bin al ashath alsajastani (817–889). "
-      ],
+       "bin al ashath alsajastani (817–889)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b1",
+      "p49b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "ahimsa, "
       ],
       [
        "",
-       "non-violence "
-      ],
+       "non-violence"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "anf, "
       ],
       [
        "",
-       "violence "
-      ],
+       "violence"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "As-Salam,"
@@ -5106,8 +5068,17 @@
       ],
       [
        "",
-       "the 'Source of Peace'. "
-      ],
+       "the 'Source of Peace'."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Bhagvad Gita,"
@@ -5122,31 +5093,286 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3",
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Bismillahir Rahmanir Rahim, "
       ],
       [
        "",
-       "'In the name"
+       "'In the name of God, the Beneficent, the Merciful.’"
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b2",
-      "p49b3",
-      "p49b4"
+      "p49b4",
+      "p49b5"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "dar us-salam,"
+      ],
+      [
+       "i",
+       " "
+      ],
+      [
+       "",
+       "Home of Peace"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "dua,"
+      ],
+      [
+       "",
+       " supplication"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fasad, "
+      ],
+      [
+       "",
+       "spreading corruption, rebellion, dissension, mischief and disorder across society."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6",
+      "p49b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Fath-ul-Bari, "
+      ],
+      [
+       "",
+       "a famous commentary of Sahih Bukhari by Shihabuddin ibn Al Hajar al Asqalani (died 1448)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7",
+      "p49b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Hadith, "
+      ],
+      [
+       "",
+       "sayings and deeds of Muhammad, the Prophet of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kabah, "
+      ],
+      [
+       "",
+       "the sacred house of God built originally by prophets, Abraham Read online or download literature by Maulana Wahiduddin Khan in 11 languages! 4"
+      ],
+      [
+       "b",
+       "cpsglobal.org/books "
+      ],
+      [
+       "",
+       "Read online and Download the Quran and its commentary in Arabic, English, Urdu and Hindi. 4"
+      ],
+      [
+       "b",
+       "cpsglobal.org/quran"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9",
+      "p49b10",
+      "p49b20",
+      "p49b21",
+      "p49b23",
+      "p49b24"
+     ]
+    },
+    {
+     "k": "gloss",
      "runs": [
       [
        "",
-       "collection by Muhammad bin Ismail Al-Bukhari (810-870). of God, the Beneficent, the Merciful.’ "
+       "and Ismael."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "kalima-e-sawa,"
       ],
+      [
+       "",
+       " common ground"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "nafs ammara, "
+      ],
+      [
+       "",
+       "ego"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "nafs lawwama, "
+      ],
+      [
+       "",
+       "conscience"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "rifq, "
+      ],
+      [
+       "",
+       "gentleness"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "sabr, "
+      ],
+      [
+       "",
+       "patience"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Sahih Bukhari,"
+      ],
+      [
+       "",
+       " most authentic "
+      ],
+      [
+       "i",
+       "Hadith "
+      ],
+      [
+       "",
+       "collection by Muhammad bin Ismail Al-Bukhari (810-870)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11",
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Seerah,"
@@ -5161,93 +5387,51 @@
       ],
       [
        "",
-       "; Prophet's biography. "
-      ],
+       "; Prophet's biography."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Seerath Ibn Kathir,"
       ],
       [
        "",
-       " a book on the life of"
+       " a book on the life of the prophet written by Abul Fidaa Ismail bin Umer bin Kathir (700–774)."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b12",
-      "p49b5",
-      "p49b13"
+      "p49b13",
+      "p49b14"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "bi",
-       "dar us-salam,"
-      ],
-      [
-       "i",
-       " "
-      ],
-      [
-       "",
-       "Home of Peace "
-      ],
-      [
-       "bi",
-       "dua,"
-      ],
-      [
-       "",
-       " supplication "
-      ],
-      [
-       "bi",
-       "fasad, "
-      ],
-      [
-       "",
-       "spreading corruption, rebellion,"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b6"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "the prophet written by Abul Fidaa Ismail bin Umer bin Kathir (700–774). "
-      ],
       [
        "bi",
        "shukr, "
       ],
       [
        "",
-       "thanksgiving; acknowledgement dissension, mischief and disorder across society. "
-      ],
-      [
-       "bi",
-       "Fath-ul-Bari, "
-      ],
-      [
-       "",
-       "a famous commentary of"
+       "thanksgiving; acknowledgement"
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b14",
-      "p49b7"
+      "p49b14"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "bi",
@@ -5259,61 +5443,42 @@
       ],
       [
        "",
-       "peace "
-      ],
+       "peace"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Sunnah, "
       ],
       [
        "",
-       "practice and teachings of Prophet Sahih Bukhari by Shihabuddin ibn Al Hajar al Asqalani (died 1448). "
-      ],
-      [
-       "bi",
-       "Hadith, "
-      ],
-      [
-       "",
-       "sayings and deeds of Muhammad,"
+       "practice and teachings of Prophet Muhammad."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b15",
-      "p49b8"
+      "p49b16"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Muhammad. "
-      ],
       [
        "bi",
        "tafakkur, "
       ],
       [
        "",
-       "contemplation "
-      ],
-      [
-       "bi",
-       "taqwa, "
-      ],
-      [
-       "",
-       "piety "
-      ],
-      [
-       "bi",
-       "tawheed, "
-      ],
-      [
-       "",
-       "monotheism or, oneness of"
+       "contemplation"
       ]
      ],
      "page": 49,
@@ -5322,172 +5487,40 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "the Prophet of Islam. "
-      ],
       [
        "bi",
-       "Kabah, "
+       "taqwa, "
       ],
       [
        "",
-       "the sacred house of God built God. originally by prophets, Abraham"
+       "piety"
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b9",
-      "p49b17",
-      "p49b10"
+      "p49b16"
      ]
     },
     {
-     "k": "h",
+     "k": "gloss",
      "runs": [
       [
-       "b",
-       "BOOKS"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b19"
-     ]
-    },
-    {
-     "k": "h",
-     "runs": [
-      [
-       "b",
-       "MAGAZINES"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b25"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Read online or download literature by Maulana Wahiduddin Khan in 11 languages!"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b20"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Boost your spiritual health every month with our English and Urdu Magazines."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b26"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "4"
-      ],
-      [
-       "b",
-       "cpsglobal.org/books "
+       "bi",
+       "tawheed, "
       ],
       [
        "",
-       "4"
+       "monotheism or, oneness of God. Boost your spiritual health every month with our English and Urdu Magazines. 4"
       ],
       [
        "b",
-       "cpsglobal.org/magazines"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b21",
-      "p49b27"
-     ]
-    },
-    {
-     "k": "h",
-     "runs": [
-      [
-       "b",
-       "QURAN"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b22"
-     ]
-    },
-    {
-     "k": "h",
-     "runs": [
-      [
-       "b",
-       "VIDEOS"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b28"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Read online and Download the Quran and its commentary in Arabic, English, Urdu and Hindi."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b23"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Watch Maulana W. Khan deal with the pressing issues of our times."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b29"
-     ]
-    },
-    {
-     "k": "footnote",
-     "runs": [
-      [
-       "",
-       "4"
-      ],
-      [
-       "b",
-       "cpsglobal.org/quran "
+       "cpsglobal.org/magazines "
       ],
       [
        "",
-       "4"
+       "Watch Maulana W. Khan deal with the pressing issues of our times. 4"
       ],
       [
        "b",
@@ -5496,14 +5529,19 @@
      ],
      "page": 49,
      "ids": [
-      "p49b24",
+      "p49b16",
+      "p49b17",
+      "p49b26",
+      "p49b27",
+      "p49b29",
       "p49b30"
      ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
-   "words": 239,
+   "words": 235,
    "n": 17
   }
  ]

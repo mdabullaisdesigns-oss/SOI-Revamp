@@ -1,6 +1,6 @@
 # Review – Issue 73 · January 2019
 
-PDF `January-2019.pdf`, 52 pages. **18 articles, 11,927 words, word match 99.93%** (second reading of the PDF; flag below 99%).
+PDF `January-2019.pdf`, 52 pages. **19 articles, 13,112 words, word match 99.92%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -15,15 +15,16 @@ PDF `January-2019.pdf`, 52 pages. **18 articles, 11,927 words, word match 99.93%
 | 7 | 18–19 | From the Spiritual Tree | The Teacher Tree | 721 | 100.0% |
 | 8 | 20 | Return to Islam | Two Pictures | 382 | 100.0% |
 | 9 | 21–22 | Beat Stress | Feed Your Starved Intellect | 623 | 100.0% |
-| 10 | 31–32 | Every Dome Has a Grave | Man’s Plight | 554 | 99.82% |
-| 11 | 33–34 | Model Character | Islamic Virtues | 536 | 100.0% |
-| 12 | 35–36 | Reset Your Priorities | Living in a Professional World | 557 | 99.82% |
-| 13 | 37–38 | Faith and Reason | From Denial to Belief | 715 | 99.86% |
-| 14 | 39–40 | Don’t be Fooled | Delusive Grandeur | 622 | 100.0% |
-| 15 | 41 | Hold No Grudges | Working Together | 378 | 99.74% |
-| 16 | 42–43 | Creative Mindset | A New India | 704 | 99.72% |
-| 17 | 44–46 | From The Scriptures | The Word of God | 1027 | 100.0% |
-| 18 | 47–49 | Your Questions Answered | Ask Maulana | 741 | 100.0% |
+| 10 | 23–30 | CPS International | Re-engineering Minds Towards Peace | 1185 | 99.83% |
+| 11 | 31–32 | Every Dome Has a Grave | Man’s Plight | 554 | 99.82% |
+| 12 | 33–34 | Model Character | Islamic Virtues | 536 | 100.0% |
+| 13 | 35–36 | Reset Your Priorities | Living in a Professional World | 557 | 99.82% |
+| 14 | 37–38 | Faith and Reason | From Denial to Belief | 715 | 99.86% |
+| 15 | 39–40 | Don’t be Fooled | Delusive Grandeur | 622 | 100.0% |
+| 16 | 41 | Hold No Grudges | Working Together | 378 | 99.74% |
+| 17 | 42–43 | Creative Mindset | A New India | 704 | 99.72% |
+| 18 | 44–46 | From The Scriptures | The Word of God | 1027 | 100.0% |
+| 19 | 47–49 | Your Questions Answered | Ask Maulana | 741 | 100.0% |
 
 ## Words the second reading did not confirm
 
@@ -31,12 +32,14 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 
 - article 1, `p5b6` (p): being
 - article 5, `p14b3` (p): according
-- article 10, `p31b3` (p): how
-- article 12, `p35b7` (p): meeting
-- article 13, `p37b3` (p): professor
-- article 15, `p41b6` (p): these
-- article 16, `p42b5` (p): wellknown
-- article 16, `p42b8` (pull): selfaware
+- article 10, `p24b2` (p): at
+- article 10, `p30b2` (p): laying
+- article 11, `p31b3` (p): how
+- article 13, `p35b7` (p): meeting
+- article 14, `p37b3` (p): professor
+- article 16, `p41b6` (p): these
+- article 17, `p42b5` (p): wellknown
+- article 17, `p42b8` (pull): selfaware
 
 ## Left out of the e-version – please confirm
 
@@ -49,13 +52,6 @@ Nothing here is in any article tab. Say if any of it should be included.
 | 3 | non-article page: Spirit Of Islam | 119 | SPIRIT OF ISLAM |
 | 4 | non-article page: Contents | 88 | CONTENTS |
 | 17 | after the end of the article (notice or advert) | 7 | Our vernacular websites: |
-| 23 | outside any article | 237 | Re-engineering Minds Towards Peace |
-| 24 | outside any article | 129 | Interfaith Dialogue and Peace-making |
-| 25 | outside any article | 260 | Awards and Recognition |
-| 26 | outside any article | 75 | CPS Global Network |
-| 28 | outside any article | 116 | Ambassadors of Peace Training |
-| 29 | outside any article | 131 | Training through the Foundation Material |
-| 30 | outside any article | 302 | Join Maulana Wahiduddin Khan Peace Foundation Project |
 | 32 | after the end of the article (notice or advert) | 5 | God's favours, |
 | 36 | after the end of the article (notice or advert) | 73 | We are grateful to the following for their efficient and sincere assis |
 | 46 | after the end of the article (notice or advert) | 40 | NOTICE |
@@ -77,11 +73,25 @@ On cover, contents and advert pages (not part of any article) the second reading
 - page 1, 36 words: peace peace peace peace peace peace peace pe peace pe ace ac pe peace peace peace peace peace peace peace peace peace peace peace peace peac
 - page 1, 92 words: spirituality spirituality peace peace peace peace peacepeace peace peace ce pea ce towards global peace spiritual living peace peace peace p
 - page 4, 11 words: a message for the new year 3 from maulanas desk 5
-- page 30, 8 words: maulana wahiduddin khan peacefoundation reengineering minds towards peace
 - page 52, 19 words: of publication publication 15th 15th of of every every month month date spirit islam issue january 2019 spirit of
 - page 52, 54 words: 52 pages pages licensed licensed to to post post without without prepayment prepayment license license no no wpp284 wpp284 postal postal reg
 - page 52, 16 words: spirituality peace peace spiritualitypeace peace spirituality peace peace peace spirituality spirituality spiritualitypeace peacepeace peace
 - page 52, 15 words: peace peace peace peace peace peace peace peacepeace peacespirituality spiritualityspirituality peace peace peace peace peace
+
+## Pieces the rules could not classify (kept, shown as a small note)
+
+- article 10, page 23: CPS Outreach at the New Delhi Peace Centre
+- article 10, page 24: Maulana Wahiduddin Khan in dialogue with leaders of communities.
+- article 10, page 25: In 2015, under the patronage of H.H. Sheikh Abdullah bin Zayed Al-Nahyan the Maulana was awarded the Sayyidina
+- article 10, page 28: Maulana Wahiduddin Khan training Ambassadors of Peace.
+- article 10, page 29: Monthly Spirit of Islam Magazine
+- article 10, page 29: Online material of the Foundation
+- article 10, page 29: Translation of the Quran
+- article 10, page 29: Peace material of the Foundation
+- article 10, page 30: We invite you to join Maulana Wahiduddin Khan Peace Foundation Project by
+- article 10, page 30: RE-ENGINEERING MINDS TOWARDS PEACE
+- article 10, page 30: 1, Nizamuddin West Market, New Delhi-110013 | info@cpsglobal.org | +91-9810319241
+- article 10, page 30: www.cpsinternational.info | www.cpsglobal.org |www.facebook.com/maulanawkhan/
 
 ## Automatic text adjustments
 

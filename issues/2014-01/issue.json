@@ -4779,7 +4779,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4787,110 +4787,54 @@
       ],
       [
        "",
-       " also Ibrahim; prophet and Jabal al-Noor near Makkah where prophet Muhammad received the first revelation from God. "
-      ],
-      [
-       "b",
-       "Hudaibiya"
-      ],
-      [
-       "",
-       " a place just outside Makkah"
+       " also Ibrahim; prophet and patriarch of Islam, Christianity and Judaism. He was the first pioneer of Islam and the original founder-builder of the Kabah."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b1",
-      "p48b14"
+      "p48b2"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "patriarch of Islam, Christianity and Judaism. He was the first pioneer of Islam and the original founder-builder of the Kabah. "
-      ],
       [
        "bi",
        "Ahimsa"
       ],
       [
        "",
-       " Sanskrit for 'do no harm'; denotes"
+       " Sanskrit for 'do no harm'; denotes the principle of non-violence, one of the cardinal virtues of major Indian religions."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b2"
+      "p48b2",
+      "p48b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "where the Treaty of Hudaibiya was made between Muhammad representing the state of Medina and the Quraysh tribe of Makkah in 628 AD. "
-      ],
-      [
-       "b",
-       "Ismael"
-      ],
-      [
-       "",
-       " also (Ishmael), firstborn son"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b15"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "the principle of non-violence, one of the cardinal virtues of major Indian religions. "
-      ],
       [
        "b",
        "Aisha"
       ],
       [
        "",
-       " (612–678); daughter of Abu Bakr, of Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Prophet Muhammad, the last prophet of Islam. "
-      ],
-      [
-       "bi",
-       "Jihad"
-      ],
-      [
-       "",
-       " struggle in the way of God. "
-      ],
-      [
-       "b",
-       "Kabah"
-      ],
-      [
-       "",
-       " the sacred house of God built"
+       " (612–678); daughter of Abu Bakr, wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b3",
-      "p48b16"
+      "p48b4"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. "
-      ],
       [
        "b",
        "Al-Bukhari; Imam Al-Bukhari "
@@ -4913,15 +4857,7 @@
       ],
       [
        "",
-       ". "
-      ],
-      [
-       "b",
-       "Al-Qurtubi"
-      ],
-      [
-       "",
-       " (1214-1273); Abu Abdullah"
+       "."
       ]
      ],
      "page": 48,
@@ -4931,12 +4867,270 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Al-Qurtubi"
+      ],
+      [
+       "",
+       " (1214-1273); Abu Abdullah al-Qurtubi, Islamic scholar most famous for his commentary of the Quran, Tafsir al-Qurtubi."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5",
+      "p48b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Dawah"
+      ],
+      [
+       "",
+       " communication of the message of God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6",
+      "p48b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Eid al-Azha"
+      ],
+      [
+       "",
+       " Festival of the sacrifice; one of the two festivals of Islam; It honours the willingness of Abraham to sacrifice his young son Ismael as an act of submission to God's command."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b7",
+      "p48b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Eid al-Fitr"
+      ],
+      [
+       "",
+       " Festival of the breaking of the fast; one of the two festivals of Islam; It celebrates the conclusion of the month of fasting — Ramazan."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8",
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Fatwa"
+      ],
+      [
+       "",
+       " legal opinion; judicial verdict."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Gabriel"
+      ],
+      [
+       "",
+       " One of the archangels whom God sent to the prophets with His divine message."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9",
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Hadith"
+      ],
+      [
+       "",
+       " sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10",
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hajira"
+      ],
+      [
+       "",
+       " also Hagar; wife of prophet Abraham who bore his first son Ismael."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11",
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hijaz"
+      ],
+      [
+       "",
+       " desert region in western part of present day Saudi Arabia where the Islamic historical and holy cities of Makkah (Mecca) and Madinah (Medina) are located."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b12",
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hira"
+      ],
+      [
+       "",
+       " or Cave of Hira; cave on the mount"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
      "runs": [
       [
        "",
-       "originally by prophets Abraham and Ismael in present day Mecca (Makkah). "
+       "Jabal al-Noor near Makkah where prophet Muhammad received the first revelation from God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hudaibiya"
       ],
+      [
+       "",
+       " a place just outside Makkah where the Treaty of Hudaibiya was made between Muhammad representing the state of Medina and the Quraysh tribe of Makkah in 628 AD."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14",
+      "p48b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ismael"
+      ],
+      [
+       "",
+       " also (Ishmael), firstborn son of Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Prophet Muhammad, the last prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b15",
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Jihad"
+      ],
+      [
+       "",
+       " struggle in the way of God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Kabah"
+      ],
+      [
+       "",
+       " the sacred house of God built originally by prophets Abraham and Ismael in present day Mecca (Makkah)."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b16",
+      "p48b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Musnad Ahmed"
@@ -4951,38 +5145,25 @@
       ],
       [
        "",
-       "reports by Islamic scholar Ahmad bin Hanbal (780–855) al-Qurtubi, Islamic scholar most famous "
-      ],
+       "reports by Islamic scholar Ahmad bin Hanbal (780–855)"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17",
+      "p48b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Nishkam Karma"
       ],
       [
        "",
-       " Sanskrit for 'selfless for his commentary of the Quran, Tafsir al-Qurtubi. "
-      ],
-      [
-       "bi",
-       "Dawah"
-      ],
-      [
-       "",
-       " communication of the message of"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b17",
-      "p48b18",
-      "p48b6"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "service'; one of the central messages of the "
+       " Sanskrit for 'selfless service'; one of the central messages of the "
       ],
       [
        "i",
@@ -4990,8 +5171,18 @@
       ],
       [
        "",
-       "—a key religious text of Hinduism. God. "
-      ],
+       "—a key religious text of Hinduism."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b18",
+      "p48b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Qiblah"
@@ -5002,16 +5193,18 @@
       ],
       [
        "",
-       "direction of the Kabah, the sacred "
-      ],
-      [
-       "b",
-       "Eid al-Azha"
-      ],
-      [
-       "",
-       " Festival of the sacrifice; one house of God. of the two festivals of Islam; It honours "
-      ],
+       "direction of the Kabah, the sacred house of God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b19",
+      "p48b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "raka'a"
@@ -5022,31 +5215,7 @@
       ],
       [
        "",
-       "bowing; consisting of prescribed the willingness of Abraham to sacrifice his young son Ismael as an act of submission to God's command. "
-      ],
-      [
-       "b",
-       "Eid al-Fitr"
-      ],
-      [
-       "",
-       " Festival of the breaking of the"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b19",
-      "p48b7",
-      "p48b20",
-      "p48b8"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "movements and words to be followed while offering "
+       "bowing; consisting of prescribed movements and words to be followed while offering "
       ],
       [
        "i",
@@ -5054,8 +5223,18 @@
       ],
       [
        "",
-       " (prayer). "
-      ],
+       " (prayer)."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b20",
+      "p48b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Sahih Al-Bukhari"
@@ -5078,8 +5257,18 @@
       ],
       [
        "",
-       " collection. "
-      ],
+       " collection."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b21",
+      "p48b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Salah"
@@ -5094,8 +5283,17 @@
       ],
       [
        "",
-       "; the Islamic prayer. "
-      ],
+       "; the Islamic prayer."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Seerah"
@@ -5118,96 +5316,43 @@
       ],
       [
        "",
-       "; Prophet’s"
+       "; Prophet’s biography."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b21",
-      "p48b22"
+      "p48b22",
+      "p48b23"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "fast; one of the two festivals of Islam; It celebrates the conclusion of the month of fasting — Ramazan. "
-      ],
-      [
-       "bi",
-       "Fatwa"
-      ],
-      [
-       "",
-       " legal opinion; judicial verdict. "
-      ],
-      [
-       "b",
-       "Gabriel"
-      ],
-      [
-       "",
-       " One of the archangels whom God"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b9"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "biography. "
-      ],
       [
        "b",
        "status-quoism"
       ],
       [
        "",
-       " accepting the political sent to the prophets with His divine message. "
-      ],
-      [
-       "bi",
-       "Hadith"
-      ],
-      [
-       "",
-       " sayings and deeds of the Prophet"
+       " accepting the political status quo and at the same time availing of opportunities in non-political fields."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b23",
-      "p48b10"
+      "p48b24"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "status quo and at the same time availing of opportunities in non-political fields. "
-      ],
       [
        "bi",
        "Tafsir"
       ],
       [
        "",
-       " commentary of the Quran. "
-      ],
-      [
-       "b",
-       "Tafsir Al-Qurtubi"
-      ],
-      [
-       "",
-       " commentary of the"
+       " commentary of the Quran."
       ]
      ],
      "page": 48,
@@ -5216,72 +5361,44 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "of Islam. "
-      ],
-      [
        "b",
-       "Hajira"
+       "Tafsir Al-Qurtubi"
       ],
       [
        "",
-       " also Hagar; wife of prophet Abraham who bore his first son Ismael. "
-      ],
-      [
-       "b",
-       "Hijaz"
-      ],
-      [
-       "",
-       " desert region in western part of"
+       " commentary of the Quran by famous Islamic scholar Al-Qurtubi."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b11",
-      "p48b12"
+      "p48b24",
+      "p48b25"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Quran by famous Islamic scholar Al-Qurtubi. present day Saudi Arabia where the "
-      ],
       [
        "b",
        "The Urantia Book"
       ],
       [
        "",
-       " a spiritual and Islamic historical and holy cities of Makkah (Mecca) and Madinah (Medina) are located. "
-      ],
-      [
-       "b",
-       "Hira"
-      ],
-      [
-       "",
-       " or Cave of Hira; cave on the mount"
+       " a spiritual and philosophical book that originated in Chicago sometime between 1924–1955. The authorship is unknown."
       ]
      ],
      "page": 48,
      "ids": [
       "p48b25",
-      "p48b13"
+      "p48b26"
      ]
     },
     {
-     "k": "footnote",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "philosophical book that originated in Chicago sometime between 1924–1955. The authorship is unknown. "
-      ],
       [
        "bi",
        "Ulema"
@@ -5306,6 +5423,7 @@
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 493,
    "n": 18

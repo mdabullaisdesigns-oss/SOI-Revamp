@@ -70,8 +70,6 @@ None.
 - article 9, page 26: THE QURAN 8: 46
 - article 9, page 27: .....to be continued. Part I of this article appeared in the previous Issue (No 19, July 2014).
 - article 10, page 28: THE QURAN 7: 17
-- article 20, page 49: Abdullah ibn Zubair (624–692);
-- article 20, page 49: fine-tuning problem an explanation
 
 ## Automatic text adjustments
 

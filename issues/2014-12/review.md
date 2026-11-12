@@ -1,6 +1,6 @@
 # Review – Issue 24 · December 2014
 
-PDF `December-2014.pdf`, 52 pages. **18 articles, 14,938 words, word match 99.98%** (second reading of the PDF; flag below 99%).
+PDF `December-2014.pdf`, 52 pages. **18 articles, 14,938 words, word match 99.99%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -23,15 +23,13 @@ PDF `December-2014.pdf`, 52 pages. **18 articles, 14,938 words, word match 99.98
 | 15 | 43 | A Conscious Effort | Simple Living, High Thinking | 383 | 100.0% |
 | 16 | 44–45 | From The Scriptures | The Word of God | 786 | 100.0% |
 | 17 | 46–48 | Your Questions Answered | Ask Maulana | 1211 | 100.0% |
-| 18 | 49 |  | Glossary | 382 | 99.48% |
+| 18 | 49 |  | Glossary | 382 | 100.0% |
 
 ## Words the second reading did not confirm
 
 Usually a drop cap, a hyphen or a reference number; a long list means a real difference.
 
 - article 8, `p29b3` (p): sir
-- article 18, `p49b20` (small): 661and
-- article 18, `p49b21` (small): 750
 
 ## Left out of the e-version – please confirm
 
@@ -58,15 +56,6 @@ None.
 
 - article 2, page 7: The World As I See It
 - article 4, page 12: THE QURAN 6: 43
-- article 18, page 49: Abdullah ibn Umar (614-693);
-- article 18, page 49: Abdullah ibn Zubayr (624-692);
-- article 18, page 49: James Jeans Sir (1877-1946)
-- article 18, page 49: Ali bin Abi Talib died 661 AD;
-- article 18, page 49: Ma'arifat; ma'arifah God-realization. Musnad; Musnad Ahmad (780-855)
-- article 18, page 49: Hadith collection of Abu `Isa Muhammad ibn `Isa at-Tirmidhi, Persian Islamic scholar died 892 AD; one of the s
-- article 18, page 49: a collection of Hadith reports by Islamic scholar Ahmad bin Hanbal. Sufi a practitioner of Sufism. Sufism a br
-- article 18, page 49: or Omar bin al Khattab; died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph. 1930; Campaign o
-- article 18, page 49: 750 AD) established after Prophet Muhammad; from the Banu Umayya clan of Makkah; founded by Muawiya ibn Abi Su
 
 ## Automatic text adjustments
 

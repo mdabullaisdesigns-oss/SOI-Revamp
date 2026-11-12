@@ -43,7 +43,7 @@ def load_issues():
             text = " ".join("".join(r[1] for r in x["runs"]) for x in a["items"])
             arts.append({"id": a["id"], "title": a["title"], "kicker": a.get("kicker", ""), "author": a.get("author", ""),
                          "type": a.get("type", "article"), "text": re.sub(r"\s+", " ", text).strip(), "words": a["words"],
-                         "audio": a["id"] in audio and "times" in audio[a["id"]]})
+                         "audio": a["id"] in audio and "times" in audio[a["id"]] and not audio[a["id"]].get("flag")})
         y, m = int(slug[:4]), int(slug[5:7])
         out.append({"slug": slug, "year": y, "month": m, "number": i.get("number"),
                     "period": i.get("period") or f"{MONTHS[m - 1]} {y}", "block": open(block, encoding="utf-8").read(),
@@ -104,6 +104,7 @@ def page(title, body, desc="", cls="", head=""):
     <a class="soi-brand" href="/"><span class="soi-brand-mark" aria-hidden="true"></span><span>Spirit of Islam</span></a>
     <nav class="soi-nav" aria-label="Main">
       <a href="/archive/">Archive</a>
+      <a href="/quotes/">Quotes</a>
       <a href="/search/" class="soi-nav-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search</span></a>
     </nav>
   </div>
@@ -115,7 +116,7 @@ def page(title, body, desc="", cls="", head=""):
   <div class="soi-wrap">
     <p class="soi-foot-name">Spirit of Islam</p>
     <p>Towards global peace and spiritual living · Bimonthly periodical</p>
-    <p class="soi-foot-small"><a href="/archive/">Full archive</a> · <a href="/search/">Search</a></p>
+    <p class="soi-foot-small"><a href="/archive/">Full archive</a> · <a href="/quotes/">Quotes</a> · <a href="/search/">Search</a></p>
     <p class="soi-foot-small">Website by Md Abullais</p>
   </div>
 </footer>
@@ -149,7 +150,8 @@ def build():
     os.makedirs(os.path.join(OUT, "assets"))
     shutil.copy(os.path.join(HERE, "site.css"), os.path.join(OUT, "assets", "site.css"))
     if os.path.isdir(os.path.join(HERE, "fonts")):
-        shutil.copytree(os.path.join(HERE, "fonts"), os.path.join(OUT, "assets", "fonts"))
+        shutil.copytree(os.path.join(HERE, "fonts"), os.path.join(OUT, "assets", "fonts"),
+                        ignore=shutil.ignore_patterns("*.otf"))      # only the web (woff2) files are published
     years = sorted({i["year"] for i in issues}, reverse=True)
     latest = issues[-1]
     total_articles = sum(len(i["articles"]) for i in issues)
@@ -159,6 +161,9 @@ def build():
         os.makedirs(os.path.dirname(p), exist_ok=True)
         open(p, "w", encoding="utf-8").write(text)
 
+    # ---- quotes library
+    import quotes as quotes_lib
+    n_quotes, n_dropped = quotes_lib.build(ROOT, OUT, issues, page, write)
     # ---- home
     redirects = json.dumps(old_links(issues), separators=(",", ":"))
     recent = "".join(card(i) for i in reversed(issues[-7:-1]))
@@ -179,6 +184,15 @@ def build():
     <span class="soi-latest-list">{esc(' · '.join(a['title'] for a in latest['articles'][:5]))}…</span>
     <span class="soi-btn soi-btn-solid">Read this issue</span>
   </a>
+</section>
+<section class="soi-wrap soi-block">
+  <h2 class="soi-h2"><span>Quote of the day</span><small><a href="/quotes/">All {n_quotes:,} quotes</a></small></h2>
+  <div id="soi-home-q"></div>
+  <script>(function(){{fetch('/assets/quotes.json').then(function(r){{return r.json()}}).then(function(d){{
+    var p=d.quotes.filter(function(q){{return q.t.length<260}}),day=Math.floor(Date.now()/864e5-new Date().getTimezoneOffset()/1440),q=p[(day*7919)%p.length],
+        e=function(s){{return String(s).replace(/[&<>"]/g,function(c){{return {{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]}})}};
+    document.getElementById('soi-home-q').innerHTML='<article class="soi-q soi-q-big"><blockquote><p>'+e(q.t)+'</p></blockquote><p class="soi-q-src"><a href="/issues/'+q.s+'/#soi-'+q.a+'">'+e(q.at)+'</a> · Issue '+q.n+', '+e(q.p)+'</p></article>';
+  }}).catch(function(){{}})}})();</script>
 </section>
 <section class="soi-wrap soi-block">
   <h2 class="soi-h2"><span>Recent issues</span></h2>

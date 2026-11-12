@@ -217,23 +217,9 @@
     39,
     40
    ],
-   "words": 648,
-   "match": 98.92,
-   "missing": [
-    {
-     "item": "p40b5",
-     "kind": "thought",
-     "words": [
-      "without",
-      "introspection",
-      "you",
-      "cannot",
-      "stand",
-      "true",
-      "faith"
-     ]
-    }
-   ]
+   "words": 640,
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 18,
@@ -296,11 +282,9 @@
    "missing": []
   }
  ],
- "overall_match": 99.94,
- "flagged": [
-  17
- ],
+ "overall_match": 99.99,
+ "flagged": [],
  "unplaced": [],
  "pdf_words": 16235,
- "article_words": 14805
+ "article_words": 14797
 }

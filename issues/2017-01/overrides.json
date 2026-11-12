@@ -1,0 +1,13 @@
+{
+ "text_fixes": [
+  [
+   "Opinion -makers",
+   "Opinion-makers"
+  ]
+ ],
+ "accepted": {
+  "articles": {
+   "responsibility-of-trendsetters": "hyphenated words only (opinion-makers, deep-rooted); text read against the PDF"
+  }
+ }
+}

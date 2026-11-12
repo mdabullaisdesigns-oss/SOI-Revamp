@@ -4848,7 +4848,7 @@
    ],
    "items": [
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4856,8 +4856,316 @@
       ],
       [
        "",
-       " also Ibrahim; prophet and Syria (Levant); an unrecognised state and extremist group active in Iraq, Syria and Middle East. "
+       " also Ibrahim; prophet and patriarch of Islam, Christianity and Judaism."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b1",
+      "p49b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Abu Bakr Siddiq"
       ],
+      [
+       "",
+       " died 632 AD; a close companion of the Prophet; also the first Muslim Caliph."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b2",
+      "p49b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Abu Dawud"
+      ],
+      [
+       "",
+       " (817-889); Abu Dawud as-Sijistani; Persian Islamic scholar and compiler of Hadith."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3",
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Amir al-mominin"
+      ],
+      [
+       "",
+       " Leader of the Believers."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4",
+      "p49b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Assalamu Alaikum"
+      ],
+      [
+       "",
+       " Peace be upon you; greeting often used by Muslims."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b5",
+      "p49b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ayyub"
+      ],
+      [
+       "",
+       " Prophet Job who was born several hundred years before Jesus Christ."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6",
+      "p49b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Dar us Salaam"
+      ],
+      [
+       "",
+       " ‘Home of Peace’; referred to as Paradise."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7",
+      "p49b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hadith"
+      ],
+      [
+       "",
+       " sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hajj"
+      ],
+      [
+       "",
+       " Pilgrimage"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Haji"
+      ],
+      [
+       "",
+       " Hajj pilgrim."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hajira"
+      ],
+      [
+       "",
+       " also Hagar; wife of prophet Abraham who bore his first son Ismael."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9",
+      "p49b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hajjat al-Wida"
+      ],
+      [
+       "",
+       " The last or farewell pilgrimage of the Prophet."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b10",
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hijrath"
+      ],
+      [
+       "",
+       " also Hijra; the migration of prophet Muhammad and his followers from Makkah to Medina in 622 AD."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11",
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hijri"
+      ],
+      [
+       "",
+       " The Muslim lunar calendar (AH) whose first year is fixed to the Hijrath."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12",
+      "p49b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Abu Hanifa"
+      ],
+      [
+       "",
+       " (699-767 AD) renowned Islamic scholar of jurisprudence."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b13",
+      "p49b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Ahmad "
+      ],
+      [
+       "",
+       "Ahmad ibn Hanbal (780-855); Islamic scholar and theologian; famous for Hadith collection known as Musnad Ahmad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b14",
+      "p49b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "ISIS (ISIL)"
+      ],
+      [
+       "",
+       " Islamic State of Iraq and"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "",
+       "Syria (Levant); an unrecognised state and extremist group active in Iraq, Syria and Middle East."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Ismael"
@@ -4872,167 +5180,70 @@
       ],
       [
        "",
-       " firstborn son of"
+       " firstborn son of Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Muhammad, the last prophet of Islam."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b1",
-      "p49b16"
+      "p49b16",
+      "p49b17"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "patriarch of Islam, Christianity and Judaism. "
-      ],
-      [
-       "b",
-       "Abu Bakr Siddiq"
-      ],
-      [
-       "",
-       " died 632 AD; a close companion of the Prophet; also the first Muslim Caliph. "
-      ],
-      [
-       "b",
-       "Abu Dawud"
-      ],
-      [
-       "",
-       " (817-889); Abu Dawud"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b2",
-      "p49b3"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Muhammad, the last prophet of Islam. "
-      ],
       [
        "b",
        "jamarat "
       ],
       [
        "",
-       "three walls in the city of"
+       "three walls in the city of Mina that are symbolically stoned as a part of the rituals of Hajj."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b17"
+      "p49b17",
+      "p49b18"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "as-Sijistani; Persian Islamic scholar and compiler of Hadith. "
-      ],
-      [
-       "b",
-       "Amir al-mominin"
-      ],
-      [
-       "",
-       " Leader of the"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b4"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Believers. Mina that are symbolically stoned as a part of the rituals of Hajj. "
-      ],
       [
        "b",
        "Jihad"
       ],
       [
        "",
-       " struggle in the way of God. "
-      ],
+       " struggle in the way of God."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Kabah "
       ],
       [
        "",
-       "the sacred house of God built"
+       "the sacred house of God built originally by prophets Abraham and Ishmael in Makkah."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b5",
-      "p49b18"
+      "p49b18",
+      "p49b19"
      ]
     },
     {
-     "k": "small",
-     "runs": [
-      [
-       "b",
-       "Assalamu Alaikum"
-      ],
-      [
-       "",
-       " Peace be upon"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b5"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "you; greeting often used by Muslims. "
-      ],
-      [
-       "b",
-       "Ayyub"
-      ],
-      [
-       "",
-       " Prophet Job who was born originally by prophets Abraham several hundred years before Jesus and Ishmael in Makkah. Christ. "
-      ],
-      [
-       "b",
-       "Dar us Salaam"
-      ],
-      [
-       "",
-       " ‘Home of Peace’;"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b6",
-      "p49b19",
-      "p49b7"
-     ]
-    },
-    {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5040,15 +5251,7 @@
       ],
       [
        "",
-       " ruler "
-      ],
-      [
-       "b",
-       "khalifa al-muslimin "
-      ],
-      [
-       "",
-       "ruler of"
+       " ruler"
       ]
      ],
      "page": 49,
@@ -5057,91 +5260,44 @@
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "referred to as Paradise. "
-      ],
-      [
        "b",
-       "Hadith"
+       "khalifa al-muslimin "
       ],
       [
        "",
-       " sayings and deeds of the"
+       "ruler of Muslims."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b8"
+      "p49b19",
+      "p49b20"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Muslims. "
-      ],
       [
        "b",
        "Khilafat-e-Rashida"
       ],
       [
        "",
-       " also Rashidun"
+       " also Rashidun Caliphate or “Rightly Guided” caliphs (632–661 AD) is the collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali); founded after Prophet Muhammad’s death."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b20"
+      "p49b20",
+      "p49b21"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Prophet of Islam. "
-      ],
-      [
-       "b",
-       "Hajj"
-      ],
-      [
-       "",
-       " Pilgrimage "
-      ],
-      [
-       "b",
-       "Haji"
-      ],
-      [
-       "",
-       " Hajj pilgrim. "
-      ],
-      [
-       "b",
-       "Hajira"
-      ],
-      [
-       "",
-       " also Hagar; wife of prophet"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b9"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Caliphate or “Rightly Guided” caliphs (632–661 AD) is the collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali); founded after Prophet Muhammad’s death. "
-      ],
       [
        "b",
        "Safa"
@@ -5156,50 +5312,7 @@
       ],
       [
        "",
-       " Two small hillocks"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b21"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Abraham who bore his first son Ismael. "
-      ],
-      [
-       "b",
-       "Hajjat al-Wida"
-      ],
-      [
-       "",
-       " The last or farewell pilgrimage of the Prophet. "
-      ],
-      [
-       "b",
-       "Hijrath"
-      ],
-      [
-       "",
-       " also Hijra; the migration"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b10",
-      "p49b11"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "in Makkah between which "
+       " Two small hillocks in Makkah between which "
       ],
       [
        "i",
@@ -5207,181 +5320,89 @@
       ],
       [
        "",
-       " run back and forth as a part of the Hajj rituals. "
-      ],
+       " run back and forth as a part of the Hajj rituals."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21",
+      "p49b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Mina"
       ],
       [
        "",
-       " a small neighbouring city of"
+       " a small neighbouring city of Makkah."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b22"
+      "p49b22",
+      "p49b23"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of prophet Muhammad and his followers from Makkah to Medina in 622 AD. "
-      ],
-      [
-       "b",
-       "Hijri"
-      ],
-      [
-       "",
-       " The Muslim lunar calendar (AH)"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b12"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "Makkah. "
-      ],
       [
        "b",
        "Mishkat al-Masabih"
       ],
       [
        "",
-       " secondary"
+       " secondary text of Hadith collection by Hadith scholar Khatib al-Tabrizi (d. 1340 AD)."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b23"
+      "p49b23",
+      "p49b24"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "whose first year is fixed to the Hijrath."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b13"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "text of Hadith collection by Hadith scholar Khatib al-Tabrizi (d. 1340 AD). "
-      ],
       [
        "b",
        "Shariah"
       ],
       [
        "",
-       " moral code and religious law"
+       " moral code and religious law of Islam."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b24"
+      "p49b24",
+      "p49b25"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "b",
-       "Imam Abu Hanifa"
-      ],
-      [
-       "",
-       " (699-767 AD)"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b13"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "renowned Islamic scholar of jurisprudence. "
-      ],
-      [
-       "b",
-       "Imam Ahmad "
-      ],
-      [
-       "",
-       "Ahmad ibn Hanbal"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b14"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "of Islam. "
-      ],
       [
        "b",
        "shura"
       ],
       [
        "",
-       " council for mutual (780-855); Islamic scholar and theologian; famous for Hadith collection known as Musnad Ahmad. "
-      ],
-      [
-       "b",
-       "ISIS (ISIL)"
-      ],
-      [
-       "",
-       " Islamic State of Iraq and"
+       " council for mutual consultation."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b25",
-      "p49b15"
-     ]
-    },
-    {
-     "k": "bio",
-     "runs": [
-      [
-       "",
-       "consultation."
-      ]
-     ],
-     "page": 49,
-     "ids": [
       "p49b26"
      ]
     },
     {
-     "k": "footnote",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5389,21 +5410,18 @@
       ],
       [
        "",
-       " practice and"
+       " practice and teachings of Prophet Muhammad"
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b26"
+      "p49b26",
+      "p49b27"
      ]
     },
     {
-     "k": "bio",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "teachings of Prophet Muhammad "
-      ],
       [
        "b",
        "Ummah"
@@ -5421,6 +5439,7 @@
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 380,
    "n": 17

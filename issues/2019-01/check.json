@@ -127,6 +127,33 @@
   },
   {
    "n": 10,
+   "id": "re-engineering-minds-towards-peace",
+   "title": "Re-engineering Minds Towards Peace",
+   "pages": [
+    23,
+    30
+   ],
+   "words": 1185,
+   "match": 99.83,
+   "missing": [
+    {
+     "item": "p24b2",
+     "kind": "p",
+     "words": [
+      "at"
+     ]
+    },
+    {
+     "item": "p30b2",
+     "kind": "p",
+     "words": [
+      "laying"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
    "id": "mans-plight",
    "title": "Man’s Plight",
    "pages": [
@@ -146,7 +173,7 @@
    ]
   },
   {
-   "n": 11,
+   "n": 12,
    "id": "islamic-virtues",
    "title": "Islamic Virtues",
    "pages": [
@@ -158,7 +185,7 @@
    "missing": []
   },
   {
-   "n": 12,
+   "n": 13,
    "id": "living-in-a-professional-world",
    "title": "Living in a Professional World",
    "pages": [
@@ -178,7 +205,7 @@
    ]
   },
   {
-   "n": 13,
+   "n": 14,
    "id": "from-denial-to-belief",
    "title": "From Denial to Belief",
    "pages": [
@@ -198,7 +225,7 @@
    ]
   },
   {
-   "n": 14,
+   "n": 15,
    "id": "delusive-grandeur",
    "title": "Delusive Grandeur",
    "pages": [
@@ -210,7 +237,7 @@
    "missing": []
   },
   {
-   "n": 15,
+   "n": 16,
    "id": "working-together",
    "title": "Working Together",
    "pages": [
@@ -230,7 +257,7 @@
    ]
   },
   {
-   "n": 16,
+   "n": 17,
    "id": "a-new-india",
    "title": "A New India",
    "pages": [
@@ -257,7 +284,7 @@
    ]
   },
   {
-   "n": 17,
+   "n": 18,
    "id": "the-word-of-god",
    "title": "The Word of God",
    "pages": [
@@ -269,7 +296,7 @@
    "missing": []
   },
   {
-   "n": 18,
+   "n": 19,
    "id": "ask-maulana",
    "title": "Ask Maulana",
    "pages": [
@@ -281,9 +308,9 @@
    "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.92,
  "flagged": [],
  "unplaced": [],
  "pdf_words": 24222,
- "article_words": 11927
+ "article_words": 13112
 }

@@ -4345,23 +4345,12 @@
      "size": 10.0
     },
     {
-     "k": "other",
+     "k": "filler_h",
      "runs": [
       [
        "b",
-       "JUSTICE MARKANDEY KATJU'S TESTIMONIAL"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b4"
-     ],
-     "font": "OpenSans-Bold",
-     "size": 10.0
-    },
-    {
-     "k": "pull",
-     "runs": [
+       "JUSTICE MARKANDEY KATJU'S TESTIMONIAL "
+      ],
       [
        "bi",
        "to Maulana Wahiduddin Khan"
@@ -4369,10 +4358,11 @@
      ],
      "page": 47,
      "ids": [
+      "p47b4",
       "p47b5"
      ],
-     "font": "OpenSans-BoldItalic",
-     "size": 11.0
+     "font": "OpenSans-Bold",
+     "size": 10.0
     },
     {
      "k": "filler_p",

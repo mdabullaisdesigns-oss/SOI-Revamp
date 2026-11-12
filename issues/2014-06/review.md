@@ -51,7 +51,7 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 ## Text of the PDF that is in no article and not on the list above
 
-- page 49, 5 words: the kabah house of god
+None.
 
 ## Pieces the rules could not classify (kept, shown as a small note)
 
@@ -62,21 +62,6 @@ Nothing here is in any article tab. Say if any of it should be included.
 - article 4, page 19: THE QURAN 2: 183
 - article 4, page 19: THE QURAN 2: 185
 - article 6, page 21: THE QURAN 5: 32
-- article 18, page 49: Abu Bakr Siddiq died 632 AD; a close Makkah Mecca Nifaz-e-Shariah Enforcement of the
-- article 18, page 49: companion of the Prophet; also the first Muslim Caliph. Abu Lahab Paternal uncle of Prophet
-- article 18, page 49: Shariah. Orientalist scholar of Oriental studies; of Muhammad. Adam First man and first prophet. Aisha (612–67
-- article 18, page 49: near and far Eastern (Asian and Middle Eastern) societies and history. Qabil also Cain; the first born son of 
-- article 18, page 49: Adam. Qayamat Doomsday Quraysh the dominant tribe of Makkah during the time when Prophet Mohammad was born; ge
-- article 18, page 49: son-in-law of Prophet Muhammad; the 4th Muslim Caliph. Al Maidah Name of the 5th chapter of the Quran meaning 
-- article 18, page 49: calendar; month of fasting. Salah also Salat; the Islamic prayer. sawm Fasting Shariah moral code and religiou
-- article 18, page 49: Believers. Dar ul Islam land or state under Islamic governance. Dar us Salaam Home of Peace'; referred
-- article 18, page 49: Islam. Surah chapter of the Quran. Ulema also ulama; religious scholars. Umar also Umar Faruq or Omar bin
-- article 18, page 49: to as Paradise. fuqaha Islamic jurists. Habil the second son of Adam; was al Khattab, died 644 AD; a close com
-- article 18, page 49: murdered by his elder brother Qabil
-- article 18, page 49: Hadith sayings and deeds of the Prophet of Islam. Haj Pilgrimage Harun also known as Aaron, brother of
-- article 18, page 49: Umayyad Caliph; great grandson of Umar ibn Al Khattab. Umrah minor pilgrimage to the Kabah Prophet Moses. Huku
-- article 18, page 49: Uthman also Usman or Uthman ibn Affan; died 656 AD; a close companion of prophet Muhammad; also the 3rd Muslim
-- article 18, page 49: from fire; Jinns have free-will just like mankind. Kabah the sacred house of God built originally by prophets 
 
 ## Automatic text adjustments
 

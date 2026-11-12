@@ -237,9 +237,35 @@
     50
    ],
    "missing": []
+  },
+  {
+   "n": 19,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 510,
+   "audio": false,
+   "match": 99.8,
+   "pages": [
+    32,
+    35
+   ],
+   "missing": []
+  },
+  {
+   "n": 20,
+   "id": "the-word-of-god",
+   "title": "The Word of God",
+   "words": 339,
+   "audio": false,
+   "match": 100.0,
+   "pages": [
+    45,
+    45
+   ],
+   "missing": []
   }
  ],
- "overall_match": 99.75,
+ "overall_match": 99.76,
  "flagged": [
   9
  ],
@@ -248,8 +274,7 @@
   "recording of article 2 “Discovery of the Quran”: 500 words of the text are not read (“the minimum is that at least one month…”); the recording has 485 words that are not in the text (“in this world we see people living in…”); only 68.0% of the text is heard in the recording",
   "recording of article 7 “Think, Reflect, and Realize”: the recording has 736 words that are not in the text (“death is not the end but the beginning…”)",
   "recording of article 13 “The Path to Contentment”: the recording has 323 words that are not in the text (“qur an reminds us of the transient nature…”)",
-  "PDF page 33: 263 words are on no web article (“students shared their impressions of the talk two…”)",
-  "PDF page 45: 355 words are on no web article (“the word of god from the scriptures the…”)"
+  "no recording on the site for article 20 “The Word of God”"
  ],
  "pdf_pages_not_on_page": [
   {
@@ -285,41 +310,6 @@
    "words": 134,
    "of": 247,
    "starts": "o i made a mistake is only a sentence of four words however it",
-   "expected": false
-  },
-  {
-   "page": 32,
-   "words": 118,
-   "of": 118,
-   "starts": "cps newsletter quran hall has been recently opened at the cps international centre new",
-   "expected": false
-  },
-  {
-   "page": 33,
-   "words": 263,
-   "of": 263,
-   "starts": "students shared their impressions of the talk two of these are mentioned here comment",
-   "expected": false
-  },
-  {
-   "page": 34,
-   "words": 87,
-   "of": 87,
-   "starts": "ghamidi centre of islamic learning usa has produced a documentary on maulana wahiduddin khan",
-   "expected": false
-  },
-  {
-   "page": 35,
-   "words": 76,
-   "of": 76,
-   "starts": "book release new book on life of prophet muhammad in punjabi language download pdf",
-   "expected": false
-  },
-  {
-   "page": 45,
-   "words": 355,
-   "of": 355,
-   "starts": "the word of god from the scriptures the quran is the book of god",
    "expected": false
   },
   {

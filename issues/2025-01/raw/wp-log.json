@@ -1,7 +1,48 @@
 {
  "page_id": 2643,
  "page_title": "ISSUE JAN-FEB 2025",
- "skipped": [],
+ "skipped": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 42: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  }
+ ],
  "case": [
   "'FOR GREATER PARTNERSHIP' -> 'For Greater Partnership'"
  ],

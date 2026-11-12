@@ -198,9 +198,22 @@
     50
    ],
    "missing": []
+  },
+  {
+   "n": 16,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 456,
+   "audio": false,
+   "match": 99.78,
+   "pages": [
+    41,
+    43
+   ],
+   "missing": []
   }
  ],
- "overall_match": 99.67,
+ "overall_match": 99.68,
  "flagged": [],
  "unplaced": [],
  "warnings": [
@@ -251,27 +264,6 @@
    "expected": true
   },
   {
-   "page": 41,
-   "words": 192,
-   "of": 192,
-   "starts": "cps newsletter note kindly open the magazine in a pdf reader for the links",
-   "expected": false
-  },
-  {
-   "page": 42,
-   "words": 166,
-   "of": 166,
-   "starts": "interfaith iftar hosted by cps raichur on march 11 2026 cps raichur organized an",
-   "expected": false
-  },
-  {
-   "page": 43,
-   "words": 154,
-   "of": 154,
-   "starts": "ulama conference highlights legacy of peace cps international new delhi organized a major conference",
-   "expected": false
-  },
-  {
    "page": 51,
    "words": 118,
    "of": 118,
@@ -279,5 +271,26 @@
    "expected": true
   }
  ],
- "left_out": []
+ "left_out": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 41: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 43: note about the PDF / button label (its link is kept)"
+  }
+ ]
 }

@@ -1,7 +1,24 @@
 {
  "page_id": 3198,
  "page_title": "ISSUE MAR-APR 2026",
- "skipped": [],
+ "skipped": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Scan or Click the button",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Kindle Website",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 37: note about the PDF / button label (its link is kept)"
+  }
+ ],
  "case": [],
  "audio_unmatched": []
 }

@@ -4721,7 +4721,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4729,60 +4729,36 @@
       ],
       [
        "",
-       "(573-634 AD) a close "
-      ],
-      [
-       "b",
-       "Ismael, "
-      ],
-      [
-       "",
-       "also (Ishmael), firstborn son companion of the Prophet; also the first Muslim Caliph. "
-      ],
+       "(573-634 AD) a close companion of the Prophet; also the first Muslim Caliph."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b1",
+      "p47b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Abu Hurayrah, "
       ],
       [
        "",
-       "(603-681 AD) a companion"
+       "(603-681 AD) a companion of the Prophet."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b1",
-      "p47b16",
-      "p47b2"
+      "p47b2",
+      "p47b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Muhammad, the last prophet of Islam. "
-      ],
-      [
-       "b",
-       "Ismaelites, "
-      ],
-      [
-       "",
-       "of the family of Ismael (or"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b17"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "of the Prophet. "
-      ],
       [
        "b",
        "Ad-Darimi, "
@@ -4797,23 +4773,7 @@
       ],
       [
        "",
-       ", 9th century. "
-      ],
-      [
-       "b",
-       "AH, "
-      ],
-      [
-       "",
-       "Islamic lunar year of Hijrath. "
-      ],
-      [
-       "b",
-       "Aljame le Ahkam al-Quran,"
-      ],
-      [
-       "",
-       " Arabic"
+       ", 9th century."
       ]
      ],
      "page": 47,
@@ -4823,65 +4783,50 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "Ishmael), son of Abraham. "
-      ],
-      [
        "b",
-       "Jame Al-Usool fi Ahaadith Ar-Rasool, "
+       "AH, "
       ],
       [
        "",
-       "book of sayings of the Prophet by Ibnul Atheer (606 Hijri). "
-      ],
-      [
-       "b",
-       "Jihad,"
-      ],
-      [
-       "",
-       " struggle in the way of God. "
-      ],
-      [
-       "b",
-       "Kabah, "
-      ],
-      [
-       "",
-       "the sacred house of God built"
+       "Islamic lunar year of Hijrath."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b18",
-      "p47b19"
+      "p47b4"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "commentary of the Quran by Shamsuddin Al Qurtubi (1671 Hijri) "
+       "b",
+       "Aljame le Ahkam al-Quran,"
       ],
+      [
+       "",
+       " Arabic commentary of the Quran by Shamsuddin Al Qurtubi (1671 Hijri)"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b4",
+      "p47b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Al-Risala, "
       ],
       [
        "",
-       "Urdu monthly publication of Maulana Wahiddudin Khan (Delhi). "
-      ],
-      [
-       "b",
-       "As-Seerat an-Nabawiya, "
-      ],
-      [
-       "",
-       "Prophet’s"
+       "Urdu monthly publication of Maulana Wahiddudin Khan (Delhi)."
       ]
      ],
      "page": 47,
@@ -4891,116 +4836,69 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "originally by prophets Abraham and Ismael. biography; book written by Ibn Kathir. "
-      ],
-      [
        "b",
-       "Kalima, "
+       "As-Seerat an-Nabawiya, "
       ],
       [
        "",
-       "the Islamic creed — ‘There is no "
-      ],
+       "Prophet’s biography; book written by Ibn Kathir."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b6",
+      "p47b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Badr,"
       ],
       [
        "",
-       " is a town in Saudi Arabia, where god but God and Muhammad is His messenger.’ "
-      ],
-      [
-       "b",
-       "Omar, "
-      ],
-      [
-       "",
-       "also (Umar) or Omar bin al Khattab"
+       " is a town in Saudi Arabia, where the famous Battle of Badr took place, between the Quraish of Makkah and the Muslims of Medina in 624 AD."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b20",
       "p47b7",
-      "p47b21"
+      "p47b8"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "the famous Battle of Badr took place, between the Quraish of Makkah and the Muslims of Medina in 624 AD. "
-      ],
       [
        "b",
        "Bhagavad Gita,"
       ],
       [
        "",
-       " is a 700-verse scripture"
+       " is a 700-verse scripture that is part of the Hindu epic Mahabharata."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b8"
+      "p47b8",
+      "p47b9"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "(579-644 AD); a close companion of the Prophet; the 2nd Muslim Caliph. "
-      ],
-      [
-       "b",
-       "Qital, "
-      ],
-      [
-       "",
-       "armed warfare. "
-      ],
-      [
-       "b",
-       "Quraysh, "
-      ],
-      [
-       "",
-       "the dominant tribe of Makkah"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b22"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "that is part of the Hindu epic Mahabharata. "
-      ],
       [
        "b",
        "Dawah,"
       ],
       [
        "",
-       " calling people towards God. "
-      ],
-      [
-       "b",
-       "Hadith,"
-      ],
-      [
-       "",
-       " sayings and deeds of the Prophet"
+       " calling people towards God."
       ]
      ],
      "page": 47,
@@ -5009,48 +4907,33 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. "
-      ],
-      [
        "b",
-       "Umrah, "
+       "Hadith,"
       ],
       [
        "",
-       "minor pilgrimage to the Kabah"
+       " sayings and deeds of the Prophet of Islam."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b23"
+      "p47b9",
+      "p47b10"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of Islam. "
-      ],
       [
        "b",
        "Hayat as-Sahaba,"
       ],
       [
        "",
-       " (English: Lives of the Sahabah) is a known collection (2000+ pages) about the companions of the prophet, by Muhammad Yusuf Kandhlawi. (1917-1965 AD). "
-      ],
-      [
-       "b",
-       "Hudaybiya,"
-      ],
-      [
-       "",
-       " place in Saudi Arabia,"
+       " (English: Lives of the Sahabah) is a known collection (2000+ pages) about the companions of the prophet, by Muhammad Yusuf Kandhlawi. (1917-1965 AD)."
       ]
      ],
      "page": 47,
@@ -5060,71 +4943,33 @@
      ]
     },
     {
-     "k": "p",
+     "k": "gloss",
      "runs": [
       [
+       "b",
+       "Hudaybiya,"
+      ],
+      [
        "",
-       "(sacred house of God)."
+       " place in Saudi Arabia, where a treaty was signed between Muhammad, representing the state of Medina, and the Quraish tribe of Makkah in 628 AD."
       ]
      ],
      "page": 47,
      "ids": [
-      "p47b24"
+      "p47b11",
+      "p47b12"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "b",
-       "Samadhi, "
-      ],
-      [
-       "",
-       "a state of deep meditative contemplation which leads to higher consciousness. (World English Dictionary). "
-      ],
-      [
-       "b",
-       "Uhud, "
-      ],
-      [
-       "",
-       "the valley located in front of Mount"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b24",
-      "p47b25"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "where a treaty was signed between Muhammad, representing the state of Medina, and the Quraish tribe of Makkah in 628 AD. "
-      ],
       [
        "b",
        "Ibn Kathir, "
       ],
       [
        "",
-       "(1301-1373); Islamic"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b12"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "Uhud, Saudi Arabia, where the second battle was fought in 625 AD, between the Makkans and the Muslims. scholar, traditionist, "
+       "(1301-1373); Islamic scholar, traditionist, "
       ],
       [
        "i",
@@ -5132,15 +4977,7 @@
       ],
       [
        "",
-       " compiler, "
-      ],
-      [
-       "b",
-       "Zul Qadah, "
-      ],
-      [
-       "",
-       "11th month of the lunar commentator, and interpreter and translator of Quran and "
+       " compiler, commentator, and interpreter and translator of Quran and "
       ],
       [
        "i",
@@ -5148,42 +4985,25 @@
       ],
       [
        "",
-       "literature. "
-      ],
+       "literature."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b12",
+      "p47b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Imam Al-Bukhari,"
       ],
       [
        "",
-       " (810-870 AH); Islamic"
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b26",
-      "p47b13"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "calendar."
-      ]
-     ],
-     "page": 47,
-     "ids": [
-      "p47b27"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "scholar who authored the "
+       " (810-870 AH); Islamic scholar who authored the "
       ],
       [
        "i",
@@ -5195,8 +5015,18 @@
       ],
       [
        "i",
-       "Hadith. "
-      ],
+       "Hadith."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b13",
+      "p47b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Imam Muslim, "
@@ -5223,9 +5053,242 @@
       "p47b14",
       "p47b15"
      ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ismael, "
+      ],
+      [
+       "",
+       "also (Ishmael), firstborn son of Abraham, born to him from his wife Hajira (Hagar). Ismael was also a Prophet and ancestor of Muhammad, the last prophet of Islam."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b16",
+      "p47b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ismaelites, "
+      ],
+      [
+       "",
+       "of the family of Ismael (or Ishmael), son of Abraham."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b17",
+      "p47b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Jame Al-Usool fi Ahaadith Ar-Rasool, "
+      ],
+      [
+       "",
+       "book of sayings of the Prophet by Ibnul Atheer (606 Hijri)."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b18",
+      "p47b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Jihad,"
+      ],
+      [
+       "",
+       " struggle in the way of God."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Kabah, "
+      ],
+      [
+       "",
+       "the sacred house of God built originally by prophets Abraham and Ismael."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b19",
+      "p47b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Kalima, "
+      ],
+      [
+       "",
+       "the Islamic creed — ‘There is no god but God and Muhammad is His messenger.’"
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b20",
+      "p47b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Omar, "
+      ],
+      [
+       "",
+       "also (Umar) or Omar bin al Khattab (579-644 AD); a close companion of the Prophet; the 2nd Muslim Caliph."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b21",
+      "p47b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Qital, "
+      ],
+      [
+       "",
+       "armed warfare."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Quraysh, "
+      ],
+      [
+       "",
+       "the dominant tribe of Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b22",
+      "p47b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Umrah, "
+      ],
+      [
+       "",
+       "minor pilgrimage to the Kabah (sacred house of God)."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b23",
+      "p47b24"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Samadhi, "
+      ],
+      [
+       "",
+       "a state of deep meditative contemplation which leads to higher consciousness. (World English Dictionary)."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b24",
+      "p47b25"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Uhud, "
+      ],
+      [
+       "",
+       "the valley located in front of Mount Uhud, Saudi Arabia, where the second battle was fought in 625 AD, between the Makkans and the Muslims."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b25",
+      "p47b26"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Zul Qadah, "
+      ],
+      [
+       "",
+       "11th month of the lunar calendar."
+      ]
+     ],
+     "page": 47,
+     "ids": [
+      "p47b26",
+      "p47b27"
+     ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 427,
    "n": 16

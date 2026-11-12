@@ -172,7 +172,11 @@ def main():
             else:
                 k += 1
     # skipped pieces are stored with only their first 160 characters, so long ones show up here: drop those
-    real_unplaced = unplaced
+    ovp = os.path.join("issues", slug, "overrides.json")
+    acc = json.load(open(ovp, encoding="utf-8")).get("accepted", {}) if os.path.exists(ovp) else {}
+    # overrides.json "accepted": things looked at by hand and found to be right on the page
+    real_unplaced = [u for u in unplaced if not any(t in u["text"] for t in acc.get("unplaced", []))]
+    flagged = [n for n in flagged if next(r["id"] for r in rows if r["n"] == n) not in acc.get("articles", {})]
 
     total_words = sum(r["words"] for r in rows)
     overall = round(sum(r["match"] * r["words"] for r in rows) / max(total_words, 1), 2)

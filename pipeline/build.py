@@ -201,6 +201,8 @@ def render_article(a, audio, photo, player_tpl):
                 body.append(f'<p class="ev-contact">{linkify(esc(rest))}</p>')
         elif k == "contact":
             body.append(f'<p class="ev-contact">{linkify(esc(text))}</p>')
+        elif k == "gloss":                               # glossary entry: term in bold, then its meaning
+            body.append(f'<p class="ev-fn">{run_inline(runs)}</p>')
         elif k in ("footnote", "small"):
             body.append(f'<p class="ev-fn">{linkify(esc(text))}</p>')
         elif k == "filler_h":
@@ -245,7 +247,7 @@ def render_article(a, audio, photo, player_tpl):
     if thought:
         parts.append('<div class="ev-end" aria-hidden="true"><i></i><i></i><i></i></div>')
     return f"""  <!-- ===================== {a['n']:02d} · {a['title']} ===================== -->
-  <section class="ev-item" id="soi-{a['id']}" data-audio="" data-audio-status="{'ready' if au else 'pending'}" role="listitem">
+  <section class="ev-item" id="soi-{a['id']}" data-audio="" data-audio-status="{'ready' if au else 'none' if a.get('audio') is False else 'pending'}" role="listitem">
     <button class="ev-tab" type="button" aria-expanded="false">
       <span class="ev-num">{a['n']:02d}</span>
       <span class="ev-tab-text">
@@ -276,6 +278,8 @@ def main():
     load = lambda name, default: json.load(open(os.path.join(base, name), encoding="utf-8")) if os.path.exists(os.path.join(base, name)) else default
     quiz = load("quiz.json", {"questions": []})
     audio = load("audio.json", {})
+    # a recording that does not match the article's text is not offered: the article waits for a new narration
+    audio = {k: v for k, v in audio.items() if "times" in v and not v.get("flag") and not v.get("error")}
     shell = open(os.path.join(T, "issue-shell.html"), encoding="utf-8").read()
     player_tpl = open(os.path.join(T, "player.html"), encoding="utf-8").read()
     photo = open(os.path.join(T, "infocus-photo.txt"), encoding="utf-8").read().strip()

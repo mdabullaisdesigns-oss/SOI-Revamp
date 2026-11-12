@@ -73,7 +73,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 - article 15, page 33: Percentage Element Symbol in Body
 - article 15, page 33: Oxygen O 65.0 Carbon C 18.6 Hydrogen H 9.5 Nitrogen N 3.2 Calcium Ca 1.5 Phosphorous P 1.0 Potassium K 0.4 Sul
 - article 15, page 33: B, Cr, Co, Cu, F, I, Fe, Mn, Mo, Se, Si, Sn, Less than 1.0 V, Zn
-- article 23, page 47: JUSTICE MARKANDEY KATJU'S TESTIMONIAL
 
 ## Automatic text adjustments
 

@@ -297,6 +297,191 @@ def apply_dropcap(letter, runs, log, vocab=None, cases=None):
     return runs
 
 
+def glossary_items(pages, a, joiner):
+    """The glossary is two columns of entries with a hanging indent: read down the left column, then the
+    right, one item per entry (term in bold)."""
+    items = []
+    for page in pages:
+        if not a["pages"][0] <= page["n"] <= a["pages"][1]:
+            continue
+        lines = [dict(l, id=b["id"]) for b in page["blocks"] for l in b["lines"]
+                 if l["t"].strip() and 7.4 <= l["sz"] <= 9.6 and l["bb"][1] < page["h"] - 45
+                 and not re.search(r"Spirit of Islam\s+Issue", l["t"])]
+        if len(lines) < 8:
+            return None
+        mid = page["w"] / 2
+        for col in (0, 1):
+            cl = sorted((l for l in lines if (l["bb"][0] >= mid - 8) == bool(col)), key=lambda l: (round(l["bb"][1]), l["bb"][0]))
+            if not cl:
+                continue
+            left = min(l["bb"][0] for l in cl)
+            entry = []
+            for l in cl + [None]:
+                starts = l is not None and l["bb"][0] - left < 3.5 and \
+                    ("b" in (l.get("runs") or [["b" if "Bold" in l["f"] else "", ""]])[0][0])
+                if l is None or (starts and entry):
+                    runs = joiner.join(entry)
+                    items.append({"k": "gloss", "runs": runs, "page": page["n"], "ids": list(dict.fromkeys(x["id"] for x in entry))})
+                    entry = []
+                if l is not None:
+                    entry.append(l)
+    return items
+
+
+def feature_article(pages, ft):
+    """An article made from every text block of pages ft["pages"] = [first, last], in reading order
+    (headings across the page, then left column, then right column).  Nothing on those pages is left out
+    except the running footer."""
+    items, title = [], ft.get("title")
+    fixes = ft.get("replace", {})
+    left_out = ft.setdefault("_left_out", [])
+    one_col = ft.get("columns") == 1
+    for page in pages:
+        if not ft["pages"][0] <= page["n"] <= ft["pages"][1]:
+            continue
+        mid = page["w"] / 2
+        lines = []
+        for b in page["blocks"]:
+            for l in b["lines"]:
+                t = l["t"].strip()
+                if not t or re.match(r"^\d+\s+Spirit of Islam\s+Issue", t, re.I) or re.match(r"^Spirit of Islam\s+Issue.*\d+$", t, re.I) \
+                        or (re.fullmatch(r"\d{1,3}", t) and l["bb"][1] > page["h"] - 60):
+                    continue
+                if ft.get("skip") and re.search(ft["skip"], t, re.I):
+                    left_out.append({"page": page["n"], "text": t})
+                    continue
+                lines.append({"id": b["id"], "t": t, "sz": l["sz"], "f": l["f"], "x": l["bb"][0], "y": l["bb"][1], "x1": l["bb"][2], "y1": l["bb"][3]})
+        heads = []
+        for y in sorted(l["y"] for l in lines if 15 <= l["sz"] < 30):
+            if not heads or y > heads[-1] + 30:      # a heading of two lines is one heading
+                heads.append(y)
+        bold_blocks = collections.defaultdict(list)
+        for l in lines:
+            bold_blocks[l["id"]].append("Bold" in l["f"])
+        blockcol = {}
+        caps = [l for l in lines if l["sz"] >= 30]                     # drop capitals
+        lines = [l for l in lines if l["sz"] < 30]
+        for l in lines:
+            l["band"] = sum(1 for y in heads if y <= l["y"] + 1)
+            wide = 15 <= l["sz"] < 30 or (l["x"] < mid - 40 and l["x1"] > mid + 40)
+            l["col"] = -1 if 15 <= l["sz"] < 30 else (0 if wide or l["x"] < mid - 8 else 1)
+            if l["sz"] < 11.5:                       # a block that wraps round a picture stays in the column it starts in
+                l["col"] = blockcol.setdefault(l["id"], l["col"])
+            if one_col:
+                l["col"] = 0
+        if one_col:                                  # single column: top to bottom; a block is read whole from where it starts
+            top = {}
+            for l in lines:
+                top[l["id"]] = min(top.get(l["id"], 1e9), l["y"])
+            lines.sort(key=lambda l: (l["band"], round(top[l["id"]] / 8), l["id"] if l["sz"] >= 8.6 else "~", round(l["y"]), l["x"]))
+        else:
+            lines.sort(key=lambda l: (l["band"], l["col"], round(l["y"]), l["x"]))
+        groups = []
+        for l in lines:
+            g = groups[-1] if groups else None
+            cls = "h" if l["sz"] >= 15 else "h2" if l["sz"] >= 11.5 else "cap" if l["sz"] < 8.6 or "Cond" in l["f"] else "src" if "Obl" in l["f"] else "q" if "Italic" in l["f"] else "b" if all(bold_blocks[l["id"]]) else "p"
+            if g and g["cls"] == cls and g["col"] == l["col"] and g["band"] == l["band"] and \
+                    (g["id"] == l["id"] or cls == "h") and 0 <= l["y"] - g["y"] < (3.6 if g["id"] == l["id"] else 2.2) * l["sz"]:
+                g["t"] += ("" if g["t"].endswith("\u00ad") else " ") + l["t"]
+                g["y"] = l["y"]; g["ids"].append(l["id"])
+                g["bb"] = [min(g["bb"][0], l["x"]), min(g["bb"][1], l["y"]), max(g["bb"][2], l["x1"]), max(g["bb"][3], l["y1"])]
+            else:
+                groups.append({"cls": cls, "col": l["col"], "band": l["band"], "id": l["id"], "ids": [l["id"]], "t": l["t"], "y": l["y"], "y0": l["y"], "x": l["x"],
+                               "bb": [l["x"], l["y"], l["x1"], l["y1"]], "links": []})
+        for lk in page.get("links", []) if ft.get("links") else []:      # each link goes to the text it sits on, else the nearest
+            cx, cy = (lk["bb"][0] + lk["bb"][2]) / 2, (lk["bb"][1] + lk["bb"][3]) / 2
+            def dist(g):
+                dx = max(g["bb"][0] - cx, 0, cx - g["bb"][2]); dy = max(g["bb"][1] - cy, 0, cy - g["bb"][3])
+                return dx * 0.3 + dy
+            if groups:
+                tgt = min(groups, key=dist)
+                if lk["uri"] not in tgt["links"]:
+                    tgt["links"].append(lk["uri"])
+        if one_col:                                  # a heading or sentence set as two text boxes is still one
+            merged = []
+            for g in groups:
+                m = merged[-1] if merged else None
+                close = m and (m["band"] == g["band"] or g["cls"] == "h") and 0 < g["y0"] - m["y"] < (34 if g["cls"] == "h" else 1.7 * 12) \
+                    and not re.search(r"[.?!:;”\"]$", m["t"])
+                if close and m["cls"] == g["cls"] and (g["cls"] in ("h", "h2", "b") or (g["cls"] == "p" and re.match(r"[a-z]", g["t"]) and len(m["t"].split()) < 30)):
+                    m["t"] += " " + g["t"]; m["y"] = g["y"]; m["ids"] += g["ids"]; m["links"] += g["links"]
+                    m["bb"] = [min(m["bb"][0], g["bb"][0]), min(m["bb"][1], g["bb"][1]), max(m["bb"][2], g["bb"][2]), max(m["bb"][3], g["bb"][3])]
+                else:
+                    merged.append(g)
+            groups = merged
+        for c in caps:                                # put each drop capital back on the paragraph beside it
+            near = [g for g in groups if g["cls"] == "p" and -6 <= g["y0"] - c["y"] <= 16 and g["x"] >= c["x"] - 4]
+            if near:
+                tgt = min(near, key=lambda g: abs(g["x"] - c["x"]))
+                tgt["t"] = c["t"] + (tgt["t"][0].lower() + tgt["t"][1:] if re.match(r"[A-Z] ", tgt["t"]) else tgt["t"])
+                tgt["ids"].insert(0, c["id"])
+        for k, g in enumerate(groups):                # ...or was read as the last letter of the heading above it
+            if g["cls"] == "p" and re.match(r"[a-z]", g["t"]):
+                hd = next((h for h in reversed(groups[:k]) if h["cls"] in ("h", "h2")), None)
+                if hd and re.search(r" [A-Z]$", hd["t"]):
+                    g["t"] = hd["t"][-1] + g["t"]; hd["t"] = hd["t"][:-2]
+        for g in groups:
+            t = re.sub(r"\s+", " ", g["t"].replace("\u00ad ", "").replace("\u00ad", "")).strip()
+            for a, b in fixes.items():
+                t = t.replace(a, b)
+            if not t:
+                continue
+            ids = list(dict.fromkeys(g["ids"]))
+            if g["cls"] == "h" and title is None:
+                title = t
+                continue
+            if g["cls"] == "h" and re.sub(r"\W", "", t).lower() == re.sub(r"\W", "", title).lower():
+                continue                             # the section name again at the top of the page
+            label = bool(re.fullmatch(r"(?i)(click here|scan or click the button|click|here|kindle|website|kindle website)[.:]?", t))
+            if ft.get("links") and label and items:  # a button label: its link goes on the line it belongs to
+                items[-1].setdefault("links", [])
+                items[-1]["links"] += [u for u in g["links"] if u not in items[-1]["links"]]
+                items[-1]["ids"] += ids
+                left_out.append({"page": page["n"], "text": t})
+                continue
+            if ft.get("short_heads") and re.match(r"[~–—-]\s*\w", t) and len(t.split()) <= 10:
+                g["cls"] = "src"                     # a signature line
+            if ft.get("short_heads") and g["cls"] in ("p", "b") and not g["links"] and len(t.split()) <= 16 \
+                    and (not re.search(r"[.,;:]$", t)) and not t.startswith("•"):
+                g["cls"] = "h2"
+            if ft.get("short_heads") and re.match(r"(https?://|www\.)\S+", t):
+                g["cls"] = "p"                       # a web address on its own line
+            if ft.get("short_heads") and re.match(r"(?i)report by ", t) and len(t.split()) <= 10:
+                g["cls"] = "src"
+            if ft.get("short_heads") and g["cls"] in ("h", "h2") and len(t.split()) > 16:
+                g["cls"] = "hq"                      # many lines of display type: a boxed quotation
+            if g["cls"] == "h2" and len(t.split()) > (16 if ft.get("short_heads") else 9):
+                g["cls"] = "p"
+            if g["cls"] == "b":
+                g["cls"] = "h" if len(t.split()) <= 6 else "pb"
+            kind = {"h": "h", "h2": "h", "hq": "pull", "cap": "small", "src": "small", "p": "p", "pb": "p", "q": "quote"}[g["cls"]]
+            if g["cls"] == "h" and len(t.split()) > 14:
+                kind = "pull"                        # a long line in display type is a boxed quotation, not a heading
+            prev = items[-1] if items else None
+            if kind == "small" and prev and prev.get("labels") and prev["page"] == page["n"] and g["cls"] == "cap" and len(t.split()) <= 3:
+                prev["runs"][0][1] += " · " + t; prev["ids"] += ids
+                continue
+            back = next((x for x in reversed(items) if x["k"] in ("p", "h")), None)
+            if kind == "p" and g["cls"] == "p" and back and back["k"] == "p" and back["page"] == page["n"] and not back.get("bold") \
+                    and not re.search(r"[.?!:;”\"’)]$", plain(back["runs"])) and not t.startswith("•"):
+                back["runs"][0][1] += ("" if back["runs"][0][1].endswith("-") and t[:1].islower() and False else " ") + t
+                back["ids"] += ids                   # the paragraph carries on in the next column or round a picture
+                continue
+            items.append({"k": kind, "runs": [["b" if g["cls"] == "pb" else "", t]], "page": page["n"], "ids": ids})
+            if g["links"]:
+                items[-1]["links"] = list(g["links"])
+            if g["cls"] == "pb":
+                items[-1]["bold"] = True
+            if g["cls"] == "cap" and len(t.split()) <= 3:
+                items[-1]["labels"] = True           # one-word picture labels are gathered into one line
+    a = {"title_raw": title, "title": title, "kicker": ft.get("kicker", ""), "author": "", "pages": list(ft["pages"]),
+         "items": items, "type": ft.get("type", "article"), "id": slugify(title), "feature": True}
+    if not ft.get("audio", False):
+        a["audio"] = False
+    a["words"] = sum(len(plain(i["runs"]).split()) for i in items)
+    return a
+
+
 def main():
     slug = sys.argv[1]
     base = os.path.join("issues", slug)
@@ -618,6 +803,12 @@ def main():
                 merged.append(i)
         a["items"] = merged
         first = next((i for i in a["items"] if i["k"] in ("p", "quote")), None)
+        if a["type"] == "glossary":
+            g = glossary_items(pages, a, joiner)
+            if g:
+                used = {x for i in g for x in i["ids"]}
+                rest_items = [i for i in a["items"] if not set(i["ids"]) & used]   # a filler box on the same page stays
+                a["items"], a["audio"] = g + rest_items, False
         if first and first["k"] == "quote" and a["type"] == "article":
             first["k"] = "lead"                      # italic standfirst that opens the article
         pulls = [i for i in a["items"] if i["k"] == "pull"]
@@ -639,8 +830,57 @@ def main():
         for k in ("filler_open", "kicker_from_title", "page"):
             a.pop(k, None)
         out.append(a)
+    # a feature set in its own brochure typography (overrides.json "features"): built straight from the page blocks
+    for ft in ov.get("features", []):
+        fa = feature_article(pages, ft)
+        skipped[:] = [x for x in skipped if not ft["pages"][0] <= x["page"] <= ft["pages"][1]]
+        pos = next((k for k, a in enumerate(out) if a["pages"][0] > ft["pages"][0]), len(out))
+        out.insert(pos, fa)
     for n, a in enumerate(out, 1):
         a["n"] = n
+    def undouble(text):
+        """'A B A B C D C D' -> 'A B C D': a boxed quote whose every line is in the PDF twice (shadow copy)."""
+        w, out_w, k0 = text.split(), [], 0
+        while k0 < len(w):
+            for k in range(min(12, (len(w) - k0) // 2), 1, -1):
+                if w[k0:k0 + k] == w[k0 + k:k0 + 2 * k]:
+                    out_w += w[k0:k0 + k]; k0 += 2 * k
+                    break
+            else:
+                return None
+        return " ".join(out_w)
+    for a in out:
+        for i in a["items"]:
+            if i["k"] in ("pull", "thought") and len(plain(i["runs"]).split()) >= 6:
+                u = undouble(plain(i["runs"]))
+                if u:
+                    i["runs"] = [[i["runs"][0][0], u]]
+    for a in out:                                    # overrides.json "join_items": [[first block id, next block id, kind?]]
+        for j in ov.get("join_items", []):
+            k = next((n for n, i in enumerate(a["items"]) if i["ids"][:1] == [j[0]]), None)
+            if k is not None and k + 1 < len(a["items"]) and j[1] in a["items"][k + 1]["ids"]:
+                nx = a["items"].pop(k + 1)
+                a["items"][k]["runs"][-1][1] = a["items"][k]["runs"][-1][1].rstrip() + " "
+                a["items"][k]["runs"] += nx["runs"]; a["items"][k]["ids"] += nx["ids"]
+                if len(j) > 2:
+                    a["items"][k]["k"] = j[2]
+    for rp in ov.get("replace_items", []):           # {"article": id, "remove": [block ids], "items": [{k, text|runs, page, links?}]}
+        a = next(x for x in out if x.get("id") == rp["article"])
+        idx = [n for n, i in enumerate(a["items"]) if i["ids"] and i["ids"][0] in rp["remove"]]
+        if idx:
+            new_items = [{"k": x["k"], "runs": x.get("runs") or [["", x["text"]]], "page": x["page"], "ids": list(rp["remove"]) if n == 0 else [],
+                          **({"links": x["links"]} if x.get("links") else {})} for n, x in enumerate(rp["items"])]
+            a["items"] = [i for n, i in enumerate(a["items"]) if n not in idx]
+            a["items"][idx[0]:idx[0]] = new_items
+    for a in out:                                    # hand corrections: overrides.json "item_kinds" {block id: kind}
+        for i in a["items"]:
+            k = next((ov.get("item_kinds", {})[x] for x in i["ids"] if x in ov.get("item_kinds", {})), None)
+            if k:
+                i["k"] = k
+    for add in ov.get("add_items", []):              # text the rules missed: {"article": id, "after": block id, "k":, "text":, "page":}
+        a = next(x for x in out if slugify(x["title"]) == add["article"] or x.get("id") == add["article"])
+        pos = next((n + 1 for n, i in enumerate(a["items"]) if add.get("after") in i["ids"]), len(a["items"]))
+        a["items"].insert(pos, {"k": add["k"], "runs": [["", add["text"]]], "page": add["page"], "ids": add.get("ids", [])})
     for old, new in ov.get("text_fixes", []):
         for a in out:
             for i in a["items"]:

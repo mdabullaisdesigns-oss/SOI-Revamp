@@ -131,6 +131,26 @@
   },
   {
    "n": 9,
+   "id": "the-solution-to-present-day-terrorism",
+   "title": "The Solution to Present-day Terrorism",
+   "pages": [
+    23,
+    30
+   ],
+   "words": 1157,
+   "match": 99.91,
+   "missing": [
+    {
+     "item": "p24b1",
+     "kind": "p",
+     "words": [
+      "maulana"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
    "id": "broader-outlook",
    "title": "Broader Outlook",
    "pages": [
@@ -142,7 +162,7 @@
    "missing": []
   },
   {
-   "n": 10,
+   "n": 11,
    "id": "indeciseveness",
    "title": "Indeciseveness",
    "pages": [
@@ -154,7 +174,7 @@
    "missing": []
   },
   {
-   "n": 11,
+   "n": 12,
    "id": "a-continuous-need-for-spirituality",
    "title": "A Continuous Need for Spirituality",
    "pages": [
@@ -166,7 +186,7 @@
    "missing": []
   },
   {
-   "n": 12,
+   "n": 13,
    "id": "qualities-required-for-great-achievement",
    "title": "Qualities Required for Great Achievement",
    "pages": [
@@ -178,7 +198,7 @@
    "missing": []
   },
   {
-   "n": 13,
+   "n": 14,
    "id": "total-involvement-in-a-task",
    "title": "Total Involvement in a Task",
    "pages": [
@@ -190,7 +210,7 @@
    "missing": []
   },
   {
-   "n": 14,
+   "n": 15,
    "id": "spiritual-progress",
    "title": "Spiritual Progress",
    "pages": [
@@ -210,7 +230,7 @@
    ]
   },
   {
-   "n": 15,
+   "n": 16,
    "id": "tread-cautiously",
    "title": "Tread Cautiously",
    "pages": [
@@ -222,7 +242,7 @@
    "missing": []
   },
   {
-   "n": 16,
+   "n": 17,
    "id": "lessons-from-nature",
    "title": "Lessons from Nature",
    "pages": [
@@ -234,7 +254,7 @@
    "missing": []
   },
   {
-   "n": 17,
+   "n": 18,
    "id": "being-idle",
    "title": "Being Idle",
    "pages": [
@@ -254,7 +274,7 @@
    ]
   },
   {
-   "n": 18,
+   "n": 19,
    "id": "the-word-of-god",
    "title": "The Word of God",
    "pages": [
@@ -266,7 +286,7 @@
    "missing": []
   },
   {
-   "n": 19,
+   "n": 20,
    "id": "ask-maulana",
    "title": "Ask Maulana",
    "pages": [
@@ -282,5 +302,5 @@
  "flagged": [],
  "unplaced": [],
  "pdf_words": 24400,
- "article_words": 12377
+ "article_words": 13534
 }

@@ -2291,18 +2291,8 @@
      "runs": [
       [
        "",
-       "Y O U R L O R D"
-      ]
-     ],
-     "page": 28,
-     "ids": [
-      "p28b7"
-     ],
-     "source": "quote panel after the article"
-    },
-    {
-     "k": "thought",
-     "runs": [
+       "YOUR LORD "
+      ],
       [
        "",
        "KNOWS BEST WHAT IS IN YOUR HEARTS."
@@ -2310,6 +2300,7 @@
      ],
      "page": 28,
      "ids": [
+      "p28b7",
       "p28b8",
       "p28b9"
      ],
@@ -2318,7 +2309,7 @@
    ],
    "type": "article",
    "id": "the-culture-of-materialism",
-   "words": 281,
+   "words": 275,
    "n": 14
   },
   {

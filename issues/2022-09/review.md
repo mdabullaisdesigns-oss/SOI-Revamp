@@ -70,11 +70,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 ## Pieces the rules could not classify (kept, shown as a small note)
 
 - article 18, page 40: https://www.youtube.com/watch?v=mrU1fnrhajs
-- article 19, page 41: MY JOURNEY TO SWITZERLAND The Road to World Peace
-- article 19, page 41: By Maulana Wahiduddin Khan (Translated by Dr Farida Khanum)
-- article 19, page 41: Reviewed by Nigar Ataulla
-- article 20, page 44: Download Al-Risala Hindi, May-June 2022 issue: https://cpsglobal.org/book/al-risala-hindi-2022
-- article 20, page 44: Please follow Maulana Wahiduddin Khan for your daily dose of wisdom:
 
 ## Automatic text adjustments
 

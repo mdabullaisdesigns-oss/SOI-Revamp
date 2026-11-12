@@ -1,6 +1,6 @@
 # Review – Issue 12 · December 2013
 
-PDF `December-2013.pdf`, 52 pages. **17 articles, 14,384 words, word match 99.96%** (second reading of the PDF; flag below 99%).
+PDF `December-2013.pdf`, 52 pages. **17 articles, 14,380 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -22,7 +22,7 @@ PDF `December-2013.pdf`, 52 pages. **17 articles, 14,384 words, word match 99.96
 | 14 | 44 |  | Inter-Faith Harmony | 291 | 99.66% |
 | 15 | 45–46 |  | The Word of God | 681 | 100.0% |
 | 16 | 47–48 |  | Ask Maulana | 639 | 100.0% |
-| 17 | 49 |  | Glossary | 239 | 100.0% |
+| 17 | 49 |  | Glossary | 235 | 100.0% |
 
 ## Words the second reading did not confirm
 
@@ -62,15 +62,6 @@ On cover, contents and advert pages (not part of any article) the second reading
 ## Pieces the rules could not classify (kept, shown as a small note)
 
 - article 8, page 20: — Principles of Social Reconstruction
-- article 17, page 49: Abu Dawud, compiler of the sayings of and Ismael. kalima-e-sawa, common ground nafs ammara, ego nafs lawwama, 
-- article 17, page 49: the Prophet Abu Dawud Sulaiman bin al ashath alsajastani (817–889). ahimsa, non-violence anf, violence As-Sala
-- article 17, page 49: collection by Muhammad bin Ismail Al-Bukhari (810-870). of God, the Beneficent, the Merciful.’ Seerah, also Se
-- article 17, page 49: dar us-salam, Home of Peace dua, supplication fasad, spreading corruption, rebellion,
-- article 17, page 49: the prophet written by Abul Fidaa Ismail bin Umer bin Kathir (700–774). shukr, thanksgiving; acknowledgement d
-- article 17, page 49: silm, peace Sunnah, practice and teachings of Prophet Sahih Bukhari by Shihabuddin ibn Al Hajar al Asqalani (d
-- article 17, page 49: Muhammad. tafakkur, contemplation taqwa, piety tawheed, monotheism or, oneness of
-- article 17, page 49: the Prophet of Islam. Kabah, the sacred house of God built God. originally by prophets, Abraham
-- article 17, page 49: 4cpsglobal.org/books 4cpsglobal.org/magazines
 
 ## Automatic text adjustments
 

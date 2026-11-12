@@ -1,6 +1,6 @@
 # Review – Issue 115 · November–December 2023
 
-PDF `SOI-Nov-Dec-23.pdf`, 52 pages. **22 articles, 12,003 words, word match 99.9%** (second reading of the PDF; flag below 99%).
+PDF `SOI-Nov-Dec-23.pdf`, 52 pages. **22 articles, 11,997 words, word match 99.96%** (second reading of the PDF; flag below 99%).
 
 ## Articles
 
@@ -19,7 +19,7 @@ PDF `SOI-Nov-Dec-23.pdf`, 52 pages. **22 articles, 12,003 words, word match 99.9
 | 11 | 21–23 |  | Unity and Harmony | 743 | 99.87% |
 | 12 | 24–25 |  | Supplications for Communal Harmony | 762 | 100.0% |
 | 13 | 26–27 |  | Children’s Corner | 514 | 100.0% |
-| 14 | 28 | Dominating The Society | The Culture of Materialism | 281 | 97.51% ⚠ |
+| 14 | 28 | Dominating The Society | The Culture of Materialism | 275 | 100.0% |
 | 15 | 29 | Discovering God's Greatness | Commencing Point of Religion | 324 | 100.0% |
 | 16 | 30–32 | Gems of Wisdom | Learning from the Prophet Muhammad | 1012 | 99.9% |
 | 17 | 33–35 |  | Fulfilling Gandhiji’s Unfulfilled Mission | 1053 | 100.0% |
@@ -36,7 +36,6 @@ Usually a drop cap, a hyphen or a reference number; a long list means a real dif
 - article 1, `p5b4` (p): robert
 - article 4, `p12b2` (p): once
 - article 11, `p21b4` (p): one
-- article 14, `p28b7` (thought): y o u r l d
 - article 16, `p30b3` (p): sayings
 - article 18, `p36b2` (p): padma
 
@@ -62,7 +61,7 @@ Nothing here is in any article tab. Say if any of it should be included.
 
 ## Text of the PDF that is in no article and not on the list above
 
-- page 21, 5 words: unity and harmony o ne
+None.
 
 On cover, contents and advert pages (not part of any article) the second reading also saw:
 

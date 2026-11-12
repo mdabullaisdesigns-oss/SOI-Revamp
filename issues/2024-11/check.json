@@ -235,15 +235,27 @@
     50
    ],
    "missing": []
+  },
+  {
+   "n": 19,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 545,
+   "audio": false,
+   "match": 100.0,
+   "pages": [
+    39,
+    42
+   ],
+   "missing": []
   }
  ],
- "overall_match": 99.91,
+ "overall_match": 99.92,
  "flagged": [],
  "unplaced": [],
  "warnings": [
   "recording of article 7 “Leadership Through Expertise”: 420 words of the text are not read (“the dangers of misplaced leadership when a financier…”); the recording has 1107 words that are not in the text (“in quest of reality through science and religion…”); only 55.7% of the text is heard in the recording",
-  "no recording on the site for article 15 “The Consideration of Circumstances”",
-  "PDF page 39: 207 words are on no web article (“cps newsletter we are pleased to report that…”)"
+  "no recording on the site for article 15 “The Consideration of Circumstances”"
  ],
  "pdf_pages_not_on_page": [
   {
@@ -280,34 +292,6 @@
    "of": 81,
    "starts": "o o god i seek your refuge from that knowledge which is not beneficial",
    "expected": false
-  },
-  {
-   "page": 39,
-   "words": 207,
-   "of": 207,
-   "starts": "cps newsletter we are pleased to report that the cps meet held in malegaon",
-   "expected": false
-  },
-  {
-   "page": 40,
-   "words": 197,
-   "of": 197,
-   "starts": "the book fair at balrampur garden lucknow commenced on september 27 2024 at stall",
-   "expected": true
-  },
-  {
-   "page": 41,
-   "words": 134,
-   "of": 134,
-   "starts": "video messages from dr saniyasnain khan and dr rajat malhotra were shared their addresses",
-   "expected": false
-  },
-  {
-   "page": 42,
-   "words": 42,
-   "of": 42,
-   "starts": "ms shabina ali a member of cps kolkata team participated in an interfaith programme",
-   "expected": true
   },
   {
    "page": 51,

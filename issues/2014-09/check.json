@@ -241,45 +241,14 @@
     49,
     49
    ],
-   "words": 384,
-   "match": 98.96,
-   "missing": [
-    {
-     "item": "p49b16",
-     "kind": "bio",
-     "words": [
-      "reconcili"
-     ]
-    },
-    {
-     "item": "p49b17",
-     "kind": "bio",
-     "words": [
-      "ation"
-     ]
-    },
-    {
-     "item": "p49b24",
-     "kind": "bio",
-     "words": [
-      "altheologian"
-     ]
-    },
-    {
-     "item": "p49b26",
-     "kind": "bio",
-     "words": [
-      "dawsi"
-     ]
-    }
-   ]
+   "words": 383,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.96,
- "flagged": [
-  19
- ],
+ "overall_match": 99.99,
+ "flagged": [],
  "unplaced": [],
  "pdf_words": 16313,
- "article_words": 15101
+ "article_words": 15100
 }

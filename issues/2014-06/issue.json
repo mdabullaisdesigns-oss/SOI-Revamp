@@ -4369,7 +4369,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4377,173 +4377,89 @@
       ],
       [
        "",
-       "died 632 AD; a close "
-      ],
-      [
-       "b",
-       "Makkah"
-      ],
-      [
-       "",
-       " Mecca "
-      ],
-      [
-       "b",
-       "Nifaz-e-Shariah"
-      ],
-      [
-       "",
-       " Enforcement of the"
+       "died 632 AD; a close companion of the Prophet; also the first Muslim Caliph."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b1",
-      "p49b17"
+      "p49b2"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "companion of the Prophet; also the first Muslim Caliph. "
-      ],
       [
        "b",
        "Abu Lahab"
       ],
       [
        "",
-       " Paternal uncle of Prophet"
+       " Paternal uncle of Prophet Muhammad."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b2"
+      "p49b2",
+      "p49b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "i",
-       "Shariah"
-      ],
-      [
-       "",
-       ". "
-      ],
-      [
-       "b",
-       "Orientalist "
-      ],
-      [
-       "",
-       "scholar of Oriental studies; of Muhammad. "
-      ],
       [
        "b",
        "Adam"
       ],
       [
        "",
-       " First man and first prophet. "
-      ],
+       " First man and first prophet."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Aisha"
       ],
       [
        "",
-       " (612–678); daughter of Abu Bakr,"
+       " (612–678); daughter of Abu Bakr, wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b18",
-      "p49b3"
+      "p49b3",
+      "p49b4"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "near and far Eastern (Asian and Middle Eastern) societies and history. "
-      ],
-      [
-       "b",
-       "Qabil"
-      ],
-      [
-       "",
-       " also Cain; the first born son of wife of Prophet Muhammad; one of the most intellectual and influential women in Islamic history. "
-      ],
       [
        "b",
        "Ali bin Abi Talib"
       ],
       [
        "",
-       " died 661; cousin and"
+       " died 661; cousin and son-in-law of Prophet Muhammad; the 4th Muslim Caliph."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b19",
-      "p49b4"
+      "p49b4",
+      "p49b5"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Adam. "
-      ],
-      [
-       "b",
-       "Qayamat"
-      ],
-      [
-       "",
-       " Doomsday "
-      ],
-      [
-       "b",
-       "Quraysh"
-      ],
-      [
-       "",
-       " the dominant tribe of Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael. "
-      ],
-      [
-       "bi",
-       "R"
-      ],
-      [
-       "b",
-       "amazan"
-      ],
-      [
-       "",
-       " Ninth month of the Lunar"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b20",
-      "p49b21"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "son-in-law of Prophet Muhammad; the 4th Muslim Caliph. "
-      ],
       [
        "b",
        "Al Maidah"
@@ -4558,15 +4474,7 @@
       ],
       [
        "",
-       " — the table spread. "
-      ],
-      [
-       "b",
-       "Amirul Mumineen"
-      ],
-      [
-       "",
-       " Leader of the"
+       " — the table spread."
       ]
      ],
      "page": 49,
@@ -4576,12 +4484,400 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "calendar; month of fasting. "
+       "b",
+       "Amirul Mumineen"
       ],
+      [
+       "",
+       " Leader of the Believers."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6",
+      "p49b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Dar ul Islam"
+      ],
+      [
+       "",
+       " land or state under Islamic governance."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b7",
+      "p49b8"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Dar us Salaam"
+      ],
+      [
+       "",
+       " Home of Peace'; referred to as Paradise."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fuqaha"
+      ],
+      [
+       "",
+       " Islamic jurists."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Habil "
+      ],
+      [
+       "",
+       "the second son of Adam; was murdered by his elder brother Qabil (Cain)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b9",
+      "p49b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Hadith"
+      ],
+      [
+       "",
+       " sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b10",
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Haj"
+      ],
+      [
+       "",
+       " Pilgrimage"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Harun"
+      ],
+      [
+       "",
+       " also known as Aaron, brother of Prophet Moses."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b11",
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hukumat-e-Ilahiya"
+      ],
+      [
+       "",
+       " Divine Government."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Islami Nizam"
+      ],
+      [
+       "",
+       " Islamic System."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Jinn"
+      ],
+      [
+       "",
+       " a living creation of God made from fire; "
+      ],
+      [
+       "i",
+       "Jinns"
+      ],
+      [
+       "",
+       " have free-will just like mankind."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b12",
+      "p49b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Kabah"
+      ],
+      [
+       "",
+       " the sacred house of God built originally by prophets Abraham and Ismael in Makkah (present day Mecca)."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b13",
+      "p49b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Khilafat-e-Rashida"
+      ],
+      [
+       "",
+       " also Rashidun Caliphate or 'Rightly Guided' caliphs (632–661 AD) is the collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali); founded after Prophet Muhammad's death in 632."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b14",
+      "p49b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Madinah"
+      ],
+      [
+       "",
+       " Medina; also called Yathrib during the time of Prophet Muhammad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b15",
+      "p49b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Makkah"
+      ],
+      [
+       "",
+       " Mecca"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b17"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Nifaz-e-Shariah"
+      ],
+      [
+       "",
+       " Enforcement of the "
+      ],
+      [
+       "i",
+       "Shariah"
+      ],
+      [
+       "",
+       "."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b17",
+      "p49b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Orientalist "
+      ],
+      [
+       "",
+       "scholar of Oriental studies; of near and far Eastern (Asian and Middle Eastern) societies and history."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b18",
+      "p49b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Qabil"
+      ],
+      [
+       "",
+       " also Cain; the first born son of Adam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b19",
+      "p49b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Qayamat"
+      ],
+      [
+       "",
+       " Doomsday"
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Quraysh"
+      ],
+      [
+       "",
+       " the dominant tribe of Makkah during the time when Prophet Mohammad was born; genealogical ancestry traced to prophets Abraham and Ismael."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b20",
+      "p49b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "R"
+      ],
+      [
+       "b",
+       "amazan"
+      ],
+      [
+       "",
+       " Ninth month of the Lunar calendar; month of fasting."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b21",
+      "p49b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Salah"
@@ -4596,23 +4892,7 @@
       ],
       [
        "",
-       "; the Islamic prayer. "
-      ],
-      [
-       "bi",
-       "sawm"
-      ],
-      [
-       "",
-       " Fasting "
-      ],
-      [
-       "b",
-       "Shariah"
-      ],
-      [
-       "",
-       " moral code and religious law of"
+       "; the Islamic prayer."
       ]
      ],
      "page": 49,
@@ -4621,50 +4901,60 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "Believers. "
-      ],
-      [
-       "b",
-       "Dar ul Islam"
+       "bi",
+       "sawm"
       ],
       [
        "",
-       " land or state under Islamic governance. "
-      ],
-      [
-       "b",
-       "Dar us Salaam"
-      ],
-      [
-       "",
-       " Home of Peace'; referred"
+       " Fasting"
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b7",
-      "p49b8"
+      "p49b22"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "Islam. "
+       "b",
+       "Shariah"
       ],
+      [
+       "",
+       " moral code and religious law of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b22",
+      "p49b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Surah"
       ],
       [
        "",
-       " chapter of the Quran. "
-      ],
+       " chapter of the Quran."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Ulema"
@@ -4679,15 +4969,7 @@
       ],
       [
        "",
-       "; religious scholars. "
-      ],
-      [
-       "b",
-       "Umar"
-      ],
-      [
-       "",
-       " also Umar Faruq or Omar bin"
+       "; religious scholars."
       ]
      ],
      "page": 49,
@@ -4696,110 +4978,44 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "to as Paradise. "
-      ],
-      [
-       "bi",
-       "fuqaha"
-      ],
-      [
-       "",
-       " Islamic jurists. "
-      ],
-      [
        "b",
-       "Habil "
+       "Umar"
       ],
       [
        "",
-       "the second son of Adam; was al Khattab, died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph. "
-      ],
+       " also Umar Faruq or Omar bin al Khattab, died 644 AD; a close companion of the Prophet; the 2nd Muslim Caliph."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b23",
+      "p49b24"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Umar bin Abdul Aziz"
       ],
       [
        "",
-       " died 720 AD;"
+       " died 720 AD; Umayyad Caliph; great grandson of Umar ibn Al Khattab."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b9",
-      "p49b24"
+      "p49b24",
+      "p49b25"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "murdered by his elder brother Qabil"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b10"
-     ]
-    },
-    {
-     "k": "p",
-     "runs": [
-      [
-       "",
-       "(Cain)."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b10"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "bi",
-       "Hadith"
-      ],
-      [
-       "",
-       " sayings and deeds of the Prophet of Islam. "
-      ],
-      [
-       "b",
-       "Haj"
-      ],
-      [
-       "",
-       " Pilgrimage "
-      ],
-      [
-       "b",
-       "Harun"
-      ],
-      [
-       "",
-       " also known as Aaron, brother of"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b10",
-      "p49b11"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "Umayyad Caliph; great grandson of Umar ibn Al Khattab. "
-      ],
       [
        "bi",
        "Umrah"
@@ -4814,54 +5030,17 @@
       ],
       [
        "",
-       "Prophet Moses. "
-      ],
-      [
-       "b",
-       "Hukumat-e-Ilahiya"
-      ],
-      [
-       "",
-       " Divine Government. "
-      ],
-      [
-       "b",
-       "Islami Nizam"
-      ],
-      [
-       "",
-       " Islamic System. "
-      ],
-      [
-       "bi",
-       "Jinn"
-      ],
-      [
-       "",
-       " a living creation of God made"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b25",
-      "p49b12"
-     ]
-    },
-    {
-     "k": "p",
-     "runs": [
-      [
-       "",
        "(house of God)."
       ]
      ],
      "page": 49,
      "ids": [
+      "p49b25",
       "p49b26"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -4877,57 +5056,10 @@
       "p49b26",
       "p49b27"
      ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "from fire; "
-      ],
-      [
-       "i",
-       "Jinns"
-      ],
-      [
-       "",
-       " have free-will just like mankind. "
-      ],
-      [
-       "bi",
-       "Kabah"
-      ],
-      [
-       "",
-       " the sacred house of God built originally by prophets Abraham and Ismael in Makkah (present day Mecca). "
-      ],
-      [
-       "b",
-       "Khilafat-e-Rashida"
-      ],
-      [
-       "",
-       " also Rashidun Caliphate or 'Rightly Guided' caliphs (632–661 AD) is the collective term comprising the first four caliphs in Islamic history (Abu Bakr, Umar, Uthman, Ali); founded after Prophet Muhammad's death in 632. "
-      ],
-      [
-       "b",
-       "Madinah"
-      ],
-      [
-       "",
-       " Medina; also called Yathrib during the time of Prophet Muhammad."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b13",
-      "p49b14",
-      "p49b15",
-      "p49b16"
-     ]
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
    "words": 394,
    "n": 18

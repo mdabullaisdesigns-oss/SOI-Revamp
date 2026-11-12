@@ -93,7 +93,7 @@
     16,
     21
    ],
-   "words": 1836,
+   "words": 1843,
    "match": 99.95,
    "missing": [
     {
@@ -277,35 +277,14 @@
     48,
     49
    ],
-   "words": 686,
-   "match": 99.71,
-   "missing": [
-    {
-     "item": "p48b5",
-     "kind": "small",
-     "words": [
-      "al"
-     ]
-    },
-    {
-     "item": "p48b6",
-     "kind": "small",
-     "words": [
-      "bukhari"
-     ]
-    }
-   ]
+   "words": 685,
+   "match": 100.0,
+   "missing": []
   }
  ],
- "overall_match": 99.93,
+ "overall_match": 99.95,
  "flagged": [],
- "unplaced": [
-  {
-   "page": 18,
-   "words": 7,
-   "text": "mediterranean black sea fact sheet birdlife international"
-  }
- ],
+ "unplaced": [],
  "pdf_words": 15726,
- "article_words": 14525
+ "article_words": 14531
 }

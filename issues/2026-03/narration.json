@@ -1,7 +1,7 @@
 {
  "slug": "2026-03",
  "voice": "TTSMaker Gary (2560)",
- "chars": 63759,
+ "chars": 65820,
  "articles": {
   "one-life-two-responsibilities": {
    "title": "One Life, Two Responsibilities",
@@ -824,6 +824,38 @@
     "(84: 16-25)",
     "In spite of such clear indications, there are those who do not believe in the Hereafter and live out their lives without ever taking it into account.",
     "Such individuals are certainly committing a crime which is deserving of the punishment mentioned above."
+   ]
+  },
+  "cps-newsletter": {
+   "title": "CPS Newsletter",
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
+  },
+  "childrens-corner": {
+   "title": "Children’s Corner",
+   "status": "pending",
+   "file": "SOI-2026-03-childrens-corner.mp3",
+   "chars": 2061,
+   "sentences": [
+    "Children’s Corner",
+    "101 SAHABIYAT STORIES WITH DUA",
+    "Author: Dr. Saniyasnain Khan ISBN : 9789351790501 No. of Pages : 208 Available in : Hardcover and Paperback Saniyasnain Khan is a children’s author, with over 100 children’s books to his credit.",
+    "These are on subjects relating to Islam and a number of them have been translated into Arabic, French, German, Italian, Spanish, Dutch, Danish, Polish, Swedish, Bosnian, Russian, Turkish, Malay, Thai, Urdu, Malayalam, and other languages.",
+    "He hopes that his books will be a true companion on the path of spiritual development, and will help children to know the true purpose and meaning of life.",
+    "His most recent books are Bedtime Quran Stories, Five- Minute Quran Stories and Baby’s First Prophet Muhammad Stories.",
+    "101 Sahabiyat Stories and Dua is a beautifully illustrated collection that brings to life the inspiring stories of the remarkable women who supported the Prophet Muhammad (peace be upon him).",
+    "Featuring 101 captivating stories of the female companions, this book introduces",
+    "young readers to their strength, faith, and devotion.",
+    "Each story is written in simple, easy-to-understand language, making it perfect for children to connect with and learn from.",
+    "The pages are brought to life with delightful, full-colour illustrations that spark curiosity and engagement.",
+    "From the wisdom of Khadija to the courage of Fatima and the faith of Umm Ayman, the stories include well-known figures like ‘Aisha, Sawda, Safiyyah, and Maymoonah—offering powerful role models for young hearts and minds.",
+    "Every story is paired with a meaningful hadith and a beautiful dua, reinforcing Islamic values and encouraging reflection and prayer.",
+    "These elements together create a deep and enriching reading experience.",
+    "This book is not only a source of knowledge but also a tool for character building and spiritual growth.",
+    "101 Sahabiyat Stories and Dua is a treasure for every Muslim household, making it a wonderful gift for children and families to cherish for years to come.",
+    "Best suited for the age group of 7-13 years of age. "
    ]
   }
  }

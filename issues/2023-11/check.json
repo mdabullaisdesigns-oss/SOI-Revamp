@@ -189,22 +189,9 @@
     28,
     28
    ],
-   "words": 281,
-   "match": 97.51,
-   "missing": [
-    {
-     "item": "p28b7",
-     "kind": "thought",
-     "words": [
-      "y",
-      "o",
-      "u",
-      "r",
-      "l",
-      "d"
-     ]
-    }
-   ]
+   "words": 275,
+   "match": 100.0,
+   "missing": []
   },
   {
    "n": 15,
@@ -319,17 +306,9 @@
    "missing": []
   }
  ],
- "overall_match": 99.9,
- "flagged": [
-  14
- ],
- "unplaced": [
-  {
-   "page": 21,
-   "words": 5,
-   "text": "unity and harmony o ne"
-  }
- ],
+ "overall_match": 99.96,
+ "flagged": [],
+ "unplaced": [],
  "pdf_words": 13201,
- "article_words": 12003
+ "article_words": 11997
 }

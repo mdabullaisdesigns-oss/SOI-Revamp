@@ -1404,6 +1404,19 @@
      ]
     },
     {
+     "k": "small",
+     "runs": [
+      [
+       "",
+       "Mediterranean Black Sea Fact sheet [BirdLife International]"
+      ]
+     ],
+     "page": 18,
+     "ids": [
+      "p18b3"
+     ]
+    },
+    {
      "k": "p",
      "runs": [
       [
@@ -1673,7 +1686,7 @@
    ],
    "type": "article",
    "id": "revelation-and-inspiration",
-   "words": 1838,
+   "words": 1845,
    "n": 6
   },
   {
@@ -5130,7 +5143,7 @@
    ],
    "items": [
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "b",
@@ -5138,15 +5151,7 @@
       ],
       [
        "",
-       " a companion of the "
-      ],
-      [
-       "bi",
-       "fasad fil ardh"
-      ],
-      [
-       "",
-       " Arabic for corruption in the Prophet renowned for his memory of "
+       " a companion of the Prophet renowned for his memory of "
       ],
       [
        "i",
@@ -5154,160 +5159,95 @@
       ],
       [
        "",
-       " died 681 AD. "
-      ],
+       " died 681 AD."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b1",
+      "p48b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "'Ad"
       ],
       [
        "",
-       " ancient Arab tribe that lived between"
+       " ancient Arab tribe that lived between 10th century BC to 3rd century AD. The prophet Hud was sent by God to guide them."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b1",
-      "p48b17",
-      "p48b2"
+      "p48b2",
+      "p48b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "land. "
-      ],
-      [
-       "bi",
-       "ghulu"
-      ],
-      [
-       "",
-       " Arabic for extremism. "
-      ],
-      [
-       "bi",
-       "Hadith"
-      ],
-      [
-       "",
-       " sayings and deeds of the Prophet 10th century BC to 3rd century AD. The prophet Hud was sent by God to guide them. "
-      ],
       [
        "b",
        "Adam"
       ],
       [
        "",
-       " First man and first prophet. "
-      ],
+       " First man and first prophet."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Al-Idrisi"
       ],
       [
        "",
-       " Muhammad Al-Idrisi (1099–1165"
+       " Muhammad Al-Idrisi (1099–1165 AD); Muslim geographer, cartographer, Egyptologist and traveller who lived in Sicily, at the court of King Roger II."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b18",
-      "p48b3"
+      "p48b3",
+      "p48b4"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "of Islam. "
-      ],
-      [
-       "b",
-       "Haj"
-      ],
-      [
-       "",
-       " Pilgrimage "
-      ],
-      [
-       "b",
-       "Hudaibiya"
-      ],
-      [
-       "",
-       " a place just outside Makkah where the Treaty of Hudaibiya was made between Muhammad represent-ing the state of Medina and the Quraysh tribe of Makkah in 628 AD. "
-      ],
-      [
-       "bi",
-       "Iblis"
-      ],
-      [
-       "",
-       " Satan "
-      ],
-      [
-       "b",
-       "Ibn 'Abbas"
-      ],
-      [
-       "",
-       " Abdallah ibn Abbas (618–687);"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b19",
-      "p48b20"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "AD); Muslim geographer, cartographer, Egyptologist and traveller who lived in Sicily, at the court of King Roger II. "
-      ],
       [
        "b",
        "Allah"
       ],
       [
        "",
-       " Arabic word for God. "
-      ],
+       " Arabic word for God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Al-Bayhaqi"
       ],
       [
        "",
-       " (994–1066); Abu Bakr Ahmad paternal cousin and companion of the Prophet of Islam. "
-      ],
-      [
-       "b",
-       "Ibn Majah"
-      ],
-      [
-       "",
-       " (824–887); Islamic scholar and"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b4",
-      "p48b21"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "ibn Husayn al-Bayhaqi or Imam al-Bayhaqi; Islamic scholar of "
+       " (994–1066); Abu Bakr Ahmad ibn Husayn al-Bayhaqi or Imam al-Bayhaqi; Islamic scholar of "
       ],
       [
        "i",
@@ -5323,65 +5263,25 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b4",
+      "p48b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Al-Bukhari"
       ],
       [
        "",
-       " (810–870); Muhammad Al-"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b5"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "compiler of "
-      ],
-      [
-       "i",
-       "Hadith"
-      ],
-      [
-       "",
-       ". "
-      ],
-      [
-       "bi",
-       "Iftar"
-      ],
-      [
-       "",
-       " Breaking of the fast. "
-      ],
-      [
-       "b",
-       "Imam Ahmad"
-      ],
-      [
-       "",
-       " Ahmad ibn Hanbal (780–"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b22"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "Bukhari; Persian Islamic scholar who authored the "
+       " (810–870); Muhammad Al-Bukhari; Persian Islamic scholar who authored the "
       ],
       [
        "i",
@@ -5405,52 +5305,25 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b5",
+      "p48b6"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Al-Nasai"
       ],
       [
        "",
-       " (829–915); a noted Persian"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b6"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "855); Islamic scholar and theologian; famous for "
-      ],
-      [
-       "i",
-       "Hadith"
-      ],
-      [
-       "",
-       " collection known as "
-      ],
-      [
-       "i",
-       "Musnad Ahmad"
-      ],
-      [
-       "",
-       ". "
-      ],
-      [
-       "b",
-       "Imam Muslim"
-      ],
-      [
-       "",
-       " Muslim ibn al-Hajjaj scholar and collector of "
+       " (829–915); a noted Persian scholar and collector of "
       ],
       [
        "i",
@@ -5466,29 +5339,391 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b6",
+      "p48b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Anas ibn Malik"
       ],
       [
        "",
-       " a companion of the"
+       " a companion of the Prophet (~711)."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b23",
-      "p48b7"
+      "p48b7",
+      "p48b8"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
+       "b",
+       "angel"
+      ],
+      [
        "",
-       "(815–875); Persian Islamic scholar, traditionist or compiler of "
+       " A living creation of God made from light; angels have no free-will and are in constant obedience to God."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b8",
+      "p48b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Aryabhata"
+      ],
+      [
+       "",
+       " (476–550 AD) was a great Indian mathematician and astronomer."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b9",
+      "p48b10"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "as-sulh khair"
+      ],
+      [
+       "",
+       " Arabic for 'reconciliation is best'."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b10",
+      "p48b11"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Bismillah ir-Rahman ir-Rahim"
+      ],
+      [
+       "",
+       " Arabic for ‘In the name of God, the Beneficent, the Merciful.’"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b11",
+      "p48b12"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Ciconia ciconia"
+      ],
+      [
+       "",
+       " White stork; large bird in the stork family Ciconiidae."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b12",
+      "p48b13"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "dua"
+      ],
+      [
+       "",
+       " Arabic for supplication; an act of worship in Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b13",
+      "p48b14"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Eid-ul-Fitr"
+      ],
+      [
+       "",
+       " Festival of the breaking of the fast; one of the two festivals of Islam; It celebrates the conclusion of the month of fasting — "
+      ],
+      [
+       "i",
+       "Ramazan."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b14",
+      "p48b15"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fasad"
+      ],
+      [
+       "",
+       " Arabic for spreading corruption, rebellion, dissension, mischief and disorder across society."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b15",
+      "p48b16"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "fasad fil ardh"
+      ],
+      [
+       "",
+       " Arabic for corruption in the land."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b17",
+      "p48b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "ghulu"
+      ],
+      [
+       "",
+       " Arabic for extremism."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b18"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Hadith"
+      ],
+      [
+       "",
+       " sayings and deeds of the Prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b18",
+      "p48b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Haj"
+      ],
+      [
+       "",
+       " Pilgrimage"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b19"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Hudaibiya"
+      ],
+      [
+       "",
+       " a place just outside Makkah where the Treaty of Hudaibiya was made between Muhammad represent-ing the state of Medina and the Quraysh tribe of Makkah in 628 AD."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b19",
+      "p48b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Iblis"
+      ],
+      [
+       "",
+       " Satan"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b20"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ibn 'Abbas"
+      ],
+      [
+       "",
+       " Abdallah ibn Abbas (618–687); paternal cousin and companion of the Prophet of Islam."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b20",
+      "p48b21"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Ibn Majah"
+      ],
+      [
+       "",
+       " (824–887); Islamic scholar and compiler of "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b21",
+      "p48b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Iftar"
+      ],
+      [
+       "",
+       " Breaking of the fast."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b22"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Ahmad"
+      ],
+      [
+       "",
+       " Ahmad ibn Hanbal (780– 855); Islamic scholar and theologian; famous for "
+      ],
+      [
+       "i",
+       "Hadith"
+      ],
+      [
+       "",
+       " collection known as "
+      ],
+      [
+       "i",
+       "Musnad Ahmad"
+      ],
+      [
+       "",
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b22",
+      "p48b23"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Imam Muslim"
+      ],
+      [
+       "",
+       " Muslim ibn al-Hajjaj (815–875); Persian Islamic scholar, traditionist or compiler of "
       ],
       [
        "i",
@@ -5512,74 +5747,43 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b23",
+      "p48b24"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "khair ummat"
       ],
       [
        "",
-       " Arabic for 'best of the"
+       " Arabic for 'best of the communities'."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b24"
+      "p48b24",
+      "p48b25"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "Prophet (~711). "
-      ],
-      [
-       "b",
-       "angel"
-      ],
-      [
-       "",
-       " A living creation of God made from light; angels have no free-will and are in constant obedience to God. "
-      ],
-      [
-       "b",
-       "Aryabhata"
-      ],
-      [
-       "",
-       " (476–550 AD) was a great"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b8",
-      "p48b9"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "communities'. "
-      ],
       [
        "b",
        "Lot"
       ],
       [
        "",
-       " Prophet of God, sent to the cities of Sodom and Gomorrah; nephew of Prophet Abraham. "
-      ],
-      [
-       "bi",
-       "Mimosa pudica"
-      ],
-      [
-       "",
-       " also called 'touch-me-not'"
+       " Prophet of God, sent to the cities of Sodom and Gomorrah; nephew of Prophet Abraham."
       ]
      ],
      "page": 48,
@@ -5589,50 +5793,43 @@
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
-       "",
-       "Indian mathematician and astronomer. "
-      ],
-      [
        "bi",
-       "as-sulh khair"
+       "Mimosa pudica"
       ],
       [
        "",
-       " Arabic for 'reconciliation is best'. "
-      ],
-      [
-       "bi",
-       "Bismillah ir-Rahman ir-Rahim"
-      ],
-      [
-       "",
-       " Arabic for"
+       " also called 'touch-me-not' is a creeping perennial herb; the leaves of which fold inward when touched or shaken, re-opening minutes later."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b10",
-      "p48b11"
+      "p48b26",
+      "p48b27"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "is a creeping perennial herb; the leaves of which fold inward when touched or shaken, re-opening minutes later. "
-      ],
       [
        "bi",
        "momin"
       ],
       [
        "",
-       " Arabic for true believer. "
-      ],
+       " Arabic for true believer."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b27"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Musnad"
@@ -5647,8 +5844,17 @@
       ],
       [
        "",
-       ". "
-      ],
+       "."
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b27"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Musnad Ahmed"
@@ -5659,118 +5865,91 @@
       ],
       [
        "i",
-       "Hadith"
+       "Hadith "
+      ],
+      [
+       "",
+       "reports by Islamic scholar Ahmad bin Hanbal (780–855)."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b27"
+      "p48b27",
+      "p48b28"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "‘In the name of God, the Beneficent, the Merciful.’ "
-      ],
-      [
-       "bi",
-       "Ciconia ciconia"
-      ],
-      [
-       "",
-       " White stork; large bird in the stork family Ciconiidae. "
-      ],
-      [
-       "bi",
-       "dua"
-      ],
-      [
-       "",
-       " Arabic for supplication; an act of reports by Islamic scholar Ahmad bin Hanbal (780–855). "
-      ],
       [
        "bi",
        "qital"
       ],
       [
        "",
-       " armed warfare "
-      ],
+       " armed warfare"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b28"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Ramazan "
       ],
       [
        "",
-       "Ninth month of the Lunar"
+       "Ninth month of the Lunar calendar; month of fasting."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b12",
-      "p48b13",
-      "p48b28"
+      "p48b28",
+      "p48b29"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "worship in Islam. "
-      ],
-      [
-       "bi",
-       "Eid-ul-Fitr"
-      ],
-      [
-       "",
-       " Festival of the breaking of the fast; one of the two festivals of Islam; It celebrates the conclusion of the month of fasting — "
-      ],
-      [
-       "i",
-       "Ramazan. "
-      ],
-      [
-       "bi",
-       "fasad"
-      ],
-      [
-       "",
-       " Arabic for spreading corruption,"
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b14",
-      "p48b15"
-     ]
-    },
-    {
-     "k": "footnote",
-     "runs": [
-      [
-       "",
-       "calendar; month of fasting. "
-      ],
       [
        "bi",
        "sabr"
       ],
       [
        "",
-       " Patience "
-      ],
+       " Patience"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "sadaqah"
       ],
       [
        "",
-       " voluntary charity "
-      ],
+       " voluntary charity"
+      ]
+     ],
+     "page": 48,
+     "ids": [
+      "p48b29"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Sahih Muslim"
@@ -5785,30 +5964,17 @@
       ],
       [
        "",
-       " collection"
+       " collection by Imam Muslim ibn al-Hajjaj (815–875)."
       ]
      ],
      "page": 48,
      "ids": [
-      "p48b29"
-     ]
-    },
-    {
-     "k": "footnote",
-     "runs": [
-      [
-       "",
-       "rebellion, dissension, mischief and disorder across society. by Imam Muslim ibn al-Hajjaj (815–875)."
-      ]
-     ],
-     "page": 48,
-     "ids": [
-      "p48b16",
+      "p48b29",
       "p48b30"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
       [
        "bi",
@@ -5816,93 +5982,177 @@
       ],
       [
        "",
-       " partaking of food at dawn before "
-      ],
-      [
-       "bi",
-       "tawheed"
-      ],
-      [
-       "",
-       " Monotheism or the oneness of the start of the fast. "
-      ],
+       " partaking of food at dawn before the start of the fast."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b1",
+      "p49b2"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Shaikh Bayazid Bustami"
       ],
       [
        "",
-       " also Bayazid"
+       " also Bayazid Bastami (804-874 AD); Persian Sufi saint."
       ]
      ],
      "page": 49,
      "ids": [
-      "p49b1",
-      "p49b6",
-      "p49b2"
+      "p49b2",
+      "p49b3"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "God. "
-      ],
-      [
-       "b",
-       "Thamud"
-      ],
-      [
-       "",
-       " People of ancient Arabia that Bastami (804-874 AD); Persian Sufi saint. "
-      ],
       [
        "bi",
        "shirk"
       ],
       [
        "",
-       " association of partners with God. "
-      ],
+       " association of partners with God."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Sufi"
       ],
       [
        "",
-       " a practitioner of Sufism. "
-      ],
+       " a practitioner of Sufism."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "b",
        "Sufism"
       ],
       [
        "",
-       " a branch of Islam, defined by"
+       " a branch of Islam, defined by adherents as the inner, mystical dimension of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b3",
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "sulh"
+      ],
+      [
+       "",
+       " Arabic for reconciliation."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "Sunnah"
+      ],
+      [
+       "",
+       " practice and teachings of Prophet Muhammad."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b4",
+      "p49b5"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "bi",
+       "tawheed"
+      ],
+      [
+       "",
+       " Monotheism or the oneness of God."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b6",
+      "p49b7"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
+      [
+       "b",
+       "Thamud"
+      ],
+      [
+       "",
+       " People of ancient Arabia that lived during the first millenium BC. The prophet Salih was sent by God to guide them."
       ]
      ],
      "page": 49,
      "ids": [
       "p49b7",
-      "p49b3"
+      "p49b8"
      ]
     },
     {
-     "k": "small",
+     "k": "gloss",
      "runs": [
-      [
-       "",
-       "lived during the first millenium BC. The prophet Salih was sent by God to guide them. "
-      ],
       [
        "bi",
        "Zakat"
       ],
       [
        "",
-       " the obligatory alms tax, one of the five basic tenets of Islam. adherents as the inner, mystical "
-      ],
+       " the obligatory alms tax, one of the five basic tenets of Islam."
+      ]
+     ],
+     "page": 49,
+     "ids": [
+      "p49b8",
+      "p49b9"
+     ]
+    },
+    {
+     "k": "gloss",
+     "runs": [
       [
        "bi",
        "Zakat-al-Fitr"
@@ -5917,38 +6167,7 @@
       ],
       [
        "",
-       " tax specifically related dimension of Islam. "
-      ],
-      [
-       "bi",
-       "sulh"
-      ],
-      [
-       "",
-       " Arabic for reconciliation. "
-      ],
-      [
-       "bi",
-       "Sunnah"
-      ],
-      [
-       "",
-       " practice and teachings of Prophet"
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b8",
-      "p49b9",
-      "p49b4"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "to the month of "
+       " tax specifically related to the month of "
       ],
       [
        "i",
@@ -5969,20 +6188,8 @@
      ],
      "page": 49,
      "ids": [
+      "p49b9",
       "p49b10"
-     ]
-    },
-    {
-     "k": "small",
-     "runs": [
-      [
-       "",
-       "Muhammad."
-      ]
-     ],
-     "page": 49,
-     "ids": [
-      "p49b5"
      ]
     },
     {
@@ -6021,8 +6228,9 @@
     }
    ],
    "type": "glossary",
+   "audio": false,
    "id": "glossary",
-   "words": 687,
+   "words": 686,
    "n": 18
   }
  ]

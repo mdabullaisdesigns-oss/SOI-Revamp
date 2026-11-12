@@ -1,0 +1,83 @@
+{
+ "replace_items": [
+  {
+   "article": "cps-newsletter",
+   "remove": [
+    "p43b1",
+    "p43b5",
+    "p43b2",
+    "p43b6",
+    "p43b7",
+    "p43b26",
+    "p43b18",
+    "p43b22",
+    "p43b11",
+    "p43b3",
+    "p43b19",
+    "p43b4",
+    "p43b20"
+   ],
+   "items": [
+    {
+     "k": "p",
+     "runs": [
+      [
+       "b",
+       "A Brief History of Dawah,"
+      ],
+      [
+       "",
+       " a new book by Maulana Wahiduddin Khan released."
+      ]
+     ],
+     "page": 43
+    },
+    {
+     "k": "small",
+     "text": "New Release · A Brief History Of Dawah",
+     "page": 43
+    },
+    {
+     "k": "h",
+     "text": "Click on the Thumbnail image to Download a Book:",
+     "page": 43,
+     "links": [
+      "https://www.cpsglobal.org/books/brief-history-dawah-calling-people-god-21st-century"
+     ]
+    },
+    {
+     "k": "p",
+     "runs": [
+      [
+       "b",
+       "Palestine: Charting a Peaceful Course in light of Quranic Guidance,"
+      ],
+      [
+       "",
+       " a new book by Maulana Wahiduddin Khan released."
+      ]
+     ],
+     "page": 43
+    },
+    {
+     "k": "small",
+     "text": "New Release · PALESTINE: CHARTING A PEACEFUL COURSE In Light of Quranic Guidance",
+     "page": 43
+    },
+    {
+     "k": "h",
+     "text": "Click on the Thumbnail image to Download a Book:",
+     "page": 43,
+     "links": [
+      "https://www.cpsglobal.org/sites/default/files/2023-11/PALESTINE-Charting-a-Peaceful-Course.pdf"
+     ]
+    }
+   ]
+  }
+ ],
+ "accepted": {
+  "unplaced": [
+   "click on the thumbnail image"
+  ]
+ }
+}

@@ -1,7 +1,7 @@
 {
  "slug": "2014-06",
  "voice": "TTSMaker Gary (2560)",
- "chars": 78815,
+ "chars": 78782,
  "articles": {
   "follow-reason-manage-emotions": {
    "title": "Follow Reason, Manage Emotions",
@@ -893,14 +893,10 @@
   },
   "glossary": {
    "title": "Glossary",
-   "status": "pending",
-   "file": "SOI-2014-06-glossary.mp3",
-   "chars": 33,
-   "sentences": [
-    "Glossary",
-    "(Cain).",
-    "(house of God)."
-   ]
+   "status": "none",
+   "file": "",
+   "chars": 0,
+   "sentences": []
   }
  }
 }

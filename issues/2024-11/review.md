@@ -1,6 +1,6 @@
 # Review – 2024-11
 
-Text from the WordPress page **ISSUE NOV-DEC 2024** (id 2564). **18 articles, 12,467 words**; cross-check with `Issue-121-SOI-Nov-Dec-2024.pdf`: **99.91%** of the page's words are in the PDF (flag below 97%).
+Text from the WordPress page **ISSUE NOV-DEC 2024** (id 2564). **19 articles, 13,012 words**; cross-check with `Issue-121-SOI-Nov-Dec-2024.pdf`: **99.92%** of the page's words are in the PDF (flag below 97%).
 
 ## Articles
 
@@ -24,12 +24,12 @@ Text from the WordPress page **ISSUE NOV-DEC 2024** (id 2564). **18 articles, 12
 | 16 | 43–44 |  | Children’s Corner | 610 | 100.0% | 97.2% heard |
 | 17 | 45–47 |  | Your Questions Answered | 910 | 100.0% | 96.7% heard |
 | 18 | 48–50 | From the Scriptures | The Word of God | 1062 | 100.0% | 98.6% heard |
+| 19 | 39–42 |  | CPS Newsletter | 545 | 100.0% | **none** |
 
 ## Needs a look
 
 - recording of article 7 “Leadership Through Expertise”: 420 words of the text are not read (“the dangers of misplaced leadership when a financier…”); the recording has 1107 words that are not in the text (“in quest of reality through science and religion…”); only 55.7% of the text is heard in the recording
 - no recording on the site for article 15 “The Consideration of Circumstances”
-- PDF page 39: 207 words are on no web article (“cps newsletter we are pleased to report that…”)
 
 ## Left out of the e-version
 
@@ -47,10 +47,6 @@ Text from the WordPress page **ISSUE NOV-DEC 2024** (id 2564). **18 articles, 12
 | 4 | 111 of 111 | from the editorinchiefs desk 5 c recognizing our own faults 8 modern atheism an | yes |
 | 7 | 235 of 235 | in focus we bring you two articles every issue under the headings of personal | yes |
 | 9 | 46 of 81 | o o god i seek your refuge from that knowledge which is not beneficial | **no** |
-| 39 | 207 of 207 | cps newsletter we are pleased to report that the cps meet held in malegaon | **no** |
-| 40 | 197 of 197 | the book fair at balrampur garden lucknow commenced on september 27 2024 at stall | yes |
-| 41 | 134 of 134 | video messages from dr saniyasnain khan and dr rajat malhotra were shared their addresses | **no** |
-| 42 | 42 of 42 | ms shabina ali a member of cps kolkata team participated in an interfaith programme | yes |
 | 51 | 117 of 117 | we asked chatgpt to offer some information about cps international new delhi this is | yes |
 
 ## Automatic text adjustments

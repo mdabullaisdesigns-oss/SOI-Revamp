@@ -224,6 +224,19 @@
     50
    ],
    "missing": []
+  },
+  {
+   "n": 18,
+   "id": "cps-newsletter",
+   "title": "CPS Newsletter",
+   "words": 571,
+   "audio": false,
+   "match": 99.3,
+   "pages": [
+    36,
+    39
+   ],
+   "missing": []
   }
  ],
  "overall_match": 99.34,
@@ -287,34 +300,6 @@
    "expected": false
   },
   {
-   "page": 36,
-   "words": 200,
-   "of": 200,
-   "starts": "cps newsletter note kindly open the magazine in a pdf reader for the links",
-   "expected": false
-  },
-  {
-   "page": 37,
-   "words": 114,
-   "of": 114,
-   "starts": "the coverage reflects the growing interest in maulana wahiduddin khans message of peace and",
-   "expected": false
-  },
-  {
-   "page": 38,
-   "words": 221,
-   "of": 221,
-   "starts": "goodword books at kuala lumpur international book fair 2026 the kuala lumpur international book",
-   "expected": true
-  },
-  {
-   "page": 39,
-   "words": 110,
-   "of": 110,
-   "starts": "content the platform helps readers understand quranic teachings derive practical lessons and incorporate quranic",
-   "expected": false
-  },
-  {
    "page": 51,
    "words": 114,
    "of": 114,
@@ -322,5 +307,34 @@
    "expected": true
   }
  ],
- "left_out": []
+ "left_out": [
+  {
+   "title": "Note: Kindly open the magazine in a  PDF reader for the links to be clickable",
+   "why": "PDF page 36: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 37: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 38: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  },
+  {
+   "title": "Click Here",
+   "why": "PDF page 39: note about the PDF / button label (its link is kept)"
+  }
+ ]
 }
