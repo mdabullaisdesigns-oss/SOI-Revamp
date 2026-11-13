@@ -4,261 +4,261 @@
    "article": "The Existence of God",
    "page": 5,
    "link": "the-existence-of-god",
-   "q": "What does the author find even stranger than believing in God?",
+   "q": "Building on Descartes’ “I think, therefore, I am,” what does the editorial say?",
    "options": [
     [
-     "Believing in nature",
-     "Not quite. The article says: Not believing in God."
+     "“I see, therefore, I believe”",
+     "Not quite. The article says: “I am, therefore, God is” – a creature’s existence points to a Creator."
     ],
     [
-     "Asking questions",
-     "Not quite. The article says: Not believing in God."
+     "“I work, therefore, I am”",
+     "Not quite. The article says: “I am, therefore, God is” – a creature’s existence points to a Creator."
     ],
     [
-     "Not believing in God",
-     "So he prefers the less strange."
+     "“I am, therefore, God is” – a creature’s existence points to a Creator",
+     "Yes. Simple logic applied to one’s own being."
     ],
     [
-     "Believing in science",
-     "Not quite. The article says: Not believing in God."
+     "“I doubt, therefore, nothing is certain”",
+     "Not quite. The article says: “I am, therefore, God is” – a creature’s existence points to a Creator."
     ]
    ],
    "answer": 2,
-   "rationale": "It is strange to believe that there is a God, but not to believe in God is even stranger."
+   "rationale": "“By applying the same logic, one can say, ‘I am, therefore, God is.’”"
+  },
+  {
+   "article": "The Existence of God",
+   "page": 5,
+   "link": "the-existence-of-god",
+   "q": "How does the editorial use subatomic particles to answer the question, “How can one believe in a God who is unseen?”",
+   "options": [
+    [
+     "They show that everything can be seen with the right tools",
+     "Not quite. The article says: They show that something can exist without being visible."
+    ],
+    [
+     "They show that something can exist without being visible",
+     "Right. Being seen is not the test of being real."
+    ],
+    [
+     "They show that scientists are often wrong",
+     "Not quite. The article says: They show that something can exist without being visible."
+    ],
+    [
+     "They show that matter is an illusion",
+     "Not quite. The article says: They show that something can exist without being visible."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“A subatomic particle, although not visible, does exist. This shows that for something to exist, it is not necessary that it should be visible.”"
   },
   {
    "article": "The Eternal Journey",
    "page": 11,
    "link": "the-eternal-journey",
-   "q": "In what context should every affair be looked at?",
+   "q": "What does it mean, in the article, to look at every affair “in its eternal context”?",
    "options": [
     [
-     "Its political context",
-     "Not quite. The article says: Its eternal context."
+     "To plan carefully for old age",
+     "Not quite. The article says: To value only what will count in the Hereafter, and treat as worthless what will be worthless there."
     ],
     [
-     "Its eternal context",
-     "No one will help in the next world."
+     "To ignore present duties",
+     "Not quite. The article says: To value only what will count in the Hereafter, and treat as worthless what will be worthless there."
     ],
     [
-     "Its local context",
-     "Not quite. The article says: Its eternal context."
+     "To value only what will count in the Hereafter, and treat as worthless what will be worthless there",
+     "Well read. This is the outlook of faith."
     ],
     [
-     "Its financial context",
-     "Not quite. The article says: Its eternal context."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "Every affair should be looked at in its eternal context."
-  },
-  {
-   "article": "Concerning Women",
-   "page": 19,
-   "link": "concerning-women",
-   "q": "What did Edward William Lane’s foreword of 1843 claim?",
-   "options": [
-    [
-     "That Islam honoured women most",
-     "Not quite. The article says: That “the fatal point in Islam is the degradation of woman”."
-    ],
-    [
-     "Nothing about women",
-     "Not quite. The article says: That “the fatal point in Islam is the degradation of woman”."
-    ],
-    [
-     "That “the fatal point in Islam is the degradation of woman”",
-     "The article calls this ill-considered."
-    ],
-    [
-     "That the Quran is brief",
-     "Not quite. The article says: That “the fatal point in Islam is the degradation of woman”."
+     "To study the history of past nations",
+     "Not quite. The article says: To value only what will count in the Hereafter, and treat as worthless what will be worthless there."
     ]
    ],
    "answer": 2,
-   "rationale": "It stated that “the fatal point in Islam is the degradation of woman.” This ill-considered observation …"
+   "rationale": "“We will consider everything which will become worthless in the next world as worthless now, no matter how great a worldly price it may seem to command.”"
   },
   {
-   "article": "Tolerating Lesser Evil",
-   "page": 28,
-   "link": "tolerating-lesser-evil",
-   "q": "What happens to one who refuses to tolerate the lesser evil of a foolish person?",
+   "article": "Real Loss",
+   "page": 26,
+   "link": "real-loss",
+   "q": "The article calls this world “a preview of the Hereafter.” How should its pleasures be understood?",
    "options": [
     [
-     "Nothing",
-     "Not quite. The article says: He will have to tolerate the bigger evil."
+     "As temptations with no purpose",
+     "Not quite. The article says: As a drop that points to an ocean – meant to increase longing for the lasting joys to come."
     ],
     [
-     "He will have to tolerate the bigger evil",
-     "Advice of a Companion to his son."
+     "As a drop that points to an ocean – meant to increase longing for the lasting joys to come",
+     "Yes. The loss is to mistake the sample for the whole."
     ],
     [
-     "He wins",
-     "Not quite. The article says: He will have to tolerate the bigger evil."
+     "As rewards already earned in full",
+     "Not quite. The article says: As a drop that points to an ocean – meant to increase longing for the lasting joys to come."
     ],
     [
-     "He is praised",
-     "Not quite. The article says: He will have to tolerate the bigger evil."
+     "As all the happiness there is",
+     "Not quite. The article says: As a drop that points to an ocean – meant to increase longing for the lasting joys to come."
     ]
    ],
    "answer": 1,
-   "rationale": "“He who refuses to tolerate the lesser evil of a foolish person will have to tolerate the bigger evil of such a person.”"
+   "rationale": "“So that he may see one drop of water, and realize that it is indicative of a vast ocean beyond.”"
+  },
+  {
+   "article": "Self Development",
+   "page": 29,
+   "link": "self-development",
+   "q": "“No steam or gas ever drives anything until it is confined.” What does the article apply this to?",
+   "options": [
+    [
+     "People work best under pressure from others",
+     "Not quite. The article says: A life grows only when it is focused, dedicated and disciplined."
+    ],
+    [
+     "Freedom is harmful to the young",
+     "Not quite. The article says: A life grows only when it is focused, dedicated and disciplined."
+    ],
+    [
+     "Engines need regular repair",
+     "Not quite. The article says: A life grows only when it is focused, dedicated and disciplined."
+    ],
+    [
+     "A life grows only when it is focused, dedicated and disciplined",
+     "Correct. There is a price for every end."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“No life ever grows until it is focused, dedicated, and disciplined.”"
   },
   {
    "article": "The Moment of Truth",
    "page": 31,
    "link": "the-moment-of-truth",
-   "q": "What had the Ivory Coast once been called?",
+   "q": "When drought cut the Ivory Coast’s electricity, a businessman said he had never realised how hot it was. What does the article take from this?",
    "options": [
     [
-     "The “Roof of Africa”",
-     "Not quite. The article says: The “Showcase of Africa”."
+     "Hot countries need more power stations",
+     "Not quite. The article says: People live in an artificial sense of ownership and freedom; death will show how things really stand."
     ],
     [
-     "The “Garden of Eden”",
-     "Not quite. The article says: The “Showcase of Africa”."
+     "Comfort makes people healthier",
+     "Not quite. The article says: People live in an artificial sense of ownership and freedom; death will show how things really stand."
     ],
     [
-     "The “Pearl of Asia”",
-     "Not quite. The article says: The “Showcase of Africa”."
+     "Businessmen should work from home",
+     "Not quite. The article says: People live in an artificial sense of ownership and freedom; death will show how things really stand."
     ],
     [
-     "The “Showcase of Africa”",
-     "Until the power failed in December 1983."
+     "People live in an artificial sense of ownership and freedom; death will show how things really stand",
+     "Well reasoned. Freedom was a test, not a right."
     ]
    ],
    "answer": 3,
-   "rationale": "The country had at one time been called the “Showcase of Africa”."
+   "rationale": "“When death comes, it will dawn on an individual, all of a sudden, that he had just been fooling himself: he had been given freedom as a test whereas he had thought it was his right.”"
   },
   {
-   "article": "Prayer Fends Away Indecency and Evil",
-   "page": 33,
-   "link": "prayer-fends-away-indecency-and-evil",
-   "q": "What does prayer fend away, according to the Quran?",
+   "article": "In God’s Country",
+   "page": 34,
+   "link": "in-gods-country",
+   "q": "“Madam, you are in Russia now, not America.” What wider point does the article make with this remark?",
    "options": [
     [
-     "Poverty",
-     "Not quite. The article says: Indecency and evil."
+     "Every country is the same at heart",
+     "Not quite. The article says: Man lives in a world made by God, not by himself, and must live by God’s scheme for it."
     ],
     [
-     "Travel",
-     "Not quite. The article says: Indecency and evil."
+     "Man lives in a world made by God, not by himself, and must live by God’s scheme for it",
+     "Right. The prophets came to make that scheme known."
     ],
     [
-     "Sleep",
-     "Not quite. The article says: Indecency and evil."
+     "One should never leave one’s homeland",
+     "Not quite. The article says: Man lives in a world made by God, not by himself, and must live by God’s scheme for it."
     ],
     [
-     "Indecency and evil",
-     "Otherwise it is not truly prayer."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "Prayer fends away indecency and evil."
-  },
-  {
-   "article": "The News of Salvation",
-   "page": 37,
-   "link": "the-news-of-salvation",
-   "q": "What message is no one seeking to convey, according to the article?",
-   "options": [
-    [
-     "Market prices",
-     "Not quite. The article says: The message of eternal life."
-    ],
-    [
-     "The message of eternal life",
-     "Amid a mass of information."
-    ],
-    [
-     "Sports results",
-     "Not quite. The article says: The message of eternal life."
-    ],
-    [
-     "The latest news",
-     "Not quite. The article says: The message of eternal life."
+     "Travellers should keep their opinions to themselves",
+     "Not quite. The article says: Man lives in a world made by God, not by himself, and must live by God’s scheme for it."
     ]
    ],
    "answer": 1,
-   "rationale": "There is no one seeking to convey the message of eternal life."
+   "rationale": "“Man, then, is not in his own country: he is living in the country of God.”"
   },
   {
    "article": "Morning Is the Best Time",
    "page": 39,
    "link": "morning-is-the-best-time",
-   "q": "Why is morning the best time?",
+   "q": "Why, according to the article, is the mind at its freshest in the morning?",
    "options": [
     [
-     "The markets are open",
-     "Not quite. The article says: The mind is most fresh."
+     "Because the air is cooler",
+     "Not quite. The article says: During sleep it sorts and files the day’s impressions, leaving it clear – and there are few distractions."
     ],
     [
-     "The mind is most fresh",
-     "“The recitation at dawn is indeed witnessed.”"
+     "During sleep it sorts and files the day’s impressions, leaving it clear – and there are few distractions",
+     "Yes. The best hours for reading, reflection and planning."
     ],
     [
-     "It is warmest",
-     "Not quite. The article says: The mind is most fresh."
+     "Because the day’s news has not yet arrived",
+     "Not quite. The article says: During sleep it sorts and files the day’s impressions, leaving it clear – and there are few distractions."
     ],
     [
-     "The streets are busy",
-     "Not quite. The article says: The mind is most fresh."
+     "Because breakfast gives energy",
+     "Not quite. The article says: During sleep it sorts and files the day’s impressions, leaving it clear – and there are few distractions."
     ]
    ],
    "answer": 1,
-   "rationale": "Morning time is the best time because one’s mind is most fresh at this time of the day."
+   "rationale": "“During sleep, the mind sorts out the observations and thoughts and stores them in their respective files… his mind has been cleared of all thoughts and is blank once again.”"
   },
   {
-   "article": "Why Is Prayer Not Accepted?",
-   "page": 42,
-   "link": "why-is-prayer-not-accepted",
-   "q": "Why, said the sage, are prayers not answered?",
+   "article": "One-Sided Reporting",
+   "page": 41,
+   "link": "one-sided-reporting",
+   "q": "What habit does the article call “one-sided reporting”?",
    "options": [
     [
-     "You pray too often",
-     "Not quite. The article says: You ask of God what you are not prepared to give to others."
+     "Speaking for too long",
+     "Not quite. The article says: Telling only what the other person did, while leaving out one’s own part in the matter."
     ],
     [
-     "You ask of God what you are not prepared to give to others",
-     "An elder’s reply."
+     "Telling only what the other person did, while leaving out one’s own part in the matter",
+     "Well read. It is unfair and solves nothing."
     ],
     [
-     "God does not listen",
-     "Not quite. The article says: You ask of God what you are not prepared to give to others."
+     "Repeating what others have said",
+     "Not quite. The article says: Telling only what the other person did, while leaving out one’s own part in the matter."
     ],
     [
-     "You pray too softly",
-     "Not quite. The article says: You ask of God what you are not prepared to give to others."
+     "Reading only one newspaper",
+     "Not quite. The article says: Telling only what the other person did, while leaving out one’s own part in the matter."
     ]
    ],
    "answer": 1,
-   "rationale": "You people ask of God what you are not prepared to give to other human beings."
+   "rationale": "“Every person has the habit of recounting an incident in such a manner that only the involvement of the other person is apparent, whilst remaining silent about their own involvement.”"
   },
   {
-   "article": "What Is Takeaway?",
-   "page": 44,
-   "link": "what-is-takeaway",
-   "q": "Which word on a London shop board set the author thinking?",
+   "article": "All That Glitters Is Not Gold",
+   "page": 43,
+   "link": "all-that-glitters-is-not-gold",
+   "q": "A necklace bought as gold proved to be brass on the goldsmith’s touchstone. What does the story warn of?",
    "options": [
     [
-     "‘WELCOME’",
-     "Not quite. The article says: ‘TAKEAWAY’."
+     "The poor are often dishonest",
+     "Not quite. The article says: Deeds we think of as gold will be tested on God’s touchstone, and only the genuine will have value."
     ],
     [
-     "‘CLOSED’",
-     "Not quite. The article says: ‘TAKEAWAY’."
+     "Gold should be bought only from shops",
+     "Not quite. The article says: Deeds we think of as gold will be tested on God’s touchstone, and only the genuine will have value."
     ],
     [
-     "‘TAKEAWAY’",
-     "First used for food bought to eat elsewhere."
+     "Deeds we think of as gold will be tested on God’s touchstone, and only the genuine will have value",
+     "Exactly. Self-satisfaction is no proof."
     ],
     [
-     "‘SALE’",
-     "Not quite. The article says: ‘TAKEAWAY’."
+     "One should never help strangers",
+     "Not quite. The article says: Deeds we think of as gold will be tested on God’s touchstone, and only the genuine will have value."
     ]
    ],
    "answer": 2,
-   "rationale": "A board in front of a shop with the words ‘TAKEAWAY’ written in bold."
+   "rationale": "“In the next world, God will judge everybody’s actions on His own touchstone. The value of gold will only be attached to those actions which are proved to be made of gold.”"
   }
  ]
 }
