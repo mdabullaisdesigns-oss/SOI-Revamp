@@ -4,261 +4,261 @@
    "article": "Dates on a Calendar",
    "page": 5,
    "link": "dates-on-a-calendar",
-   "q": "What are the two ways to lead your life, according to the article?",
+   "q": "The editorial says each day brings opportunities that “do not loudly announce themselves.” What must one keep in mind while using them?",
    "options": [
     [
-     "Speaking or listening",
-     "Not quite. The article says: Simply passing your time, or using it meaningfully."
+     "Only large opportunities are worth taking",
+     "Not quite. The article says: Others have interests too, so one advances by cooperation and by avoiding clashes."
     ],
     [
-     "Simply passing your time, or using it meaningfully",
-     "The first wastes life."
+     "Others have interests too, so one advances by cooperation and by avoiding clashes",
+     "Yes. Success never comes through conflict."
     ],
     [
-     "Working or resting",
-     "Not quite. The article says: Simply passing your time, or using it meaningfully."
+     "Opportunities belong to whoever takes them first",
+     "Not quite. The article says: Others have interests too, so one advances by cooperation and by avoiding clashes."
     ],
     [
-     "Earning or spending",
-     "Not quite. The article says: Simply passing your time, or using it meaningfully."
+     "It is safer to let them pass",
+     "Not quite. The article says: Others have interests too, so one advances by cooperation and by avoiding clashes."
     ]
    ],
    "answer": 1,
-   "rationale": "One is to simply pass your time. The other is to use your time meaningfully."
+   "rationale": "“Success in your life can happen only by cooperating with others, never through conflict… A smart person carefully avoids clashing with other people’s interests.”"
   },
   {
    "article": "Finally, in the Grave",
    "page": 8,
    "link": "finally-in-the-grave",
-   "q": "What will we take with us of the things accumulated in life?",
+   "q": "“No matter how big a palace you live in, you can occupy just one room at a time.” What does the article conclude from such remarks?",
    "options": [
     [
-     "Our houses",
-     "Not quite. The article says: Nothing."
+     "Wealth should be passed to one’s children early",
+     "Not quite. The article says: Take from the world only what is needed and make the Hereafter one’s aim."
     ],
     [
-     "Our wealth",
-     "Not quite. The article says: Nothing."
+     "Build smaller houses",
+     "Not quite. The article says: Take from the world only what is needed and make the Hereafter one’s aim."
     ],
     [
-     "Our titles",
-     "Not quite. The article says: Nothing."
+     "Share one’s palace with others",
+     "Not quite. The article says: Take from the world only what is needed and make the Hereafter one’s aim."
     ],
     [
-     "Nothing",
-     "One day we all find ourselves in the grave."
+     "Take from the world only what is needed and make the Hereafter one’s aim",
+     "Right. Nothing gathered here is taken along."
     ]
    ],
    "answer": 3,
-   "rationale": "After we die, we will not take any of the things we have accumulated when we were alive."
+   "rationale": "“Wise is the one who takes from the things of the world only that which is necessary and makes the Hereafter the focus of his efforts and hopes.”"
   },
   {
    "article": "Losing the Opportunity",
    "page": 12,
    "link": "losing-the-opportunity",
-   "q": "What was the White House conference of February 2015 titled?",
+   "q": "What principle does the article say should replace “my community, right or wrong”?",
    "options": [
     [
-     "“Trade and Peace”",
-     "Not quite. The article says: “Countering Violent Extremism”."
+     "Refusing to discuss the community at all",
+     "Not quite. The article says: Judging the community’s conduct by the teachings of the Quran, not defending whatever it does."
     ],
     [
-     "“Faith and Science”",
-     "Not quite. The article says: “Countering Violent Extremism”."
+     "Judging other communities more strictly",
+     "Not quite. The article says: Judging the community’s conduct by the teachings of the Quran, not defending whatever it does."
     ],
     [
-     "“Cities of the Future”",
-     "Not quite. The article says: “Countering Violent Extremism”."
+     "Leaving judgement to political leaders",
+     "Not quite. The article says: Judging the community’s conduct by the teachings of the Quran, not defending whatever it does."
     ],
     [
-     "“Countering Violent Extremism”",
-     "The article calls it a missed opportunity for Muslims."
+     "Judging the community’s conduct by the teachings of the Quran, not defending whatever it does",
+     "Yes. Islam and Muslims are to be distinguished."
     ]
    ],
    "answer": 3,
-   "rationale": "A three-day conference titled “Countering Violent Extremism”. This was a great opportunity for Muslims."
+   "rationale": "“Islam needs to be understood according to the Quranic teachings and the Muslim community should be judged in this light rather than by the principle—‘my community, right or wrong’.”"
   },
   {
-   "article": "Murder of Humanity",
-   "page": 16,
-   "link": "murder-of-humanity",
-   "q": "How does the Quran (5: 32) regard the unjust killing of one human being?",
+   "article": "Peace-Based Empire",
+   "page": 15,
+   "link": "peace-based-empire",
+   "q": "What does the article observe about violence in the world of nature, and what does it infer?",
    "options": [
     [
-     "As the killing of one family",
-     "Not quite. The article says: As having killed all humankind."
+     "Nature rewards the aggressive",
+     "Not quite. The article says: Nature works by cooperation and harmony; deliberate violence is found only among humans and brings only destruction."
     ],
     [
-     "As having killed all humankind",
-     "Divine law mandates respect for human life."
+     "Nature works by cooperation and harmony; deliberate violence is found only among humans and brings only destruction",
+     "Well read. “Violence can destroy, but not build.”"
     ],
     [
-     "As a minor fault",
-     "Not quite. The article says: As having killed all humankind."
+     "Nature is indifferent, so nothing can be learnt from it",
+     "Not quite. The article says: Nature works by cooperation and harmony; deliberate violence is found only among humans and brings only destruction."
     ],
     [
-     "As a private matter",
-     "Not quite. The article says: As having killed all humankind."
+     "Nature is violent, so violence is natural to man",
+     "Not quite. The article says: Nature works by cooperation and harmony; deliberate violence is found only among humans and brings only destruction."
     ]
    ],
    "answer": 1,
-   "rationale": "Killing a human being … shall be regarded as having killed all humankind."
+   "rationale": "“Violence occurs only in the human world, not in the world of nature… only the peaceful method which nature abides by produces positive results.”"
   },
   {
-   "article": "Complete Person",
-   "page": 20,
-   "link": "complete-person",
-   "q": "What prevails over the ego in a complete person?",
+   "article": "Ramazan and Warfare",
+   "page": 17,
+   "link": "ramazan-and-warfare",
+   "q": "A Companion explained taqwa by asking how one walks along a path lined with thorny bushes. What was the answer?",
    "options": [
     [
-     "His friends",
-     "Not quite. The article says: His conscience."
+     "One runs through as fast as possible",
+     "Not quite. The article says: One gathers one’s clothes close and goes carefully on one’s way."
     ],
     [
-     "His conscience",
-     "He is emotionally balanced."
+     "One gathers one’s clothes close and goes carefully on one’s way",
+     "Yes. Taqwa is this cautious attitude."
     ],
     [
-     "His wealth",
-     "Not quite. The article says: His conscience."
+     "One turns back",
+     "Not quite. The article says: One gathers one’s clothes close and goes carefully on one’s way."
     ],
     [
-     "His anger",
-     "Not quite. The article says: His conscience."
+     "One cuts the bushes down",
+     "Not quite. The article says: One gathers one’s clothes close and goes carefully on one’s way."
     ]
    ],
    "answer": 1,
-   "rationale": "His conscience prevails over his ego in all situations."
+   "rationale": "“‘I gathered my clothes close to me and went on my way’. Ubayy ibn Kaab said, ‘It is this cautious attitude which is called taqwa.’”"
+  },
+  {
+   "article": "Ramazan and Warfare",
+   "page": 17,
+   "link": "ramazan-and-warfare",
+   "q": "With what words did the Prophet greet the new moon of Ramazan?",
+   "options": [
+    [
+     "A prayer that it come “with peace and security”",
+     "Correct. The article calls Ramazan the month of patience and peace."
+    ],
+    [
+     "An order to store food",
+     "Not quite. The article says: A prayer that it come “with peace and security”."
+    ],
+    [
+     "A warning of hardship to come",
+     "Not quite. The article says: A prayer that it come “with peace and security”."
+    ],
+    [
+     "A call to prepare for battle",
+     "Not quite. The article says: A prayer that it come “with peace and security”."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“O God, let the moon of the month of Ramazan appear on us with peace and security.”"
+  },
+  {
+   "article": "Airport of the Hereafter",
+   "page": 21,
+   "link": "airport-of-the-hereafter",
+   "q": "In the article’s image, what awaits passengers at “the airport of the Hereafter”?",
+   "options": [
+    [
+     "All will be sent back to begin again",
+     "Not quite. The article says: Some will be stopped for questioning, others welcomed with greetings of peace."
+    ],
+    [
+     "Some will be stopped for questioning, others welcomed with greetings of peace",
+     "Yes. And the time of landing is not announced."
+    ],
+    [
+     "Only the first to arrive will be admitted",
+     "Not quite. The article says: Some will be stopped for questioning, others welcomed with greetings of peace."
+    ],
+    [
+     "All will pass through without any check",
+     "Not quite. The article says: Some will be stopped for questioning, others welcomed with greetings of peace."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Some will be stopped for questioning while others will be welcomed and led into Paradise… The time will come without any announcement.”"
   },
   {
    "article": "Acceptance of Supplications",
    "page": 24,
    "link": "acceptance-of-supplications",
-   "q": "What was the young man’s complaint?",
+   "q": "A young man complained that his prayers for his problems went unanswered. How does the article answer him?",
    "options": [
     [
-     "His prayers were never accepted and no problem was solved",
-     "After many years of supplication."
+     "Worldly conditions are like an examination paper set by God; one keeps asking and leaves the choice to Him",
+     "Right. He knows what is truly good for us."
     ],
     [
-     "His friends prayed too much",
-     "Not quite. The article says: His prayers were never accepted and no problem was solved."
+     "Prayers for worldly needs are forbidden",
+     "Not quite. The article says: Worldly conditions are like an examination paper set by God; one keeps asking and leaves the choice to Him."
     ],
     [
-     "He had no problems",
-     "Not quite. The article says: His prayers were never accepted and no problem was solved."
+     "His problems were a punishment",
+     "Not quite. The article says: Worldly conditions are like an examination paper set by God; one keeps asking and leaves the choice to Him."
     ],
     [
-     "He had no time to pray",
-     "Not quite. The article says: His prayers were never accepted and no problem was solved."
+     "He had not prayed often enough",
+     "Not quite. The article says: Worldly conditions are like an examination paper set by God; one keeps asking and leaves the choice to Him."
     ]
    ],
    "answer": 0,
-   "rationale": "“I keep praying to God to have them solved but my prayers are never accepted.”"
+   "rationale": "“The ideal prayer would be ‘O God! Please grant me whatever is best for me!’ and then to willingly accept whatever is given.”"
   },
   {
-   "article": "A World of Opportunities",
-   "page": 28,
-   "link": "a-world-of-opportunities",
-   "q": "What is the test of life a measure of?",
+   "article": "Lailatul Qadr (the Night of Destiny)",
+   "page": 36,
+   "link": "lailatul-qadr-the-night-of-destiny",
+   "q": "Which prayer did the Prophet teach Aisha for the Night of Destiny?",
    "options": [
     [
-     "Physical strength",
-     "Not quite. The article says: Each one’s response to the situations and challenges of life."
+     "“O God, make this night last”",
+     "Not quite. The article says: “O God, You are the One who forgives and You love to forgive, so forgive me”."
     ],
     [
-     "Each one’s response to the situations and challenges of life",
-     "To identify those deserving of heaven."
+     "“O God, give me victory over my enemies”",
+     "Not quite. The article says: “O God, You are the One who forgives and You love to forgive, so forgive me”."
     ],
     [
-     "Wealth gathered",
-     "Not quite. The article says: Each one’s response to the situations and challenges of life."
+     "“O God, You are the One who forgives and You love to forgive, so forgive me”",
+     "Yes. Seeking forgiveness shows one’s smallness before God."
     ],
     [
-     "Family name",
-     "Not quite. The article says: Each one’s response to the situations and challenges of life."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "It is a measure of each ones response to the situations and challenges we face in our lives."
-  },
-  {
-   "article": "Religious Conversion or Religious Choice?",
-   "page": 35,
-   "link": "religious-conversion-or-religious-choice",
-   "q": "On what does the article say the debate on conversion is based?",
-   "options": [
-    [
-     "Misunderstanding",
-     "Making choices is everyone’s right."
-    ],
-    [
-     "Clear law",
-     "Not quite. The article says: Misunderstanding."
-    ],
-    [
-     "Agreement of all sides",
-     "Not quite. The article says: Misunderstanding."
-    ],
-    [
-     "Sound history",
-     "Not quite. The article says: Misunderstanding."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "There is a heated debate on the issue of religious conversion. This is based on misunderstanding."
-  },
-  {
-   "article": "Zakat—the Prescribed Charity",
-   "page": 40,
-   "link": "zakat-the-prescribed-charity",
-   "q": "On what wealth is zakat obligatory?",
-   "options": [
-    [
-     "Only inherited wealth",
-     "Not quite. The article says: All wealth that is subject to growth."
-    ],
-    [
-     "Only land",
-     "Not quite. The article says: All wealth that is subject to growth."
-    ],
-    [
-     "All wealth that is subject to growth",
-     "At a minimum of 2.5% a year."
-    ],
-    [
-     "Only gold",
-     "Not quite. The article says: All wealth that is subject to growth."
+     "“O God, grant me wealth and long life”",
+     "Not quite. The article says: “O God, You are the One who forgives and You love to forgive, so forgive me”."
     ]
    ],
    "answer": 2,
-   "rationale": "Its payment is obligatory, at the minimum fixed rate of 2.5% per annum, on all wealth that is subject to growth."
+   "rationale": "“O God! Certainly You are the One who grants forgiveness for sins. You love to forgive, so forgive me.”"
   },
   {
-   "article": "Learning Lessons from Material Things",
-   "page": 44,
-   "link": "learning-lessons-from-material-things",
-   "q": "Who wrote the poem ‘Miss T’?",
+   "article": "Lailatul Qadr (the Night of Destiny)",
+   "page": 36,
+   "link": "lailatul-qadr-the-night-of-destiny",
+   "q": "The Prophet came out to tell people which night it was, saw two men quarrelling, and the knowledge was taken from him. What lesson does the article draw?",
    "options": [
     [
-     "William Wordsworth",
-     "Not quite. The article says: Walter de la Mare."
+     "Good news should be kept secret",
+     "Not quite. The article says: Conflict, even in words, shuts out divine blessings; they come to a positive mind."
     ],
     [
-     "Walter de la Mare",
-     "“Whatever Miss T eats turns into Miss T.”"
+     "Conflict, even in words, shuts out divine blessings; they come to a positive mind",
+     "Well reasoned. Free of hatred and revenge."
     ],
     [
-     "T. S. Eliot",
-     "Not quite. The article says: Walter de la Mare."
+     "The night is the same every year",
+     "Not quite. The article says: Conflict, even in words, shuts out divine blessings; they come to a positive mind."
     ],
     [
-     "Rudyard Kipling",
-     "Not quite. The article says: Walter de la Mare."
+     "Quarrels are best settled in public",
+     "Not quite. The article says: Conflict, even in words, shuts out divine blessings; they come to a positive mind."
     ]
    ],
    "answer": 1,
-   "rationale": "British writer Walter de la Mare (1873-1956) wrote a poem called ‘Miss T’."
+   "rationale": "“Even fighting with words is enough to have the divine knowledge taken away… Positivity is the most important trait that makes a man worthy of receiving God’s blessings.”"
   }
  ]
 }

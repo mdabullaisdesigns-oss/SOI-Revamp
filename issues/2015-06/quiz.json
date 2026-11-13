@@ -4,261 +4,261 @@
    "article": "You Cannot Hang an Ideology",
    "page": 5,
    "link": "you-cannot-hang-an-ideology",
-   "q": "On whom did an Egyptian court confirm a death sentence in April 2015?",
+   "q": "Why, according to the editorial, does force fail to end a movement built on an idea?",
    "options": [
     [
-     "Foreign journalists",
-     "Not quite. The article says: Muslim Brotherhood chief Mohammed Badie and thirteen others."
+     "Leaders are too well protected",
+     "Not quite. The article says: An idea outlives its leaders; it can be answered only by a better idea."
     ],
     [
-     "Army officers",
-     "Not quite. The article says: Muslim Brotherhood chief Mohammed Badie and thirteen others."
+     "Ideas spread only in secret",
+     "Not quite. The article says: An idea outlives its leaders; it can be answered only by a better idea."
     ],
     [
-     "President Morsi alone",
-     "Not quite. The article says: Muslim Brotherhood chief Mohammed Badie and thirteen others."
+     "Force is never used firmly enough",
+     "Not quite. The article says: An idea outlives its leaders; it can be answered only by a better idea."
     ],
     [
-     "Muslim Brotherhood chief Mohammed Badie and thirteen others",
-     "For planning attacks against the state."
+     "An idea outlives its leaders; it can be answered only by a better idea",
+     "Yes. Hence the call for a counter-ideology."
     ]
    ],
    "answer": 3,
-   "rationale": "An Egyptian court has confirmed the death sentence on Muslim Brotherhood chief Mohammed Badie and thirteen others."
+   "rationale": "“It is not possible to bring an end to the influence of an ideology by force. Even if some leaders are hanged, new leaders will emerge and keep the ideology alive.”"
   },
   {
-   "article": "Manifesto of Peace",
-   "page": 7,
-   "link": "manifesto-of-peace",
-   "q": "How have scholars defined peace, as quoted?",
+   "article": "From Planet Earth to Planet Paradise",
+   "page": 16,
+   "link": "from-planet-earth-to-planet-paradise",
+   "q": "Stephen Hawking suggested mankind should settle on other planets. What does the article offer as the Quran’s view of man’s future home?",
    "options": [
     [
-     "“Peace is victory.”",
-     "Not quite. The article says: “Peace is the absence of war.”."
+     "Mankind will remain on earth for ever",
+     "Not quite. The article says: The earth is a temporary abode; the lasting home to prepare for is Paradise."
     ],
     [
-     "“Peace is the absence of war.”",
-     "Peace is the only religion for man and the universe."
+     "The earth is a temporary abode; the lasting home to prepare for is Paradise",
+     "Right. One must become a deserving candidate for it."
     ],
     [
-     "“Peace is wealth.”",
-     "Not quite. The article says: “Peace is the absence of war.”."
+     "The future cannot be known at all",
+     "Not quite. The article says: The earth is a temporary abode; the lasting home to prepare for is Paradise."
     ],
     [
-     "“Peace is silence.”",
-     "Not quite. The article says: “Peace is the absence of war.”."
+     "Another planet has been made ready for us",
+     "Not quite. The article says: The earth is a temporary abode; the lasting home to prepare for is Paradise."
     ]
    ],
    "answer": 1,
-   "rationale": "Scholars have defined peace thus: “Peace is the absence of war.”"
+   "rationale": "“The earth has been made as a temporary abode for human beings… Then the other abode for humans would be Paradise.”"
   },
   {
-   "article": "A Life of Moral Restraint",
-   "page": 17,
-   "link": "a-life-of-moral-restraint",
-   "q": "What is the month of Ramazan called?",
+   "article": "Theoretical Bossism, Practical Bossism",
+   "page": 18,
+   "link": "theoretical-bossism-practical-bossism",
+   "q": "What solution does the article propose for quarrels over “who is the boss,” for example at home?",
    "options": [
     [
-     "The month of harvest",
-     "Not quite. The article says: The month of patience (sabr)."
+     "Avoid any shared work",
+     "Not quite. The article says: Be your own master in thought, and for practical matters be willing to let the other person lead."
     ],
     [
-     "The month of trade",
-     "Not quite. The article says: The month of patience (sabr)."
+     "Decide by turns who gives the orders",
+     "Not quite. The article says: Be your own master in thought, and for practical matters be willing to let the other person lead."
     ],
     [
-     "The month of travel",
-     "Not quite. The article says: The month of patience (sabr)."
+     "Let the elder always decide",
+     "Not quite. The article says: Be your own master in thought, and for practical matters be willing to let the other person lead."
     ],
     [
-     "The month of patience (sabr)",
-     "The believer learns to control negative feelings."
+     "Be your own master in thought, and for practical matters be willing to let the other person lead",
+     "Yes. Cooperation is a must in practical life."
     ]
    ],
    "answer": 3,
-   "rationale": "The month of Ramazan is called the month of patience (sabr)."
+   "rationale": "“In theoretical matters, take yourself as your own boss; but in practical matters, as per your convenience, accept the other person as the boss.”"
   },
   {
    "article": "A Counter-Ideology Is Required",
    "page": 19,
    "link": "a-counter-ideology-is-required",
-   "q": "What was the theme of the Washington conference of February 17–19, 2015?",
+   "q": "The article contrasts treating religion as something to be “followed” with treating it as something to be “imposed.” Why does the difference matter?",
    "options": [
     [
-     "World Trade",
-     "Not quite. The article says: Countering Violent Extremism."
+     "Following is private; imposing is more sincere",
+     "Not quite. The article says: Following turns a person to reforming himself; imposing turns him against rulers and so towards violence."
     ],
     [
-     "Countering Violent Extremism",
-     "Sixty nations took part."
+     "Following turns a person to reforming himself; imposing turns him against rulers and so towards violence",
+     "Well reasoned. The aim is the individual, not the state."
     ],
     [
-     "Space Exploration",
-     "Not quite. The article says: Countering Violent Extremism."
+     "There is no real difference in practice",
+     "Not quite. The article says: Following turns a person to reforming himself; imposing turns him against rulers and so towards violence."
     ],
     [
-     "Climate Change",
-     "Not quite. The article says: Countering Violent Extremism."
+     "Following is for the weak; imposing for the strong",
+     "Not quite. The article says: Following turns a person to reforming himself; imposing turns him against rulers and so towards violence."
     ]
    ],
    "answer": 1,
-   "rationale": "The theme of the meeting was: Countering Violent Extremism. Sixty nations participated in the conference."
+   "rationale": "“If Islam is the subject to be followed, then the goal is to focus on oneself… But when Islam is considered a subject of imposition, the goal then becomes the external political system… Here lies the root of violence.”"
   },
   {
    "article": "A Training Course in Thanksgiving and Piety",
    "page": 22,
    "link": "a-training-course-in-thanksgiving-and-piety",
-   "q": "Why has fasting been prescribed, according to the verse quoted?",
+   "q": "Fasting is described as training with a dual purpose. What are the two?",
    "options": [
     [
-     "So that food may be saved",
-     "Not quite. The article says: So that you may guard yourselves against evil."
+     "Health of the body, and saving of money",
+     "Not quite. The article says: Gratitude for God’s blessings, and taqwa – holding back from what He forbids."
     ],
     [
-     "So that you may guard yourselves against evil",
-     "As it was prescribed for those before you."
+     "Gratitude for God’s blessings, and taqwa – holding back from what He forbids",
+     "Correct. “The whole life of the believer is a life of fasting.”"
     ],
     [
-     "So that the rich may rest",
-     "Not quite. The article says: So that you may guard yourselves against evil."
+     "Memorising scripture, and learning its language",
+     "Not quite. The article says: Gratitude for God’s blessings, and taqwa – holding back from what He forbids."
     ],
     [
-     "So that travel is easier",
-     "Not quite. The article says: So that you may guard yourselves against evil."
+     "Charity to neighbours, and hospitality to guests",
+     "Not quite. The article says: Gratitude for God’s blessings, and taqwa – holding back from what He forbids."
     ]
    ],
    "answer": 1,
-   "rationale": "“Fasting has been prescribed for you, just as it was prescribed for those before you, so that you may guard yourselves against evil.”"
+   "rationale": "“Fasting is training with a dual purpose. One is thanksgiving, the other Taqwa (righteousness or piety).”"
   },
   {
-   "article": "Two Ways of Addressing Others",
-   "page": 25,
-   "link": "two-ways-of-addressing-others",
-   "q": "What often happens to those who address people’s minds?",
+   "article": "God and Man",
+   "page": 23,
+   "link": "god-and-man",
+   "q": "What common mistake about God does the article describe?",
    "options": [
     [
-     "They grow rich",
-     "Not quite. The article says: They do not gather a large following."
+     "Believing that He hears prayer",
+     "Not quite. The article says: Imagining Him on the pattern of human beings – for example, as needing intermediaries or favouring one group."
     ],
     [
-     "They become famous at once",
-     "Not quite. The article says: They do not gather a large following."
+     "Thinking of Him as the Creator of all",
+     "Not quite. The article says: Imagining Him on the pattern of human beings – for example, as needing intermediaries or favouring one group."
     ],
     [
-     "They are always thanked",
-     "Not quite. The article says: They do not gather a large following."
+     "Holding that He is One",
+     "Not quite. The article says: Imagining Him on the pattern of human beings – for example, as needing intermediaries or favouring one group."
     ],
     [
-     "They do not gather a large following",
-     "‘Fine’ speeches draw crowds but change nothing."
+     "Imagining Him on the pattern of human beings – for example, as needing intermediaries or favouring one group",
+     "Yes. Such beliefs are called a negation of His divinity."
     ]
    ],
    "answer": 3,
-   "rationale": "Those who seek to address people’s minds … often do not gather a large following."
+   "rationale": "“He visualises God in his image and vice versa. Human history is the story of this mistake and its consequences.”"
   },
   {
    "article": "News of Promotion",
    "page": 26,
    "link": "news-of-promotion",
-   "q": "Of what did the young man’s promotion remind the author?",
+   "q": "A young man’s news of his promotion at work reminded the author of something greater. What?",
    "options": [
     [
-     "A friend’s misfortune",
-     "Not quite. The article says: What is going to happen in the Hereafter."
+     "The reward of a long life",
+     "Not quite. The article says: Entry into heaven – promotion from this imperfect world to the perfect one."
     ],
     [
-     "His own youth",
-     "Not quite. The article says: What is going to happen in the Hereafter."
+     "The author’s own early career",
+     "Not quite. The article says: Entry into heaven – promotion from this imperfect world to the perfect one."
     ],
     [
-     "What is going to happen in the Hereafter",
-     "A higher stage with greater blessings."
+     "Entry into heaven – promotion from this imperfect world to the perfect one",
+     "Right. So one should weigh one’s actions before they are weighed."
     ],
     [
-     "The price of cars",
-     "Not quite. The article says: What is going to happen in the Hereafter."
+     "The honour paid to scholars",
+     "Not quite. The article says: Entry into heaven – promotion from this imperfect world to the perfect one."
     ]
    ],
    "answer": 2,
-   "rationale": "Listening to him, I thought that this is precisely what is going to happen in the Hereafter."
+   "rationale": "“Entry into heaven also is a promotion. People whose record in this imperfect world is found to be good will be promoted and allowed to enter into the perfect world of heaven.”"
   },
   {
-   "article": "An Authentic Book of Reference on Metaphysics",
-   "page": 30,
-   "link": "an-authentic-book-of-reference-on-metaphysics",
-   "q": "How did the young man drive his scooter?",
+   "article": "Fasting for the Greatest Reward",
+   "page": 28,
+   "link": "fasting-for-the-greatest-reward",
+   "q": "How does the article describe the relation between Ramazan and the other eleven months?",
    "options": [
     [
-     "In a rash manner, as if the whole road belonged to him",
-     "Then a car came from the opposite direction."
+     "Ramazan is for preparation through study of the Quran; the rest of the year is for sharing its message",
+     "Yes. That is why its reward is unlimited."
     ],
     [
-     "With a helmet and great care",
-     "Not quite. The article says: In a rash manner, as if the whole road belonged to him."
+     "Ramazan is for travel; the other months for home",
+     "Not quite. The article says: Ramazan is for preparation through study of the Quran; the rest of the year is for sharing its message."
     ],
     [
-     "Only at night",
-     "Not quite. The article says: In a rash manner, as if the whole road belonged to him."
+     "Ramazan is for charity; the other months for saving",
+     "Not quite. The article says: Ramazan is for preparation through study of the Quran; the rest of the year is for sharing its message."
     ],
     [
-     "Slowly and carefully",
-     "Not quite. The article says: In a rash manner, as if the whole road belonged to him."
+     "Ramazan is for rest; the other months for work",
+     "Not quite. The article says: Ramazan is for preparation through study of the Quran; the rest of the year is for sharing its message."
     ]
    ],
    "answer": 0,
-   "rationale": "He drove his vehicle in a rash manner as if the whole road belonged to him."
+   "rationale": "“The month of Ramazan—is meant for preparation and the remaining eleven months are for spreading the message of the Quran to all mankind.”"
   },
   {
    "article": "Clarity of Expression",
    "page": 40,
    "link": "clarity-of-expression",
-   "q": "What should a reader or listener be able to do?",
+   "q": "Why, according to the article, is it harder to be clear about ideas than about physical things?",
    "options": [
     [
-     "Guess the meaning",
-     "Not quite. The article says: Clearly understand and not be confused."
+     "Ideas are less important than things",
+     "Not quite. The article says: Physical things come already separate in nature; ideas lie mixed in the mind and must be sorted by analysis."
     ],
     [
-     "Admire the style only",
-     "Not quite. The article says: Clearly understand and not be confused."
+     "Words for ideas do not exist",
+     "Not quite. The article says: Physical things come already separate in nature; ideas lie mixed in the mind and must be sorted by analysis."
     ],
     [
-     "Read it many times",
-     "Not quite. The article says: Clearly understand and not be confused."
+     "Physical things never change",
+     "Not quite. The article says: Physical things come already separate in nature; ideas lie mixed in the mind and must be sorted by analysis."
     ],
     [
-     "Clearly understand and not be confused",
-     "Be clear in speech and in writing."
+     "Physical things come already separate in nature; ideas lie mixed in the mind and must be sorted by analysis",
+     "Well read. Objective, unprejudiced thinking is needed."
     ]
    ],
    "answer": 3,
-   "rationale": "The person who hears or reads what you have written should clearly understand and not be confused."
+   "rationale": "“In contrast to material objects… ideas do not exist separately. They exist in our minds mixed up along with other ideas.”"
   },
   {
-   "article": "The Word of God",
-   "page": 43,
-   "link": "the-word-of-god",
-   "q": "How often does the earth rotate on its axis, as the commentary notes?",
+   "article": "Equality",
+   "page": 42,
+   "link": "equality",
+   "q": "On what basis, according to the article, did Islam teach human equality?",
    "options": [
     [
-     "Once a month",
-     "Not quite. The article says: Once in twenty-four hours."
+     "All people should own the same amount",
+     "Not quite. The article says: The only distinction is between God and man; every human being is equally His servant."
     ],
     [
-     "Once a year",
-     "Not quite. The article says: Once in twenty-four hours."
+     "All people have the same abilities",
+     "Not quite. The article says: The only distinction is between God and man; every human being is equally His servant."
     ],
     [
-     "Once a week",
-     "Not quite. The article says: Once in twenty-four hours."
+     "All people belong to one nation",
+     "Not quite. The article says: The only distinction is between God and man; every human being is equally His servant."
     ],
     [
-     "Once in twenty-four hours",
-     "So day and night follow each other."
+     "The only distinction is between God and man; every human being is equally His servant",
+     "Exactly. Distinctions among people fall away."
     ]
    ],
    "answer": 3,
-   "rationale": "The earth rotates on its axis once in twenty-four hours, due to which day and night follow upon each other."
+   "rationale": "“It stressed that the distinction was between God and man, and that there was no distinctions between human beings. Every human being, it taught, was a servant of God.”"
   }
  ]
 }
