@@ -4,261 +4,261 @@
    "article": "One Life, Two Responsibilities",
    "page": 6,
    "link": "one-life-two-responsibilities",
-   "q": "What did the educated Muslim say modern people have become?",
+   "q": "What does the article mean by “one man, two missions”?",
    "options": [
     [
-     "“Idle dreamers”",
-     "Not quite. The article says: “Earning animals”."
+     "Following two religions",
+     "Not quite. The article says: Dividing one’s life consciously between earning a lawful livelihood and serving its higher purpose."
     ],
     [
-     "“Earning animals”",
-     "A valid concern, but not the whole picture."
+     "Dividing one’s life consciously between earning a lawful livelihood and serving its higher purpose",
+     "Yes. Neither neglecting the world nor being enslaved to it."
     ],
     [
-     "“Wise elders”",
-     "Not quite. The article says: “Earning animals”."
+     "Working for two employers",
+     "Not quite. The article says: Dividing one’s life consciously between earning a lawful livelihood and serving its higher purpose."
     ],
     [
-     "“Thinking machines”",
-     "Not quite. The article says: “Earning animals”."
+     "Holding two jobs at once",
+     "Not quite. The article says: Dividing one’s life consciously between earning a lawful livelihood and serving its higher purpose."
     ]
    ],
    "answer": 1,
-   "rationale": "Modern people have become nothing more than “earning animals”."
+   "rationale": "“A person divides his life between earning a lawful livelihood and pursuing the real purpose of his existence.”"
   },
   {
-   "article": "Human Welfare and Intellectual Freedom",
-   "page": 9,
-   "link": "human-welfare-and-intellectual-freedom",
-   "q": "What was the author invited to inaugurate in Srinagar?",
+   "article": "The Path to Paradise",
+   "page": 14,
+   "link": "the-path-to-paradise",
+   "q": "According to the article, what matters in the life to come?",
    "options": [
     [
-     "A blood bank",
-     "An initiative of humanitarian value."
+     "Not how much one does, but what one becomes through what one does",
+     "Right. Deeds without inner change are barren."
     ],
     [
-     "A shopping mall",
-     "Not quite. The article says: A blood bank."
+     "The number of deeds performed",
+     "Not quite. The article says: Not how much one does, but what one becomes through what one does."
     ],
     [
-     "A cinema",
-     "Not quite. The article says: A blood bank."
+     "How busy one has been",
+     "Not quite. The article says: Not how much one does, but what one becomes through what one does."
     ],
     [
-     "A stadium",
-     "Not quite. The article says: A blood bank."
+     "How others have judged one’s work",
+     "Not quite. The article says: Not how much one does, but what one becomes through what one does."
     ]
    ],
    "answer": 0,
-   "rationale": "The establishment of a blood bank … which I have been invited to inaugurate."
+   "rationale": "“What truly matters in the life to come is not how much one does, but what one becomes through what one does.”"
   },
   {
-   "article": "At the Threshold of Eternity",
-   "page": 16,
-   "link": "at-the-threshold-of-eternity",
-   "q": "In what does every journey end?",
+   "article": "The Path to Paradise",
+   "page": 14,
+   "link": "the-path-to-paradise",
+   "q": "The article calls the cosmos “a moral classroom.” Which lesson does it draw from the stars?",
    "options": [
     [
-     "Fame",
-     "Not quite. The article says: Death."
+     "They compete for space",
+     "Not quite. The article says: They keep to their orbits without colliding – man too should act within his limits and avoid needless conflict."
     ],
     [
-     "Death",
-     "The great divider."
+     "They keep to their orbits without colliding – man too should act within his limits and avoid needless conflict",
+     "Yes. Trees, likewise, teach returning good for evil."
     ],
     [
-     "Rest",
-     "Not quite. The article says: Death."
+     "They never change",
+     "Not quite. The article says: They keep to their orbits without colliding – man too should act within his limits and avoid needless conflict."
     ],
     [
-     "Wealth",
-     "Not quite. The article says: Death."
+     "They shine brightest when alone",
+     "Not quite. The article says: They keep to their orbits without colliding – man too should act within his limits and avoid needless conflict."
     ]
    ],
    "answer": 1,
-   "rationale": "Everyone is on a journey, and every journey ends in death."
+   "rationale": "“Billions of stars move in precise orbits without colliding; man, too, is required to function within his own limits, avoiding unnecessary conflict.”"
+  },
+  {
+   "article": "Human Life as a Trust",
+   "page": 18,
+   "link": "human-life-as-a-trust",
+   "q": "Why does the article say a person has no moral right to waste his life?",
+   "options": [
+    [
+     "Because life is very long",
+     "Not quite. The article says: He did not create it – it is a trust from God, for which he will be questioned."
+    ],
+    [
+     "Because society forbids it",
+     "Not quite. The article says: He did not create it – it is a trust from God, for which he will be questioned."
+    ],
+    [
+     "He did not create it – it is a trust from God, for which he will be questioned",
+     "Well read. Using it well is an act of gratitude."
+    ],
+    [
+     "Because others depend on him for money",
+     "Not quite. The article says: He did not create it – it is a trust from God, for which he will be questioned."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Life is not self-created. It is a trust given by the Lord of the universe. Since a human being cannot create life, he has no moral right to waste it.”"
   },
   {
    "article": "Life Is a Test",
    "page": 19,
    "link": "life-is-a-test",
-   "q": "What does a CAPTCHA test confirm?",
+   "q": "What question does the successful person ask when difficulties come?",
    "options": [
     [
-     "That the user is old",
-     "Not quite. The article says: That the user is a real human being."
+     "Not why they have come, but what they demand of him",
+     "Correct. Every challenge asks how we will respond."
     ],
     [
-     "That the computer is new",
-     "Not quite. The article says: That the user is a real human being."
+     "Why others are spared",
+     "Not quite. The article says: Not why they have come, but what they demand of him."
     ],
     [
-     "That the user is a real human being",
-     "Access comes only after passing."
+     "How to escape them at once",
+     "Not quite. The article says: Not why they have come, but what they demand of him."
     ],
     [
-     "That the user is rich",
-     "Not quite. The article says: That the user is a real human being."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "To confirm that the user is a real human being and not an automated programme."
-  },
-  {
-   "article": "Profitability and Beneficence",
-   "page": 21,
-   "link": "profitability-and-beneficence",
-   "q": "What remains on the earth (13: 17)?",
-   "options": [
-    [
-     "That which is of use to humankind",
-     "A principle of all creation."
-    ],
-    [
-     "Nothing",
-     "Not quite. The article says: That which is of use to humankind."
-    ],
-    [
-     "That which is oldest",
-     "Not quite. The article says: That which is of use to humankind."
-    ],
-    [
-     "That which is largest",
-     "Not quite. The article says: That which is of use to humankind."
+     "Who is to blame for them",
+     "Not quite. The article says: Not why they have come, but what they demand of him."
     ]
    ],
    "answer": 0,
-   "rationale": "Only “that which is of use to humankind remains on the earth” (13:17)."
+   "rationale": "“The successful person does not ask why difficulties come; he asks what they demand from him.”"
+  },
+  {
+   "article": "Shock: A Blessing in Disguise",
+   "page": 23,
+   "link": "shock-a-blessing-in-disguise",
+   "q": "Alfred Nobel read his own mistaken obituary, which called him “the merchant of death.” How did he respond?",
+   "options": [
+    [
+     "He built more factories",
+     "Not quite. The article says: With reflection, not anger – he left most of his wealth to found the Nobel Prizes."
+    ],
+    [
+     "With reflection, not anger – he left most of his wealth to found the Nobel Prizes",
+     "Yes. A shock became a turning point."
+    ],
+    [
+     "He withdrew from public life",
+     "Not quite. The article says: With reflection, not anger – he left most of his wealth to found the Nobel Prizes."
+    ],
+    [
+     "He sued the newspaper",
+     "Not quite. The article says: With reflection, not anger – he left most of his wealth to found the Nobel Prizes."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Instead of reacting with anger or denial, Nobel responded with reflection. In 1895, he signed his will, setting aside most of his wealth to establish the Nobel Prizes.”"
   },
   {
    "article": "The World and Its Perfect Counterpart",
    "page": 25,
    "link": "the-world-and-its-perfect-counterpart",
-   "q": "On what principle is our world built?",
+   "q": "On what single basis, according to the article, will people be selected for the perfect world of the Hereafter?",
    "options": [
     [
-     "Sameness",
-     "Not quite. The article says: The principle of pairs."
+     "Their wealth",
+     "Not quite. The article says: The right or wrong use of the freedom they were given."
     ],
     [
-     "The principle of pairs",
-     "Electrons and protons, light and darkness."
+     "The length of their lives",
+     "Not quite. The article says: The right or wrong use of the freedom they were given."
     ],
     [
-     "Isolation",
-     "Not quite. The article says: The principle of pairs."
+     "The right or wrong use of the freedom they were given",
+     "Right. This world is a selection ground."
     ],
     [
-     "Chance",
-     "Not quite. The article says: The principle of pairs."
+     "Their ancestry",
+     "Not quite. The article says: The right or wrong use of the freedom they were given."
     ]
    ],
-   "answer": 1,
-   "rationale": "The world we inhabit is built upon the principle of pairs."
+   "answer": 2,
+   "rationale": "“There is only one criterion: the right or wrong use of the freedom granted to human beings.”"
   },
   {
    "article": "The Quran and Near-Death Experiences",
    "page": 29,
    "link": "the-quran-and-near-death-experiences",
-   "q": "What did Dr. Jeffrey Long study for more than thirty years?",
+   "q": "How does the writer describe the relation between science and faith on what lies beyond death?",
    "options": [
     [
-     "Volcanoes",
-     "Not quite. The article says: Near-death experiences."
+     "They contradict each other",
+     "Not quite. The article says: They complete one another – science observes the phenomenon, faith explains its meaning."
     ],
     [
-     "Coins",
-     "Not quite. The article says: Near-death experiences."
+     "They complete one another – science observes the phenomenon, faith explains its meaning",
+     "Yes. “Science says life after death may be possible. Faith says it is certain.”"
     ],
     [
-     "Near-death experiences",
-     "An American oncologist."
+     "Science has replaced faith",
+     "Not quite. The article says: They complete one another – science observes the phenomenon, faith explains its meaning."
     ],
     [
-     "Languages",
-     "Not quite. The article says: Near-death experiences."
+     "Neither has anything to say",
+     "Not quite. The article says: They complete one another – science observes the phenomenon, faith explains its meaning."
     ]
    ],
-   "answer": 2,
-   "rationale": "Over more than thirty years, he studied near-death experiences (NDEs)."
+   "answer": 1,
+   "rationale": "“Science and faith are not in conflict; they complete one another. Science observes the phenomenon. Faith explains its meaning.”"
   },
   {
    "article": "Through Hardship to the Stars",
    "page": 31,
    "link": "through-hardship-to-the-stars",
-   "q": "What shook the Japanese most profoundly, according to Ian Nash?",
+   "q": "What does the article name as the decisive factor in Japan’s recovery after earthquake and war?",
    "options": [
     [
-     "A change of emperor",
-     "Not quite. The article says: The Great Kanto earthquake of 1923."
+     "The will to act – choosing effort and reconstruction over despair and protest",
+     "Exactly. Not material abundance."
     ],
     [
-     "The Great Kanto earthquake of 1923",
-     "Not political upheaval."
+     "Help from neighbouring countries",
+     "Not quite. The article says: The will to act – choosing effort and reconstruction over despair and protest."
     ],
     [
-     "A trade treaty",
-     "Not quite. The article says: The Great Kanto earthquake of 1923."
+     "A long period of rest",
+     "Not quite. The article says: The will to act – choosing effort and reconstruction over despair and protest."
     ],
     [
-     "A new railway",
-     "Not quite. The article says: The Great Kanto earthquake of 1923."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "What shook the Japanese most profoundly was not political upheaval, but the Great Kanto earthquake."
-  },
-  {
-   "article": "Islam and the Modern Man",
-   "page": 42,
-   "link": "islam-and-the-modern-man",
-   "q": "What one cause lies beneath modern man’s difficulties?",
-   "options": [
-    [
-     "The separation of man from God",
-     "Despite material comfort."
-    ],
-    [
-     "Too little leisure",
-     "Not quite. The article says: The separation of man from God."
-    ],
-    [
-     "Poor roads",
-     "Not quite. The article says: The separation of man from God."
-    ],
-    [
-     "Lack of machines",
-     "Not quite. The article says: The separation of man from God."
+     "Rich natural resources",
+     "Not quite. The article says: The will to act – choosing effort and reconstruction over despair and protest."
     ]
    ],
    "answer": 0,
-   "rationale": "One underlying cause: the separation of man from God."
+   "rationale": "“The decisive factor in this remarkable recovery was not material abundance, but the will to act.”"
   },
   {
-   "article": "Your Questions Answered",
-   "page": 48,
-   "link": "your-questions-answered",
-   "q": "How many articles of faith are essential in Islam, in the answer given?",
+   "article": "Backbiting",
+   "page": 46,
+   "link": "backbiting",
+   "q": "From what does the article say backbiting usually springs, and where does reform begin?",
    "options": [
     [
-     "Seven",
-     "Spelled out in Iman Mufassal."
+     "Inner insecurity and fear – so reform begins with building inner security through faith",
+     "Well reasoned. “Speak good or remain silent.”"
     ],
     [
-     "Two",
-     "Not quite. The article says: Seven."
+     "Too much confidence – so reform begins with humility",
+     "Not quite. The article says: Inner insecurity and fear – so reform begins with building inner security through faith."
     ],
     [
-     "Five",
-     "Not quite. The article says: Seven."
+     "Lack of information – so reform begins with study",
+     "Not quite. The article says: Inner insecurity and fear – so reform begins with building inner security through faith."
     ],
     [
-     "Twelve",
-     "Not quite. The article says: Seven."
+     "Boredom – so reform begins with keeping busy",
+     "Not quite. The article says: Inner insecurity and fear – so reform begins with building inner security through faith."
     ]
    ],
    "answer": 0,
-   "rationale": "There are seven things which are essential for a Muslim to believe in."
+   "rationale": "“Backbiting is rarely the act of a confident person. It is usually the act of someone who feels insecure… reform does not begin merely by controlling speech. It begins by building inner security.”"
   }
  ]
 }
