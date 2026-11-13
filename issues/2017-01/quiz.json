@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "Publisher’s Note",
-   "page": 5,
-   "link": "publishers-note",
-   "q": "What chance does the new year give every individual, in the Publisher’s Note?",
-   "options": [
-    [
-     "To blame others",
-     "Not quite. The article says: To change, improve, repent and learn from past mistakes."
-    ],
-    [
-     "To forget the past entirely",
-     "Not quite. The article says: To change, improve, repent and learn from past mistakes."
-    ],
-    [
-     "To rest for a month",
-     "Not quite. The article says: To change, improve, repent and learn from past mistakes."
-    ],
-    [
-     "To change, improve, repent and learn from past mistakes",
-     "January 2017."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "Every individual has a chance to change, to improve, to repent, to learn from the past mistakes."
-  },
-  {
    "article": "Discovering the Modern Age",
    "page": 11,
    "link": "discovering-the-modern-age",
-   "q": "In which century did modern Western colonialism gain momentum?",
+   "q": "What does the editorial say has replaced political rule as the basis of influence in the modern age?",
    "options": [
     [
-     "The 13th century",
-     "Not quite. The article says: The 17th century."
+     "Control of farmland",
+     "Not quite. The article says: Organisation and industrial infrastructure – peaceful economic strength."
     ],
     [
-     "The 20th century",
-     "Not quite. The article says: The 17th century."
+     "Larger armies",
+     "Not quite. The article says: Organisation and industrial infrastructure – peaceful economic strength."
     ],
     [
-     "The 10th century",
-     "Not quite. The article says: The 17th century."
+     "Royal marriages",
+     "Not quite. The article says: Organisation and industrial infrastructure – peaceful economic strength."
     ],
     [
-     "The 17th century",
-     "It was industry-oriented but militarily reinforced."
+     "Organisation and industrial infrastructure – peaceful economic strength",
+     "Yes. Military occupation has become irrelevant."
     ]
    ],
    "answer": 3,
-   "rationale": "Modern Western colonialism which gained momentum in the 17th century."
+   "rationale": "“With the advent of mechanical power, political rule became irrelevant. Now, organization and infrastructure replaced political power.”"
   },
   {
-   "article": "The Complete World",
-   "page": 13,
-   "link": "the-complete-world",
-   "q": "With what has God created man?",
+   "article": "Need, or Pandering to Desires?",
+   "page": 12,
+   "link": "need-or-pandering-to-desires",
+   "q": "What test does the article suggest before spending money on something?",
    "options": [
     [
-     "No desires",
-     "Not quite. The article says: Innumerable desires and longings."
+     "Ask whether it can be returned",
+     "Not quite. The article says: Stop and ask whether it meets a real need or only a desire."
     ],
     [
-     "Unlimited powers",
-     "Not quite. The article says: Innumerable desires and longings."
+     "Ask whether the price will rise",
+     "Not quite. The article says: Stop and ask whether it meets a real need or only a desire."
     ],
     [
-     "Innumerable desires and longings",
-     "Which he cannot fulfil in this world."
+     "Ask whether one’s neighbours own it",
+     "Not quite. The article says: Stop and ask whether it meets a real need or only a desire."
     ],
     [
-     "Perfect contentment",
-     "Not quite. The article says: Innumerable desires and longings."
+     "Stop and ask whether it meets a real need or only a desire",
+     "Right. Spending on mere desire is wastefulness one must answer for."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Take time off to seriously think whether this is for something that you truly need or for something that you simply desire.”"
+  },
+  {
+   "article": "God: A Source of Conviction",
+   "page": 14,
+   "link": "god-a-source-of-conviction",
+   "q": "Looking at the vast universe, what two discoveries does the article say a person makes?",
+   "options": [
+    [
+     "That the earth is ordinary, and that life is common",
+     "Not quite. The article says: That there is an all-powerful Creator and Sustainer, and that man is utterly helpless without Him."
+    ],
+    [
+     "That man is master of nature, and needs no help",
+     "Not quite. The article says: That there is an all-powerful Creator and Sustainer, and that man is utterly helpless without Him."
+    ],
+    [
+     "That there is an all-powerful Creator and Sustainer, and that man is utterly helpless without Him",
+     "Yes. Daily life teaches the same helplessness."
+    ],
+    [
+     "That the universe is empty, and has no order",
+     "Not quite. The article says: That there is an all-powerful Creator and Sustainer, and that man is utterly helpless without Him."
     ]
    ],
    "answer": 2,
-   "rationale": "God has created man with innumerable desires and longings."
+   "rationale": "“Firstly, the existence of an All-Powerful God, who is its Creator as well as its Sustainer… the second discovery will be that of the utter helplessness of man.”"
   },
   {
-   "article": "Peace as a Principle to Be Practised",
-   "page": 16,
-   "link": "peace-as-a-principle-to-be-practised",
-   "q": "What contradiction does the article find between the Quran and later Muslim history?",
+   "article": "God: A Source of Conviction",
+   "page": 14,
+   "link": "god-a-source-of-conviction",
+   "q": "What does the article call a “psychological proof” of God’s existence?",
    "options": [
     [
-     "Between old and new copies",
-     "Not quite. The article says: Between principle and practice."
+     "The pleasure of success",
+     "Not quite. The article says: The feeling of dependence that every person meets in loss, sickness, age and death."
     ],
     [
-     "Between Arabic and Persian",
-     "Not quite. The article says: Between principle and practice."
+     "The comfort of belonging to a community",
+     "Not quite. The article says: The feeling of dependence that every person meets in loss, sickness, age and death."
     ],
     [
-     "Between principle and practice",
-     "The Quran is imbued with the spirit of peace."
+     "The feeling of dependence that every person meets in loss, sickness, age and death",
+     "Well read. Our nature calls out that we need God."
     ],
     [
-     "None at all",
-     "Not quite. The article says: Between principle and practice."
+     "The fear of being alone at night",
+     "Not quite. The article says: The feeling of dependence that every person meets in loss, sickness, age and death."
     ]
    ],
    "answer": 2,
-   "rationale": "A blatant contradiction between the two—that between principle and practice."
+   "rationale": "“This feeling or realization is a psychological proof of God’s existence. Every person necessarily encounters this psychological experience.”"
   },
   {
-   "article": "Fatwa Activism",
-   "page": 20,
-   "link": "fatwa-activism",
-   "q": "What new form of activism have some religious leaders launched?",
+   "article": "Religion, a Divine Not a Social Phenomenon",
+   "page": 27,
+   "link": "religion-a-divine-not-a-social-phenomenon",
+   "q": "The article begins with nuclear energy, which can be misused for weapons. What point about religion does this lead to?",
    "options": [
     [
-     "‘Fatwa activism’",
-     "Alongside political, social and media activism."
+     "A thing should be judged on its own merit, not by its misuse – Islam by its texts, not by what some Muslims do",
+     "Correct. Theory must be separated from practice."
     ],
     [
-     "‘Trade activism’",
-     "Not quite. The article says: ‘Fatwa activism’."
+     "Religion changes with each society",
+     "Not quite. The article says: A thing should be judged on its own merit, not by its misuse – Islam by its texts, not by what some Muslims do."
     ],
     [
-     "‘Silent activism’",
-     "Not quite. The article says: ‘Fatwa activism’."
+     "Religion is as dangerous as nuclear energy",
+     "Not quite. The article says: A thing should be judged on its own merit, not by its misuse – Islam by its texts, not by what some Muslims do."
     ],
     [
-     "‘Garden activism’",
-     "Not quite. The article says: ‘Fatwa activism’."
+     "Science and religion should be kept apart",
+     "Not quite. The article says: A thing should be judged on its own merit, not by its misuse – Islam by its texts, not by what some Muslims do."
     ]
    ],
    "answer": 0,
-   "rationale": "A new form of activism of their own—what can be called ‘fatwa activism’."
+   "rationale": "“The harmfulness or benefits of a concept or phenomenon relates to its user… If one wishes to understand Islam, one must look at it apart from the Muslims.”"
   },
   {
-   "article": "Man, an Exceptional Creature",
-   "page": 28,
-   "link": "man-an-exceptional-creature",
-   "q": "What does “God created Adam in His own image” not mean?",
+   "article": "Respect for Humanity in Islam",
+   "page": 30,
+   "link": "respect-for-humanity-in-islam",
+   "q": "According to the article, to whom is respect due?",
    "options": [
     [
-     "That man has abilities",
-     "Not quite. The article says: That man is like God in physical appearance."
+     "To members of one’s own faith",
+     "Not quite. The article says: To every human being, of any religion or community, even where there are differences."
     ],
     [
-     "That man is honoured",
-     "Not quite. The article says: That man is like God in physical appearance."
+     "To elders and rulers only",
+     "Not quite. The article says: To every human being, of any religion or community, even where there are differences."
     ],
     [
-     "That man is like God in physical appearance",
-     "God granted man certain attributes in a limited way."
+     "To every human being, of any religion or community, even where there are differences",
+     "Yes. It is man’s birthright."
     ],
     [
-     "That man can think",
-     "Not quite. The article says: That man is like God in physical appearance."
+     "To those who first show respect",
+     "Not quite. The article says: To every human being, of any religion or community, even where there are differences."
     ]
    ],
    "answer": 2,
-   "rationale": "This does not mean that man is like God in physical appearance."
+   "rationale": "“Everyone whether of one’s own religion or of any other religious tradition… is worthy of respect… human beings are to be respected despite their differences.”"
   },
   {
-   "article": "Conflict-Resolution",
-   "page": 31,
-   "link": "conflict-resolution",
-   "q": "Of what are today’s Muslims unaware, according to the article?",
+   "article": "Respect for Humanity in Islam",
+   "page": 30,
+   "link": "respect-for-humanity-in-islam",
+   "q": "Where does the article say our love and devotion for God find expression in this world?",
    "options": [
     [
-     "Where the Quran was revealed",
-     "Not quite. The article says: The immense reward for following the Quran in their own lives."
+     "In how much we know",
+     "Not quite. The article says: In our relations with other human beings."
     ],
     [
-     "The immense reward for following the Quran in their own lives",
-     "They know the rewards of reciting it."
+     "In our relations with other human beings",
+     "Right. This is where faith is tested."
     ],
     [
-     "The number of its chapters",
-     "Not quite. The article says: The immense reward for following the Quran in their own lives."
+     "In withdrawing from society",
+     "Not quite. The article says: In our relations with other human beings."
     ],
     [
-     "How to recite the Quran",
-     "Not quite. The article says: The immense reward for following the Quran in their own lives."
+     "In the size of our places of worship",
+     "Not quite. The article says: In our relations with other human beings."
     ]
    ],
    "answer": 1,
-   "rationale": "They are unaware of the immense reward for following the Quran in their own lives."
-  },
-  {
-   "article": "New Phase of History",
-   "page": 36,
-   "link": "new-phase-of-history",
-   "q": "In which century did Islam emerge?",
-   "options": [
-    [
-     "The fifteenth",
-     "Not quite. The article says: The seventh."
-    ],
-    [
-     "The twelfth",
-     "Not quite. The article says: The seventh."
-    ],
-    [
-     "The seventh",
-     "A revolution then came about in the world."
-    ],
-    [
-     "The first",
-     "Not quite. The article says: The seventh."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "Islam emerged in the seventh century."
+   "rationale": "“Our love and devotion for God finds expression in this world in the form of our relations with other human beings.”"
   },
   {
    "article": "The Scientific Basis of Rituals",
    "page": 38,
    "link": "the-scientific-basis-of-rituals",
-   "q": "What does religion become without rituals?",
+   "q": "How does the article describe the relation between ritual and the inner spirit of religion?",
    "options": [
     [
-     "A language",
-     "Not quite. The article says: An abstract philosophy."
+     "Ritual is a later addition of no value",
+     "Not quite. The article says: Ritual is the outward expression of the spirit – like a shell to its kernel."
     ],
     [
-     "A science",
-     "Not quite. The article says: An abstract philosophy."
+     "Ritual is opposed to the spirit",
+     "Not quite. The article says: Ritual is the outward expression of the spirit – like a shell to its kernel."
     ],
     [
-     "An abstract philosophy",
-     "Rituals are part of every religion."
+     "Ritual is the outward expression of the spirit – like a shell to its kernel",
+     "Yes. The kernel matters most, but the shell has its use."
     ],
     [
-     "A law code",
-     "Not quite. The article says: An abstract philosophy."
+     "Ritual is the whole of religion",
+     "Not quite. The article says: Ritual is the outward expression of the spirit – like a shell to its kernel."
     ]
    ],
    "answer": 2,
-   "rationale": "In their absence, religion becomes an abstract philosophy."
+   "rationale": "“Rituals are not just a set of rites; in fact, they are the external expression of the inner content of religion… like a nutshell without a kernel.”"
   },
   {
-   "article": "Journey After Death",
-   "page": 42,
-   "link": "journey-after-death",
-   "q": "How do dictionaries often define death?",
+   "article": "The Scientific Basis of Rituals",
+   "page": 38,
+   "link": "the-scientific-basis-of-rituals",
+   "q": "When a person performs a ritual while its spirit is, for the time, absent, what value does the article still see in it?",
    "options": [
     [
-     "‘A journey’",
-     "Not quite. The article says: ‘The permanent cessation of life’."
+     "It impresses other people",
+     "Not quite. The article says: It serves as a regular reminder that keeps awareness of religion alive."
     ],
     [
-     "‘A long sleep’",
-     "Not quite. The article says: ‘The permanent cessation of life’."
+     "None whatever",
+     "Not quite. The article says: It serves as a regular reminder that keeps awareness of religion alive."
     ],
     [
-     "‘The permanent cessation of life’",
-     "The article finds this image negative."
+     "It serves as a regular reminder that keeps awareness of religion alive",
+     "Exactly. “A reminder of spirit through routine.”"
     ],
     [
-     "‘A new birth’",
-     "Not quite. The article says: ‘The permanent cessation of life’."
+     "It earns the same reward as with the spirit",
+     "Not quite. The article says: It serves as a regular reminder that keeps awareness of religion alive."
     ]
    ],
    "answer": 2,
-   "rationale": "Dictionaries often define death as ‘the permanent cessation of life’."
+   "rationale": "“This minimum state is not totally worthless… It maintains the consciousness of religion and keeps one mindful of it.”"
+  },
+  {
+   "article": "The Signs of Hypocrisy",
+   "page": 40,
+   "link": "the-signs-of-hypocrisy",
+   "q": "Which four traits did the Prophet name as marks of hypocrisy?",
+   "options": [
+    [
+     "Silence, shyness, caution and thrift",
+     "Not quite. The article says: Betraying a trust, speaking falsehood, breaking promises, and turning quarrelsome in a dispute."
+    ],
+    [
+     "Pride of birth, wealth, learning and beauty",
+     "Not quite. The article says: Betraying a trust, speaking falsehood, breaking promises, and turning quarrelsome in a dispute."
+    ],
+    [
+     "Betraying a trust, speaking falsehood, breaking promises, and turning quarrelsome in a dispute",
+     "Well read. To have even one is a flaw to be given up."
+    ],
+    [
+     "Poverty, illness, old age and ignorance",
+     "Not quite. The article says: Betraying a trust, speaking falsehood, breaking promises, and turning quarrelsome in a dispute."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“He betrays the trust of others; he speaks falsehood; he does not keep his promises; and when differences arise, he will not hesitate to fight.”"
   }
  ]
 }
