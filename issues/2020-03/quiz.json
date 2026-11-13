@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "The Greatest Gift",
-   "page": 5,
-   "link": "the-greatest-gift",
-   "q": "What label did International Policy Digest give India in November 2019?",
+   "article": "Paradise Lies at the Feet of the Mother",
+   "page": 7,
+   "link": "paradise-lies-at-the-feet-of-the-mother",
+   "q": "“Paradise lies at the feet of the mother.” To whom does the article say this saying is chiefly addressed, and why?",
    "options": [
     [
-     "The ‘Suicide Capital of Asia’",
-     "Following a WHO report."
+     "To mothers – since children follow the path she walks, she should take care that it leads towards Paradise",
+     "Yes. It stresses her role in a child’s upbringing."
     ],
     [
-     "The ‘Garden of Asia’",
-     "Not quite. The article says: The ‘Suicide Capital of Asia’."
+     "To fathers – to remind them of their authority",
+     "Not quite. The article says: To mothers – since children follow the path she walks, she should take care that it leads towards Paradise."
     ],
     [
-     "The ‘Peace Capital’",
-     "Not quite. The article says: The ‘Suicide Capital of Asia’."
+     "To rulers – to protect families",
+     "Not quite. The article says: To mothers – since children follow the path she walks, she should take care that it leads towards Paradise."
     ],
     [
-     "The ‘Silicon Valley of Asia’",
-     "Not quite. The article says: The ‘Suicide Capital of Asia’."
+     "To teachers – to honour their profession",
+     "Not quite. The article says: To mothers – since children follow the path she walks, she should take care that it leads towards Paradise."
     ]
    ],
    "answer": 0,
-   "rationale": "Labelled India as the ‘Suicide Capital of Asia’."
-  },
-  {
-   "article": "Nature’s Laboratory",
-   "page": 9,
-   "link": "natures-laboratory",
-   "q": "To what may nature be likened?",
-   "options": [
-    [
-     "A market",
-     "Not quite. The article says: A laboratory."
-    ],
-    [
-     "A museum",
-     "Not quite. The article says: A laboratory."
-    ],
-    [
-     "A prison",
-     "Not quite. The article says: A laboratory."
-    ],
-    [
-     "A laboratory",
-     "Full of examples of conversion."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "Nature may be likened to a laboratory as it shows abundant examples of conversion."
+   "rationale": "“The Hadith about Paradise lying at the feet of a mother is addressed to the mother more than to the children. It emphasizes the importance of the role of a mother in the life of her children.”"
   },
   {
    "article": "Quest for Life in Space",
    "page": 17,
    "link": "quest-for-life-in-space",
-   "q": "What does SETI stand for?",
+   "q": "Scientists say a single message from space would prove intelligence elsewhere. What question does the article put in reply?",
    "options": [
     [
-     "Science, Energy, Technology, Industry",
-     "Not quite. The article says: The Search for Extraterrestrial Intelligence."
+     "Who would be able to read such a message?",
+     "Not quite. The article says: If one message proves intelligence, does not the library of ordered information in a single cell point to an intelligent source?."
     ],
     [
-     "The Search for Extraterrestrial Intelligence",
-     "Listening for life in space."
+     "Why has no message yet arrived?",
+     "Not quite. The article says: If one message proves intelligence, does not the library of ordered information in a single cell point to an intelligent source?."
     ],
     [
-     "Space Exploration and Travel Institute",
-     "Not quite. The article says: The Search for Extraterrestrial Intelligence."
+     "How much would the search cost?",
+     "Not quite. The article says: If one message proves intelligence, does not the library of ordered information in a single cell point to an intelligent source?."
     ],
     [
-     "Society for Earth and Time",
-     "Not quite. The article says: The Search for Extraterrestrial Intelligence."
+     "If one message proves intelligence, does not the library of ordered information in a single cell point to an intelligent source?",
+     "Well reasoned. The same standard should apply."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“‘A single message from outer space would prove there was intelligent life on other planets,’ but an entire library of information inside the most simple cell doesn’t prove that intelligence put it there?”"
+  },
+  {
+   "article": "The Object of Reverence",
+   "page": 23,
+   "link": "the-object-of-reverence",
+   "q": "An Olympic champion knelt and kissed the track after his victory. What does the article see in this impulse?",
+   "options": [
+    [
+     "A habit learned from other athletes",
+     "Not quite. The article says: The inborn human urge to thank a benefactor – which rightly belongs to God, the true Giver."
+    ],
+    [
+     "The inborn human urge to thank a benefactor – which rightly belongs to God, the true Giver",
+     "Right. The test is to direct it to the unseen Creator."
+    ],
+    [
+     "A wish to be photographed",
+     "Not quite. The article says: The inborn human urge to thank a benefactor – which rightly belongs to God, the true Giver."
+    ],
+    [
+     "Relief that the race was over",
+     "Not quite. The article says: The inborn human urge to thank a benefactor – which rightly belongs to God, the true Giver."
     ]
    ],
    "answer": 1,
-   "rationale": "SETI or The Search for Extraterrestrial Intelligence."
+   "rationale": "“This is the urge, in fact, to find God, the creator of man, and bow before Him.”"
   },
   {
-   "article": "Be Grateful for Your Youth",
-   "page": 22,
-   "link": "be-grateful-for-your-youth",
-   "q": "What is youth said to be?",
+   "article": "Peace—a Positive Behaviour",
+   "page": 36,
+   "link": "peace-a-positive-behaviour",
+   "q": "The article says the real choice before us is not between peace and no peace. Between what, then?",
    "options": [
     [
-     "The least important part",
-     "Not quite. The article says: The best part of a person’s life."
+     "Peace and prosperity",
+     "Not quite. The article says: Peace and annihilation."
     ],
     [
-     "The best part of a person’s life",
-     "We will be questioned about it."
+     "Peace and annihilation",
+     "Yes. Without peace nothing positive can be achieved."
     ],
     [
-     "A time to waste",
-     "Not quite. The article says: The best part of a person’s life."
+     "Peace and justice",
+     "Not quite. The article says: Peace and annihilation."
     ],
     [
-     "A burden",
-     "Not quite. The article says: The best part of a person’s life."
+     "Peace and freedom",
+     "Not quite. The article says: Peace and annihilation."
     ]
    ],
    "answer": 1,
-   "rationale": "Youth is said to be the best part …"
+   "rationale": "“The option for us is not between peace and no peace, but, rather, between peace and annihilation.”"
   },
   {
-   "article": "Burqa in the Muslim Society",
-   "page": 24,
-   "link": "burqa-in-the-muslim-society",
-   "q": "How is the burqa generally looked upon?",
+   "article": "Peace—a Positive Behaviour",
+   "page": 36,
+   "link": "peace-a-positive-behaviour",
+   "q": "What does the article identify as the main thing that disturbs nature’s peaceful plan?",
    "options": [
     [
-     "As an integral part of Islam – but this is not so",
-     "It belongs to Muslim culture."
+     "People becoming excessively materialistic, which leads to the exploitation of nature",
+     "Correct. Moderation brings spiritual comfort."
     ],
     [
-     "As forbidden",
-     "Not quite. The article says: As an integral part of Islam – but this is not so."
+     "The spread of education",
+     "Not quite. The article says: People becoming excessively materialistic, which leads to the exploitation of nature."
     ],
     [
-     "As a foreign custom",
-     "Not quite. The article says: As an integral part of Islam – but this is not so."
+     "The growth of cities",
+     "Not quite. The article says: People becoming excessively materialistic, which leads to the exploitation of nature."
     ],
     [
-     "As a new invention",
-     "Not quite. The article says: As an integral part of Islam – but this is not so."
+     "Differences of language",
+     "Not quite. The article says: People becoming excessively materialistic, which leads to the exploitation of nature."
     ]
    ],
    "answer": 0,
-   "rationale": "Burqa or purdah is generally looked upon as an integral part of Islam, but this is not really so."
+   "rationale": "“What disturbs the peaceful plan of nature is mainly traceable to the fact that people have become excessively materialistic.”"
   },
   {
-   "article": "Islamic Approach to Divorce",
-   "page": 28,
-   "link": "islamic-approach-to-divorce",
-   "q": "What does the Encyclopaedia Britannica say of childless couples?",
+   "article": "True Mark of Belief",
+   "page": 39,
+   "link": "true-mark-of-belief",
+   "q": "“None of you can become a true believer until he likes for his brother what he likes for himself.” What practical guide does the article draw from this?",
    "options": [
     [
-     "They marry later",
-     "Not quite. The article says: They tend to have higher divorce rates."
+     "Help only those who can return the favour",
+     "Not quite. The article says: Treat others as you wish to be treated – speak politely, give them their due, keep your promises."
     ],
     [
-     "They never divorce",
-     "Not quite. The article says: They tend to have higher divorce rates."
+     "Share all property equally",
+     "Not quite. The article says: Treat others as you wish to be treated – speak politely, give them their due, keep your promises."
     ],
     [
-     "They tend to have higher divorce rates",
-     "From western data."
+     "Treat others as you wish to be treated – speak politely, give them their due, keep your promises",
+     "Well read. One’s own feelings are the measure."
     ],
     [
-     "They are happier",
-     "Not quite. The article says: They tend to have higher divorce rates."
+     "Agree with whatever others say",
+     "Not quite. The article says: Treat others as you wish to be treated – speak politely, give them their due, keep your promises."
     ]
    ],
    "answer": 2,
-   "rationale": "“Childless couples tend to have higher divorce rates than couples with children”."
-  },
-  {
-   "article": "Waste of Money",
-   "page": 38,
-   "link": "waste-of-money",
-   "q": "What do those who earn money tend to believe?",
-   "options": [
-    [
-     "That it is a trust",
-     "Not quite. The article says: That it is their own property to spend as they please."
-    ],
-    [
-     "That it is their own property to spend as they please",
-     "The Quran corrects this."
-    ],
-    [
-     "That it belongs to the poor",
-     "Not quite. The article says: That it is their own property to spend as they please."
-    ],
-    [
-     "That it should be hidden",
-     "Not quite. The article says: That it is their own property to spend as they please."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "There is a general tendency in those who earn money to believe that it is their own property."
+   "rationale": "“It is this sensitivity which compels him to be the type of man he wants others to be in their dealings with him.”"
   },
   {
    "article": "Prophet as a Model",
    "page": 40,
    "link": "prophet-as-a-model",
-   "q": "What did the Prophet do when the tide turned at Uhud?",
+   "q": "At Uhud a rumour spread that the Prophet had been killed. What did Anis ibn Nadhr say?",
    "options": [
     [
-     "He left the field",
-     "Not quite. The article says: He clung determinedly to his position."
+     "“Then the mission is finished”",
+     "Not quite. The article says: “If Muhammad has been killed, his Lord has not been killed”."
     ],
     [
-     "He surrendered",
-     "Not quite. The article says: He clung determinedly to his position."
+     "“If Muhammad has been killed, his Lord has not been killed”",
+     "Yes. Faith rests on God, who does not die."
     ],
     [
-     "He clung determinedly to his position",
-     "Fifteen stood firm with him."
+     "“Then let us return to our homes”",
+     "Not quite. The article says: “If Muhammad has been killed, his Lord has not been killed”."
     ],
     [
-     "He hid",
-     "Not quite. The article says: He clung determinedly to his position."
+     "“Then choose another leader at once”",
+     "Not quite. The article says: “If Muhammad has been killed, his Lord has not been killed”."
     ]
    ],
-   "answer": 2,
-   "rationale": "Prophet Muhammad clung determinedly to his position."
+   "answer": 1,
+   "rationale": "“But Anis ibn Nadhr said: ‘If Muhammad has been killed, his Lord has not been killed.’”"
   },
   {
    "article": "End of the Age of War",
    "page": 43,
    "link": "end-of-the-age-of-war",
-   "q": "What has war become from the 20th century onwards?",
+   "q": "What two features of the ancient world, according to the article, made war seem unavoidable to ambitious people?",
    "options": [
     [
-     "More useful",
-     "Not quite. The article says: Totally unnecessary."
+     "Poor roads and slow ships",
+     "Not quite. The article says: Hereditary monarchy and a land-based economy."
     ],
     [
-     "A sport",
-     "Not quite. The article says: Totally unnecessary."
+     "Illiteracy and superstition",
+     "Not quite. The article says: Hereditary monarchy and a land-based economy."
     ],
     [
-     "Inevitable",
-     "Not quite. The article says: Totally unnecessary."
+     "Hereditary monarchy and a land-based economy",
+     "Right. Power and wealth could be gained only by seizing them."
     ],
     [
-     "Totally unnecessary",
-     "After a revolution in human affairs."
+     "Small populations and harsh climates",
+     "Not quite. The article says: Hereditary monarchy and a land-based economy."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“The first of these was family-based monarchical rule. The second was the agriculture-based or land-based economy.”"
+  },
+  {
+   "article": "End of the Age of War",
+   "page": 43,
+   "link": "end-of-the-age-of-war",
+   "q": "What changes does the article say have removed those reasons for war?",
+   "options": [
+    [
+     "Stronger weapons and larger armies",
+     "Not quite. The article says: Democracy, which opens office through elections, and the Industrial Revolution, which opened countless ways to prosper."
+    ],
+    [
+     "Faster travel and better maps",
+     "Not quite. The article says: Democracy, which opens office through elections, and the Industrial Revolution, which opened countless ways to prosper."
+    ],
+    [
+     "Fewer countries and fewer rulers",
+     "Not quite. The article says: Democracy, which opens office through elections, and the Industrial Revolution, which opened countless ways to prosper."
+    ],
+    [
+     "Democracy, which opens office through elections, and the Industrial Revolution, which opened countless ways to prosper",
+     "Well reasoned. Goals can now be reached peacefully."
     ]
    ],
    "answer": 3,
-   "rationale": "From the 20th century onwards … war has become totally unnecessary."
+   "rationale": "“Political rulers now began being chosen through periodic elections… Because of this revolution, today innumerable new economic means and opportunities have become available.”"
   },
   {
    "article": "The Word of God",
    "page": 47,
    "link": "the-word-of-god",
-   "q": "To what are those who take protectors other than God compared?",
+   "q": "The Quran compares reliance on anything other than God to a spider’s web. Who, according to the commentary, is truly “learned”?",
    "options": [
     [
-     "The bee",
-     "Not quite. The article says: The spider, whose house is the frailest of structures."
+     "One who has travelled widely",
+     "Not quite. The article says: One who can draw a great lesson about reality from such small signs in God’s world."
     ],
     [
-     "The ant",
-     "Not quite. The article says: The spider, whose house is the frailest of structures."
+     "One who can win any argument",
+     "Not quite. The article says: One who can draw a great lesson about reality from such small signs in God’s world."
     ],
     [
-     "The lion",
-     "Not quite. The article says: The spider, whose house is the frailest of structures."
+     "One who has read the most books",
+     "Not quite. The article says: One who can draw a great lesson about reality from such small signs in God’s world."
     ],
     [
-     "The spider, whose house is the frailest of structures",
-     "“If they but knew it.”"
+     "One who can draw a great lesson about reality from such small signs in God’s world",
+     "Exactly. Not merely one expert in books."
     ]
    ],
    "answer": 3,
-   "rationale": "… can be compared to the spider which builds itself a cobweb, but the frailest of all structures is the house of the spider."
+   "rationale": "“They are not those who have become expert in bookish discourses, but, rather, individuals who are capable of imbibing the sound advice conveyed through God’s signs.”"
   }
  ]
 }
