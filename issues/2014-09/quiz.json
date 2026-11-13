@@ -4,261 +4,261 @@
    "article": "Avoid Confrontation at All Cost",
    "page": 6,
    "link": "avoid-confrontation-at-all-cost",
-   "q": "What should one think about before taking a step against a group?",
+   "q": "What should one consider first before taking a step against another group, according to the editorial?",
    "options": [
     [
-     "The result the action would yield",
-     "Go ahead only if the desired result is attainable."
+     "The result it is likely to produce",
+     "Yes. If the result cannot be achieved, patience and adjustment are the course."
     ],
     [
-     "How angry one feels",
-     "Not quite. The article says: The result the action would yield."
-    ],
-    [
-     "How quickly it can be done",
-     "Not quite. The article says: The result the action would yield."
+     "Whether one is in the right",
+     "Not quite. The article says: The result it is likely to produce."
     ],
     [
      "What others will say",
-     "Not quite. The article says: The result the action would yield."
+     "Not quite. The article says: The result it is likely to produce."
+    ],
+    [
+     "How many supporters one has",
+     "Not quite. The article says: The result it is likely to produce."
     ]
    ],
    "answer": 0,
-   "rationale": "First of all, one should think about the result that this action would yield."
+   "rationale": "“First of all, one should think about the result that this action would yield… if one is not in a position to attain the required result, then one must remain patient.”"
   },
   {
-   "article": "Tolerance: The Price of Peace",
-   "page": 8,
-   "link": "tolerance-the-price-of-peace",
-   "q": "What did the United Nations proclaim 1995 to be?",
+   "article": "Avoid Confrontation at All Cost",
+   "page": 6,
+   "link": "avoid-confrontation-at-all-cost",
+   "q": "The Prophet said: “Evil is lying asleep. The curse of God is on one who awakens it.” How does the editorial apply this?",
    "options": [
     [
-     "The ‘Year of Water’",
-     "Not quite. The article says: The ‘Year of Tolerance’."
+     "One should sleep rather than argue",
+     "Not quite. The article says: Do not let differences grow into confrontation, for the one who begins it bears the blame for what follows."
     ],
     [
-     "The ‘Year of the Child’",
-     "Not quite. The article says: The ‘Year of Tolerance’."
+     "Evil people should be left unpunished",
+     "Not quite. The article says: Do not let differences grow into confrontation, for the one who begins it bears the blame for what follows."
     ],
     [
-     "The ‘Year of Tolerance’",
-     "UNESCO called tolerance a major factor in world peace."
+     "Do not let differences grow into confrontation, for the one who begins it bears the blame for what follows",
+     "Right. Confrontation “does not know the language of justice.”"
     ],
     [
-     "The ‘Year of Science’",
-     "Not quite. The article says: The ‘Year of Tolerance’."
+     "Evil does not exist until it is named",
+     "Not quite. The article says: Do not let differences grow into confrontation, for the one who begins it bears the blame for what follows."
     ]
    ],
    "answer": 2,
-   "rationale": "The year 1995 was proclaimed by the United Nations as the ‘Year of Tolerance.’"
+   "rationale": "“If we want to save ourselves from the ill effects of evil, then we must try our utmost to avoid awakening it. The beginner is the one who is responsible for the aftermath.”"
   },
   {
    "article": "Adjustment—a Golden Principle",
    "page": 16,
    "link": "adjustment-a-golden-principle",
-   "q": "How does the article define adjustment?",
+   "q": "The article compares adjustment to keeping to one’s side of the road. What is the point?",
    "options": [
     [
-     "Living with a calm and balanced mind in an unwanted situation",
-     "It is really for your own self."
+     "Adjustment is practical wisdom that keeps one’s own journey going; it is not submission",
+     "Yes. “When you are not in the position to change others, change yourself.”"
     ],
     [
-     "Avoiding all company",
-     "Not quite. The article says: Living with a calm and balanced mind in an unwanted situation."
+     "The slower driver must always give way",
+     "Not quite. The article says: Adjustment is practical wisdom that keeps one’s own journey going; it is not submission."
     ],
     [
-     "Changing other people",
-     "Not quite. The article says: Living with a calm and balanced mind in an unwanted situation."
+     "Everyone should travel the same way",
+     "Not quite. The article says: Adjustment is practical wisdom that keeps one’s own journey going; it is not submission."
     ],
     [
-     "Giving up one’s principles",
-     "Not quite. The article says: Living with a calm and balanced mind in an unwanted situation."
+     "Rules exist to be obeyed without thought",
+     "Not quite. The article says: Adjustment is practical wisdom that keeps one’s own journey going; it is not submission."
     ]
    ],
    "answer": 0,
-   "rationale": "Adjustment means living with a calm and balanced mind in an unwanted situation."
+   "rationale": "“Adjustment is not a submissive attitude; rather it is an attitude of wisdom… Adjustment gives you a chance to continue your journey.”"
   },
   {
-   "article": "The Culture of Peace — Part III",
-   "page": 19,
-   "link": "the-culture-of-peace-part-iii",
-   "q": "What kind of book does the article say the Quran is?",
+   "article": "Human Tragedy",
+   "page": 18,
+   "link": "human-tragedy",
+   "q": "“Men and nations do the sensible thing only after they have exhausted all other options.” What does the article say about accepting truth only when forced?",
    "options": [
     [
-     "An ideological book, not a sword",
-     "Jihad by the Quran means conveying its message."
+     "Such acceptance has no value – and on the Day of Reckoning it will come too late",
+     "Exactly. Worth lies in choosing rightly while free."
     ],
     [
-     "A book of history",
-     "Not quite. The article says: An ideological book, not a sword."
+     "It is the only way people ever learn",
+     "Not quite. The article says: Such acceptance has no value – and on the Day of Reckoning it will come too late."
     ],
     [
-     "A book of law only",
-     "Not quite. The article says: An ideological book, not a sword."
+     "It is as good as accepting it freely",
+     "Not quite. The article says: Such acceptance has no value – and on the Day of Reckoning it will come too late."
     ],
     [
-     "A book of poetry",
-     "Not quite. The article says: An ideological book, not a sword."
+     "It shows strength of character",
+     "Not quite. The article says: Such acceptance has no value – and on the Day of Reckoning it will come too late."
     ]
    ],
    "answer": 0,
-   "rationale": "The Quran is a book—an ideological book, not a sword."
+   "rationale": "“If one accepts the truth because one is forced to, one’s acceptance has no value.”"
   },
   {
    "article": "Implementation of the Shariah Law",
    "page": 27,
    "link": "implementation-of-the-shariah-law",
-   "q": "What has happened in countries where movements to impose Shariah law were launched?",
+   "q": "Aisha related that the first verses revealed were about God and the Hereafter, and commands came later. What method does the article draw from this?",
    "options": [
     [
-     "Peace has prevailed",
-     "Not quite. The article says: Rulers and ruled have gone on a collision course."
+     "Laws must be enforced before beliefs are taught",
+     "Not quite. The article says: Reform begins with minds and hearts; rules follow once people are ready."
     ],
     [
-     "Rulers and ruled have gone on a collision course",
-     "Resulting in great harm."
+     "Reform begins with minds and hearts; rules follow once people are ready",
+     "Well reasoned. Otherwise people would have refused outright."
     ],
     [
-     "Poverty has ended",
-     "Not quite. The article says: Rulers and ruled have gone on a collision course."
+     "Belief makes laws unnecessary",
+     "Not quite. The article says: Reform begins with minds and hearts; rules follow once people are ready."
     ],
     [
-     "All have united",
-     "Not quite. The article says: Rulers and ruled have gone on a collision course."
+     "Commands should be revealed all at once",
+     "Not quite. The article says: Reform begins with minds and hearts; rules follow once people are ready."
     ]
    ],
    "answer": 1,
-   "rationale": "These two groups have gone on a collision course, resulting in great harm."
+   "rationale": "“The enforcement of Shariah law begins in any society with intellectual purification of individuals, rather than with the practical enforcement of law.”"
   },
   {
-   "article": "Limitations of Freedom",
-   "page": 32,
-   "link": "limitations-of-freedom",
-   "q": "For how long was America under British rule, according to the article?",
+   "article": "A Believer Lives for God",
+   "page": 30,
+   "link": "a-believer-lives-for-god",
+   "q": "What change does the article describe in a person who begins to live for God?",
    "options": [
     [
-     "50 years",
-     "Not quite. The article says: 173 years."
+     "He withdraws from family and work",
+     "Not quite. The article says: He prefers silence to talk, forgiveness to grudges, and has no wish for a privileged place."
     ],
     [
-     "173 years",
-     "Freedom came after a violent struggle."
+     "He prefers silence to talk, forgiveness to grudges, and has no wish for a privileged place",
+     "Yes. He becomes unassuming."
     ],
     [
-     "20 years",
-     "Not quite. The article says: 173 years."
+     "He seeks to lead others",
+     "Not quite. The article says: He prefers silence to talk, forgiveness to grudges, and has no wish for a privileged place."
     ],
     [
-     "300 years",
-     "Not quite. The article says: 173 years."
+     "He grows stern towards those who differ",
+     "Not quite. The article says: He prefers silence to talk, forgiveness to grudges, and has no wish for a privileged place."
     ]
    ],
    "answer": 1,
-   "rationale": "America achieved freedom from British rule of 173 years."
+   "rationale": "“He finds silence more gratifying than speech. He is happier to obey than to rebel, to forgive than to hold grudges… He is unassuming and self-effacing.”"
   },
   {
    "article": "Willingness to Change",
    "page": 33,
    "link": "willingness-to-change",
-   "q": "How has Dr. Michael Hart referred to Prophet Muhammad?",
+   "q": "The article calls the Prophet’s migration to Madinah “changing the place of activity.” What principle does it take from it?",
    "options": [
     [
-     "As a great poet",
-     "Not quite. The article says: As the “supremely successful” person in history."
+     "One should never leave one’s homeland",
+     "Not quite. The article says: When work is blocked in one place, look for a more favourable setting; do not fight on to destruction."
     ],
     [
-     "As a conqueror only",
-     "Not quite. The article says: As the “supremely successful” person in history."
+     "Opposition must be met where it arises",
+     "Not quite. The article says: When work is blocked in one place, look for a more favourable setting; do not fight on to destruction."
     ],
     [
-     "As the “supremely successful” person in history",
-     "Yet his personality was that of a guide."
+     "When work is blocked in one place, look for a more favourable setting; do not fight on to destruction",
+     "Right. The move brought expansion, not escape."
     ],
     [
-     "As a philosopher king",
-     "Not quite. The article says: As the “supremely successful” person in history."
+     "A mission should be paused in hard times",
+     "Not quite. The article says: When work is blocked in one place, look for a more favourable setting; do not fight on to destruction."
     ]
    ],
    "answer": 2,
-   "rationale": "Dr. Michael Hart has referred to Prophet Muhammed as the “supremely successful” person in history."
+   "rationale": "“The desired course of action is not to remain at the same place, while pursuing an escalating and disastrous conflict… the desire should be to search out an alternative and conducive atmosphere.”"
   },
   {
-   "article": "Miracle of Living Together",
-   "page": 37,
-   "link": "miracle-of-living-together",
-   "q": "What positive news came from Tihar Jail during Ramazan?",
+   "article": "Willingness to Change",
+   "page": 33,
+   "link": "willingness-to-change",
+   "q": "What does the article mean by “changing the field of activity,” seen in the Treaty of Hudaibiya?",
    "options": [
     [
-     "More than 150 Hindu inmates were fasting along with Muslim inmates",
-     "Reported in the media."
+     "Moving the contest from the battlefield to the peaceful exchange of ideas",
+     "Yes. Many then came to the Prophet’s message."
     ],
     [
-     "The jail was closed",
-     "Not quite. The article says: More than 150 Hindu inmates were fasting along with Muslim inmates."
+     "Turning from trade to farming",
+     "Not quite. The article says: Moving the contest from the battlefield to the peaceful exchange of ideas."
     ],
     [
-     "All inmates were released",
-     "Not quite. The article says: More than 150 Hindu inmates were fasting along with Muslim inmates."
+     "Moving the capital to another city",
+     "Not quite. The article says: Moving the contest from the battlefield to the peaceful exchange of ideas."
     ],
     [
-     "Fasting was forbidden",
-     "Not quite. The article says: More than 150 Hindu inmates were fasting along with Muslim inmates."
+     "Replacing old leaders with new ones",
+     "Not quite. The article says: Moving the contest from the battlefield to the peaceful exchange of ideas."
     ]
    ],
    "answer": 0,
-   "rationale": "More than 150 Hindu inmates of Tihar Jail of Delhi were keeping roza … along with over 2,300 Muslim inmates."
+   "rationale": "“After this peace treaty, the field of confrontation between the two sides was replaced by the ideological field.”"
   },
   {
-   "article": "Palestine: Ideal or Practical Peace",
-   "page": 39,
-   "link": "palestine-ideal-or-practical-peace",
-   "q": "In which three regions do the Palestinian Arabs live, according to the article?",
+   "article": "Failure Is Not the End",
+   "page": 35,
+   "link": "failure-is-not-the-end",
+   "q": "Why does the article say failure can be “greater than success”?",
    "options": [
     [
-     "West Bank, Sinai and Cyprus",
-     "Not quite. The article says: West Bank, Gaza and Israel."
+     "Failure costs less effort",
+     "Not quite. The article says: Success breeds contentment, while failure stirs a drive that brings out hidden abilities."
     ],
     [
-     "Gaza, Lebanon and Iraq",
-     "Not quite. The article says: West Bank, Gaza and Israel."
+     "Success is always a matter of luck",
+     "Not quite. The article says: Success breeds contentment, while failure stirs a drive that brings out hidden abilities."
     ],
     [
-     "West Bank, Gaza and Israel",
-     "The violence is related to one of them."
+     "Success breeds contentment, while failure stirs a drive that brings out hidden abilities",
+     "Well read. Khorana, B. C. Roy and Bill Gates are the examples."
     ],
     [
-     "Egypt, Jordan and Syria",
-     "Not quite. The article says: West Bank, Gaza and Israel."
+     "Failure wins the sympathy of others",
+     "Not quite. The article says: Success breeds contentment, while failure stirs a drive that brings out hidden abilities."
     ]
    ],
    "answer": 2,
-   "rationale": "They are living in three regions: West Bank, Gaza and Israel."
+   "rationale": "“If you gain success, you become content. However, if you experience failure, then it generates great motivation in you.”"
   },
   {
    "article": "All Credit Goes to God Almighty",
    "page": 46,
    "link": "all-credit-goes-to-god-almighty",
-   "q": "What did Novak Djokovic say to Roger Federer after the 2014 Wimbledon final?",
+   "q": "When success comes, to whom should the credit be given, and why does it matter?",
    "options": [
     [
-     "“Thank you for letting me win today.”",
-     "He called Federer a magnificent champion."
+     "To God, who gave the person and every means he used; each success is a test of this recognition",
+     "Correct. To credit anyone else is to fail the test."
     ],
     [
-     "“I was always the better player.”",
-     "Not quite. The article says: “Thank you for letting me win today.”."
+     "To oneself, for the effort made",
+     "Not quite. The article says: To God, who gave the person and every means he used; each success is a test of this recognition."
     ],
     [
-     "“It was only luck.”",
-     "Not quite. The article says: “Thank you for letting me win today.”."
+     "To good fortune",
+     "Not quite. The article says: To God, who gave the person and every means he used; each success is a test of this recognition."
     ],
     [
-     "“Next year will be yours.”",
-     "Not quite. The article says: “Thank you for letting me win today.”."
+     "To one’s rivals, out of courtesy",
+     "Not quite. The article says: To God, who gave the person and every means he used; each success is a test of this recognition."
     ]
    ],
    "answer": 0,
-   "rationale": "“He (Federer) is a magnificent champion, a magnificent role model. Thank you for letting me win today.”"
+   "rationale": "“It is God Almighty who has created the successful person… If a person gives the credit to the Creator, then he passes his test.”"
   }
  ]
 }

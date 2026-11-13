@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "A New Age Dawns Over Kashmir",
-   "page": 6,
-   "link": "a-new-age-dawns-over-kashmir",
-   "q": "How did the Times of India report say the Army is now seen in Kashmir?",
+   "article": "Hajj: Fifth Pillar of Islam",
+   "page": 9,
+   "link": "hajj-fifth-pillar-of-islam",
+   "q": "What, according to the article, are the rites of Hajj – the circuits, the run between Safa and Marwah, the sacrifice?",
    "options": [
     [
-     "As a “humanitarian agency”",
-     "Once perceived as an “occupation force”."
+     "A symbolic re-enactment of stages in the life of Prophet Abraham and his family",
+     "Yes. “It is a tradition of your father, Abraham.”"
     ],
     [
-     "As a trading company",
-     "Not quite. The article says: As a “humanitarian agency”."
+     "Rules laid down by later scholars",
+     "Not quite. The article says: A symbolic re-enactment of stages in the life of Prophet Abraham and his family."
     ],
     [
-     "As a political party",
-     "Not quite. The article says: As a “humanitarian agency”."
+     "Exercises to prepare pilgrims for travel",
+     "Not quite. The article says: A symbolic re-enactment of stages in the life of Prophet Abraham and his family."
     ],
     [
-     "As an “occupation force”",
-     "Not quite. The article says: As a “humanitarian agency”."
+     "Customs taken over from the traders of Makkah",
+     "Not quite. The article says: A symbolic re-enactment of stages in the life of Prophet Abraham and his family."
     ]
    ],
    "answer": 0,
-   "rationale": "The Army is now seen as a “humanitarian agency”."
+   "rationale": "“The rituals of Hajj are a symbolic re-enactment of the various stages of the life of the Prophet Abraham… so that the believer repeats the lessons from this history in his own life.”"
   },
   {
    "article": "Hajj: Fifth Pillar of Islam",
    "page": 9,
    "link": "hajj-fifth-pillar-of-islam",
-   "q": "What did Imam Abu Hanifa discover after performing Hajj?",
+   "q": "Besides memorising prayers and rules, what does the article say will make a pilgrim’s Hajj “a living Hajj”?",
    "options": [
     [
-     "That all are equal",
-     "Not quite. The article says: That Hajj is the superior (afzal) form of worship."
+     "Staying longer in Makkah",
+     "Not quite. The article says: Knowing the history that runs from Hajira and Ishmael to the Prophet and his Companions."
     ],
     [
-     "That Hajj is the superior (afzal) form of worship",
-     "He had been unsure before."
+     "Knowing the history that runs from Hajira and Ishmael to the Prophet and his Companions",
+     "Right. Then the rites become a deep spiritual experience."
     ],
     [
-     "That charity is superior",
-     "Not quite. The article says: That Hajj is the superior (afzal) form of worship."
+     "Travelling with a large group",
+     "Not quite. The article says: Knowing the history that runs from Hajira and Ishmael to the Prophet and his Companions."
     ],
     [
-     "That fasting is superior",
-     "Not quite. The article says: That Hajj is the superior (afzal) form of worship."
+     "Performing Hajj several times",
+     "Not quite. The article says: Knowing the history that runs from Hajira and Ishmael to the Prophet and his Companions."
     ]
    ],
    "answer": 1,
-   "rationale": "After performing Hajj he said he had discovered that Hajj is the afzal ibadat of Islam."
+   "rationale": "“If pilgrims read this history, they will know the historical background of the worship they perform. In this way, their Hajj will become a living Hajj.”"
+  },
+  {
+   "article": "The Greatness of God",
+   "page": 11,
+   "link": "the-greatness-of-god",
+   "q": "Astronomers have found a black hole heavy enough to swallow the solar system. How does the article say a thoughtful person should receive such discoveries?",
+   "options": [
+    [
+     "As a reason to fear the future",
+     "Not quite. The article says: As a means of realising God’s greatness and his own helplessness."
+    ],
+    [
+     "As a means of realising God’s greatness and his own helplessness",
+     "Yes. Science has “enlarged the canvas of God realization.”"
+    ],
+    [
+     "As proof that the universe has no order",
+     "Not quite. The article says: As a means of realising God’s greatness and his own helplessness."
+    ],
+    [
+     "As matters for specialists only",
+     "Not quite. The article says: As a means of realising God’s greatness and his own helplessness."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“These facts remind man of his state of extreme helplessness and the state of Omnipotence of God.”"
   },
   {
    "article": "The Moment of Truth",
    "page": 14,
    "link": "the-moment-of-truth",
-   "q": "On what basis does man believe in God in the present world?",
+   "q": "Who are the true believers, in the article’s description?",
    "options": [
     [
-     "On the basis of sight",
-     "Not quite. The article says: On the basis of argument."
+     "Those who bow to truth on the strength of argument, while nothing compels them",
+     "Correct. In the Hereafter, belief will no longer be a choice."
     ],
     [
-     "On the basis of argument",
-     "In the Hereafter God will be visible to all."
+     "Those who never ask for reasons",
+     "Not quite. The article says: Those who bow to truth on the strength of argument, while nothing compels them."
     ],
     [
-     "On the basis of custom alone",
-     "Not quite. The article says: On the basis of argument."
+     "Those who are born into a believing family",
+     "Not quite. The article says: Those who bow to truth on the strength of argument, while nothing compels them."
     ],
     [
-     "On the basis of force",
-     "Not quite. The article says: On the basis of argument."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "In the present world man believes in God on the basis of argument."
-  },
-  {
-   "article": "The Message and Meaning of Hajj",
-   "page": 16,
-   "link": "the-message-and-meaning-of-hajj",
-   "q": "What is the message of the pilgrimage?",
-   "options": [
-    [
-     "To make God the central focus of one’s life",
-     "Its lessons last far beyond a few days."
-    ],
-    [
-     "To trade",
-     "Not quite. The article says: To make God the central focus of one’s life."
-    ],
-    [
-     "To meet relatives",
-     "Not quite. The article says: To make God the central focus of one’s life."
-    ],
-    [
-     "To see foreign lands",
-     "Not quite. The article says: To make God the central focus of one’s life."
+     "Those who believe once they see God’s power",
+     "Not quite. The article says: Those who bow to truth on the strength of argument, while nothing compels them."
     ]
    ],
    "answer": 0,
-   "rationale": "The significance and message of the pilgrimage is for man to turn towards God, making God the central focus of his life."
+   "rationale": "“The true believers are those who believe in God on the basis of argument, who bow to truth while there is no other incentive at work.”"
   },
   {
    "article": "The ‘islamic State of Is’ Is Not an Islamic State",
    "page": 23,
    "link": "the-islamic-state-of-is-is-not-an-islamic-state",
-   "q": "What did Abu Bakr al-Baghdadi declare himself on June 29, 2014?",
+   "q": "How, according to the article, did Abu Bakr become head of the community after the Prophet’s death?",
    "options": [
     [
-     "Imam of Makkah",
-     "Not quite. The article says: Caliph."
+     "By inheriting the position",
+     "Not quite. The article says: Through open consultation and the consensus of the Companions."
     ],
     [
-     "President",
-     "Not quite. The article says: Caliph."
+     "By declaring himself caliph",
+     "Not quite. The article says: Through open consultation and the consensus of the Companions."
     ],
     [
-     "Caliph",
-     "The article says this ‘state’ is not an Islamic state."
+     "Through open consultation and the consensus of the Companions",
+     "Yes. No one may proclaim himself ruler."
     ],
     [
-     "King",
-     "Not quite. The article says: Caliph."
+     "By the support of the army",
+     "Not quite. The article says: Through open consultation and the consensus of the Companions."
     ]
    ],
    "answer": 2,
-   "rationale": "Abu Bakr al-Baghdadi announced the establishment of a government and declared himself its caliph."
+   "rationale": "“Open consultation took place between the Companions. Through the consensus of the Companions, Abu Bakr al-Siddiq became the head of the state of Madinah.”"
+  },
+  {
+   "article": "Divine Food",
+   "page": 26,
+   "link": "divine-food",
+   "q": "The article speaks of “extracting” spiritual food from material things, with a glass of water as the example. What does it mean?",
+   "options": [
+    [
+     "Reflecting on how fitly a thing serves us until it leads to appreciation of God’s wisdom",
+     "Well reasoned. “Man cannot live by bread alone.”"
+    ],
+    [
+     "Eating and drinking very little",
+     "Not quite. The article says: Reflecting on how fitly a thing serves us until it leads to appreciation of God’s wisdom."
+    ],
+    [
+     "Studying the chemistry of what we consume",
+     "Not quite. The article says: Reflecting on how fitly a thing serves us until it leads to appreciation of God’s wisdom."
+    ],
+    [
+     "Blessing food and drink before taking them",
+     "Not quite. The article says: Reflecting on how fitly a thing serves us until it leads to appreciation of God’s wisdom."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“You have to develop your mind to such an extent that you are able to extract the spiritual content from material things.”"
   },
   {
    "article": "Hajj—life’s Fulfilment",
    "page": 28,
    "link": "hajj-lifes-fulfilment",
-   "q": "Despite which differences do pilgrims perform Hajj together?",
+   "q": "Which lesson of Hajj does the article single out when it speaks of people of many languages and cultures performing the rites together?",
    "options": [
     [
-     "Country, language and cultural tradition",
-     "They meet in an atmosphere of worship."
+     "That the pilgrimage should be made easier",
+     "Not quite. The article says: Living together as one community in spite of differences, and a sense of human equality."
     ],
     [
-     "Wealth only",
-     "Not quite. The article says: Country, language and cultural tradition."
+     "That one language should replace the others",
+     "Not quite. The article says: Living together as one community in spite of differences, and a sense of human equality."
     ],
     [
-     "None – they are all alike",
-     "Not quite. The article says: Country, language and cultural tradition."
+     "That travel broadens the mind",
+     "Not quite. The article says: Living together as one community in spite of differences, and a sense of human equality."
     ],
     [
-     "Age only",
-     "Not quite. The article says: Country, language and cultural tradition."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "They speak different languages. They belong to different cultural traditions. Despite these differences, they perform …"
-  },
-  {
-   "article": "The Culture of Peace — Part IV",
-   "page": 29,
-   "link": "the-culture-of-peace-part-iv",
-   "q": "What does the verse quoted say of the worldly benefits given to some?",
-   "options": [
-    [
-     "They should be seized",
-     "Not quite. The article says: They are only a test; the provision of your Lord is better and more lasting."
-    ],
-    [
-     "They are a sign of God’s love",
-     "Not quite. The article says: They are only a test; the provision of your Lord is better and more lasting."
-    ],
-    [
-     "They last for ever",
-     "Not quite. The article says: They are only a test; the provision of your Lord is better and more lasting."
-    ],
-    [
-     "They are only a test; the provision of your Lord is better and more lasting",
-     "So do not regard them with envy."
+     "Living together as one community in spite of differences, and a sense of human equality",
+     "Right. It is “a complete course of life’s training.”"
     ]
    ],
    "answer": 3,
-   "rationale": "Do not regard with envy the worldly benefits We have given some of them, for with these We seek only to test them."
+   "rationale": "“Hajj is a great training course which, despite differences and disagreements, teaches us to live together as one community.”"
   },
   {
    "article": "A Common Human Weakness",
    "page": 38,
    "link": "a-common-human-weakness",
-   "q": "When does jealousy appear, according to the article?",
+   "q": "Why, says the article, are people so ready to believe ill of those who have risen to prominence?",
    "options": [
     [
-     "When one is praised",
-     "Not quite. The article says: When one is loath to accept another’s excellence."
+     "Because the truth is hard to find out",
+     "Not quite. The article says: Because of jealousy – a reluctance to accept another’s superiority."
     ],
     [
-     "When one is loath to accept another’s excellence",
-     "A common weakness of character."
+     "Because of jealousy – a reluctance to accept another’s superiority",
+     "Yes. This was Satan’s fault towards Adam."
     ],
     [
-     "When one is alone",
-     "Not quite. The article says: When one is loath to accept another’s excellence."
+     "Because people love justice",
+     "Not quite. The article says: Because of jealousy – a reluctance to accept another’s superiority."
     ],
     [
-     "When one is hungry",
-     "Not quite. The article says: When one is loath to accept another’s excellence."
+     "Because prominent people are usually guilty",
+     "Not quite. The article says: Because of jealousy – a reluctance to accept another’s superiority."
     ]
    ],
    "answer": 1,
-   "rationale": "Jealousy appears when one human being is loath to accept the excellence or pre-eminence of another."
+   "rationale": "“Man’s greatest weakness is his reluctance to accept the superiority of another.”"
   },
   {
    "article": "A Matter of Wisdom",
    "page": 39,
    "link": "a-matter-of-wisdom",
-   "q": "What does the Bible call the birthplace of the Prophet Ayyub (Job)?",
+   "q": "What lesson does the article draw from the story of the Prophet Ayyub (Job)?",
    "options": [
     [
-     "The land of Goshen",
-     "Not quite. The article says: The land of Uz."
+     "Suffering is always a punishment",
+     "Not quite. The article says: No loss in this world is final; with patience and hope in God one may recover and gain more."
     ],
     [
-     "The land of Uz",
-     "Between Syria and Palestine."
+     "No loss in this world is final; with patience and hope in God one may recover and gain more",
+     "Exactly. His family and wealth were restored twice over."
     ],
     [
-     "The land of Ur",
-     "Not quite. The article says: The land of Uz."
+     "Wealth is a danger to faith",
+     "Not quite. The article says: No loss in this world is final; with patience and hope in God one may recover and gain more."
     ],
     [
-     "The land of Midian",
-     "Not quite. The article says: The land of Uz."
+     "One should not own many possessions",
+     "Not quite. The article says: No loss in this world is final; with patience and hope in God one may recover and gain more."
     ]
    ],
    "answer": 1,
-   "rationale": "In the Bible, his place of birth is called the land of Uz."
+   "rationale": "“God… has devised the system of this world in such a way that here no loss or deprival is final.”"
   },
   {
-   "article": "The Spirit of Hajj",
-   "page": 41,
-   "link": "the-spirit-of-hajj",
-   "q": "What ‘external activity’ should follow Hajj?",
+   "article": "Peace and Justice",
+   "page": 40,
+   "link": "peace-and-justice",
+   "q": "“If you put the cart before the horse, you will never reach your destination.” In the article, which is the horse and which the cart?",
    "options": [
     [
-     "Leading a party",
-     "Not quite. The article says: The peaceful mission of conveying God’s message to mankind."
+     "Rights come first; duties follow",
+     "Not quite. The article says: Peace comes first; justice and rights are worked for through the opportunities peace opens."
     ],
     [
-     "Building a larger home",
-     "Not quite. The article says: The peaceful mission of conveying God’s message to mankind."
+     "Justice comes first; peace follows from it",
+     "Not quite. The article says: Peace comes first; justice and rights are worked for through the opportunities peace opens."
     ],
     [
-     "Travelling for trade",
-     "Not quite. The article says: The peaceful mission of conveying God’s message to mankind."
+     "Wishes come first; plans follow",
+     "Not quite. The article says: Peace comes first; justice and rights are worked for through the opportunities peace opens."
     ],
     [
-     "The peaceful mission of conveying God’s message to mankind",
-     "The other activity is internal."
+     "Peace comes first; justice and rights are worked for through the opportunities peace opens",
+     "Yes. This is presented as a law of nature."
     ]
    ],
    "answer": 3,
-   "rationale": "‘External activity’ here refers to the peaceful mission of the Prophets— conveying the message of God to mankind."
+   "rationale": "“One must try to establish peace at any cost… Peace will then open the doors of opportunities. And, by availing these opportunities, one should work towards achieving justice.”"
   }
  ]
 }

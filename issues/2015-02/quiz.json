@@ -4,261 +4,261 @@
    "article": "Condemnation of Attack on Charlie Hebdo in Paris",
    "page": 4,
    "link": "condemnation-of-attack-on-charlie-hebdo-in-paris",
-   "q": "How many people were killed in the attack on Charlie Hebdo?",
+   "q": "In condemning the attack in Paris, what does the editorial say the Prophet and his Companions did when they themselves were ridiculed?",
    "options": [
     [
-     "None",
-     "Not quite. The article says: Twelve, including ten journalists."
+     "They answered every insult with an insult",
+     "Not quite. The article says: They punished no one and went on sharing their message in a positive way."
     ],
     [
-     "Twelve, including ten journalists",
-     "On January 7, 2015."
+     "They punished no one and went on sharing their message in a positive way",
+     "Yes. The editorial calls the killings gravely un-Islamic."
     ],
     [
-     "Fifty",
-     "Not quite. The article says: Twelve, including ten journalists."
+     "They asked the rulers to silence their critics",
+     "Not quite. The article says: They punished no one and went on sharing their message in a positive way."
     ],
     [
-     "Two",
-     "Not quite. The article says: Twelve, including ten journalists."
+     "They left the city where they were mocked",
+     "Not quite. The article says: They punished no one and went on sharing their message in a positive way."
     ]
    ],
    "answer": 1,
-   "rationale": "In this attack, twelve people, including ten journalists of the magazine, were killed."
+   "rationale": "“Even during the Prophet’s time there were several instances of ridicule, however the Prophet and his Companions neither punished such persons nor asked anyone to do so.”"
   },
   {
    "article": "Between Lesser Evil and Greater Evil",
    "page": 6,
    "link": "between-lesser-evil-and-greater-evil",
-   "q": "Who authored the Serenity Prayer?",
+   "q": "The article distinguishes personal life from life in society. How do the choices differ?",
    "options": [
     [
-     "Billy Graham",
-     "Not quite. The article says: The American theologian Reinhold Niebuhr."
+     "In society one may demand the ideal; privately one must compromise",
+     "Not quite. The article says: Personally one may aim at the greatest good; in society the wise choice is often the lesser of two evils."
     ],
     [
-     "Thomas Carlyle",
-     "Not quite. The article says: The American theologian Reinhold Niebuhr."
+     "There is no difference between them",
+     "Not quite. The article says: Personally one may aim at the greatest good; in society the wise choice is often the lesser of two evils."
     ],
     [
-     "The American theologian Reinhold Niebuhr",
-     "It asks for serenity, courage and wisdom."
+     "Personally one may aim at the greatest good; in society the wise choice is often the lesser of two evils",
+     "Right. “The wisdom to know the difference.”"
     ],
     [
-     "William Penn",
-     "Not quite. The article says: The American theologian Reinhold Niebuhr."
+     "In both, one should refuse anything imperfect",
+     "Not quite. The article says: Personally one may aim at the greatest good; in society the wise choice is often the lesser of two evils."
     ]
    ],
    "answer": 2,
-   "rationale": "The Serenity Prayer is the common name for a prayer authored by the American theologian Reinhold Niebuhr."
+   "rationale": "“In one’s personal life, one can try to opt for the greater good. But, in society one has to be ready to opt for what seems to be the lesser evil.”"
+  },
+  {
+   "article": "Between Lesser Evil and Greater Evil",
+   "page": 6,
+   "link": "between-lesser-evil-and-greater-evil",
+   "q": "What does the article identify as the “greater evil” to be avoided?",
+   "options": [
+    [
+     "Unfavourable outward circumstances",
+     "Not quite. The article says: Negative thinking, which paralyses the mind and halts progress."
+    ],
+    [
+     "Lack of political power",
+     "Not quite. The article says: Negative thinking, which paralyses the mind and halts progress."
+    ],
+    [
+     "Being fewer in number",
+     "Not quite. The article says: Negative thinking, which paralyses the mind and halts progress."
+    ],
+    [
+     "Negative thinking, which paralyses the mind and halts progress",
+     "Yes. Unfavourable conditions are the lesser evil."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Unfavourable situations in terms of the result, are lesser evils. While, negative thinking, in terms of the result, is the greater evil.”"
   },
   {
    "article": "Intellectual Freedom in Islam",
    "page": 10,
    "link": "intellectual-freedom-in-islam",
-   "q": "What system prevailed in the world before Islam, according to the article?",
+   "q": "The Caliph Umar said, “May God bless the man who sends me the gift of my own shortcoming.” What attitude does the article commend through this saying?",
    "options": [
     [
-     "Democracy",
-     "Not quite. The article says: Absolutism, denying man intellectual freedom."
+     "Eagerness to have one’s mistakes pointed out and to accept the truth",
+     "Exactly. The article calls accepting the truth the greatest act of worship."
     ],
     [
-     "Free enquiry",
-     "Not quite. The article says: Absolutism, denying man intellectual freedom."
+     "Patience with people who talk too much",
+     "Not quite. The article says: Eagerness to have one’s mistakes pointed out and to accept the truth."
     ],
     [
-     "Rule by scholars",
-     "Not quite. The article says: Absolutism, denying man intellectual freedom."
+     "Generosity in giving presents",
+     "Not quite. The article says: Eagerness to have one’s mistakes pointed out and to accept the truth."
     ],
     [
-     "Absolutism, denying man intellectual freedom",
-     "Islam brought freedom of expression."
+     "Suspicion of all praise",
+     "Not quite. The article says: Eagerness to have one’s mistakes pointed out and to accept the truth."
     ]
    ],
-   "answer": 3,
-   "rationale": "Prior to Islam in all periods of human history, the system of absolutism prevailed in the world."
+   "answer": 0,
+   "rationale": "“The highest point of this attribute is that man… eagerly awaits for someone to point out to him any shortcoming of his so that he may immediately accept it.”"
+  },
+  {
+   "article": "Intellectual Freedom in Islam",
+   "page": 10,
+   "link": "intellectual-freedom-in-islam",
+   "q": "Why does the article say accepting the truth is so great an act?",
+   "options": [
+    [
+     "It demands the sacrifice of one’s prestige and sense of greatness",
+     "Well read. And it is possible only where people may speak freely."
+    ],
+    [
+     "It is rewarded with public honour",
+     "Not quite. The article says: It demands the sacrifice of one’s prestige and sense of greatness."
+    ],
+    [
+     "It brings an end to all disagreement",
+     "Not quite. The article says: It demands the sacrifice of one’s prestige and sense of greatness."
+    ],
+    [
+     "It takes a great deal of study",
+     "Not quite. The article says: It demands the sacrifice of one’s prestige and sense of greatness."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“This is the sacrifice of one’s prestige; of losing one’s greatness. To lose one’s sense of greatness for the sake of truth is an occasion when man earns his entry into heaven.”"
   },
   {
    "article": "Reaction to Provocation",
    "page": 20,
    "link": "reaction-to-provocation",
-   "q": "What does Islam teach in the face of provocation?",
+   "q": "In the Prophet’s time, how were those who spoke against Islam answered?",
    "options": [
     [
-     "Patience in the fullest sense",
-     "Not reaction."
+     "With silence, by order",
+     "Not quite. The article says: With words – the poet Hassan was asked to reply in verse."
     ],
     [
-     "Immediate retaliation",
-     "Not quite. The article says: Patience in the fullest sense."
+     "With banishment from the city",
+     "Not quite. The article says: With words – the poet Hassan was asked to reply in verse."
     ],
     [
-     "Public protest",
-     "Not quite. The article says: Patience in the fullest sense."
+     "With words – the poet Hassan was asked to reply in verse",
+     "Yes. “Countering words with words.”"
     ],
     [
-     "Boycott",
-     "Not quite. The article says: Patience in the fullest sense."
+     "With a fine",
+     "Not quite. The article says: With words – the poet Hassan was asked to reply in verse."
     ]
    ],
-   "answer": 0,
-   "rationale": "Islam teaches patience in the fullest sense of the word."
-  },
-  {
-   "article": "Justified Militancy",
-   "page": 23,
-   "link": "justified-militancy",
-   "q": "Why is condemning militancy in human rights terms not enough?",
-   "options": [
-    [
-     "It is an ideologically justified militancy",
-     "Those engaged in it brush such condemnation aside."
-    ],
-    [
-     "It has already ended",
-     "Not quite. The article says: It is an ideologically justified militancy."
-    ],
-    [
-     "No one is listening",
-     "Not quite. The article says: It is an ideologically justified militancy."
-    ],
-    [
-     "It is too small to matter",
-     "Not quite. The article says: It is an ideologically justified militancy."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "It is an ideologically justified militancy. Therefore, it is not enough to condemn it in human rights terms."
+   "answer": 2,
+   "rationale": "“The Prophet appointed a poet called Hassan to give a befitting answer in verse to the offenders, poetry being the main mode of public expression.”"
   },
   {
    "article": "The Seeker Finds",
    "page": 26,
    "link": "the-seeker-finds",
-   "q": "What does the article say is impossible?",
+   "q": "What does the article conclude about a person who lacks what is truly worth having – fear of God, remembrance, sincere piety?",
    "options": [
     [
-     "To pray sincerely",
-     "Not quite. The article says: To ask God for heaven and be given hell instead."
+     "It comes only in old age",
+     "Not quite. The article says: He has not really sought it, for God gives to those who ask."
     ],
     [
-     "To be forgiven",
-     "Not quite. The article says: To ask God for heaven and be given hell instead."
+     "God has decided to withhold it from him",
+     "Not quite. The article says: He has not really sought it, for God gives to those who ask."
     ],
     [
-     "To ask God for heaven and be given hell instead",
-     "Those bound for hell never truly sought heaven."
+     "He has not really sought it, for God gives to those who ask",
+     "Right. “Those who seek will always find.”"
     ],
     [
-     "To change one’s ways",
-     "Not quite. The article says: To ask God for heaven and be given hell instead."
+     "It is given only to a chosen few",
+     "Not quite. The article says: He has not really sought it, for God gives to those who ask."
     ]
    ],
    "answer": 2,
-   "rationale": "It is impossible that one should ask God for heaven and be given hell instead."
+   "rationale": "“If one does not have what is desirable in life, it means that one has not sought it… He gives only to those who ask.”"
   },
   {
-   "article": "Arguments Against God and Religion — Part II",
-   "page": 28,
-   "link": "arguments-against-god-and-religion-part-ii",
-   "q": "In the argument described, what is the rainbow said to be?",
+   "article": "The Straight Path for Social Living",
+   "page": 34,
+   "link": "the-straight-path-for-social-living",
+   "q": "The Quran speaks of the Arabs being rescued “from the brink of an abyss of Fire.” What does the article take this to mean?",
    "options": [
     [
-     "A fire in the sky",
-     "Not quite. The article says: Merely a reflection of sunlight in droplets of water."
+     "A volcano near Madinah",
+     "Not quite. The article says: The endless chain of revenge wars between the tribes."
     ],
     [
-     "A painted cloud",
-     "Not quite. The article says: Merely a reflection of sunlight in droplets of water."
+     "The endless chain of revenge wars between the tribes",
+     "Yes. Each defeat bred a new war."
     ],
     [
-     "Merely a reflection of sunlight in droplets of water",
-     "So, it is argued, not a sign placed by God."
+     "Poverty and famine",
+     "Not quite. The article says: The endless chain of revenge wars between the tribes."
     ],
     [
-     "An illusion of the eye",
-     "Not quite. The article says: Merely a reflection of sunlight in droplets of water."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "If the rainbow is merely a reflection of sunlight in minute droplets of water in the air …"
-  },
-  {
-   "article": "Peace Mission",
-   "page": 37,
-   "link": "peace-mission",
-   "q": "Under God’s creation plan, what is avoided and what is availed?",
-   "options": [
-    [
-     "People are avoided; wealth is availed",
-     "Not quite. The article says: Confrontation is avoided; opportunities are availed."
-    ],
-    [
-     "Confrontation is avoided; opportunities are availed",
-     "As farmers use the rain."
-    ],
-    [
-     "Peace is avoided; conflict is availed",
-     "Not quite. The article says: Confrontation is avoided; opportunities are availed."
-    ],
-    [
-     "Work is avoided; rest is availed",
-     "Not quite. The article says: Confrontation is avoided; opportunities are availed."
+     "The heat of the desert",
+     "Not quite. The article says: The endless chain of revenge wars between the tribes."
     ]
    ],
    "answer": 1,
-   "rationale": "Under this plan, confrontation is avoided and opportunities are availed of."
+   "rationale": "“Because of this culture of seeking revenge, the Arab tribes were constantly engaged in a chain of wars. This chain of wars is referred to in the Quran as an ‘abyss of fire.’”"
+  },
+  {
+   "article": "Waiting for a Highway",
+   "page": 39,
+   "link": "waiting-for-a-highway",
+   "q": "What habit of mind does the article describe with the image of “waiting for a highway”?",
+   "options": [
+    [
+     "Planning too carefully",
+     "Not quite. The article says: Putting off effort until ideal conditions arrive, and missing the opportunity already at hand."
+    ],
+    [
+     "Travelling too much",
+     "Not quite. The article says: Putting off effort until ideal conditions arrive, and missing the opportunity already at hand."
+    ],
+    [
+     "Putting off effort until ideal conditions arrive, and missing the opportunity already at hand",
+     "Correct. “Everyone is waiting for the train, which will never arrive.”"
+    ],
+    [
+     "Relying on public transport",
+     "Not quite. The article says: Putting off effort until ideal conditions arrive, and missing the opportunity already at hand."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Don’t wait for the moment; instead every moment try to discover the opportunity that is already present, and avail it with wise planning.”"
   },
   {
    "article": "Dichotomous Thinking Is Wrong",
    "page": 41,
    "link": "dichotomous-thinking-is-wrong",
-   "q": "What did Communist leaders say during the First World War?",
+   "q": "The Kabah in Makkah had become a gathering place for all the tribes. How did the Prophet respond, according to the article?",
    "options": [
     [
-     "“Peace at any price.”",
-     "Not quite. The article says: “One who is not with us is our enemy.”."
+     "He left the problem aside and used the gathering as a chance to convey his message",
+     "Well reasoned. This was the “third option.”"
     ],
     [
-     "“All men are brothers.”",
-     "Not quite. The article says: “One who is not with us is our enemy.”."
+     "He moved the gathering to another town",
+     "Not quite. The article says: He left the problem aside and used the gathering as a chance to convey his message."
     ],
     [
-     "“One who is not with us is our enemy.”",
-     "The article calls this unnatural."
+     "He called on his followers to clear it by force",
+     "Not quite. The article says: He left the problem aside and used the gathering as a chance to convey his message."
     ],
     [
-     "“Live and let live.”",
-     "Not quite. The article says: “One who is not with us is our enemy.”."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "They used to say: “One who is not with us is our enemy.” This thinking is quite unnatural."
-  },
-  {
-   "article": "The Word of God",
-   "page": 45,
-   "link": "the-word-of-god",
-   "q": "What is the criterion of the proper performance of a task (ihsan)?",
-   "options": [
-    [
-     "That it accords with the facts",
-     "Such a person admits the reality (muhsin)."
-    ],
-    [
-     "That it is profitable",
-     "Not quite. The article says: That it accords with the facts."
-    ],
-    [
-     "That it is praised",
-     "Not quite. The article says: That it accords with the facts."
-    ],
-    [
-     "That it is done quickly",
-     "Not quite. The article says: That it accords with the facts."
+     "He stayed away from the Kabah altogether",
+     "Not quite. The article says: He left the problem aside and used the gathering as a chance to convey his message."
     ]
    ],
    "answer": 0,
-   "rationale": "The criterion of the proper performance of a task (ihsan) is that it should be in accordance with the facts."
+   "rationale": "“The Prophet ignored the problem and he tried to use the assembly for his mission of communicating the message of God to mankind.”"
   }
  ]
 }
