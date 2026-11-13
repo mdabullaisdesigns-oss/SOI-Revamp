@@ -4,261 +4,261 @@
    "article": "Global Library",
    "page": 5,
    "link": "global-library",
-   "q": "What does every human being amount to, according to the article?",
+   "q": "The editorial calls every human being “a book.” What does it say will happen to that book on the Day of Judgement?",
    "options": [
     [
-     "A shadow",
-     "Not quite. The article says: A book."
+     "It will be lost with his death",
+     "Not quite. The article says: It will be opened before him, and he will have to read the life he himself has written."
     ],
     [
-     "A number",
-     "Not quite. The article says: A book."
+     "It will be read only by others",
+     "Not quite. The article says: It will be opened before him, and he will have to read the life he himself has written."
     ],
     [
-     "A machine",
-     "Not quite. The article says: A book."
+     "It will be summarised in a single line",
+     "Not quite. The article says: It will be opened before him, and he will have to read the life he himself has written."
     ],
     [
-     "A book",
-     "Together, a global library."
+     "It will be opened before him, and he will have to read the life he himself has written",
+     "Yes. In his own language, whether he likes it or not."
     ]
    ],
    "answer": 3,
-   "rationale": "Every human being is a book. The human beings, taken together, constitute a global library."
+   "rationale": "“Man will be compelled to read the book he has written. This autobiography of man will be in his own comprehensible language.”"
   },
   {
-   "article": "Faith and Politics",
-   "page": 9,
-   "link": "faith-and-politics",
-   "q": "Into which two parts can the teachings of Islam be divided?",
+   "article": "Global Library",
+   "page": 5,
+   "link": "global-library",
+   "q": "What does the editorial call the most serious aspect of this?",
    "options": [
     [
-     "East and West",
-     "Not quite. The article says: Eternal belief, and matters that depend on circumstances."
+     "It is written in haste",
+     "Not quite. The article says: There is no second edition – the story cannot be rewritten afterwards."
     ],
     [
-     "Eternal belief, and matters that depend on circumstances",
-     "The second part is subject to change."
+     "There is no second edition – the story cannot be rewritten afterwards",
+     "Right. The first edition is in our hands now."
     ],
     [
-     "Old and new",
-     "Not quite. The article says: Eternal belief, and matters that depend on circumstances."
+     "Others will add to it",
+     "Not quite. The article says: There is no second edition – the story cannot be rewritten afterwards."
     ],
     [
-     "Law and poetry",
-     "Not quite. The article says: Eternal belief, and matters that depend on circumstances."
+     "The book is very long",
+     "Not quite. The article says: There is no second edition – the story cannot be rewritten afterwards."
     ]
    ],
    "answer": 1,
-   "rationale": "The first part is related to belief which is eternal in nature, and the other part deals with those aspects which depend on the circumstances."
+   "rationale": "“No one will have the opportunity to write a second edition of their life story. Writing the first edition of one’s biography is in the hands of every human being.”"
   },
   {
-   "article": "The Unerasable Past",
-   "page": 12,
-   "link": "the-unerasable-past",
-   "q": "Who was Tony Benn?",
+   "article": "Striking a Balance",
+   "page": 17,
+   "link": "striking-a-balance",
+   "q": "“When the prayer is ended, disperse in the land and seek God’s bounty” (62:10). What balance does the article draw from these verses?",
    "options": [
     [
-     "A French philosopher",
-     "Not quite. The article says: A British Labour MP."
+     "Trade is to be avoided by the devout",
+     "Not quite. The article says: Earning a living is fully allowed, but stays subordinate to one’s duties to God, which take precedence when they call."
     ],
     [
-     "A British Labour MP",
-     "He tried to erase a BBC interview."
+     "Earning a living is fully allowed, but stays subordinate to one’s duties to God, which take precedence when they call",
+     "Well read. Then one returns freely to work."
     ],
     [
-     "An Indian judge",
-     "Not quite. The article says: A British Labour MP."
+     "Prayer may be postponed for business",
+     "Not quite. The article says: Earning a living is fully allowed, but stays subordinate to one’s duties to God, which take precedence when they call."
     ],
     [
-     "An American senator",
-     "Not quite. The article says: A British Labour MP."
+     "Work and worship should never be mixed in one day",
+     "Not quite. The article says: Earning a living is fully allowed, but stays subordinate to one’s duties to God, which take precedence when they call."
     ]
    ],
    "answer": 1,
-   "rationale": "Tony Benn (d. 2014), a British Labour MP."
+   "rationale": "“Economic activity is a natural requirement of human existence… However, it is essential that economic activities be subordinated to religious obligations.”"
   },
   {
-   "article": "Sharing the Rewards",
-   "page": 16,
-   "link": "sharing-the-rewards",
-   "q": "Where did the Prophet lead an expedition in CE 630?",
+   "article": "Striking a Balance",
+   "page": 17,
+   "link": "striking-a-balance",
+   "q": "Which of these is among the conditions the article sets for a believer’s economic activity?",
    "options": [
     [
-     "Badr",
-     "Not quite. The article says: Tabuk."
+     "To earn more than his neighbours",
+     "Not quite. The article says: To regard what he earns as God’s blessing and to keep within the limits God has set."
     ],
     [
-     "Uhud",
-     "Not quite. The article says: Tabuk."
+     "To work only for himself",
+     "Not quite. The article says: To regard what he earns as God’s blessing and to keep within the limits God has set."
     ],
     [
-     "Khaybar",
-     "Not quite. The article says: Tabuk."
+     "To keep his earnings secret",
+     "Not quite. The article says: To regard what he earns as God’s blessing and to keep within the limits God has set."
     ],
     [
-     "Tabuk",
-     "Some had valid excuses for not joining."
+     "To regard what he earns as God’s blessing and to keep within the limits God has set",
+     "Yes. And to remember God throughout."
     ]
    ],
    "answer": 3,
-   "rationale": "In the year CE 630, the Prophet led a military expedition to Tabuk."
-  },
-  {
-   "article": "Price of Unity",
-   "page": 20,
-   "link": "price-of-unity",
-   "q": "What was Madinah in the days of the Prophet?",
-   "options": [
-    [
-     "A natural fortress",
-     "Groves to the south, mountains east and west."
-    ],
-    [
-     "A harbour",
-     "Not quite. The article says: A natural fortress."
-    ],
-    [
-     "An island",
-     "Not quite. The article says: A natural fortress."
-    ],
-    [
-     "An open plain",
-     "Not quite. The article says: A natural fortress."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "In the days of the Prophet, Madinah was a natural fortress."
+   "rationale": "“Earning from economic activities should be considered a blessing of God… Economic activities should not be allowed to cross the limits imposed by God.”"
   },
   {
    "article": "The Superior Solution",
    "page": 22,
    "link": "the-superior-solution",
-   "q": "With what should help be sought (2: 45)?",
+   "q": "Life is full of unpleasant experiences, yet man is asked to be grateful. How, says the article, is that possible?",
    "options": [
     [
-     "Wealth and power",
-     "Not quite. The article says: Patience and prayer."
+     "Only through patience – enduring difficulties is what makes thankfulness possible",
+     "Well reasoned. The Quran pairs the two."
     ],
     [
-     "Numbers",
-     "Not quite. The article says: Patience and prayer."
+     "By waiting for perfect conditions",
+     "Not quite. The article says: Only through patience – enduring difficulties is what makes thankfulness possible."
     ],
     [
-     "Anger",
-     "Not quite. The article says: Patience and prayer."
+     "By comparing oneself with the fortunate",
+     "Not quite. The article says: Only through patience – enduring difficulties is what makes thankfulness possible."
     ],
     [
-     "Patience and prayer",
-     "Patience is the focus of about 200 verses."
+     "By ignoring whatever is unpleasant",
+     "Not quite. The article says: Only through patience – enduring difficulties is what makes thankfulness possible."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“It is only when a person patiently endures worldly problems that it becomes possible for him to express his feeling of gratefulness to God.”"
+  },
+  {
+   "article": "The Superior Solution",
+   "page": 22,
+   "link": "the-superior-solution",
+   "q": "Why does the article call patience “the superior solution” when facing an adversary?",
+   "options": [
+    [
+     "It makes the adversary feel ashamed at once",
+     "Not quite. The article says: It keeps one able to think and respond rationally, instead of reacting on impulse."
+    ],
+    [
+     "It wins the sympathy of onlookers",
+     "Not quite. The article says: It keeps one able to think and respond rationally, instead of reacting on impulse."
+    ],
+    [
+     "It avoids the need to act at all",
+     "Not quite. The article says: It keeps one able to think and respond rationally, instead of reacting on impulse."
+    ],
+    [
+     "It keeps one able to think and respond rationally, instead of reacting on impulse",
+     "Correct. Impulse fails; reason succeeds."
     ]
    ],
    "answer": 3,
-   "rationale": "Seek help with patience and prayer."
+   "rationale": "“When he adheres to patience and tolerance, he finds himself competent to make a rational move instead of an impulsive reaction.”"
   },
   {
    "article": "Positivity: The Fertile Ground for God-Realization",
    "page": 24,
    "link": "positivity-the-fertile-ground-for-god-realization",
-   "q": "What is essential for a plant to grow?",
+   "q": "A plant grows only in fertile soil. What does the article name as the soil in which God-realization grows?",
    "options": [
     [
-     "Darkness",
-     "Not quite. The article says: Fertile land."
+     "A quiet village",
+     "Not quite. The article says: A positive personality."
     ],
     [
-     "Stone",
-     "Not quite. The article says: Fertile land."
+     "A long education",
+     "Not quite. The article says: A positive personality."
     ],
     [
-     "Barren land",
-     "Not quite. The article says: Fertile land."
+     "A wealthy household",
+     "Not quite. The article says: A positive personality."
     ],
     [
-     "Fertile land",
-     "Positivity is such ground for God-realization."
+     "A positive personality",
+     "Right. One not ruled by reaction to circumstances."
     ]
    ],
    "answer": 3,
-   "rationale": "For a plant to grow, fertile land is essential."
+   "rationale": "“The attainment of God-realization is possible only on the fertile soil of a positive personality.”"
   },
   {
-   "article": "Preparing for Death",
-   "page": 36,
-   "link": "preparing-for-death",
-   "q": "With what does man come to this world equipped?",
+   "article": "Positivity: The Fertile Ground for God-Realization",
+   "page": 24,
+   "link": "positivity-the-fertile-ground-for-god-realization",
+   "q": "How does the article describe a “negative personality”?",
    "options": [
     [
-     "Wealth",
-     "Not quite. The article says: An excellent mind and an excellent body."
+     "One who prefers solitude",
+     "Not quite. The article says: One who reacts to his surroundings, cannot rise above circumstances, and always looks at the dark side."
     ],
     [
-     "Knowledge of the future",
-     "Not quite. The article says: An excellent mind and an excellent body."
+     "One who asks many questions",
+     "Not quite. The article says: One who reacts to his surroundings, cannot rise above circumstances, and always looks at the dark side."
     ],
     [
-     "Nothing",
-     "Not quite. The article says: An excellent mind and an excellent body."
+     "One who speaks little",
+     "Not quite. The article says: One who reacts to his surroundings, cannot rise above circumstances, and always looks at the dark side."
     ],
     [
-     "An excellent mind and an excellent body",
-     "In an exceptionally favourable world."
+     "One who reacts to his surroundings, cannot rise above circumstances, and always looks at the dark side",
+     "Yes. Such ground stays barren."
     ]
    ],
    "answer": 3,
-   "rationale": "Man comes to this world equipped with an excellent mind and an excellent body."
+   "rationale": "“A man with a negative personality is one who is of a reactionary disposition. He succumbs to the influence of his environment… He will always look at the negative aspects of events.”"
   },
   {
-   "article": "An Undiscovered Reality",
-   "page": 42,
-   "link": "an-undiscovered-reality",
-   "q": "Why does no one apply the news of death personally?",
+   "article": "Half the Story",
+   "page": 41,
+   "link": "half-the-story",
+   "q": "Besides being unjust, what two practical harms does the article see in telling only the other side’s faults?",
    "options": [
     [
-     "Because of the ‘now-based’ culture",
-     "Death is known yet undiscovered."
+     "It stops a right attitude from developing in oneself, and it leaves the problem unsolved",
+     "Exactly. Satisfaction for the teller, no use to anyone."
     ],
     [
-     "Because death is rare",
-     "Not quite. The article says: Because of the ‘now-based’ culture."
+     "It takes too long and bores the listener",
+     "Not quite. The article says: It stops a right attitude from developing in oneself, and it leaves the problem unsolved."
     ],
     [
-     "Because no one hears of it",
-     "Not quite. The article says: Because of the ‘now-based’ culture."
+     "It is soon forgotten and must be repeated",
+     "Not quite. The article says: It stops a right attitude from developing in oneself, and it leaves the problem unsolved."
     ],
     [
-     "Because it is forbidden",
-     "Not quite. The article says: Because of the ‘now-based’ culture."
+     "It makes enemies and costs money",
+     "Not quite. The article says: It stops a right attitude from developing in oneself, and it leaves the problem unsolved."
     ]
    ],
    "answer": 0,
-   "rationale": "The reason is the ‘now-based’ culture."
+   "rationale": "“There are two disadvantages of such reporting. First, it puts a stop to the development of right attitude, and second, it does not solve the problem.”"
   },
   {
-   "article": "Sleep: A Reminder of Death",
-   "page": 45,
-   "link": "sleep-a-reminder-of-death",
-   "q": "What would the Prophet say on waking every morning?",
+   "article": "The Word of God",
+   "page": 47,
+   "link": "the-word-of-god",
+   "q": "“Have you considered the water that you drink?… If We so pleased, We certainly could make it salty.” What natural process does the commentary point to?",
    "options": [
     [
-     "“Where is my breakfast?”",
-     "Not quite. The article says: “All praise and thanks are due to God who gave us life after death.”."
+     "Wells drawing water from rock",
+     "Not quite. The article says: Rain as a vast desalination system: pure water rises from the sea and the salt stays behind."
     ],
     [
-     "“All praise and thanks are due to God who gave us life after death.”",
-     "He likened death to sleep."
+     "Rain as a vast desalination system: pure water rises from the sea and the salt stays behind",
+     "Well read. A reason for gratitude."
     ],
     [
-     "“Another day of toil.”",
-     "Not quite. The article says: “All praise and thanks are due to God who gave us life after death.”."
+     "Rivers filtering water through sand",
+     "Not quite. The article says: Rain as a vast desalination system: pure water rises from the sea and the salt stays behind."
     ],
     [
-     "Nothing",
-     "Not quite. The article says: “All praise and thanks are due to God who gave us life after death.”."
+     "Ice storing water on mountains",
+     "Not quite. The article says: Rain as a vast desalination system: pure water rises from the sea and the salt stays behind."
     ]
    ],
    "answer": 1,
-   "rationale": "“All praise and thanks are due to God who gave us life after death.”"
+   "rationale": "“When water vapour rises from the sea, pure water rises and the salt is left below. The fact is that the system of rain is a huge universal desalination process.”"
   }
  ]
 }
