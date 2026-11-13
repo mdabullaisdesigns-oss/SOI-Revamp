@@ -4,261 +4,261 @@
    "article": "The Aim of Islam",
    "page": 5,
    "link": "the-aim-of-islam",
-   "q": "Which two opposing views of religion does the article begin with?",
+   "q": "Some call religion a private matter, others a complete social order. How does the article itself describe the aim of Islam?",
    "options": [
     [
-     "Eastern or Western",
-     "Not quite. The article says: An individual matter, or a complete social order."
+     "The winning of debates",
+     "Not quite. The article says: The individual’s discovery of God, which transforms him from within."
     ],
     [
-     "Old or new",
-     "Not quite. The article says: An individual matter, or a complete social order."
+     "The preservation of old customs",
+     "Not quite. The article says: The individual’s discovery of God, which transforms him from within."
     ],
     [
-     "True or false",
-     "Not quite. The article says: An individual matter, or a complete social order."
+     "The building of a strong state",
+     "Not quite. The article says: The individual’s discovery of God, which transforms him from within."
     ],
     [
-     "An individual matter, or a complete social order",
-     "They have one thing in common."
+     "The individual’s discovery of God, which transforms him from within",
+     "Yes. It addresses the individual, not society as a mass."
     ]
    ],
    "answer": 3,
-   "rationale": "Some claim that religion is an individual matter, and others … that religion is a complete social order."
+   "rationale": "“The aim of the religion of Islam is to discover our Creator… Islam addresses itself to the individual, not to society as a whole.”"
   },
   {
    "article": "Jesus in the Islamic Scripture",
    "page": 10,
    "link": "jesus-in-the-islamic-scripture",
-   "q": "To what is a major portion of the Quran dedicated?",
+   "q": "What were the first words of the infant Jesus, as the Quran relates them (19:30)?",
    "options": [
     [
-     "Battles",
-     "Not quite. The article says: The exemplary lives of the prophets."
+     "“Take me to the temple”",
+     "Not quite. The article says: “I am God’s servant. He has given me the Book and made me a prophet”."
     ],
     [
-     "Laws of trade",
-     "Not quite. The article says: The exemplary lives of the prophets."
+     "“Peace be upon this town”",
+     "Not quite. The article says: “I am God’s servant. He has given me the Book and made me a prophet”."
     ],
     [
-     "Genealogies",
-     "Not quite. The article says: The exemplary lives of the prophets."
+     "“I have come to rule”",
+     "Not quite. The article says: “I am God’s servant. He has given me the Book and made me a prophet”."
     ],
     [
-     "The exemplary lives of the prophets",
-     "Jesus is one such prophet."
+     "“I am God’s servant. He has given me the Book and made me a prophet”",
+     "Right. Spoken from the cradle, in his mother’s defence."
     ]
    ],
    "answer": 3,
-   "rationale": "A major portion of the Quran is dedicated to the exemplary lives of the prophets."
+   "rationale": "“I am God’s servant. He has given me the Book and made me a prophet; He has made me blessed wherever I may be… He has made me dutiful toward my mother.”"
   },
   {
    "article": "Repetition in the Quran",
    "page": 14,
    "link": "repetition-in-the-quran",
-   "q": "What does a reader of the Quran find about some themes?",
+   "q": "Why, according to the article, does the Quran return to the same themes again and again?",
    "options": [
     [
-     "They contradict",
-     "Not quite. The article says: They are repeated and stressed again and again."
+     "To make the book longer",
+     "Not quite. The article says: To engrave its message on the mind – what one loves, one gladly hears repeatedly, each time with new meaning."
     ],
     [
-     "They appear only once",
-     "Not quite. The article says: They are repeated and stressed again and again."
+     "Because its chapters were arranged by chance",
+     "Not quite. The article says: To engrave its message on the mind – what one loves, one gladly hears repeatedly, each time with new meaning."
     ],
     [
-     "They are hidden",
-     "Not quite. The article says: They are repeated and stressed again and again."
+     "Because earlier parts were forgotten",
+     "Not quite. The article says: To engrave its message on the mind – what one loves, one gladly hears repeatedly, each time with new meaning."
     ],
     [
-     "They are repeated and stressed again and again",
-     "By God’s wish."
+     "To engrave its message on the mind – what one loves, one gladly hears repeatedly, each time with new meaning",
+     "Well read. As a mother kisses her child again and again."
     ]
    ],
    "answer": 3,
-   "rationale": "Certain topics have been stressed over and over again."
+   "rationale": "“This has been done in order to engrave the message of the Quran in the minds of its readers… It is only natural that one should repeat something one loves or enjoys.”"
   },
   {
-   "article": "Peace in Kashmir",
-   "page": 17,
-   "link": "peace-in-kashmir",
-   "q": "As what has Kashmir been known for centuries?",
+   "article": "Lessons from Nature",
+   "page": 24,
+   "link": "lessons-from-nature",
+   "q": "Two swallows’ mud nest collapsed with the eggs in it. What did they do next?",
    "options": [
     [
-     "‘Golden valley’",
-     "Not quite. The article says: ‘Heaven on earth’."
+     "Took over another bird’s nest",
+     "Not quite. The article says: Found a rougher surface and rebuilt with mud mixed with grass and straw – a stronger nest."
     ],
     [
-     "‘Land of rivers’",
-     "Not quite. The article says: ‘Heaven on earth’."
+     "Rebuilt the same nest in the same place",
+     "Not quite. The article says: Found a rougher surface and rebuilt with mud mixed with grass and straw – a stronger nest."
     ],
     [
-     "‘Heaven on earth’",
-     "Even under non-indigenous rulers."
+     "Found a rougher surface and rebuilt with mud mixed with grass and straw – a stronger nest",
+     "Yes. They corrected the cause of failure."
     ],
     [
-     "‘Roof of the world’",
-     "Not quite. The article says: ‘Heaven on earth’."
+     "Abandoned the house altogether",
+     "Not quite. The article says: Found a rougher surface and rebuilt with mud mixed with grass and straw – a stronger nest."
     ]
    ],
    "answer": 2,
-   "rationale": "For centuries Kashmir has been known as ‘heaven on earth’."
+   "rationale": "“Whereas the swallows had made their first nest just from mud, they made this one from a mixture of mud, grass and straw.”"
   },
   {
-   "article": "Spiritual Quest",
-   "page": 26,
-   "link": "spiritual-quest",
-   "q": "Where was the author on 17th June 1999?",
+   "article": "Lessons from Nature",
+   "page": 24,
+   "link": "lessons-from-nature",
+   "q": "What does the article ask human beings to learn from the swallows?",
    "options": [
     [
-     "Cairo",
-     "Not quite. The article says: Manchester, England."
+     "Build homes only from natural materials",
+     "Not quite. The article says: After a failure, look for the reason and try again with better planning and harder work."
     ],
     [
-     "Makkah",
-     "Not quite. The article says: Manchester, England."
+     "Depend on others in hard times",
+     "Not quite. The article says: After a failure, look for the reason and try again with better planning and harder work."
     ],
     [
-     "Manchester, England",
-     "At the house of Alaref Ahmad."
+     "After a failure, look for the reason and try again with better planning and harder work",
+     "Correct. “It is a wise man who learns from his mistakes.”"
     ],
     [
-     "New York",
-     "Not quite. The article says: Manchester, England."
+     "Avoid tasks that may fail",
+     "Not quite. The article says: After a failure, look for the reason and try again with better planning and harder work."
     ]
    ],
    "answer": 2,
-   "rationale": "I was in Manchester, England, staying in the house of an Arab brother Alaref Ahmad."
+   "rationale": "“If a bird or animal fails in some effort, it seeks to understand the reason for its failure. It does not simply give up… and rectifies its errors by harder work and better planning.”"
+  },
+  {
+   "article": "Great Goals",
+   "page": 29,
+   "link": "great-goals",
+   "q": "“Great things are done when men and mountains meet. This is not done by jostling in the street.” How does the article apply Blake’s lines?",
+   "options": [
+    [
+     "Poets understand life better than leaders",
+     "Not quite. The article says: Great aims need patient assessment, sacrifice and long struggle – not slogans and processions."
+    ],
+    [
+     "Great aims need patient assessment, sacrifice and long struggle – not slogans and processions",
+     "Well reasoned. Noise is not work."
+    ],
+    [
+     "Crowds are needed for every great work",
+     "Not quite. The article says: Great aims need patient assessment, sacrifice and long struggle – not slogans and processions."
+    ],
+    [
+     "Great aims are reached only in the mountains",
+     "Not quite. The article says: Great aims need patient assessment, sacrifice and long struggle – not slogans and processions."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“Just raising slogans or making speeches at big gatherings does not mean that any great work can be accomplished.”"
   },
   {
    "article": "Sound Judgement",
    "page": 31,
    "link": "sound-judgement",
-   "q": "Of which city was Abu Moosa Al-Ashari governor in the Prophet’s time?",
+   "q": "Abu Moosa al-Ashari said a judge should not decide until the truth is “as clear as day.” To whom does the article extend this rule?",
    "options": [
     [
-     "Kufa",
-     "Not quite. The article says: Aden."
+     "Everyone who forms an opinion about another person – and if the matter is unclear, one should stay silent",
+     "Right. All will answer for their judgements."
     ],
     [
-     "Aden",
-     "Later of Basra under Umar."
+     "Only to judges in courts",
+     "Not quite. The article says: Everyone who forms an opinion about another person – and if the matter is unclear, one should stay silent."
     ],
     [
-     "Cairo",
-     "Not quite. The article says: Aden."
+     "Only to rulers and governors",
+     "Not quite. The article says: Everyone who forms an opinion about another person – and if the matter is unclear, one should stay silent."
     ],
     [
-     "Damascus",
-     "Not quite. The article says: Aden."
+     "Only to witnesses",
+     "Not quite. The article says: Everyone who forms an opinion about another person – and if the matter is unclear, one should stay silent."
     ]
    ],
-   "answer": 1,
-   "rationale": "During the Prophet’s time he was appointed governor of Aden."
+   "answer": 0,
+   "rationale": "“The principle that Abu Moosa laid down is applicable not only to judges but to every human being as well… if the truth is not ‘as clear as day’ then there is only one thing to do, and that is hold one’s peace.”"
   },
   {
    "article": "Wisdom from the Prophet",
    "page": 34,
    "link": "wisdom-from-the-prophet",
-   "q": "Which of these is one of the three things especially pleasing to God?",
+   "q": "The Hadith names three things displeasing to God. Which are they?",
    "options": [
     [
-     "That you all cling to the rope of God and not be divided",
-     "Along with worship without partners."
+     "Sleeping, travelling and trading",
+     "Not quite. The article says: Idle talk, asking too many questions, and wasting money."
     ],
     [
-     "That you gather wealth",
-     "Not quite. The article says: That you all cling to the rope of God and not be divided."
+     "Silence, thrift and caution",
+     "Not quite. The article says: Idle talk, asking too many questions, and wasting money."
     ],
     [
-     "That you travel widely",
-     "Not quite. The article says: That you all cling to the rope of God and not be divided."
+     "Idle talk, asking too many questions, and wasting money",
+     "Yes. Each makes a person a burden on society."
     ],
     [
-     "That you speak much",
-     "Not quite. The article says: That you all cling to the rope of God and not be divided."
+     "Laughing, eating and resting",
+     "Not quite. The article says: Idle talk, asking too many questions, and wasting money."
     ]
    ],
-   "answer": 0,
-   "rationale": "That you should all cling to the rope of God and not be divided among yourselves."
+   "answer": 2,
+   "rationale": "“And three things cause Him immense displeasure: idle talk, asking too many questions and wasting money.”"
   },
   {
    "article": "An Identity Card",
    "page": 36,
    "link": "an-identity-card",
-   "q": "What were schoolboys lining up for on anniversary day?",
+   "q": "A village boy joined a queue for sweets at a school and was asked for his identity card. What does the story illustrate?",
    "options": [
     [
-     "Books",
-     "Not quite. The article says: Sweets."
+     "One should always carry documents",
+     "Not quite. The article says: The rewards of the Last Day are for those who qualified for them beforehand."
     ],
     [
-     "Medals",
-     "Not quite. The article says: Sweets."
+     "The rewards of the Last Day are for those who qualified for them beforehand",
+     "Exactly. Turning up at the window is not enough."
     ],
     [
-     "Sweets",
-     "A village boy watched."
+     "Village children are treated unfairly",
+     "Not quite. The article says: The rewards of the Last Day are for those who qualified for them beforehand."
     ],
     [
-     "Uniforms",
-     "Not quite. The article says: Sweets."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "He was able to see that sweets …"
-  },
-  {
-   "article": "Global Warming",
-   "page": 39,
-   "link": "global-warming",
-   "q": "What radical idea did The Times of India report on October 26th, 2018?",
-   "options": [
-    [
-     "Planting no trees",
-     "Not quite. The article says: Scrubbing CO2 from the air."
-    ],
-    [
-     "Scrubbing CO2 from the air",
-     "To stop global warming."
-    ],
-    [
-     "Moving cities to the poles",
-     "Not quite. The article says: Scrubbing CO2 from the air."
-    ],
-    [
-     "Banning all travel",
-     "Not quite. The article says: Scrubbing CO2 from the air."
+     "Schools should feed all children",
+     "Not quite. The article says: The rewards of the Last Day are for those who qualified for them beforehand."
     ]
    ],
    "answer": 1,
-   "rationale": "“Air scrubbed off CO2 could be a reality soon—A radical idea takes shape in race to stop global warming.”"
+   "rationale": "“The rewards of that day will only be for those who have qualified for them… who, before the coming of that day, have shown themselves deserving of divine approval.”"
   },
   {
    "article": "The Practical Approach",
    "page": 44,
    "link": "the-practical-approach",
-   "q": "With which two qualities has man been created?",
+   "q": "Man’s mind knows no boundaries, yet his physical existence is tightly limited. What does the article call the great test in this?",
    "options": [
     [
-     "The strong and the weak",
-     "Not quite. The article says: The spiritual and the physical."
+     "To think less and act more",
+     "Not quite. The article says: To find a balance between thinking and action, accepting one’s real limits."
     ],
     [
-     "The old and the young",
-     "Not quite. The article says: The spiritual and the physical."
+     "To ignore the body’s limits",
+     "Not quite. The article says: To find a balance between thinking and action, accepting one’s real limits."
     ],
     [
-     "The rich and the poor",
-     "Not quite. The article says: The spiritual and the physical."
+     "To avoid all ambition",
+     "Not quite. The article says: To find a balance between thinking and action, accepting one’s real limits."
     ],
     [
-     "The spiritual and the physical",
-     "Opposing yet complementary."
+     "To find a balance between thinking and action, accepting one’s real limits",
+     "Well read. Humility amid apparent greatness."
     ]
    ],
    "answer": 3,
-   "rationale": "Two opposing yet complementary qualities: the spiritual and the physical."
+   "rationale": "“The greatest test of humanity is to discover a balance between thinking and action.”"
   }
  ]
 }
