@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "Good News from Muzaffarnagar",
-   "page": 5,
-   "link": "good-news-from-muzaffarnagar",
-   "q": "What long-pending work in Muzaffarnagar was reported?",
+   "article": "Positive Aspects of Failure",
+   "page": 20,
+   "link": "positive-aspects-of-failure",
+   "q": "What does the article mean by a “mistake-plus”?",
    "options": [
     [
-     "A new airport",
-     "Not quite. The article says: Construction of an overbridge."
+     "A mistake made twice",
+     "Not quite. The article says: A mistake that leads to introspection and so awakens the mind to re-plan better."
     ],
     [
-     "A university",
-     "Not quite. The article says: Construction of an overbridge."
+     "A mistake hidden from everyone",
+     "Not quite. The article says: A mistake that leads to introspection and so awakens the mind to re-plan better."
     ],
     [
-     "Construction of an overbridge",
-     "The Times of India, February 17, 2018."
+     "A mistake that leads to introspection and so awakens the mind to re-plan better",
+     "Yes. Regret alone only disheartens."
     ],
     [
-     "A dam",
-     "Not quite. The article says: Construction of an overbridge."
+     "A mistake that harms others too",
+     "Not quite. The article says: A mistake that leads to introspection and so awakens the mind to re-plan better."
     ]
    ],
    "answer": 2,
-   "rationale": "The long-pending construction work of an overbridge in Muzaffarnagar city could now see the light of the day."
-  },
-  {
-   "article": "Women in Islam",
-   "page": 8,
-   "link": "women-in-islam",
-   "q": "What does verse 3: 195 say of men and women?",
-   "options": [
-    [
-     "“You are members one of another”",
-     "Two halves of a whole."
-    ],
-    [
-     "“They are rivals”",
-     "Not quite. The article says: “You are members one of another”."
-    ],
-    [
-     "“They are strangers”",
-     "Not quite. The article says: “You are members one of another”."
-    ],
-    [
-     "“Men are above women”",
-     "Not quite. The article says: “You are members one of another”."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "Verse 195 of chapter 3 of the Quran says, “You are members one of another”."
-  },
-  {
-   "article": "Suicide",
-   "page": 17,
-   "link": "suicide",
-   "q": "Which of these is listed among the common reasons for suicide?",
-   "options": [
-    [
-     "Good health",
-     "Not quite. The article says: A sense of burden."
-    ],
-    [
-     "A sense of burden",
-     "Also emotional pain and escaping negative feelings."
-    ],
-    [
-     "Too much joy",
-     "Not quite. The article says: A sense of burden."
-    ],
-    [
-     "Success",
-     "Not quite. The article says: A sense of burden."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "A sense of burden—Would my loved ones be better off without me?"
+   "rationale": "“A mistake becomes a mistake-plus when it awakens your mind. It thus enables you to re-plan your life.”"
   },
   {
    "article": "Positive Aspects of Failure",
    "page": 20,
    "link": "positive-aspects-of-failure",
-   "q": "What generally makes people sad, depressed and hopeless?",
+   "q": "Which simple formula does the article suggest feeding into one’s thinking in times of difficulty?",
    "options": [
     [
-     "Friendship",
-     "Not quite. The article says: A sense of failure."
+     "“It is all but temporary”",
+     "Right. No difficulty goes on forever."
     ],
     [
-     "Good news",
-     "Not quite. The article says: A sense of failure."
+     "“It will always be so”",
+     "Not quite. The article says: “It is all but temporary”."
     ],
     [
-     "A sense of failure",
-     "Which the bigger picture can dispel."
+     "“It could not be helped”",
+     "Not quite. The article says: “It is all but temporary”."
     ],
     [
-     "Hard work",
-     "Not quite. The article says: A sense of failure."
+     "“It is someone else’s fault”",
+     "Not quite. The article says: “It is all but temporary”."
     ]
    ],
-   "answer": 2,
-   "rationale": "A sense of failure is what generally makes people sad, depressed and hopeless."
+   "answer": 0,
+   "rationale": "“Every difficulty is bound to disappear after some time… So, you have to feed this simple formula into your thinking, ‘It is all but temporary’.”"
+  },
+  {
+   "article": "Universal Brotherhood",
+   "page": 23,
+   "link": "universal-brotherhood",
+   "q": "The article calls one principle “a master key to human ethics.” Which?",
+   "options": [
+    [
+     "Speak only when spoken to",
+     "Not quite. The article says: Treat others as you would like them to treat you."
+    ],
+    [
+     "Treat others as you would like them to treat you",
+     "Well read. “Like for his brother what he likes for himself.”"
+    ],
+    [
+     "Keep to your own people",
+     "Not quite. The article says: Treat others as you would like them to treat you."
+    ],
+    [
+     "Give more than you receive",
+     "Not quite. The article says: Treat others as you would like them to treat you."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“It is the principle of treating others just as one would like to be treated by them… one single key which suffices to open all locked doors.”"
   },
   {
    "article": "Intentions",
    "page": 25,
    "link": "intentions",
-   "q": "What kind of actions does God accept?",
+   "q": "How does the article regard a religious act performed for public praise or worldly gain?",
    "options": [
     [
-     "Only costly ones",
-     "Not quite. The article says: Those performed with proper intention."
+     "As a matter between the person and society",
+     "Not quite. The article says: As ill-intentioned and without value before God, whatever its outward look."
     ],
     [
-     "Any that look good",
-     "Not quite. The article says: Those performed with proper intention."
+     "As better than doing nothing",
+     "Not quite. The article says: As ill-intentioned and without value before God, whatever its outward look."
     ],
     [
-     "Only public ones",
-     "Not quite. The article says: Those performed with proper intention."
+     "As ill-intentioned and without value before God, whatever its outward look",
+     "Correct. God knows the inner reality."
     ],
     [
-     "Those performed with proper intention",
-     "Not judged by outer appearance."
+     "As acceptable if done correctly",
+     "Not quite. The article says: As ill-intentioned and without value before God, whatever its outward look."
     ]
    ],
-   "answer": 3,
-   "rationale": "God accepts only such actions as are performed with proper intention."
+   "answer": 2,
+   "rationale": "“Ostensibly religious acts, if performed for worldly gain or public commendation, are in this sense ill-intentioned.”"
   },
   {
    "article": "On the Eve of Exams",
    "page": 27,
    "link": "on-the-eve-of-exams",
-   "q": "What should parents limit themselves to before exams?",
+   "q": "With whom does the article advise a student to compete?",
    "options": [
     [
-     "Threats",
-     "Not quite. The article says: Wise counselling."
+     "With his brothers and sisters",
+     "Not quite. The article says: With his own better self – discovering and developing his particular ability."
     ],
     [
-     "Wise counselling",
-     "Constant pressure is counterproductive."
+     "With the top scorer in the class",
+     "Not quite. The article says: With his own better self – discovering and developing his particular ability."
     ],
     [
-     "Constant questioning",
-     "Not quite. The article says: Wise counselling."
+     "With students of other schools",
+     "Not quite. The article says: With his own better self – discovering and developing his particular ability."
     ],
     [
-     "Silence",
-     "Not quite. The article says: Wise counselling."
+     "With his own better self – discovering and developing his particular ability",
+     "Yes. Not blindly with classmates."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Discovering one’s potential and turning it into reality is what is important rather than just blindly competing with others… The competition should be with your own better self.”"
+  },
+  {
+   "article": "On the Eve of Exams",
+   "page": 27,
+   "link": "on-the-eve-of-exams",
+   "q": "What should parents chiefly give their children at examination time, according to the article?",
+   "options": [
+    [
+     "Rewards for every mark gained",
+     "Not quite. The article says: Wise counsel and the principles of life – patience, realism, learning from failure – rather than pressure."
+    ],
+    [
+     "Wise counsel and the principles of life – patience, realism, learning from failure – rather than pressure",
+     "Right. Topping exams does not guarantee topping in life."
+    ],
+    [
+     "Constant questioning about their preparation",
+     "Not quite. The article says: Wise counsel and the principles of life – patience, realism, learning from failure – rather than pressure."
+    ],
+    [
+     "Comparison with other children",
+     "Not quite. The article says: Wise counsel and the principles of life – patience, realism, learning from failure – rather than pressure."
     ]
    ],
    "answer": 1,
-   "rationale": "They must limit themselves to doing wise counselling."
+   "rationale": "“They must limit themselves to doing wise counselling. It would be counterproductive if they constantly question their children and apply mental pressure on them to perform.”"
   },
   {
    "article": "The Money Culture",
    "page": 28,
    "link": "the-money-culture",
-   "q": "What is wealth, according to the article?",
+   "q": "“Money is a good helper. But it is not a good leader.” What does the article mean?",
    "options": [
     [
-     "Unnecessary",
-     "Not quite. The article says: One of life’s necessities, but not life’s goal."
+     "Money should be avoided altogether",
+     "Not quite. The article says: Money should serve one’s needs and higher purposes, not become the goal of life."
     ],
     [
-     "Life’s goal",
-     "Not quite. The article says: One of life’s necessities, but not life’s goal."
+     "Money should be given to leaders",
+     "Not quite. The article says: Money should serve one’s needs and higher purposes, not become the goal of life."
     ],
     [
-     "An evil",
-     "Not quite. The article says: One of life’s necessities, but not life’s goal."
+     "Wealthy people make poor rulers",
+     "Not quite. The article says: Money should serve one’s needs and higher purposes, not become the goal of life."
     ],
     [
-     "One of life’s necessities, but not life’s goal",
-     "The error is to make it the goal."
+     "Money should serve one’s needs and higher purposes, not become the goal of life",
+     "Well reasoned. Man is greater than money."
     ]
    ],
    "answer": 3,
-   "rationale": "Wealth is one of life’s necessities. But it is not life’s goal."
-  },
-  {
-   "article": "Argument for the Life Hereafter",
-   "page": 35,
-   "link": "argument-for-the-life-hereafter",
-   "q": "What is the present world, according to the article?",
-   "options": [
-    [
-     "A place of reward",
-     "Not quite. The article says: A place of trial."
-    ],
-    [
-     "A place of trial",
-     "The next world is eternal."
-    ],
-    [
-     "An illusion",
-     "Not quite. The article says: A place of trial."
-    ],
-    [
-     "The final home",
-     "Not quite. The article says: A place of trial."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "The present world is but a place of trial."
+   "rationale": "“Money for the sake of money is bad, but money for the sake of some higher purpose is good; money as a necessity is good, but the money culture per se is a disaster.”"
   },
   {
    "article": "Example of the Prophet",
    "page": 40,
    "link": "example-of-the-prophet",
-   "q": "Why did the Prophet finally leave Makkah?",
+   "q": "How widely did the Prophet define charity?",
    "options": [
     [
-     "To trade",
-     "Not quite. The article says: To avoid confrontation."
+     "Only what is given to relatives",
+     "Not quite. The article says: Every good act – a smile, showing the way, removing a thorn from the road, a kind word."
     ],
     [
-     "To avoid confrontation",
-     "After showing the utmost patience."
+     "Every good act – a smile, showing the way, removing a thorn from the road, a kind word",
+     "Yes. Not only alms and feeding the poor."
     ],
     [
-     "To gather an army",
-     "Not quite. The article says: To avoid confrontation."
+     "Only gifts made on festivals",
+     "Not quite. The article says: Every good act – a smile, showing the way, removing a thorn from the road, a kind word."
     ],
     [
-     "To seek wealth",
-     "Not quite. The article says: To avoid confrontation."
+     "Only money given in secret",
+     "Not quite. The article says: Every good act – a smile, showing the way, removing a thorn from the road, a kind word."
     ]
    ],
    "answer": 1,
-   "rationale": "Finally to avoid confrontation, left the city along with a handful of his companions."
+   "rationale": "“He believed that every good act was a form of charity; smiling at a fellow human being; showing the road to a person who has lost his way; removing hindrances such as thorns and stones from the road…”"
   },
   {
-   "article": "The Word of God",
-   "page": 45,
-   "link": "the-word-of-god",
-   "q": "When did the Children of Israel differ among themselves?",
+   "article": "Example of the Prophet",
+   "page": 40,
+   "link": "example-of-the-prophet",
+   "q": "Asked how the Prophet lived at home, what did Aisha say?",
    "options": [
     [
-     "Never",
-     "Not quite. The article says: Only after knowledge came to them."
+     "He kept apart and was served by others",
+     "Not quite. The article says: Like any ordinary man – he swept, mended his sandals, milked the goats and helped the servants."
     ],
     [
-     "Before any revelation",
-     "Not quite. The article says: Only after knowledge came to them."
+     "Like any ordinary man – he swept, mended his sandals, milked the goats and helped the servants",
+     "Exactly. Simple living and humility."
     ],
     [
-     "Only after knowledge came to them",
-     "They had been given Scriptures and wisdom."
+     "He left household matters to servants",
+     "Not quite. The article says: Like any ordinary man – he swept, mended his sandals, milked the goats and helped the servants."
     ],
     [
-     "In Egypt",
-     "Not quite. The article says: Only after knowledge came to them."
+     "He spent the whole day in the mosque",
+     "Not quite. The article says: Like any ordinary man – he swept, mended his sandals, milked the goats and helped the servants."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“‘Like any ordinary man’, she would answer. ‘He would sweep the house, stitch his own clothes, mend his own sandals… help the servants at their work, and eat his meal with them.’”"
+  },
+  {
+   "article": "Before Death and After Death",
+   "page": 43,
+   "link": "before-death-and-after-death",
+   "q": "The article says keeping death in mind transforms life. Which change does it mention?",
+   "options": [
+    [
+     "One avoids meeting people",
+     "Not quite. The article says: One sees how absurd it is to trouble others or feel superior, since one must answer for it."
+    ],
+    [
+     "One loses interest in work",
+     "Not quite. The article says: One sees how absurd it is to trouble others or feel superior, since one must answer for it."
+    ],
+    [
+     "One sees how absurd it is to trouble others or feel superior, since one must answer for it",
+     "Well read. All we hold is “testing material.”"
+    ],
+    [
+     "One gathers more possessions quickly",
+     "Not quite. The article says: One sees how absurd it is to trouble others or feel superior, since one must answer for it."
     ]
    ],
    "answer": 2,
-   "rationale": "It was only after knowledge came to them that they differed among themselves."
+   "rationale": "“It will make you realize… how absurd it is to trouble others, because you will have to answer for this after death… It will make you ashamed of thinking yourself to be superior to others.”"
   }
  ]
 }

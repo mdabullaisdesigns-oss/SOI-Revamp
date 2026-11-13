@@ -4,261 +4,261 @@
    "article": "Stephen Hawking Is No More",
    "page": 5,
    "link": "stephen-hawking-is-no-more",
-   "q": "When did Stephen Hawking die?",
+   "q": "The editorial names a “human contribution” of Stephen Hawking. What was it?",
    "options": [
     [
-     "March 14, 2018, aged 76",
-     "The most important theoretical scientist of his time."
+     "He showed that a person with a severe disability can achieve what others do, using the mind and technology",
+     "Yes. He ended the “disabled theory.”"
     ],
     [
-     "June 2020",
-     "Not quite. The article says: March 14, 2018, aged 76."
+     "He refused all help from others",
+     "Not quite. The article says: He showed that a person with a severe disability can achieve what others do, using the mind and technology."
     ],
     [
-     "1988",
-     "Not quite. The article says: March 14, 2018, aged 76."
+     "He founded hospitals for the paralysed",
+     "Not quite. The article says: He showed that a person with a severe disability can achieve what others do, using the mind and technology."
     ],
     [
-     "January 2000",
-     "Not quite. The article says: March 14, 2018, aged 76."
+     "He invented the wheelchair he used",
+     "Not quite. The article says: He showed that a person with a severe disability can achieve what others do, using the mind and technology."
     ]
    ],
    "answer": 0,
-   "rationale": "Stephen Hawking died on March 14, 2018 at the age of 76."
+   "rationale": "“He put an end to the ‘disabled theory’, as Dr. Hawking was a living example who proved that one who has a challenging disability can overcome it.”"
+  },
+  {
+   "article": "Stephen Hawking Is No More",
+   "page": 5,
+   "link": "stephen-hawking-is-no-more",
+   "q": "Why does the editorial find the search for a single theory of nature significant for religion?",
+   "options": [
+    [
+     "It makes prayer unnecessary",
+     "Not quite. The article says: A universe governed by one unified law is like a scientific affirmation of the concept of one God."
+    ],
+    [
+     "It shows the universe has no beginning",
+     "Not quite. The article says: A universe governed by one unified law is like a scientific affirmation of the concept of one God."
+    ],
+    [
+     "It proves science and religion never meet",
+     "Not quite. The article says: A universe governed by one unified law is like a scientific affirmation of the concept of one God."
+    ],
+    [
+     "A universe governed by one unified law is like a scientific affirmation of the concept of one God",
+     "Well reasoned. Harmony points to oneness."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“It is this explanation which is the equivalent of a scientific affirmation of the concept of one God.”"
   },
   {
    "article": "The Concept of Social Welfare in Islam",
    "page": 8,
    "link": "the-concept-of-social-welfare-in-islam",
-   "q": "Why do all human beings belong to one brotherhood, according to Islam?",
+   "q": "How does the article describe zakat “in spirit” and “in its external form”?",
    "options": [
     [
-     "They share one trade",
-     "Not quite. The article says: They were created by one and the same God."
+     "In spirit a tax; in form a gift",
+     "Not quite. The article says: In spirit an act of worship; in form a social service."
     ],
     [
-     "They speak one language",
-     "Not quite. The article says: They were created by one and the same God."
+     "In spirit an act of worship; in form a social service",
+     "Right. Not merely a tax."
     ],
     [
-     "They live in one country",
-     "Not quite. The article says: They were created by one and the same God."
+     "In spirit a custom; in form a law",
+     "Not quite. The article says: In spirit an act of worship; in form a social service."
     ],
     [
-     "They were created by one and the same God",
-     "Like members of one large family."
+     "In spirit a loan; in form a duty",
+     "Not quite. The article says: In spirit an act of worship; in form a social service."
     ]
    ],
-   "answer": 3,
-   "rationale": "All human beings have been created by one and the same God, and for this reason they belong to one great brotherhood."
+   "answer": 1,
+   "rationale": "“In spirit, zakat is an act of worship, while in its external form, it is the carrying out of a social service.”"
   },
   {
    "article": "Religion: A Divine, Not a Social Phenomenon",
    "page": 12,
    "link": "religion-a-divine-not-a-social-phenomenon",
-   "q": "What example does the article use to distinguish a social from a natural phenomenon?",
+   "q": "Nuclear energy is judged as a fact of nature, not by how one country uses it. What does the article conclude about understanding Islam?",
    "options": [
     [
-     "Rainfall",
-     "Not quite. The article says: Nuclear energy."
+     "It should be understood from the Quran and Hadith, not from the conduct of any group of its followers",
+     "Yes. Theory must be told apart from practice."
     ],
     [
-     "Nuclear energy",
-     "Weapons versus a force of nature."
+     "It cannot be understood by outsiders",
+     "Not quite. The article says: It should be understood from the Quran and Hadith, not from the conduct of any group of its followers."
     ],
     [
-     "Music",
-     "Not quite. The article says: Nuclear energy."
+     "It should be understood from newspapers",
+     "Not quite. The article says: It should be understood from the Quran and Hadith, not from the conduct of any group of its followers."
     ],
     [
-     "Language",
-     "Not quite. The article says: Nuclear energy."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "If nuclear energy is treated as an American societal phenomenon … But if nuclear energy is taken to be a natural phenomenon …"
-  },
-  {
-   "article": "A New Age",
-   "page": 14,
-   "link": "a-new-age",
-   "q": "What has replaced religious persecution in the present age?",
-   "options": [
-    [
-     "Religious freedom",
-     "A unique period of history."
-    ],
-    [
-     "Rule by priests",
-     "Not quite. The article says: Religious freedom."
-    ],
-    [
-     "Stricter persecution",
-     "Not quite. The article says: Religious freedom."
-    ],
-    [
-     "No religion",
-     "Not quite. The article says: Religious freedom."
+     "It should be understood from the history of empires",
+     "Not quite. The article says: It should be understood from the Quran and Hadith, not from the conduct of any group of its followers."
     ]
    ],
    "answer": 0,
-   "rationale": "Religious persecution has been abolished and replaced by religious freedom."
+   "rationale": "“Now one begins to look at Islam in the light of Quran and Hadith, instead of in the light of the practice of Muslims.”"
   },
   {
-   "article": "Missions and Movements",
-   "page": 22,
-   "link": "missions-and-movements",
-   "q": "How do leaders of popular movements mobilize support?",
+   "article": "The Responsibility of Parents",
+   "page": 13,
+   "link": "the-responsibility-of-parents",
+   "q": "According to the Hadith quoted, what is the best gift a father can give his children?",
    "options": [
     [
-     "By quiet teaching",
-     "Not quite. The article says: By rousing people’s sentiments."
+     "A large inheritance",
+     "Not quite. The article says: The cultivation of good morals – preparing them to live rightly."
     ],
     [
-     "By rousing people’s sentiments",
-     "One of two types of movement."
+     "The cultivation of good morals – preparing them to live rightly",
+     "Correct. Pampering is called the worst gift."
     ],
     [
-     "By avoiding crowds",
-     "Not quite. The article says: By rousing people’s sentiments."
+     "The best schooling money can buy",
+     "Not quite. The article says: The cultivation of good morals – preparing them to live rightly."
     ],
     [
-     "By writing books only",
-     "Not quite. The article says: By rousing people’s sentiments."
+     "Freedom from every hardship",
+     "Not quite. The article says: The cultivation of good morals – preparing them to live rightly."
     ]
    ],
    "answer": 1,
-   "rationale": "Leaders of such movements mobilize support by rousing people’s sentiments."
+   "rationale": "“There is no better and superior gift that a father can give to his children than cultivation of good morals.”"
   },
   {
    "article": "God Is the Greatest",
    "page": 26,
    "link": "god-is-the-greatest",
-   "q": "In which call is ‘Allahu Akbar’ repeated, besides the prayers?",
+   "q": "The phrase Allahu Akbar is heard and said some three hundred times a day. What does the article say this repetition is meant to achieve?",
    "options": [
     [
-     "The market cry",
-     "Not quite. The article says: The azan."
+     "To mark the passing hours",
+     "Not quite. The article says: To make God’s greatness a constant part of one’s consciousness, which makes a person modest."
     ],
     [
-     "The azan",
-     "The call to prayer."
+     "To make God’s greatness a constant part of one’s consciousness, which makes a person modest",
+     "Right. It is “the essence of faith.”"
     ],
     [
-     "The wedding sermon",
-     "Not quite. The article says: The azan."
+     "To help in counting the prayers",
+     "Not quite. The article says: To make God’s greatness a constant part of one’s consciousness, which makes a person modest."
     ],
     [
-     "The funeral oration",
-     "Not quite. The article says: The azan."
+     "To call others to attention",
+     "Not quite. The article says: To make God’s greatness a constant part of one’s consciousness, which makes a person modest."
     ]
    ],
    "answer": 1,
-   "rationale": "If you add up the number of times this phrase is used in the azan (the call to prayer) …"
+   "rationale": "“God’s greatness should be an integral part of his consciousness in such a way that under no condition should he lose awareness of it.”"
   },
   {
-   "article": "Only One Authority",
-   "page": 29,
-   "link": "only-one-authority",
-   "q": "What does the Hadith say Moses would do were he alive?",
+   "article": "Duty to Parents",
+   "page": 28,
+   "link": "duty-to-parents",
+   "q": "Besides repaying what parents have given, what further benefit does the article see in serving them?",
    "options": [
     [
-     "Remain apart",
-     "Not quite. The article says: Follow the Prophet."
+     "It frees one from other duties",
+     "Not quite. The article says: It teaches one to look on all people with love and so to serve humanity at large."
     ],
     [
-     "Lead the prayer",
-     "Not quite. The article says: Follow the Prophet."
+     "It secures a share of their property",
+     "Not quite. The article says: It teaches one to look on all people with love and so to serve humanity at large."
     ],
     [
-     "Follow the Prophet",
-     "From Shuab al-Iman, al-Bayhaqi."
+     "It teaches one to look on all people with love and so to serve humanity at large",
+     "Well read. Home is the first school of service."
     ],
     [
-     "Write a new law",
-     "Not quite. The article says: Follow the Prophet."
+     "It earns the respect of neighbours",
+     "Not quite. The article says: It teaches one to look on all people with love and so to serve humanity at large."
     ]
    ],
    "answer": 2,
-   "rationale": "“Were Moses alive, he would have no choice but to follow me.”"
+   "rationale": "“Serving parents enables one to look at all human beings with love, it will inculcate the attitude of honouring them thus making one to serve humanity at large.”"
+  },
+  {
+   "article": "In Times of Crisis",
+   "page": 30,
+   "link": "in-times-of-crisis",
+   "q": "People in sudden danger commonly cry out to God. What does the article take this to show?",
+   "options": [
+    [
+     "That people copy what others do",
+     "Not quite. The article says: That awareness of God is woven into human nature."
+    ],
+    [
+     "That awareness of God is woven into human nature",
+     "Yes. The call to God turns this potential into reality."
+    ],
+    [
+     "That danger is always a punishment",
+     "Not quite. The article says: That awareness of God is woven into human nature."
+    ],
+    [
+     "That fear makes people irrational",
+     "Not quite. The article says: That awareness of God is woven into human nature."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“This proves that the concept of God is interwoven in human nature. Every human being is potentially aware of God’s existence.”"
   },
   {
    "article": "Acceptance of Our Prayer Requests",
    "page": 32,
    "link": "acceptance-of-our-prayer-requests",
-   "q": "How did the young man feel about his supplications?",
+   "q": "A young man felt his prayers went unanswered. With what comparison does the article reply?",
    "options": [
     [
-     "Proud",
-     "Not quite. The article says: Hopeless and helpless – they seemed unanswered."
+     "A farmer who must wait for rain",
+     "Not quite. The article says: A student cannot dictate his examination paper; God decides each person’s test and knows what is best."
     ],
     [
-     "Hopeless and helpless – they seemed unanswered",
-     "He prayed for material things."
+     "A merchant who must bargain",
+     "Not quite. The article says: A student cannot dictate his examination paper; God decides each person’s test and knows what is best."
     ],
     [
-     "Indifferent",
-     "Not quite. The article says: Hopeless and helpless – they seemed unanswered."
+     "A traveller who has lost his way",
+     "Not quite. The article says: A student cannot dictate his examination paper; God decides each person’s test and knows what is best."
     ],
     [
-     "Fully satisfied",
-     "Not quite. The article says: Hopeless and helpless – they seemed unanswered."
+     "A student cannot dictate his examination paper; God decides each person’s test and knows what is best",
+     "Exactly. So pray: “Give me what is best for me.”"
     ]
    ],
-   "answer": 1,
-   "rationale": "He felt hopeless and helpless."
+   "answer": 3,
+   "rationale": "“A student appearing for an examination cannot demand that the examination paper should be as he wants it to be… If our supplications do not appear to be accepted, we must know that this is what God wills.”"
   },
   {
    "article": "An Expert in Gems",
    "page": 34,
    "link": "an-expert-in-gems",
-   "q": "What did the strange-looking stone turn out to be?",
+   "q": "A stone a boy was playing with turned out to be a large diamond. What does the article say about human abilities?",
    "options": [
     [
-     "A piece of glass",
-     "Not quite. The article says: A very large diamond."
+     "Talent is found mostly in small towns",
+     "Not quite. The article says: Hidden talents need recognising – by honest self-awareness or by a sincere well-wisher."
     ],
     [
-     "A lump of coal",
-     "Not quite. The article says: A very large diamond."
+     "Hidden talents need recognising – by honest self-awareness or by a sincere well-wisher",
+     "Well reasoned. Both are rare, so much potential is lost."
     ],
     [
-     "A fossil",
-     "Not quite. The article says: A very large diamond."
+     "Talents always show themselves in time",
+     "Not quite. The article says: Hidden talents need recognising – by honest self-awareness or by a sincere well-wisher."
     ],
     [
-     "A very large diamond",
-     "A lapidary recognised it."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "He discovered that it was actually a very large diamond!"
-  },
-  {
-   "article": "The Word of God",
-   "page": 44,
-   "link": "the-word-of-god",
-   "q": "What comes with every hardship?",
-   "options": [
-    [
-     "Nothing",
-     "Not quite. The article says: Ease."
-    ],
-    [
-     "Ease",
-     "“Have We not lifted up your heart?”"
-    ],
-    [
-     "More hardship",
-     "Not quite. The article says: Ease."
-    ],
-    [
-     "Fame",
-     "Not quite. The article says: Ease."
+     "Only the wealthy can develop talent",
+     "Not quite. The article says: Hidden talents need recognising – by honest self-awareness or by a sincere well-wisher."
     ]
    ],
    "answer": 1,
-   "rationale": "So, surely with every hardship there is ease."
+   "rationale": "“These skills and abilities are hidden. They don’t loudly announce themselves. They need a 'lapidary' to recognize them.”"
   }
  ]
 }
