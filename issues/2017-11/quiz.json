@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "The Rohingya Muslims—issue or Non-Issue",
-   "page": 5,
-   "link": "the-rohingya-muslims-issue-or-non-issue",
-   "q": "By what name was the Rakhine state formerly known?",
+   "article": "Putting an End to Superstition",
+   "page": 21,
+   "link": "putting-an-end-to-superstition",
+   "q": "A solar eclipse coincided with the death of the Prophet’s infant son, and people began to link the two. What did the Prophet tell them?",
    "options": [
     [
-     "Bengal",
-     "Not quite. The article says: Arakan."
+     "That they should make noise to end it",
+     "Not quite. The article says: Eclipses are not caused by anyone’s death; they are signs of God, and a time for prayer and charity."
     ],
     [
-     "Burma",
-     "Not quite. The article says: Arakan."
+     "That the eclipse was indeed a sign of mourning",
+     "Not quite. The article says: Eclipses are not caused by anyone’s death; they are signs of God, and a time for prayer and charity."
     ],
     [
-     "Arakan",
-     "Arab traders visited it from the ninth century."
+     "Eclipses are not caused by anyone’s death; they are signs of God, and a time for prayer and charity",
+     "Yes. He corrected the belief though it seemed to honour his family."
     ],
     [
-     "Siam",
-     "Not quite. The article says: Arakan."
+     "That such things should not be discussed",
+     "Not quite. The article says: Eclipses are not caused by anyone’s death; they are signs of God, and a time for prayer and charity."
     ]
    ],
    "answer": 2,
-   "rationale": "The Rakhine state, formerly known as Arakan, on the western coast of Myanmar."
-  },
-  {
-   "article": "A Soul-Stirring Reminder",
-   "page": 9,
-   "link": "a-soul-stirring-reminder",
-   "q": "What happens when religion becomes part of a national tradition?",
-   "options": [
-    [
-     "Faith deepens",
-     "Not quite. The article says: Ceremonies increase, but true religion disappears."
-    ],
-    [
-     "Nothing changes",
-     "Not quite. The article says: Ceremonies increase, but true religion disappears."
-    ],
-    [
-     "Ceremonies vanish",
-     "Not quite. The article says: Ceremonies increase, but true religion disappears."
-    ],
-    [
-     "Ceremonies increase, but true religion disappears",
-     "The case of Muslims today, says the article."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "Ceremonies performed in the name of religion increase, but true religion disappears entirely."
-  },
-  {
-   "article": "A World of Second Bests",
-   "page": 15,
-   "link": "a-world-of-second-bests",
-   "q": "Where did God first settle the human being, according to religious tradition?",
-   "options": [
-    [
-     "Paradise",
-     "After his error, man was sent down to earth."
-    ],
-    [
-     "An island",
-     "Not quite. The article says: Paradise."
-    ],
-    [
-     "A desert",
-     "Not quite. The article says: Paradise."
-    ],
-    [
-     "A city",
-     "Not quite. The article says: Paradise."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "God created the human being and settled him in Paradise."
+   "rationale": "“Eclipses of the sun and moon are not due to the death of any human being; they are just two signs given by God.”"
   },
   {
    "article": "Putting an End to Superstition",
    "page": 21,
    "link": "putting-an-end-to-superstition",
-   "q": "What change did the Islamic revolution share with the scientific revolution?",
+   "q": "How, according to the article, did separating the Creator from the creation open the way to science?",
    "options": [
     [
-     "The rooting out of superstitious thinking",
-     "And thinking based on facts."
+     "People lost interest in nature",
+     "Not quite. The article says: Nature was no longer held sacred and feared, so it could be explored and put to use."
     ],
     [
-     "Faster travel",
-     "Not quite. The article says: The rooting out of superstitious thinking."
+     "Old books of myths were translated",
+     "Not quite. The article says: Nature was no longer held sacred and feared, so it could be explored and put to use."
     ],
     [
-     "Larger cities",
-     "Not quite. The article says: The rooting out of superstitious thinking."
+     "Scholars were paid to study the stars",
+     "Not quite. The article says: Nature was no longer held sacred and feared, so it could be explored and put to use."
     ],
     [
-     "New weapons",
-     "Not quite. The article says: The rooting out of superstitious thinking."
+     "Nature was no longer held sacred and feared, so it could be explored and put to use",
+     "Well reasoned. Awe gave way to enquiry."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“The awe surrounding nature was replaced with a spirit of research and enquiry… the phenomena of nature, looked upon by ancient man with reverence, have now become objects of investigation.”"
+  },
+  {
+   "article": "Death’s Lesson",
+   "page": 24,
+   "link": "deaths-lesson",
+   "q": "For whom, the article says, is the careful ritual of burial really meant?",
+   "options": [
+    [
+     "The living – so that they see their own end in the dead and take a lesson",
+     "Right. They “experience death before death arrives.”"
+    ],
+    [
+     "The family’s standing in society",
+     "Not quite. The article says: The living – so that they see their own end in the dead and take a lesson."
+    ],
+    [
+     "The dead person alone",
+     "Not quite. The article says: The living – so that they see their own end in the dead and take a lesson."
+    ],
+    [
+     "Those who dig the graves",
+     "Not quite. The article says: The living – so that they see their own end in the dead and take a lesson."
     ]
    ],
    "answer": 0,
-   "rationale": "The rooting out of superstitious thinking and the general prevalence of thinking based on facts."
+   "rationale": "“Its significance is for those who are still alive. Through a dead person an important lesson is conveyed to living people—that they, too, will meet the very same fate one day.”"
   },
   {
-   "article": "Goodness in Every Situation",
-   "page": 25,
-   "link": "goodness-in-every-situation",
-   "q": "What does a believer do on an occasion of happiness?",
+   "article": "Breaking a Person’s Heart",
+   "page": 26,
+   "link": "breaking-a-persons-heart",
+   "q": "A petal and a feather are easily spoiled by a touch. What does the article say is more delicate still?",
    "options": [
     [
-     "He boasts",
-     "Not quite. The article says: He is grateful."
+     "The human heart – to wound it is a grave wrong in God’s eyes",
+     "Yes. And onlookers who do nothing share the blame."
     ],
     [
-     "He is grateful",
-     "So the happiness becomes good for him."
+     "A spider’s web",
+     "Not quite. The article says: The human heart – to wound it is a grave wrong in God’s eyes."
     ],
     [
-     "He forgets God",
-     "Not quite. The article says: He is grateful."
+     "A child’s toy",
+     "Not quite. The article says: The human heart – to wound it is a grave wrong in God’s eyes."
     ],
     [
-     "He fears",
-     "Not quite. The article says: He is grateful."
+     "A drop of dew",
+     "Not quite. The article says: The human heart – to wound it is a grave wrong in God’s eyes."
     ]
    ],
-   "answer": 1,
-   "rationale": "If he has an occasion of happiness, he is grateful, thus this happiness becomes good for him."
+   "answer": 0,
+   "rationale": "“There is something even more fragile and delicate than a petal or a feather, and that is, the human heart.”"
   },
   {
    "article": "The Power and Price of Peace",
    "page": 28,
    "link": "the-power-and-price-of-peace",
-   "q": "What does God grant to gentleness, according to the Hadith?",
+   "q": "Everything has a price. What does the article say is the price of peace?",
    "options": [
     [
-     "What He does not grant to harshness",
-     "Peaceful activism is superior."
+     "Great wealth",
+     "Not quite. The article says: Willingness to tolerate loss."
     ],
     [
-     "Less than to harshness",
-     "Not quite. The article says: What He does not grant to harshness."
+     "Willingness to tolerate loss",
+     "Correct. Refusing to bear loss leads easily to violence."
     ],
     [
-     "Only delay",
-     "Not quite. The article says: What He does not grant to harshness."
+     "A strong army",
+     "Not quite. The article says: Willingness to tolerate loss."
     ],
     [
-     "Nothing",
-     "Not quite. The article says: What He does not grant to harshness."
+     "Silence on every matter",
+     "Not quite. The article says: Willingness to tolerate loss."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“What is the price of peace? It is to tolerate loss.”"
+  },
+  {
+   "article": "The Power and Price of Peace",
+   "page": 28,
+   "link": "the-power-and-price-of-peace",
+   "q": "Why does the article say that patiently accepting a loss is not defeat?",
+   "options": [
+    [
+     "It keeps one balanced and able to rebuild with what remains – “after every evening a new morning dawns”",
+     "Well read. It takes courage, not weakness."
+    ],
+    [
+     "Because losses are never real",
+     "Not quite. The article says: It keeps one balanced and able to rebuild with what remains – “after every evening a new morning dawns”."
+    ],
+    [
+     "Because no one else will come to know of it",
+     "Not quite. The article says: It keeps one balanced and able to rebuild with what remains – “after every evening a new morning dawns”."
+    ],
+    [
+     "Because the loss is later repaid by others",
+     "Not quite. The article says: It keeps one balanced and able to rebuild with what remains – “after every evening a new morning dawns”."
     ]
    ],
    "answer": 0,
-   "rationale": "“God grants to gentleness what He does not grant to harshness.”"
-  },
-  {
-   "article": "The Spirit of Salath (prayer)",
-   "page": 31,
-   "link": "the-spirit-of-salath-prayer",
-   "q": "What will those cast into Hell reply when asked what brought them there (74: 42-43)?",
-   "options": [
-    [
-     "“We were misled by kings.”",
-     "Not quite. The article says: “We were not among those who prayed.”."
-    ],
-    [
-     "“We were poor.”",
-     "Not quite. The article says: “We were not among those who prayed.”."
-    ],
-    [
-     "“We were not among those who prayed.”",
-     "The spirit of salat."
-    ],
-    [
-     "“We do not know.”",
-     "Not quite. The article says: “We were not among those who prayed.”."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "They shall reply, “We were not among those who prayed.”"
+   "rationale": "“To patiently accept and tolerate loss is not tantamount to defeat. Rather, it is something that requires great courage and boldness… one still has many resources left, on the basis of which one can rebuild one’s life.”"
   },
   {
    "article": "Abstaining from Baseness",
    "page": 37,
    "link": "abstaining-from-baseness",
-   "q": "What does a believer not do, though he makes mistakes?",
+   "q": "A believer may err in a fit of emotion. What does the article say he does once the passion cools?",
    "options": [
     [
-     "Apologise",
-     "Not quite. The article says: Stoop to baseness."
+     "Explains why he was justified",
+     "Not quite. The article says: Feels ashamed, seeks out the person he wronged, asks forgiveness and makes amends."
     ],
     [
-     "Feel regret",
-     "Not quite. The article says: Stoop to baseness."
+     "Waits for the other person to forget",
+     "Not quite. The article says: Feels ashamed, seeks out the person he wronged, asks forgiveness and makes amends."
     ],
     [
-     "Learn",
-     "Not quite. The article says: Stoop to baseness."
+     "Feels ashamed, seeks out the person he wronged, asks forgiveness and makes amends",
+     "Yes. He errs, but does not stoop to baseness."
     ],
     [
-     "Stoop to baseness",
-     "He feels ashamed and seeks forgiveness."
+     "Breaks off relations to avoid embarrassment",
+     "Not quite. The article says: Feels ashamed, seeks out the person he wronged, asks forgiveness and makes amends."
     ]
    ],
-   "answer": 3,
-   "rationale": "A believer makes mistakes, but does not stoop to baseness."
+   "answer": 2,
+   "rationale": "“When the passion cools, one becomes conscious of the error and feels ashamed… The next step is to seek out the wronged person, beg forgiveness and make amends.”"
   },
   {
-   "article": "When a Nation Suffers Decline",
-   "page": 40,
-   "link": "when-a-nation-suffers-decline",
-   "q": "Which messenger admonished the Jews in their political decline?",
+   "article": "Realization of Truth",
+   "page": 38,
+   "link": "realization-of-truth",
+   "q": "The mind is compared to a mirror that reflects reality exactly. Why, then, do people fail to accept a truth placed before them?",
    "options": [
     [
-     "David",
-     "Not quite. The article says: Jeremiah."
+     "Truth is always hidden",
+     "Not quite. The article says: Something comes in between – an attachment, self-interest or pride."
     ],
     [
-     "Moses",
-     "Not quite. The article says: Jeremiah."
+     "The mind is too weak to grasp truth",
+     "Not quite. The article says: Something comes in between – an attachment, self-interest or pride."
     ],
     [
-     "Solomon",
-     "Not quite. The article says: Jeremiah."
+     "They have not studied enough",
+     "Not quite. The article says: Something comes in between – an attachment, self-interest or pride."
     ],
     [
-     "Jeremiah",
-     "“Humble yourselves and sit down.”"
+     "Something comes in between – an attachment, self-interest or pride",
+     "Exactly. Like an object placed between a mirror and what it should reflect."
     ]
    ],
    "answer": 3,
-   "rationale": "In the words of the Old Testament, their messenger Jeremiah admonished them."
+   "rationale": "“It is always personal attachments and commitments that prevent one from accepting truth.”"
+  },
+  {
+   "article": "The Problem of Stress",
+   "page": 42,
+   "link": "the-problem-of-stress",
+   "q": "Why, in the article’s view, do holidays and outings fail to remove stress?",
+   "options": [
+    [
+     "Travel is tiring",
+     "Not quite. The article says: Modern stress is intellectual in nature, and physical remedies cannot solve it."
+    ],
+    [
+     "Holidays are too short",
+     "Not quite. The article says: Modern stress is intellectual in nature, and physical remedies cannot solve it."
+    ],
+    [
+     "People take work with them",
+     "Not quite. The article says: Modern stress is intellectual in nature, and physical remedies cannot solve it."
+    ],
+    [
+     "Modern stress is intellectual in nature, and physical remedies cannot solve it",
+     "Right. It needs a higher level of thinking – the remembrance of God."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“The real problem is that modern day stress is intellectual in nature, while people are trying physical means to de-stress themselves.”"
   },
   {
    "article": "The Word of God",
    "page": 44,
    "link": "the-word-of-god",
-   "q": "What does the Book proclaim, in the verses quoted?",
+   "q": "The verses speak of the earth and heavens being formed in stages. What does the commentary infer from creation by stages?",
    "options": [
     [
-     "Good news and a warning",
-     "Yet most turn away."
+     "That it is planned – and a plan points to an all-knowing Planner",
+     "Well reasoned. Order implies purpose."
     ],
     [
-     "Only stories",
-     "Not quite. The article says: Good news and a warning."
+     "That the universe made itself slowly",
+     "Not quite. The article says: That it is planned – and a plan points to an all-knowing Planner."
     ],
     [
-     "Only laws",
-     "Not quite. The article says: Good news and a warning."
+     "That the earth is older than the heavens",
+     "Not quite. The article says: That it is planned – and a plan points to an all-knowing Planner."
     ],
     [
-     "Only threats",
-     "Not quite. The article says: Good news and a warning."
+     "That creation was left unfinished",
+     "Not quite. The article says: That it is planned – and a plan points to an all-knowing Planner."
     ]
    ],
    "answer": 0,
-   "rationale": "An Arabic Quran for people who possess knowledge, proclaiming good news and a warning."
+   "rationale": "“Creation in this way—in other words by stages, means planned creation; and… it essentially follows that it has a Planner who has purposefully created it according to a set plan.”"
   }
  ]
 }
