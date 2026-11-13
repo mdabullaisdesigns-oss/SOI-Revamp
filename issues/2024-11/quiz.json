@@ -4,261 +4,261 @@
    "article": "Peaceful Resolution of Conflict",
    "page": 5,
    "link": "peaceful-resolution-of-conflict",
-   "q": "What was the secret behind the Prophet’s success, according to the article?",
+   "q": "According to the article, what did the Prophet seek to gain by agreeing to the Treaty of Hudaybiya on his opponents’ terms?",
    "options": [
     [
-     "Great wealth",
-     "Not quite. The article says: Consistently favouring peaceful resolutions over warfare."
+     "Time to prepare a larger army",
+     "Not quite. The article says: Peace itself, for the opportunities it opens – justice is then reached by using those opportunities."
     ],
     [
-     "Superior weapons",
-     "Not quite. The article says: Consistently favouring peaceful resolutions over warfare."
+     "An immediate and complete settlement of every claim",
+     "Not quite. The article says: Peace itself, for the opportunities it opens – justice is then reached by using those opportunities."
     ],
     [
-     "Consistently favouring peaceful resolutions over warfare",
-     "A policy of avoidance."
+     "Peace itself, for the opportunities it opens – justice is then reached by using those opportunities",
+     "Yes. “God grants to peace what He does not grant to violence.”"
     ],
     [
-     "Larger numbers",
-     "Not quite. The article says: Consistently favouring peaceful resolutions over warfare."
+     "The goodwill of neighbouring kings",
+     "Not quite. The article says: Peace itself, for the opportunities it opens – justice is then reached by using those opportunities."
     ]
    ],
    "answer": 2,
-   "rationale": "The secret lies in the Prophet consistently favouring peaceful resolutions over warfare."
+   "rationale": "“Justice does not come from peace itself; peace creates opportunities, and justice is achieved by utilizing them.”"
   },
   {
    "article": "Recognizing Our Own Faults",
    "page": 8,
    "link": "recognizing-our-own-faults",
-   "q": "What was the title of the article the author read in his youth?",
+   "q": "Hearing many people tell of injustices done to them, what question occurred to the author?",
    "options": [
     [
-     "The Fault Lies Within",
-     "Inspired by a verse of Momin Khan Momin."
+     "If everyone claims to be the victim, who is the oppressor?",
+     "Right. Each was shifting his own mistakes onto others."
     ],
     [
-     "The Perfect Man",
-     "Not quite. The article says: The Fault Lies Within."
+     "Who was the richest among them?",
+     "Not quite. The article says: If everyone claims to be the victim, who is the oppressor?."
     ],
     [
-     "No One Is Wrong",
-     "Not quite. The article says: The Fault Lies Within."
+     "Why had they not moved elsewhere?",
+     "Not quite. The article says: If everyone claims to be the victim, who is the oppressor?."
     ],
     [
-     "Blame the World",
-     "Not quite. The article says: The Fault Lies Within."
+     "Why were the courts not helping them?",
+     "Not quite. The article says: If everyone claims to be the victim, who is the oppressor?."
     ]
    ],
    "answer": 0,
-   "rationale": "An article in an Urdu monthly magazine titled, The Fault Lies Within."
+   "rationale": "“I wondered, if everyone claimed to be a victim, who was playing the oppressor? Eventually, I realized that each person was shifting their mistakes onto others.”"
   },
   {
-   "article": "The Power of Quality in Today’s World",
-   "page": 12,
-   "link": "the-power-of-quality-in-todays-world",
-   "q": "To what has the emphasis shifted in today’s scientific age?",
+   "article": "Recognizing Our Own Faults",
+   "page": 8,
+   "link": "recognizing-our-own-faults",
+   "q": "What does the article say happens once a person takes ownership of his own part in a problem?",
    "options": [
     [
-     "From power to quality",
-     "“The one who wields the sword” belongs to the past."
+     "Problems begin to resolve, and he grows more thoughtful and mature",
+     "Yes. Change begins by looking inward."
     ],
     [
-     "From learning to custom",
-     "Not quite. The article says: From power to quality."
+     "Nothing changes",
+     "Not quite. The article says: Problems begin to resolve, and he grows more thoughtful and mature."
     ],
     [
-     "From quality to power",
-     "Not quite. The article says: From power to quality."
+     "Others take advantage of him",
+     "Not quite. The article says: Problems begin to resolve, and he grows more thoughtful and mature."
     ],
     [
-     "From peace to war",
-     "Not quite. The article says: From power to quality."
+     "The problem grows larger",
+     "Not quite. The article says: Problems begin to resolve, and he grows more thoughtful and mature."
     ]
    ],
    "answer": 0,
-   "rationale": "In today’s scientific age, the emphasis has shifted from power to quality."
+   "rationale": "“Once you take ownership of your role in issues, problems seem to resolve almost effortlessly.”"
+  },
+  {
+   "article": "Modern Atheism: An Analysis",
+   "page": 10,
+   "link": "modern-atheism-an-analysis",
+   "q": "What flaw does the article find in the argument that natural causes make belief in God unnecessary?",
+   "options": [
+    [
+     "Scientists disagree about gravity",
+     "Not quite. The article says: Finding a cause for an event does not explain why the causes themselves exist."
+    ],
+    [
+     "Finding a cause for an event does not explain why the causes themselves exist",
+     "Well reasoned. The question of ultimate origin remains."
+    ],
+    [
+     "Science has found very few causes",
+     "Not quite. The article says: Finding a cause for an event does not explain why the causes themselves exist."
+    ],
+    [
+     "Natural causes do not really exist",
+     "Not quite. The article says: Finding a cause for an event does not explain why the causes themselves exist."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“The existence of a natural cause does not preclude the need for an ultimate explanation… causes themselves require explanation.”"
+  },
+  {
+   "article": "Modern Atheism: An Analysis",
+   "page": 10,
+   "link": "modern-atheism-an-analysis",
+   "q": "Who, according to the article, turned the scientific principle of causation into a case for rejecting God?",
+   "options": [
+    [
+     "Atheistic thinkers, not the scientists – science itself is neutral",
+     "Correct. The shift did not require denying God."
+    ],
+    [
+     "Religious scholars",
+     "Not quite. The article says: Atheistic thinkers, not the scientists – science itself is neutral."
+    ],
+    [
+     "Governments",
+     "Not quite. The article says: Atheistic thinkers, not the scientists – science itself is neutral."
+    ],
+    [
+     "Newton and the first scientists",
+     "Not quite. The article says: Atheistic thinkers, not the scientists – science itself is neutral."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“Atheistic thinkers—rather than scientists—leveraged this scientific framework to advocate for the rejection of God.”"
   },
   {
    "article": "The Destructive Force of Hatred",
    "page": 13,
    "link": "the-destructive-force-of-hatred",
-   "q": "Upon what is every life built, according to the article?",
+   "q": "Abu Hurairah narrated thousands of Hadiths, while Khalid bin Al-Waleed was known for courage in the field. What does the article draw from the difference?",
    "options": [
     [
-     "Rivalry",
-     "Not quite. The article says: A silent covenant between us and our Creator."
+     "Each person has distinct God-given abilities and serves best by recognising and using his own",
+     "Yes. A “silent covenant” with the Creator."
     ],
     [
-     "A silent covenant between us and our Creator",
-     "Each born with unique abilities."
+     "Everyone should aim at the same role",
+     "Not quite. The article says: Each person has distinct God-given abilities and serves best by recognising and using his own."
     ],
     [
-     "Family fortune",
-     "Not quite. The article says: A silent covenant between us and our Creator."
+     "One was more devoted than the other",
+     "Not quite. The article says: Each person has distinct God-given abilities and serves best by recognising and using his own."
     ],
     [
-     "Chance",
-     "Not quite. The article says: A silent covenant between us and our Creator."
+     "Memory matters more than courage",
+     "Not quite. The article says: Each person has distinct God-given abilities and serves best by recognising and using his own."
     ]
    ],
-   "answer": 1,
-   "rationale": "Every life is built upon a silent covenant between us and our Creator."
+   "answer": 0,
+   "rationale": "“This distinction was not about their dedication to Islam but about their natural abilities and the fields in which they excelled.”"
   },
   {
    "article": "Leadership Through Expertise",
    "page": 18,
    "link": "leadership-through-expertise",
-   "q": "What are the first four Caliphs known as?",
+   "q": "What does the article say should decide who is given a responsibility?",
    "options": [
     [
-     "The Khulafa-e-Rashideen (rightly-guided Caliphs)",
-     "Their governance was exemplary."
+     "Who asks first",
+     "Not quite. The article says: Merit and expertise in that work, not seniority or personal ties."
     ],
     [
-     "The Abbasids",
-     "Not quite. The article says: The Khulafa-e-Rashideen (rightly-guided Caliphs)."
+     "Friendship with the leaders",
+     "Not quite. The article says: Merit and expertise in that work, not seniority or personal ties."
     ],
     [
-     "The Ottomans",
-     "Not quite. The article says: The Khulafa-e-Rashideen (rightly-guided Caliphs)."
+     "Length of service",
+     "Not quite. The article says: Merit and expertise in that work, not seniority or personal ties."
     ],
     [
-     "The Umayyads",
-     "Not quite. The article says: The Khulafa-e-Rashideen (rightly-guided Caliphs)."
+     "Merit and expertise in that work, not seniority or personal ties",
+     "Right. “When authority is given to those who do not deserve it…”"
     ]
    ],
-   "answer": 0,
-   "rationale": "The first four Caliphs, known as the Khulafa-e-Rashideen (rightly-guided Caliphs)."
+   "answer": 3,
+   "rationale": "“This Hadith emphasizes the importance of assigning responsibilities based on merit and expertise rather than on other factors such as tenure or personal relationships.”"
   },
   {
    "article": "The Creative Study of the Quran",
    "page": 23,
    "link": "the-creative-study-of-the-quran",
-   "q": "When was the Urdu talk translated here delivered?",
+   "q": "What test does Maulana give for knowing whether one has truly embraced the Quran?",
    "options": [
     [
-     "April 21, 2019",
-     "By Maulana Wahiduddin Khan."
+     "How finely it is printed",
+     "Not quite. The article says: Whether it has sparked fresh, creative thinking through daily reflection."
     ],
     [
-     "August 4, 2013",
-     "Not quite. The article says: April 21, 2019."
+     "How many times one has finished reading it",
+     "Not quite. The article says: Whether it has sparked fresh, creative thinking through daily reflection."
     ],
     [
-     "January 1, 2000",
-     "Not quite. The article says: April 21, 2019."
+     "Whether it has sparked fresh, creative thinking through daily reflection",
+     "Yes. Not memorised translations."
     ],
     [
-     "May 20, 1986",
-     "Not quite. The article says: April 21, 2019."
+     "How much of it one can recite",
+     "Not quite. The article says: Whether it has sparked fresh, creative thinking through daily reflection."
     ]
    ],
-   "answer": 0,
-   "rationale": "Maulana Wahiduddin Khan’s Urdu talk delivered on April 21, 2019."
+   "answer": 2,
+   "rationale": "“The test to know if you have embraced the Quran is whether it has sparked creative thinking in you.”"
   },
   {
-   "article": "Pilgrims of Hope",
-   "page": 31,
-   "link": "pilgrims-of-hope",
-   "q": "Who gave the presentation ‘Pilgrims of Hope’?",
+   "article": "The True Meaning of Martyrdom",
+   "page": 28,
+   "link": "the-true-meaning-of-martyrdom",
+   "q": "The Arabic word shahada means “witnessing.” What does the article conclude about the true meaning of martyrdom?",
    "options": [
     [
-     "Mr Khurram Qureshi",
-     "Not quite. The article says: Shabina Ali of the Kolkata Chapter."
+     "Winning as many battles as possible",
+     "Not quite. The article says: Living as a witness to truth and peace – living for a cause, not seeking death."
     ],
     [
-     "Maulana Iqbal Umri",
-     "Not quite. The article says: Shabina Ali of the Kolkata Chapter."
+     "Seeking death in battle",
+     "Not quite. The article says: Living as a witness to truth and peace – living for a cause, not seeking death."
     ],
     [
-     "Prof Farida Khanam",
-     "Not quite. The article says: Shabina Ali of the Kolkata Chapter."
+     "Living as a witness to truth and peace – living for a cause, not seeking death",
+     "Exactly. The Prophet chose the trench and the treaty."
     ],
     [
-     "Shabina Ali of the Kolkata Chapter",
-     "At an interfaith programme."
+     "Withdrawing from the world",
+     "Not quite. The article says: Living as a witness to truth and peace – living for a cause, not seeking death."
     ]
    ],
-   "answer": 3,
-   "rationale": "The presentation by Shabina Ali (Kolkata Chapter CPS) in an Interfaith programme."
+   "answer": 2,
+   "rationale": "“The ultimate form of martyrdom is living for a cause, not dying for it.”"
   },
   {
    "article": "A Peaceful Citizen",
    "page": 33,
    "link": "a-peaceful-citizen",
-   "q": "What is a true Muslim to those around them?",
+   "q": "What two levels of conduct does the article describe for a member of society?",
    "options": [
     [
-     "A rival",
-     "Not quite. The article says: A source of reassurance, not fear."
+     "At the least, causing no harm to anyone; at the highest, being a source of benefit to others",
+     "Well read. “The best among you are those who bring the most benefit to others.”"
     ],
     [
-     "A source of fear",
-     "Not quite. The article says: A source of reassurance, not fear."
+     "Obeying the law; and avoiding people",
+     "Not quite. The article says: At the least, causing no harm to anyone; at the highest, being a source of benefit to others."
     ],
     [
-     "A source of reassurance, not fear",
-     "Bringing peace by word and deed."
+     "Earning well; and spending well",
+     "Not quite. The article says: At the least, causing no harm to anyone; at the highest, being a source of benefit to others."
     ],
     [
-     "A stranger",
-     "Not quite. The article says: A source of reassurance, not fear."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "A true Muslim is a source of reassurance, not fear, for those around them."
-  },
-  {
-   "article": "The Consideration of Circumstances",
-   "page": 38,
-   "link": "the-consideration-of-circumstances",
-   "q": "What does Islam emphasize in applying divine directives?",
-   "options": [
-    [
-     "Speed",
-     "Not quite. The article says: The importance of context."
-    ],
-    [
-     "Ignoring context",
-     "Not quite. The article says: The importance of context."
-    ],
-    [
-     "The importance of context",
-     "Considering circumstances."
-    ],
-    [
-     "Uniform force",
-     "Not quite. The article says: The importance of context."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "Islam emphasizes the importance of context in the application of divine directives."
-  },
-  {
-   "article": "Discoveries of the Modern Age",
-   "page": 26,
-   "link": "discoveries-of-the-modern-age",
-   "q": "Graduates of which institution spent time under Maulana’s guidance?",
-   "options": [
-    [
-     "Jamia Dar-us-Salam, Oomerabad",
-     "Many scholars have supported the mission."
-    ],
-    [
-     "Oxford University",
-     "Not quite. The article says: Jamia Dar-us-Salam, Oomerabad."
-    ],
-    [
-     "Al-Azhar",
-     "Not quite. The article says: Jamia Dar-us-Salam, Oomerabad."
-    ],
-    [
-     "Harvard",
-     "Not quite. The article says: Jamia Dar-us-Salam, Oomerabad."
+     "Speaking little; and travelling much",
+     "Not quite. The article says: At the least, causing no harm to anyone; at the highest, being a source of benefit to others."
     ]
    ],
    "answer": 0,
-   "rationale": "Few graduates from Jamia Dar-us-Salam, Oomerabad spent a considerable time under the guidance … of Maulana Wahiduddin Khan."
+   "rationale": "“If one cannot offer a direct benefit to others, they should make it their duty to avoid causing harm.”"
   }
  ]
 }

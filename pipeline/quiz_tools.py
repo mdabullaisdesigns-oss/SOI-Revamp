@@ -14,7 +14,7 @@ Text format (the right answer is written first; the order shown to readers is sh
 """
 import json, os, random, re, sys
 
-SKIP = re.compile(r"newsletter|children|glossary|cps-|subscription|contents|letters", re.I)
+SKIP = re.compile(r"newsletter|children|glossary|cps-|subscription|contents|letters|share-your-reflections", re.I)
 
 
 def words(a):

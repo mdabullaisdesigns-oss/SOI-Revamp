@@ -4,261 +4,261 @@
    "article": "New Year’s Message",
    "page": 6,
    "link": "new-years-message",
-   "q": "Which global crisis began in February 2020?",
+   "q": "What does the New Year’s message say happened to the lessons of the pandemic?",
    "options": [
     [
-     "The COVID-19 pandemic",
-     "It highlighted our vulnerability."
+     "The gratitude people felt for simple blessings faded once the crisis passed",
+     "Yes. The message calls us back to it."
     ],
     [
-     "A financial crash",
-     "Not quite. The article says: The COVID-19 pandemic."
+     "They were never noticed",
+     "Not quite. The article says: The gratitude people felt for simple blessings faded once the crisis passed."
     ],
     [
-     "A world war",
-     "Not quite. The article says: The COVID-19 pandemic."
+     "They changed the world for good",
+     "Not quite. The article says: The gratitude people felt for simple blessings faded once the crisis passed."
     ],
     [
-     "A great flood",
-     "Not quite. The article says: The COVID-19 pandemic."
+     "They made people more fearful",
+     "Not quite. The article says: The gratitude people felt for simple blessings faded once the crisis passed."
     ]
    ],
    "answer": 0,
-   "rationale": "In February 2020, the world faced an unprecedented challenge: the COVID-19 pandemic."
+   "rationale": "“As the pandemic subsided, gratitude quickly faded. Today, in the post-COVID-19 era, the lessons we learned seem forgotten.”"
   },
   {
-   "article": "Steps Towards Shared Global Prosperity",
-   "page": 8,
-   "link": "steps-towards-shared-global-prosperity",
-   "q": "Which conflicts does the article mention?",
+   "article": "New Year’s Message",
+   "page": 6,
+   "link": "new-years-message",
+   "q": "The Prophet likened himself to “a rider who stops under the shade of a tree for a while and then moves on.” What does the message draw from this?",
    "options": [
     [
-     "The Napoleonic wars",
-     "Not quite. The article says: Ukraine–Russia and Palestine–Israel."
+     "Avoid owning anything at all",
+     "Not quite. The article says: Take from the world only what the journey needs, without becoming attached to possessions."
     ],
     [
-     "The Crusades",
-     "Not quite. The article says: Ukraine–Russia and Palestine–Israel."
+     "Rest more than you work",
+     "Not quite. The article says: Take from the world only what the journey needs, without becoming attached to possessions."
     ],
     [
-     "Ukraine–Russia and Palestine–Israel",
-     "A call for peace and unity."
+     "Take from the world only what the journey needs, without becoming attached to possessions",
+     "Right. Life here is brief."
     ],
     [
-     "Korea and Vietnam",
-     "Not quite. The article says: Ukraine–Russia and Palestine–Israel."
+     "Travel as often as possible",
+     "Not quite. The article says: Take from the world only what the journey needs, without becoming attached to possessions."
     ]
    ],
    "answer": 2,
-   "rationale": "Complex challenges such as the ongoing Ukraine-Russia and Palestine-Israel conflicts."
+   "rationale": "“This Hadith encourages us to take only what we need for life’s journey and to avoid becoming overly attached to worldly possessions.”"
   },
   {
    "article": "The Universe as a Grand Factory",
    "page": 13,
    "link": "the-universe-as-a-grand-factory",
-   "q": "What does the article ask you to imagine?",
+   "q": "How does the universe differ from a well-run factory, in the article’s picture?",
    "options": [
     [
-     "Reading a map",
-     "Not quite. The article says: Stepping into a meticulously organized factory."
+     "It produces nothing",
+     "Not quite. The article says: It works in perfect order yet carries no labels or guides – its message is silent, and faith and inquiry help us read it."
     ],
     [
-     "Sailing a ship",
-     "Not quite. The article says: Stepping into a meticulously organized factory."
+     "It has more staff to explain it",
+     "Not quite. The article says: It works in perfect order yet carries no labels or guides – its message is silent, and faith and inquiry help us read it."
     ],
     [
-     "Stepping into a meticulously organized factory",
-     "With plaques, staff and literature explaining all."
+     "It works in perfect order yet carries no labels or guides – its message is silent, and faith and inquiry help us read it",
+     "Yes. Design points to a Designer."
     ],
     [
-     "Climbing a mountain",
-     "Not quite. The article says: Stepping into a meticulously organized factory."
+     "It is disorderly where a factory is neat",
+     "Not quite. The article says: It works in perfect order yet carries no labels or guides – its message is silent, and faith and inquiry help us read it."
     ]
    ],
    "answer": 2,
-   "rationale": "Imagine stepping into a factory where everything is meticulously organized and seamlessly operational."
+   "rationale": "“Unlike human-made factories, it lacks visible labelling, guiding systems, or explanatory brochures… In this profound silence, faith emerges as a guiding light.”"
   },
   {
    "article": "The Power of Quality in Today’s World",
    "page": 17,
    "link": "the-power-of-quality-in-todays-world",
-   "q": "What is one of the most remarkable gifts bestowed on humanity?",
+   "q": "After his shop caught fire, a shopkeeper restocked and put up the sign “You will find everything fresh in this shop.” What does the story illustrate?",
    "options": [
     [
-     "Physical strength",
-     "Not quite. The article says: The extraordinary power of the mind."
+     "Fires are good for business",
+     "Not quite. The article says: Positive thinking turns a setback into an opportunity."
     ],
     [
-     "Instinct",
-     "Not quite. The article says: The extraordinary power of the mind."
+     "Advertising is dishonest",
+     "Not quite. The article says: Positive thinking turns a setback into an opportunity."
     ],
     [
-     "The extraordinary power of the mind",
-     "Dormant until we make an effort."
+     "Positive thinking turns a setback into an opportunity",
+     "Well read. There are more possibilities than problems."
     ],
     [
-     "Long life",
-     "Not quite. The article says: The extraordinary power of the mind."
+     "Losses should be hidden",
+     "Not quite. The article says: Positive thinking turns a setback into an opportunity."
     ]
    ],
    "answer": 2,
-   "rationale": "One of the most remarkable gifts bestowed upon humanity is the extraordinary power of the mind."
+   "rationale": "“The shopkeeper’s choice to focus on opportunity rather than loss not only restored his business but elevated it to new heights.”"
   },
   {
-   "article": "The Art of Thinking",
-   "page": 21,
-   "link": "the-art-of-thinking",
-   "q": "What is the actual target of the Quran?",
+   "article": "Inheritance",
+   "page": 19,
+   "link": "inheritance",
+   "q": "What did Rahim Bakhsh inherit from his father in place of wealth?",
    "options": [
     [
-     "To change borders",
-     "Not quite. The article says: To change the thinking of an individual."
+     "A large debt",
+     "Not quite. The article says: Contentment, simplicity and the habit of working hard without complaint or conflict."
     ],
     [
-     "To change dress",
-     "Not quite. The article says: To change the thinking of an individual."
+     "Farmland in the village",
+     "Not quite. The article says: Contentment, simplicity and the habit of working hard without complaint or conflict."
     ],
     [
-     "To change the thinking of an individual",
-     "Thinking is a person’s greatest action."
+     "Contentment, simplicity and the habit of working hard without complaint or conflict",
+     "Correct. A moral inheritance."
     ],
     [
-     "To change rulers",
-     "Not quite. The article says: To change the thinking of an individual."
+     "A shop in the city",
+     "Not quite. The article says: Contentment, simplicity and the habit of working hard without complaint or conflict."
     ]
    ],
    "answer": 2,
-   "rationale": "The actual target of the Book of God (the Quran) is to change the thinking of an individual."
+   "rationale": "“He inherited something far more valuable—contentment, simplicity, and the ability to work diligently without complaint.”"
+  },
+  {
+   "article": "Inheritance",
+   "page": 19,
+   "link": "inheritance",
+   "q": "When his brothers did not show the commitment he expected, how did Rahim Bakhsh settle the matter?",
+   "options": [
+    [
+     "He talked it over openly and gave each brother his own business, deciding by lot – and their relations grew better",
+     "Yes. He avoided both a break and lasting grievance."
+    ],
+    [
+     "He went to court",
+     "Not quite. The article says: He talked it over openly and gave each brother his own business, deciding by lot – and their relations grew better."
+    ],
+    [
+     "He took the whole business for himself",
+     "Not quite. The article says: He talked it over openly and gave each brother his own business, deciding by lot – and their relations grew better."
+    ],
+    [
+     "He closed the business",
+     "Not quite. The article says: He talked it over openly and gave each brother his own business, deciding by lot – and their relations grew better."
+    ]
+   ],
+   "answer": 0,
+   "rationale": "“He… proposed the best course of action: each brother would assume individual responsibility for one business. This way, peace would be maintained between them.”"
   },
   {
    "article": "Adjustment in Married Life",
    "page": 23,
    "link": "adjustment-in-married-life",
-   "q": "What is the key to a successful married life?",
+   "q": "For what higher purpose does the article say husband and wife should adjust to each other?",
    "options": [
     [
-     "Adjustment – for a higher purpose",
-     "To create a harmonious environment."
+     "To avoid being seen quarrelling",
+     "Not quite. The article says: To become intellectual partners who help each other grow."
     ],
     [
-     "Wealth",
-     "Not quite. The article says: Adjustment – for a higher purpose."
+     "To save money",
+     "Not quite. The article says: To become intellectual partners who help each other grow."
     ],
     [
-     "Winning arguments",
-     "Not quite. The article says: Adjustment – for a higher purpose."
+     "To please their relatives",
+     "Not quite. The article says: To become intellectual partners who help each other grow."
     ],
     [
-     "Living apart",
-     "Not quite. The article says: Adjustment – for a higher purpose."
+     "To become intellectual partners who help each other grow",
+     "Right. Not merely to make things easier."
     ]
    ],
-   "answer": 0,
-   "rationale": "Adjustment is the key to a successful married life."
+   "answer": 3,
+   "rationale": "“The best way to describe the relationship between husband and wife is ‘intellectual partnership.’… Adjustment should be for a higher purpose.”"
   },
   {
    "article": "Religious Differences",
    "page": 26,
    "link": "religious-differences",
-   "q": "What does a comparative study of religions reveal?",
+   "q": "The article compares claiming that all religions are the same to compiling one “universal constitution” from parts of many. What is the point?",
    "options": [
     [
-     "That all are identical",
-     "Not quite. The article says: Distinct differences among them."
+     "All countries should share one constitution",
+     "Not quite. The article says: Selected extracts cannot make different systems identical, and none of their followers would accept the result."
     ],
     [
-     "That none has beliefs",
-     "Not quite. The article says: Distinct differences among them."
+     "Differences are harmful and must be removed",
+     "Not quite. The article says: Selected extracts cannot make different systems identical, and none of their followers would accept the result."
     ],
     [
-     "Nothing",
-     "Not quite. The article says: Distinct differences among them."
+     "Constitutions and religions are the same kind of thing",
+     "Not quite. The article says: Selected extracts cannot make different systems identical, and none of their followers would accept the result."
     ],
     [
-     "Distinct differences among them",
-     "Such as monism and monotheism."
+     "Selected extracts cannot make different systems identical, and none of their followers would accept the result",
+     "Yes. The workable formula is “Follow one, and respect all.”"
     ]
    ],
    "answer": 3,
-   "rationale": "A comparative study of various religions reveals distinct differences among them."
+   "rationale": "“Such an imaginary universal constitution may provide immense satisfaction to the author of such a book, but it would be utterly unacceptable to even a single nation.”"
   },
   {
    "article": "The Evolution of Anesthesia",
    "page": 35,
    "link": "the-evolution-of-anesthesia",
-   "q": "Which substance did Dr. Simpson study for anesthesia?",
+   "q": "What thought did the writer’s experience of painless surgery bring to him?",
    "options": [
     [
-     "Quinine",
-     "Not quite. The article says: Chloroform."
+     "Anaesthesia gives brief relief from pain here; the prophets showed the way to a state free of all sorrow, in Paradise",
+     "Exactly. “Praise be to God who has taken away all sorrow from us.”"
     ],
     [
-     "Aspirin",
-     "Not quite. The article says: Chloroform."
+     "Pain is an illusion",
+     "Not quite. The article says: Anaesthesia gives brief relief from pain here; the prophets showed the way to a state free of all sorrow, in Paradise."
     ],
     [
-     "Penicillin",
-     "Not quite. The article says: Chloroform."
+     "Surgery should be avoided",
+     "Not quite. The article says: Anaesthesia gives brief relief from pain here; the prophets showed the way to a state free of all sorrow, in Paradise."
     ],
     [
-     "Chloroform",
-     "From Maulana’s book Secret of Success."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "Dr. Simpson had learnt that chloroform possessed certain properties."
-  },
-  {
-   "article": "Transforming Challenges into Opportunities",
-   "page": 46,
-   "link": "transforming-challenges-into-opportunities",
-   "q": "To what is life likened?",
-   "options": [
-    [
-     "A journey full of twists and turns",
-     "Needing a skilled driver’s care."
-    ],
-    [
-     "A closed room",
-     "Not quite. The article says: A journey full of twists and turns."
-    ],
-    [
-     "A straight road",
-     "Not quite. The article says: A journey full of twists and turns."
-    ],
-    [
-     "A still pond",
-     "Not quite. The article says: A journey full of twists and turns."
+     "Medicine has made faith unnecessary",
+     "Not quite. The article says: Anaesthesia gives brief relief from pain here; the prophets showed the way to a state free of all sorrow, in Paradise."
     ]
    ],
    "answer": 0,
-   "rationale": "Life is akin to a journey, full of twists and turns."
+   "rationale": "“Dr. Simpson’s contribution provided temporary relief from pain in this world, while the prophets offered the path to salvation from eternal suffering.”"
   },
   {
    "article": "Your Questions Answered",
    "page": 48,
    "link": "your-questions-answered",
-   "q": "What does religion teach about death?",
+   "q": "Does remembering death often make a person negative about life, according to the answer given?",
    "options": [
     [
-     "It is the end of everything",
-     "Not quite. The article says: It is the beginning of a new phase, not the end."
+     "Yes – it should be avoided",
+     "Not quite. The article says: No – it creates a sense of urgency, so that time is used well and life gains focus."
     ],
     [
-     "It is an illusion",
-     "Not quite. The article says: It is the beginning of a new phase, not the end."
+     "Yes – but that is its purpose",
+     "Not quite. The article says: No – it creates a sense of urgency, so that time is used well and life gains focus."
     ],
     [
-     "It is the beginning of a new phase, not the end",
-     "Humans are created as eternal beings."
+     "No – it creates a sense of urgency, so that time is used well and life gains focus",
+     "Well reasoned. Such people often live better."
     ],
     [
-     "It is a punishment only",
-     "Not quite. The article says: It is the beginning of a new phase, not the end."
+     "It has no effect either way",
+     "Not quite. The article says: No – it creates a sense of urgency, so that time is used well and life gains focus."
     ]
    ],
    "answer": 2,
-   "rationale": "Death is not the end of life but rather the beginning of a new phase."
+   "rationale": "“A sense of urgency is created within us. We become more mindful of our time and avoid wasting it on trivial pursuits.”"
   }
  ]
 }
