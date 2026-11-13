@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "A Message for the New Year",
-   "page": 5,
-   "link": "a-message-for-the-new-year",
-   "q": "Which year of publication did the January 2020 issue begin?",
+   "article": "Restoration of Religion",
+   "page": 18,
+   "link": "restoration-of-religion",
+   "q": "When centuries of soot were cleaned from Michelangelo’s frescoes, their original colours proved far brighter than anyone had thought. What does the article compare with this?",
    "options": [
     [
-     "The 1st",
-     "Not quite. The article says: The 8th."
+     "The fading of human memory",
+     "Not quite. The article says: True religion, whose original form has been dimmed by later additions and needs restoring."
     ],
     [
-     "The 25th",
-     "Not quite. The article says: The 8th."
+     "The ageing of old buildings",
+     "Not quite. The article says: True religion, whose original form has been dimmed by later additions and needs restoring."
     ],
     [
-     "The 8th",
-     "With thanks to Almighty God."
+     "True religion, whose original form has been dimmed by later additions and needs restoring",
+     "Yes. Then it is seen to be quite different from what was supposed."
     ],
     [
-     "The 5th",
-     "Not quite. The article says: The 8th."
+     "The decline of the arts",
+     "Not quite. The article says: True religion, whose original form has been dimmed by later additions and needs restoring."
     ]
    ],
    "answer": 2,
-   "rationale": "This January 2020 issue marks the magazine’s entry into 8th year of its publication."
+   "rationale": "“In very much the same way, the nature of true religion has become distorted over the centuries… it is in need of restoration to its original form.”"
   },
   {
-   "article": "Taking Setbacks as Challenges",
-   "page": 7,
-   "link": "taking-setbacks-as-challenges",
-   "q": "What remedy is still eluding Muslims, according to the article?",
+   "article": "Restoration of Religion",
+   "page": 18,
+   "link": "restoration-of-religion",
+   "q": "How does the article contrast religion in its pure form with religion in a distorted form?",
    "options": [
     [
-     "Finding leaders",
-     "Not quite. The article says: Being realistic in their approach."
+     "Pure religion is simple; distorted religion is complicated",
+     "Not quite. The article says: Pure religion springs from the heart and breeds humility and unity; distorted, it becomes empty rites and a source of pride."
     ],
     [
-     "Earning more",
-     "Not quite. The article says: Being realistic in their approach."
+     "Pure religion is private; distorted religion is public",
+     "Not quite. The article says: Pure religion springs from the heart and breeds humility and unity; distorted, it becomes empty rites and a source of pride."
     ],
     [
-     "Building schools",
-     "Not quite. The article says: Being realistic in their approach."
+     "Pure religion is old; distorted religion is new",
+     "Not quite. The article says: Pure religion springs from the heart and breeds humility and unity; distorted, it becomes empty rites and a source of pride."
     ],
     [
-     "Being realistic in their approach",
-     "Foremost among their problems."
+     "Pure religion springs from the heart and breeds humility and unity; distorted, it becomes empty rites and a source of pride",
+     "Well read. The spirit is lost while the form remains."
     ]
    ],
    "answer": 3,
-   "rationale": "Their inability to be realistic in their approach … The remedy is still eluding Muslims."
-  },
-  {
-   "article": "The Universe Declares",
-   "page": 12,
-   "link": "the-universe-declares",
-   "q": "What is the title of the booklet from Kerala?",
-   "options": [
-    [
-     "Nature and Science Speak about God",
-     "A 28-page book."
-    ],
-    [
-     "The Mysterious Universe",
-     "Not quite. The article says: Nature and Science Speak about God."
-    ],
-    [
-     "A Brief History of Time",
-     "Not quite. The article says: Nature and Science Speak about God."
-    ],
-    [
-     "The Origin of Species",
-     "Not quite. The article says: Nature and Science Speak about God."
-    ]
-   ],
-   "answer": 0,
-   "rationale": "A booklet titled Nature and Science Speak about God."
+   "rationale": "“Religion in its pristine form breeds humility in its followers, fostering human unity; but when religion becomes distorted, it becomes a source of pride.”"
   },
   {
    "article": "Signs of God Scattered in the Universe",
    "page": 20,
    "link": "signs-of-god-scattered-in-the-universe",
-   "q": "Who wrote ‘The Rime of the Ancient Mariner’?",
+   "q": "Most of the earth’s water is salty and undrinkable. Which natural process does the article point to as a sign of God?",
    "options": [
     [
-     "Keats",
-     "Not quite. The article says: Samuel Taylor Coleridge."
+     "Evaporation by the sun, which leaves the salt behind and returns the water as fresh rain",
+     "Right. Nature’s own desalination."
     ],
     [
-     "Byron",
-     "Not quite. The article says: Samuel Taylor Coleridge."
+     "Ice forming at the poles",
+     "Not quite. The article says: Evaporation by the sun, which leaves the salt behind and returns the water as fresh rain."
     ],
     [
-     "Samuel Taylor Coleridge",
-     "A sailor stuck at sea with no fresh water."
+     "Springs rising from deep rock",
+     "Not quite. The article says: Evaporation by the sun, which leaves the salt behind and returns the water as fresh rain."
     ],
     [
-     "Wordsworth",
-     "Not quite. The article says: Samuel Taylor Coleridge."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "Samuel Taylor Coleridge … One of his poems is titled ‘The Rime of the Ancient Mariner’."
-  },
-  {
-   "article": "God—the Voice of Human Nature",
-   "page": 21,
-   "link": "god-the-voice-of-human-nature",
-   "q": "When did the actress say she believed in God more?",
-   "options": [
-    [
-     "When on an aeroplane",
-     "At a press conference in India, 1975."
-    ],
-    [
-     "When on stage",
-     "Not quite. The article says: When on an aeroplane."
-    ],
-    [
-     "When at home",
-     "Not quite. The article says: When on an aeroplane."
-    ],
-    [
-     "When asleep",
-     "Not quite. The article says: When on an aeroplane."
+     "Rivers washing salt back to the sea",
+     "Not quite. The article says: Evaporation by the sun, which leaves the salt behind and returns the water as fresh rain."
     ]
    ],
    "answer": 0,
-   "rationale": "“I believe in God, more when I am on an aeroplane.”"
+   "rationale": "“Heated by the sun, seawater evaporates. The vapour rises up in the atmosphere, leaving behind the salt that the water had contained.”"
   },
   {
    "article": "Make God Your Supreme Concern",
    "page": 32,
    "link": "make-god-your-supreme-concern",
-   "q": "Why do most people talk of God-realization without attaining it?",
+   "q": "Many speak of God-realization (marifah) without attaining it. Why, according to the article?",
    "options": [
     [
-     "They have no time",
-     "Not quite. The article says: They are not willing to pay the price."
+     "It comes only in old age",
+     "Not quite. The article says: They wish for it but will not pay its price – giving themselves to it completely."
     ],
     [
-     "It is forbidden",
-     "Not quite. The article says: They are not willing to pay the price."
+     "It requires great wealth",
+     "Not quite. The article says: They wish for it but will not pay its price – giving themselves to it completely."
     ],
     [
-     "They are not willing to pay the price",
-     "Nothing is achieved without a price."
+     "They wish for it but will not pay its price – giving themselves to it completely",
+     "Yes. “Knowledge gives you a part of it only when you give yourself to it completely.”"
     ],
     [
-     "It is impossible",
-     "Not quite. The article says: They are not willing to pay the price."
+     "It is granted only to scholars",
+     "Not quite. The article says: They wish for it but will not pay its price – giving themselves to it completely."
     ]
    ],
    "answer": 2,
-   "rationale": "They wish to attain the realization of God but they are not willing to pay the price."
+   "rationale": "“The reason is that they wish to attain the realization of God but they are not willing to pay the price… The price of God-realization is total surrender.”"
   },
   {
-   "article": "Faith and Human Behaviour",
-   "page": 35,
-   "link": "faith-and-human-behaviour",
-   "q": "How can Islam be summed up very briefly?",
+   "article": "Make God Your Supreme Concern",
+   "page": 32,
+   "link": "make-god-your-supreme-concern",
+   "q": "Can God-realization be handed down from father to son, in the article’s view?",
    "options": [
     [
-     "Ritual and custom",
-     "Not quite. The article says: Fear of God (taqwa) and benevolence towards others."
+     "No – it is personal and comes only through one’s own effort; otherwise it is merely traditional belief",
+     "Correct. A lifelong journey of discovery."
     ],
     [
-     "Fear of God (taqwa) and benevolence towards others",
-     "The object is the spirit of piety."
+     "Yes, if the father is learned",
+     "Not quite. The article says: No – it is personal and comes only through one’s own effort; otherwise it is merely traditional belief."
     ],
     [
-     "Trade and travel",
-     "Not quite. The article says: Fear of God (taqwa) and benevolence towards others."
+     "Yes, in devout families",
+     "Not quite. The article says: No – it is personal and comes only through one’s own effort; otherwise it is merely traditional belief."
     ],
     [
-     "Power and wealth",
-     "Not quite. The article says: Fear of God (taqwa) and benevolence towards others."
+     "Only to the eldest child",
+     "Not quite. The article says: No – it is personal and comes only through one’s own effort; otherwise it is merely traditional belief."
     ]
    ],
-   "answer": 1,
-   "rationale": "Islam can be summed up very briefly: Fear of God (taqwa) and benevolence towards others."
+   "answer": 0,
+   "rationale": "“Marifah… is not something to be inherited… Whatever one receives without personal struggle will be just a kind of traditional belief rather than a living marifah.”"
   },
   {
    "article": "The Flawless Universe",
    "page": 41,
    "link": "the-flawless-universe",
-   "q": "How does the Quran (67: 3-4) speak of the universe?",
+   "q": "Science has found the universe to be well planned and well managed – even “intelligent.” What does the article say follows from this?",
    "options": [
     [
-     "As unfinished",
-     "Not quite. The article says: As flawless."
+     "That it was shaped by human observers",
+     "Not quite. The article says: That it is the work of an intelligent Creator."
     ],
     [
-     "As an illusion",
-     "Not quite. The article says: As flawless."
+     "That it will run forever",
+     "Not quite. The article says: That it is the work of an intelligent Creator."
     ],
     [
-     "As flawless",
-     "In the complete sense."
+     "That it is the work of an intelligent Creator",
+     "Right. No other explanation fits."
     ],
     [
-     "As broken",
-     "Not quite. The article says: As flawless."
+     "That it needs no explanation",
+     "Not quite. The article says: That it is the work of an intelligent Creator."
     ]
    ],
    "answer": 2,
-   "rationale": "Here, the Quran speaks of the universe as flawless."
+   "rationale": "“Accepting the universe as an intelligent universe means also that this universe is the creation of an intelligent Creator.”"
   },
   {
-   "article": "A Perpetual Enterprise",
-   "page": 44,
-   "link": "a-perpetual-enterprise",
-   "q": "What is faith, according to the article?",
+   "article": "Appearance and Reality",
+   "page": 42,
+   "link": "appearance-and-reality",
+   "q": "Two people sit down to the same meal. What distinguishes the one the article calls “seeing” from the one it calls “blind”?",
    "options": [
     [
-     "A set of customs",
-     "Not quite. The article says: The discovery of God, a limitless reality."
+     "He knows the price of each item",
+     "Not quite. The article says: He recognises the food as God’s gift, the product of the whole universe, and feels wonder and gratitude."
     ],
     [
-     "A single moment",
-     "Not quite. The article says: The discovery of God, a limitless reality."
+     "He recognises the food as God’s gift, the product of the whole universe, and feels wonder and gratitude",
+     "Well reasoned. The other sees only shop-bought goods."
     ],
     [
-     "An inherited label",
-     "Not quite. The article says: The discovery of God, a limitless reality."
+     "He has cooked the food himself",
+     "Not quite. The article says: He recognises the food as God’s gift, the product of the whole universe, and feels wonder and gratitude."
     ],
     [
-     "The discovery of God, a limitless reality",
-     "An ongoing event."
+     "He eats more slowly",
+     "Not quite. The article says: He recognises the food as God’s gift, the product of the whole universe, and feels wonder and gratitude."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“When he drinks milk, or puts a piece of fruit into his mouth, he feels that it is a unique blessing from God.”"
+  },
+  {
+   "article": "Appearance and Reality",
+   "page": 42,
+   "link": "appearance-and-reality",
+   "q": "What does “faith in the unseen” mean, as the article explains it?",
+   "options": [
+    [
+     "Ignoring the visible world",
+     "Not quite. The article says: Realising that what seems to come from human hands comes in truth from God."
+    ],
+    [
+     "Expecting miracles daily",
+     "Not quite. The article says: Realising that what seems to come from human hands comes in truth from God."
+    ],
+    [
+     "Realising that what seems to come from human hands comes in truth from God",
+     "Yes. Looking through appearance to reality."
+    ],
+    [
+     "Believing whatever one is told",
+     "Not quite. The article says: Realising that what seems to come from human hands comes in truth from God."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“Faith in the unseen means the realization that the things which we seem to receive from the hands of men, come in actuality, from the hands of God.”"
+  },
+  {
+   "article": "Procession of Death",
+   "page": 45,
+   "link": "procession-of-death",
+   "q": "We see or hear of a death almost daily. Why, says the article, do we fail to take in what it means?",
+   "options": [
+    [
+     "Because it happens far away",
+     "Not quite. The article says: We are absorbed in worldly concerns and think of people only in worldly terms, not in relation to the eternal world."
+    ],
+    [
+     "Because the young are not told of it",
+     "Not quite. The article says: We are absorbed in worldly concerns and think of people only in worldly terms, not in relation to the eternal world."
+    ],
+    [
+     "Because death is rare",
+     "Not quite. The article says: We are absorbed in worldly concerns and think of people only in worldly terms, not in relation to the eternal world."
+    ],
+    [
+     "We are absorbed in worldly concerns and think of people only in worldly terms, not in relation to the eternal world",
+     "Exactly. No living picture of the Hereafter is before us."
     ]
    ],
    "answer": 3,
-   "rationale": "Faith is the discovery of God who is a limitless reality."
+   "rationale": "“We see man in relation to this ephemeral world, but fail to see him in relation to the next eternal world.”"
   },
   {
    "article": "The Word of God",
    "page": 46,
    "link": "the-word-of-god",
-   "q": "Which tribes denied that disaster would strike them?",
+   "q": "The commentary speaks of two ways of denying the Hereafter. What are they?",
    "options": [
     [
-     "Thamud and ‘Ad",
-     "“The Inevitable Hour!”"
+     "Denying it in words, and denying it in practice by living for this world alone",
+     "Well read. In effect the two are the same."
     ],
     [
-     "Romans and Persians",
-     "Not quite. The article says: Thamud and ‘Ad."
+     "Denying it in private and in public",
+     "Not quite. The article says: Denying it in words, and denying it in practice by living for this world alone."
     ],
     [
-     "Quraysh and Aws",
-     "Not quite. The article says: Thamud and ‘Ad."
+     "Denying it in youth and in old age",
+     "Not quite. The article says: Denying it in words, and denying it in practice by living for this world alone."
     ],
     [
-     "Israel and Egypt",
-     "Not quite. The article says: Thamud and ‘Ad."
+     "Denying it in prose and in verse",
+     "Not quite. The article says: Denying it in words, and denying it in practice by living for this world alone."
     ]
    ],
    "answer": 0,
-   "rationale": "The tribes of Thamud and ‘Ad denied that disaster would strike them."
+   "rationale": "“One group rejecting it by word of mouth and the other doing so in practice.”"
   }
  ]
 }
