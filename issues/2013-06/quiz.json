@@ -4,261 +4,261 @@
    "article": "The Age of Neo-Gandhism",
    "page": 6,
    "link": "the-age-of-neo-gandhism",
-   "q": "Which slogan did India’s leaders adopt after 1947?",
+   "q": "How does “Neo-Gandhism,” as the editorial describes it, differ from the Gandhian method used before 1947?",
    "options": [
     [
-     "‘Unite India’",
-     "This is not the slogan named."
+     "It seeks help from foreign powers",
+     "Not quite. The article says: It works by re-educating minds, where the older method relied on mass mobilization."
     ],
     [
-     "‘Shining India’",
-     "This is not the slogan named."
+     "It gives up Gandhi’s ideas altogether",
+     "Not quite. The article says: It works by re-educating minds, where the older method relied on mass mobilization."
     ],
     [
-     "‘Quit India’",
-     "That was the goal before 1947."
+     "It allows force where peaceful protest fails",
+     "Not quite. The article says: It works by re-educating minds, where the older method relied on mass mobilization."
     ],
     [
-     "‘Build India’",
-     "Before 1947 the goal was ‘Quit India’."
+     "It works by re-educating minds, where the older method relied on mass mobilization",
+     "Yes. “Mob activism” is to be replaced by “educational activism.”"
     ]
    ],
    "answer": 3,
-   "rationale": "Before 1947, the goal was ‘Quit India’. Then, after 1947, our leaders adopted a new slogan: ‘Build India’."
+   "rationale": "“While the old pattern of the Gandhian method was based on mass mobilization, Neo-Gandhism will be based on the re-engineering of people’s minds.”"
+  },
+  {
+   "article": "The Age of Neo-Gandhism",
+   "page": 6,
+   "link": "the-age-of-neo-gandhism",
+   "q": "Why, according to the editorial, have protest methods lost their relevance in India today?",
+   "options": [
+    [
+     "The freedom struggle was never truly peaceful",
+     "Not quite. The article says: There is no foreign “they” any more – the task is to build one’s own nation, a “we-we” equation."
+    ],
+    [
+     "People have lost interest in public life",
+     "Not quite. The article says: There is no foreign “they” any more – the task is to build one’s own nation, a “we-we” equation."
+    ],
+    [
+     "Protests are now forbidden by law",
+     "Not quite. The article says: There is no foreign “they” any more – the task is to build one’s own nation, a “we-we” equation."
+    ],
+    [
+     "There is no foreign “they” any more – the task is to build one’s own nation, a “we-we” equation",
+     "Exactly. The target is now ourselves."
+    ]
+   ],
+   "answer": 3,
+   "rationale": "“Now, there is no ‘they’; all are members of the Indian nation. The present situation is based on a ‘we-we’ equation, and not a ‘we-they’ equation as it was in the past.”"
   },
   {
    "article": "Experiencing the Presence of God",
    "page": 9,
    "link": "experiencing-the-presence-of-god",
-   "q": "How did Colonel James Irwin describe setting foot on the moon?",
+   "q": "Astronaut James Irwin felt God’s presence on the moon. Why, says the article, do most of us not feel it on earth?",
    "options": [
     [
-     "A disappointment",
-     "He called it ecstatic."
+     "Only a few chosen people can feel it",
+     "Not quite. The article says: Familiarity – we have seen the world’s wonders since childhood and take them for granted."
     ],
     [
-     "A frightening ordeal",
-     "He called it ecstatic."
+     "The earth is less wonderful than the moon",
+     "Not quite. The article says: Familiarity – we have seen the world’s wonders since childhood and take them for granted."
     ],
     [
-     "A purely scientific achievement",
-     "He did not see it as mere scientific discovery."
+     "Modern life leaves no time for nature",
+     "Not quite. The article says: Familiarity – we have seen the world’s wonders since childhood and take them for granted."
     ],
     [
-     "An ecstatic experience of feeling oneself in God’s presence",
-     "It gave him new spiritual life."
+     "Familiarity – we have seen the world’s wonders since childhood and take them for granted",
+     "Right. We must look “as if we are seeing them for the first time.”"
     ]
    ],
    "answer": 3,
-   "rationale": "It was an ecstatic experience he said, to feel oneself in God’s presence, to feel so close to Him that His greatness appeared before one’s eyes."
+   "rationale": "“By observing the world around us from an early age, we become accustomed to it; we take it so much for granted that we fail to perceive its uniqueness.”"
   },
   {
    "article": "Trust Is Golden",
    "page": 18,
    "link": "trust-is-golden",
-   "q": "What won the cloth-seller the confidence of his wholesaler?",
+   "q": "A Delhi street vendor was given cloth worth Rs 150,000 on credit. What had earned him this?",
    "options": [
     [
-     "A large deposit",
-     "He had very little capital."
+     "Years of paying his debts before they were due",
+     "Yes. Trust is built by acting, not by claiming to be trustworthy."
     ],
     [
-     "His family connections",
-     "He began with only a few hundred rupees."
+     "His skill at persuading people",
+     "Not quite. The article says: Years of paying his debts before they were due."
     ],
     [
-     "His clever advertising",
-     "This is not in the story."
+     "A large cash deposit",
+     "Not quite. The article says: Years of paying his debts before they were due."
     ],
     [
-     "His honesty and fair dealing",
-     "He always settled his debt before the appointed date."
+     "A relative’s guarantee",
+     "Not quite. The article says: Years of paying his debts before they were due."
     ]
    ],
-   "answer": 3,
-   "rationale": "This freelance cloth-merchant built up a good deal of trust with his wholesaler, whom he impressed with his honesty and fair dealing."
+   "answer": 0,
+   "rationale": "“The way to establish trust is not by repeating how trustworthy one is. No, it is by acting in a trustworthy manner… consistently… over a long period.”"
   },
   {
    "article": "Science and Religion",
    "page": 19,
    "link": "science-and-religion",
-   "q": "What did Newton write about the rotation of the planets?",
+   "q": "What, according to the article, was the real conflict that made science seem opposed to religion?",
    "options": [
     [
-     "That there must also be a divine arm in it",
-     "Not only the law of gravity."
+     "A conflict between Newton and the Church",
+     "Not quite. The article says: A conflict between science and an old theology built on Greek and Egyptian philosophy."
     ],
     [
-     "That it is an illusion",
-     "This is not what he wrote."
+     "A conflict between science and an old theology built on Greek and Egyptian philosophy",
+     "Well done. It was not divine religion that science contradicted."
     ],
     [
-     "That gravity alone explains it",
-     "He wrote that it is not only due to gravity."
+     "A conflict between scientists of different countries",
+     "Not quite. The article says: A conflict between science and an old theology built on Greek and Egyptian philosophy."
     ],
     [
-     "That it cannot be studied",
-     "He had just discovered its laws."
+     "A conflict between Darwin’s followers and Newton’s",
+     "Not quite. The article says: A conflict between science and an old theology built on Greek and Egyptian philosophy."
     ]
    ],
-   "answer": 0,
-   "rationale": "The continuous rotation of the planets is not only due to the law of gravity; there must also be a divine arm in it."
+   "answer": 1,
+   "rationale": "“It was, in fact, a conflict between science and ancient theology, which had been founded on Greek and Egyptian philosophy rather than on divine religion.”"
   },
   {
    "article": "Try, Try, and Try Again",
    "page": 25,
    "link": "try-try-and-try-again",
-   "q": "To what did the factory owner compare the growth of his business?",
+   "q": "The article says every real achievement takes “fifteen years.” What point is it making?",
    "options": [
     [
-     "A tree bearing fruit in a season",
-     "This is not his comparison."
+     "Businesses should be sold after fifteen years",
+     "Not quite. The article says: Lasting success comes only through long, continuous effort, in line with the laws God has set."
     ],
     [
-     "A child growing into boyhood over fifteen years",
-     "“It has been a fifteen-year struggle.”"
+     "Young people should not begin anything early",
+     "Not quite. The article says: Lasting success comes only through long, continuous effort, in line with the laws God has set."
     ],
     [
-     "A lottery win",
-     "He stressed long hard work."
+     "Lasting success comes only through long, continuous effort, in line with the laws God has set",
+     "Exactly. Instant success is called an illusion."
     ],
     [
-     "A river in flood",
-     "This is not his comparison."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "“Just as a young child grows into boyhood after fifteen years, so does a business. I have not reached this stage in one day.”"
-  },
-  {
-   "article": "Moral and Ethical Development in Society",
-   "page": 29,
-   "link": "moral-and-ethical-development-in-society",
-   "q": "What two aspects do all major religions have, according to the article?",
-   "options": [
-    [
-     "Ritual and festival",
-     "These are not the two aspects named."
-    ],
-    [
-     "History and language",
-     "These are not the two aspects named."
-    ],
-    [
-     "Theology and the moral scheme",
-     "Beliefs on one side, the ethical system on the other."
-    ],
-    [
-     "Law and politics",
-     "These are not the two aspects named."
+     "Fifteen is a number with special meaning",
+     "Not quite. The article says: Lasting success comes only through long, continuous effort, in line with the laws God has set."
     ]
    ],
    "answer": 2,
-   "rationale": "All the major religions have two different aspects to them — theology and the moral scheme."
+   "rationale": "“Those who long for a recipe for instant success are, in fact, living in a fool’s paradise… The only condition to succeed is continuous effort.”"
   },
   {
    "article": "Disadvantage Turned to Advantage",
    "page": 34,
    "link": "disadvantage-turned-to-advantage",
-   "q": "Which personal trait of Mahatma Gandhi does the article begin with?",
+   "q": "How did Mahatma Gandhi’s early shyness turn to his advantage?",
    "options": [
     [
-     "He was a gifted orator from youth",
-     "The article says the opposite."
+     "It won him the sympathy of judges",
+     "Not quite. The article says: It taught him economy of words, so that he rarely spoke or wrote thoughtlessly."
     ],
     [
-     "He was quick-tempered",
-     "The article speaks of shyness."
+     "It kept him out of politics until he was ready",
+     "Not quite. The article says: It taught him economy of words, so that he rarely spoke or wrote thoughtlessly."
     ],
     [
-     "He was very shy by nature",
-     "At a London meeting he could not manage his speech."
+     "It taught him economy of words, so that he rarely spoke or wrote thoughtlessly",
+     "Yes. He called his hesitancy “now a pleasure.”"
     ],
     [
-     "He disliked reading",
-     "This is not mentioned."
+     "It led him to take up writing instead of law",
+     "Not quite. The article says: It taught him economy of words, so that he rarely spoke or wrote thoughtlessly."
     ]
    ],
    "answer": 2,
-   "rationale": "Mahatma Gandhi was very shy by nature … it was a long time before he managed to shake off his shyness."
+   "rationale": "Gandhi wrote: “Its greatest benefit has been that it has taught me the economy of words… a thoughtless word hardly ever escaped my tongue or pen.”"
+  },
+  {
+   "article": "Criticism and Denigration",
+   "page": 35,
+   "link": "criticism-and-denigration",
+   "q": "When one side argues calmly with reasons and the other answers with mockery, what does the article say this shows?",
+   "options": [
+    [
+     "That the calm speaker lacks conviction",
+     "Not quite. The article says: That the one who reasons is in the right."
+    ],
+    [
+     "That the one who reasons is in the right",
+     "Correct. The Prophets spoke the language of reason."
+    ],
+    [
+     "That the matter cannot be settled",
+     "Not quite. The article says: That the one who reasons is in the right."
+    ],
+    [
+     "That both sides are equally unsure",
+     "Not quite. The article says: That the one who reasons is in the right."
+    ]
+   ],
+   "answer": 1,
+   "rationale": "“This difference in approach is a sure indication that the former is in the right and his opponents are in the wrong.”"
   },
   {
    "article": "Seeking the Right Alternatives",
    "page": 36,
    "link": "seeking-the-right-alternatives",
-   "q": "What did the porter advise the passenger who had missed his train?",
+   "q": "What is “the lesson that the platform teaches” the passenger who missed his train?",
    "options": [
     [
-     "To complain to the station master",
-     "This was not the advice."
+     "It is better to travel by another route",
+     "Not quite. The article says: There is always a next train – a second opportunity to be patiently awaited and taken."
     ],
     [
-     "To wait on the same platform for the next train",
-     "Another train would come in a couple of hours."
+     "A missed chance never returns",
+     "Not quite. The article says: There is always a next train – a second opportunity to be patiently awaited and taken."
     ],
     [
-     "To run after the train",
-     "This was not the advice."
+     "One should always arrive early",
+     "Not quite. The article says: There is always a next train – a second opportunity to be patiently awaited and taken."
     ],
     [
-     "To go home and return tomorrow",
-     "The porter said, “Why go away?”"
+     "There is always a next train – a second opportunity to be patiently awaited and taken",
+     "Right. Blaming others only wastes energy."
     ]
    ],
-   "answer": 1,
-   "rationale": "“There will be another train along in about a couple of hours. Why go away? Just wait here for it on this same platform.”"
+   "answer": 3,
+   "rationale": "“There is always that ‘next train’ for them to catch… being ready to avail of that God-given second opportunity.”"
   },
   {
    "article": "The Lesson of Death",
    "page": 38,
    "link": "the-lesson-of-death",
-   "q": "What does the article say of everyone alive today?",
+   "q": "How, according to the article, would remembering death change the way a person treats others?",
    "options": [
     [
-     "Everyone is innocent",
-     "The article says everyone is in some sense a culprit."
+     "He would see no sense in oppressing others or in pride, since he must soon come under the will of Another",
+     "Yes. Greatness that does not last has no value."
     ],
     [
-     "Everyone remembers death constantly",
-     "The article says few pay heed."
+     "He would hurry to enjoy what he has",
+     "Not quite. The article says: He would see no sense in oppressing others or in pride, since he must soon come under the will of Another."
     ],
     [
-     "Everyone will live as long as he wishes",
-     "The article says the opposite."
+     "He would stop making any plans",
+     "Not quite. The article says: He would see no sense in oppressing others or in pride, since he must soon come under the will of Another."
     ],
     [
-     "Everyone is to be ‘hanged’ tomorrow, yet is unaware of it",
-     "Like a culprit who has heard his sentence, but heedless."
-    ]
-   ],
-   "answer": 3,
-   "rationale": "Everyone alive today is to be ‘hanged’ tomorrow. But everyone is lost in his today and blissfully unaware of his tomorrow."
-  },
-  {
-   "article": "The Word of God",
-   "page": 43,
-   "link": "the-word-of-god",
-   "q": "What do the verses quoted (29: 56–59) say every soul shall taste?",
-   "options": [
-    [
-     "Death",
-     "“and then to Us you shall return.”"
-    ],
-    [
-     "Fame",
-     "The verse speaks of death."
-    ],
-    [
-     "Victory",
-     "The verse speaks of death."
-    ],
-    [
-     "Wealth",
-     "The verse speaks of death."
+     "He would withdraw from people altogether",
+     "Not quite. The article says: He would see no sense in oppressing others or in pride, since he must soon come under the will of Another."
     ]
    ],
    "answer": 0,
-   "rationale": "Every soul shall taste death and then to Us you shall return."
+   "rationale": "“He would realize that it is fruitless to oppress others if tomorrow he would have to come under the control of Another.”"
   }
  ]
 }

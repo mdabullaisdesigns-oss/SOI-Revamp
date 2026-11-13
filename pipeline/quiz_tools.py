@@ -1,6 +1,7 @@
 """Quiz helpers.
 
   python3 pipeline/quiz_tools.py digest <slug> [<slug> ...]   passages to write questions from (10 per issue)
+  python3 pipeline/quiz_tools.py full <slug> [<slug> ...]     the full text of ten articles per issue, to write questions from
   python3 pipeline/quiz_tools.py compile <file.txt>            questions written as text -> issues/<slug>/quiz.json
 
 Text format (the right answer is written first; the order shown to readers is shuffled here):
@@ -44,6 +45,29 @@ def digest(slugs):
             w = words(a)
             start = 0 if part == 0 else len(w) // 2
             print(f"@ {a['id']}{' (second passage)' if part else ''} | {a['title']}\n  {' '.join(w[start:start + 48])}")
+
+
+def picks_full(issue, lo=200, hi=1000):
+    """Ten articles spread through the issue, each short enough to be read in full; long ones give way to a neighbour."""
+    ok = [a for a in issue["articles"] if a.get("audio") is not False and not SKIP.search(a["id"]) and a["id"] != "welcome"
+          and len(words(a)) >= 120]
+    fit = [a for a in ok if lo <= len(words(a)) <= hi]
+    rest = sorted((a for a in ok if a not in fit), key=lambda a: abs(len(words(a)) - 600))
+    pool = sorted(fit + rest[:max(0, 10 - len(fit))], key=lambda a: a["n"])
+    if len(pool) > 10:
+        step = len(pool) / 10
+        out = [pool[int(k * step)] for k in range(10)]
+    else:
+        out = pool[:]
+    return sorted(out, key=lambda a: a["n"])
+
+
+def full(slugs):
+    for slug in slugs:
+        issue = json.load(open(f"issues/{slug}/issue.json", encoding="utf-8"))
+        print(f"## {slug}")
+        for a in picks_full(issue):
+            print(f"@ {a['id']} | {a['title']}\n{' '.join(words(a))}")
 
 
 _foot = {}
@@ -123,4 +147,4 @@ def compile_(path):
 
 
 if __name__ == "__main__":
-    digest(sys.argv[2:]) if sys.argv[1] == "digest" else compile_(sys.argv[2])
+    {"digest": digest, "full": full}[sys.argv[1]](sys.argv[2:]) if sys.argv[1] in ("digest", "full") else compile_(sys.argv[2])

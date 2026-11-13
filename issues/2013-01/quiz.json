@@ -1,264 +1,264 @@
 {
  "questions": [
   {
-   "article": "Welcome",
-   "page": 7,
-   "link": "welcome",
-   "q": "The Welcome note describes Spirit of Islam as continuing the tradition of which predecessors?",
-   "options": [
-    [
-     "‘Peace Times’ and ‘Al-Hilal’",
-     "These titles are not mentioned."
-    ],
-    [
-     "‘The Muslim World’ and ‘Islamic Voice’",
-     "These titles are not mentioned."
-    ],
-    [
-     "‘The Spiritual Message’ and ‘Al-Risala English’",
-     "These are the two predecessors named in the Welcome note."
-    ],
-    [
-     "It had no predecessors",
-     "The note names two earlier publications."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "Welcome to ‘Spirit of Islam’, a monthly spiritual message, continuing in the tradition of its predecessors, ‘The Spiritual Message’ and ‘Al-Risala English’."
-  },
-  {
    "article": "From the Editor’s Desk",
    "page": 8,
    "link": "from-the-editors-desk",
-   "q": "According to the Editor’s Desk, what can formal education not teach?",
+   "q": "The Chief Editor says formal education “can give you a job, but it cannot teach you the art of living.” What, in his view, fills this gap?",
    "options": [
     [
-     "The art of living",
-     "Formal education can give you a job, but not the art of living."
+     "Professional training on the job",
+     "Not quite. The article says: Informal education that instils spiritual and social values, such as a magazine can offer."
     ],
     [
-     "Reading and writing",
-     "The article does not say this."
+     "Longer years at university",
+     "Not quite. The article says: Informal education that instils spiritual and social values, such as a magazine can offer."
     ],
     [
-     "A profession",
-     "Professional learning is exactly what formal institutes give."
+     "Informal education that instils spiritual and social values, such as a magazine can offer",
+     "Yes. That is the stated purpose of the magazine."
     ],
     [
-     "How to find a job",
-     "It says formal education can give you a job."
+     "Travel to other countries",
+     "Not quite. The article says: Informal education that instils spiritual and social values, such as a magazine can offer."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The editorial calls the magazine “an institution for informal education” whose purpose is “to promote spiritual values in society.”"
+  },
+  {
+   "article": "The Only Solution to Corruption",
+   "page": 10,
+   "link": "the-only-solution-to-corruption",
+   "q": "Why does the article say that four anti-corruption movements in India did not reach their goal?",
+   "options": [
+    [
+     "They made demands of the system, whereas corruption begins in the individual mind",
+     "Exactly. The article asks for minds to be re-engineered, not systems."
+    ],
+    [
+     "They had no well-known leaders",
+     "Not quite. The article says: They made demands of the system, whereas corruption begins in the individual mind."
+    ],
+    [
+     "They did not draw large enough crowds",
+     "Not quite. The article says: They made demands of the system, whereas corruption begins in the individual mind."
+    ],
+    [
+     "The laws they asked for were never written",
+     "Not quite. The article says: They made demands of the system, whereas corruption begins in the individual mind."
     ]
    ],
    "answer": 0,
-   "rationale": "Formal education can give you a job, but it cannot teach you the art of living. The art of living can be promoted only through informal education."
+   "rationale": "“It is not the system that is responsible for corruption; it is the human mind… Any movement that intends to achieve its goal must target individual minds, rather than the system.”"
   },
   {
-   "article": "Understanding Islam",
-   "page": 12,
-   "link": "understanding-islam",
-   "q": "What does the Persian phrase ‘Sulh-e-Kul’ mean?",
+   "article": "The Only Solution to Corruption",
+   "page": 10,
+   "link": "the-only-solution-to-corruption",
+   "q": "“To shorten a line, you only need to draw a longer line next to it.” How does the article apply this image to corruption?",
    "options": [
     [
-     "Victory for all",
-     "The phrase is about peace, not victory."
+     "Punish small offences so that large ones look worse",
+     "Not quite. The article says: Give people a goal higher than money – wisdom and spiritual growth – and money loses its hold."
     ],
     [
-     "Justice above all",
-     "This is not the meaning given."
+     "Shorten the time courts take to decide cases",
+     "Not quite. The article says: Give people a goal higher than money – wisdom and spiritual growth – and money loses its hold."
     ],
     [
-     "Peace with all",
-     "This is the meaning given, and it is said to express the spirit of Islam."
+     "Give people a goal higher than money – wisdom and spiritual growth – and money loses its hold",
+     "Well done. Money becomes a need, not a goal."
     ],
     [
-     "Knowledge for all",
-     "This is not the meaning given."
+     "Pay officials more than they could take in bribes",
+     "Not quite. The article says: Give people a goal higher than money – wisdom and spiritual growth – and money loses its hold."
     ]
    ],
    "answer": 2,
-   "rationale": "A Persian phrase, ‘Sulh-e-Kul’, which means peace with all, truly expresses the spirit of Islam."
+   "rationale": "“We have to replace money as a goal with wisdom as a goal… to eradicate corruption, we have to give individuals a goal greater than money.”"
   },
   {
-   "article": "Spiritual Living",
-   "page": 18,
-   "link": "spiritual-living",
-   "q": "How does the article define being spiritual?",
+   "article": "The Fault of Man",
+   "page": 17,
+   "link": "the-fault-of-man",
+   "q": "The article compares religion to nuclear energy. What is the point of the comparison?",
    "options": [
     [
-     "Performing many rituals",
-     "The definition is about orientation towards God."
+     "Both were discovered by modern science",
+     "Not quite. The article says: Both are sources of life as given by nature and God; the harm comes from human misuse."
     ],
     [
-     "Giving up all possessions",
-     "This is not the definition given."
+     "Both will one day be exhausted",
+     "Not quite. The article says: Both are sources of life as given by nature and God; the harm comes from human misuse."
     ],
     [
-     "Living a God-oriented life",
-     "This is the article’s opening definition."
+     "Both are sources of life as given by nature and God; the harm comes from human misuse",
+     "Right. The fault lies with man, not with the gift."
     ],
     [
-     "Withdrawing from society",
-     "The article does not define it this way."
+     "Both are too dangerous for ordinary people",
+     "Not quite. The article says: Both are sources of life as given by nature and God; the harm comes from human misuse."
     ]
    ],
    "answer": 2,
-   "rationale": "What is spirituality? Being spiritual means to live a God-oriented life."
+   "rationale": "“It is wrong to blame religion for the evils which men have perpetrated in its name. This is the fault of man, not the fault of the divine religion which he corrupts.”"
+  },
+  {
+   "article": "No End to Opportunities",
+   "page": 21,
+   "link": "no-end-to-opportunities",
+   "q": "What lesson does the article draw from the life of Abd al-Rahman, the Umayyad prince who fled Damascus and later ruled al-Andalus?",
+   "options": [
+    [
+     "It is wiser to stay hidden when enemies are strong",
+     "Not quite. The article says: When one opportunity ends another arises, but it must be seized with courage and perseverance."
+    ],
+    [
+     "Success depends on having a large army",
+     "Not quite. The article says: When one opportunity ends another arises, but it must be seized with courage and perseverance."
+    ],
+    [
+     "When one opportunity ends another arises, but it must be seized with courage and perseverance",
+     "Yes. He had nothing but “his own wits and perseverance.”"
+    ],
+    [
+     "Noble birth always brings a person back to power",
+     "Not quite. The article says: When one opportunity ends another arises, but it must be seized with courage and perseverance."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "“There is no end to the opportunities in this world. When one opportunity ceases to exist, another opportunity always arises elsewhere… It takes a person of courage to grasp opportunities.”"
   },
   {
    "article": "Respecting All Religions",
    "page": 23,
    "link": "respecting-all-religions",
-   "q": "Why does the article say removing religion altogether is no solution to religious conflict?",
+   "q": "Which formula does the article offer for harmony among people of different religions?",
    "options": [
     [
-     "Governments would not allow it",
-     "This reason is not given."
+     "Accept every religion as equally true",
+     "The article says this goes against each believer’s inner conviction and is not practical."
     ],
     [
-     "All religions are identical",
-     "The article does not claim this."
+     "Merge the religions into one shared creed",
+     "Not quite. The article says: Follow one and respect all."
     ],
     [
-     "The urge to believe in a greater power is inherent in human nature",
-     "Human nature cannot be changed, so removing religion solves nothing."
+     "Follow one and respect all",
+     "Correct. Mutual respect is practical even where agreement is not."
     ],
     [
-     "Religions never disagree",
-     "The article says differences are bound to arise."
+     "Keep religion out of human life",
+     "The article says the urge to believe is part of human nature and cannot be removed."
     ]
    ],
    "answer": 2,
-   "rationale": "The urge to believe in a greater power is strongly inherent in human nature, and human nature cannot be changed."
+   "rationale": "“Mutual recognition of religion might not be practical, but mutual respect certainly is… a formula for maintaining religious harmony is—follow one and respect all.”"
   },
   {
    "article": "Is There a Heaven?",
    "page": 28,
    "link": "is-there-a-heaven",
-   "q": "According to the currently accepted theory cited, how much of the Universe is matter as we know it?",
+   "q": "On what ground does the article call Stephen Hawking’s statement “There is no heaven” unscientific?",
    "options": [
     [
-     "About 50%",
-     "The figure given is far smaller."
+     "Hawking was not trained in religion",
+     "Not quite. The article says: Science can speak only of what is observable, and that is about 4% of the universe."
     ],
     [
-     "All of it",
-     "The article says most of the Universe is unknown to us."
+     "The statement was made in a newspaper, not a journal",
+     "Not quite. The article says: Science can speak only of what is observable, and that is about 4% of the universe."
     ],
     [
-     "Only 4%",
-     "The remaining 96% is thought to be dark matter and dark energy."
+     "Science can speak only of what is observable, and that is about 4% of the universe",
+     "Exactly. Nothing can be asserted by science about the rest."
     ],
     [
-     "96%",
-     "That is the share thought to be dark matter and dark energy."
+     "Other physicists have observed heaven",
+     "Not quite. The article says: Science can speak only of what is observable, and that is about 4% of the universe."
     ]
    ],
    "answer": 2,
-   "rationale": "Only 4% of the Universe consists of matter as we know it. The remaining 96% is thought to consist of dark matter and dark energy."
+   "rationale": "The article says the only valid statement would have been: “according to known physical laws, in the 4% of the Universe subject to scientific study, there is probably no heaven.”"
   },
   {
    "article": "Through Hardship, to the Stars",
    "page": 29,
    "link": "through-hardship-to-the-stars",
-   "q": "Which disaster does the article use to show a nation rising again after a shattering blow?",
+   "q": "Writing about Japan’s recovery after the 2011 earthquake and tsunami, what does the article say about adversity?",
    "options": [
     [
-     "The 2004 Indian Ocean tsunami",
-     "This is not the example used."
+     "It matters less than complacency only in rich countries",
+     "Not quite. The article says: It is not good in itself, but with the will to act it can bring out hidden potential."
     ],
     [
-     "The 2010 Haiti earthquake",
-     "This is not the example used."
+     "It ruins nations that lack natural resources",
+     "Not quite. The article says: It is not good in itself, but with the will to act it can bring out hidden potential."
     ],
     [
-     "The March 2011 Tōhoku earthquake and tsunami in Japan",
-     "The article opens with this disaster and Japan’s recovery."
+     "It is not good in itself, but with the will to act it can bring out hidden potential",
+     "Well read. The will is the deciding thing."
     ],
     [
-     "The 1906 San Francisco earthquake",
-     "This is not the example used."
+     "It is always a blessing and should be sought",
+     "Not quite. The article says: It is not good in itself, but with the will to act it can bring out hidden potential."
     ]
    ],
    "answer": 2,
-   "rationale": "The March 2011 Tōhoku earthquake was the most powerful known earthquake ever to have hit Japan."
-  },
-  {
-   "article": "Dialogue in Religion",
-   "page": 36,
-   "link": "dialogue-in-religion",
-   "q": "Where did the Prophet of Islam hold a three-religion conference fourteen hundred years ago?",
-   "options": [
-    [
-     "Damascus",
-     "The article names Medina."
-    ],
-    [
-     "Jerusalem",
-     "The article names Medina."
-    ],
-    [
-     "Medina",
-     "The article says the conference was held in Medina."
-    ],
-    [
-     "Makkah",
-     "The article names Medina."
-    ]
-   ],
-   "answer": 2,
-   "rationale": "Fourteen hundred years ago, the Prophet of Islam held a three-religion conference in Medina to exchange views on religious issues."
+   "rationale": "“By no means does this imply that adversity is itself beneficial. It is not. But it can be the spark which ignites the fuel of our souls… But for all this, there has to be the will to do so.”"
   },
   {
    "article": "Lessons from Nature",
    "page": 42,
    "link": "lessons-from-nature",
-   "q": "What behaviour of the stars and planets does the article hold up as a model?",
+   "q": "The article notes that a mountain stream does not try to remove the stones in its path. What should we learn from it?",
    "options": [
     [
-     "Each moves in its own orbit without trespassing on another’s",
-     "This precision and non-interference is the model for human life."
+     "To go around obstacles and keep moving instead of colliding with them",
+     "Yes. The stream “carves its way ahead around and alongside the stones.”"
     ],
     [
-     "They compete for space",
-     "The article says none trespasses on another."
+     "To change our destination when the path is blocked",
+     "Not quite. The article says: To go around obstacles and keep moving instead of colliding with them."
     ],
     [
-     "They constantly change course",
-     "The article stresses their regularity."
+     "To gather strength until obstacles can be broken",
+     "Not quite. The article says: To go around obstacles and keep moving instead of colliding with them."
     ],
     [
-     "They shine without resting",
-     "This is not the lesson drawn."
+     "To wait patiently until obstacles are removed by others",
+     "Not quite. The article says: To go around obstacles and keep moving instead of colliding with them."
     ]
    ],
    "answer": 0,
-   "rationale": "Each star and planet moves in its own orbit with incredible precision and regularity, in accordance with the laws of nature."
+   "rationale": "The stream is “as if telling us not to collide with obstacles, but to continue on our way by keeping away from them.”"
   },
   {
-   "article": "The Word of God",
-   "page": 45,
-   "link": "the-word-of-god",
-   "q": "Which attributes of God are named in the verse quoted (2: 163)?",
+   "article": "Lessons from Nature",
+   "page": 42,
+   "link": "lessons-from-nature",
+   "q": "According to the article, how does man’s following of the “universal model” differ from that of the stars, plants and streams?",
    "options": [
     [
-     "The Compassionate, the Merciful",
-     "“He is the Compassionate, the Merciful.”"
+     "Nature follows it by compulsion; man has to adopt it consciously, of his own free will",
+     "Right. That is the test of human freedom."
     ],
     [
-     "The First, the Last",
-     "These are not in the verse quoted."
+     "Nature gives and takes, man is asked only to give",
+     "Not quite. The article says: Nature follows it by compulsion; man has to adopt it consciously, of his own free will."
     ],
     [
-     "The Seen, the Hidden",
-     "These are not in the verse quoted."
+     "Man may follow it in part, nature must follow it fully",
+     "Not quite. The article says: Nature follows it by compulsion; man has to adopt it consciously, of his own free will."
     ],
     [
-     "The Avenger, the Subduer",
-     "These are not in the verse quoted."
+     "Man follows it only in worship, nature at all times",
+     "Not quite. The article says: Nature follows it by compulsion; man has to adopt it consciously, of his own free will."
     ]
    ],
    "answer": 0,
-   "rationale": "Your God is one God. There is no deity save Him. He is the Compassionate, the Merciful."
+   "rationale": "“In the rest of the Universe, the model has been established compulsively, under the laws of nature, while we have to establish this model in our lives consciously, of our own free will.”"
   }
  ]
 }

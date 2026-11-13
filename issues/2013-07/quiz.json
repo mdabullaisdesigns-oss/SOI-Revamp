@@ -4,261 +4,261 @@
    "article": "Be Aware of Your Unawareness",
    "page": 6,
    "link": "be-aware-of-your-unawareness",
-   "q": "Which two formulas does the article call impractical?",
+   "q": "How does the editorial distinguish discussion from debate?",
    "options": [
     [
-     "‘Might is right’ and ‘Silence is golden’",
-     "These are not the formulas discussed."
+     "Debate is for scholars; discussion is for ordinary people",
+     "Not quite. The article says: Debate aims at proving superiority; discussion aims at mutual learning."
     ],
     [
-     "‘Know yourself’ and ‘Know your enemy’",
-     "These are not the formulas discussed."
+     "Debate ends in agreement; discussion does not",
+     "Not quite. The article says: Debate aims at proving superiority; discussion aims at mutual learning."
     ],
     [
-     "‘Live and let live’ and ‘Forgive and forget’",
-     "These are not the formulas discussed."
+     "Debate is spoken; discussion is written",
+     "Not quite. The article says: Debate aims at proving superiority; discussion aims at mutual learning."
     ],
     [
-     "‘I am right, you are wrong’ and ‘I am right, you are also right’",
-     "Neither yields a positive result."
+     "Debate aims at proving superiority; discussion aims at mutual learning",
+     "Yes. Differences become a chance to learn."
     ]
    ],
    "answer": 3,
-   "rationale": "Both these formulas are impractical, and will not yield any positive result."
+   "rationale": "“The purpose of debate is to establish superiority… The purpose of discussion—on the other hand—is mutual learning; taking something and giving something.”"
+  },
+  {
+   "article": "Be Aware of Your Unawareness",
+   "page": 6,
+   "link": "be-aware-of-your-unawareness",
+   "q": "A reader objected that the author had used examples from secular people. Which saying of the Prophet settled the matter?",
+   "options": [
+    [
+     "The best of you are those of best character",
+     "Not quite. The article says: Wisdom is the lost property of a believer; wherever he finds it, he should take it."
+    ],
+    [
+     "Seek knowledge from the cradle to the grave",
+     "Not quite. The article says: Wisdom is the lost property of a believer; wherever he finds it, he should take it."
+    ],
+    [
+     "Wisdom is the lost property of a believer; wherever he finds it, he should take it",
+     "Well done. The man replied that his knowledge had increased."
+    ],
+    [
+     "Actions are judged by intentions",
+     "Not quite. The article says: Wisdom is the lost property of a believer; wherever he finds it, he should take it."
+    ]
+   ],
+   "answer": 2,
+   "rationale": "The author quoted: “Wisdom is the lost property of a believer; wherever he finds it, he should take it as his own.”"
   },
   {
    "article": "Giving as God Wills",
    "page": 8,
    "link": "giving-as-god-wills",
-   "q": "What is the only way to give thanks for life and property, according to the article?",
+   "q": "Why does the article say that whatever a person earns is “a direct favour from God”?",
    "options": [
     [
-     "To renounce them entirely",
-     "The article speaks of using them as God wishes."
+     "Because human effort plays no part in earning",
+     "Not quite. The article says: Both his abilities and a world made to serve him are given by God."
     ],
     [
-     "To hoard them carefully",
-     "The article speaks of spending as God wills."
+     "Both his abilities and a world made to serve him are given by God",
+     "Right. So wealth should be spent as God wishes."
     ],
     [
-     "To dispose of them as God wishes",
-     "They are gifts of God."
+     "Because earning is itself an act of worship",
+     "Not quite. The article says: Both his abilities and a world made to serve him are given by God."
     ],
     [
-     "To display them",
-     "This is not what the article says."
+     "Because wealth comes only to those who pray for it",
+     "Not quite. The article says: Both his abilities and a world made to serve him are given by God."
     ]
    ],
-   "answer": 2,
-   "rationale": "The only way to give thanks for these innumerable gifts is to dispose of them as God wishes."
+   "answer": 1,
+   "rationale": "“If the world and that which it contains had not been placed at man’s disposal, his physical and mental capabilities alone would never have enabled him to derive any benefit.”"
   },
   {
    "article": "Practicable Formula",
    "page": 16,
    "link": "practicable-formula",
-   "q": "How does the article judge the idea that all religions are equally true?",
+   "q": "The article mentions Akbar’s Deen-e-Ilahi and Dr Bhagwan Das’s encyclopaedia. What do these examples show?",
    "options": [
     [
-     "A proven fact",
-     "The article disagrees."
+     "Religious unity needs the power of the state",
+     "Not quite. The article says: Attempts to declare all religions one and the same have not succeeded."
     ],
     [
-     "Unnatural as well as irrational",
-     "In worldly matters no one holds opposing theories both to be right."
+     "India has no tradition of tolerance",
+     "Not quite. The article says: Attempts to declare all religions one and the same have not succeeded."
     ],
     [
-     "A teaching of every scripture",
-     "This is not claimed."
+     "Rulers and scholars have always opposed religion",
+     "Not quite. The article says: Attempts to declare all religions one and the same have not succeeded."
     ],
     [
-     "The only basis for peace",
-     "The article questions this."
+     "Attempts to declare all religions one and the same have not succeeded",
+     "Correct. The workable formula is “Follow one and respect all.”"
     ]
    ],
-   "answer": 1,
-   "rationale": "A logical analysis will show that this concept is unnatural as well as irrational."
+   "answer": 3,
+   "rationale": "The article holds that treating all religions as equally true is “unnatural as well as irrational,” and points to the Quran: “For you, your religion; for me, mine.”"
   },
   {
    "article": "The Problem of Evil",
    "page": 17,
    "link": "the-problem-of-evil",
-   "q": "Why can human history not be interpreted by a predetermined law as the physical world is?",
+   "q": "According to the article, why does suffering caused by human evil exist in the world?",
    "options": [
     [
-     "Physical laws change",
-     "The article says the physical world is explainable by law."
+     "Man is being tested, which requires freedom, and some misuse it",
+     "Yes. Without freedom, good deeds would earn no credit."
     ],
     [
-     "Records are incomplete",
-     "This is not the reason given."
+     "God does not intervene in human affairs",
+     "Not quite. The article says: Man is being tested, which requires freedom, and some misuse it."
     ],
     [
-     "History is too short",
-     "This is not the reason given."
+     "Everything in history is fixed in advance",
+     "Not quite. The article says: Man is being tested, which requires freedom, and some misuse it."
     ],
     [
-     "The events of the human world are not amenable to any such law",
-     "Those who try meet with failure."
+     "Suffering is an illusion",
+     "Not quite. The article says: Man is being tested, which requires freedom, and some misuse it."
     ]
    ],
-   "answer": 3,
-   "rationale": "The events of the human world are simply not amenable to interpretation in terms of any such law."
+   "answer": 0,
+   "rationale": "“Man can be granted the credit for a good deed only on the condition that, despite having the opportunity to indulge in bad deeds, he chooses of his own free will to act virtuously.”"
   },
   {
    "article": "Total Involvement",
    "page": 20,
    "link": "total-involvement",
-   "q": "For what is Elias Howe remembered?",
+   "q": "Elias Howe found in a dream where the eye of the sewing-machine needle should go. What does the article say the dream shows?",
    "options": [
     [
-     "The sewing machine",
-     "Its breakthrough was a needle with the hole at its tip."
+     "That he should have rested more",
+     "Not quite. The article says: That he was so absorbed in his work that it filled even his subconscious mind."
     ],
     [
-     "The telephone",
-     "The article is about the sewing machine."
+     "That dreams foretell the future",
+     "Not quite. The article says: That he was so absorbed in his work that it filled even his subconscious mind."
     ],
     [
-     "The steam engine",
-     "The article is about the sewing machine."
+     "That he was so absorbed in his work that it filled even his subconscious mind",
+     "Exactly. Success follows complete involvement."
     ],
     [
-     "The printing press",
-     "The article is about the sewing machine."
+     "That great inventions come by luck",
+     "Not quite. The article says: That he was so absorbed in his work that it filled even his subconscious mind."
     ]
    ],
-   "answer": 0,
-   "rationale": "His contribution to the world of clothes—that of the sewing machine—will always be remembered."
+   "answer": 2,
+   "rationale": "“What is a dream? It is the result of complete involvement… One achieves success in one’s aim only after complete involvement.”"
   },
   {
    "article": "Religion and Secularism",
    "page": 28,
    "link": "religion-and-secularism",
-   "q": "How does the article describe secularism’s relation to religion?",
+   "q": "Why does the article call secularism “a great blessing for religion”?",
    "options": [
     [
-     "A passing fashion",
-     "This is not what it says."
+     "It has made religion part of the government",
+     "Not quite. The article says: As a policy of non-interference, it ended persecution and left religious people free to work."
     ],
     [
-     "Of no consequence",
-     "The article sees a real benefit."
+     "It has replaced religion with science",
+     "Not quite. The article says: As a policy of non-interference, it ended persecution and left religious people free to work."
     ],
     [
-     "A great blessing for religion",
-     "Religious people now enjoy freedom."
+     "As a policy of non-interference, it ended persecution and left religious people free to work",
+     "Well read. The two are called complementary."
     ],
     [
-     "Its greatest enemy",
-     "The article calls this thinking unfounded."
+     "It has shown all religions to be the same",
+     "Not quite. The article says: As a policy of non-interference, it ended persecution and left religious people free to work."
     ]
    ],
    "answer": 2,
-   "rationale": "A deeper study shows that this kind of thinking is completely unfounded. Instead, secularism is a great blessing for religion."
+   "rationale": "“Secularism is a policy of non-interference in religious matters… There is no clash between religion and secularism.”"
   },
   {
    "article": "A Fool’s Paradise",
    "page": 30,
    "link": "a-fools-paradise",
-   "q": "What would people do better to discover, according to the article?",
+   "q": "What does the article mean by saying that man lives in “a fool’s paradise of his own making”?",
    "options": [
     [
-     "New ways of gathering wealth",
-     "The article criticises hoarding."
+     "He trusts other people too easily",
+     "Not quite. The article says: He measures himself by his own standards and worldly success, forgetting the reckoning before God."
     ],
     [
-     "Praise from other people",
-     "It says praise is due to God."
+     "He measures himself by his own standards and worldly success, forgetting the reckoning before God",
+     "Yes. Only God’s standard will count."
     ],
     [
-     "Their humility and helplessness in the presence of God",
-     "Instead of taking pride in asserting themselves."
+     "He believes too readily in life after death",
+     "Not quite. The article says: He measures himself by his own standards and worldly success, forgetting the reckoning before God."
     ],
     [
-     "Arguments to justify their errors",
-     "It says they should admit them."
+     "He spends too much time in worship",
+     "Not quite. The article says: He measures himself by his own standards and worldly success, forgetting the reckoning before God."
     ]
    ],
-   "answer": 2,
-   "rationale": "People take pride in asserting themselves, but they would do better to discover their humility and abject helplessness in the presence of God."
+   "answer": 1,
+   "rationale": "“People have set up their own standards about what is right and what is wrong… How shocked they will be when they learn that only those were in the right, who lived up to the standard set by God!”"
   },
   {
    "article": "Eid-Ul-Fitr",
    "page": 35,
    "link": "eid-ul-fitr",
-   "q": "What does the Arabic word Eid mean?",
+   "q": "Why is charity (sadqa fitr) to be given well before the Eid prayer?",
    "options": [
     [
-     "A new moon",
-     "This is not the meaning given."
+     "So that the amount is known in advance",
+     "Not quite. The article says: So that the poor can also take part in the celebration."
     ],
     [
-     "Returning at regular intervals",
-     "It gives a repeated opportunity for renewal."
+     "So that mosques can be decorated",
+     "Not quite. The article says: So that the poor can also take part in the celebration."
     ],
     [
-     "A great feast",
-     "This is not the meaning given."
+     "So that the giver’s fast is counted",
+     "Not quite. The article says: So that the poor can also take part in the celebration."
     ],
     [
-     "The end of hardship",
-     "This is not the meaning given."
-    ]
-   ],
-   "answer": 1,
-   "rationale": "The word Eid in Arabic means ‘returning at regular intervals’ and refers to the two annual Islamic religious celebrations."
-  },
-  {
-   "article": "The Concept of Tomorrow",
-   "page": 37,
-   "link": "the-concept-of-tomorrow",
-   "q": "How does the article define instinct?",
-   "options": [
-    [
-     "Blind chance",
-     "This is not the definition given."
-    ],
-    [
-     "Moral choice",
-     "That belongs to conscious intelligence."
-    ],
-    [
-     "Learned habit",
-     "This is not the definition given."
-    ],
-    [
-     "Unconscious intelligence",
-     "Conscious intelligence is the hallmark of man."
+     "So that the poor can also take part in the celebration",
+     "Correct. Real happiness lies in sharing."
     ]
    ],
    "answer": 3,
-   "rationale": "Instinct, in a broad sense, may be defined as unconscious intelligence."
+   "rationale": "“Alms should be given well before the Eid day so that the poor may take part in the celebrations as well.”"
   },
   {
-   "article": "The Word of God",
-   "page": 42,
-   "link": "the-word-of-god",
-   "q": "By what does the passage quoted open with an oath?",
+   "article": "Fasting and Feasting",
+   "page": 40,
+   "link": "fasting-and-feasting",
+   "q": "In the article’s reading, what do fasting and the breaking of the fast each represent?",
    "options": [
     [
-     "The Day of Resurrection and the self-reproaching soul",
-     "These are the opening words."
+     "Fasting stands for this life of test and restraint; the breaking of the fast and Eid for the Hereafter",
+     "Right. Eid gives “a faint taste” of what is to come."
     ],
     [
-     "The fig and the olive",
-     "This is another chapter."
+     "Both stand for the hardships of this world",
+     "Not quite. The article says: Fasting stands for this life of test and restraint; the breaking of the fast and Eid for the Hereafter."
     ],
     [
-     "The sun and the moon",
-     "These appear later in the passage."
+     "Fasting stands for the Hereafter; feasting for this world",
+     "Not quite. The article says: Fasting stands for this life of test and restraint; the breaking of the fast and Eid for the Hereafter."
     ],
     [
-     "The pen",
-     "This is another chapter."
+     "Fasting stands for the body; feasting for the soul",
+     "Not quite. The article says: Fasting stands for this life of test and restraint; the breaking of the fast and Eid for the Hereafter."
     ]
    ],
    "answer": 0,
-   "rationale": "By the Day of Resurrection, and by the self-reproaching soul!"
+   "rationale": "“Fasting is a semblance of this test… In contrast to fasting, Iftar (breaking the fast), presents a semblance of life Hereafter.”"
   }
  ]
 }
