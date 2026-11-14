@@ -1,0 +1,21 @@
+{
+  "about": [
+    {"label": "Our Founder", "href": "/about/our-founder/", "wp": 537},
+    {"label": "Our Mission", "href": "/about/our-mission/", "wp": 552}
+  ],
+  "contact": {"label": "Contact Us", "href": "/contact/", "wp": 562},
+  "reading": [
+    {"label": "Al-Risala", "href": "https://www.cpsglobal.org/magazines?field_category_target_id=All&field_magazines_language_value=All&field_magazines_type_value=Al-Risala&field_month_value=All&field_year_value=All"},
+    {"label": "CPS Quran", "href": "https://cpsquran.org/"}
+  ],
+  "websites": [
+    {"label": "CPS Quran", "href": "https://cpsquran.org/"},
+    {"label": "FB Page", "href": "https://www.facebook.com/maulanawkhan"},
+    {"label": "CPS Kannada", "href": "http://cpskannada.com/"},
+    {"label": "Peace Mission", "href": "http://peacemission.in/index.php"}
+  ],
+  "hero_line": {"2026-11": "Budget your time carefully as you budget your income and expenses."},
+  "guides": ["Listen with read-along", "Save issues for offline", "Earn gems with quizzes", "Share an article"],
+  "topics": ["Patience", "Gratitude", "Peace", "Family", "The Quran", "Life & Death"],
+  "photos": {}
+}

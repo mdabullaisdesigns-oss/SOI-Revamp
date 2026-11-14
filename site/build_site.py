@@ -84,7 +84,45 @@ def old_links(issues):
     return m
 
 
-def page(title, body, desc="", cls="", head=""):
+MENU = json.load(open(os.path.join(HERE, "menu.json"), encoding="utf-8"))
+SHORT = {"January": "Jan", "February": "Feb", "March": "Mar", "April": "Apr", "June": "Jun", "July": "Jul", "August": "Aug",
+         "September": "Sep", "October": "Oct", "November": "Nov", "December": "Dec"}
+ICON_SEARCH = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>'
+ICON_SAVED = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>'
+LATEST = {"slug": ""}            # filled in by build()
+
+
+def short_period(p):
+    """November–December 2026 -> Nov–Dec 2026 (cards and menus)."""
+    return re.sub("|".join(SHORT), lambda m: SHORT[m.group(0)], p)
+
+
+def ext(href):
+    return ' target="_blank" rel="noopener"' if href.startswith("http") else ""
+
+
+def sub(items):
+    return "".join(f'<li><a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a></li>' for i in items)
+
+
+def photo(key, cls=""):
+    """A photo slot. Until a photo is approved for it (menu.json: photos) it shows a plain drawn landscape."""
+    f = MENU.get("photos", {}).get(key)
+    if f:
+        return f'<span class="soi-ph {cls}"><img src="/assets/photos/{esc(f)}" alt="" loading="lazy" decoding="async"></span>'
+    return f'<span class="soi-ph soi-ph-wait {cls}" aria-hidden="true"></span>'
+
+
+def cover(i, big=False):
+    f = f'{i["slug"]}{"@2x" if big else ""}.webp'
+    img = (f'<img src="/assets/covers/{f}" alt="" loading="lazy" decoding="async" width="600" height="850">'
+           if os.path.exists(os.path.join(HERE, "covers", f)) else "")
+    return (f'<span class="soi-cover"><span class="soi-cover-fb" aria-hidden="true"><b>Spirit of Islam</b><i>{esc(i["period"])}</i></span>{img}</span>')
+
+
+def page(title, body, desc="", cls="", head="", current=""):
+    cur = lambda k: ' aria-current="page"' if k == current else ""
+    c = MENU["contact"]
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -92,33 +130,61 @@ def page(title, body, desc="", cls="", head=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc or 'Spirit of Islam – a magazine for the journey of life. Read every issue since 2013, with read-along audio and search.')}">
+<link rel="icon" href="/assets/brand/Peogen-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js"></script>
 {head}
 </head>
 <body class="{cls}">
 <a class="soi-skip" href="#soi-main">Skip to content</a>
-<header class="soi-top">
-  <div class="soi-wrap soi-top-in">
-    <a class="soi-brand" href="/"><span class="soi-brand-mark" aria-hidden="true"></span><span>Spirit of Islam</span></a>
-    <nav class="soi-nav" aria-label="Main">
-      <a href="/archive/">Archive</a>
-      <a href="/quotes/">Quotes</a>
-      <a href="/search/" class="soi-nav-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Search</span></a>
-    </nav>
-  </div>
+<header class="soi-hdr">
+  <a class="soi-hdr-in" href="/" aria-label="Spirit of Islam – home">
+    <img class="soi-hdr-bird" src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453">
+    <span class="soi-hdr-words">
+      <img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="1600" height="164">
+      <img src="/assets/brand/Slogan-Line.png" alt="Towards Global Peace &amp; Spiritual Living" width="1600" height="138">
+    </span>
+  </a>
 </header>
+<div class="soi-menubar">
+  <nav class="soi-menu" aria-label="Main">
+    <button class="soi-menu-toggle" type="button" aria-expanded="false" aria-controls="soi-menu-list"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
+    <ul class="soi-menu-list" id="soi-menu-list">
+      <li><a href="/"{cur("home")}>Home</a></li>
+      <li><a href="/issues/{LATEST['slug']}/"{cur("latest")}>Latest Issue</a></li>
+      <li class="soi-has-sub soi-has-mega"><a class="soi-menu-top" href="/archive/" aria-haspopup="true" aria-expanded="false"{cur("archive")}>Archives <i aria-hidden="true">▾</i></a>
+        <div class="soi-mega">
+          <div class="soi-mega-side"><div class="soi-mega-years"></div><a class="soi-mega-all" href="/archive/">All years, 2013 → {LATEST.get('year', '')} →</a></div>
+          <div class="soi-mega-main"><p class="soi-mega-label">Issues</p><div class="soi-mega-covers"></div></div>
+        </div>
+      </li>
+      <li><a href="/quotes/"{cur("quotes")}>Quotes</a></li>
+      <li><a href="/listen/"{cur("listen")}>Listen</a></li>
+      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">About Us <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["about"])}</ul></li>
+      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">Further Reading <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["reading"])}</ul></li>
+      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">Our Websites <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["websites"])}</ul></li>
+      <li><a href="{esc(c['href'])}"{cur("contact")}>{esc(c['label'])}</a></li>
+    </ul>
+    <span class="soi-menu-right">
+      <a class="soi-menu-ico" href="/search/" aria-label="Search">{ICON_SEARCH}</a>
+      <a class="soi-menu-ico" href="/saved/" aria-label="Saved">{ICON_SAVED}</a>
+      <a class="soi-menu-signin" href="/signin/">Sign in</a>
+    </span>
+  </nav>
+</div>
 <main id="soi-main">
 {body}
 </main>
 <footer class="soi-foot">
-  <div class="soi-wrap">
-    <p class="soi-foot-name">Spirit of Islam</p>
-    <p>Towards global peace and spiritual living · Bimonthly periodical</p>
-    <p class="soi-foot-small"><a href="/archive/">Full archive</a> · <a href="/quotes/">Quotes</a> · <a href="/search/">Search</a></p>
-    <p class="soi-foot-small">Website by Md Abullais</p>
+  <div class="soi-foot-in">
+    <div><img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="240" height="25" loading="lazy"><p>Towards Global Peace &amp; Spiritual Living</p></div>
+    <div><strong>Read</strong><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archive</a><a href="/quotes/">Quotes</a><a href="/listen/">Listen</a><a href="/search/">Search</a></div>
+    <div><strong>About</strong>{"".join(f'<a href="{esc(i["href"])}">{esc(i["label"])}</a>' for i in MENU["about"])}<a href="{esc(c['href'])}">Contact</a></div>
+    <div><strong>Our websites</strong>{"".join(f'<a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a>' for i in MENU["websites"])}</div>
   </div>
+  <div class="soi-foot-credit">Design &amp; Development by Md Abullais</div>
 </footer>
 </body>
 </html>
@@ -126,15 +192,8 @@ def page(title, body, desc="", cls="", head=""):
 
 
 def card(i):
-    n = len(i["articles"])
-    audio = sum(a["audio"] for a in i["articles"])
-    tags = [f"{n} articles"] + (["Read-along audio"] if audio else []) + (["Quiz"] if i["quiz"] else [])
-    firsts = [a["title"] for a in i["articles"] if a["type"] == "article"][:3]
-    return (f'<a class="soi-card" href="/issues/{i["slug"]}/">'
-            f'<span class="soi-card-no">{("Issue " + str(i["number"])) if i["number"] else "Issue"}</span>'
-            f'<span class="soi-card-period">{esc(i["period"])}</span>'
-            f'<span class="soi-card-list">{esc(" · ".join(firsts))}</span>'
-            f'<span class="soi-card-tags">{"".join(f"<i>{esc(t)}</i>" for t in tags)}</span></a>')
+    return (f'<a class="soi-icard" href="/issues/{i["slug"]}/">{cover(i)}'
+            f'<b>{esc(short_period(i["period"]))}</b><small>{("Issue " + str(i["number"])) if i["number"] else ""}</small></a>')
 
 
 SEARCH_FORM = ('<form class="soi-search" action="/search/" method="get" role="search">'
@@ -143,18 +202,76 @@ SEARCH_FORM = ('<form class="soi-search" action="/search/" method="get" role="se
                '<button type="submit">Search</button></form>')
 
 
+WELCOME = """
+<section class="soi-welcome-band">
+  <article class="soi-welcome">
+    <h1>Welcome to Spirit of Islam</h1>
+    <p class="soi-welcome-sub">A Magazine for the Journey of Life</p>
+    <div class="soi-rule" aria-hidden="true"><span></span><i></i><span></span></div>
+    <div class="soi-welcome-text">
+      <p>Dear Readers,</p>
+      <p>Welcome to the <strong>Spirit of Islam</strong> magazine, a bimonthly publication dedicated to guiding you on a journey of spiritual enlightenment. Rooted in the profound wisdom of the esteemed Islamic scholar Maulana Wahiduddin Khan, a recipient of numerous national and international accolades, this magazine serves as a beacon for those seeking deeper understanding and inspiration.</p>
+      <p>Our readership spans diverse backgrounds, each finding unique and meaningful insights within our pages. The <strong>Spirit of Islam</strong> stands out by focusing on the core principles of reason and science, emphasizing the spirit of Islam over mere form and ritual. Each article is crafted either directly by Maulana Wahiduddin Khan, translated from his Urdu works, or developed by a team he has personally trained and guided.</p>
+      <p>In each bimonthly issue, <strong>Spirit of Islam</strong>:</p>
+      <ol>
+        <li>Presents Islam in a contemporary context, helping readers rediscover Islam from its original sources.</li>
+        <li>Explains the Creation Plan of God for humankind, offering clarity and purpose.</li>
+        <li>Promotes Global Peace, addressing contemporary issues with wisdom and compassion.</li>
+        <li>Guides Readers through Life’s Challenges, providing practical and spiritual support.</li>
+        <li>Offers Spirituality to a broad audience, welcoming seekers from all walks of life.</li>
+        <li>Fosters Greater Communal Harmony, encouraging understanding and unity through religious insight.</li>
+      </ol>
+      <p class="soi-welcome-join">Join us as we explore the profound depths of Islam, nurturing your spirit and enriching your journey through life.</p>
+      <p class="soi-welcome-sign">-Team Spirit of Islam</p>
+    </div>
+  </article>
+</section>
+"""
+
+
+def minutes(words):
+    return max(1, round(words / 200))
+
+
+def wp_page(wp_id):
+    """Title and cleaned content of a WordPress page copied into sources/pages/ (About, Contact)."""
+    f = os.path.join(ROOT, "sources", "pages", f"{wp_id}.json")
+    if not os.path.exists(f):
+        return None
+    j = json.load(open(f, encoding="utf-8"))
+    c = j["content"]["rendered"]
+    c = re.sub(r"<(script|style|noscript|svg|form|iframe).*?</\1>", "", c, flags=re.S)
+    c = re.sub(r'(src|href)="http://spiritofislam\.co\.in', r'\1="https://spiritofislam.co.in', c)
+    keep = "p|h1|h2|h3|h4|ul|ol|li|strong|b|em|i|a|br|blockquote|img"
+    c = re.sub(rf"<(?!/?(?:{keep})\b)[^>]+>", "", c)                       # drop the Divi layout wrappers, keep the words
+    c = re.sub(r"<(p|h[1-4]|ul|ol|li|strong|b|em|i|blockquote)\b[^>]*>", r"<\1>", c)
+    c = re.sub(r'<a\b[^>]*?href="([^"]*)"[^>]*>', r'<a href="\1">', c)
+    c = re.sub(r'<img\b[^>]*?src="([^"]*)"[^>]*?(?:alt="([^"]*)")?[^>]*>', lambda m: f'<img src="{m.group(1)}" alt="{m.group(2) or ""}" loading="lazy">', c)
+    c = re.sub(r"<p>\s*(?:&nbsp;)?\s*</p>", "", c)
+    c = re.sub(r"\n\s*\n+", "\n", c).strip()
+    return {"title": html.unescape(j["title"]["rendered"]), "html": c}
+
+
 def build():
     issues = load_issues()
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets"))
-    shutil.copy(os.path.join(HERE, "site.css"), os.path.join(OUT, "assets", "site.css"))
+    for f in ("site.css", "site.js"):
+        shutil.copy(os.path.join(HERE, f), os.path.join(OUT, "assets", f))
     if os.path.isdir(os.path.join(HERE, "fonts")):
         shutil.copytree(os.path.join(HERE, "fonts"), os.path.join(OUT, "assets", "fonts"),
                         ignore=shutil.ignore_patterns("*.otf"))      # only the web (woff2) files are published
+    for d in ("brand", "covers", "photos"):
+        if os.path.isdir(os.path.join(HERE, d)):
+            shutil.copytree(os.path.join(HERE, d), os.path.join(OUT, "assets", d))
     years = sorted({i["year"] for i in issues}, reverse=True)
     latest = issues[-1]
+    LATEST.update(slug=latest["slug"], year=latest["year"])
     total_articles = sum(len(i["articles"]) for i in issues)
+    no_cover = [i["slug"] for i in issues if not os.path.exists(os.path.join(HERE, "covers", i["slug"] + ".webp"))]
+    if no_cover:
+        print("no cover picture yet:", " ".join(no_cover))
 
     def write(path, text):
         p = os.path.join(OUT, path)
@@ -164,60 +281,115 @@ def build():
     # ---- quotes library
     import quotes as quotes_lib
     n_quotes, n_dropped = quotes_lib.build(ROOT, OUT, issues, page, write)
-    # ---- home
+    # ---- home (approved canvas "SOI Redesign")
     redirects = json.dumps(old_links(issues), separators=(",", ":"))
-    recent = "".join(card(i) for i in reversed(issues[-7:-1]))
-    home = f"""
-<section class="soi-hero">
-  <div class="soi-wrap">
-    <span class="soi-pill">Spirit of Islam <b>•</b> Bimonthly Periodical</span>
-    <h1>A Magazine for <em>The Journey of Life</em></h1>
-    <p class="soi-hero-sub">{len(issues)} issues and {total_articles:,} articles since 2013 — to read, to listen to, and to search.</p>
-    {SEARCH_FORM}
+    lab = f"Issue {latest['number']} · {short_period(latest['period'])}"
+    n_audio = sum(a["audio"] for a in latest["articles"])
+    line = MENU.get("hero_line", {}).get(latest["slug"]) or next((a["title"] for a in latest["articles"] if a["type"] == "article"), latest["period"])
+    first = next((a for a in latest["articles"] if a["type"] == "article"), latest["articles"][0])
+    guides = "".join(f'<div class="soi-guide">{photo(f"guide{k + 1}", "soi-guide-ph")}<span class="soi-guide-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span>'
+                     f'<div class="soi-guide-txt"><b>{esc(g)}</b><small>Video coming soon</small></div></div>' for k, g in enumerate(MENU["guides"]))
+    topics = "".join(f'<a class="soi-topic" href="/search/?q={esc(t.replace("&", "").replace("  ", " ").replace(" ", "+"))}">{photo("topic-" + re.sub("[^a-z]+", "-", t.lower()).strip("-"))}<b>{esc(t)}</b></a>'
+                     for t in MENU["topics"])
+    home = WELCOME + f"""
+<section class="soi-wide soi-sec">
+  <h2 class="soi-h">Our latest issue</h2>
+  <div class="soi-hero-grid">
+    <div class="soi-hero-main">{photo("hero", "soi-hero-ph")}
+      <div class="soi-hero-over">
+        <p class="soi-kick">New · {esc(lab)}</p>
+        <p class="soi-hero-line">{esc(line)}</p>
+        <div class="soi-hero-btns">
+          <a class="soi-pillbtn soi-pillbtn-gold" href="/issues/{latest['slug']}/">Read the issue</a>
+          {f'<a class="soi-pillbtn soi-pillbtn-line" href="/issues/{latest["slug"]}/#soi-{first["id"]}">Listen · {n_audio} articles</a>' if n_audio else ''}
+        </div>
+      </div>
+    </div>
+    <div class="soi-hero-side">
+      <div class="soi-cont" id="soi-continue">
+        <p class="soi-kick soi-cont-kicker">Start reading</p>
+        <h3 class="soi-cont-title">{esc(first['title'])}</h3>
+        <p class="soi-cont-meta">{esc(lab)} · {minutes(first['words'])} min</p>
+        <div class="soi-cont-bar"><i></i></div>
+        <a class="soi-cont-go" href="/issues/{latest['slug']}/#soi-{first['id']}">Read <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="soi-qotd" id="soi-qotd-home">
+        <p class="soi-kick">Quote of the day</p>
+        <p class="soi-qotd-text">&nbsp;</p>
+        <p class="soi-qotd-src"></p>
+        <button type="button" class="soi-qotd-share">Share as image <span aria-hidden="true">→</span></button>
+      </div>
+    </div>
   </div>
 </section>
-<section class="soi-wrap soi-block">
-  <h2 class="soi-h2"><span>Latest issue</span></h2>
-  <a class="soi-latest" href="/issues/{latest['slug']}/">
-    <span class="soi-latest-no">Issue {latest['number']}</span>
-    <span class="soi-latest-period">{esc(latest['period'])}</span>
-    <span class="soi-latest-list">{esc(' · '.join(a['title'] for a in latest['articles'][:5]))}…</span>
-    <span class="soi-btn soi-btn-solid">Read this issue</span>
-  </a>
+<section class="soi-wide soi-sec">
+  <div class="soi-h-row"><h2 class="soi-h">Latest issues</h2><a href="/archive/">Browse all {len(issues)} issues →</a></div>
+  <div class="soi-covers soi-covers-6">{"".join(card(i) for i in reversed(issues[-6:]))}</div>
 </section>
-<section class="soi-wrap soi-block">
-  <h2 class="soi-h2"><span>Quote of the day</span><small><a href="/quotes/">All {n_quotes:,} quotes</a></small></h2>
-  <div id="soi-home-q"></div>
-  <script>(function(){{fetch('/assets/quotes.json').then(function(r){{return r.json()}}).then(function(d){{
-    var p=d.quotes.filter(function(q){{return q.t.length<260}}),day=Math.floor(Date.now()/864e5-new Date().getTimezoneOffset()/1440),q=p[(day*7919)%p.length],
-        e=function(s){{return String(s).replace(/[&<>"]/g,function(c){{return {{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]}})}};
-    document.getElementById('soi-home-q').innerHTML='<article class="soi-q soi-q-big"><blockquote><p>'+e(q.t)+'</p></blockquote><p class="soi-q-src"><a href="/issues/'+q.s+'/#soi-'+q.a+'">'+e(q.at)+'</a> · Issue '+q.n+', '+e(q.p)+'</p></article>';
-  }}).catch(function(){{}})}})();</script>
+<section class="soi-wide soi-sec">
+  <h2 class="soi-h">New here? Start with these</h2>
+  <p class="soi-h-sub">Short guides to reading, listening and earning gems.</p>
+  <div class="soi-guides">{guides}</div>
 </section>
-<section class="soi-wrap soi-block">
-  <h2 class="soi-h2"><span>Recent issues</span></h2>
-  <div class="soi-grid">{recent}</div>
+<section class="soi-wide soi-sec">
+  <h2 class="soi-h">Read by topic</h2>
+  <div class="soi-topics">{topics}</div>
 </section>
-<section class="soi-wrap soi-block">
-  <h2 class="soi-h2"><span>Browse by year</span></h2>
-  <div class="soi-years">{''.join(f'<a href="/archive/#y{y}">{y}</a>' for y in years)}</div>
+<section class="soi-wide soi-sec">
+  <div class="soi-getapp">
+    <div class="soi-getapp-txt">
+      <p class="soi-kick">The SOI app</p>
+      <h2>Read offline, listen with the screen off, and earn gems as you go.</h2>
+      <div class="soi-getapp-btns"><span class="soi-storebtn">App Store<small>Coming soon</small></span><span class="soi-storebtn">Google Play<small>Coming soon</small></span></div>
+    </div>
+    <div class="soi-getapp-nums">
+      <div><b>{total_articles:,}</b><span>articles</span></div>
+      <div><b>{len(issues)}</b><span>issues since 2013</span></div>
+    </div>
+  </div>
 </section>
 <script>(function(){{var m={redirects},id=new URLSearchParams(location.search).get('page_id');if(id&&m[id])location.replace(m[id]);}})();</script>
 """
-    write("index.html", page("Spirit of Islam – A Magazine for the Journey of Life", home, cls="soi-home"))
+    write("index.html", page("Spirit of Islam – A Magazine for the Journey of Life", home, cls="soi-home", current="home"))
 
     # ---- archive
     blocks = []
     for y in years:
         ys = [i for i in issues if i["year"] == y]
-        blocks.append(f'<section class="soi-year" id="y{y}"><h2 class="soi-h2"><span>{y}</span><small>{len(ys)} issues</small></h2>'
-                      f'<div class="soi-grid">{"".join(card(i) for i in ys)}</div></section>')
-    arch = (f'<section class="soi-wrap soi-block soi-page-head"><h1>Archive</h1><p>Every issue from January 2013 to today.</p>'
+        blocks.append(f'<section class="soi-year" id="y{y}"><div class="soi-h-row"><h2 class="soi-h">{y}</h2><span>{len(ys)} issues</span></div>'
+                      f'<div class="soi-covers soi-covers-6">{"".join(card(i) for i in reversed(ys))}</div></section>')
+    arch = (f'<section class="soi-wide soi-sec soi-page-head"><h1>Archive</h1><p>Every issue from January 2013 to today.</p>'
             f'<div class="soi-years">{"".join(f"<a href=#y{y}>{y}</a>" for y in years)}</div></section>'
-            f'<div class="soi-wrap">{"".join(blocks)}</div>')
-    write("archive/index.html", page("Archive – Spirit of Islam", arch, "Every issue of Spirit of Islam from 2013 to today."))
+            f'<div class="soi-wide">{"".join(blocks)}</div>')
+    write("archive/index.html", page("Archive – Spirit of Islam", arch, "Every issue of Spirit of Islam from 2013 to today.", current="archive"))
 
-    # ---- issues
+    # ---- listen: the issues that have read-along audio
+    heard = [i for i in reversed(issues) if any(a["audio"] for a in i["articles"])]
+    lcards = "".join(f'<a class="soi-icard" href="/issues/{i["slug"]}/">{cover(i)}<b>{esc(short_period(i["period"]))}</b>'
+                     f'<small>{sum(a["audio"] for a in i["articles"])} articles with audio</small></a>' for i in heard)
+    write("listen/index.html", page("Listen – Spirit of Islam",
+          f'<section class="soi-wide soi-sec soi-page-head"><h1>Listen</h1><p>{len(heard)} issues have read-along audio so far: press play on any article and the text follows the voice. '
+          f'Audio for the earlier issues is being prepared.</p></section><div class="soi-wide soi-sec"><div class="soi-covers soi-covers-6">{lcards}</div></div>',
+          "Issues of Spirit of Islam with read-along audio.", current="listen"))
+
+    # ---- saved (kept in this browser) and sign in (comes with the app)
+    write("saved/index.html", page("Saved – Spirit of Islam",
+          '<section class="soi-wrap soi-sec soi-page-head"><h1>Saved</h1><p>Articles and quotes you save are kept in this browser. Signing in, to carry them across devices, comes with the app.</p></section>'
+          '<section class="soi-wrap soi-sec" id="soi-saved-web"></section>'))
+    write("signin/index.html", page("Sign in – Spirit of Islam",
+          '<section class="soi-wrap soi-sec soi-page-head"><h1>Sign in</h1><p>Accounts arrive together with the Spirit of Islam app: one sign-in to keep your place, saved articles and gems on every device.</p>'
+          '<p>Until then nothing is needed. Your reading place and saved items are remembered in this browser.</p><p><a class="soi-btn soi-btn-solid" href="/saved/">See what is saved here</a></p></section>'))
+
+    # ---- About and Contact pages, word for word from the live site
+    for item, cur_key in [(x, "") for x in MENU["about"]] + [(MENU["contact"], "contact")]:
+        w = wp_page(item.get("wp"))
+        if not w:
+            print("page not copied from the live site yet:", item["label"])
+            w = {"title": item["label"], "html": f'<p>This page is being moved from the current website. <a href="https://spiritofislam.co.in/?page_id={item.get("wp")}">Read it there</a>.</p>'}
+        write(item["href"].strip("/") + "/index.html", page(f'{item["label"]} – Spirit of Islam',
+              f'<section class="soi-wrap soi-sec soi-page-head"><h1>{esc(item["label"])}</h1></section><section class="soi-wrap soi-prose">{w["html"]}</section>', current=cur_key))
+
+    # ---- issues: header, menu and the archive banner, then the magazine
     for k, i in enumerate(issues):
         prev, nxt = (issues[k - 1] if k else None), (issues[k + 1] if k + 1 < len(issues) else None)
         label = f"Issue {i['number']} · {i['period']}" if i["number"] else i["period"]
@@ -240,7 +412,11 @@ def build():
 {nav}
 """
         desc = f"Spirit of Islam, {label}: " + ", ".join(a["title"] for a in i["articles"][:6]) + "."
-        write(f"issues/{i['slug']}/index.html", page(f"{label} – Spirit of Islam", body, desc, cls="soi-issue-page"))
+        short = f"Issue {i['number']} · {short_period(i['period'])}" if i["number"] else short_period(i["period"])
+        head = (f'<meta name="soi-issue" content="{i["slug"]}" data-label="{esc(short)}">'
+                f'<meta property="og:title" content="{esc(label)} – Spirit of Islam"><meta property="og:image" content="/assets/covers/{i["slug"]}@2x.webp">')
+        write(f"issues/{i['slug']}/index.html", page(f"{label} – Spirit of Islam", body, desc, cls="soi-issue-page", head=head,
+                                                      current="latest" if i is latest else ""))
 
     # ---- search
     search = f"""
@@ -262,7 +438,7 @@ def build():
 }})();
 </script>
 """
-    write("search/index.html", page("Search – Spirit of Islam", search, "Search every article of Spirit of Islam since 2013."))
+    write("search/index.html", page("Search – Spirit of Islam", search, "Search every article of Spirit of Islam since 2013.", current="search"))
     write("404.html", page("Page not found – Spirit of Islam",
                            '<section class="soi-wrap soi-block soi-page-head"><h1>Page not found</h1><p>Try the <a href="/archive/">archive</a> or the <a href="/search/">search</a>.</p></section>'))
     write("robots.txt", "User-agent: *\nAllow: /\n")
@@ -276,10 +452,12 @@ def build():
         manifest.append({"slug": i["slug"], "number": i["number"], "period": i["period"], "year": i["year"],
                          "articles": len(i["articles"]), "audio": sum(a["audio"] for a in i["articles"]),
                          "quiz": bool(i["quiz"]), "titles": [a["title"] for a in i["articles"][:5]],
+                         "arts": [[a["id"], a["title"], a["kicker"], minutes(a["words"]), int(bool(a["audio"]))] for a in i["articles"]],
+                         "line": MENU.get("hero_line", {}).get(i["slug"], ""),
                          "bytes": len(b), "v": hashlib.sha1(b).hexdigest()[:10]})
     write("issues.json", json.dumps({"issues": manifest}, ensure_ascii=False, separators=(",", ":")))
     write("_headers", "/issues/*\n  Access-Control-Allow-Origin: *\n/issues.json\n  Access-Control-Allow-Origin: *\n"
-                      "/assets/quotes.json\n  Access-Control-Allow-Origin: *\n")
+                      "/assets/*\n  Access-Control-Allow-Origin: *\n")
     asyncio.run(index(issues))
     size = sum(os.path.getsize(os.path.join(d, f)) for d, _, fs in os.walk(OUT) for f in fs)
     print(f"site: {len(issues)} issues, {total_articles} articles, {size / 1e6:.1f} MB in {os.path.relpath(OUT, ROOT)}/")

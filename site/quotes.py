@@ -98,8 +98,8 @@ PAGE = r"""
     el.innerHTML='<blockquote><p>'+esc(q.t)+'</p></blockquote>'+
       '<p class="soi-q-src">'+(q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)+'</p>'+
       '<p class="soi-q-tags">'+q.tp.map(function(t){return '<i>'+esc(t)+'</i>'}).join('')+'</p>'+
-      '<p class="soi-q-act"><button type="button" data-act="img">Share as image</button><button type="button" data-act="wa">WhatsApp</button><button type="button" data-act="copy">Copy</button></p>';
-    el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;act(b.getAttribute('data-act'),q)});
+      '<p class="soi-q-act"><button type="button" data-act="save" aria-pressed="'+(window.soi&&soi.store.hasQuote(q))+'">'+(window.soi&&soi.store.hasQuote(q)?'Saved':'Save')+'</button><button type="button" data-act="img">Share as image</button><button type="button" data-act="wa">WhatsApp</button><button type="button" data-act="copy">Copy</button></p>';
+    el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;if(b.getAttribute('data-act')==='save'){var on=soi.store.toggleQuote(q);b.textContent=on?'Saved':'Save';b.setAttribute('aria-pressed',on);say(on?'Saved to this device':'Removed from Saved');return}act(b.getAttribute('data-act'),q)});
     return el;
   }
   function text(q){return '“'+q.t+'”\n— Spirit of Islam, Issue '+q.n+' ('+q.p+')\n'+link(q)}
@@ -161,6 +161,6 @@ def build(root, out_dir, issues, page, write):
     json.dump({"topics": [t[0] for t in TOPICS], "quotes": quotes}, open(os.path.join(out_dir, "assets", "quotes.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     body = PAGE.replace("__N__", f"{len(quotes):,}").replace("__ISSUES__", str(len({q['s'] for q in quotes})))
-    write("quotes/index.html", page("Quotes – Spirit of Islam", body, cls="soi-quotes",
+    write("quotes/index.html", page("Quotes – Spirit of Islam", body, cls="soi-quotes", current="quotes",
                                     desc="Reflections from every issue of Spirit of Islam: the closing thought of each article and the In Focus words of Maulana Wahiduddin Khan."))
     return len(quotes), dropped
