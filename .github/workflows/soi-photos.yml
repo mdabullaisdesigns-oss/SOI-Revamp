@@ -1,0 +1,42 @@
+name: Fetch candidate photos
+
+# Downloads the photos listed in sources/photo-candidates.txt (free-licence Pexels / Unsplash) at review
+# size to the throw-away branch "photo-candidates". Nothing is added to main or to the website by this job.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources/photo-candidates.txt, .github/workflows/soi-photos.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p "$RUNNER_TEMP/p"; cd "$RUNNER_TEMP/p"
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+          grep -v '^#' "$GITHUB_WORKSPACE/sources/photo-candidates.txt" | grep -v '^\s*$' | while read -r group src id; do
+            if [ "$src" = pexels ]; then
+              url="https://images.pexels.com/photos/$id/pexels-photo-$id.jpeg?auto=compress&cs=tinysrgb&w=${W:-900}"
+            else
+              url="https://unsplash.com/photos/$id/download?force=true&w=${W:-900}"
+            fi
+            curl -fsSL -A "$UA" -o "$group-$src-$id.jpg" "$url" || { echo "::warning::$src $id not downloaded"; rm -f "$group-$src-$id.jpg"; }
+            sleep 0.5
+          done
+          ls -la | head -80
+      - name: Publish to the photo-candidates branch
+        run: |
+          cd "$RUNNER_TEMP/p"
+          git init -q -b photo-candidates
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Candidate photos (temporary, for review)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" photo-candidates
