@@ -33,8 +33,25 @@ The existing recording does not match the article text (a different article was 
 | May–Jun 2026 | Spiritual Uplift · Eclipse: A Divine Miracle (no recording) |
 | Jul–Aug 2026 | In Search of Self · Your Questions Answered · The Word of God |
 
-## Quizzes – worth a read before going live
-Every question quotes its article in the explanation and names the article and printed page. Questions are drawn from each article's opening passage, so they are on the easy side, and a few came from short excerpts. A read-through by an editor is advisable.
+## Quizzes (rewritten 14 Nov 2026 from the full text of each article)
+132 issues × 10 questions. Each quiz draws on 6–10 different articles, mixes recall with "what does the article mean / how would you apply it" questions, and every explanation quotes the article and gives its title and printed page. All 132 issue pages were rebuilt and pass the checks.
+
+**Choices made – change if you disagree**
+- No quiz question (the articles themselves are on the site in full) on four articles that take a position on a current political dispute or make a dated prediction: "Peace in the Promised Land" (Jan–Feb 2024), "Steps Towards Shared Global Prosperity" (Jan–Feb 2025), "Blueprint for Lasting Peace in Palestine" (Nov–Dec 2025), "The Divine Warning of Doomsday" (Jan–Feb 2026, says most life may end by 2050).
+- No questions on book reviews, readers' notices, CPS Newsletter, glossary or contents pages.
+- Where an article contains a factual slip, no question was built on it: Apollo 8 dated 1985 in "Staying Cool"; the Iran Air incident dated 3 June 1988 (it was 3 July); differing neuron counts.
+
+**Text oddities noticed in the Gary issues (text is as on the WordPress pages; not changed)**
+| Issue | Article | What looks wrong |
+|---|---|---|
+| Nov–Dec 2024 | The Destructive Force of Hatred | body is about individual talents (Abu Hurairah / Khalid), not hatred |
+| Jan–Feb 2025 | The Power of Quality in Today's World | body is about positive thinking |
+| Nov–Dec 2025 | Blueprint for Lasting Peace in Palestine | starts with a stray subheading "Hard Work Builds Dignity" |
+| Jul–Aug 2026 | The Power of Trust | ends with a paragraph that belongs to "Super Performers" |
+| Jul–Aug 2026 | Beyond Mere Appearance | closing passage appears twice |
+
+## App (foundation, 14 Nov 2026)
+`app/` – Capacitor shell for Android and iOS; see `app/README.md`. Offline reading, saved issues and search are tested in a browser; background audio is wired but needs a real phone to confirm.
 
 ## Preview
 https://soi-preview.pages.dev (Cloudflare Pages, hidden from search engines). It republishes itself on every push that changes `site/` or an issue page.

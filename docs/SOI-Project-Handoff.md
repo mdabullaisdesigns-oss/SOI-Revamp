@@ -188,6 +188,7 @@
 - **Size:** Android ~5–15 MB, iOS ~15–30 MB; issues/audio downloaded on demand.
 - **Feel:** smooth for reading/audio/quiz; slightly less native for gestures/transitions unless designed carefully.
 - **Apple review:** needs real app features (offline downloads, background audio, notifications) – a plain website wrapper risks rejection. Store review takes days to weeks.
+- **Status (14 Nov 2026):** foundation built in `app/` (Capacitor 8, `android/` + `ios/` projects, offline reading with a Saved page, website player connected to the Android media notification / iOS audio background mode, test APK from GitHub Actions). Not yet: device test of background audio, iOS build, icon/splash, offline audio, Firebase. Details: `app/README.md`.
 - **Accounts:** Google Play $25 one-time; Apple Developer ~₹8,700/year. The user's **iMac** handles iOS builds.
 
 ---
