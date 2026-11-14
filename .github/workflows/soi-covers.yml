@@ -1,0 +1,49 @@
+name: Make issue covers
+
+# Cover picture of every issue = page 1 of its PDF (cloud sessions cannot reach the PDFs, so this runs here).
+# Writes site/covers/<slug>.webp and commits them. Also copies the live home page into sources/site/
+# so the menu links and the welcome note can be checked word for word. No PDF is ever committed.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/soi-covers.yml", "pipeline/covers.py", "sources/covers.txt"]
+
+permissions:
+  contents: write
+
+concurrency: soi-covers
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pymupdf pillow
+      - name: Render page 1 of each PDF
+        run: |
+          mkdir -p "$RUNNER_TEMP/pdf"
+          grep -v '^#' sources/covers.txt | grep -v '^\s*$' | while read -r slug file; do
+            [ -f "site/covers/$slug.webp" ] && continue
+            url=$(python3 -c "import csv,sys; print({r['file']:r['url'] for r in csv.DictReader(open('inventory/inventory-pdfs.csv',encoding='utf-8'))}.get(sys.argv[1],''))" "$file")
+            case "$url" in https://spiritofislam.co.in/wp-content/uploads/*) ;; *) echo "::warning::$slug: $file is not in the inventory"; continue;; esac
+            curl -fsSL -A "Mozilla/5.0 (Macintosh) SOI-archive-fetcher" -o "$RUNNER_TEMP/pdf/x.pdf" "$url" || { echo "::warning::$slug: download failed"; continue; }
+            python3 pipeline/covers.py "$slug" "$RUNNER_TEMP/pdf/x.pdf" || echo "::warning::$slug: cover failed"
+            rm -f "$RUNNER_TEMP/pdf/x.pdf"
+          done
+          ls site/covers | wc -l; du -sh site/covers
+      - name: Copy the live home page (menu links, welcome note)
+        run: |
+          mkdir -p sources/site
+          curl -fsSL -A "Mozilla/5.0 (Macintosh) SOI-archive-fetcher" "https://spiritofislam.co.in/" -o sources/site/home.html || echo "::warning::home page not fetched"
+          curl -fsSL -A "Mozilla/5.0 (Macintosh) SOI-archive-fetcher" "https://spiritofislam.co.in/?rest_route=/wp/v2/pages&per_page=100&_fields=id,link,title,parent&orderby=title&order=asc" -o sources/site/pages-1.json || true
+          curl -fsSL -A "Mozilla/5.0 (Macintosh) SOI-archive-fetcher" "https://spiritofislam.co.in/?rest_route=/wp/v2/pages&per_page=100&page=2&_fields=id,link,title,parent&orderby=title&order=asc" -o sources/site/pages-2.json || true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add site/covers sources/site
+          git diff --cached --quiet || git commit -q -m "Issue covers from page 1 of each PDF; copy of the live home page"
+          git pull --rebase -q origin main
+          git push -q origin HEAD:main
