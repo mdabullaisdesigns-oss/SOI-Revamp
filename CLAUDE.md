@@ -16,6 +16,11 @@ Full background and decisions: `docs/SOI-Project-Handoff.md` – read it before 
 - 880px max width, 16px side margin (28px on phones), no sideways scroll 320–1280px.
 - All CSS scoped to `.soi-ev` / `#soi-quiz`; all ids and animation names prefixed `soi`.
 
+## Images and design
+- Approved redesign: `docs/design-decisions.md` (follow it for the website and app).
+- Photos: real nature only. **Strictly no people**, no symbols of other religions; Islamic imagery or plain nature. No AI images.
+- Use only the logo files in `site/brand/`.
+
 ## Layout of this repo
 - `scripts/soi-fetch-archive.py` – lists every PDF/MP3/ISSUE page via the public WP REST API and downloads them.
 - `.github/workflows/soi-media-to-r2.yml` – Actions job (run manually) that copies site media to R2 and commits `inventory/*.csv`.
