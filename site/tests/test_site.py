@@ -59,7 +59,7 @@ async def main():
         t = await pg.inner_text('#soi-continue'); ok('home: Continue reading shows the article just read', 'CONTINUE READING' in t.upper() and 'Resume' in t, t[:80])
         await pg.click('.soi-cont-go'); await pg.wait_for_selector('.soi-ev .ev-item.is-open', timeout=5000); ok('  Resume opens that article', 'resume=1' in pg.url)
         await pg.goto(B + '/saved/'); ok('saved page lists the saved article', await pg.locator('#soi-saved-web .soi-saved-row').count() >= 2)
-        for u, t in (('/about/', 'Maulana Wahiduddin Khan'), ('/about/', 'The SOI Team'), ('/contact/', 'Contact Us'), ('/signin/', 'Sign in'), ('/search/', 'Search'), ('/quotes/', 'Quotes')):
+        for u, t in (('/about/', 'Maulana Wahiduddin Khan'), ('/about/', 'The SOI Team'), ('/contact/', 'Contact Us'), ('/signin/', 'Sign in'), ('/search/', 'Search'), ('/quotes/', 'Words to carry with you')):
             await pg.goto(B + u); ok(f'page {u}', t in await pg.inner_text('main'))
         # phones
         m = await ctx.new_page(); await m.set_viewport_size({'width': 390, 'height': 800}); m.on('pageerror', lambda e: errs.append(str(e)))
