@@ -11,7 +11,7 @@
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "3",
+    "score": "2",
     "overflow": 0
    }
   },
@@ -25,7 +25,7 @@
    "quiz": {
     "answered": 10,
     "finished": true,
-    "score": "2",
+    "score": "1",
     "overflow": 0
    }
   }
