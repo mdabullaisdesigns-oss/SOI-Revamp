@@ -32,14 +32,14 @@ async def main():
         ok('home sections in the approved order', [h.split('\n')[0] for h in heads][:4] == ['Our latest issue', 'Latest issues', 'New here? Start with these', 'Read by topic'] and len(heads) == 5, str(heads))
         ok('latest issue hero + Continue + Quote of the day', f"ISSUE {LATEST['number']}" in (await pg.inner_text('.soi-hero-over')).upper() and len(await pg.inner_text('.soi-qotd-text')) > 20 and await pg.locator('#soi-continue').count() == 1)
         ok('latest issues row: 6 covers', await pg.locator('.soi-home .soi-covers-6 .soi-icard img').count() == 6)
-        ok('footer credit', 'Design & Development by Md Abullais' in await pg.inner_text('.soi-foot-credit'))
+        ok('footer: credit, CPS social links, Ask AI, no copyright line', 'Design & Development by Md Abullais' in await pg.inner_text('.soi-foot2-credit') and await pg.locator('.soi-foot2-soc').count() >= 6 and await pg.locator('.soi-ask-ai a.soi-ai').count() == 5 and '©' not in await pg.inner_text('.soi-foot2'))
         # Archives menu
         await pg.hover('.soi-has-mega > .soi-menu-top'); await pg.wait_for_selector('.soi-mega-covers a'); await pg.wait_for_timeout(500)
         ok('Archives menu: every year on the left, covers on the right', await pg.locator('.soi-mega-years button').count() == len({i['year'] for i in ISS}) and await pg.locator('.soi-mega-covers a').count() == len([i for i in ISS if i['year'] == LATEST['year']]))
         await pg.hover('.soi-mega-years button[data-y="2018"]'); await pg.wait_for_timeout(1200)
         ok('  hovering a year shows that year\'s covers', await pg.locator('.soi-mega-covers a').count() == 12 and await pg.evaluate("[...document.querySelectorAll('.soi-mega-covers img')].every(i=>i.complete&&i.naturalWidth>0)"))
-        await pg.mouse.move(700, 880); await pg.hover('.soi-menu-list > li:nth-child(4) .soi-menu-top'); await pg.wait_for_timeout(300)
-        ok('About Us dropdown', await pg.locator('.soi-menu-list > li:nth-child(4) .soi-sub a').all_inner_texts() == ['Our Founder', 'Our Mission', 'SOI Team'] and await pg.locator('.soi-menu-list > li:nth-child(4) .soi-sub').is_visible())
+        await pg.mouse.move(700, 880)
+        ok('About Us is one link, no drop-down', await pg.locator('.soi-menu-list > li:nth-child(4) > a[href="/about/"]').count() == 1 and await pg.locator('.soi-menu-list > li:nth-child(4) .soi-sub').count() == 0)
         await pg.mouse.wheel(0, 1500); await pg.wait_for_timeout(300)
         ok('menu bar stays on screen when scrolling (sticky)', await pg.evaluate("document.querySelector('.soi-menu').getBoundingClientRect().top") < 40)
         # every issue has a cover file; archive shows them
@@ -59,14 +59,14 @@ async def main():
         t = await pg.inner_text('#soi-continue'); ok('home: Continue reading shows the article just read', 'CONTINUE READING' in t.upper() and 'Resume' in t, t[:80])
         await pg.click('.soi-cont-go'); await pg.wait_for_selector('.soi-ev .ev-item.is-open', timeout=5000); ok('  Resume opens that article', 'resume=1' in pg.url)
         await pg.goto(B + '/saved/'); ok('saved page lists the saved article', await pg.locator('#soi-saved-web .soi-saved-row').count() >= 2)
-        for u, t in (('/about/our-founder/', 'Maulana Wahiduddin Khan'), ('/about/our-mission/', 'A Mission of Peace'), ('/contact/', 'Contact Us'), ('/signin/', 'Sign in'), ('/search/', 'Search'), ('/quotes/', 'Quotes')):
+        for u, t in (('/about/', 'Maulana Wahiduddin Khan'), ('/about/', 'The SOI Team'), ('/contact/', 'Contact Us'), ('/signin/', 'Sign in'), ('/search/', 'Search'), ('/quotes/', 'Quotes')):
             await pg.goto(B + u); ok(f'page {u}', t in await pg.inner_text('main'))
         # phones
         m = await ctx.new_page(); await m.set_viewport_size({'width': 390, 'height': 800}); m.on('pageerror', lambda e: errs.append(str(e)))
         await m.goto(B + '/'); await m.click('.soi-menu-toggle'); await m.click('.soi-has-mega > .soi-menu-top'); await m.wait_for_selector('.soi-mega-years button')
         ok('phone: menu opens, Archives lists the years', await m.locator('.soi-mega-years button').count() >= 14 and await m.locator('.soi-menu-list').is_visible())
         bad = []
-        pages = ('/', '/archive/', '/issues/' + LATEST['slug'] + '/', '/issues/2013-01/', '/about/team/', '/quotes/', '/search/', '/saved/', '/about/our-founder/', '/contact/')
+        pages = ('/', '/archive/', '/issues/' + LATEST['slug'] + '/', '/issues/2013-01/', '/about/', '/quotes/', '/search/', '/saved/', '/contact/')
         for w in (320, 360, 390, 768, 981, 1100, 1280):
             await m.set_viewport_size({'width': w, 'height': 800})
             for u in pages:
