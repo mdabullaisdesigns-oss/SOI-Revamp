@@ -87,22 +87,47 @@ def old_links(issues):
 MENU = json.load(open(os.path.join(HERE, "menu.json"), encoding="utf-8"))
 SHORT = {"January": "Jan", "February": "Feb", "March": "Mar", "April": "Apr", "June": "Jun", "July": "Jul", "August": "Aug",
          "September": "Sep", "October": "Oct", "November": "Nov", "December": "Dec"}
-ICON_SEARCH = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>'
-ICON_SAVED = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>'
-I_HOME = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg>'
-I_ARCH = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7" height="16" rx="1.5"/><rect x="14" y="4" width="7" height="16" rx="1.5"/></svg>'
-I_QUOTE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18c2.5-1 4-3.5 4-7V6H4v6h4M15 18c2.5-1 4-3.5 4-7V6h-5v6h4"/></svg>'
-I_ABOUT = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>'
-I_MAIL = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>'
+# Filled icons, Boxicons v3 style (https://boxicons.com · free licence: https://docs.boxicons.com/free). The archive, team,
+# reading and sign-in icons are the owner's picks; the rest are drawn to match.
+_F = '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true">{}</svg>'
+ICON_SEARCH = _F.format('<path d="M10 2a8 8 0 1 0 4.9 14.3l5.4 5.4 1.4-1.4-5.4-5.4A8 8 0 0 0 10 2m0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12"/>')
+ICON_SAVED = _F.format('<path d="M17 2H7a2 2 0 0 0-2 2v17.4a.6.6 0 0 0 .95.5L12 18l6.05 3.9a.6.6 0 0 0 .95-.5V4a2 2 0 0 0-2-2m0 16.5-5-3.2-5 3.2V4h10z"/>')
+I_HOME = _F.format('<path d="M3.3 10.3 11.3 3.3a1 1 0 0 1 1.4 0l8 7A1 1 0 0 1 21 11v9a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-5h-4v5a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2v-9a1 1 0 0 1 .3-.7M5 11.5V20h3v-5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v5h3v-8.5l-7-6.1z"/>')
+I_ARCH = _F.format('<path d="M9 3h2v18H9zm11.71 17.23-3.8-8.15-3.81-8.16-.9.42-.91.43 3.8 8.15 3.81 8.16.9-.42zM6 3h2v18H6zM3 3h2v18H3z"/>')
+I_QUOTE = _F.format('<path d="M4 6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v4.5c0 4-1.9 6.9-5.6 8.4l-.8-1.8C6.9 18 8 16.5 8.4 14H6a2 2 0 0 1-2-2zm9 0a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v4.5c0 4-1.9 6.9-5.6 8.4l-.8-1.8c2.3-1 3.4-2.5 3.8-5.1H15a2 2 0 0 1-2-2z"/>')
+I_ABOUT = _F.format('<path d="M12 11c1.71 0 3-1.29 3-3s-1.29-3-3-3-3 1.29-3 3 1.29 3 3 3m0-4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1m1 5h-2c-2.76 0-5 2.24-5 5v.5c0 .83.67 1.5 1.5 1.5h9c.83 0 1.5-.67 1.5-1.5V17c0-2.76-2.24-5-5-5m-5 5c0-1.65 1.35-3 3-3h2c1.65 0 3 1.35 3 3zm-1.5-6c.47 0 .9-.12 1.27-.33a5.03 5.03 0 0 1-.42-4.52C7.09 6.06 6.8 6 6.5 6 5.06 6 4 7.06 4 8.5S5.06 11 6.5 11m-.39 1H5.5C3.57 12 2 13.57 2 15.5v1c0 .28.22.5.5.5H4c0-1.96.81-3.73 2.11-5m11.39-1c1.44 0 2.5-1.06 2.5-2.5S18.94 6 17.5 6c-.31 0-.59.06-.85.15a5.03 5.03 0 0 1-.42 4.52c.37.21.79.33 1.27.33m1 1h-.61A6.97 6.97 0 0 1 20 17h1.5c.28 0 .5-.22.5-.5v-1c0-1.93-1.57-3.5-3.5-3.5"/>')
+I_MAIL = _F.format('<path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 2v.5l-8 5.2-8-5.2V6zM4 18V8.9l7.5 4.9a1 1 0 0 0 1 0L20 8.9V18z"/>')
+I_READ = _F.format('<path d="M21 8c-.2 0-4.85.03-9 2.01C7.85 8.03 3.2 8 3 8c-.55 0-1 .45-1 1v9.88c0 .27.11.53.31.72.19.19.45.3.73.28.04 0 3.97-.11 8.54 2.02.02 0 .03 0 .05.01.12.05.24.08.37.08s.25-.03.37-.08c.02 0 .03 0 .05-.01 4.54-2.12 8.51-2.03 8.54-2.02.27.02.53-.09.73-.28.19-.19.31-.45.31-.72V9c0-.55-.45-1-1-1M4 10.05c1.49.11 4.38.48 7 1.69v7.74c-3.02-1.18-5.62-1.5-7-1.58v-7.86Zm16 7.86c-1.38.08-3.98.4-7 1.58v-7.74c2.62-1.21 5.51-1.58 7-1.69v7.86ZM12 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6"/>')
+I_USER = _F.format('<path d="m14.29 6.71 4.3 4.29H9v2h9.59l-4.3 4.29 1.42 1.42 6.7-6.71-6.7-6.71z"/><path d="M11 5V3c-4.96 0-9 4.04-9 9s4.04 9 9 9v-2c-3.86 0-7-3.14-7-7s3.14-7 7-7"/>')
 I_GRID = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg>'
 I_LIST = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg>'
-I_USER = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>'
 LATEST = {"slug": ""}            # filled in by build()
 
 
 def short_period(p):
     """November–December 2026 -> Nov–Dec 2026 (cards and menus)."""
     return re.sub("|".join(SHORT), lambda m: SHORT[m.group(0)], p)
+
+
+# Footer: social accounts of CPS International (from the footer of cpsglobal.org) and "Ask AI" links.
+_S = '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true">{}</svg>'
+SOCIAL = {
+    "fb": _S.format('<path d="M13.5 21v-7.5H16l.4-3H13.5V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21z"/>'),
+    "yt": _S.format('<path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8M10 15V9l5.2 3z"/>'),
+    "ig": _S.format('<path d="M8 3h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3zm4 3.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7m0 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M17 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>'),
+    "x": _S.format('<path d="M17.3 3h3.1l-6.8 7.7 8 10.3h-6.3l-4.9-6.4L4.8 21H1.7l7.3-8.3L1.4 3h6.4l4.4 5.9zm-1.1 16.2h1.7L6.9 4.7H5.1z"/>'),
+    "in": _S.format('<path d="M5 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4M3.3 9h3.4v11H3.3zm5.6 0h3.3v1.5c.5-.9 1.6-1.8 3.4-1.8 3.5 0 4.1 2.3 4.1 5.3v6H16.4v-5.3c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V20H8.9z"/>'),
+    "q": _S.format('<path d="M12 3a8.5 8.5 0 0 0-1 16.95c.6 1.3 1.6 2.05 3.1 2.05 1 0 1.7-.3 2.1-.6l-.4-1.3c-.3.2-.7.3-1.1.3-.8 0-1.3-.4-1.7-1.1A8.5 8.5 0 0 0 12 3m0 2.2c3 0 4.7 2.4 4.7 6.3 0 1.8-.4 3.3-1.1 4.3-.7-1.2-1.6-2.2-3.1-2.2-.6 0-1.1.1-1.5.4l.4.9c.2-.1.5-.1.7-.1.9 0 1.5.8 2 1.7-.4.1-.8.2-1.1.2-3 0-4.7-2.4-4.7-5.2 0-3.9 1.7-6.3 4.7-6.3"/>'),
+    "wa": _S.format('<path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4m-3.1 3.6c-.2 0-.5 0-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4l-.5-.3-1.8-.9c-.3-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.4-1.8-.2-.3 0-.4.1-.5l.4-.5.3-.4v-.4l-.8-2c-.2-.5-.4-.4-.6-.5z"/>'),
+}
+_AI_Q = __import__("urllib.parse").parse.quote(MENU.get("ask_ai_prompt", ""))
+ASK_AI = "".join(f'<a class="soi-ai" href="{h}" target="_blank" rel="noopener"{x}>{n}</a>' for n, h, x in [
+    ("ChatGPT", f"https://chatgpt.com/?q={_AI_Q}", ""),
+    ("Claude", f"https://claude.ai/new?q={_AI_Q}", ""),
+    ("Gemini", "https://gemini.google.com/app", ' data-copy-prompt="1"'),
+    ("Perplexity", f"https://www.perplexity.ai/search?q={_AI_Q}", ""),
+    ("Grok", f"https://grok.com/?q={_AI_Q}", ""),
+])
 
 
 def ext(href):
@@ -168,7 +193,7 @@ def page(title, body, desc="", cls="", head="", current=""):
         </div>
       </li>
       <li><a href="/quotes/"{cur("quotes")}>{I_QUOTE}<span>Quotes</span></a></li>
-      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">{I_ABOUT}<span>About Us</span> <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["about"])}</ul></li>
+      <li><a href="/about/"{cur("about")}>{I_ABOUT}<span>About Us</span></a></li>
       <li><a href="{esc(c['href'])}"{cur("contact")}>{I_MAIL}<span>{esc(c['label'])}</span></a></li>
     </ul>
     <span class="soi-menu-right">
@@ -181,14 +206,18 @@ def page(title, body, desc="", cls="", head="", current=""):
 <main id="soi-main">
 {body}
 </main>
-<footer class="soi-foot">
-  <div class="soi-foot-in">
-    <div class="soi-foot-brand"><a href="/" aria-label="Spirit of Islam – home"><img class="soi-foot-bird" src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453" loading="lazy"><span><img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="1600" height="164" loading="lazy"><img src="/assets/brand/Slogan-Line.png" alt="Towards Global Peace &amp; Spiritual Living" width="1600" height="138" loading="lazy"></span></a></div>
-    <div><strong>Read</strong><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archives</a><a href="/quotes/">Quotes</a><a href="/search/">Search</a><a href="/saved/">Saved</a></div>
-    <div><strong>About</strong>{"".join(f'<a href="{esc(i["href"])}">{esc(i["label"])}</a>' for i in MENU["about"])}<a href="{esc(c['href'])}">Contact Us</a></div>
-    <div><strong>Further reading</strong>{"".join(f'<a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a>' for i in MENU["reading"])}<strong class="soi-foot-h2">Our websites</strong>{"".join(f'<a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a>' for i in MENU["websites"] if i["label"] != "CPS Quran")}</div>
+<footer class="soi-foot soi-foot2">
+  <div class="soi-foot2-in">
+    <a class="soi-foot2-brand" href="/" aria-label="Spirit of Islam – home"><img class="soi-foot2-bird" src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453" loading="lazy"><img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="1600" height="164" loading="lazy"><img src="/assets/brand/Slogan-Line.png" alt="Towards Global Peace &amp; Spiritual Living" width="1600" height="138" loading="lazy"></a>
+    <div class="soi-foot2-col"><h2>Read</h2><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archives</a><a href="/quotes/">Quotes</a><a href="/search/">Search</a><a href="/saved/">Saved</a></div>
+    <div class="soi-foot2-col"><h2>About</h2><a href="/about/">About Spirit of Islam</a><a href="/about/#founder">Our Founder</a><a href="/about/#team">SOI Team</a><a href="{esc(c['href'])}">Contact Us</a></div>
+    <div class="soi-foot2-col"><h2>More from CPS</h2>{"".join(f'<a href="{esc(i["href"])}" target="_blank" rel="noopener">{esc(i["label"])}</a>' for i in MENU["more_cps"])}</div>
+    <div class="soi-foot2-col"><h2>Follow</h2>{"".join(f'<a class="soi-foot2-soc" href="{esc(i["href"])}" target="_blank" rel="noopener">{SOCIAL[i["icon"]]}<span>{esc(i["label"])}</span></a>' for i in MENU["social"])}</div>
   </div>
-  <div class="soi-foot-credit">© Spirit of Islam · Design &amp; Development by Md Abullais</div>
+  <div class="soi-foot2-base">
+    <div class="soi-ask-ai" data-prompt="{esc(MENU.get('ask_ai_prompt', ''))}"><span>Ask AI <svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c.4 3.9 2.1 5.6 6 6-3.9.4-5.6 2.1-6 6-.4-3.9-2.1-5.6-6-6 3.9-.4 5.6-2.1 6-6m6.5 11c.2 2 1.1 2.8 3 3-1.9.2-2.8 1.1-3 3-.2-1.9-1.1-2.8-3-3 1.9-.2 2.8-1 3-3"/></svg> about Spirit of Islam</span>{ASK_AI}</div>
+    <p class="soi-foot2-credit">Design &amp; Development by Md Abullais</p>
+  </div>
 </footer>
 </body>
 </html>
@@ -384,14 +413,56 @@ def build():
           '<p>Until then nothing is needed. Your reading place and saved items are remembered in this browser.</p><p><a class="soi-btn soi-btn-solid" href="/saved/">See what is saved here</a></p></section>'))
 
     # ---- About and Contact pages, word for word from the live site
+    # ---- About Us: one page (about the magazine, the founder, the mission and the team)
     team = MENU["team"]
-    rows = "".join(f'<li><span class="soi-team-role">{esc(r)}</span>{"".join(f"<b>{esc(n)}</b>" for n in names)}</li>' for r, names in team["people"])
-    write("about/team/index.html", page("SOI Team – Spirit of Islam",
-          f'<section class="soi-wrap soi-sec soi-page-head"><h1>The SOI Team</h1><p>{esc(team["intro"])}</p></section>'
-          f'<section class="soi-wrap soi-block"><ul class="soi-team">{rows}</ul>'
-          f'<p class="soi-team-office"><span class="soi-team-role">Office</span>{esc(team["office"])}</p></section>',
-          "The people behind Spirit of Islam."))
-    for item, cur_key in [(x, "") for x in MENU["about"] if x.get("wp")] + [(MENU["contact"], "contact")]:
+    def initials(n):
+        w = [x for x in re.sub(r"^(Prof|Dr|Mr|Ms|Mrs)\.?\s+", "", n).split() if x[:1].isalpha()]
+        return (w[0][0] + (w[-1][0] if len(w) > 1 else "")).upper()
+    lead, rest = team["people"][0], team["people"][1:]
+    member = lambda role, n, cls="": (f'<li class="soi-tm {cls}"><span class="soi-tm-mono" aria-hidden="true">{initials(n)}</span>'
+                                      f'<span><small>{esc(role)}</small><b>{esc(n)}</b></span></li>')
+    team_html = (f'<ul class="soi-tm-lead">{member(lead[0], lead[1][0], "is-lead")}</ul>'
+                 f'<ul class="soi-tm-grid">{"".join(member(r[:-1] if len(names) > 1 and r.endswith("s") else r, n) for r, names in rest for n in names)}</ul>'
+                 f'<p class="soi-tm-office"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7m0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5"/></svg>'
+                 f'<span><small>Office</small>{esc(team["office"])}</span></p>')
+    mission = wp_page(552)
+    mq = re.search(r"❝(.*?)❞\s*[–-]?\s*Maulana Wahiduddin Khan", re.sub(r"<[^>]+>", " ", mission["html"]) if mission else "", re.S)
+    mission_quote = re.sub(r"\s+", " ", mq.group(1)).strip() if mq else ""
+    about = f"""
+<section class="soi-wrap soi-sec soi-page-head soi-about2-head"><p class="soi-kicker">About us</p><h1>A magazine for the journey of life</h1></section>
+<section class="soi-wrap soi-about2">
+  <div class="soi-about2-text">
+    <p class="soi-lede">Spirit of Islam is an English magazine about living by the original teachings of Islam: peace, reason and a constant awareness of God. It began in January 2013 as a monthly and has appeared every two months since 2021, published from Bengaluru, India.</p>
+    <p>Each issue brings together the writings of Maulana Wahiduddin Khan, many of them translated from his Urdu works, and articles by writers he trained. The articles are short and practical: how to deal with anger, how to see a problem as an opportunity, how to think about death and the life after it, how to read the Quran with reflection. Alongside them come readers’ questions, a corner for children and news of the Centre for Peace and Spirituality (CPS International).</p>
+    <p>The magazine takes no political side. Its aim is quieter: to help each reader become a more thoughtful and more peaceful person, and to present Islam to everyone, Muslim or not, as it is found in the Quran and in the life of the Prophet.</p>
+  </div>
+  <div class="soi-about2-facts">
+    <p><b>{len(issues)}</b><span>issues since 2013</span></p>
+    <p><b>{total_articles:,}</b><span>articles to read</span></p>
+    <p><b>2</b><span>months between issues</span></p>
+  </div>
+</section>
+<section class="soi-wrap soi-sec soi-founder" id="founder">
+  <img class="soi-founder-img" src="/assets/brand/maulana.jpg" alt="Maulana Wahiduddin Khan" width="76" height="87">
+  <div>
+    <p class="soi-kicker">Our founder</p>
+    <h2>Maulana Wahiduddin Khan <small>1925–2021</small></h2>
+    <p>Maulana Wahiduddin Khan was born in Azamgarh, Uttar Pradesh. Trained in classical Islamic learning, he went on to study modern science and thought on his own, and spent his life showing that faith and reason do not conflict.</p>
+    <p>In 1976 he started <i>Al-Risala</i>, an Urdu monthly, and in 2001 he founded the Centre for Peace and Spirituality (CPS International) in New Delhi. He wrote more than two hundred books, among them a translation of and commentary on the Quran.</p>
+    <p>He received the Padma Bhushan in 2000 and the Padma Vibhushan in 2021, two of India’s highest civilian honours. His central message, that peace is the heart of Islam and that patience and positive thinking can turn every problem into an opportunity, is the message this magazine carries on.</p>
+  </div>
+</section>
+{f'<section class="soi-wrap soi-sec soi-mission"><p class="soi-kicker">Our mission</p><blockquote><p>{esc(mission_quote)}</p><cite>Maulana Wahiduddin Khan</cite></blockquote></section>' if mission_quote else ''}
+<section class="soi-wrap soi-sec soi-team2" id="team">
+  <p class="soi-kicker">The people behind each issue</p>
+  <h2>The SOI Team</h2>
+  <p class="soi-team2-intro">Spirit of Islam is prepared by a team trained and guided by Maulana Wahiduddin Khan.</p>
+  {team_html}
+</section>"""
+    write("about/index.html", page("About Us – Spirit of Islam", about, "About Spirit of Islam, its founder Maulana Wahiduddin Khan, and the SOI team.", cls="soi-aboutpage", current="about"))
+    for old, to in [("about/our-founder", "/about/#founder"), ("about/our-mission", "/about/"), ("about/team", "/about/#team")]:
+        write(old + "/index.html", f'<!doctype html><meta charset="utf-8"><title>About Us</title><meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{to}"><a href="{to}">About Us</a>')
+    for item, cur_key in [(MENU["contact"], "contact")]:
         w = wp_page(item.get("wp"))
         live = f'https://spiritofislam.co.in/?page_id={item.get("wp")}'
         if not w:

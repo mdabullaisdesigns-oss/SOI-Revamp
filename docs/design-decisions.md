@@ -48,3 +48,15 @@ Approved canvas: "SOI Redesign" (claude.ai/artifact/8V2ZVvbWWVfVUirZSBrybY). Pat
 - SOI Team page from the magazine masthead (Issue 133).
 - Approved photos: `sources/photos-approved.txt` → `site/photos/` (workflow "Apply approved photos").
 - Later: readers' reviews section, styled as cream cards with a dashed inner border (owner's reference: ulakluz.pl).
+
+## Owner's changes (15 Nov 2026)
+- Intro banner and quiz box are exactly as wide as the article tabs (desktop and phone).
+- Ornament divider (`site/brand/ornament.svg`, diamonds + central eight-point star) under page and section headings.
+- Icons: filled Boxicons style (owner's picks for Archives, Team/About, Reading, Sign in; the rest drawn to match).
+- About Us: one page, no drop-down: about the magazine, the founder, the mission (his words from the live site) and the SOI Team (redesigned cards). Old About links redirect.
+- Article body text black (#1B1B1B); drop cap stays teal.
+- Menu in reversed colours (teal bar, gold text, crimson dot) available to try with `?menu=teal`; gold stays the default until the owner decides.
+- Go-to-top with reading progress on every page (shared in `site.js`); issue pages keep their own copy.
+- Quotes: Spotlight and Gallery views on one page (visitor chooses, remembered); Listen uses the device's voice for now (Gary later); share pictures use the approved quote photos.
+- Footer after the owner's reference (seedjewelry.com): dark teal, full logo, large serif column headings, CPS social links (from cpsglobal.org), "Ask AI about Spirit of Islam" (ChatGPT, Claude, Gemini, Perplexity, Grok – names, not logos), no copyright line; developer credit kept.
+- Later: readers' reviews as cream cards with a dashed inner border.

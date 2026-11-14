@@ -64,10 +64,15 @@
 
   /* ---------- quote as a picture ---------- */
   function wrap(ctx, t, max) { var w = t.split(' '), lines = [], l = ''; w.forEach(function (x) { var n = l ? l + ' ' + x : x; if (ctx.measureText(n).width > max && l) { lines.push(l); l = x; } else l = n; }); if (l) lines.push(l); return lines; }
+  var QPH = [];
   function quoteImage(q) {
-    var W = 1080, H = 1350, c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d');
+    var W = 1080, H = 1350, c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d'), bg = new Image();
+    var hh = 0, ht = q.s + q.a + q.t.length; for (var hi = 0; hi < ht.length; hi++) hh = (hh * 31 + ht.charCodeAt(hi)) | 0;
+    var ph = QPH.length ? QPH[Math.abs(hh) % QPH.length] : '';
     function draw() {
-      x.fillStyle = '#204E60'; x.fillRect(0, 0, W, H); x.strokeStyle = '#D4CC73'; x.lineWidth = 3; x.strokeRect(48, 48, W - 96, H - 96);
+      x.fillStyle = '#204E60'; x.fillRect(0, 0, W, H);
+      if (bg.naturalWidth) { var r = Math.max(W / bg.naturalWidth, H / bg.naturalHeight), bw = bg.naturalWidth * r, bh = bg.naturalHeight * r; x.drawImage(bg, (W - bw) / 2, (H - bh) / 2, bw, bh);
+        var g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, 'rgba(23,58,72,.55)'); g.addColorStop(.5, 'rgba(23,58,72,.72)'); g.addColorStop(1, 'rgba(23,58,72,.92)'); x.fillStyle = g; x.fillRect(0, 0, W, H); } x.strokeStyle = '#D4CC73'; x.lineWidth = 3; x.strokeRect(48, 48, W - 96, H - 96);
       x.fillStyle = '#D4CC73'; x.save(); x.translate(W / 2, 170); x.rotate(Math.PI / 4); x.fillRect(-13, -13, 26, 26); x.restore();
       var size = q.t.length > 330 ? 40 : q.t.length > 220 ? 46 : q.t.length > 120 ? 54 : 64, lines;
       x.fillStyle = '#EEEEE5'; x.textAlign = 'center'; x.textBaseline = 'middle';
@@ -82,11 +87,12 @@
         var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); toast('Image saved');
       }, 'image/png');
     }
-    (document.fonts && document.fonts.load ? document.fonts.load('italic 40px "Cita Pro Ita"').then(draw, draw) : draw());
+    var fl = document.fonts && document.fonts.load ? document.fonts.load('italic 40px "Cita Pro Ita"') : Promise.resolve();
+    fl.then(function () { if (!ph) return draw(); bg.onload = draw; bg.onerror = draw; bg.src = ph; }, draw);
   }
   function quoteOfDay() {
     return fetch('/assets/quotes.json').then(function (r) { return r.json(); }).then(function (d) {
-      var p = d.quotes.filter(function (q) { return q.t.length < 220; }), day = Math.floor(Date.now() / 864e5 - new Date().getTimezoneOffset() / 1440);
+      QPH = d.photos || []; var p = d.quotes.filter(function (q) { return q.t.length < 220; }), day = Math.floor(Date.now() / 864e5 - new Date().getTimezoneOffset() / 1440);
       return p[(day * 7919) % p.length];
     });
   }
@@ -295,4 +301,48 @@
     try { var v = localStorage.getItem('soi-arch-view'); if (v === 'list') set('list'); } catch (e) {}
     view.addEventListener('click', function (e) { var b = e.target.closest('button'); if (b) set(b.dataset.view); });
   });
+})();
+
+/* ---------- go-to-top with reading progress, on every page (issue pages bring their own copy; this one then stays out) ---------- */
+(function () {
+  function start() {
+    if (document.getElementById('soi-gotop')) return;
+    var btn = document.createElement('button');
+    btn.id = 'soi-gotop'; btn.type = 'button'; btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span class="soi-gotop-pct" aria-hidden="true">0%</span>';
+    document.body.appendChild(btn);
+    var pct = btn.querySelector('.soi-gotop-pct'), ticking = false, last = -1;
+    function update() {
+      ticking = false;
+      var doc = document.documentElement, max = Math.max(1, doc.scrollHeight - window.innerHeight);
+      var y = window.pageYOffset || doc.scrollTop, p = Math.min(1, Math.max(0, y / max)), n = Math.round(p * 100);
+      btn.style.setProperty('--soi-p', p.toFixed(4));
+      if (n !== last) { last = n; pct.textContent = n + '%'; btn.setAttribute('aria-label', 'Back to top, ' + n + '% read'); }
+      btn.classList.toggle('is-shown', y > 500);
+    }
+    function request() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+    window.addEventListener('scroll', request, { passive: true }); window.addEventListener('resize', request);
+    btn.addEventListener('click', function () { var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches; window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); btn.blur(); });
+    btn.addEventListener('touchstart', function () { btn.classList.add('is-pressed'); }, { passive: true });
+    ['touchend', 'touchcancel'].forEach(function (t) { btn.addEventListener(t, function () { setTimeout(function () { btn.classList.remove('is-pressed'); }, 250); }, { passive: true }); });
+    update();
+  }
+  /* wait for the issue's own script (it runs later in the page) */
+  if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
+})();
+
+/* ---------- "Ask AI": Gemini has no link that carries a question, so the question is copied first ---------- */
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[data-copy-prompt]'); if (!a) return;
+  var box = a.closest('[data-prompt]'), q = box ? box.getAttribute('data-prompt') : '';
+  if (q && navigator.clipboard) navigator.clipboard.writeText(q).then(function () { if (window.soi) soi.toast('Question copied – paste it into Gemini'); }, function () {});
+});
+
+/* ---------- menu colour preview: ?menu=teal (or ?menu=gold) is remembered in this browser ---------- */
+(function () {
+  try {
+    var m = (location.search.match(/[?&]menu=(teal|gold)\b/) || [])[1];
+    if (m) localStorage.setItem('soi-menu', m); else m = localStorage.getItem('soi-menu');
+    if (m === 'teal') document.documentElement.classList.add('soi-menu-teal');
+  } catch (e) {}
 })();

@@ -133,5 +133,65 @@
     "quote-9.webp",
     "quote-10.webp",
     "quote-11.webp"
-  ]
+  ],
+  "social": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/maulanawkhan",
+      "icon": "fb"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/c/CPSInternational",
+      "icon": "yt"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/maulanawahiduddinkhan",
+      "icon": "ig"
+    },
+    {
+      "label": "X (Twitter)",
+      "href": "https://twitter.com/wahiduddinkhan",
+      "icon": "x"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/maulanawahiduddinkhan",
+      "icon": "in"
+    },
+    {
+      "label": "Quora",
+      "href": "https://www.quora.com/profile/Maulana-Wahiduddin-Khan-1",
+      "icon": "q"
+    },
+    {
+      "label": "WhatsApp updates",
+      "href": "https://wa.me/919999944118",
+      "icon": "wa"
+    }
+  ],
+  "more_cps": [
+    {
+      "label": "CPS International",
+      "href": "https://cpsglobal.org/"
+    },
+    {
+      "label": "CPS Quran",
+      "href": "https://cpsquran.org/"
+    },
+    {
+      "label": "Al-Risala (Urdu)",
+      "href": "https://www.cpsglobal.org/magazines?field_category_target_id=All&field_magazines_language_value=All&field_magazines_type_value=Al-Risala&field_month_value=All&field_year_value=All"
+    },
+    {
+      "label": "CPS Kannada",
+      "href": "http://cpskannada.com/"
+    },
+    {
+      "label": "Peace Mission",
+      "href": "http://peacemission.in/index.php"
+    }
+  ],
+  "ask_ai_prompt": "Tell me about Spirit of Islam (spiritofislam.co.in), the English magazine based on the teachings of Maulana Wahiduddin Khan. What does it cover, and where should a new reader start?"
 }

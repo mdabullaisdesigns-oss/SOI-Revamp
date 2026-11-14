@@ -66,87 +66,134 @@ def collect(root, issues):
 
 
 PAGE = r"""
-<section class="soi-wrap soi-page-head">
-  <h1>Quotes</h1>
-  <p>__N__ reflections from __ISSUES__ issues — the thought that closes each article, and the In Focus words of Maulana Wahiduddin Khan. Each one opens the article it comes from.</p>
+<section class="soi-wrap soi-sec soi-page-head soi-q2-head">
+  <p class="soi-kicker">Quotes</p>
+  <h1>Words to carry with you</h1>
+  <p>__N__ reflections from __ISSUES__ issues: the thought that closes each article, and the In Focus words of Maulana Wahiduddin Khan. Listen to them, share them as a picture, or open the article they come from.</p>
 </section>
-<section class="soi-wrap soi-block" id="soi-qotd-wrap">
-  <h2 class="soi-h2"><span>Quote of the day</span></h2>
-  <div id="soi-qotd"></div>
-</section>
-<section class="soi-wrap soi-block">
-  <h2 class="soi-h2"><span>All quotes</span><small id="soi-q-count"></small></h2>
-  <div class="soi-q-tools">
-    <label class="soi-q-find"><span class="soi-vh">Find a quote</span><input id="soi-q-find" type="search" placeholder="Find a word, e.g. patience" autocomplete="off"></label>
+<section class="soi-wrap soi-q2">
+  <div class="soi-q2-tools">
+    <label class="soi-q2-find"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 4.9 14.3l5.4 5.4 1.4-1.4-5.4-5.4A8 8 0 0 0 10 2m0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12"/></svg><span class="soi-vh">Find a quote</span><input id="soi-q-find" type="search" placeholder="Find a word, e.g. patience" autocomplete="off"></label>
+    <div class="soi-dd" id="soi-q-topic"><span class="soi-vh" id="soi-q-topic-l">Topic</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-topic-l"><span>All topics</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-topic-l" hidden></ul></div>
     <div class="soi-dd" id="soi-q-year"><span class="soi-vh" id="soi-q-year-l">Year</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-year-l"><span>All years</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-year-l" hidden></ul></div>
+    <button class="soi-q2-btn" id="soi-q-rand" type="button">Surprise me</button>
+    <div class="soi-q2-view" role="group" aria-label="Show quotes as">
+      <button type="button" data-v="spot" aria-pressed="true"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m0 13h16v2H4z"/></svg><span>Spotlight</span></button>
+      <button type="button" data-v="gallery" aria-pressed="false"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h7v9H4zm9 0h7v5h-7zM4 14h7v7H4zm9-4h7v11h-7z"/></svg><span>Gallery</span></button>
+    </div>
   </div>
-  <div class="soi-q-topics" id="soi-q-topics" role="group" aria-label="Topic"></div>
-  <div class="soi-q-list" id="soi-q-list"></div>
+  <p class="soi-q2-count" id="soi-q-count" aria-live="polite"></p>
+  <div id="soi-q-spot" class="soi-q2-spot"></div>
+  <div id="soi-q-list" class="soi-q2-list"></div>
   <p class="soi-q-more"><button class="soi-btn" id="soi-q-more" type="button">Show more</button></p>
 </section>
 <div class="soi-q-toast" id="soi-q-toast" role="status" aria-live="polite"></div>
 <script>
 (function(){
-  var ALL=[],shown=0,STEP=24,list=document.getElementById('soi-q-list'),find=document.getElementById('soi-q-find'),
-      yearEl=document.getElementById('soi-q-year'),year=null,topics=document.getElementById('soi-q-topics'),more=document.getElementById('soi-q-more'),
-      count=document.getElementById('soi-q-count'),toast=document.getElementById('soi-q-toast'),topic='',cur=[];
+  var ALL=[],PH=[],cur=[],shown=0,STEP=24,spot=0,view='spot',topic=null,year=null,speaking=null,
+      $=function(i){return document.getElementById(i)},list=$('soi-q-list'),sp=$('soi-q-spot'),find=$('soi-q-find'),more=$('soi-q-more'),count=$('soi-q-count'),toast=$('soi-q-toast');
+  var I={listen:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4M14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6"/></svg>',
+    stop:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>',
+    img:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5v-1.6l4-4 3 3 4-4 3 3zm0-5.4-3-3-4 4-3-3-4 4V5h14zM8.5 10A1.5 1.5 0 1 0 8.5 7a1.5 1.5 0 0 0 0 3"/></svg>',
+    wa:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4"/></svg>',
+    copy:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-9a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1m-1 11h-7v-9h7zM4 3h9a1 1 0 0 1 1 1v2h-2V5H5v9h1v2H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1"/></svg>',
+    save:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7a2 2 0 0 0-2 2v17.4a.6.6 0 0 0 .95.5L12 18l6.05 3.9a.6.6 0 0 0 .95-.5V4a2 2 0 0 0-2-2m0 16.5-5-3.2-5 3.2V4h10z"/></svg>',
+    prev:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg>',
+    next:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="m8.6 18.6 1.4 1.4 8-8-8-8-1.4 1.4 6.6 6.6z"/></svg>'};
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function link(q){return location.origin+'/issues/'+q.s+'/#soi-'+q.a}
   function say(t){toast.textContent=t;toast.classList.add('is-on');clearTimeout(say.t);say.t=setTimeout(function(){toast.classList.remove('is-on')},2200)}
-  function card(q,big){
-    var el=document.createElement('article');el.className='soi-q'+(big?' soi-q-big':'');
-    el.innerHTML='<blockquote><p>'+esc(q.t)+'</p></blockquote>'+
-      '<p class="soi-q-src">'+(q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)+'</p>'+
-      '<p class="soi-q-tags">'+q.tp.map(function(t){return '<i>'+esc(t)+'</i>'}).join('')+'</p>'+
-      '<p class="soi-q-act"><button type="button" data-act="save" aria-pressed="'+(window.soi&&soi.store.hasQuote(q))+'">'+(window.soi&&soi.store.hasQuote(q)?'Saved':'Save')+'</button><button type="button" data-act="img">Share as image</button><button type="button" data-act="wa">WhatsApp</button><button type="button" data-act="copy">Copy</button></p>';
-    el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;if(b.getAttribute('data-act')==='save'){var on=soi.store.toggleQuote(q);b.textContent=on?'Saved':'Save';b.setAttribute('aria-pressed',on);say(on?'Saved to this device':'Removed from Saved');return}act(b.getAttribute('data-act'),q)});
-    return el;
+  function hash(q){var h=0,t=q.s+q.a+q.t.length;for(var i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))|0;return Math.abs(h)}
+  function photo(q){return PH.length?PH[hash(q)%PH.length]:''}
+  function saved(q){return !!(window.soi&&soi.store.hasQuote(q))}
+  var canSpeak='speechSynthesis' in window;
+  function acts(q,cls){
+    return '<p class="soi-q2-act '+(cls||'')+'">'+
+      (canSpeak?'<button type="button" data-act="listen" aria-label="Listen to this quote">'+I.listen+'<span>Listen</span></button>':'')+
+      '<button type="button" data-act="img" aria-label="Make a picture to share">'+I.img+'<span>Picture</span></button>'+
+      '<button type="button" data-act="wa" aria-label="Share on WhatsApp">'+I.wa+'<span>WhatsApp</span></button>'+
+      '<button type="button" data-act="copy" aria-label="Copy">'+I.copy+'<span>Copy</span></button>'+
+      '<button type="button" data-act="save" aria-pressed="'+saved(q)+'">'+I.save+'<span>'+(saved(q)?'Saved':'Save')+'</span></button></p>';
   }
+  function src(q){return (q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)}
+  function bind(el,q){el.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(b)act(b,q)})}
+  function card(q,k){
+    var el=document.createElement('article'),ph=view==='gallery'&&k%3===0&&photo(q);
+    el.className='soi-q2-card'+(ph?' is-photo':'');
+    el.innerHTML=(ph?'<img class="soi-q2-bg" src="'+ph+'" alt="" loading="lazy">':'')+'<div class="soi-q2-in"><span class="soi-q2-mark" aria-hidden="true">“</span><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div>';
+    bind(el,q);return el;
+  }
+  function row(q){var el=document.createElement('article');el.className='soi-q2-row';var ph=photo(q);
+    el.innerHTML=(ph?'<img src="'+ph+'" alt="" loading="lazy">':'<span></span>')+'<div><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p></div>'+acts(q,'is-icons');bind(el,q);return el}
+  function showSpot(){
+    sp.hidden=view!=='spot'||!cur.length;if(sp.hidden)return;
+    var q=cur[spot%cur.length],ph=photo(q);stopSpeak();
+    sp.innerHTML=(ph?'<img class="soi-q2-bg" src="'+ph+'" alt="">':'')+'<div class="soi-q2-spot-in"><p class="soi-kicker">'+(isDefault()&&spot===0?'Quote of the day':'Quote '+(spot%cur.length+1)+' of '+cur.length.toLocaleString())+'</p><span class="soi-q2-mark" aria-hidden="true">“</span><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q,'is-big')+'</div>'+
+      '<div class="soi-q2-nav"><button type="button" data-nav="-1" aria-label="Previous quote">'+I.prev+'</button><button type="button" data-nav="1" aria-label="Next quote">'+I.next+'</button></div>';
+    bind(sp,q);
+  }
+  sp.addEventListener('click',function(e){var b=e.target.closest('[data-nav]');if(!b)return;spot=(spot+cur.length+(+b.dataset.nav))%cur.length;showSpot()});
   function text(q){return '“'+q.t+'”\n— Spirit of Islam, Issue '+q.n+' ('+q.p+')\n'+link(q)}
-  function act(a,q){
+  function stopSpeak(){if(canSpeak&&speaking){speechSynthesis.cancel();setBtn(speaking,false);speaking=null}}
+  function setBtn(b,on){if(!b||!b.isConnected)return;b.innerHTML=(on?I.stop:I.listen)+'<span>'+(on?'Stop':'Listen')+'</span>';b.classList.toggle('is-on',on)}
+  function act(b,q){
+    var a=b.getAttribute('data-act');
+    if(a==='listen'){if(speaking===b){stopSpeak();return}stopSpeak();var u=new SpeechSynthesisUtterance(q.t);u.lang='en';u.rate=.95;
+      var v=speechSynthesis.getVoices().filter(function(x){return /^en/i.test(x.lang)});var pick=v.filter(function(x){return /male|daniel|alex|google uk english male/i.test(x.name)})[0]||v[0];if(pick)u.voice=pick;
+      u.onend=u.onerror=function(){if(speaking===b){setBtn(b,false);speaking=null}};speaking=b;setBtn(b,true);speechSynthesis.speak(u);return}
+    if(a==='save'){var on=soi.store.toggleQuote(q);b.setAttribute('aria-pressed',on);b.querySelector('span').textContent=on?'Saved':'Save';say(on?'Saved to this device':'Removed from Saved');return}
     if(a==='wa'){window.open('https://wa.me/?text='+encodeURIComponent(text(q)),'_blank','noopener');return}
     if(a==='copy'){(navigator.clipboard?navigator.clipboard.writeText(text(q)):Promise.reject()).then(function(){say('Copied')},function(){say('Could not copy')});return}
     image(q);
   }
   function wrap(ctx,t,max){var w=t.split(' '),lines=[],l='';w.forEach(function(x){var n=l?l+' '+x:x;if(ctx.measureText(n).width>max&&l){lines.push(l);l=x}else l=n});if(l)lines.push(l);return lines}
   function image(q){
-    var W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var x=c.getContext('2d');
+    var W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var x=c.getContext('2d'),bg=new Image(),ph=photo(q);
     function draw(){
-      x.fillStyle='#204E60';x.fillRect(0,0,W,H);x.strokeStyle='#D4CC73';x.lineWidth=3;x.strokeRect(48,48,W-96,H-96);
+      x.fillStyle='#204E60';x.fillRect(0,0,W,H);
+      if(bg.naturalWidth){var r=Math.max(W/bg.naturalWidth,H/bg.naturalHeight),bw=bg.naturalWidth*r,bh=bg.naturalHeight*r;x.drawImage(bg,(W-bw)/2,(H-bh)/2,bw,bh);
+        var g=x.createLinearGradient(0,0,0,H);g.addColorStop(0,'rgba(23,58,72,.55)');g.addColorStop(.5,'rgba(23,58,72,.72)');g.addColorStop(1,'rgba(23,58,72,.92)');x.fillStyle=g;x.fillRect(0,0,W,H)}
+      x.strokeStyle='#D4CC73';x.lineWidth=3;x.strokeRect(48,48,W-96,H-96);
       x.fillStyle='#D4CC73';x.save();x.translate(W/2,170);x.rotate(Math.PI/4);x.fillRect(-13,-13,26,26);x.restore();
-      var size=q.t.length>330?40:q.t.length>220?46:q.t.length>120?54:64,lines;
-      x.fillStyle='#EEEEE5';x.textAlign='center';x.textBaseline='middle';
+      var size=q.t.length>330?40:q.t.length>220?46:q.t.length>120?54:64,lines;x.fillStyle='#FFFFFF';x.textAlign='center';x.textBaseline='middle';
       do{x.font='italic '+size+'px "Cita Pro Ita","Cita Pro",Georgia,serif';lines=wrap(x,'“'+q.t+'”',W-240);size-=2}while(lines.length*(size*1.42)>H-560&&size>26);
-      var lh=(size+2)*1.42,y=H/2-((lines.length-1)*lh)/2-30;lines.forEach(function(l,i){x.fillText(l,W/2,y+i*lh)});
+      var lh=(size+2)*1.42,y=H/2-((lines.length-1)*lh)/2-30;x.shadowColor='rgba(0,0,0,.35)';x.shadowBlur=12;lines.forEach(function(l,i){x.fillText(l,W/2,y+i*lh)});x.shadowBlur=0;
       x.fillStyle='#D4CC73';x.fillRect(W/2-60,H-330,120,3);
-      x.fillStyle='#EEEEE5';x.font='600 30px "Plus Jakarta Sans",Arial,sans-serif';x.fillText('Spirit of Islam',W/2,H-270);
-      x.globalAlpha=.8;x.font='26px "Plus Jakarta Sans",Arial,sans-serif';x.fillText('Issue '+q.n+' · '+q.p,W/2,H-225);
-      x.fillText(location.host,W/2,H-150);x.globalAlpha=1;
-      c.toBlob(function(b){
-        var f=new File([b],'spirit-of-islam-quote.png',{type:'image/png'});
+      x.fillStyle='#FFFFFF';x.font='600 30px "Plus Jakarta Sans",Arial,sans-serif';x.fillText('Spirit of Islam',W/2,H-270);
+      x.globalAlpha=.85;x.font='26px "Plus Jakarta Sans",Arial,sans-serif';x.fillText('Issue '+q.n+' · '+q.p,W/2,H-225);x.fillText(location.host,W/2,H-150);x.globalAlpha=1;
+      c.toBlob(function(b){var f=new File([b],'spirit-of-islam-quote.png',{type:'image/png'});
         if(navigator.canShare&&navigator.canShare({files:[f]})){navigator.share({files:[f],text:link(q)}).catch(function(){});return}
-        var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=f.name;document.body.appendChild(a);a.click();a.remove();say('Image saved');
-      },'image/png');
+        var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=f.name;document.body.appendChild(a);a.click();a.remove();say('Picture saved')},'image/png');
     }
-    (document.fonts&&document.fonts.load?document.fonts.load('italic 40px "Cita Pro Ita"').then(draw,draw):draw());
+    var fonts=document.fonts&&document.fonts.load?document.fonts.load('italic 40px "Cita Pro Ita"'):Promise.resolve();
+    fonts.then(function(){if(!ph)return draw();bg.onload=draw;bg.onerror=draw;bg.src=ph},draw);
   }
-  function apply(){
-    var w=find.value.trim().toLowerCase(),y=year?year.value:'';
-    cur=ALL.filter(function(q){return (!y||String(q.y)===y)&&(!topic||q.tp.indexOf(topic)>-1)&&(!w||q.t.toLowerCase().indexOf(w)>-1||q.at.toLowerCase().indexOf(w)>-1)});
-    list.innerHTML='';shown=0;count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');grow();
+  function isDefault(){return !find.value.trim()&&!(topic&&topic.value)&&!(year&&year.value)}
+  var DAY=0;
+  function apply(keep){
+    var w=find.value.trim().toLowerCase(),y=year?year.value:'',t=topic?topic.value:'';
+    cur=ALL.filter(function(q){return (!y||String(q.y)===y)&&(!t||q.tp.indexOf(t)>-1)&&(!w||q.t.toLowerCase().indexOf(w)>-1||q.at.toLowerCase().indexOf(w)>-1)});
+    if(isDefault()&&DAY>-1){var d=cur.splice(DAY,1)[0];if(d)cur.unshift(d)}
+    if(!keep)spot=0;count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');
+    list.innerHTML='';shown=0;list.className='soi-q2-list is-'+view;showSpot();grow();
     if(!cur.length)list.innerHTML='<p class="soi-q-none">No quote matches. Try another word or clear the filters.</p>';
   }
-  function grow(){cur.slice(shown,shown+STEP).forEach(function(q){list.appendChild(card(q))});shown=Math.min(cur.length,shown+STEP);more.hidden=shown>=cur.length}
-  more.addEventListener('click',grow);find.addEventListener('input',apply);
-  topics.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;topic=topic===b.dataset.t?'':b.dataset.t;
-    [].forEach.call(topics.children,function(c){c.setAttribute('aria-pressed',c.dataset.t===topic?'true':'false')});apply()});
+  function grow(){var start=view==='spot'?1:0;cur.slice(start+shown,start+shown+STEP).forEach(function(q,k){list.appendChild(view==='spot'?row(q):card(q,shown+k))});shown=Math.min(cur.length-start,shown+STEP);more.hidden=shown>=cur.length-start}
+  function setView(v){view=v;[].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===v?'true':'false')});try{localStorage.setItem('soi-q-view',v)}catch(e){}apply(true)}
+  document.querySelector('.soi-q2-view').addEventListener('click',function(e){var b=e.target.closest('button');if(b)setView(b.dataset.v)});
+  $('soi-q-rand').addEventListener('click',function(){if(!cur.length)return;if(view!=='spot')setView('spot');spot=Math.floor(Math.random()*cur.length);showSpot();sp.scrollIntoView({behavior:'smooth',block:'start'})});
+  more.addEventListener('click',grow);find.addEventListener('input',function(){apply()});
+  try{if(localStorage.getItem('soi-q-view')==='gallery')view='gallery'}catch(e){}
+  [].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===view?'true':'false')});
   fetch('/assets/quotes.json').then(function(r){return r.json()}).then(function(d){
-    ALL=d.quotes;
-    d.topics.forEach(function(t){var b=document.createElement('button');b.type='button';b.dataset.t=t;b.textContent=t;b.setAttribute('aria-pressed','false');topics.appendChild(b)});
-    var ys={};ALL.forEach(function(q){ys[q.y]=1});year=soiDropdown(yearEl,[['','All years']].concat(Object.keys(ys).sort().reverse().map(function(y){return [y,y]})),apply);
-    var pool=ALL.filter(function(q){return q.t.length<260}),day=Math.floor(Date.now()/864e5-new Date().getTimezoneOffset()/1440);
-    document.getElementById('soi-qotd').appendChild(card(pool[(day*7919)%pool.length],true));
-    var m=location.hash.match(/^#t=(.+)$/);if(m){topic=decodeURIComponent(m[1]);[].forEach.call(topics.children,function(c){c.setAttribute('aria-pressed',c.dataset.t===topic?'true':'false')})}
+    ALL=d.quotes;PH=d.photos||[];
+    var ys={};ALL.forEach(function(q){ys[q.y]=1});
+    year=soiDropdown($('soi-q-year'),[['','All years']].concat(Object.keys(ys).sort().reverse().map(function(y){return [y,y]})),function(){apply()});
+    var m=location.hash.match(/^#t=(.+)$/),pre=m?decodeURIComponent(m[1]):'';
+    topic=soiDropdown($('soi-q-topic'),[['','All topics']].concat(d.topics.map(function(t){return [t,t]})),function(){apply()});
+    if(pre){var li=[].filter.call(document.querySelectorAll('#soi-q-topic li'),function(l){return l.dataset.v===pre})[0];if(li)li.click()}
+    var pool=ALL.map(function(q,i){return [q,i]}).filter(function(x){return x[0].t.length<260}),day=Math.floor(Date.now()/864e5-new Date().getTimezoneOffset()/1440);
+    DAY=pool.length?pool[(day*7919)%pool.length][1]:-1;
     apply();
   }).catch(function(){list.innerHTML='<p class="soi-q-none">The quotes could not be loaded. Please reload the page.</p>'});
 })();
@@ -154,11 +201,17 @@ PAGE = r"""
 """
 
 
+def MENU_PHOTOS(root):
+    m = json.load(open(os.path.join(root, "site", "menu.json"), encoding="utf-8"))
+    return [f for f in m.get("quote_photos", []) if os.path.exists(os.path.join(root, "site", "photos", f))]
+
+
 def build(root, out_dir, issues, page, write):
     quotes, dropped = collect(root, issues)
     quotes.sort(key=lambda q: (q["s"], q["a"]), reverse=True)
     os.makedirs(os.path.join(out_dir, "assets"), exist_ok=True)
-    json.dump({"topics": [t[0] for t in TOPICS], "quotes": quotes}, open(os.path.join(out_dir, "assets", "quotes.json"), "w", encoding="utf-8"),
+    photos = ["/assets/photos/" + f for f in MENU_PHOTOS(root)]
+    json.dump({"topics": [t[0] for t in TOPICS], "photos": photos, "quotes": quotes}, open(os.path.join(out_dir, "assets", "quotes.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     body = PAGE.replace("__N__", f"{len(quotes):,}").replace("__ISSUES__", str(len({q['s'] for q in quotes})))
     write("quotes/index.html", page("Quotes – Spirit of Islam", body, cls="soi-quotes", current="quotes",
