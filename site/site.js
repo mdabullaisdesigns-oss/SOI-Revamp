@@ -6,7 +6,7 @@
    4. home page: Continue reading, Quote of the day
    No account and nothing leaves the device; sign-in and sync come later. */
 (function () {
-  if (window.soi) return;
+  if (window.soi) { window.soi.restart(); return; }
   var LS = {
     get: function (k, d) { try { var v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } },
     set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
@@ -56,6 +56,7 @@
   /* ---------- share ---------- */
   function shareBase() { return window.soiShareBase || location.origin; }
   function share(title, path) {
+    if (window.soiNativeShare) { window.soiNativeShare(title, shareBase() + path); return; }
     var url = shareBase() + path, data = { title: title, text: title + ' – Spirit of Islam', url: url };
     if (navigator.share) { navigator.share(data).catch(function () {}); return; }
     (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(function () { toast('Link copied'); }, function () { window.prompt('Copy this link', url); });
@@ -133,7 +134,8 @@
   }
 
   /* ---------- 2. reading memory on an issue page ---------- */
-  var meta = $('meta[name="soi-issue"]'), SLUG = meta ? meta.content : '', LABEL = meta ? meta.getAttribute('data-label') : '';
+  var SLUG = '', LABEL = '';
+  function readMeta() { var meta = $('meta[name="soi-issue"]'); SLUG = meta ? meta.content : ''; LABEL = meta ? meta.getAttribute('data-label') : ''; }
   var theAudio = null, resume = null, resumed = false;
   function itemInfo(item) {
     var t = $('.ev-tab-title', item), m = ($('.ev-meta', item) || {}).textContent || '', mm = m.match(/(\d+)\s*min/);
@@ -178,7 +180,6 @@
   }
   (function patchAudio() {
     var A = window.Audio; if (!A) return;
-    var prevHook = A.soi ? null : null;
     function SoiAudio(src) { var a = src === undefined ? new A() : new A(src); hookAudio(a); return a; }
     SoiAudio.prototype = A.prototype; if (A.soi) SoiAudio.soi = true; window.Audio = SoiAudio;
   })();
@@ -259,6 +260,8 @@
   }
 
   window.soi = { store: store, share: share, toast: toast, esc: esc, issues: issues, coverHTML: coverHTML, cover: cover, quoteImage: quoteImage, quoteOfDay: quoteOfDay, mmss: mmss, LS: LS };
-  function start() { menu(); issuePage(); continueCard(); qotd(); savedWeb(); }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
+  function start() { readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); }
+  function boot() { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start(); }
+  window.soi.restart = boot; window.soi.slug = function () { return SLUG; };
+  boot();
 })();

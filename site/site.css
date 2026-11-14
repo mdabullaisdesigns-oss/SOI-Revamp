@@ -308,3 +308,8 @@ body:not(.soi-home) .soi-menubar { background: #FBFAF6; }
 .soi-foot-credit { background: var(--soi-teal-dark); text-align: center; padding: 14px; font-size: 13px; }
 @media (max-width: 760px) { .soi-foot-in { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 36px 20px; } .soi-foot-in > div:first-child { grid-column: 1 / -1; } }
 @media (max-width: 420px) { .soi-pager { flex-direction: column; } .soi-pager a { max-width: none; } .soi-search button { padding: 0 16px; } }
+.soi-about h2:first-child { font-size: .85rem; font-family: var(--soi-sans); letter-spacing: .14em; color: #53656D; margin: 0; } .soi-about > p:first-child { font-size: .8rem; font-weight: 700; letter-spacing: .14em; color: #53656D; margin: 0; }
+.soi-about > p:nth-child(2) { font-family: var(--soi-display); font-weight: 700; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.12; margin: 6px 0 22px; color: var(--soi-teal-dark); }
+.soi-years { display: flex; flex-wrap: wrap; gap: 8px; }
+.soi-years a { padding: 8px 16px; border: 1.5px solid var(--soi-teal); border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .9rem; }
+.soi-years a:hover, .soi-years a:focus-visible { background: var(--soi-teal); color: var(--soi-cream); }

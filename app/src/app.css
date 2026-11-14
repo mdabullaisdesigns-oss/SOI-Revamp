@@ -1,33 +1,148 @@
-/* Spirit of Islam app – additions on top of the website styles (ids/classes prefixed soi-app) */
+/* Spirit of Islam app – styles on top of the website's (ids/classes prefixed soi-app). Approved canvas "SOI Redesign". */
 html.soi-app { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; }
-html.soi-app .soi-top { padding-top: env(safe-area-inset-top); }
-html.soi-app .soi-top-in, html.soi-app .soi-foot { padding-left: max(0px, env(safe-area-inset-left)); padding-right: max(0px, env(safe-area-inset-right)); }
-html.soi-app .soi-foot { padding-bottom: calc(env(safe-area-inset-bottom) + 12px); }
-html.soi-app .soi-nav a[aria-current="page"] { background: rgba(32, 78, 96, .1); }
-@media (max-width: 400px) { html.soi-app .soi-nav-search span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } }
+html.soi-app body { background: #FBFAF6; }
+/* the website's header, menu bar and footer are not shown inside the app */
+html.soi-app .soi-hdr, html.soi-app .soi-menubar, html.soi-app .soi-foot, html.soi-app .soi-skip { display: none !important; }
+html.soi-app body.soi-app-has-tabs { padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)); }
+html.soi-app .soi-sec:first-child, html.soi-app .soi-page-head.soi-sec { margin-top: 20px; }
 
-.soi-app-page { max-width: 880px; margin: 0 auto; padding: 28px 16px 56px; }
-@media (max-width: 600px) { .soi-app-page { padding-left: 28px; padding-right: 28px; } }
-.soi-app-page h1 { font-family: "Cita Pro", Georgia, serif; color: #204E60; font-size: clamp(1.7rem, 5vw, 2.3rem); line-height: 1.15; margin: 0 0 10px; }
-.soi-app-page p { color: #3d4f56; line-height: 1.6; margin: 0 0 14px; }
-.soi-app-stat { font-weight: 600; color: #204E60 !important; }
-.soi-app-btn, .soi-app-all { display: inline-block; font: inherit; font-weight: 700; font-size: .92rem; border: 0; border-radius: 999px; padding: 12px 20px; background: #204E60; color: #fff; text-decoration: none; cursor: pointer; }
-.soi-app-btn:hover, .soi-app-all:hover { background: #173A48; }
-.soi-app-btn:focus-visible, .soi-app-all:focus-visible, .soi-app-row button:focus-visible { outline: 3px solid #D4CC73; outline-offset: 2px; }
-.soi-app-all[disabled] { opacity: .7; cursor: default; }
-.soi-app-btn-quiet { background: transparent; color: #204E60; box-shadow: inset 0 0 0 1.5px #204E60; }
-.soi-app-btn-quiet:hover { background: rgba(32, 78, 96, .08); }
+#soi-app-bar { position: sticky; top: 0; z-index: 70; display: flex; align-items: center; gap: 6px; background: #FBFAF6; border-bottom: 1px solid #E6E4D8; padding: calc(6px + env(safe-area-inset-top, 0px)) 8px 6px; }
+#soi-app-bar b { flex: 1; min-width: 0; text-align: center; font-size: 14px; font-weight: 700; color: #173A48; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#soi-app-bar button, #soi-app-bar > span { width: 44px; height: 44px; flex: none; display: flex; align-items: center; justify-content: center; background: none; border: 0; border-radius: 50%; color: #173A48; cursor: pointer; }
+#soi-app-bar svg, #soi-app-tabs svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+#soi-app-tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; display: flex; background: #fff; border-top: 1px solid #E6E4D8; padding-bottom: env(safe-area-inset-bottom, 0px); }
+#soi-app-tabs a { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; min-height: 64px; padding-top: 10px; font-size: 11px; font-weight: 600; color: #6B7B81; text-decoration: none; }
+#soi-app-tabs a[aria-current="page"] { color: #204E60; box-shadow: inset 0 3px 0 #204E60; }
+#soi-app-tabs a[aria-current="page"] svg { fill: #204E60; }
+#soi-app-tabs a:focus-visible, .soi-app-screen a:focus-visible, .soi-app-screen button:focus-visible { outline: 3px solid #D4CC73; outline-offset: 2px; }
+
+.soi-app-screen { max-width: 560px; margin: 0 auto; padding: calc(18px + env(safe-area-inset-top, 0px)) 20px 28px; color: #173A48; }
+.soi-app-screen h1, .soi-app-screen h2, .soi-app-screen p { margin: 0; }
+.soi-app-h1 { font: 700 32px/1.15 "Cita Pro", Georgia, serif; }
+.soi-app-cap { margin: 24px 0 10px !important; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #53656D; }
+.soi-app-kick { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #53656D; }
+.soi-app-sample { display: inline-block; font: 700 10px/1 "Plus Jakarta Sans", sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #173A48; background: #D4CC73; border-radius: 999px; padding: 4px 8px; vertical-align: middle; }
+.soi-app-note { margin: 10px 0 0 !important; font-size: 13px; line-height: 1.5; color: #53656D; }
+.soi-app-card { background: #fff; border: 1px solid #E6E4D8; border-radius: 18px; }
+.soi-app-bar { display: block; height: 4px; background: #E6E4D8; border-radius: 2px; overflow: hidden; } .soi-app-bar i { display: block; height: 4px; background: #204E60; border-radius: 2px; }
+.soi-app-empty { margin-top: 28px !important; color: #53656D; line-height: 1.6; }
+.soi-app-screen .soi-cover { border-radius: 14px; }
+.soi-ph-1.soi-ph-wait { background: linear-gradient(180deg, #D7E4D2 0%, #EEF2E8 45%, #3F6B4F 46%, #2C5040 100%); } .soi-ph-1.soi-ph-wait::before { background: #4F7D5E; }
+.soi-ph-2.soi-ph-wait { background: linear-gradient(180deg, #F1E3C2 0%, #F6EEDB 50%, #D9B97A 51%, #B9925A 100%); } .soi-ph-2.soi-ph-wait::before { background: #C9A266; }
+.soi-ph-3.soi-ph-wait { background: linear-gradient(180deg, #F3D9B8 0%, #F7E9D6 48%, #3C6F86 49%, #204E60 100%); } .soi-ph-3.soi-ph-wait::before { display: none; }
+
+/* home */
+.soi-app-top { display: flex; gap: 10px; align-items: center; }
+.soi-app-searchbar { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; border: 1.5px solid #D9DCD0; background: #fff; border-radius: 14px; padding: 12px 14px; font-weight: 500; font-size: 15px; color: #53656D; text-decoration: none; }
+.soi-app-searchbar svg { width: 20px; height: 20px; fill: none; stroke: #173A48; stroke-width: 1.8; flex: none; }
+.soi-app-gempill { display: flex; align-items: center; gap: 6px; background: #204E60; color: #fff; text-decoration: none; border-radius: 14px; padding: 12px; font-weight: 700; font-size: 14px; }
+.soi-gem { width: 16px; height: 16px; fill: #D4CC73; }
+.soi-app-hello { margin: 22px 0 0 !important; font-size: 14px; color: #53656D; }
+.soi-app-cont { display: block; margin-top: 12px; background: #204E60; border-radius: 20px; padding: 18px; color: #fff; text-decoration: none; }
+.soi-app-cont-row { display: flex; gap: 14px; align-items: center; }
+.soi-app-cont .soi-cover { width: 64px; flex: none; border-radius: 8px; box-shadow: none; }
+.soi-app-cont-t { flex: 1; min-width: 0; } .soi-app-cont-t small { display: block; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #D4CC73; }
+.soi-app-cont-t b { display: block; margin: 6px 0 2px; font: 700 19px/1.2 "Cita Pro", Georgia, serif; overflow-wrap: anywhere; } .soi-app-cont-t i { font-style: normal; font-size: 12px; opacity: .85; }
+.soi-app-cont-play { width: 44px; height: 44px; border-radius: 50%; background: #D4CC73; display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-cont-play svg { width: 16px; height: 16px; fill: #173A48; }
+.soi-app-cont .soi-app-bar { margin-top: 14px; background: rgba(255, 255, 255, .2); } .soi-app-cont .soi-app-bar i { background: #D4CC73; }
+.soi-app-hrow { margin-top: 28px; display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.soi-app-hrow h2 { font: 700 22px/1.2 "Cita Pro", Georgia, serif; } .soi-app-hrow a { font-size: 13px; font-weight: 700; text-decoration: none; padding: 8px 0; }
+.soi-app-carousel { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 14px -20px 0; padding: 0 20px 4px; scrollbar-width: none; } .soi-app-carousel::-webkit-scrollbar { display: none; }
+.soi-app-issue { position: relative; flex: none; width: 86%; scroll-snap-align: center; }
+.soi-app-issue:only-child { width: 100%; }
+.soi-app-issue .soi-cover { border-radius: 22px; }
+.soi-app-issue-btns { position: absolute; left: 14px; right: 14px; bottom: 14px; display: flex; gap: 10px; }
+.soi-app-issue-btns a { flex: 1; text-align: center; font-weight: 700; text-decoration: none; padding: 13px 8px; border-radius: 12px; color: #173A48; background: #fff; box-shadow: 0 6px 16px -8px rgba(0, 0, 0, .5); }
+.soi-app-issue-btns .soi-app-b-listen { background: #D4CC73; }
+.soi-app-b-save { width: 48px; flex: none; border: 0; border-radius: 12px; background: rgba(255, 255, 255, .94); display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 6px 16px -8px rgba(0, 0, 0, .5); }
+.soi-app-b-save svg { width: 20px; height: 20px; fill: none; stroke: #173A48; stroke-width: 1.8; stroke-linejoin: round; } .soi-app-b-save[aria-pressed="true"] svg { fill: #173A48; }
+.soi-app-dots { display: flex; justify-content: center; gap: 6px; margin-top: 12px; } .soi-app-dots span { width: 8px; height: 4px; border-radius: 2px; background: #C9CDC0; transition: width .2s; } .soi-app-dots .is-on { width: 22px; background: #204E60; }
+.soi-app-guides { display: flex; gap: 12px; overflow-x: auto; margin: 14px -20px 0; padding: 0 20px; scrollbar-width: none; } .soi-app-guides::-webkit-scrollbar { display: none; }
+.soi-app-guide { position: relative; flex: none; width: 150px; height: 190px; border-radius: 16px; overflow: hidden; }
+.soi-app-guide .soi-ph { position: absolute; inset: 0; } .soi-app-guide::after { content: ""; position: absolute; inset: 40% 0 0 0; background: linear-gradient(0deg, rgba(23, 58, 72, .8), rgba(23, 58, 72, 0)); }
+.soi-app-guide-play { position: absolute; right: 10px; top: 10px; width: 30px; height: 30px; border-radius: 50%; background: rgba(255, 255, 255, .92); display: flex; align-items: center; justify-content: center; z-index: 1; } .soi-app-guide-play svg { width: 12px; height: 12px; fill: #204E60; }
+.soi-app-guide b { position: absolute; left: 12px; right: 12px; bottom: 28px; z-index: 1; color: #fff; font-size: 14px; line-height: 1.25; } .soi-app-guide small { position: absolute; left: 12px; bottom: 10px; z-index: 1; color: #EEEEE5; font-size: 11px; }
+.soi-app-list { margin-top: 10px; background: #fff; border: 1px solid #E6E4D8; border-radius: 18px; overflow: hidden; }
+.soi-app-list a { display: flex; gap: 12px; align-items: center; padding: 14px; border-bottom: 1px solid #EFEDE4; text-decoration: none; color: #173A48; }
+.soi-app-n { width: 30px; height: 30px; border-radius: 50%; background: #EEEEE5; display: flex; align-items: center; justify-content: center; font: 700 15px "Cita Pro", Georgia, serif; flex: none; }
+.soi-app-at { flex: 1; min-width: 0; } .soi-app-at small { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #756B1F; } .soi-app-at b { display: block; font-size: 15px; overflow-wrap: anywhere; }
+.soi-app-min { font-size: 12px; color: #53656D; flex: none; }
+.soi-app-list .soi-app-more { justify-content: center; font-weight: 700; font-size: 14px; color: #204E60; border-bottom: 0; }
+.soi-app-quote { margin-top: 28px; background: #EEEEE5; border-radius: 20px; padding: 20px; }
+.soi-app-quote-t { margin-top: 10px !important; font: italic 400 19px/1.35 "Cita Pro Ita", "Cita Pro", Georgia, serif; overflow-wrap: anywhere; }
+.soi-app-quote button { margin-top: 10px; font: 700 13px "Plus Jakarta Sans", sans-serif; color: #204E60; background: none; border: 0; padding: 8px 0; cursor: pointer; }
+
+/* search */
+.soi-app-searchbox { display: flex; align-items: center; gap: 12px; border: 2px solid #204E60; background: #fff; border-radius: 16px; padding: 4px 14px 4px 6px; }
+.soi-app-searchbox a { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-searchbox svg { width: 22px; height: 22px; fill: none; stroke: #173A48; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-searchbox input { flex: 1; min-width: 0; border: 0; outline: 0; font: 500 16px "Plus Jakarta Sans", sans-serif; color: #173A48; background: transparent; padding: 10px 0; }
+.soi-app-quran { width: 100%; display: flex; align-items: center; gap: 12px; margin-top: 12px; border: 1.5px solid #D4CC73; background: #FBF8E6; border-radius: 14px; padding: 13px 14px; color: #173A48; font: inherit; text-align: left; cursor: pointer; }
+.soi-app-quran span { font: 700 15px "Cita Pro", Georgia, serif; background: #204E60; color: #D4CC73; border-radius: 8px; padding: 6px 8px; } .soi-app-quran b { flex: 1; font-weight: 600; font-size: 14px; } .soi-app-quran svg { width: 16px; height: 16px; fill: #204E60; }
+.soi-app-chips { display: flex; gap: 8px; flex-wrap: wrap; } .soi-app-chips button { border: 1px solid #D9DCD0; background: #fff; border-radius: 999px; padding: 9px 14px; min-height: 40px; font: 600 13px "Plus Jakarta Sans", sans-serif; color: #173A48; cursor: pointer; }
+.soi-app-pop button { width: 100%; display: flex; align-items: center; gap: 14px; padding: 10px 0; border: 0; border-bottom: 1px solid #EFEDE4; background: none; color: #173A48; font: inherit; text-align: left; cursor: pointer; }
+.soi-app-pop .soi-ph { width: 52px; height: 52px; border-radius: 12px; flex: none; } .soi-app-pop b { flex: 1; font-size: 16px; font-weight: 500; } .soi-app-pop svg { width: 18px; height: 18px; fill: none; stroke: #173A48; stroke-width: 1.8; }
+.soi-app-res { display: block; padding: 14px 0; border-bottom: 1px solid #EFEDE4; text-decoration: none; color: #173A48; }
+.soi-app-res b { display: block; font: 700 18px/1.25 "Cita Pro", Georgia, serif; } .soi-app-res small { display: block; margin: 3px 0 6px; font-size: 12px; font-weight: 600; color: #756B1F; } .soi-app-res span { display: block; font-size: 14px; line-height: 1.5; color: #3d4f56; overflow-wrap: anywhere; }
+.soi-app-res mark { background: rgba(212, 204, 115, .55); color: inherit; border-radius: 3px; }
+
+/* saved */
+.soi-app-seg { display: flex; gap: 4px; background: #EEEEE5; border-radius: 12px; padding: 4px; margin-top: 16px; }
+.soi-app-seg button { flex: 1; border: 0; background: none; padding: 10px; min-height: 40px; font: 600 14px "Plus Jakarta Sans", sans-serif; color: #53656D; border-radius: 10px; cursor: pointer; }
+.soi-app-seg button[aria-selected="true"] { background: #fff; color: #173A48; box-shadow: 0 1px 3px rgba(23, 58, 72, .15); }
+.soi-app-savedhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 18px; font-size: 13px; color: #53656D; }
+.soi-app-savedhead button { font: 700 13px "Plus Jakarta Sans", sans-serif; color: #204E60; background: none; border: 0; padding: 10px 0; cursor: pointer; } .soi-app-savedhead button[disabled] { opacity: .7; }
+.soi-app-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 16px; margin-top: 14px; }
+.soi-app-si a { position: relative; display: block; } .soi-app-si > b { display: block; margin: 10px 0 8px; font-size: 15px; } .soi-app-si small { display: block; margin-top: 6px; font-size: 12px; color: #53656D; }
+.soi-app-badge { position: absolute; left: 8px; bottom: 8px; background: #fff; border-radius: 999px; padding: 4px 9px; font-size: 11px; font-weight: 700; color: #173A48; } .soi-app-badge.is-online { background: #EEEEE5; color: #53656D; }
+.soi-app-si button { margin-top: 6px; font: 700 12px "Plus Jakarta Sans", sans-serif; color: #204E60; background: none; border: 1.5px solid rgba(32, 78, 96, .35); border-radius: 999px; padding: 6px 12px; min-height: 36px; cursor: pointer; }
+.soi-app-cards { margin-top: 18px; display: flex; flex-direction: column; gap: 12px; }
+.soi-app-cards a { display: flex; gap: 12px; align-items: center; background: #fff; border: 1px solid #E6E4D8; border-radius: 16px; padding: 12px; text-decoration: none; color: #173A48; }
+.soi-app-cards .soi-cover { width: 56px; flex: none; border-radius: 8px; box-shadow: none; } .soi-app-cards span { min-width: 0; } .soi-app-cards b { display: block; font: 700 17px/1.25 "Cita Pro", Georgia, serif; overflow-wrap: anywhere; } .soi-app-cards small { display: block; font-size: 12px; color: #53656D; margin-top: 4px; }
+.soi-app-quotes { margin-top: 18px; display: flex; flex-direction: column; gap: 12px; }
+.soi-app-quotes a { display: block; background: #204E60; color: #fff; border-radius: 18px; padding: 20px; text-decoration: none; } .soi-app-quotes p { font: 400 19px/1.35 "Cita Pro", Georgia, serif; overflow-wrap: anywhere; } .soi-app-quotes small { display: block; margin-top: 10px; font-size: 12px; color: #D4CC73; }
+.soi-app-quotes a.is-light { background: #EEEEE5; color: #173A48; } .soi-app-quotes a.is-light small { color: #53656D; }
+
+/* profile */
+body[data-screen="profile"] { background: #F6F5EF !important; }
+.soi-app-screen > .soi-app-card, .soi-app-tiles { margin-top: 14px; }
+.soi-app-who { display: flex; gap: 14px; align-items: center; padding: 18px; }
+.soi-app-avatar { width: 60px; height: 60px; border-radius: 50%; background: #EEEEE5; display: flex; align-items: center; justify-content: center; font: 700 24px "Cita Pro", Georgia, serif; flex: none; }
+.soi-app-who b { display: block; font: 700 22px "Cita Pro", Georgia, serif; } .soi-app-who a { font-size: 14px; font-weight: 700; text-decoration: none; display: inline-block; padding: 6px 0; }
+.soi-app-rank { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; background: #FBF8E6; border-top: 1px solid #E9E2B0; border-radius: 0 0 18px 18px; padding: 14px 18px; text-decoration: none; color: #173A48; font-size: 15px; } .soi-app-rank b { color: #756B1F; }
+.soi-app-tiles { display: flex; gap: 10px; }
+.soi-app-tiles a { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 4px; font-size: 12px; font-weight: 600; color: #173A48; text-decoration: none; }
+.soi-app-tiles svg { width: 24px; height: 24px; fill: none; stroke: #173A48; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-dash { padding: 18px; } .soi-app-dash-h { display: flex; justify-content: space-between; align-items: baseline; } .soi-app-dash h2, .soi-app-settings h2 { font: 700 20px "Cita Pro", Georgia, serif; } .soi-app-dash-h span { font-size: 12px; color: #53656D; }
+.soi-app-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+.soi-app-stats div { background: #EEEEE5; border-radius: 14px; padding: 14px; } .soi-app-stats b { display: block; font: 700 clamp(20px, 6.6vw, 28px) "Cita Pro", Georgia, serif; } .soi-app-stats span { display: block; margin-top: 2px; font-size: 12px; color: #53656D; }
+.soi-app-stats .is-main { background: #204E60; color: #fff; } .soi-app-stats .is-main b { color: #D4CC73; } .soi-app-stats .is-main span { color: rgba(255, 255, 255, .85); }
+.soi-app-dash .soi-app-cap { margin: 16px 0 8px !important; letter-spacing: 0; text-transform: none; }
+.soi-app-cal { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; } .soi-app-cal span { aspect-ratio: 1 / 1; border-radius: 4px; background: #E6E4D8; } .soi-app-cal .is-on { background: #204E60; }
+.soi-app-settings { overflow: hidden; } .soi-app-settings h2 { padding: 16px 18px 10px; }
+.soi-app-settings a { display: flex; align-items: center; padding: 15px 18px; border-top: 1px solid #EFEDE4; text-decoration: none; color: #173A48; font-size: 15px; } .soi-app-settings a span { margin-left: auto; } .soi-app-settings .is-out { color: #A3273B; }
+
+/* gems & leaderboard */
+body[data-screen="gems"] { background: #132F3B !important; }
+body[data-screen="gems"] .soi-app-screen { color: #EEEEE5; padding-bottom: calc(110px + env(safe-area-inset-bottom, 0px)); }
+.soi-app-gtop { display: flex; justify-content: space-between; } .soi-app-gtop a, .soi-app-gtop button { width: 44px; height: 44px; border-radius: 50%; background: #fff; border: 0; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.soi-app-gtop svg { width: 20px; height: 20px; fill: none; stroke: #173A48; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-ghead { text-align: center; padding-top: 12px; } .soi-app-ghead p { margin-top: 6px !important; font-size: 14px; opacity: .9; }
+.soi-app-ghead .soi-app-gtitle { font: 700 40px "Cita Pro", Georgia, serif; color: #D4CC73; opacity: 1; margin: 0 !important; } .soi-app-ghead .soi-app-gname { margin-top: 8px !important; font-size: 15px; letter-spacing: .35em; color: #D4CC73; opacity: 1; }
+.soi-app-gtotal { margin-top: 24px; background: rgba(255, 255, 255, .08); border-radius: 20px; padding: 18px; display: flex; align-items: center; gap: 14px; }
+.soi-app-gicon { width: 56px; height: 56px; border-radius: 14px; background: #204E60; border: 1px solid rgba(212, 204, 115, .5); display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-gicon .soi-gem { width: 26px; height: 26px; }
+.soi-app-gtotal > span:nth-child(2) { flex: 1; min-width: 0; } .soi-app-gtotal b { display: block; font-size: 18px; color: #fff; } .soi-app-gtotal small { font-size: 13px; opacity: .85; } .soi-app-gtotal strong { font: 700 30px "Cita Pro", Georgia, serif; color: #D4CC73; }
+.soi-app-gseg { display: flex; margin-top: 24px; } .soi-app-gseg button { flex: 1; background: none; border: 0; border-bottom: 2px solid rgba(238, 238, 229, .2); padding: 12px 4px; min-height: 44px; font: 600 14px "Plus Jakarta Sans", sans-serif; color: rgba(238, 238, 229, .7); cursor: pointer; }
+.soi-app-gseg button[aria-selected="true"] { color: #fff; border-bottom-color: #D4CC73; }
+#soi-app-board { margin-top: 8px; } #soi-app-board > div { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 14px; border: 1px solid transparent; }
+#soi-app-board .is-you { background: rgba(212, 204, 115, .14); border-color: rgba(212, 204, 115, .4); }
+.soi-app-brank { width: 30px; text-align: center; font: 700 17px "Cita Pro", Georgia, serif; color: #D4CC73; } .soi-app-bini { width: 36px; height: 36px; border-radius: 50%; background: #2A5566; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #fff; flex: none; }
+.soi-app-bname { flex: 1; font-weight: 600; color: #fff; min-width: 0; } .soi-app-bgems { font-weight: 700; color: #D4CC73; }
+.soi-app-earn { margin-top: 22px; background: rgba(255, 255, 255, .06); border-radius: 20px; padding: 18px; } .soi-app-earn h2 { font: 700 20px "Cita Pro", Georgia, serif; color: #fff; } .soi-app-earn h2 span { font: 600 11px "Plus Jakarta Sans", sans-serif; color: #D4CC73; letter-spacing: .08em; }
+.soi-app-earn div { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(238, 238, 229, .12); font-size: 14px; } .soi-app-earn strong { color: #D4CC73; white-space: nowrap; }
+.soi-app-keep { position: fixed; left: 20px; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); max-width: 520px; margin: 0 auto; text-align: center; background: #D4CC73; color: #132F3B !important; font-weight: 800; font-size: 17px; text-decoration: none; padding: 17px; border-radius: 16px; }
+
+/* reader messages */
+.soi-app-page { max-width: 880px; margin: 0 auto; padding: 28px 28px 56px; } .soi-app-page h1 { font: 700 28px/1.15 "Cita Pro", Georgia, serif; color: #204E60; margin: 0 0 10px; } .soi-app-page p { color: #3d4f56; line-height: 1.6; margin: 0 0 14px; }
+.soi-app-btn { display: inline-block; font-weight: 700; font-size: .92rem; border-radius: 999px; padding: 12px 20px; background: #204E60; color: #fff; text-decoration: none; } .soi-app-btn-quiet { background: transparent; color: #204E60; box-shadow: inset 0 0 0 1.5px #204E60; }
 .soi-app-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px !important; }
-.soi-app-list { list-style: none; margin: 22px 0 0; padding: 0; border-top: 1px solid rgba(32, 78, 96, .15); }
-.soi-app-row { display: flex; align-items: center; gap: 10px; padding: 12px 0; border-bottom: 1px solid rgba(32, 78, 96, .15); }
-.soi-app-row a { flex: 1; min-width: 0; text-decoration: none; color: #204E60; display: flex; flex-direction: column; gap: 2px; }
-.soi-app-row a b { font-weight: 700; overflow-wrap: anywhere; }
-.soi-app-row a small { color: #5b6d74; font-size: .8rem; }
-.soi-app-chip { font-size: .72rem; font-weight: 700; color: #173A48; background: #D4CC73; border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
-.soi-app-row button { font: inherit; font-size: .82rem; font-weight: 700; border-radius: 999px; padding: 8px 14px; min-height: 40px; cursor: pointer; white-space: nowrap; }
-.soi-app-get { background: #204E60; color: #fff; border: 0; }
-.soi-app-rm { background: transparent; color: #204E60; border: 1.5px solid rgba(32, 78, 96, .4); }
-.soi-app-row button[disabled] { opacity: .6; }
-#soi-app-reader { min-height: 50vh; }
-@media (max-width: 360px) { html.soi-app .soi-nav a { padding: 8px 5px; font-size: .76rem; } html.soi-app .soi-top-in { gap: 6px; } }
-.soi-app-all[hidden] { display: none; }
+@media (max-width: 340px) { .soi-app-screen { padding-left: 14px; padding-right: 14px; } .soi-app-carousel, .soi-app-guides { margin-left: -14px; margin-right: -14px; padding-left: 14px; padding-right: 14px; } .soi-app-tiles a { font-size: 11px; } .soi-app-grid { gap: 18px 12px; } }

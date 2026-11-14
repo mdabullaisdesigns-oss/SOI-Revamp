@@ -14,20 +14,44 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DIST, WWW = os.path.join(ROOT, "dist"), os.path.join(HERE, "www")
 sys.path.insert(0, os.path.join(ROOT, "site"))
-from build_site import page  # same header/footer as the website
 
 FONT_DIR = os.path.join(HERE, "node_modules", "@fontsource", "plus-jakarta-sans", "files")
 FACES = [(400, "normal"), (400, "italic"), (500, "normal"), (600, "normal"), (700, "normal"), (800, "normal")]
 INJECT = '<link rel="stylesheet" href="/assets/app.css">\n<script src="/assets/app.js"></script>\n</head>'
+SCREENS = {"index.html": ("home", "Spirit of Islam"), "search.html": ("search", "Search"), "saved.html": ("saved", "Saved"),
+           "profile.html": ("profile", "Profile"), "gems.html": ("gems", "SOI Gems")}
 
 
 def prep(html, fonts):
+    """A website page, made ready for the app: fonts from inside the app, notch-safe, app layer added."""
     if fonts:
         html = re.sub(r'<link[^>]+fonts\.(?:googleapis|gstatic)\.com[^>]*>\s*', "", html)
+    html = html.replace('<html lang="en">', '<html lang="en" class="soi-app">', 1)
     html = html.replace('content="width=device-width, initial-scale=1"',
                         'content="width=device-width, initial-scale=1, viewport-fit=cover"', 1)
     assert "</head>" in html
     return html.replace("</head>", INJECT, 1)
+
+
+def screen(name, title, extra=""):
+    """One of the app's own screens (Home, Search, Saved, Profile, Gems); screens.js draws it."""
+    return f"""<!doctype html>
+<html lang="en" class="soi-app">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{title} – Spirit of Islam</title>
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js"></script>
+<link rel="stylesheet" href="/assets/app.css">
+<script src="/assets/app.js"></script>
+<script src="/assets/screens.js"></script>
+</head>
+<body data-screen="{name}">
+<main class="soi-app-screen" id="soi-app-screen">{extra}</main>
+</body>
+</html>
+"""
 
 
 def main():
@@ -41,9 +65,14 @@ def main():
     shutil.rmtree(WWW, ignore_errors=True)
     keep = set(bundled)
     def skip(d, names):
-        if os.path.abspath(d) == os.path.join(DIST, "issues"):
+        d = os.path.abspath(d)
+        if d == os.path.join(DIST, "issues"):
             return [n for n in names if n not in keep]
-        return [n for n in names if n in ("_headers", "robots.txt")]
+        if d == os.path.join(DIST, "assets", "covers"):       # large covers only for the issues packed in the app
+            return [n for n in names if "@2x" in n and n.split("@")[0] not in keep]
+        if d == DIST:                                          # the app has its own Home, Search, Saved and Profile
+            return [n for n in names if n in ("_headers", "robots.txt", "index.html", "search", "saved", "signin", "404.html")]
+        return []
     shutil.copytree(DIST, WWW, ignore=skip)
 
     n = 0
@@ -56,14 +85,10 @@ def main():
 
     def write(rel, text):
         open(os.path.join(WWW, rel), "w", encoding="utf-8").write(text)
-    write("reader.html", prep(page("Spirit of Islam", '<div class="soi-app-page" id="soi-app-reader"><h1>Opening the issue…</h1></div>'), fonts))
-    write("saved.html", prep(page("Saved issues – Spirit of Islam", """<div class="soi-app-page" id="soi-app-saved">
-<h1>Saved issues</h1>
-<p>Every issue you open is kept on this phone, so you can read it again without internet. Audio needs a connection.</p>
-<p class="soi-app-stat" role="status" aria-live="polite">&nbsp;</p>
-<button type="button" class="soi-app-all" hidden>Save all remaining issues</button>
-<ul class="soi-app-list"></ul>
-</div>"""), fonts))
+    for f, (name, title) in SCREENS.items():
+        write(f, screen(name, title)); n += 1
+    write("reader.html", screen("", "Spirit of Islam", '<div class="soi-app-page" id="soi-app-reader"><h1>Opening the issue…</h1></div>').replace(' data-screen=""', "")
+          .replace('<script src="/assets/screens.js"></script>\n', ""))
 
     css = open(os.path.join(HERE, "src", "app.css"), encoding="utf-8").read()
     if fonts:
@@ -78,11 +103,10 @@ def main():
     else:
         print("note: run `npm install` in app/ first to pack Plus Jakarta Sans inside the app (using Google Fonts links for now)")
     write("assets/app.css", css)
-    shutil.copy(os.path.join(HERE, "src", "app.js"), os.path.join(WWW, "assets", "app.js"))
-    art = os.path.join(HERE, "resources", "app-art.png")
-    if os.path.exists(art):
-        shutil.copy(art, os.path.join(WWW, "assets", "app-art.png"))
-    write("assets/app-config.json", json.dumps({"remote": cfg["remote"].rstrip("/"), "bundled": bundled, "fonts": fonts}))
+    for f in ("app.js", "screens.js"):
+        shutil.copy(os.path.join(HERE, "src", f), os.path.join(WWW, "assets", f))
+    write("assets/app-config.json", json.dumps({"remote": cfg["remote"].rstrip("/"), "share": cfg.get("share", cfg["remote"]).rstrip("/"),
+                                                "bundled": bundled, "fonts": fonts}))
 
     size = sum(os.path.getsize(os.path.join(d, f)) for d, _, fs in os.walk(WWW) for f in fs)
     print(f"app/www ready: {n} pages, {len(bundled)} issues packed ({', '.join(bundled)}), {size/1048576:.1f} MB, "

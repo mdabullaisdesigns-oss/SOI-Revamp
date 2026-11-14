@@ -27,3 +27,4 @@ Full background and decisions: `docs/SOI-Project-Handoff.md` – read it before 
 - `inventory/` – generated lists of PDFs, audio and issue pages.
 - `docs/` – handoff and decisions.
 - `app/` – Capacitor Android/iOS app around the same pages (`app/README.md`); `.github/workflows/soi-app.yml` builds a test APK.
+- `site/` – website generator (`build_site.py`, `site.css`, `site.js`, `menu.json`, `brand/`, `covers/`); test with `site/tests/test_site.py`.

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["app/**", ".github/workflows/soi-app.yml"]
+    paths: ["app/**", "site/site.js", "site/site.css", ".github/workflows/soi-app.yml"]
 
 jobs:
   android:

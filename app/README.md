@@ -6,21 +6,26 @@ when an issue is rebuilt for the website, the app gets the same page.
 ## What is here
 | File | What it does |
 |---|---|
-| `build_app.py` | Copies the built website (`dist/`) into `www/`, the folder packed inside the app. Packs the newest issues (`app-config.json` → `bundle_latest`), the search index, quotes and fonts. |
-| `src/app.js` | Keeps links inside the app, saves issues on the phone (IndexedDB), the **Saved** page, and passes the audio player's title/controls to the phone. |
-| `src/app.css` | Notch/safe-area spacing and the Saved page styles. |
-| `app-config.json` | `remote` = the website the app fetches other issues from (now the preview; change to the real domain at launch). |
+| `build_app.py` | Copies the built website (`dist/`) into `www/`, the folder packed inside the app, and adds the app's own screens. Packs the newest issues (`app-config.json` → `bundle_latest`), all small covers, the search index, quotes and fonts. |
+| `src/app.js` | Keeps links inside the app, saves issues on the phone (IndexedDB), app bar and bottom tabs, sharing, links that open the app, lock-screen audio controls. |
+| `src/screens.js` | The tab screens: Home, Search, Saved, Profile, and the Gems & leaderboard page (approved canvas "SOI Redesign"). |
+| `src/app.css` | App styles. |
+| `../site/site.js` | Shared with the website: reading memory (Continue where you left: article, place on the page, audio time), finished articles, saved articles and quotes, Save / Share buttons. |
+| `app-config.json` | `remote` = the website the app fetches other issues from; `share` = the address used in shared links (both the preview for now; change to the real domain at launch). |
 | `android/`, `ios/` | The native projects (open in Android Studio / Xcode). |
 | `tests/test_app.py` | Browser test of the packed files, online and offline. |
 
 ## How it behaves
-- Home, archive, search, quotes and the newest 3 issues work with no internet from the first launch.
-- Any other issue is fetched the first time it is opened and then kept on the phone. **Saved** (top right)
-  lists every issue, with *Save* per issue and *Save all remaining issues* (about 37 MB for all 133).
-- Audio is streamed from the website; it is not saved for offline (see "Next").
-- Audio uses the same player as the website. On Android the MediaSession plugin shows the media
-  notification and runs the foreground service that keeps it playing with the screen off; on iPhone the
-  `audio` background mode in `Info.plist` does the same, with lock-screen controls from the player itself.
+- Bottom tabs: **Home · Search · Saved · Profile**. Reading an issue is full screen with a slim bar (back, issue, share).
+- Home: search bar, gems pill, *Continue where you left*, the three newest covers (Read / Listen / Save), How to use SOI
+  (placeholders until the videos are recorded), In this issue, Quote of the day.
+- Offline: the app screens, archive, search, quotes, all covers and the newest 3 issues work with no internet from the first
+  launch. Any other issue is fetched the first time it is opened and then kept. Saved → Issues has *Save all* (about 35 MB).
+- Continue where you left: the article, the place on the page and the audio time are remembered on the phone.
+- Share: every article has Save and Share; the link is `<share address>/issues/<issue>/#soi-<article>`.
+- **Sample data** (marked on screen) until sign-in exists: the name, gems, rank, leaderboard and the "My reading" figures.
+  Finished articles and reading days are already recorded on the phone (`soiRead`, `soiDays`) ready to feed the dashboard.
+- Audio is streamed from the website; it is not saved for offline yet.
 
 ## Build
 ```
@@ -34,9 +39,12 @@ npx cap open ios                    # Xcode, on the iMac only
 A test APK is also built by GitHub Actions: **Actions → Build SOI Android app → Artifacts → soi-app-debug**.
 
 ## Not done yet / must be checked on a real phone
-- Background audio and lock-screen controls are wired up but **not tested on a device** (cannot be tested in a browser).
+- Background audio, lock-screen controls and the share sheet are wired up but **not tested on a device**.
 - iOS has never been built (needs Xcode on the iMac and an Apple developer account for a real device).
-- App icon and splash screen are the Capacitor defaults. Put a 1024×1024 icon in `resources/` and run
-  `npx @capacitor/assets generate`. A 512×512 `resources/app-art.png` is used as the lock-screen picture.
+- Links that open the app: Android is prepared (`AndroidManifest.xml`); it becomes automatic once
+  `/.well-known/assetlinks.json` (with the release key fingerprint) is on the website. iOS needs the Associated Domains
+  entitlement and `/.well-known/apple-app-site-association` (needs the Apple team id). Both are launch steps.
+- App icon and splash screen are the Capacitor defaults: put a 1024×1024 icon in `resources/` and run `npx @capacitor/assets generate`.
 - App id is `in.co.spiritofislam.app` – it cannot be changed after the first store release; confirm before publishing.
-- Next: saving audio for offline listening, Firebase login, notifications for a new issue, store listings.
+- Voice search (the microphone in the canvas) is left out for now: speech input is unreliable inside app web views.
+- Next: Firebase sign-in, real gems and leaderboard, notifications, offline audio, tutorial videos, store listings.

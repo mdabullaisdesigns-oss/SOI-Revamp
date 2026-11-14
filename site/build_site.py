@@ -234,22 +234,27 @@ def minutes(words):
 
 
 def wp_page(wp_id):
-    """Title and cleaned content of a WordPress page copied into sources/pages/ (About, Contact)."""
-    f = os.path.join(ROOT, "sources", "pages", f"{wp_id}.json")
+    """Words of a page of the live site (copied into sources/pages/<id>.html), without the Divi layout.
+    Pictures and forms are not carried over here; the text is kept word for word."""
+    f = os.path.join(ROOT, "sources", "pages", f"{wp_id}.html")
     if not os.path.exists(f):
         return None
-    j = json.load(open(f, encoding="utf-8"))
-    c = j["content"]["rendered"]
+    s = open(f, encoding="utf-8").read()
+    a = s.find('id="main-content"')
+    if a < 0:
+        return None
+    b = s.find("<footer", a)
+    c = s[s.index(">", a) + 1: b if b > 0 else len(s)]
+    has_form = "<form" in c
     c = re.sub(r"<(script|style|noscript|svg|form|iframe).*?</\1>", "", c, flags=re.S)
-    c = re.sub(r'(src|href)="http://spiritofislam\.co\.in', r'\1="https://spiritofislam.co.in', c)
-    keep = "p|h1|h2|h3|h4|ul|ol|li|strong|b|em|i|a|br|blockquote|img"
-    c = re.sub(rf"<(?!/?(?:{keep})\b)[^>]+>", "", c)                       # drop the Divi layout wrappers, keep the words
+    keep = "p|h1|h2|h3|h4|ul|ol|li|strong|b|em|i|a|br|blockquote"
+    c = re.sub(rf"<(?!/?(?:{keep})\b)[^>]+>", "", c)
     c = re.sub(r"<(p|h[1-4]|ul|ol|li|strong|b|em|i|blockquote)\b[^>]*>", r"<\1>", c)
     c = re.sub(r'<a\b[^>]*?href="([^"]*)"[^>]*>', r'<a href="\1">', c)
-    c = re.sub(r'<img\b[^>]*?src="([^"]*)"[^>]*?(?:alt="([^"]*)")?[^>]*>', lambda m: f'<img src="{m.group(1)}" alt="{m.group(2) or ""}" loading="lazy">', c)
-    c = re.sub(r"<p>\s*(?:&nbsp;)?\s*</p>", "", c)
+    c = re.sub(r"<h1>", "<h2>", c).replace("</h1>", "</h2>")
+    c = re.sub(r"<(p|h[2-4])>\s*(?:&nbsp;)?\s*</\1>", "", c)
     c = re.sub(r"\n\s*\n+", "\n", c).strip()
-    return {"title": html.unescape(j["title"]["rendered"]), "html": c}
+    return {"html": c, "form": has_form}
 
 
 def build():
@@ -383,10 +388,14 @@ def build():
     # ---- About and Contact pages, word for word from the live site
     for item, cur_key in [(x, "") for x in MENU["about"]] + [(MENU["contact"], "contact")]:
         w = wp_page(item.get("wp"))
+        live = f'https://spiritofislam.co.in/?page_id={item.get("wp")}'
         if not w:
             print("page not copied from the live site yet:", item["label"])
-            w = {"title": item["label"], "html": f'<p>This page is being moved from the current website. <a href="https://spiritofislam.co.in/?page_id={item.get("wp")}">Read it there</a>.</p>'}
+            w = {"html": f'<p>This page is being moved from the current website. <a href="{live}">Read it there</a>.</p>', "form": False}
+        if w["form"]:      # the message form needs somewhere to send to; until that is decided it stays on the current site
+            w["html"] = f'<p>To write to Spirit of Islam, please use the message form on the current website.</p><p><a class="soi-btn soi-btn-solid" href="{live}" target="_blank" rel="noopener">Open the contact form</a></p>'
         write(item["href"].strip("/") + "/index.html", page(f'{item["label"]} – Spirit of Islam',
+              f'<section class="soi-wrap soi-sec soi-prose soi-about">{w["html"]}</section>' if not w["form"] else
               f'<section class="soi-wrap soi-sec soi-page-head"><h1>{esc(item["label"])}</h1></section><section class="soi-wrap soi-prose">{w["html"]}</section>', current=cur_key))
 
     # ---- issues: header, menu and the archive banner, then the magazine

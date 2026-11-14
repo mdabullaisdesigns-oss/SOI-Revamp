@@ -21,6 +21,11 @@ jobs:
           python-version: "3.12"
       - run: pip install -q "pagefind[bin]"
       - run: python3 site/build_site.py
+      - name: Test the pages against the approved design
+        run: |
+          pip install -q playwright
+          python3 -m playwright install --with-deps chromium >/dev/null
+          python3 site/tests/test_site.py
       - uses: actions/upload-artifact@v4
         with:
           name: soi-site
