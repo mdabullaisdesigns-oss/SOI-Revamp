@@ -1,0 +1,33 @@
+/* Spirit of Islam app – additions on top of the website styles (ids/classes prefixed soi-app) */
+html.soi-app { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; }
+html.soi-app .soi-top { padding-top: env(safe-area-inset-top); }
+html.soi-app .soi-top-in, html.soi-app .soi-foot { padding-left: max(0px, env(safe-area-inset-left)); padding-right: max(0px, env(safe-area-inset-right)); }
+html.soi-app .soi-foot { padding-bottom: calc(env(safe-area-inset-bottom) + 12px); }
+html.soi-app .soi-nav a[aria-current="page"] { background: rgba(32, 78, 96, .1); }
+@media (max-width: 400px) { html.soi-app .soi-nav-search span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } }
+
+.soi-app-page { max-width: 880px; margin: 0 auto; padding: 28px 16px 56px; }
+@media (max-width: 600px) { .soi-app-page { padding-left: 28px; padding-right: 28px; } }
+.soi-app-page h1 { font-family: "Cita Pro", Georgia, serif; color: #204E60; font-size: clamp(1.7rem, 5vw, 2.3rem); line-height: 1.15; margin: 0 0 10px; }
+.soi-app-page p { color: #3d4f56; line-height: 1.6; margin: 0 0 14px; }
+.soi-app-stat { font-weight: 600; color: #204E60 !important; }
+.soi-app-btn, .soi-app-all { display: inline-block; font: inherit; font-weight: 700; font-size: .92rem; border: 0; border-radius: 999px; padding: 12px 20px; background: #204E60; color: #fff; text-decoration: none; cursor: pointer; }
+.soi-app-btn:hover, .soi-app-all:hover { background: #173A48; }
+.soi-app-btn:focus-visible, .soi-app-all:focus-visible, .soi-app-row button:focus-visible { outline: 3px solid #D4CC73; outline-offset: 2px; }
+.soi-app-all[disabled] { opacity: .7; cursor: default; }
+.soi-app-btn-quiet { background: transparent; color: #204E60; box-shadow: inset 0 0 0 1.5px #204E60; }
+.soi-app-btn-quiet:hover { background: rgba(32, 78, 96, .08); }
+.soi-app-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px !important; }
+.soi-app-list { list-style: none; margin: 22px 0 0; padding: 0; border-top: 1px solid rgba(32, 78, 96, .15); }
+.soi-app-row { display: flex; align-items: center; gap: 10px; padding: 12px 0; border-bottom: 1px solid rgba(32, 78, 96, .15); }
+.soi-app-row a { flex: 1; min-width: 0; text-decoration: none; color: #204E60; display: flex; flex-direction: column; gap: 2px; }
+.soi-app-row a b { font-weight: 700; overflow-wrap: anywhere; }
+.soi-app-row a small { color: #5b6d74; font-size: .8rem; }
+.soi-app-chip { font-size: .72rem; font-weight: 700; color: #173A48; background: #D4CC73; border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
+.soi-app-row button { font: inherit; font-size: .82rem; font-weight: 700; border-radius: 999px; padding: 8px 14px; min-height: 40px; cursor: pointer; white-space: nowrap; }
+.soi-app-get { background: #204E60; color: #fff; border: 0; }
+.soi-app-rm { background: transparent; color: #204E60; border: 1.5px solid rgba(32, 78, 96, .4); }
+.soi-app-row button[disabled] { opacity: .6; }
+#soi-app-reader { min-height: 50vh; }
+@media (max-width: 360px) { html.soi-app .soi-nav a { padding: 8px 5px; font-size: .76rem; } html.soi-app .soi-top-in { gap: 6px; } }
+.soi-app-all[hidden] { display: none; }

@@ -266,6 +266,20 @@ def build():
     write("404.html", page("Page not found – Spirit of Islam",
                            '<section class="soi-wrap soi-block soi-page-head"><h1>Page not found</h1><p>Try the <a href="/archive/">archive</a> or the <a href="/search/">search</a>.</p></section>'))
     write("robots.txt", "User-agent: *\nAllow: /\n")
+    # ---- for the phone app: list of issues (so it can show and fetch issues newer than the ones packed
+    #      inside it) and permission for the app's web view to fetch issue pages from this site
+    import hashlib
+    manifest = []
+    for i in issues:
+        f = os.path.join(OUT, "issues", i["slug"], "index.html")
+        b = open(f, "rb").read() if os.path.exists(f) else b""
+        manifest.append({"slug": i["slug"], "number": i["number"], "period": i["period"], "year": i["year"],
+                         "articles": len(i["articles"]), "audio": sum(a["audio"] for a in i["articles"]),
+                         "quiz": bool(i["quiz"]), "titles": [a["title"] for a in i["articles"][:5]],
+                         "bytes": len(b), "v": hashlib.sha1(b).hexdigest()[:10]})
+    write("issues.json", json.dumps({"issues": manifest}, ensure_ascii=False, separators=(",", ":")))
+    write("_headers", "/issues/*\n  Access-Control-Allow-Origin: *\n/issues.json\n  Access-Control-Allow-Origin: *\n"
+                      "/assets/quotes.json\n  Access-Control-Allow-Origin: *\n")
     asyncio.run(index(issues))
     size = sum(os.path.getsize(os.path.join(d, f)) for d, _, fs in os.walk(OUT) for f in fs)
     print(f"site: {len(issues)} issues, {total_articles} articles, {size / 1e6:.1f} MB in {os.path.relpath(OUT, ROOT)}/")

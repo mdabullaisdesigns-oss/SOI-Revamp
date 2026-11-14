@@ -1,0 +1,9 @@
+{
+  "appId": "in.co.spiritofislam.app",
+  "appName": "Spirit of Islam",
+  "webDir": "www",
+  "backgroundColor": "#EEEEE5",
+  "server": { "androidScheme": "https" },
+  "plugins": { "CapacitorHttp": { "enabled": true } },
+  "ios": { "contentInset": "automatic" }
+}
