@@ -36,3 +36,15 @@ Approved canvas: "SOI Redesign" (claude.ai/artifact/8V2ZVvbWWVfVUirZSBrybY). Pat
 3. Contact Us: the live page is a message form; the new site has nowhere to send it yet, so the page links to the current form.
 4. Footer credit: the canvas has a "Contact" link after "Design & Development by Md Abullais" – needs the address to link to.
 5. Gem earning values (shown as "Proposed" in the app).
+
+## Owner's changes (14 Nov 2026, evening)
+- No separate Listen section (website or app): audio lives on each article.
+- Menu (with icons): Home · Archives ▾ (covers by year) · Quotes · About Us ▾ (Our Founder, Our Mission, SOI Team) · Contact Us; right: Search · Saved · Sign in. Latest Issue, Further Reading and Our Websites removed from the menu; Further Reading and Our Websites are in the footer.
+- Gold menu bar runs the full width, joined to the header. Current page: small crimson dot (no underline / block).
+- Issue pages: the live site's archive banner exactly (badge, title, description, Browse Full Archive, Past issues of YEAR); one cream background; nearly full phone width for reading.
+- Archive: Grid / List switch (remembered in the browser).
+- Footer: full logo (pigeon + logo + slogan), no underlined links. Footer options to choose from are on the design canvas.
+- No browser-default drop-downs anywhere (custom drop-down component `soiDropdown`).
+- SOI Team page from the magazine masthead (Issue 133).
+- Approved photos: `sources/photos-approved.txt` → `site/photos/` (workflow "Apply approved photos").
+- Later: readers' reviews section, styled as cream cards with a dashed inner border (owner's reference: ulakluz.pl).

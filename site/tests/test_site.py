@@ -18,8 +18,8 @@ async def main():
         ok('header: pigeon, logo, slogan on the gradient with the world map', await pg.locator('.soi-hdr img').count() == 3 and 'World-map.svg' in await pg.evaluate("getComputedStyle(document.querySelector('.soi-hdr')).backgroundImage")
            and await pg.evaluate("[...document.querySelectorAll('.soi-hdr img')].every(i=>i.complete&&i.naturalWidth>0)"))
         items = [re.sub(r'\s*▾', '', t).strip() for t in await pg.locator('.soi-menu-list > li > a, .soi-menu-list > li > .soi-menu-top').all_inner_texts()]
-        ok('menu items as approved', items == ['Home', 'Latest Issue', 'Archives', 'Quotes', 'Listen', 'About Us', 'Further Reading', 'Our Websites', 'Contact Us'], str(items))
-        ok('menu: gold, boxed 1100px, Search / Saved / Sign in on the right', await pg.evaluate("(()=>{const m=document.querySelector('.soi-menu'),s=getComputedStyle(m);return s.backgroundColor==='rgb(212, 204, 115)'&&m.offsetWidth===1100})()")
+        ok('menu items as approved', items == ['Home', 'Archives', 'Quotes', 'About Us', 'Contact Us'], str(items))
+        ok('menu: gold bar across the full width, joined to the header, Search / Saved / Sign in on the right', await pg.evaluate("(()=>{const b=document.querySelector('.soi-menubar'),h=document.querySelector('.soi-hdr');return getComputedStyle(b).backgroundColor==='rgb(212, 204, 115)'&&b.offsetWidth===document.documentElement.clientWidth&&Math.abs(b.getBoundingClientRect().top-h.getBoundingClientRect().bottom)<1})()")
            and await pg.locator('.soi-menu-right a').count() == 3)
         # welcome note, word for word against the live home page
         live = open(ROOT + '/sources/site/home.html', encoding='utf-8').read()
@@ -38,19 +38,19 @@ async def main():
         ok('Archives menu: every year on the left, covers on the right', await pg.locator('.soi-mega-years button').count() == len({i['year'] for i in ISS}) and await pg.locator('.soi-mega-covers a').count() == len([i for i in ISS if i['year'] == LATEST['year']]))
         await pg.hover('.soi-mega-years button[data-y="2018"]'); await pg.wait_for_timeout(1200)
         ok('  hovering a year shows that year\'s covers', await pg.locator('.soi-mega-covers a').count() == 12 and await pg.evaluate("[...document.querySelectorAll('.soi-mega-covers img')].every(i=>i.complete&&i.naturalWidth>0)"))
-        await pg.mouse.move(700, 880); await pg.hover('.soi-menu-list > li:nth-child(6) .soi-menu-top'); await pg.wait_for_timeout(300)
-        ok('About Us dropdown', await pg.locator('.soi-menu-list > li:nth-child(6) .soi-sub a').all_inner_texts() == ['Our Founder', 'Our Mission'] and await pg.locator('.soi-menu-list > li:nth-child(6) .soi-sub').is_visible())
+        await pg.mouse.move(700, 880); await pg.hover('.soi-menu-list > li:nth-child(4) .soi-menu-top'); await pg.wait_for_timeout(300)
+        ok('About Us dropdown', await pg.locator('.soi-menu-list > li:nth-child(4) .soi-sub a').all_inner_texts() == ['Our Founder', 'Our Mission', 'SOI Team'] and await pg.locator('.soi-menu-list > li:nth-child(4) .soi-sub').is_visible())
         await pg.mouse.wheel(0, 1500); await pg.wait_for_timeout(300)
         ok('menu bar stays on screen when scrolling (sticky)', await pg.evaluate("document.querySelector('.soi-menu').getBoundingClientRect().top") < 40)
         # every issue has a cover file; archive shows them
         missing = [i['slug'] for i in ISS if not os.path.exists(ROOT + f"/dist/assets/covers/{i['slug']}.webp")]
         ok(f'cover picture for all {len(ISS)} issues', not missing, str(missing))
         await pg.goto(B + '/archive/'); ok('archive: a cover card for every issue', await pg.locator('.soi-icard img').count() == len(ISS))
-        await pg.goto(B + '/listen/'); ok('listen page', await pg.locator('.soi-icard').count() == len([i for i in ISS if i['audio']]) > 5)
+        await pg.click('.soi-view [data-view=list]'); ok('archive: list view', await pg.evaluate("document.querySelector('.soi-arch').dataset.view==='list'") and await pg.locator('.soi-icard-more').first.is_visible())
         # issue page
         await pg.goto(B + '/issues/2019-03/'); await pg.wait_for_selector('.soi-ev .ev-item')
-        order = await pg.evaluate("['.soi-hdr','.soi-menubar','.soi-banner','.soi-ev'].map(s=>document.querySelector(s).getBoundingClientRect().top+scrollY)")
-        ok('issue page: header, menu, archive banner, then the magazine', order == sorted(order) and 'The Journey of Life' in await pg.inner_text('.soi-banner'), str(order))
+        order = await pg.evaluate("['.soi-hdr','.soi-menubar','.soi-auto-banner','.soi-ev'].map(s=>document.querySelector(s).getBoundingClientRect().top+scrollY)")
+        ok('issue page: header, menu, archive banner, then the magazine', order == sorted(order) and 'The Journey of Life' in await pg.inner_text('.soi-auto-banner'), str(order))
         ok('issue page: Save / Share on articles, quiz present', await pg.locator('.soi-ev .soi-acts').count() > 5 and await pg.locator('#soi-quiz').count() == 1)
         await pg.evaluate("document.querySelectorAll('.soi-ev .ev-item')[3].querySelector('.ev-tab').click()"); await pg.wait_for_timeout(900)
         await pg.mouse.wheel(0, 700); await pg.wait_for_timeout(1700); await pg.mouse.wheel(0, 200); await pg.wait_for_timeout(1700)
@@ -66,7 +66,7 @@ async def main():
         await m.goto(B + '/'); await m.click('.soi-menu-toggle'); await m.click('.soi-has-mega > .soi-menu-top'); await m.wait_for_selector('.soi-mega-years button')
         ok('phone: menu opens, Archives lists the years', await m.locator('.soi-mega-years button').count() >= 14 and await m.locator('.soi-menu-list').is_visible())
         bad = []
-        pages = ('/', '/archive/', '/issues/' + LATEST['slug'] + '/', '/issues/2013-01/', '/listen/', '/quotes/', '/search/', '/saved/', '/about/our-founder/', '/contact/')
+        pages = ('/', '/archive/', '/issues/' + LATEST['slug'] + '/', '/issues/2013-01/', '/about/team/', '/quotes/', '/search/', '/saved/', '/about/our-founder/', '/contact/')
         for w in (320, 360, 390, 768, 981, 1100, 1280):
             await m.set_viewport_size({'width': w, 'height': 800})
             for u in pages:

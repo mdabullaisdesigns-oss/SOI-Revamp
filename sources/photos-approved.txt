@@ -1,0 +1,23 @@
+# Approved photos (Pexels, free licence; no people, no symbols of other religions). key  pexels-id  width
+hero 29515684 2000
+guide1 5227427 1000
+guide2 4413480 1000
+guide3 28829633 1000
+guide4 2382803 1000
+topic-patience 401213 900
+topic-gratitude 268854 900
+topic-peace 24355950 900
+topic-family 12410561 900
+topic-the-quran 10336482 900
+topic-life-death 218673 900
+quote-1 17923076 1400
+quote-2 1757363 1400
+quote-3 14871684 1400
+quote-4 629161 1400
+quote-5 1631676 1400
+quote-6 32354962 1400
+quote-7 7805386 1400
+quote-8 33254809 1400
+quote-9 19693221 1400
+quote-10 5673332 1400
+quote-11 28198483 1400

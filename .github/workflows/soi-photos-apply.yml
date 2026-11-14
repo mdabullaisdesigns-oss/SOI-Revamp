@@ -1,0 +1,45 @@
+name: Apply approved photos
+
+# Downloads the photos in sources/photos-approved.txt from Pexels, saves them as WebP in
+# site/photos/ and commits them (which rebuilds the preview).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources/photos-approved.txt]
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - name: Download and convert
+        run: |
+          mkdir -p site/photos "$RUNNER_TEMP/raw"
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+          grep -v '^#' sources/photos-approved.txt | grep -v '^\s*$' | while read -r key id w; do
+            curl -fsSL -A "$UA" -o "$RUNNER_TEMP/raw/$key.jpg" "https://images.pexels.com/photos/$id/pexels-photo-$id.jpeg?auto=compress&cs=tinysrgb&w=$w" || echo "::warning::$key ($id) not downloaded"
+            sleep 0.5
+          done
+          python3 - "$RUNNER_TEMP/raw" <<'PY'
+          import sys, os
+          from PIL import Image
+          raw = sys.argv[1]
+          for f in sorted(os.listdir(raw)):
+              im = Image.open(os.path.join(raw, f)).convert("RGB")
+              out = os.path.join("site/photos", f.rsplit(".", 1)[0] + ".webp")
+              im.save(out, "WEBP", quality=80, method=6)
+              print(out, im.size, os.path.getsize(out) // 1024, "KB")
+          PY
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add site/photos
+          git diff --cached --quiet && exit 0
+          git commit -m "Approved photos as WebP"
+          git pull --rebase -q origin main && git push

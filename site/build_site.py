@@ -89,6 +89,14 @@ SHORT = {"January": "Jan", "February": "Feb", "March": "Mar", "April": "Apr", "J
          "September": "Sep", "October": "Oct", "November": "Nov", "December": "Dec"}
 ICON_SEARCH = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>'
 ICON_SAVED = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>'
+I_HOME = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg>'
+I_ARCH = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7" height="16" rx="1.5"/><rect x="14" y="4" width="7" height="16" rx="1.5"/></svg>'
+I_QUOTE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18c2.5-1 4-3.5 4-7V6H4v6h4M15 18c2.5-1 4-3.5 4-7V6h-5v6h4"/></svg>'
+I_ABOUT = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>'
+I_MAIL = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>'
+I_GRID = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg>'
+I_LIST = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg>'
+I_USER = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>'
 LATEST = {"slug": ""}            # filled in by build()
 
 
@@ -108,7 +116,7 @@ def sub(items):
 def photo(key, cls=""):
     """A photo slot. Until a photo is approved for it (menu.json: photos) it shows a plain drawn landscape."""
     f = MENU.get("photos", {}).get(key)
-    if f:
+    if f and os.path.exists(os.path.join(HERE, "photos", f)):
         return f'<span class="soi-ph {cls}"><img src="/assets/photos/{esc(f)}" alt="" loading="lazy" decoding="async"></span>'
     return f'<span class="soi-ph soi-ph-wait {cls}" aria-hidden="true"></span>'
 
@@ -152,25 +160,21 @@ def page(title, body, desc="", cls="", head="", current=""):
   <nav class="soi-menu" aria-label="Main">
     <button class="soi-menu-toggle" type="button" aria-expanded="false" aria-controls="soi-menu-list"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
     <ul class="soi-menu-list" id="soi-menu-list">
-      <li><a href="/"{cur("home")}>Home</a></li>
-      <li><a href="/issues/{LATEST['slug']}/"{cur("latest")}>Latest Issue</a></li>
-      <li class="soi-has-sub soi-has-mega"><a class="soi-menu-top" href="/archive/" aria-haspopup="true" aria-expanded="false"{cur("archive")}>Archives <i aria-hidden="true">▾</i></a>
+      <li><a href="/"{cur("home")}>{I_HOME}<span>Home</span></a></li>
+      <li class="soi-has-sub soi-has-mega"><a class="soi-menu-top" href="/archive/" aria-haspopup="true" aria-expanded="false"{cur("archive")}>{I_ARCH}<span>Archives</span> <i aria-hidden="true">▾</i></a>
         <div class="soi-mega">
           <div class="soi-mega-side"><div class="soi-mega-years"></div><a class="soi-mega-all" href="/archive/">All years, 2013 → {LATEST.get('year', '')} →</a></div>
           <div class="soi-mega-main"><p class="soi-mega-label">Issues</p><div class="soi-mega-covers"></div></div>
         </div>
       </li>
-      <li><a href="/quotes/"{cur("quotes")}>Quotes</a></li>
-      <li><a href="/listen/"{cur("listen")}>Listen</a></li>
-      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">About Us <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["about"])}</ul></li>
-      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">Further Reading <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["reading"])}</ul></li>
-      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">Our Websites <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["websites"])}</ul></li>
-      <li><a href="{esc(c['href'])}"{cur("contact")}>{esc(c['label'])}</a></li>
+      <li><a href="/quotes/"{cur("quotes")}>{I_QUOTE}<span>Quotes</span></a></li>
+      <li class="soi-has-sub"><button class="soi-menu-top" type="button" aria-expanded="false">{I_ABOUT}<span>About Us</span> <i aria-hidden="true">▾</i></button><ul class="soi-sub">{sub(MENU["about"])}</ul></li>
+      <li><a href="{esc(c['href'])}"{cur("contact")}>{I_MAIL}<span>{esc(c['label'])}</span></a></li>
     </ul>
     <span class="soi-menu-right">
       <a class="soi-menu-ico" href="/search/" aria-label="Search">{ICON_SEARCH}</a>
       <a class="soi-menu-ico" href="/saved/" aria-label="Saved">{ICON_SAVED}</a>
-      <a class="soi-menu-signin" href="/signin/">Sign in</a>
+      <a class="soi-menu-signin" href="/signin/">{I_USER}<span>Sign in</span></a>
     </span>
   </nav>
 </div>
@@ -179,12 +183,12 @@ def page(title, body, desc="", cls="", head="", current=""):
 </main>
 <footer class="soi-foot">
   <div class="soi-foot-in">
-    <div><img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="240" height="25" loading="lazy"><p>Towards Global Peace &amp; Spiritual Living</p></div>
-    <div><strong>Read</strong><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archive</a><a href="/quotes/">Quotes</a><a href="/listen/">Listen</a><a href="/search/">Search</a></div>
-    <div><strong>About</strong>{"".join(f'<a href="{esc(i["href"])}">{esc(i["label"])}</a>' for i in MENU["about"])}<a href="{esc(c['href'])}">Contact</a></div>
-    <div><strong>Our websites</strong>{"".join(f'<a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a>' for i in MENU["websites"])}</div>
+    <div class="soi-foot-brand"><a href="/" aria-label="Spirit of Islam – home"><img class="soi-foot-bird" src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453" loading="lazy"><span><img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="1600" height="164" loading="lazy"><img src="/assets/brand/Slogan-Line.png" alt="Towards Global Peace &amp; Spiritual Living" width="1600" height="138" loading="lazy"></span></a></div>
+    <div><strong>Read</strong><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archives</a><a href="/quotes/">Quotes</a><a href="/search/">Search</a><a href="/saved/">Saved</a></div>
+    <div><strong>About</strong>{"".join(f'<a href="{esc(i["href"])}">{esc(i["label"])}</a>' for i in MENU["about"])}<a href="{esc(c['href'])}">Contact Us</a></div>
+    <div><strong>Further reading</strong>{"".join(f'<a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a>' for i in MENU["reading"])}<strong class="soi-foot-h2">Our websites</strong>{"".join(f'<a href="{esc(i["href"])}"{ext(i["href"])}>{esc(i["label"])}</a>' for i in MENU["websites"] if i["label"] != "CPS Quran")}</div>
   </div>
-  <div class="soi-foot-credit">Design &amp; Development by Md Abullais</div>
+  <div class="soi-foot-credit">© Spirit of Islam · Design &amp; Development by Md Abullais</div>
 </footer>
 </body>
 </html>
@@ -193,7 +197,8 @@ def page(title, body, desc="", cls="", head="", current=""):
 
 def card(i):
     return (f'<a class="soi-icard" href="/issues/{i["slug"]}/">{cover(i)}'
-            f'<b>{esc(short_period(i["period"]))}</b><small>{("Issue " + str(i["number"])) if i["number"] else ""}</small></a>')
+            f'<b>{esc(short_period(i["period"]))}</b><small>{("Issue " + str(i["number"])) if i["number"] else ""}</small>'
+            f'<span class="soi-icard-more">{len(i["articles"])} articles · {esc(", ".join(a["title"] for a in i["articles"][:3]))}…</span></a>')
 
 
 SEARCH_FORM = ('<form class="soi-search" action="/search/" method="get" role="search">'
@@ -364,18 +369,11 @@ def build():
         blocks.append(f'<section class="soi-year" id="y{y}"><div class="soi-h-row"><h2 class="soi-h">{y}</h2><span>{len(ys)} issues</span></div>'
                       f'<div class="soi-covers soi-covers-6">{"".join(card(i) for i in reversed(ys))}</div></section>')
     arch = (f'<section class="soi-wide soi-sec soi-page-head"><h1>Archive</h1><p>Every issue from January 2013 to today.</p>'
-            f'<div class="soi-years">{"".join(f"<a href=#y{y}>{y}</a>" for y in years)}</div></section>'
-            f'<div class="soi-wide">{"".join(blocks)}</div>')
+            f'<div class="soi-years">{"".join(f"<a href=#y{y}>{y}</a>" for y in years)}</div>'
+            f'<div class="soi-view" role="group" aria-label="Show issues as"><button type="button" data-view="grid" aria-pressed="true">{I_GRID}<span>Grid</span></button>'
+            f'<button type="button" data-view="list" aria-pressed="false">{I_LIST}<span>List</span></button></div></section>'
+            f'<div class="soi-wide soi-arch" data-view="grid">{"".join(blocks)}</div>')
     write("archive/index.html", page("Archive – Spirit of Islam", arch, "Every issue of Spirit of Islam from 2013 to today.", current="archive"))
-
-    # ---- listen: the issues that have read-along audio
-    heard = [i for i in reversed(issues) if any(a["audio"] for a in i["articles"])]
-    lcards = "".join(f'<a class="soi-icard" href="/issues/{i["slug"]}/">{cover(i)}<b>{esc(short_period(i["period"]))}</b>'
-                     f'<small>{sum(a["audio"] for a in i["articles"])} articles with audio</small></a>' for i in heard)
-    write("listen/index.html", page("Listen – Spirit of Islam",
-          f'<section class="soi-wide soi-sec soi-page-head"><h1>Listen</h1><p>{len(heard)} issues have read-along audio so far: press play on any article and the text follows the voice. '
-          f'Audio for the earlier issues is being prepared.</p></section><div class="soi-wide soi-sec"><div class="soi-covers soi-covers-6">{lcards}</div></div>',
-          "Issues of Spirit of Islam with read-along audio.", current="listen"))
 
     # ---- saved (kept in this browser) and sign in (comes with the app)
     write("saved/index.html", page("Saved – Spirit of Islam",
@@ -386,7 +384,14 @@ def build():
           '<p>Until then nothing is needed. Your reading place and saved items are remembered in this browser.</p><p><a class="soi-btn soi-btn-solid" href="/saved/">See what is saved here</a></p></section>'))
 
     # ---- About and Contact pages, word for word from the live site
-    for item, cur_key in [(x, "") for x in MENU["about"]] + [(MENU["contact"], "contact")]:
+    team = MENU["team"]
+    rows = "".join(f'<li><span class="soi-team-role">{esc(r)}</span>{"".join(f"<b>{esc(n)}</b>" for n in names)}</li>' for r, names in team["people"])
+    write("about/team/index.html", page("SOI Team – Spirit of Islam",
+          f'<section class="soi-wrap soi-sec soi-page-head"><h1>The SOI Team</h1><p>{esc(team["intro"])}</p></section>'
+          f'<section class="soi-wrap soi-block"><ul class="soi-team">{rows}</ul>'
+          f'<p class="soi-team-office"><span class="soi-team-role">Office</span>{esc(team["office"])}</p></section>',
+          "The people behind Spirit of Islam."))
+    for item, cur_key in [(x, "") for x in MENU["about"] if x.get("wp")] + [(MENU["contact"], "contact")]:
         w = wp_page(item.get("wp"))
         live = f'https://spiritofislam.co.in/?page_id={item.get("wp")}'
         if not w:
@@ -407,14 +412,16 @@ def build():
                + (f'<a class="soi-next" href="/issues/{nxt["slug"]}/"><small>Next issue</small>{esc(nxt["period"])}</a>' if nxt else "<span></span>")
                + "</nav>")
         body = f"""
-<section class="soi-wrap soi-banner">
-  <span class="soi-pill">Spirit of Islam <b>•</b> Bimonthly Periodical</span>
-  <h1><small>{esc(label)}</small>A Magazine for <em>The Journey of Life</em></h1>
-  <div class="soi-banner-btns">
-    <a class="soi-btn" href="/archive/">Browse Full Archive</a>
-    <a class="soi-btn" href="/archive/#y{i['year']}">Past Issues of {i['year']}</a>
+<div class="soi-auto-banner"><div class="soi-banner-scope"><div class="context-banner">
+  <div class="context-badge"><span class="context-badge-dot"></span><span>Spirit of Islam • Bimonthly Periodical</span></div>
+  <h2 class="context-title">A Magazine for The Journey of Life</h2>
+  <p class="context-desc">A bimonthly periodical dedicated to global peace and spiritual living, presenting the teachings of Maulana Wahiduddin Khan through the lens of reason and modern thought.</p>
+  <div class="btn-group">
+    <a href="/archive/" class="btn-awwwards-orbit"><span>Browse Full Archive</span><span class="orbit-icon-wrap"><svg class="orbit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span></a>
+    <a href="/archive/#y{i['year']}" class="btn-awwwards-liquid soi-year-btn"><span>Past issues of {i['year']}</span><svg class="liquid-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></a>
   </div>
-</section>
+</div></div></div>
+<h1 class="sr-only">{esc(label)} – Spirit of Islam</h1>
 <div class="soi-issue">
 {i['block']}
 </div>

@@ -78,7 +78,7 @@ PAGE = r"""
   <h2 class="soi-h2"><span>All quotes</span><small id="soi-q-count"></small></h2>
   <div class="soi-q-tools">
     <label class="soi-q-find"><span class="soi-vh">Find a quote</span><input id="soi-q-find" type="search" placeholder="Find a word, e.g. patience" autocomplete="off"></label>
-    <label><span class="soi-vh">Year</span><select id="soi-q-year"><option value="">All years</option></select></label>
+    <div class="soi-dd" id="soi-q-year"><span class="soi-vh" id="soi-q-year-l">Year</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-year-l"><span>All years</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-year-l" hidden></ul></div>
   </div>
   <div class="soi-q-topics" id="soi-q-topics" role="group" aria-label="Topic"></div>
   <div class="soi-q-list" id="soi-q-list"></div>
@@ -88,7 +88,7 @@ PAGE = r"""
 <script>
 (function(){
   var ALL=[],shown=0,STEP=24,list=document.getElementById('soi-q-list'),find=document.getElementById('soi-q-find'),
-      year=document.getElementById('soi-q-year'),topics=document.getElementById('soi-q-topics'),more=document.getElementById('soi-q-more'),
+      yearEl=document.getElementById('soi-q-year'),year=null,topics=document.getElementById('soi-q-topics'),more=document.getElementById('soi-q-more'),
       count=document.getElementById('soi-q-count'),toast=document.getElementById('soi-q-toast'),topic='',cur=[];
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function link(q){return location.origin+'/issues/'+q.s+'/#soi-'+q.a}
@@ -131,19 +131,19 @@ PAGE = r"""
     (document.fonts&&document.fonts.load?document.fonts.load('italic 40px "Cita Pro Ita"').then(draw,draw):draw());
   }
   function apply(){
-    var w=find.value.trim().toLowerCase(),y=year.value;
+    var w=find.value.trim().toLowerCase(),y=year?year.value:'';
     cur=ALL.filter(function(q){return (!y||String(q.y)===y)&&(!topic||q.tp.indexOf(topic)>-1)&&(!w||q.t.toLowerCase().indexOf(w)>-1||q.at.toLowerCase().indexOf(w)>-1)});
     list.innerHTML='';shown=0;count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');grow();
     if(!cur.length)list.innerHTML='<p class="soi-q-none">No quote matches. Try another word or clear the filters.</p>';
   }
   function grow(){cur.slice(shown,shown+STEP).forEach(function(q){list.appendChild(card(q))});shown=Math.min(cur.length,shown+STEP);more.hidden=shown>=cur.length}
-  more.addEventListener('click',grow);find.addEventListener('input',apply);year.addEventListener('change',apply);
+  more.addEventListener('click',grow);find.addEventListener('input',apply);
   topics.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;topic=topic===b.dataset.t?'':b.dataset.t;
     [].forEach.call(topics.children,function(c){c.setAttribute('aria-pressed',c.dataset.t===topic?'true':'false')});apply()});
   fetch('/assets/quotes.json').then(function(r){return r.json()}).then(function(d){
     ALL=d.quotes;
     d.topics.forEach(function(t){var b=document.createElement('button');b.type='button';b.dataset.t=t;b.textContent=t;b.setAttribute('aria-pressed','false');topics.appendChild(b)});
-    var ys={};ALL.forEach(function(q){ys[q.y]=1});Object.keys(ys).sort().reverse().forEach(function(y){var o=document.createElement('option');o.value=y;o.textContent=y;year.appendChild(o)});
+    var ys={};ALL.forEach(function(q){ys[q.y]=1});year=soiDropdown(yearEl,[['','All years']].concat(Object.keys(ys).sort().reverse().map(function(y){return [y,y]})),apply);
     var pool=ALL.filter(function(q){return q.t.length<260}),day=Math.floor(Date.now()/864e5-new Date().getTimezoneOffset()/1440);
     document.getElementById('soi-qotd').appendChild(card(pool[(day*7919)%pool.length],true));
     var m=location.hash.match(/^#t=(.+)$/);if(m){topic=decodeURIComponent(m[1]);[].forEach.call(topics.children,function(c){c.setAttribute('aria-pressed',c.dataset.t===topic?'true':'false')})}

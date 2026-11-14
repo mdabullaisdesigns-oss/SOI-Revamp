@@ -1,21 +1,137 @@
 {
   "about": [
-    {"label": "Our Founder", "href": "/about/our-founder/", "wp": 537},
-    {"label": "Our Mission", "href": "/about/our-mission/", "wp": 552}
+    {
+      "label": "Our Founder",
+      "href": "/about/our-founder/",
+      "wp": 537
+    },
+    {
+      "label": "Our Mission",
+      "href": "/about/our-mission/",
+      "wp": 552
+    },
+    {
+      "label": "SOI Team",
+      "href": "/about/team/"
+    }
   ],
-  "contact": {"label": "Contact Us", "href": "/contact/", "wp": 562},
+  "contact": {
+    "label": "Contact Us",
+    "href": "/contact/",
+    "wp": 562
+  },
   "reading": [
-    {"label": "Al-Risala", "href": "https://www.cpsglobal.org/magazines?field_category_target_id=All&field_magazines_language_value=All&field_magazines_type_value=Al-Risala&field_month_value=All&field_year_value=All"},
-    {"label": "CPS Quran", "href": "https://cpsquran.org/"}
+    {
+      "label": "Al-Risala",
+      "href": "https://www.cpsglobal.org/magazines?field_category_target_id=All&field_magazines_language_value=All&field_magazines_type_value=Al-Risala&field_month_value=All&field_year_value=All"
+    },
+    {
+      "label": "CPS Quran",
+      "href": "https://cpsquran.org/"
+    }
   ],
   "websites": [
-    {"label": "CPS Quran", "href": "https://cpsquran.org/"},
-    {"label": "FB Page", "href": "https://www.facebook.com/maulanawkhan"},
-    {"label": "CPS Kannada", "href": "http://cpskannada.com/"},
-    {"label": "Peace Mission", "href": "http://peacemission.in/index.php"}
+    {
+      "label": "CPS Quran",
+      "href": "https://cpsquran.org/"
+    },
+    {
+      "label": "FB Page",
+      "href": "https://www.facebook.com/maulanawkhan"
+    },
+    {
+      "label": "CPS Kannada",
+      "href": "http://cpskannada.com/"
+    },
+    {
+      "label": "Peace Mission",
+      "href": "http://peacemission.in/index.php"
+    }
   ],
-  "hero_line": {"2026-11": "Budget your time carefully as you budget your income and expenses."},
-  "guides": ["Listen with read-along", "Save issues for offline", "Earn gems with quizzes", "Share an article"],
-  "topics": ["Patience", "Gratitude", "Peace", "Family", "The Quran", "Life & Death"],
-  "photos": {}
+  "hero_line": {
+    "2026-11": "Budget your time carefully as you budget your income and expenses."
+  },
+  "guides": [
+    "Listen with read-along",
+    "Save issues for offline",
+    "Earn gems with quizzes",
+    "Share an article"
+  ],
+  "topics": [
+    "Patience",
+    "Gratitude",
+    "Peace",
+    "Family",
+    "The Quran",
+    "Life & Death"
+  ],
+  "photos": {
+    "hero": "hero.webp",
+    "guide1": "guide1.webp",
+    "guide2": "guide2.webp",
+    "guide3": "guide3.webp",
+    "guide4": "guide4.webp",
+    "topic-patience": "topic-patience.webp",
+    "topic-gratitude": "topic-gratitude.webp",
+    "topic-peace": "topic-peace.webp",
+    "topic-family": "topic-family.webp",
+    "topic-the-quran": "topic-the-quran.webp",
+    "topic-life-death": "topic-life-death.webp"
+  },
+  "team": {
+    "intro": "Spirit of Islam is prepared by a team trained and guided by Maulana Wahiduddin Khan. As listed in the magazine (Issue 133, November–December 2026).",
+    "people": [
+      [
+        "Editor-in-Chief",
+        [
+          "Prof. Farida Khanam"
+        ]
+      ],
+      [
+        "Publisher",
+        [
+          "Fathima Sarah"
+        ]
+      ],
+      [
+        "Editorial Director",
+        [
+          "Dr. Naghma Siddiqi"
+        ]
+      ],
+      [
+        "Senior Editor",
+        [
+          "Mohammad Usman"
+        ]
+      ],
+      [
+        "Deputy Editor",
+        [
+          "Subia Kauser"
+        ]
+      ],
+      [
+        "Advisors",
+        [
+          "Inayathullah Umri",
+          "Prof. Zaheeruddin"
+        ]
+      ]
+    ],
+    "office": "Spirit of Islam, Bengaluru, Karnataka, India"
+  },
+  "quote_photos": [
+    "quote-1.webp",
+    "quote-2.webp",
+    "quote-3.webp",
+    "quote-4.webp",
+    "quote-5.webp",
+    "quote-6.webp",
+    "quote-7.webp",
+    "quote-8.webp",
+    "quote-9.webp",
+    "quote-10.webp",
+    "quote-11.webp"
+  ]
 }

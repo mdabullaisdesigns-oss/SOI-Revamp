@@ -1,5 +1,5 @@
 /* Spirit of Islam – site shell.  Approved palette: teal #204E60 / #173A48, gold #D4CC73, cream #EEEEE5.
-   Crimson is used only inside the e-version (end-of-article quote hover).  The issue pages carry their
+   Crimson #EA3451 is allowed sparingly: hover effects, small accents and borders (owner, 14 Nov 2026).  The issue pages carry their
    own scoped styles (.soi-ev / #soi-quiz); everything here is prefixed "soi-". */
 @font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: 'Cita Pro'; src: url('/assets/fonts/CitaPro-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
@@ -313,3 +313,120 @@ body:not(.soi-home) .soi-menubar { background: #FBFAF6; }
 .soi-years { display: flex; flex-wrap: wrap; gap: 8px; }
 .soi-years a { padding: 8px 16px; border: 1.5px solid var(--soi-teal); border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .9rem; }
 .soi-years a:hover, .soi-years a:focus-visible { background: var(--soi-teal); color: var(--soi-cream); }
+
+
+/* ============ owner's changes (14 Nov 2026) ============ */
+:root { --soi-crimson: #EA3451; }
+
+/* menu bar: full width, joined to the header */
+.soi-menubar, .soi-home .soi-menubar, body:not(.soi-home) .soi-menubar { background: var(--soi-gold); padding: 0; box-shadow: 0 10px 22px -16px rgba(23, 58, 72, .55); }
+.soi-menu { max-width: 1280px; border-radius: 0; box-shadow: none; background: transparent; padding: 0 24px; }
+.soi-menu-list > li > a, .soi-menu-top { display: inline-flex; align-items: center; gap: 7px; border-bottom: 0 !important; border-radius: 8px; padding-left: 12px; padding-right: 12px; }
+.soi-menu-list svg, .soi-menu-signin svg { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.soi-menu-list > li > a:hover, .soi-menu-top:hover, .soi-has-sub:hover > .soi-menu-top, .soi-has-sub.is-open > .soi-menu-top { background: rgba(255, 255, 255, .32); }
+.soi-menu-list a[aria-current="page"] { background: none; position: relative; }
+.soi-menu-list a[aria-current="page"]::after { content: ""; position: absolute; left: 50%; bottom: 5px; width: 6px; height: 6px; margin-left: -3px; border-radius: 50%; background: var(--soi-crimson); }
+.soi-menu-list a[aria-current="page"]:hover { background: rgba(255, 255, 255, .32); }
+.soi-menu-signin { display: inline-flex; align-items: center; gap: 7px; }
+.soi-menu-signin:hover { background: var(--soi-crimson); }
+.soi-menu-ico:hover { color: var(--soi-crimson); background: rgba(255, 255, 255, .32); }
+.soi-sub a:hover, .soi-sub a:focus-visible { color: var(--soi-crimson); }
+@media (max-width: 980px) {
+  .soi-menu { padding: 0 10px; }
+  .soi-menu-list > li > a, .soi-menu-top { display: flex; border-radius: 0; border-bottom: 1px solid rgba(23, 58, 72, .12) !important; }
+  .soi-menu-list a[aria-current="page"]::after { left: auto; right: 14px; top: 50%; bottom: auto; margin: -3px 0 0; }
+}
+
+/* issue pages: one background colour, and the full phone width for reading */
+body.soi-issue-page, .soi-issue-page main { background: var(--soi-cream); }
+@media (max-width: 600px) {
+  .soi-issue { padding: 0 6px; }
+  .soi-issue .soi-ev { width: 100% !important; }
+}
+
+/* the live site's archive banner, as on every issue page today */
+.soi-auto-banner { background: var(--soi-cream); padding: 1.5rem 0 1.5rem; display: flow-root; }
+.soi-banner-scope { --soi-primary: #204E60; --soi-primary-dark: #163744; --soi-text-muted: #53656D;
+  --soi-ease-awwwards: cubic-bezier(0.76, 0, 0.24, 1); --soi-ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  width: calc(100% - 2rem); max-width: 880px; margin: 0 auto; font-family: var(--soi-sans); -webkit-font-smoothing: antialiased; }
+@keyframes soiBorderShimmer { 0% { background-position: 0% 0%, 0% 50%; } 50% { background-position: 0% 0%, 100% 50%; } 100% { background-position: 0% 0%, 0% 50%; } }
+.soi-banner-scope .context-banner { border-radius: 24px; border: 2px solid transparent;
+  background: linear-gradient(var(--soi-cream), var(--soi-cream)) padding-box, linear-gradient(120deg, rgba(32, 78, 96, .3), rgba(234, 52, 81, .55), rgba(32, 78, 96, .15), rgba(234, 52, 81, .6)) border-box;
+  background-size: 100% 100%, 280% 280%; animation: soiBorderShimmer 7s ease-in-out infinite;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.25rem, 4vw, 3rem); box-shadow: 0 20px 42px -10px rgba(32, 78, 96, .12), 0 6px 18px -4px rgba(32, 78, 96, .06), 0 0 0 1px rgba(238, 238, 229, .5);
+  display: flex; flex-direction: column; gap: 1.25rem; text-align: center; align-items: center; position: relative; overflow: hidden; }
+.soi-banner-scope .context-banner::before { content: ''; position: absolute; top: -100px; right: -70px; width: 280px; height: 280px; border-radius: 50%; background: radial-gradient(circle, rgba(234, 52, 81, .09) 0%, rgba(234, 52, 81, 0) 70%); pointer-events: none; }
+.soi-banner-scope .context-banner::after { content: ''; position: absolute; bottom: -100px; left: -70px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(32, 78, 96, .07) 0%, rgba(32, 78, 96, 0) 70%); pointer-events: none; }
+.soi-banner-scope .context-badge { display: inline-flex; align-items: center; gap: .5rem; font-size: .75rem; font-weight: 700; letter-spacing: .14em; color: var(--soi-primary); text-transform: uppercase; background: rgba(32, 78, 96, .08); padding: .45rem 1.1rem; border-radius: 999px; border: 1px solid rgba(32, 78, 96, .12); z-index: 1; line-height: 1; }
+.soi-banner-scope .context-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--soi-crimson); box-shadow: 0 0 6px rgba(234, 52, 81, .35); }
+.soi-banner-scope .context-title { font-family: var(--soi-sans); font-size: clamp(1.85rem, 4.5vw, 3rem); font-weight: 800; color: var(--soi-primary); max-width: 780px; line-height: 1.18; letter-spacing: -.03em; margin: 0; z-index: 1; }
+.soi-banner-scope .context-desc { color: var(--soi-text-muted); max-width: 660px; font-size: clamp(.95rem, 2vw, 1.05rem); line-height: 1.75; margin: 0; letter-spacing: -.01em; z-index: 1; }
+.soi-banner-scope .btn-group { display: flex; flex-wrap: wrap; gap: 1.15rem; justify-content: center; align-items: center; margin-top: .75rem; width: 100%; z-index: 1; }
+.soi-banner-scope a.btn-awwwards-orbit { display: inline-flex; align-items: center; justify-content: center; gap: 1rem; padding: .7rem .8rem .7rem 1.75rem; background: var(--soi-primary); color: var(--soi-cream); text-decoration: none; border-radius: 999px; font-size: .85rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; border: 1px solid rgba(238, 238, 229, .25); box-shadow: 0 8px 24px rgba(32, 78, 96, .2); transition: all .4s var(--soi-ease-awwwards); min-height: 52px; }
+.soi-banner-scope a.btn-awwwards-orbit .orbit-icon-wrap { width: 2.25rem; height: 2.25rem; background: var(--soi-cream); color: var(--soi-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all .4s var(--soi-ease-spring); flex-shrink: 0; }
+.soi-banner-scope a.btn-awwwards-orbit .orbit-icon { width: 1.05rem; height: 1.05rem; }
+.soi-banner-scope a.btn-awwwards-orbit:hover { background: var(--soi-primary-dark); color: #fff; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(32, 78, 96, .3); }
+.soi-banner-scope a.btn-awwwards-orbit:hover .orbit-icon-wrap { background: var(--soi-crimson); color: #fff; transform: rotate(45deg) scale(1.05); box-shadow: 0 0 14px rgba(234, 52, 81, .35); }
+.soi-banner-scope a.btn-awwwards-liquid { display: inline-flex; align-items: center; justify-content: center; gap: .85rem; padding: .8rem 2rem; background: transparent; color: var(--soi-primary); font-size: .85rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; text-decoration: none; border: 2px solid var(--soi-primary); border-radius: 999px; position: relative; overflow: hidden; z-index: 1; min-height: 52px; transition: color .35s var(--soi-ease-awwwards), border-color .35s ease, transform .35s var(--soi-ease-awwwards); }
+.soi-banner-scope a.btn-awwwards-liquid::before { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 0%; background: var(--soi-crimson); z-index: -1; transition: height .4s var(--soi-ease-awwwards); border-top-left-radius: 50% 20px; border-top-right-radius: 50% 20px; }
+.soi-banner-scope a.btn-awwwards-liquid .liquid-icon { width: 1.1rem; height: 1.1rem; flex-shrink: 0; transition: transform .35s var(--soi-ease-spring); }
+.soi-banner-scope a.btn-awwwards-liquid:hover { color: #fff; border-color: var(--soi-crimson); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(234, 52, 81, .35); }
+.soi-banner-scope a.btn-awwwards-liquid:hover::before { height: 200%; }
+.soi-banner-scope a.btn-awwwards-liquid:hover .liquid-icon { transform: translateX(3px) rotate(-6deg); }
+@media (max-width: 640px) {
+  .soi-auto-banner { padding: .5rem 0 1.25rem; }
+  .soi-banner-scope { width: calc(100% - 3.5rem); }
+  .soi-banner-scope .context-badge { font-size: .66rem; letter-spacing: .1em; padding: .45rem .9rem; }
+  .soi-banner-scope .context-banner { padding: 2rem 1.25rem; border-radius: 18px; }
+  .soi-banner-scope .btn-group { flex-direction: column; gap: .75rem; }
+  .soi-banner-scope a.btn-awwwards-orbit, .soi-banner-scope a.btn-awwwards-liquid { max-width: 250px; min-width: 220px; padding: .6rem .75rem .6rem 1.25rem; font-size: .78rem; min-height: 44px; }
+  .soi-banner-scope a.btn-awwwards-liquid { padding: .6rem 1.4rem; }
+}
+@media (prefers-reduced-motion: reduce) { .soi-banner-scope .context-banner { animation: none; } }
+
+/* archive: grid or list */
+.soi-view { display: inline-flex; gap: 4px; margin-top: 18px; padding: 4px; background: var(--soi-cream); border-radius: 12px; }
+.soi-view button { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: .88rem; font-weight: 600; color: var(--soi-muted); background: none; border: 0; border-radius: 9px; padding: 8px 14px; cursor: pointer; }
+.soi-view button svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.soi-view button[aria-pressed="true"] { background: #fff; color: var(--soi-teal-dark); box-shadow: 0 1px 3px rgba(23, 58, 72, .15); }
+.soi-view button:hover { color: var(--soi-crimson); }
+.soi-icard-more { display: none; }
+.soi-arch[data-view="list"] .soi-covers { grid-template-columns: 1fr; gap: 0; }
+.soi-arch[data-view="list"] .soi-icard { display: grid; grid-template-columns: 64px 1fr; column-gap: 18px; align-items: center; padding: 14px 4px; border-bottom: 1px solid var(--soi-line); }
+.soi-arch[data-view="list"] .soi-icard .soi-cover { grid-row: span 3; border-radius: 6px; box-shadow: none; }
+.soi-arch[data-view="list"] .soi-icard:hover .soi-cover { transform: none; }
+.soi-arch[data-view="list"] .soi-icard b { margin: 0; font-size: 16px; }
+.soi-arch[data-view="list"] .soi-icard:hover b { color: var(--soi-crimson); }
+.soi-arch[data-view="list"] .soi-icard-more { display: block; font-size: 13px; color: var(--soi-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* footer: full logo, no underlines */
+.soi-foot a { text-decoration: none; }
+.soi-foot a:hover { color: var(--soi-gold); }
+.soi-foot-in { grid-template-columns: 1.5fr 1fr 1fr 1.2fr; }
+.soi-foot-brand a { display: flex; align-items: center; gap: 14px; }
+.soi-foot-brand .soi-foot-bird { width: 58px; height: auto; }
+.soi-foot-brand span { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.soi-foot-in .soi-foot-brand span img { width: 230px; max-width: 100%; height: auto; }
+.soi-foot strong { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--soi-gold); margin-bottom: 4px; }
+.soi-foot .soi-foot-h2 { margin-top: 14px; }
+.soi-foot-credit { color: rgba(238, 238, 229, .8); border-top: 1px solid rgba(234, 52, 81, .35); }
+@media (max-width: 760px) { .soi-foot-in { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* SOI Team */
+.soi-team { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 16px; }
+.soi-team li, .soi-team-office { background: #fff; border: 1px solid var(--soi-line); border-radius: 16px; padding: 20px 22px; border-top: 3px solid var(--soi-gold); }
+.soi-team b { display: block; font-family: var(--soi-display); font-size: 1.3rem; color: var(--soi-teal-dark); line-height: 1.3; }
+.soi-team-role { display: block; margin-bottom: 6px; font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--soi-muted); }
+.soi-team-office { margin-top: 16px; font-weight: 600; }
+
+/* custom drop-down (no browser default styling) */
+.soi-dd { position: relative; }
+.soi-dd-btn { display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; min-width: 150px; width: 100%; font: inherit; font-weight: 600; color: var(--soi-teal-dark); background: var(--soi-paper); border: 1.5px solid var(--soi-line); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
+.soi-dd-btn:hover, .soi-dd-btn[aria-expanded="true"] { border-color: var(--soi-teal); }
+.soi-dd-btn::after { content: ""; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .2s; }
+.soi-dd-btn[aria-expanded="true"]::after { transform: translateY(2px) rotate(225deg); }
+.soi-dd-list { position: absolute; right: 0; top: calc(100% + 6px); z-index: 30; min-width: 100%; max-height: 300px; overflow-y: auto; margin: 0; padding: 6px; list-style: none; background: #fff; border: 1px solid var(--soi-line); border-radius: 14px; box-shadow: 0 18px 36px -18px rgba(23, 58, 72, .45); }
+.soi-dd-list[hidden] { display: none; }
+.soi-dd-list li { padding: 9px 12px; border-radius: 9px; cursor: pointer; font-weight: 600; color: var(--soi-teal-dark); white-space: nowrap; }
+.soi-dd-list li:hover, .soi-dd-list li.is-active { background: var(--soi-cream); color: var(--soi-crimson); }
+.soi-dd-list li[aria-selected="true"] { background: var(--soi-teal); color: #fff; }
