@@ -22,10 +22,12 @@ KEY = os.environ.get("GCP_TTS_API_KEY", "")
 AUTH_KEY = os.environ.get("GCP_AUTH_KEY", "")      # API key bound to the soi-tts service account (Agent Platform API)
 VERTEX = "https://aiplatform.googleapis.com/v1/publishers/google/models/{}:generateContent?key="
 TEMPERATURE = 0.3
+TOKEN = os.environ.get("GCP_ACCESS_TOKEN", "")     # short-lived token from GitHub's keyless sign-in (Workload Identity Federation)
+PROJECT = os.environ.get("GCP_PROJECT", "project-2c2c83fa-e3a5-4e94-895")
 URL = "https://texttospeech.googleapis.com/v1/text:synthesize?key="
 MODELS = [m for m in os.environ.get("SOI_TTS_MODELS", "").split(",") if m] or (
     ["vertex:gemini-3.8-flash-lite-tts", "vertex:gemini-3.8-flash-tts", "vertex:gemini-3.1-flash-tts-preview",
-     "vertex:gemini-2.5-flash-preview-tts", "vertex:gemini-2.5-flash-tts"] if os.environ.get("GCP_AUTH_KEY") else []) + [
+     "vertex:gemini-2.5-flash-preview-tts", "vertex:gemini-2.5-flash-tts"] if (os.environ.get("GCP_AUTH_KEY") or os.environ.get("GCP_ACCESS_TOKEN")) else []) + [
     "gemini-2.5-flash-tts", "gemini-3.1-flash-tts-preview"]     # (2.5 Flash-Lite allows only 512 bytes with the prompt)
 VOICE = "Charon"
 PROMPT = """# AUDIO PROFILE: The Narrator
@@ -71,13 +73,23 @@ def pieces(title, paras):
     return out
 
 
+def request(url, key, body):
+    h = {"Content-Type": "application/json"}
+    if TOKEN:
+        h["Authorization"] = "Bearer " + TOKEN
+        h["x-goog-user-project"] = PROJECT
+    elif key:
+        url += "?key=" + key
+    return urllib.request.Request(url, data=json.dumps(body).encode(), headers=h)
+
+
 def synth(text, model):
     if model.startswith("vertex:"):
         return synth_vertex(text, model[7:])
     body = {"input": {"prompt": PROMPT, "text": text},
             "voice": {"languageCode": "en-US", "name": VOICE, "modelName": model},
             "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000}}
-    req = urllib.request.Request(URL + KEY, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+    req = request(URL.split("?")[0], KEY, body)
     for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=300) as r:
@@ -94,7 +106,9 @@ def synth_vertex(text, model):
     body = {"contents": [{"role": "user", "parts": [{"text": PROMPT + "\n\n#### TRANSCRIPT\n\n" + text}]}],
             "generationConfig": {"responseModalities": ["AUDIO"], "temperature": TEMPERATURE,
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICE}}}}}
-    req = urllib.request.Request(VERTEX.format(model) + AUTH_KEY, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+    url = (f"https://aiplatform.googleapis.com/v1/projects/{PROJECT}/locations/global/publishers/google/models/{model}:generateContent"
+           if TOKEN else VERTEX.format(model).split("?")[0])
+    req = request(url, AUTH_KEY, body)
     for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=600) as r:
@@ -165,8 +179,8 @@ def probe():
 
 
 if __name__ == "__main__":
-    if not (KEY or AUTH_KEY):
-        sys.exit("GCP_TTS_API_KEY / GCP_AUTH_KEY is not set")
+    if not (KEY or AUTH_KEY or TOKEN):
+        sys.exit("no Google sign-in: GCP_ACCESS_TOKEN, GCP_AUTH_KEY or GCP_TTS_API_KEY")
     if sys.argv[1:2] == ["probe"]:
         sys.exit(0 if probe() else 1)
     if sys.argv[1:2] == ["article"]:
