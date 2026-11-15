@@ -32,7 +32,7 @@ async def main():
         ok('home sections in the approved order', [h.split('\n')[0] for h in heads][:4] == ['Our latest issue', 'Latest issues', 'New here? Start with these', 'Read by topic'] and len(heads) == 5, str(heads))
         ok('latest issue hero + Continue + Quote of the day', f"ISSUE {LATEST['number']}" in (await pg.inner_text('.soi-hero-over')).upper() and len(await pg.inner_text('.soi-qotd-text')) > 20 and await pg.locator('#soi-continue').count() == 1)
         ok('latest issues row: 6 covers', await pg.locator('.soi-home .soi-covers-6 .soi-icard img').count() == 6)
-        ok('footer: credit, CPS social links, Ask AI, no copyright line', 'Md Abullais' in await pg.inner_text('.soi-credit') and await pg.locator('.soi-credit-btn').count() == 1 and await pg.locator('.soi-foot2-soc').count() >= 6 and await pg.locator('.soi-ask-ai a.soi-ai').count() == 5 and '©' not in await pg.inner_text('.soi-foot2'))
+        ok('footer: credit, CPS social links, Ask AI, no copyright line', 'Md Abullais' in await pg.inner_text('.soi-credit') and await pg.locator('.soi-credit-click').count() == 1 and await pg.locator('.soi-soc a').count() >= 6 and await pg.locator('.soi-ask-ai a.soi-ai').count() == 5 and '©' not in await pg.inner_text('.soi-foot2'))
         # Archives menu
         await pg.hover('.soi-has-mega > .soi-menu-top'); await pg.wait_for_selector('.soi-mega-covers a'); await pg.wait_for_timeout(500)
         ok('Archives menu: every year on the left, covers on the right', await pg.locator('.soi-mega-years button').count() == len({i['year'] for i in ISS}) and await pg.locator('.soi-mega-covers a').count() == len([i for i in ISS if i['year'] == LATEST['year']]))
