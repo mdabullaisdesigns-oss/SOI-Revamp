@@ -38,6 +38,25 @@ jobs:
       - name: Old recording, for comparison
         continue-on-error: true
         run: curl -fsSL -A "Mozilla/5.0 SOI" "https://spiritofislam.co.in/wp-content/uploads/2026/10/SOI-133-the-superior-solution.mp3" -o "out/OLD-the-superior-solution.mp3"
+      - name: Listening page
+        run: |
+          python3 - <<'PY'
+          import os, html
+          files = sorted(f for f in os.listdir("out") if f.endswith(".mp3"))
+          rep = html.escape(open("out/report.txt").read()) if os.path.exists("out/report.txt") else ""
+          probe = html.escape(open("out/probe.txt").read()) if os.path.exists("out/probe.txt") else ""
+          rows = "".join(f'<section><h2>{html.escape(f)}</h2><audio controls preload="none" src="{f}"></audio></section>' for f in files)
+          open("out/index.html", "w").write(f"""<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content=noindex>
+          <title>SOI narration test</title><style>body{{font:16px/1.6 system-ui;max-width:760px;margin:40px auto;padding:0 16px;background:#F6F5EF;color:#173A48}}section{{background:#fff;border-radius:14px;padding:14px 18px;margin:14px 0}}h2{{font-size:15px;margin:0 0 8px}}audio{{width:100%}}pre{{white-space:pre-wrap;font-size:13px;background:#fff;padding:12px;border-radius:10px}}</style>
+          <h1>Narration test: The Superior Solution</h1><p>OLD = Issue 133 as published (Gemini 3.8 Flash-Lite in AI Studio). NEW = Google Cloud Text-to-Speech, voice Charon, new clearer pacing.</p>{rows}<h2>Report</h2><pre>{rep}</pre><h2>Models</h2><pre>{probe}</pre>""")
+          PY
+      - name: Publish the listening page
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+        run: |
+          npx --yes wrangler@4 pages project create soi-audio-test --production-branch main || true
+          npx --yes wrangler@4 pages deploy out --project-name soi-audio-test --branch main --commit-dirty=true
       - uses: actions/upload-artifact@v4
         with:
           name: narration-test
