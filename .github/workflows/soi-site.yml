@@ -44,3 +44,13 @@ jobs:
           npx --yes wrangler@4 pages deploy dist --project-name soi-preview --branch main --commit-dirty=true | tee deploy.log
           echo "### Preview published" >> "$GITHUB_STEP_SUMMARY"
           grep -o 'https://[a-z0-9.-]*pages.dev' deploy.log | sort -u >> "$GITHUB_STEP_SUMMARY"
+      - name: Check that audio is served from R2
+        if: always()
+        run: |
+          sleep 20
+          f=$(ls issues/*/audio.json | xargs grep -l '"/media/audio' | head -1)
+          [ -z "$f" ] && { echo "no R2 audio yet"; exit 0; }
+          u=$(python3 -c "import json,sys; a=json.load(open('$f')); print(next(v['url'] for v in a.values() if v['url'].startswith('/media/')))")
+          echo "testing $u"
+          curl -sS -o /dev/null -w "full: %{http_code} %{content_type} %{size_download} bytes\n" "https://soi-preview.pages.dev$u"
+          curl -sS -o /dev/null -w "range: %{http_code} %{size_download} bytes\n" -H "Range: bytes=1000-1999" "https://soi-preview.pages.dev$u"
