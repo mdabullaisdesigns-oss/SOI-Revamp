@@ -94,8 +94,8 @@ ICON_SEARCH = _F.format('<path d="M10 2a8 8 0 1 0 4.9 14.3l5.4 5.4 1.4-1.4-5.4-5
 ICON_SAVED = _F.format('<path d="M17 2H7a2 2 0 0 0-2 2v17.4a.6.6 0 0 0 .95.5L12 18l6.05 3.9a.6.6 0 0 0 .95-.5V4a2 2 0 0 0-2-2m0 16.5-5-3.2-5 3.2V4h10z"/>')
 I_HOME = _F.format('<path d="M3.3 10.3 11.3 3.3a1 1 0 0 1 1.4 0l8 7A1 1 0 0 1 21 11v9a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-5h-4v5a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2v-9a1 1 0 0 1 .3-.7M5 11.5V20h3v-5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v5h3v-8.5l-7-6.1z"/>')
 I_ARCH = _F.format('<path d="M9 3h2v18H9zm11.71 17.23-3.8-8.15-3.81-8.16-.9.42-.91.43 3.8 8.15 3.81 8.16.9-.42zM6 3h2v18H6zM3 3h2v18H3z"/>')
-I_QUOTE = '<svg class="soi-fi soi-fi-line" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h2A1.5 1.5 0 0 1 10 6.5V11c0 3.4-1.5 5.8-4.6 7.2M14 6.5A1.5 1.5 0 0 1 15.5 5h2A1.5 1.5 0 0 1 19 6.5V11c0 3.4-1.5 5.8-4.6 7.2M5 11h5M14 11h5"/></svg>'
-I_ABOUT = _F.format('<path d="M12 11c1.71 0 3-1.29 3-3s-1.29-3-3-3-3 1.29-3 3 1.29 3 3 3m0-4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1m1 5h-2c-2.76 0-5 2.24-5 5v.5c0 .83.67 1.5 1.5 1.5h9c.83 0 1.5-.67 1.5-1.5V17c0-2.76-2.24-5-5-5m-5 5c0-1.65 1.35-3 3-3h2c1.65 0 3 1.35 3 3zm-1.5-6c.47 0 .9-.12 1.27-.33a5.03 5.03 0 0 1-.42-4.52C7.09 6.06 6.8 6 6.5 6 5.06 6 4 7.06 4 8.5S5.06 11 6.5 11m-.39 1H5.5C3.57 12 2 13.57 2 15.5v1c0 .28.22.5.5.5H4c0-1.96.81-3.73 2.11-5m11.39-1c1.44 0 2.5-1.06 2.5-2.5S18.94 6 17.5 6c-.31 0-.59.06-.85.15a5.03 5.03 0 0 1-.42 4.52c.37.21.79.33 1.27.33m1 1h-.61A6.97 6.97 0 0 1 20 17h1.5c.28 0 .5-.22.5-.5v-1c0-1.93-1.57-3.5-3.5-3.5"/>')
+I_QUOTE = '<svg class="soi-fi soi-fi-line soi-fi-quote" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 11H6.2A1.2 1.2 0 0 1 5 9.8V7.2A1.2 1.2 0 0 1 6.2 6h2.6A1.2 1.2 0 0 1 10 7.2V11c0 3.6-1.7 6-5 7M19 11h-3.8A1.2 1.2 0 0 1 14 9.8V7.2A1.2 1.2 0 0 1 15.2 6h2.6A1.2 1.2 0 0 1 19 7.2V11c0 3.6-1.7 6-5 7"/></svg>'
+I_ABOUT = _F.replace('class="soi-fi"', 'class="soi-fi soi-fi-team"').format('<path d="M12 11c1.71 0 3-1.29 3-3s-1.29-3-3-3-3 1.29-3 3 1.29 3 3 3m0-4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1m1 5h-2c-2.76 0-5 2.24-5 5v.5c0 .83.67 1.5 1.5 1.5h9c.83 0 1.5-.67 1.5-1.5V17c0-2.76-2.24-5-5-5m-5 5c0-1.65 1.35-3 3-3h2c1.65 0 3 1.35 3 3zm-1.5-6c.47 0 .9-.12 1.27-.33a5.03 5.03 0 0 1-.42-4.52C7.09 6.06 6.8 6 6.5 6 5.06 6 4 7.06 4 8.5S5.06 11 6.5 11m-.39 1H5.5C3.57 12 2 13.57 2 15.5v1c0 .28.22.5.5.5H4c0-1.96.81-3.73 2.11-5m11.39-1c1.44 0 2.5-1.06 2.5-2.5S18.94 6 17.5 6c-.31 0-.59.06-.85.15a5.03 5.03 0 0 1-.42 4.52c.37.21.79.33 1.27.33m1 1h-.61A6.97 6.97 0 0 1 20 17h1.5c.28 0 .5-.22.5-.5v-1c0-1.93-1.57-3.5-3.5-3.5"/>')
 I_MAIL = _F.format('<path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 2v.5l-8 5.2-8-5.2V6zM4 18V8.9l7.5 4.9a1 1 0 0 0 1 0L20 8.9V18z"/>')
 I_READ = _F.format('<path d="M21 8c-.2 0-4.85.03-9 2.01C7.85 8.03 3.2 8 3 8c-.55 0-1 .45-1 1v9.88c0 .27.11.53.31.72.19.19.45.3.73.28.04 0 3.97-.11 8.54 2.02.02 0 .03 0 .05.01.12.05.24.08.37.08s.25-.03.37-.08c.02 0 .03 0 .05-.01 4.54-2.12 8.51-2.03 8.54-2.02.27.02.53-.09.73-.28.19-.19.31-.45.31-.72V9c0-.55-.45-1-1-1M4 10.05c1.49.11 4.38.48 7 1.69v7.74c-3.02-1.18-5.62-1.5-7-1.58v-7.86Zm16 7.86c-1.38.08-3.98.4-7 1.58v-7.74c2.62-1.21 5.51-1.58 7-1.69v7.86ZM12 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6"/>')
 I_USER = _F.format('<path d="m14.29 6.71 4.3 4.29H9v2h9.59l-4.3 4.29 1.42 1.42 6.7-6.71-6.7-6.71z"/><path d="M11 5V3c-4.96 0-9 4.04-9 9s4.04 9 9 9v-2c-3.86 0-7-3.14-7-7s3.14-7 7-7"/>')
@@ -152,9 +152,9 @@ def photo(key, cls=""):
 
 def cover(i, big=False):
     f = f'{i["slug"]}{"@2x" if big else ""}.webp'
-    img = (f'<img src="/assets/covers/{f}" alt="" loading="lazy" decoding="async" width="600" height="850">'
+    img = (f'<img src="/assets/covers/{f}" alt="" loading="lazy" decoding="async" width="600" height="850" onload="this.classList.add(\'is-in\')" onerror="this.remove()">'
            if os.path.exists(os.path.join(HERE, "covers", f)) else "")
-    return (f'<span class="soi-cover"><span class="soi-cover-fb" aria-hidden="true"><b>Spirit of Islam</b><i>{esc(i["period"])}</i></span>{img}</span>')
+    return (f'<span class="soi-cover"><span class="soi-cover-fb" aria-hidden="true"><img class="soi-cover-dove" src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453"><b>Spirit of Islam</b><i>{esc(i["period"])}</i></span>{img}</span>')
 
 
 def page(title, body, desc="", cls="", head="", current=""):
@@ -512,7 +512,11 @@ def build():
     <a href="/archive/#y{i['year']}" class="btn-awwwards-liquid soi-year-btn"><span>Past issues of {i['year']}</span><svg class="liquid-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></a>
   </div>
 </div></div></div>
-<h1 class="sr-only">{esc(label)} – Spirit of Islam</h1>
+<header class="soi-wrap soi-page-head soi-issue-head">
+  <p class="soi-kicker">{"Issue " + str(i["number"]) if i["number"] else "Spirit of Islam"}</p>
+  <h1>{esc(i["period"])}<span class="sr-only"> – Spirit of Islam</span></h1>
+  <p>{len(i["articles"])} articles in this issue. Tap a title to open it.</p>
+</header>
 <div class="soi-issue">
 {i['block']}
 </div>
@@ -579,10 +583,6 @@ async def index(issues):
                 refs = sorted({f"{x}:{y}" for x, y in re.findall(r"\b(\d{1,3})\s*:\s*(\d{1,3})\b", a["text"])})
                 content = a["title"] + ". " + a["text"] + ((" Quran references: " + " ".join(refs)) if refs else "")
                 filters = {"Year": [str(i["year"])], "Section": [TYPE_LABEL.get(a["type"], "Articles")], "Issue": [label]}
-                if a["author"]:
-                    filters["Author"] = [a["author"]]
-                if a["audio"]:
-                    filters["Audio"] = ["With read-along audio"]
                 await idx.add_custom_record(
                     url=f"/issues/{i['slug']}/#soi-{a['id']}", content=content, language="en",
                     meta={"title": a["title"], "issue": label, "section": a["kicker"] or TYPE_LABEL.get(a["type"], "")},

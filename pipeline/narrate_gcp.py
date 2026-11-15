@@ -21,7 +21,7 @@ import base64, json, os, re, subprocess, sys, tempfile, time, urllib.error, urll
 KEY = os.environ.get("GCP_TTS_API_KEY", "")
 AUTH_KEY = os.environ.get("GCP_AUTH_KEY", "")      # API key bound to the soi-tts service account (Agent Platform API)
 VERTEX = "https://aiplatform.googleapis.com/v1/publishers/google/models/{}:generateContent?key="
-TEMPERATURE = 0.3
+TEMPERATURE = float(os.environ.get("SOI_TTS_TEMPERATURE", "0.5"))   # owner chose the Issue 133 sound (16 Nov): 0.5, original prompt
 TOKEN = os.environ.get("GCP_ACCESS_TOKEN", "")     # short-lived token from GitHub's keyless sign-in (Workload Identity Federation)
 PROJECT = os.environ.get("GCP_PROJECT", "project-2c2c83fa-e3a5-4e94-895")
 URL = "https://texttospeech.googleapis.com/v1/text:synthesize?key="
@@ -38,8 +38,7 @@ A quiet studio. He is reading a reflective article aloud to listeners who want t
 
 ### DIRECTOR'S NOTES
 Style: calm, sincere, reflective and gently persuasive. Smooth and pleasing on the ears, soft "s" sounds.
-Pace: steady and even from the first word to the last. Never speed up, swallow or trail off at the end of a sentence; say the final words as clearly as the first.
-Clarity: articulate every word fully for listeners who are still learning English. Leave a short, clear pause after each sentence.
+Pace: moderate and unhurried, slightly brisk, never rushed. A natural breath between sentences.
 Accent: clear, neutral international English."""
 MAX_BYTES = 3600          # text field limit is 4,000 bytes; keep a margin
 

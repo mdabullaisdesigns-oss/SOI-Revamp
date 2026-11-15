@@ -801,3 +801,22 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 .soi-foot2-rule { flex: none; width: 1px; height: 66px; background: rgba(238, 238, 229, .3); }
 .soi-foot2-brand .soi-foot2-mark { width: 118px; }
 .soi-foot2-brand > img { opacity: .9; }
+
+/* 16 Nov: cover placeholder while the picture loads (slow connections) */
+.soi-cover > img:not(.is-in) { opacity: 0; }
+.soi-cover > img { transition: opacity .45s ease; }
+.soi-cover-fb { gap: 8px; overflow: hidden; }
+.soi-cover-fb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, .12) 50%, transparent 70%); transform: translateX(-100%); animation: soiCoverShine 1.8s ease-in-out infinite; }
+.soi-cover-dove { position: static !important; width: 34% !important; height: auto !important; max-width: 64px; opacity: .85; }
+.soi-cover-fb::before { content: ""; position: absolute; inset: 8%; border: 1px solid rgba(212, 204, 115, .45); border-radius: 6px; }
+@keyframes soiCoverShine { to { transform: translateX(100%); } }
+@media (prefers-reduced-motion: reduce) { .soi-cover-fb::after { animation: none; } }
+/* issue title above the article tabs */
+.soi-issue-head { padding-top: 36px; padding-bottom: 4px; }
+.soi-issue-head > p:last-child { margin-top: 10px; color: #53656D; }
+/* menu: outline quotes icon, larger team icon */
+.soi-fi-quote { fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.soi-fi-team { transform: scale(1.28); }
+/* team cards: light border */
+.soi-tm { border: 1px solid rgba(32, 78, 96, .24); outline: none; box-shadow: inset 0 0 0 9px #EEEEE5, inset 0 0 0 10px rgba(32, 78, 96, .14); }
+.soi-fi-quote { transform: scale(1.18); }

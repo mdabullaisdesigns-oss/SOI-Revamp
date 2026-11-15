@@ -1,0 +1,24 @@
+name: Outline the logo text (Cabinet Grotesk)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  outline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download Cabinet Grotesk Extrabold from Fontshare
+        run: |
+          curl -fsSL "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800&display=swap" -o cg.css
+          url=$(grep -o "//cdn.fontshare.com[^)']*\.woff2" cg.css | head -1)
+          echo "font: $url"
+          curl -fsSL "https:$url" -o /tmp/cabinet-grotesk-800.woff2
+      - run: pip install -q fonttools brotli
+      - run: python3 scripts/outline_logo_text.py /tmp/cabinet-grotesk-800.woff2
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add site/brand/soi-mark-white.svg
+          git diff --cached --quiet || git commit -m "Logo: 'Magazine' drawn as outlines in Cabinet Grotesk"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done

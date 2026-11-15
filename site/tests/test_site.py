@@ -31,7 +31,7 @@ async def main():
         heads = await pg.locator('main h2.soi-h, .soi-getapp h2').all_inner_texts()
         ok('home sections in the approved order', [h.split('\n')[0] for h in heads][:4] == ['Our latest issue', 'Latest issues', 'New here? Start with these', 'Read by topic'] and len(heads) == 5, str(heads))
         ok('latest issue hero + Continue + Quote of the day', f"ISSUE {LATEST['number']}" in (await pg.inner_text('.soi-hero-over')).upper() and len(await pg.inner_text('.soi-qotd-text')) > 20 and await pg.locator('#soi-continue').count() == 1)
-        ok('latest issues row: 6 covers', await pg.locator('.soi-home .soi-covers-6 .soi-icard img').count() == 6)
+        ok('latest issues row: 6 covers', await pg.locator('.soi-home .soi-covers-6 .soi-icard .soi-cover > img').count() == 6)
         ok('footer: credit, CPS social links, Ask AI, no copyright line', 'Md Abullais' in await pg.inner_text('.soi-credit') and await pg.locator('.soi-credit-click').count() == 1 and await pg.locator('.soi-soc a').count() >= 6 and await pg.locator('.soi-ask-ai a.soi-ai').count() == 5 and '©' not in await pg.inner_text('.soi-foot2'))
         # Archives menu
         await pg.hover('.soi-has-mega > .soi-menu-top'); await pg.wait_for_selector('.soi-mega-covers a'); await pg.wait_for_timeout(500)
@@ -45,7 +45,7 @@ async def main():
         # every issue has a cover file; archive shows them
         missing = [i['slug'] for i in ISS if not os.path.exists(ROOT + f"/dist/assets/covers/{i['slug']}.webp")]
         ok(f'cover picture for all {len(ISS)} issues', not missing, str(missing))
-        await pg.goto(B + '/archive/'); ok('archive: a cover card for every issue', await pg.locator('.soi-icard img').count() == len(ISS))
+        await pg.goto(B + '/archive/'); ok('archive: a cover card for every issue', await pg.locator('.soi-icard .soi-cover > img').count() == len(ISS))
         await pg.click('.soi-view [data-view=list]'); ok('archive: list view', await pg.evaluate("document.querySelector('.soi-arch').dataset.view==='list'") and await pg.locator('.soi-icard-more').first.is_visible())
         # issue page
         await pg.goto(B + '/issues/2019-03/'); await pg.wait_for_selector('.soi-ev .ev-item')

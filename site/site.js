@@ -22,8 +22,8 @@
   }
   function cover(slug, big) { return '/assets/covers/' + slug + (big ? '@2x' : '') + '.webp'; }
   function coverHTML(i, big) {
-    return '<span class="soi-cover"><span class="soi-cover-fb" aria-hidden="true"><b>Spirit of Islam</b><i>' + esc(i.period || '') + '</i></span>' +
-      '<img loading="lazy" decoding="async" alt="" src="' + cover(i.slug, big) + '" onerror="this.remove()"></span>';
+    return '<span class="soi-cover"><span class="soi-cover-fb" aria-hidden="true"><img class="soi-cover-dove" src="/assets/brand/Peogen-logo.png" alt=""><b>Spirit of Islam</b><i>' + esc(i.period || '') + '</i></span>' +
+      '<img loading="lazy" decoding="async" alt="" src="' + cover(i.slug, big) + '" onload="this.classList.add(\'is-in\')" onerror="this.remove()"></span>';
   }
   var issuesP = null;
   function issues() {
