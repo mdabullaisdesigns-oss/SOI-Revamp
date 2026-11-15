@@ -190,7 +190,7 @@ def article(src, dst, model=None):
             score = abs(wpm - 150)
             if best is None or score < best[0]:
                 best = (score, trimmed, wpm)
-            if 100 <= wpm <= 200 or n < 8:
+            if 80 <= wpm <= 210 or n < 30:               # short headings always look slow (padding)
                 break
             print(f"    piece {k + 1}: {wpm:.0f} words/min, recording again")
         _, trimmed, wpm = best

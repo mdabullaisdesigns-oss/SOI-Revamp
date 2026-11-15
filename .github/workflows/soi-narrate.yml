@@ -90,6 +90,22 @@ jobs:
         run: |
           python3 pipeline/transcribe.py "${{ matrix.slug }}" --model base.en
           python3 pipeline/align.py "${{ matrix.slug }}"
+      - name: Record again what the check flagged (a repeated or missing passage)
+        env:
+          GCP_ACCESS_TOKEN: ${{ steps.gauth.outputs.access_token }}
+        run: |
+          s="${{ matrix.slug }}"; y=$(echo $s | cut -c1-4)
+          ids=$(python3 -c "import json; a=json.load(open('issues/$s/audio.json')); print(','.join(k for k,v in a.items() if v.get('flag') and v.get('voice','').startswith('Charon')))")
+          [ -z "$ids" ] && { echo "nothing flagged"; exit 0; }
+          echo "recording again: $ids"
+          python3 pipeline/narrate_issue.py "$s" --only "$ids" --threads 4 | tee -a narrate.log
+          for id in ${ids//,/ }; do rm -f "issues/$s/audio-raw/$id.json"; done
+          aws s3 cp "out/$s/" "s3://$R2_BUCKET/audio/$y/" --recursive --exclude "*" --include "*.mp3" \
+            --content-type audio/mpeg --cache-control "public, max-age=31536000" --endpoint-url "$R2_ENDPOINT" --only-show-errors
+          python3 pipeline/transcribe.py "$s" --model base.en
+          python3 pipeline/align.py "$s"
+      - name: Tidy audio-source.json
+        run: |
           python3 - <<'EOF'
           import json, sys
           p = "issues/${{ matrix.slug }}/audio-source.json"
