@@ -69,7 +69,15 @@ def pieces(title, paras):
                 cur = (cur + " " + s).strip()
         if cur:
             out.append((cur, cont))
-    return out
+    # pack paragraphs into requests of up to MAX_BYTES, a blank line between them (as for Issue 133):
+    # fewer requests, natural pauses, and no lone short lines (which the model sometimes reads twice)
+    packed = []
+    for text, cont in out:
+        if packed and len((packed[-1][0] + "\n\n" + text).encode()) <= MAX_BYTES:
+            packed[-1] = (packed[-1][0] + ("\n\n" if not cont else " ") + text, packed[-1][1])
+        else:
+            packed.append((text, cont))
+    return packed
 
 
 def request(url, key, body):

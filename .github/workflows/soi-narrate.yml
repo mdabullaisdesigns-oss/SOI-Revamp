@@ -17,6 +17,10 @@ on:
         description: "Issues at the same time"
         required: false
         default: "3"
+      redo:
+        description: "Record again even if already in R2 (yes/no)"
+        required: false
+        default: "no"
 
 permissions:
   contents: write
@@ -75,6 +79,7 @@ jobs:
         run: |
           y=$(echo "${{ matrix.slug }}" | cut -c1-4)
           aws s3 ls "s3://$R2_BUCKET/audio/$y/" --endpoint-url "$R2_ENDPOINT" | awk '{print $4}' | grep "^SOI-${{ matrix.slug }}-" > done.txt || true
+          [ "${{ inputs.redo }}" = "yes" ] && : > done.txt
           wc -l < done.txt
       - name: Narrate
         env:
