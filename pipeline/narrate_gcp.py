@@ -19,8 +19,13 @@ as 96 kbps mono 44.1 kHz MP3.
 import base64, json, os, re, subprocess, sys, tempfile, time, urllib.error, urllib.request
 
 KEY = os.environ.get("GCP_TTS_API_KEY", "")
+AUTH_KEY = os.environ.get("GCP_AUTH_KEY", "")      # API key bound to the soi-tts service account (Agent Platform API)
+VERTEX = "https://aiplatform.googleapis.com/v1/publishers/google/models/{}:generateContent?key="
+TEMPERATURE = 0.3
 URL = "https://texttospeech.googleapis.com/v1/text:synthesize?key="
-MODELS = [m for m in os.environ.get("SOI_TTS_MODELS", "").split(",") if m] or [
+MODELS = [m for m in os.environ.get("SOI_TTS_MODELS", "").split(",") if m] or (
+    ["vertex:gemini-3.8-flash-lite-tts", "vertex:gemini-3.8-flash-tts", "vertex:gemini-3.1-flash-tts-preview",
+     "vertex:gemini-2.5-flash-preview-tts", "vertex:gemini-2.5-flash-tts"] if os.environ.get("GCP_AUTH_KEY") else []) + [
     "gemini-2.5-flash-tts", "gemini-3.1-flash-tts-preview"]     # (2.5 Flash-Lite allows only 512 bytes with the prompt)
 VOICE = "Charon"
 PROMPT = """# AUDIO PROFILE: The Narrator
@@ -67,6 +72,8 @@ def pieces(title, paras):
 
 
 def synth(text, model):
+    if model.startswith("vertex:"):
+        return synth_vertex(text, model[7:])
     body = {"input": {"prompt": PROMPT, "text": text},
             "voice": {"languageCode": "en-US", "name": VOICE, "modelName": model},
             "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000}}
@@ -80,6 +87,27 @@ def synth(text, model):
             if e.code in (429, 500, 503) and attempt < 4:
                 time.sleep(8 * (attempt + 1)); continue
             raise RuntimeError(f"HTTP {e.code}: {msg}")
+
+
+def synth_vertex(text, model):
+    """Gemini TTS through Google Cloud (Agent Platform / Vertex AI), the same request as AI Studio."""
+    body = {"contents": [{"role": "user", "parts": [{"text": PROMPT + "\n\n#### TRANSCRIPT\n\n" + text}]}],
+            "generationConfig": {"responseModalities": ["AUDIO"], "temperature": TEMPERATURE,
+                                 "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICE}}}}}
+    req = urllib.request.Request(VERTEX.format(model) + AUTH_KEY, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(req, timeout=600) as r:
+                d = json.load(r)
+            part = d["candidates"][0]["content"]["parts"][0]["inlineData"]
+            return base64.b64decode(part["data"])
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")[:600]
+            if e.code in (429, 500, 503) and attempt < 4:
+                time.sleep(8 * (attempt + 1)); continue
+            raise RuntimeError(f"HTTP {e.code}: {msg}")
+        except (KeyError, IndexError) as e:
+            raise RuntimeError("no audio in the reply: " + json.dumps(d)[:400])
 
 
 def run(cmd):
@@ -137,8 +165,8 @@ def probe():
 
 
 if __name__ == "__main__":
-    if not KEY:
-        sys.exit("GCP_TTS_API_KEY is not set")
+    if not (KEY or AUTH_KEY):
+        sys.exit("GCP_TTS_API_KEY / GCP_AUTH_KEY is not set")
     if sys.argv[1:2] == ["probe"]:
         sys.exit(0 if probe() else 1)
     if sys.argv[1:2] == ["article"]:
