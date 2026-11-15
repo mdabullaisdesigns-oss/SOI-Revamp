@@ -331,21 +331,28 @@
   if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
 })();
 
-/* ---------- "Ask AI": Gemini has no link that carries a question, so it is copied first ---------- */
+/* ---------- "Ask AI": Gemini can't take a question from a link, so it is copied and the reader is told why ---------- */
 document.addEventListener('click', function (e) {
   var a = e.target.closest && e.target.closest('a[data-copy-prompt]'); if (!a) return;
   e.preventDefault();
   var box = a.closest('[data-prompt]'), q = box ? box.getAttribute('data-prompt') : '', href = a.href;
-  var win = window.open('about:blank', '_blank');
-  function go() { if (win) win.location.href = href; else location.href = href; }
-  function copied(ok) {
-    var msg = ok ? 'Question copied. In Gemini, paste it (Ctrl+V / ⌘V, or long-press › Paste).' : 'Opening Gemini – type your question there.';
-    if (window.soi && soi.toast) soi.toast(msg); setTimeout(go, 900);
+  function copy() {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(q).then(function () { return true; }, function () { return false; });
+    try { var t = document.createElement('textarea'); t.value = q; t.style.position = 'fixed'; t.style.opacity = '0'; document.body.appendChild(t); t.select(); var ok = document.execCommand('copy'); t.remove(); return Promise.resolve(ok); } catch (x) { return Promise.resolve(false); }
   }
-  if (navigator.clipboard && q) navigator.clipboard.writeText(q).then(function () { copied(true); }, function () { copied(false); });
-  else {
-    try { var t = document.createElement('textarea'); t.value = q; t.style.position = 'fixed'; t.style.opacity = '0'; document.body.appendChild(t); t.select(); var ok = document.execCommand('copy'); t.remove(); copied(ok); } catch (x) { copied(false); }
-  }
+  copy().then(function (ok) {
+    var d = document.createElement('div'); d.className = 'soi-modal'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'soi-modal-t');
+    d.innerHTML = '<div class="soi-modal-card"><p class="soi-kicker">Ask Gemini</p><h2 id="soi-modal-t">' + (ok ? 'Your question has been copied' : 'Copy your question') + '</h2>' +
+      '<p>Unlike the other AI tools, Gemini does not accept a question sent from another website. ' + (ok ? 'Please paste it into Gemini (Ctrl+V, ⌘V, or long-press › Paste) and ask.' : 'Please copy the question below, paste it into Gemini and ask.') + '</p>' +
+      '<blockquote>' + q.replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }) + '</blockquote>' +
+      '<div class="soi-modal-btns"><button type="button" class="soi-btn" data-close>Close</button><a class="soi-btn soi-btn-solid" href="' + href + '" target="_blank" rel="noopener" data-close>Open Gemini</a></div></div>';
+    document.body.appendChild(d);
+    function close() { d.remove(); document.removeEventListener('keydown', esc); a.focus(); }
+    function esc(ev) { if (ev.key === 'Escape') close(); }
+    d.addEventListener('click', function (ev) { if (ev.target === d || ev.target.closest('[data-close]')) { if (ev.target.tagName !== 'A') ev.preventDefault(); setTimeout(close, 0); } });
+    document.addEventListener('keydown', esc);
+    d.querySelector('a[data-close]').focus();
+  });
 });
 
 /* ---------- menu colour preview: ?menu=teal (or ?menu=gold) is remembered in this browser ---------- */

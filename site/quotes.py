@@ -77,21 +77,16 @@ PAGE = r"""
     <div class="soi-dd" id="soi-q-topic"><span class="soi-vh" id="soi-q-topic-l">Topic</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-topic-l"><span>All topics</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-topic-l" hidden></ul></div>
     <div class="soi-dd" id="soi-q-year"><span class="soi-vh" id="soi-q-year-l">Year</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-year-l"><span>All years</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-year-l" hidden></ul></div>
     <button class="soi-q2-btn" id="soi-q-rand" type="button">Surprise me</button>
-    <div class="soi-q2-view" role="group" aria-label="Show quotes as">
-      <button type="button" data-v="spot" aria-pressed="true"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m0 13h16v2H4z"/></svg><span>Spotlight</span></button>
-      <button type="button" data-v="gallery" aria-pressed="false"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h7v9H4zm9 0h7v5h-7zM4 14h7v7H4zm9-4h7v11h-7z"/></svg><span>Gallery</span></button>
-    </div>
   </div>
   <p class="soi-q2-count" id="soi-q-count" aria-live="polite"></p>
-  <div id="soi-q-spot" class="soi-q2-spot"></div>
-  <div id="soi-q-list" class="soi-q2-list"></div>
+  <div id="soi-q-list" class="soi-q3-grid"></div>
   <p class="soi-q-more"><button class="soi-btn" id="soi-q-more" type="button">Show more</button></p>
 </section>
 <div class="soi-q-toast" id="soi-q-toast" role="status" aria-live="polite"></div>
 <script>
 (function(){
-  var ALL=[],PH=[],cur=[],shown=0,STEP=24,spot=0,view='spot',topic=null,year=null,speaking=null,
-      $=function(i){return document.getElementById(i)},list=$('soi-q-list'),sp=$('soi-q-spot'),find=$('soi-q-find'),more=$('soi-q-more'),count=$('soi-q-count'),toast=$('soi-q-toast');
+  var ALL=[],PH=[],cur=[],shown=0,STEP=22,topic=null,year=null,speaking=null,DAY=-1,
+      $=function(i){return document.getElementById(i)},list=$('soi-q-list'),find=$('soi-q-find'),more=$('soi-q-more'),count=$('soi-q-count'),toast=$('soi-q-toast');
   var I={listen:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4M14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6"/></svg>',
     stop:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>',
     img:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5v-1.6l4-4 3 3 4-4 3 3zm0-5.4-3-3-4 4-3-3-4 4V5h14zM8.5 10A1.5 1.5 0 1 0 8.5 7a1.5 1.5 0 0 0 0 3"/></svg>',
@@ -101,55 +96,41 @@ PAGE = r"""
     prev:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg>',
     next:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="m8.6 18.6 1.4 1.4 8-8-8-8-1.4 1.4 6.6 6.6z"/></svg>'};
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-  function link(q){return location.origin+'/issues/'+q.s+'/#soi-'+q.a}
   function say(t){toast.textContent=t;toast.classList.add('is-on');clearTimeout(say.t);say.t=setTimeout(function(){toast.classList.remove('is-on')},2200)}
-  function hash(q){var h=0,t=q.s+q.a+q.t.length;for(var i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))|0;return Math.abs(h)}
-  function photo(q){return PH.length?PH[hash(q)%PH.length]:''}
+  function photo(q){return PH.length?PH[(cur.indexOf(q)+PH.length)%PH.length]:''}
   function saved(q){return !!(window.soi&&soi.store.hasQuote(q))}
-  var canSpeak='speechSynthesis' in window;
-  function acts(q,cls){
-    return '<p class="soi-q2-act '+(cls||'')+'">'+
+  var canSpeak='speechSynthesis' in window,SITE='spiritofislam.co.in';
+  function text(q){return '“'+q.t+'”\n— Spirit of Islam Magazine · '+SITE}
+  function src(q){return (q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)}
+  function acts(q){
+    return '<p class="soi-q2-act">'+
       (canSpeak?'<button type="button" data-act="listen" aria-label="Listen to this quote">'+I.listen+'<span>Listen</span></button>':'')+
-      '<button type="button" data-act="img" aria-label="Make a picture to share">'+I.img+'<span>Picture</span></button>'+
+      '<button type="button" data-act="img" aria-label="Share as a picture">'+I.img+'<span>Picture</span></button>'+
       '<button type="button" data-act="wa" aria-label="Share on WhatsApp">'+I.wa+'<span>WhatsApp</span></button>'+
       '<button type="button" data-act="copy" aria-label="Copy">'+I.copy+'<span>Copy</span></button>'+
-      '<button type="button" data-act="save" aria-pressed="'+saved(q)+'">'+I.save+'<span>'+(saved(q)?'Saved':'Save')+'</span></button></p>';
+      '<button type="button" data-act="save" aria-pressed="'+saved(q)+'" aria-label="Save">'+I.save+'<span>'+(saved(q)?'Saved':'Save')+'</span></button></p>';
   }
-  function src(q){return (q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)}
-  function bind(el,q){el.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(b)act(b,q)})}
   function card(q,k){
-    var el=document.createElement('article'),ph=view==='gallery'&&k%3===0&&photo(q);
-    el.className='soi-q2-card'+(ph?' is-photo':'');
-    el.innerHTML=(ph?'<img class="soi-q2-bg" src="'+ph+'" alt="" loading="lazy">':'')+'<div class="soi-q2-in"><span class="soi-q2-mark" aria-hidden="true">“</span><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div>';
-    bind(el,q);return el;
+    var el=document.createElement('article'),ph=PH.length?PH[k%PH.length]:'';
+    el.className='soi-q3';
+    el.innerHTML='<div class="soi-q3-in">'+(ph?'<img class="soi-q3-img" src="'+ph+'" alt="" loading="lazy">':'')+
+      '<div class="soi-q3-body">'+(k===0&&isDefault()?'<p class="soi-q3-day">Quote of the day</p>':'')+'<blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div></div>';
+    el.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(b)act(b,q,ph)});return el;
   }
-  function row(q){var el=document.createElement('article');el.className='soi-q2-row';var ph=photo(q);
-    el.innerHTML=(ph?'<img src="'+ph+'" alt="" loading="lazy">':'<span></span>')+'<div><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p></div>'+acts(q,'is-icons');bind(el,q);return el}
-  function showSpot(){
-    sp.hidden=view!=='spot'||!cur.length;if(sp.hidden)return;
-    var q=cur[spot%cur.length],ph=photo(q);stopSpeak();
-    sp.innerHTML=(ph?'<img class="soi-q2-bg" src="'+ph+'" alt="">':'')+'<div class="soi-q2-spot-in"><p class="soi-kicker">'+(isDefault()&&spot===0?'Quote of the day':'Quote '+(spot%cur.length+1)+' of '+cur.length.toLocaleString())+'</p><span class="soi-q2-mark" aria-hidden="true">“</span><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q,'is-big')+'</div>'+
-      '<div class="soi-q2-nav"><button type="button" data-nav="-1" aria-label="Previous quote">'+I.prev+'</button><button type="button" data-nav="1" aria-label="Next quote">'+I.next+'</button></div>';
-    bind(sp,q);
-  }
-  sp.addEventListener('click',function(e){var b=e.target.closest('[data-nav]');if(!b)return;spot=(spot+cur.length+(+b.dataset.nav))%cur.length;showSpot()});
-  var SITE='spiritofislam.co.in';
-  function text(q){return '“'+q.t+'”\n— Spirit of Islam Magazine · '+SITE}
   function stopSpeak(){if(canSpeak&&speaking){speechSynthesis.cancel();setBtn(speaking,false);speaking=null}}
   function setBtn(b,on){if(!b||!b.isConnected)return;b.innerHTML=(on?I.stop:I.listen)+'<span>'+(on?'Stop':'Listen')+'</span>';b.classList.toggle('is-on',on)}
-  function act(b,q){
+  function act(b,q,ph){
     var a=b.getAttribute('data-act');
     if(a==='listen'){if(speaking===b){stopSpeak();return}stopSpeak();var u=new SpeechSynthesisUtterance(q.t);u.lang='en';u.rate=.95;
       var v=speechSynthesis.getVoices().filter(function(x){return /^en/i.test(x.lang)});var pick=v.filter(function(x){return /male|daniel|alex|google uk english male/i.test(x.name)})[0]||v[0];if(pick)u.voice=pick;
       u.onend=u.onerror=function(){if(speaking===b){setBtn(b,false);speaking=null}};speaking=b;setBtn(b,true);speechSynthesis.speak(u);return}
     if(a==='save'){var on=soi.store.toggleQuote(q);b.setAttribute('aria-pressed',on);b.querySelector('span').textContent=on?'Saved':'Save';say(on?'Saved to this device':'Removed from Saved');return}
-    if(a==='wa'){image(q,'wa');return}
     if(a==='copy'){(navigator.clipboard?navigator.clipboard.writeText(text(q)):Promise.reject()).then(function(){say('Copied')},function(){say('Could not copy')});return}
-    image(q);
+    image(q,a==='wa'?'wa':'',ph);
   }
   function wrap(ctx,t,max){var w=t.split(' '),lines=[],l='';w.forEach(function(x){var n=l?l+' '+x:x;if(ctx.measureText(n).width>max&&l){lines.push(l);l=x}else l=n});if(l)lines.push(l);return lines}
-  function image(q,how){
-    var W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var x=c.getContext('2d'),bg=new Image(),ph=photo(q);
+  function image(q,how,phOverride){
+    var W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var x=c.getContext('2d'),bg=new Image(),ph=phOverride||photo(q);
     function draw(){
       x.fillStyle='#204E60';x.fillRect(0,0,W,H);
       if(bg.naturalWidth){var r=Math.max(W/bg.naturalWidth,H/bg.naturalHeight),bw=bg.naturalWidth*r,bh=bg.naturalHeight*r;x.drawImage(bg,(W-bw)/2,(H-bh)/2,bw,bh);
@@ -172,22 +153,17 @@ PAGE = r"""
     fonts.then(function(){logo.onload=logo.onerror=function(){if(!ph)return draw();bg.onload=draw;bg.onerror=draw;bg.src=ph};logo.src='/assets/brand/soi-mark-white.svg'},draw);
   }
   function isDefault(){return !find.value.trim()&&!(topic&&topic.value)&&!(year&&year.value)}
-  var DAY=0;
-  function apply(keep){
+  function apply(shuffle){
     var w=find.value.trim().toLowerCase(),y=year?year.value:'',t=topic?topic.value:'';
     cur=ALL.filter(function(q){return (!y||String(q.y)===y)&&(!t||q.tp.indexOf(t)>-1)&&(!w||q.t.toLowerCase().indexOf(w)>-1||q.at.toLowerCase().indexOf(w)>-1)});
-    if(isDefault()&&DAY>-1){var d=cur.splice(DAY,1)[0];if(d)cur.unshift(d)}
-    if(!keep)spot=0;count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');
-    list.innerHTML='';shown=0;list.className='soi-q2-list is-'+view;showSpot();grow();
+    if(shuffle){for(var i=cur.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),x=cur[i];cur[i]=cur[j];cur[j]=x}}
+    else if(isDefault()&&DAY>-1){var d=cur.splice(DAY,1)[0];if(d)cur.unshift(d)}
+    stopSpeak();count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');list.innerHTML='';shown=0;grow();
     if(!cur.length)list.innerHTML='<p class="soi-q-none">No quote matches. Try another word or clear the filters.</p>';
   }
-  function grow(){var start=view==='spot'?1:0;cur.slice(start+shown,start+shown+STEP).forEach(function(q,k){list.appendChild(view==='spot'?row(q):card(q,shown+k))});shown=Math.min(cur.length-start,shown+STEP);more.hidden=shown>=cur.length-start}
-  function setView(v){view=v;[].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===v?'true':'false')});try{localStorage.setItem('soi-q-view',v)}catch(e){}apply(true)}
-  document.querySelector('.soi-q2-view').addEventListener('click',function(e){var b=e.target.closest('button');if(b)setView(b.dataset.v)});
-  $('soi-q-rand').addEventListener('click',function(){if(!cur.length)return;if(view!=='spot')setView('spot');spot=Math.floor(Math.random()*cur.length);showSpot();sp.scrollIntoView({behavior:'smooth',block:'start'})});
+  function grow(){cur.slice(shown,shown+STEP).forEach(function(q,k){list.appendChild(card(q,shown+k))});shown=Math.min(cur.length,shown+STEP);more.hidden=shown>=cur.length}
+  $('soi-q-rand').addEventListener('click',function(){apply(true)});
   more.addEventListener('click',grow);find.addEventListener('input',function(){apply()});
-  try{if(localStorage.getItem('soi-q-view')==='gallery')view='gallery'}catch(e){}
-  [].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===view?'true':'false')});
   fetch('/assets/quotes.json').then(function(r){return r.json()}).then(function(d){
     ALL=d.quotes;PH=d.photos||[];
     var ys={};ALL.forEach(function(q){ys[q.y]=1});
@@ -213,7 +189,7 @@ def build(root, out_dir, issues, page, write):
     quotes, dropped = collect(root, issues)
     quotes.sort(key=lambda q: (q["s"], q["a"]), reverse=True)
     os.makedirs(os.path.join(out_dir, "assets"), exist_ok=True)
-    photos = ["/assets/photos/" + f for f in MENU_PHOTOS(root)]
+    photos = ["/assets/photos/" + f for f in sorted(os.listdir(os.path.join(root, "site", "photos"))) if f.endswith(".webp")]
     json.dump({"topics": [t[0] for t in TOPICS], "photos": photos, "quotes": quotes}, open(os.path.join(out_dir, "assets", "quotes.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     body = PAGE.replace("__N__", f"{len(quotes):,}").replace("__ISSUES__", str(len({q['s'] for q in quotes})))

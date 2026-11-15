@@ -723,3 +723,66 @@ main > .soi-page-head:first-child { margin-top: 64px; }
 .soi-tour-btns button:hover, .soi-tour-btns button:focus-visible { border-color: var(--soi-crimson); }
 .soi-tour-btns .soi-tour-next:hover { background: var(--soi-crimson); border-color: var(--soi-crimson); }
 @media (prefers-reduced-motion: reduce) { .soi-tour-hole, .soi-tour-card { transition: none; } }
+
+/* =====================================================================
+   Owner's changes, 15 Nov 2026 (third round)
+   ===================================================================== */
+
+/* the small red labels sit centred over their headings */
+.soi-founder .soi-kicker, .soi-founder h2 { text-align: center; }
+.soi-founder h2::after { background-position: center; }
+
+/* Quotes: one gallery; every card has its own photo, text on a light panel for easy reading */
+.soi-q3-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 24px; }
+.soi-q3 { background: #EEEEE5; border-radius: 24px; padding: 12px; display: flex; }
+.soi-q3-in { flex: 1; display: flex; flex-direction: column; border: 1.5px dashed rgba(32, 78, 96, .3); border-radius: 16px; overflow: hidden; background: #FBFAF6; }
+.soi-q3-img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.soi-q3-body { flex: 1; display: flex; flex-direction: column; padding: 22px 22px 18px; }
+.soi-q3-day { margin: 0 0 8px; font-size: .74rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--soi-crimson); }
+.soi-q3 blockquote { margin: 0 0 auto; }
+.soi-q3 blockquote p { margin: 0; font-family: var(--soi-display); font-size: 1.32rem; line-height: 1.45; color: #12303B; }
+.soi-q3 blockquote p::before { content: "“"; } .soi-q3 blockquote p::after { content: "”"; }
+.soi-q3 .soi-q2-src { margin-top: 14px; color: #4A5A60; }
+.soi-q3 .soi-q2-act { margin-top: 14px; gap: 6px; }
+.soi-q3 .soi-q2-act button { width: 42px; height: 42px; padding: 0; justify-content: center; border-color: rgba(32, 78, 96, .25); }
+.soi-q3 .soi-q2-act button span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* footer: bird centred over the logo; minimal social icons */
+.soi-foot2-brand { align-items: center; text-align: center; }
+.soi-foot2-brand .soi-foot2-bird { margin: 0 auto 6px; }
+.soi-foot2-follow { margin: 0 0 6px; font-size: .9rem; color: rgba(238, 238, 229, .7); line-height: 1.5; }
+.soi-soc { display: flex; flex-wrap: wrap; gap: 10px; }
+.soi-foot2 .soi-soc a { width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; background: rgba(238, 238, 229, .08); color: #EEEEE5; transition: background .2s, color .2s, transform .2s; }
+.soi-foot2 .soi-soc a svg { width: 18px; height: 18px; }
+.soi-foot2 .soi-soc a:hover, .soi-foot2 .soi-soc a:focus-visible { background: var(--soi-gold); color: #12303B; transform: translateY(-2px); }
+@media (max-width: 1080px) { .soi-foot2-brand { justify-self: center; } }
+
+/* Ask AI: no borders or white boxes */
+.soi-foot2 a.soi-ai { border: 0; background: rgba(238, 238, 229, .08); }
+.soi-foot2 a.soi-ai img { background: none; padding: 0; border-radius: 4px; }
+.soi-foot2 a.soi-ai:hover, .soi-foot2 a.soi-ai:focus-visible { background: rgba(238, 238, 229, .16); color: #fff; }
+
+/* Gemini pop-up */
+.soi-modal { position: fixed; inset: 0; z-index: 2100; background: rgba(12, 33, 41, .72); display: grid; place-items: center; padding: 16px; }
+.soi-modal-card { width: min(460px, 100%); background: #fff; border-radius: 22px; padding: 28px; box-shadow: 0 30px 70px -20px rgba(0, 0, 0, .55); color: #1B1B1B; }
+.soi-modal-card h2 { margin: 0 0 10px; font-family: var(--soi-display); font-size: 1.5rem; color: var(--soi-teal-dark); }
+.soi-modal-card p { line-height: 1.65; margin: 0 0 14px; }
+.soi-modal-card blockquote { margin: 0 0 20px; padding: 14px 16px; border-radius: 12px; background: #F3F2EA; font-size: .92rem; line-height: 1.6; color: #2A3A40; }
+.soi-modal-btns { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+
+/* developer credit, after the owner's reference */
+.soi-credit { background: #0C2129; border-top: 1px solid rgba(238, 238, 229, .08); }
+.soi-credit-in { max-width: 1280px; margin: 0 auto; padding: 16px 32px; display: flex; align-items: center; justify-content: center; gap: 14px; font-size: .92rem; color: rgba(238, 238, 229, .78); }
+.soi-credit-click { position: relative; display: inline-flex; align-items: center; justify-content: center; min-width: 72px; min-height: 36px; padding: 0 16px; background: rgba(238, 238, 229, .08);
+  color: var(--soi-gold); font-weight: 700; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; text-decoration: none; transition: background .2s, color .2s; }
+.soi-credit-click::before, .soi-credit-click::after { content: ""; position: absolute; inset: -4px; pointer-events: none;
+  background:
+    linear-gradient(var(--soi-gold), var(--soi-gold)) left top / 10px 2px no-repeat, linear-gradient(var(--soi-gold), var(--soi-gold)) left top / 2px 10px no-repeat,
+    linear-gradient(var(--soi-gold), var(--soi-gold)) right top / 10px 2px no-repeat, linear-gradient(var(--soi-gold), var(--soi-gold)) right top / 2px 10px no-repeat,
+    linear-gradient(var(--soi-gold), var(--soi-gold)) left bottom / 10px 2px no-repeat, linear-gradient(var(--soi-gold), var(--soi-gold)) left bottom / 2px 10px no-repeat,
+    linear-gradient(var(--soi-gold), var(--soi-gold)) right bottom / 10px 2px no-repeat, linear-gradient(var(--soi-gold), var(--soi-gold)) right bottom / 2px 10px no-repeat;
+  transition: inset .2s; }
+.soi-credit-click::after { display: none; }
+.soi-credit-click:hover, .soi-credit-click:focus-visible { background: var(--soi-gold); color: #12303B; }
+.soi-credit-click:hover::before, .soi-credit-click:focus-visible::before { inset: -7px; }
+@media (max-width: 640px) { .soi-credit-in { padding: 18px 16px 92px; } }
