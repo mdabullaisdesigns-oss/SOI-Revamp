@@ -468,7 +468,7 @@
   },
   "happiness-only-in-the-hereafter": {
    "title": "Happiness Only in the Hereafter",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-happiness-only-in-the-hereafter.mp3",
    "chars": 1552,
    "sentences": [
@@ -709,7 +709,7 @@
   },
   "running-without-a-destination": {
    "title": "Running Without a Destination",
-   "status": "ready",
+   "status": "pending",
    "file": "SOI-2018-07-running-without-a-destination.mp3",
    "chars": 1859,
    "sentences": [
