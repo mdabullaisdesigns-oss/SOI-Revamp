@@ -48,7 +48,7 @@ jobs:
           models="${{ inputs.model }}"; [ -z "$models" ] && models=$(grep '^OK' probe.txt | awk '{print $2}')
           for m in $models; do
             echo "== $m" | tee -a out/report.txt
-            SOI_TTS_MODEL=$m python3 pipeline/narrate_gcp.py article "pipeline/tts-test/${{ inputs.article }}" "out/NEW-${m#vertex:}-$name.mp3" | tee -a out/report.txt || true
+            SOI_TTS_MODEL=$m python3 pipeline/narrate_gcp.py article "pipeline/tts-test/${{ inputs.article }}" "out/NEW-$(echo $m | sed "s/^vertex:/agent-/;t;s/^/cloudtts-/")-$name.mp3" | tee -a out/report.txt || true
           done
           cp probe.txt out/
       - name: Old recording, for comparison
