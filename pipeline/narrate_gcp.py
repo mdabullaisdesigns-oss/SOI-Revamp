@@ -21,8 +21,7 @@ import base64, json, os, re, subprocess, sys, tempfile, time, urllib.error, urll
 KEY = os.environ.get("GCP_TTS_API_KEY", "")
 URL = "https://texttospeech.googleapis.com/v1/text:synthesize?key="
 MODELS = [m for m in os.environ.get("SOI_TTS_MODELS", "").split(",") if m] or [
-    "gemini-3.8-flash-lite-tts", "gemini-3.8-flash-lite-preview-tts", "gemini-3.8-flash-tts",
-    "gemini-2.5-flash-lite-preview-tts", "gemini-2.5-flash-tts"]
+    "gemini-2.5-flash-tts", "gemini-3.1-flash-tts-preview"]     # (2.5 Flash-Lite allows only 512 bytes with the prompt)
 VOICE = "Charon"
 PROMPT = """# AUDIO PROFILE: The Narrator
 A mature male narrator for a spiritual magazine podcast. Warm, deep, smooth voice, recorded close to a premium studio microphone.
@@ -133,7 +132,7 @@ def probe():
             a = synth("Spirit of Islam. A test.", m)
             print(f"OK    {m}  ({len(a)} bytes)"); ok.append(m)
         except Exception as e:
-            print(f"NO    {m}  {str(e)[:300]}")
+            print(f"NO    {m}  " + " ".join(str(e).split())[:400])
     return ok
 
 

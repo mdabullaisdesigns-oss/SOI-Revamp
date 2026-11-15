@@ -25,13 +25,15 @@ jobs:
         run: |
           python3 pipeline/narrate_gcp.py probe | tee probe.txt
           echo "model=$(grep '^OK' probe.txt | head -1 | awk '{print $2}')" >> "$GITHUB_OUTPUT"
-      - name: Narrate the test article
-        env:
-          SOI_TTS_MODEL: ${{ inputs.model || steps.probe.outputs.model }}
+      - name: Narrate the test article with each model that works
         run: |
           mkdir -p out
           name="${{ inputs.article }}"; name="${name%.json}"
-          python3 pipeline/narrate_gcp.py article "pipeline/tts-test/${{ inputs.article }}" "out/NEW-$name.mp3" | tee out/report.txt
+          models="${{ inputs.model }}"; [ -z "$models" ] && models=$(grep '^OK' probe.txt | awk '{print $2}')
+          for m in $models; do
+            echo "== $m" | tee -a out/report.txt
+            SOI_TTS_MODEL=$m python3 pipeline/narrate_gcp.py article "pipeline/tts-test/${{ inputs.article }}" "out/NEW-$m-$name.mp3" | tee -a out/report.txt || true
+          done
           cp probe.txt out/
       - name: Old recording, for comparison
         continue-on-error: true
