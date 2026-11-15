@@ -71,6 +71,8 @@ def pieces(title, paras):
             out.append((cur, cont))
     # pack paragraphs into requests of up to MAX_BYTES, a blank line between them (as for Issue 133):
     # fewer requests, natural pauses, and no lone short lines (which the model sometimes reads twice)
+    if os.environ.get("SOI_PACK", "1") == "0":       # second try for a flagged article: one paragraph per request
+        return out
     packed = []
     for text, cont in out:
         if packed and len((packed[-1][0] + "\n\n" + text).encode()) <= MAX_BYTES:
