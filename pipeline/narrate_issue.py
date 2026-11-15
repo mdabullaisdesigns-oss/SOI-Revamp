@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build, narrate, narrate_gcp
 
 EXCLUDE = {"children’s corner", "children's corner", "cps newsletter"}
-VOICE = "Charon (Gemini 3.8 Flash-Lite TTS)"
+VOICE = "Charon (" + narrate_gcp.MODELS[0].split(":")[-1].replace("gemini-", "Gemini ").replace("-flash-lite-tts", " Flash-Lite TTS").replace("-flash-tts", " Flash TTS") + ")"
 AUDIO_BASE = os.environ.get("SOI_AUDIO_BASE", "/media/audio")
 
 
