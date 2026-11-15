@@ -5,7 +5,7 @@
  "articles": {
   "the-prophet-of-wisdom": {
    "title": "The Prophet of Wisdom",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-the-prophet-of-wisdom.mp3",
    "chars": 3834,
    "sentences": [
@@ -51,7 +51,7 @@
   },
   "spiritual-role-of-women": {
    "title": "Spiritual Role of Women",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-spiritual-role-of-women.mp3",
    "chars": 5489,
    "sentences": [
@@ -105,7 +105,7 @@
   },
   "man-and-god": {
    "title": "Man and God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-man-and-god.mp3",
    "chars": 6126,
    "sentences": [
@@ -180,7 +180,7 @@
   },
   "peace-in-afghanistan": {
    "title": "Peace in Afghanistan",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-peace-in-afghanistan.mp3",
    "chars": 2109,
    "sentences": [
@@ -202,7 +202,7 @@
   },
   "islam-and-politics": {
    "title": "Islam and Politics",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-islam-and-politics.mp3",
    "chars": 4999,
    "sentences": [
@@ -248,7 +248,7 @@
   },
   "the-cause-of-dissatisfaction": {
    "title": "The Cause of Dissatisfaction",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-the-cause-of-dissatisfaction.mp3",
    "chars": 1868,
    "sentences": [
@@ -277,7 +277,7 @@
   },
   "destiny-and-freewill": {
    "title": "Destiny and Freewill",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-destiny-and-freewill.mp3",
    "chars": 3244,
    "sentences": [
@@ -324,7 +324,7 @@
   },
   "the-right-response": {
    "title": "The Right Response",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-the-right-response.mp3",
    "chars": 6473,
    "sentences": [
@@ -437,7 +437,7 @@
   },
   "no-acknowledgement-of-god": {
    "title": "No Acknowledgement of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-no-acknowledgement-of-god.mp3",
    "chars": 1789,
    "sentences": [
@@ -500,7 +500,7 @@
   },
   "the-concept-of-the-caliphate": {
    "title": "The Concept of the Caliphate",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-the-concept-of-the-caliphate.mp3",
    "chars": 19505,
    "sentences": [
@@ -709,7 +709,7 @@
   },
   "running-without-a-destination": {
    "title": "Running Without a Destination",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-running-without-a-destination.mp3",
    "chars": 1859,
    "sentences": [
@@ -737,7 +737,7 @@
   },
   "the-rational-basis-of-rituals": {
    "title": "The Rational Basis of Rituals",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-the-rational-basis-of-rituals.mp3",
    "chars": 3356,
    "sentences": [
@@ -789,7 +789,7 @@
   },
   "unity": {
    "title": "Unity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-unity.mp3",
    "chars": 7052,
    "sentences": [
@@ -874,7 +874,7 @@
   },
   "after-death": {
    "title": "After Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-after-death.mp3",
    "chars": 3211,
    "sentences": [
@@ -925,7 +925,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-the-word-of-god.mp3",
    "chars": 3715,
    "sentences": [
@@ -969,7 +969,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-07-ask-maulana.mp3",
    "chars": 4621,
    "sentences": [
