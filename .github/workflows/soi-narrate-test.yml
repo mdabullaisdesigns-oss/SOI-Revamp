@@ -1,0 +1,42 @@
+name: Narration test (Cloud Text-to-Speech)
+
+on:
+  workflow_dispatch:
+    inputs:
+      article:
+        description: "Article file in pipeline/tts-test/"
+        default: "the-superior-solution.json"
+      model:
+        description: "Model name (leave empty to use the first one that works)"
+        default: ""
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GCP_TTS_API_KEY: ${{ secrets.GCP_TTS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Which Gemini voices can this key use?
+        id: probe
+        run: |
+          python3 pipeline/narrate_gcp.py probe | tee probe.txt
+          echo "model=$(grep '^OK' probe.txt | head -1 | awk '{print $2}')" >> "$GITHUB_OUTPUT"
+      - name: Narrate the test article
+        env:
+          SOI_TTS_MODEL: ${{ inputs.model || steps.probe.outputs.model }}
+        run: |
+          mkdir -p out
+          name="${{ inputs.article }}"; name="${name%.json}"
+          python3 pipeline/narrate_gcp.py article "pipeline/tts-test/${{ inputs.article }}" "out/NEW-$name.mp3" | tee out/report.txt
+          cp probe.txt out/
+      - name: Old recording, for comparison
+        continue-on-error: true
+        run: curl -fsSL -A "Mozilla/5.0 SOI" "https://spiritofislam.co.in/wp-content/uploads/2026/10/SOI-133-the-superior-solution.mp3" -o "out/OLD-the-superior-solution.mp3"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: narration-test
+          path: out/
