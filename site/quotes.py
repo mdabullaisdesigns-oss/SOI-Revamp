@@ -117,6 +117,11 @@ PAGE = r"""
   }
   function card(q,k){
     var el=document.createElement('article'),ph=PH.length?PH[k%PH.length]:'';
+    if(view==='gallery'){
+      el.className='soi-q2-card is-photo';
+      el.innerHTML=(ph?'<img class="soi-q2-bg" src="'+ph+'" alt="" loading="lazy">':'')+'<div class="soi-q2-in"><span class="soi-q2-mark" aria-hidden="true">\u201C</span><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div>';
+      el.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(b)act(b,q,ph)});return el;
+    }
     el.className='soi-q3';
     el.innerHTML='<div class="soi-q3-in">'+(ph?'<img class="soi-q3-img" src="'+ph+'" alt="" loading="lazy">':'')+
       '<div class="soi-q3-body">'+(view==='gallery'&&k===0&&isDefault()?'<p class="soi-q3-day">Quote of the day</p>':'')+'<blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div></div>';
@@ -176,10 +181,11 @@ PAGE = r"""
   }
   function grow(){var st=view==='spot'?1:0;cur.slice(st+shown,st+shown+STEP).forEach(function(q,k){list.appendChild(card(q,shown+k))});shown=Math.min(cur.length-st,shown+STEP);more.hidden=shown>=cur.length-st}
   $('soi-q-rand').addEventListener('click',function(){apply(true)});
-  function setView(v){view=v;[].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===v?'true':'false')});try{localStorage.setItem('soi-q-view',v)}catch(e){}list.innerHTML='';shown=0;showSpot();grow()}
+  function setView(v){view=v;list.className=v==='gallery'?'soi-q2-list is-gallery':'soi-q3-grid';[].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===v?'true':'false')});try{localStorage.setItem('soi-q-view',v)}catch(e){}list.innerHTML='';shown=0;showSpot();grow()}
   document.querySelector('.soi-q2-view').addEventListener('click',function(e){var b=e.target.closest('button');if(b)setView(b.dataset.v)});
   try{if(localStorage.getItem('soi-q-view')==='gallery')view='gallery'}catch(e){}
   [].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===view?'true':'false')});
+  list.className=view==='gallery'?'soi-q2-list is-gallery':'soi-q3-grid';
   more.addEventListener('click',grow);find.addEventListener('input',function(){apply()});
   fetch('/assets/quotes.json').then(function(r){return r.json()}).then(function(d){
     ALL=d.quotes;PH=d.photos||[];

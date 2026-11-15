@@ -794,3 +794,10 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 .soi-q2-spot + .soi-q3-grid { margin-top: 0; }
 .soi-q2-spot { margin-bottom: 28px; }
 .soi-q2-qmark { width: 40px; height: 40px; fill: none; stroke: var(--soi-gold); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; margin: 14px 0 8px; }
+
+/* Footer logo option B (owner's choice 15 Nov): dove | minimal mark, slogan below */
+.soi-foot2-lock { display: flex; align-items: center; justify-content: center; gap: 16px; }
+.soi-foot2-brand .soi-foot2-lock .soi-foot2-bird { width: 74px; margin: 0; }
+.soi-foot2-rule { flex: none; width: 1px; height: 66px; background: rgba(238, 238, 229, .3); }
+.soi-foot2-brand .soi-foot2-mark { width: 118px; }
+.soi-foot2-brand > img { opacity: .9; }
