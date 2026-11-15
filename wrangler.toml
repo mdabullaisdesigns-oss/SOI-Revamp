@@ -1,0 +1,9 @@
+# Cloudflare Pages settings used by `wrangler pages deploy dist` (website workflow).
+# /media/* is served from the R2 bucket by functions/media/[[path]].js.
+name = "soi-preview"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "soi-media"

@@ -131,26 +131,70 @@ def duration(path):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path]).decode().strip())
 
 
+def to_wav(audio, path):
+    if audio[:4] != b"RIFF":                              # raw PCM: wrap as 24 kHz 16-bit mono WAV
+        open(path + ".pcm", "wb").write(audio)
+        run(["ffmpeg", "-y", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", path + ".pcm", path])
+    else:
+        open(path, "wb").write(audio)
+
+
+def synth_wav(text, model, path, depth=0):
+    """One piece to a WAV file. If Google refuses it (e.g. the copyright filter on quoted
+    Quran translations) or returns nothing, the piece is split into shorter parts and joined."""
+    try:
+        to_wav(synth(text, model), path)
+        return
+    except Exception as e:
+        sents = re.split(r"(?<=[.!?”’\"])\s+", text)
+        if depth >= 3 or len(sents) < 2:
+            raise
+        print(f"    piece refused ({str(e)[:120]}); retrying in {min(len(sents), 2 if depth else 3)} shorter parts")
+    n = 2 if depth else 3
+    size = -(-len(sents) // n)
+    parts = [" ".join(sents[k:k + size]) for k in range(0, len(sents), size)]
+    files = []
+    for k, t in enumerate(parts):
+        f = f"{path}.{k}.wav"
+        synth_wav(t, model, f, depth + 1)
+        files.append(f)
+    lst = path + ".txt"
+    open(lst, "w").write("".join(f"file '{f}'\n" for f in files))
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-ar", "24000", "-ac", "1", path])
+
+
 def article(src, dst, model=None):
-    a = json.load(open(src, encoding="utf-8"))
+    a = json.load(open(src, encoding="utf-8")) if isinstance(src, str) else src
     parts = pieces(a["title"], a["paras"])
-    model = model or MODELS[0]
+    models = [model] if model else MODELS[:2]             # 3.8 Flash-Lite, then 3.8 Flash (same voice) if Lite fails
     tmp = tempfile.mkdtemp()
     files, words = [], 0
     for k, (text, cont) in enumerate(parts):
-        raw = os.path.join(tmp, f"p{k}.wav")
-        audio = synth(text, model)
-        if audio[:4] != b"RIFF":                          # raw PCM: wrap as 24 kHz 16-bit mono WAV
-            open(raw + ".pcm", "wb").write(audio)
-            run(["ffmpeg", "-y", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", raw + ".pcm", raw])
-        else:
-            open(raw, "wb").write(audio)
-        trimmed = os.path.join(tmp, f"t{k}.wav")
-        run(["ffmpeg", "-y", "-i", raw, "-af",
-             "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.06,"
-             "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.06,areverse", trimmed])
-        n = len(text.split()); words += n
-        wpm = n / max(duration(trimmed), 1) * 60
+        n = len(text.split())
+        best = None
+        for attempt in range(3):                          # re-record a piece whose pace is off (cut off, or long silences)
+            raw = os.path.join(tmp, f"p{k}-{attempt}.wav")
+            err = None
+            for m in models:
+                try:
+                    synth_wav(text, m, raw); err = None; break
+                except Exception as e:
+                    err = e
+            if err:
+                raise err
+            trimmed = os.path.join(tmp, f"t{k}-{attempt}.wav")
+            run(["ffmpeg", "-y", "-i", raw, "-af",
+                 "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.06,"
+                 "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.06,areverse", trimmed])
+            wpm = n / max(duration(trimmed), 1) * 60
+            score = abs(wpm - 150)
+            if best is None or score < best[0]:
+                best = (score, trimmed, wpm)
+            if 100 <= wpm <= 200 or n < 8:
+                break
+            print(f"    piece {k + 1}: {wpm:.0f} words/min, recording again")
+        _, trimmed, wpm = best
+        words += n
         print(f"  piece {k + 1}/{len(parts)}: {n} words, {duration(trimmed):.1f} s, {wpm:.0f} words/min" + ("  <- check pace" if not 100 <= wpm <= 200 else ""))
         if files:
             gap = os.path.join(tmp, f"g{k}.wav")

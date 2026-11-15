@@ -96,7 +96,7 @@ def main():
         extra = round(100.0 * (len(hw) - sum(fh)) / max(1, len(hw)), 1)
         miss, more = runs_of(ft, tw), runs_of(fh_page, hw)
         entry = {"url": src[aid]["url"].replace("http://", "https://"), "duration": r["duration"], "times": times,
-                 "match": match, "not_in_text": extra, "voice": "Gary (existing recording)"}
+                 "match": match, "not_in_text": extra, "voice": src[aid].get("voice", "Gary (existing recording)")}
         notes = []
         if miss and len(miss[0]) >= GAP:
             notes.append(f"{len(miss[0])} words of the text are not read (“{' '.join(miss[0][:8])}…”)")

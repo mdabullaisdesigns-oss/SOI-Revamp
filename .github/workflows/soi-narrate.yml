@@ -1,0 +1,115 @@
+name: Narrate issues (Gemini, voice Charon)
+
+# Narrates whole issues with the Issue 133 voice and settings, uploads the MP3s to
+# R2 (audio/<year>/), times every sentence (transcribe + align) and commits
+# audio-source.json, audio-raw/ and audio.json.  MP3s never enter git.
+# Input "issues": slugs separated by spaces, or "all" (every issue except 2026-11,
+# which keeps its Issue 133 recordings).  Already-uploaded articles are skipped,
+# so the same run can be started again after a stop.
+on:
+  workflow_dispatch:
+    inputs:
+      issues:
+        description: "Issue slugs (e.g. 2018-07 2019-03) or all"
+        required: true
+        default: "2018-07"
+      parallel:
+        description: "Issues at the same time"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency: soi-narrate
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      slugs: ${{ steps.s.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: s
+        run: |
+          if [ "${{ inputs.issues }}" = "all" ]; then
+            s=$(ls issues | while read d; do [ -f "issues/$d/issue.json" ] && [ "$d" != "2026-11" ] && echo "$d"; done)
+          else
+            s="${{ inputs.issues }}"
+          fi
+          echo "slugs=$(echo $s | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read().split()))')" >> "$GITHUB_OUTPUT"
+
+  narrate:
+    needs: list
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJson(inputs.parallel) }}
+      matrix:
+        slug: ${{ fromJson(needs.list.outputs.slugs) }}
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
+        id: gauth
+        with:
+          workload_identity_provider: projects/986354430610/locations/global/workloadIdentityPools/github/providers/soi-repo
+          service_account: soi-tts@project-2c2c83fa-e3a5-4e94-895.iam.gserviceaccount.com
+          token_format: access_token
+          access_token_lifetime: 3600s
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tools
+        run: |
+          pip install -q faster-whisper numpy
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Articles already in R2
+        run: |
+          y=$(echo "${{ matrix.slug }}" | cut -c1-4)
+          aws s3 ls "s3://$R2_BUCKET/audio/$y/" --endpoint-url "$R2_ENDPOINT" | awk '{print $4}' | grep "^SOI-${{ matrix.slug }}-" > done.txt || true
+          wc -l < done.txt
+      - name: Narrate
+        env:
+          GCP_ACCESS_TOKEN: ${{ steps.gauth.outputs.access_token }}
+        run: python3 pipeline/narrate_issue.py "${{ matrix.slug }}" --done done.txt --threads 4 | tee narrate.log
+      - name: Upload MP3s to R2
+        if: always()
+        run: |
+          y=$(echo "${{ matrix.slug }}" | cut -c1-4)
+          [ -d "out/${{ matrix.slug }}" ] && aws s3 cp "out/${{ matrix.slug }}/" "s3://$R2_BUCKET/audio/$y/" --recursive --exclude "*" --include "*.mp3" \
+            --content-type audio/mpeg --cache-control "public, max-age=31536000" --endpoint-url "$R2_ENDPOINT" --only-show-errors || true
+      - name: Time every sentence
+        run: |
+          python3 pipeline/transcribe.py "${{ matrix.slug }}" --model base.en
+          python3 pipeline/align.py "${{ matrix.slug }}"
+          python3 - <<'EOF'
+          import json, sys
+          p = "issues/${{ matrix.slug }}/audio-source.json"
+          s = json.load(open(p, encoding="utf-8"))
+          for v in s.values():
+              v.pop("file", None)                     # local paths are not kept
+          json.dump(s, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          EOF
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add "issues/${{ matrix.slug }}/audio-source.json" "issues/${{ matrix.slug }}/audio-raw" "issues/${{ matrix.slug }}/audio.json" "issues/${{ matrix.slug }}/narration.json" 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Narration (Charon, Gemini 3.8 Flash-Lite TTS): ${{ matrix.slug }} [skip ci]"
+          for i in 1 2 3 4 5 6; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep $((RANDOM % 20 + 5)); done
+          exit 1
+      - name: Report
+        if: always()
+        run: |
+          grep -E "articles to narrate|min of new audio|FAILED|check pace|refused" narrate.log || true
+          [ -f "out/${{ matrix.slug }}/FAILED.txt" ] && { echo "::warning::${{ matrix.slug }}: some articles failed - start the run again"; exit 1; } || true

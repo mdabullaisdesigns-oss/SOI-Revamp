@@ -28,10 +28,13 @@ for aid, a in src.items():
         continue
     url = a["url"].replace("http://", "https://")
     f = os.path.join(tmp, "a.mp3")
-    try:
+    if a.get("file") and os.path.exists(a["file"]):      # just narrated in this job: use the local file
+        f = a["file"]
+    else:
+      try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh) SOI-archive-fetcher"})
         open(f, "wb").write(urllib.request.urlopen(req, timeout=120).read())
-    except Exception as e:
+      except Exception as e:
         json.dump({"url": url, "error": str(e)}, open(out, "w"))
         print(f"{slug} {aid}: DOWNLOAD FAILED {e}", flush=True)
         continue
