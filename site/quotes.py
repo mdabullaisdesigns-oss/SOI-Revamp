@@ -133,7 +133,8 @@ PAGE = r"""
     bind(sp,q);
   }
   sp.addEventListener('click',function(e){var b=e.target.closest('[data-nav]');if(!b)return;spot=(spot+cur.length+(+b.dataset.nav))%cur.length;showSpot()});
-  function text(q){return '“'+q.t+'”\n— Spirit of Islam, Issue '+q.n+' ('+q.p+')\n'+link(q)}
+  var SITE='spiritofislam.co.in';
+  function text(q){return '“'+q.t+'”\n— Spirit of Islam Magazine · '+SITE}
   function stopSpeak(){if(canSpeak&&speaking){speechSynthesis.cancel();setBtn(speaking,false);speaking=null}}
   function setBtn(b,on){if(!b||!b.isConnected)return;b.innerHTML=(on?I.stop:I.listen)+'<span>'+(on?'Stop':'Listen')+'</span>';b.classList.toggle('is-on',on)}
   function act(b,q){
@@ -142,12 +143,12 @@ PAGE = r"""
       var v=speechSynthesis.getVoices().filter(function(x){return /^en/i.test(x.lang)});var pick=v.filter(function(x){return /male|daniel|alex|google uk english male/i.test(x.name)})[0]||v[0];if(pick)u.voice=pick;
       u.onend=u.onerror=function(){if(speaking===b){setBtn(b,false);speaking=null}};speaking=b;setBtn(b,true);speechSynthesis.speak(u);return}
     if(a==='save'){var on=soi.store.toggleQuote(q);b.setAttribute('aria-pressed',on);b.querySelector('span').textContent=on?'Saved':'Save';say(on?'Saved to this device':'Removed from Saved');return}
-    if(a==='wa'){window.open('https://wa.me/?text='+encodeURIComponent(text(q)),'_blank','noopener');return}
+    if(a==='wa'){image(q,'wa');return}
     if(a==='copy'){(navigator.clipboard?navigator.clipboard.writeText(text(q)):Promise.reject()).then(function(){say('Copied')},function(){say('Could not copy')});return}
     image(q);
   }
   function wrap(ctx,t,max){var w=t.split(' '),lines=[],l='';w.forEach(function(x){var n=l?l+' '+x:x;if(ctx.measureText(n).width>max&&l){lines.push(l);l=x}else l=n});if(l)lines.push(l);return lines}
-  function image(q){
+  function image(q,how){
     var W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var x=c.getContext('2d'),bg=new Image(),ph=photo(q);
     function draw(){
       x.fillStyle='#204E60';x.fillRect(0,0,W,H);
@@ -159,14 +160,16 @@ PAGE = r"""
       do{x.font='italic '+size+'px "Cita Pro Ita","Cita Pro",Georgia,serif';lines=wrap(x,'“'+q.t+'”',W-240);size-=2}while(lines.length*(size*1.42)>H-560&&size>26);
       var lh=(size+2)*1.42,y=H/2-((lines.length-1)*lh)/2-30;x.shadowColor='rgba(0,0,0,.35)';x.shadowBlur=12;lines.forEach(function(l,i){x.fillText(l,W/2,y+i*lh)});x.shadowBlur=0;
       x.fillStyle='#D4CC73';x.fillRect(W/2-60,H-330,120,3);
-      x.fillStyle='#FFFFFF';x.font='600 30px "Plus Jakarta Sans",Arial,sans-serif';x.fillText('Spirit of Islam',W/2,H-270);
-      x.globalAlpha=.85;x.font='26px "Plus Jakarta Sans",Arial,sans-serif';x.fillText('Issue '+q.n+' · '+q.p,W/2,H-225);x.fillText(location.host,W/2,H-150);x.globalAlpha=1;
+      if(logo.naturalWidth){var lw=230,lh=lw*51.17/79.08;x.drawImage(logo,W/2-lw/2,H-290,lw,lh)}
+      x.fillStyle='#FFFFFF';x.globalAlpha=.9;x.font='600 28px "Plus Jakarta Sans",Arial,sans-serif';x.fillText(SITE,W/2,H-105);x.globalAlpha=1;
       c.toBlob(function(b){var f=new File([b],'spirit-of-islam-quote.png',{type:'image/png'});
-        if(navigator.canShare&&navigator.canShare({files:[f]})){navigator.share({files:[f],text:link(q)}).catch(function(){});return}
-        var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=f.name;document.body.appendChild(a);a.click();a.remove();say('Picture saved')},'image/png');
+        function dl(){if(how==='wa'){window.open('https://wa.me/?text='+encodeURIComponent(text(q)),'_blank','noopener');return}var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=f.name;document.body.appendChild(a);a.click();a.remove();say('Picture saved')}
+        if(navigator.canShare&&navigator.canShare({files:[f]})){navigator.share({files:[f],text:SITE}).catch(function(e){if(!e||e.name!=='AbortError')dl()});return}
+        dl()},'image/png');
     }
+    var logo=new Image();
     var fonts=document.fonts&&document.fonts.load?document.fonts.load('italic 40px "Cita Pro Ita"'):Promise.resolve();
-    fonts.then(function(){if(!ph)return draw();bg.onload=draw;bg.onerror=draw;bg.src=ph},draw);
+    fonts.then(function(){logo.onload=logo.onerror=function(){if(!ph)return draw();bg.onload=draw;bg.onerror=draw;bg.src=ph};logo.src='/assets/brand/soi-mark-white.svg'},draw);
   }
   function isDefault(){return !find.value.trim()&&!(topic&&topic.value)&&!(year&&year.value)}
   var DAY=0;

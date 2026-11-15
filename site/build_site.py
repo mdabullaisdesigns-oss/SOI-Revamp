@@ -121,13 +121,16 @@ SOCIAL = {
     "wa": _S.format('<path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4m-3.1 3.6c-.2 0-.5 0-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4l-.5-.3-1.8-.9c-.3-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.4-1.8-.2-.3 0-.4.1-.5l.4-.5.3-.4v-.4l-.8-2c-.2-.5-.4-.4-.6-.5z"/>'),
 }
 _AI_Q = __import__("urllib.parse").parse.quote(MENU.get("ask_ai_prompt", ""))
-ASK_AI = "".join(f'<a class="soi-ai" href="{h}" target="_blank" rel="noopener"{x}>{n}</a>' for n, h, x in [
-    ("ChatGPT", f"https://chatgpt.com/?q={_AI_Q}", ""),
-    ("Claude", f"https://claude.ai/new?q={_AI_Q}", ""),
-    ("Gemini", "https://gemini.google.com/app", ' data-copy-prompt="1"'),
-    ("Perplexity", f"https://www.perplexity.ai/search?q={_AI_Q}", ""),
-    ("Grok", f"https://grok.com/?q={_AI_Q}", ""),
-])
+ASK_AI = "".join(
+    f'<a class="soi-ai" href="{h}" target="_blank" rel="noopener"{x} title="Ask {n}">'
+    f'<img src="https://www.google.com/s2/favicons?domain={d}&amp;sz=64" alt="" width="20" height="20" loading="lazy"><span>{n}</span></a>'
+    for n, d, h, x in [
+        ("ChatGPT", "chatgpt.com", f"https://chatgpt.com/?q={_AI_Q}", ""),
+        ("Claude", "claude.ai", f"https://claude.ai/new?q={_AI_Q}", ""),
+        ("Gemini", "gemini.google.com", "https://gemini.google.com/app", ' data-copy-prompt="1"'),
+        ("Perplexity", "perplexity.ai", f"https://www.perplexity.ai/search?q={_AI_Q}", ""),
+        ("Grok", "grok.com", f"https://grok.com/?q={_AI_Q}", ""),
+    ])
 
 
 def ext(href):
@@ -209,16 +212,22 @@ def page(title, body, desc="", cls="", head="", current=""):
 <footer class="soi-foot soi-foot2">
   <div class="soi-foot2-in">
     <a class="soi-foot2-brand" href="/" aria-label="Spirit of Islam – home"><img class="soi-foot2-bird" src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453" loading="lazy"><img src="/assets/brand/Spirit-of-Islam-Logo.png" alt="Spirit of Islam" width="1600" height="164" loading="lazy"><img src="/assets/brand/Slogan-Line.png" alt="Towards Global Peace &amp; Spiritual Living" width="1600" height="138" loading="lazy"></a>
-    <div class="soi-foot2-col"><h2>Read</h2><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archives</a><a href="/quotes/">Quotes</a><a href="/search/">Search</a><a href="/saved/">Saved</a></div>
+    <div class="soi-foot2-col"><h2>Read</h2><a href="/issues/{LATEST['slug']}/">Latest issue</a><a href="/archive/">Archives</a><a href="/quotes/">Quotes</a><a href="/search/">Search</a><a href="/saved/">Saved</a><a href="/?tour=1" data-soi-tour>Take the website tour</a></div>
     <div class="soi-foot2-col"><h2>About</h2><a href="/about/">About Spirit of Islam</a><a href="/about/#founder">Our Founder</a><a href="/about/#team">SOI Team</a><a href="{esc(c['href'])}">Contact Us</a></div>
     <div class="soi-foot2-col"><h2>More from CPS</h2>{"".join(f'<a href="{esc(i["href"])}" target="_blank" rel="noopener">{esc(i["label"])}</a>' for i in MENU["more_cps"])}</div>
     <div class="soi-foot2-col"><h2>Follow</h2>{"".join(f'<a class="soi-foot2-soc" href="{esc(i["href"])}" target="_blank" rel="noopener">{SOCIAL[i["icon"]]}<span>{esc(i["label"])}</span></a>' for i in MENU["social"])}</div>
   </div>
   <div class="soi-foot2-base">
     <div class="soi-ask-ai" data-prompt="{esc(MENU.get('ask_ai_prompt', ''))}"><span>Ask AI <svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c.4 3.9 2.1 5.6 6 6-3.9.4-5.6 2.1-6 6-.4-3.9-2.1-5.6-6-6 3.9-.4 5.6-2.1 6-6m6.5 11c.2 2 1.1 2.8 3 3-1.9.2-2.8 1.1-3 3-.2-1.9-1.1-2.8-3-3 1.9-.2 2.8-1 3-3"/></svg> about Spirit of Islam</span>{ASK_AI}</div>
-    <p class="soi-foot2-credit">Design &amp; Development by Md Abullais</p>
   </div>
 </footer>
+<section class="soi-credit" aria-label="Website credit">
+  <div class="soi-credit-in">
+    <span class="soi-credit-mark" aria-hidden="true"><svg class="soi-fi" viewBox="0 0 24 24"><path d="M8.6 16.6 4 12l4.6-4.6L7.2 6 1.2 12l6 6zm6.8 0L20 12l-4.6-4.6L16.8 6l6 6-6 6z"/></svg></span>
+    <p class="soi-credit-txt"><small>Website designed &amp; developed by</small><b>Md Abullais</b></p>
+    <a class="soi-credit-btn" href="https://timer-media.kaafnoonarts.com/" target="_blank" rel="noopener">Contact the developer <svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="m14.29 6.71 4.3 4.29H4v2h14.59l-4.3 4.29 1.42 1.42 6.7-6.71-6.7-6.71z"/></svg></a>
+  </div>
+</section>
 </body>
 </html>
 """
@@ -419,40 +428,54 @@ def build():
         w = [x for x in re.sub(r"^(Prof|Dr|Mr|Ms|Mrs)\.?\s+", "", n).split() if x[:1].isalpha()]
         return (w[0][0] + (w[-1][0] if len(w) > 1 else "")).upper()
     lead, rest = team["people"][0], team["people"][1:]
-    member = lambda role, n, cls="": (f'<li class="soi-tm {cls}"><span class="soi-tm-mono" aria-hidden="true">{initials(n)}</span>'
-                                      f'<span><small>{esc(role)}</small><b>{esc(n)}</b></span></li>')
-    team_html = (f'<ul class="soi-tm-lead">{member(lead[0], lead[1][0], "is-lead")}</ul>'
-                 f'<ul class="soi-tm-grid">{"".join(member(r[:-1] if len(names) > 1 and r.endswith("s") else r, n) for r, names in rest for n in names)}</ul>'
+    member = lambda role, n: f'<li class="soi-tm"><small>{esc(role)}</small><b>{esc(n)}</b></li>'
+    team_html = (f'<ul class="soi-tm-grid">{member(lead[0], lead[1][0])}'
+                 f'{"".join(member(r[:-1] if len(names) > 1 and r.endswith("s") else r, n) for r, names in rest for n in names)}</ul>'
                  f'<p class="soi-tm-office"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7m0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5"/></svg>'
                  f'<span><small>Office</small>{esc(team["office"])}</span></p>')
-    mission = wp_page(552)
-    mq = re.search(r"❝(.*?)❞\s*[–-]?\s*Maulana Wahiduddin Khan", re.sub(r"<[^>]+>", " ", mission["html"]) if mission else "", re.S)
-    mission_quote = re.sub(r"\s+", " ", mq.group(1)).strip() if mq else ""
+    covers = [
+        ("Islamic Teachings", "Understanding the Quran, Sunnah and the fundamental principles of Islam.", I_READ),
+        ("God-Realization", "Reflecting on the Creator, the purpose of life and the signs of God in the universe.", '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v1.1a7 7 0 0 1 5.9 5.9H20a1 1 0 1 1 0 2h-1.1a7 7 0 0 1-5.9 5.9V20a1 1 0 1 1-2 0v-1.1A7 7 0 0 1 5.1 13H4a1 1 0 1 1 0-2h1.1A7 7 0 0 1 11 5.1V4a1 1 0 0 1 1-1m0 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4"/></svg>'),
+        ("Spiritual Development", "Purification of the heart, sincerity, humility and strengthening one’s relationship with God.", '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.4 10.6 20C5.4 15.4 2 12.3 2 8.5 2 5.4 4.4 3 7.5 3c1.7 0 3.4.8 4.5 2.1C13.1 3.8 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.6 11.5zM7.5 5C5.5 5 4 6.5 4 8.5c0 2.9 3.1 5.7 7.9 10l.1.1.1-.1c4.8-4.3 7.9-7.1 7.9-10C20 6.5 18.5 5 16.5 5c-1.5 0-3 1-3.6 2.4h-1.9C10.5 6 9 5 7.5 5"/></svg>'),
+        ("Global Peace", "Promoting tolerance, forgiveness, peaceful coexistence and harmony among communities.", '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m7.9 9h-3a15.5 15.5 0 0 0-1.4-6.1A8 8 0 0 1 19.9 11M12 4c.9 1 2.6 3.4 2.9 7H9.1C9.4 7.4 11.1 5 12 4M8.5 4.9A15.5 15.5 0 0 0 7.1 11h-3a8 8 0 0 1 4.4-6.1M4.1 13h3a15.5 15.5 0 0 0 1.4 6.1A8 8 0 0 1 4.1 13M12 20c-.9-1-2.6-3.4-2.9-7h5.8c-.3 3.6-2 6-2.9 7m3.5-.9a15.5 15.5 0 0 0 1.4-6.1h3a8 8 0 0 1-4.4 6.1"/></svg>'),
+        ("Personality Development", "Cultivating positive thinking, patience, wisdom and intellectual maturity.", '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2m2.6 11.4-.6.3V16h-4v-2.3l-.6-.3a5 5 0 1 1 5.2 0M9 20h6v2H9z"/></svg>'),
+        ("Contemporary Issues", "Exploring modern challenges, science, society and human relationships in the light of Islamic teachings.", '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H4V5h16zM6 7h6v6H6zm8 0h4v2h-4zm0 4h4v2h-4zm-8 4h12v2H6z"/></svg>'),
+        ("Life and the Hereafter", "Reflecting on life’s purpose, accountability, death and the eternal life to come.", '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c.3 0 .6.2.8.4l2.9 4.2 4.9 1.5a1 1 0 0 1 .5 1.6L18 13.7l.1 5.1a1 1 0 0 1-1.3 1L12 18.1l-4.8 1.7a1 1 0 0 1-1.3-1l.1-5.1L2.9 9.7a1 1 0 0 1 .5-1.6l4.9-1.5 2.9-4.2c.2-.3.5-.4.8-.4m0 2.8-2.3 3.4-3.9 1.2 2.5 3.2-.1 4.1 3.8-1.4 3.8 1.4-.1-4.1 2.5-3.2-3.9-1.2z"/></svg>'),
+    ]
+    cover_html = "".join(f'<li><span class="soi-cov-ico">{ic}</span><b>{esc(t)}</b><span>{esc(d)}</span></li>' for t, d, ic in covers)
     about = f"""
-<section class="soi-wrap soi-sec soi-page-head soi-about2-head"><p class="soi-kicker">About us</p><h1>A magazine for the journey of life</h1></section>
-<section class="soi-wrap soi-about2">
-  <div class="soi-about2-text">
-    <p class="soi-lede">Spirit of Islam is an English magazine about living by the original teachings of Islam: peace, reason and a constant awareness of God. It began in January 2013 as a monthly and has appeared every two months since 2021, published from Bengaluru, India.</p>
-    <p>Each issue brings together the writings of Maulana Wahiduddin Khan, many of them translated from his Urdu works, and articles by writers he trained. The articles are short and practical: how to deal with anger, how to see a problem as an opportunity, how to think about death and the life after it, how to read the Quran with reflection. Alongside them come readers’ questions, a corner for children and news of the Centre for Peace and Spirituality (CPS International).</p>
-    <p>The magazine takes no political side. Its aim is quieter: to help each reader become a more thoughtful and more peaceful person, and to present Islam to everyone, Muslim or not, as it is found in the Quran and in the life of the Prophet.</p>
-  </div>
-  <div class="soi-about2-facts">
-    <p><b>{len(issues)}</b><span>issues since 2013</span></p>
-    <p><b>{total_articles:,}</b><span>articles to read</span></p>
-    <p><b>2</b><span>months between issues</span></p>
+<section class="soi-wrap soi-sec soi-page-head soi-center"><p class="soi-kicker">About us</p><h1>About Spirit of Islam Magazine</h1></section>
+<section class="soi-wrap soi-about3">
+  <p class="soi-lede">Spirit of Islam (SOI) is an English-language magazine based on the teachings, writings and intellectual approach of the late Maulana Wahiduddin Khan (1925–2021), a renowned Islamic scholar and founder of the Centre for Peace and Spirituality (CPS International), Bengaluru, India.</p>
+  <p>The magazine aims to present the true spirit of Islam in a contemporary, thoughtful and accessible manner, drawing inspiration from the Quran and the Sunnah. It seeks to develop a deeper understanding of religion by encouraging reflection, reason, spirituality and positive thinking.</p>
+</section>
+<section class="soi-wrap soi-sec soi-covers-sec">
+  <h2 class="soi-h">What Does It Cover?</h2>
+  <p class="soi-covers-intro">Spirit of Islam covers a wide range of subjects, including:</p>
+  <ul class="soi-cover-grid">{cover_html}</ul>
+</section>
+<section class="soi-wrap soi-sec soi-vision">
+  <div class="soi-vision-in">
+    <p class="soi-kicker">Our Vision</p>
+    <p class="soi-vision-lede">Through its articles and thought-provoking insights, Spirit of Islam seeks to inspire readers to become spiritually awakened, intellectually developed and positive-minded individuals who contribute towards a peaceful and better society.</p>
+    <p>The magazine is intended not only for Muslims but also for anyone interested in understanding Islam, spirituality, peace and the purpose of human existence.</p>
   </div>
 </section>
+<section class="soi-wrap soi-sec soi-explore">
+  <p><b>Explore the magazine:</b> <a href="/">www.spiritofislam.co.in</a></p>
+  <p>The website provides access to the latest edition as well as the complete archive of previous issues, allowing readers to explore its rich collection of articles and publications.</p>
+  <p class="soi-explore-btns"><a class="soi-btn soi-btn-solid" href="/issues/{LATEST['slug']}/">Read the latest issue</a> <a class="soi-btn" href="/archive/">Browse the archive</a></p>
+</section>
 <section class="soi-wrap soi-sec soi-founder" id="founder">
-  <img class="soi-founder-img" src="/assets/brand/maulana.jpg" alt="Maulana Wahiduddin Khan" width="76" height="87">
+  <img class="soi-founder-img" src="/assets/brand/maulana.webp" alt="Maulana Wahiduddin Khan" width="568" height="694" loading="lazy">
   <div>
     <p class="soi-kicker">Our founder</p>
     <h2>Maulana Wahiduddin Khan <small>1925–2021</small></h2>
     <p>Maulana Wahiduddin Khan was born in Azamgarh, Uttar Pradesh. Trained in classical Islamic learning, he went on to study modern science and thought on his own, and spent his life showing that faith and reason do not conflict.</p>
-    <p>In 1976 he started <i>Al-Risala</i>, an Urdu monthly, and in 2001 he founded the Centre for Peace and Spirituality (CPS International) in New Delhi. He wrote more than two hundred books, among them a translation of and commentary on the Quran.</p>
+    <p>In 1976 he started <i>Al-Risala</i>, an Urdu monthly, and in 2001 he founded the Centre for Peace and Spirituality (CPS International). He wrote more than two hundred books, among them a translation of and commentary on the Quran.</p>
     <p>He received the Padma Bhushan in 2000 and the Padma Vibhushan in 2021, two of India’s highest civilian honours. His central message, that peace is the heart of Islam and that patience and positive thinking can turn every problem into an opportunity, is the message this magazine carries on.</p>
   </div>
 </section>
-{f'<section class="soi-wrap soi-sec soi-mission"><p class="soi-kicker">Our mission</p><blockquote><p>{esc(mission_quote)}</p><cite>Maulana Wahiduddin Khan</cite></blockquote></section>' if mission_quote else ''}
 <section class="soi-wrap soi-sec soi-team2" id="team">
   <p class="soi-kicker">The people behind each issue</p>
   <h2>The SOI Team</h2>

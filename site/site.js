@@ -79,16 +79,16 @@
       do { x.font = 'italic ' + size + 'px "Cita Pro Ita","Cita Pro",Georgia,serif'; lines = wrap(x, '“' + q.t + '”', W - 240); size -= 2; } while (lines.length * (size * 1.42) > H - 560 && size > 26);
       var lh = (size + 2) * 1.42, y = H / 2 - ((lines.length - 1) * lh) / 2 - 30; lines.forEach(function (l, i) { x.fillText(l, W / 2, y + i * lh); });
       x.fillStyle = '#D4CC73'; x.fillRect(W / 2 - 60, H - 330, 120, 3);
-      x.fillStyle = '#EEEEE5'; x.font = '600 30px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('Spirit of Islam', W / 2, H - 270);
-      x.globalAlpha = .8; x.font = '26px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('Issue ' + q.n + ' · ' + q.p, W / 2, H - 225); x.globalAlpha = 1;
+      if (logo.naturalWidth) { var lw2 = 230; x.drawImage(logo, W / 2 - lw2 / 2, H - 290, lw2, lw2 * 51.17 / 79.08); }
+      x.fillStyle = '#FFFFFF'; x.globalAlpha = .9; x.font = '600 28px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('spiritofislam.co.in', W / 2, H - 105); x.globalAlpha = 1;
       c.toBlob(function (b) {
         var f = new File([b], 'spirit-of-islam-quote.png', { type: 'image/png' });
-        if (navigator.canShare && navigator.canShare({ files: [f] })) { navigator.share({ files: [f], text: shareBase() + '/issues/' + q.s + '/#soi-' + q.a }).catch(function () {}); return; }
+        if (navigator.canShare && navigator.canShare({ files: [f] })) { navigator.share({ files: [f], text: 'spiritofislam.co.in' }).catch(function (e) { if (!e || e.name !== 'AbortError') { var a2 = document.createElement('a'); a2.href = URL.createObjectURL(b); a2.download = f.name; document.body.appendChild(a2); a2.click(); a2.remove(); } }); return; }
         var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); toast('Image saved');
       }, 'image/png');
     }
     var fl = document.fonts && document.fonts.load ? document.fonts.load('italic 40px "Cita Pro Ita"') : Promise.resolve();
-    fl.then(function () { if (!ph) return draw(); bg.onload = draw; bg.onerror = draw; bg.src = ph; }, draw);
+    var logo = new Image(); fl.then(function () { logo.onload = logo.onerror = function () { if (!ph) return draw(); bg.onload = draw; bg.onerror = draw; bg.src = ph; }; logo.src = '/assets/brand/soi-mark-white.svg'; }, draw);
   }
   function quoteOfDay() {
     return fetch('/assets/quotes.json').then(function (r) { return r.json(); }).then(function (d) {
@@ -331,11 +331,21 @@
   if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
 })();
 
-/* ---------- "Ask AI": Gemini has no link that carries a question, so the question is copied first ---------- */
+/* ---------- "Ask AI": Gemini has no link that carries a question, so it is copied first ---------- */
 document.addEventListener('click', function (e) {
   var a = e.target.closest && e.target.closest('a[data-copy-prompt]'); if (!a) return;
-  var box = a.closest('[data-prompt]'), q = box ? box.getAttribute('data-prompt') : '';
-  if (q && navigator.clipboard) navigator.clipboard.writeText(q).then(function () { if (window.soi) soi.toast('Question copied – paste it into Gemini'); }, function () {});
+  e.preventDefault();
+  var box = a.closest('[data-prompt]'), q = box ? box.getAttribute('data-prompt') : '', href = a.href;
+  var win = window.open('about:blank', '_blank');
+  function go() { if (win) win.location.href = href; else location.href = href; }
+  function copied(ok) {
+    var msg = ok ? 'Question copied. In Gemini, paste it (Ctrl+V / ⌘V, or long-press › Paste).' : 'Opening Gemini – type your question there.';
+    if (window.soi && soi.toast) soi.toast(msg); setTimeout(go, 900);
+  }
+  if (navigator.clipboard && q) navigator.clipboard.writeText(q).then(function () { copied(true); }, function () { copied(false); });
+  else {
+    try { var t = document.createElement('textarea'); t.value = q; t.style.position = 'fixed'; t.style.opacity = '0'; document.body.appendChild(t); t.select(); var ok = document.execCommand('copy'); t.remove(); copied(ok); } catch (x) { copied(false); }
+  }
 });
 
 /* ---------- menu colour preview: ?menu=teal (or ?menu=gold) is remembered in this browser ---------- */
@@ -345,4 +355,61 @@ document.addEventListener('click', function (e) {
     if (m) localStorage.setItem('soi-menu', m); else m = localStorage.getItem('soi-menu');
     if (m === 'teal') document.documentElement.classList.add('soi-menu-teal');
   } catch (e) {}
+})();
+
+/* ---------- website tour: quick guided cards on the first visit to the home page (replay: any [data-soi-tour] link) ---------- */
+(function () {
+  var KEY = 'soi-tour-done';
+  var STEPS = [
+    { t: 'Welcome to Spirit of Islam', d: 'A one-minute tour of the website: where to find every issue, how to listen, search and save. You can skip it at any time.' },
+    { sel: '.soi-has-mega > .soi-menu-top', alt: '.soi-menu-toggle', t: 'Every issue since 2013', d: 'Open Archives and point at a year to see that year’s covers. Click a cover to read the issue.' },
+    { sel: '.soi-menu-list a[href="/quotes/"]', alt: '.soi-menu-toggle', t: 'Quotes', d: 'Short reflections from every issue. Listen to them, or share one as a picture.' },
+    { sel: '.soi-menu-right a[href="/search/"]', t: 'Search everything', d: 'Search all articles by word, topic or Quran reference (for example 51:56). A small spelling mistake is fine.' },
+    { sel: '.soi-menu-right a[href="/saved/"]', t: 'Saved', d: 'Articles, issues and quotes you save are kept here, on this device.' },
+    { sel: '#soi-continue', t: 'Continue where you left off', d: 'The last article you read is waiting here, at the same place, with the audio where you paused.' },
+    { sel: '.soi-hero-main', t: 'Inside each issue', d: 'Tap an article to open it. Press play to hear it read aloud while the words light up, or tap any sentence to listen from there. A short quiz waits at the end.' },
+    { t: 'You are all set', d: 'You can take this tour again any time from the link at the bottom of every page. Happy reading.' }
+  ];
+  var ov, hole, card, i = 0;
+  function vis(el) { if (!el) return false; var r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && getComputedStyle(el).visibility !== 'hidden'; }
+  function target(s) { if (!s.sel) return null; var e = document.querySelector(s.sel); if (vis(e)) return e; e = s.alt && document.querySelector(s.alt); return vis(e) ? e : null; }
+  function steps() { return STEPS.filter(function (s) { return !s.sel || target(s); }); }
+  function close(done) { if (!ov) return; ov.remove(); ov = null; document.removeEventListener('keydown', key); window.removeEventListener('resize', place); window.removeEventListener('scroll', place, true); if (done) try { localStorage.setItem(KEY, '1'); } catch (e) {} }
+  function key(e) { if (e.key === 'Escape') close(true); if (e.key === 'ArrowRight') go(1); if (e.key === 'ArrowLeft') go(-1); }
+  function place() {
+    var S = steps(), s = S[i], el = target(s), vw = window.innerWidth, vh = window.innerHeight;
+    if (!el) { hole.style.cssText = 'left:50%;top:50%;width:0;height:0'; card.style.left = Math.max(12, (vw - card.offsetWidth) / 2) + 'px'; card.style.top = Math.max(12, (vh - card.offsetHeight) / 2) + 'px'; card.removeAttribute('data-arrow'); return; }
+    var r = el.getBoundingClientRect(), pad = 8;
+    hole.style.cssText = 'left:' + (r.left - pad) + 'px;top:' + (r.top - pad) + 'px;width:' + (r.width + pad * 2) + 'px;height:' + (r.height + pad * 2) + 'px';
+    var cw = card.offsetWidth, ch = card.offsetHeight, below = r.bottom + pad + 14 + ch < vh, top = below ? r.bottom + pad + 14 : Math.max(12, r.top - pad - 14 - ch);
+    if (!below && top + ch > r.top - pad) top = Math.max(12, vh - ch - 12);
+    card.style.top = top + 'px'; card.style.left = Math.min(vw - cw - 12, Math.max(12, r.left + r.width / 2 - cw / 2)) + 'px'; card.setAttribute('data-arrow', below ? 'up' : 'down');
+  }
+  function show() {
+    var S = steps(), s = S[i], el = target(s);
+    card.innerHTML = '<p class="soi-tour-step">' + (i + 1) + ' of ' + S.length + '</p><h2 class="soi-tour-t">' + s.t + '</h2><p class="soi-tour-d">' + s.d + '</p>' +
+      '<div class="soi-tour-dots" aria-hidden="true">' + S.map(function (_, k) { return '<span' + (k === i ? ' class="is-on"' : '') + '></span>'; }).join('') + '</div>' +
+      '<div class="soi-tour-btns"><button type="button" class="soi-tour-skip" data-t="skip">' + (i === S.length - 1 ? 'Close' : 'Skip tour') + '</button>' +
+      (i > 0 ? '<button type="button" class="soi-tour-back" data-t="back">Back</button>' : '') +
+      '<button type="button" class="soi-tour-next" data-t="next">' + (i === 0 ? 'Start the tour' : i === S.length - 1 ? 'Finish' : 'Next') + '</button></div>';
+    if (el) { var r = el.getBoundingClientRect(); if (r.top < 70 || r.bottom > window.innerHeight - 220) { el.scrollIntoView({ block: 'center' }); } }
+    requestAnimationFrame(place); card.querySelector('.soi-tour-next').focus();
+  }
+  function go(d) { var n = steps().length; i += d; if (i >= n) return close(true); if (i < 0) i = 0; show(); }
+  function start() {
+    if (ov) return; i = 0;
+    ov = document.createElement('div'); ov.className = 'soi-tour'; ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-modal', 'true'); ov.setAttribute('aria-label', 'Website tour');
+    ov.innerHTML = '<div class="soi-tour-hole"></div><div class="soi-tour-card"></div>';
+    document.body.appendChild(ov); hole = ov.firstChild; card = ov.lastChild;
+    card.addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; var t = b.dataset.t; if (t === 'skip') close(true); else go(t === 'back' ? -1 : 1); });
+    document.addEventListener('keydown', key); window.addEventListener('resize', place); window.addEventListener('scroll', place, true);
+    show();
+  }
+  document.addEventListener('click', function (e) { var a = e.target.closest && e.target.closest('[data-soi-tour]'); if (!a) return; e.preventDefault(); if (!document.body.classList.contains('soi-home')) { location.href = '/?tour=1'; return; } start(); });
+  window.addEventListener('load', function () {
+    var want = /[?&]tour=1\b/.test(location.search), done = false;
+    try { done = localStorage.getItem(KEY) === '1'; } catch (e) {}
+    if (document.body.classList.contains('soi-home') && (want || (!done && !navigator.webdriver))) setTimeout(start, 700);
+  });
+  window.soiTour = start;
 })();
