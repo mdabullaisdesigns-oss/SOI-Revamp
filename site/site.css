@@ -786,3 +786,11 @@ main > .soi-page-head:first-child { margin-top: 64px; }
 .soi-credit-click:hover, .soi-credit-click:focus-visible { background: var(--soi-gold); color: #12303B; }
 .soi-credit-click:hover::before, .soi-credit-click:focus-visible::before { inset: -7px; }
 @media (max-width: 640px) { .soi-credit-in { padding: 18px 16px 92px; } }
+
+/* fourth round */
+.soi-page-head .soi-kicker { margin-left: auto; margin-right: auto; max-width: none; }
+svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+@media (min-width: 981px) { .soi-menu-list > li > a, .soi-menu-top { font-size: 16px; } .soi-menu-signin { font-size: 15px; } }
+.soi-q2-spot + .soi-q3-grid { margin-top: 0; }
+.soi-q2-spot { margin-bottom: 28px; }
+.soi-q2-qmark { width: 40px; height: 40px; fill: none; stroke: var(--soi-gold); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; margin: 14px 0 8px; }

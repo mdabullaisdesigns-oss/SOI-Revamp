@@ -77,16 +77,21 @@ PAGE = r"""
     <div class="soi-dd" id="soi-q-topic"><span class="soi-vh" id="soi-q-topic-l">Topic</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-topic-l"><span>All topics</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-topic-l" hidden></ul></div>
     <div class="soi-dd" id="soi-q-year"><span class="soi-vh" id="soi-q-year-l">Year</span><button class="soi-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-q-year-l"><span>All years</span></button><ul class="soi-dd-list" role="listbox" aria-labelledby="soi-q-year-l" hidden></ul></div>
     <button class="soi-q2-btn" id="soi-q-rand" type="button">Surprise me</button>
+    <div class="soi-q2-view" role="group" aria-label="Show quotes as">
+      <button type="button" data-v="spot" aria-pressed="true"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m0 13h16v2H4z"/></svg><span>Spotlight</span></button>
+      <button type="button" data-v="gallery" aria-pressed="false"><svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h7v9H4zm9 0h7v5h-7zM4 14h7v7H4zm9-4h7v11h-7z"/></svg><span>Gallery</span></button>
+    </div>
   </div>
   <p class="soi-q2-count" id="soi-q-count" aria-live="polite"></p>
+  <div id="soi-q-spot" class="soi-q2-spot" hidden></div>
   <div id="soi-q-list" class="soi-q3-grid"></div>
   <p class="soi-q-more"><button class="soi-btn" id="soi-q-more" type="button">Show more</button></p>
 </section>
 <div class="soi-q-toast" id="soi-q-toast" role="status" aria-live="polite"></div>
 <script>
 (function(){
-  var ALL=[],PH=[],cur=[],shown=0,STEP=22,topic=null,year=null,speaking=null,DAY=-1,
-      $=function(i){return document.getElementById(i)},list=$('soi-q-list'),find=$('soi-q-find'),more=$('soi-q-more'),count=$('soi-q-count'),toast=$('soi-q-toast');
+  var ALL=[],PH=[],cur=[],shown=0,STEP=22,topic=null,year=null,speaking=null,DAY=-1,view='spot',spot=0,
+      $=function(i){return document.getElementById(i)},list=$('soi-q-list'),sp=$('soi-q-spot'),find=$('soi-q-find'),more=$('soi-q-more'),count=$('soi-q-count'),toast=$('soi-q-toast');
   var I={listen:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4M14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6"/></svg>',
     stop:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>',
     img:'<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5v-1.6l4-4 3 3 4-4 3 3zm0-5.4-3-3-4 4-3-3-4 4V5h14zM8.5 10A1.5 1.5 0 1 0 8.5 7a1.5 1.5 0 0 0 0 3"/></svg>',
@@ -114,8 +119,16 @@ PAGE = r"""
     var el=document.createElement('article'),ph=PH.length?PH[k%PH.length]:'';
     el.className='soi-q3';
     el.innerHTML='<div class="soi-q3-in">'+(ph?'<img class="soi-q3-img" src="'+ph+'" alt="" loading="lazy">':'')+
-      '<div class="soi-q3-body">'+(k===0&&isDefault()?'<p class="soi-q3-day">Quote of the day</p>':'')+'<blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div></div>';
+      '<div class="soi-q3-body">'+(view==='gallery'&&k===0&&isDefault()?'<p class="soi-q3-day">Quote of the day</p>':'')+'<blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q)+'</div></div>';
     el.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(b)act(b,q,ph)});return el;
+  }
+  function phOf(k){return PH.length?PH[k%PH.length]:''}
+  function showSpot(){
+    sp.hidden=view!=='spot'||!cur.length;if(sp.hidden)return;
+    var k=spot%cur.length,q=cur[k],ph=phOf(k+7);stopSpeak();
+    sp.innerHTML=(ph?'<img class="soi-q2-bg" src="'+ph+'" alt="">':'')+'<div class="soi-q2-spot-in"><p class="soi-kicker">'+(isDefault()&&k===0?'Quote of the day':'Quote '+(k+1)+' of '+cur.length.toLocaleString())+'</p><svg class="soi-q2-qmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h2A1.5 1.5 0 0 1 10 6.5V11c0 3.4-1.5 5.8-4.6 7.2M14 6.5A1.5 1.5 0 0 1 15.5 5h2A1.5 1.5 0 0 1 19 6.5V11c0 3.4-1.5 5.8-4.6 7.2M5 11h5M14 11h5"/></svg><blockquote><p>'+esc(q.t)+'</p></blockquote><p class="soi-q2-src">'+src(q)+'</p>'+acts(q).replace('soi-q2-act','soi-q2-act is-big')+'</div>'+
+      '<div class="soi-q2-nav"><button type="button" data-nav="-1" aria-label="Previous quote">'+I.prev+'</button><button type="button" data-nav="1" aria-label="Next quote">'+I.next+'</button></div>';
+    sp.onclick=function(e){var n=e.target.closest('[data-nav]');if(n){spot=(spot+cur.length+(+n.dataset.nav))%cur.length;showSpot();return}var b=e.target.closest('button[data-act]');if(b)act(b,q,ph)};
   }
   function stopSpeak(){if(canSpeak&&speaking){speechSynthesis.cancel();setBtn(speaking,false);speaking=null}}
   function setBtn(b,on){if(!b||!b.isConnected)return;b.innerHTML=(on?I.stop:I.listen)+'<span>'+(on?'Stop':'Listen')+'</span>';b.classList.toggle('is-on',on)}
@@ -158,11 +171,15 @@ PAGE = r"""
     cur=ALL.filter(function(q){return (!y||String(q.y)===y)&&(!t||q.tp.indexOf(t)>-1)&&(!w||q.t.toLowerCase().indexOf(w)>-1||q.at.toLowerCase().indexOf(w)>-1)});
     if(shuffle){for(var i=cur.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),x=cur[i];cur[i]=cur[j];cur[j]=x}}
     else if(isDefault()&&DAY>-1){var d=cur.splice(DAY,1)[0];if(d)cur.unshift(d)}
-    stopSpeak();count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');list.innerHTML='';shown=0;grow();
+    spot=0;stopSpeak();count.textContent=cur.length.toLocaleString()+(cur.length===1?' quote':' quotes');list.innerHTML='';shown=0;showSpot();grow();
     if(!cur.length)list.innerHTML='<p class="soi-q-none">No quote matches. Try another word or clear the filters.</p>';
   }
-  function grow(){cur.slice(shown,shown+STEP).forEach(function(q,k){list.appendChild(card(q,shown+k))});shown=Math.min(cur.length,shown+STEP);more.hidden=shown>=cur.length}
+  function grow(){var st=view==='spot'?1:0;cur.slice(st+shown,st+shown+STEP).forEach(function(q,k){list.appendChild(card(q,shown+k))});shown=Math.min(cur.length-st,shown+STEP);more.hidden=shown>=cur.length-st}
   $('soi-q-rand').addEventListener('click',function(){apply(true)});
+  function setView(v){view=v;[].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===v?'true':'false')});try{localStorage.setItem('soi-q-view',v)}catch(e){}list.innerHTML='';shown=0;showSpot();grow()}
+  document.querySelector('.soi-q2-view').addEventListener('click',function(e){var b=e.target.closest('button');if(b)setView(b.dataset.v)});
+  try{if(localStorage.getItem('soi-q-view')==='gallery')view='gallery'}catch(e){}
+  [].forEach.call(document.querySelectorAll('.soi-q2-view button'),function(b){b.setAttribute('aria-pressed',b.dataset.v===view?'true':'false')});
   more.addEventListener('click',grow);find.addEventListener('input',function(){apply()});
   fetch('/assets/quotes.json').then(function(r){return r.json()}).then(function(d){
     ALL=d.quotes;PH=d.photos||[];
