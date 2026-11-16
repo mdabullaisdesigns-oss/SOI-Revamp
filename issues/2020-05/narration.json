@@ -5,7 +5,7 @@
  "articles": {
   "a-message-of-hope": {
    "title": "A Message of Hope",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-a-message-of-hope.mp3",
    "chars": 5083,
    "sentences": [
@@ -87,7 +87,7 @@
   },
   "fake-news": {
    "title": "Fake News",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-fake-news.mp3",
    "chars": 4587,
    "sentences": [
@@ -150,7 +150,7 @@
   },
   "spring-clean-your-mind": {
    "title": "Spring-Clean Your Mind",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-spring-clean-your-mind.mp3",
    "chars": 2938,
    "sentences": [
@@ -193,7 +193,7 @@
   },
   "intellectual-fog": {
    "title": "Intellectual Fog",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-intellectual-fog.mp3",
    "chars": 2749,
    "sentences": [
@@ -230,7 +230,7 @@
   },
   "in-pursuit-of-truth": {
    "title": "In Pursuit of Truth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-in-pursuit-of-truth.mp3",
    "chars": 2214,
    "sentences": [
@@ -267,7 +267,7 @@
   },
   "fate-of-the-truth-teller": {
    "title": "Fate of the Truth-Teller",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-fate-of-the-truth-teller.mp3",
    "chars": 2100,
    "sentences": [
@@ -298,7 +298,7 @@
   },
   "seeker-of-truth": {
    "title": "Seeker of Truth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-seeker-of-truth.mp3",
    "chars": 2087,
    "sentences": [
@@ -329,7 +329,7 @@
   },
   "truth-an-analysis": {
    "title": "Truth—an Analysis",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-truth-an-analysis.mp3",
    "chars": 5932,
    "sentences": [
@@ -409,7 +409,7 @@
   },
   "an-overview-of-modern-atheism": {
    "title": "An Overview of Modern Atheism",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-an-overview-of-modern-atheism.mp3",
    "chars": 9803,
    "sentences": [
@@ -518,7 +518,7 @@
   },
   "acknowledgment-of-the-truth": {
    "title": "Acknowledgment of the Truth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-acknowledgment-of-the-truth.mp3",
    "chars": 1839,
    "sentences": [
@@ -551,7 +551,7 @@
   },
   "atheism-refuted": {
    "title": "Atheism Refuted",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-atheism-refuted.mp3",
    "chars": 4437,
    "sentences": [
@@ -594,7 +594,7 @@
   },
   "appearance-and-reality": {
    "title": "Appearance and Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-appearance-and-reality.mp3",
    "chars": 4061,
    "sentences": [
@@ -638,7 +638,7 @@
   },
   "faith-and-reason": {
    "title": "Faith and Reason",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-faith-and-reason.mp3",
    "chars": 13836,
    "sentences": [
@@ -759,7 +759,7 @@
   },
   "rationality-of-faith": {
    "title": "Rationality of Faith",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-rationality-of-faith.mp3",
    "chars": 11494,
    "sentences": [
@@ -881,7 +881,7 @@
   },
   "denial-of-truth": {
    "title": "Denial of Truth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-denial-of-truth.mp3",
    "chars": 3103,
    "sentences": [
@@ -922,7 +922,7 @@
   },
   "actions-matter": {
    "title": "Actions Matter",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-actions-matter.mp3",
    "chars": 1891,
    "sentences": [
@@ -953,7 +953,7 @@
   },
   "the-moment-of-truth": {
    "title": "The Moment of Truth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-the-moment-of-truth.mp3",
    "chars": 2392,
    "sentences": [
@@ -983,7 +983,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-05-the-word-of-god.mp3",
    "chars": 4891,
    "sentences": [
