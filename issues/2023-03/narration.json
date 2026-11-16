@@ -5,7 +5,7 @@
  "articles": {
   "captcha-test": {
    "title": "Captcha Test",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-captcha-test.mp3",
    "chars": 2089,
    "sentences": [
@@ -43,7 +43,7 @@
   },
   "part-one": {
    "title": "Part One",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-part-one.mp3",
    "chars": 10298,
    "sentences": [
@@ -141,7 +141,7 @@
   },
   "how-god-realization-impacts-ones-life": {
    "title": "How God-Realization Impacts One’s Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-how-god-realization-impacts-ones-life.mp3",
    "chars": 2407,
    "sentences": [
@@ -174,7 +174,7 @@
   },
   "from-the-military-to-the-non-military-age": {
    "title": "From the Military to the Non-Military Age",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-from-the-military-to-the-non-military-age.mp3",
    "chars": 6081,
    "sentences": [
@@ -240,7 +240,7 @@
   },
   "a-life-of-purpose": {
    "title": "A Life of Purpose",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-a-life-of-purpose.mp3",
    "chars": 2804,
    "sentences": [
@@ -272,7 +272,7 @@
   },
   "the-month-of-ramadan": {
    "title": "The Month of Ramadan",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-the-month-of-ramadan.mp3",
    "chars": 4706,
    "sentences": [
@@ -325,7 +325,7 @@
   },
   "fasting-and-the-quran": {
    "title": "Fasting and the Quran",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-fasting-and-the-quran.mp3",
    "chars": 3342,
    "sentences": [
@@ -373,7 +373,7 @@
   },
   "the-tragedy-of-life": {
    "title": "The Tragedy of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-the-tragedy-of-life.mp3",
    "chars": 2286,
    "sentences": [
@@ -407,7 +407,7 @@
   },
   "festival-of-peace": {
    "title": "Festival of Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-festival-of-peace.mp3",
    "chars": 3553,
    "sentences": [
@@ -447,7 +447,7 @@
   },
   "the-most-valuable-asset": {
    "title": "The Most Valuable Asset",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-the-most-valuable-asset.mp3",
    "chars": 2102,
    "sentences": [
@@ -474,7 +474,7 @@
   },
   "purification-of-the-self": {
    "title": "Purification of the Self",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-purification-of-the-self.mp3",
    "chars": 1870,
    "sentences": [
@@ -501,7 +501,7 @@
   },
   "quran-and-modern-science": {
    "title": "Quran and Modern Science",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-quran-and-modern-science.mp3",
    "chars": 2332,
    "sentences": [
@@ -526,7 +526,7 @@
   },
   "religion-and-science": {
    "title": "Religion and Science",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-religion-and-science.mp3",
    "chars": 6810,
    "sentences": [
@@ -589,7 +589,7 @@
   },
   "seeking-the-pleasure-of-god": {
    "title": "Seeking the Pleasure of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-seeking-the-pleasure-of-god.mp3",
    "chars": 1927,
    "sentences": [
@@ -619,7 +619,7 @@
   },
   "sense-of-pleasure": {
    "title": "Sense of Pleasure",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-sense-of-pleasure.mp3",
    "chars": 1803,
    "sentences": [
@@ -755,7 +755,7 @@
   },
   "book-review": {
    "title": "Book Review",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-book-review.mp3",
    "chars": 3002,
    "sentences": [
@@ -796,7 +796,7 @@
   },
   "three-stages-of-life": {
    "title": "Three Stages of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-three-stages-of-life.mp3",
    "chars": 1959,
    "sentences": [
@@ -829,7 +829,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-the-word-of-god.mp3",
    "chars": 5777,
    "sentences": [
@@ -901,7 +901,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-03-your-questions-answered.mp3",
    "chars": 5552,
    "sentences": [
