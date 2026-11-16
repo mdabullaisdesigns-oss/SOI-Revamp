@@ -5,7 +5,7 @@
  "articles": {
   "my-motherland": {
    "title": "My Motherland",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-my-motherland.mp3",
    "chars": 3172,
    "sentences": [
@@ -51,7 +51,7 @@
   },
   "the-essence-of-religion-part-ii": {
    "title": "The Essence of Religion–part II",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-the-essence-of-religion-part-ii.mp3",
    "chars": 7656,
    "sentences": [
@@ -128,7 +128,7 @@
   },
   "happiness": {
    "title": "Happiness",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-happiness.mp3",
    "chars": 1830,
    "sentences": [
@@ -160,7 +160,7 @@
   },
   "the-i-am-right-syndrome": {
    "title": "The 'i Am Right' Syndrome",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-the-i-am-right-syndrome.mp3",
    "chars": 2021,
    "sentences": [
@@ -186,7 +186,7 @@
   },
   "zakat-the-prescribed-charity": {
    "title": "Zakat: The Prescribed Charity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-zakat-the-prescribed-charity.mp3",
    "chars": 5322,
    "sentences": [
@@ -240,7 +240,7 @@
   },
   "remarks-of-donald-trump": {
    "title": "Remarks of Donald Trump",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-remarks-of-donald-trump.mp3",
    "chars": 3799,
    "sentences": [
@@ -280,7 +280,7 @@
   },
   "genesis-of-muslim-militancy": {
    "title": "Genesis of Muslim Militancy",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-genesis-of-muslim-militancy.mp3",
    "chars": 4068,
    "sentences": [
@@ -326,7 +326,7 @@
   },
   "the-quran-and-wazu": {
    "title": "The Quran and Wazu",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-the-quran-and-wazu.mp3",
    "chars": 1360,
    "sentences": [
@@ -350,7 +350,7 @@
   },
   "spiritual-development": {
    "title": "Spiritual Development",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-spiritual-development.mp3",
    "chars": 1704,
    "sentences": [
@@ -382,7 +382,7 @@
   },
   "god-given-hope": {
    "title": "God-Given Hope",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-god-given-hope.mp3",
    "chars": 1399,
    "sentences": [
@@ -407,7 +407,7 @@
   },
   "fasting-as-a-spiritual-culture": {
    "title": "Fasting as a Spiritual Culture",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-fasting-as-a-spiritual-culture.mp3",
    "chars": 2442,
    "sentences": [
@@ -448,7 +448,7 @@
   },
   "waiting-for-a-better-future": {
    "title": "Waiting for a Better Future",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-waiting-for-a-better-future.mp3",
    "chars": 1215,
    "sentences": [
@@ -472,7 +472,7 @@
   },
   "interdependence": {
    "title": "Interdependence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-interdependence.mp3",
    "chars": 5383,
    "sentences": [
@@ -535,7 +535,7 @@
   },
   "between-two-options": {
    "title": "Between Two Options",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-between-two-options.mp3",
    "chars": 1276,
    "sentences": [
@@ -561,7 +561,7 @@
   },
   "emotions-of-faith": {
    "title": "Emotions of Faith",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-emotions-of-faith.mp3",
    "chars": 4628,
    "sentences": [
@@ -640,7 +640,7 @@
   },
   "mans-true-purpose-in-life": {
    "title": "Man’s True Purpose in Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-mans-true-purpose-in-life.mp3",
    "chars": 4337,
    "sentences": [
@@ -696,7 +696,7 @@
   },
   "undiscovered-reality": {
    "title": "Undiscovered Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-undiscovered-reality.mp3",
    "chars": 2105,
    "sentences": [
@@ -737,7 +737,7 @@
   },
   "wrong-application-of-a-criterion": {
    "title": "Wrong Application of a Criterion",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-wrong-application-of-a-criterion.mp3",
    "chars": 1798,
    "sentences": [
@@ -764,7 +764,7 @@
   },
   "the-return-to-religion": {
    "title": "The Return to Religion",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-the-return-to-religion.mp3",
    "chars": 5825,
    "sentences": [
@@ -824,7 +824,7 @@
   },
   "modern-civilization": {
    "title": "Modern Civilization",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-modern-civilization.mp3",
    "chars": 6548,
    "sentences": [
@@ -887,7 +887,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-the-word-of-god.mp3",
    "chars": 4454,
    "sentences": [
@@ -942,7 +942,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-05-ask-maulana.mp3",
    "chars": 7796,
    "sentences": [
