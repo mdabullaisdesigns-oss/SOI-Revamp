@@ -5,7 +5,7 @@
  "articles": {
   "new-years-message": {
    "title": "New Year’s Message",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-new-years-message.mp3",
    "chars": 4679,
    "sentences": [
@@ -55,7 +55,7 @@
   },
   "creation-for-what": {
    "title": "Creation for What?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-creation-for-what.mp3",
    "chars": 3188,
    "sentences": [
@@ -104,7 +104,7 @@
   },
   "lessons-from-2020": {
    "title": "Lessons from 2020",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-lessons-from-2020.mp3",
    "chars": 4554,
    "sentences": [
@@ -163,7 +163,7 @@
   },
   "god-fearing-speech": {
    "title": "God-Fearing Speech",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-god-fearing-speech.mp3",
    "chars": 1941,
    "sentences": [
@@ -196,7 +196,7 @@
   },
   "correcting-peoples-mistakes": {
    "title": "Correcting People’s Mistakes",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-correcting-peoples-mistakes.mp3",
    "chars": 6380,
    "sentences": [
@@ -304,7 +304,7 @@
   },
   "a-misplaced-call-for-violence": {
    "title": "A Misplaced Call for Violence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-a-misplaced-call-for-violence.mp3",
    "chars": 7670,
    "sentences": [
@@ -373,7 +373,7 @@
   },
   "looking-beyond-the-self": {
    "title": "Looking Beyond the Self",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-looking-beyond-the-self.mp3",
    "chars": 2799,
    "sentences": [
@@ -407,7 +407,7 @@
   },
   "right-thinking": {
    "title": "Right-Thinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-right-thinking.mp3",
    "chars": 2324,
    "sentences": [
@@ -438,7 +438,7 @@
   },
   "a-positive-aspect-of-illness": {
    "title": "A Positive Aspect of Illness",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-a-positive-aspect-of-illness.mp3",
    "chars": 1529,
    "sentences": [
@@ -462,7 +462,7 @@
   },
   "secret-to-a-thriving-society": {
    "title": "Secret to a Thriving Society",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-secret-to-a-thriving-society.mp3",
    "chars": 1940,
    "sentences": [
@@ -491,7 +491,7 @@
   },
   "the-value-of-supplication-dua": {
    "title": "The Value of Supplication (dua)",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-the-value-of-supplication-dua.mp3",
    "chars": 1876,
    "sentences": [
@@ -551,7 +551,7 @@
   },
   "a-grand-compromise": {
    "title": "A Grand Compromise",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-a-grand-compromise.mp3",
    "chars": 2214,
    "sentences": [
@@ -579,7 +579,7 @@
   },
   "true-object-of-veneration": {
    "title": "True Object of Veneration",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-true-object-of-veneration.mp3",
    "chars": 2180,
    "sentences": [
@@ -608,7 +608,7 @@
   },
   "truth-needs-no-defence": {
    "title": "Truth Needs No Defence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-truth-needs-no-defence.mp3",
    "chars": 2589,
    "sentences": [
@@ -641,7 +641,7 @@
   },
   "making-of-the-indian-nation": {
    "title": "Making of the Indian Nation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-making-of-the-indian-nation.mp3",
    "chars": 7082,
    "sentences": [
@@ -711,7 +711,7 @@
   },
   "when-plans-fail": {
    "title": "When Plans Fail",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-when-plans-fail.mp3",
    "chars": 3060,
    "sentences": [
@@ -746,7 +746,7 @@
   },
   "advancement-of-medicine": {
    "title": "Advancement of Medicine",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-advancement-of-medicine.mp3",
    "chars": 9744,
    "sentences": [
@@ -837,7 +837,7 @@
   },
   "following-the-model-of-nature": {
    "title": "Following the Model of Nature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-following-the-model-of-nature.mp3",
    "chars": 3384,
    "sentences": [
@@ -946,7 +946,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2021-01-ask-maulana.mp3",
    "chars": 3604,
    "sentences": [
