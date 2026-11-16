@@ -5,7 +5,7 @@
  "articles": {
   "the-greatest-gift": {
    "title": "The Greatest Gift",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-the-greatest-gift.mp3",
    "chars": 3268,
    "sentences": [
@@ -47,7 +47,7 @@
   },
   "paradise-lies-at-the-feet-of-the-mother": {
    "title": "Paradise Lies at the Feet of the Mother",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-paradise-lies-at-the-feet-of-the-mother.mp3",
    "chars": 1729,
    "sentences": [
@@ -75,7 +75,7 @@
   },
   "natures-laboratory": {
    "title": "Nature’s Laboratory",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-natures-laboratory.mp3",
    "chars": 2006,
    "sentences": [
@@ -106,7 +106,7 @@
   },
   "my-mother-an-exemplary-woman": {
    "title": "My Mother—an Exemplary Woman",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-my-mother-an-exemplary-woman.mp3",
    "chars": 14995,
    "sentences": [
@@ -233,7 +233,7 @@
   },
   "quest-for-life-in-space": {
    "title": "Quest for Life in Space",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-quest-for-life-in-space.mp3",
    "chars": 3006,
    "sentences": [
@@ -264,7 +264,7 @@
   },
   "why-this-contradiction": {
    "title": "Why This Contradiction?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-why-this-contradiction.mp3",
    "chars": 6923,
    "sentences": [
@@ -352,7 +352,7 @@
   },
   "be-grateful-for-your-youth": {
    "title": "Be Grateful for Your Youth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-be-grateful-for-your-youth.mp3",
    "chars": 1713,
    "sentences": [
@@ -385,7 +385,7 @@
   },
   "the-object-of-reverence": {
    "title": "The Object of Reverence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-the-object-of-reverence.mp3",
    "chars": 1811,
    "sentences": [
@@ -410,7 +410,7 @@
   },
   "burqa-in-the-muslim-society": {
    "title": "Burqa in the Muslim Society",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-burqa-in-the-muslim-society.mp3",
    "chars": 3502,
    "sentences": [
@@ -449,7 +449,7 @@
   },
   "the-spiritual-loss-caused-by-greed": {
    "title": "The Spiritual Loss Caused by Greed",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-the-spiritual-loss-caused-by-greed.mp3",
    "chars": 1499,
    "sentences": [
@@ -478,7 +478,7 @@
   },
   "islamic-approach-to-divorce": {
    "title": "Islamic Approach to Divorce",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-islamic-approach-to-divorce.mp3",
    "chars": 16515,
    "sentences": [
@@ -634,7 +634,7 @@
   },
   "peace-a-positive-behaviour": {
    "title": "Peace—a Positive Behaviour",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-peace-a-positive-behaviour.mp3",
    "chars": 2868,
    "sentences": [
@@ -737,7 +737,7 @@
   },
   "prophet-as-a-model": {
    "title": "Prophet as a Model",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-prophet-as-a-model.mp3",
    "chars": 4031,
    "sentences": [
@@ -787,7 +787,7 @@
   },
   "blame-thyself": {
    "title": "Blame Thyself",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-blame-thyself.mp3",
    "chars": 2030,
    "sentences": [
@@ -814,7 +814,7 @@
   },
   "end-of-the-age-of-war": {
    "title": "End of the Age of War",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-end-of-the-age-of-war.mp3",
    "chars": 5523,
    "sentences": [
@@ -878,7 +878,7 @@
   },
   "accept-death-as-a-test": {
    "title": "Accept Death as a Test",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-accept-death-as-a-test.mp3",
    "chars": 1780,
    "sentences": [
@@ -913,7 +913,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-the-word-of-god.mp3",
    "chars": 3232,
    "sentences": [
@@ -954,7 +954,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-03-ask-maulana.mp3",
    "chars": 3442,
    "sentences": [
