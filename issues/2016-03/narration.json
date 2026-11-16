@@ -5,7 +5,7 @@
  "articles": {
   "from-maulanas-desk": {
    "title": "From Maulana’s Desk",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-from-maulanas-desk.mp3",
    "chars": 3932,
    "sentences": [
@@ -111,7 +111,7 @@
   },
   "bearing-fruit": {
    "title": "Bearing Fruit",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-bearing-fruit.mp3",
    "chars": 2027,
    "sentences": [
@@ -132,7 +132,7 @@
   },
   "on-pacifism": {
    "title": "On Pacifism",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-on-pacifism.mp3",
    "chars": 4560,
    "sentences": [
@@ -185,7 +185,7 @@
   },
   "the-advice-of-a-wise-man": {
    "title": "The Advice of a Wise Man",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-the-advice-of-a-wise-man.mp3",
    "chars": 1908,
    "sentences": [
@@ -217,7 +217,7 @@
   },
   "the-greatest-teacher-death": {
    "title": "The Greatest Teacher—death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-the-greatest-teacher-death.mp3",
    "chars": 3488,
    "sentences": [
@@ -257,7 +257,7 @@
   },
   "dowry-and-dower": {
    "title": "Dowry and Dower",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-dowry-and-dower.mp3",
    "chars": 12381,
    "sentences": [
@@ -391,7 +391,7 @@
   },
   "when-one-is-broken-into-two": {
    "title": "When One Is Broken into Two",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-when-one-is-broken-into-two.mp3",
    "chars": 1713,
    "sentences": [
@@ -415,7 +415,7 @@
   },
   "human-values-in-islam": {
    "title": "Human Values in Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-human-values-in-islam.mp3",
    "chars": 5555,
    "sentences": [
@@ -469,7 +469,7 @@
   },
   "informal-education": {
    "title": "Informal Education",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-informal-education.mp3",
    "chars": 3630,
    "sentences": [
@@ -517,7 +517,7 @@
   },
   "right-thinking": {
    "title": "Right Thinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-right-thinking.mp3",
    "chars": 7898,
    "sentences": [
@@ -635,7 +635,7 @@
   },
   "high-achievers": {
    "title": "High Achievers",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-high-achievers.mp3",
    "chars": 2480,
    "sentences": [
@@ -662,7 +662,7 @@
   },
   "political-islam-its-proponents": {
    "title": "Political Islam & It's Proponents",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-political-islam-its-proponents.mp3",
    "chars": 8156,
    "sentences": [
@@ -740,7 +740,7 @@
   },
   "successful-marriage": {
    "title": "Successful Marriage",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-successful-marriage.mp3",
    "chars": 4879,
    "sentences": [
@@ -801,7 +801,7 @@
   },
   "peace-the-greatest-good": {
    "title": "Peace: The Greatest Good",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-peace-the-greatest-good.mp3",
    "chars": 3328,
    "sentences": [
@@ -919,7 +919,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-03-ask-maulana.mp3",
    "chars": 5648,
    "sentences": [
