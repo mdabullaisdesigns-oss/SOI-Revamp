@@ -122,12 +122,30 @@ def first_para(runs, times):
 def link_buttons(links, text):
     out = []
     for u in dict.fromkeys(l.strip() for l in links):
-        bare = re.sub(r"^https?://(www\.)?", "", u).rstrip("/")
-        if bare and bare.split("/")[0] in text and len(dict.fromkeys(links)) == 1 and URL.search(text):
+        bare = re.sub(r"^(https?://(www\.)?|mailto:)", "", u).rstrip("/")
+        if bare and bare.split("/")[0] in text and (u.startswith("mailto:") or URL.search(text)):
             continue                                    # already a link inside the paragraph
         label = "Email" if u.startswith("mailto:") else re.sub(r"^www\.", "", bare.split("/")[0]) or "Open link"
         out.append(f'<a class="ev-link" href="{html.escape(u)}" target="_blank" rel="noopener noreferrer">{esc(label)}{ARROW}</a>')
     return ("<p>" + "".join(out) + "</p>") if out else ""
+
+
+MAIL_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M4.5 6.5 12 13l7.5-6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>'
+
+
+def contact_pills(text):
+    """The editor's contact line ("editor@... Follow Maulana at speakingtree.in (The Times of India)")
+    as tidy buttons. Every word of the line stays visible; anything else falls back to plain text."""
+    m = re.fullmatch(r"((?:\S+@\s?\S+\.\w+\s*)+)(Follow\s+(?:Maulana|him)\s+at\s+(?:https?://)?(?:www\.)?([\w.-]+\.\w+)/?(?:\s*\((?:The\s+)?Times\s+of\s+India\))?)?\s*", text)
+    if not m:
+        return None
+    out = []
+    for mail in re.findall(r"\S+@\s?\S+\.\w+", m.group(1)):
+        out.append(f'<a class="ev-sign-pill" href="mailto:{html.escape(mail.replace(" ", ""))}">{MAIL_ICON}<span>{esc(mail)}</span></a>')
+    if m.group(2):
+        label = re.sub(r"(?:https?://)?(?:www\.)?([\w.-]+\.\w+)/?", r"\1", m.group(2))
+        out.append(f'<a class="ev-sign-pill" href="https://www.{html.escape(m.group(3))}/" target="_blank" rel="noopener noreferrer"><span>{esc(label)}</span>{ARROW}</a>')
+    return f'<p class="ev-sign-links">{"".join(out)}</p>'
 
 
 def author_from_bio(text):
@@ -176,7 +194,10 @@ def render_article(a, audio, photo, player_tpl):
             author = author or author_from_bio(text)
             note = (f'<aside class="ev-note"><span class="ev-note-label">{section_note}</span>'
                     f'<p>{linkify(esc(text))}</p></aside>')
-            (body if a["type"] != "article" else tail_notes).append(note)
+            if re.search(r"editor.?in.?chief|chief editor", a.get("kicker", "") + " " + a.get("section", ""), re.I):
+                body.insert(0, note.replace(f">{section_note}<", ">About the Editor-in-Chief<"))   # as in the magazine: introduced before the article
+            else:
+                (body if a["type"] != "article" else tail_notes).append(note)
         elif k == "intro":
             paras = [f"<p>{spans(runs, times)}</p>"]
             while n + 1 < len(items) and items[n + 1]["k"] == "intro":
@@ -196,11 +217,24 @@ def render_article(a, audio, photo, player_tpl):
         elif k == "signoff":
             name = re.split(r"\s+\S*@", text)[0].strip()
             rest = text[len(name):].strip()
-            body.append(f'<p class="ev-byline">{esc(name)}</p>')
-            if rest:
-                body.append(f'<p class="ev-contact">{linkify(esc(rest))}</p>')
+            nxt = items[n + 1] if n + 1 < len(items) else None
+            pills = contact_pills(rest) if rest else None
+            if not rest and nxt and nxt["k"] == "contact":
+                pills = contact_pills(plain(nxt["runs"]).strip())
+                if pills:
+                    n += 1; extra = ""                  # the contact line is shown as buttons inside the sign-off
+            if pills:
+                body.append(f'<div class="ev-sign"><p class="ev-byline">{esc(name)}</p>{pills}</div>')
+            else:
+                body.append(f'<p class="ev-byline">{esc(name)}</p>')
+                if rest:
+                    body.append(f'<p class="ev-contact">{linkify(esc(rest))}</p>')
         elif k == "contact":
-            body.append(f'<p class="ev-contact">{linkify(esc(text))}</p>')
+            pills = contact_pills(text)
+            if pills:
+                body.append(f'<div class="ev-sign">{pills}</div>'); extra = ""
+            else:
+                body.append(f'<p class="ev-contact">{linkify(esc(text))}</p>')
         elif k == "gloss":                               # glossary entry: term in bold, then its meaning
             body.append(f'<p class="ev-fn">{run_inline(runs)}</p>')
         elif k in ("footnote", "small"):

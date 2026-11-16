@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["site/**", "issues/*/SOI-*-complete.html", ".github/workflows/soi-site.yml"]
+    paths: ["site/**", "issues/*/SOI-*-complete.html", "pipeline/build.py", "pipeline/templates/**", ".github/workflows/soi-site.yml"]
 
 jobs:
   build:
@@ -20,6 +20,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q "pagefind[bin]"
+      - name: Rebuild every issue page with the current templates (and newest audio)
+        run: for d in issues/*/; do s=$(basename "$d"); [ -f "$d/issue.json" ] && [ -f "$d/SOI-$s-complete.html" ] && python3 pipeline/build.py "$s" > /dev/null || true; done
       - run: python3 site/build_site.py
       - name: Test the pages against the approved design
         run: |
