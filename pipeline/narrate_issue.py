@@ -54,6 +54,8 @@ def main():
         name = f"SOI-{slug}-{a['id']}.mp3"
         if a.get("audio") is False or a["title"].strip().lower() in EXCLUDE:
             skipped.append(a["title"]); continue          # an existing recording of these (if any) is kept
+        if not paras_of(a):                            # nothing to read aloud (e.g. only an author note)
+            skipped.append(a["title"] + " (no text)"); continue
         if only and a["id"] not in only:
             continue
         url = f"{AUDIO_BASE}/{slug[:4]}/{name}"
