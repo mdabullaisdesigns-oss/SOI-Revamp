@@ -5,7 +5,7 @@
  "articles": {
   "the-cause-of-discord": {
    "title": "The Cause of Discord",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-the-cause-of-discord.mp3",
    "chars": 2330,
    "sentences": [
@@ -33,7 +33,7 @@
   },
   "sustainable-living-an-islamic-perspective": {
    "title": "Sustainable Living—an Islamic Perspective",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-sustainable-living-an-islamic-perspective.mp3",
    "chars": 11529,
    "sentences": [
@@ -157,7 +157,7 @@
   },
   "without-prejudice": {
    "title": "Without Prejudice",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-without-prejudice.mp3",
    "chars": 1938,
    "sentences": [
@@ -181,7 +181,7 @@
   },
   "weathering-the-storm": {
    "title": "Weathering the Storm",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-weathering-the-storm.mp3",
    "chars": 2403,
    "sentences": [
@@ -210,7 +210,7 @@
   },
   "growing-old-is-certainly-not-a-countdown": {
    "title": "Growing Old Is Certainly Not a Countdown",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-growing-old-is-certainly-not-a-countdown.mp3",
    "chars": 3439,
    "sentences": [
@@ -246,7 +246,7 @@
   },
   "the-ideology-of-peace": {
    "title": "The Ideology of Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-the-ideology-of-peace.mp3",
    "chars": 3441,
    "sentences": [
@@ -427,7 +427,7 @@
   },
   "belief-in-god": {
    "title": "Belief in God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-belief-in-god.mp3",
    "chars": 2050,
    "sentences": [
@@ -449,7 +449,7 @@
   },
   "islamic-virtues": {
    "title": "Islamic Virtues",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-islamic-virtues.mp3",
    "chars": 2129,
    "sentences": [
@@ -478,7 +478,7 @@
   },
   "magic-and-miracle": {
    "title": "Magic and Miracle",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-magic-and-miracle.mp3",
    "chars": 2470,
    "sentences": [
@@ -512,7 +512,7 @@
   },
   "adapting-to-a-new-world": {
    "title": "Adapting to a New World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-adapting-to-a-new-world.mp3",
    "chars": 3189,
    "sentences": [
@@ -546,7 +546,7 @@
   },
   "islams-original-sources": {
    "title": "Islam’s Original Sources",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-islams-original-sources.mp3",
    "chars": 5710,
    "sentences": [
@@ -613,7 +613,7 @@
   },
   "serendipity": {
    "title": "Serendipity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-serendipity.mp3",
    "chars": 2312,
    "sentences": [
@@ -637,7 +637,7 @@
   },
   "start-change-with-the-individual": {
    "title": "Start Change with the Individual",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-start-change-with-the-individual.mp3",
    "chars": 1770,
    "sentences": [
@@ -662,7 +662,7 @@
   },
   "military-power-is-self-damaging": {
    "title": "Military Power Is Self-Damaging",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-military-power-is-self-damaging.mp3",
    "chars": 1521,
    "sentences": [
@@ -685,7 +685,7 @@
   },
   "how-to-find-purpose-in-life": {
    "title": "How to Find Purpose in Life?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-how-to-find-purpose-in-life.mp3",
    "chars": 7323,
    "sentences": [
@@ -758,7 +758,7 @@
   },
   "silence": {
    "title": "Silence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-silence.mp3",
    "chars": 2275,
    "sentences": [
@@ -786,7 +786,7 @@
   },
   "the-key-to-social-harmony": {
    "title": "The Key to Social Harmony",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-the-key-to-social-harmony.mp3",
    "chars": 2893,
    "sentences": [
@@ -815,7 +815,7 @@
   },
   "is-there-an-afterlife": {
    "title": "Is There an Afterlife?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-is-there-an-afterlife.mp3",
    "chars": 5216,
    "sentences": [
@@ -870,7 +870,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-the-word-of-god.mp3",
    "chars": 3141,
    "sentences": [
@@ -905,7 +905,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-09-ask-maulana.mp3",
    "chars": 3639,
    "sentences": [
