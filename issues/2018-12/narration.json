@@ -5,7 +5,7 @@
  "articles": {
   "the-aim-of-islam": {
    "title": "The Aim of Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-the-aim-of-islam.mp3",
    "chars": 2440,
    "sentences": [
@@ -32,7 +32,7 @@
   },
   "womanhood-in-islam": {
    "title": "Womanhood in Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-womanhood-in-islam.mp3",
    "chars": 5049,
    "sentences": [
@@ -141,7 +141,7 @@
   },
   "for-the-good-of-humankind": {
    "title": "For the Good of Humankind",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-for-the-good-of-humankind.mp3",
    "chars": 2625,
    "sentences": [
@@ -169,7 +169,7 @@
   },
   "repetition-in-the-quran": {
    "title": "Repetition in the Quran",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-repetition-in-the-quran.mp3",
    "chars": 2798,
    "sentences": [
@@ -203,7 +203,7 @@
   },
   "the-faithful-ones": {
    "title": "The Faithful Ones",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-the-faithful-ones.mp3",
    "chars": 2000,
    "sentences": [
@@ -235,7 +235,7 @@
   },
   "peace-in-kashmir": {
    "title": "Peace in Kashmir",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-peace-in-kashmir.mp3",
    "chars": 13753,
    "sentences": [
@@ -411,7 +411,7 @@
   },
   "spiritual-quest": {
    "title": "Spiritual Quest",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-spiritual-quest.mp3",
    "chars": 4821,
    "sentences": [
@@ -470,7 +470,7 @@
   },
   "great-goals": {
    "title": "Great Goals",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-great-goals.mp3",
    "chars": 1912,
    "sentences": [
@@ -499,7 +499,7 @@
   },
   "creative-thinking": {
    "title": "Creative Thinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-creative-thinking.mp3",
    "chars": 2373,
    "sentences": [
@@ -528,7 +528,7 @@
   },
   "sound-judgement": {
    "title": "Sound Judgement",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-sound-judgement.mp3",
    "chars": 1919,
    "sentences": [
@@ -553,7 +553,7 @@
   },
   "meaningful-life": {
    "title": "Meaningful Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-meaningful-life.mp3",
    "chars": 2845,
    "sentences": [
@@ -596,7 +596,7 @@
   },
   "wisdom-from-the-prophet": {
    "title": "Wisdom from the Prophet",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-wisdom-from-the-prophet.mp3",
    "chars": 2467,
    "sentences": [
@@ -623,7 +623,7 @@
   },
   "the-successful-method": {
    "title": "The Successful Method",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-the-successful-method.mp3",
    "chars": 2490,
    "sentences": [
@@ -658,7 +658,7 @@
   },
   "an-identity-card": {
    "title": "An Identity Card",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-an-identity-card.mp3",
    "chars": 2166,
    "sentences": [
@@ -691,7 +691,7 @@
   },
   "remembrance-of-death": {
    "title": "Remembrance of Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-remembrance-of-death.mp3",
    "chars": 4228,
    "sentences": [
@@ -739,7 +739,7 @@
   },
   "global-warming": {
    "title": "Global Warming",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-global-warming.mp3",
    "chars": 5912,
    "sentences": [
@@ -798,7 +798,7 @@
   },
   "right-choice": {
    "title": "Right Choice",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-right-choice.mp3",
    "chars": 4950,
    "sentences": [
@@ -847,7 +847,7 @@
   },
   "the-practical-approach": {
    "title": "The Practical Approach",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-the-practical-approach.mp3",
    "chars": 1614,
    "sentences": [
@@ -923,7 +923,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-ask-maulana.mp3",
    "chars": 4289,
    "sentences": [
@@ -967,7 +967,7 @@
   },
   "re-engineering-minds-towards-peace": {
    "title": "Re-Engineering Minds Towards Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-12-re-engineering-minds-towards-peace.mp3",
    "chars": 870,
    "sentences": [
