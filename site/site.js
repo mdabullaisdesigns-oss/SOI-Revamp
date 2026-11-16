@@ -102,6 +102,10 @@
     var bar = $('.soi-menu'); if (!bar) return;
     var toggle = $('.soi-menu-toggle', bar), list = $('.soi-menu-list', bar);
     function closeAll(except) { $$('.soi-has-sub.is-open', bar).forEach(function (li) { if (li !== except) { li.classList.remove('is-open'); var b = $('.soi-menu-top', li); if (b) b.setAttribute('aria-expanded', 'false'); } }); }
+    /* get the issue list ready early, so Archives opens at once on phones */
+    var warm = function () { var li = $('.soi-has-mega', bar); if (li) mega(li); };
+    if ('requestIdleCallback' in window) requestIdleCallback(warm, { timeout: 2500 }); else setTimeout(warm, 1200);
+    if (toggle) toggle.addEventListener('pointerdown', warm, { once: true });
     if (toggle) toggle.addEventListener('click', function () {
       var on = !bar.classList.contains('is-open'); bar.classList.toggle('is-open', on); toggle.setAttribute('aria-expanded', on ? 'true' : 'false'); if (!on) closeAll();
     });
@@ -132,9 +136,11 @@
         }).join('');
       }
       yearsEl.innerHTML = years.map(function (y) { return '<button type="button" data-y="' + y + '" aria-pressed="false">' + y + '</button>'; }).join('');
-      yearsEl.addEventListener('mouseover', function (e) { var b = e.target.closest('button'); if (b) pick(+b.dataset.y); });
-      yearsEl.addEventListener('focusin', function (e) { var b = e.target.closest('button'); if (b) pick(+b.dataset.y); });
-      yearsEl.addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; if (window.matchMedia('(max-width: 980px)').matches) location.href = '/archive/#y' + b.dataset.y; else pick(+b.dataset.y); });
+      var pinned = null;                                   /* a clicked year stays until the pointer leaves the menu */
+      yearsEl.addEventListener('mouseover', function (e) { var b = e.target.closest('button'); if (b && !pinned) pick(+b.dataset.y); });
+      yearsEl.addEventListener('focusin', function (e) { var b = e.target.closest('button'); if (b && !pinned) pick(+b.dataset.y); });
+      box.addEventListener('mouseleave', function () { pinned = null; });
+      yearsEl.addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; if (window.matchMedia('(max-width: 980px)').matches) { location.href = '/archive/#y' + b.dataset.y; return; } pinned = +b.dataset.y; pick(pinned); });
       pick(years[0]);
     }).catch(function () { delete box.dataset.ready; });
   }

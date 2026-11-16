@@ -307,7 +307,7 @@ body:not(.soi-home) .soi-menubar { background: #FBFAF6; }
 .soi-foot strong { color: #fff; } .soi-foot a { color: var(--soi-cream); } .soi-foot a:hover { color: #fff; }
 .soi-foot-credit { background: var(--soi-teal-dark); text-align: center; padding: 14px; font-size: 13px; }
 @media (max-width: 760px) { .soi-foot-in { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 36px 20px; } .soi-foot-in > div:first-child { grid-column: 1 / -1; } }
-@media (max-width: 420px) { .soi-pager { flex-direction: column; } .soi-pager a { max-width: none; } .soi-search button { padding: 0 16px; } }
+@media (max-width: 420px) { .soi-search button { padding: 0 16px; } }
 .soi-about h2:first-child { font-size: .85rem; font-family: var(--soi-sans); letter-spacing: .14em; color: #53656D; margin: 0; } .soi-about > p:first-child { font-size: .8rem; font-weight: 700; letter-spacing: .14em; color: #53656D; margin: 0; }
 .soi-about > p:nth-child(2) { font-family: var(--soi-display); font-weight: 700; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.12; margin: 6px 0 22px; color: var(--soi-teal-dark); }
 .soi-years { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -849,3 +849,19 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 .soi-ev .ev-sign-pill span { overflow-wrap: anywhere; }
 .soi-ev .ev-sign-pill svg { width: 16px; height: 16px; flex: none; }
 .soi-ev .ev-sign-pill:hover, .soi-ev .ev-sign-pill:focus-visible { border-color: #EA3451; color: #EA3451; }
+
+/* 16 Nov evening: issue page spacing, previous/next issue (phone friendly) */
+.soi-auto-banner { margin-top: 24px; }
+@media (max-width: 640px) { .soi-auto-banner { margin-top: 16px; } }
+.soi-pager { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.soi-pager a { max-width: none; display: flex; align-items: center; gap: 10px; min-height: 64px; padding: 12px 14px; }
+.soi-pager a > span { min-width: 0; }
+.soi-pager .soi-next { justify-content: flex-end; margin-left: 0; }
+.soi-pager svg { width: 22px; height: 22px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.soi-pager a:hover svg { color: #EA3451; }
+@media (max-width: 480px) { .soi-pager a { font-size: .95rem; padding: 10px; gap: 6px; } .soi-pager small { font-size: .6rem; letter-spacing: .08em; } .soi-pager svg { width: 18px; height: 18px; } }
+/* credit: "Design & Development by" with the button below it on phones */
+@media (max-width: 640px) { .soi-credit-in { flex-direction: column; flex-wrap: nowrap; justify-content: center; padding: 16px 16px 18px; gap: 10px; } }
+
+/* archive: year buttons centred */
+.soi-years { justify-content: center; }

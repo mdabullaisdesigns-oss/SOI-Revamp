@@ -223,7 +223,7 @@ def page(title, body, desc="", cls="", head="", current=""):
   </div>
 </footer>
 <section class="soi-credit" aria-label="Website credit">
-  <p class="soi-credit-in"><span>Website by Md Abullais</span><a class="soi-credit-click" href="{CREDIT_HREF}" target="_blank" rel="noopener" aria-label="Contact Md Abullais, the website developer">Click</a></p>
+  <p class="soi-credit-in"><span>Design &amp; Development by Md Abullais</span><a class="soi-credit-click" href="{CREDIT_HREF}" target="_blank" rel="noopener" aria-label="Contact Md Abullais, the website developer">Click</a></p>
 </section>
 </body>
 </html>
@@ -499,8 +499,8 @@ def build():
         prev, nxt = (issues[k - 1] if k else None), (issues[k + 1] if k + 1 < len(issues) else None)
         label = f"Issue {i['number']} · {i['period']}" if i["number"] else i["period"]
         nav = ('<nav class="soi-wrap soi-pager" aria-label="Other issues">'
-               + (f'<a href="/issues/{prev["slug"]}/"><small>Previous issue</small>{esc(prev["period"])}</a>' if prev else "<span></span>")
-               + (f'<a class="soi-next" href="/issues/{nxt["slug"]}/"><small>Next issue</small>{esc(nxt["period"])}</a>' if nxt else "<span></span>")
+               + (f'<a class="soi-prev" href="/issues/{prev["slug"]}/" rel="prev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span><small>Previous issue</small>{esc(prev["period"])}</span></a>' if prev else "<span></span>")
+               + (f'<a class="soi-next" href="/issues/{nxt["slug"]}/" rel="next"><span><small>Next issue</small>{esc(nxt["period"])}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></a>' if nxt else "<span></span>")
                + "</nav>")
         body = f"""
 <div class="soi-auto-banner"><div class="soi-banner-scope"><div class="context-banner">
