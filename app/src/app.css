@@ -1,148 +1,309 @@
-/* Spirit of Islam app – styles on top of the website's (ids/classes prefixed soi-app). Approved canvas "SOI Redesign". */
-html.soi-app { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; }
-html.soi-app body { background: #FBFAF6; }
-/* the website's header, menu bar and footer are not shown inside the app */
-html.soi-app .soi-hdr, html.soi-app .soi-menubar, html.soi-app .soi-foot, html.soi-app .soi-skip { display: none !important; }
-html.soi-app body.soi-app-has-tabs { padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)); }
-html.soi-app .soi-sec:first-child, html.soi-app .soi-page-head.soi-sec { margin-top: 20px; }
+/* Spirit of Islam app. Approved SOI design system: teal #204E60 (dark #173A48), gold #D4CC73, cream #EEEEE5,
+   crimson #EA3451 only as a small accent; headings Cita Pro, text Plus Jakarta Sans. Everything prefixed soi-app.
+   Sizes are in rem so the phone's text size (Dynamic Type on iPhone, font scale on Android) and the in-app text
+   size carry through. Light and dark follow the phone unless the reader chooses one in Profile. */
+@font-face { font-family: "Cita Pro"; src: url("/assets/fonts/CitaPro-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cita Pro"; src: url("/assets/fonts/CitaPro-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cita Pro"; src: url("/assets/fonts/CitaPro-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Cita Pro"; src: url("/assets/fonts/CitaPro-BoldItalic.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Cita Pro Ita"; src: url("/assets/fonts/CitaPro-Italic.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Cita Pro Ita"; src: url("/assets/fonts/CitaPro-BoldItalic.woff2") format("woff2"); font-weight: 700; font-display: swap; }
 
-#soi-app-bar { position: sticky; top: 0; z-index: 70; display: flex; align-items: center; gap: 6px; background: #FBFAF6; border-bottom: 1px solid #E6E4D8; padding: calc(6px + env(safe-area-inset-top, 0px)) 8px 6px; }
-#soi-app-bar b { flex: 1; min-width: 0; text-align: center; font-size: 14px; font-weight: 700; color: #173A48; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-#soi-app-bar button, #soi-app-bar > span { width: 44px; height: 44px; flex: none; display: flex; align-items: center; justify-content: center; background: none; border: 0; border-radius: 50%; color: #173A48; cursor: pointer; }
-#soi-app-bar svg, #soi-app-tabs svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-#soi-app-tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; display: flex; background: #fff; border-top: 1px solid #E6E4D8; padding-bottom: env(safe-area-inset-bottom, 0px); }
-#soi-app-tabs a { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; min-height: 64px; padding-top: 10px; font-size: 11px; font-weight: 600; color: #6B7B81; text-decoration: none; }
-#soi-app-tabs a[aria-current="page"] { color: #204E60; box-shadow: inset 0 3px 0 #204E60; }
-#soi-app-tabs a[aria-current="page"] svg { fill: #204E60; }
-#soi-app-tabs a:focus-visible, .soi-app-screen a:focus-visible, .soi-app-screen button:focus-visible { outline: 3px solid #D4CC73; outline-offset: 2px; }
+:root {
+  --a-bg: #F6F5EE; --a-surface: #FFFFFF; --a-surface2: #EEEEE5; --a-ink: #173A48; --a-ink2: #4D6068; --a-line: #E2E0D3;
+  --a-teal: #204E60; --a-teal-dark: #173A48; --a-gold: #D4CC73; --a-gold-ink: #6A611C; --a-accent: #204E60; --a-on-accent: #FFFFFF;
+  --a-crimson: #EA3451; --a-danger: #B3263A; --a-bar: rgba(246, 245, 238, .86); --a-shadow: 0 10px 28px -18px rgba(23, 58, 72, .45);
+  --a-serif: "Cita Pro", Georgia, "Times New Roman", serif; --a-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --a-top: env(safe-area-inset-top, 0px); --a-bottom: env(safe-area-inset-bottom, 0px); --a-left: env(safe-area-inset-left, 0px); --a-right: env(safe-area-inset-right, 0px);
+  --a-tabs: 3.5rem; --a-mini: 0px; --a-ease: cubic-bezier(.32, .72, 0, 1);
+}
+:root.soi-app-dark {
+  --a-bg: #0D1D24; --a-surface: #152A33; --a-surface2: #1C3540; --a-ink: #EEEEE5; --a-ink2: #A8B8BD; --a-line: #27424D;
+  --a-accent: #D4CC73; --a-on-accent: #10252D; --a-gold-ink: #D4CC73; --a-danger: #FF8C99; --a-bar: rgba(13, 29, 36, .84); --a-shadow: 0 12px 30px -18px rgba(0, 0, 0, .8);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; background: var(--a-bg); scroll-padding-top: calc(var(--a-top) + 3.5rem); }
+body { margin: 0; min-height: 100vh; min-height: 100dvh; background: var(--a-bg); color: var(--a-ink); font-family: var(--a-sans); font-size: 1rem; line-height: 1.45; overscroll-behavior-y: none; -webkit-font-smoothing: antialiased;
+  padding: 0 var(--a-right) calc(var(--a-tabs) + var(--a-bottom) + var(--a-mini)) var(--a-left); }
+body.soi-app-hasmini { --a-mini: 4rem; }
+body.soi-app-notabs { --a-tabs: 0px; }
+h1, h2, h3, p, figure, blockquote, ol { margin: 0; padding: 0; }
+a { color: var(--a-accent); text-decoration: none; }
+button { font: inherit; color: inherit; cursor: pointer; -webkit-appearance: none; appearance: none; touch-action: manipulation; }
+a, button { touch-action: manipulation; }
+img { max-width: 100%; }
+svg { flex: none; }
+[hidden] { display: none !important; }
+:focus { outline: none; }
+:focus-visible { outline: 3px solid var(--a-gold); outline-offset: 2px; border-radius: 8px; }
+:root:not(.soi-app-dark) :focus-visible { outline-color: var(--a-teal); }
+.soi-app-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.soi-app-skip { position: fixed; left: 12px; top: calc(var(--a-top) + 8px); z-index: 200; background: var(--a-accent); color: var(--a-on-accent); padding: .7rem 1rem; border-radius: 12px; font-weight: 700; transform: translateY(-300%); }
+.soi-app-skip:focus { transform: none; }
 
-.soi-app-screen { max-width: 560px; margin: 0 auto; padding: calc(18px + env(safe-area-inset-top, 0px)) 20px 28px; color: #173A48; }
-.soi-app-screen h1, .soi-app-screen h2, .soi-app-screen p { margin: 0; }
-.soi-app-h1 { font: 700 32px/1.15 "Cita Pro", Georgia, serif; }
-.soi-app-cap { margin: 24px 0 10px !important; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #53656D; }
-.soi-app-kick { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #53656D; }
-.soi-app-sample { display: inline-block; font: 700 10px/1 "Plus Jakarta Sans", sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #173A48; background: #D4CC73; border-radius: 999px; padding: 4px 8px; vertical-align: middle; }
-.soi-app-note { margin: 10px 0 0 !important; font-size: 13px; line-height: 1.5; color: #53656D; }
-.soi-app-card { background: #fff; border: 1px solid #E6E4D8; border-radius: 18px; }
-.soi-app-bar { display: block; height: 4px; background: #E6E4D8; border-radius: 2px; overflow: hidden; } .soi-app-bar i { display: block; height: 4px; background: #204E60; border-radius: 2px; }
-.soi-app-empty { margin-top: 28px !important; color: #53656D; line-height: 1.6; }
-.soi-app-screen .soi-cover { border-radius: 14px; }
-.soi-ph-1.soi-ph-wait { background: linear-gradient(180deg, #D7E4D2 0%, #EEF2E8 45%, #3F6B4F 46%, #2C5040 100%); } .soi-ph-1.soi-ph-wait::before { background: #4F7D5E; }
-.soi-ph-2.soi-ph-wait { background: linear-gradient(180deg, #F1E3C2 0%, #F6EEDB 50%, #D9B97A 51%, #B9925A 100%); } .soi-ph-2.soi-ph-wait::before { background: #C9A266; }
-.soi-ph-3.soi-ph-wait { background: linear-gradient(180deg, #F3D9B8 0%, #F7E9D6 48%, #3C6F86 49%, #204E60 100%); } .soi-ph-3.soi-ph-wait::before { display: none; }
+/* screens */
+.soi-app-view { max-width: 40rem; margin: 0 auto; }
+.soi-app-pad { padding: calc(var(--a-top) + .9rem) 1.25rem 1.75rem; }
+.soi-app-nav + .soi-app-pad { padding-top: .4rem; }
+.soi-app-large h1, .soi-app-hello h1 { font: 700 2.05rem/1.12 var(--a-serif); letter-spacing: -.005em; }
+.soi-app-large { margin-bottom: 1rem; }
+.soi-app-sub { color: var(--a-ink2); font-size: .875rem; margin-top: .25rem; }
+.soi-app-kick { font-size: .72rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; color: var(--a-gold-ink); }
+.soi-app-cap { margin: 1.6rem 0 .65rem; font: 700 .75rem/1.3 var(--a-sans); letter-spacing: .1em; text-transform: uppercase; color: var(--a-ink2); }
+.soi-app-sample { display: inline-block; font: 700 .64rem/1 var(--a-sans); letter-spacing: .07em; text-transform: uppercase; color: #173A48; background: #D4CC73; border-radius: 999px; padding: .3rem .55rem; vertical-align: middle; }
+.soi-app-note { font-size: .82rem; line-height: 1.5; color: var(--a-ink2); margin-bottom: .9rem; }
+.soi-app-card { background: var(--a-surface); border: 1px solid var(--a-line); border-radius: 1.25rem; box-shadow: var(--a-shadow); }
+.soi-app-bar { display: block; height: 4px; background: var(--a-line); border-radius: 2px; overflow: hidden; }
+.soi-app-bar i { display: block; height: 100%; background: var(--a-accent); border-radius: 2px; transform-origin: left center; transition: transform .4s var(--a-ease); }
+.soi-app-bar.is-gold i { background: var(--a-gold); }
+.soi-app-ib { width: 2.75rem; height: 2.75rem; min-width: 44px; min-height: 44px; flex: none; display: inline-flex; align-items: center; justify-content: center; background: none; border: 0; border-radius: 50%; color: var(--a-ink); padding: 0; }
+.soi-app-ib:active, .soi-app-btn:active, .soi-app-chipbtn:active { transform: scale(.96); }
+.soi-app-ib svg, .soi-app-btn svg, .soi-app-chipbtn svg, .soi-app-status svg, .soi-app-min svg { width: 1.4rem; height: 1.4rem; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-btn { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 2.9rem; padding: .7rem 1.25rem; border: 0; border-radius: 999px; background: var(--a-accent); color: var(--a-on-accent); font-weight: 700; font-size: .95rem; text-align: center; transition: transform .15s; }
+.soi-app-btn.is-gold { background: var(--a-gold); color: #173A48; }
+.soi-app-btn.is-quiet { background: transparent; color: var(--a-accent); box-shadow: inset 0 0 0 1.5px var(--a-line); }
+.soi-app-btn.is-wide { display: flex; width: 100%; margin-top: 1.5rem; min-height: 3.3rem; font-size: 1.05rem; border-radius: 1rem; }
+.soi-app-chipbtn { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.75rem; padding: .45rem .9rem; border-radius: 999px; border: 1.5px solid var(--a-line); background: var(--a-surface); color: var(--a-accent); font-weight: 700; font-size: .82rem; }
+.soi-app-chipbtn svg { width: 1.05rem; height: 1.05rem; }
+.soi-app-chipbtn.is-done { color: var(--a-ink2); }
+.soi-app-chipbtn[disabled] { opacity: .75; }
+.soi-app-empty { text-align: center; padding: 3rem 1rem; color: var(--a-ink2); }
+.soi-app-empty > svg { width: 2.6rem; height: 2.6rem; fill: none; stroke: var(--a-gold-ink); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+.soi-app-empty h2 { font: 700 1.35rem/1.2 var(--a-serif); color: var(--a-ink); margin: .8rem 0 .4rem; }
+.soi-app-empty p { font-size: .92rem; margin-bottom: 1.1rem; }
+
+/* covers */
+.soi-app-cover { position: relative; display: block; aspect-ratio: 600 / 850; border-radius: .8rem; overflow: hidden; background: #204E60; box-shadow: 0 10px 22px -12px rgba(10, 30, 38, .55); }
+.soi-app-cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.soi-app-cover-fb { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 6px; text-align: center; color: #fff; background: linear-gradient(160deg, #2a6278, #173A48); }
+.soi-app-cover-fb b { font: 700 .62rem var(--a-serif); text-transform: uppercase; letter-spacing: .04em; } .soi-app-cover-fb i { font-style: normal; font-size: .55rem; color: #D4CC73; }
+
+/* top bar of pushed screens and of the reading view */
+.soi-app-nav { position: sticky; top: 0; z-index: 70; display: flex; align-items: center; gap: .25rem; padding: calc(var(--a-top) + .25rem) .4rem .25rem; background: var(--a-bar); -webkit-backdrop-filter: saturate(1.6) blur(18px); backdrop-filter: saturate(1.6) blur(18px); border-bottom: 1px solid var(--a-line); }
+.soi-app-nav b { flex: 1; min-width: 0; text-align: center; font-size: .92rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* bottom tabs */
+#soi-app-tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; display: flex; padding: 0 var(--a-right) var(--a-bottom) var(--a-left); background: var(--a-bar); -webkit-backdrop-filter: saturate(1.6) blur(20px); backdrop-filter: saturate(1.6) blur(20px); border-top: 1px solid var(--a-line); transition: transform .3s var(--a-ease); }
+body.soi-app-notabs #soi-app-tabs { transform: translateY(110%); pointer-events: none; visibility: hidden; transition: transform .3s var(--a-ease), visibility 0s .3s; }
+#soi-app-tabs a { flex: 1; min-width: 0; min-height: var(--a-tabs); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .15rem; font-size: .68rem; font-weight: 600; color: var(--a-ink2); }
+#soi-app-tabs svg { width: 1.55rem; height: 1.55rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform .25s var(--a-ease); }
+#soi-app-tabs a[aria-current="page"] { color: var(--a-accent); }
+#soi-app-tabs a[aria-current="page"] svg { fill: currentColor; transform: translateY(-1px) scale(1.06); }
+#soi-app-tabs a[aria-current="page"] .soi-app-tabline { stroke: var(--a-bg); }
+#soi-app-tabs a:active svg { transform: scale(.9); }
+
+/* mini player */
+#soi-app-mini { position: fixed; left: calc(.6rem + var(--a-left)); right: calc(.6rem + var(--a-right)); bottom: calc(var(--a-tabs) + var(--a-bottom) + .45rem); z-index: 79; display: flex; align-items: center; gap: .15rem; min-height: 3.5rem; padding: .35rem .3rem .35rem .45rem; border-radius: 1.05rem; overflow: hidden;
+  background: #173A48; color: #fff; box-shadow: 0 14px 30px -12px rgba(0, 0, 0, .55); max-width: 39rem; margin: 0 auto; animation: soi-app-up .35s var(--a-ease); }
+:root.soi-app-dark #soi-app-mini { background: #23434F; }
+#soi-app-mini .soi-app-ib { color: #fff; } #soi-app-mini .soi-app-ib svg { width: 1.5rem; height: 1.5rem; }
+.soi-app-mini-open { flex: 1; min-width: 0; display: flex; align-items: center; gap: .65rem; background: none; border: 0; padding: 0; text-align: left; color: #fff; min-height: 44px; }
+.soi-app-mini-open .soi-app-cover { width: 2.1rem; flex: none; border-radius: .35rem; box-shadow: none; }
+.soi-app-mini-open span { min-width: 0; } .soi-app-mini-open b, .soi-app-mini-open small { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.soi-app-mini-open b { font-size: .9rem; } .soi-app-mini-open small { font-size: .72rem; color: #D4CC73; }
+.soi-app-mini-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(255, 255, 255, .18); } .soi-app-mini-bar i { display: block; height: 100%; background: #D4CC73; transform-origin: left center; transform: scaleX(0); }
+@keyframes soi-app-up { from { transform: translateY(140%); opacity: 0; } }
+
+/* toast and sheet */
+#soi-app-toast { position: fixed; left: 50%; bottom: calc(var(--a-tabs) + var(--a-bottom) + var(--a-mini) + 1rem); transform: translate(-50%, 1rem); z-index: 100001; max-width: calc(100% - 2rem); background: #173A48; color: #EEEEE5; padding: .7rem 1.1rem; border-radius: 999px; font-size: .86rem; font-weight: 600; text-align: center; opacity: 0; pointer-events: none; transition: opacity .25s, transform .3s var(--a-ease); box-shadow: 0 10px 24px -10px rgba(0, 0, 0, .6); }
+:root.soi-app-dark #soi-app-toast { background: #EEEEE5; color: #173A48; }
+#soi-app-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+#soi-app-sheet { position: fixed; inset: 0; z-index: 100000; }
+.soi-app-sheet-back { position: absolute; inset: 0; background: rgba(8, 20, 26, .5); opacity: 0; transition: opacity .25s; }
+.soi-app-sheet-box { position: absolute; left: 0; right: 0; bottom: 0; max-width: 40rem; margin: 0 auto; background: var(--a-surface); color: var(--a-ink); border-radius: 1.5rem 1.5rem 0 0; padding: .6rem 1.25rem calc(1rem + var(--a-bottom)); transform: translateY(105%); transition: transform .32s var(--a-ease); display: flex; flex-direction: column; gap: .55rem; max-height: 86vh; overflow: auto; }
+#soi-app-sheet.is-on .soi-app-sheet-back { opacity: 1; } #soi-app-sheet.is-on .soi-app-sheet-box { transform: none; }
+.soi-app-grab { align-self: center; width: 2.4rem; height: 5px; border-radius: 3px; background: var(--a-line); margin-bottom: .4rem; }
+.soi-app-sheet-box h2 { font: 700 1.35rem/1.2 var(--a-serif); } .soi-app-sheet-box p { font-size: .9rem; color: var(--a-ink2); margin-bottom: .3rem; }
+.soi-app-sheet-box button { display: flex; flex-direction: column; align-items: flex-start; gap: .1rem; width: 100%; min-height: 3.4rem; padding: .7rem 1rem; text-align: left; border: 1.5px solid var(--a-line); border-radius: 1rem; background: var(--a-bg); }
+.soi-app-sheet-box button b { font-size: 1rem; } .soi-app-sheet-box button small { font-size: .8rem; color: var(--a-ink2); }
+.soi-app-sheet-box button.is-main { background: var(--a-accent); border-color: var(--a-accent); color: var(--a-on-accent); } .soi-app-sheet-box button.is-main small { color: inherit; opacity: .85; }
+.soi-app-sheet-box button.is-danger b { color: var(--a-danger); }
+.soi-app-sheet-box button.is-cancel { align-items: center; justify-content: center; border-color: transparent; background: none; font-weight: 700; color: var(--a-accent); min-height: 3rem; }
 
 /* home */
-.soi-app-top { display: flex; gap: 10px; align-items: center; }
-.soi-app-searchbar { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; border: 1.5px solid #D9DCD0; background: #fff; border-radius: 14px; padding: 12px 14px; font-weight: 500; font-size: 15px; color: #53656D; text-decoration: none; }
-.soi-app-searchbar svg { width: 20px; height: 20px; fill: none; stroke: #173A48; stroke-width: 1.8; flex: none; }
-.soi-app-gempill { display: flex; align-items: center; gap: 6px; background: #204E60; color: #fff; text-decoration: none; border-radius: 14px; padding: 12px; font-weight: 700; font-size: 14px; }
-.soi-gem { width: 16px; height: 16px; fill: #D4CC73; }
-.soi-app-hello { margin: 22px 0 0 !important; font-size: 14px; color: #53656D; }
-.soi-app-cont { display: block; margin-top: 12px; background: #204E60; border-radius: 20px; padding: 18px; color: #fff; text-decoration: none; }
-.soi-app-cont-row { display: flex; gap: 14px; align-items: center; }
-.soi-app-cont .soi-cover { width: 64px; flex: none; border-radius: 8px; box-shadow: none; }
-.soi-app-cont-t { flex: 1; min-width: 0; } .soi-app-cont-t small { display: block; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #D4CC73; }
-.soi-app-cont-t b { display: block; margin: 6px 0 2px; font: 700 19px/1.2 "Cita Pro", Georgia, serif; overflow-wrap: anywhere; } .soi-app-cont-t i { font-style: normal; font-size: 12px; opacity: .85; }
-.soi-app-cont-play { width: 44px; height: 44px; border-radius: 50%; background: #D4CC73; display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-cont-play svg { width: 16px; height: 16px; fill: #173A48; }
-.soi-app-cont .soi-app-bar { margin-top: 14px; background: rgba(255, 255, 255, .2); } .soi-app-cont .soi-app-bar i { background: #D4CC73; }
-.soi-app-hrow { margin-top: 28px; display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
-.soi-app-hrow h2 { font: 700 22px/1.2 "Cita Pro", Georgia, serif; } .soi-app-hrow a { font-size: 13px; font-weight: 700; text-decoration: none; padding: 8px 0; }
-.soi-app-carousel { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 14px -20px 0; padding: 0 20px 4px; scrollbar-width: none; } .soi-app-carousel::-webkit-scrollbar { display: none; }
-.soi-app-issue { position: relative; flex: none; width: 86%; scroll-snap-align: center; }
-.soi-app-issue:only-child { width: 100%; }
-.soi-app-issue .soi-cover { border-radius: 22px; }
-.soi-app-issue-btns { position: absolute; left: 14px; right: 14px; bottom: 14px; display: flex; gap: 10px; }
-.soi-app-issue-btns a { flex: 1; text-align: center; font-weight: 700; text-decoration: none; padding: 13px 8px; border-radius: 12px; color: #173A48; background: #fff; box-shadow: 0 6px 16px -8px rgba(0, 0, 0, .5); }
-.soi-app-issue-btns .soi-app-b-listen { background: #D4CC73; }
-.soi-app-b-save { width: 48px; flex: none; border: 0; border-radius: 12px; background: rgba(255, 255, 255, .94); display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 6px 16px -8px rgba(0, 0, 0, .5); }
-.soi-app-b-save svg { width: 20px; height: 20px; fill: none; stroke: #173A48; stroke-width: 1.8; stroke-linejoin: round; } .soi-app-b-save[aria-pressed="true"] svg { fill: #173A48; }
-.soi-app-dots { display: flex; justify-content: center; gap: 6px; margin-top: 12px; } .soi-app-dots span { width: 8px; height: 4px; border-radius: 2px; background: #C9CDC0; transition: width .2s; } .soi-app-dots .is-on { width: 22px; background: #204E60; }
-.soi-app-guides { display: flex; gap: 12px; overflow-x: auto; margin: 14px -20px 0; padding: 0 20px; scrollbar-width: none; } .soi-app-guides::-webkit-scrollbar { display: none; }
-.soi-app-guide { position: relative; flex: none; width: 150px; height: 190px; border-radius: 16px; overflow: hidden; }
-.soi-app-guide .soi-ph { position: absolute; inset: 0; } .soi-app-guide::after { content: ""; position: absolute; inset: 40% 0 0 0; background: linear-gradient(0deg, rgba(23, 58, 72, .8), rgba(23, 58, 72, 0)); }
-.soi-app-guide-play { position: absolute; right: 10px; top: 10px; width: 30px; height: 30px; border-radius: 50%; background: rgba(255, 255, 255, .92); display: flex; align-items: center; justify-content: center; z-index: 1; } .soi-app-guide-play svg { width: 12px; height: 12px; fill: #204E60; }
-.soi-app-guide b { position: absolute; left: 12px; right: 12px; bottom: 28px; z-index: 1; color: #fff; font-size: 14px; line-height: 1.25; } .soi-app-guide small { position: absolute; left: 12px; bottom: 10px; z-index: 1; color: #EEEEE5; font-size: 11px; }
-.soi-app-list { margin-top: 10px; background: #fff; border: 1px solid #E6E4D8; border-radius: 18px; overflow: hidden; }
-.soi-app-list a { display: flex; gap: 12px; align-items: center; padding: 14px; border-bottom: 1px solid #EFEDE4; text-decoration: none; color: #173A48; }
-.soi-app-n { width: 30px; height: 30px; border-radius: 50%; background: #EEEEE5; display: flex; align-items: center; justify-content: center; font: 700 15px "Cita Pro", Georgia, serif; flex: none; }
-.soi-app-at { flex: 1; min-width: 0; } .soi-app-at small { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #756B1F; } .soi-app-at b { display: block; font-size: 15px; overflow-wrap: anywhere; }
-.soi-app-min { font-size: 12px; color: #53656D; flex: none; }
-.soi-app-list .soi-app-more { justify-content: center; font-weight: 700; font-size: 14px; color: #204E60; border-bottom: 0; }
-.soi-app-quote { margin-top: 28px; background: #EEEEE5; border-radius: 20px; padding: 20px; }
-.soi-app-quote-t { margin-top: 10px !important; font: italic 400 19px/1.35 "Cita Pro Ita", "Cita Pro", Georgia, serif; overflow-wrap: anywhere; }
-.soi-app-quote button { margin-top: 10px; font: 700 13px "Plus Jakarta Sans", sans-serif; color: #204E60; background: none; border: 0; padding: 8px 0; cursor: pointer; }
+.soi-app-top { display: flex; gap: .6rem; align-items: stretch; }
+.soi-app-searchbar { flex: 1; min-width: 0; display: flex; align-items: center; gap: .6rem; min-height: 2.9rem; padding: .55rem .9rem; border-radius: .95rem; background: var(--a-surface); border: 1px solid var(--a-line); color: var(--a-ink2); font-weight: 500; font-size: .95rem; }
+.soi-app-searchbar svg, .soi-app-searchbox > svg, .soi-app-pop svg { width: 1.25rem; height: 1.25rem; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; }
+.soi-app-searchbar span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.soi-app-gempill { display: flex; align-items: center; gap: .35rem; min-height: 2.9rem; padding: 0 .85rem; border-radius: .95rem; background: #204E60; color: #fff; font-weight: 700; font-size: .9rem; }
+.soi-app-gem { width: 1.05rem; height: 1.05rem; fill: #D4CC73; }
+.soi-app-hello { display: flex; align-items: center; gap: .8rem; margin: 1.3rem 0 0; }
+.soi-app-hello img { width: 2.6rem; height: auto; background: #204E60; border-radius: .8rem; padding: .35rem; }
+.soi-app-hello p { font-size: .85rem; color: var(--a-ink2); }
+.soi-app-hello h1 { font-size: 1.7rem; }
+.soi-app-cont { display: flex; align-items: center; gap: .9rem; margin-top: 1.1rem; padding: 1rem; border-radius: 1.4rem; background: #204E60; color: #fff; box-shadow: 0 16px 30px -18px rgba(23, 58, 72, .8); }
+.soi-app-cont .soi-app-cover { width: 3.7rem; flex: none; border-radius: .5rem; }
+.soi-app-cont-t { flex: 1; min-width: 0; display: block; } .soi-app-cont-t small { display: block; font-size: .68rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; color: #D4CC73; }
+.soi-app-cont-t b { display: block; margin: .25rem 0 .1rem; font: 700 1.2rem/1.2 var(--a-serif); overflow-wrap: anywhere; } .soi-app-cont-t > i { display: block; font-style: normal; font-size: .76rem; opacity: .88; }
+.soi-app-cont .soi-app-bar { margin-top: .6rem; background: rgba(255, 255, 255, .22); } .soi-app-cont .soi-app-bar i { background: #D4CC73; }
+.soi-app-cont-play { width: 2.75rem; height: 2.75rem; border-radius: 50%; background: #D4CC73; color: #173A48; display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-cont-play svg { width: 1.3rem; height: 1.3rem; }
+.soi-app-hrow { margin: 1.75rem 0 .8rem; display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; }
+.soi-app-hrow h2 { font: 700 1.4rem/1.2 var(--a-serif); } .soi-app-hrow a { font-size: .85rem; font-weight: 700; padding: .6rem 0; margin: -.6rem 0; }
+.soi-app-hero { display: grid; grid-template-columns: 38% 1fr; gap: .9rem 1rem; align-items: center; padding: 1rem; border-radius: 1.5rem; background: var(--a-surface); border: 1px solid var(--a-line); box-shadow: var(--a-shadow); }
+.soi-app-hero .soi-app-cover { border-radius: .9rem; }
+.soi-app-hero-t { min-width: 0; display: contents; }
+.soi-app-hero-txt { min-width: 0; }
+.soi-app-hero-line { font: 700 1.2rem/1.22 var(--a-serif); margin: .4rem 0 .2rem; overflow-wrap: anywhere; }
+.soi-app-hero-btns { grid-column: 1 / -1; display: flex; gap: .55rem; align-items: center; }
+.soi-app-hero-btns .soi-app-btn { flex: 1 1 0; min-width: 0; padding: .6rem .9rem; }
+.soi-app-ib.is-ring { box-shadow: inset 0 0 0 1.5px var(--a-line); color: var(--a-accent); } .soi-app-ib.is-ring.is-on { background: var(--a-surface2); color: var(--a-ink2); }
+.soi-app-ring { width: 1.6rem; height: 1.6rem; transform: rotate(-90deg); fill: none; stroke-width: 2.6; } .soi-app-ring circle { stroke: var(--a-line); } .soi-app-ring circle + circle { stroke: var(--a-gold-ink); stroke-linecap: round; transition: stroke-dashoffset .3s; }
+:root.soi-app-dark .soi-app-ring circle + circle { stroke: #D4CC73; }
+.soi-app-row3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.soi-app-row3 a, .soi-app-grid3 a { position: relative; color: var(--a-ink); display: block; min-width: 0; }
+.soi-app-row3 b, .soi-app-grid3 b { display: block; margin-top: .5rem; font-size: .85rem; line-height: 1.25; } .soi-app-row3 small, .soi-app-grid3 small { display: block; font-size: .74rem; color: var(--a-ink2); }
+.soi-app-row3 a:active .soi-app-cover, .soi-app-grid3 a:active .soi-app-cover { transform: scale(.97); } .soi-app-cover { transition: transform .2s var(--a-ease); }
+.soi-app-list { background: var(--a-surface); border: 1px solid var(--a-line); border-radius: 1.25rem; overflow: hidden; box-shadow: var(--a-shadow); }
+.soi-app-list a { display: flex; gap: .75rem; align-items: center; min-height: 3.6rem; padding: .7rem .9rem; border-bottom: 1px solid var(--a-line); color: var(--a-ink); }
+.soi-app-list a:active { background: var(--a-surface2); }
+.soi-app-n { width: 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--a-surface2); display: flex; align-items: center; justify-content: center; font: 700 .95rem var(--a-serif); flex: none; }
+.soi-app-at { flex: 1; min-width: 0; } .soi-app-at small { display: block; font-size: .66rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--a-gold-ink); } .soi-app-at b { display: block; font-size: .95rem; overflow-wrap: anywhere; }
+.soi-app-min { display: flex; align-items: center; gap: .25rem; font-size: .76rem; color: var(--a-ink2); flex: none; } .soi-app-min svg { width: .95rem; height: .95rem; }
+.soi-app-list .soi-app-more { justify-content: center; font-weight: 700; font-size: .9rem; color: var(--a-accent); border-bottom: 0; min-height: 3rem; }
+.soi-app-scroll { display: flex; gap: .7rem; overflow-x: auto; margin: 0 -1.25rem; padding: 0 1.25rem .3rem; scrollbar-width: none; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; } .soi-app-scroll::-webkit-scrollbar { display: none; }
+/* tutorial placeholders: no photos, a plain brand tile until the real thumbnails exist */
+.soi-app-guide { position: relative; flex: none; width: 9.6rem; min-height: 7.6rem; padding: .9rem; border-radius: 1.1rem; scroll-snap-align: start; display: flex; flex-direction: column; justify-content: flex-end; gap: .2rem; background: #204E60; color: #fff; overflow: hidden; }
+.soi-app-guide::before { content: ""; position: absolute; right: -1.6rem; top: -1.6rem; width: 6rem; height: 6rem; border-radius: 50%; border: 1.2rem solid rgba(212, 204, 115, .16); }
+.soi-app-guide-1 { background: #173A48; } .soi-app-guide-2 { background: #2B6076; } .soi-app-guide-3 { background: #1B4353; }
+.soi-app-guide svg { position: absolute; left: .9rem; top: .9rem; width: 1.7rem; height: 1.7rem; fill: none; stroke: #D4CC73; stroke-width: 1.7; color: #D4CC73; }
+.soi-app-guide b { font-size: .9rem; line-height: 1.25; } .soi-app-guide small { font-size: .7rem; color: #D4CC73; }
+.soi-app-quote { margin-top: 1.75rem; background: var(--a-surface2); border-radius: 1.4rem; padding: 1.25rem; }
+.soi-app-quote blockquote { margin-top: .6rem; font: italic 400 1.25rem/1.38 var(--a-serif); overflow-wrap: anywhere; }
+.soi-app-quote-src { margin-top: .6rem; font-size: .8rem; color: var(--a-ink2); } .soi-app-quote-src a { font-weight: 700; }
+.soi-app-quote-acts, .soi-app-qcard > div { display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; margin-top: .5rem; }
+.soi-app-quote-acts button, .soi-app-quote-acts a, .soi-app-qcard button { background: none; border: 0; padding: .75rem 0; min-height: 44px; min-width: 44px; font-weight: 700; font-size: .85rem; color: var(--a-accent); display: inline-flex; align-items: center; }
 
 /* search */
-.soi-app-searchbox { display: flex; align-items: center; gap: 12px; border: 2px solid #204E60; background: #fff; border-radius: 16px; padding: 4px 14px 4px 6px; }
-.soi-app-searchbox a { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-searchbox svg { width: 22px; height: 22px; fill: none; stroke: #173A48; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.soi-app-searchbox input { flex: 1; min-width: 0; border: 0; outline: 0; font: 500 16px "Plus Jakarta Sans", sans-serif; color: #173A48; background: transparent; padding: 10px 0; }
-.soi-app-quran { width: 100%; display: flex; align-items: center; gap: 12px; margin-top: 12px; border: 1.5px solid #D4CC73; background: #FBF8E6; border-radius: 14px; padding: 13px 14px; color: #173A48; font: inherit; text-align: left; cursor: pointer; }
-.soi-app-quran span { font: 700 15px "Cita Pro", Georgia, serif; background: #204E60; color: #D4CC73; border-radius: 8px; padding: 6px 8px; } .soi-app-quran b { flex: 1; font-weight: 600; font-size: 14px; } .soi-app-quran svg { width: 16px; height: 16px; fill: #204E60; }
-.soi-app-chips { display: flex; gap: 8px; flex-wrap: wrap; } .soi-app-chips button { border: 1px solid #D9DCD0; background: #fff; border-radius: 999px; padding: 9px 14px; min-height: 40px; font: 600 13px "Plus Jakarta Sans", sans-serif; color: #173A48; cursor: pointer; }
-.soi-app-pop button { width: 100%; display: flex; align-items: center; gap: 14px; padding: 10px 0; border: 0; border-bottom: 1px solid #EFEDE4; background: none; color: #173A48; font: inherit; text-align: left; cursor: pointer; }
-.soi-app-pop .soi-ph { width: 52px; height: 52px; border-radius: 12px; flex: none; } .soi-app-pop b { flex: 1; font-size: 16px; font-weight: 500; } .soi-app-pop svg { width: 18px; height: 18px; fill: none; stroke: #173A48; stroke-width: 1.8; }
-.soi-app-res { display: block; padding: 14px 0; border-bottom: 1px solid #EFEDE4; text-decoration: none; color: #173A48; }
-.soi-app-res b { display: block; font: 700 18px/1.25 "Cita Pro", Georgia, serif; } .soi-app-res small { display: block; margin: 3px 0 6px; font-size: 12px; font-weight: 600; color: #756B1F; } .soi-app-res span { display: block; font-size: 14px; line-height: 1.5; color: #3d4f56; overflow-wrap: anywhere; }
-.soi-app-res mark { background: rgba(212, 204, 115, .55); color: inherit; border-radius: 3px; }
+.soi-app-searchbox { display: flex; align-items: center; gap: .6rem; min-height: 3.1rem; padding: 0 .3rem 0 .9rem; border-radius: 1rem; background: var(--a-surface); border: 1.5px solid var(--a-line); color: var(--a-ink2); position: sticky; top: calc(var(--a-top) + .5rem); z-index: 5; box-shadow: var(--a-shadow); }
+.soi-app-searchbox:focus-within { border-color: var(--a-accent); }
+.soi-app-searchbox input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--a-ink); font: 500 1rem var(--a-sans); padding: .7rem 0; -webkit-appearance: none; appearance: none; }
+.soi-app-searchbox input::-webkit-search-cancel-button { display: none; }
+.soi-app-searchbox input::placeholder { color: var(--a-ink2); opacity: 1; }
+.soi-app-quran { width: 100%; display: flex; align-items: center; gap: .75rem; min-height: 3.2rem; margin-top: .75rem; padding: .55rem .9rem; border: 1.5px solid var(--a-gold); background: rgba(212, 204, 115, .16); border-radius: 1rem; text-align: left; }
+.soi-app-quran span { font: 700 .95rem var(--a-serif); background: #204E60; color: #D4CC73; border-radius: .5rem; padding: .35rem .5rem; } .soi-app-quran b { flex: 1; font-weight: 600; font-size: .9rem; } .soi-app-quran svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-chips { display: flex; gap: .5rem; flex-wrap: wrap; } .soi-app-chips button { min-height: 2.75rem; padding: .5rem .95rem; border-radius: 999px; border: 1px solid var(--a-line); background: var(--a-surface); font-weight: 600; font-size: .85rem; }
+.soi-app-pop button { width: 100%; display: flex; align-items: center; gap: .8rem; min-height: 3.2rem; padding: .6rem .1rem; border: 0; border-bottom: 1px solid var(--a-line); background: none; text-align: left; } .soi-app-pop b { flex: 1; font-size: 1rem; font-weight: 500; } .soi-app-pop svg { color: var(--a-ink2); }
+.soi-app-res { display: block; padding: .9rem 0; border-bottom: 1px solid var(--a-line); color: var(--a-ink); content-visibility: auto; contain-intrinsic-size: auto 7rem; }
+.soi-app-res b { display: block; font: 700 1.15rem/1.25 var(--a-serif); } .soi-app-res small { display: block; margin: .2rem 0 .35rem; font-size: .76rem; font-weight: 700; color: var(--a-gold-ink); } .soi-app-res span { display: block; font-size: .88rem; line-height: 1.5; color: var(--a-ink2); overflow-wrap: anywhere; }
+.soi-app-res mark { background: rgba(212, 204, 115, .5); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+/* segmented control */
+.soi-app-seg { display: flex; gap: 3px; background: var(--a-surface2); border-radius: .85rem; padding: 3px; }
+.soi-app-seg button { flex: 1; min-width: 0; min-height: 2.75rem; border: 0; background: none; border-radius: .65rem; font-weight: 600; font-size: .88rem; color: var(--a-ink2); transition: background .2s, color .2s; }
+.soi-app-seg button[aria-selected="true"], .soi-app-seg button[aria-pressed="true"] { background: var(--a-surface); color: var(--a-ink); box-shadow: 0 1px 4px rgba(10, 30, 38, .18); }
+:root.soi-app-dark .soi-app-seg button[aria-selected="true"], :root.soi-app-dark .soi-app-seg button[aria-pressed="true"] { background: #2E4E5B; }
+.soi-app-seg.is-small button { min-height: 2.75rem; font-size: .82rem; }
 
 /* saved */
-.soi-app-seg { display: flex; gap: 4px; background: #EEEEE5; border-radius: 12px; padding: 4px; margin-top: 16px; }
-.soi-app-seg button { flex: 1; border: 0; background: none; padding: 10px; min-height: 40px; font: 600 14px "Plus Jakarta Sans", sans-serif; color: #53656D; border-radius: 10px; cursor: pointer; }
-.soi-app-seg button[aria-selected="true"] { background: #fff; color: #173A48; box-shadow: 0 1px 3px rgba(23, 58, 72, .15); }
-.soi-app-savedhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 18px; font-size: 13px; color: #53656D; }
-.soi-app-savedhead button { font: 700 13px "Plus Jakarta Sans", sans-serif; color: #204E60; background: none; border: 0; padding: 10px 0; cursor: pointer; } .soi-app-savedhead button[disabled] { opacity: .7; }
-.soi-app-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 16px; margin-top: 14px; }
-.soi-app-si a { position: relative; display: block; } .soi-app-si > b { display: block; margin: 10px 0 8px; font-size: 15px; } .soi-app-si small { display: block; margin-top: 6px; font-size: 12px; color: #53656D; }
-.soi-app-badge { position: absolute; left: 8px; bottom: 8px; background: #fff; border-radius: 999px; padding: 4px 9px; font-size: 11px; font-weight: 700; color: #173A48; } .soi-app-badge.is-online { background: #EEEEE5; color: #53656D; }
-.soi-app-si button { margin-top: 6px; font: 700 12px "Plus Jakarta Sans", sans-serif; color: #204E60; background: none; border: 1.5px solid rgba(32, 78, 96, .35); border-radius: 999px; padding: 6px 12px; min-height: 36px; cursor: pointer; }
-.soi-app-cards { margin-top: 18px; display: flex; flex-direction: column; gap: 12px; }
-.soi-app-cards a { display: flex; gap: 12px; align-items: center; background: #fff; border: 1px solid #E6E4D8; border-radius: 16px; padding: 12px; text-decoration: none; color: #173A48; }
-.soi-app-cards .soi-cover { width: 56px; flex: none; border-radius: 8px; box-shadow: none; } .soi-app-cards span { min-width: 0; } .soi-app-cards b { display: block; font: 700 17px/1.25 "Cita Pro", Georgia, serif; overflow-wrap: anywhere; } .soi-app-cards small { display: block; font-size: 12px; color: #53656D; margin-top: 4px; }
-.soi-app-quotes { margin-top: 18px; display: flex; flex-direction: column; gap: 12px; }
-.soi-app-quotes a { display: block; background: #204E60; color: #fff; border-radius: 18px; padding: 20px; text-decoration: none; } .soi-app-quotes p { font: 400 19px/1.35 "Cita Pro", Georgia, serif; overflow-wrap: anywhere; } .soi-app-quotes small { display: block; margin-top: 10px; font-size: 12px; color: #D4CC73; }
-.soi-app-quotes a.is-light { background: #EEEEE5; color: #173A48; } .soi-app-quotes a.is-light small { color: #53656D; }
+.soi-app-storage { padding: 1.1rem; margin-top: 1rem; display: flex; flex-direction: column; gap: .7rem; }
+.soi-app-big { font: 700 2rem/1.1 var(--a-serif); margin-top: .15rem; }
+.soi-app-storebar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--a-line); gap: 2px; } .soi-app-storebar i { background: var(--a-teal); min-width: 4px; } .soi-app-storebar i.is-audio { background: var(--a-gold); min-width: 0; }
+:root.soi-app-dark .soi-app-storebar i:not(.is-audio) { background: #5FA3BA; }
+.soi-app-legend { display: flex; gap: 1.1rem; font-size: .78rem; color: var(--a-ink2); } .soi-app-legend span { display: inline-flex; align-items: center; gap: .35rem; } .soi-app-legend i { width: .6rem; height: .6rem; border-radius: 50%; background: var(--a-teal); } .soi-app-legend i.is-audio { background: var(--a-gold); }
+:root.soi-app-dark .soi-app-legend i:not(.is-audio) { background: #5FA3BA; }
+.soi-app-ilist, .soi-app-cards, .soi-app-quotes { display: flex; flex-direction: column; gap: .75rem; margin-top: 1rem; }
+.soi-app-irow { display: flex; align-items: center; gap: .85rem; padding: .7rem .35rem .7rem .7rem; content-visibility: auto; contain-intrinsic-size: auto 7rem; }
+.soi-app-irow > a { width: 3.9rem; flex: none; } .soi-app-irow .soi-app-cover { border-radius: .5rem; }
+.soi-app-irow-t { flex: 1; min-width: 0; } .soi-app-irow-t a { color: var(--a-ink); } .soi-app-irow-t b { font-size: 1rem; } .soi-app-irow-t small { display: block; margin-top: .3rem; font-size: .74rem; color: var(--a-ink2); }
+.soi-app-status { display: flex; align-items: center; gap: .3rem; margin: .15rem 0 .5rem; font-size: .78rem; color: var(--a-ink2); } .soi-app-status svg { width: 1rem; height: 1rem; color: var(--a-gold-ink); } .soi-app-status.is-off span { color: var(--a-ink); }
+.soi-app-acard { display: flex; align-items: center; padding: .65rem .3rem .65rem .7rem; } .soi-app-acard a { flex: 1; min-width: 0; display: flex; align-items: center; gap: .8rem; color: var(--a-ink); }
+.soi-app-acard .soi-app-cover { width: 3.1rem; flex: none; border-radius: .45rem; } .soi-app-acard b { display: block; font: 700 1.08rem/1.25 var(--a-serif); overflow-wrap: anywhere; } .soi-app-acard small { display: block; margin-top: .2rem; font-size: .76rem; color: var(--a-ink2); }
+.soi-app-qcard { background: var(--a-surface); border: 1px solid var(--a-line); border-radius: 1.25rem; padding: 1.1rem 1.1rem .4rem; content-visibility: auto; contain-intrinsic-size: auto 12rem; }
+.soi-app-qcard:nth-child(3n+1) { background: #204E60; border-color: #204E60; color: #fff; --a-accent: #D4CC73; --a-ink2: #D9E2E4; }
+.soi-app-qcard blockquote { font: italic 400 1.2rem/1.4 var(--a-serif); overflow-wrap: anywhere; } .soi-app-qcard figcaption { margin-top: .6rem; font-size: .78rem; color: var(--a-ink2); } .soi-app-qcard figcaption a { font-weight: 700; }
+
+/* all issues, quotes */
+.soi-app-years { margin-bottom: 1.1rem; } .soi-app-years button { flex: none; min-height: 2.75rem; padding: .4rem 1rem; border-radius: 999px; border: 1px solid var(--a-line); background: var(--a-surface); font-weight: 700; font-size: .88rem; color: var(--a-ink2); scroll-snap-align: start; }
+.soi-app-years button[aria-selected="true"] { background: var(--a-accent); border-color: var(--a-accent); color: var(--a-on-accent); }
+.soi-app-grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.1rem .8rem; }
+.soi-app-dot { position: absolute; right: .35rem; top: .35rem; width: 1.4rem; height: 1.4rem; border-radius: 50%; background: #D4CC73; color: #173A48; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0, 0, 0, .35); } .soi-app-dot svg { width: .9rem; height: .9rem; fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+#soi-app-qmore { display: flex; width: 100%; margin-top: 1rem; }
 
 /* profile */
-body[data-screen="profile"] { background: #F6F5EF !important; }
-.soi-app-screen > .soi-app-card, .soi-app-tiles { margin-top: 14px; }
-.soi-app-who { display: flex; gap: 14px; align-items: center; padding: 18px; }
-.soi-app-avatar { width: 60px; height: 60px; border-radius: 50%; background: #EEEEE5; display: flex; align-items: center; justify-content: center; font: 700 24px "Cita Pro", Georgia, serif; flex: none; }
-.soi-app-who b { display: block; font: 700 22px "Cita Pro", Georgia, serif; } .soi-app-who a { font-size: 14px; font-weight: 700; text-decoration: none; display: inline-block; padding: 6px 0; }
-.soi-app-rank { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; background: #FBF8E6; border-top: 1px solid #E9E2B0; border-radius: 0 0 18px 18px; padding: 14px 18px; text-decoration: none; color: #173A48; font-size: 15px; } .soi-app-rank b { color: #756B1F; }
-.soi-app-tiles { display: flex; gap: 10px; }
-.soi-app-tiles a { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 4px; font-size: 12px; font-weight: 600; color: #173A48; text-decoration: none; }
-.soi-app-tiles svg { width: 24px; height: 24px; fill: none; stroke: #173A48; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.soi-app-dash { padding: 18px; } .soi-app-dash-h { display: flex; justify-content: space-between; align-items: baseline; } .soi-app-dash h2, .soi-app-settings h2 { font: 700 20px "Cita Pro", Georgia, serif; } .soi-app-dash-h span { font-size: 12px; color: #53656D; }
-.soi-app-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
-.soi-app-stats div { background: #EEEEE5; border-radius: 14px; padding: 14px; } .soi-app-stats b { display: block; font: 700 clamp(20px, 6.6vw, 28px) "Cita Pro", Georgia, serif; } .soi-app-stats span { display: block; margin-top: 2px; font-size: 12px; color: #53656D; }
-.soi-app-stats .is-main { background: #204E60; color: #fff; } .soi-app-stats .is-main b { color: #D4CC73; } .soi-app-stats .is-main span { color: rgba(255, 255, 255, .85); }
-.soi-app-dash .soi-app-cap { margin: 16px 0 8px !important; letter-spacing: 0; text-transform: none; }
-.soi-app-cal { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; } .soi-app-cal span { aspect-ratio: 1 / 1; border-radius: 4px; background: #E6E4D8; } .soi-app-cal .is-on { background: #204E60; }
-.soi-app-settings { overflow: hidden; } .soi-app-settings h2 { padding: 16px 18px 10px; }
-.soi-app-settings a { display: flex; align-items: center; padding: 15px 18px; border-top: 1px solid #EFEDE4; text-decoration: none; color: #173A48; font-size: 15px; } .soi-app-settings a span { margin-left: auto; } .soi-app-settings .is-out { color: #A3273B; }
+.soi-app-who { display: flex; gap: .85rem; align-items: center; padding: 1rem; } .soi-app-who > span:nth-child(2) { flex: 1; min-width: 0; } .soi-app-who b { display: block; font: 700 1.35rem/1.2 var(--a-serif); } .soi-app-who small { color: var(--a-ink2); font-size: .8rem; }
+.soi-app-avatar { width: 3.4rem; height: 3.4rem; border-radius: 50%; background: #204E60; color: #D4CC73; display: flex; align-items: center; justify-content: center; font: 700 1.5rem var(--a-serif); flex: none; }
+.soi-app-rank { display: flex; align-items: center; gap: .7rem; min-height: 3.6rem; padding: .7rem 1rem; border-top: 1px solid var(--a-line); background: rgba(212, 204, 115, .16); border-radius: 0 0 1.25rem 1.25rem; color: var(--a-ink); }
+.soi-app-rank .soi-app-gem { width: 1.5rem; height: 1.5rem; fill: var(--a-gold-ink); } .soi-app-rank span { flex: 1; min-width: 0; } .soi-app-rank b { display: block; font-size: .98rem; } .soi-app-rank small { font-size: .78rem; color: var(--a-ink2); } .soi-app-rank i { font-style: normal; font-weight: 700; font-size: .82rem; color: var(--a-gold-ink); } .soi-app-rank > svg:last-child, .soi-app-set svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: var(--a-ink2); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem; margin-top: .8rem; }
+.soi-app-tiles > * { display: flex; flex-direction: column; align-items: center; gap: .4rem; min-height: 4.4rem; padding: .8rem .2rem; font-size: .74rem; font-weight: 600; color: var(--a-ink); } .soi-app-tiles svg { width: 1.5rem; height: 1.5rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.soi-app-tiles span { overflow-wrap: anywhere; text-align: center; }
+.soi-app-dash, .soi-app-set { margin-top: .8rem; padding: 1.1rem; } .soi-app-dash-h { display: flex; justify-content: space-between; align-items: center; } .soi-app-dash h2, .soi-app-set h2 { font: 700 1.25rem var(--a-serif); }
+.soi-app-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; margin: .85rem 0 1rem; }
+.soi-app-stats div { background: var(--a-surface2); border-radius: .9rem; padding: .85rem; min-width: 0; } .soi-app-stats b { display: block; font: 700 1.55rem/1.15 var(--a-serif); overflow-wrap: anywhere; } .soi-app-stats span { display: block; margin-top: .15rem; font-size: .76rem; color: var(--a-ink2); }
+.soi-app-stats .is-main { background: #204E60; color: #fff; } .soi-app-stats .is-main b { color: #D4CC73; } .soi-app-stats .is-main span { color: rgba(255, 255, 255, .88); }
+.soi-app-cal { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; margin-top: .5rem; } .soi-app-cal span { aspect-ratio: 1 / 1; border-radius: 4px; background: var(--a-line); } .soi-app-cal .is-on { background: var(--a-accent); }
+.soi-app-set { padding-bottom: .3rem; } .soi-app-set h2 { margin-bottom: .4rem; }
+.soi-app-set > a, .soi-app-set > button { display: flex; align-items: center; gap: .6rem; width: 100%; min-height: 3.2rem; padding: .6rem 0; border: 0; border-top: 1px solid var(--a-line); background: none; text-align: left; color: var(--a-ink); font-size: .96rem; }
+.soi-app-set > a span, .soi-app-set > button span { flex: 1; min-width: 0; } .soi-app-set small { color: var(--a-ink2); font-size: .8rem; }
+.soi-app-setrow { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .7rem 0; border-top: 1px solid var(--a-line); font-size: .96rem; } .soi-app-setrow .soi-app-seg { flex: 0 1 15rem; }
+.soi-app-setrow.is-col { flex-direction: column; align-items: stretch; gap: .6rem; } .soi-app-setrow.is-col .soi-app-seg { flex: none; } .soi-app-setrow.is-col .soi-app-seg span { font-weight: 700; font-family: var(--a-serif); }
+.soi-app-preview { font: italic 400 1.15rem/1.4 var(--a-serif); padding: .8rem; border-radius: .8rem; background: var(--a-surface2); zoom: var(--soi-read-zoom, 1); }
+.soi-app-brand { text-align: center; padding: 2rem 0 .5rem; color: var(--a-ink2); font-size: .8rem; } .soi-app-brand img { display: block; margin: 0 auto .6rem; height: auto; }
+.soi-app-brand img:first-child { width: 3.4rem; background: #204E60; border-radius: 1rem; padding: .5rem; } .soi-app-brand-logo { width: 11rem; background: #204E60; padding: .55rem .8rem; border-radius: .6rem; }
 
-/* gems & leaderboard */
-body[data-screen="gems"] { background: #132F3B !important; }
-body[data-screen="gems"] .soi-app-screen { color: #EEEEE5; padding-bottom: calc(110px + env(safe-area-inset-bottom, 0px)); }
-.soi-app-gtop { display: flex; justify-content: space-between; } .soi-app-gtop a, .soi-app-gtop button { width: 44px; height: 44px; border-radius: 50%; background: #fff; border: 0; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-.soi-app-gtop svg { width: 20px; height: 20px; fill: none; stroke: #173A48; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.soi-app-ghead { text-align: center; padding-top: 12px; } .soi-app-ghead p { margin-top: 6px !important; font-size: 14px; opacity: .9; }
-.soi-app-ghead .soi-app-gtitle { font: 700 40px "Cita Pro", Georgia, serif; color: #D4CC73; opacity: 1; margin: 0 !important; } .soi-app-ghead .soi-app-gname { margin-top: 8px !important; font-size: 15px; letter-spacing: .35em; color: #D4CC73; opacity: 1; }
-.soi-app-gtotal { margin-top: 24px; background: rgba(255, 255, 255, .08); border-radius: 20px; padding: 18px; display: flex; align-items: center; gap: 14px; }
-.soi-app-gicon { width: 56px; height: 56px; border-radius: 14px; background: #204E60; border: 1px solid rgba(212, 204, 115, .5); display: flex; align-items: center; justify-content: center; flex: none; } .soi-app-gicon .soi-gem { width: 26px; height: 26px; }
-.soi-app-gtotal > span:nth-child(2) { flex: 1; min-width: 0; } .soi-app-gtotal b { display: block; font-size: 18px; color: #fff; } .soi-app-gtotal small { font-size: 13px; opacity: .85; } .soi-app-gtotal strong { font: 700 30px "Cita Pro", Georgia, serif; color: #D4CC73; }
-.soi-app-gseg { display: flex; margin-top: 24px; } .soi-app-gseg button { flex: 1; background: none; border: 0; border-bottom: 2px solid rgba(238, 238, 229, .2); padding: 12px 4px; min-height: 44px; font: 600 14px "Plus Jakarta Sans", sans-serif; color: rgba(238, 238, 229, .7); cursor: pointer; }
-.soi-app-gseg button[aria-selected="true"] { color: #fff; border-bottom-color: #D4CC73; }
-#soi-app-board { margin-top: 8px; } #soi-app-board > div { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 14px; border: 1px solid transparent; }
-#soi-app-board .is-you { background: rgba(212, 204, 115, .14); border-color: rgba(212, 204, 115, .4); }
-.soi-app-brank { width: 30px; text-align: center; font: 700 17px "Cita Pro", Georgia, serif; color: #D4CC73; } .soi-app-bini { width: 36px; height: 36px; border-radius: 50%; background: #2A5566; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #fff; flex: none; }
-.soi-app-bname { flex: 1; font-weight: 600; color: #fff; min-width: 0; } .soi-app-bgems { font-weight: 700; color: #D4CC73; }
-.soi-app-earn { margin-top: 22px; background: rgba(255, 255, 255, .06); border-radius: 20px; padding: 18px; } .soi-app-earn h2 { font: 700 20px "Cita Pro", Georgia, serif; color: #fff; } .soi-app-earn h2 span { font: 600 11px "Plus Jakarta Sans", sans-serif; color: #D4CC73; letter-spacing: .08em; }
-.soi-app-earn div { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(238, 238, 229, .12); font-size: 14px; } .soi-app-earn strong { color: #D4CC73; white-space: nowrap; }
-.soi-app-keep { position: fixed; left: 20px; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); max-width: 520px; margin: 0 auto; text-align: center; background: #D4CC73; color: #132F3B !important; font-weight: 800; font-size: 17px; text-decoration: none; padding: 17px; border-radius: 16px; }
+/* gems */
+body[data-screen="gems"] { --a-bg: #0F2630; --a-surface: #17333F; --a-surface2: #1E3E4B; --a-ink: #EEEEE5; --a-ink2: #B4C3C7; --a-line: #2A4A57; --a-accent: #D4CC73; --a-on-accent: #10252D; --a-gold-ink: #D4CC73; --a-bar: rgba(15, 38, 48, .86); background: var(--a-bg); }
+.soi-app-ghead { text-align: center; padding: .6rem 0 0; } .soi-app-ghead .soi-app-gem { width: 2.6rem; height: 2.6rem; fill: #D4CC73; } .soi-app-ghead h1 { font: 700 3.4rem/1.05 var(--a-serif); color: #D4CC73; } .soi-app-ghead p { margin-top: .35rem; font-size: .9rem; color: var(--a-ink2); }
+.soi-app-gstats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; margin-top: 1.3rem; } .soi-app-gstats div { background: var(--a-surface); border-radius: 1rem; padding: .85rem .5rem; text-align: center; } .soi-app-gstats b { display: block; font: 700 1.5rem var(--a-serif); color: #fff; } .soi-app-gstats span { font-size: .74rem; color: var(--a-ink2); }
+#soi-app-board { list-style: none; margin-top: .7rem; display: flex; flex-direction: column; gap: .2rem; }
+#soi-app-board li { display: flex; align-items: center; gap: .75rem; min-height: 3.4rem; padding: .55rem .75rem; border-radius: .95rem; border: 1px solid transparent; }
+#soi-app-board li[data-gap] { margin-top: .9rem; position: relative; } #soi-app-board li[data-gap]::before { content: "\00B7\00B7\00B7"; position: absolute; left: 0; right: 0; top: -1.05rem; text-align: center; color: var(--a-ink2); letter-spacing: .3em; }
+#soi-app-board .is-you { background: rgba(212, 204, 115, .14); border-color: rgba(212, 204, 115, .45); }
+.soi-app-brank { width: 2rem; text-align: center; font: 700 1.1rem var(--a-serif); color: #D4CC73; } .soi-app-bini { width: 2.3rem; height: 2.3rem; border-radius: 50%; background: #2A5566; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; flex: none; } .soi-app-bname { flex: 1; min-width: 0; font-weight: 600; } .soi-app-bgems { font-weight: 700; color: #D4CC73; font-variant-numeric: tabular-nums; }
+.soi-app-earn { margin-top: 1.4rem; background: var(--a-surface); border-radius: 1.25rem; padding: 1.1rem; } .soi-app-earn h2 { font: 700 1.25rem var(--a-serif); } .soi-app-earn h2 span { font: 700 .64rem var(--a-sans); letter-spacing: .08em; text-transform: uppercase; color: #173A48; background: #D4CC73; border-radius: 999px; padding: .25rem .5rem; vertical-align: middle; margin-left: .3rem; }
+.soi-app-earn div { display: flex; justify-content: space-between; gap: .8rem; padding: .7rem 0; border-bottom: 1px solid var(--a-line); font-size: .9rem; } .soi-app-earn div:last-child { border-bottom: 0; } .soi-app-earn strong { color: #D4CC73; white-space: nowrap; }
 
-/* reader messages */
-.soi-app-page { max-width: 880px; margin: 0 auto; padding: 28px 28px 56px; } .soi-app-page h1 { font: 700 28px/1.15 "Cita Pro", Georgia, serif; color: #204E60; margin: 0 0 10px; } .soi-app-page p { color: #3d4f56; line-height: 1.6; margin: 0 0 14px; }
-.soi-app-btn { display: inline-block; font-weight: 700; font-size: .92rem; border-radius: 999px; padding: 12px 20px; background: #204E60; color: #fff; text-decoration: none; } .soi-app-btn-quiet { background: transparent; color: #204E60; box-shadow: inset 0 0 0 1.5px #204E60; }
-.soi-app-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px !important; }
-@media (max-width: 340px) { .soi-app-screen { padding-left: 14px; padding-right: 14px; } .soi-app-carousel, .soi-app-guides { margin-left: -14px; margin-right: -14px; padding-left: 14px; padding-right: 14px; } .soi-app-tiles a { font-size: 11px; } .soi-app-grid { gap: 18px 12px; } }
+/* reading view */
+.soi-app-view-read { max-width: none; }
+.soi-app-readhead { display: flex; gap: 1rem; align-items: center; max-width: 880px; margin: 0 auto; padding: 1.1rem 1.25rem .4rem; }
+.soi-app-readhead .soi-app-cover { width: 5.4rem; flex: none; } .soi-app-readhead > div { min-width: 0; }
+.soi-app-readhead h1 { font: 700 1.6rem/1.15 var(--a-serif); margin-top: .15rem; overflow-wrap: anywhere; } .soi-app-readhead .soi-app-chipbtn { margin-top: .6rem; }
+.soi-app-skel { max-width: 880px; margin: 1.2rem auto; padding: 0 1.25rem; display: flex; flex-direction: column; gap: .8rem; } .soi-app-skel i { height: 4.6rem; border-radius: 1rem; background: linear-gradient(100deg, var(--a-surface2) 30%, var(--a-surface) 50%, var(--a-surface2) 70%); background-size: 300% 100%; animation: soi-app-shine 1.3s linear infinite; }
+@keyframes soi-app-shine { to { background-position: -150% 0; } }
+#soi-app-read-body { padding-bottom: calc(var(--a-bottom) + 1rem); }
+#soi-app-read-body .soi-ev { box-shadow: none; clip-path: none; background: transparent; padding-top: .8rem; }
+#soi-app-read-body .soi-ev .ev-body { zoom: var(--soi-read-zoom, 1); }
+.soi-ev .ev-meta { flex-wrap: wrap; }
+.soi-ev .soi-acts { display: inline-flex; gap: 8px; margin-left: auto; }
+.soi-ev .soi-acts button { all: unset; box-sizing: border-box; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; font: 700 13px var(--a-sans); color: #204E60; border: 1.5px solid rgba(32, 78, 96, .3); border-radius: 999px; padding: 6px 14px; min-height: 44px; }
+.soi-ev .soi-acts button:focus-visible { outline: 3px solid #D4CC73; outline-offset: 2px; }
+.soi-ev .soi-acts svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.soi-ev .soi-acts button[aria-pressed="true"] { background: #204E60; border-color: #204E60; color: #fff; } .soi-ev .soi-acts button[aria-pressed="true"] svg { fill: currentColor; }
+body:not([data-screen="read"]) #soi-gotop { display: none !important; }
+/* the magazine in dark mode: its colour names are re-pointed here, nothing in the block itself is edited.
+   Teal stays the colour of the tabs and buttons; teal used as text on the page becomes a light blue. */
+:root.soi-app-dark #soi-app-read-body .soi-ev { --ev-page: #0D1D24; --ev-paper: #152A33; --ev-line: #2A4651; --ev-ink: #E4E6DD; --ev-muted: #A8B8BD; --ev-gold-soft: rgba(212, 204, 115, .16); color: #E4E6DD; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .ev-item { border-color: #2A4651; box-shadow: none; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .ev-item.is-open { box-shadow: 0 0 0 1px rgba(212, 204, 115, .45); }
+:root.soi-app-dark #soi-app-read-body .soi-ev :is(.ev-ayah, .ev-body > p.ev-first::first-letter, .ev-body p.ev-contact a, .ev-body p a.ev-a, .ev-dc, .ev-intro-tag, .ev-list strong, .ev-listen-label, .ev-note a, .ev-note-label,
+  .ev-quote, .ev-ref, .ev-bismillah, .ev-body .ev-intro p.ev-intro-saying, .ev-body .ev-note .ev-note-quote, .ev-body p.ev-lead, .ev-book h4, .ev-byline, a.ev-link, h3.ev-h, h3.ev-qh, .ev-thought p) { color: #A9D3E0 !important; }
+:root.soi-app-dark #soi-app-read-body .soi-ev :is(button.ev-tab, .ev-player.is-docked) { --ev-page: #EEEEE5; --ev-paper: #F8F8F2; --ev-ink: #2A3A40; --ev-line: #D7D8CA; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .ev-body > p.ev-first::first-letter { color: #D4CC73 !important; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .ev-list li::marker { color: #A9D3E0; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .ev-player:not(.is-docked) :is(button.ev-pl-btn, a.ev-pl-btn, button.ev-pl-sp, button.ev-pl-cancel, .ev-pl-label, .ev-pl-count b, .ev-pl-next-text b, .ev-pl-opt-ico) { color: #A9D3E0 !important; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .ev-pl-menu { background: #1C3540; color: #E4E6DD; }
+:root.soi-app-dark #soi-app-read-body .soi-ev .soi-acts button { color: #D4CC73; border-color: rgba(212, 204, 115, .4); }
+:root.soi-app-dark #soi-app-read-body .soi-ev .soi-acts button[aria-pressed="true"] { background: #D4CC73; border-color: #D4CC73; color: #10252D; }
+:root.soi-app-dark #soi-app-read-body #soi-quiz { --z-page: #0D1D24; --z-paper: #152A33; --z-ink: #E4E6DD; --z-muted: #A8B8BD; --z-line: #2A4651; }
+:root.soi-app-dark #soi-app-read-body #soi-quiz :is(.z-cite, .z-cite a, .z-info b, .z-letter, .z-share button.z-copy, .z-stats b, .z-timer .t-num, button.z-btn.z-btn-ghost, label.z-label, .z-invite-box h4, h3.z-h, h4.z-rev-title, p.z-question) { color: #A9D3E0 !important; }
+:root.soi-app-dark #soi-app-read-body #soi-quiz :is(button.z-opt, .z-stats div, .z-share button.z-copy) { background: #1C3540; }
+:root.soi-app-dark #soi-app-read-body #soi-quiz input.z-input { background: #1C3540 !important; }
+:root.soi-app-dark #soi-gotop::before { background: #152A33; box-shadow: inset 0 0 0 1px #2A4651; }
+:root.soi-app-dark #soi-gotop svg { stroke: #D4CC73; } :root.soi-app-dark #soi-gotop .soi-gotop-pct { color: #D4CC73; }
+
+/* transitions between screens (View Transitions; none when the phone asks for reduced motion) */
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: .34s; animation-timing-function: var(--a-ease); }
+:root[data-nav="tab"]::view-transition-old(root) { animation: soi-app-fade-out .16s ease both; }
+:root[data-nav="tab"]::view-transition-new(root) { animation: soi-app-fade-in .22s ease both; }
+:root[data-nav="push"]::view-transition-old(root) { animation: soi-app-out-left .34s var(--a-ease) both; }
+:root[data-nav="push"]::view-transition-new(root) { animation: soi-app-in-right .34s var(--a-ease) both; }
+:root[data-nav="pop"]::view-transition-old(root) { animation: soi-app-out-right .34s var(--a-ease) both; z-index: 2; }
+:root[data-nav="pop"]::view-transition-new(root) { animation: soi-app-in-left .34s var(--a-ease) both; }
+@keyframes soi-app-fade-out { to { opacity: 0; } } @keyframes soi-app-fade-in { from { opacity: 0; } }
+@keyframes soi-app-in-right { from { transform: translateX(100%); } } @keyframes soi-app-out-left { to { transform: translateX(-24%); opacity: .6; } }
+@keyframes soi-app-out-right { to { transform: translateX(100%); } } @keyframes soi-app-in-left { from { transform: translateX(-24%); opacity: .6; } }
+#soi-app-tabs { view-transition-name: soi-app-tabs; } #soi-app-mini { view-transition-name: soi-app-mini; }
+@media (prefers-reduced-motion: reduce) { .soi-app-view *, #soi-app-tabs, #soi-app-tabs *, #soi-app-mini, #soi-app-sheet *, #soi-app-toast { animation: none !important; transition: none !important; } html { scroll-behavior: auto !important; } }
+@media (prefers-contrast: more) { :root { --a-line: #8A968F; --a-ink2: #2F4149; } :root.soi-app-dark { --a-line: #7F979F; --a-ink2: #D5DEE0; } }
+@media (min-width: 700px) { .soi-app-grid3 { grid-template-columns: repeat(5, minmax(0, 1fr)); } #soi-app-tabs { justify-content: center; } #soi-app-tabs a { flex: 0 0 9rem; } }
+@media (max-width: 345px) { .soi-app-pad { padding-left: 1rem; padding-right: 1rem; } .soi-app-scroll { margin: 0 -1rem; padding: 0 1rem .3rem; } .soi-app-hero { gap: .75rem; padding: .8rem; } }

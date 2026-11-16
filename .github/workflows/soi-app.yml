@@ -6,7 +6,9 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["app/**", "site/site.js", "site/site.css", ".github/workflows/soi-app.yml"]
+    paths: ["app/**", ".github/workflows/soi-app.yml"]
+  pull_request:
+    paths: ["app/**", ".github/workflows/soi-app.yml"]
 
 jobs:
   android:
@@ -30,11 +32,18 @@ jobs:
           npm ci
           python3 build_app.py
           npx cap sync android
-      - name: Test the packed files (offline reading, links, search)
+      - name: Test the packed files (screens, reading, mini player, offline audio, accessibility)
         run: |
           pip install playwright
           python3 -m playwright install --with-deps chromium
           python3 app/tests/test_app.py
+      - name: Screenshots at 375x812 and 412x915, light and dark
+        run: python3 app/tests/shots.py "$RUNNER_TEMP/shots"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: soi-app-screenshots
+          path: ${{ runner.temp }}/shots
+          retention-days: 14
       - name: Build debug APK
         working-directory: app/android
         run: ./gradlew assembleDebug --no-daemon

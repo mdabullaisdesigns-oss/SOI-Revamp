@@ -2,8 +2,31 @@
   "appId": "in.co.spiritofislam.app",
   "appName": "Spirit of Islam",
   "webDir": "www",
-  "backgroundColor": "#EEEEE5",
-  "server": { "androidScheme": "https" },
-  "plugins": { "CapacitorHttp": { "enabled": true } },
-  "ios": { "contentInset": "automatic" }
+  "backgroundColor": "#F6F5EE",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 1500,
+      "backgroundColor": "#204E60",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "launchFadeOutDuration": 250
+    },
+    "StatusBar": {
+      "overlaysWebView": true
+    }
+  },
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#F6F5EE"
+  },
+  "android": {
+    "backgroundColor": "#F6F5EE"
+  }
 }

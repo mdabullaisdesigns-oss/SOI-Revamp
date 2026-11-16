@@ -60,3 +60,9 @@ Approved canvas: "SOI Redesign" (claude.ai/artifact/8V2ZVvbWWVfVUirZSBrybY). Pat
 - Quotes: Spotlight and Gallery views on one page (visitor chooses, remembered); Listen uses the device's voice for now (Gary later); share pictures use the approved quote photos.
 - Footer after the owner's reference (seedjewelry.com): dark teal, full logo, large serif column headings, CPS social links (from cpsglobal.org), "Ask AI about Spirit of Islam" (ChatGPT, Claude, Gemini, Perplexity, Grok – names, not logos), no copyright line; developer credit kept.
 - Later: readers' reviews as cream cards with a dashed inner border.
+
+## App redesign (16 Nov 2026, branch `app-redesign`)
+- The app is now one page with its own screens and styles (it no longer shows the website's pages); the magazine block of each issue is used unchanged. Details: `app/README.md`.
+- Added: mini player on every screen, offline audio with progress and storage used, dark mode, text size, All issues and Quotes screens, app icon and splash from `site/brand/`.
+- Tutorial tiles are plain brand tiles (no photos) until the recordings exist. Voice search stays out.
+- Still sample data: name, gems, rank, leaderboard, "My reading".
