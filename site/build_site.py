@@ -203,6 +203,7 @@ def page(title, body, desc="", cls="", head="", current=""):
     <span class="soi-menu-right">
       <a class="soi-menu-ico" href="/search/" aria-label="Search">{ICON_SEARCH}</a>
       <a class="soi-menu-ico" href="/saved/" aria-label="Saved">{ICON_SAVED}</a>
+      <a class="soi-menu-ico soi-gem-ico" href="/gems/" aria-label="Gems: earn gems by reading, listening and sharing" data-tip="Earn gems"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11l4 5.5L12 20.5 2.5 9z"/><path class="soi-gem-cut" d="M2.5 9h19M9 3.5 7.5 9l4.5 11.5L16.5 9 15 3.5"/></svg></a>
       <a class="soi-menu-signin" href="/signin/">{I_USER}<span>Sign in</span></a>
     </span>
   </nav>
@@ -228,6 +229,39 @@ def page(title, body, desc="", cls="", head="", current=""):
 </body>
 </html>
 """
+
+
+TS_KEY = MENU.get("turnstile_sitekey", "")
+TS_TAG = (f'<div class="cf-turnstile" data-sitekey="{TS_KEY}" data-theme="light" data-size="flexible"></div>'
+          '<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>') if TS_KEY else ""
+FORM_JS = """<script>
+(function () {
+  [].forEach.call(document.querySelectorAll('form.soi-api-form'), function (f) {
+    var t = f.querySelector('[name=t]'); if (t) t.value = Date.now();
+    var out = f.querySelector('.soi-form-out'), btn = f.querySelector('[type=submit]');
+    f.addEventListener('submit', function (e) {
+      e.preventDefault(); btn.disabled = true; out.className = 'soi-form-out'; out.textContent = 'Sending…';
+      fetch(f.action, { method: 'POST', body: new FormData(f) }).then(function (r) { return r.json(); }).then(function (j) {
+        if (j.ok) { out.className = 'soi-form-out is-ok'; out.textContent = f.dataset.ok; f.reset(); if (t) t.value = Date.now(); }
+        else { out.className = 'soi-form-out is-err'; out.textContent = j.error || 'Please try again.'; }
+      }).catch(function () { out.className = 'soi-form-out is-err'; out.textContent = 'No connection. Please try again.'; })
+        .then(function () { btn.disabled = false; if (window.turnstile) try { turnstile.reset(); } catch (x) {} });
+    });
+  });
+})();
+</script>"""
+CONTACT_FORM = f"""
+<form class="soi-api-form soi-contact-form" action="/api/contact" method="post" data-ok="Thank you. Your message has been sent; we will reply by email.">
+  <div class="soi-form-row"><label>Your name<input name="name" required maxlength="120" autocomplete="name"></label>
+  <label>Your email<input name="email" type="email" required maxlength="200" autocomplete="email"></label></div>
+  <label>Subject<input name="subject" maxlength="160"></label>
+  <label>Message<textarea name="message" required minlength="10" maxlength="5000" rows="6"></textarea></label>
+  <label class="soi-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+  <input type="hidden" name="t" value="0">
+  {TS_TAG}
+  <p class="soi-form-foot"><button class="soi-btn soi-btn-solid" type="submit">Send message</button><span class="soi-form-out" role="status"></span></p>
+  <p class="soi-form-note">Protected against spam. Your details are used only to reply to you.</p>
+</form>{FORM_JS}"""
 
 
 def _pdf_map():
@@ -426,6 +460,25 @@ def build():
     </div>
   </div>
 </section>
+<section class="soi-wide soi-sec soi-news" aria-labelledby="soi-news-h">
+  <div class="soi-news-in">
+    <div class="soi-news-art" aria-hidden="true">{"".join(f'<span class="soi-news-cv soi-news-cv{k}">{cover(x)}</span>' for k, x in enumerate(issues[-3:]))}</div>
+    <div class="soi-news-body">
+      <p class="soi-kick">Stay connected · it’s free</p>
+      <h2 id="soi-news-h">Never miss an issue</h2>
+      <p>Get every new issue of Spirit of Islam free in your inbox, with a quote to reflect on and the audio links. About six emails a year. No spam, unsubscribe in one click.</p>
+      <form class="soi-api-form soi-news-form" action="/api/subscribe" method="post" data-ok="Almost done: please confirm from the email we have just sent you.">
+        <label class="sr-only" for="soi-news-n">Your name (optional)</label><input id="soi-news-n" name="name" placeholder="Your name (optional)" maxlength="100" autocomplete="given-name">
+        <label class="sr-only" for="soi-news-e">Your email address</label><input id="soi-news-e" name="email" type="email" required placeholder="Your email address" maxlength="200" autocomplete="email">
+        <label class="soi-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        {TS_TAG.replace('data-theme="light"', 'data-theme="dark"')}
+        <button class="soi-pillbtn soi-pillbtn-gold" type="submit">Subscribe free</button>
+        <span class="soi-form-out" role="status"></span>
+      </form>
+    </div>
+  </div>
+</section>
+{FORM_JS}
 <script>(function(){{var m={redirects},id=new URLSearchParams(location.search).get('page_id');if(id&&m[id])location.replace(m[id]);}})();</script>
 """
     write("index.html", page("Spirit of Islam – A Magazine for the Journey of Life", home, cls="soi-home", current="home"))
@@ -447,6 +500,20 @@ def build():
     write("saved/index.html", page("Saved – Spirit of Islam",
           '<section class="soi-wrap soi-sec soi-page-head"><h1>Saved</h1><p>Articles and quotes you save are kept in this browser. Signing in, to carry them across devices, comes with the app.</p></section>'
           '<section class="soi-wrap soi-sec" id="soi-saved-web"></section>'))
+    write("gems/index.html", page("Gems – Spirit of Islam", """
+<section class="soi-wrap soi-sec soi-page-head"><p class="soi-kicker">New</p><h1>Earn gems as you read</h1>
+<p>Gems are a small thank-you for spending time with Spirit of Islam. Collect them on the website and in the app, and see where you stand on the leaderboard.</p></section>
+<section class="soi-wrap soi-sec"><div class="soi-gem-ways">
+  <div><b>Finish an article</b><span>+10 gems, reading or listening</span></div>
+  <div><b>Each correct quiz answer</b><span>+5 gems</span></div>
+  <div><b>Quiz score 7 or more</b><span>+20 bonus gems</span></div>
+  <div><b>Share an article or quote</b><span>+5 gems (up to 25 a day)</span></div>
+  <div><b>Finish a whole issue</b><span>+50 gems</span></div>
+  <div><b>Daily reading streak</b><span>+5 gems a day</span></div>
+</div>
+<p class="soi-gem-note">These values are a first proposal and may change before accounts open.</p>
+<div class="soi-gem-board"><h2>Leaderboard</h2><p>The leaderboard opens with free accounts, together with the Spirit of Islam app. Gems you collect before then are kept in this browser and move to your account when you sign up.</p>
+<p><a class="soi-btn soi-btn-solid" href="/signin/">Sign up free</a></p></div></section>""", "How to earn gems on Spirit of Islam: reading, listening, quizzes and sharing.", current="gems"))
     write("signin/index.html", page("Sign in – Spirit of Islam",
           '<section class="soi-wrap soi-sec soi-page-head"><h1>Sign in</h1><p>Accounts arrive together with the Spirit of Islam app: one sign-in to keep your place, saved articles and gems on every device.</p>'
           '<p>Until then nothing is needed. Your reading place and saved items are remembered in this browser.</p><p><a class="soi-btn soi-btn-solid" href="/saved/">See what is saved here</a></p></section>'))
@@ -521,8 +588,8 @@ def build():
         if not w:
             print("page not copied from the live site yet:", item["label"])
             w = {"html": f'<p>This page is being moved from the current website. <a href="{live}">Read it there</a>.</p>', "form": False}
-        if w["form"]:      # the message form needs somewhere to send to; until that is decided it stays on the current site
-            w["html"] = f'<p>To write to Spirit of Islam, please use the message form on the current website.</p><p><a class="soi-btn soi-btn-solid" href="{live}" target="_blank" rel="noopener">Open the contact form</a></p>'
+        if w["form"]:      # our own form: Turnstile + hidden field + time check + rate limit, sent by functions/api/contact.js
+            w["html"] = w["html"] + CONTACT_FORM
         write(item["href"].strip("/") + "/index.html", page(f'{item["label"]} – Spirit of Islam',
               f'<section class="soi-wrap soi-sec soi-prose soi-about">{w["html"]}</section>' if not w["form"] else
               f'<section class="soi-wrap soi-sec soi-page-head"><h1>{esc(item["label"])}</h1></section><section class="soi-wrap soi-prose">{w["html"]}</section>', current=cur_key))
@@ -587,7 +654,7 @@ def build():
       st = box.querySelector('.soi-sx-status'), clr = box.querySelector('.soi-sx-clear'), more = box.querySelector('.soi-sx-more'),
       pf = null, sel = {{ Section: '', Year: '' }}, res = [], shown = 0, seq = 0, PAGE = 10;
   function esc(t) {{ return String(t).replace(/[&<>"]/g, function (c) {{ return {{ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }}[c]; }}); }}
-  function term() {{ return q.value.trim().replace(/(\d{{1,3}})\s*:\s*(\d{{1,3}})/g, '$1:$2'); }}
+  function term() {{ return q.value.trim().replace(/(\\d{{1,3}})\\s*:\\s*(\\d{{1,3}})/g, '$1:$2'); }}
   function chips(name, values) {{
     var row = box.querySelector('[data-f="' + name + '"] .soi-sx-chips');
     row.innerHTML = '<button type="button" data-v="" aria-pressed="true">All</button>' + values.map(function (v) {{ return '<button type="button" data-v="' + esc(v) + '" aria-pressed="false">' + esc(v) + '</button>'; }}).join('');

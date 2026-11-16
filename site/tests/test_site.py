@@ -20,7 +20,7 @@ async def main():
         items = [re.sub(r'\s*▾', '', t).strip() for t in await pg.locator('.soi-menu-list > li > a, .soi-menu-list > li > .soi-menu-top').all_inner_texts()]
         ok('menu items as approved', items == ['Home', 'Archives', 'Quotes', 'About Us', 'Contact Us'], str(items))
         ok('menu: gold bar across the full width, joined to the header, Search / Saved / Sign in on the right', await pg.evaluate("(()=>{const b=document.querySelector('.soi-menubar'),h=document.querySelector('.soi-hdr');return getComputedStyle(b).backgroundColor==='rgb(212, 204, 115)'&&b.offsetWidth===document.documentElement.clientWidth&&Math.abs(b.getBoundingClientRect().top-h.getBoundingClientRect().bottom)<1})()")
-           and await pg.locator('.soi-menu-right a').count() == 3)
+           and await pg.locator('.soi-menu-right a').count() == 4)
         # welcome note, word for word against the live home page
         live = open(ROOT + '/sources/site/home.html', encoding='utf-8').read()
         a = live.find('Dear Readers'); lw = words(live[a:live.find('Team Spirit of Islam', a) + 20])

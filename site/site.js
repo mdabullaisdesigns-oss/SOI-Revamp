@@ -298,7 +298,22 @@
   }
 
   window.soi = { store: store, share: share, toast: toast, esc: esc, issues: issues, coverHTML: coverHTML, cover: cover, quoteImage: quoteImage, quoteOfDay: quoteOfDay, mmss: mmss, LS: LS };
-  function start() { readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); }
+  /* ---------- sign-up invitation (corner card), once, for readers who are not signed in ---------- */
+  function invite() {
+    if (!$('meta[name="soi-issue"]') || document.querySelector('.soi-invite')) return;
+    var K = 'soi-invite-closed', last = 0; try { last = +localStorage.getItem(K) || 0; if (localStorage.getItem('soi-signed-in')) return; } catch (e) {}
+    if (Date.now() - last < 7 * 864e5) return;
+    setTimeout(function () {
+      var c = document.createElement('aside'); c.className = 'soi-invite'; c.setAttribute('aria-label', 'Free account');
+      c.innerHTML = '<button type="button" class="soi-invite-x" aria-label="Close">×</button><div class="soi-invite-ph" style="background-image:url(' + (QPH[3] || '/assets/photos/hero.webp') + ')"></div>' +
+        '<div class="soi-invite-in"><b>Keep your place, earn gems</b><ul><li>Continue reading on any device</li><li>Save articles and quotes</li><li>Earn gems and join the leaderboard</li><li>Free app: read offline, listen with the screen off</li></ul>' +
+        '<p><a class="soi-invite-go" href="/signin/">Sign up free</a><button type="button" class="soi-invite-no">Not now</button></p></div>';
+      function close() { try { localStorage.setItem(K, Date.now()); } catch (e) {} c.classList.remove('is-on'); setTimeout(function () { c.remove(); }, 400); }
+      c.addEventListener('click', function (e) { if (e.target.closest('.soi-invite-x, .soi-invite-no, .soi-invite-go')) close(); });
+      document.body.appendChild(c); requestAnimationFrame(function () { c.classList.add('is-on'); });
+    }, 120000);
+  }
+  function start() { readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); invite(); }
   function boot() { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start(); }
   window.soi.restart = boot; window.soi.slug = function () { return SLUG; };
   boot();
