@@ -5,7 +5,7 @@
  "articles": {
   "news-from-australia": {
    "title": "News from Australia",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-news-from-australia.mp3",
    "chars": 7255,
    "sentences": [
@@ -74,7 +74,7 @@
   },
   "the-second-age-is-coming": {
    "title": "The Second Age Is Coming",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-the-second-age-is-coming.mp3",
    "chars": 3949,
    "sentences": [
@@ -120,7 +120,7 @@
   },
   "the-role-of-difficulty": {
    "title": "The Role of Difficulty",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-the-role-of-difficulty.mp3",
    "chars": 3463,
    "sentences": [
@@ -169,7 +169,7 @@
   },
   "guidance-for-life-in-islam": {
    "title": "Guidance for Life in Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-guidance-for-life-in-islam.mp3",
    "chars": 11986,
    "sentences": [
@@ -288,7 +288,7 @@
   },
   "the-policy-of-delinking": {
    "title": "The Policy of Delinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-the-policy-of-delinking.mp3",
    "chars": 4308,
    "sentences": [
@@ -333,7 +333,7 @@
   },
   "peace-is-possible-but-only-through-the-right-way": {
    "title": "Peace Is Possible, but Only Through the Right Way",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-peace-is-possible-but-only-through-the-right-way.mp3",
    "chars": 2854,
    "sentences": [
@@ -370,7 +370,7 @@
   },
   "the-power-of-will-power": {
    "title": "The Power of Will Power",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-the-power-of-will-power.mp3",
    "chars": 3759,
    "sentences": [
@@ -419,7 +419,7 @@
   },
   "extended-companionship": {
    "title": "Extended Companionship",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-extended-companionship.mp3",
    "chars": 2107,
    "sentences": [
@@ -449,7 +449,7 @@
   },
   "a-dangerous-phenomenon": {
    "title": "A Dangerous Phenomenon",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-a-dangerous-phenomenon.mp3",
    "chars": 1981,
    "sentences": [
@@ -500,7 +500,7 @@
   },
   "confidence-not-overconfidence": {
    "title": "Confidence; Not Overconfidence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-confidence-not-overconfidence.mp3",
    "chars": 4409,
    "sentences": [
@@ -556,7 +556,7 @@
   },
   "spirituality-versus-politics": {
    "title": "Spirituality Versus Politics",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-spirituality-versus-politics.mp3",
    "chars": 3352,
    "sentences": [
@@ -598,7 +598,7 @@
   },
   "reasoning": {
    "title": "Reasoning",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-reasoning.mp3",
    "chars": 3854,
    "sentences": [
@@ -645,7 +645,7 @@
   },
   "lessons-from-nature": {
    "title": "Lessons from Nature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-lessons-from-nature.mp3",
    "chars": 3722,
    "sentences": [
@@ -690,7 +690,7 @@
   },
   "temptation-and-anger": {
    "title": "Temptation and Anger",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-temptation-and-anger.mp3",
    "chars": 2850,
    "sentences": [
@@ -734,7 +734,7 @@
   },
   "intellectual-mould": {
    "title": "Intellectual Mould",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-intellectual-mould.mp3",
    "chars": 1718,
    "sentences": [
@@ -762,7 +762,7 @@
   },
   "thought-crime": {
    "title": "Thought Crime",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-thought-crime.mp3",
    "chars": 6972,
    "sentences": [
@@ -834,7 +834,7 @@
   },
   "interaction": {
    "title": "Interaction",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-interaction.mp3",
    "chars": 1747,
    "sentences": [
@@ -863,7 +863,7 @@
   },
   "death": {
    "title": "Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-death.mp3",
    "chars": 3430,
    "sentences": [
@@ -900,7 +900,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-the-word-of-god.mp3",
    "chars": 3536,
    "sentences": [
@@ -937,7 +937,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-07-ask-maulana.mp3",
    "chars": 3170,
    "sentences": [
