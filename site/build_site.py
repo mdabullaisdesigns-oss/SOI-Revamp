@@ -568,17 +568,70 @@ def build():
   <h1>Search</h1>
   <p>Across {total_articles:,} articles in {len(issues)} issues. A result opens the article itself. Quran references work too, for example <a href="/search/?q=51%3A56">51:56</a>.</p>
 </section>
-<section class="soi-wrap soi-searchbox"><div id="soi-search"></div></section>
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<script src="/pagefind/pagefind-ui.js"></script>
+<section class="soi-wrap soi-searchbox" id="soi-sx">
+  <form class="soi-sx-bar" role="search" onsubmit="return false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <label class="sr-only" for="soi-sx-q">Search every article</label>
+    <input id="soi-sx-q" type="search" placeholder="Search every article since 2013…" autocomplete="off" enterkeyhint="search">
+    <button type="button" class="soi-sx-clear" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>Clear</button>
+  </form>
+  <div class="soi-sx-row" data-f="Section"><span class="soi-sx-lbl">Section:</span><div class="soi-sx-chips"></div></div>
+  <div class="soi-sx-row" data-f="Year"><span class="soi-sx-lbl">Year:</span><div class="soi-sx-chips"></div></div>
+  <p class="soi-sx-status" aria-live="polite"></p>
+  <ol class="soi-sx-list"></ol>
+  <p class="soi-sx-morewrap"><button type="button" class="soi-btn soi-sx-more" hidden>Show more results</button></p>
+</section>
 <script>
 (function () {{
-  var ui = new PagefindUI({{ element: '#soi-search', showSubResults: false, showImages: false, pageSize: 10, resetStyles: false,
-    openFilters: ['Year'], translations: {{ placeholder: 'Search every article since 2013…', zero_results: 'Nothing found for [SEARCH_TERM]' }},
-    processResult: function (r) {{ if (r.meta && r.meta.issue) r.meta.title = r.meta.title + ' — ' + r.meta.issue; return r; }},
-    processTerm: function (t) {{ return t.replace(/(\\d{{1,3}})\\s*:\\s*(\\d{{1,3}})/g, '$1:$2'); }} }});
-  var q = new URLSearchParams(location.search).get('q');
-  if (q) ui.triggerSearch(q);
+  var box = document.getElementById('soi-sx'), q = document.getElementById('soi-sx-q'), list = box.querySelector('.soi-sx-list'),
+      st = box.querySelector('.soi-sx-status'), clr = box.querySelector('.soi-sx-clear'), more = box.querySelector('.soi-sx-more'),
+      pf = null, sel = {{ Section: '', Year: '' }}, res = [], shown = 0, seq = 0, PAGE = 10;
+  function esc(t) {{ return String(t).replace(/[&<>"]/g, function (c) {{ return {{ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }}[c]; }}); }}
+  function term() {{ return q.value.trim().replace(/(\d{{1,3}})\s*:\s*(\d{{1,3}})/g, '$1:$2'); }}
+  function chips(name, values) {{
+    var row = box.querySelector('[data-f="' + name + '"] .soi-sx-chips');
+    row.innerHTML = '<button type="button" data-v="" aria-pressed="true">All</button>' + values.map(function (v) {{ return '<button type="button" data-v="' + esc(v) + '" aria-pressed="false">' + esc(v) + '</button>'; }}).join('');
+    row.addEventListener('click', function (e) {{ var b = e.target.closest('button'); if (!b) return; sel[name] = b.dataset.v;
+      [].forEach.call(row.children, function (x) {{ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }}); run(); }});
+  }}
+  function filters() {{ var f = {{}}; Object.keys(sel).forEach(function (k) {{ if (sel[k]) f[k] = sel[k]; }}); return f; }}
+  function sync() {{
+    clr.hidden = !q.value;
+    var u = new URL(location.href); if (q.value.trim()) u.searchParams.set('q', q.value.trim()); else u.searchParams.delete('q'); history.replaceState(null, '', u);
+  }}
+  function run() {{
+    sync(); var t = term(), my = ++seq, f = filters();
+    if (!t && !Object.keys(f).length) {{ list.innerHTML = ''; st.textContent = ''; more.hidden = true; return; }}
+    st.textContent = 'Searching…';
+    pf.search(t || null, {{ filters: f }}).then(function (r) {{
+      if (my !== seq) return; res = r.results; shown = 0; list.innerHTML = ''; page();
+      var n = res.length, bits = [];
+      if (t) bits.push('for “' + t + '”'); if (sel.Section) bits.push('in ' + sel.Section); if (sel.Year) bits.push('in ' + sel.Year);
+      st.innerHTML = (n ? n.toLocaleString() + (n === 1 ? ' result ' : ' results ') : 'Nothing found ') + esc(bits.join(' ')) +
+        ((sel.Section || sel.Year) ? ' · <button type="button" class="soi-sx-reset">Clear all filters</button>' : '');
+    }});
+  }}
+  function page() {{
+    var part = res.slice(shown, shown + PAGE); shown += part.length; more.hidden = shown >= res.length;
+    Promise.all(part.map(function (r) {{ return r.data(); }})).then(function (ds) {{
+      list.insertAdjacentHTML('beforeend', ds.map(function (d) {{
+        var m = d.meta || {{}};
+        return '<li><a href="' + d.url + '"><span class="soi-sx-iss">' + esc(m.issue || '') + '</span><b>' + esc(m.title || d.url) + '</b><span class="soi-sx-ex">' + d.excerpt + '</span></a></li>';
+      }}).join(''));
+    }});
+  }}
+  var timer;
+  q.addEventListener('input', function () {{ clearTimeout(timer); timer = setTimeout(run, 220); }});
+  clr.addEventListener('click', function () {{ q.value = ''; q.focus(); run(); }});
+  more.addEventListener('click', page);
+  st.addEventListener('click', function (e) {{ if (!e.target.closest('.soi-sx-reset')) return; sel = {{ Section: '', Year: '' }};
+    [].forEach.call(box.querySelectorAll('.soi-sx-chips'), function (row) {{ [].forEach.call(row.children, function (x, k) {{ x.setAttribute('aria-pressed', k ? 'false' : 'true'); }}); }}); run(); }});
+  import('/pagefind/pagefind.js').then(function (m) {{ pf = m; return pf.init ? pf.init() : null; }}).then(function () {{ return pf.filters(); }}).then(function (f) {{
+    var sec = Object.keys(f.Section || {{}}).sort(function (a, b) {{ return (f.Section[b] || 0) - (f.Section[a] || 0); }});
+    var yrs = Object.keys(f.Year || {{}}).sort().reverse();
+    chips('Section', sec); chips('Year', yrs);
+    var s0 = new URLSearchParams(location.search).get('q'); if (s0) {{ q.value = s0; }} run();
+  }});
 }})();
 </script>
 """

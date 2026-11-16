@@ -904,3 +904,32 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 .soi-icard-act { flex-wrap: wrap; }
 .soi-icard-act .soi-ib { min-width: 0; }
 @media (max-width: 600px) { .soi-covers .soi-icard-act .soi-ib-main { flex-basis: 100%; } .soi-covers .soi-icard-act .soi-ib:not(.soi-ib-main) { flex: 1; } }
+
+/* search: filter buttons under the search bar, proper Clear button */
+#soi-sx { max-width: 880px; }
+.soi-sx-bar { display: flex; align-items: center; gap: 12px; height: 58px; padding: 0 8px 0 18px; background: #fff; border: 2px solid #204E60; border-radius: 16px; }
+.soi-sx-bar:focus-within { box-shadow: 0 0 0 4px rgba(32, 78, 96, .12); }
+.soi-sx-bar > svg { width: 20px; height: 20px; flex: none; fill: none; stroke: #204E60; stroke-width: 2; stroke-linecap: round; }
+.soi-sx-bar input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: none; font: inherit; font-size: 16px; color: #173A48; }
+.soi-sx-bar input::-webkit-search-cancel-button { display: none; }
+.soi-sx-clear { display: inline-flex; align-items: center; gap: 6px; height: 38px; padding: 0 14px; border: 0; border-radius: 10px; background: #EEEEE5; color: #173A48; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+.soi-sx-clear svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; }
+.soi-sx-clear:hover { background: #EA3451; color: #fff; }
+.soi-sx-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+.soi-sx-lbl { flex: none; font-size: 13px; font-weight: 700; color: #173A48; min-width: 58px; }
+.soi-sx-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 2px; }
+.soi-sx-chips::-webkit-scrollbar { display: none; }
+.soi-sx-chips button { flex: none; height: 36px; padding: 0 14px; border: 1px solid #D9D6C8; border-radius: 10px; background: #fff; color: #173A48; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.soi-sx-chips button:hover { border-color: #204E60; }
+.soi-sx-chips button[aria-pressed="true"] { border-color: #204E60; box-shadow: inset 0 0 0 1px #204E60; background: #F4F3EC; }
+.soi-sx-status { margin: 22px 0 8px; font-size: 14px; color: #53656D; }
+.soi-sx-reset { border: 0; background: none; padding: 0; font: inherit; font-weight: 700; color: #EA3451; cursor: pointer; }
+.soi-sx-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.soi-sx-list a { display: block; padding: 16px 18px; border: 1px solid var(--soi-line); border-radius: 14px; background: #fff; text-decoration: none; color: #173A48; transition: border-color .2s; }
+.soi-sx-list a:hover { border-color: #EA3451; }
+.soi-sx-iss { display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #EA3451; }
+.soi-sx-list b { display: block; margin: 4px 0 6px; font-family: var(--soi-display); font-size: 1.25rem; font-weight: 400; }
+.soi-sx-ex { display: block; font-size: 14px; line-height: 1.6; color: #33474F; }
+.soi-sx-ex mark { background: rgba(212, 204, 115, .45); color: inherit; padding: 0 2px; border-radius: 3px; }
+.soi-sx-morewrap { text-align: center; margin: 20px 0 0; }
+@media (max-width: 600px) { .soi-sx-row { flex-direction: column; align-items: flex-start; gap: 6px; } .soi-sx-chips { max-width: 100%; } }
