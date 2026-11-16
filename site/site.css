@@ -941,10 +941,6 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 @keyframes soiGemShine { 0%, 70% { background-position: 120% 0; } 100% { background-position: -120% 0; } }
 @media (prefers-reduced-motion: reduce) { .soi-gem-ico::after { animation: none; } }
 .soi-gem-ico[data-tip]:hover::before { content: attr(data-tip); position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%); white-space: nowrap; background: #173A48; color: #fff; font-size: 12px; font-weight: 600; padding: 5px 9px; border-radius: 8px; }
-.soi-gem-ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
-.soi-gem-ways > div { background: #fff; border: 1px solid var(--soi-line); border-radius: 16px; padding: 18px; display: flex; flex-direction: column; gap: 4px; }
-.soi-gem-ways b { font-family: var(--soi-display); font-weight: 400; font-size: 1.2rem; color: #173A48; }
-.soi-gem-ways span { color: #204E60; font-weight: 700; font-size: 14px; }
 .soi-gem-note { font-size: 13px; color: #53656D; margin: 12px 0 0; }
 .soi-gem-board { margin-top: 32px; background: #204E60; color: #fff; border-radius: 22px; padding: 28px; }
 .soi-gem-board h2 { margin: 0 0 8px; font-family: var(--soi-display); font-weight: 400; color: #fff; }
@@ -997,3 +993,11 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 .soi-invite-go:hover { background: #EA3451; }
 .soi-invite-no { border: 0; background: none; color: #53656D; font: inherit; font-size: 14px; font-weight: 600; padding: 0 10px; cursor: pointer; }
 @media (max-width: 600px) { .soi-invite { right: 16px; bottom: 16px; } }
+
+/* gems page: cards like "What does it cover" (About) */
+.soi-gem-ways li { position: relative; }
+.soi-gem-ways .soi-cov-ico svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.soi-gem-pts { position: absolute; top: 22px; right: 20px; display: inline-flex; align-items: center; gap: 5px; height: 30px; padding: 0 11px; border-radius: 99px; background: #204E60; color: #D4CC73; font-weight: 700; font-size: 14px; }
+.soi-gem-pts svg { width: 14px; height: 14px; fill: #D4CC73; }
+/* home quote of the day: room between the ornament and the card */
+.soi-qotd-sec .soi-h { margin-bottom: 30px; }
