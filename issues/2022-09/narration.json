@@ -5,7 +5,7 @@
  "articles": {
   "calamities-and-afflictions": {
    "title": "Calamities and Afflictions",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-calamities-and-afflictions.mp3",
    "chars": 3003,
    "sentences": [
@@ -79,7 +79,7 @@
   },
   "gift-or-test": {
    "title": "Gift or Test?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-gift-or-test.mp3",
    "chars": 2033,
    "sentences": [
@@ -196,7 +196,7 @@
   },
   "for-the-thinking-soul": {
    "title": "For the Thinking Soul",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-for-the-thinking-soul.mp3",
    "chars": 2139,
    "sentences": [
@@ -225,7 +225,7 @@
   },
   "indian-muslims-a-historical-review": {
    "title": "Indian Muslims: A Historical Review",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-indian-muslims-a-historical-review.mp3",
    "chars": 6983,
    "sentences": [
@@ -287,7 +287,7 @@
   },
   "a-perfect-world": {
    "title": "A Perfect World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-a-perfect-world.mp3",
    "chars": 3105,
    "sentences": [
@@ -321,7 +321,7 @@
   },
   "a-practical-solution": {
    "title": "A Practical Solution",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-a-practical-solution.mp3",
    "chars": 1674,
    "sentences": [
@@ -373,7 +373,7 @@
   },
   "correct-starting-point": {
    "title": "Correct Starting Point",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-correct-starting-point.mp3",
    "chars": 4509,
    "sentences": [
@@ -422,7 +422,7 @@
   },
   "india-a-spiritual-superpower": {
    "title": "India: A Spiritual Superpower",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-india-a-spiritual-superpower.mp3",
    "chars": 4812,
    "sentences": [
@@ -489,7 +489,7 @@
   },
   "the-majority-minority-equation": {
    "title": "The Majority-Minority Equation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-the-majority-minority-equation.mp3",
    "chars": 2886,
    "sentences": [
@@ -550,7 +550,7 @@
   },
   "freedom-of-expression": {
    "title": "Freedom of Expression",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-freedom-of-expression.mp3",
    "chars": 2064,
    "sentences": [
@@ -583,7 +583,7 @@
   },
   "negligence-a-moral-deficiency": {
    "title": "Negligence: A Moral Deficiency",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-negligence-a-moral-deficiency.mp3",
    "chars": 2573,
    "sentences": [
@@ -612,7 +612,7 @@
   },
   "pride-and-gratitude": {
    "title": "Pride and Gratitude",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-pride-and-gratitude.mp3",
    "chars": 2355,
    "sentences": [
@@ -647,7 +647,7 @@
   },
   "lesser-gratitude-greater-gratitude": {
    "title": "Lesser Gratitude, Greater Gratitude",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-lesser-gratitude-greater-gratitude.mp3",
    "chars": 1888,
    "sentences": [
@@ -828,7 +828,7 @@
   },
   "book-review": {
    "title": "Book Review",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-book-review.mp3",
    "chars": 1706,
    "sentences": [
@@ -937,7 +937,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-the-word-of-god.mp3",
    "chars": 2384,
    "sentences": [
@@ -970,7 +970,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2022-09-your-questions-answered.mp3",
    "chars": 4187,
    "sentences": [
