@@ -5,7 +5,7 @@
  "articles": {
   "terrorism-in-the-light-of-islamic-teachings": {
    "title": "Terrorism in the Light of Islamic Teachings",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-terrorism-in-the-light-of-islamic-teachings.mp3",
    "chars": 3865,
    "sentences": [
@@ -46,7 +46,7 @@
   },
   "forbidden-tree": {
    "title": "Forbidden Tree",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-forbidden-tree.mp3",
    "chars": 2392,
    "sentences": [
@@ -86,7 +86,7 @@
   },
   "peace-in-islam": {
    "title": "Peace in Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-peace-in-islam.mp3",
    "chars": 23416,
    "sentences": [
@@ -359,7 +359,7 @@
   },
   "artificial-flowers": {
    "title": "Artificial Flowers",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-artificial-flowers.mp3",
    "chars": 2610,
    "sentences": [
@@ -394,7 +394,7 @@
   },
   "spirit-not-form": {
    "title": "Spirit, Not Form",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-spirit-not-form.mp3",
    "chars": 1979,
    "sentences": [
@@ -430,7 +430,7 @@
   },
   "true-jihad": {
    "title": "True Jihad",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-true-jihad.mp3",
    "chars": 11771,
    "sentences": [
@@ -551,7 +551,7 @@
   },
   "controlling-anger": {
    "title": "Controlling Anger",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-controlling-anger.mp3",
    "chars": 1685,
    "sentences": [
@@ -582,7 +582,7 @@
   },
   "prophet-of-peace-or-of-violence": {
    "title": "Prophet of Peace, or of Violence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-prophet-of-peace-or-of-violence.mp3",
    "chars": 11974,
    "sentences": [
@@ -727,7 +727,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-the-word-of-god.mp3",
    "chars": 5419,
    "sentences": [
@@ -783,7 +783,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-09-ask-maulana.mp3",
    "chars": 5494,
    "sentences": [
