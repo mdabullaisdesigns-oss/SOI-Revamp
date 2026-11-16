@@ -5,7 +5,7 @@
  "articles": {
   "from-the-editors-desk": {
    "title": "From the Editor's Desk",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-from-the-editors-desk.mp3",
    "chars": 1955,
    "sentences": [
@@ -30,7 +30,7 @@
   },
   "road-to-happiness": {
    "title": "Road to Happiness",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-road-to-happiness.mp3",
    "chars": 3843,
    "sentences": [
@@ -80,7 +80,7 @@
   },
   "explaining-the-universe-in-rational-terms": {
    "title": "Explaining the Universe in Rational Terms",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-explaining-the-universe-in-rational-terms.mp3",
    "chars": 4219,
    "sentences": [
@@ -133,7 +133,7 @@
   },
   "analyzing-present-day-muslim-militancy": {
    "title": "Analyzing Present-Day Muslim Militancy",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-analyzing-present-day-muslim-militancy.mp3",
    "chars": 5596,
    "sentences": [
@@ -201,7 +201,7 @@
   },
   "monotheism-oneness-of-god": {
    "title": "Monotheism: Oneness of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-monotheism-oneness-of-god.mp3",
    "chars": 4379,
    "sentences": [
@@ -273,7 +273,7 @@
   },
   "patience": {
    "title": "Patience",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-patience.mp3",
    "chars": 3426,
    "sentences": [
@@ -328,7 +328,7 @@
   },
   "materialism-and-spirituality": {
    "title": "Materialism and Spirituality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-materialism-and-spirituality.mp3",
    "chars": 3614,
    "sentences": [
@@ -374,7 +374,7 @@
   },
   "starting-from-scratch": {
    "title": "Starting from Scratch",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-starting-from-scratch.mp3",
    "chars": 2778,
    "sentences": [
@@ -417,7 +417,7 @@
   },
   "education-alone-will-not-work": {
    "title": "Education Alone Will Not Work",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-education-alone-will-not-work.mp3",
    "chars": 3333,
    "sentences": [
@@ -459,7 +459,7 @@
   },
   "the-people-of-the-book": {
    "title": "The People of the Book",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-the-people-of-the-book.mp3",
    "chars": 2761,
    "sentences": [
@@ -493,7 +493,7 @@
   },
   "indifference": {
    "title": "Indifference",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-indifference.mp3",
    "chars": 1790,
    "sentences": [
@@ -520,7 +520,7 @@
   },
   "arguments-against-god-and-religion-part-i": {
    "title": "Arguments Against God and Religion — Part I",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-arguments-against-god-and-religion-part-i.mp3",
    "chars": 21147,
    "sentences": [
@@ -696,7 +696,7 @@
   },
   "mothers-advice-to-her-son": {
    "title": "Mother’s Advice to Her Son",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-mothers-advice-to-her-son.mp3",
    "chars": 2362,
    "sentences": [
@@ -733,7 +733,7 @@
   },
   "a-phenomenon-of-the-body-not-of-the-soul": {
    "title": "A Phenomenon of the Body, Not of the Soul",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-a-phenomenon-of-the-body-not-of-the-soul.mp3",
    "chars": 2020,
    "sentences": [
@@ -767,7 +767,7 @@
   },
   "mistake-plus": {
    "title": "Mistake Plus",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-mistake-plus.mp3",
    "chars": 3880,
    "sentences": [
@@ -817,7 +817,7 @@
   },
   "get-rid-of-depression": {
    "title": "Get Rid of Depression",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-get-rid-of-depression.mp3",
    "chars": 3557,
    "sentences": [
@@ -865,7 +865,7 @@
   },
   "the-ideology-of-peace-in-islam": {
    "title": "The Ideology of Peace in Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-the-ideology-of-peace-in-islam.mp3",
    "chars": 3300,
    "sentences": [
@@ -981,7 +981,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2015-01-ask-maulana.mp3",
    "chars": 3684,
    "sentences": [
