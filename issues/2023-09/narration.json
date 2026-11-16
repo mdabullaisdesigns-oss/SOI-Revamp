@@ -5,7 +5,7 @@
  "articles": {
   "code-of-ethics": {
    "title": "Code of Ethics",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-code-of-ethics.mp3",
    "chars": 2331,
    "sentences": [
@@ -35,7 +35,7 @@
   },
   "mumbai-diaries": {
    "title": "Mumbai Diaries",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-mumbai-diaries.mp3",
    "chars": 11894,
    "sentences": [
@@ -154,7 +154,7 @@
   },
   "one-serious-fallacy": {
    "title": "One Serious Fallacy",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-one-serious-fallacy.mp3",
    "chars": 1748,
    "sentences": [
@@ -179,7 +179,7 @@
   },
   "a-modest-reply": {
    "title": "A Modest Reply",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-a-modest-reply.mp3",
    "chars": 2008,
    "sentences": [
@@ -208,7 +208,7 @@
   },
   "the-lessons-of-old-age": {
    "title": "The Lessons of Old Age",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-the-lessons-of-old-age.mp3",
    "chars": 1782,
    "sentences": [
@@ -231,7 +231,7 @@
   },
   "extracting-wisdom-from-old-age": {
    "title": "Extracting Wisdom from Old Age",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-extracting-wisdom-from-old-age.mp3",
    "chars": 1640,
    "sentences": [
@@ -257,7 +257,7 @@
   },
   "justice-and-brotherhood": {
    "title": "Justice and Brotherhood",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-justice-and-brotherhood.mp3",
    "chars": 2375,
    "sentences": [
@@ -287,7 +287,7 @@
   },
   "setting-the-right-precedent": {
    "title": "Setting the Right Precedent",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-setting-the-right-precedent.mp3",
    "chars": 2229,
    "sentences": [
@@ -320,7 +320,7 @@
   },
   "silence-for-spiritual-awakening": {
    "title": "Silence for Spiritual Awakening",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-silence-for-spiritual-awakening.mp3",
    "chars": 2297,
    "sentences": [
@@ -348,7 +348,7 @@
   },
   "success-and-the-subconscious": {
    "title": "Success and the Subconscious",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-success-and-the-subconscious.mp3",
    "chars": 1928,
    "sentences": [
@@ -375,7 +375,7 @@
   },
   "importance-of-education": {
    "title": "Importance of Education",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-importance-of-education.mp3",
    "chars": 4093,
    "sentences": [
@@ -425,7 +425,7 @@
   },
   "surmounting-the-barricades": {
    "title": "Surmounting the Barricades",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-surmounting-the-barricades.mp3",
    "chars": 1792,
    "sentences": [
@@ -537,7 +537,7 @@
   },
   "the-limits-of-law": {
    "title": "The Limits of Law",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-the-limits-of-law.mp3",
    "chars": 2214,
    "sentences": [
@@ -622,7 +622,7 @@
   },
   "the-most-successful-man": {
    "title": "The Most Successful Man",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-the-most-successful-man.mp3",
    "chars": 1678,
    "sentences": [
@@ -645,7 +645,7 @@
   },
   "problem-of-wealth": {
    "title": "Problem of Wealth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-problem-of-wealth.mp3",
    "chars": 1960,
    "sentences": [
@@ -672,7 +672,7 @@
   },
   "the-universal-model": {
    "title": "The Universal Model",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-the-universal-model.mp3",
    "chars": 3718,
    "sentences": [
@@ -726,7 +726,7 @@
   },
   "tragedy-of-man": {
    "title": "Tragedy of Man",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-tragedy-of-man.mp3",
    "chars": 4952,
    "sentences": [
@@ -774,7 +774,7 @@
   },
   "labours-of-a-lifetime": {
    "title": "Labours of a Lifetime",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-labours-of-a-lifetime.mp3",
    "chars": 3374,
    "sentences": [
@@ -823,7 +823,7 @@
   },
   "the-human-personality": {
    "title": "The Human Personality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-the-human-personality.mp3",
    "chars": 3120,
    "sentences": [
@@ -866,7 +866,7 @@
   },
   "remarkable-possibilities-in-this-world": {
    "title": "Remarkable Possibilities in This World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-remarkable-possibilities-in-this-world.mp3",
    "chars": 1791,
    "sentences": [
@@ -890,7 +890,7 @@
   },
   "motivation-is-greater-than-favour": {
    "title": "Motivation Is Greater Than Favour",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-motivation-is-greater-than-favour.mp3",
    "chars": 1961,
    "sentences": [
@@ -945,7 +945,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-the-word-of-god.mp3",
    "chars": 2133,
    "sentences": [
@@ -976,7 +976,7 @@
   },
   "your-questions-answered": {
    "title": "Your Questions Answered",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2023-09-your-questions-answered.mp3",
    "chars": 5669,
    "sentences": [
