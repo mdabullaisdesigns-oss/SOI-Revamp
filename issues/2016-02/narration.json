@@ -5,7 +5,7 @@
  "articles": {
   "from-maulanas-desk": {
    "title": "From Maulana’s Desk",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-from-maulanas-desk.mp3",
    "chars": 3106,
    "sentences": [
@@ -70,7 +70,7 @@
   },
   "our-potential-is-our-wealth": {
    "title": "Our Potential Is Our Wealth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-our-potential-is-our-wealth.mp3",
    "chars": 1722,
    "sentences": [
@@ -96,7 +96,7 @@
   },
   "unlocking-the-gates-to-success": {
    "title": "Unlocking the Gates to Success",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-unlocking-the-gates-to-success.mp3",
    "chars": 2424,
    "sentences": [
@@ -130,7 +130,7 @@
   },
   "religious-freedom-and-conversion": {
    "title": "Religious Freedom and Conversion",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-religious-freedom-and-conversion.mp3",
    "chars": 23421,
    "sentences": [
@@ -391,7 +391,7 @@
   },
   "making-the-right-choice": {
    "title": "Making the Right Choice",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-making-the-right-choice.mp3",
    "chars": 2034,
    "sentences": [
@@ -450,7 +450,7 @@
   },
   "the-creation-plan-of-god": {
    "title": "The Creation Plan of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-the-creation-plan-of-god.mp3",
    "chars": 2843,
    "sentences": [
@@ -492,7 +492,7 @@
   },
   "womanhood-in-islam": {
    "title": "Womanhood in Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-womanhood-in-islam.mp3",
    "chars": 6363,
    "sentences": [
@@ -555,7 +555,7 @@
   },
   "respect-all-cultures": {
    "title": "Respect All Cultures",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-respect-all-cultures.mp3",
    "chars": 2596,
    "sentences": [
@@ -592,7 +592,7 @@
   },
   "love-the-common-point": {
    "title": "Love—the Common Point",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-love-the-common-point.mp3",
    "chars": 3357,
    "sentences": [
@@ -646,7 +646,7 @@
   },
   "false-pride": {
    "title": "False Pride",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-false-pride.mp3",
    "chars": 2632,
    "sentences": [
@@ -681,7 +681,7 @@
   },
   "suicide-bombing": {
    "title": "Suicide Bombing",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-suicide-bombing.mp3",
    "chars": 4693,
    "sentences": [
@@ -739,7 +739,7 @@
   },
   "the-young-are-a-great-force-for-good": {
    "title": "The Young Are a Great Force for Good",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-the-young-are-a-great-force-for-good.mp3",
    "chars": 2244,
    "sentences": [
@@ -776,7 +776,7 @@
   },
   "the-lesson-of-death": {
    "title": "The Lesson of Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-the-lesson-of-death.mp3",
    "chars": 1767,
    "sentences": [
@@ -807,7 +807,7 @@
   },
   "book-review": {
    "title": "Book Review",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-book-review.mp3",
    "chars": 4491,
    "sentences": [
@@ -854,7 +854,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-the-word-of-god.mp3",
    "chars": 3468,
    "sentences": [
@@ -898,7 +898,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-02-ask-maulana.mp3",
    "chars": 4989,
    "sentences": [
