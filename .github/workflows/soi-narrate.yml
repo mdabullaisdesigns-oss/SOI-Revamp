@@ -38,7 +38,7 @@ jobs:
       - id: s
         run: |
           if [ "${{ inputs.issues }}" = "all" ]; then
-            s=$(ls issues | while read d; do [ -f "issues/$d/issue.json" ] && [ "$d" != "2026-11" ] && echo "$d"; done)
+            s=$(for d in $(ls issues); do if [ -f "issues/$d/issue.json" ] && [ "$d" != "2026-11" ]; then echo "$d"; fi; done)
           else
             s="${{ inputs.issues }}"
           fi
