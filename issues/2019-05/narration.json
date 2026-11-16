@@ -5,7 +5,7 @@
  "articles": {
   "ramazan": {
    "title": "Ramazan",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-ramazan.mp3",
    "chars": 4780,
    "sentences": [
@@ -61,7 +61,7 @@
   },
   "quran-and-hadith": {
    "title": "Quran and Hadith",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-quran-and-hadith.mp3",
    "chars": 3333,
    "sentences": [
@@ -105,7 +105,7 @@
   },
   "the-way-of-the-faithful": {
    "title": "The Way of the Faithful",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-the-way-of-the-faithful.mp3",
    "chars": 3810,
    "sentences": [
@@ -152,7 +152,7 @@
   },
   "the-angels": {
    "title": "The Angels",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-the-angels.mp3",
    "chars": 1842,
    "sentences": [
@@ -177,7 +177,7 @@
   },
   "remembering-god": {
    "title": "Remembering God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-remembering-god.mp3",
    "chars": 4192,
    "sentences": [
@@ -228,7 +228,7 @@
   },
   "honesty-and-hard-work": {
    "title": "Honesty and Hard Work",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-honesty-and-hard-work.mp3",
    "chars": 2227,
    "sentences": [
@@ -261,7 +261,7 @@
   },
   "lessons-from-nature": {
    "title": "Lessons from Nature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-lessons-from-nature.mp3",
    "chars": 2140,
    "sentences": [
@@ -294,7 +294,7 @@
   },
   "the-gist-of-islam": {
    "title": "The Gist of Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-the-gist-of-islam.mp3",
    "chars": 2109,
    "sentences": [
@@ -321,7 +321,7 @@
   },
   "building-this-world-or-preparing-for-the-hereafter": {
    "title": "Building This World, or Preparing for the Hereafter?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-building-this-world-or-preparing-for-the-hereafter.mp3",
    "chars": 2208,
    "sentences": [
@@ -350,7 +350,7 @@
   },
   "the-meaning-of-jihad": {
    "title": "The Meaning of Jihad",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-the-meaning-of-jihad.mp3",
    "chars": 5359,
    "sentences": [
@@ -401,7 +401,7 @@
   },
   "an-interview-with-dr-saniyasnain-khan": {
    "title": "An Interview with Dr. Saniyasnain Khan",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-an-interview-with-dr-saniyasnain-khan.mp3",
    "chars": 6803,
    "sentences": [
@@ -482,7 +482,7 @@
   },
   "spirituality-gratitude": {
    "title": "Spirituality & Gratitude",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-spirituality-gratitude.mp3",
    "chars": 13967,
    "sentences": [
@@ -644,7 +644,7 @@
   },
   "a-comparison": {
    "title": "A Comparison",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-a-comparison.mp3",
    "chars": 4387,
    "sentences": [
@@ -692,7 +692,7 @@
   },
   "clarification-of-a-misunderstanding": {
    "title": "Clarification of a Misunderstanding",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-clarification-of-a-misunderstanding.mp3",
    "chars": 4033,
    "sentences": [
@@ -747,7 +747,7 @@
   },
   "unlimited-reward": {
    "title": "Unlimited Reward",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-unlimited-reward.mp3",
    "chars": 1584,
    "sentences": [
@@ -773,7 +773,7 @@
   },
   "paradise-and-its-inhabitants": {
    "title": "Paradise and Its Inhabitants",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-paradise-and-its-inhabitants.mp3",
    "chars": 2258,
    "sentences": [
@@ -821,7 +821,7 @@
   },
   "reformed-behaviour": {
    "title": "Reformed Behaviour",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-reformed-behaviour.mp3",
    "chars": 2093,
    "sentences": [
@@ -850,7 +850,7 @@
   },
   "the-way-of-moderation": {
    "title": "The Way of Moderation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-the-way-of-moderation.mp3",
    "chars": 2056,
    "sentences": [
@@ -877,7 +877,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-the-word-of-god.mp3",
    "chars": 3980,
    "sentences": [
@@ -924,7 +924,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-05-ask-maulana.mp3",
    "chars": 5427,
    "sentences": [
