@@ -5,7 +5,7 @@
  "articles": {
   "make-it-a-starting-point": {
    "title": "Make It a Starting Point",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-make-it-a-starting-point.mp3",
    "chars": 1837,
    "sentences": [
@@ -35,7 +35,7 @@
   },
   "dua-according-to-the-quran-and-the-bible": {
    "title": "Dua, According to the Quran and the Bible",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-dua-according-to-the-quran-and-the-bible.mp3",
    "chars": 1767,
    "sentences": [
@@ -69,7 +69,7 @@
   },
   "principle-of-salvation": {
    "title": "Principle of Salvation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-principle-of-salvation.mp3",
    "chars": 2850,
    "sentences": [
@@ -106,7 +106,7 @@
   },
   "freedom-of-expression": {
    "title": "Freedom of Expression",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-freedom-of-expression.mp3",
    "chars": 2004,
    "sentences": [
@@ -135,7 +135,7 @@
   },
   "journey-towards-final-destination": {
    "title": "Journey Towards Final Destination",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-journey-towards-final-destination.mp3",
    "chars": 3957,
    "sentences": [
@@ -194,7 +194,7 @@
   },
   "god-centred-religion": {
    "title": "God-Centred Religion",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-god-centred-religion.mp3",
    "chars": 3638,
    "sentences": [
@@ -231,7 +231,7 @@
   },
   "negus-the-king-of-abyssinia": {
    "title": "Negus, the King of Abyssinia",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-negus-the-king-of-abyssinia.mp3",
    "chars": 4180,
    "sentences": [
@@ -281,7 +281,7 @@
   },
   "the-glorious-god-of-a-glorious-universe": {
    "title": "The Glorious God of a Glorious Universe",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-the-glorious-god-of-a-glorious-universe.mp3",
    "chars": 7389,
    "sentences": [
@@ -351,7 +351,7 @@
   },
   "spiritual-unity": {
    "title": "Spiritual Unity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-spiritual-unity.mp3",
    "chars": 7415,
    "sentences": [
@@ -443,7 +443,7 @@
   },
   "discover-thanksgiving": {
    "title": "Discover Thanksgiving",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-discover-thanksgiving.mp3",
    "chars": 2452,
    "sentences": [
@@ -483,7 +483,7 @@
   },
   "revealed-knowledge-and-secular-knowledge": {
    "title": "Revealed Knowledge and Secular Knowledge",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-revealed-knowledge-and-secular-knowledge.mp3",
    "chars": 4666,
    "sentences": [
@@ -530,7 +530,7 @@
   },
   "non-violence": {
    "title": "Non-Violence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-non-violence.mp3",
    "chars": 14910,
    "sentences": [
@@ -831,7 +831,7 @@
   },
   "inter-faith-harmony": {
    "title": "Inter-Faith Harmony",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-inter-faith-harmony.mp3",
    "chars": 1798,
    "sentences": [
@@ -855,7 +855,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-the-word-of-god.mp3",
    "chars": 3610,
    "sentences": [
@@ -902,7 +902,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2013-12-ask-maulana.mp3",
    "chars": 3594,
    "sentences": [
