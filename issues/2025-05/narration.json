@@ -271,7 +271,7 @@
   },
   "the-essence-of-praying": {
    "title": "The Essence of Praying",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-the-essence-of-praying.mp3",
    "chars": 18976,
    "sentences": [
@@ -566,7 +566,7 @@
   },
   "treasury-of-islamic-virtues": {
    "title": "Treasury of Islamic Virtues",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2025-05-treasury-of-islamic-virtues.mp3",
    "chars": 9541,
    "sentences": [
@@ -957,7 +957,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "ready",
+   "status": "pending",
    "file": "SOI-2025-05-the-word-of-god.mp3",
    "chars": 2842,
    "sentences": [
