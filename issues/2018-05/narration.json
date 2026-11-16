@@ -5,7 +5,7 @@
  "articles": {
   "u-turn-a-principle-of-life": {
    "title": "U-Turn—a Principle of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-u-turn-a-principle-of-life.mp3",
    "chars": 3296,
    "sentences": [
@@ -49,7 +49,7 @@
   },
   "the-quran": {
    "title": "The Quran",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-the-quran.mp3",
    "chars": 8731,
    "sentences": [
@@ -131,7 +131,7 @@
   },
   "the-inner-diamond": {
    "title": "The Inner Diamond",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-the-inner-diamond.mp3",
    "chars": 1575,
    "sentences": [
@@ -163,7 +163,7 @@
   },
   "the-goal-of-ramazan": {
    "title": "The Goal of Ramazan",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-the-goal-of-ramazan.mp3",
    "chars": 4036,
    "sentences": [
@@ -217,7 +217,7 @@
   },
   "shocks-and-shock-absorbers": {
    "title": "Shocks and Shock Absorbers",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-shocks-and-shock-absorbers.mp3",
    "chars": 3155,
    "sentences": [
@@ -259,7 +259,7 @@
   },
   "being-useful-to-society": {
    "title": "Being Useful to Society",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-being-useful-to-society.mp3",
    "chars": 3894,
    "sentences": [
@@ -308,7 +308,7 @@
   },
   "benefits-of-tolerance": {
    "title": "Benefits of Tolerance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-benefits-of-tolerance.mp3",
    "chars": 7341,
    "sentences": [
@@ -457,7 +457,7 @@
   },
   "miracle-of-memory": {
    "title": "Miracle of Memory",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-miracle-of-memory.mp3",
    "chars": 2355,
    "sentences": [
@@ -480,7 +480,7 @@
   },
   "the-price-of-realization": {
    "title": "The Price of Realization",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-the-price-of-realization.mp3",
    "chars": 1662,
    "sentences": [
@@ -507,7 +507,7 @@
   },
   "translating-the-quran": {
    "title": "Translating the Quran",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-translating-the-quran.mp3",
    "chars": 1543,
    "sentences": [
@@ -532,7 +532,7 @@
   },
   "the-spirit-of-ramazan": {
    "title": "The Spirit of Ramazan",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-the-spirit-of-ramazan.mp3",
    "chars": 3022,
    "sentences": [
@@ -695,7 +695,7 @@
   },
   "lessons-from-nature": {
    "title": "Lessons from Nature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-lessons-from-nature.mp3",
    "chars": 3583,
    "sentences": [
@@ -741,7 +741,7 @@
   },
   "lailatul-qadr-the-night-of-destiny": {
    "title": "Lailatul Qadr (the Night of Destiny)",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-lailatul-qadr-the-night-of-destiny.mp3",
    "chars": 3500,
    "sentences": [
@@ -792,7 +792,7 @@
   },
   "a-door-not-a-grave": {
    "title": "A Door, Not a Grave",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-a-door-not-a-grave.mp3",
    "chars": 2889,
    "sentences": [
@@ -837,7 +837,7 @@
   },
   "eid-ul-fitr": {
    "title": "Eid-Ul-Fitr",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-eid-ul-fitr.mp3",
    "chars": 2085,
    "sentences": [
@@ -867,7 +867,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-the-word-of-god.mp3",
    "chars": 5457,
    "sentences": [
@@ -935,7 +935,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2018-05-ask-maulana.mp3",
    "chars": 2581,
    "sentences": [
