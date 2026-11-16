@@ -5,7 +5,7 @@
  "articles": {
   "global-library": {
    "title": "Global Library",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-global-library.mp3",
    "chars": 1790,
    "sentences": [
@@ -36,7 +36,7 @@
   },
   "worldly-gain-spiritual-loss": {
    "title": "Worldly Gain, Spiritual Loss",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-worldly-gain-spiritual-loss.mp3",
    "chars": 3255,
    "sentences": [
@@ -76,7 +76,7 @@
   },
   "faith-and-politics": {
    "title": "Faith and Politics",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-faith-and-politics.mp3",
    "chars": 4119,
    "sentences": [
@@ -133,7 +133,7 @@
   },
   "flawed-ideals": {
    "title": "Flawed Ideals",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-flawed-ideals.mp3",
    "chars": 2258,
    "sentences": [
@@ -165,7 +165,7 @@
   },
   "the-unerasable-past": {
    "title": "The Unerasable Past",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-the-unerasable-past.mp3",
    "chars": 2286,
    "sentences": [
@@ -261,7 +261,7 @@
   },
   "sharing-the-rewards": {
    "title": "Sharing the Rewards",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-sharing-the-rewards.mp3",
    "chars": 2387,
    "sentences": [
@@ -293,7 +293,7 @@
   },
   "striking-a-balance": {
    "title": "Striking a Balance",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-striking-a-balance.mp3",
    "chars": 2205,
    "sentences": [
@@ -324,7 +324,7 @@
   },
   "the-necessity-of-pretreatment": {
    "title": "The Necessity of Pretreatment",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-the-necessity-of-pretreatment.mp3",
    "chars": 3737,
    "sentences": [
@@ -364,7 +364,7 @@
   },
   "price-of-unity": {
    "title": "Price of Unity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-price-of-unity.mp3",
    "chars": 2483,
    "sentences": [
@@ -390,7 +390,7 @@
   },
   "the-psychology-of-success": {
    "title": "The Psychology of Success",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-the-psychology-of-success.mp3",
    "chars": 1684,
    "sentences": [
@@ -415,7 +415,7 @@
   },
   "the-superior-solution": {
    "title": "The Superior Solution",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-the-superior-solution.mp3",
    "chars": 2105,
    "sentences": [
@@ -454,7 +454,7 @@
   },
   "true-gratitude": {
    "title": "True Gratitude",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-true-gratitude.mp3",
    "chars": 1690,
    "sentences": [
@@ -477,7 +477,7 @@
   },
   "positivity-the-fertile-ground-for-god-realization": {
    "title": "Positivity: The Fertile Ground for God-Realization",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-positivity-the-fertile-ground-for-god-realization.mp3",
    "chars": 1620,
    "sentences": [
@@ -505,7 +505,7 @@
   },
   "upbringing-of-children": {
    "title": "Upbringing of Children",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-upbringing-of-children.mp3",
    "chars": 6420,
    "sentences": [
@@ -571,7 +571,7 @@
   },
   "when-judges-are-judged": {
    "title": "When Judges Are Judged",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-when-judges-are-judged.mp3",
    "chars": 2389,
    "sentences": [
@@ -594,7 +594,7 @@
   },
   "the-prophet-a-man-of-peace": {
    "title": "The Prophet: A Man of Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-the-prophet-a-man-of-peace.mp3",
    "chars": 11799,
    "sentences": [
@@ -717,7 +717,7 @@
   },
   "preparing-for-death": {
    "title": "Preparing for Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-preparing-for-death.mp3",
    "chars": 9615,
    "sentences": [
@@ -840,7 +840,7 @@
   },
   "half-the-story": {
    "title": "Half the Story",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-half-the-story.mp3",
    "chars": 1735,
    "sentences": [
@@ -870,7 +870,7 @@
   },
   "an-undiscovered-reality": {
    "title": "An Undiscovered Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-an-undiscovered-reality.mp3",
    "chars": 4169,
    "sentences": [
@@ -934,7 +934,7 @@
   },
   "reforming-a-society": {
    "title": "Reforming a Society",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-reforming-a-society.mp3",
    "chars": 2301,
    "sentences": [
@@ -969,7 +969,7 @@
   },
   "sleep-a-reminder-of-death": {
    "title": "Sleep: A Reminder of Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-sleep-a-reminder-of-death.mp3",
    "chars": 3351,
    "sentences": [
@@ -1015,7 +1015,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-the-word-of-god.mp3",
    "chars": 4498,
    "sentences": [
@@ -1078,7 +1078,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-10-ask-maulana.mp3",
    "chars": 2876,
    "sentences": [
