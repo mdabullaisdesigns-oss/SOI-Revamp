@@ -5,7 +5,7 @@
  "articles": {
   "the-doha-pact": {
    "title": "The Doha Pact",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-the-doha-pact.mp3",
    "chars": 3826,
    "sentences": [
@@ -61,7 +61,7 @@
   },
   "ramadan-a-month-of-rigorous-training": {
    "title": "Ramadan: A Month of Rigorous Training",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-ramadan-a-month-of-rigorous-training.mp3",
    "chars": 2490,
    "sentences": [
@@ -142,7 +142,7 @@
   },
   "upright-system-or-upright-individual": {
    "title": "Upright System or Upright Individual?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-upright-system-or-upright-individual.mp3",
    "chars": 8863,
    "sentences": [
@@ -227,7 +227,7 @@
   },
   "blessings-of-god": {
    "title": "Blessings of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-blessings-of-god.mp3",
    "chars": 4173,
    "sentences": [
@@ -290,7 +290,7 @@
   },
   "three-ages-of-war": {
    "title": "Three Ages of War",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-three-ages-of-war.mp3",
    "chars": 7619,
    "sentences": [
@@ -361,7 +361,7 @@
   },
   "a-glimpse-of-heaven": {
    "title": "A Glimpse of Heaven",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-a-glimpse-of-heaven.mp3",
    "chars": 2379,
    "sentences": [
@@ -390,7 +390,7 @@
   },
   "idleness": {
    "title": "Idleness",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-idleness.mp3",
    "chars": 2227,
    "sentences": [
@@ -420,7 +420,7 @@
   },
   "guarantee-of-gods-succour": {
    "title": "Guarantee of God’s Succour",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-guarantee-of-gods-succour.mp3",
    "chars": 2001,
    "sentences": [
@@ -447,7 +447,7 @@
   },
   "ramadan-and-prophethood": {
    "title": "Ramadan and Prophethood",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-ramadan-and-prophethood.mp3",
    "chars": 1617,
    "sentences": [
@@ -471,7 +471,7 @@
   },
   "spiritual-living": {
    "title": "Spiritual Living",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-spiritual-living.mp3",
    "chars": 3216,
    "sentences": [
@@ -514,7 +514,7 @@
   },
   "formula-for-coexistence": {
    "title": "Formula for Coexistence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-formula-for-coexistence.mp3",
    "chars": 3228,
    "sentences": [
@@ -556,7 +556,7 @@
   },
   "essence-of-islam": {
    "title": "Essence of Islam",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-essence-of-islam.mp3",
    "chars": 12611,
    "sentences": [
@@ -682,7 +682,7 @@
   },
   "water-as-spiritual-nourishment": {
    "title": "Water as Spiritual Nourishment",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-water-as-spiritual-nourishment.mp3",
    "chars": 3860,
    "sentences": [
@@ -734,7 +734,7 @@
   },
   "the-conscious-and-unconscious-mind": {
    "title": "The Conscious and Unconscious Mind",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-the-conscious-and-unconscious-mind.mp3",
    "chars": 3427,
    "sentences": [
@@ -784,7 +784,7 @@
   },
   "intellectual-rebirth": {
    "title": "Intellectual Rebirth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-intellectual-rebirth.mp3",
    "chars": 2200,
    "sentences": [
@@ -845,7 +845,7 @@
   },
   "the-finality-of-death": {
    "title": "The Finality of Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-the-finality-of-death.mp3",
    "chars": 1940,
    "sentences": [
@@ -878,7 +878,7 @@
   },
   "special-offer": {
    "title": "Special Offer",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-special-offer.mp3",
    "chars": 1971,
    "sentences": [
@@ -909,7 +909,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-the-word-of-god.mp3",
    "chars": 6062,
    "sentences": [
@@ -977,7 +977,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-04-ask-maulana.mp3",
    "chars": 4916,
    "sentences": [
