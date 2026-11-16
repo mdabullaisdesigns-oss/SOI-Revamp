@@ -5,7 +5,7 @@
  "articles": {
   "from-maulanas-desk": {
    "title": "From Maulana’s Desk",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-from-maulanas-desk.mp3",
    "chars": 3517,
    "sentences": [
@@ -54,7 +54,7 @@
   },
   "discovery-of-god": {
    "title": "Discovery of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-discovery-of-god.mp3",
    "chars": 2569,
    "sentences": [
@@ -90,7 +90,7 @@
   },
   "positive-aspect-of-illness": {
    "title": "Positive Aspect of Illness",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-positive-aspect-of-illness.mp3",
    "chars": 1908,
    "sentences": [
@@ -267,7 +267,7 @@
   },
   "pollution": {
    "title": "Pollution",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-pollution.mp3",
    "chars": 2360,
    "sentences": [
@@ -306,7 +306,7 @@
   },
   "the-importance-of-reason": {
    "title": "The Importance of Reason",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-importance-of-reason.mp3",
    "chars": 2214,
    "sentences": [
@@ -347,7 +347,7 @@
   },
   "all-praise-is-due-to-god": {
    "title": "All Praise Is Due to God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-all-praise-is-due-to-god.mp3",
    "chars": 1410,
    "sentences": [
@@ -372,7 +372,7 @@
   },
   "the-life-force": {
    "title": "The Life Force",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-life-force.mp3",
    "chars": 2337,
    "sentences": [
@@ -403,7 +403,7 @@
   },
   "the-islamic-way-of-life": {
    "title": "The Islamic Way of Life",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-islamic-way-of-life.mp3",
    "chars": 10900,
    "sentences": [
@@ -535,7 +535,7 @@
   },
   "the-life-giving-effects-of-belief-in-death": {
    "title": "The Life-Giving Effects of Belief in Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-life-giving-effects-of-belief-in-death.mp3",
    "chars": 2778,
    "sentences": [
@@ -578,7 +578,7 @@
   },
   "turning-negative-into-positive": {
    "title": "Turning Negative into Positive",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-turning-negative-into-positive.mp3",
    "chars": 1366,
    "sentences": [
@@ -603,7 +603,7 @@
   },
   "reading-the-signs": {
    "title": "Reading the Signs",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-reading-the-signs.mp3",
    "chars": 2084,
    "sentences": [
@@ -628,7 +628,7 @@
   },
   "the-price-of-peace": {
    "title": "The Price of Peace",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-price-of-peace.mp3",
    "chars": 2749,
    "sentences": [
@@ -674,7 +674,7 @@
   },
   "in-the-nick-of-time": {
    "title": "In the Nick of Time",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-in-the-nick-of-time.mp3",
    "chars": 1791,
    "sentences": [
@@ -698,7 +698,7 @@
   },
   "speech-management": {
    "title": "Speech Management",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-speech-management.mp3",
    "chars": 2255,
    "sentences": [
@@ -734,7 +734,7 @@
   },
   "success-out-of-failure": {
    "title": "Success Out of Failure",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-success-out-of-failure.mp3",
    "chars": 3557,
    "sentences": [
@@ -779,7 +779,7 @@
   },
   "god-prophethood-and-life-after-death": {
    "title": "God, Prophethood and Life After Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-god-prophethood-and-life-after-death.mp3",
    "chars": 5728,
    "sentences": [
@@ -845,7 +845,7 @@
   },
   "the-age-of-civilisation": {
    "title": "The Age of Civilisation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-age-of-civilisation.mp3",
    "chars": 2901,
    "sentences": [
@@ -887,7 +887,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-the-word-of-god.mp3",
    "chars": 5100,
    "sentences": [
@@ -956,7 +956,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2016-01-ask-maulana.mp3",
    "chars": 6743,
    "sentences": [
