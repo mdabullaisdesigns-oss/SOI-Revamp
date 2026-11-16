@@ -5,7 +5,7 @@
  "articles": {
   "marvels-of-man": {
    "title": "Marvels of Man",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-marvels-of-man.mp3",
    "chars": 2024,
    "sentences": [
@@ -33,7 +33,7 @@
   },
   "in-search-of-meaning": {
    "title": "In Search of Meaning",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-in-search-of-meaning.mp3",
    "chars": 3883,
    "sentences": [
@@ -85,7 +85,7 @@
   },
   "limitations-of-human-knowledge": {
    "title": "Limitations of Human Knowledge",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-limitations-of-human-knowledge.mp3",
    "chars": 1928,
    "sentences": [
@@ -110,7 +110,7 @@
   },
   "a-most-evident-mystery": {
    "title": "A Most Evident Mystery",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-a-most-evident-mystery.mp3",
    "chars": 1952,
    "sentences": [
@@ -143,7 +143,7 @@
   },
   "who-created-god": {
    "title": "Who Created God?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-who-created-god.mp3",
    "chars": 8153,
    "sentences": [
@@ -230,7 +230,7 @@
   },
   "likeness-of-god": {
    "title": "Likeness of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-likeness-of-god.mp3",
    "chars": 2312,
    "sentences": [
@@ -263,7 +263,7 @@
   },
   "the-glorious-god-of-a-glorious-universe": {
    "title": "The Glorious God of a Glorious Universe",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-the-glorious-god-of-a-glorious-universe.mp3",
    "chars": 9559,
    "sentences": [
@@ -397,7 +397,7 @@
   },
   "god-a-source-of-conviction": {
    "title": "God: A Source of Conviction",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-god-a-source-of-conviction.mp3",
    "chars": 3790,
    "sentences": [
@@ -451,7 +451,7 @@
   },
   "the-galaxy-speaks-about-its-creator": {
    "title": "The Galaxy Speaks About Its Creator",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-the-galaxy-speaks-about-its-creator.mp3",
    "chars": 2904,
    "sentences": [
@@ -485,7 +485,7 @@
   },
   "love-of-god": {
    "title": "Love of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-love-of-god.mp3",
    "chars": 3602,
    "sentences": [
@@ -530,7 +530,7 @@
   },
   "wonder-of-wonders": {
    "title": "Wonder of Wonders",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-wonder-of-wonders.mp3",
    "chars": 2506,
    "sentences": [
@@ -563,7 +563,7 @@
   },
   "god-a-resplendent-being": {
    "title": "God: A Resplendent Being",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-god-a-resplendent-being.mp3",
    "chars": 1711,
    "sentences": [
@@ -597,7 +597,7 @@
   },
   "experiencing-the-presence-of-god": {
    "title": "Experiencing the Presence of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-experiencing-the-presence-of-god.mp3",
    "chars": 2084,
    "sentences": [
@@ -626,7 +626,7 @@
   },
   "the-universe-declares": {
    "title": "The Universe Declares",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-the-universe-declares.mp3",
    "chars": 12396,
    "sentences": [
@@ -760,7 +760,7 @@
   },
   "belief-in-god": {
    "title": "Belief in God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-belief-in-god.mp3",
    "chars": 2240,
    "sentences": [
@@ -801,7 +801,7 @@
   },
   "quest-for-life-in-space": {
    "title": "Quest for Life in Space",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-quest-for-life-in-space.mp3",
    "chars": 2914,
    "sentences": [
@@ -831,7 +831,7 @@
   },
   "speaking-of-god-today": {
    "title": "Speaking of God Today",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-speaking-of-god-today.mp3",
    "chars": 6787,
    "sentences": [
@@ -907,7 +907,7 @@
   },
   "the-wonders-of-creation": {
    "title": "The Wonders of Creation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-the-wonders-of-creation.mp3",
    "chars": 1906,
    "sentences": [
@@ -932,7 +932,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-the-word-of-god.mp3",
    "chars": 6480,
    "sentences": [
@@ -1008,7 +1008,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-06-ask-maulana.mp3",
    "chars": 3015,
    "sentences": [
