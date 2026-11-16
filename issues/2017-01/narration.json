@@ -5,7 +5,7 @@
  "articles": {
   "publishers-note": {
    "title": "Publisher’s Note",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-publishers-note.mp3",
    "chars": 2704,
    "sentences": [
@@ -32,7 +32,7 @@
   },
   "lessons-from-de-monetisation": {
    "title": "Lessons from De-Monetisation",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-lessons-from-de-monetisation.mp3",
    "chars": 7783,
    "sentences": [
@@ -113,7 +113,7 @@
   },
   "discovering-the-modern-age": {
    "title": "Discovering the Modern Age",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-discovering-the-modern-age.mp3",
    "chars": 2083,
    "sentences": [
@@ -141,7 +141,7 @@
   },
   "need-or-pandering-to-desires": {
    "title": "Need, or Pandering to Desires?",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-need-or-pandering-to-desires.mp3",
    "chars": 1400,
    "sentences": [
@@ -165,7 +165,7 @@
   },
   "the-complete-world": {
    "title": "The Complete World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-the-complete-world.mp3",
    "chars": 2371,
    "sentences": [
@@ -197,7 +197,7 @@
   },
   "god-a-source-of-conviction": {
    "title": "God: A Source of Conviction",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-god-a-source-of-conviction.mp3",
    "chars": 3145,
    "sentences": [
@@ -238,7 +238,7 @@
   },
   "peace-as-a-principle-to-be-practised": {
    "title": "Peace as a Principle to Be Practised",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-peace-as-a-principle-to-be-practised.mp3",
    "chars": 6333,
    "sentences": [
@@ -294,7 +294,7 @@
   },
   "responsibility-of-trendsetters": {
    "title": "Responsibility of Trendsetters",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-responsibility-of-trendsetters.mp3",
    "chars": 1371,
    "sentences": [
@@ -317,7 +317,7 @@
   },
   "fatwa-activism": {
    "title": "Fatwa Activism",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-fatwa-activism.mp3",
    "chars": 7413,
    "sentences": [
@@ -389,7 +389,7 @@
   },
   "islam-in-the-changing-world": {
    "title": "Islam in the Changing World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-islam-in-the-changing-world.mp3",
    "chars": 7073,
    "sentences": [
@@ -462,7 +462,7 @@
   },
   "religion-a-divine-not-a-social-phenomenon": {
    "title": "Religion, a Divine Not a Social Phenomenon",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-religion-a-divine-not-a-social-phenomenon.mp3",
    "chars": 1962,
    "sentences": [
@@ -491,7 +491,7 @@
   },
   "man-an-exceptional-creature": {
    "title": "Man, an Exceptional Creature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-man-an-exceptional-creature.mp3",
    "chars": 1879,
    "sentences": [
@@ -541,7 +541,7 @@
   },
   "conflict-resolution": {
    "title": "Conflict-Resolution",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-conflict-resolution.mp3",
    "chars": 7939,
    "sentences": [
@@ -621,7 +621,7 @@
   },
   "man-made-dwarfism": {
    "title": "Man-Made Dwarfism",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-man-made-dwarfism.mp3",
    "chars": 2084,
    "sentences": [
@@ -648,7 +648,7 @@
   },
   "new-phase-of-history": {
    "title": "New Phase of History",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-new-phase-of-history.mp3",
    "chars": 2424,
    "sentences": [
@@ -680,7 +680,7 @@
   },
   "high-thinking": {
    "title": "High Thinking",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-high-thinking.mp3",
    "chars": 1756,
    "sentences": [
@@ -709,7 +709,7 @@
   },
   "the-scientific-basis-of-rituals": {
    "title": "The Scientific Basis of Rituals",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-the-scientific-basis-of-rituals.mp3",
    "chars": 3165,
    "sentences": [
@@ -759,7 +759,7 @@
   },
   "the-signs-of-hypocrisy": {
    "title": "The Signs of Hypocrisy",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-the-signs-of-hypocrisy.mp3",
    "chars": 3068,
    "sentences": [
@@ -803,7 +803,7 @@
   },
   "journey-after-death": {
    "title": "Journey After Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-journey-after-death.mp3",
    "chars": 1780,
    "sentences": [
@@ -832,7 +832,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-the-word-of-god.mp3",
    "chars": 6579,
    "sentences": [
@@ -902,7 +902,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2017-01-ask-maulana.mp3",
    "chars": 7173,
    "sentences": [
