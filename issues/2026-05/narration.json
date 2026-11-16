@@ -126,7 +126,7 @@
   },
   "spiritual-uplift": {
    "title": "Spiritual Uplift",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-05-spiritual-uplift.mp3",
    "chars": 7422,
    "sentences": [
@@ -229,7 +229,7 @@
   },
   "eclipse-a-divine-miracle": {
    "title": "Eclipse: A Divine Miracle",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2026-05-eclipse-a-divine-miracle.mp3",
    "chars": 10002,
    "sentences": [
@@ -918,7 +918,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "ready",
+   "status": "pending",
    "file": "SOI-2026-05-the-word-of-god.mp3",
    "chars": 4278,
    "sentences": [
