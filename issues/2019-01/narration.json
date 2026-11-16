@@ -5,7 +5,7 @@
  "articles": {
   "a-message-for-the-new-year": {
    "title": "A Message for the New Year",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-a-message-for-the-new-year.mp3",
    "chars": 4047,
    "sentences": [
@@ -50,7 +50,7 @@
   },
   "125-years-of-swami-vivekananda-in-the-west": {
    "title": "125 Years of Swami Vivekananda in the West",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-125-years-of-swami-vivekananda-in-the-west.mp3",
    "chars": 3581,
    "sentences": [
@@ -86,7 +86,7 @@
   },
   "an-understanding-about-islamic-jurisprudence": {
    "title": "An Understanding About Islamic Jurisprudence",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-an-understanding-about-islamic-jurisprudence.mp3",
    "chars": 5422,
    "sentences": [
@@ -147,7 +147,7 @@
   },
   "deception-on-all-sides": {
    "title": "Deception on All Sides",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-deception-on-all-sides.mp3",
    "chars": 3587,
    "sentences": [
@@ -188,7 +188,7 @@
   },
   "wealth": {
    "title": "Wealth",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-wealth.mp3",
    "chars": 2228,
    "sentences": [
@@ -217,7 +217,7 @@
   },
   "a-believers-behaviour": {
    "title": "A Believer’s Behaviour",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-a-believers-behaviour.mp3",
    "chars": 4393,
    "sentences": [
@@ -296,7 +296,7 @@
   },
   "the-teacher-tree": {
    "title": "The Teacher Tree",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-the-teacher-tree.mp3",
    "chars": 3382,
    "sentences": [
@@ -353,7 +353,7 @@
   },
   "two-pictures": {
    "title": "Two Pictures",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-two-pictures.mp3",
    "chars": 2235,
    "sentences": [
@@ -382,7 +382,7 @@
   },
   "feed-your-starved-intellect": {
    "title": "Feed Your Starved Intellect",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-feed-your-starved-intellect.mp3",
    "chars": 3474,
    "sentences": [
@@ -438,7 +438,7 @@
   },
   "mans-plight": {
    "title": "Man’s Plight",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-mans-plight.mp3",
    "chars": 2750,
    "sentences": [
@@ -473,7 +473,7 @@
   },
   "islamic-virtues": {
    "title": "Islamic Virtues",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-islamic-virtues.mp3",
    "chars": 2931,
    "sentences": [
@@ -508,7 +508,7 @@
   },
   "living-in-a-professional-world": {
    "title": "Living in a Professional World",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-living-in-a-professional-world.mp3",
    "chars": 3133,
    "sentences": [
@@ -547,7 +547,7 @@
   },
   "from-denial-to-belief": {
    "title": "From Denial to Belief",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-from-denial-to-belief.mp3",
    "chars": 4264,
    "sentences": [
@@ -594,7 +594,7 @@
   },
   "delusive-grandeur": {
    "title": "Delusive Grandeur",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-delusive-grandeur.mp3",
    "chars": 3284,
    "sentences": [
@@ -634,7 +634,7 @@
   },
   "working-together": {
    "title": "Working Together",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-working-together.mp3",
    "chars": 2242,
    "sentences": [
@@ -665,7 +665,7 @@
   },
   "a-new-india": {
    "title": "A New India",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-a-new-india.mp3",
    "chars": 4160,
    "sentences": [
@@ -706,7 +706,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2019-01-the-word-of-god.mp3",
    "chars": 5639,
    "sentences": [
