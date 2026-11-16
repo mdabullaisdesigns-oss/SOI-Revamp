@@ -56,3 +56,5 @@ jobs:
           echo "testing $u"
           curl -sS -o /dev/null -w "full: %{http_code} %{content_type} %{size_download} bytes\n" "https://soi-preview.pages.dev$u"
           curl -sS -o /dev/null -w "range: %{http_code} %{size_download} bytes\n" -H "Range: bytes=1000-1999" "https://soi-preview.pages.dev$u"
+          p=$(grep -o '/media/pdfs/[^"]*' dist/archive/index.html | head -1)
+          [ -n "$p" ] && curl -sS -o /dev/null -w "pdf: %{http_code} %{content_type} %{size_download} bytes\n" "https://soi-preview.pages.dev$p"

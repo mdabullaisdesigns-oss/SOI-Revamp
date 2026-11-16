@@ -46,7 +46,7 @@ async def main():
         missing = [i['slug'] for i in ISS if not os.path.exists(ROOT + f"/dist/assets/covers/{i['slug']}.webp")]
         ok(f'cover picture for all {len(ISS)} issues', not missing, str(missing))
         await pg.goto(B + '/archive/'); ok('archive: a cover card for every issue', await pg.locator('.soi-icard .soi-cover > img').count() == len(ISS))
-        await pg.click('.soi-view [data-view=list]'); ok('archive: list view', await pg.evaluate("document.querySelector('.soi-arch').dataset.view==='list'") and await pg.locator('.soi-icard-more').first.is_visible())
+        await pg.click('.soi-view [data-view=list]'); ok('archive: list view', await pg.evaluate("document.querySelector('.soi-arch').dataset.view==='list'") and await pg.locator('.soi-icard-meta').first.is_visible())
         # issue page
         await pg.goto(B + '/issues/2019-03/'); await pg.wait_for_selector('.soi-ev .ev-item')
         order = await pg.evaluate("['.soi-hdr','.soi-menubar','.soi-auto-banner','.soi-ev'].map(s=>document.querySelector(s).getBoundingClientRect().top+scrollY)")
