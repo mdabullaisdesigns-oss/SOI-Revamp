@@ -250,9 +250,35 @@
   function qotd() {
     var box = $('#soi-qotd-home'); if (!box) return;
     quoteOfDay().then(function (q) {
-      $('.soi-qotd-text', box).textContent = '“' + q.t + '”';
-      var s = $('.soi-qotd-src', box); s.innerHTML = '<a href="/issues/' + q.s + '/#soi-' + q.a + '">' + esc(q.at) + '</a> · Issue ' + q.n;
-      $('.soi-qotd-share', box).addEventListener('click', function () { quoteImage(q); });
+      var hh = 0, ht = q.s + q.a + q.t.length; for (var hi = 0; hi < ht.length; hi++) hh = (hh * 31 + ht.charCodeAt(hi)) | 0;
+      var ph = QPH.length ? QPH[Math.abs(hh) % QPH.length] : '', speak = 'speechSynthesis' in window, on = store.hasQuote(q);
+      var I = {
+        listen: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4M14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6"/></svg>',
+        stop: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>',
+        img: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5v-1.6l4-4 3 3 4-4 3 3zm0-5.4-3-3-4 4-3-3-4 4V5h14zM8.5 10A1.5 1.5 0 1 0 8.5 7a1.5 1.5 0 0 0 0 3"/></svg>',
+        wa: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4"/></svg>',
+        copy: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-9a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1m-1 11h-7v-9h7zM4 3h9a1 1 0 0 1 1 1v2h-2V5H5v9h1v2H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1"/></svg>',
+        save: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7a2 2 0 0 0-2 2v17.4a.6.6 0 0 0 .95.5L12 18l6.05 3.9a.6.6 0 0 0 .95-.5V4a2 2 0 0 0-2-2m0 16.5-5-3.2-5 3.2V4h10z"/></svg>' };
+      var txt = '“' + q.t + '”\n— Spirit of Islam Magazine · spiritofislam.co.in';
+      box.innerHTML = (ph ? '<img class="soi-q2-bg" src="' + ph + '" alt="" loading="lazy">' : '') +
+        '<div class="soi-q2-spot-in"><svg class="soi-q2-qmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h2A1.5 1.5 0 0 1 10 6.5V11c0 3.4-1.5 5.8-4.6 7.2M14 6.5A1.5 1.5 0 0 1 15.5 5h2A1.5 1.5 0 0 1 19 6.5V11c0 3.4-1.5 5.8-4.6 7.2M5 11h5M14 11h5"/></svg>' +
+        '<blockquote><p>' + esc(q.t) + '</p></blockquote><p class="soi-q2-src">' + (q.by ? esc(q.by) + ' · ' : '') + '<a href="/issues/' + q.s + '/#soi-' + q.a + '">' + esc(q.at) + '</a> · Issue ' + q.n + (q.p ? ', ' + esc(q.p) : '') + '</p>' +
+        '<p class="soi-q2-act is-big">' + (speak ? '<button type="button" data-act="listen">' + I.listen + '<span>Listen</span></button>' : '') +
+        '<button type="button" data-act="img">' + I.img + '<span>Picture</span></button><button type="button" data-act="wa">' + I.wa + '<span>WhatsApp</span></button>' +
+        '<button type="button" data-act="copy">' + I.copy + '<span>Copy</span></button><button type="button" data-act="save" aria-pressed="' + on + '">' + I.save + '<span>' + (on ? 'Saved' : 'Save') + '</span></button></p></div>';
+      box.onclick = function (e) {
+        var b = e.target.closest('button[data-act]'); if (!b) return; var a = b.dataset.act;
+        if (a === 'listen') {
+          if (b.classList.contains('is-on')) { speechSynthesis.cancel(); return; }
+          speechSynthesis.cancel(); var u = new SpeechSynthesisUtterance(q.t); u.lang = 'en'; u.rate = .95;
+          var set = function (o) { b.classList.toggle('is-on', o); b.innerHTML = (o ? I.stop : I.listen) + '<span>' + (o ? 'Stop' : 'Listen') + '</span>'; };
+          u.onend = u.onerror = function () { set(false); }; set(true); speechSynthesis.speak(u); return;
+        }
+        if (a === 'save') { var s = store.toggleQuote(q); b.setAttribute('aria-pressed', s); b.querySelector('span').textContent = s ? 'Saved' : 'Save'; toast(s ? 'Saved to this device' : 'Removed from Saved'); return; }
+        if (a === 'copy') { (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { toast('Copied'); }, function () { toast('Could not copy'); }); return; }
+        if (a === 'wa') { window.open('https://wa.me/?text=' + encodeURIComponent(txt), '_blank', 'noopener'); return; }
+        quoteImage(q);
+      };
       box.classList.add('is-ready');
     }).catch(function () {});
   }

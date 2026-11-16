@@ -358,14 +358,13 @@ def build():
         <div class="soi-cont-bar"><i></i></div>
         <a class="soi-cont-go" href="/issues/{latest['slug']}/#soi-{first['id']}">Read <span aria-hidden="true">→</span></a>
       </div>
-      <div class="soi-qotd" id="soi-qotd-home">
-        <p class="soi-kick">Quote of the day</p>
-        <p class="soi-qotd-text">&nbsp;</p>
-        <p class="soi-qotd-src"></p>
-        <button type="button" class="soi-qotd-share">Share as image <span aria-hidden="true">→</span></button>
-      </div>
     </div>
   </div>
+</section>
+<section class="soi-wide soi-sec soi-qotd-sec">
+  <h2 class="soi-h">Quote of the day</h2>
+  <div class="soi-q2-spot soi-qotd-spot" id="soi-qotd-home" aria-live="polite"><div class="soi-q2-spot-in"><blockquote><p>&nbsp;</p></blockquote></div></div>
+  <p class="soi-qotd-more"><a class="soi-pillbtn soi-pillbtn-line" href="/quotes/">More quotes <span aria-hidden="true">→</span></a></p>
 </section>
 <section class="soi-wide soi-sec">
   <div class="soi-h-row"><h2 class="soi-h">Latest issues</h2><a href="/archive/">Browse all {len(issues)} issues →</a></div>

@@ -29,8 +29,8 @@ async def main():
         ok('welcome note is word for word the live text', norm(lw) == norm(mine), '\n' + norm(lw)[:300] + '\n' + norm(mine)[:300])
         ok('welcome heading', 'Welcome to Spirit of Islam' in await pg.inner_text('.soi-welcome h1') and 'A Magazine for the Journey of Life' in await pg.inner_text('.soi-welcome-sub'))
         heads = await pg.locator('main h2.soi-h, .soi-getapp h2').all_inner_texts()
-        ok('home sections in the approved order', [h.split('\n')[0] for h in heads][:4] == ['Our latest issue', 'Latest issues', 'New here? Start with these', 'Read by topic'] and len(heads) == 5, str(heads))
-        ok('latest issue hero + Continue + Quote of the day', f"ISSUE {LATEST['number']}" in (await pg.inner_text('.soi-hero-over')).upper() and len(await pg.inner_text('.soi-qotd-text')) > 20 and await pg.locator('#soi-continue').count() == 1)
+        ok('home sections in the approved order', [h.split('\n')[0] for h in heads][:4] == ['Our latest issue', 'Quote of the day', 'Latest issues', 'New here? Start with these'] and len(heads) == 6, str(heads))
+        ok('latest issue hero + Continue + Quote of the day', f"ISSUE {LATEST['number']}" in (await pg.inner_text('.soi-hero-over')).upper() and len(await pg.inner_text('#soi-qotd-home blockquote')) > 20 and await pg.locator('#soi-qotd-home .soi-q2-act button').count() >= 4 and await pg.locator('#soi-continue').count() == 1)
         ok('latest issues row: 6 covers', await pg.locator('.soi-home .soi-covers-6 .soi-icard .soi-cover > img').count() == 6)
         ok('footer: credit, CPS social links, Ask AI, no copyright line', 'Md Abullais' in await pg.inner_text('.soi-credit') and await pg.locator('.soi-credit-click').count() == 1 and await pg.locator('.soi-soc a').count() >= 6 and await pg.locator('.soi-ask-ai a.soi-ai').count() == 5 and '©' not in await pg.inner_text('.soi-foot2'))
         # Archives menu
