@@ -5,7 +5,7 @@
  "articles": {
   "a-message-for-the-new-year": {
    "title": "A Message for the New Year",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-a-message-for-the-new-year.mp3",
    "chars": 2872,
    "sentences": [
@@ -48,7 +48,7 @@
   },
   "taking-setbacks-as-challenges": {
    "title": "Taking Setbacks as Challenges",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-taking-setbacks-as-challenges.mp3",
    "chars": 4194,
    "sentences": [
@@ -104,7 +104,7 @@
   },
   "religion-and-humanity": {
    "title": "Religion and Humanity",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-religion-and-humanity.mp3",
    "chars": 1994,
    "sentences": [
@@ -129,7 +129,7 @@
   },
   "the-universe-declares": {
    "title": "The Universe Declares",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-the-universe-declares.mp3",
    "chars": 12430,
    "sentences": [
@@ -264,7 +264,7 @@
   },
   "restoration-of-religion": {
    "title": "Restoration of Religion",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-restoration-of-religion.mp3",
    "chars": 3411,
    "sentences": [
@@ -298,7 +298,7 @@
   },
   "signs-of-god-scattered-in-the-universe": {
    "title": "Signs of God Scattered in the Universe",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-signs-of-god-scattered-in-the-universe.mp3",
    "chars": 1503,
    "sentences": [
@@ -325,7 +325,7 @@
   },
   "god-the-voice-of-human-nature": {
    "title": "God—the Voice of Human Nature",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-god-the-voice-of-human-nature.mp3",
    "chars": 3752,
    "sentences": [
@@ -380,7 +380,7 @@
   },
   "guiding-the-misguided": {
    "title": "Guiding the Misguided",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-guiding-the-misguided.mp3",
    "chars": 1757,
    "sentences": [
@@ -402,7 +402,7 @@
   },
   "make-god-your-supreme-concern": {
    "title": "Make God Your Supreme Concern",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-make-god-your-supreme-concern.mp3",
    "chars": 3083,
    "sentences": [
@@ -624,7 +624,7 @@
   },
   "the-flawless-universe": {
    "title": "The Flawless Universe",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-the-flawless-universe.mp3",
    "chars": 2190,
    "sentences": [
@@ -655,7 +655,7 @@
   },
   "appearance-and-reality": {
    "title": "Appearance and Reality",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-appearance-and-reality.mp3",
    "chars": 4339,
    "sentences": [
@@ -701,7 +701,7 @@
   },
   "a-perpetual-enterprise": {
    "title": "A Perpetual Enterprise",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-a-perpetual-enterprise.mp3",
    "chars": 1992,
    "sentences": [
@@ -730,7 +730,7 @@
   },
   "procession-of-death": {
    "title": "Procession of Death",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-procession-of-death.mp3",
    "chars": 2316,
    "sentences": [
@@ -765,7 +765,7 @@
   },
   "the-word-of-god": {
    "title": "The Word of God",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-the-word-of-god.mp3",
    "chars": 2877,
    "sentences": [
@@ -801,7 +801,7 @@
   },
   "ask-maulana": {
    "title": "Ask Maulana",
-   "status": "pending",
+   "status": "ready",
    "file": "SOI-2020-01-ask-maulana.mp3",
    "chars": 3976,
    "sentences": [
