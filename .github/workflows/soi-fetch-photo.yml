@@ -1,0 +1,30 @@
+name: Add a photo (Pexels/Unsplash) to site/photos
+# Downloads one approved photo, makes a 1400 px WebP and commits it.
+# Claude looks at every photo before it is used (no people, no symbols of other religions).
+on:
+  workflow_dispatch:
+    inputs:
+      url: { description: "Direct image URL", required: true }
+      name: { description: "File name without extension, e.g. topic-the-quran", required: true }
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - name: Download and convert
+        run: |
+          curl -fsSL -A "Mozilla/5.0" "${{ inputs.url }}" -o /tmp/in
+          python3 - <<'PY'
+          from PIL import Image, ImageOps
+          im = ImageOps.exif_transpose(Image.open("/tmp/in")).convert("RGB")
+          im.thumbnail((1400, 1400))
+          im.save("site/photos/${{ inputs.name }}.webp", "WEBP", quality=80, method=6)
+          print(im.size)
+          PY
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add site/photos && git commit -qm "Photo: ${{ inputs.name }}" && for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
