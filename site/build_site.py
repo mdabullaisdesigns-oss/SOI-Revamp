@@ -332,7 +332,7 @@ def build():
     n_audio = sum(a["audio"] for a in latest["articles"])
     line = MENU.get("hero_line", {}).get(latest["slug"]) or next((a["title"] for a in latest["articles"] if a["type"] == "article"), latest["period"])
     first = next((a for a in latest["articles"] if a["type"] == "article"), latest["articles"][0])
-    guides = "".join(f'<div class="soi-guide">{photo(f"guide{k + 1}", "soi-guide-ph")}<span class="soi-guide-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span>'
+    guides = "".join(f'<div class="soi-guide"><div class="soi-guide-ph soi-guide-blank" aria-hidden="true"><img src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453" loading="lazy"><span>Tutorial {k + 1}</span></div><span class="soi-guide-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span>'
                      f'<div class="soi-guide-txt"><b>{esc(g)}</b><small>Video coming soon</small></div></div>' for k, g in enumerate(MENU["guides"]))
     topics = "".join(f'<a class="soi-topic" href="/search/?q={esc(t.replace("&", "").replace("  ", " ").replace(" ", "+"))}">{photo("topic-" + re.sub("[^a-z]+", "-", t.lower()).strip("-"))}<b>{esc(t)}</b></a>'
                      for t in MENU["topics"])

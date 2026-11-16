@@ -109,8 +109,9 @@ jobs:
             --content-type audio/mpeg --cache-control "public, max-age=31536000" --endpoint-url "$R2_ENDPOINT" --only-show-errors
           python3 pipeline/transcribe.py "$s" --model base.en
           python3 pipeline/align.py "$s"
-      - name: Tidy audio-source.json
+      - name: Tidy audio-source.json and rebuild the issue page with the players
         run: |
+          python3 pipeline/build.py "${{ matrix.slug }}"
           python3 - <<'EOF'
           import json, sys
           p = "issues/${{ matrix.slug }}/audio-source.json"
@@ -124,7 +125,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add "issues/${{ matrix.slug }}/audio-source.json" "issues/${{ matrix.slug }}/audio-raw" "issues/${{ matrix.slug }}/audio.json" "issues/${{ matrix.slug }}/narration.json" 2>/dev/null || true
+          git add "issues/${{ matrix.slug }}/audio-source.json" "issues/${{ matrix.slug }}/audio-raw" "issues/${{ matrix.slug }}/audio.json" "issues/${{ matrix.slug }}/narration.json" "issues/${{ matrix.slug }}/SOI-${{ matrix.slug }}-complete.html" 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -q -m "Narration (Charon, Gemini 3.8 Flash-Lite TTS): ${{ matrix.slug }} [skip ci]"
           for i in 1 2 3 4 5 6; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep $((RANDOM % 20 + 5)); done

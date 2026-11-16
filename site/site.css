@@ -820,3 +820,20 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 /* team cards: light border */
 .soi-tm { border: 1px solid rgba(32, 78, 96, .24); outline: none; box-shadow: inset 0 0 0 9px #EEEEE5, inset 0 0 0 10px rgba(32, 78, 96, .14); }
 .soi-fi-quote { transform: scale(1.18); }
+
+/* 16 Nov: contrast gradients on photos with text */
+.soi-hero-main::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(0deg, rgba(23, 58, 72, .92) 0%, rgba(23, 58, 72, .62) 38%, rgba(23, 58, 72, .18) 70%, rgba(23, 58, 72, 0) 100%), linear-gradient(90deg, rgba(23, 58, 72, .35), rgba(23, 58, 72, 0) 65%); }
+.soi-hero-over { z-index: 1; background: none; }
+.soi-hero-over .soi-hero-line { text-shadow: 0 2px 14px rgba(0, 0, 0, .3); }
+.soi-topic::after { background: linear-gradient(180deg, rgba(23, 58, 72, .82) 0%, rgba(23, 58, 72, .45) 32%, rgba(23, 58, 72, 0) 62%); }
+/* tutorial placeholders until the videos and thumbnails are ready */
+.soi-guide-blank { position: relative; display: flex; align-items: flex-end; justify-content: flex-start; overflow: hidden;
+  background: radial-gradient(120% 90% at 85% 10%, rgba(212, 204, 115, .22), rgba(212, 204, 115, 0) 55%), linear-gradient(135deg, #204E60, #173A48); }
+.soi-guide-blank::before { content: ""; position: absolute; inset: 10px; border: 1px dashed rgba(238, 238, 229, .28); border-radius: 12px; }
+.soi-guide-blank img { position: absolute; right: -14px; bottom: -18px; width: 42%; height: auto; opacity: .12; }
+.soi-guide-blank span { position: relative; margin: 0 0 16px 20px; padding: 4px 10px; border-radius: 99px; background: rgba(212, 204, 115, .16); color: #D4CC73; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.soi-guide-play svg { background: #D4CC73; fill: #173A48; }
+/* menu: slightly larger text and icons */
+@media (min-width: 981px) { .soi-menu-list > li > a, .soi-menu-top { font-size: 17px; } .soi-menu-signin { font-size: 16px; } }
+.soi-menu-list svg.soi-fi, .soi-menu-signin svg.soi-fi { width: 21px; height: 21px; }
+.soi-menu-ico svg.soi-fi { width: 24px; height: 24px; }
