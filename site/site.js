@@ -314,7 +314,8 @@
       document.body.appendChild(c); requestAnimationFrame(function () { c.classList.add('is-on'); });
     }, 120000);
   }
-  function start() { readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); invite(); }
+  function book() { var b = $('.soi-book-scene'); if (b && !b.dataset.on) { b.dataset.on = 1; b.addEventListener('click', function () { b.classList.toggle('is-back'); b.setAttribute('aria-label', b.classList.contains('is-back') ? 'Turn the magazine back to the front cover' : 'Turn the magazine over to see the back cover'); }); } }
+  function start() { book(); readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); invite(); }
   function boot() { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start(); }
   window.soi.restart = boot; window.soi.slug = function () { return SLUG; };
   boot();

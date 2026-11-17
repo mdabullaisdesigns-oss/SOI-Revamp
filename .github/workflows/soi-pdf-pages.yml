@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add site/covers/back issues/*/pages.json 2>/dev/null || true
+          git add site/covers/back 2>/dev/null || true; git add issues/*/pages.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -qm "Magazine pages (${{ inputs.mode }}): ${{ inputs.issues }}"
           for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q && exit 0; sleep 7; done

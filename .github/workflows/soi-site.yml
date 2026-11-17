@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q "pagefind[bin]"
+      - run: pip install -q "pagefind[bin]" pillow
       - name: Rebuild every issue page with the current templates (and newest audio)
         run: for d in issues/*/; do s=$(basename "$d"); [ -f "$d/issue.json" ] && [ -f "$d/SOI-$s-complete.html" ] && python3 pipeline/build.py "$s" > /dev/null || true; done
       - run: python3 site/build_site.py
@@ -58,3 +58,4 @@ jobs:
           curl -sS -o /dev/null -w "range: %{http_code} %{size_download} bytes\n" -H "Range: bytes=1000-1999" "https://soi-preview.pages.dev$u"
           p=$(grep -o '/media/pdfs/[^"]*' dist/archive/index.html | head -1)
           [ -n "$p" ] && curl -sS -o /dev/null -w "pdf: %{http_code} %{content_type} %{size_download} bytes\n" "https://soi-preview.pages.dev$p"
+          curl -sS -o /dev/null -w "page: %{http_code} %{content_type} %{size_download} bytes\n" "https://soi-preview.pages.dev/media/pages/2026-11/p001.webp"
