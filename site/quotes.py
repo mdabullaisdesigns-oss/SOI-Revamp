@@ -41,7 +41,15 @@ def collect(root, issues):
         if key in seen:
             seen[key]["also"] += 1
             return
-        q = {"t": text, "s": slug, "n": label[slug][0], "p": label[slug][1], "a": a_id, "at": a_title, "k": kind, "by": by, "also": 0,
+        hd, ref = "", ""
+        m = re.search(r"\s*\(((?:Sahih|Sunan|Musnad|Jami|Bukhari|Muslim|Tirmidhi|Ab[uū] D[aā]w[uū]d|[Il]bn Majah|Nasa|Muwatta|Mishkat|Bayhaqi|Baihaqi|PROPHET MUHAMMAD)[^()]*)\)\.?\s*$", text, re.I)
+        if m and (re.match(r"\s*[“\"‘]", text) or m.group(1).upper() == "PROPHET MUHAMMAD"):
+            hd, ref = "saying", ("" if m.group(1).upper() == "PROPHET MUHAMMAD" else m.group(1))   # the quote IS a hadith
+            text = text[:m.start()].strip()
+            by = "Prophet Muhammad ﷺ"
+        elif m or re.search(r"\bProphet(\s+Muhammad|\s+of\s+Islam)?\s+(once\s+)?(said|stated|remarked|observed|declared|is reported to have said)\b", text):
+            hd = "has"                                    # the reflection quotes a saying of the Prophet
+        q = {"hd": hd, "ref": ref, "t": text, "s": slug, "n": label[slug][0], "p": label[slug][1], "a": a_id, "at": a_title, "k": kind, "by": by, "also": 0,
              "y": int(slug[:4]), "tp": [name for name, rx in TOPICS if re.search(rx, text, re.I)][:3]}
         seen[key] = q
         out.append(q)
@@ -105,8 +113,10 @@ PAGE = r"""
   function photo(q){return PH.length?PH[(cur.indexOf(q)+PH.length)%PH.length]:''}
   function saved(q){return !!(window.soi&&soi.store.hasQuote(q))}
   var canSpeak='speechSynthesis' in window,SITE='spiritofislam.co.in';
-  function text(q){return '“'+q.t+'”\n— Spirit of Islam Magazine · '+SITE}
-  function src(q){return (q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)}
+  function text(q){return '“'+q.t+'”\n— '+(q.hd==='saying'?'Prophet Muhammad ﷺ'+(q.ref?' ('+q.ref+')':'')+'\nShared from Spirit of Islam · ':'Spirit of Islam Magazine · ')+SITE}
+  function src(q){
+    if(q.hd==='saying')return '<span class="soi-q-hadith">Saying of the Prophet ﷺ</span><b class="soi-q-by">— Prophet Muhammad ﷺ'+(q.ref?' <small>('+esc(q.ref)+')</small>':'')+'</b>Quoted in <a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p);
+    return (q.hd==='has'?'<span class="soi-q-hadith">Includes a saying of the Prophet ﷺ</span>':'')+(q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)}
   function acts(q){
     return '<p class="soi-q2-act">'+
       (canSpeak?'<button type="button" data-act="listen" aria-label="Listen to this quote">'+I.listen+'<span>Listen</span></button>':'')+

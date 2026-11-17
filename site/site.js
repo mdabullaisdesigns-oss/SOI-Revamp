@@ -78,6 +78,7 @@
       x.fillStyle = '#EEEEE5'; x.textAlign = 'center'; x.textBaseline = 'middle';
       do { x.font = 'italic ' + size + 'px "Cita Pro Ita","Cita Pro",Georgia,serif'; lines = wrap(x, '“' + q.t + '”', W - 240); size -= 2; } while (lines.length * (size * 1.42) > H - 560 && size > 26);
       var lh = (size + 2) * 1.42, y = H / 2 - ((lines.length - 1) * lh) / 2 - 30; lines.forEach(function (l, i) { x.fillText(l, W / 2, y + i * lh); });
+      if (q.hd === 'saying') { x.fillStyle = '#D4CC73'; x.font = '600 34px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('— Prophet Muhammad ﷺ' + (q.ref ? '  (' + q.ref + ')' : ''), W / 2, Math.min(y + lines.length * lh + 30, H - 380)); }
       x.fillStyle = '#D4CC73'; x.fillRect(W / 2 - 60, H - 330, 120, 3);
       if (logo.naturalWidth) { var lw2 = 230; x.drawImage(logo, W / 2 - lw2 / 2, H - 290, lw2, lw2 * 51.17 / 79.08); }
       x.fillStyle = '#FFFFFF'; x.globalAlpha = .9; x.font = '600 28px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('spiritofislam.co.in', W / 2, H - 105); x.globalAlpha = 1;
@@ -259,10 +260,10 @@
         wa: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4"/></svg>',
         copy: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-9a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1m-1 11h-7v-9h7zM4 3h9a1 1 0 0 1 1 1v2h-2V5H5v9h1v2H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1"/></svg>',
         save: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7a2 2 0 0 0-2 2v17.4a.6.6 0 0 0 .95.5L12 18l6.05 3.9a.6.6 0 0 0 .95-.5V4a2 2 0 0 0-2-2m0 16.5-5-3.2-5 3.2V4h10z"/></svg>' };
-      var txt = '“' + q.t + '”\n— Spirit of Islam Magazine · spiritofislam.co.in';
+      var txt = '“' + q.t + '”\n— ' + (q.hd === 'saying' ? 'Prophet Muhammad ﷺ' + (q.ref ? ' (' + q.ref + ')' : '') + '\nShared from Spirit of Islam · ' : 'Spirit of Islam Magazine · ') + 'spiritofislam.co.in';
       box.innerHTML = (ph ? '<img class="soi-q2-bg" src="' + ph + '" alt="" loading="lazy">' : '') +
         '<div class="soi-q2-spot-in"><svg class="soi-q2-qmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h2A1.5 1.5 0 0 1 10 6.5V11c0 3.4-1.5 5.8-4.6 7.2M14 6.5A1.5 1.5 0 0 1 15.5 5h2A1.5 1.5 0 0 1 19 6.5V11c0 3.4-1.5 5.8-4.6 7.2M5 11h5M14 11h5"/></svg>' +
-        '<blockquote><p>' + esc(q.t) + '</p></blockquote><p class="soi-q2-src">' + (q.by ? esc(q.by) + ' · ' : '') + '<a href="/issues/' + q.s + '/#soi-' + q.a + '">' + esc(q.at) + '</a> · Issue ' + q.n + (q.p ? ', ' + esc(q.p) : '') + '</p>' +
+        '<blockquote><p>' + esc(q.t) + '</p></blockquote><p class="soi-q2-src">' + (q.hd === 'saying' ? '<span class="soi-q-hadith">Saying of the Prophet ﷺ</span><b class="soi-q-by">— Prophet Muhammad ﷺ' + (q.ref ? ' <small>(' + esc(q.ref) + ')</small>' : '') + '</b>Quoted in ' : (q.hd === 'has' ? '<span class="soi-q-hadith">Includes a saying of the Prophet ﷺ</span>' : '') + (q.by ? esc(q.by) + ' · ' : '')) + '<a href="/issues/' + q.s + '/#soi-' + q.a + '">' + esc(q.at) + '</a> · Issue ' + q.n + (q.p ? ', ' + esc(q.p) : '') + '</p>' +
         '<p class="soi-q2-act is-big">' + (speak ? '<button type="button" data-act="listen">' + I.listen + '<span>Listen</span></button>' : '') +
         '<button type="button" data-act="img">' + I.img + '<span>Picture</span></button><button type="button" data-act="wa">' + I.wa + '<span>WhatsApp</span></button>' +
         '<button type="button" data-act="copy">' + I.copy + '<span>Copy</span></button><button type="button" data-act="save" aria-pressed="' + on + '">' + I.save + '<span>' + (on ? 'Saved' : 'Save') + '</span></button></p></div>';

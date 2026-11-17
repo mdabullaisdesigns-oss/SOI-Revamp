@@ -1001,3 +1001,18 @@ svg.soi-fi-line { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-li
 .soi-gem-pts svg { width: 14px; height: 14px; fill: #D4CC73; }
 /* home quote of the day: room between the ornament and the card */
 .soi-qotd-sec .soi-h { margin-bottom: 30px; }
+
+/* quotes: sayings of the Prophet ﷺ are attributed to him; darker photo gradients for readability */
+.soi-q-hadith { display: inline-block; margin: 0 0 8px; padding: 3px 10px; border-radius: 99px; background: rgba(212, 204, 115, .2); border: 1px solid rgba(212, 204, 115, .55); color: #D4CC73; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; }
+.soi-q-by { display: block; margin: 0 0 6px; font-family: var(--soi-display); font-weight: 400; font-size: 1.15rem; color: #fff; }
+.soi-q-by small { font-family: var(--soi-body, inherit); font-size: .8rem; opacity: .8; }
+.soi-q2-src .soi-q-hadith { display: table; }
+.soi-q2-spot::after { background: linear-gradient(90deg, rgba(14, 38, 47, .95) 0%, rgba(14, 38, 47, .82) 55%, rgba(14, 38, 47, .5) 100%); }
+.soi-q2-card.is-photo::after { background: linear-gradient(180deg, rgba(14, 38, 47, .55), rgba(14, 38, 47, .95)); }
+.soi-q3 .soi-q-hadith { color: #204E60; background: rgba(32, 78, 96, .07); border-color: rgba(32, 78, 96, .3); }
+.soi-q3 .soi-q-by { color: #12303B; }
+
+/* menu icon set A: one stroke weight everywhere */
+svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st, .soi-menu-signin svg.soi-fi-st { fill: none !important; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.soi-menu-ico svg.soi-fi-st { width: 23px; height: 23px; }
+.soi-gem-ico svg.soi-fi-st { fill: none !important; }
