@@ -1,0 +1,33 @@
+name: Magazine pages from the PDFs
+on:
+  workflow_dispatch:
+    inputs:
+      mode: { description: "back = back covers (into site/covers/back), pages = every page (into R2 pages/)", required: true, default: "back" }
+      issues: { description: "Issue slugs separated by spaces, or all", required: true, default: "all" }
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils >/dev/null && pip install -q pillow
+      - run: python3 scripts/pdf_pages.py "${{ inputs.mode }}" ${{ inputs.issues }}
+      - name: Upload pages to R2
+        if: inputs.mode == 'pages'
+        run: aws s3 cp out-pages/ "s3://$R2_BUCKET/pages/" --recursive --content-type image/webp --cache-control "public, max-age=31536000" --endpoint-url "$R2_ENDPOINT" --only-show-errors
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add site/covers/back issues/*/pages.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "Magazine pages (${{ inputs.mode }}): ${{ inputs.issues }}"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q && exit 0; sleep 7; done
