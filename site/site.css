@@ -1125,3 +1125,40 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-arch[data-view="list"] .soi-icard-act .soi-ib:not(.soi-ib-main) { flex: 0 0 auto; }
 @media (max-width: 600px) { .soi-arch[data-view="list"] .soi-year > .soi-h-row { margin-left: 0; margin-right: 0; } }
 .soi-arch { overflow-x: clip; }
+
+/* home: your reading */
+.soi-you-grid { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 18px; }
+.soi-you-card { background: #fff; border: 1px solid var(--soi-line); border-radius: 22px; padding: 22px; }
+.soi-you-card h3 { margin: 0 0 14px; font-family: var(--soi-display); font-weight: 400; font-size: 1.35rem; color: #173A48; }
+.soi-you-body { min-height: 140px; }
+.soi-you-prog .soi-you-body { display: flex; align-items: center; gap: 18px; }
+.soi-ring { position: relative; flex: none; width: 124px; height: 124px; display: grid; place-items: center; }
+.soi-ring svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+.soi-ring circle { fill: none; stroke-width: 12; }
+.soi-ring .bg { stroke: #EEEEE5; } .soi-ring .fg { stroke: #204E60; stroke-linecap: round; transition: stroke-dashoffset 1.2s cubic-bezier(.2, .7, .2, 1); }
+.soi-ring b { font-family: var(--soi-display); font-weight: 400; font-size: 1.7rem; color: #173A48; line-height: 1; margin-top: -8px; }
+.soi-ring small { position: absolute; bottom: 34px; font-size: 11px; color: #53656D; }
+.soi-you-txt { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; min-width: 0; }
+.soi-you-txt b { font-family: var(--soi-display); font-weight: 400; font-size: 1.15rem; }
+.soi-you-txt span { font-size: 13px; color: #53656D; }
+.soi-you-txt .soi-ib { margin-top: 6px; flex: none; padding: 0 16px; }
+.soi-sug { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.soi-sug a { display: flex; gap: 12px; align-items: center; text-decoration: none; color: #173A48; border-radius: 12px; }
+.soi-sug a:hover b { color: #EA3451; }
+.soi-sug img { flex: none; width: 44px; height: 62px; object-fit: cover; border-radius: 4px; background: #204E60; box-shadow: 0 4px 10px rgba(23, 58, 72, .15); }
+.soi-sug b { display: block; font-family: var(--soi-display); font-weight: 400; font-size: 1.02rem; line-height: 1.25; }
+.soi-sug small { display: block; font-size: 12px; color: #53656D; margin-top: 3px; }
+.soi-you-mix .soi-you-body { display: flex; align-items: center; gap: 18px; }
+.soi-donut { position: relative; flex: none; width: 124px; height: 124px; display: grid; place-items: center; align-content: center; }
+.soi-donut svg { position: absolute; inset: 0; }
+.soi-donut circle { fill: none; stroke-width: 6.5; }
+.soi-donut b { font-family: var(--soi-display); font-weight: 400; font-size: 1.6rem; line-height: 1; }
+.soi-donut small { font-size: 11px; color: #53656D; }
+.soi-legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; font-size: 13px; color: #173A48; }
+.soi-legend li::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; background: var(--c); }
+.soi-legend span { color: #53656D; }
+.soi-you-empty { margin: 0; font-size: 14px; color: #53656D; line-height: 1.6; }
+@media (max-width: 960px) { .soi-you-grid { grid-template-columns: 1fr; } }
+.soi-you-card { min-width: 0; }
+@media (max-width: 420px) { .soi-you-prog .soi-you-body, .soi-you-mix .soi-you-body { flex-direction: column; align-items: flex-start; } }
+.soi-you > .soi-h-sub { text-align: center; }

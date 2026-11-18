@@ -493,6 +493,15 @@ def build():
   <h2 class="soi-h">Read by topic</h2>
   <div class="soi-topics">{topics}</div>
 </section>
+<section class="soi-wide soi-sec soi-you" id="soi-you">
+  <h2 class="soi-h">Your reading</h2>
+  <p class="soi-h-sub">Kept on this device for now; it will follow you to every device once you sign in.</p>
+  <div class="soi-you-grid">
+    <div class="soi-you-card soi-you-prog"><h3>Your progress</h3><div class="soi-you-body"></div></div>
+    <div class="soi-you-card soi-you-sug"><h3>Suggested for you</h3><div class="soi-you-body"></div></div>
+    <div class="soi-you-card soi-you-mix"><h3>What you read</h3><div class="soi-you-body"></div></div>
+  </div>
+</section>
 <section class="soi-wide soi-sec">
   <div class="soi-getapp">
     <div class="soi-getapp-txt">
@@ -527,6 +536,20 @@ def build():
 {FORM_JS}
 <script>(function(){{var m={redirects},id=new URLSearchParams(location.search).get('page_id');if(id&&m[id])location.replace(m[id]);}})();</script>
 """
+    import quotes as _q
+    idx = []
+    for i in issues:
+        try:
+            nar = json.load(open(os.path.join(ROOT, "issues", i["slug"], "narration.json"), encoding="utf-8"))["articles"]
+        except Exception:
+            nar = {}
+        for a in i["articles"]:
+            txt = a["title"] + " " + " ".join(nar.get(a["id"], {}).get("sentences", [])[:40])
+            tp = [n for n, rx in _q.TOPICS if re.search(rx, txt, re.I)][:3]
+            idx.append([i["slug"], a["id"], a["title"], minutes(a["words"]), tp])
+    os.makedirs(os.path.join(OUT, "assets"), exist_ok=True)
+    json.dump({"issues": {i["slug"]: [i["period"], i["number"], len(i["articles"])] for i in issues}, "a": idx},
+              open(os.path.join(OUT, "assets", "articles.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     write("index.html", page("Spirit of Islam – A Magazine for the Journey of Life", home, cls="soi-home", current="home"))
 
     # ---- archive

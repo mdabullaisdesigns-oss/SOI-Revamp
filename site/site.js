@@ -334,7 +334,38 @@
     }, 120000);
   }
   function book() { var b = $('.soi-book-scene'); if (b && !b.dataset.on) { b.dataset.on = 1; b.addEventListener('click', function () { b.classList.toggle('is-back'); b.setAttribute('aria-label', b.classList.contains('is-back') ? 'Turn the magazine back to the front cover' : 'Turn the magazine over to see the back cover'); }); } }
-  function start() { book(); readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); invite(); }
+  /* ---------- home: your progress, suggestions, what you read (kept on this device) ---------- */
+  function you() {
+    var box = $('#soi-you'); if (!box) return;
+    fetch('/assets/articles.json').then(function (r) { return r.json(); }).then(function (d) {
+      var read = store.read(), by = {}, all = d.a, latest = Object.keys(d.issues).sort().pop();
+      all.forEach(function (a) { (by[a[0]] = by[a[0]] || []).push(a); });
+      var isRead = function (a) { return read[a[0]] && read[a[0]][a[1]]; };
+      /* 1. progress: the issue read most recently, else the latest issue */
+      var recent = Object.keys(read).sort(function (x, y) { return Math.max.apply(0, Object.values(read[y])) - Math.max.apply(0, Object.values(read[x])); })[0] || latest;
+      var list = by[recent] || [], done = list.filter(isRead).length, tot = d.issues[recent][2] || list.length, pc = tot ? Math.round(done / tot * 100) : 0;
+      var next = list.filter(function (a) { return !isRead(a); })[0], C = 2 * Math.PI * 50;
+      $('.soi-you-prog .soi-you-body', box).innerHTML = '<div class="soi-ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="50" class="bg"/><circle cx="60" cy="60" r="50" class="fg" style="stroke-dasharray:' + C + ';stroke-dashoffset:' + C + '" data-off="' + (C * (1 - pc / 100)) + '"/></svg><b>' + pc + '%</b><small>' + esc(d.issues[recent][0].replace(/([A-Za-z]{3})[a-z]+/g, '$1')) + '</small></div>' +
+        '<div class="soi-you-txt"><b>' + done + ' of ' + tot + ' articles</b>' + (next ? '<span>Next: ' + esc(next[2]) + ' · ' + next[3] + ' min</span><a class="soi-ib soi-ib-main" href="/issues/' + next[0] + '/#soi-' + next[1] + '">' + (done ? 'Continue' : 'Start reading') + '</a>' : '<span>Issue complete, well done!</span><a class="soi-ib" href="/archive/">Choose another issue</a>') + '</div>';
+      requestAnimationFrame(function () { setTimeout(function () { var f = $('.soi-ring .fg', box); if (f) f.style.strokeDashoffset = f.dataset.off; }, 120); });
+      /* 3. what you read: topics of the articles read */
+      var tc = {}, nread = 0;
+      all.forEach(function (a) { if (isRead(a)) { nread++; (a[4].length ? a[4] : ['Other']).forEach(function (t) { tc[t] = (tc[t] || 0) + 1; }); } });
+      var tops = Object.keys(tc).sort(function (x, y) { return tc[y] - tc[x]; }), COL = ['#204E60', '#D4CC73', '#EA3451', '#7FA7B5', '#B49A6A'], sum = 0;
+      var parts = tops.slice(0, 4).map(function (t) { return [t, tc[t]]; }); var rest = tops.slice(4).reduce(function (n, t) { return n + tc[t]; }, 0); if (rest) parts.push(['Other topics', rest]);
+      var totT = parts.reduce(function (n, p) { return n + p[1]; }, 0), off = 25;
+      $('.soi-you-mix .soi-you-body', box).innerHTML = nread ? '<div class="soi-donut"><svg viewBox="0 0 42 42" aria-hidden="true">' + parts.map(function (p, k) { var v = p[1] / totT * 100, c = '<circle cx="21" cy="21" r="15.9" style="stroke:' + COL[k] + '" stroke-dasharray="' + v + ' ' + (100 - v) + '" stroke-dashoffset="' + off + '"/>'; off = (off - v + 100) % 100; return c; }).join('') + '</svg><b>' + nread + '</b><small>read</small></div><ul class="soi-legend">' + parts.map(function (p, k) { return '<li style="--c:' + COL[k] + '">' + esc(p[0]) + ' <span>' + Math.round(p[1] / totT * 100) + '%</span></li>'; }).join('') + '</ul>'
+        : '<p class="soi-you-empty">Read a few articles and a picture of your reading appears here, by topic.</p>';
+      /* 2. suggestions: unread articles on your favourite topics, then from the latest issue, then from the archive */
+      var pick = [], seen = {}, rnd = function (l) { return l[Math.floor(Math.random() * l.length)]; };
+      function add(a, why) { if (a && !isRead(a) && !seen[a[0] + a[1]] && pick.length < 3) { seen[a[0] + a[1]] = 1; pick.push([a, why]); } }
+      tops.slice(0, 2).forEach(function (t) { var l = all.filter(function (a) { return a[4].indexOf(t) > -1 && !isRead(a); }); for (var k = 0; k < 3 && l.length; k++) add(rnd(l), 'Because you read about ' + t); });
+      (by[latest] || []).forEach(function (a) { add(a, 'From the latest issue'); });
+      for (var k = 0; k < 20 && pick.length < 3; k++) add(rnd(all), 'From the archive');
+      $('.soi-you-sug .soi-you-body', box).innerHTML = '<ul class="soi-sug">' + pick.map(function (p) { var a = p[0], is = d.issues[a[0]]; return '<li><a href="/issues/' + a[0] + '/#soi-' + a[1] + '"><img src="/assets/covers/' + a[0] + '.webp" alt="" loading="lazy" width="44" height="62"><span><b>' + esc(a[2]) + '</b><small>' + esc(p[1]) + ' · ' + esc(is[0]) + '</small></span></a></li>'; }).join('') + '</ul>';
+    }).catch(function () {});
+  }
+  function start() { book(); you(); readMeta(); resume = null; resumed = false; lastAudioItem = null; menu(); issuePage(); continueCard(); qotd(); savedWeb(); invite(); }
   function boot() { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start(); }
   window.soi.restart = boot; window.soi.slug = function () { return SLUG; };
   boot();
