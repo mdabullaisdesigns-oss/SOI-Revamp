@@ -42,8 +42,8 @@ async def main():
         ok('  header/menu not shown, quiz present', await pg.evaluate("getComputedStyle(document.querySelector('.soi-menubar')).display==='none'") and await pg.locator('#soi-quiz').count() == 1)
         ok('  Save and Share on every article', await pg.locator('.soi-ev .soi-acts').count() == await pg.locator('.soi-ev .ev-item .ev-meta').count() > 5)
         # an older issue: fetched once, then offline
-        await pg.goto(B + '/archive/index.html'); await pg.wait_for_selector('a.soi-icard')
-        await pg.click('a.soi-icard[href="/issues/2018-06/"]'); await pg.wait_for_selector('.soi-ev .ev-item', timeout=8000)
+        await pg.goto(B + '/archive/index.html'); await pg.wait_for_selector('a.soi-icard-link')
+        await pg.click('a.soi-icard-link[href="/issues/2018-06/"]'); await pg.wait_for_selector('.soi-ev .ev-item', timeout=8000)
         ok('old issue fetched once and shown', 'reader.html' in pg.url and 'issue=2018-06' in pg.url, pg.url)
         await pg.evaluate("document.querySelectorAll('.soi-ev .ev-item')[2].querySelector('.ev-tab').click()"); await pg.wait_for_timeout(900)
         await pg.mouse.wheel(0, 900); await pg.wait_for_timeout(1700); await pg.mouse.wheel(0, 250); await pg.wait_for_timeout(1700)
