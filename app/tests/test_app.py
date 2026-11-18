@@ -67,7 +67,7 @@ async def main():
         ok('OFFLINE: search works and results open in the app', '/issues/' in href and ('reader.html' in r or 'index.html#' in r), f'{href} -> {r}')
         await pg.fill('#soi-app-q', '51 : 56'); await pg.wait_for_timeout(1200)
         ok('OFFLINE: search by Quran reference', await pg.locator('.soi-app-res').count() > 3 and '51:56' in await pg.inner_text('#soi-app-results'))
-        await pg.goto(B + '/quotes/index.html'); await pg.wait_for_selector('.soi-q'); await pg.click('.soi-q >> nth=1 >> button[data-act="save"]')
+        await pg.goto(B + '/quotes/index.html'); await pg.wait_for_selector('#soi-q-list button[data-act="save"]'); await pg.click('#soi-q-list button[data-act="save"] >> nth=1')
         ok('OFFLINE: quotes page, save a quote', await pg.evaluate("JSON.parse(localStorage.getItem('soiSavedQuotes')).length") == 1)
         st['online'] = True
         await pg.goto(B + '/saved.html'); await pg.wait_for_selector('.soi-app-si'); await pg.wait_for_timeout(500)
