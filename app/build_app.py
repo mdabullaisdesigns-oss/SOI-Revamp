@@ -29,7 +29,8 @@ def prep(html, fonts):
     html = html.replace('<html lang="en">', '<html lang="en" class="soi-app">', 1)
     html = html.replace('content="width=device-width, initial-scale=1"',
                         'content="width=device-width, initial-scale=1, viewport-fit=cover"', 1)
-    assert "</head>" in html
+    if "</head>" not in html:                       # tiny redirect pages (old About links) need nothing added
+        return html
     return html.replace("</head>", INJECT, 1)
 
 
