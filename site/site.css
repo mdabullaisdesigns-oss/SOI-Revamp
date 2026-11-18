@@ -1162,3 +1162,29 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-you-card { min-width: 0; }
 @media (max-width: 420px) { .soi-you-prog .soi-you-body, .soi-you-mix .soi-you-body { flex-direction: column; align-items: flex-start; } }
 .soi-you > .soi-h-sub { text-align: center; }
+/* contact: two steps, own topic menu, notes */
+.soi-field { display: grid; gap: 6px; }
+.soi-field-l { font-size: 14px; font-weight: 700; color: #173A48; }
+.soi-dd { position: relative; }
+.soi-dd-btn { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border: 1px solid #CFCBBB; border-radius: 12px; background: #FBFAF6; font: inherit; font-size: 16px; color: #8A979C; cursor: pointer; text-align: left; }
+.soi-dd-btn.is-set { color: #173A48; }
+.soi-dd-btn:focus-visible, .soi-dd-btn[aria-expanded="true"] { outline: 2px solid #204E60; outline-offset: 1px; background: #fff; }
+.soi-dd-btn svg { width: 18px; height: 18px; flex: none; fill: none; stroke: #204E60; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
+.soi-dd-btn[aria-expanded="true"] svg { transform: rotate(180deg); }
+.soi-dd-list { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 20; margin: 0; padding: 6px; list-style: none; background: #fff; border: 1px solid var(--soi-line); border-radius: 14px; box-shadow: 0 18px 40px rgba(23, 58, 72, .16); }
+.soi-dd-list li { padding: 10px 12px; border-radius: 9px; font-size: 15px; color: #173A48; cursor: pointer; outline: none; }
+.soi-dd-list li:hover, .soi-dd-list li:focus { background: #EEEEE5; }
+.soi-dd-list li[aria-selected="true"] { background: #204E60; color: #fff; }
+.soi-cf-count { justify-self: end; font-weight: 500; font-size: 12px; color: #8A979C; }
+.soi-cf-sent { margin: 0 0 4px; font-size: 15px; line-height: 1.6; color: #33474F; }
+.soi-cf-code { font-size: 24px !important; letter-spacing: 8px; max-width: 220px; text-align: center; }
+.soi-cf-link { border: 0; background: none; padding: 0; font: inherit; font-size: 14px; font-weight: 700; color: #204E60; text-decoration: underline; cursor: pointer; }
+.soi-cf-done p { margin: 0; padding: 18px; border-radius: 14px; background: #EAF3EE; color: #1E5A3C; font-size: 15px; line-height: 1.6; }
+.soi-cf-notes { margin-top: 6px; padding: 16px 18px; border-radius: 14px; background: #F4F3EC; font-size: 13.5px; line-height: 1.6; color: #33474F; }
+.soi-cf-notes p { margin: 0 0 8px; }
+.soi-cf-notes ul { margin: 0; padding-left: 18px; }
+.soi-cf-notes li { margin: 2px 0; }
+.soi-contact-form .soi-dd-btn::after { display: none; }
+.soi-contact-form .soi-dd-btn { border-radius: 12px; font-weight: 400; }
+.soi-contact-form .soi-dd-btn span { flex: 1; }
+.soi-contact-form .soi-dd-list li { white-space: normal; }

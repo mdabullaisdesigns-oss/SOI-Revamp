@@ -251,18 +251,80 @@ FORM_JS = """<script>
   });
 })();
 </script>"""
+CONTACT_JS = """<script>
+(function () {
+  var f = document.getElementById('soi-contact'); if (!f) return;
+  var $ = function (q) { return f.querySelector(q); }, s1 = $('.soi-cf-step1'), s2 = $('.soi-cf-step2'), done = $('.soi-cf-done');
+  $('[name=t]').value = Date.now();
+  /* the topic menu (our own design, no browser drop-down) */
+  var dd = $('.soi-dd'), btn = $('.soi-dd-btn'), list = $('.soi-dd-list'), opts = [].slice.call(list.children), hid = $('[name=subject]');
+  function open(o) { list.hidden = !o; btn.setAttribute('aria-expanded', o); if (o) (opts.filter(function (x) { return x.getAttribute('aria-selected') === 'true'; })[0] || opts[0]).focus(); }
+  function choose(li) { opts.forEach(function (x) { x.setAttribute('aria-selected', x === li); }); hid.value = li.dataset.v; btn.querySelector('span').textContent = li.dataset.v; btn.classList.add('is-set'); open(false); btn.focus(); }
+  btn.addEventListener('click', function () { open(list.hidden); });
+  list.addEventListener('click', function (e) { var li = e.target.closest('li'); if (li) choose(li); });
+  list.addEventListener('keydown', function (e) { var i = opts.indexOf(document.activeElement);
+    if (e.key === 'ArrowDown') { e.preventDefault(); opts[Math.min(i + 1, opts.length - 1)].focus(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); opts[Math.max(i - 1, 0)].focus(); }
+    else if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (i > -1) choose(opts[i]); }
+    else if (e.key === 'Escape' || e.key === 'Tab') { open(false); btn.focus(); } });
+  document.addEventListener('click', function (e) { if (!dd.contains(e.target)) open(false); });
+  var ta = $('textarea'), cnt = $('.soi-cf-count'); ta.addEventListener('input', function () { cnt.textContent = ta.value.length + ' / 3000'; });
+  function say(el, t, err) { el.className = 'soi-form-out' + (err ? ' is-err' : ' is-ok'); el.textContent = t; }
+  function post(step, out, b) {
+    f.querySelector('[name=step]').value = step; b.disabled = true; say(out, step === 'code' ? 'Sending the code…' : 'Sending your message…');
+    return fetch(f.action, { method: 'POST', body: new FormData(f) }).then(function (r) { return r.json(); })
+      .catch(function () { return { ok: false, error: 'No connection. Please try again.' }; })
+      .then(function (j) { b.disabled = false; if (window.turnstile) try { turnstile.reset(); } catch (x) {} return j; });
+  }
+  f.addEventListener('submit', function (e) {
+    e.preventDefault(); var out = s1.querySelector('.soi-form-out');
+    if (!$('[name=name]').value.trim() || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/.test($('[name=email]').value.trim())) return say(out, 'Please give your name and a valid email.', 1);
+    if (!hid.value) return say(out, 'Please choose what your message is about.', 1);
+    if (ta.value.trim().length < 10) return say(out, 'Please write a little more in your message.', 1);
+    post('code', out, s1.querySelector('[type=submit]')).then(function (j) {
+      if (!j.ok) return say(out, j.error || 'Please try again.', 1);
+      f.querySelector('[name=token]').value = j.token || ''; f.querySelector('.soi-cf-mail').textContent = $('[name=email]').value.trim();
+      s1.hidden = true; s2.hidden = false; say(out, ''); $('.soi-cf-code').focus();
+    });
+  });
+  s2.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-cf]'); if (!b) return; var out = s2.querySelector('.soi-form-out');
+    if (b.dataset.cf === 'back') { s2.hidden = true; s1.hidden = false; return; }
+    if (!/^\\d{6}$/.test($('.soi-cf-code').value.trim())) return say(out, 'Please type the 6-digit code from the email.', 1);
+    post('send', out, b).then(function (j) { if (!j.ok) return say(out, j.error || 'Please try again.', 1); s2.hidden = true; done.hidden = false; });
+  });
+})();
+</script>"""
 CONTACT_FORM = f"""
-<form class="soi-api-form soi-contact-form" action="/api/contact" method="post" data-ok="Thank you. Your message has been sent; we will reply by email.">
-  <div class="soi-form-row"><label>Your name<input name="name" required maxlength="120" autocomplete="name"></label>
-  <label>Your email<input name="email" type="email" required maxlength="200" autocomplete="email"></label></div>
-  <label>Subject<input name="subject" maxlength="160"></label>
-  <label>Message<textarea name="message" required minlength="10" maxlength="5000" rows="6"></textarea></label>
-  <label class="soi-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
-  <input type="hidden" name="t" value="0">
-  {TS_TAG}
-  <p class="soi-form-foot"><button class="soi-btn soi-btn-solid" type="submit">Send message</button><span class="soi-form-out" role="status"></span></p>
-  <p class="soi-form-note">Protected against spam. Your details are used only to reply to you.</p>
-</form>{FORM_JS}"""
+<form class="soi-contact-form" id="soi-contact" action="/api/contact" method="post" novalidate>
+  <div class="soi-cf-step1">
+    <div class="soi-form-row"><label>Your name<input name="name" required maxlength="120" autocomplete="name"></label>
+    <label>Your email<input name="email" type="email" required maxlength="200" autocomplete="email"></label></div>
+    <div class="soi-field"><span class="soi-field-l" id="soi-cf-subj-l">What is your message about?</span>
+      <div class="soi-dd"><button type="button" class="soi-dd-btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="soi-cf-subj-l"><span>Choose a topic</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+      <ul class="soi-dd-list" role="listbox" hidden><li role="option" tabindex="-1" data-v="A question about an article">A question about an article</li><li role="option" tabindex="-1" data-v="The magazine or a subscription">The magazine or a subscription</li><li role="option" tabindex="-1" data-v="Audio or the website">Audio or the website</li><li role="option" tabindex="-1" data-v="Children’s Corner">Children’s Corner</li><li role="option" tabindex="-1" data-v="Feedback or a suggestion">Feedback or a suggestion</li><li role="option" tabindex="-1" data-v="Something else">Something else</li></ul><input type="hidden" name="subject" value=""></div></div>
+    <label>Message<textarea name="message" required minlength="10" maxlength="3000" rows="6" placeholder="Write your question or message here (plain text)."></textarea><small class="soi-cf-count">0 / 3000</small></label>
+    <label class="soi-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+    <input type="hidden" name="t" value="0"><input type="hidden" name="step" value="code"><input type="hidden" name="token" value="">
+    {TS_TAG}
+    <p class="soi-form-foot"><button class="soi-btn soi-btn-solid" type="submit">Send me a code</button><span class="soi-form-out" role="status"></span></p>
+  </div>
+  <div class="soi-cf-step2" hidden>
+    <p class="soi-cf-sent">We have sent a 6-digit code to <b class="soi-cf-mail"></b>. Please check your inbox (and the spam folder) and type it here. The code works for 15 minutes.</p>
+    <label>Code from the email<input name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{{6}}" class="soi-cf-code"></label>
+    <p class="soi-form-foot"><button class="soi-btn soi-btn-solid" type="button" data-cf="send">Send my message</button><button class="soi-cf-link" type="button" data-cf="back">Edit the message</button><span class="soi-form-out" role="status"></span></p>
+  </div>
+  <div class="soi-cf-done" hidden><p><b>Thank you.</b> Your message has reached Spirit of Islam. We will reply to you by email, in sha Allah.</p></div>
+  <div class="soi-cf-notes">
+    <p><b>Why a code?</b> Many promotional and automated messages were sent through our old form. A short code sent to your email shows us that a real person wrote the message, and that the reply address is really yours.</p>
+    <ul>
+      <li>Your name and email are used only to reply to you. They are never shown publicly or shared.</li>
+      <li>Promotional messages (SEO, marketing, crypto and the like) are blocked automatically.</li>
+      <li>Messages with more than two links are not accepted.</li>
+      <li>Please write in plain text; up to 3,000 characters.</li>
+    </ul>
+  </div>
+</form>{CONTACT_JS}"""
 
 
 def _pdf_map():
