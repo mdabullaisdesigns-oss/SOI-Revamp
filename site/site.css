@@ -1193,3 +1193,10 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-icard-no { width: 24px; height: 32px; padding-top: 6px; right: 8px; top: -3px; font-size: 10px; font-weight: 800; }
 @media (max-width: 640px) { .soi-home .soi-covers-6 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 16px; } .soi-icard-mon { font-size: .95rem; } }
 .soi-arch[data-view="list"] .soi-icard-mon { min-height: 0; }
+/* 19 Nov: thin book drawn on the cover itself (the separate 3D spine face looked torn at this thickness) */
+.soi-book-spine, .soi-book-pages { display: none; }
+.soi-book-front, .soi-book-back { transform: none; outline: 1px solid transparent; box-shadow: 1px 0 0 #f7f4ea, 2px 1px 0 #ddd7c4, 3px 1px 0 #f7f4ea, 4px 2px 0 #cfc8b2, 10px 14px 24px -10px rgba(23, 58, 72, .45); }
+.soi-book-back { transform: rotateY(180deg); box-shadow: -1px 0 0 #f7f4ea, -2px 1px 0 #ddd7c4, -3px 1px 0 #f7f4ea, -4px 2px 0 #cfc8b2; }
+.soi-book-front::before { left: 0; width: 7px; background: linear-gradient(90deg, rgba(0, 0, 0, .28), rgba(255, 255, 255, .18) 55%, rgba(0, 0, 0, .12)); }
+.soi-book-back::after { content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 7px; background: linear-gradient(270deg, rgba(0, 0, 0, .28), rgba(255, 255, 255, .18) 55%, rgba(0, 0, 0, .12)); }
+.soi-book-front::before { width: 6px; background: linear-gradient(90deg, rgba(0, 0, 0, .25), rgba(255, 255, 255, .15) 60%, rgba(0, 0, 0, .2)), var(--spine, #173A48); }
