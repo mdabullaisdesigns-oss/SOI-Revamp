@@ -1,0 +1,31 @@
+name: Narrate quotes without a recording
+on: workflow_dispatch
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  quotes:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
+        id: gauth
+        with:
+          workload_identity_provider: projects/986354430610/locations/global/workloadIdentityPools/github/providers/soi-repo
+          service_account: soi-tts@project-2c2c83fa-e3a5-4e94-895.iam.gserviceaccount.com
+          token_format: access_token
+      - run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - env:
+          GCP_ACCESS_TOKEN: ${{ steps.gauth.outputs.access_token }}
+        run: python3 pipeline/narrate_quotes.py
+      - run: aws s3 cp out/quotes/ "s3://$R2_BUCKET/audio/quotes/" --recursive --content-type audio/mpeg --cache-control "public, max-age=31536000" --endpoint-url "$R2_ENDPOINT" --only-show-errors
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/quote-audio/done.json && git commit -qm "Quotes narrated (Charon)" && for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done
