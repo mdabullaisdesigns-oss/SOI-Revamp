@@ -112,14 +112,14 @@ PAGE = r"""
   function say(t){toast.textContent=t;toast.classList.add('is-on');clearTimeout(say.t);say.t=setTimeout(function(){toast.classList.remove('is-on')},2200)}
   function photo(q){return PH.length?PH[(cur.indexOf(q)+PH.length)%PH.length]:''}
   function saved(q){return !!(window.soi&&soi.store.hasQuote(q))}
-  var canSpeak='speechSynthesis' in window,SITE='spiritofislam.co.in';
+  var canSpeak=true,SITE='spiritofislam.co.in',AU=new Audio(),auStop=0;AU.preload='none';AU.addEventListener('timeupdate',function(){if(auStop&&AU.currentTime>=auStop){AU.pause();stopSpeak()}});AU.addEventListener('ended',function(){stopSpeak()});
   function text(q){return '“'+q.t+'”\n— '+(q.hd==='saying'?'Prophet Muhammad ﷺ'+(q.ref?' ('+q.ref+')':'')+'\nShared from Spirit of Islam · ':'Spirit of Islam Magazine · ')+SITE}
   function src(q){
     if(q.hd==='saying')return '<span class="soi-q-hadith">Saying of the Prophet ﷺ</span><b class="soi-q-by">— Prophet Muhammad ﷺ'+(q.ref?' <small>('+esc(q.ref)+')</small>':'')+'</b>Quoted in <a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p);
     return (q.hd==='has'?'<span class="soi-q-hadith">Includes a saying of the Prophet ﷺ</span>':'')+(q.by?esc(q.by)+' · ':'')+'<a href="/issues/'+q.s+'/#soi-'+q.a+'">'+esc(q.at)+'</a> · Issue '+q.n+', '+esc(q.p)}
   function acts(q){
     return '<p class="soi-q2-act">'+
-      (canSpeak?'<button type="button" data-act="listen" aria-label="Listen to this quote">'+I.listen+'<span>Listen</span></button>':'')+
+      (q.au?'<button type="button" data-act="listen" aria-label="Listen to this quote">'+I.listen+'<span>Listen</span></button>':'')+
       '<button type="button" data-act="img" aria-label="Share as a picture">'+I.img+'<span>Picture</span></button>'+
       '<button type="button" data-act="wa" aria-label="Share on WhatsApp">'+I.wa+'<span>WhatsApp</span></button>'+
       '<button type="button" data-act="copy" aria-label="Copy">'+I.copy+'<span>Copy</span></button>'+
@@ -145,13 +145,14 @@ PAGE = r"""
       '<div class="soi-q2-nav"><button type="button" data-nav="-1" aria-label="Previous quote">'+I.prev+'</button><button type="button" data-nav="1" aria-label="Next quote">'+I.next+'</button></div>';
     sp.onclick=function(e){var n=e.target.closest('[data-nav]');if(n){spot=(spot+cur.length+(+n.dataset.nav))%cur.length;showSpot();return}var b=e.target.closest('button[data-act]');if(b)act(b,q,ph)};
   }
-  function stopSpeak(){if(canSpeak&&speaking){speechSynthesis.cancel();setBtn(speaking,false);speaking=null}}
+  function stopSpeak(){AU.pause();auStop=0;if(speaking){setBtn(speaking,false);speaking=null}}
   function setBtn(b,on){if(!b||!b.isConnected)return;b.innerHTML=(on?I.stop:I.listen)+'<span>'+(on?'Stop':'Listen')+'</span>';b.classList.toggle('is-on',on)}
   function act(b,q,ph){
     var a=b.getAttribute('data-act');
-    if(a==='listen'){if(speaking===b){stopSpeak();return}stopSpeak();var u=new SpeechSynthesisUtterance(q.t);u.lang='en';u.rate=.95;
-      var v=speechSynthesis.getVoices().filter(function(x){return /^en/i.test(x.lang)});var pick=v.filter(function(x){return /male|daniel|alex|google uk english male/i.test(x.name)})[0]||v[0];if(pick)u.voice=pick;
-      u.onend=u.onerror=function(){if(speaking===b){setBtn(b,false);speaking=null}};speaking=b;setBtn(b,true);speechSynthesis.speak(u);return}
+    if(a==='listen'){if(speaking===b){stopSpeak();return}stopSpeak();if(!q.au)return;
+      var go=function(){AU.currentTime=q.a0;auStop=q.a1;AU.play().catch(function(){stopSpeak();say('Could not play the recording')})};
+      if(AU.getAttribute('src')!==q.au){AU.src=q.au;AU.addEventListener('loadedmetadata',go,{once:true});AU.load()}else go();
+      speaking=b;setBtn(b,true);return}
     if(a==='save'){var on=soi.store.toggleQuote(q);b.setAttribute('aria-pressed',on);b.querySelector('span').textContent=on?'Saved':'Save';say(on?'Saved to this device':'Removed from Saved');return}
     if(a==='copy'){(navigator.clipboard?navigator.clipboard.writeText(text(q)):Promise.reject()).then(function(){say('Copied')},function(){say('Could not copy')});return}
     image(q,a==='wa'?'wa':'',ph);
@@ -218,8 +219,46 @@ def MENU_PHOTOS(root):
     return [f for f in m.get("quote_photos", []) if os.path.exists(os.path.join(root, "site", "photos", f))]
 
 
+def add_audio(root, quotes):
+    """Point each quote at the stretch of the narrated article where it is read
+    (the closing reflection is narrated at the end of the article): au = MP3, a0/a1 = seconds."""
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    cache, found = {}, 0
+    for q in quotes:
+        if q["s"] not in cache:
+            base = os.path.join(root, "issues", q["s"])
+            try:
+                cache[q["s"]] = (json.load(open(os.path.join(base, "audio.json"), encoding="utf-8")),
+                                 json.load(open(os.path.join(base, "narration.json"), encoding="utf-8"))["articles"])
+            except Exception:
+                cache[q["s"]] = ({}, {})
+        au, nar = cache[q["s"]]
+        a, n = au.get(q["a"]), nar.get(q["a"])
+        if not a or not n or a.get("flag") or not a.get("times") or "Charon" not in a.get("voice", ""):
+            continue
+        sents, qt = [norm(x) for x in n.get("sentences", [])], norm(q["t"])
+        hit = [k for k, x in enumerate(sents) if x and len(x) > 12 and x in qt]
+        if not hit:
+            continue
+        i1 = i0 = hit[-1]
+        while i0 > 0 and sents[i0 - 1] and sents[i0 - 1] in qt:
+            i0 -= 1
+        t = a["times"]
+        if i0 >= len(t):
+            continue
+        q["au"], q["a0"] = a["url"], round(max(0, t[i0] - .15), 2)
+        q["a1"] = round(t[i1 + 1] - .1, 2) if i1 + 1 < len(t) else round(a.get("duration", t[i1] + 30), 2)
+        if not len(q["t"]) / 25 <= q["a1"] - q["a0"] <= len(q["t"]) / 8 + 6:   # far shorter/longer than the words need: not a safe match
+            for k in ("au", "a0", "a1"):
+                q.pop(k, None)
+            continue
+        found += 1
+    print(f"quotes: {found} of {len(quotes)} play the narrated recording")
+
+
 def build(root, out_dir, issues, page, write):
     quotes, dropped = collect(root, issues)
+    add_audio(root, quotes)
     quotes.sort(key=lambda q: (q["s"], q["a"]), reverse=True)
     os.makedirs(os.path.join(out_dir, "assets"), exist_ok=True)
     photos = ["/assets/photos/" + f for f in sorted(os.listdir(os.path.join(root, "site", "photos"))) if f.endswith(".webp")]

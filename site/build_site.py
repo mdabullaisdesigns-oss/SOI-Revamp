@@ -515,7 +515,7 @@ def build():
         <label class="sr-only" for="soi-news-e">Your email address</label><input id="soi-news-e" name="email" type="email" required placeholder="Your email address" maxlength="200" autocomplete="email">
         <label class="soi-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
         {TS_TAG.replace('data-theme="light"', 'data-theme="dark"')}
-        <button class="soi-pillbtn soi-pillbtn-gold" type="submit">Subscribe free</button>
+        <button class="soi-pillbtn soi-pillbtn-gold" type="submit">Subscribe for free</button>
         <span class="soi-form-out" role="status"></span>
       </form>
     </div>

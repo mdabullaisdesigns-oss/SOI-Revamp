@@ -252,7 +252,7 @@
     var box = $('#soi-qotd-home'); if (!box) return;
     quoteOfDay().then(function (q) {
       var hh = 0, ht = q.s + q.a + q.t.length; for (var hi = 0; hi < ht.length; hi++) hh = (hh * 31 + ht.charCodeAt(hi)) | 0;
-      var ph = QPH.length ? QPH[Math.abs(hh) % QPH.length] : '', speak = 'speechSynthesis' in window, on = store.hasQuote(q);
+      var ph = QPH.length ? QPH[Math.abs(hh) % QPH.length] : '', speak = !!q.au, on = store.hasQuote(q), au = null;
       var I = {
         listen: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4M14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6"/></svg>',
         stop: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>',
@@ -270,10 +270,12 @@
       box.onclick = function (e) {
         var b = e.target.closest('button[data-act]'); if (!b) return; var a = b.dataset.act;
         if (a === 'listen') {
-          if (b.classList.contains('is-on')) { speechSynthesis.cancel(); return; }
-          speechSynthesis.cancel(); var u = new SpeechSynthesisUtterance(q.t); u.lang = 'en'; u.rate = .95;
           var set = function (o) { b.classList.toggle('is-on', o); b.innerHTML = (o ? I.stop : I.listen) + '<span>' + (o ? 'Stop' : 'Listen') + '</span>'; };
-          u.onend = u.onerror = function () { set(false); }; set(true); speechSynthesis.speak(u); return;
+          if (b.classList.contains('is-on')) { if (au) au.pause(); set(false); return; }
+          if (!au) { au = new Audio(q.au); au.addEventListener('timeupdate', function () { if (au.currentTime >= q.a1) { au.pause(); set(false); } }); au.addEventListener('ended', function () { set(false); }); }
+          var go = function () { au.currentTime = q.a0; au.play().catch(function () { set(false); }); };
+          if (au.readyState >= 1) go(); else au.addEventListener('loadedmetadata', go, { once: true });
+          set(true); return;
         }
         if (a === 'save') { var s = store.toggleQuote(q); b.setAttribute('aria-pressed', s); b.querySelector('span').textContent = s ? 'Saved' : 'Save'; toast(s ? 'Saved to this device' : 'Removed from Saved'); return; }
         if (a === 'copy') { (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { toast('Copied'); }, function () { toast('Could not copy'); }); return; }
