@@ -15,6 +15,7 @@ export async function onRequest({ params, request, env }) {
   h.set('accept-ranges', 'bytes');
   h.set('cache-control', 'public, max-age=31536000, immutable');
   h.set('access-control-allow-origin', '*');
+  if (key.endsWith('.pdf')) h.set('content-disposition', 'inline; filename="' + key.split('/').pop() + '"');   // read in the browser, not downloaded
   if (!h.get('content-type')) h.set('content-type', key.endsWith('.mp3') ? 'audio/mpeg' : key.endsWith('.webp') ? 'image/webp' : 'application/pdf');
   if (request.method === 'HEAD') { h.set('content-length', String(obj.size)); return new Response(null, { headers: h }); }
   if (range && obj.range) {

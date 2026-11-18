@@ -1084,3 +1084,12 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-pv-zoom button { position: fixed; top: 14px; right: 14px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #fff; font-size: 26px; cursor: pointer; }
 @media (max-width: 1000px) { .soi-pv-rail { display: none; } }
 @media (max-width: 600px) { .soi-pv-bar { top: 58px; } .soi-pv-btn:not(.is-line) { display: none; } .soi-sheet { top: 128px; margin-bottom: 18vh; } }
+
+/* 18 Nov: thin magazine with a soft cover; the spine is just a colour strip */
+.soi-book { --t: 7px; transform: rotateY(-24deg) rotateX(3deg); }
+.soi-book-front, .soi-book-back { border-radius: 1px 5px 5px 1px; }
+.soi-book-front { box-shadow: inset 2px 0 3px rgba(0, 0, 0, .22), inset -1px 0 0 rgba(255, 255, 255, .25); }
+.soi-book-front::before { content: ""; position: absolute; top: 0; bottom: 0; left: 9px; width: 2px; z-index: 1; background: linear-gradient(90deg, rgba(0, 0, 0, .18), rgba(255, 255, 255, .25)); pointer-events: none; }
+.soi-book-spine { background: var(--spine, #173A48); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .12); }
+.soi-book-pages { top: 2px; bottom: 2px; right: 1px; background: repeating-linear-gradient(90deg, #fbfaf4 0 1px, #e3dece 1px 2px); }
+.soi-book-shadow { height: 18px; }

@@ -287,17 +287,18 @@ def pdf_href(i):
     return PDFS.get(i.get("pdf") or "", "")
 
 
-I_PDF = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>'
+I_PDF = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3.5H6.5A1.5 1.5 0 0 0 5 5v14a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19V8.5z"/><path d="M14 3.5v5h5"/></svg>'
 
 
 I_LISTEN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 9.5v5h3.5l4.5 4v-13l-4.5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>'
+I_READ_PDF = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3.5H6.5A1.5 1.5 0 0 0 5 5v14a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19V8.5z"/><path d="M14 3.5v5h5M8.5 13h7M8.5 16.5h5"/></svg>'
 I_FLIP = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13"/></svg>'
 STAR = '<svg class="soi-act-star" viewBox="0 0 44 44" aria-hidden="true"><path d="M22 1l6 7 9-1-1 9 7 6-7 6 1 9-9-1-6 7-6-7-9 1 1-9-7-6 7-6-1-9 9 1z"/></svg>'
 ARROW_GO = '<span class="soi-act-go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>'
 
 
-def act_card(href, icon, title, sub, dl=False):
-    return (f'<a class="soi-act" href="{esc(href)}"{" download" if dl else ""}><span class="soi-act-badge">{STAR}{icon}</span>'
+def act_card(href, icon, title, sub, tab=False):
+    return (f'<a class="soi-act" href="{esc(href)}"{' target="_blank" rel="noopener"' if tab else ""}><span class="soi-act-badge">{STAR}{icon}</span>'
             f'<span class="soi-act-txt"><b>{title}</b><small>{sub}</small></span>{ARROW_GO}</a>')
 
 
@@ -326,7 +327,7 @@ def back_cover(i):
 def card_actions(i):
     pdf = pdf_href(i)
     return (f'<p class="soi-icard-act"><a class="soi-ib soi-ib-main" href="/issues/{i["slug"]}/">Read &amp; Listen</a>'
-            + (f'<a class="soi-ib" href="{esc(pdf)}" download aria-label="Download the PDF of {esc(i["period"])}">{I_PDF}PDF</a>' if pdf else "")
+            + (f'<a class="soi-ib" href="{esc(pdf)}" target="_blank" rel="noopener" aria-label="Read the PDF of {esc(i["period"])} (opens in a new tab)">{I_PDF}PDF</a>' if pdf else "")
             + "</p>")
 
 
@@ -446,7 +447,7 @@ def build():
       <button type="button" class="soi-book-scene" aria-label="Turn the magazine over to see the back cover" style="--spine:{spine_color(latest['slug'])}">
         <span class="soi-book">
           <span class="soi-book-back">{back_cover(latest)}</span>
-          <span class="soi-book-spine"><i>Spirit of Islam · {esc(lab)}</i></span>
+          <span class="soi-book-spine"></span>
           <span class="soi-book-pages"></span>
           <span class="soi-book-front">{cover(latest)}</span>
         </span>
@@ -459,8 +460,7 @@ def build():
       <p class="soi-latest-line">{esc(line)}</p>
       <div class="soi-acts">
         {act_card(f"/issues/{latest['slug']}/", I_LISTEN, "Read &amp; Listen", f"{len(latest['articles'])} articles · audio for every article")}
-        {act_card(f"/issues/{latest['slug']}/pages/", I_FLIP, "Flip through the magazine", "Turn the real pages, like a printed copy") if os.path.exists(os.path.join(ROOT, "issues", latest["slug"], "pages.json")) else ""}
-        {act_card(pdf_href(latest), I_PDF, "Download PDF", "The printed magazine, ready to save", dl=True) if pdf_href(latest) else ""}
+        {act_card(pdf_href(latest), I_READ_PDF, "Read the PDF", "The printed magazine, opens in a new tab", tab=True) if pdf_href(latest) else ""}
       </div>
       <div class="soi-cont soi-cont-mini" id="soi-continue">
         <p class="soi-kick soi-cont-kicker">Start reading</p>
@@ -738,42 +738,6 @@ def build():
 }})();
 </script>
 """
-    # the real magazine pages, stacked like sheets (only for issues whose pages have been made: issues/<slug>/pages.json)
-    for i in issues:
-        pj = os.path.join(ROOT, "issues", i["slug"], "pages.json")
-        if not os.path.exists(pj):
-            continue
-        pg = json.load(open(pj, encoding="utf-8"))
-        lab_i = (f"Issue {i['number']} · " if i["number"] else "") + i["period"]
-        sheets = "".join(
-            f'<section class="soi-sheet" id="p{k}" style="--k:{k}"><span class="soi-sheet-no">{k}</span>'
-            f'<img src="{pg["base"]}p{k:03d}.webp" alt="Page {k} of {esc(lab_i)}" width="{pg["w"]}" height="{pg["h"]}" loading="{"eager" if k < 3 else "lazy"}" decoding="async"></section>'
-            for k in range(1, pg["count"] + 1))
-        pdf = pdf_href(i)
-        viewer = f"""
-<div class="soi-pv">
-  <header class="soi-pv-bar">
-    <a class="soi-pv-back" href="/issues/{i['slug']}/" aria-label="Back to the issue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a>
-    <div class="soi-pv-title"><b>{esc(lab_i)}</b><small><span class="soi-pv-now">1</span> / {pg['count']} pages</small></div>
-    <a class="soi-pv-btn" href="/issues/{i['slug']}/">Read &amp; Listen</a>
-    {f'<a class="soi-pv-btn is-line" href="{esc(pdf)}" download>{I_PDF}<span>PDF</span></a>' if pdf else ''}
-  </header>
-  <nav class="soi-pv-rail" aria-label="Pages">{"".join(f'<a href="#p{k}">{k}</a>' for k in range(1, pg["count"] + 1))}</nav>
-  <main class="soi-pv-stack">{sheets}</main>
-  <div class="soi-pv-zoom" hidden><img alt=""><button type="button" aria-label="Close">×</button></div>
-</div>
-<script>
-(function () {{
-  var now = document.querySelector('.soi-pv-now'), rail = document.querySelectorAll('.soi-pv-rail a'), z = document.querySelector('.soi-pv-zoom');
-  var io = new IntersectionObserver(function (es) {{ es.forEach(function (e) {{ if (e.isIntersecting) {{ var k = +e.target.id.slice(1); now.textContent = k;
-    rail.forEach(function (a, j) {{ a.classList.toggle('is-on', j === k - 1); }}); var a = rail[k - 1]; if (a && a.scrollIntoView) a.scrollIntoView({{ block: 'nearest', inline: 'nearest' }}); }} }}); }}, {{ rootMargin: '-45% 0px -45% 0px' }});
-  document.querySelectorAll('.soi-sheet').forEach(function (s) {{ io.observe(s); s.addEventListener('click', function () {{ z.querySelector('img').src = s.querySelector('img').src; z.hidden = false; document.body.style.overflow = 'hidden'; }}); }});
-  z.addEventListener('click', function () {{ z.hidden = true; document.body.style.overflow = ''; }});
-  document.addEventListener('keydown', function (e) {{ if (e.key === 'Escape') {{ z.hidden = true; document.body.style.overflow = ''; }} }});
-}})();
-</script>"""
-        write(f"issues/{i['slug']}/pages/index.html", page(f"{lab_i} – the magazine pages – Spirit of Islam", viewer,
-                                                          f"Turn the pages of Spirit of Islam, {lab_i}, as printed.", cls="soi-pv-page"))
     write("search/index.html", page("Search – Spirit of Islam", search, "Search every article of Spirit of Islam since 2013.", current="search"))
     write("404.html", page("Page not found – Spirit of Islam",
                            '<section class="soi-wrap soi-block soi-page-head"><h1>Page not found</h1><p>Try the <a href="/archive/">archive</a> or the <a href="/search/">search</a>.</p></section>'))
