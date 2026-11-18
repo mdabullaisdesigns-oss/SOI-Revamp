@@ -7,3 +7,4 @@ soi-archive/
 issues/*/preview.html
 __pycache__/
 dist/
+google-services.json

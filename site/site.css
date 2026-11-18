@@ -1188,3 +1188,8 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-contact-form .soi-dd-btn { border-radius: 12px; font-weight: 400; }
 .soi-contact-form .soi-dd-btn span { flex: 1; }
 .soi-contact-form .soi-dd-list li { white-space: normal; }
+/* 18 Nov evening: covers line up (month names take two lines everywhere), smaller ribbon, two per row on phones */
+.soi-icard-mon { min-height: 2.5em; display: flex; align-items: flex-end; }
+.soi-icard-no { width: 24px; height: 32px; padding-top: 6px; right: 8px; top: -3px; font-size: 10px; font-weight: 800; }
+@media (max-width: 640px) { .soi-home .soi-covers-6 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 16px; } .soi-icard-mon { font-size: .95rem; } }
+.soi-arch[data-view="list"] .soi-icard-mon { min-height: 0; }

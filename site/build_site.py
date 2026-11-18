@@ -842,7 +842,7 @@ def build():
                          "quiz": bool(i["quiz"]), "titles": [a["title"] for a in i["articles"][:5]],
                          "arts": [[a["id"], a["title"], a["kicker"], minutes(a["words"]), int(bool(a["audio"]))] for a in i["articles"]],
                          "line": MENU.get("hero_line", {}).get(i["slug"], ""),
-                         "bytes": len(b), "v": hashlib.sha1(b).hexdigest()[:10]})
+                         "pdf": pdf_href(i), "bytes": len(b), "v": hashlib.sha1(b).hexdigest()[:10]})
     write("issues.json", json.dumps({"issues": manifest}, ensure_ascii=False, separators=(",", ":")))
     write("_headers", "/issues/*\n  Access-Control-Allow-Origin: *\n/issues.json\n  Access-Control-Allow-Origin: *\n"
                       "/assets/*\n  Access-Control-Allow-Origin: *\n")

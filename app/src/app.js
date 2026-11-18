@@ -1,7 +1,7 @@
 /* Spirit of Islam app – the layer that turns the website pages into a phone app.
    - keeps links inside the app (an issue opens from the app, from a saved copy, or is fetched once)
    - saves issues on the phone for offline reading
-   - app bar and bottom tabs (Home · Search · Saved · Profile) around every page
+   - home top bar (menu, logo, gems, sign in), bottom tabs (Home · Archive · Saved · Profile), menu drawer, launch logo
    - sharing, links that open the app, lock-screen / notification audio controls
    Reading memory (Continue where you left, saved articles and quotes) lives in site.js, shared with the website.
    Everything is prefixed soi. No accounts yet, no tracking. */
@@ -30,12 +30,18 @@
     if (/\/$/.test(u.pathname)) return u.pathname + 'index.html' + u.search + u.hash;
     return null;
   }
+  function openExternal(url) {                         /* the PDF opens in the phone's own viewer/browser */
+    var B = plugin('Browser'); if (B && B.open) { B.open({ url: url }).catch(function () { window.open(url, '_system'); }); return; }
+    window.open(url, '_system');
+  }
   function go(href) { location.href = route(href) || href; }
   function onClick(e) {
     if (e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey) return;
     var a = e.target.closest && e.target.closest('a[href]');
-    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    if (!a || a.hasAttribute('download')) return;
     var raw = a.getAttribute('href');
+    if (/\.pdf(\?|#|$)/i.test(raw)) { e.preventDefault(); openExternal(a.href.indexOf('/media/') > -1 && a.href.indexOf(CFG.remote) !== 0 ? CFG.remote + raw.slice(raw.indexOf('/media/')) : a.href); return; }
+    if (a.target === '_blank') return;
     if (!raw || raw.charAt(0) === '#') return;
     var to = route(a.href);
     if (!to) return;
@@ -75,6 +81,7 @@
   function download(slug, v) {
     return timed(CFG.remote + '/issues/' + slug + '/').then(function (r) { return r.text(); }).then(function (html) {
       if (html.indexOf('soi-ev') < 0) throw new Error('not an issue page');
+      html = html.replace(/(["'(=])\/media\//g, '$1' + CFG.remote + '/media/');      /* audio and PDFs stream from the website */
       var rec = { slug: slug, html: html, v: v || '', bytes: html.length, at: Date.now() };
       return store.put(rec).then(function () { return rec; });
     });
@@ -135,11 +142,41 @@
     back: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5M11 6l-6 6 6 6"/></svg>',
     share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v13M7 8l5-5 5 5M5 14v6h14v-6"/></svg>'
   };
+  var LOGO = '<img src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453"><span class="soi-app-logo-rule"></span><img src="/assets/brand/soi-mark-white.svg" alt="Spirit of Islam" width="790" height="511">';
+  IC.menu = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>';
+  IC.archive = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h3.2v16H4zM9.4 4h3.2v16H9.4zM14.6 5.1l3.1-.8 3.8 15-3.1.8z"/></svg>';
+  IC.gem = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11l4 5.5L12 20.5 2.5 9z"/><path d="M2.5 9h19M9 3.5 7.5 9 12 20.5 16.5 9 15 3.5"/></svg>';
+  IC.close = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>';
+  function splash() {                                   /* the SOI logo for a moment when the app opens */
+    if (!/\/(index\.html)?$/.test(location.pathname) || sessionStorage.getItem('soiSplash')) return;
+    sessionStorage.setItem('soiSplash', '1');
+    var s = document.createElement('div'); s.id = 'soi-app-splash'; s.innerHTML = '<div class="soi-app-splash-logo">' + LOGO + '</div><p>Towards Global Peace &amp; Spiritual Living</p>';
+    document.body.appendChild(s);
+    setTimeout(function () { s.classList.add('is-out'); setTimeout(function () { s.remove(); }, 600); }, 1300);
+  }
+  function drawer() {                                   /* the menu: everything from the website footer */
+    var d = document.createElement('div'); d.id = 'soi-app-drawer'; d.hidden = true;
+    d.innerHTML = '<div class="soi-app-drawer-in" role="dialog" aria-label="Menu"><div class="soi-app-drawer-top"><span class="soi-app-logo">' + LOGO + '</span><button type="button" aria-label="Close menu">' + IC.close + '</button></div>' +
+      '<nav class="soi-app-drawer-main">' + [['Home', '/index.html'], ['Latest issue', '/archive/', 'soi-app-dl'], ['Archive', '/archive/'], ['Quotes', '/quotes/'], ['Saved', '/saved.html'], ['Gems', '/gems.html'], ['Search', '/search.html?focus=1'], ['About Us', '/about/'], ['Contact Us', '/contact/']].map(function (l) { return '<a href="' + l[1] + '"' + (l[2] ? ' id="' + l[2] + '"' : '') + '>' + l[0] + '</a>'; }).join('') + '</nav>' +
+      '<div class="soi-app-drawer-more"></div></div>';
+    document.body.appendChild(d);
+    fetch('/assets/app-menu.html').then(function (r) { return r.ok ? r.text() : ''; }).then(function (h) { $('.soi-app-drawer-more', d).innerHTML = h; var f = $('.soi-app-drawer-more a[href^="/issues/"]', d); if (f) $('#soi-app-dl', d).setAttribute('href', f.getAttribute('href')); }).catch(function () {});
+    function close() { d.classList.remove('is-open'); setTimeout(function () { d.hidden = true; }, 300); document.documentElement.style.overflow = ''; }
+    d.addEventListener('click', function (e) { if (e.target === d || e.target.closest('.soi-app-drawer-top button') || e.target.closest('a')) close(); });
+    return function () { d.hidden = false; requestAnimationFrame(function () { d.classList.add('is-open'); }); document.documentElement.style.overflow = 'hidden'; };
+  }
   function chrome() {
-    var b = document.body; if (!b || $('#soi-app-tabs') || $('#soi-app-bar')) return;
+    var b = document.body; if (!b || $('#soi-app-tabs') || $('#soi-app-bar') || $('#soi-app-top')) return;
     var issue = $('meta[name="soi-issue"]'), screen = b.getAttribute('data-screen') || '';
     if (/\/reader\.html$/.test(location.pathname) && !issue) screen = 'loading';
-    if (!screen) {                                       /* a website page shown inside the app: slim bar on top */
+    splash();
+    if (screen === 'home') {                             /* home: menu, logo, gems, sign in */
+      var open = drawer(), top = document.createElement('header'); top.id = 'soi-app-top';
+      top.innerHTML = '<button type="button" class="soi-app-ibtn" aria-label="Menu">' + IC.menu + '</button><span class="soi-app-logo">' + LOGO + '</span>' +
+        '<a class="soi-app-ibtn soi-app-gemb" href="/gems.html" aria-label="Gems">' + IC.gem + '</a><a class="soi-app-signin" href="/profile.html">Sign in</a>';
+      b.insertBefore(top, b.firstChild);
+      $('button', top).addEventListener('click', open);
+    } else if (!screen) {                                /* a website page shown inside the app: slim bar on top */
       var bar = document.createElement('div'); bar.id = 'soi-app-bar';
       var title = issue ? issue.getAttribute('data-label') : (($('main h1') || {}).textContent || 'Spirit of Islam');
       bar.innerHTML = '<button type="button" class="soi-app-back" aria-label="Back">' + IC.back + '</button><b>' + esc(title) + '</b>' +
@@ -148,11 +185,18 @@
       $('.soi-app-back', bar).addEventListener('click', function () { if (history.length > 1) history.back(); else location.href = '/index.html'; });
       var sh = $('.soi-app-share', bar);
       if (sh) sh.addEventListener('click', function () { window.soi && window.soi.share($('meta[name="soi-issue"]').getAttribute('data-label'), '/issues/' + issue.content + '/'); });
+      if (issue) {                                       /* no magazine introduction on every issue: small logo + two buttons */
+        var y = (issue.getAttribute('data-label') || '').match(/(19|20)\d\d/), ban = $('.soi-auto-banner');
+        var h = document.createElement('div'); h.className = 'soi-app-ihead';
+        h.innerHTML = '<span class="soi-app-ihead-logo"><img src="/assets/brand/Peogen-logo.png" alt=""></span>' + (y ? '<a href="/archive/#y' + y[0] + '">' + y[0] + ' issues</a>' : '') + '<a href="/archive/">All issues</a>';
+        if (ban) ban.parentNode.replaceChild(h, ban); else { var m = $('main') || b; m.insertBefore(h, m.firstChild); }
+      }
     }
     if (issue || screen === 'gems' || screen === 'loading') return;      /* reading and the gems page are full screen */
+    var cur = screen || (/\/archive\//.test(location.pathname) ? 'archive' : '');
     var nav = document.createElement('nav'); nav.id = 'soi-app-tabs'; nav.setAttribute('aria-label', 'Tabs');
-    nav.innerHTML = [['home', '/index.html', 'Home'], ['search', '/search.html', 'Search'], ['saved', '/saved.html', 'Saved'], ['profile', '/profile.html', 'Profile']].map(function (t) {
-      return '<a href="' + t[1] + '"' + (t[0] === screen ? ' aria-current="page"' : '') + '>' + IC[t[0]] + t[2] + '</a>';
+    nav.innerHTML = [['home', '/index.html', 'Home'], ['archive', '/archive/', 'Archive'], ['saved', '/saved.html', 'Saved'], ['profile', '/profile.html', 'Profile']].map(function (t) {
+      return '<a href="' + t[1] + '"' + (t[0] === cur ? ' aria-current="page"' : '') + '>' + IC[t[0]] + t[2] + '</a>';
     }).join('');
     b.appendChild(nav); b.classList.add('soi-app-has-tabs');
   }

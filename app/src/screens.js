@@ -23,7 +23,7 @@ window.soiScreens = function () {
   function lab(i) { return (i.number ? 'Issue ' + i.number + ' · ' : '') + short(i.period); }
   function cover(i, big) {
     return '<span class="soi-cover"><span class="soi-cover-fb" aria-hidden="true"><b>Spirit of Islam</b><i>' + esc(i.period) + '</i></span>' +
-      '<img alt="" loading="lazy" src="/assets/covers/' + i.slug + (big ? '@2x' : '') + '.webp" onerror="if(this.dataset.f){this.remove()}else{this.dataset.f=1;this.src=\'/assets/covers/' + i.slug + '.webp\'}"></span>';
+      '<img class="is-in" alt="" loading="lazy" src="/assets/covers/' + i.slug + (big ? '@2x' : '') + '.webp" onerror="if(this.dataset.f){this.remove()}else{this.dataset.f=1;this.src=\'/assets/covers/' + i.slug + '.webp\'}"></span>';
   }
   function sample(t) { return '<span class="soi-app-sample">' + (t || 'Sample') + '</span>'; }
   function soon(e) { if (e) e.preventDefault(); S.toast('Coming with sign-in'); }
@@ -32,35 +32,60 @@ window.soiScreens = function () {
   function readCount(i) { var r = S.store.read()[i.slug] || {}; return Object.keys(r).length; }
 
   /* ================= Home ================= */
+  var GREET = {
+    dawn: ['Assalamu alaikum. A peaceful morning to you', 'Good morning. Start the day with a reflection', 'A new morning, a new chance to grow'],
+    day: ['Assalamu alaikum. Welcome back', 'Good to see you again', 'Take a quiet moment with us today'],
+    eve: ['Good evening. Time to slow down and reflect', 'Assalamu alaikum. Unwind with a good read', 'An evening thought is waiting for you'],
+    night: ['Assalamu alaikum. A calm read before rest', 'Still awake? Here is something to reflect on', 'End the day with a peaceful thought']
+  };
+  function greeting() {
+    var h = new Date().getHours(), set = h < 5 ? GREET.night : h < 12 ? GREET.dawn : h < 17 ? GREET.day : h < 21 ? GREET.eve : GREET.night;
+    var k = Number(S.LS.get('soiGreetN', 0)) || 0; S.LS.set('soiGreetN', k + 1);
+    return set[k % set.length];
+  }
+  var QUICK = [
+    ['Archive', '/archive/', '<path d="M4 4h3.2v16H4zM9.4 4h3.2v16H9.4zM14.6 5.1l3.1-.8 3.8 15-3.1.8z"/>'],
+    ['Quotes', '/quotes/', '<path d="M4.5 4.5h15a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H11l-4.5 3.5v-3.5h-2A1.5 1.5 0 0 1 3 16V6a1.5 1.5 0 0 1 1.5-1.5z"/><path d="M8.5 9h2.2v2c0 1.3-.7 2.1-2 2.5M13.3 9h2.2v2c0 1.3-.7 2.1-2 2.5"/>'],
+    ['Saved', '/saved.html', '<path d="M6 3.5h12a1 1 0 0 1 1 1v16l-7-4.5-7 4.5v-16a1 1 0 0 1 1-1z"/>'],
+    ['Gems', '/gems.html', '<path d="M6.5 3.5h11l4 5.5L12 20.5 2.5 9z"/><path d="M2.5 9h19M9 3.5 7.5 9 12 20.5 16.5 9 15 3.5"/>'],
+    ['Topics', '/#topics', '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v8.5l6 6"/>'],
+    ['Search', '/search.html?focus=1', '<circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/>'],
+    ['About', '/about/', '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20.5v-1A4.5 4.5 0 0 1 7 15h4a4.5 4.5 0 0 1 4.5 4.5v1M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 15.2a4.5 4.5 0 0 1 3 4.3v1"/>'],
+    ['Contact', '/contact/', '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/>']
+  ];
   function home() {
     root.innerHTML =
-      '<div class="soi-app-top"><a class="soi-app-searchbar" href="/search.html?focus=1">' + '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>Search “patience”</span></a>' +
-      '<a class="soi-app-gempill" href="/gems.html" aria-label="Your gems (sample): ' + SAMPLE.gems.toLocaleString() + '">' + GEM + SAMPLE.gems.toLocaleString() + '</a></div>' +
-      '<p class="soi-app-hello">Assalamu alaikum</p>' +
+      '<div class="soi-app-search"><a class="soi-app-searchbar" href="/search.html?focus=1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/></svg><span>Search articles, topics, Quran 51:56…</span></a></div>' +
+      '<section class="soi-app-hi"><p class="soi-app-greet">' + esc(greeting()) + '</p>' +
+      '<p class="soi-app-intro">Spirit of Islam is the English bimonthly of CPS International, founded on the teachings of Maulana Wahiduddin Khan: peace, spirituality and positive thinking, in every issue since 2013.</p></section>' +
       '<div id="soi-app-cont"></div>' +
-      '<div class="soi-app-hrow"><h2>Latest issue</h2><a href="/archive/">All issues</a></div>' +
-      '<div class="soi-app-carousel" id="soi-app-latest"></div><div class="soi-app-dots" id="soi-app-dots" aria-hidden="true"></div>' +
-      '<div class="soi-app-hrow"><h2>How to use SOI</h2></div>' +
-      '<div class="soi-app-guides">' + GUIDES.map(function (g, k) { return '<div class="soi-app-guide"><span class="soi-ph soi-ph-wait soi-ph-' + k + '"></span><span class="soi-app-guide-play" aria-hidden="true">' + PLAY + '</span><b>' + esc(g) + '</b><small>Video coming soon</small></div>'; }).join('') + '</div>' +
+      '<nav class="soi-app-quick" aria-label="Quick links">' + QUICK.map(function (q) { return '<a href="' + q[1] + '"><span><svg viewBox="0 0 24 24" aria-hidden="true">' + q[2] + '</svg></span>' + q[0] + '</a>'; }).join('') + '</nav>' +
+      '<div class="soi-app-hrow"><h2>Latest issue</h2><a href="/archive/">All issues</a></div><div id="soi-app-latest"></div>' +
       '<div class="soi-app-hrow"><h2>In this issue</h2></div><div class="soi-app-list" id="soi-app-arts"></div>' +
-      '<div class="soi-app-quote" id="soi-app-qotd"><p class="soi-app-kick">Quote of the day</p><p class="soi-app-quote-t">&nbsp;</p><button type="button">Share as image →</button></div>';
+      '<section class="soi-you" id="soi-you"><div class="soi-you-grid">' +
+      '<div class="soi-you-card soi-you-prog"><h3>Your progress</h3><div class="soi-you-body"></div></div>' +
+      '<div class="soi-you-card soi-you-sug"><h3>Suggested for you</h3><div class="soi-you-body"></div></div>' +
+      '<div class="soi-you-card soi-you-mix"><h3>What you read</h3><div class="soi-you-body"></div></div></div></section>' +
+      '<div class="soi-app-hrow"><h2>Quote of the day</h2><a href="/quotes/">All quotes</a></div>' +
+      '<div class="soi-q2-spot soi-qotd-spot" id="soi-qotd-home"><div class="soi-q2-spot-in"><blockquote><p>&nbsp;</p></blockquote></div></div>' +
+      '<div class="soi-app-hrow"><h2>How to use SOI</h2></div>' +
+      '<div class="soi-app-guides">' + GUIDES.map(function (g, k) { return '<div class="soi-app-guide"><span class="soi-ph soi-ph-wait soi-ph-' + k + '"></span><span class="soi-app-guide-play" aria-hidden="true">' + PLAY + '</span><b>' + esc(g) + '</b><small>Video coming soon</small></div>'; }).join('') + '</div>';
     var p = S.store.progress();
     A.manifest(false).then(function (list) { draw(list); return A.manifest(true); }).then(draw).catch(function () {});
     function draw(list) {
-      var latest = list.slice(-3).reverse(), first = latest[0];
+      var i = list[list.length - 1]; if (!i) return;
+      var pdf = i.pdf ? (/^https?:/.test(i.pdf) ? i.pdf : CFG.remote + i.pdf) : '';
       haveMap().then(function (have) {
-        document.getElementById('soi-app-latest').innerHTML = latest.map(function (i) {
-          var a0 = (i.arts || []).filter(function (a) { return a[4]; })[0];
-          return '<div class="soi-app-issue" data-slug="' + i.slug + '">' + cover(i, true) +
-            '<div class="soi-app-issue-btns"><a class="soi-app-b-read" href="/issues/' + i.slug + '/">Read</a>' +
-            (a0 ? '<a class="soi-app-b-listen" href="/issues/' + i.slug + '/#soi-' + a0[0] + '">Listen</a>' : '') +
-            '<button type="button" class="soi-app-b-save" aria-label="Save ' + esc(i.period) + ' for offline" aria-pressed="' + offline(i.slug, have) + '">' + SAVE + '</button></div></div>';
-        }).join('');
-        document.getElementById('soi-app-dots').innerHTML = latest.map(function (x, k) { return '<span' + (k ? '' : ' class="is-on"') + '></span>'; }).join('');
+        var on = offline(i.slug, have);
+        document.getElementById('soi-app-latest').innerHTML = '<div class="soi-app-latest soi-app-issue" data-slug="' + i.slug + '"><a class="soi-app-latest-cv" href="/issues/' + i.slug + '/">' + cover(i, true) + '</a>' +
+          '<div class="soi-app-latest-t"><small>' + (i.number ? 'Issue ' + i.number : 'New') + '</small><b>' + esc(i.period) + '</b><span>' + (i.articles || '') + ' articles · audio</span>' +
+          '<a class="soi-app-btn soi-app-b-read" href="/issues/' + i.slug + '/">Read &amp; Listen</a>' +
+          '<span class="soi-app-latest-2">' + (pdf ? '<a class="soi-app-btn is-line" href="' + esc(pdf) + '">PDF</a>' : '') +
+          '<button type="button" class="soi-app-btn is-line soi-app-b-save" aria-pressed="' + on + '">' + SAVE + (on ? 'Saved' : 'Save') + '</button></span></div></div>';
       });
-      document.getElementById('soi-app-arts').innerHTML = (first.arts || []).slice(0, 4).map(function (a, k) {
-        return '<a href="/issues/' + first.slug + '/#soi-' + a[0] + '"><span class="soi-app-n">' + (k + 1) + '</span><span class="soi-app-at"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b></span><span class="soi-app-min">' + a[3] + ' min</span></a>';
-      }).join('') + '<a class="soi-app-more" href="/issues/' + first.slug + '/">All ' + first.articles + ' articles →</a>';
+      document.getElementById('soi-app-arts').innerHTML = (i.arts || []).slice(0, 4).map(function (a, k) {
+        return '<a href="/issues/' + i.slug + '/#soi-' + a[0] + '"><span class="soi-app-n">' + (k + 1) + '</span><span class="soi-app-at"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b></span><span class="soi-app-min">' + a[3] + ' min</span></a>';
+      }).join('') + '<a class="soi-app-more" href="/issues/' + i.slug + '/">All ' + i.articles + ' articles →</a>';
       var c = document.getElementById('soi-app-cont');
       if (p) {
         var left = p.min ? Math.max(1, Math.round(p.min * (1 - (p.frac || 0)))) : 0, it = list.filter(function (x) { return x.slug === p.slug; })[0] || { slug: p.slug, period: '' };
@@ -69,22 +94,14 @@ window.soiScreens = function () {
           '<span class="soi-app-cont-play" aria-hidden="true">' + PLAY + '</span></span><span class="soi-app-bar"><i style="width:' + Math.round((p.frac || 0) * 100) + '%"></i></span></a>';
       }
     }
-    var car = document.getElementById('soi-app-latest');
-    car.addEventListener('scroll', function () {
-      var k = Math.round(car.scrollLeft / Math.max(1, car.clientWidth * 0.86));
-      [].forEach.call(document.getElementById('soi-app-dots').children, function (d, j) { d.classList.toggle('is-on', j === k); });
-    }, { passive: true });
-    car.addEventListener('click', function (e) {
+    document.getElementById('soi-app-latest').addEventListener('click', function (e) {
       var b = e.target.closest('.soi-app-b-save'); if (!b) return;
       var slug = b.closest('.soi-app-issue').dataset.slug;
       if (b.getAttribute('aria-pressed') === 'true') { S.toast('Already on this phone'); return; }
       b.disabled = true; S.toast('Saving for offline…');
-      A.download(slug).then(function () { b.setAttribute('aria-pressed', 'true'); S.toast('Saved for offline'); }, function () { S.toast('No internet – try again later'); }).then(function () { b.disabled = false; });
+      A.download(slug).then(function () { b.setAttribute('aria-pressed', 'true'); b.innerHTML = SAVE + 'Saved'; S.toast('Saved for offline'); }, function () { S.toast('No internet – try again later'); }).then(function () { b.disabled = false; });
     });
-    S.quoteOfDay().then(function (q) {
-      var box = document.getElementById('soi-app-qotd'); box.querySelector('.soi-app-quote-t').textContent = '“' + q.t + '”';
-      box.querySelector('button').addEventListener('click', function () { S.quoteImage(q); });
-    }).catch(function () {});
+    if (S.startHome) S.startHome();
   }
 
   /* ================= Search ================= */

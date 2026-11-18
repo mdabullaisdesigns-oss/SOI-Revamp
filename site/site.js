@@ -317,7 +317,7 @@
     box.innerHTML = h;
   }
 
-  window.soi = { store: store, share: share, toast: toast, esc: esc, issues: issues, coverHTML: coverHTML, cover: cover, quoteImage: quoteImage, quoteOfDay: quoteOfDay, mmss: mmss, LS: LS };
+  window.soi = { store: store, share: share, toast: toast, esc: esc, issues: issues, coverHTML: coverHTML, cover: cover, quoteImage: quoteImage, quoteOfDay: quoteOfDay, mmss: mmss, LS: LS, startHome: function () { you(); qotd(); } };
   /* ---------- sign-up invitation (corner card), once, for readers who are not signed in ---------- */
   function invite() {
     if (!$('meta[name="soi-issue"]') || document.querySelector('.soi-invite')) return;

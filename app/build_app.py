@@ -76,6 +76,26 @@ def main():
         return []
     shutil.copytree(DIST, WWW, ignore=skip)
 
+    remote = cfg["remote"].rstrip("/")
+    for d, _, files in os.walk(WWW):                  # audio, PDFs and covers-from-R2 come from the website, not from inside the app
+        for f in files:
+            if f.endswith((".html", ".json", ".js")):
+                p = os.path.join(d, f)
+                t = open(p, encoding="utf-8").read()
+                t2 = re.sub(r'(["\'(=])/media/', lambda m: m.group(1) + remote + "/media/", t)
+                if t2 != t:
+                    open(p, "w", encoding="utf-8").write(t2)
+    menu_html = ""
+    try:                                               # the website footer's link columns become the app menu
+        home = open(os.path.join(DIST, "index.html"), encoding="utf-8").read()
+        m = re.search(r'<div class="soi-foot2-in">(.*?)</div>\s*</footer>', home, re.S)
+        if m:
+            menu_html = re.sub(r'<a class="soi-foot2-brand".*?</a>', "", m.group(1), flags=re.S)
+    except Exception:
+        pass
+    os.makedirs(os.path.join(WWW, "assets"), exist_ok=True)
+    open(os.path.join(WWW, "assets", "app-menu.html"), "w", encoding="utf-8").write(menu_html)
+
     n = 0
     for d, _, files in os.walk(WWW):
         for f in files:
