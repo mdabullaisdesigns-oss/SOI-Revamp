@@ -1,0 +1,20 @@
+name: R2 cleanup (old audio, page pictures)
+on:
+  workflow_dispatch:
+    inputs:
+      delete: { description: "yes = really delete; no = only list", required: true, default: "no" }
+      pages: { description: "also delete the page pictures under pages/ (yes/no)", required: true, default: "no" }
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/r2_audio_cleanup.py ${{ inputs.delete == 'yes' && '--delete' || '' }}
+      - if: inputs.pages == 'yes'
+        run: aws s3 rm "s3://$R2_BUCKET/pages/" --recursive --endpoint-url "$R2_ENDPOINT" --only-show-errors && echo "page pictures deleted"
