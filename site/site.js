@@ -65,31 +65,48 @@
   /* ---------- quote as a picture ---------- */
   function wrap(ctx, t, max) { var w = t.split(' '), lines = [], l = ''; w.forEach(function (x) { var n = l ? l + ' ' + x : x; if (ctx.measureText(n).width > max && l) { lines.push(l); l = x; } else l = n; }); if (l) lines.push(l); return lines; }
   var QPH = [];
-  function quoteImage(q) {
+  function quoteImage(q, phOverride, how, waText) {
     var W = 1080, H = 1350, c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d'), bg = new Image();
     var hh = 0, ht = q.s + q.a + q.t.length; for (var hi = 0; hi < ht.length; hi++) hh = (hh * 31 + ht.charCodeAt(hi)) | 0;
-    var ph = QPH.length ? QPH[Math.abs(hh) % QPH.length] : '';
+    var ph = phOverride || (QPH.length ? QPH[Math.abs(hh) % QPH.length] : '');
+    function icon(d, cx, cy, sc, w) { x.save(); x.translate(cx - 12 * sc, cy - 12 * sc); x.scale(sc, sc); x.lineWidth = w / sc; x.lineCap = 'round'; x.lineJoin = 'round'; x.strokeStyle = '#D4CC73'; x.stroke(new Path2D(d)); x.restore(); }
     function draw() {
       x.fillStyle = '#204E60'; x.fillRect(0, 0, W, H);
-      if (bg.naturalWidth) { var r = Math.max(W / bg.naturalWidth, H / bg.naturalHeight), bw = bg.naturalWidth * r, bh = bg.naturalHeight * r; x.drawImage(bg, (W - bw) / 2, (H - bh) / 2, bw, bh);
-        var g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, 'rgba(23,58,72,.55)'); g.addColorStop(.5, 'rgba(23,58,72,.72)'); g.addColorStop(1, 'rgba(23,58,72,.92)'); x.fillStyle = g; x.fillRect(0, 0, W, H); } x.strokeStyle = '#D4CC73'; x.lineWidth = 3; x.strokeRect(48, 48, W - 96, H - 96);
-      x.fillStyle = '#D4CC73'; x.save(); x.translate(W / 2, 170); x.rotate(Math.PI / 4); x.fillRect(-13, -13, 26, 26); x.restore();
-      var size = q.t.length > 330 ? 40 : q.t.length > 220 ? 46 : q.t.length > 120 ? 54 : 64, lines;
-      x.fillStyle = '#EEEEE5'; x.textAlign = 'center'; x.textBaseline = 'middle';
-      do { x.font = 'italic ' + size + 'px "Cita Pro Ita","Cita Pro",Georgia,serif'; lines = wrap(x, '“' + q.t + '”', W - 240); size -= 2; } while (lines.length * (size * 1.42) > H - 560 && size > 26);
-      var lh = (size + 2) * 1.42, y = H / 2 - ((lines.length - 1) * lh) / 2 - 30; lines.forEach(function (l, i) { x.fillText(l, W / 2, y + i * lh); });
-      if (q.hd === 'saying') { x.fillStyle = '#D4CC73'; x.font = '600 34px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('— Prophet Muhammad ﷺ' + (q.ref ? '  (' + q.ref + ')' : ''), W / 2, Math.min(y + lines.length * lh + 30, H - 380)); }
-      x.fillStyle = '#D4CC73'; x.fillRect(W / 2 - 60, H - 330, 120, 3);
-      if (logo.naturalWidth) { var lw2 = 230; x.drawImage(logo, W / 2 - lw2 / 2, H - 290, lw2, lw2 * 51.17 / 79.08); }
-      x.fillStyle = '#FFFFFF'; x.globalAlpha = .9; x.font = '600 28px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('spiritofislam.co.in', W / 2, H - 105); x.globalAlpha = 1;
+      if (bg.naturalWidth) { var r = Math.max(W / bg.naturalWidth, H / bg.naturalHeight), bw = bg.naturalWidth * r, bh = bg.naturalHeight * r; x.drawImage(bg, (W - bw) / 2, (H - bh) / 2, bw, bh); }
+      var g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, 'rgba(14,38,47,.58)'); g.addColorStop(.45, 'rgba(14,38,47,.82)'); g.addColorStop(1, 'rgba(14,38,47,.95)'); x.fillStyle = g; x.fillRect(0, 0, W, H);
+      /* logo top right: dove | SOI mark */
+      var dh = 96, mh = 84, mw = mh * 79.08 / 51.17, dw = dove.naturalWidth ? dh * dove.naturalWidth / dove.naturalHeight : 0, right = W - 70;
+      if (logo.naturalWidth) x.drawImage(logo, right - mw, 64 + (dh - mh) / 2, mw, mh);
+      x.fillStyle = 'rgba(255,255,255,.35)'; x.fillRect(right - mw - 24, 64 + (dh - mh) / 2, 2, mh);
+      if (dw) x.drawImage(dove, right - mw - 48 - dw, 64, dw, dh);
+      var size = q.t.length > 330 ? 40 : q.t.length > 220 ? 46 : q.t.length > 120 ? 54 : 62, lines;
+      x.fillStyle = '#FFFFFF'; x.textAlign = 'center'; x.textBaseline = 'middle';
+      do { x.font = size + 'px "Cita Pro",Georgia,serif'; lines = wrap(x, '“' + q.t.replace(/^\s*["“”']+|["“”']+\s*$/g, '') + '”', W - 220); size -= 2; } while (lines.length * (size * 1.4) > H - 640 && size > 26);
+      var lh = (size + 2) * 1.4, y = H / 2 - ((lines.length - 1) * lh) / 2 + 10;
+      /* the quotation mark used on the website, above the quote */
+      icon('M5 6.5A1.5 1.5 0 0 1 6.5 5h2A1.5 1.5 0 0 1 10 6.5V11c0 3.4-1.5 5.8-4.6 7.2M14 6.5A1.5 1.5 0 0 1 15.5 5h2A1.5 1.5 0 0 1 19 6.5V11c0 3.4-1.5 5.8-4.6 7.2M5 11h5M14 11h5', W / 2, y - lh / 2 - 90, 4.2, 5);
+      lines.forEach(function (l, i) { x.fillText(l, W / 2, y + i * lh); });
+      var yy = y + (lines.length - 1) * lh + 80;
+      x.font = '600 30px "Plus Jakarta Sans",Arial,sans-serif'; x.fillStyle = '#D4CC73';
+      if (q.hd === 'saying') { x.fillText('— Prophet Muhammad ﷺ' + (q.ref ? '  (' + q.ref + ')' : ''), W / 2, yy); yy += 50; x.font = '500 26px "Plus Jakarta Sans",Arial,sans-serif'; }
+      /* the source, with a magazine icon */
+      var src = (q.hd === 'saying' ? 'Quoted in “' : 'From “') + q.at + '”, Spirit of Islam · Issue ' + q.n, fs = 30, tw;
+      while ((tw = x.measureText(src).width) > W - 230 && fs > 20) { fs -= 1; x.font = (q.hd === 'saying' ? '500 ' : '600 ') + fs + 'px "Plus Jakarta Sans",Arial,sans-serif'; }
+      icon('M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13', W / 2 - tw / 2 - 26, yy, 1.5, 2.6);
+      x.fillText(src, W / 2 + 18, yy);
+      /* footer */
+      x.fillStyle = 'rgba(255,255,255,.85)'; x.font = '500 30px "Plus Jakarta Sans",Arial,sans-serif'; x.fillText('spiritofislam.co.in', W / 2, H - 82);
+      var fw = x.measureText('spiritofislam.co.in').width; x.fillStyle = '#D4CC73'; x.fillRect(W / 2 - fw / 2 - 114, H - 83, 90, 2); x.fillRect(W / 2 + fw / 2 + 24, H - 83, 90, 2);
       c.toBlob(function (b) {
         var f = new File([b], 'spirit-of-islam-quote.png', { type: 'image/png' });
+        if (how === 'wa' && !(navigator.canShare && navigator.canShare({ files: [f] }))) { window.open('https://wa.me/?text=' + encodeURIComponent(waText || 'spiritofislam.co.in'), '_blank', 'noopener'); return; }
         if (navigator.canShare && navigator.canShare({ files: [f] })) { navigator.share({ files: [f], text: 'spiritofislam.co.in' }).catch(function (e) { if (!e || e.name !== 'AbortError') { var a2 = document.createElement('a'); a2.href = URL.createObjectURL(b); a2.download = f.name; document.body.appendChild(a2); a2.click(); a2.remove(); } }); return; }
         var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = f.name; document.body.appendChild(a); a.click(); a.remove(); toast('Image saved');
       }, 'image/png');
     }
-    var fl = document.fonts && document.fonts.load ? document.fonts.load('italic 40px "Cita Pro Ita"') : Promise.resolve();
-    var logo = new Image(); fl.then(function () { logo.onload = logo.onerror = function () { if (!ph) return draw(); bg.onload = draw; bg.onerror = draw; bg.src = ph; }; logo.src = '/assets/brand/soi-mark-white.svg'; }, draw);
+    var fl = document.fonts && document.fonts.load ? document.fonts.load('40px "Cita Pro"') : Promise.resolve();
+    var logo = new Image(), dove = new Image();
+    fl.then(function () { dove.onload = dove.onerror = function () { logo.onload = logo.onerror = function () { if (!ph) return draw(); bg.onload = draw; bg.onerror = draw; bg.src = ph; }; logo.src = '/assets/brand/soi-mark-white.svg'; }; dove.src = '/assets/brand/Peogen-logo.png'; }, draw);
   }
   function quoteOfDay() {
     return fetch('/assets/quotes.json').then(function (r) { return r.json(); }).then(function (d) {

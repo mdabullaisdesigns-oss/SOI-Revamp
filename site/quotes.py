@@ -45,7 +45,7 @@ def collect(root, issues):
         m = re.search(r"\s*\(((?:Sahih|Sunan|Musnad|Jami|Bukhari|Muslim|Tirmidhi|Ab[uū] D[aā]w[uū]d|[Il]bn Majah|Nasa|Muwatta|Mishkat|Bayhaqi|Baihaqi|PROPHET MUHAMMAD)[^()]*)\)\.?\s*$", text, re.I)
         if m and (re.match(r"\s*[“\"‘]", text) or m.group(1).upper() == "PROPHET MUHAMMAD"):
             hd, ref = "saying", ("" if m.group(1).upper() == "PROPHET MUHAMMAD" else m.group(1))   # the quote IS a hadith
-            text = text[:m.start()].strip()
+            text = text[:m.start()].strip().strip('"“”\'‘’ ')
             by = "Prophet Muhammad ﷺ"
         elif m or re.search(r"\bProphet(\s+Muhammad|\s+of\s+Islam)?\s+(once\s+)?(said|stated|remarked|observed|declared|is reported to have said)\b", text):
             hd = "has"                                    # the reflection quotes a saying of the Prophet
@@ -158,29 +158,7 @@ PAGE = r"""
     image(q,a==='wa'?'wa':'',ph);
   }
   function wrap(ctx,t,max){var w=t.split(' '),lines=[],l='';w.forEach(function(x){var n=l?l+' '+x:x;if(ctx.measureText(n).width>max&&l){lines.push(l);l=x}else l=n});if(l)lines.push(l);return lines}
-  function image(q,how,phOverride){
-    var W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var x=c.getContext('2d'),bg=new Image(),ph=phOverride||photo(q);
-    function draw(){
-      x.fillStyle='#204E60';x.fillRect(0,0,W,H);
-      if(bg.naturalWidth){var r=Math.max(W/bg.naturalWidth,H/bg.naturalHeight),bw=bg.naturalWidth*r,bh=bg.naturalHeight*r;x.drawImage(bg,(W-bw)/2,(H-bh)/2,bw,bh);
-        var g=x.createLinearGradient(0,0,0,H);g.addColorStop(0,'rgba(23,58,72,.55)');g.addColorStop(.5,'rgba(23,58,72,.72)');g.addColorStop(1,'rgba(23,58,72,.92)');x.fillStyle=g;x.fillRect(0,0,W,H)}
-      x.strokeStyle='#D4CC73';x.lineWidth=3;x.strokeRect(48,48,W-96,H-96);
-      x.fillStyle='#D4CC73';x.save();x.translate(W/2,170);x.rotate(Math.PI/4);x.fillRect(-13,-13,26,26);x.restore();
-      var size=q.t.length>330?40:q.t.length>220?46:q.t.length>120?54:64,lines;x.fillStyle='#FFFFFF';x.textAlign='center';x.textBaseline='middle';
-      do{x.font='italic '+size+'px "Cita Pro Ita","Cita Pro",Georgia,serif';lines=wrap(x,'“'+q.t+'”',W-240);size-=2}while(lines.length*(size*1.42)>H-560&&size>26);
-      var lh=(size+2)*1.42,y=H/2-((lines.length-1)*lh)/2-30;x.shadowColor='rgba(0,0,0,.35)';x.shadowBlur=12;lines.forEach(function(l,i){x.fillText(l,W/2,y+i*lh)});x.shadowBlur=0;
-      x.fillStyle='#D4CC73';x.fillRect(W/2-60,H-330,120,3);
-      if(logo.naturalWidth){var lw=230,lh=lw*51.17/79.08;x.drawImage(logo,W/2-lw/2,H-290,lw,lh)}
-      x.fillStyle='#FFFFFF';x.globalAlpha=.9;x.font='600 28px "Plus Jakarta Sans",Arial,sans-serif';x.fillText(SITE,W/2,H-105);x.globalAlpha=1;
-      c.toBlob(function(b){var f=new File([b],'spirit-of-islam-quote.png',{type:'image/png'});
-        function dl(){if(how==='wa'){window.open('https://wa.me/?text='+encodeURIComponent(text(q)),'_blank','noopener');return}var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=f.name;document.body.appendChild(a);a.click();a.remove();say('Picture saved')}
-        if(navigator.canShare&&navigator.canShare({files:[f]})){navigator.share({files:[f],text:SITE}).catch(function(e){if(!e||e.name!=='AbortError')dl()});return}
-        dl()},'image/png');
-    }
-    var logo=new Image();
-    var fonts=document.fonts&&document.fonts.load?document.fonts.load('italic 40px "Cita Pro Ita"'):Promise.resolve();
-    fonts.then(function(){logo.onload=logo.onerror=function(){if(!ph)return draw();bg.onload=draw;bg.onerror=draw;bg.src=ph};logo.src='/assets/brand/soi-mark-white.svg'},draw);
-  }
+  function image(q,how,phOverride){soi.quoteImage(q,phOverride,how,text(q))}   // one share-picture design for the whole site (site.js)
   function isDefault(){return !find.value.trim()&&!(topic&&topic.value)&&!(year&&year.value)}
   function apply(shuffle){
     var w=find.value.trim().toLowerCase(),y=year?year.value:'',t=topic?topic.value:'';
@@ -253,6 +231,16 @@ def add_audio(root, quotes):
                 q.pop(k, None)
             continue
         found += 1
+    import hashlib
+    dp = os.path.join(root, "pipeline", "quote-audio", "done.json")
+    own = json.load(open(dp, encoding="utf-8")) if os.path.exists(dp) else {}
+    for q in quotes:                                    # quotes recorded on their own (no article recording to point at)
+        if "au" in q:
+            continue
+        k = hashlib.sha1((q["s"] + "|" + q["a"] + "|" + q["t"]).encode()).hexdigest()[:12]
+        if k in own:
+            q["au"], q["a0"], q["a1"] = own[k]["url"], 0, own[k]["d"] + 1
+            found += 1
     print(f"quotes: {found} of {len(quotes)} play the narrated recording")
 
 

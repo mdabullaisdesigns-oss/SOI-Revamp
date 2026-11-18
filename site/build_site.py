@@ -332,9 +332,12 @@ def card_actions(i):
 
 
 def card(i):
-    return (f'<div class="soi-icard"><a class="soi-icard-link" href="/issues/{i["slug"]}/">{cover(i)}'
-            f'<b>{esc(short_period(i["period"]))}</b><small>{("Issue " + str(i["number"])) if i["number"] else ""}'
-            f'<span class="soi-icard-meta"> · {len(i["articles"])} articles</span></small>'
+    num = (f'<span class="soi-icard-no" aria-hidden="true">{i["number"]}</span>' if i["number"] else "")
+    return (f'<div class="soi-icard"><a class="soi-icard-link" href="/issues/{i["slug"]}/">'
+            f'<span class="soi-icard-mon">{esc(i["period"])}</span>'
+            f'<span class="soi-icard-cv">{cover(i)}{num}</span>'
+            f'<b class="sr-only">{esc(short_period(i["period"]))}</b><small class="soi-icard-sub">{("Issue " + str(i["number"])) if i["number"] else ""}'
+            f'<span class="soi-icard-meta">{len(i["articles"])} articles</span></small>'
             f'<span class="soi-icard-more">{len(i["articles"])} articles · {esc(", ".join(a["title"] for a in i["articles"][:3]))}…</span></a>'
             f'{card_actions(i)}</div>')
 

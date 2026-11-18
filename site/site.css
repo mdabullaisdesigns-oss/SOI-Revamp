@@ -1093,3 +1093,35 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-book-spine { background: var(--spine, #173A48); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .12); }
 .soi-book-pages { top: 2px; bottom: 2px; right: 1px; background: repeating-linear-gradient(90deg, #fbfaf4 0 1px, #e3dece 1px 2px); }
 .soi-book-shadow { height: 18px; }
+
+/* 18 Nov: archive cards - month name on top (red line, upright), issue number as a gold ribbon on hover */
+.soi-icard-mon { display: block; font-family: var(--soi-display); font-style: normal; font-size: 1.02rem; line-height: 1.25; color: #173A48; padding-bottom: 7px; margin-bottom: 10px; border-bottom: 1.5px solid #EA3451; }
+.soi-icard-cv { position: relative; display: block; }
+.soi-icard-no { position: absolute; top: -5px; right: 12px; z-index: 2; width: 34px; height: 46px; padding-top: 9px; box-sizing: border-box; text-align: center; font-size: 12px; font-weight: 800; color: #173A48; background: linear-gradient(180deg, #E4DC86, #D4CC73); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%); box-shadow: 0 4px 10px rgba(0, 0, 0, .25); opacity: 0; transform: translateY(-10px); transition: opacity .25s, transform .3s cubic-bezier(.2, .7, .2, 1); pointer-events: none; }
+.soi-icard:hover .soi-icard-no, .soi-icard-link:focus-visible .soi-icard-no { opacity: 1; transform: none; }
+@media (hover: none) { .soi-icard-no { opacity: 1; transform: none; } }
+.soi-icard-sub { display: none; }
+/* list view L3: cover + month (red line) + number of articles; the year stays on top while its issues scroll */
+.soi-arch[data-view="list"] .soi-year > .soi-h-row { position: sticky; top: 64px; z-index: 5; margin: 0 -12px 12px; padding: 10px 16px; border-radius: 14px; background: #204E60; }
+.soi-arch[data-view="list"] .soi-year > .soi-h-row .soi-h, .soi-arch[data-view="list"] .soi-year > .soi-h-row span { color: #fff; margin: 0; }
+.soi-arch[data-view="list"] .soi-year > .soi-h-row .soi-h::after { display: none; }
+.soi-arch[data-view="list"] .soi-covers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.soi-arch[data-view="list"] .soi-icard { display: grid; grid-template-columns: 92px 1fr; grid-template-rows: auto 1fr; column-gap: 16px; padding: 12px; background: #fff; border: 1px solid var(--soi-line); border-radius: 16px; align-items: start; }
+.soi-arch[data-view="list"] .soi-icard-link { display: contents; }
+.soi-arch[data-view="list"] .soi-icard-cv { grid-column: 1; grid-row: 1 / span 3; }
+.soi-arch[data-view="list"] .soi-icard-cv .soi-cover { width: 92px; box-shadow: 0 6px 14px rgba(23, 58, 72, .16); }
+.soi-arch[data-view="list"] .soi-icard-mon { grid-column: 2; align-self: start; font-size: 1.2rem; margin: 2px 0 6px; justify-self: start; }
+.soi-arch[data-view="list"] .soi-icard-sub { display: block; grid-column: 2; margin: 0; font-size: 13px; color: #53656D; }
+.soi-arch[data-view="list"] .soi-icard-sub .soi-icard-meta { display: inline; }
+.soi-arch[data-view="list"] .soi-icard-sub .soi-icard-meta::before { content: " · "; }
+.soi-arch[data-view="list"] .soi-icard-more { display: none; }
+.soi-arch[data-view="list"] .soi-icard-act { grid-column: 2; margin: 10px 0 0; padding: 0; align-self: end; }
+.soi-arch[data-view="list"] .soi-icard-no { right: 6px; width: 28px; height: 38px; font-size: 10.5px; padding-top: 7px; }
+@media (max-width: 720px) { .soi-arch[data-view="list"] .soi-covers { grid-template-columns: 1fr; } }
+.soi-icard .soi-icard-sub { display: none; }
+.soi-arch[data-view="list"] .soi-icard .soi-icard-sub { display: block; }
+.soi-arch[data-view="list"] .soi-icard-act { flex-wrap: nowrap; }
+.soi-arch[data-view="list"] .soi-icard-act .soi-ib-main { flex: 0 1 auto; flex-basis: auto; }
+.soi-arch[data-view="list"] .soi-icard-act .soi-ib:not(.soi-ib-main) { flex: 0 0 auto; }
+@media (max-width: 600px) { .soi-arch[data-view="list"] .soi-year > .soi-h-row { margin-left: 0; margin-right: 0; } }
+.soi-arch { overflow-x: clip; }
