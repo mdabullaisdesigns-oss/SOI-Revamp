@@ -148,7 +148,7 @@
   IC.gem = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11l4 5.5L12 20.5 2.5 9z"/><path d="M2.5 9h19M9 3.5 7.5 9 12 20.5 16.5 9 15 3.5"/></svg>';
   IC.close = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>';
   function splash() {                                   /* the SOI logo for a moment when the app opens */
-    if (!/\/(index\.html)?$/.test(location.pathname) || sessionStorage.getItem('soiSplash')) return;
+    if (!/\/(index\.html)?$/.test(location.pathname) || sessionStorage.getItem('soiSplash') || !localStorage.getItem('soiWelcomed')) return;
     sessionStorage.setItem('soiSplash', '1');
     var s = document.createElement('div'); s.id = 'soi-app-splash'; s.innerHTML = '<div class="soi-app-splash-logo">' + LOGO + '</div><p>Towards Global Peace &amp; Spiritual Living</p>';
     document.body.appendChild(s);

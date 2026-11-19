@@ -30,44 +30,65 @@
   var LOGO = '<img src="/assets/brand/Peogen-logo.png" alt="" width="470" height="453"><span class="soi-x-rule"></span><img src="/assets/brand/soi-mark-white.svg" alt="Spirit of Islam" width="790" height="511">';
   function toast(t) { if (window.soi && window.soi.toast) window.soi.toast(t); }
 
-  /* ================= 1. Welcome slides + sign-in ================= */
-  var SLIDES = [
-    { ph: 'hero', k: 'Spirit of Islam', t: 'A magazine for the journey of life', p: 'The English bimonthly of CPS International, inspired by the teachings of Maulana Wahiduddin Khan: peace, spirituality and positive thinking.' },
-    { ph: 'quote-4', k: 'The archive', t: 'Every issue since 2013, in your pocket', p: 'Save any issue on your phone and read it without internet.' },
-    { ph: 'guide2', k: 'Listen', t: 'Hear every article, read aloud', p: 'The text follows the voice, and it keeps playing with the screen off.' },
-    { ph: 'quote-7', k: 'Reflect', t: 'Wisdom to keep and to share', p: 'Quotes on beautiful pictures, a short quiz after each issue, and gems as you grow.' }
-  ];
+  /* ================= 1. Welcome slides + sign-in =================
+     One teal colour throughout. The logo first, then four illustrated slides that animate in,
+     then sign-in. No Skip: readers go through every slide; "Not now – just read" is on the sign-in page. */
+  var COV = ['2026-07', '2026-09', '2026-11'];
+  function wave(n) { return '<span class="soi-w-wave">' + Array.apply(null, Array(n)).map(function (_, k) { return '<i style="height:' + (6 + Math.round(22 * Math.abs(Math.sin(k * 1.9) * Math.cos(k * .7)))) + 'px;animation-delay:' + (k % 5) * .12 + 's"></i>'; }).join('') + '</span>'; }
   function welcome(force) {
     if (!force && LSget('soiWelcomed', 0)) return;
     var w = document.createElement('div'); w.id = 'soi-x-welcome'; w.setAttribute('role', 'dialog'); w.setAttribute('aria-label', 'Welcome to Spirit of Islam');
-    var n = SLIDES.length, at = 0, timer = null;
-    w.innerHTML = SLIDES.map(function (s, k) {
-      return '<section class="soi-x-slide" data-k="' + k + '"><div class="soi-x-ph" style="background-image:url(/assets/photos/' + s.ph + '.webp)"></div>' +
-        '<div class="soi-x-txt"><span class="soi-x-k">' + esc(s.k) + '</span><h2>' + esc(s.t) + '</h2><p>' + esc(s.p) + '</p></div></section>';
+    var arts = [
+      '<div class="soi-w-logo"><img class="soi-w-dove" src="/assets/brand/Peogen-logo.png" alt=""><span class="soi-w-line"></span><img class="soi-w-mark" src="/assets/brand/soi-mark-white.svg" alt="Spirit of Islam">' +
+        '<p class="soi-w-tag">Towards Global Peace &amp; Spiritual Living</p><p class="soi-w-type"><span>Read · Listen · Reflect</span></p></div>',
+      '<div class="soi-w-stack">' + COV.map(function (c, k) { return '<span class="soi-w-cv s' + k + '" style="background-image:url(/assets/covers/' + c + '.webp)"></span>'; }).join('') + '</div>',
+      '<div class="soi-w-listen"><span class="soi-w-cv" style="background-image:url(/assets/covers/' + COV[2] + '.webp)"></span><b>The Superior Solution</b>' + wave(15) + '<span class="soi-w-pp">' + I.pause + '</span></div>',
+      '<div class="soi-w-quotes"><div class="soi-w-q a"><span>❝</span><p class="soi-w-qt1">A mistake turns into a virtue when it gives rise to humility within a person.</p><small>Share as a picture ›</small></div><div class="soi-w-q b"><span>❝</span><p class="soi-w-qt2">&nbsp;</p></div></div>',
+      '<div class="soi-w-grow"><span class="soi-w-ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50"/><circle class="soi-w-rf" cx="60" cy="60" r="50"/></svg><b>72%</b></span><span class="soi-w-gem">' + svg('<path d="M6.5 3.5h11l4 5.5L12 20.5 2.5 9z"/><path d="M2.5 9h19M9 3.5 7.5 9 12 20.5 16.5 9 15 3.5"/>') + '+40 gems this week</span></div>'
+    ];
+    var heads = [
+      ['', ''],
+      ['The archive', 'Every issue since 2013, in your pocket', 'Save any issue on your phone and read it without internet.'],
+      ['Listen', 'Listen to every article', 'The text follows the voice, and it keeps playing with the screen off.'],
+      ['Reflect', 'Wisdom to share', 'Quotes on beautiful pictures to keep and send to the people you love.'],
+      ['Grow', 'Grow a little every day', 'Your progress, a short quiz after each issue, and gems as you go.']
+    ];
+    var n = arts.length;
+    w.innerHTML = arts.map(function (art, k) {
+      var h = heads[k];
+      return '<section class="soi-x-slide' + (k === 0 ? ' soi-w-first' : '') + '"><div class="soi-w-panel"><div class="soi-w-art">' + art + '</div>' +
+        (h[1] ? '<div class="soi-w-txt"><span class="soi-x-k">' + h[0] + '</span><h2>' + h[1] + '</h2><p>' + h[2] + '</p></div>' : '') + '</div></section>';
     }).join('') +
-      '<section class="soi-x-slide soi-x-sign" data-k="' + n + '"><div class="soi-x-ph" style="background-image:url(/assets/photos/quote-5.webp)"></div>' +
-      '<div class="soi-x-txt"><span class="soi-x-logo">' + LOGO + '</span><h2>Assalamu alaikum</h2><p>Sign in to keep your progress, saved articles and gems on every phone and on the website.</p>' +
+      '<section class="soi-x-slide soi-x-sign"><div class="soi-w-panel"><div class="soi-w-art"><div class="soi-w-logo is-small"><img class="soi-w-dove" src="/assets/brand/Peogen-logo.png" alt=""><span class="soi-w-line"></span><img class="soi-w-mark" src="/assets/brand/soi-mark-white.svg" alt="Spirit of Islam"></div></div>' +
+      '<div class="soi-w-txt"><h2>Assalamu alaikum</h2><p>Sign in to keep your progress, saved articles and gems on every phone and on the website.</p>' +
       '<a class="soi-x-sbtn is-w" href="/profile.html?signin=google">' + I.google + 'Continue with Google</a>' +
       '<a class="soi-x-sbtn is-w" href="/profile.html?signin=apple">' + I.apple + 'Continue with Apple</a>' +
       '<a class="soi-x-sbtn is-d" href="/profile.html?signin=email">' + I.mail + 'Continue with email</a>' +
-      '<button type="button" class="soi-x-notnow">Not now – just read</button></div></section>' +
-      '<div class="soi-x-bars">' + SLIDES.map(function () { return '<i><b></b></i>'; }).join('') + '</div>' +
-      '<button type="button" class="soi-x-skip">Skip</button>' +
-      '<div class="soi-x-nav"><button type="button" class="soi-x-back" aria-label="Back">' + I.prev + '</button><button type="button" class="soi-x-go"><span>Continue</span><i>' + I.next + '</i></button></div>';
+      '<button type="button" class="soi-x-notnow">Not now – just read</button></div></div></section>' +
+      '<div class="soi-x-bars">' + arts.map(function () { return '<i><b></b></i>'; }).join('') + '</div>' +
+      '<div class="soi-x-nav"><button type="button" class="soi-x-back" aria-label="Previous">' + I.prev + '</button><button type="button" class="soi-x-go">Continue</button><button type="button" class="soi-x-fwd" aria-label="Next">' + I.next + '</button></div>';
     document.body.appendChild(w); document.documentElement.classList.add('soi-x-lock');
+    var at = 0, timer = null;
+    fetch('/assets/quotes.json').then(function (r) { return r.json(); }).then(function (d) {    /* two real, short quotes */
+      var short = d.quotes.filter(function (q) { return q.t.length < 60 && q.t.length > 25 && !q.hd; }); if (short.length < 2) return;
+      var k = Math.floor(Date.now() / 864e5) % short.length;
+      $('.soi-w-qt1', w).textContent = short[k].t; $('.soi-w-qt2', w).textContent = short[(k + 7) % short.length].t;
+    }).catch(function () {});
+    fetch('/issues.json').then(function (r) { return r.json(); }).then(function (j) {          /* the real number of issues */
+      var c = (j.issues || []).length; if (c > 20) $('.soi-x-slide:nth-child(2) h2', w).textContent = c + ' issues since 2013, in your pocket';
+    }).catch(function () {});
     function done() { LSset('soiWelcomed', 1); clearTimeout(timer); w.classList.add('is-out'); document.documentElement.classList.remove('soi-x-lock'); setTimeout(function () { w.remove(); }, 500); }
     function show(k) {
       at = Math.max(0, Math.min(n, k)); clearTimeout(timer);
-      $$('.soi-x-slide', w).forEach(function (s, j) { s.classList.toggle('is-on', j === at); s.classList.toggle('is-past', j < at); });
+      $$('.soi-x-slide', w).forEach(function (s, j) { s.classList.toggle('is-on', j === at); });
       $$('.soi-x-bars i', w).forEach(function (b, j) { b.className = j < at ? 'is-done' : j === at ? 'is-on' : ''; });
       w.classList.toggle('is-last', at === n); w.classList.toggle('is-first', at === 0);
-      $('.soi-x-go span', w).textContent = at === n - 1 ? 'Get started' : 'Continue';
-      if (at < n) timer = setTimeout(function () { show(at + 1); }, 6000);
+      $('.soi-x-go', w).textContent = at === 0 ? 'Begin' : at === n - 1 ? 'Get started' : 'Continue';
+      if (at < n) timer = setTimeout(function () { show(at + 1); }, at === 0 ? 4200 : 6500);
     }
     w.addEventListener('click', function (e) {
-      if (e.target.closest('.soi-x-go')) show(at + 1);
+      if (e.target.closest('.soi-x-go') || e.target.closest('.soi-x-fwd')) show(at + 1);
       else if (e.target.closest('.soi-x-back')) show(at - 1);
-      else if (e.target.closest('.soi-x-skip')) show(n);
       else if (e.target.closest('.soi-x-notnow')) done();
       else if (e.target.closest('.soi-x-sbtn')) LSset('soiWelcomed', 1);
     });
