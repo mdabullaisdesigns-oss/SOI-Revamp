@@ -156,11 +156,22 @@
   }
   function drawer() {                                   /* the menu: everything from the website footer */
     var d = document.createElement('div'); d.id = 'soi-app-drawer'; d.hidden = true;
+    var G = function (t, l) { return '<div class="soi-app-dg"><h2>' + t + '</h2>' + l.map(function (x) { return '<a href="' + x[1] + '"' + (x[2] ? ' id="' + x[2] + '"' : '') + '>' + x[0] + '</a>'; }).join('') + '</div>'; };
     d.innerHTML = '<div class="soi-app-drawer-in" role="dialog" aria-label="Menu"><div class="soi-app-drawer-top"><span class="soi-app-logo">' + LOGO + '</span><button type="button" aria-label="Close menu">' + IC.close + '</button></div>' +
-      '<nav class="soi-app-drawer-main">' + [['Home', '/index.html'], ['Latest issue', '/archive/', 'soi-app-dl'], ['Archive', '/archive/'], ['Quotes', '/quotes/'], ['Saved', '/saved.html'], ['Gems', '/gems.html'], ['Search', '/search.html?focus=1'], ['About Us', '/about/'], ['Contact Us', '/contact/']].map(function (l) { return '<a href="' + l[1] + '"' + (l[2] ? ' id="' + l[2] + '"' : '') + '>' + l[0] + '</a>'; }).join('') + '</nav>' +
+      '<a class="soi-app-dsign" href="/profile.html"><span>' + IC.profile + '</span><b>Sign in</b><small>Keep your progress on every device</small></a>' +
+      G('Read', [['Latest issue', '/archive/', 'soi-app-dl'], ['Archive · every issue', '/archive/'], ['Quotes', '/quotes/'], ['Search', '/search.html?focus=1']]) +
+      G('You', [['Saved', '/saved.html'], ['Gems', '/gems.html'], ['Your profile &amp; progress', '/profile.html'], ['Welcome tour', '/index.html?welcome=1']]) +
       '<div class="soi-app-drawer-more"></div></div>';
     document.body.appendChild(d);
-    fetch('/assets/app-menu.html').then(function (r) { return r.ok ? r.text() : ''; }).then(function (h) { $('.soi-app-drawer-more', d).innerHTML = h; var f = $('.soi-app-drawer-more a[href^="/issues/"]', d); if (f) $('#soi-app-dl', d).setAttribute('href', f.getAttribute('href')); }).catch(function () {});
+    fetch('/assets/app-menu.html').then(function (r) { return r.ok ? r.text() : ''; }).then(function (h) {
+      var t = document.createElement('div'), out = ''; t.innerHTML = h;
+      var f = $('a[href^="/issues/"]', t); if (f) $('#soi-app-dl', d).setAttribute('href', f.getAttribute('href'));
+      Array.prototype.forEach.call(t.querySelectorAll('.soi-foot2-col'), function (c) {   /* every footer column except "Read" (already above) */
+        var hh = $('h2', c); if (hh && /^read$/i.test(hh.textContent.trim())) return;
+        out += '<div class="soi-app-dg' + ($('.soi-soc', c) ? ' is-soc' : '') + '">' + c.innerHTML + '</div>';
+      });
+      $('.soi-app-drawer-more', d).innerHTML = out;
+    }).catch(function () {});
     function close() { d.classList.remove('is-open'); setTimeout(function () { d.hidden = true; }, 300); document.documentElement.style.overflow = ''; }
     d.addEventListener('click', function (e) { if (e.target === d || e.target.closest('.soi-app-drawer-top button') || e.target.closest('a')) close(); });
     return function () { d.hidden = false; requestAnimationFrame(function () { d.classList.add('is-open'); }); document.documentElement.style.overflow = 'hidden'; };
@@ -248,10 +259,11 @@
   })();
 
   /* ---------- start ---------- */
+  function start() { chrome(); if (window.soiExp) window.soiExp(); }
   function init() {
     document.documentElement.classList.add('soi-app');
     document.addEventListener('click', onClick);
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', chrome); else chrome();
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
   }
   window.soiApp = { init: init, store: store, route: route, go: go, download: download, manifest: manifest, ready: cfgReady, cfg: function () { return CFG; }, esc: esc };
   init();

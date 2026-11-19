@@ -54,21 +54,25 @@ window.soiScreens = function () {
     ['Contact', '/contact/', '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/>']
   ];
   function home() {
+    var hr = new Date().getHours(), tod = hr < 5 ? 'night' : hr < 12 ? 'dawn' : hr < 17 ? 'day' : hr < 20 ? 'eve' : 'night';
+    var part = { dawn: 'Good morning', day: 'Good afternoon', eve: 'Good evening', night: 'Good night' }[tod];
+    var today = new Date().toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
     root.innerHTML =
-      '<div class="soi-app-search"><a class="soi-app-searchbar" href="/search.html?focus=1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/></svg><span>Search articles, topics, Quran 51:56…</span></a></div>' +
-      '<section class="soi-app-hi"><p class="soi-app-greet">' + esc(greeting()) + '</p>' +
-      '<p class="soi-app-intro">Spirit of Islam is the English bimonthly of CPS International, founded on the teachings of Maulana Wahiduddin Khan: peace, spirituality and positive thinking, in every issue since 2013.</p></section>' +
+      '<section class="soi-h-sky" data-tod="' + tod + '"><span class="soi-h-orb" aria-hidden="true"></span><span class="soi-h-stars" aria-hidden="true">' + '<i></i>'.repeat(9) + '</span>' +
+      '<small>' + esc(today) + '</small><h1><span>' + part + ',</span>Assalamu alaikum</h1><p class="soi-app-greet">' + esc(greeting().replace(/^Assalamu alaikum\.\s*/, '')) + '</p>' +
+      '<a class="soi-h-search" href="/search.html?focus=1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/></svg><span>Search articles, topics, Quran 51:56…</span></a></section>' +
+      '<nav class="soi-app-quick" aria-label="Explore">' + QUICK.map(function (q) { return '<a href="' + q[1] + '"><span><svg viewBox="0 0 24 24" aria-hidden="true">' + q[2] + '</svg></span>' + q[0] + '</a>'; }).join('') + '</nav>' +
       '<div id="soi-app-cont"></div>' +
-      '<nav class="soi-app-quick" aria-label="Quick links">' + QUICK.map(function (q) { return '<a href="' + q[1] + '"><span><svg viewBox="0 0 24 24" aria-hidden="true">' + q[2] + '</svg></span>' + q[0] + '</a>'; }).join('') + '</nav>' +
       '<div class="soi-app-hrow"><h2>Latest issue</h2><a href="/archive/">All issues</a></div><div id="soi-app-latest"></div>' +
+      '<div class="soi-app-hrow"><h2>Your day with SOI</h2></div><div class="soi-h-path" id="soi-h-day"></div>' +
       '<div class="soi-app-hrow"><h2>In this issue</h2></div><div class="soi-app-list" id="soi-app-arts"></div>' +
       '<section class="soi-you" id="soi-you"><div class="soi-you-grid">' +
       '<div class="soi-you-card soi-you-prog"><h3>Your progress</h3><div class="soi-you-body"></div></div>' +
       '<div class="soi-you-card soi-you-sug"><h3>Suggested for you</h3><div class="soi-you-body"></div></div>' +
       '<div class="soi-you-card soi-you-mix"><h3>What you read</h3><div class="soi-you-body"></div></div></div></section>' +
-      '<div class="soi-app-hrow"><h2>Quote of the day</h2><a href="/quotes/">All quotes</a></div>' +
+      '<div class="soi-app-hrow"><h2>Quote of the day</h2><a href="/quotes/">One at a time →</a></div>' +
       '<div class="soi-q2-spot soi-qotd-spot" id="soi-qotd-home"><div class="soi-q2-spot-in"><blockquote><p>&nbsp;</p></blockquote></div></div>' +
-      '<div class="soi-app-hrow"><h2>How to use SOI</h2></div>' +
+      '<div class="soi-app-hrow"><h2>How to use SOI</h2><a href="/index.html?welcome=1">Welcome tour</a></div>' +
       '<div class="soi-app-guides">' + GUIDES.map(function (g, k) { return '<div class="soi-app-guide"><span class="soi-ph soi-ph-wait soi-ph-' + k + '"></span><span class="soi-app-guide-play" aria-hidden="true">' + PLAY + '</span><b>' + esc(g) + '</b><small>Video coming soon</small></div>'; }).join('') + '</div>';
     var p = S.store.progress();
     A.manifest(false).then(function (list) { draw(list); return A.manifest(true); }).then(draw).catch(function () {});
@@ -77,8 +81,9 @@ window.soiScreens = function () {
       var pdf = i.pdf ? (/^https?:/.test(i.pdf) ? i.pdf : CFG.remote + i.pdf) : '';
       haveMap().then(function (have) {
         var on = offline(i.slug, have);
-        document.getElementById('soi-app-latest').innerHTML = '<div class="soi-app-latest soi-app-issue" data-slug="' + i.slug + '"><a class="soi-app-latest-cv" href="/issues/' + i.slug + '/">' + cover(i, true) + '</a>' +
-          '<div class="soi-app-latest-t"><small>' + (i.number ? 'Issue ' + i.number : 'New') + '</small><b>' + esc(i.period) + '</b><span>' + (i.articles || '') + ' articles · audio</span>' +
+        document.getElementById('soi-app-latest').innerHTML = '<div class="soi-h-feat soi-app-issue" data-slug="' + i.slug + '"><span class="soi-h-fbg" style="background-image:url(/assets/covers/' + i.slug + '.webp)"></span>' +
+          '<a class="soi-h-book" href="/issues/' + i.slug + '/" aria-label="Open ' + esc(i.period) + '"><span class="soi-h-bk">' + cover(i, true) + '</span></a>' +
+          '<div class="soi-h-ft"><small>' + (i.number ? 'New · Issue ' + i.number : 'New') + '</small><b>' + esc(i.period) + '</b><span>' + (i.articles || '') + ' articles · read &amp; listen</span>' +
           '<a class="soi-app-btn soi-app-b-read" href="/issues/' + i.slug + '/">Read &amp; Listen</a>' +
           '<span class="soi-app-latest-2">' + (pdf ? '<a class="soi-app-btn is-line" href="' + esc(pdf) + '">PDF</a>' : '') +
           '<button type="button" class="soi-app-btn is-line soi-app-b-save" aria-pressed="' + on + '">' + SAVE + (on ? 'Saved' : 'Save') + '</button></span></div></div>';
@@ -86,6 +91,14 @@ window.soiScreens = function () {
       document.getElementById('soi-app-arts').innerHTML = (i.arts || []).slice(0, 4).map(function (a, k) {
         return '<a href="/issues/' + i.slug + '/#soi-' + a[0] + '"><span class="soi-app-n">' + (k + 1) + '</span><span class="soi-app-at"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b></span><span class="soi-app-min">' + a[3] + ' min</span></a>';
       }).join('') + '<a class="soi-app-more" href="/issues/' + i.slug + '/">All ' + i.articles + ' articles →</a>';
+      var dk = new Date().toISOString().slice(0, 10), rd = S.store.read(), readToday = Object.keys(rd).some(function (sl) { return Object.keys(rd[sl]).some(function (id) { return new Date(rd[sl][id]).toISOString().slice(0, 10) === dk; }); });
+      var a0 = (i.arts || [])[0] || [], lis = p && p.slug ? { h: '/issues/' + p.slug + '/?resume=1#soi-' + p.id, t: p.title, m: 'Continue listening' } : { h: '/issues/' + i.slug + '/#soi-' + a0[0], t: a0[1] || 'The first article', m: (a0[3] || 3) + ' min · listen or read' };
+      var steps = [[S.LS.get('soiQuoteDay', '') === dk ? 'done' : '', 'Quote of the day', 'Reflect on one thought', '/quotes/', '1 min'],
+        [readToday ? 'done' : (p ? 'now' : ''), 'Listen', lis.t, lis.h, lis.m],
+        [S.LS.get('soiQuizDay', '') === dk ? 'done' : '', 'Quiz', 'Ten questions on this issue', '/issues/' + i.slug + '/#soi-quiz', '+ gems']];
+      document.getElementById('soi-h-day').innerHTML = steps.map(function (st) {
+        return '<a class="soi-h-step" data-x="' + st[0] + '" href="' + st[3] + '"><span class="soi-x-dot">' + (st[0] === 'done' ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>' : '') + '</span><span class="soi-h-sc"><small>' + st[1] + '</small><b>' + esc(st[2]) + '</b><i>' + esc(st[4]) + '</i></span></a>';
+      }).join('');
       var c = document.getElementById('soi-app-cont');
       if (p) {
         var left = p.min ? Math.max(1, Math.round(p.min * (1 - (p.frac || 0)))) : 0, it = list.filter(function (x) { return x.slug === p.slug; })[0] || { slug: p.slug, period: '' };

@@ -124,8 +124,9 @@ def main():
     else:
         print("note: run `npm install` in app/ first to pack Plus Jakarta Sans inside the app (using Google Fonts links for now)")
     write("assets/app.css", css)
-    for f in ("app.js", "screens.js"):
-        shutil.copy(os.path.join(HERE, "src", f), os.path.join(WWW, "assets", f))
+    shutil.copy(os.path.join(HERE, "src", "screens.js"), os.path.join(WWW, "assets", "screens.js"))
+    write("assets/app.js", open(os.path.join(HERE, "src", "app.js"), encoding="utf-8").read() + "\n" +    # app layer + the experience layer
+          open(os.path.join(HERE, "src", "experience.js"), encoding="utf-8").read())
     write("assets/app-config.json", json.dumps({"remote": cfg["remote"].rstrip("/"), "share": cfg.get("share", cfg["remote"]).rstrip("/"),
                                                 "bundled": bundled, "fonts": fonts}))
 
