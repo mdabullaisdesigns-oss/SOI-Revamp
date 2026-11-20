@@ -682,3 +682,73 @@ html.soi-app #soi-gotop { display: none !important; }            /* the app has 
 .soi-x-years { overflow-x: auto; justify-content: safe center; scrollbar-width: none; padding-top: 6px; padding-bottom: 4px; bottom: 8px; }
 .soi-x-years::-webkit-scrollbar { display: none; }
 #soi-x-hero { overflow: hidden; }
+
+/* ===================== 20 Nov (c): fixes from the phone ===================== */
+/* tab bar: one clean pill, the current tab a smaller pill inside it */
+#soi-app-tabs { height: 66px !important; padding: 7px !important; box-sizing: border-box; align-items: center; }
+#soi-app-tabs a { height: 52px !important; min-height: 0 !important; padding: 0 !important; margin: 0 !important; box-shadow: none !important; gap: 8px !important; color: #6B7B81; }
+#soi-app-tabs a[aria-current="page"] { box-shadow: 0 8px 18px -10px rgba(16, 38, 47, .7) !important; }
+#soi-app-tabs a[aria-current="page"] svg { fill: none !important; stroke: #fff; }
+/* no previous/next issue, no developer credit, the guest card as a proper sheet */
+html.soi-app .soi-pager { display: none !important; }
+html.soi-app .soi-invite { left: 12px !important; right: 12px !important; width: auto !important; bottom: calc(12px + env(safe-area-inset-bottom, 0px)) !important; z-index: 170 !important; border-radius: 26px !important; box-shadow: 0 0 0 100vmax rgba(10, 28, 37, .45), 0 24px 50px -10px rgba(0, 0, 0, .5) !important; }
+html.soi-app .soi-invite-ph { height: 110px !important; }
+/* quote of the day: six actions in a tidy 3 × 2 grid */
+html.soi-app .soi-q2-act.is-big { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+html.soi-app .soi-q2-act.is-big button { justify-content: center; padding: 0 6px; min-height: 44px; font-size: 13px; }
+/* issue tabs with icons (Read & Listen · Audio only · PDF · Quiz) */
+.soi-x-tabs { overflow-x: auto; scrollbar-width: none; margin-left: -18px; margin-right: -18px; padding: 0 18px 2px; }
+.soi-x-tabs::-webkit-scrollbar { display: none; }
+.soi-x-tabs button, .soi-x-tabs a { flex: none; display: inline-flex; align-items: center; gap: 7px; height: 40px; padding: 0 15px; border: 0; border-radius: 99px; background: #DDE9EC; color: #204E60; font: 700 13.5px "Plus Jakarta Sans", sans-serif; text-decoration: none; cursor: pointer; }
+.soi-x-tabs a[hidden] { display: none; }
+.soi-x-tabs svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.soi-x-tabs [aria-selected="true"] { background: #173A48; color: #fff; }
+.soi-x-about { display: none; }
+/* mini player: at the bottom (no Play all bar any more), with a close button */
+#soi-x-mini { bottom: calc(14px + env(safe-area-inset-bottom, 0px)); padding-right: 6px; gap: 10px; }
+.soi-x-mx { width: 36px; height: 36px; flex: none; border: 0; border-radius: 50%; background: #EEEEE5; color: #53656D; display: grid; place-items: center; }
+.soi-x-mx svg { width: 17px !important; height: 17px !important; }
+body.soi-x-has-mini { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)) !important; }
+/* the player: a nature photo at the top fading into the page; everything in one column so nothing overlaps */
+#soi-x-full { overflow-y: auto; }
+.soi-x-pbg { position: absolute; z-index: 0; left: 0; right: 0; top: 0; height: 58%; background: center/cover; transition: background-image .6s; }
+.soi-x-pbg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(244, 242, 234, .1) 0%, rgba(244, 242, 234, .35) 45%, #F7F6F1 100%); }
+#soi-x-full > *:not(.soi-x-pbg):not(.soi-x-sheet2) { position: relative; z-index: 1; }
+.soi-x-ftop small { background: rgba(255, 255, 255, .85); padding: 6px 12px; border-radius: 99px; color: #173A48; }
+.soi-x-lyr { position: relative !important; transform: none !important; top: auto; left: auto; right: auto; box-sizing: border-box; width: calc(100% - 32px); margin: 0 16px; padding: 0 18px; max-height: 0; overflow: hidden; border-radius: 22px; background: rgba(255, 255, 255, .92); box-shadow: 0 16px 34px -20px rgba(16, 38, 47, .5); transition: max-height .5s cubic-bezier(.2, .7, .2, 1), padding .5s, margin .5s; }
+#soi-x-full.is-read .soi-x-lyr { max-height: 44vh; padding: 16px 18px; margin-top: 14px; overflow-y: auto; }
+.soi-x-lyr-in p { margin: 0 0 10px; font: 400 19px/1.45 "Cita Pro", Georgia, serif; color: rgba(23, 58, 72, .35); }
+.soi-x-lyr-in p.is-on { color: #173A48; } .soi-x-lyr-in p.is-past { color: rgba(23, 58, 72, .22); }
+.soi-x-car { height: 300px; margin: 18px 0 8px; transition: height .5s cubic-bezier(.2, .7, .2, 1), opacity .4s, margin .5s; }
+#soi-x-full.is-read .soi-x-car { height: 0 !important; margin: 0 !important; opacity: 0; pointer-events: none; }
+#soi-x-full.is-read .soi-x-card { width: 200px; height: 280px; margin-left: -100px; }
+#soi-x-full.is-read .soi-x-ft { margin-top: 16px; } #soi-x-full.is-read .soi-x-ft b { font-size: 22px; }
+.soi-x-card { box-shadow: 0 26px 40px -22px rgba(16, 38, 47, .65), 0 0 0 4px rgba(255, 255, 255, .85); }
+.soi-x-cimg { background-size: cover !important; background-position: center !important; }
+/* "Read along" switch, so people see the feature */
+.soi-x-readbtn { display: flex; align-items: center; gap: 12px; width: calc(100% - 40px); margin: 16px 20px 0; padding: 10px 12px; border: 0; border-radius: 18px; background: #fff; box-shadow: 0 0 0 1px #E6E3D6; text-align: left; color: #173A48; cursor: pointer; }
+.soi-x-rb-ic { width: 38px; height: 38px; flex: none; border-radius: 12px; background: #EEF3F4; display: grid; place-items: center; color: #204E60; }
+.soi-x-rb-ic svg { width: 20px !important; height: 20px !important; }
+.soi-x-rb-t { flex: 1; display: flex; flex-direction: column; } .soi-x-rb-t b { font-size: 14px; } .soi-x-rb-t small { font-size: 12px; color: #53656D; }
+.soi-x-sw { width: 44px; height: 26px; flex: none; border-radius: 99px; background: #D9D6C9; position: relative; transition: background .25s; }
+.soi-x-sw::after { content: ""; position: absolute; left: 3px; top: 3px; width: 20px; height: 20px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .3); transition: transform .25s; }
+.soi-x-readbtn[aria-pressed="true"] .soi-x-sw { background: #204E60; } .soi-x-readbtn[aria-pressed="true"] .soi-x-sw::after { transform: translateX(18px); }
+.soi-x-readbtn[aria-pressed="true"] .soi-x-rb-ic { background: #204E60; color: #D4CC73; }
+.soi-x-prog { margin-top: 14px; }
+.soi-x-ctl { padding: 0 16px; margin-top: 8px; }
+.soi-x-prev, .soi-x-next { width: 44px; height: 44px; opacity: 1; } .soi-x-prev svg, .soi-x-next svg { width: 24px !important; height: 24px !important; }
+.soi-x-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: calc(100% - 40px); margin: 16px 20px 0; }
+.soi-x-row button { height: auto; padding: 10px 6px; border-radius: 16px; background: #fff; color: #173A48; box-shadow: 0 0 0 1px #E6E3D6; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.soi-x-row button b { font-size: 15px; display: grid; place-items: center; height: 22px; } .soi-x-row button b svg { width: 20px !important; height: 20px !important; }
+.soi-x-row button small { font-size: 11.5px; font-weight: 600; color: #53656D; }
+.soi-x-row button.is-on { background: #204E60; color: #fff; } .soi-x-row button.is-on small { color: #D4CC73; }
+.soi-x-sheet2 { position: fixed; inset: 0; z-index: 5; background: rgba(10, 28, 37, 0); transition: background .25s; display: flex; align-items: flex-end; }
+.soi-x-sheet2[hidden] { display: none; } .soi-x-sheet2.is-open { background: rgba(10, 28, 37, .4); }
+.soi-x-sh-in { width: 100%; padding: 20px 18px calc(22px + env(safe-area-inset-bottom, 0px)); border-radius: 26px 26px 0 0; background: #fff; transform: translateY(100%); transition: transform .3s cubic-bezier(.2, .7, .2, 1); }
+.soi-x-sheet2.is-open .soi-x-sh-in { transform: none; }
+.soi-x-sh-t { display: block; font: 400 22px "Cita Pro", Georgia, serif; margin-bottom: 12px; color: #173A48; }
+.soi-x-sh-opts { display: grid; gap: 6px; }
+.soi-x-sh-opts button { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; border: 0; border-radius: 14px; background: #F4F2EA; color: #173A48; font: 600 15px "Plus Jakarta Sans", sans-serif; }
+.soi-x-sh-opts button small { font-size: 12.5px; color: #53656D; font-weight: 500; }
+.soi-x-sh-opts button[aria-pressed="true"] { background: #204E60; color: #fff; } .soi-x-sh-opts button[aria-pressed="true"] small { color: #D4CC73; }
+.soi-x-row .soi-x-speed { width: auto !important; height: auto !important; border-radius: 16px !important; }

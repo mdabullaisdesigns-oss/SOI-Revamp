@@ -98,10 +98,10 @@
     requestAnimationFrame(function () { show(0); });
   }
 
-  /* ================= 2. Issue pages (light, "Drift" style) =================
-     Nature cover photo with a curved edge, the year's other issues as round thumbnails on the curve,
-     title + issue number, tabs (Read & Listen · Audio only · Quiz), article cards whose number sits inside
-     a progress ring (gold while reading, teal with a tick when finished), and a Play all bar. */
+  /* ================= 2. Issue pages (light) =================
+     Nature cover photo with a curved edge, the year's issues on the curve, title + issue number,
+     tabs with icons (Read & Listen · Audio only · PDF · Quiz), article cards whose number sits inside a
+     progress ring, a mini player with a close button, and the full player. */
   function artFrac(slug) { return (LSget('soiArtFrac', {})[slug]) || {}; }
   function setFrac(slug, id, f) { var m = LSget('soiArtFrac', {}); m[slug] = m[slug] || {}; if ((m[slug][id] || 0) < f) { m[slug][id] = Math.round(f * 100) / 100; LSset('soiArtFrac', m); } }
   function ring(n, f, done) {
@@ -109,6 +109,12 @@
     return '<span class="soi-x-ring' + (done ? ' is-done' : f > 0 ? ' is-part' : '') + '"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17"/><circle class="p" cx="20" cy="20" r="17" style="stroke-dasharray:' + C.toFixed(1) + ';stroke-dashoffset:' + off.toFixed(1) + '"/></svg>' +
       '<b>' + (done ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>' : n) + '</b></span>';
   }
+  var ICT = {
+    read: svg('<path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13"/>'),
+    audio: svg('<path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>'),
+    pdf: svg('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/>'),
+    quiz: svg('<path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c1.5 1.5 3.4 2.2 5.5 2.2s4-.7 5.5-2.2V11M21.5 9v5"/>')
+  };
   function issuePage(meta) {
     var slug = meta.content, label = meta.getAttribute('data-label') || '', ev = $('.soi-ev');
     if (!ev || $('#soi-x-hero')) return;
@@ -117,7 +123,6 @@
     var title = h1 && h1.firstChild ? h1.firstChild.textContent.trim() : label, num = (kicker.match(/\d+/) || [''])[0];
     var items = $$('.ev-item', ev), withAudio = items.filter(function (it) { return $('audio', it); });
     var year = (label.match(/(19|20)\d\d/) || [''])[0];
-    var desc = (($('meta[name="description"]') || {}).content || '').replace(/^.*?:\s*/, '');
     var hero = document.createElement('section'); hero.id = 'soi-x-hero';
     hero.innerHTML = '<div class="soi-x-hph" style="background-image:url(/assets/covers/' + slug + '@2x.webp),url(/assets/covers/' + slug + '.webp)"></div>' +
       '<div class="soi-x-htop"><button type="button" class="soi-x-wbtn soi-x-hback" aria-label="Back">' + I.back + '</button><span></span>' +
@@ -127,8 +132,9 @@
     sheet.innerHTML = '<p class="soi-x-src"><img src="/assets/brand/Peogen-logo.png" alt="">Spirit of Islam' + (year ? ' · ' + year : '') + '</p>' +
       '<div class="soi-x-trow"><h1>' + esc(title) + '</h1><span class="soi-x-badge">' + (num ? '<b>' + num + '</b><small>Issue</small>' : '') + '</span></div>' +
       '<p class="soi-x-meta">' + items.length + ' articles · ' + withAudio.length + ' to listen</p>' +
-      '<div class="soi-x-tabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-tab="read">Read &amp; Listen</button><button type="button" role="tab" aria-selected="false" data-tab="audio">Audio only</button><button type="button" role="tab" aria-selected="false" data-tab="quiz">Quiz</button></div>' +
-      (desc ? '<div class="soi-x-about"><h3>In this issue</h3><p>' + esc(desc) + '</p></div>' : '') +
+      '<div class="soi-x-tabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-tab="read">' + ICT.read + 'Read &amp; Listen</button>' +
+      '<button type="button" role="tab" aria-selected="false" data-tab="audio">' + ICT.audio + 'Audio only</button>' +
+      '<a class="soi-x-tpdf" href="#" hidden>' + ICT.pdf + 'PDF</a><button type="button" data-tab="quiz">' + ICT.quiz + 'Quiz</button></div>' +
       '<div class="soi-x-alist" role="list" hidden></div>';
     var main = $('main') || document.body, first = $('.soi-issue') || ev;
     main.insertBefore(hero, main.firstChild);
@@ -148,9 +154,8 @@
       var same = l.filter(function (x) { return (x.period || '').indexOf(year) >= 0; }).slice(-6), it = l.filter(function (x) { return x.slug === slug; })[0];
       $('.soi-x-years', hero).innerHTML = same.map(function (x) { return '<a href="/issues/' + x.slug + '/" class="' + (x.slug === slug ? 'is-on' : '') + '" aria-label="' + esc(x.period) + '" style="background-image:url(/assets/covers/' + x.slug + '.webp)"></a>'; }).join('') +
         '<a href="/archive/" class="soi-x-yall" aria-label="All issues">All</a>';
-      if (it && it.pdf) { var a = $('.soi-x-pdf', dock); a.href = abs(it.pdf); a.hidden = false; }
+      if (it && it.pdf) { var a = $('.soi-x-tpdf', sheet); a.href = abs(it.pdf); a.hidden = false; }
     }).catch(function () {});
-    /* number inside a progress ring on every article tab */
     function paint() {
       var read = (LSget('soiRead', {})[slug]) || {}, fr = artFrac(slug), p = LSget('soiProgress', null);
       items.forEach(function (it, k) {
@@ -158,11 +163,10 @@
         var n = $('.ev-num', it); if (n) { var key = (done ? 'd' : '') + Math.round(f * 50); if (n.getAttribute('data-k') !== key) { n.setAttribute('data-k', key); n.innerHTML = ring(('0' + (k + 1)).slice(-2), f, done); } }
         it.setAttribute('data-x', done ? 'done' : f > 0 ? 'now' : '');
       });
-      $$('.soi-x-arow', sheet).forEach(function (r) { var it = document.getElementById(r.getAttribute('data-id')), k = items.indexOf(it), id = it.id.replace(/^soi-/, ''); $('.soi-x-anum', r).innerHTML = ring(('0' + (k + 1)).slice(-2), fr[id] || 0, !!read[id]); });
+      $$('.soi-x-arow', sheet).forEach(function (r) { var it = document.getElementById(r.getAttribute('data-id')), k = items.indexOf(it), id = it.id.replace(/^soi-/, ''); $('.soi-x-anum', r).innerHTML = ring(('0' + (k + 1)).slice(-2), fr[id] || 0, !!read[id]); r.setAttribute('data-x', read[id] ? 'done' : ''); });
     }
-    /* Audio only: every article that has a recording, played straight away */
     $('.soi-x-alist', sheet).innerHTML = withAudio.map(function (it) {
-      var d = +($('[data-duration]', it) || { getAttribute: function () { return 0; } }).getAttribute('data-duration') || 0;
+      var dd = $('[data-duration]', it), d = dd ? +dd.getAttribute('data-duration') || 0 : 0;
       return '<div class="soi-x-arow" role="listitem" data-id="' + it.id + '"><span class="soi-x-anum"></span><span class="soi-x-at"><small>' + esc(($('.ev-kicker', it) || {}).textContent || '') + '</small><b>' + esc(($('.ev-tab-title', it) || {}).textContent || '') + '</b></span>' +
         '<span class="soi-x-adur">' + (d ? mmss(d) : '') + '</span><button type="button" class="soi-x-aplay" aria-label="Play">' + I.play + '</button></div>';
     }).join('');
@@ -170,115 +174,146 @@
     ev.classList.add('soi-x-cards');
     $('.soi-x-tabs', sheet).addEventListener('click', function (e) {
       var b = e.target.closest('button'); if (!b) return; var t = b.getAttribute('data-tab');
-      if (t === 'quiz') { var inv = $('#soi-quiz .z-invite'); if (inv && inv.getAttribute('aria-expanded') !== 'true') inv.click(); return; }
-      $$('button', this).forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+      if (t === 'quiz') { var inv = $('#soi-quiz .z-invite'); if (inv && inv.getAttribute('aria-expanded') !== 'true') inv.click(); else document.documentElement.classList.add('soi-x-quiz', 'soi-x-lock'); return; }
+      $$('button[role="tab"]', this).forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
       $('.soi-x-alist', sheet).hidden = t !== 'audio'; document.documentElement.classList.toggle('soi-x-audioonly', t === 'audio');
     });
     $('.soi-x-alist', sheet).addEventListener('click', function (e) { var r = e.target.closest('.soi-x-arow'); if (r) playItem(document.getElementById(r.getAttribute('data-id')), true); });
-    var dock = document.createElement('div'); dock.id = 'soi-x-dock';
-    dock.innerHTML = '<a class="soi-x-pdf" href="#" hidden aria-label="PDF">' + I.pdf + '</a><button type="button" class="soi-x-playall"><span>Play all</span><i>' + I.play + '</i></button>';
-    document.body.appendChild(dock); document.body.classList.add('soi-x-has-dock');
-    $('.soi-x-playall', dock).addEventListener('click', function () {
-      if (cur) { if (cur.paused) cur.play(); else openFull(); return; }
-      var read = (LSget('soiRead', {})[slug]) || {};
-      playItem(withAudio.filter(function (it) { return !read[it.id.replace(/^soi-/, '')]; })[0] || withAudio[0], true);
-    });
-    player(items, withAudio, slug, title, dock);
+    player(items, withAudio, slug, title, num, label);
     quizFull();
   }
 
-  /* play one article's recording directly (no need to open its text) */
+  /* ----- the player. The page's own player makes the sound (one Audio element); this follows it and drives it ----- */
   var cur = null, openFull = function () {}, playItem = function () {};
-  function player(items, withAudio, slug, issueTitle, dock) {
+  var PLPH = ['quote-4', 'guide2', 'topic-patience', 'quote-1', 'guide1', 'topic-peace', 'quote-2', 'hero', 'quote-6', 'topic-gratitude'];
+  function player(items, withAudio, slug, issueTitle, num, label) {
+    var cover = remote() + '/assets/covers/' + slug + '.webp';
     var mini = document.createElement('div'); mini.id = 'soi-x-mini'; mini.hidden = true;
     mini.innerHTML = '<span class="soi-x-mcv" style="background-image:url(/assets/covers/' + slug + '.webp)"></span><span class="soi-x-mt"><b></b><small></small></span>' +
-      '<button type="button" class="soi-x-mpp" aria-label="Play or pause">' + I.pause + '</button><i class="soi-x-mbar"></i>';
+      '<button type="button" class="soi-x-mpp" aria-label="Play or pause">' + I.pause + '</button><button type="button" class="soi-x-mx" aria-label="Stop and close">' + I.close + '</button><i class="soi-x-mbar"></i>';
     var full = document.createElement('div'); full.id = 'soi-x-full'; full.hidden = true;
-    full.innerHTML = '<div class="soi-x-lyr" aria-live="polite"><div class="soi-x-lyr-in"></div><svg class="soi-x-lyr-edge" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H400V14C330 40 250 6 200 18S70 40 0 16Z"/></svg></div>' +
-      '<div class="soi-x-ftop"><button type="button" class="soi-x-fclose" aria-label="Close player">' + I.down + '</button><small>' + esc(issueTitle) + '</small><button type="button" class="soi-x-fread" aria-label="Show the words">' + I.book + '</button></div>' +
+    full.innerHTML = '<div class="soi-x-pbg"></div>' +
+      '<div class="soi-x-ftop"><button type="button" class="soi-x-fclose" aria-label="Close player">' + I.down + '</button><small>' + (num ? 'Issue ' + num + ' · ' : '') + esc(issueTitle) + '</small><button type="button" class="soi-x-fshare" aria-label="Share">' + I.share + '</button></div>' +
+      '<div class="soi-x-lyr" aria-live="polite"><div class="soi-x-lyr-in"></div></div>' +
       '<div class="soi-x-car"><div class="soi-x-car-in"></div></div>' +
       '<div class="soi-x-ft"><small></small><b></b><span></span></div>' +
+      '<button type="button" class="soi-x-readbtn" aria-pressed="false"><span class="soi-x-rb-ic">' + svg('<path d="M4 6h16M4 10h16M4 14h10M4 18h7"/>') + '</span><span class="soi-x-rb-t"><b>Read along</b><small>See the words as they are spoken</small></span><i class="soi-x-sw"></i></button>' +
       '<div class="soi-x-prog"><input type="range" class="soi-x-seek" min="0" max="1000" value="0" aria-label="Position"><div class="soi-x-times"><span>0:00</span><span>0:00</span></div></div>' +
-      '<div class="soi-x-ctl"><button type="button" class="soi-x-speed" aria-label="Speed">1×</button><button type="button" class="soi-x-b15" aria-label="Back 15 seconds">' + svg('<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>') + '<i>15</i></button>' +
+      '<div class="soi-x-ctl"><button type="button" class="soi-x-prev" aria-label="Previous article">' + svg('<path d="M18 6 9 12l9 6zM6 6v12"/>') + '</button><button type="button" class="soi-x-b15" aria-label="Back 15 seconds">' + svg('<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>') + '<i>15</i></button>' +
       '<button type="button" class="soi-x-big" aria-label="Play or pause">' + I.pause + '</button><button type="button" class="soi-x-f15" aria-label="Forward 15 seconds">' + svg('<path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/>') + '<i>15</i></button>' +
-      '<button type="button" class="soi-x-share2" aria-label="Share">' + I.share + '</button></div>';
+      '<button type="button" class="soi-x-next" aria-label="Next article">' + svg('<path d="m6 6 9 6-9 6zM18 6v12"/>') + '</button></div>' +
+      '<div class="soi-x-row"><button type="button" class="soi-x-speed"><b>1×</b><small>Speed</small></button><button type="button" class="soi-x-timer"><b>' + svg('<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/>') + '</b><small>Sleep</small></button><button type="button" class="soi-x-goto"><b>' + svg('<path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13"/>') + '</b><small>Article</small></button></div>' +
+      '<div class="soi-x-sheet2" hidden><div class="soi-x-sh-in"><b class="soi-x-sh-t"></b><div class="soi-x-sh-opts"></div></div></div>';
     document.body.appendChild(mini); document.body.appendChild(full);
     var curItem = null, sents = [], lastS = -1;
-    /* the carousel: one card per recorded article; the cover in the middle, numbered cards either side */
     $('.soi-x-car-in', full).innerHTML = withAudio.map(function (it, k) {
-      return '<button type="button" class="soi-x-card" data-k="' + k + '" aria-label="' + esc(($('.ev-tab-title', it) || {}).textContent || '') + '"><span class="soi-x-cimg" style="background-image:url(/assets/covers/' + slug + '@2x.webp),url(/assets/covers/' + slug + '.webp);background-position:' + (20 + (k * 37) % 60) + '% ' + (52 + (k * 23) % 24) + '%"></span>' +
+      return '<button type="button" class="soi-x-card" data-k="' + k + '" aria-label="' + esc(($('.ev-tab-title', it) || {}).textContent || '') + '"><span class="soi-x-cimg" style="background-image:url(/assets/photos/' + PLPH[k % PLPH.length] + '.webp)"></span>' +
         '<span class="soi-x-cnum">' + ('0' + (items.indexOf(it) + 1)).slice(-2) + '</span><span class="soi-x-ckick">' + esc(($('.ev-kicker', it) || {}).textContent || '') + '</span></button>';
     }).join('');
-    function itemOf(a) { return a.closest('.ev-item'); }
+    function idOfSrc(src) { var it = null; withAudio.some(function (x) { var a = $('audio', x), s = a && (a.getAttribute('src') || ''); if (s && src && (src === s || src.split('/').pop() === s.split('/').pop())) { it = x; return true; } }); return it; }
     function place() {
       var k = withAudio.indexOf(curItem);
       $$('.soi-x-card', full).forEach(function (c, j) { var d = j - k; c.style.setProperty('--d', d); c.classList.toggle('is-on', d === 0); c.hidden = Math.abs(d) > 2; });
+      $('.soi-x-pbg', full).style.backgroundImage = 'url(/assets/photos/' + PLPH[Math.max(0, k) % PLPH.length] + '.webp)';
     }
     function info() {
       if (!curItem) return;
       var t = ($('.ev-tab-title', curItem) || {}).textContent || '', k = ($('.ev-kicker', curItem) || {}).textContent || '', who = (($('.ev-meta span', curItem) || {}).textContent || '');
       $('.soi-x-mt b', mini).textContent = t; $('.soi-x-ft b', full).textContent = t; $('.soi-x-ft small', full).textContent = k;
-      $('.soi-x-ft span', full).textContent = (who ? who + ' · ' : '') + 'Article ' + (items.indexOf(curItem) + 1) + ' of ' + items.length;
+      $('.soi-x-ft span', full).textContent = (who && !/min/.test(who) ? who + ' · ' : '') + 'Article ' + (items.indexOf(curItem) + 1) + ' of ' + items.length;
       sents = $$('.ev-content .ev-s[data-t]', curItem).map(function (s) { return { t: +s.getAttribute('data-t'), x: s.textContent }; }); lastS = -1;
-      place();
+      place(); lyrics(true);
+      try {                                                   /* lock screen: article title and the issue cover */
+        if ('mediaSession' in navigator && window.MediaMetadata) setTimeout(function () { navigator.mediaSession.metadata = new MediaMetadata({ title: t, artist: 'Spirit of Islam', album: (num ? 'Issue ' + num + ' · ' : '') + label, artwork: [{ src: cover, sizes: '600x850', type: 'image/webp' }] }); }, 80);
+      } catch (e) {}
     }
-    function lyrics() {
-      if (!cur || !sents.length || !full.classList.contains('is-read')) return;
+    function lyrics(force) {
+      if (!cur || !full.classList.contains('is-read')) return;
+      if (!sents.length) { $('.soi-x-lyr-in', full).innerHTML = '<p class="is-on">The words of this article appear here as they are read.</p>'; return; }
       var t = cur.currentTime, k = 0; for (var i = 0; i < sents.length; i++) { if (sents[i].t <= t) k = i; else break; }
-      if (k === lastS) return; lastS = k;
-      $('.soi-x-lyr-in', full).innerHTML = sents.slice(Math.max(0, k - 1), k + 3).map(function (s, j) { return '<p class="' + ((Math.max(0, k - 1) + j) === k ? 'is-on' : '') + '">' + esc(s.x) + '</p>'; }).join('');
+      if (k === lastS && !force) return; lastS = k;
+      var from = Math.max(0, k - 1);
+      $('.soi-x-lyr-in', full).innerHTML = sents.slice(from, k + 4).map(function (s, j) { return '<p class="' + (from + j === k ? 'is-on' : from + j < k ? 'is-past' : '') + '">' + esc(s.x) + '</p>'; }).join('');
     }
+    var seeking = false;
     function tick() {
-      if (!cur) return; var d = cur.duration || 0, p = d ? cur.currentTime / d : 0;
-      $('.soi-x-mbar', mini).style.width = (p * 100) + '%'; $('.soi-x-mt small', mini).textContent = mmss(cur.currentTime) + ' / ' + mmss(d);
+      if (!cur) return; var d = isFinite(cur.duration) ? cur.duration : 0, p = d ? cur.currentTime / d : 0;
+      $('.soi-x-mbar', mini).style.width = (p * 100) + '%'; $('.soi-x-mt small', mini).textContent = mmss(cur.currentTime) + (d ? ' / ' + mmss(d) : '');
       if (curItem && p > 0) setFrac(slug, curItem.id.replace(/^soi-/, ''), p > .97 ? 1 : p);
       if (!full.hidden) {
-        if (!seeking) $('.soi-x-seek', full).value = Math.round(p * 1000);
-        $('.soi-x-seek', full).style.setProperty('--p', (p * 100) + '%');
-        var ts = $$('.soi-x-times span', full); ts[0].textContent = mmss(cur.currentTime); ts[1].textContent = '-' + mmss(d - cur.currentTime);
+        var seek = $('.soi-x-seek', full);
+        if (!seeking) { seek.value = Math.round(p * 1000); seek.style.setProperty('--p', (p * 100) + '%'); }
+        var ts = $$('.soi-x-times span', full); ts[0].textContent = mmss(cur.currentTime); ts[1].textContent = d ? '-' + mmss(d - cur.currentTime) : '';
         lyrics();
       }
     }
     function state() {
-      var on = cur && !cur.paused;
-      $('.soi-x-mpp', mini).innerHTML = on ? I.pause : I.play; $('.soi-x-big', full).innerHTML = on ? I.pause : I.play;
-      full.classList.toggle('is-playing', !!on);
-      var pa = $('.soi-x-playall', dock); if (pa) pa.innerHTML = '<span>' + (on ? 'Now playing' : cur ? 'Resume' : 'Play all') + '</span><i>' + (on ? I.pause : I.play) + '</i>';
+      var on = !!(cur && !cur.paused && !cur.ended);
+      if (mini.getAttribute('data-on') !== String(on)) { mini.setAttribute('data-on', on); $('.soi-x-mpp', mini).innerHTML = on ? I.pause : I.play; $('.soi-x-big', full).innerHTML = on ? I.pause : I.play; }
+      full.classList.toggle('is-playing', on);
     }
-    document.addEventListener('play', function (e) {
-      var a = e.target; if (!a || a.tagName !== 'AUDIO' || !itemOf(a)) return;
-      if (cur && cur !== a) cur.pause();
-      cur = a; curItem = itemOf(a); mini.hidden = false; document.body.classList.add('soi-x-has-mini'); info(); state(); tick();
-    }, true);
-    ['pause', 'ended'].forEach(function (n) { document.addEventListener(n, function (e) { if (e.target === cur) state(); }, true); });
-    document.addEventListener('ended', function (e) { if (e.target === cur && full.classList.contains('is-open')) jump(1); }, true);
-    document.addEventListener('timeupdate', function (e) { if (e.target === cur) tick(); }, true);
-    playItem = function (it, show) {
-      if (!it) return; var a = $('audio', it); if (!a) return;
-      if (a.getAttribute('src')) a.src = abs(a.getAttribute('src'));
-      a.play().catch(function () { toast('Audio needs internet'); });
-      if (show) openFull();
-    };
-    openFull = function () { full.hidden = false; document.documentElement.classList.add('soi-x-lock'); requestAnimationFrame(function () { full.classList.add('is-open'); }); tick(); };
+    var bound = [];
+    function adopt(a) {
+      if (!a || a.tagName !== 'AUDIO') return;
+      var it = a.closest ? a.closest('.ev-item') : null; it = it || idOfSrc(a.currentSrc || a.src); if (!it) return;
+      if (cur && cur !== a && !cur.paused) cur.pause();
+      cur = a; if (curItem !== it) { curItem = it; info(); }
+      mini.hidden = false; document.body.classList.add('soi-x-has-mini');
+      if (bound.indexOf(a) < 0) { bound.push(a); ['play', 'pause', 'ended', 'playing', 'waiting'].forEach(function (n) { a.addEventListener(n, function () { if (a === cur) state(); }); }); a.addEventListener('timeupdate', function () { if (a === cur) tick(); }); a.addEventListener('ended', function () { if (a === cur && !full.hidden && LSget('soiAutoNext', 1)) jump(1); }); }
+      state(); tick();
+    }
+    document.addEventListener('play', function (e) { adopt(e.target); }, true);
+    document.addEventListener('soi-audio-play', function (e) { adopt(e.detail); });
+    setInterval(function () { if (cur) { state(); if (!document.hidden) tick(); } }, 700);    /* keeps the buttons true even when the lock screen controls are used */
+    function sitePlay(it) {                                   /* press the article's own play button, so the page player, the lock screen and progress stay in step */
+      var b = $('.ev-pl-play', it); if (b) { b.click(); return true; }
+      var a = $('audio', it); if (a) { a.play().catch(function () { toast('Audio needs internet'); }); return true; }
+      return false;
+    }
+    playItem = function (it, show) { if (!it) return; if (cur && !cur.paused) cur.pause(); curItem = it; info(); sitePlay(it); mini.hidden = false; document.body.classList.add('soi-x-has-mini'); if (show) openFull(); };
+    openFull = function () { full.hidden = false; document.documentElement.classList.add('soi-x-lock'); requestAnimationFrame(function () { full.classList.add('is-open'); }); place(); tick(); lyrics(true); };
     function btn(sel, fn) { $(sel, full).addEventListener('click', fn); }
-    $('.soi-x-mpp', mini).addEventListener('click', function (e) { e.stopPropagation(); if (cur) { if (cur.paused) cur.play(); else cur.pause(); } });
+    function toggle() { if (!cur) { if (curItem) sitePlay(curItem); return; } if (cur.paused) cur.play().catch(function () {}); else cur.pause(); setTimeout(state, 60); }
+    $('.soi-x-mpp', mini).addEventListener('click', function (e) { e.stopPropagation(); toggle(); });
+    $('.soi-x-mx', mini).addEventListener('click', function (e) { e.stopPropagation(); if (cur) cur.pause(); mini.hidden = true; document.body.classList.remove('soi-x-has-mini'); });
     mini.addEventListener('click', openFull);
     function close() { full.classList.remove('is-open'); document.documentElement.classList.remove('soi-x-lock'); setTimeout(function () { full.hidden = true; }, 350); }
     btn('.soi-x-fclose', close);
-    btn('.soi-x-big', function () { if (cur) { if (cur.paused) cur.play(); else cur.pause(); } });
+    btn('.soi-x-big', toggle);
     btn('.soi-x-b15', function () { if (cur) cur.currentTime = Math.max(0, cur.currentTime - 15); });
     btn('.soi-x-f15', function () { if (cur) cur.currentTime = Math.min(cur.duration || 0, cur.currentTime + 15); });
-    btn('.soi-x-fread', function () { full.classList.toggle('is-read'); this.classList.toggle('is-on'); lastS = -1; lyrics(); if (!sents.length && full.classList.contains('is-read')) $('.soi-x-lyr-in', full).innerHTML = '<p class="is-on">The words appear here as they are read.</p>'; });
-    var SP = [1, 1.25, 1.5, 1.75, 2, 0.75];
-    btn('.soi-x-speed', function () { if (!cur) return; var k = (SP.indexOf(cur.playbackRate) + 1) % SP.length; cur.playbackRate = SP[k]; this.textContent = SP[k] + '×'; });
-    function jump(dir) { var k = withAudio.indexOf(curItem) + dir; if (withAudio[k]) { if (cur) cur.pause(); playItem(withAudio[k], false); } }
-    $('.soi-x-car-in', full).addEventListener('click', function (e) { var c = e.target.closest('.soi-x-card'); if (!c) return; var k = +c.getAttribute('data-k'); if (withAudio[k] !== curItem) { if (cur) cur.pause(); playItem(withAudio[k], false); } });
-    btn('.soi-x-share2', function () { if (window.soi && curItem) window.soi.share(($('.ev-tab-title', curItem) || {}).textContent || issueTitle, '/issues/' + slug + '/#' + curItem.id); });
-    var seek = $('.soi-x-seek', full), seeking = false;
+    btn('.soi-x-prev', function () { jump(-1); }); btn('.soi-x-next', function () { jump(1); });
+    btn('.soi-x-readbtn', function () { var on = full.classList.toggle('is-read'); this.setAttribute('aria-pressed', on); LSset('soiReadAlong', on ? 1 : 0); lastS = -1; lyrics(true); });
+    if (LSget('soiReadAlong', 0)) { full.classList.add('is-read'); $('.soi-x-readbtn', full).setAttribute('aria-pressed', 'true'); }
+    btn('.soi-x-goto', function () { close(); if (curItem) setTimeout(function () { var tab = $('.ev-tab', curItem); if (tab && tab.getAttribute('aria-expanded') !== 'true') tab.click(); curItem.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 360); });
+    btn('.soi-x-fshare', function () { if (window.soi && curItem) window.soi.share(($('.ev-tab-title', curItem) || {}).textContent || issueTitle, '/issues/' + slug + '/#' + curItem.id); });
+    /* a small sheet for Speed and Sleep, with words, so nobody has to guess what "1×" means */
+    var sh = $('.soi-x-sheet2', full), sleepT = null;
+    function choose(title, opts, onPick) {
+      $('.soi-x-sh-t', sh).textContent = title;
+      $('.soi-x-sh-opts', sh).innerHTML = opts.map(function (o, k) { return '<button type="button" data-k="' + k + '" aria-pressed="' + !!o[2] + '"><b>' + o[0] + '</b><small>' + o[1] + '</small></button>'; }).join('');
+      sh.hidden = false; requestAnimationFrame(function () { sh.classList.add('is-open'); });
+      sh.onclick = function (e) { var b = e.target.closest('button'); if (b) onPick(+b.getAttribute('data-k')); if (b || e.target === sh) { sh.classList.remove('is-open'); setTimeout(function () { sh.hidden = true; }, 250); } };
+    }
+    btn('.soi-x-speed', function () {
+      var r = cur ? cur.playbackRate : 1, S = [[.75, 'Slower'], [1, 'Normal'], [1.25, 'A little faster'], [1.5, 'Faster'], [2, 'Twice as fast']];
+      choose('Reading speed', S.map(function (x) { return [x[0] + '×', x[1], x[0] === r]; }), function (k) { if (cur) cur.playbackRate = S[k][0]; $('.soi-x-speed b', full).textContent = S[k][0] + '×'; });
+    });
+    btn('.soi-x-timer', function () {
+      var T = [[0, 'Off'], [10, '10 minutes'], [20, '20 minutes'], [30, '30 minutes'], [-1, 'End of this article']];
+      choose('Sleep timer', T.map(function (x) { return [x[1], x[0] > 0 ? 'Stop playing after ' + x[1] : x[0] < 0 ? 'Stop when this article ends' : 'Keep playing', false]; }), function (k) {
+        clearTimeout(sleepT); LSset('soiAutoNext', T[k][0] < 0 ? 0 : 1); var bt = $('.soi-x-timer', full); bt.classList.toggle('is-on', T[k][0] !== 0);
+        if (T[k][0] > 0) { sleepT = setTimeout(function () { if (cur) cur.pause(); bt.classList.remove('is-on'); }, T[k][0] * 60000); toast('Stops in ' + T[k][1]); }
+        else if (T[k][0] < 0) toast('Stops at the end of this article');
+      });
+    });
+    function jump(dir) { var k = withAudio.indexOf(curItem) + dir; if (withAudio[k]) playItem(withAudio[k], false); }
+    $('.soi-x-car-in', full).addEventListener('click', function (e) { var c = e.target.closest('.soi-x-card'); if (!c) return; var k = +c.getAttribute('data-k'); if (withAudio[k] !== curItem) playItem(withAudio[k], false); });
+    var seek = $('.soi-x-seek', full);
     seek.addEventListener('input', function () { seeking = true; seek.style.setProperty('--p', seek.value / 10 + '%'); });
     seek.addEventListener('change', function () { seeking = false; if (cur && cur.duration) cur.currentTime = seek.value / 1000 * cur.duration; });
     var x0 = null, y0 = null;
-    full.addEventListener('touchstart', function (e) { if (e.target.closest('input')) return; x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+    full.addEventListener('touchstart', function (e) { if (e.target.closest('input,.soi-x-lyr')) { x0 = null; return; } x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
     full.addEventListener('touchend', function (e) {
       if (x0 == null) return; var dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0; x0 = null;
       if (dy > 110 && Math.abs(dx) < 60) close(); else if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) && e.target.closest('.soi-x-car')) jump(dx < 0 ? 1 : -1);

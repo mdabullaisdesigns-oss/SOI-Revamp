@@ -1200,3 +1200,7 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-book-front::before { left: 0; width: 7px; background: linear-gradient(90deg, rgba(0, 0, 0, .28), rgba(255, 255, 255, .18) 55%, rgba(0, 0, 0, .12)); }
 .soi-book-back::after { content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 7px; background: linear-gradient(270deg, rgba(0, 0, 0, .28), rgba(255, 255, 255, .18) 55%, rgba(0, 0, 0, .12)); }
 .soi-book-front::before { width: 6px; background: linear-gradient(90deg, rgba(0, 0, 0, .25), rgba(255, 255, 255, .15) 60%, rgba(0, 0, 0, .2)), var(--spine, #173A48); }
+/* quote of the day: Random swaps the quote with a soft fade */
+.soi-qotd-spot.is-swap blockquote, .soi-qotd-spot.is-swap .soi-q2-src, .soi-qotd-spot.is-swap .soi-q2-bg { animation: soiQswap .7s ease both; }
+@keyframes soiQswap { from { opacity: 0; transform: translateY(8px); } }
+@media (max-width: 640px) { .soi-q2-act.is-big { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); } .soi-q2-act.is-big button { justify-content: center; padding: 0 8px; } }

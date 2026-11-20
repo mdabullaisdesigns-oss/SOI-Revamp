@@ -265,9 +265,15 @@
     var a = $('.soi-cont-go', box); a.href = '/issues/' + p.slug + '/?resume=1#soi-' + p.id; a.firstChild.textContent = 'Resume ';
     $('.soi-cont-kicker', box).textContent = 'Continue reading';
   }
-  function qotd() {
+  function randomQuote() {
+    return fetch('/assets/quotes.json').then(function (r) { return r.json(); }).then(function (d) {
+      QPH = d.photos || []; var p = d.quotes.filter(function (q) { return q.t.length < 220; });
+      return p[Math.floor(Math.random() * p.length)];
+    });
+  }
+  function qotd(rand) {
     var box = $('#soi-qotd-home'); if (!box) return;
-    quoteOfDay().then(function (q) {
+    (rand ? randomQuote() : quoteOfDay()).then(function (q) {
       var hh = 0, ht = q.s + q.a + q.t.length; for (var hi = 0; hi < ht.length; hi++) hh = (hh * 31 + ht.charCodeAt(hi)) | 0;
       var ph = QPH.length ? QPH[Math.abs(hh) % QPH.length] : '', speak = !!q.au, on = store.hasQuote(q), au = null;
       var I = {
@@ -276,16 +282,18 @@
         img: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5v-1.6l4-4 3 3 4-4 3 3zm0-5.4-3-3-4 4-3-3-4 4V5h14zM8.5 10A1.5 1.5 0 1 0 8.5 7a1.5 1.5 0 0 0 0 3"/></svg>',
         wa: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 2a8 8 0 1 1-4.2 14.8l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4"/></svg>',
         copy: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-9a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1m-1 11h-7v-9h7zM4 3h9a1 1 0 0 1 1 1v2h-2V5H5v9h1v2H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1"/></svg>',
+        rand: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 9.2 5.4 4 4 5.4l5.2 5.2zM14.5 4l2 2L4 18.6 5.4 20 18 7.5l2 2V4zm.3 9.4-1.4 1.4 3.1 3.1-2 2.1H20v-5.5l-2 2z"/></svg>',
         save: '<svg class="soi-fi" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7a2 2 0 0 0-2 2v17.4a.6.6 0 0 0 .95.5L12 18l6.05 3.9a.6.6 0 0 0 .95-.5V4a2 2 0 0 0-2-2m0 16.5-5-3.2-5 3.2V4h10z"/></svg>' };
       var txt = '“' + q.t + '”\n— ' + (q.hd === 'saying' ? 'Prophet Muhammad ﷺ' + (q.ref ? ' (' + q.ref + ')' : '') + '\nShared from Spirit of Islam · ' : 'Spirit of Islam Magazine · ') + 'spiritofislam.co.in';
       box.innerHTML = (ph ? '<img class="soi-q2-bg" src="' + ph + '" alt="" loading="lazy">' : '') +
         '<div class="soi-q2-spot-in"><svg class="soi-q2-qmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h2A1.5 1.5 0 0 1 10 6.5V11c0 3.4-1.5 5.8-4.6 7.2M14 6.5A1.5 1.5 0 0 1 15.5 5h2A1.5 1.5 0 0 1 19 6.5V11c0 3.4-1.5 5.8-4.6 7.2M5 11h5M14 11h5"/></svg>' +
         '<blockquote><p>' + esc(q.t) + '</p></blockquote><p class="soi-q2-src">' + (q.hd === 'saying' ? '<span class="soi-q-hadith">Saying of the Prophet ﷺ</span><b class="soi-q-by">— Prophet Muhammad ﷺ' + (q.ref ? ' <small>(' + esc(q.ref) + ')</small>' : '') + '</b>Quoted in ' : (q.hd === 'has' ? '<span class="soi-q-hadith">Includes a saying of the Prophet ﷺ</span>' : '') + (q.by ? esc(q.by) + ' · ' : '')) + '<a href="/issues/' + q.s + '/#soi-' + q.a + '">' + esc(q.at) + '</a> · Issue ' + q.n + (q.p ? ', ' + esc(q.p) : '') + '</p>' +
         '<p class="soi-q2-act is-big">' + (speak ? '<button type="button" data-act="listen">' + I.listen + '<span>Listen</span></button>' : '') +
-        '<button type="button" data-act="img">' + I.img + '<span>Picture</span></button><button type="button" data-act="wa">' + I.wa + '<span>WhatsApp</span></button>' +
+        '<button type="button" data-act="rand">' + I.rand + '<span>Random</span></button><button type="button" data-act="img">' + I.img + '<span>Picture</span></button><button type="button" data-act="wa">' + I.wa + '<span>WhatsApp</span></button>' +
         '<button type="button" data-act="copy">' + I.copy + '<span>Copy</span></button><button type="button" data-act="save" aria-pressed="' + on + '">' + I.save + '<span>' + (on ? 'Saved' : 'Save') + '</span></button></p></div>';
       box.onclick = function (e) {
         var b = e.target.closest('button[data-act]'); if (!b) return; var a = b.dataset.act;
+        if (a === 'rand') { if (au) au.pause(); box.classList.remove('is-swap'); void box.offsetWidth; box.classList.add('is-swap'); qotd(true); return; }
         if (a === 'listen') {
           var set = function (o) { b.classList.toggle('is-on', o); b.innerHTML = (o ? I.stop : I.listen) + '<span>' + (o ? 'Stop' : 'Listen') + '</span>'; };
           if (b.classList.contains('is-on')) { if (au) au.pause(); set(false); return; }

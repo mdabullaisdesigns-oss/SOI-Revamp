@@ -65,7 +65,7 @@ window.soiScreens = function () {
       '<div id="soi-app-cont"></div>' +
       '<div class="soi-app-hrow"><h2>Latest issue</h2><a href="/archive/">All issues</a></div><div id="soi-app-latest"></div>' +
       '<div class="soi-app-hrow"><h2>Your day with SOI</h2></div><div class="soi-h-path" id="soi-h-day"></div>' +
-      '<div class="soi-app-hrow"><h2>In this issue</h2></div><div class="soi-app-list" id="soi-app-arts"></div>' +
+      '<div class="soi-app-list" id="soi-app-arts" hidden></div>' +
       '<section class="soi-you soi-x-you" id="soi-you"><div class="soi-x-yhead"><h2>Your reading</h2></div><div class="soi-x-seg" role="tablist"><button type="button" role="tab" data-p="prog" aria-selected="true">Progress</button><button type="button" role="tab" data-p="sug" aria-selected="false">For you</button><button type="button" role="tab" data-p="mix" aria-selected="false">Topics</button></div><div class="soi-you-grid" data-show="prog">' +
       '<div class="soi-you-card soi-you-prog"><h3>Your progress</h3><div class="soi-you-body"></div></div>' +
       '<div class="soi-you-card soi-you-sug"><h3>Suggested for you</h3><div class="soi-you-body"></div></div>' +

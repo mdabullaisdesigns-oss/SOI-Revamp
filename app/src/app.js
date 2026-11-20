@@ -249,7 +249,9 @@
     ms('setPositionState', { duration: a.duration, position: Math.min(a.currentTime, a.duration), playbackRate: a.playbackRate || 1 });
   }
   function hook(a) {
-    theAudio = a; if (!MS) return;
+    theAudio = a;
+    a.addEventListener('play', function () { try { document.dispatchEvent(new CustomEvent('soi-audio-play', { detail: a })); } catch (e) {} });   /* tells the app player which element is playing */
+    if (!MS) return;
     a.addEventListener('play', function () { theAudio = a; ms('setPlaybackState', { playbackState: 'playing' }); pos(); });
     a.addEventListener('pause', function () { ms('setPlaybackState', { playbackState: 'paused' }); pos(); });
     ['loadedmetadata', 'ratechange', 'seeked'].forEach(function (ev) { a.addEventListener(ev, pos); });
@@ -265,7 +267,11 @@
     var d = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(nms), 'metadata');
     if (d && d.set) Object.defineProperty(nms, 'metadata', {
       configurable: true, get: function () { return d.get.call(nms); },
-      set: function (m) { d.set.call(nms, m); if (m) ms('setMetadata', { title: m.title, artist: m.artist, album: m.album, artwork: [{ src: location.origin + '/assets/brand/Peogen-logo.png', sizes: '470x453', type: 'image/png' }] }); }
+      set: function (m) {
+        d.set.call(nms, m); if (!m) return;
+        var art = (m.artwork && m.artwork[0] && m.artwork[0].src) || location.origin + '/assets/brand/Spirit-of-Islam-Logo.png';   /* the issue cover when the page gives one */
+        ms('setMetadata', { title: m.title, artist: m.artist, album: m.album, artwork: [{ src: art, sizes: '512x512', type: /\.webp/.test(art) ? 'image/webp' : 'image/png' }] });
+      }
     });
     ms('setActionHandler', { action: 'play' }, function () { if (theAudio) theAudio.play(); });
     ms('setActionHandler', { action: 'pause' }, function () { if (theAudio) theAudio.pause(); });
