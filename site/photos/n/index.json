@@ -1,0 +1,443 @@
+[
+ {
+  "name": "n01",
+  "src": "beautiful-ai-natural-landscape.jpg",
+  "w": 4864,
+  "h": 3328,
+  "ratio": 1.462,
+  "shape": "landscape",
+  "color": "#607967"
+ },
+ {
+  "name": "n02",
+  "src": "beautiful-natural-landscape.jpg",
+  "w": 4096,
+  "h": 2800,
+  "ratio": 1.463,
+  "shape": "landscape",
+  "color": "#586760"
+ },
+ {
+  "name": "n03",
+  "src": "beautiful-natural-view-landscape.jpg",
+  "w": 5824,
+  "h": 3264,
+  "ratio": 1.784,
+  "shape": "landscape",
+  "color": "#4e675e"
+ },
+ {
+  "name": "n04",
+  "src": "beautiful-nature-landscape.jpg",
+  "w": 3072,
+  "h": 4096,
+  "ratio": 0.75,
+  "shape": "portrait",
+  "color": "#625248"
+ },
+ {
+  "name": "n05",
+  "src": "beautiful-shot-deserted-area-with-boulder-rock-isolated-sabal-palmetto-tree.jpg",
+  "w": 5504,
+  "h": 6496,
+  "ratio": 0.847,
+  "shape": "portrait",
+  "color": "#796962"
+ },
+ {
+  "name": "n06",
+  "src": "beautiful-spring-landscape-with-blooming-flowers.jpg",
+  "w": 4563,
+  "h": 8000,
+  "ratio": 0.57,
+  "shape": "portrait",
+  "color": "#76866b"
+ },
+ {
+  "name": "n07",
+  "src": "beautiful-winter-landscape.jpg",
+  "w": 4096,
+  "h": 2048,
+  "ratio": 2.0,
+  "shape": "landscape",
+  "color": "#7c8b8f"
+ },
+ {
+  "name": "n08",
+  "src": "cascade-park-stone-flow-splash-ban.jpg",
+  "w": 3840,
+  "h": 5760,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#5c7971"
+ },
+ {
+  "name": "n09",
+  "src": "large-vecteezy_ai-generated-mountain-landscape-outdoors-grass-trees_40716940_large.jpg",
+  "w": 2400,
+  "h": 1371,
+  "ratio": 1.751,
+  "shape": "landscape",
+  "color": "#587366"
+ },
+ {
+  "name": "n10",
+  "src": "large-vecteezy_dramatic-coastal-sunset-over-rocky-cliffs-scenic-ocean_87933587_large.jpg",
+  "w": 1340,
+  "h": 2400,
+  "ratio": 0.558,
+  "shape": "portrait",
+  "color": "#746b6e"
+ },
+ {
+  "name": "n11",
+  "src": "large-vecteezy_evening-sky-sunset-on-mountain-lake-over-water-with-trees-in_46905453_large.jpg",
+  "w": 1800,
+  "h": 2400,
+  "ratio": 0.75,
+  "shape": "portrait",
+  "color": "#8e685d"
+ },
+ {
+  "name": "n12",
+  "src": "large-vecteezy_mystical-serenity-a-captivating-illustration-of-nature-s_29289974_large.jpg",
+  "w": 2400,
+  "h": 2400,
+  "ratio": 1.0,
+  "shape": "square",
+  "color": "#7d7866"
+ },
+ {
+  "name": "n13",
+  "src": "large-vecteezy_natural-landscape-photography-recreational-boats-mountain_53761720_large.jpg",
+  "w": 2400,
+  "h": 1600,
+  "ratio": 1.5,
+  "shape": "landscape",
+  "color": "#907992"
+ },
+ {
+  "name": "n14",
+  "src": "large-vecteezy_scenic-valley-meadow-with-waterfall_60109633_large.jpg",
+  "w": 2400,
+  "h": 2400,
+  "ratio": 1.0,
+  "shape": "square",
+  "color": "#647862"
+ },
+ {
+  "name": "n15",
+  "src": "large-vecteezy_tall-trees-dense-forest-sunlight-green-nature-landscape-serene_82211399_large.jpg",
+  "w": 2400,
+  "h": 1680,
+  "ratio": 1.429,
+  "shape": "landscape",
+  "color": "#4b4a19"
+ },
+ {
+  "name": "n16",
+  "src": "old-bridge-chinese-park.jpg",
+  "w": 6000,
+  "h": 4000,
+  "ratio": 1.5,
+  "shape": "landscape",
+  "color": "#537870"
+ },
+ {
+  "name": "n17",
+  "src": "pexels-afhamhmsyri-30150257.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#455951"
+ },
+ {
+  "name": "n18",
+  "src": "pexels-ahdr-one-2147782828-29758259.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#4b7d85"
+ },
+ {
+  "name": "n19",
+  "src": "pexels-ahmet-arikaya-2121624-31255701.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#4c534e"
+ },
+ {
+  "name": "n20",
+  "src": "pexels-ahmet-arikaya-2121624-31262588.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#747675"
+ },
+ {
+  "name": "n21",
+  "src": "pexels-ahmetyuksek-27292012.jpg",
+  "w": 4945,
+  "h": 7414,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#326467"
+ },
+ {
+  "name": "n22",
+  "src": "pexels-andiravsanjani-38228298.jpg",
+  "w": 4570,
+  "h": 8124,
+  "ratio": 0.563,
+  "shape": "portrait",
+  "color": "#224041"
+ },
+ {
+  "name": "n23",
+  "src": "pexels-bylukemiller-15885656.jpg",
+  "w": 6340,
+  "h": 11887,
+  "ratio": 0.533,
+  "shape": "portrait",
+  "color": "#6d7372"
+ },
+ {
+  "name": "n24",
+  "src": "pexels-chriszwettler-10530007.jpg",
+  "w": 4000,
+  "h": 6000,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#112627"
+ },
+ {
+  "name": "n25",
+  "src": "pexels-connorscottmcmanus-28708800.jpg",
+  "w": 4016,
+  "h": 6016,
+  "ratio": 0.668,
+  "shape": "portrait",
+  "color": "#2e1d0b"
+ },
+ {
+  "name": "n26",
+  "src": "pexels-danieljschwarz-39724572.jpg",
+  "w": 4160,
+  "h": 6240,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#7e7c71"
+ },
+ {
+  "name": "n27",
+  "src": "pexels-dawidtkocz-40848777.jpg",
+  "w": 7008,
+  "h": 4672,
+  "ratio": 1.5,
+  "shape": "landscape",
+  "color": "#4e5847"
+ },
+ {
+  "name": "n28",
+  "src": "pexels-efrem-efre-2786187-39533301.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#176f64"
+ },
+ {
+  "name": "n29",
+  "src": "pexels-i-slam-abruev-2157269750-37945224.jpg",
+  "w": 4608,
+  "h": 8192,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#375e61"
+ },
+ {
+  "name": "n30",
+  "src": "pexels-jplenio-1105389.jpg",
+  "w": 6000,
+  "h": 4000,
+  "ratio": 1.5,
+  "shape": "landscape",
+  "color": "#454330"
+ },
+ {
+  "name": "n31",
+  "src": "pexels-kalan-xz-2164722846-40483412.jpg",
+  "w": 4608,
+  "h": 8192,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#667363"
+ },
+ {
+  "name": "n32",
+  "src": "pexels-klaus-g-2149818705-34494475.jpg",
+  "w": 5282,
+  "h": 9390,
+  "ratio": 0.563,
+  "shape": "portrait",
+  "color": "#708a9e"
+ },
+ {
+  "name": "n33",
+  "src": "pexels-lekko-ponad-2156930988-34454002.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#838873"
+ },
+ {
+  "name": "n34",
+  "src": "pexels-leos-37736010.jpg",
+  "w": 4000,
+  "h": 6000,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#528195"
+ },
+ {
+  "name": "n35",
+  "src": "pexels-lureofadventure-31029486.jpg",
+  "w": 5171,
+  "h": 7753,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#40544c"
+ },
+ {
+  "name": "n36",
+  "src": "pexels-lureofadventure-38442859.jpg",
+  "w": 5464,
+  "h": 8192,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#708483"
+ },
+ {
+  "name": "n37",
+  "src": "pexels-mdx014-814499.jpg",
+  "w": 6010,
+  "h": 4005,
+  "ratio": 1.501,
+  "shape": "landscape",
+  "color": "#424a34"
+ },
+ {
+  "name": "n38",
+  "src": "pexels-mert-tasan-2159348847-39675021.jpg",
+  "w": 5760,
+  "h": 7680,
+  "ratio": 0.75,
+  "shape": "portrait",
+  "color": "#4f6449"
+ },
+ {
+  "name": "n39",
+  "src": "pexels-mikhail-nilov-6942989.jpg",
+  "w": 3328,
+  "h": 8000,
+  "ratio": 0.416,
+  "shape": "portrait",
+  "color": "#84898a"
+ },
+ {
+  "name": "n40",
+  "src": "pexels-nuhyil-40214065.jpg",
+  "w": 4536,
+  "h": 8064,
+  "ratio": 0.562,
+  "shape": "portrait",
+  "color": "#667e3b"
+ },
+ {
+  "name": "n41",
+  "src": "pexels-paolo-comaling-1399893-12667366.jpg",
+  "w": 4460,
+  "h": 5947,
+  "ratio": 0.75,
+  "shape": "portrait",
+  "color": "#324342"
+ },
+ {
+  "name": "n42",
+  "src": "pexels-stanswinnen-7630438.jpg",
+  "w": 4462,
+  "h": 7932,
+  "ratio": 0.563,
+  "shape": "portrait",
+  "color": "#6c6c67"
+ },
+ {
+  "name": "n43",
+  "src": "pexels-volkerthimm-14145073.jpg",
+  "w": 4000,
+  "h": 6000,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#5f6e6d"
+ },
+ {
+  "name": "n44",
+  "src": "pexels-yasir-11923571-6205939.jpg",
+  "w": 4000,
+  "h": 6000,
+  "ratio": 0.667,
+  "shape": "portrait",
+  "color": "#837e72"
+ },
+ {
+  "name": "n45",
+  "src": "pexels-zachary-andre-64834127-39539166.jpg",
+  "w": 11525,
+  "h": 7683,
+  "ratio": 1.5,
+  "shape": "landscape",
+  "color": "#555e4d"
+ },
+ {
+  "name": "n46",
+  "src": "vecteezy_hillside-dreams-at-dusk_67726688.jpg",
+  "w": 1536,
+  "h": 2688,
+  "ratio": 0.571,
+  "shape": "portrait",
+  "color": "#ab8c6e"
+ },
+ {
+  "name": "n47",
+  "src": "vecteezy_serene-forest-stream-illuminated-by-sunlight-generated_60008314.jpg",
+  "w": 5632,
+  "h": 3072,
+  "ratio": 1.833,
+  "shape": "landscape",
+  "color": "#4c452f"
+ },
+ {
+  "name": "n48",
+  "src": "vecteezy_the-sun-rises-over-the-mountains-in-the-background_32238793.jpg",
+  "w": 3072,
+  "h": 2048,
+  "ratio": 1.5,
+  "shape": "landscape",
+  "color": "#434f36"
+ },
+ {
+  "name": "n49",
+  "src": "view-beautiful-rainbow-nature-landscape.jpg",
+  "w": 3569,
+  "h": 2000,
+  "ratio": 1.784,
+  "shape": "landscape",
+  "color": "#628083"
+ }
+]
