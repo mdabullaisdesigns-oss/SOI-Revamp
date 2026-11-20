@@ -102,6 +102,7 @@
      Nature cover photo with a curved edge, the year's issues on the curve, title + issue number,
      tabs with icons (Read & Listen · Audio only · PDF · Quiz), article cards whose number sits inside a
      progress ring, a mini player with a close button, and the full player. */
+  function mins(it) { var dd = $('[data-duration]', it); if (dd && +dd.getAttribute('data-duration')) return Math.max(1, Math.round(+dd.getAttribute('data-duration') / 60)); var m = (($('.ev-meta', it) || {}).textContent || '').match(/(\d+)\s*min/); return m ? +m[1] : 0; }
   function artFrac(slug) { return (LSget('soiArtFrac', {})[slug]) || {}; }
   function setFrac(slug, id, f) { var m = LSget('soiArtFrac', {}); m[slug] = m[slug] || {}; if ((m[slug][id] || 0) < f) { m[slug][id] = Math.round(f * 100) / 100; LSset('soiArtFrac', m); } }
   function ring(n, f, done) {
@@ -156,31 +157,35 @@
         '<a href="/archive/" class="soi-x-yall" aria-label="All issues">All</a>';
       if (it && it.pdf) { var a = $('.soi-x-tpdf', sheet); a.href = abs(it.pdf); a.hidden = false; }
     }).catch(function () {});
+    function minsX(it) { var dd = $('[data-duration]', it); if (dd && +dd.getAttribute('data-duration')) return Math.max(1, Math.round(+dd.getAttribute('data-duration') / 60)); var m = (($('.ev-meta', it) || {}).textContent || '').match(/(\d+)\s*min/); return m ? +m[1] : 0; }
+    function stat(it) { var read = (LSget('soiRead', {})[slug]) || {}, fr = artFrac(slug), p = LSget('soiProgress', null), id = it.id.replace(/^soi-/, ''), f = fr[id] || (p && p.slug === slug && p.id === id ? p.frac || 0 : 0); return { done: !!read[id] || f >= .97, f: f }; }
+    function line(it) { var s = stat(it), m = mins(it); return '<span class="soi-x-im">' + (s.done ? '<em>' + svg('<path d="M5 12l5 5 9-10"/>') + 'Finished</em>' : (withAudio.indexOf(it) >= 0 ? I.head : I.book) + (m ? m + ' min' : '') + (s.f > 0 ? ' · ' + Math.round(s.f * 100) + '%' : '')) + '</span><span class="soi-x-ib"><i style="width:' + (s.done ? 100 : Math.round(s.f * 100)) + '%"></i></span>'; }
     function paint() {
-      var read = (LSget('soiRead', {})[slug]) || {}, fr = artFrac(slug), p = LSget('soiProgress', null);
       items.forEach(function (it, k) {
-        var id = it.id.replace(/^soi-/, ''), done = !!read[id], f = fr[id] || (p && p.slug === slug && p.id === id ? p.frac || 0 : 0);
-        var n = $('.ev-num', it); if (n) { var key = (done ? 'd' : '') + Math.round(f * 50); if (n.getAttribute('data-k') !== key) { n.setAttribute('data-k', key); n.innerHTML = ring(('0' + (k + 1)).slice(-2), f, done); } }
-        it.setAttribute('data-x', done ? 'done' : f > 0 ? 'now' : '');
+        var s = stat(it), key = (s.done ? 'd' : '') + Math.round(s.f * 50);
+        it.setAttribute('data-x', s.done ? 'done' : s.f > 0 ? 'now' : '');
+        var n = $('.ev-num', it); if (n && !n.getAttribute('data-n')) { n.setAttribute('data-n', 1); n.innerHTML = '<span class="soi-x-bign">' + ('0' + (k + 1)).slice(-2) + '</span>'; }
+        var tt = $('.ev-tab-text', it), box = tt && $('.soi-x-ir', tt); if (tt && !box) { box = document.createElement('span'); box.className = 'soi-x-ir'; tt.appendChild(box); }
+        if (box && box.getAttribute('data-k') !== key) { box.setAttribute('data-k', key); box.innerHTML = line(it); }
       });
-      $$('.soi-x-arow', sheet).forEach(function (r) { var it = document.getElementById(r.getAttribute('data-id')), k = items.indexOf(it), id = it.id.replace(/^soi-/, ''); $('.soi-x-anum', r).innerHTML = ring(('0' + (k + 1)).slice(-2), fr[id] || 0, !!read[id]); r.setAttribute('data-x', read[id] ? 'done' : ''); });
+      $$('.soi-x-arow', sheet).forEach(function (r) { var it = document.getElementById(r.getAttribute('data-id')), s = stat(it); r.setAttribute('data-x', s.done ? 'done' : ''); $('.soi-x-ir', r).innerHTML = line(it); });
     }
     $('.soi-x-alist', sheet).innerHTML = withAudio.map(function (it) {
       var dd = $('[data-duration]', it), d = dd ? +dd.getAttribute('data-duration') || 0 : 0;
-      return '<div class="soi-x-arow" role="listitem" data-id="' + it.id + '"><span class="soi-x-anum"></span><span class="soi-x-at"><small>' + esc(($('.ev-kicker', it) || {}).textContent || '') + '</small><b>' + esc(($('.ev-tab-title', it) || {}).textContent || '') + '</b></span>' +
-        '<span class="soi-x-adur">' + (d ? mmss(d) : '') + '</span><button type="button" class="soi-x-aplay" aria-label="Play">' + I.play + '</button></div>';
+      return '<div class="soi-x-arow" role="listitem" data-id="' + it.id + '"><span class="soi-x-bign">' + ('0' + (items.indexOf(it) + 1)).slice(-2) + '</span><span class="soi-x-at"><small>' + esc(($('.ev-kicker', it) || {}).textContent || '') + '</small><b>' + esc(($('.ev-tab-title', it) || {}).textContent || '') + '</b><span class="soi-x-ir"></span></span>' +
+        '<button type="button" class="soi-x-aplay" aria-label="Play">' + I.play + '</button></div>';
     }).join('');
     paint(); setInterval(paint, 3000);
     ev.classList.add('soi-x-cards');
     $('.soi-x-tabs', sheet).addEventListener('click', function (e) {
       var b = e.target.closest('button'); if (!b) return; var t = b.getAttribute('data-tab');
-      if (t === 'quiz') { var inv = $('#soi-quiz .z-invite'); if (inv && inv.getAttribute('aria-expanded') !== 'true') inv.click(); else document.documentElement.classList.add('soi-x-quiz', 'soi-x-lock'); return; }
+      if (t === 'quiz') { quiz(slug, num, title); return; }
       $$('button[role="tab"]', this).forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
       $('.soi-x-alist', sheet).hidden = t !== 'audio'; document.documentElement.classList.toggle('soi-x-audioonly', t === 'audio');
     });
     $('.soi-x-alist', sheet).addEventListener('click', function (e) { var r = e.target.closest('.soi-x-arow'); if (r) playItem(document.getElementById(r.getAttribute('data-id')), true); });
     player(items, withAudio, slug, title, num, label);
-    quizFull();
+    if (/[#&?]soi-quiz|quiz=1/.test(location.hash + location.search)) setTimeout(function () { quiz(slug, num, title); }, 300);
   }
 
   /* ----- the player. The page's own player makes the sound (one Audio element); this follows it and drives it ----- */
@@ -188,9 +193,11 @@
   var PLPH = ['quote-4', 'guide2', 'topic-patience', 'quote-1', 'guide1', 'topic-peace', 'quote-2', 'hero', 'quote-6', 'topic-gratitude'];
   function player(items, withAudio, slug, issueTitle, num, label) {
     var cover = remote() + '/assets/covers/' + slug + '.webp';
-    var mini = document.createElement('div'); mini.id = 'soi-x-mini'; mini.hidden = true;
-    mini.innerHTML = '<span class="soi-x-mcv" style="background-image:url(/assets/covers/' + slug + '.webp)"></span><span class="soi-x-mt"><b></b><small></small></span>' +
-      '<button type="button" class="soi-x-mpp" aria-label="Play or pause">' + I.pause + '</button><button type="button" class="soi-x-mx" aria-label="Stop and close">' + I.close + '</button><i class="soi-x-mbar"></i>';
+    var mini = document.createElement('div'); mini.id = 'soi-x-mini'; mini.className = 'soi-x-live'; mini.hidden = true;
+    mini.innerHTML = '<div class="soi-x-lv1"><span class="soi-x-ldot"></span><b class="soi-x-lst">Listening now</b><span class="soi-x-left"></span><button type="button" class="soi-x-mx" aria-label="Stop and close">' + I.close + '</button></div>' +
+      '<div class="soi-x-lv2"><span class="soi-x-mcv" style="background-image:url(/assets/covers/' + slug + '.webp)"></span><span class="soi-x-mt"><b></b><small></small></span>' +
+      '<button type="button" class="soi-x-mpp" aria-label="Play or pause"><svg class="soi-x-mring" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21"/><circle class="p" cx="24" cy="24" r="21"/></svg><span>' + I.pause + '</span></button></div>' +
+      '<div class="soi-x-steps">' + withAudio.map(function () { return '<i><b></b></i>'; }).join('') + '</div>';
     var full = document.createElement('div'); full.id = 'soi-x-full'; full.hidden = true;
     full.innerHTML = '<div class="soi-x-pbg"></div>' +
       '<div class="soi-x-ftop"><button type="button" class="soi-x-fclose" aria-label="Close player">' + I.down + '</button><small>' + (num ? 'Issue ' + num + ' · ' : '') + esc(issueTitle) + '</small><button type="button" class="soi-x-fshare" aria-label="Share">' + I.share + '</button></div>' +
@@ -203,8 +210,9 @@
       '<button type="button" class="soi-x-big" aria-label="Play or pause">' + I.pause + '</button><button type="button" class="soi-x-f15" aria-label="Forward 15 seconds">' + svg('<path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/>') + '<i>15</i></button>' +
       '<button type="button" class="soi-x-next" aria-label="Next article">' + svg('<path d="m6 6 9 6-9 6zM18 6v12"/>') + '</button></div>' +
       '<div class="soi-x-row"><button type="button" class="soi-x-speed"><b>1×</b><small>Speed</small></button><button type="button" class="soi-x-timer"><b>' + svg('<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/>') + '</b><small>Sleep</small></button><button type="button" class="soi-x-goto"><b>' + svg('<path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13"/>') + '</b><small>Article</small></button></div>' +
-      '<div class="soi-x-sheet2" hidden><div class="soi-x-sh-in"><b class="soi-x-sh-t"></b><div class="soi-x-sh-opts"></div></div></div>';
+      '';
     document.body.appendChild(mini); document.body.appendChild(full);
+    var sh = document.createElement('div'); sh.className = 'soi-x-sheet2'; sh.hidden = true; sh.innerHTML = '<div class="soi-x-sh-in"><b class="soi-x-sh-t"></b><div class="soi-x-sh-opts"></div></div>'; document.body.appendChild(sh);
     var curItem = null, sents = [], lastS = -1;
     $('.soi-x-car-in', full).innerHTML = withAudio.map(function (it, k) {
       return '<button type="button" class="soi-x-card" data-k="' + k + '" aria-label="' + esc(($('.ev-tab-title', it) || {}).textContent || '') + '"><span class="soi-x-cimg" style="background-image:url(/assets/photos/' + PLPH[k % PLPH.length] + '.webp)"></span>' +
@@ -219,7 +227,7 @@
     function info() {
       if (!curItem) return;
       var t = ($('.ev-tab-title', curItem) || {}).textContent || '', k = ($('.ev-kicker', curItem) || {}).textContent || '', who = (($('.ev-meta span', curItem) || {}).textContent || '');
-      $('.soi-x-mt b', mini).textContent = t; $('.soi-x-ft b', full).textContent = t; $('.soi-x-ft small', full).textContent = k;
+      $('.soi-x-mt b', mini).textContent = t; $('.soi-x-mt small', mini).textContent = 'Article ' + (items.indexOf(curItem) + 1) + ' of ' + items.length + (num ? ' · Issue ' + num : ''); $('.soi-x-ft b', full).textContent = t; $('.soi-x-ft small', full).textContent = k;
       $('.soi-x-ft span', full).textContent = (who && !/min/.test(who) ? who + ' · ' : '') + 'Article ' + (items.indexOf(curItem) + 1) + ' of ' + items.length;
       sents = $$('.ev-content .ev-s[data-t]', curItem).map(function (s) { return { t: +s.getAttribute('data-t'), x: s.textContent }; }); lastS = -1;
       place(); lyrics(true);
@@ -238,7 +246,10 @@
     var seeking = false;
     function tick() {
       if (!cur) return; var d = isFinite(cur.duration) ? cur.duration : 0, p = d ? cur.currentTime / d : 0;
-      $('.soi-x-mbar', mini).style.width = (p * 100) + '%'; $('.soi-x-mt small', mini).textContent = mmss(cur.currentTime) + (d ? ' / ' + mmss(d) : '');
+      var RC = 2 * Math.PI * 21; $('.soi-x-mring .p', mini).style.strokeDasharray = RC; $('.soi-x-mring .p', mini).style.strokeDashoffset = RC * (1 - p);
+      $('.soi-x-left', mini).textContent = d ? Math.max(1, Math.ceil((d - cur.currentTime) / 60)) + ' min left' : '';
+      var ka = withAudio.indexOf(curItem); $$('.soi-x-steps i', mini).forEach(function (s, j) { var fr2 = artFrac(slug)[withAudio[j].id.replace(/^soi-/, '')] || 0; $('b', s).style.width = (j === ka ? p * 100 : fr2 >= .97 ? 100 : fr2 * 100) + '%'; s.classList.toggle('is-cur', j === ka); });
+      b2tick(p);
       if (curItem && p > 0) setFrac(slug, curItem.id.replace(/^soi-/, ''), p > .97 ? 1 : p);
       if (!full.hidden) {
         var seek = $('.soi-x-seek', full);
@@ -249,7 +260,8 @@
     }
     function state() {
       var on = !!(cur && !cur.paused && !cur.ended);
-      if (mini.getAttribute('data-on') !== String(on)) { mini.setAttribute('data-on', on); $('.soi-x-mpp', mini).innerHTML = on ? I.pause : I.play; $('.soi-x-big', full).innerHTML = on ? I.pause : I.play; }
+      if (mini.getAttribute('data-on') !== String(on)) { mini.setAttribute('data-on', on); $('.soi-x-mpp span', mini).innerHTML = on ? I.pause : I.play; $('.soi-x-big', full).innerHTML = on ? I.pause : I.play; $('.soi-x-lst', mini).textContent = on ? 'Listening now' : 'Paused'; }
+      $$('.soi-x-b2').forEach(function (c) { var mine = c.closest('.ev-item') === curItem; c.classList.toggle('is-playing', mine && on); var pb = $('.soi-x-b2p', c); if (pb.getAttribute('data-on') !== String(mine && on)) { pb.setAttribute('data-on', mine && on); pb.innerHTML = mine && on ? I.pause : I.play; } });
       full.classList.toggle('is-playing', on);
     }
     var bound = [];
@@ -259,6 +271,7 @@
       if (cur && cur !== a && !cur.paused) cur.pause();
       cur = a; if (curItem !== it) { curItem = it; info(); }
       mini.hidden = false; document.body.classList.add('soi-x-has-mini');
+      var rt = LSget('soiRate', 1); if (rt !== 1 && a.playbackRate !== rt) a.playbackRate = rt;
       if (bound.indexOf(a) < 0) { bound.push(a); ['play', 'pause', 'ended', 'playing', 'waiting'].forEach(function (n) { a.addEventListener(n, function () { if (a === cur) state(); }); }); a.addEventListener('timeupdate', function () { if (a === cur) tick(); }); a.addEventListener('ended', function () { if (a === cur && !full.hidden && LSget('soiAutoNext', 1)) jump(1); }); }
       state(); tick();
     }
@@ -276,7 +289,7 @@
     function toggle() { if (!cur) { if (curItem) sitePlay(curItem); return; } if (cur.paused) cur.play().catch(function () {}); else cur.pause(); setTimeout(state, 60); }
     $('.soi-x-mpp', mini).addEventListener('click', function (e) { e.stopPropagation(); toggle(); });
     $('.soi-x-mx', mini).addEventListener('click', function (e) { e.stopPropagation(); if (cur) cur.pause(); mini.hidden = true; document.body.classList.remove('soi-x-has-mini'); });
-    mini.addEventListener('click', openFull);
+    mini.addEventListener('click', function (e) { if (!e.target.closest('button')) openFull(); });
     function close() { full.classList.remove('is-open'); document.documentElement.classList.remove('soi-x-lock'); setTimeout(function () { full.hidden = true; }, 350); }
     btn('.soi-x-fclose', close);
     btn('.soi-x-big', toggle);
@@ -288,23 +301,45 @@
     btn('.soi-x-goto', function () { close(); if (curItem) setTimeout(function () { var tab = $('.ev-tab', curItem); if (tab && tab.getAttribute('aria-expanded') !== 'true') tab.click(); curItem.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 360); });
     btn('.soi-x-fshare', function () { if (window.soi && curItem) window.soi.share(($('.ev-tab-title', curItem) || {}).textContent || issueTitle, '/issues/' + slug + '/#' + curItem.id); });
     /* a small sheet for Speed and Sleep, with words, so nobody has to guess what "1×" means */
-    var sh = $('.soi-x-sheet2', full), sleepT = null;
+    var sleepT = null;
     function choose(title, opts, onPick) {
       $('.soi-x-sh-t', sh).textContent = title;
       $('.soi-x-sh-opts', sh).innerHTML = opts.map(function (o, k) { return '<button type="button" data-k="' + k + '" aria-pressed="' + !!o[2] + '"><b>' + o[0] + '</b><small>' + o[1] + '</small></button>'; }).join('');
       sh.hidden = false; requestAnimationFrame(function () { sh.classList.add('is-open'); });
       sh.onclick = function (e) { var b = e.target.closest('button'); if (b) onPick(+b.getAttribute('data-k')); if (b || e.target === sh) { sh.classList.remove('is-open'); setTimeout(function () { sh.hidden = true; }, 250); } };
     }
-    btn('.soi-x-speed', function () {
+    function speed() {
       var r = cur ? cur.playbackRate : 1, S = [[.75, 'Slower'], [1, 'Normal'], [1.25, 'A little faster'], [1.5, 'Faster'], [2, 'Twice as fast']];
-      choose('Reading speed', S.map(function (x) { return [x[0] + '×', x[1], x[0] === r]; }), function (k) { if (cur) cur.playbackRate = S[k][0]; $('.soi-x-speed b', full).textContent = S[k][0] + '×'; });
-    });
-    btn('.soi-x-timer', function () {
+      choose('Reading speed', S.map(function (x) { return [x[0] + '×', x[1], x[0] === r]; }), function (k) { LSset('soiRate', S[k][0]); if (cur) cur.playbackRate = S[k][0]; $('.soi-x-speed b', full).textContent = S[k][0] + '×'; $$('.soi-x-b2s').forEach(function (b) { b.innerHTML = '<b>' + S[k][0] + '×</b> Speed'; }); });
+    }
+    btn('.soi-x-speed', speed);
+    function sleep() {
       var T = [[0, 'Off'], [10, '10 minutes'], [20, '20 minutes'], [30, '30 minutes'], [-1, 'End of this article']];
       choose('Sleep timer', T.map(function (x) { return [x[1], x[0] > 0 ? 'Stop playing after ' + x[1] : x[0] < 0 ? 'Stop when this article ends' : 'Keep playing', false]; }), function (k) {
         clearTimeout(sleepT); LSset('soiAutoNext', T[k][0] < 0 ? 0 : 1); var bt = $('.soi-x-timer', full); bt.classList.toggle('is-on', T[k][0] !== 0);
         if (T[k][0] > 0) { sleepT = setTimeout(function () { if (cur) cur.pause(); bt.classList.remove('is-on'); }, T[k][0] * 60000); toast('Stops in ' + T[k][1]); }
         else if (T[k][0] < 0) toast('Stops at the end of this article');
+      });
+    }
+    btn('.soi-x-timer', sleep);
+    /* B2: a sound-wave card inside every opened article that has a recording */
+    function b2tick(p) { if (!curItem) return; var c = $('.soi-x-b2', curItem); if (!c) return; $$('.soi-x-b2w i', c).forEach(function (w, j, all) { w.classList.toggle('on', j / all.length < p); }); $('.soi-x-b2t', c).textContent = mmss(cur.currentTime) + (isFinite(cur.duration) ? ' / ' + mmss(cur.duration) : ''); }
+    withAudio.forEach(function (it) {
+      var spot = $('.ev-pl-spot', it); if (!spot || $('.soi-x-b2', it)) return;
+      var c = document.createElement('div'); c.className = 'soi-x-b2';
+      c.innerHTML = '<div class="soi-x-b2w">' + Array.apply(null, Array(32)).map(function (_, k) { return '<i style="height:' + (7 + Math.round(24 * Math.abs(Math.sin(k * 1.3 + it.id.length) * Math.cos(k * .5)))) + 'px"></i>'; }).join('') + '</div>' +
+        '<div class="soi-x-b2c"><button type="button" class="soi-x-b2b" aria-label="Back 15 seconds">' + svg('<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>') + '<i>15</i></button><button type="button" class="soi-x-b2p" aria-label="Play or pause">' + I.play + '</button>' +
+        '<button type="button" class="soi-x-b2f" aria-label="Forward 15 seconds">' + svg('<path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/>') + '<i>15</i></button></div><span class="soi-x-b2t">' + (mins(it) ? mins(it) + ' min to listen' : '') + '</span>' +
+        '<div class="soi-x-b2ch"><button type="button" class="soi-x-b2r">' + svg('<path d="M4 6h16M4 10h16M4 14h10M4 18h7"/>') + 'Read along</button><button type="button" class="soi-x-b2s"><b>' + LSget('soiRate', 1) + '×</b> Speed</button><button type="button" class="soi-x-b2z">' + svg('<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/>') + 'Sleep</button></div>';
+      spot.insertBefore(c, spot.firstChild);
+      c.addEventListener('click', function (e) {
+        var b = e.target.closest('button'); if (!b) return; var mine = curItem === it && cur;
+        if (b.classList.contains('soi-x-b2p')) { if (mine) toggle(); else playItem(it, false); }
+        else if (b.classList.contains('soi-x-b2b')) { if (mine) cur.currentTime = Math.max(0, cur.currentTime - 15); }
+        else if (b.classList.contains('soi-x-b2f')) { if (mine) cur.currentTime = Math.min(cur.duration || 0, cur.currentTime + 15); }
+        else if (b.classList.contains('soi-x-b2r')) { if (!mine) playItem(it, false); full.classList.add('is-read'); $('.soi-x-readbtn', full).setAttribute('aria-pressed', 'true'); LSset('soiReadAlong', 1); openFull(); }
+        else if (b.classList.contains('soi-x-b2s')) speed();
+        else if (b.classList.contains('soi-x-b2z')) sleep();
       });
     });
     function jump(dir) { var k = withAudio.indexOf(curItem) + dir; if (withAudio[k]) playItem(withAudio[k], false); }
@@ -320,16 +355,90 @@
     });
   }
 
-  /* the quiz on its own full page */
-  function quizFull() {
-    var q = $('#soi-quiz'); if (!q || $('.soi-x-qclose')) return;
-    var inv = $('.z-invite', q), x = document.createElement('button'); x.type = 'button'; x.className = 'soi-x-qclose'; x.setAttribute('aria-label', 'Close quiz'); x.innerHTML = I.close;
-    q.appendChild(x);
-    function open() { document.documentElement.classList.add('soi-x-quiz', 'soi-x-lock'); q.scrollTop = 0; LSset('soiQuizDay', new Date().toISOString().slice(0, 10)); }
-    function shut() { document.documentElement.classList.remove('soi-x-quiz', 'soi-x-lock'); if (inv && inv.getAttribute('aria-expanded') === 'true') inv.click(); q.scrollIntoView({ block: 'start' }); }
-    if (inv) inv.addEventListener('click', function () { setTimeout(function () { if (inv.getAttribute('aria-expanded') === 'true') open(); else document.documentElement.classList.remove('soi-x-quiz', 'soi-x-lock'); }, 30); });
-    x.addEventListener('click', shut);
-    var qz = $('.soi-x-qz'); if (qz) qz.addEventListener('click', function (e) { e.preventDefault(); if (inv && inv.getAttribute('aria-expanded') !== 'true') inv.click(); else open(); });
+  /* ================= the quiz: lesson cards (C1), the dove asks (C2), timer · streak · gems (C3) =================
+     Uses the issue's own questions (the QUESTIONS list inside the page), one per screen. */
+  function quizData() {
+    var src = $$('script').map(function (x) { return x.textContent; }).filter(function (t) { return t.indexOf('var QUESTIONS') >= 0; })[0];
+    if (!src) return null;
+    var a = src.indexOf('[', src.indexOf('var QUESTIONS')), depth = 0, i = a, q = null, inS = null;
+    for (; i < src.length; i++) {                                     /* find the matching ] (strings may hold brackets) */
+      var ch = src[i];
+      if (inS) { if (ch === '\\') { i++; continue; } if (ch === inS) inS = null; continue; }
+      if (ch === "'" || ch === '"') { inS = ch; continue; }
+      if (ch === '[') depth++; else if (ch === ']') { depth--; if (!depth) break; }
+    }
+    try { q = new Function('return ' + src.slice(a, i + 1))(); } catch (e) { q = null; }
+    var sec = +((src.match(/var SECONDS\s*=\s*(\d+)/) || [])[1] || 30);
+    return q && q.length ? { q: q, sec: sec } : null;
+  }
+  function quiz(slug, num, title) {
+    var D = quizData(); if (!D) { var inv = $('#soi-quiz .z-invite'); if (inv) { inv.click(); $('#soi-quiz').scrollIntoView(); } return; }
+    var Q = D.q, SEC = D.sec, at = 0, score = 0, streak = 0, best = 0, gems = 0, left = SEC, tmr = null, locked = false, answers = [];
+    var DOVE = '<span class="soi-q-dove"><img src="/assets/brand/Peogen-logo.png" alt=""></span>';
+    var box = document.createElement('section'); box.id = 'soi-x-quiz'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-label', 'Quiz');
+    document.body.appendChild(box); document.documentElement.classList.add('soi-x-lock');
+    function close() { clearInterval(tmr); box.classList.add('is-out'); document.documentElement.classList.remove('soi-x-lock'); setTimeout(function () { box.remove(); }, 350); }
+    function head() {
+      return '<div class="soi-q-top"><button type="button" class="soi-q-x" aria-label="Close quiz">' + I.close + '</button><div class="soi-q-seg">' + Q.map(function (_, k) { return '<i class="' + (k < at ? (answers[k] ? 'ok' : 'no') : k === at ? 'cur' : '') + '"></i>'; }).join('') + '</div></div>' +
+        '<div class="soi-q-stats"><span class="soi-q-chip">🔥 ' + streak + '</span><span class="soi-q-chip">💎 ' + gems + '</span><span class="soi-q-tm"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="17"/><circle class="p" cx="20" cy="20" r="17"/></svg><b>' + Math.ceil(left) + '</b></span><span class="soi-q-n">' + (at + 1) + ' / ' + Q.length + '</span></div>';
+    }
+    function intro() {
+      var prev = (LSget('soiQuizBest', {})[slug]);
+      box.innerHTML = '<div class="soi-q-top"><button type="button" class="soi-q-x" aria-label="Close quiz">' + I.close + '</button><b class="soi-q-tt">Quiz · ' + esc(title) + '</b></div>' +
+        '<div class="soi-q-chat"><div class="soi-q-b">' + DOVE + '<p>Assalamu alaikum! Here are <b>' + Q.length + ' short questions</b> from ' + (num ? 'Issue ' + num : 'this issue') + '.</p></div>' +
+        '<div class="soi-q-b">' + DOVE + '<p>You have ' + SEC + ' seconds for each. A right answer earns <b>10 gems</b>, and three in a row add a bonus.</p></div>' +
+        (prev != null ? '<div class="soi-q-b">' + DOVE + '<p>Your best so far: <b>' + prev + ' of ' + Q.length + '</b>. Shall we try again?</p></div>' : '') + '</div>' +
+        '<div class="soi-q-foot"><button type="button" class="soi-q-go">Begin the quiz</button></div>';
+    }
+    function ask() {
+      locked = false; left = SEC;
+      var q = Q[at];
+      box.innerHTML = head() + '<div class="soi-q-body"><div class="soi-q-b soi-q-ask">' + DOVE + '<div><small>From “' + esc(q.article || '') + '”</small><p>' + esc(q.q) + '</p></div></div>' +
+        '<div class="soi-q-opts">' + q.options.map(function (o, k) { return '<button type="button" class="soi-q-o" data-k="' + k + '"><span class="soi-q-l">' + 'ABCD'[k] + '</span><span class="soi-q-ot">' + esc(o[0]) + '</span></button>'; }).join('') + '</div>' +
+        '<div class="soi-q-reply"></div></div><div class="soi-q-foot"><button type="button" class="soi-q-go" disabled>Check</button></div>';
+      var C = 2 * Math.PI * 17, p = $('.soi-q-tm .p', box); p.style.strokeDasharray = C;
+      clearInterval(tmr); var t0 = Date.now();
+      tmr = setInterval(function () {
+        left = Math.max(0, SEC - (Date.now() - t0) / 1000); p.style.strokeDashoffset = C * (1 - left / SEC); $('.soi-q-tm b', box).textContent = Math.ceil(left);
+        $('.soi-q-tm', box).classList.toggle('is-low', left <= 10); if (left <= 0) { clearInterval(tmr); answer(-1); }
+      }, 200);
+    }
+    function answer(k) {
+      if (locked) return; locked = true; clearInterval(tmr);
+      var q = Q[at], ok = k === q.answer; answers[at] = ok;
+      if (ok) { score++; streak++; best = Math.max(best, streak); var g = 10 + (streak % 3 === 0 ? 10 : 0); gems += g; } else streak = 0;
+      $$('.soi-q-o', box).forEach(function (b, j) { b.disabled = true; b.classList.toggle('is-ok', j === q.answer); b.classList.toggle('is-no', j === k && !ok); if (j === q.answer) b.insertAdjacentHTML('beforeend', '<em>' + svg('<path d="M5 12l5 5 9-10"/>') + '</em>'); });
+      var why = k >= 0 ? q.options[k][1] : '', link = q.link ? '/issues/' + slug + '/#' + q.link : '';
+      $('.soi-q-reply', box).innerHTML = '<div class="soi-q-b ' + (ok ? 'is-ok' : 'is-no') + '">' + DOVE + '<div><b>' + (ok ? (['Masha’Allah, right!', 'Well done!', 'Correct!'][at % 3]) + ' +' + (10 + (streak % 3 === 0 && ok ? 10 : 0)) + ' 💎' : k < 0 ? 'Time is up.' : 'Not quite.') + '</b>' +
+        '<p>' + esc(ok ? (q.rationale || why) : (why ? why + ' ' : '') + (q.rationale ? q.rationale : '')) + '</p>' + (link ? '<a href="' + link + '" class="soi-q-src">' + I.book + 'Read it in the article' + (q.page ? ' · page ' + q.page : '') + '</a>' : '') + '</div></div>';
+      $$('.soi-q-chip', box)[0].textContent = '🔥 ' + streak; $$('.soi-q-chip', box)[1].textContent = '💎 ' + gems;
+      var go = $('.soi-q-go', box); go.disabled = false; go.textContent = at < Q.length - 1 ? 'Continue' : 'See my result'; go.classList.add(ok ? 'is-ok' : 'is-no');
+      setTimeout(function () { var r = $('.soi-q-reply', box); if (r) r.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 60);
+    }
+    function result() {
+      var C = 2 * Math.PI * 52, pct = score / Q.length, b = LSget('soiQuizBest', {}); b[slug] = Math.max(b[slug] || 0, score); LSset('soiQuizBest', b);
+      LSset('soiGems', LSget('soiGems', 0) + gems); LSset('soiQuizDay', new Date().toISOString().slice(0, 10));
+      var msg = pct >= .9 ? 'Masha’Allah! Excellent.' : pct >= .6 ? 'Very good, well done.' : pct >= .3 ? 'A good start. Read again and try once more.' : 'Every reading teaches something. Try again.';
+      box.innerHTML = '<div class="soi-q-top"><button type="button" class="soi-q-x" aria-label="Close quiz">' + I.close + '</button><b class="soi-q-tt">Your result</b></div>' +
+        '<div class="soi-q-res"><div class="soi-q-conf">' + Array.apply(null, Array(18)).map(function (_, k) { return '<i style="left:' + (k * 37 % 100) + '%;animation-delay:' + (k % 6) * .25 + 's;background:' + ['#D4CC73', '#EA3451', '#7FA7B5', '#204E60'][k % 4] + '"></i>'; }).join('') + '</div>' +
+        '<span class="soi-q-ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"/><circle class="p" cx="60" cy="60" r="52" style="stroke-dasharray:' + C + ';stroke-dashoffset:' + C * (1 - pct) + '"/></svg><b>' + score + '<small>/' + Q.length + '</small></b></span>' +
+        '<div class="soi-q-b">' + DOVE + '<p><b>' + msg + '</b><br>You earned <b>' + gems + ' gems</b>' + (best >= 3 ? ' and your best run was <b>' + best + ' in a row</b>' : '') + '.</p></div>' +
+        '<div class="soi-q-sum">' + Q.map(function (q, k) { return '<span class="' + (answers[k] ? 'ok' : 'no') + '">' + (k + 1) + '</span>'; }).join('') + '</div></div>' +
+        '<div class="soi-q-foot is-2"><button type="button" class="soi-q-share">' + I.share + 'Share my score</button><button type="button" class="soi-q-again">Try again</button><button type="button" class="soi-q-go">Back to the issue</button></div>';
+    }
+    box.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) { if (e.target.closest('.soi-q-src')) close(); return; }
+      if (b.classList.contains('soi-q-x')) close();
+      else if (b.classList.contains('soi-q-o')) { $$('.soi-q-o', box).forEach(function (x) { x.classList.toggle('is-sel', x === b); }); var g = $('.soi-q-go', box); g.disabled = false; g.setAttribute('data-k', b.getAttribute('data-k')); }
+      else if (b.classList.contains('soi-q-again')) { at = score = streak = best = gems = 0; answers = []; ask(); }
+      else if (b.classList.contains('soi-q-share')) { if (window.soi) window.soi.share('I scored ' + score + ' of ' + Q.length + ' in the Spirit of Islam quiz' + (num ? ' (Issue ' + num + ')' : ''), '/issues/' + slug + '/#soi-quiz'); }
+      else if (b.classList.contains('soi-q-go')) {
+        if (!$('.soi-q-opts', box)) { if ($('.soi-q-res', box)) close(); else { at = 0; ask(); } return; }
+        if (!locked) { var k = b.getAttribute('data-k'); if (k != null) answer(+k); return; }
+        if (at < Q.length - 1) { at++; ask(); } else result();
+      }
+    });
+    intro();
   }
 
   /* ================= 3. Quotes, one at a time ================= */
@@ -413,6 +522,49 @@
     }
   }
 
+  /* ================= 4. Archive in the app (E1): search, year chips, the newest issue, a swipeable row per year ================= */
+  function archivePage() {
+    if ($('#soi-x-arch') || !window.soiApp) return;
+    var main = $('main') || document.body, box = document.createElement('section'); box.id = 'soi-x-arch';
+    main.insertBefore(box, main.firstChild); document.documentElement.classList.add('soi-x-archmode');
+    function draw(list) {
+      if (!list || !list.length) return;
+      var years = {}, order = [];
+      list.forEach(function (x) { var y = x.year || +(x.period.match(/\d{4}/) || [0])[0]; if (!years[y]) { years[y] = []; order.push(y); } years[y].push(x); });
+      order.sort(function (a, b) { return b - a; });
+      var last = list[list.length - 1], read = LSget('soiRead', {});
+      function card(x) { var n = Object.keys(read[x.slug] || {}).length; return '<a class="soi-x-ac" href="/issues/' + x.slug + '/" style="background-image:url(/assets/covers/' + x.slug + '.webp)"><span class="soi-x-acn">' + (x.number || '') + '</span><b>' + esc(x.period.replace(/\s*\d{4}$/, '')) + '</b>' + (n ? '<i style="width:' + Math.round(n / Math.max(1, x.articles) * 100) + '%"></i>' : '') + '</a>'; }
+      box.innerHTML = '<div class="soi-x-ah"><small>Archive</small><h1>Every issue since ' + order[order.length - 1] + '</h1></div>' +
+        '<a class="soi-x-asrch" href="/search.html?focus=1">' + svg('<circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/>') + '<span>Search an issue or article…</span></a>' +
+        '<div class="soi-x-ych" role="tablist">' + order.map(function (y, k) { return '<button type="button" data-y="' + y + '" aria-selected="' + (k === 0) + '">' + y + '</button>'; }).join('') + '</div>' +
+        '<div class="soi-x-arow2"><h2>Featured</h2><span>Latest</span></div>' +
+        '<a class="soi-x-afeat" href="/issues/' + last.slug + '/" style="background-image:url(/assets/covers/' + last.slug + '@2x.webp),url(/assets/covers/' + last.slug + '.webp)"><div><small>Issue ' + last.number + '</small><b>' + esc(last.period) + '</b><span>' + last.articles + ' articles' + (last.audio ? ' · ' + last.audio + ' to listen' : '') + '</span></div></a>' +
+        order.map(function (y) { var l = years[y].slice().reverse(); return '<section class="soi-x-ay" id="y' + y + '"><div class="soi-x-arow2"><h2>' + y + '</h2><span>' + l.length + ' issue' + (l.length > 1 ? 's' : '') + '</span></div><div class="soi-x-arail">' + l.map(card).join('') + '</div></section>'; }).join('');
+      var target = (location.hash.match(/^#y(\d{4})$/) || [])[1]; if (target) { var el = document.getElementById('y' + target); if (el) setTimeout(function () { el.scrollIntoView({ block: 'start' }); }, 50); }
+    }
+    box.addEventListener('click', function (e) {
+      var b = e.target.closest('.soi-x-ych button'); if (!b) return;
+      $$('.soi-x-ych button', box).forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+      var el = document.getElementById('y' + b.getAttribute('data-y')); if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' });
+    });
+    window.soiApp.manifest(false).then(function (l) { draw(l); return window.soiApp.manifest(true); }).then(draw).catch(function () {});
+  }
+
+  /* ================= 5. "Continue listening" live card above the tabs (F1) on every main screen ================= */
+  function liveResume() {
+    var tabs = $('#soi-app-tabs'), p = LSget('soiProgress', null);
+    if (!tabs || !p || !p.slug || (p.frac || 0) >= .97 || $('#soi-x-resume')) return;
+    if (sessionStorage.getItem('soiResumeX') === p.slug + p.id) return;
+    var left = p.min ? Math.max(1, Math.round(p.min * (1 - (p.frac || 0)))) : 0, C = 2 * Math.PI * 21;
+    var c = document.createElement('div'); c.id = 'soi-x-resume'; c.className = 'soi-x-live';
+    c.innerHTML = '<div class="soi-x-lv1"><span class="soi-x-ldot is-paused"></span><b>Continue listening</b><span class="soi-x-left">' + (left ? left + ' min left' : '') + '</span><button type="button" class="soi-x-mx" aria-label="Hide">' + I.close + '</button></div>' +
+      '<a class="soi-x-lv2" href="/issues/' + p.slug + '/?resume=1#soi-' + p.id + '"><span class="soi-x-mcv" style="background-image:url(/assets/covers/' + p.slug + '.webp)"></span><span class="soi-x-mt"><b>' + esc(p.title || '') + '</b><small>' + esc(p.label || '') + (p.t ? ' · paused at ' + mmss(p.t) : '') + '</small></span>' +
+      '<span class="soi-x-mpp"><svg class="soi-x-mring" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21"/><circle class="p" cx="24" cy="24" r="21" style="stroke-dasharray:' + C + ';stroke-dashoffset:' + C * (1 - (p.frac || 0)) + '"/></svg><span>' + I.play + '</span></span></a>';
+    document.body.appendChild(c); document.body.classList.add('soi-x-has-resume');
+    var cont = $('#soi-app-cont'); if (cont) cont.hidden = true;
+    $('.soi-x-mx', c).addEventListener('click', function () { sessionStorage.setItem('soiResumeX', p.slug + p.id); c.remove(); document.body.classList.remove('soi-x-has-resume'); if (cont) cont.hidden = false; });
+  }
+
   /* home: the top bar floats over the sky and takes its colour, so the two read as one */
   function homeTop() {
     var tries = 0;
@@ -430,6 +582,8 @@
     var meta = $('meta[name="soi-issue"]'), screen = document.body && document.body.getAttribute('data-screen');
     if (meta) issuePage(meta);
     else if (/^\/quotes\/(index\.html)?$/.test(location.pathname)) quotesPage();
+    else if (/^\/archive\/(index\.html)?$/.test(location.pathname)) archivePage();
+    setTimeout(liveResume, 400);
     if (screen === 'home') homeTop();
     if (screen === 'home') { var f = /[?&]welcome=1/.test(location.search); welcome(f); }
   };

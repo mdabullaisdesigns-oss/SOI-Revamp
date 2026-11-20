@@ -81,12 +81,27 @@ window.soiScreens = function () {
       var pdf = i.pdf ? (/^https?:/.test(i.pdf) ? i.pdf : CFG.remote + i.pdf) : '';
       haveMap().then(function (have) {
         var on = offline(i.slug, have);
-        document.getElementById('soi-app-latest').innerHTML = '<div class="soi-h-feat soi-app-issue" data-slug="' + i.slug + '"><span class="soi-h-fbg" style="background-image:url(/assets/covers/' + i.slug + '.webp)"></span>' +
-          '<a class="soi-h-book" href="/issues/' + i.slug + '/" aria-label="Open ' + esc(i.period) + '"><span class="soi-h-bk">' + cover(i, true) + '</span></a>' +
-          '<div class="soi-h-ft"><small>' + (i.number ? 'New · Issue ' + i.number : 'New') + '</small><b>' + esc(i.period) + '</b><span>' + (i.articles || '') + ' articles · read &amp; listen</span>' +
-          '<a class="soi-app-btn soi-app-b-read" href="/issues/' + i.slug + '/">Read &amp; Listen</a>' +
-          '<span class="soi-app-latest-2">' + (pdf ? '<a class="soi-app-btn is-line" href="' + esc(pdf) + '">PDF</a>' : '') +
-          '<button type="button" class="soi-app-btn is-line soi-app-b-save" aria-pressed="' + on + '">' + SAVE + (on ? 'Saved' : 'Save') + '</button></span></div></div>';
+        var rdn = Object.keys(S.store.read()[i.slug] || {}).length, mins = (i.arts || []).reduce(function (t, a) { return t + (+a[3] || 0); }, 0);
+        var PH = ['quote-4', 'guide2', 'topic-patience', 'quote-1', 'guide1', 'topic-peace', 'quote-2', 'hero', 'quote-6', 'topic-gratitude'];
+        var same = list.filter(function (x) { return x.year === i.year && x.slug !== i.slug; }).reverse();
+        document.getElementById('soi-app-latest').innerHTML =
+          /* D1: a featured photo card */
+          '<div class="soi-h-d1 soi-app-issue" data-slug="' + i.slug + '"><a class="soi-h-d1img" href="/issues/' + i.slug + '/" style="background-image:url(/assets/covers/' + i.slug + '@2x.webp),url(/assets/covers/' + i.slug + '.webp)" aria-label="Open ' + esc(i.period) + '"></a>' +
+          '<button type="button" class="soi-h-heart soi-app-b-save" aria-pressed="' + on + '" aria-label="Save on this phone">' + SAVE + '</button>' +
+          '<div class="soi-h-d1t"><small>' + (i.number ? 'New · Issue ' + i.number : 'New') + '</small><b>' + esc(i.period) + '</b><span>' + (i.articles || '') + ' articles · ' + (mins ? mins + ' min to read' : 'read &amp; listen') + '</span></div>' +
+          '<a class="soi-h-d1go" href="/issues/' + i.slug + '/" aria-label="Open the issue">' + PLAY + '</a></div>' +
+          /* D2: your progress in it */
+          '<div class="soi-h-d2"><div class="soi-h-d2p"><span class="soi-h-d2b"><i style="width:' + Math.round(rdn / Math.max(1, i.articles) * 100) + '%"></i></span><span>' + rdn + ' of ' + i.articles + ' read</span></div>' +
+          '<div class="soi-h-d2a"><a class="soi-app-btn soi-app-b-read" href="/issues/' + i.slug + '/' + (p && p.slug === i.slug ? '?resume=1#soi-' + p.id : '') + '">' + (rdn || (p && p.slug === i.slug) ? 'Continue reading' : 'Read &amp; Listen') + '</a>' +
+          (pdf ? '<a class="soi-app-btn is-line" href="' + esc(pdf) + '">PDF</a>' : '') + '</div></div>' +
+          /* D3: swipe the new articles */
+          '<div class="soi-app-hrow"><h2>New in Issue ' + (i.number || '') + '</h2><a href="/issues/' + i.slug + '/">Open issue</a></div>' +
+          '<div class="soi-h-d3">' + (i.arts || []).map(function (a, k) {
+            return '<a class="soi-h-d3c" href="/issues/' + i.slug + '/#soi-' + a[0] + '" style="background-image:url(/assets/photos/' + PH[k % PH.length] + '.webp)"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b><span>' + (a[4] ? 'Listen · ' : 'Read · ') + a[3] + ' min</span></a>';
+          }).join('') + '</div>' +
+          (same.length ? '<div class="soi-app-hrow"><h2>Earlier in ' + i.year + '</h2><a href="/archive/">All issues</a></div><div class="soi-h-d4">' + same.map(function (x) {
+            return '<a href="/issues/' + x.slug + '/" style="background-image:url(/assets/covers/' + x.slug + '.webp)"><b>' + esc(x.period.replace(/\s*\d{4}$/, '')) + '</b></a>';
+          }).join('') + '</div>' : '');
       });
       document.getElementById('soi-app-arts').innerHTML = (i.arts || []).slice(0, 4).map(function (a, k) {
         return '<a href="/issues/' + i.slug + '/#soi-' + a[0] + '"><span class="soi-app-n">' + (k + 1) + '</span><span class="soi-app-at"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b></span><span class="soi-app-min">' + a[3] + ' min</span></a>';
@@ -112,7 +127,7 @@ window.soiScreens = function () {
       var slug = b.closest('.soi-app-issue').dataset.slug;
       if (b.getAttribute('aria-pressed') === 'true') { S.toast('Already on this phone'); return; }
       b.disabled = true; S.toast('Saving for offline…');
-      A.download(slug).then(function () { b.setAttribute('aria-pressed', 'true'); b.innerHTML = SAVE + 'Saved'; S.toast('Saved for offline'); }, function () { S.toast('No internet – try again later'); }).then(function () { b.disabled = false; });
+      A.download(slug).then(function () { b.setAttribute('aria-pressed', 'true'); b.innerHTML = SAVE + (b.classList.contains('soi-h-heart') ? '' : 'Saved'); S.toast('Saved for offline'); }, function () { S.toast('No internet – try again later'); }).then(function () { b.disabled = false; });
     });
     document.querySelector('.soi-x-seg').addEventListener('click', function (e) {     /* Your reading: one panel at a time */
       var b = e.target.closest('button'); if (!b) return;
