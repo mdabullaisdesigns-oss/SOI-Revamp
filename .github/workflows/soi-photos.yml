@@ -1,42 +1,73 @@
-name: Fetch candidate photos
-
-# Downloads the photos listed in sources/photo-candidates.txt (free-licence Pexels / Unsplash) at review
-# size to the throw-away branch "photo-candidates". Nothing is added to main or to the website by this job.
+name: Nature photos from R2 to the site
+# Md Abullais uploads full-size nature photos to R2 (soi-media/<folder>/). This job:
+#  1. lists the bucket's top folders (so the right one is found),
+#  2. downloads every image in the photo folder (originals stay in R2),
+#  3. makes web sizes: site/photos/n/<name>.webp (1600 px) and <name>-s.webp (700 px),
+#  4. writes site/photos/n/index.json (size, orientation, average colour),
+#  5. uploads a small numbered contact sheet as a run artifact, so Claude can check every photo cheaply
+#     (no people, no symbols of other religions) before any of them is used.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [sources/photo-candidates.txt, .github/workflows/soi-photos.yml]
-
+    inputs:
+      folder: { description: "R2 folder (leave empty to find the one with 'photo' in its name)", required: false, default: "" }
 permissions:
   contents: write
-
 jobs:
-  fetch:
+  photos:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
     steps:
       - uses: actions/checkout@v4
-      - name: Download
+      - run: pip install -q pillow pillow-heif
+      - name: Find the folder and download
         run: |
-          mkdir -p "$RUNNER_TEMP/p"; cd "$RUNNER_TEMP/p"
-          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
-          grep -v '^#' "$GITHUB_WORKSPACE/sources/photo-candidates.txt" | grep -v '^\s*$' | while read -r group src id; do
-            if [ "$src" = pexels ]; then
-              url="https://images.pexels.com/photos/$id/pexels-photo-$id.jpeg?auto=compress&cs=tinysrgb&w=${W:-900}"
-            else
-              url="https://unsplash.com/photos/$id/download?force=true&w=${W:-900}"
-            fi
-            curl -fsSL -A "$UA" -o "$group-$src-$id.jpg" "$url" || { echo "::warning::$src $id not downloaded"; rm -f "$group-$src-$id.jpg"; }
-            sleep 0.5
-          done
-          ls -la | head -80
-      - name: Publish to the photo-candidates branch
+          aws s3 ls "s3://$R2_BUCKET/" --endpoint-url "$R2_ENDPOINT" | tee /tmp/top.txt
+          F="${{ inputs.folder }}"
+          if [ -z "$F" ]; then F=$(grep -i 'PRE .*photo' /tmp/top.txt | head -1 | sed 's/.*PRE //; s#/$##'); fi
+          echo "folder: $F"; [ -n "$F" ] || { echo "::error::no photo folder found"; exit 1; }
+          mkdir -p /tmp/in && aws s3 cp "s3://$R2_BUCKET/$F/" /tmp/in/ --recursive --endpoint-url "$R2_ENDPOINT" --only-show-errors
+          find /tmp/in -type f | head -200; echo "files: $(find /tmp/in -type f | wc -l)"
+      - name: Web sizes, index and contact sheet
         run: |
-          cd "$RUNNER_TEMP/p"
-          git init -q -b photo-candidates
+          python3 - <<'PY'
+          import os, re, json, glob
+          from PIL import Image, ImageOps, ImageDraw, ImageStat
+          try:
+              import pillow_heif; pillow_heif.register_heif_opener()
+          except Exception: pass
+          out = "site/photos/n"; os.makedirs(out, exist_ok=True)
+          files = sorted(f for f in glob.glob("/tmp/in/**/*", recursive=True) if os.path.isfile(f) and re.search(r"\.(jpe?g|png|webp|heic|heif|tiff?|avif)$", f, re.I))
+          idx, thumbs = [], []
+          for k, f in enumerate(files, 1):
+              name = "n%02d" % k
+              try: im = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
+              except Exception as e: print("skip", f, e); continue
+              w, h = im.size
+              big = im.copy(); big.thumbnail((1600, 1600)); big.save(f"{out}/{name}.webp", "WEBP", quality=80, method=6)
+              sm = im.copy(); sm.thumbnail((700, 700)); sm.save(f"{out}/{name}-s.webp", "WEBP", quality=78, method=6)
+              avg = ImageStat.Stat(sm.resize((32, 32))).mean
+              idx.append({"name": name, "src": os.path.basename(f), "w": w, "h": h, "ratio": round(w / h, 3),
+                          "shape": "landscape" if w / h > 1.15 else "portrait" if w / h < .87 else "square",
+                          "color": "#%02x%02x%02x" % tuple(int(c) for c in avg[:3])})
+              t = im.copy(); t.thumbnail((300, 300)); thumbs.append((name, t))
+          json.dump(idx, open(f"{out}/index.json", "w"), indent=1)
+          cols = 6; cw, ch = 310, 330; rows = (len(thumbs) + cols - 1) // cols
+          sheet = Image.new("RGB", (cols * cw, max(1, rows) * ch), "white"); d = ImageDraw.Draw(sheet)
+          for i, (n, t) in enumerate(thumbs):
+              x, y = (i % cols) * cw, (i // cols) * ch
+              sheet.paste(t, (x + 5, y + 5)); d.text((x + 8, y + 310), f"{n}  {t.size[0]}x{t.size[1]}", fill="black")
+          sheet.save("/tmp/sheet.jpg", quality=72)
+          print(len(idx), "photos")
+          PY
+      - uses: actions/upload-artifact@v4
+        with: { name: photo-sheet, path: /tmp/sheet.jpg }
+      - name: Commit the web sizes
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -q -m "Candidate photos (temporary, for review)"
-          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" photo-candidates
+          git add site/photos/n && git commit -qm "Nature photos (web sizes) from R2 [skip ci]" && for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 5; done || echo "nothing new"
