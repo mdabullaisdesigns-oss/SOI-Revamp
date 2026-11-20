@@ -542,3 +542,143 @@ html.soi-app [data-screen="home"] .soi-app-screen { overflow-x: clip; }
 .is-on .soi-w-type span { animation: soiWreveal 1.4s steps(23) 2s both; }
 @keyframes soiWreveal { to { clip-path: inset(0 0 0 0); } }
 #soi-x-welcome.is-first .soi-x-back { visibility: hidden; }
+
+/* ===================== 20 Nov (b): light issue page, light player, home header, toggles, push menu ===================== */
+html.soi-app .soi-credit { display: none !important; }          /* no developer credit inside the app */
+/* --- issue hero with a curved edge --- */
+html.soi-x-issue body { background: #F4F2EA; }
+#soi-x-hero { height: min(56vh, 470px); min-height: 360px; display: block; }
+#soi-x-hero::after { background: linear-gradient(180deg, rgba(10, 28, 37, .35) 0%, rgba(10, 28, 37, 0) 30%); }
+.soi-x-hph { background-size: auto 150% !important; background-position: 50% 92% !important; }
+.soi-x-htop { gap: 10px; } .soi-x-htop > span { flex: 1; }
+.soi-x-wbtn { width: 44px; height: 44px; flex: none; display: grid; place-items: center; border: 0; border-radius: 50%; background: #fff; color: #173A48; box-shadow: 0 8px 20px -10px rgba(0, 0, 0, .45); cursor: pointer; }
+.soi-x-wbtn svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.soi-x-hsave.is-on svg { fill: currentColor; }
+.soi-x-years { position: absolute; z-index: 3; left: 0; right: 0; bottom: 12px; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 0 14px; }
+.soi-x-years a { width: 50px; height: 50px; flex: none; border-radius: 50%; background: #204E60 center 70%/cover; border: 3px solid #fff; box-shadow: 0 8px 18px -8px rgba(0, 0, 0, .5); text-decoration: none; transition: transform .3s; }
+.soi-x-years a.is-on { width: 64px; height: 64px; border-color: #D4CC73; box-shadow: 0 0 0 3px #fff, 0 10px 22px -8px rgba(0, 0, 0, .55); }
+.soi-x-yall { display: grid; place-items: center; background: #fff !important; color: #204E60; font-size: 12px; font-weight: 800; }
+#soi-x-sheet { margin-top: -46px; padding: 54px 18px 4px; background: #F4F2EA; border-radius: 50% 50% 0 0 / 46px 46px 0 0; }
+.soi-x-src { display: flex; align-items: center; gap: 7px; margin: 0; font-size: 12.5px; color: #53656D; }
+.soi-x-src img { width: 18px; height: auto; filter: brightness(.3) sepia(1) hue-rotate(160deg) saturate(3); }
+.soi-x-trow { display: flex; align-items: flex-start; gap: 12px; margin-top: 8px; }
+.soi-x-trow h1 { flex: 1; margin: 0; font: 400 31px/1.08 "Cita Pro", Georgia, serif; color: #173A48; text-wrap: balance; }
+.soi-x-badge { flex: none; display: flex; flex-direction: column; align-items: center; padding: 6px 12px 7px; border-radius: 16px; background: #E4EEF0; color: #204E60; }
+.soi-x-badge b { font: 400 26px/1 "Cita Pro", Georgia, serif; color: #EA3451; } .soi-x-badge small { font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.soi-x-meta { margin: 6px 0 0; font-size: 13px; color: #53656D; }
+.soi-x-tabs { display: flex; gap: 8px; margin-top: 16px; }
+.soi-x-tabs button { height: 38px; padding: 0 16px; border: 0; border-radius: 99px; background: #DDE9EC; color: #204E60; font: 700 13.5px "Plus Jakarta Sans", sans-serif; cursor: pointer; }
+.soi-x-tabs button[aria-selected="true"] { background: #173A48; color: #fff; }
+.soi-x-about h3 { margin: 20px 0 6px; font: 400 21px "Cita Pro", Georgia, serif; color: #173A48; } .soi-x-about p { margin: 0; font-size: 14px; line-height: 1.6; color: #53656D; }
+#soi-x-fbar.is-on { background: rgba(244, 242, 234, .92); }
+#soi-x-fbar.is-on .soi-x-wbtn { box-shadow: 0 0 0 1px #E0DDCF; }
+/* --- article tabs in the app: light cards, number inside a progress ring --- */
+html.soi-app .soi-ev.soi-x-cards { padding: 6px 0 0 !important; display: grid; gap: 10px; }
+html.soi-app .soi-ev.soi-x-cards .ev-item { border: 0 !important; background: #fff !important; border-radius: 22px !important; box-shadow: 0 1px 0 #E6E3D6, 0 10px 26px -18px rgba(23, 58, 72, .35) !important; overflow: hidden; margin: 0 !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-item .ev-tab { background: #fff !important; color: #173A48 !important; padding: 14px 14px 14px 12px !important; gap: 12px !important; border: 0 !important; box-shadow: none !important; min-height: 0 !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-item .ev-tab::before, html.soi-app .soi-ev.soi-x-cards .ev-item .ev-tab::after { display: none !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-kicker { color: #8A7F2E !important; font-size: 10px !important; letter-spacing: .1em !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-tab-title, html.soi-app .soi-ev.soi-x-cards .ev-tab-title * { color: #173A48 !important; font-size: 18px !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-chev { color: #204E60 !important; background: #EEF3F4 !important; border: 0 !important; border-radius: 50% !important; width: 34px !important; height: 34px !important; display: grid !important; place-items: center; transform: none !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-chev svg { width: 18px !important; height: 18px !important; transition: transform .3s; }
+html.soi-app .soi-ev.soi-x-cards .ev-tab[aria-expanded="true"] .ev-chev svg { transform: rotate(180deg); }
+html.soi-app .soi-ev.soi-x-cards .ev-chev * { animation: none !important; }
+html.soi-app .soi-ev.soi-x-cards .ev-num { width: 46px !important; height: 46px !important; min-width: 46px; border: 0 !important; background: none !important; padding: 0 !important; box-shadow: none !important; display: block !important; }
+.soi-x-ring { position: relative; width: 46px; height: 46px; display: grid; place-items: center; }
+.soi-x-ring svg { position: absolute; inset: 0; width: 100% !important; height: 100% !important; transform: rotate(-90deg); }
+.soi-x-ring circle { fill: none; stroke: #E8E5D8; stroke-width: 3.2; }
+.soi-x-ring .p { stroke: #D4CC73; stroke-linecap: round; transition: stroke-dashoffset .6s, stroke .3s; }
+.soi-x-ring b { position: relative; font: 700 14px "Plus Jakarta Sans", sans-serif; color: #204E60; }
+.soi-x-ring.is-done circle { fill: #204E60; stroke: #204E60; } .soi-x-ring.is-done .p { stroke: #D4CC73; }
+.soi-x-ring.is-done b svg { width: 18px; height: 18px; fill: none; stroke: #fff; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; position: static; transform: none; display: block; }
+html.soi-x-audioonly .soi-ev.soi-x-cards, html.soi-x-audioonly .soi-x-about { display: none !important; }
+.soi-x-alist { display: grid; gap: 10px; margin-top: 16px; }
+.soi-x-arow { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 22px; background: #fff; box-shadow: 0 1px 0 #E6E3D6, 0 10px 26px -18px rgba(23, 58, 72, .35); cursor: pointer; }
+.soi-x-at { flex: 1; min-width: 0; display: flex; flex-direction: column; } .soi-x-at small { font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #8A7F2E; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .soi-x-at b { font: 400 17px/1.25 "Cita Pro", Georgia, serif; color: #173A48; }
+.soi-x-adur { font-size: 12px; color: #53656D; }
+.soi-x-aplay { width: 42px; height: 42px; flex: none; border: 0; border-radius: 50%; background: #204E60; color: #fff; display: grid; place-items: center; }
+.soi-x-aplay svg { width: 18px; height: 18px; } .soi-x-aplay .f { fill: currentColor; }
+/* --- dock: PDF circle + Play all pill (Drift CTA) --- */
+#soi-x-dock { background: transparent; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; padding: 0; gap: 10px; }
+#soi-x-dock .soi-x-pdf { width: 58px; height: 58px; padding: 0; border-radius: 50%; background: #fff; color: #204E60; box-shadow: 0 12px 26px -12px rgba(16, 38, 47, .45), inset 0 0 0 1px #E0DDCF; }
+#soi-x-dock .soi-x-playall { flex: 1; height: 58px; padding: 0 6px 0 24px; justify-content: space-between; background: #204E60; color: #fff; font-size: 16px; box-shadow: 0 14px 30px -12px rgba(16, 38, 47, .55); }
+#soi-x-dock .soi-x-playall i { width: 46px; height: 46px; border-radius: 50%; background: #D4CC73; color: #173A48; display: grid; place-items: center; }
+#soi-x-dock .soi-x-playall i svg { width: 20px; height: 20px; }
+#soi-x-mini { bottom: calc(80px + env(safe-area-inset-bottom, 0px)); border-radius: 20px; box-shadow: 0 14px 30px -12px rgba(16, 38, 47, .35), inset 0 0 0 1px #E6E3D6; }
+/* --- the full player: light, cards carousel, words from the top with a wave edge --- */
+#soi-x-full { color: #173A48; background: linear-gradient(180deg, #F4F2EA 0%, #FFFFFF 60%, #EEF3F4 100%); padding: calc(10px + env(safe-area-inset-top, 0px)) 0 calc(24px + env(safe-area-inset-bottom, 0px)); justify-content: flex-start; }
+.soi-x-ftop { padding: 0 16px; position: relative; z-index: 3; } .soi-x-ftop small { color: #53656D; letter-spacing: .04em; font-weight: 700; font-size: 12px; }
+.soi-x-ftop button { background: #fff !important; color: #173A48 !important; box-shadow: 0 0 0 1px #E0DDCF; }
+.soi-x-fread.is-on { background: #173A48 !important; color: #D4CC73 !important; }
+.soi-x-car { position: relative; width: 100%; height: 300px; margin: 18px 0 6px; transition: height .5s cubic-bezier(.2, .7, .2, 1), margin .5s; }
+.soi-x-card { --d: 0; position: absolute; left: 50%; top: 0; width: 200px; height: 280px; margin-left: -100px; padding: 0; border: 0; border-radius: 20px; overflow: hidden; background: #204E60; color: #fff; text-align: left;
+  transform: translateX(calc(var(--d) * 74%)) scale(calc(1 - min(1, abs(var(--d))) * .2)) rotate(calc(var(--d) * 4deg)); opacity: calc(1 - min(1, abs(var(--d))) * .35); z-index: calc(10 - abs(var(--d))); transition: transform .55s cubic-bezier(.2, .7, .2, 1), opacity .4s, width .5s, height .5s, margin .5s; box-shadow: 0 26px 40px -22px rgba(16, 38, 47, .6); }
+.soi-x-card[hidden] { display: block; visibility: hidden; }
+.soi-x-cimg { position: absolute; inset: 0; background-size: auto 210%; }
+.soi-x-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10, 28, 37, 0) 40%, rgba(10, 28, 37, .8)); }
+.soi-x-cnum { position: absolute; z-index: 1; left: 16px; bottom: 34px; font: 400 44px/1 "Cita Pro", Georgia, serif; color: #D4CC73; }
+.soi-x-ckick { position: absolute; z-index: 1; left: 16px; right: 12px; bottom: 14px; font-size: 9.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.soi-x-ft { padding: 0 24px; } .soi-x-ft small { color: #8A7F2E; } .soi-x-ft b { color: #173A48; font-size: 26px; } .soi-x-ft span { display: block; margin-top: 4px; font-size: 12.5px; color: #53656D; }
+.soi-x-prog { width: 100%; padding: 0 24px; box-sizing: border-box; margin-top: 18px; }
+.soi-x-seek { -webkit-appearance: none; appearance: none; width: 100%; height: 6px; border-radius: 6px; background: linear-gradient(90deg, #204E60 var(--p, 0%), #E3E0D3 var(--p, 0%)); outline: none; margin: 8px 0 4px; }
+.soi-x-seek::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #204E60; box-shadow: 0 0 0 4px #fff, 0 2px 8px rgba(0, 0, 0, .3); }
+.soi-x-times { color: #53656D; opacity: 1; }
+.soi-x-ctl { width: 100%; justify-content: space-between; padding: 0 22px; box-sizing: border-box; margin: 12px 0 0; gap: 0; }
+.soi-x-ctl button { color: #173A48; }
+.soi-x-b15, .soi-x-f15 { position: relative; width: 52px; height: 52px; box-shadow: none !important; } .soi-x-b15 svg, .soi-x-f15 svg { width: 34px !important; height: 34px !important; stroke-width: 1.6 !important; }
+.soi-x-b15 i, .soi-x-f15 i { position: absolute; font: 800 10px "Plus Jakarta Sans", sans-serif; font-style: normal; }
+.soi-x-big { width: 80px; height: 80px; background: #204E60 !important; color: #fff !important; box-shadow: 0 18px 34px -12px rgba(16, 38, 47, .55); }
+.soi-x-speed, .soi-x-share2 { width: 46px; height: 46px; border-radius: 50%; background: #fff !important; box-shadow: 0 0 0 1px #E0DDCF !important; font: 800 12.5px "Plus Jakarta Sans", sans-serif; }
+.soi-x-share2 svg { width: 20px !important; height: 20px !important; }
+.soi-x-lyr { position: absolute; z-index: 2; left: 0; right: 0; top: 0; padding: calc(70px + env(safe-area-inset-top, 0px)) 24px 30px; background: #E9E4CC; transform: translateY(-105%); transition: transform .55s cubic-bezier(.2, .7, .2, 1); }
+.soi-x-lyr-edge { position: absolute; left: 0; right: 0; bottom: -39px; width: 100%; height: 40px; } .soi-x-lyr-edge path { fill: #E9E4CC; }
+#soi-x-full.is-read .soi-x-lyr { transform: none; }
+.soi-x-lyr-in p { margin: 0 0 10px; font: 400 19px/1.45 "Cita Pro", Georgia, serif; color: rgba(23, 58, 72, .38); transition: color .4s; }
+.soi-x-lyr-in p.is-on { color: #173A48; }
+#soi-x-full.is-read .soi-x-car { height: 150px; margin-top: 230px; }
+#soi-x-full.is-read .soi-x-card { width: 104px; height: 146px; margin-left: -52px; }
+#soi-x-full.is-read .soi-x-cnum { font-size: 28px; bottom: 26px; } #soi-x-full.is-read .soi-x-ckick { font-size: 7.5px; }
+/* --- home: the top bar floats over the sky and shares its colour --- */
+html.soi-x-home #soi-app-top { position: fixed; left: 0; right: 0; top: 0; background: transparent !important; transition: background .35s, box-shadow .35s; }
+html.soi-x-home #soi-app-top.is-solid { -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); box-shadow: 0 8px 20px -14px rgba(0, 0, 0, .5) !important; }
+html.soi-x-home[data-tod="dawn"] #soi-app-top.is-solid, html.soi-x-home[data-tod="eve"] #soi-app-top.is-solid { background: rgba(23, 58, 72, .92) !important; }
+html.soi-x-home[data-tod="day"] #soi-app-top.is-solid { background: rgba(31, 90, 115, .94) !important; }
+html.soi-x-home[data-tod="night"] #soi-app-top.is-solid { background: rgba(11, 30, 39, .94) !important; }
+html.soi-x-home .soi-h-sky { padding-top: calc(78px + env(safe-area-inset-top, 0px)) !important; border-radius: 0 0 34px 34px; }
+html.soi-x-home .soi-h-orb { top: calc(70px + env(safe-area-inset-top, 0px)); }
+.soi-h-sky[data-tod="dawn"] { background: linear-gradient(180deg, #173A48 0%, #2A6177 38%, #6E97A3 70%, #E9B98A 100%); }
+.soi-h-sky[data-tod="eve"] { background: linear-gradient(180deg, #173A48 0%, #2E5363 45%, #8D7A6A 80%, #C98A5B 100%); }
+/* --- home: Your reading as toggle tabs --- */
+.soi-x-you { margin-top: 28px !important; padding: 18px; border-radius: 24px; background: #fff; border: 1px solid #E6E3D6; }
+.soi-x-yhead h2 { margin: 0; font: 400 22px "Cita Pro", Georgia, serif; color: #173A48; }
+.soi-x-seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 12px 0 14px; padding: 4px; border-radius: 99px; background: #EEEEE5; }
+.soi-x-seg button { height: 36px; border: 0; border-radius: 99px; background: none; color: #53656D; font: 700 13px "Plus Jakarta Sans", sans-serif; transition: background .25s, color .25s; }
+.soi-x-seg button[aria-selected="true"] { background: #204E60; color: #fff; box-shadow: 0 6px 14px -8px rgba(16, 38, 47, .6); }
+.soi-x-you .soi-you-grid { display: block !important; }
+.soi-x-you .soi-you-card { display: none !important; padding: 0 !important; border: 0 !important; box-shadow: none !important; background: none !important; animation: soiXrise .4s both; }
+.soi-x-you .soi-you-card > h3 { display: none; }
+.soi-x-you [data-show="prog"] .soi-you-prog, .soi-x-you [data-show="sug"] .soi-you-sug, .soi-x-you [data-show="mix"] .soi-you-mix { display: block !important; }
+/* --- the menu behind the page (Popshot) --- */
+#soi-x-shell { position: relative; background: #F7F6F0; transition: transform .5s cubic-bezier(.2, .7, .2, 1), clip-path .5s, box-shadow .5s; }
+html.soi-x-menu #soi-x-shell { transform: translateX(66vw) scale(.8); box-shadow: -30px 0 60px -20px rgba(0, 0, 0, .5); cursor: pointer; }
+html.soi-x-menu #soi-app-tabs { opacity: 0; pointer-events: none; }
+html.soi-x-menu, html.soi-x-menu body { background: #10262F; }
+#soi-app-drawer { background: #10262F !important; z-index: 0 !important; transition: none; }
+#soi-app-drawer.is-open { background: #10262F !important; }
+#soi-app-drawer .soi-app-drawer-in { width: 64vw; max-width: 300px; background: transparent; transform: translateX(-30px); opacity: 0; transition: transform .5s cubic-bezier(.2, .7, .2, 1) .05s, opacity .4s .05s; padding-left: 22px; }
+#soi-app-drawer.is-open .soi-app-drawer-in { transform: none; opacity: 1; }
+html.soi-x-menu body > #soi-app-drawer { position: fixed; inset: 0; }
+#soi-x-shell { z-index: 1; }
+.soi-app-dg > a { font-size: 17px; padding: 8px 0; }
+.soi-app-dg h2 { margin-top: 4px; }
+html.soi-app #soi-gotop { display: none !important; }            /* the app has its own bars at the bottom */
+.soi-x-hph { background-position: 50% 70% !important; }
+#soi-x-full .soi-x-lyr-edge { width: 100% !important; height: 40px !important; }
+.soi-x-lyr { transform: translateY(calc(-100% - 60px)); }
+.soi-x-hph { background-position: 50% 82% !important; }
+#soi-x-full .soi-x-lyr-edge path { stroke: none !important; fill: #E9E4CC !important; }
+.soi-x-alist[hidden] { display: none !important; }
+.soi-x-arow { min-width: 0; }
+.soi-x-years { overflow-x: auto; justify-content: safe center; scrollbar-width: none; padding-top: 6px; padding-bottom: 4px; bottom: 8px; }
+.soi-x-years::-webkit-scrollbar { display: none; }
+#soi-x-hero { overflow: hidden; }

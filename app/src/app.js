@@ -172,9 +172,23 @@
       });
       $('.soi-app-drawer-more', d).innerHTML = out;
     }).catch(function () {});
-    function close() { d.classList.remove('is-open'); setTimeout(function () { d.hidden = true; }, 300); document.documentElement.style.overflow = ''; }
+    /* Popshot-style: the page slides right and shrinks into a card; the menu sits behind it */
+    function shell() {
+      var sh = document.getElementById('soi-x-shell'); if (sh) return sh;
+      sh = document.createElement('div'); sh.id = 'soi-x-shell';
+      Array.prototype.slice.call(document.body.children).forEach(function (c) { if (c !== d && c.tagName !== 'SCRIPT' && c.id !== 'soi-app-splash') sh.appendChild(c); });
+      document.body.insertBefore(sh, d); sh.addEventListener('click', function (e) { if (document.documentElement.classList.contains('soi-x-menu')) { e.preventDefault(); e.stopPropagation(); close(); } }, true);
+      return sh;
+    }
+    function close() { var sh = document.getElementById('soi-x-shell'); document.documentElement.classList.remove('soi-x-menu'); d.classList.remove('is-open'); setTimeout(function () { d.hidden = true; if (sh) sh.style.clipPath = ''; }, 450); document.documentElement.style.overflow = ''; }
     d.addEventListener('click', function (e) { if (e.target === d || e.target.closest('.soi-app-drawer-top button') || e.target.closest('a')) close(); });
-    return function () { d.hidden = false; requestAnimationFrame(function () { d.classList.add('is-open'); }); document.documentElement.style.overflow = 'hidden'; };
+    return function () {
+      var sh = shell(), y = window.scrollY, H = sh.offsetHeight;
+      sh.style.transformOrigin = '0 ' + (y + innerHeight / 2) + 'px';
+      sh.style.clipPath = 'inset(' + y + 'px 0 ' + Math.max(0, H - y - innerHeight) + 'px 0 round 34px)';
+      d.hidden = false; document.documentElement.style.overflow = 'hidden';
+      requestAnimationFrame(function () { d.classList.add('is-open'); document.documentElement.classList.add('soi-x-menu'); });
+    };
   }
   function chrome() {
     var b = document.body; if (!b || $('#soi-app-tabs') || $('#soi-app-bar') || $('#soi-app-top')) return;

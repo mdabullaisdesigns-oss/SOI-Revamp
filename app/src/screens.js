@@ -66,7 +66,7 @@ window.soiScreens = function () {
       '<div class="soi-app-hrow"><h2>Latest issue</h2><a href="/archive/">All issues</a></div><div id="soi-app-latest"></div>' +
       '<div class="soi-app-hrow"><h2>Your day with SOI</h2></div><div class="soi-h-path" id="soi-h-day"></div>' +
       '<div class="soi-app-hrow"><h2>In this issue</h2></div><div class="soi-app-list" id="soi-app-arts"></div>' +
-      '<section class="soi-you" id="soi-you"><div class="soi-you-grid">' +
+      '<section class="soi-you soi-x-you" id="soi-you"><div class="soi-x-yhead"><h2>Your reading</h2></div><div class="soi-x-seg" role="tablist"><button type="button" role="tab" data-p="prog" aria-selected="true">Progress</button><button type="button" role="tab" data-p="sug" aria-selected="false">For you</button><button type="button" role="tab" data-p="mix" aria-selected="false">Topics</button></div><div class="soi-you-grid" data-show="prog">' +
       '<div class="soi-you-card soi-you-prog"><h3>Your progress</h3><div class="soi-you-body"></div></div>' +
       '<div class="soi-you-card soi-you-sug"><h3>Suggested for you</h3><div class="soi-you-body"></div></div>' +
       '<div class="soi-you-card soi-you-mix"><h3>What you read</h3><div class="soi-you-body"></div></div></div></section>' +
@@ -113,6 +113,11 @@ window.soiScreens = function () {
       if (b.getAttribute('aria-pressed') === 'true') { S.toast('Already on this phone'); return; }
       b.disabled = true; S.toast('Saving for offline…');
       A.download(slug).then(function () { b.setAttribute('aria-pressed', 'true'); b.innerHTML = SAVE + 'Saved'; S.toast('Saved for offline'); }, function () { S.toast('No internet – try again later'); }).then(function () { b.disabled = false; });
+    });
+    document.querySelector('.soi-x-seg').addEventListener('click', function (e) {     /* Your reading: one panel at a time */
+      var b = e.target.closest('button'); if (!b) return;
+      Array.prototype.forEach.call(this.children, function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+      document.querySelector('#soi-you .soi-you-grid').setAttribute('data-show', b.getAttribute('data-p'));
     });
     if (S.startHome) S.startHome();
   }
