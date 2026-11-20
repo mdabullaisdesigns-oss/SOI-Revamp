@@ -48,7 +48,7 @@ window.soiScreens = function () {
     ['Quotes', '/quotes/', '<path d="M4.5 4.5h15a1.5 1.5 0 0 1 1.5 1.5v10a1.5 1.5 0 0 1-1.5 1.5H11l-4.5 3.5v-3.5h-2A1.5 1.5 0 0 1 3 16V6a1.5 1.5 0 0 1 1.5-1.5z"/><path d="M8.5 9h2.2v2c0 1.3-.7 2.1-2 2.5M13.3 9h2.2v2c0 1.3-.7 2.1-2 2.5"/>'],
     ['Saved', '/saved.html', '<path d="M6 3.5h12a1 1 0 0 1 1 1v16l-7-4.5-7 4.5v-16a1 1 0 0 1 1-1z"/>'],
     ['Gems', '/gems.html', '<path d="M6.5 3.5h11l4 5.5L12 20.5 2.5 9z"/><path d="M2.5 9h19M9 3.5 7.5 9 12 20.5 16.5 9 15 3.5"/>'],
-    ['Topics', '/#topics', '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v8.5l6 6"/>'],
+    ['Topics', '#topics', '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v8.5l6 6"/>'],
     ['Search', '/search.html?focus=1', '<circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/>'],
     ['About', '/about/', '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20.5v-1A4.5 4.5 0 0 1 7 15h4a4.5 4.5 0 0 1 4.5 4.5v1M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 15.2a4.5 4.5 0 0 1 3 4.3v1"/>'],
     ['Contact', '/contact/', '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/>']
@@ -86,7 +86,7 @@ window.soiScreens = function () {
         var same = list.filter(function (x) { return x.year === i.year && x.slug !== i.slug; }).reverse();
         document.getElementById('soi-app-latest').innerHTML =
           /* D1: a featured photo card */
-          '<div class="soi-h-d1 soi-app-issue" data-slug="' + i.slug + '"><a class="soi-h-d1img" href="/issues/' + i.slug + '/" style="background-image:url(/assets/covers/' + i.slug + '@2x.webp),url(/assets/covers/' + i.slug + '.webp)" aria-label="Open ' + esc(i.period) + '"></a>' +
+          '<div class="soi-h-d1 soi-app-issue" data-slug="' + i.slug + '"><a class="soi-h-d1img" href="/issues/' + i.slug + '/" style="background-image:url(' + (window.soiNP ? window.soiNP('issue' + i.slug, 'land') : '/assets/covers/' + i.slug + '.webp') + ')" aria-label="Open ' + esc(i.period) + '"></a><span class="soi-h-d1cv" style="background-image:url(/assets/covers/' + i.slug + '.webp)"></span>' +
           '<button type="button" class="soi-h-heart soi-app-b-save" aria-pressed="' + on + '" aria-label="Save on this phone">' + SAVE + '</button>' +
           '<div class="soi-h-d1t"><small>' + (i.number ? 'New · Issue ' + i.number : 'New') + '</small><b>' + esc(i.period) + '</b><span>' + (i.articles || '') + ' articles · ' + (mins ? mins + ' min to read' : 'read &amp; listen') + '</span></div>' +
           '<a class="soi-h-d1go" href="/issues/' + i.slug + '/" aria-label="Open the issue">' + PLAY + '</a></div>' +
@@ -97,7 +97,7 @@ window.soiScreens = function () {
           /* D3: swipe the new articles */
           '<div class="soi-app-hrow"><h2>New in Issue ' + (i.number || '') + '</h2><a href="/issues/' + i.slug + '/">Open issue</a></div>' +
           '<div class="soi-h-d3">' + (i.arts || []).map(function (a, k) {
-            return '<a class="soi-h-d3c" href="/issues/' + i.slug + '/#soi-' + a[0] + '" style="background-image:url(/assets/photos/' + PH[k % PH.length] + '.webp)"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b><span>' + (a[4] ? 'Listen · ' : 'Read · ') + a[3] + ' min</span></a>';
+            return '<a class="soi-h-d3c" href="/issues/' + i.slug + '/#soi-' + a[0] + '" style="background-image:url(' + (window.soiNP ? window.soiNP('art' + a[0] + k, 'por', true) : '/assets/photos/' + PH[k % PH.length] + '.webp') + ')"><small>' + esc(a[2] || 'Article') + '</small><b>' + esc(a[1]) + '</b><span>' + (a[4] ? 'Listen · ' : 'Read · ') + a[3] + ' min</span></a>';
           }).join('') + '</div>' +
           (same.length ? '<div class="soi-app-hrow"><h2>Earlier in ' + i.year + '</h2><a href="/archive/">All issues</a></div><div class="soi-h-d4">' + same.map(function (x) {
             return '<a href="/issues/' + x.slug + '/" style="background-image:url(/assets/covers/' + x.slug + '.webp)"><b>' + esc(x.period.replace(/\s*\d{4}$/, '')) + '</b></a>';

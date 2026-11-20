@@ -1204,3 +1204,16 @@ svg.soi-fi.soi-fi-st, .soi-menu-list svg.soi-fi-st, .soi-menu-ico svg.soi-fi-st,
 .soi-qotd-spot.is-swap blockquote, .soi-qotd-spot.is-swap .soi-q2-src, .soi-qotd-spot.is-swap .soi-q2-bg { animation: soiQswap .7s ease both; }
 @keyframes soiQswap { from { opacity: 0; transform: translateY(8px); } }
 @media (max-width: 640px) { .soi-q2-act.is-big { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); } .soi-q2-act.is-big button { justify-content: center; padding: 0 8px; } }
+/* Your reading: sample view for new readers */
+.soi-you-demo { margin: 12px 0 0; font-size: 12.5px; line-height: 1.5; color: #53656D; display: flex; gap: 8px; align-items: flex-start; }
+.soi-you-demo::before { content: "Sample"; flex: none; padding: 2px 8px; border-radius: 99px; background: #F3EBC0; color: #6E6420; font-weight: 800; font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; }
+/* OTP box: a sensible size on every screen */
+.soi-cf-code { font-size: 20px !important; letter-spacing: 6px; width: 100%; max-width: 190px !important; height: 50px; padding: 0 10px !important; box-sizing: border-box; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .soi-cf-code { max-width: 170px !important; height: 46px; font-size: 18px !important; letter-spacing: 5px; } }
+/* quote of the day: Random as a round button at the top right; actions sit clear of the text */
+.soi-qotd-spot { position: relative; }
+.soi-qotd-spot .soi-q2-act button[data-act="rand"] { position: absolute; top: 16px; right: 16px; z-index: 3; width: 46px; height: 46px; min-height: 0 !important; padding: 0 !important; border-radius: 50% !important; background: rgba(255, 255, 255, .16) !important; border: 1px solid rgba(255, 255, 255, .35) !important; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); display: grid !important; place-items: center; color: #fff !important; }
+.soi-qotd-spot .soi-q2-act button[data-act="rand"] span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.soi-qotd-spot .soi-q2-act button[data-act="rand"] svg { width: 22px; height: 22px; fill: currentColor; transition: transform .6s cubic-bezier(.2, .7, .2, 1); }
+.soi-qotd-spot.is-swap .soi-q2-act button[data-act="rand"] svg { transform: rotate(360deg); }
+.soi-qotd-spot .soi-q2-act { margin-top: 18px; }

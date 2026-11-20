@@ -910,3 +910,49 @@ html.soi-x-archmode main > *:not(#soi-x-arch), html.soi-x-archmode .soi-arch, ht
 .soi-x-live .soi-x-mt b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .soi-h-d1.soi-app-issue { width: auto !important; flex: none; margin-left: 0 !important; margin-right: 0 !important; scroll-snap-align: none; }
 .soi-x-ac, .soi-h-d4 a { background-size: auto 215% !important; background-position: 50% 64% !important; }
+
+/* ===================== 21 Nov: owner's nature photos, topics, fixes ===================== */
+#soi-x-mini[hidden] { display: none !important; }
+.soi-x-sheet2 { z-index: 300 !important; }
+.soi-x-car { height: 300px; margin-bottom: 22px; }
+.soi-x-ft { position: relative; z-index: 2; }
+.soi-x-ft small { display: block; margin-bottom: 2px; }
+/* issue hero: the full nature photo, gently faded at the bottom where the sheet curves */
+.soi-x-hph { background-size: cover !important; background-position: center 55% !important; animation: soiXzoom 8s ease-out both; }
+#soi-x-hero::after { background: linear-gradient(180deg, rgba(10, 28, 37, .35) 0%, rgba(10, 28, 37, 0) 26%, rgba(10, 28, 37, 0) 70%, rgba(10, 28, 37, .25) 100%); }
+.soi-x-years a { background-size: cover; background-position: center 35%; }
+/* home latest: wide nature photo with the real cover standing on it */
+.soi-h-d1img { background-size: cover !important; background-position: center !important; }
+.soi-h-d1cv { position: absolute; left: 18px; top: 18px; width: 66px; aspect-ratio: 600 / 850; border-radius: 4px; background: center/cover; box-shadow: 0 12px 24px -10px rgba(0, 0, 0, .6), 0 0 0 2px rgba(255, 255, 255, .9); pointer-events: none; }
+.soi-h-d3c { background-size: cover !important; background-position: center !important; }
+.soi-x-afeat { background-size: cover !important; background-position: center !important; }
+/* explore by topic (home) */
+#soi-h-topics .soi-h-trail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 12px -16px 0; padding: 0 16px 6px; scrollbar-width: none; }
+#soi-h-topics .soi-h-trail::-webkit-scrollbar { display: none; }
+.soi-h-tc { position: relative; flex: none; width: 128px; height: 170px; scroll-snap-align: start; border-radius: 20px; overflow: hidden; background: #204E60 center/cover; text-decoration: none; display: flex; align-items: flex-end; padding: 12px; box-sizing: border-box; isolation: isolate; }
+.soi-h-tc::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(10, 28, 37, 0) 40%, rgba(10, 28, 37, .8)); }
+.soi-h-tc b { color: #fff; font: 400 16px/1.15 "Cita Pro", Georgia, serif; }
+/* topics screen */
+#soi-x-topics { position: fixed; inset: 0; z-index: 160; overflow-y: auto; background: #F4F2EA; color: #173A48; animation: soiXrise .3s both; }
+#soi-x-topics.is-out { opacity: 0; transition: opacity .25s; }
+.soi-t-top { display: flex; align-items: center; gap: 10px; padding: calc(12px + env(safe-area-inset-top, 0px)) 14px 6px; }
+.soi-t-top b { flex: 1; font: 400 22px "Cita Pro", Georgia, serif; } .soi-t-top > span { flex: 1; }
+.soi-t-lead { margin: 4px 16px 14px; font-size: 14px; color: #53656D; }
+.soi-t-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding: 0 16px calc(24px + env(safe-area-inset-bottom, 0px)); }
+.soi-t-card { position: relative; height: 200px; border: 0; border-radius: 22px; overflow: hidden; background: #204E60 center/cover; text-align: left; display: flex; flex-direction: column; justify-content: flex-end; padding: 14px; color: #fff; isolation: isolate; cursor: pointer; animation: soiXrise .5s both; }
+.soi-t-card:nth-child(2n) { animation-delay: .06s; } .soi-t-card:nth-child(3n) { animation-delay: .12s; }
+.soi-t-card::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(10, 28, 37, 0) 35%, rgba(10, 28, 37, .82)); }
+.soi-t-card b { font: 400 19px/1.15 "Cita Pro", Georgia, serif; } .soi-t-card small { font: 600 12px "Plus Jakarta Sans", sans-serif; opacity: .85; margin-top: 3px; }
+.soi-t-hero { height: 46vh; min-height: 300px; background: center/cover; }
+.soi-t-sheet { margin-top: -40px; position: relative; padding: 28px 16px calc(24px + env(safe-area-inset-bottom, 0px)); background: #F4F2EA; border-radius: 50% 50% 0 0 / 40px 40px 0 0; }
+.soi-t-sheet small { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #8A7F2E; }
+.soi-t-sheet h2 { margin: 4px 0 2px; font: 400 32px "Cita Pro", Georgia, serif; } .soi-t-sheet > p { margin: 0 0 14px; font-size: 13px; color: #53656D; }
+.soi-t-list { display: grid; gap: 8px; }
+.soi-t-row { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 16px; background: #fff; box-shadow: 0 1px 0 #E6E3D6; color: #173A48; text-decoration: none; }
+.soi-t-row img { width: 40px; height: 56px; border-radius: 4px; object-fit: cover; flex: none; }
+.soi-t-row span { flex: 1; min-width: 0; display: flex; flex-direction: column; } .soi-t-row b { font: 400 16px/1.25 "Cita Pro", Georgia, serif; } .soi-t-row small { font-size: 11.5px; color: #53656D; letter-spacing: 0; text-transform: none; font-weight: 500; }
+.soi-t-row em { color: #2E8B57; } .soi-t-row em svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.soi-t-more { width: 100%; height: 48px; margin-top: 12px; border: 0; border-radius: 14px; background: #204E60; color: #fff; font: 700 14px "Plus Jakarta Sans", sans-serif; }
+/* the quote spotlight inside the app: Random top right, actions clear of the text */
+html.soi-app .soi-qotd-spot .soi-q2-act { padding-right: 0; }
+html.soi-app .soi-qotd-spot blockquote { padding-right: 48px; }

@@ -348,6 +348,21 @@
     fetch('/assets/articles.json').then(function (r) { return r.json(); }).then(function (d) {
       var read = store.read(), by = {}, all = d.a, latest = Object.keys(d.issues).sort().pop();
       all.forEach(function (a) { (by[a[0]] = by[a[0]] || []).push(a); });
+      /* Until a reader has finished a few articles on a few topics, show a sample so the panels look complete;
+         their own figures replace it as soon as there is enough (5 articles, 3 topics). */
+      var realN = 0, realT = {};
+      all.forEach(function (a) { if (read[a[0]] && read[a[0]][a[1]]) { realN++; a[4].forEach(function (t) { realT[t] = 1; }); } });
+      var demo = realN < 5 || Object.keys(realT).length < 3;
+      if (demo) {
+        var fake = {}, now = Date.now(), mark = function (a, k) { (fake[a[0]] = fake[a[0]] || {})[a[1]] = now - k * 3600e3; };
+        (by[latest] || []).slice(0, 7).forEach(mark);
+        all.filter(function (a) { return a[4].length && a[0] !== latest; }).filter(function (a, k) { return k % 37 === 0; }).slice(0, 12).forEach(function (a, k) { mark(a, k + 8); });
+        read = fake;
+      }
+      box.classList.toggle('is-demo', demo);
+      var note = $('.soi-you-demo', box); if (!note) { note = document.createElement('p'); note.className = 'soi-you-demo'; box.appendChild(note); }
+      note.textContent = demo ? 'A sample of how this looks. Your own progress appears here once you have read a few articles.' : '';
+      note.hidden = !demo;
       var isRead = function (a) { return read[a[0]] && read[a[0]][a[1]]; };
       /* 1. progress: the issue read most recently, else the latest issue */
       var recent = Object.keys(read).sort(function (x, y) { return Math.max.apply(0, Object.values(read[y])) - Math.max.apply(0, Object.values(read[x])); })[0] || latest;
